@@ -1,0 +1,95 @@
+{
+  "dataset_id": 99,
+  "dataset_path": "data/notebooks/flag-99.json",
+  "metadata": {
+    "category": "Incidents Management",
+    "dataset_description": "The dataset comprises 500 entries simulating ServiceNow incidents table, detailing various attributes such as category, state, open and close dates, involved personnel, and incident specifics like location, description, and priority. It captures incident management activities with fields like 'opened_at', 'closed_at', 'assigned_to', 'short_description', and 'priority', reflecting the operational handling and urgency of issues across different locations and categories.",
+    "goal": "Find the discrepancy and imbalance in distribution of incidents assigned across categories",
+    "header": "Hardware Incident Dataset (Flag 99)",
+    "role": "L2 Support Agent"
+  },
+  "predicted_insights": [
+    "The distribution is perfectly uniform—each of the 5 categories has an equal share (100 incidents, 20% each) out of 500 total, indicating no imbalance (standard deviation of category counts = 0).",
+    "With 0% mismatch across all 5 categories (i.e., 100% alignment for all 500 incidents), any imbalance in assignments is driven by how many incidents each category receives, not by misrouted tickets.",
+    "The most frequent assignee’s share ranges narrowly from 23% to 27% across categories—a 4 percentage-point spread—indicating a relatively balanced assignment distribution with only modest concentration, with Hardware being the most concentrated (27%) and Inquiry / Help the least (23%).",
+    "The Inquiry / Help category swings from a monopoly of assignments (HHI=1.000 in 2023-02) to a highly diversified spread (HHI≈0.219 in 2023-12), a ΔHHI of ~0.781, indicating inconsistent routing or staffing that can create alternating bottlenecks and diffusion of accountability.",
+    "Incident assignments are perfectly balanced: each of the 5 categories has exactly 100 incidents (20% of 500), indicating no discrepancy or imbalance in category distribution.",
+    "With 500 incidents spread uniformly across 5 categories (100 each) and 5 assignees, a balanced process would expect roughly 20% of each assignee’s workload from each category, and the non-significant chi-square result (p≈0.318) suggests any deviations from this are likely due to random variation rather than systematic imbalance.",
+    "All five categories had different top assignees between H1 and H2, and despite Database’s +4.74 pp rise, every category’s top-assignee share in H2 stayed below 30% (Hardware even fell by 12.59 pp), indicating distributed workloads rather than growing concentration.",
+    "The Database category shows the most concentrated assignment pattern: its top assignee handled ~24% more incidents than the next highest (26 vs 21), representing the largest top-vs-second gap among all categories.",
+    "Each category totals 100 incidents, with the top assignee handling 23–27% and the lowest 12–16%; Hardware is the most imbalanced (27 vs 12, a 2.25× gap), while Inquiry / Help is the most balanced (23 vs 16, a 1.44× gap), and leadership varies by category (Luke leads Hardware; Fred leads Software and Network; Charlie leads Database and Inquiry / Help).",
+    "Network shows the largest disparity across assignees (range 7,180 users_affected: 13,885 for Charlie Whitherspoon vs 6,705 for Luke Wilson), and overall Charlie handled the most users across all categories (52,965), narrowly edging Fred (52,054) and Beth (51,621).",
+    "The workload across assignees is perfectly balanced—each of the five assignees handled 100 of 500 incidents (20% each), resulting in zero variance in incident distribution at the individual level.",
+    "With a 100% (500/500) match between category and assignement_group, any imbalance in workload is driven by how many incidents fall into each category, not by misrouting across groups."
+  ],
+  "predicted_summary": "At the top level, incident distribution is perfectly balanced and consistently routed: each of the five categories holds exactly 100 incidents (20% each; chi-square goodness-of-fit p=1.0), and 0 out of 500 incidents have a mismatch between category and assignment group. Across all work, each of the five assignees handled the same number of incidents (100 each, 20%), and there is no statistically significant link between category and who handled it (chi-square p=0.318).\nWithin categories, assignment is only mildly concentrated: the most frequent assignee in each category handles 23%–27% of that category’s incidents (average ~24.8%), with the largest edge being in Hardware (27% to Luke Wilson) and Database (26% to Charlie Whitherspoon). The biggest gap between a category’s top and second-place assignees over the full period is modest—Database by 5 incidents (26 vs. 21).\nImbalances emerge over time and by impact: Inquiry / Help shows the highest month-to-month swings in assignment concentration (HHI standard deviation 0.213), ranging from fairly dispersed (HHI 0.219 in 2023-12) to fully concentrated in a single person for a month (HHI 1.000 in 2023-02). Database also saw the largest semiannual shift in concentration, with its top assignee’s share rising by 4.74 percentage points from 2023 H1 to H2 alongside a change in who led. Despite equal incident counts per assignee overall, user impact within categories varies substantially—for example, in Network the most- versus least-impacted assignees handled 13,885 vs. 6,705 users affected (~2.1× difference).",
+  "score_insights": 0.48592876879883845,
+  "score_insights_dict": [
+    {
+      "gt_insight": "The incidents are equally distributed across all categories.",
+      "pred_insight": "Incident assignments are perfectly balanced: each of the 5 categories has exactly 100 incidents (20% of 500), indicating no discrepancy or imbalance in category distribution.",
+      "score": 0.9694042727266327
+    },
+    {
+      "gt_insight": "There are no specific issues mentioned in the incident descriptions for each category.",
+      "pred_insight": "The distribution is perfectly uniform—each of the 5 categories has an equal share (100 incidents, 20% each) out of 500 total, indicating no imbalance (standard deviation of category counts = 0).",
+      "score": 0.44387373408795466
+    },
+    {
+      "gt_insight": "There are specific mentions of printers in the incident descriptions.",
+      "pred_insight": "The Inquiry / Help category swings from a monopoly of assignments (HHI=1.000 in 2023-02) to a highly diversified spread (HHI≈0.219 in 2023-12), a ΔHHI of ~0.781, indicating inconsistent routing or staffing that can create alternating bottlenecks and diffusion of accountability.",
+      "score": 0.10169977636527217
+    },
+    {
+      "gt_insight": "There is no specific location where hardware incidents are concentrated.",
+      "pred_insight": "The distribution is perfectly uniform—each of the 5 categories has an equal share (100 incidents, 20% each) out of 500 total, indicating no imbalance (standard deviation of category counts = 0).",
+      "score": 0.5610186052935179
+    },
+    {
+      "gt_insight": "There is no significant increasing trend in the 'Hardware' or any other category.",
+      "pred_insight": "All five categories had different top assignees between H1 and H2, and despite Database’s +4.74 pp rise, every category’s top-assignee share in H2 stayed below 30% (Hardware even fell by 12.59 pp), indicating distributed workloads rather than growing concentration.",
+      "score": 0.5774942210605618
+    },
+    {
+      "gt_insight": "",
+      "pred_insight": "Incident assignments are perfectly balanced: each of the 5 categories has exactly 100 incidents (20% of 500), indicating no discrepancy or imbalance in category distribution.",
+      "score": 0.26208200325909126
+    }
+  ],
+  "score_summary": 0.36420430427565403,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.5319619504157598,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "The distribution is perfectly uniform—each of the 5 categories has an equal share (100 incidents, 20% each) out of 500 total, indicating no imbalance (standard deviation of category counts = 0).",
+      "gt_insight": "The incidents are equally distributed across all categories.",
+      "score": 0.8472062771660479
+    },
+    {
+      "pred_insight": "With 0% mismatch across all 5 categories (i.e., 100% alignment for all 500 incidents), any imbalance in assignments is driven by how many incidents each category receives, not by misrouted tickets.",
+      "gt_insight": "There are no specific issues mentioned in the incident descriptions for each category.",
+      "score": 0.35278821498658697
+    },
+    {
+      "pred_insight": "With 0% mismatch across all 5 categories (i.e., 100% alignment for all 500 incidents), any imbalance in assignments is driven by how many incidents each category receives, not by misrouted tickets.",
+      "gt_insight": "There are specific mentions of printers in the incident descriptions.",
+      "score": 0.24285346854920759
+    },
+    {
+      "pred_insight": "All five categories had different top assignees between H1 and H2, and despite Database’s +4.74 pp rise, every category’s top-assignee share in H2 stayed below 30% (Hardware even fell by 12.59 pp), indicating distributed workloads rather than growing concentration.",
+      "gt_insight": "There is no specific location where hardware incidents are concentrated.",
+      "score": 0.5597409108696036
+    },
+    {
+      "pred_insight": "All five categories had different top assignees between H1 and H2, and despite Database’s +4.74 pp rise, every category’s top-assignee share in H2 stayed below 30% (Hardware even fell by 12.59 pp), indicating distributed workloads rather than growing concentration.",
+      "gt_insight": "There is no significant increasing trend in the 'Hardware' or any other category.",
+      "score": 0.627301147707078
+    },
+    {
+      "pred_insight": "Network shows the largest disparity across assignees (range 7,180 users_affected: 13,885 for Charlie Whitherspoon vs 6,705 for Luke Wilson), and overall Charlie handled the most users across all categories (52,965), narrowly edging Fred (52,054) and Beth (51,621).",
+      "gt_insight": "",
+      "score": 0.5618816832160346
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.250844286546165,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.3130821157818592
+}

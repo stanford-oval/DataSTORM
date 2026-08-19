@@ -1,0 +1,402 @@
+{
+  "total_insights": 39,
+  "total_classified": 39,
+  "acled_count": 34,
+  "non_acled_count": 5,
+  "pct_acled": 0.8717948717948718,
+  "details": [
+    {
+      "evidence": "Total Peace aimed to replace a ‘war on war’ with multi-actor negotiations, differentiated ceasefires, and justice reforms moving security-force human-rights cases to civilian courts, while addressing poverty and state absence and involving communities in peacebuilding.",
+      "is_acled_data": false,
+      "reasoning": "The evidence describes policy goals and reforms of Colombia’s “Total Peace” (negotiations, ceasefires, justice reforms, poverty/state absence, community involvement). These are policy statements and general analysis, not specific conflict event data, statistics, or actor/event details derived from ACLED.",
+      "source_context": "Introduction outlining policy goals and intended structural break with past doctrines."
+    },
+    {
+      "evidence": "National de-escalation did not occur after August 2022; total organized political violence remained roughly flat compared to the two years prior, with only slight dips in battles, flat remote violence, and an uptick in attacks on civilians.",
+      "is_acled_data": true,
+      "reasoning": "The statement references trends in organized political violence, including battles, remote violence, and violence against civilians, and compares levels over time. These categories align with ACLED’s event typologies and temporal trend analysis. Such claims are characteristic of metrics derived from ACLED event data (counts and patterns).",
+      "source_context": "Section comparing national conflict data pre- vs post-Petro’s inauguration."
+    },
+    {
+      "evidence": "Most departments experienced more political-violence incidents after Total Peace began, with a median increase of about ten events and violence against civilians becoming the dominant pattern in most places.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites counts of political-violence incidents, a median increase in events, and identifies violence against civilians as the dominant pattern—metrics that align with ACLED’s event counts, subnational trends, and violence-against-civilians data. This is characteristic of ACLED-derived temporal and pattern analysis.",
+      "source_context": "Department-level comparison of incident volumes pre- vs post-policy."
+    },
+    {
+      "evidence": "Violence became less deadly per incident across battles, explosions, and violence against civilians; for civilian-targeting, average deaths per attack fell from about 1.09 to 0.92 despite more incidents.",
+      "is_acled_data": true,
+      "reasoning": "The statement references per-incident lethality across ACLED event types (battles, explosions/remote violence, and violence against civilians) and changes in average deaths per attack, which aligns with ACLED’s event and fatality data and derived temporal trends. Describing average fatalities per event by category is a typical analysis derived from ACLED datasets.",
+      "source_context": "Analysis of lethality per event across categories post-August 2022."
+    },
+    {
+      "evidence": "Explosions increased in number but caused fewer fatalities per incident, indicating a shift toward lower-lethality tactics.",
+      "is_acled_data": true,
+      "reasoning": "References counts of explosions and fatalities per incident, implying event counts and lethality metrics derived from conflict event data (explosions/remote violence and fatality figures), which are core components of ACLED datasets and analyses on temporal trends and tactics.",
+      "source_context": "Event-type lethality trends for explosions/remote violence."
+    },
+    {
+      "evidence": "ELN and unidentified armed groups expanded or maintained activity with stable or reduced fatalities per incident, especially when targeting civilians.",
+      "is_acled_data": true,
+      "reasoning": "The statement references armed group activity (ELN and unidentified groups), changes in activity levels, and fatalities per incident with a focus on violence against civilians—metrics consistent with ACLED event counts, actor-level data, and fatality statistics. It reflects trend analysis derived from ACLED-type event data rather than general commentary.",
+      "source_context": "Group-specific incident profiles and lethality changes."
+    },
+    {
+      "evidence": "Abductions and forced disappearances surged 156% post-August 2022 (from 241 to 618), with monthly averages rising from ~10 to >21, and most incidents recorded without deaths.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites counts and temporal changes in specific conflict-related incident types (abductions and forced disappearances), including monthly averages and notes on lethality. These are event-based statistics aligned with ACLED’s incident categories and temporal trend analysis. No alternative source is named, and the metrics (event counts, monthly averages, non-fatal incidents) match ACLED-style reporting.",
+      "source_context": "National trends in abduction/forced disappearance incidents since 2022."
+    },
+    {
+      "evidence": "The composition of civilian-targeting shifted: killings still dominate but their share fell from ~90% to just over 80%, while abductions/disappearances rose from 8% to 17% of abuses against civilians.",
+      "is_acled_data": true,
+      "reasoning": "The evidence reports shifts in types of violence against civilians (shares of killings vs. abductions/disappearances among abuses against civilians), which aligns with ACLED’s violence against civilians statistics and event-type breakdowns derived from its event data.",
+      "source_context": "Change in relative shares of civilian harm modalities pre- vs post-policy."
+    },
+    {
+      "evidence": "In Arauca, abductions’ share of civilian-targeting incidents increased from roughly one-fifth to over two-fifths, with smaller proportional increases in Cauca and Norte de Santander.",
+      "is_acled_data": true,
+      "reasoning": "The statement discusses the share of a specific incident type (abductions) within civilian-targeting incidents in specific subnational areas (Arauca, Cauca, Norte de Santander) and changes over time. This aligns with ACLED’s event-level data on violence against civilians, incident categorization, and subnational trend analysis derived from event data.",
+      "source_context": "Department-specific shifts in the composition of violence against civilians."
+    },
+    {
+      "evidence": "Key armed actors central to Total Peace increased civilian-targeting frequency while keeping lethality per event flat or lower: ELN events more than doubled (83→190) with fatalities per event halved; Gulf Clan civilian attacks rose (150→264) with flat lethality; FARC dissident factions increased civilian targeting with mixed lethality changes.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites event counts and fatalities per event for specific armed actors (ELN, Gulf Clan, FARC dissidents), reflecting actor-level event data, civilian-targeting statistics, and lethality metrics over time—hallmarks of ACLED’s event-based dataset and violence-against-civilians tracking.",
+      "source_context": "Actor-level trends in frequency and lethality for civilian-targeting incidents."
+    },
+    {
+      "evidence": "Kidnapping hotspots concentrated along the northeast border: Tame, Saravena, Arauquita, Arauca city, Fortul (Arauca), and Tibú, Ocaña, Cúcuta, Convención (Norte de Santander); Jamundí (Valle del Cauca) emerged as a southwestern outlier.",
+      "is_acled_data": true,
+      "reasoning": "The evidence lists specific municipalities as kidnapping hotspots, indicating a subnational geographic breakdown of a particular conflict event type (kidnapping/violence against civilians) and suggests spatial patterns. Identifying hotspots by location is consistent with ACLED’s event-level, location-specific data and analyses of spatial trends.",
+      "source_context": "Municipality-level mapping of abduction increases post-2022."
+    },
+    {
+      "evidence": "ELN and FARC dissidents consolidated or expanded presence in these hotspot corridors, increasing their municipal footprint while concentrating activities in a few strongholds.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a generalized analytical claim about armed groups expanding presence and municipal footprint without citing specific ACLED event counts, locations, or actor-level event data. It reads as broader analysis rather than explicit ACLED-derived metrics or trends.",
+      "source_context": "Linking municipal abduction hotspots to actor territorial consolidation."
+    },
+    {
+      "evidence": "Communities experienced a shift from open clashes toward intimate coercion—abductions and non-lethal abuses—altering local risk even where direct combat ebbed.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a qualitative assessment about a shift in coercive tactics (abductions, non-lethal abuses) and changing local risk, without citing specific event counts, locations, actors, or ACLED-derived metrics. It reads as analytical commentary rather than referencing ACLED event data or statistics.",
+      "source_context": "Discussion of how civilian experience of violence changed under Total Peace."
+    },
+    {
+      "evidence": "Political violence redistributed geographically after 2022: sharp increases in Cauca (+354), Arauca (+244), Bolívar (+98), La Guajira (+78), Putumayo (+77), and Huila (+75), with declines in Meta (−111), Córdoba, and Valle del Cauca.",
+      "is_acled_data": true,
+      "reasoning": "The evidence reports subnational changes in political violence with specific numeric increases/decreases by departments, indicating event-count trend analysis geographically after 2022. This aligns with ACLED’s conflict event counts and geographic breakdowns, characteristic of ACLED-derived data.",
+      "source_context": "Department-level changes in total political-violence events post-policy."
+    },
+    {
+      "evidence": "Violence against civilians rose markedly in Arauca (+231) and Cauca (+164), and increased in La Guajira, Cesar, Bolívar, Putumayo, and Huila; Meta saw a ~62% decline in violence against civilians.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites subnational changes in violence against civilians (rises in specific departments and a decline in Meta), which aligns with ACLED’s event-based statistics on violence against civilians and geographic breakdowns. These are characteristic metrics ACLED provides.",
+      "source_context": "Departmental VAC trends comparing pre- and post-policy periods."
+    },
+    {
+      "evidence": "Meta’s overall events shrank and VAC declined, but actor-structure indicators show reconfiguration: more non-state groups with mixed patterns of consolidation and diversification rather than demilitarization.",
+      "is_acled_data": true,
+      "reasoning": "Mentions event counts shrinking and violence against civilians (VAC) declining, as well as actor-structure indicators and armed group reconfiguration. These align with ACLED’s event counts, VAC statistics, and actor-level data. Although wording is analytical, the metrics referenced are typical ACLED measures.",
+      "source_context": "Actor diversity and concentration metrics in Meta post-2022."
+    },
+    {
+      "evidence": "Cauca saw a jump in total events and increased fragmentation: more non-state actors and a slightly lower concentration index, indicating competitive armed markets over taxation, recruitment, and drug/logistics corridors.",
+      "is_acled_data": true,
+      "reasoning": "Mentions event counts and subnational trends in Cauca, increased number of non-state actors, and a concentration index implying distribution of actor activity—these align with ACLED’s event data, actor-level data, geographic breakdowns, and ACLED Conflict Index-type measures. The phrasing suggests analysis derived from ACLED event/actor data rather than general commentary.",
+      "source_context": "Cauca’s actor landscape and competition dynamics post-2022."
+    },
+    {
+      "evidence": "FARC dissidents became primary accelerants of risk in the southwest corridor (Cauca–Valle–Huila); Cauca registered 755 dissident-linked incidents post-2022, with substantial increases in Huila and Valle del Cauca.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific counts of dissident-linked incidents by subnational units (Cauca, Huila, Valle del Cauca) and a post-2022 temporal frame, which aligns with ACLED’s event count and geographic breakdown data on armed group activity and trends.",
+      "source_context": "Dissident expansion in southwest departments and incident totals."
+    },
+    {
+      "evidence": "Dissident fronts Carlos Patiño (Cauca) and Jaime Martínez (Valle del Cauca) drove spikes in explosions/IEDs, concentrating new explosive-risk hubs and appearing in new departments like Huila and Tolima.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references specific armed groups, event types (explosions/IEDs), spatial expansion to new departments (Huila, Tolima), and concentration of explosive-risk hubs—elements consistent with ACLED’s actor-level, event-type, and geocoded conflict event data and trend analysis.",
+      "source_context": "Front-specific increases in explosions/remote violence by department."
+    },
+    {
+      "evidence": "Argelia (Cauca) and Jamundí (Valle del Cauca) became national outliers for dissident activity; Argelia accounts for nearly 9% of all dissident events nationwide post-2022.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites subnational locations as outliers for dissident activity and provides a specific proportion of nationwide dissident events post-2022—this aligns with ACLED’s event counts, geographic breakdowns, and actor-level activity data.",
+      "source_context": "Municipality-level concentration of FARC dissident incidents post-policy."
+    },
+    {
+      "evidence": "Arauca’s total political-violence events climbed by ~75%, with VAC up ~130%; ELN activity rose by 121 events, including ELN-attributed civilian attacks increasing from single digits to 75, raising ELN’s share of civilian harm from 5% to 18%.",
+      "is_acled_data": true,
+      "reasoning": "The evidence provides specific counts and percentage changes in political-violence events, violence against civilians (VAC), and ELN-attributed activity, including subnational (Arauca) trends and actor-level shares of civilian harm. These are typical ACLED metrics (event counts, VAC statistics, actor activity, subnational breakdowns, temporal comparisons).",
+      "source_context": "Arauca’s post-2022 surge and ELN’s expanded civilian targeting."
+    },
+    {
+      "evidence": "Arauca’s actor concentration increased: despite stable numbers of groups, the Herfindahl index and top-three actor share rose to ~93% of events, indicating consolidation by a few dominant actors.",
+      "is_acled_data": true,
+      "reasoning": "The statement references actor concentration metrics (e.g., Herfindahl index, top-three actor share) derived from counts of conflict events by actor within a subnational area (Arauca). ACLED provides event-level and actor-level data and supports subnational analyses of event shares by actors, enabling computation of such indices. While ACLED doesn’t publish Herfindahl scores per se, these are straightforward transformations of ACLED event data; thus the evidence is derived from ACLED data.",
+      "source_context": "Actor-structure consolidation metrics in Arauca."
+    },
+    {
+      "evidence": "ELN hotspots intensified in Tame, Arauquita, and Puerto Rondón, with Puerto Rondón’s ELN incidents increasing from 2 to 39, underscoring small border municipalities’ strategic importance.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific incident counts and changes over time for ELN activity in named municipalities (increase from 2 to 39 in Puerto Rondón) and identifies hotspots, which align with ACLED’s event-level, geographic, and temporal conflict data on armed group activity.",
+      "source_context": "Municipal-level ELN activity spikes in Arauca."
+    },
+    {
+      "evidence": "On the Caribbean rim, Bolívar and La Guajira saw sharp growth in political violence; La Guajira’s events rose ~150%, VAC more than doubled proportionally, and conflict became dominated by a small cluster of groups (top three ~83% of events).",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites subnational event count changes, proportional increases in violence against civilians, and the concentration of events among top armed groups—metrics directly aligned with ACLED’s event data, VAC statistics, actor-level shares, and geographic breakdowns.",
+      "source_context": "Caribbean departmental trends in event growth and actor concentration."
+    },
+    {
+      "evidence": "Gulf Clan increased activity in Bolívar and La Guajira and expanded its share of civilian targeting across the Caribbean and Antioquia, aligning with patterns of coastal consolidation.",
+      "is_acled_data": true,
+      "reasoning": "The statement references armed group activity (Gulf Clan), geographic/subnational patterns (Bolívar, La Guajira, Caribbean, Antioquia), and targeting of civilians—elements that align with ACLED’s event- and actor-level data on violence against civilians and spatial trends. This suggests it is likely derived from ACLED-style conflict event data rather than general commentary.",
+      "source_context": "Geographic shifts in Gulf Clan operations and civilian targeting."
+    },
+    {
+      "evidence": "ELN operations spanned slightly more departments and municipalities but became more unevenly distributed, clustering in border strongholds like Arauca and Norte de Santander.",
+      "is_acled_data": true,
+      "reasoning": "The statement references subnational geographic distribution of ELN operations across departments and municipalities and notes clustering in specific locations (Arauca, Norte de Santander). This aligns with ACLED’s geographic conflict data and actor-level activity analysis derived from event locations and counts.",
+      "source_context": "ELN’s spatial redistribution and concentration patterns post-policy."
+    },
+    {
+      "evidence": "FARC dissidents operated in a similar number of departments but in many more municipalities (246 post vs 177 pre), dispersing their footprint while concentrating incidents in a few hubs, especially in Cauca and neighbors.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references subnational geographic spread (departments and municipalities), comparisons of pre/post counts of municipalities with presence, and concentration of incidents in specific hubs. These are consistent with ACLED’s event-level geographic data and actor activity analysis, which can quantify locations and trends of incidents by group across administrative units.",
+      "source_context": "Dissidents’ expanded municipal footprint and concentrated hubs."
+    },
+    {
+      "evidence": "Ceasefires and justice reforms reduced sustained offensive pressure on some groups: state–Gulf Clan clashes fell (209→128) and security-force fatalities declined (118→48), without overall demilitarization nationally.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific counts of clashes between defined actors (state–Gulf Clan) and security-force fatalities over time, which aligns with ACLED’s battle-related event counts and fatality figures by actor and period. These are typical ACLED metrics (event counts, actor-specific clashes, fatalities) rather than general commentary.",
+      "source_context": "Effects of ceasefires/accountability on clashes with the Gulf Clan and national context."
+    },
+    {
+      "evidence": "ELN and FARC dissidents increased monthly event volumes by ~20–26% post-August 2022, with total incidents up by about half compared to the prior two years, reflecting rapid adaptation to incentives.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites changes in monthly event volumes and total incidents for specific armed actors (ELN and FARC dissidents) over defined periods pre- and post-August 2022. This reflects actor-level conflict event counts and temporal trend analysis typical of ACLED’s event data and methodologies.",
+      "source_context": "Monthly event volume changes for ELN and dissidents post-policy."
+    },
+    {
+      "evidence": "FARC dissidents spread to more municipalities (177→246) with strong growth in Cauca (monthly avg 10.83→26.03) and a modest uptick in Huila (3.11→3.48), indicating southwest intensification.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites subnational municipality coverage and monthly average event figures for FARC dissident activity by department (Cauca, Huila), reflecting actor-level, geographic, and temporal trend metrics typical of ACLED event data.",
+      "source_context": "Dissident municipal reach and monthly averages by department."
+    },
+    {
+      "evidence": "ELN modestly extended to more municipalities while becoming more departmentally concentrated, consistent with its focus on border zones like Arauca and Norte de Santander.",
+      "is_acled_data": true,
+      "reasoning": "The statement discusses ELN’s geographic spread across municipalities and departments, indicating subnational distribution of armed group activity and location-based patterns, which aligns with ACLED’s geographic conflict data and actor-level activity analyses.",
+      "source_context": "ELN’s spatial concentration vs reach post-policy."
+    },
+    {
+      "evidence": "The Gulf Clan shifted from open confrontation toward civilian-centric coercion: clashes with the state declined while civilian attacks rose (150→264), expanding its role in civilian targeting in Antioquia and Caribbean departments.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites changes in clashes with the state and attacks on civilians with specific counts (150→264) and mentions subnational areas (Antioquia, Caribbean departments), which aligns with ACLED event data on violence against civilians, battles, and geographic breakdowns, as well as actor-level trends for the Gulf Clan.",
+      "source_context": "Gulf Clan behavioral shift under reduced military pressure and ceasefire windows."
+    },
+    {
+      "evidence": "Actor-structure patterns diverged by region: consolidation in border areas (Arauca, La Guajira) with rising HHI and top-actor shares, versus fragmentation in Cauca with more actors and slightly lower concentration.",
+      "is_acled_data": false,
+      "reasoning": "The statement discusses actor-structure patterns, regional consolidation/fragmentation, and references concentration metrics like HHI and top-actor shares. While it pertains to armed group dynamics, it does not cite specific ACLED event counts, actor-event data, or ACLED-derived indices, and HHI is an analytical construct not specific to ACLED. This reads as analytical interpretation rather than direct use of ACLED data.",
+      "source_context": "Comparative actor diversity and concentration changes across departments."
+    },
+    {
+      "evidence": "Lower clashes did not reliably improve civilian safety; weak correlations and divergences include Norte de Santander (battles 245→106 but civilian targeting increased) and Cauca (state–group battles 32→18 while VAC rose by 164).",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites counts of battles and changes in violence against civilians at subnational (Norte de Santander, Cauca) levels and compares time periods (e.g., battles 245→106, VAC rose by 164). These are event-type and VAC statistics with geographic breakdowns, which are core ACLED data outputs and typical of ACLED-derived analysis.",
+      "source_context": "Mismatch between battle trends and civilian-targeting trends in key departments."
+    },
+    {
+      "evidence": "Abductions peaked in 2023 and remained elevated in 2024, concentrated in Arauca, Norte de Santander, and Cauca, frequently attributed to ELN, FARC dissidents, and the Gulf Clan when attribution exists.",
+      "is_acled_data": true,
+      "reasoning": "The statement references temporal patterns (peaked in 2023, remained elevated in 2024), subnational concentration (Arauca, Norte de Santander, Cauca), and attribution to specific armed actors (ELN, FARC dissidents, Gulf Clan) regarding abductions—categories that fall under ACLED’s event data on violence against civilians, geographic breakdowns, temporal trends, and actor-level attribution. This aligns with typical ACLED-derived insights.",
+      "source_context": "Temporal and geographic concentration of abductions and responsible actors post-policy."
+    },
+    {
+      "evidence": "Meta and Córdoba are notable relief pockets, with overall political violence falling ~40–50% and VAC declining in tandem after 2022, including fewer Gulf Clan–state clashes in Córdoba.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references subnational locations (Meta and Córdoba), trends in political violence (~40–50% decline) and violence against civilians (VAC), and specific actor clashes (Gulf Clan–state) after 2022. These align with ACLED’s event-based metrics: political violence and VAC statistics, actor-level activity, geographic breakdowns, and temporal trend analysis, which are core ACLED outputs.",
+      "source_context": "Counterexamples where Total Peace coincided with broad declines in violence."
+    },
+    {
+      "evidence": "Overall, Total Peace coincides with a reconfigured, more civilian-centric conflict: less lethal incidents on average, no meaningful national decline in total events, and expanded or consolidated reach by ELN, FARC dissidents, and the Gulf Clan.",
+      "is_acled_data": true,
+      "reasoning": "The statement references trends consistent with ACLED event data: changes in lethal incidents, lack of national decline in total events, civilian-centric violence, and expanded/consolidated reach of specific armed actors (ELN, FARC dissidents, Gulf Clan). These are typical outputs from ACLED’s event counts, violence against civilians metrics, fatality trends, and actor-level activity analysis.",
+      "source_context": "Synthesis of national trends in incidents, lethality, and actor reach."
+    },
+    {
+      "evidence": "The geography of risk shifted from traditional theaters (Meta, Córdoba) toward southwest corridors (Cauca–Valle–Huila) and borderlands (Arauca, Norte de Santander, La Guajira, Bolívar, Cesar, Putumayo).",
+      "is_acled_data": true,
+      "reasoning": "The statement describes a shift in the geographic distribution of conflict risk across specific subnational areas, which aligns with ACLED’s geographic conflict data and trend analysis derived from event locations. It references subnational regions and corridors indicative of spatial patterns in conflict events, a core ACLED output.",
+      "source_context": "Summary of spatial redistribution of conflict hotspots post-2022."
+    },
+    {
+      "evidence": "To reduce harm rather than redistribute it, negotiations need granular ceasefire monitoring, targeted protection in abduction hotspots, and credible state institutions to replace armed governance, not coexist with it.",
+      "is_acled_data": false,
+      "reasoning": "The evidence is a policy-oriented recommendation about ceasefire monitoring and state institution credibility, not a citation of event counts, actor data, locations, fatalities, or trends from ACLED. It’s general analysis rather than specific ACLED-derived data.",
+      "source_context": "Conclusion outlining policy adjustments required to improve outcomes under Total Peace."
+    }
+  ],
+  "insights": [
+    {
+      "insight": "Total Peace aimed to replace a ‘war on war’ with multi-actor negotiations, differentiated ceasefires, and justice reforms moving security-force human-rights cases to civilian courts, while addressing poverty and state absence and involving communities in peacebuilding.",
+      "context": "Introduction outlining policy goals and intended structural break with past doctrines."
+    },
+    {
+      "insight": "National de-escalation did not occur after August 2022; total organized political violence remained roughly flat compared to the two years prior, with only slight dips in battles, flat remote violence, and an uptick in attacks on civilians.",
+      "context": "Section comparing national conflict data pre- vs post-Petro’s inauguration."
+    },
+    {
+      "insight": "Most departments experienced more political-violence incidents after Total Peace began, with a median increase of about ten events and violence against civilians becoming the dominant pattern in most places.",
+      "context": "Department-level comparison of incident volumes pre- vs post-policy."
+    },
+    {
+      "insight": "Violence became less deadly per incident across battles, explosions, and violence against civilians; for civilian-targeting, average deaths per attack fell from about 1.09 to 0.92 despite more incidents.",
+      "context": "Analysis of lethality per event across categories post-August 2022."
+    },
+    {
+      "insight": "Explosions increased in number but caused fewer fatalities per incident, indicating a shift toward lower-lethality tactics.",
+      "context": "Event-type lethality trends for explosions/remote violence."
+    },
+    {
+      "insight": "ELN and unidentified armed groups expanded or maintained activity with stable or reduced fatalities per incident, especially when targeting civilians.",
+      "context": "Group-specific incident profiles and lethality changes."
+    },
+    {
+      "insight": "Abductions and forced disappearances surged 156% post-August 2022 (from 241 to 618), with monthly averages rising from ~10 to >21, and most incidents recorded without deaths.",
+      "context": "National trends in abduction/forced disappearance incidents since 2022."
+    },
+    {
+      "insight": "The composition of civilian-targeting shifted: killings still dominate but their share fell from ~90% to just over 80%, while abductions/disappearances rose from 8% to 17% of abuses against civilians.",
+      "context": "Change in relative shares of civilian harm modalities pre- vs post-policy."
+    },
+    {
+      "insight": "In Arauca, abductions’ share of civilian-targeting incidents increased from roughly one-fifth to over two-fifths, with smaller proportional increases in Cauca and Norte de Santander.",
+      "context": "Department-specific shifts in the composition of violence against civilians."
+    },
+    {
+      "insight": "Key armed actors central to Total Peace increased civilian-targeting frequency while keeping lethality per event flat or lower: ELN events more than doubled (83→190) with fatalities per event halved; Gulf Clan civilian attacks rose (150→264) with flat lethality; FARC dissident factions increased civilian targeting with mixed lethality changes.",
+      "context": "Actor-level trends in frequency and lethality for civilian-targeting incidents."
+    },
+    {
+      "insight": "Kidnapping hotspots concentrated along the northeast border: Tame, Saravena, Arauquita, Arauca city, Fortul (Arauca), and Tibú, Ocaña, Cúcuta, Convención (Norte de Santander); Jamundí (Valle del Cauca) emerged as a southwestern outlier.",
+      "context": "Municipality-level mapping of abduction increases post-2022."
+    },
+    {
+      "insight": "ELN and FARC dissidents consolidated or expanded presence in these hotspot corridors, increasing their municipal footprint while concentrating activities in a few strongholds.",
+      "context": "Linking municipal abduction hotspots to actor territorial consolidation."
+    },
+    {
+      "insight": "Communities experienced a shift from open clashes toward intimate coercion—abductions and non-lethal abuses—altering local risk even where direct combat ebbed.",
+      "context": "Discussion of how civilian experience of violence changed under Total Peace."
+    },
+    {
+      "insight": "Political violence redistributed geographically after 2022: sharp increases in Cauca (+354), Arauca (+244), Bolívar (+98), La Guajira (+78), Putumayo (+77), and Huila (+75), with declines in Meta (−111), Córdoba, and Valle del Cauca.",
+      "context": "Department-level changes in total political-violence events post-policy."
+    },
+    {
+      "insight": "Violence against civilians rose markedly in Arauca (+231) and Cauca (+164), and increased in La Guajira, Cesar, Bolívar, Putumayo, and Huila; Meta saw a ~62% decline in violence against civilians.",
+      "context": "Departmental VAC trends comparing pre- and post-policy periods."
+    },
+    {
+      "insight": "Meta’s overall events shrank and VAC declined, but actor-structure indicators show reconfiguration: more non-state groups with mixed patterns of consolidation and diversification rather than demilitarization.",
+      "context": "Actor diversity and concentration metrics in Meta post-2022."
+    },
+    {
+      "insight": "Cauca saw a jump in total events and increased fragmentation: more non-state actors and a slightly lower concentration index, indicating competitive armed markets over taxation, recruitment, and drug/logistics corridors.",
+      "context": "Cauca’s actor landscape and competition dynamics post-2022."
+    },
+    {
+      "insight": "FARC dissidents became primary accelerants of risk in the southwest corridor (Cauca–Valle–Huila); Cauca registered 755 dissident-linked incidents post-2022, with substantial increases in Huila and Valle del Cauca.",
+      "context": "Dissident expansion in southwest departments and incident totals."
+    },
+    {
+      "insight": "Dissident fronts Carlos Patiño (Cauca) and Jaime Martínez (Valle del Cauca) drove spikes in explosions/IEDs, concentrating new explosive-risk hubs and appearing in new departments like Huila and Tolima.",
+      "context": "Front-specific increases in explosions/remote violence by department."
+    },
+    {
+      "insight": "Argelia (Cauca) and Jamundí (Valle del Cauca) became national outliers for dissident activity; Argelia accounts for nearly 9% of all dissident events nationwide post-2022.",
+      "context": "Municipality-level concentration of FARC dissident incidents post-policy."
+    },
+    {
+      "insight": "Arauca’s total political-violence events climbed by ~75%, with VAC up ~130%; ELN activity rose by 121 events, including ELN-attributed civilian attacks increasing from single digits to 75, raising ELN’s share of civilian harm from 5% to 18%.",
+      "context": "Arauca’s post-2022 surge and ELN’s expanded civilian targeting."
+    },
+    {
+      "insight": "Arauca’s actor concentration increased: despite stable numbers of groups, the Herfindahl index and top-three actor share rose to ~93% of events, indicating consolidation by a few dominant actors.",
+      "context": "Actor-structure consolidation metrics in Arauca."
+    },
+    {
+      "insight": "ELN hotspots intensified in Tame, Arauquita, and Puerto Rondón, with Puerto Rondón’s ELN incidents increasing from 2 to 39, underscoring small border municipalities’ strategic importance.",
+      "context": "Municipal-level ELN activity spikes in Arauca."
+    },
+    {
+      "insight": "On the Caribbean rim, Bolívar and La Guajira saw sharp growth in political violence; La Guajira’s events rose ~150%, VAC more than doubled proportionally, and conflict became dominated by a small cluster of groups (top three ~83% of events).",
+      "context": "Caribbean departmental trends in event growth and actor concentration."
+    },
+    {
+      "insight": "Gulf Clan increased activity in Bolívar and La Guajira and expanded its share of civilian targeting across the Caribbean and Antioquia, aligning with patterns of coastal consolidation.",
+      "context": "Geographic shifts in Gulf Clan operations and civilian targeting."
+    },
+    {
+      "insight": "ELN operations spanned slightly more departments and municipalities but became more unevenly distributed, clustering in border strongholds like Arauca and Norte de Santander.",
+      "context": "ELN’s spatial redistribution and concentration patterns post-policy."
+    },
+    {
+      "insight": "FARC dissidents operated in a similar number of departments but in many more municipalities (246 post vs 177 pre), dispersing their footprint while concentrating incidents in a few hubs, especially in Cauca and neighbors.",
+      "context": "Dissidents’ expanded municipal footprint and concentrated hubs."
+    },
+    {
+      "insight": "Ceasefires and justice reforms reduced sustained offensive pressure on some groups: state–Gulf Clan clashes fell (209→128) and security-force fatalities declined (118→48), without overall demilitarization nationally.",
+      "context": "Effects of ceasefires/accountability on clashes with the Gulf Clan and national context."
+    },
+    {
+      "insight": "ELN and FARC dissidents increased monthly event volumes by ~20–26% post-August 2022, with total incidents up by about half compared to the prior two years, reflecting rapid adaptation to incentives.",
+      "context": "Monthly event volume changes for ELN and dissidents post-policy."
+    },
+    {
+      "insight": "FARC dissidents spread to more municipalities (177→246) with strong growth in Cauca (monthly avg 10.83→26.03) and a modest uptick in Huila (3.11→3.48), indicating southwest intensification.",
+      "context": "Dissident municipal reach and monthly averages by department."
+    },
+    {
+      "insight": "ELN modestly extended to more municipalities while becoming more departmentally concentrated, consistent with its focus on border zones like Arauca and Norte de Santander.",
+      "context": "ELN’s spatial concentration vs reach post-policy."
+    },
+    {
+      "insight": "The Gulf Clan shifted from open confrontation toward civilian-centric coercion: clashes with the state declined while civilian attacks rose (150→264), expanding its role in civilian targeting in Antioquia and Caribbean departments.",
+      "context": "Gulf Clan behavioral shift under reduced military pressure and ceasefire windows."
+    },
+    {
+      "insight": "Actor-structure patterns diverged by region: consolidation in border areas (Arauca, La Guajira) with rising HHI and top-actor shares, versus fragmentation in Cauca with more actors and slightly lower concentration.",
+      "context": "Comparative actor diversity and concentration changes across departments."
+    },
+    {
+      "insight": "Lower clashes did not reliably improve civilian safety; weak correlations and divergences include Norte de Santander (battles 245→106 but civilian targeting increased) and Cauca (state–group battles 32→18 while VAC rose by 164).",
+      "context": "Mismatch between battle trends and civilian-targeting trends in key departments."
+    },
+    {
+      "insight": "Abductions peaked in 2023 and remained elevated in 2024, concentrated in Arauca, Norte de Santander, and Cauca, frequently attributed to ELN, FARC dissidents, and the Gulf Clan when attribution exists.",
+      "context": "Temporal and geographic concentration of abductions and responsible actors post-policy."
+    },
+    {
+      "insight": "Meta and Córdoba are notable relief pockets, with overall political violence falling ~40–50% and VAC declining in tandem after 2022, including fewer Gulf Clan–state clashes in Córdoba.",
+      "context": "Counterexamples where Total Peace coincided with broad declines in violence."
+    },
+    {
+      "insight": "Overall, Total Peace coincides with a reconfigured, more civilian-centric conflict: less lethal incidents on average, no meaningful national decline in total events, and expanded or consolidated reach by ELN, FARC dissidents, and the Gulf Clan.",
+      "context": "Synthesis of national trends in incidents, lethality, and actor reach."
+    },
+    {
+      "insight": "The geography of risk shifted from traditional theaters (Meta, Córdoba) toward southwest corridors (Cauca–Valle–Huila) and borderlands (Arauca, Norte de Santander, La Guajira, Bolívar, Cesar, Putumayo).",
+      "context": "Summary of spatial redistribution of conflict hotspots post-2022."
+    },
+    {
+      "insight": "To reduce harm rather than redistribute it, negotiations need granular ceasefire monitoring, targeted protection in abduction hotspots, and credible state institutions to replace armed governance, not coexist with it.",
+      "context": "Conclusion outlining policy adjustments required to improve outcomes under Total Peace."
+    }
+  ],
+  "prompt": "Analyze Petro’s total peace policy in Colombia and its impact on violence v. armed groups."
+}

@@ -1,0 +1,143 @@
+{
+  "prompt": "Research gang violence in Mexico and its outlook in 2025, as if we are at the end of 2024 heading into 2025.",
+  "criteria": [
+    {
+      "name": "Shifting cartel alliances",
+      "description": "Assess evolving relationships and rivalries among major criminal groups and local factions, including how internal splits and temporary alliances reshape conflict dynamics and territorial control."
+    },
+    {
+      "name": "Territorial expansion patterns",
+      "description": "Track how conflict zones broaden beyond traditional hotspots, with groups probing adjacent states and strategic corridors as power vacuums and rifts emerge."
+    },
+    {
+      "name": "Diversification of illicit markets",
+      "description": "Evaluate gangs’ increasing reliance on revenue streams beyond drug trafficking—such as extortion, human smuggling, and fuel theft—and how competition for these markets intensifies violence."
+    },
+    {
+      "name": "Escalation in tactics and weaponry",
+      "description": "Monitor the growing use of explosives, drones, and other remote methods that enable asymmetric warfare, increase lethality, and heighten risks to civilians and security forces."
+    },
+    {
+      "name": "State security posture shift",
+      "description": "Analyze indications of a move from restraint toward more frequent confrontations and deployments, and how this affects short-term violence levels and long-term stability."
+    },
+    {
+      "name": "Militarization and human rights risks",
+      "description": "Examine expanding roles for military-aligned forces in public security and associated risks of abuses, oversight gaps, and impacts on civilian safety and trust."
+    },
+    {
+      "name": "Political violence and co-optation",
+      "description": "Assess threats to officials and candidates, including coercion and infiltration of institutions by criminal groups, and how this undermines governance and impunity."
+    },
+    {
+      "name": "US pressure and cross-border dynamics",
+      "description": "Consider how external pressure on migration and drug control shapes Mexico’s security strategy, enforcement intensity, and potential for destabilizing actions or retaliatory violence."
+    },
+    {
+      "name": "Human smuggling profitability",
+      "description": "Evaluate how tighter migration controls increase incentives for trafficking, financing gang operations and fueling competition over routes and border zones."
+    },
+    {
+      "name": "Power vacuums after leadership shocks",
+      "description": "Track how arrests or removals of key figures trigger factional infighting, reconfigurations of territories, and spillover violence into neighboring regions."
+    },
+    {
+      "name": "Urban-rural conflict diffusion",
+      "description": "Analyze how violence migrates between cities, transport corridors, and rural areas, following strategic assets like pipelines, highways, and border crossings."
+    },
+    {
+      "name": "Civic harm and displacement",
+      "description": "Monitor impacts on civilians, including killings, disappearances, and displacement, as well as community intimidation through spectacular or remote attacks."
+    },
+    {
+      "name": "Judicial reforms and impunity",
+      "description": "Assess how changes to justice institutions may expose them to political or criminal influence, affecting prosecutions, accountability, and public confidence."
+    },
+    {
+      "name": "Local rivalries and micro-fragmentation",
+      "description": "Examine splits within local groups and the emergence of smaller cells that escalate localized turf wars and complicate conflict resolution."
+    },
+    {
+      "name": "Security-force effectiveness and coordination",
+      "description": "Evaluate interagency coordination, intelligence-led operations, and targeted enforcement outcomes, distinguishing short-term suppression from sustainable reductions in violence."
+    }
+  ],
+  "criterion_scores": [
+    {
+      "name": "Shifting cartel alliances",
+      "score": 0.25,
+      "explanation": "Mentions CJNG and Sinaloa as dominant actors and notes many events attributed to unidentified groups, but provides no analysis of evolving alliances, rivalries, internal splits, or temporary pacts; lacks discussion of fractures (e.g., within Sinaloa/CJNG) and how these reshape control."
+    },
+    {
+      "name": "Territorial expansion patterns",
+      "score": 0.5,
+      "explanation": "Identifies hotspots/corridors (Sinaloa core, Chiapas frontier, Guerrero–Michoacán, Guanajuato, Zacatecas, Tamaulipas) and some municipal detail, but does not explicitly trace expansion beyond traditional areas or probing into adjacent states; limited discussion of power vacuums driving spread."
+    },
+    {
+      "name": "Diversification of illicit markets",
+      "score": 0.0,
+      "explanation": "No substantive treatment of non-drug revenue streams (extortion, fuel theft, human smuggling) or how competition over these markets influences violence."
+    },
+    {
+      "name": "Escalation in tactics and weaponry",
+      "score": 1.0,
+      "explanation": "Strong coverage of drones, IEDs, landmines, area-denial, lethality patterns, and risks to civilians/security forces; provides state/municipal examples and temporal spikes."
+    },
+    {
+      "name": "State security posture shift",
+      "score": 0.5,
+      "explanation": "Notes cartel–state battles, arrests/seizures, and suggests surge-ready policing, but does not clearly analyze a shift from restraint to more frequent confrontations or its effect on violence and stability in 2025."
+    },
+    {
+      "name": "Militarization and human rights risks",
+      "score": 0.25,
+      "explanation": "References soldiers killed and calls for EOD/counter-drone capacity, but lacks analysis of expanding military roles in public security, oversight gaps, abuses, or impacts on civilian trust."
+    },
+    {
+      "name": "Political violence and co-optation",
+      "score": 0.25,
+      "explanation": "Touches on attacks on civilians and intimidation but does not analyze candidate/official targeting, coercion of institutions, or co-optation undermining governance."
+    },
+    {
+      "name": "US pressure and cross-border dynamics",
+      "score": 0.0,
+      "explanation": "No discussion of US migration or drug-control pressure, fentanyl diplomacy, or how cross-border dynamics shape Mexico’s strategy or violence."
+    },
+    {
+      "name": "Human smuggling profitability",
+      "score": 0.0,
+      "explanation": "Does not evaluate migration controls, trafficking incentives, or competition over smuggling routes/border zones."
+    },
+    {
+      "name": "Power vacuums after leadership shocks",
+      "score": 0.0,
+      "explanation": "No assessment of arrests/leadership removals triggering factional infighting or reconfiguration of territories."
+    },
+    {
+      "name": "Urban-rural conflict diffusion",
+      "score": 0.75,
+      "explanation": "Covers diffusion across rural Guerrero (drone strikes), urban Culiacán, corridors like Chiapas; links to highways/pipelines not explicit, but shows movement between cities and rural theaters."
+    },
+    {
+      "name": "Civic harm and displacement",
+      "score": 0.75,
+      "explanation": "Describes widespread violence against civilians, single-victim patterns, displacement from drone/IED campaigns, intimidation dynamics, and need for protection; could add data on disappearances and overall displacement magnitudes."
+    },
+    {
+      "name": "Judicial reforms and impunity",
+      "score": 0.75,
+      "explanation": "Discusses contested 2024 judicial reforms, uncertainty, due process concerns, and need to resource courts; does not deeply tie reforms to prosecution outcomes or impunity trends yet."
+    },
+    {
+      "name": "Local rivalries and micro-fragmentation",
+      "score": 0.25,
+      "explanation": "Mentions long tail of local brands and unidentified actors but lacks analysis of splits within local groups, emergence of micro-cells, and how this complicates conflict resolution."
+    },
+    {
+      "name": "Security-force effectiveness and coordination",
+      "score": 0.5,
+      "explanation": "Advocates intelligence-led, localized enforcement and surge capacity; notes arrests/seizures and variable lethality. Limited evaluation of interagency coordination or evidence of sustainable reductions vs short-term suppression."
+    }
+  ],
+  "overall_score": 0.38333333333333336
+}

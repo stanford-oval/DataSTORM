@@ -1,0 +1,65 @@
+{
+  "dataset_id": 69,
+  "dataset_path": "data/notebooks/flag-69.json",
+  "metadata": {
+    "category": "Finance Management",
+    "dataset_description": "The dataset consists of 500 entries simulating ServiceNow fm_expense_line table, which records various attributes of financial expenses. Key fields include 'number', 'opened_at', 'amount', 'state', 'short_description', 'ci', 'user', 'department', 'category', 'process_date', 'source_id', and 'type'. This table documents the flow of financial transactions by detailing the amount, departmental allocation, and the nature of each expense. Provides a clear view of organizational expenditures across different categories, highlighting both the timing and the approval state of each financial entry.",
+    "goal": "To analyze and understand how the cost of an expense influences its processing time, with the aim of improving the efficiency and equity of expense report processing across all cost brackets.",
+    "header": "Expense Processing Efficiency Analysis (Flag 69)",
+    "role": "Financial Operations Analyst"
+  },
+  "predicted_insights": [
+    "Processing time rises sharply with cost: low amounts (under ~$1k) were typically processed in ~1–5 days, while higher amounts (>$5k) often took ~20–24 days—roughly a 4x slowdown for high-cost expenses—suggesting heavier approval workflows at higher cost brackets.",
+    "Decline risk does not increase with expense size: the top decile’s 6% decline rate is among the lowest, while a mid-high decile peaks at 14% (about 2.3× higher than the top decile), suggesting scrutiny and bottlenecks concentrate in mid-range amounts rather than at the extremes.",
+    "At the extremes, missing processed_date rates are very similar—only a 2.0 percentage-point gap and both slightly below the dataset-wide missing rate of 31.2% (156/500)—indicating that expense amount, by itself, is not a major driver of whether a processing date gets recorded for the highest and lowest cost submissions.",
+    "High-cost Pending expenses wait about 129 days longer on median than low-cost ones (≈14% longer), indicating that larger amounts face disproportionately longer processing times and may benefit from targeted workflow improvements.",
+    "The highest-cost quartile (Q4) takes about 23 days longer—nearly 9 times longer—than the lowest (Q1), indicating a substantial processing slowdown for high-value expenses that could drive inequities and inefficiencies across cost brackets.",
+    "For 'Processed' expenses, amounts below ~5.7k typically see median processing times ≤21 days, while amounts above this threshold rise to 24–33 days—about 3–12 extra days—indicating higher-cost items face disproportionately longer processing.",
+    "Processing-time sensitivity to cost is broadly consistent across departments (≈3.62–4.13 days per $1,000), but Product Management is the most cost-sensitive—implying a $5,000 expense takes ~20.6 extra days there versus ~18.1 days in Finance—highlighting where standardizing high-cost workflows could most improve equity.",
+    "At peak disparity (27 days), high-amount expenses are processed roughly four weeks slower than low-amount ones, and the consistently large gaps from Feb–Apr 2024 (26.0, 26.0, and 25.5 days) indicate a recent period where cost exerted a stronger-than-usual influence on processing speed.",
+    "Within the observed range ($107–$8,919), the model implies about a 33.5-day increase in processing time attributable to amount alone, e.g., moving from $1,000 to $5,000 is associated with roughly 15.2 additional days—showing high-cost reports disproportionately extend cycle times even after controlling for department and category.",
+    "After accounting for department and category, cost appears to be the dominant driver of delay: high-cost processed expenses (>75th percentile, >$5,107) almost always exceed two weeks while low-cost ones (≤25th percentile, ≤$1,184) almost never do (adjusted probs ~1.00 vs ~0.00), suggesting a strong approval threshold or routing rule tied to amount that creates systematic latency for expensive items.",
+    "Across amounts from about $0.6k to $7.6k, 9 of 10 amount bins had 100% of pending expenses open >30 days and the remaining bin had 83.3%, indicating delays are pervasive and not concentrated in any cost bracket.",
+    "Because the adjusted effect is ~3.75–3.88 days per $1,000 across categories, a $5,000 expense can add roughly 19 days to processing time, with Travel the steepest (≈0.083 days per $1,000 more than Services), suggesting targeted improvements for high-amount travel claims could yield the largest efficiency gains."
+  ],
+  "predicted_summary": "Processing time rises steeply with expense amount among ‘Processed’ reports: a near-perfect monotonic link (Spearman 0.991, n=344). Median processing time climbs from 3 days in the lowest amount quartile to 7, 14, and 26 days in higher quartiles. After adjusting for department and category, each additional $1,000 adds about 3.80 days, and high-dollar expenses (>75th percentile, >$5,107) are modeled at ~100% chance to exceed 14 days versus ~0% for low-dollar (≤25th percentile, ≤$1,184). A notable inflection occurs around $5.7k where medians jump (~21→24 days).\nThe strength of the amount–time relationship varies by function and period: Product Management shows the largest increase at roughly +4.13 days per $1,000 among ‘Processed’ expenses, and Travel is the category with the steepest adjusted increase at about +3.88 days per $1,000 (controlling for department). Temporally, the gap between median processing times of top- vs bottom-quartile amounts peaks at 27 days in April 2023 (tied with August 2023), indicating months when amount-driven delays are especially pronounced.\nEquity signals across the pipeline are mixed: lower-amount expenses are declined more often (12.0% in the bottom decile vs 6.0% in the top; −6.0 percentage points top−bottom), while the share missing a processed_date is similar across deciles (30% bottom vs 28% top; −2.0 pp). Among ‘Pending’ items, top-decile amounts are modestly older by median (1,026.5 vs 897.5 days; 1.144×), yet after adjusting for department and category there is no detectable association between amount and being open >30 days (p=0.998).",
+  "score_insights": 0.46201619299617125,
+  "score_insights_dict": [
+    {
+      "gt_insight": "The duration of processed asset requests varies significantly across departments, with Finance showing the longest average processing time.",
+      "pred_insight": "Processing-time sensitivity to cost is broadly consistent across departments (≈3.62–4.13 days per $1,000), but Product Management is the most cost-sensitive—implying a $5,000 expense takes ~20.6 extra days there versus ~18.1 days in Finance—highlighting where standardizing high-cost workflows could most improve equity.",
+      "score": 0.3512208100924328
+    },
+    {
+      "gt_insight": "The processing outcomes vary across expense brackets",
+      "pred_insight": "Processing time rises sharply with cost: low amounts (under ~$1k) were typically processed in ~1–5 days, while higher amounts (>$5k) often took ~20–24 days—roughly a 4x slowdown for high-cost expenses—suggesting heavier approval workflows at higher cost brackets.",
+      "score": 0.6097848565026902
+    },
+    {
+      "gt_insight": "The processing times are uniform across users and departments for High-Cost Expenses",
+      "pred_insight": "Processing-time sensitivity to cost is broadly consistent across departments (≈3.62–4.13 days per $1,000), but Product Management is the most cost-sensitive—implying a $5,000 expense takes ~20.6 extra days there versus ~18.1 days in Finance—highlighting where standardizing high-cost workflows could most improve equity.",
+      "score": 0.42504291239339087
+    }
+  ],
+  "score_summary": 0.531505518332654,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.4410370551489741,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "Processing-time sensitivity to cost is broadly consistent across departments (≈3.62–4.13 days per $1,000), but Product Management is the most cost-sensitive—implying a $5,000 expense takes ~20.6 extra days there versus ~18.1 days in Finance—highlighting where standardizing high-cost workflows could most improve equity.",
+      "gt_insight": "The duration of processed asset requests varies significantly across departments, with Finance showing the longest average processing time.",
+      "score": 0.3580899842978287
+    },
+    {
+      "pred_insight": "After accounting for department and category, cost appears to be the dominant driver of delay: high-cost processed expenses (>75th percentile, >$5,107) almost always exceed two weeks while low-cost ones (≤25th percentile, ≤$1,184) almost never do (adjusted probs ~1.00 vs ~0.00), suggesting a strong approval threshold or routing rule tied to amount that creates systematic latency for expensive items.",
+      "gt_insight": "The processing outcomes vary across expense brackets",
+      "score": 0.6509126469441505
+    },
+    {
+      "pred_insight": "At the extremes, missing processed_date rates are very similar—only a 2.0 percentage-point gap and both slightly below the dataset-wide missing rate of 31.2% (156/500)—indicating that expense amount, by itself, is not a major driver of whether a processing date gets recorded for the highest and lowest cost submissions.",
+      "gt_insight": "The processing times are uniform across users and departments for High-Cost Expenses",
+      "score": 0.3141085342049429
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.11900190818075469,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.839883516614548
+}

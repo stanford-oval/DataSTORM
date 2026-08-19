@@ -1,0 +1,332 @@
+{
+  "total_insights": 32,
+  "total_classified": 32,
+  "acled_count": 24,
+  "non_acled_count": 8,
+  "pct_acled": 0.75,
+  "details": [
+    {
+      "evidence": "March 2024 ceasefire suspension with the FARC-EMC triggered a sharp kinetic escalation, doubling dissident-linked monthly events (approx. 25 to 50) and increasing fatalities more than sixfold (57 to 401) in Apr–Dec vs Jan–Mar.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific counts of conflict events and fatalities over defined time periods, tied to a group (FARC-EMC) and a policy trigger, reflecting temporal trend analysis of event data. Such metrics (event counts, fatalities, actor-linked activity, monthly comparisons) are characteristic of ACLED datasets and analyses.",
+      "source_context": "Inflection section; cites [1][2][3] with before/after comparisons."
+    },
+    {
+      "evidence": "Battles drove the surge: clashes rose from 42 in Q1 to 285 in Apr–Dec, and battle-related deaths from 28 to 284.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites counts of clashes (battles) over specific periods and associated battle-related death totals, which match ACLED’s event-type (battles) and fatality metrics and temporal trend analysis derived from event data.",
+      "source_context": "Inflection section; quantitative breakdown of battles across periods [1][2]."
+    },
+    {
+      "evidence": "Remote explosives shifted from rare to routine: 1 incident in Q1 vs 70 incidents and 32 deaths Apr–Dec.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites counts of specific conflict event types (remote explosives incidents) over defined time periods and associated fatalities—these are typical ACLED metrics (event counts by type and temporal trends with death totals).",
+      "source_context": "Inflection section; explosive use data [1][3]."
+    },
+    {
+      "evidence": "Monthly dissident activity accelerated through 2024: events rose from 39 in March to 84 in October; battles from 19 in March to 49 in October; fatalities peaked in November.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites monthly counts of dissident events, battles, and fatalities with specific month-to-month figures and peaks, which align with ACLED’s event-based, actor-level conflict tracking and temporal trend data, including battles and fatalities.",
+      "source_context": "Inflection section; month-by-month trajectory [2]."
+    },
+    {
+      "evidence": "Event composition changed mid-year: violence against civilians’ share fell as battles and explosions rose, with battles peaking in October and explosions elevated late summer–December; fatalities increasingly tied to clashes/explosives, peaking in November.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites shifts in event composition (violence against civilians vs. battles and explosions), monthly peaks, and fatalities tied to specific event types—these are hallmark ACLED metrics (event type shares, temporal trends, and fatality counts) commonly derived from ACLED’s event data and categorization.",
+      "source_context": "Inflection section; composition/fatality dynamics [4][5]."
+    },
+    {
+      "evidence": "ELN favored disruptive, often non-lethal infrastructure attacks in Aug–Sep, while both ELN and dissidents intensified IEDs against police in Nov–Dec, with dissident devices most lethal.",
+      "is_acled_data": true,
+      "reasoning": "The statement references specific temporal patterns (Aug–Sep vs. Nov–Dec), actor-specific tactics (ELN vs. dissidents), event types (infrastructure attacks, IEDs against police), and lethality comparisons—features characteristic of ACLED’s event-level and trend analyses based on explosions/remote violence and actor data.",
+      "source_context": "Inflection section; tactic differentiation and timing [3]."
+    },
+    {
+      "evidence": "Late-2024 explosive spikes were geographically patterned: ELN in Norte de Santander and Arauca; dissidents in Cauca and Valle.",
+      "is_acled_data": true,
+      "reasoning": "The statement cites temporal conflict trends (“Late-2024...spikes”), specific event type (explosive spikes), and subnational geographic patterns tied to specific armed actors (ELN in Norte de Santander and Arauca; dissidents in Cauca and Valle). This aligns with ACLED’s actor-level, event-type, and location-based trend analysis derived from event data.",
+      "source_context": "Inflection section; geographic concentration of IEDs [6]."
+    },
+    {
+      "evidence": "By year’s end, the post-ceasefire period featured more frequent clashes, wider use of remote explosives, a Q4 operational upswing, and a November fatality peak.",
+      "is_acled_data": true,
+      "reasoning": "The statement references temporal conflict trends—frequency of clashes, use of remote explosives, a Q4 operational upswing, and a November fatality peak—which align with ACLED’s event-based metrics (battles, explosions/remote violence, fatalities) and trend analysis derived from those events.",
+      "source_context": "Inflection synthesis; references [1][2][3][4][6]."
+    },
+    {
+      "evidence": "Conflict geography bifurcated: FARC dissidents dominated a southwest–Amazon corridor, while ELN consolidated along the Venezuelan border and parts of the Caribbean interior.",
+      "is_acled_data": true,
+      "reasoning": "The statement describes subnational conflict geography and armed group territorial/activity patterns (FARC dissidents vs. ELN across specific regions). ACLED provides geographic conflict data and actor-level activity that can support such regional consolidation/bifurcation insights, making it plausibly derived from ACLED event/location data.",
+      "source_context": "Geography section; overview of spatial split [7][8]."
+    },
+    {
+      "evidence": "Cauca was the most active department, overwhelmingly dissident-led (e.g., 330 vs 44 or 258 vs 33 dissident vs ELN events across sources) and recorded the year’s highest department-level dissident fatalities (173).",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific subnational event counts by actor (dissidents vs ELN) and department-level fatality totals, which align with ACLED’s event- and actor-level data, geographic breakdowns, and fatalities. The quantitative comparisons across sources and department-level dissident fatalities are characteristic of ACLED-derived metrics.",
+      "source_context": "Geography section; department-level comparisons [7][8]."
+    },
+    {
+      "evidence": "Dissident corridor extended through Valle del Cauca and Nariño and into Huila, Caquetá, Meta, Putumayo, Tolima, and Guaviare, with fighting (not bombings) defining many southern departments.",
+      "is_acled_data": true,
+      "reasoning": "Mentions specific armed group activity corridors across multiple departments and characterizes conflict dynamics (fighting vs. bombings), which aligns with ACLED’s geographic conflict data, actor activity, and event-type distinctions derived from event records.",
+      "source_context": "Geography section; corridor detail [7][8]."
+    },
+    {
+      "evidence": "ELN strongholds were in Norte de Santander and Arauca: Norte de Santander mixed clashes and explosions with ELN outpacing dissidents; Arauca had a clear ELN edge with significant violence against civilians.",
+      "is_acled_data": true,
+      "reasoning": "Mentions subnational strongholds, comparative group activity, event types (clashes, explosions), and violence against civilians by department and actor (ELN vs dissidents), which aligns with ACLED’s actor-level event data, geographic breakdowns, and violence-against-civilians statistics typically derived from ACLED analyses.",
+      "source_context": "Geography section; department profiles [7][8]."
+    },
+    {
+      "evidence": "ELN maintained a consolidation pocket in Bolívar (approx. 21:1 ELN advantage), showing presence beyond the border axis.",
+      "is_acled_data": false,
+      "reasoning": "The statement cites an “approx. 21:1 ELN advantage” consolidation pocket, which sounds like a force ratio or territorial control assessment rather than specific ACLED event counts, fatalities, or actor-event data. ACLED does not provide force ratio metrics or territorial control assessments; this appears more like analytical inference outside ACLED’s typical event-based outputs.",
+      "source_context": "Geography section; Bolívar asymmetry [7]."
+    },
+    {
+      "evidence": "Q4 spikes by theater: Norte de Santander surged in October and stayed high through December (explosions and clashes increased); Arauca was high through November; Cauca remained intense; Valle del Cauca upticked in November; Nariño steady late-year.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references subnational theaters with temporal spikes in conflict activity (Q4), specifying event types like explosions, clashes, and intensity across departments. This aligns with ACLED’s event-based, time-series, and geographic breakdown data and trend analysis derived from those events.",
+      "source_context": "Department-by-month panels [9][10]."
+    },
+    {
+      "evidence": "Nationally, explosions and battles moved in tandem in late 2024, both peaking in Q4, though November saw battles dip as explosions climbed.",
+      "is_acled_data": true,
+      "reasoning": "The statement references national trends in specific ACLED event categories (battles and explosions/remote violence) over time, including quarterly and monthly peaks, which aligns with ACLED’s conflict event counts and temporal trend analysis. This type of phrasing and granularity is characteristic of ACLED-derived summaries.",
+      "source_context": "National monthly pattern [10][11]."
+    },
+    {
+      "evidence": "Two emblematic theaters: Cauca as a grinding, high-lethality dissident battlespace; Norte de Santander as an ELN border bastion combining clashes and explosives.",
+      "is_acled_data": false,
+      "reasoning": "The evidence is a qualitative characterization of conflict theaters (Cauca and Norte de Santander) and actor presence, without citing specific ACLED event counts, fatalities, locations, or explicit attribution to ACLED. It reads as general conflict analysis rather than data-derived metrics.",
+      "source_context": "Geography synthesis; emblematic cases."
+    },
+    {
+      "evidence": "Civilian harm concentrated in municipalities with little open contestation—indicative of coercive control—led by Quibdó (≈ five dozen VAC incidents, highest local fatalities), followed by Cúcuta (high VAC, zero battles) and Arauquita (elevated VAC with few inter-nonstate clashes).",
+      "is_acled_data": true,
+      "reasoning": "Mentions specific subnational locations with counts/levels of violence against civilians (VAC incidents), fatalities, absence of battles, and inter-nonstate clashes—core ACLED event categories and metrics. The phrasing aligns with ACLED-style analysis combining VAC, battles, and actor clash data to infer coercive control, suggesting derivation from ACLED event and fatality data.",
+      "source_context": "Civilians section; hotspot identification [12]."
+    },
+    {
+      "evidence": "This concentrated civilian harm contrasted with national kinetics, where battles peaked in October and explosions stayed elevated late-year.",
+      "is_acled_data": true,
+      "reasoning": "The statement references temporal patterns in conflict event types—battles peaking in October and explosions remaining elevated late in the year—and contrasts with civilian harm. These are hallmark ACLED metrics (battle and explosion/remote violence trends, violence against civilians) and phrased as event-timeline analysis typical of ACLED-derived insights.",
+      "source_context": "Civilians vs national pattern [13]."
+    },
+    {
+      "evidence": "In several hotspots, large shares of violence against civilians were attributed to state forces: Quibdó overwhelmingly state-attributed; Saravena and Caucasia with high state shares; Orito with all VAC state-attributed.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites shares of violence against civilians attributed to specific actors (state forces) in particular localities (Quibdó, Saravena, Caucasia, Orito), which aligns with ACLED’s actor-level, subnational VAC statistics and attribution data derived from coded events.",
+      "source_context": "Attribution patterns in hotspots [14][15]."
+    },
+    {
+      "evidence": "Attribution shifted by month in some municipalities: Arauca saw militia-dominated months (April, October); Tame’s late-year spike mixed heavy state footprint with residual militia activity; Tibú showed mixed control.",
+      "is_acled_data": true,
+      "reasoning": "The evidence discusses subnational, month-by-month shifts in armed actor control/attribution in specific municipalities (Arauca, Tame, Tibú), referencing militia vs. state activity patterns over time. This aligns with ACLED’s granular event and actor-level data, geographic breakdowns, and temporal trend analysis derived from events. It is specific to conflict attribution and temporal patterns rather than general commentary, fitting ACLED-derived insights.",
+      "source_context": "Temporal and layered attribution variation [14][15]."
+    },
+    {
+      "evidence": "Mechanism: where control (by state or nonstate) was firm, open battles fell but civilian targeting persisted; hotspots had high VAC with low inter-nonstate battles, plus some explosions.",
+      "is_acled_data": true,
+      "reasoning": "The evidence discusses patterns in conflict event types—battles, violence against civilians (VAC), and explosions/remote violence—in relation to control by actors and hotspot dynamics. These are core ACLED categories and typical of ACLED-derived trend analysis that links event-type frequencies to territorial control and actor dynamics.",
+      "source_context": "Civilians section; mechanism inference [12][16][13]."
+    },
+    {
+      "evidence": "After the spring rupture, the broader conflict shifted toward direct clashes nationally (battles peaked in October; ELN fatalities peaked in November), with remote violence elevated late-year.",
+      "is_acled_data": true,
+      "reasoning": "Mentions specific conflict event types and temporal patterns (battles peaking in October, ELN fatalities peaking in November, elevated remote violence), which aligns with ACLED’s event counts, battle/remote violence categories, actor-level (ELN) activity, and fatality trends typically derived from ACLED data.",
+      "source_context": "National conflict dynamics post-March [17][13]."
+    },
+    {
+      "evidence": "Policy pace lagged battlefield shifts: after the March suspension, dissident events rose into mid-50s to 80s per month Apr–Nov; battles peaked in October and fatalities in November.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites monthly counts of dissident events, peaks in battles, and fatalities over specific months, which aligns with ACLED’s event-based data (event counts, battle-related data, and fatality figures) and temporal trend analysis derived from such events.",
+      "source_context": "Policy vs operations timing [18][19]."
+    },
+    {
+      "evidence": "Remote explosives became more prominent late in 2024, with localized surges tied to dissidents in Cauca and Valle and ELN in Norte de Santander.",
+      "is_acled_data": true,
+      "reasoning": "The statement discusses temporal and geographic patterns of a specific event type (remote explosives) and links them to particular armed actors and subnational areas, which aligns with ACLED’s event, actor, and trend data on explosions/remote violence by location and group over time.",
+      "source_context": "IED prominence and localization [20]."
+    },
+    {
+      "evidence": "Total Peace aimed to integrate dialogue with climate justice, energy transition, and social equity focused on marginalized regions.",
+      "is_acled_data": false,
+      "reasoning": "The statement describes a policy initiative (“Total Peace” integrating dialogue with climate justice, energy transition, and social equity). This is a policy/governmental framework description, not conflict event data, statistics, fatalities, or actor/event trends attributed to ACLED.",
+      "source_context": "Policy framework description [21]."
+    },
+    {
+      "evidence": "Land reform progressed but lagged goals: recognition of Zones of Rural Development and distribution of 700,000+ hectares to peasants faced resistance and logistical hurdles.",
+      "is_acled_data": false,
+      "reasoning": "The statement concerns land reform policy progress and obstacles (zones recognition, hectares distributed). This is policy/governance and development implementation information, not conflict event data, fatalities, or actor/event-level metrics typically tracked by ACLED. No attribution to ACLED is provided.",
+      "source_context": "Land policy status and constraints [22]."
+    },
+    {
+      "evidence": "Core rural conditions—inequality and limited state presence—showed limited improvement 18 months in, leaving civilians exposed to abuses.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical assessment about rural inequality, state presence, and civilian exposure to abuses, without referencing specific conflict events, counts, locations, or ACLED-attributed metrics. It is not tied to ACLED event data or statistics.",
+      "source_context": "Structural gaps assessment [23]."
+    },
+    {
+      "evidence": "State–ELN clashes produced lethality bursts (notably May and December), while state–dissident fatalities were sporadic despite expanding dissident operations.",
+      "is_acled_data": true,
+      "reasoning": "The statement references temporal patterns of conflict fatalities and clashes between specific actors (state vs. ELN and state vs. dissidents) with identified months of lethality spikes. This aligns with ACLED’s event-level battle data, actor-level activity, and temporal trend/fatality analyses derived from ACLED event records.",
+      "source_context": "Conflict dyad lethality patterns [24][18]."
+    },
+    {
+      "evidence": "Violence against civilians persisted nationally with state-implicated incidents dominating; political militias formed the second-largest share with periodic mid-2024 surges, reflecting uneven restraint and impunity.",
+      "is_acled_data": true,
+      "reasoning": "Mentions violence against civilians, actor categories (state-implicated, political militias), and temporal surges in mid-2024—these are typical ACLED event-based statistics and trend analysis derived from actor-level data and temporal patterns.",
+      "source_context": "Perpetrator composition of VAC [25]."
+    },
+    {
+      "evidence": "Despite inclusive rhetoric for Afro‑Colombian and Indigenous communities, disproportionate impacts and abuses continued into late 2024.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general assessment about disproportionate impacts and abuses on Afro‑Colombian and Indigenous communities without citing event counts, locations, actor data, or other specific ACLED-derived metrics. It reads as qualitative commentary rather than specific conflict event data attributed to ACLED.",
+      "source_context": "Equity agenda vs outcomes [26]."
+    },
+    {
+      "evidence": "By late 2024, intensified battles and explosive incidents did not demonstrate clear state capacity to contest territory or protect civilians in emergent theaters.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytic assessment about state capacity and protection of civilians, without citing specific ACLED event counts, actor data, locations, or trends. It lacks explicit reference to ACLED metrics (battles, explosions, fatalities, temporal patterns) and reads as commentary rather than data derived from ACLED.",
+      "source_context": "Operational outcomes and protection gap [18][20]."
+    },
+    {
+      "evidence": "Conclusion for 2025: recalibrate Total Peace with three priorities—near-term protection in hotspots (IED detection/clearance, safe movement corridors, accountability for security-force conduct); concentrated policing and services along dissident and ELN theaters; and visible structural gains (land titling, rural justice, infrastructure) first where harm is greatest.",
+      "is_acled_data": false,
+      "reasoning": "This is a policy recommendation/conclusion outlining priorities for 2025, not event-based statistics or actor/location-specific conflict data. It does not cite ACLED figures, trends, or indices and is general analysis rather than derived from ACLED datasets.",
+      "source_context": "Policy recommendations in conclusion."
+    }
+  ],
+  "insights": [
+    {
+      "insight": "March 2024 ceasefire suspension with the FARC-EMC triggered a sharp kinetic escalation, doubling dissident-linked monthly events (approx. 25 to 50) and increasing fatalities more than sixfold (57 to 401) in Apr–Dec vs Jan–Mar.",
+      "context": "Inflection section; cites [1][2][3] with before/after comparisons."
+    },
+    {
+      "insight": "Battles drove the surge: clashes rose from 42 in Q1 to 285 in Apr–Dec, and battle-related deaths from 28 to 284.",
+      "context": "Inflection section; quantitative breakdown of battles across periods [1][2]."
+    },
+    {
+      "insight": "Remote explosives shifted from rare to routine: 1 incident in Q1 vs 70 incidents and 32 deaths Apr–Dec.",
+      "context": "Inflection section; explosive use data [1][3]."
+    },
+    {
+      "insight": "Monthly dissident activity accelerated through 2024: events rose from 39 in March to 84 in October; battles from 19 in March to 49 in October; fatalities peaked in November.",
+      "context": "Inflection section; month-by-month trajectory [2]."
+    },
+    {
+      "insight": "Event composition changed mid-year: violence against civilians’ share fell as battles and explosions rose, with battles peaking in October and explosions elevated late summer–December; fatalities increasingly tied to clashes/explosives, peaking in November.",
+      "context": "Inflection section; composition/fatality dynamics [4][5]."
+    },
+    {
+      "insight": "ELN favored disruptive, often non-lethal infrastructure attacks in Aug–Sep, while both ELN and dissidents intensified IEDs against police in Nov–Dec, with dissident devices most lethal.",
+      "context": "Inflection section; tactic differentiation and timing [3]."
+    },
+    {
+      "insight": "Late-2024 explosive spikes were geographically patterned: ELN in Norte de Santander and Arauca; dissidents in Cauca and Valle.",
+      "context": "Inflection section; geographic concentration of IEDs [6]."
+    },
+    {
+      "insight": "By year’s end, the post-ceasefire period featured more frequent clashes, wider use of remote explosives, a Q4 operational upswing, and a November fatality peak.",
+      "context": "Inflection synthesis; references [1][2][3][4][6]."
+    },
+    {
+      "insight": "Conflict geography bifurcated: FARC dissidents dominated a southwest–Amazon corridor, while ELN consolidated along the Venezuelan border and parts of the Caribbean interior.",
+      "context": "Geography section; overview of spatial split [7][8]."
+    },
+    {
+      "insight": "Cauca was the most active department, overwhelmingly dissident-led (e.g., 330 vs 44 or 258 vs 33 dissident vs ELN events across sources) and recorded the year’s highest department-level dissident fatalities (173).",
+      "context": "Geography section; department-level comparisons [7][8]."
+    },
+    {
+      "insight": "Dissident corridor extended through Valle del Cauca and Nariño and into Huila, Caquetá, Meta, Putumayo, Tolima, and Guaviare, with fighting (not bombings) defining many southern departments.",
+      "context": "Geography section; corridor detail [7][8]."
+    },
+    {
+      "insight": "ELN strongholds were in Norte de Santander and Arauca: Norte de Santander mixed clashes and explosions with ELN outpacing dissidents; Arauca had a clear ELN edge with significant violence against civilians.",
+      "context": "Geography section; department profiles [7][8]."
+    },
+    {
+      "insight": "ELN maintained a consolidation pocket in Bolívar (approx. 21:1 ELN advantage), showing presence beyond the border axis.",
+      "context": "Geography section; Bolívar asymmetry [7]."
+    },
+    {
+      "insight": "Q4 spikes by theater: Norte de Santander surged in October and stayed high through December (explosions and clashes increased); Arauca was high through November; Cauca remained intense; Valle del Cauca upticked in November; Nariño steady late-year.",
+      "context": "Department-by-month panels [9][10]."
+    },
+    {
+      "insight": "Nationally, explosions and battles moved in tandem in late 2024, both peaking in Q4, though November saw battles dip as explosions climbed.",
+      "context": "National monthly pattern [10][11]."
+    },
+    {
+      "insight": "Two emblematic theaters: Cauca as a grinding, high-lethality dissident battlespace; Norte de Santander as an ELN border bastion combining clashes and explosives.",
+      "context": "Geography synthesis; emblematic cases."
+    },
+    {
+      "insight": "Civilian harm concentrated in municipalities with little open contestation—indicative of coercive control—led by Quibdó (≈ five dozen VAC incidents, highest local fatalities), followed by Cúcuta (high VAC, zero battles) and Arauquita (elevated VAC with few inter-nonstate clashes).",
+      "context": "Civilians section; hotspot identification [12]."
+    },
+    {
+      "insight": "This concentrated civilian harm contrasted with national kinetics, where battles peaked in October and explosions stayed elevated late-year.",
+      "context": "Civilians vs national pattern [13]."
+    },
+    {
+      "insight": "In several hotspots, large shares of violence against civilians were attributed to state forces: Quibdó overwhelmingly state-attributed; Saravena and Caucasia with high state shares; Orito with all VAC state-attributed.",
+      "context": "Attribution patterns in hotspots [14][15]."
+    },
+    {
+      "insight": "Attribution shifted by month in some municipalities: Arauca saw militia-dominated months (April, October); Tame’s late-year spike mixed heavy state footprint with residual militia activity; Tibú showed mixed control.",
+      "context": "Temporal and layered attribution variation [14][15]."
+    },
+    {
+      "insight": "Mechanism: where control (by state or nonstate) was firm, open battles fell but civilian targeting persisted; hotspots had high VAC with low inter-nonstate battles, plus some explosions.",
+      "context": "Civilians section; mechanism inference [12][16][13]."
+    },
+    {
+      "insight": "After the spring rupture, the broader conflict shifted toward direct clashes nationally (battles peaked in October; ELN fatalities peaked in November), with remote violence elevated late-year.",
+      "context": "National conflict dynamics post-March [17][13]."
+    },
+    {
+      "insight": "Policy pace lagged battlefield shifts: after the March suspension, dissident events rose into mid-50s to 80s per month Apr–Nov; battles peaked in October and fatalities in November.",
+      "context": "Policy vs operations timing [18][19]."
+    },
+    {
+      "insight": "Remote explosives became more prominent late in 2024, with localized surges tied to dissidents in Cauca and Valle and ELN in Norte de Santander.",
+      "context": "IED prominence and localization [20]."
+    },
+    {
+      "insight": "Total Peace aimed to integrate dialogue with climate justice, energy transition, and social equity focused on marginalized regions.",
+      "context": "Policy framework description [21]."
+    },
+    {
+      "insight": "Land reform progressed but lagged goals: recognition of Zones of Rural Development and distribution of 700,000+ hectares to peasants faced resistance and logistical hurdles.",
+      "context": "Land policy status and constraints [22]."
+    },
+    {
+      "insight": "Core rural conditions—inequality and limited state presence—showed limited improvement 18 months in, leaving civilians exposed to abuses.",
+      "context": "Structural gaps assessment [23]."
+    },
+    {
+      "insight": "State–ELN clashes produced lethality bursts (notably May and December), while state–dissident fatalities were sporadic despite expanding dissident operations.",
+      "context": "Conflict dyad lethality patterns [24][18]."
+    },
+    {
+      "insight": "Violence against civilians persisted nationally with state-implicated incidents dominating; political militias formed the second-largest share with periodic mid-2024 surges, reflecting uneven restraint and impunity.",
+      "context": "Perpetrator composition of VAC [25]."
+    },
+    {
+      "insight": "Despite inclusive rhetoric for Afro‑Colombian and Indigenous communities, disproportionate impacts and abuses continued into late 2024.",
+      "context": "Equity agenda vs outcomes [26]."
+    },
+    {
+      "insight": "By late 2024, intensified battles and explosive incidents did not demonstrate clear state capacity to contest territory or protect civilians in emergent theaters.",
+      "context": "Operational outcomes and protection gap [18][20]."
+    },
+    {
+      "insight": "Conclusion for 2025: recalibrate Total Peace with three priorities—near-term protection in hotspots (IED detection/clearance, safe movement corridors, accountability for security-force conduct); concentrated policing and services along dissident and ELN theaters; and visible structural gains (land titling, rural justice, infrastructure) first where harm is greatest.",
+      "context": "Policy recommendations in conclusion."
+    }
+  ],
+  "prompt": "Do a deep research on Petro's presidency in Columbia and Columbia's conflict summary and outlook, as if we are at the end of 2024 heading into 2025"
+}

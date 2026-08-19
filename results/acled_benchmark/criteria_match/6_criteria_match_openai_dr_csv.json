@@ -1,0 +1,143 @@
+{
+  "prompt": "What is the status of conflicts in Tigray after the Pretoria agreement? Focus on October 2024.",
+  "criteria": [
+    {
+      "name": "Post-agreement security climate",
+      "description": "Assess whether overall security conditions in Tigray are stabilizing or deteriorating since the peace deal, noting persistence of unrest despite formal cessation of hostilities."
+    },
+    {
+      "name": "Factional split within ruling movement",
+      "description": "Examine internal divisions within the dominant regional party, how competing factions emerged, and how the split threatens governance and peace implementation."
+    },
+    {
+      "name": "Control over armed forces",
+      "description": "Evaluate the extent to which civilian leaders and party factions exert authority over regional armed formations, and how incomplete disarmament heightens risks of renewed violence."
+    },
+    {
+      "name": "Federal–regional power dynamics",
+      "description": "Analyze interactions between the interim regional administration and the federal government, including appointments, oversight, and potential intervention scenarios."
+    },
+    {
+      "name": "Legal and institutional legitimacy",
+      "description": "Review party registration, electoral requirements, and institutional recognition, and how procedural disputes affect claims to authority and the transition to elected governance."
+    },
+    {
+      "name": "Geographic patterns of support",
+      "description": "Identify whether support for factions aligns with sub-regional or locality-based patterns and the extent to which these patterns are fluid rather than rigidly territorial."
+    },
+    {
+      "name": "Risk of intra-Tigray violence",
+      "description": "Assess triggers and pathways for internal armed confrontation, including leadership targeting, factional mobilization, and clashes in disputed areas."
+    },
+    {
+      "name": "Impact on peace agreement implementation",
+      "description": "Consider how internal disputes impede key provisions such as disarmament, reintegration, territorial arrangements, and the establishment of a regional government through elections."
+    },
+    {
+      "name": "Spillover from neighboring conflicts",
+      "description": "Evaluate how concurrent unrest in adjacent regions and disputed territories influences security dynamics and escalatory risks in Tigray."
+    },
+    {
+      "name": "Humanitarian and displacement context",
+      "description": "Assess how lingering displacement and slow recovery from prior war amplify the costs of renewed instability and complicate reconciliation."
+    },
+    {
+      "name": "Mediation and dialogue efforts",
+      "description": "Examine the role and effectiveness of civil society, religious leaders, and international partners in facilitating dialogue and preventing escalation."
+    },
+    {
+      "name": "Public sentiment and legitimacy crisis",
+      "description": "Gauge local perceptions of factional motives, trust in leadership, and calls for alternative political options, and how these views affect stability."
+    },
+    {
+      "name": "Scenarios and outlook",
+      "description": "Outline plausible near-term outcomes—consolidation by one faction or escalation to violence—and their implications for governance and civilian security."
+    },
+    {
+      "name": "Security incidents post-ceasefire",
+      "description": "Track patterns of armed incidents involving regional forces or militias since the ceasefire, focusing on whether incidents are isolated or indicative of systematic relapse."
+    },
+    {
+      "name": "Administrative control maneuvers",
+      "description": "Monitor attempts by factions to seize or retain control of interim government positions and party organs, and their compliance with procedural rules."
+    }
+  ],
+  "criterion_scores": [
+    {
+      "name": "Post-agreement security climate",
+      "score": 0.75,
+      "explanation": "Clearly states large-scale combat ended and violence dropped, while low-level insecurity persists due to Eritrean and Amhara presence. However, it is framed mostly through late-2023 sources and lacks specific October 2024 updates or trend data to firmly assess stabilization vs deterioration by that date."
+    },
+    {
+      "name": "Factional split within ruling movement",
+      "score": 0.0,
+      "explanation": "No discussion of internal divisions within the TPLF or competing factions; entirely absent."
+    },
+    {
+      "name": "Control over armed forces",
+      "score": 0.5,
+      "explanation": "Notes Tigray forces handed over heavy weapons but remain mobilized and reluctant to fully disarm until external forces withdraw, implying incomplete control and risk. Does not analyze civilian/party authority over various armed formations or factional influence in depth."
+    },
+    {
+      "name": "Federal–regional power dynamics",
+      "score": 0.5,
+      "explanation": "Mentions interim administration led by TPLF, partial normalization with Addis Ababa, budget shortfalls, lack of parliamentary representation, and unresolved territorial issues. Lacks detailed analysis of appointments, oversight mechanisms, or potential federal intervention scenarios as of Oct 2024."
+    },
+    {
+      "name": "Legal and institutional legitimacy",
+      "score": 0.25,
+      "explanation": "Touches on TPLF delisting from terrorism designation and interim administration, plus inability to hold elections until territory restored. Does not delve into party registration, electoral requirements, institutional recognition disputes, or procedural legitimacy."
+    },
+    {
+      "name": "Geographic patterns of support",
+      "score": 0.0,
+      "explanation": "No assessment of sub-regional or locality-based factional support; absent."
+    },
+    {
+      "name": "Risk of intra-Tigray violence",
+      "score": 0.5,
+      "explanation": "Identifies triggers like stalled disarmament, presence of external forces, and public frustration; mentions sporadic clashes and potential destabilization. Does not analyze intra-Tigrayan factional mobilization, leadership targeting, or specific flashpoints within Tigray."
+    },
+    {
+      "name": "Impact on peace agreement implementation",
+      "score": 0.75,
+      "explanation": "Directly discusses how unresolved Eritrean/Amhara presence stalls DDR, return of IDPs, territorial arrangements (Western Tigray), transitional justice, and delayed elections. Could add more specifics on timelines and mechanisms."
+    },
+    {
+      "name": "Spillover from neighboring conflicts",
+      "score": 0.75,
+      "explanation": "Explains influence of Eritrean troops and Amhara militias holding disputed areas on Tigray’s security and risks. Limited discussion of other adjacent regions’ unrest beyond these two."
+    },
+    {
+      "name": "Humanitarian and displacement context",
+      "score": 1.0,
+      "explanation": "Provides detailed figures on displacement, aid dependence, infrastructure damage, starvation-related deaths, and how this context amplifies instability and complicates recovery."
+    },
+    {
+      "name": "Mediation and dialogue efforts",
+      "score": 0.25,
+      "explanation": "Briefly notes ongoing diplomatic engagement and civil society voices but does not assess concrete mediation mechanisms, roles of religious leaders, AU, or international partners’ effectiveness."
+    },
+    {
+      "name": "Public sentiment and legitimacy crisis",
+      "score": 0.5,
+      "explanation": "Mentions protests by survivors, IDPs, and ex-combatants, and frustration with slow recovery; suggests civilians feel unsafe. Lacks deeper gauge of perceptions of factional motives or calls for alternative political options."
+    },
+    {
+      "name": "Scenarios and outlook",
+      "score": 0.5,
+      "explanation": "Characterizes peace as fragile and outlines risk of destabilization if issues persist, but does not present structured scenarios (e.g., factional consolidation vs escalation) or implications for governance/security in October 2024."
+    },
+    {
+      "name": "Security incidents post-ceasefire",
+      "score": 0.5,
+      "explanation": "Notes sharp drop in organized battles and sporadic clashes post-agreement, but lacks incident patterns, frequency, or whether incidents indicate systematic relapse, especially up to Oct 2024."
+    },
+    {
+      "name": "Administrative control maneuvers",
+      "score": 0.25,
+      "explanation": "References interim governance and unresolved Western Tigray administration but does not detail factional attempts to seize or retain control of interim positions/party organs or procedural compliance."
+    }
+  ],
+  "overall_score": 0.4666666666666667
+}

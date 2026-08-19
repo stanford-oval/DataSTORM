@@ -1,0 +1,85 @@
+{
+  "dataset_id": 6,
+  "dataset_path": "data/notebooks/flag-6.json",
+  "metadata": {
+    "category": "Incident Management",
+    "dataset_description": "The dataset comprises 500 entries simulating ServiceNow incidents table, detailing various attributes such as category, state, open and close dates, involved personnel, and incident specifics like description, and priority. It captures incident management activities with fields like 'opened_at', 'closed_at', 'assigned_to', 'short_description', and 'priority', reflecting the operational handling and urgency of issues across different locations and categories.",
+    "goal": "Analyze the performance trends of human agents to identify discrepancies and propose measures to optimize resolution times across the team.",
+    "header": "Agent Performance Analysis Over Time (Flag 6)",
+    "role": "Team Lead"
+  },
+  "predicted_insights": [
+    "The distribution is highly skewed by one outlier: Fred Luddy’s median is about 4.6× the team median (≈28.8 vs ≈6.25 days), while the other agents cluster between 111.54 and 128.98 hours, indicating most of the team resolves tickets faster than the overall median.",
+    "The single low-volume agent with a 691 h median is a clear outlier, while the ~100-ticket agents cluster around 123–129 h, implying that higher workload corresponds to roughly 5–6× faster median resolution and that targeted coaching/process fixes for the outlier could substantially improve team-wide resolution times.",
+    "While most agents maintained or improved their median resolution times (Q4 medians for others ranged 103–156 hours), Fred Luddy’s Q4 median spiked to 1291.2 hours—over 8x higher—suggesting aging backlog closures or workflow bottlenecks concentrated in his queue, making it the most impactful target for reducing team-wide resolution times.",
+    "Fred Luddy’s IQR (724.8 h) is about 5.2× higher than the average IQR of the other agents (≈140.3 h) and 556.4 hours higher than the next-highest agent (Luke Wilson at 168.391 h), signaling unusually inconsistent resolution times that could benefit from standardization or targeted triage.",
+    "Fred Luddy’s median resolution time increased by 1,449.6 hours (+1,678%) over the year to 1,536.0h in 2024-01—roughly 10x higher than peers—while a negative July median for Howard Johnson flags a likely data/process anomaly that could skew team performance assessments.",
+    "Fred Luddy is a clear outlier with median times of 556.8–806.4 hours (roughly 4–8x higher than peers’ ~45.5–139.2 hours), and prioritization is inconsistent across agents—Beth resolves Critical much faster than High/Moderate (45.5h vs 115.5–150.4h), while others (e.g., Luke and Charlie) show similar or even slower times for Critical than for Moderate.",
+    "Across the full period, Charlie Whitherspoon and Luke Wilson tied for the most closures (103 each) while Fred Luddy had the fewest (76); the highest single-month output was 13 (Charlie in Jun and Aug 2023), and August 2023 was the team peak with 48 closures overall, contrasted by Fred’s dip to just 2, indicating uneven workload distribution at peak demand.",
+    "Fred Luddy’s resolution times are extreme outliers (median 691.20 h and p90 1437.60 h), roughly 5.6x and 5.3x higher than the peer averages (~122.84 h median, ~270.39 h p90), indicating a concentrated long-tail bottleneck where targeted intervention could significantly lower team-wide resolution times.",
+    "Fred Luddy’s median resolution times are extreme outliers across all priorities—556.8/705.6/806.4 hours—about 4.5x, 5.5x, and 6.3x above the team medians (124.2/127.41/127.17), while the fastest performers are Beth Anglin for Critical (45.48h) and High (115.47h) and Howard Johnson for Moderate (91.68h), indicating a concentrated bottleneck that likely drives overall cycle time inflation.",
+    "Across these agents, an average of 93.43% (range 92.31%–96.12%, spread 3.81 percentage points) of assigned tickets are high/critical, indicating a uniformly urgent workload that likely pressures resolution times and suggests value in rebalancing priorities or enhancing triage.",
+    "Half of all open tickets in the dataset are unassigned (11 of 22), and among assigned agents only Fred Luddy has a materially higher open rate (9.52% vs peers ≤2%), highlighting both an uneven workload and a potential assignment bottleneck.",
+    "Across 478 closed tickets, only 21 (4.39%) were resolved within 24 hours—best at 6.12% and worst at 0% (a 6.12 pp spread)—indicating a team-wide latency issue rather than outliers and suggesting that standardized fast-track triage could materially improve 24-hour resolution rates."
+  ],
+  "predicted_summary": "One agent is a clear outlier driving delays and variability: Fred Luddy’s median resolution time is 691.2 hours—over 4.6× the team-wide median of 150.03 hours—and his slow tail is extreme (90th percentile 1,437.6 hours vs 240–316 hours for peers). His resolution times rose every month from 86.4 hours in 2023-01 to 1,536.0 hours in 2024-01 (+1,449.6 hours), with the largest quarterly increase in 2023 (+1,094.4 hours from Q1 to Q4) and the widest 2023 spread (IQR 724.8 hours). He also resolved 0% of closed tickets within 24 hours (peers 3.9–6.1%) and has the highest open-ticket rate at 9.52% (peers 0–2%).\nAcross agents, handling more tickets is strongly associated with faster median resolution: the Pearson correlation between total assigned counts and median resolution time is -0.972 (n=5). Agents with about 103 tickets have medians around 123–128 hours, whereas the agent with 76 tickets has a median of 691 hours.\nDifferences are not explained by case mix: each agent works a similar share of high/critical tickets (≈92–96%). Within each priority, Fred Luddy’s medians are 556.8 (Critical), 705.6 (High), and 806.4 (Moderate) hours—several multiples above peers, whose medians cluster around 45–139 hours (Critical), 115–132 hours (High), and 92–150 hours (Moderate). Overall, peers’ medians are tightly grouped at ~112–129 hours versus 691.2 hours for Fred.",
+  "score_insights": 0.48957218401939917,
+  "score_insights_dict": [
+    {
+      "gt_insight": "Fred Luddy has a significantly higher average TTR compared to other agents",
+      "pred_insight": "Fred Luddy’s resolution times are extreme outliers (median 691.20 h and p90 1437.60 h), roughly 5.6x and 5.3x higher than the peer averages (~122.84 h median, ~270.39 h p90), indicating a concentrated long-tail bottleneck where targeted intervention could significantly lower team-wide resolution times.",
+      "score": 0.8145858760596912
+    },
+    {
+      "gt_insight": "Fred Luddy's TTR begins to increase linearly over time compared to other agents who maintain a uniform TTR",
+      "pred_insight": "While most agents maintained or improved their median resolution times (Q4 medians for others ranged 103–156 hours), Fred Luddy’s Q4 median spiked to 1291.2 hours—over 8x higher—suggesting aging backlog closures or workflow bottlenecks concentrated in his queue, making it the most impactful target for reducing team-wide resolution times.",
+      "score": 0.5851031923365259
+    },
+    {
+      "gt_insight": "The number of incidents assigned to each agent, including Fred Luddy, remains uniform over time",
+      "pred_insight": "Half of all open tickets in the dataset are unassigned (11 of 22), and among assigned agents only Fred Luddy has a materially higher open rate (9.52% vs peers ≤2%), highlighting both an uneven workload and a potential assignment bottleneck.",
+      "score": 0.23711421620379544
+    },
+    {
+      "gt_insight": "The number of open incidents for Fred Luddy is increasing over time, coinciding with the period where his TTR began to increase linearly",
+      "pred_insight": "While most agents maintained or improved their median resolution times (Q4 medians for others ranged 103–156 hours), Fred Luddy’s Q4 median spiked to 1291.2 hours—over 8x higher—suggesting aging backlog closures or workflow bottlenecks concentrated in his queue, making it the most impactful target for reducing team-wide resolution times.",
+      "score": 0.5199242609734092
+    },
+    {
+      "gt_insight": "Continued linear increase in TTR if workload during leave periods is not balanced",
+      "pred_insight": "While most agents maintained or improved their median resolution times (Q4 medians for others ranged 103–156 hours), Fred Luddy’s Q4 median spiked to 1291.2 hours—over 8x higher—suggesting aging backlog closures or workflow bottlenecks concentrated in his queue, making it the most impactful target for reducing team-wide resolution times.",
+      "score": 0.29113337452357435
+    }
+  ],
+  "score_summary": 0.8096895022766413,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.5377517376481411,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "Fred Luddy is a clear outlier with median times of 556.8–806.4 hours (roughly 4–8x higher than peers’ ~45.5–139.2 hours), and prioritization is inconsistent across agents—Beth resolves Critical much faster than High/Moderate (45.5h vs 115.5–150.4h), while others (e.g., Luke and Charlie) show similar or even slower times for Critical than for Moderate.",
+      "gt_insight": "Fred Luddy has a significantly higher average TTR compared to other agents",
+      "score": 0.8833705422549624
+    },
+    {
+      "pred_insight": "While most agents maintained or improved their median resolution times (Q4 medians for others ranged 103–156 hours), Fred Luddy’s Q4 median spiked to 1291.2 hours—over 8x higher—suggesting aging backlog closures or workflow bottlenecks concentrated in his queue, making it the most impactful target for reducing team-wide resolution times.",
+      "gt_insight": "Fred Luddy's TTR begins to increase linearly over time compared to other agents who maintain a uniform TTR",
+      "score": 0.5930738559813935
+    },
+    {
+      "pred_insight": "Across these agents, an average of 93.43% (range 92.31%–96.12%, spread 3.81 percentage points) of assigned tickets are high/critical, indicating a uniformly urgent workload that likely pressures resolution times and suggests value in rebalancing priorities or enhancing triage.",
+      "gt_insight": "The number of incidents assigned to each agent, including Fred Luddy, remains uniform over time",
+      "score": 0.24432643795572045
+    },
+    {
+      "pred_insight": "While most agents maintained or improved their median resolution times (Q4 medians for others ranged 103–156 hours), Fred Luddy’s Q4 median spiked to 1291.2 hours—over 8x higher—suggesting aging backlog closures or workflow bottlenecks concentrated in his queue, making it the most impactful target for reducing team-wide resolution times.",
+      "gt_insight": "The number of open incidents for Fred Luddy is increasing over time, coinciding with the period where his TTR began to increase linearly",
+      "score": 0.6149555299901279
+    },
+    {
+      "pred_insight": "Fred Luddy’s median resolution time increased by 1,449.6 hours (+1,678%) over the year to 1,536.0h in 2024-01—roughly 10x higher than peers—while a negative July median for Howard Johnson flags a likely data/process anomaly that could skew team performance assessments.",
+      "gt_insight": "Continued linear increase in TTR if workload during leave periods is not balanced",
+      "score": 0.3530323220585016
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.10692187855304983,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.8895334069673853
+}

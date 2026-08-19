@@ -1,0 +1,55 @@
+{
+  "dataset_id": 54,
+  "dataset_path": "data/notebooks/flag-54.json",
+  "metadata": {
+    "category": "Incident Management",
+    "dataset_description": "The dataset comprises 500 entries simulating ServiceNow incidents table, detailing various attributes such as category, state, open and close dates, involved personnel, and incident specifics like description, and priority. It captures incident management activities with fields like 'opened_at', 'closed_at', 'assigned_to', 'short_description', and 'priority', reflecting the operational handling and urgency of issues across different locations and categories.",
+    "goal": "Analyze the workload distribution among agents to identify any overload situations, specifically focusing on any agent with increasing assignments.",
+    "header": "Incident Assignment and Resolution Efficiency Analysis (Flag 54)",
+    "role": "L2 Incident Analyst"
+  },
+  "predicted_insights": [
+    "Workloads varied within a modest band (monthly counts per agent ranged roughly 2–14), and while Charlie Whitherspoon showed the largest upward slope (+0.225 incidents/month), the p≈0.096 suggests this uptick is more likely normal fluctuation than a sustained increase indicating emerging overload.",
+    "Exceedances were rare because the 1.5× team-average thresholds were high (about 9.0–15.6 per month): for example, a peak like 14 assignments in 2023-09 was still below the 14.4 threshold, indicating workloads were generally balanced with no sustained overload.",
+    "This +9 jump equals a 450% MoM surge and lifted his January load to 11—37.5% above his median monthly level (8) and near his peak (13 in 2023-10)—signaling notable workload volatility that could indicate overload risk if sustained.",
+    "This perfect balance (≈7.692 assignments/agent/month, or about 38.46 assignments/month team-wide) implies no sustained average overload on any single agent during the period, suggesting evenly distributed assignments.",
+    "Workload pressure clustered in early August, with three agents hitting peaks between Aug 1–9, and Charlie’s 33 concurrent incidents exceeded the team’s median peak (29) by about 14%, indicating a concentrated overload risk during that window.",
+    "While Charlie Whitherspoon was the only agent with any increase (+0.02), all others saw notable declines (−1.57 to −3.08), indicating overall concurrent load eased across the team with no meaningful overload shift.",
+    "During October 2023, 52 incidents were assigned across 5 agents; Howard Johnson handled 25% (13), which is about 25% above the per-agent average (10.4) and 18% more than the next busiest agent, indicating a notable workload concentration.",
+    "Fred’s Feb–Jun rise from 2 to 11 (+450%) was the longest sustained climb among agents, and he later peaked at 14 in September; no other agent recorded more than a 2-month increase streak, flagging Fred as the most likely overload risk in 2023.",
+    "Charlie Whitherspoon’s increase (~0.203/mo) implies about +2.4 assignments per year—over 4x Luke Wilson’s rate (~0.6/yr)—and the team’s workload peaked sharply in 2023-09 (26 high-priority assignments total), including a spike of 10 for Fred Luddy that month, signaling concentrated overload periods.",
+    "The late-2023 surge is broad-based: by Nov–Jan the monthly averages rose to roughly 1,351–5,727 hours (e.g., Beth 5,415–5,097, Charlie 5,727, Fred 5,093–4,293, Luke 5,234, Howard 4,530–1,351), indicating a system-wide slowdown consistent with overload or growing backlog rather than an isolated agent issue.",
+    "All five agents experienced at least one spike, two agents (Luke Wilson and Charlie Whitherspoon) had multiple spikes, and 5 of 7 anomalies (71%) clustered in H2 2023—with the largest surge being Fred Luddy’s 14 in 2023-09—suggesting late-2023 load concentration and recurring overload for select agents.",
+    "The consistently positive correlations indicate that higher workloads tend to slow closure times for every agent, with Howard Johnson (r≈0.81) and Beth Anglin (r≈0.78) showing the strongest sensitivity to increasing assignments and thus the highest overload risk."
+  ],
+  "predicted_summary": "Work distribution was broadly balanced: all five agents averaged 7.692 assignments per month, and none showed a statistically significant positive trend in monthly assignments (e.g., Charlie Whitherspoon slope≈+0.225, p≈0.096). No agent had two or more consecutive months exceeding 1.5× the team monthly average, indicating no sustained assignment overload across the period.\nShort-lived spikes did occur across the team: Howard Johnson had the largest month-over-month jump (+9, from 2 in 2023-12 to 11 in 2024-01) and the highest count in the busiest overall month (13 in 2023-10). Each agent experienced at least one anomalously high month relative to their own baseline (>90th percentile; 7 agent-months total), and Charlie Whitherspoon reached the highest concurrency peak with 33 simultaneous open incidents (first observed 2023-08-09).\nIndicators of rising workload intensity and resolution strain: all agents exhibited a statistically significant upward trend in average time-to-close over 2023-01 to 2024-01, and each showed a positive relationship between monthly assignment count and median time-to-close. High‑priority assignments increased over time for four agents—Charlie (+0.203/month), Fred (+0.148/month), Howard (+0.143/month), and Luke (+0.049/month)—suggesting growing severity even without a clear rise in total assignment volume.",
+  "score_insights": 0.7015080482116487,
+  "score_insights_dict": [
+    {
+      "gt_insight": "All agents have the same number of incidents assigned to them.",
+      "pred_insight": "This perfect balance (≈7.692 assignments/agent/month, or about 38.46 assignments/month team-wide) implies no sustained average overload on any single agent during the period, suggesting evenly distributed assignments.",
+      "score": 0.8437181353301714
+    },
+    {
+      "gt_insight": "There is no visible trend in the number of incidents assigned to each agent over time.",
+      "pred_insight": "Workloads varied within a modest band (monthly counts per agent ranged roughly 2–14), and while Charlie Whitherspoon showed the largest upward slope (+0.225 incidents/month), the p≈0.096 suggests this uptick is more likely normal fluctuation than a sustained increase indicating emerging overload.",
+      "score": 0.559297961093126
+    }
+  ],
+  "score_summary": 0.5880730864341354,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.6779759970855128,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "This perfect balance (≈7.692 assignments/agent/month, or about 38.46 assignments/month team-wide) implies no sustained average overload on any single agent during the period, suggesting evenly distributed assignments.",
+      "gt_insight": "All agents have the same number of incidents assigned to them.",
+      "score": 0.7723584277375246
+    },
+    {
+      "pred_insight": "Workloads varied within a modest band (monthly counts per agent ranged roughly 2–14), and while Charlie Whitherspoon showed the largest upward slope (+0.225 incidents/month), the p≈0.096 suggests this uptick is more likely normal fluctuation than a sustained increase indicating emerging overload.",
+      "gt_insight": "There is no visible trend in the number of incidents assigned to each agent over time.",
+      "score": 0.5835935664335011
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.1714640727069539,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.512792040579156
+}

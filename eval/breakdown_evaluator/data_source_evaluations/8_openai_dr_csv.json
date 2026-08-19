@@ -1,0 +1,122 @@
+{
+  "total_insights": 11,
+  "total_classified": 11,
+  "acled_count": 4,
+  "non_acled_count": 7,
+  "pct_acled": 0.36363636363636365,
+  "details": [
+    {
+      "evidence": "By August–September 2024, Sudan’s civil war between the national army (Gen. Abdel Fattah al-Burhan) and the RSF (Mohamed “Hemedti” Dagalo) had entered its second year, with widespread fighting across the country.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general contextual summary about the civil war’s timeline and actors, not citing specific ACLED event data, counts, locations, or trends. It reads as general analysis rather than data derived from ACLED.",
+      "source_context": "Background overview of conflict timeline and parties"
+    },
+    {
+      "evidence": "Indiscriminate shelling and airstrikes by both sides turned many areas, including the Khartoum capital region, into active battlegrounds with heavy civilian casualties.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a broad qualitative claim about indiscriminate shelling and airstrikes causing heavy civilian casualties without citing specific event counts, locations, dates, or actor/event data. It reads as general analysis rather than a detail grounded in ACLED event records or explicitly attributed to ACLED.",
+      "source_context": "Background noting tactics and their impact on civilians"
+    },
+    {
+      "evidence": "UN estimates put the death toll above 4,000 by August 2024, with the true number likely higher.",
+      "is_acled_data": false,
+      "reasoning": "The evidence cites a UN estimate of total deaths, which is a humanitarian statistic from UN agencies, not ACLED event-based fatality data or analysis explicitly attributed to ACLED.",
+      "source_context": "Background casualty estimate"
+    },
+    {
+      "evidence": "In mid-August 2024, the Sudanese Air Force bombed a neighborhood in Khartoum North (Bahri) for the first time, killing about ten people.",
+      "is_acled_data": true,
+      "reasoning": "The evidence describes a specific conflict event (Sudanese Air Force airstrike in Khartoum North in mid-August 2024) with location, timing, actor, event type, and fatalities—details that align with ACLED event data and fatality reporting. This type of granular incident report is characteristic of ACLED-sourced information.",
+      "source_context": "Key incidents describing mid-August airstrike on Bahri"
+    },
+    {
+      "evidence": "In early September 2024, RSF forces shelled a crowded market in Sennar, reportedly killing around 40 civilians.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites a specific conflict event with actor (RSF), tactic (shelling), target/location (crowded market in Sennar), date window (early September 2024), and casualties (~40 civilians). These elements match ACLED’s event-level data (violence against civilians, explosions/remote violence, fatality counts, and geographic detail).",
+      "source_context": "Key incidents detailing RSF shelling in Sennar"
+    },
+    {
+      "evidence": "In mid-September 2024, Sudanese army airstrikes in Nyala, South Darfur, hit a market and residential areas, killing roughly 40 civilians according to local sources.",
+      "is_acled_data": true,
+      "reasoning": "The evidence describes a specific conflict event (airstrikes in Nyala, South Darfur), includes timing (mid-September 2024), location, actors (Sudanese army), event type (airstrikes hitting market/residential areas), and casualty figures (~40 civilians). These elements align with ACLED’s event-based data (event descriptions, violence against civilians, fatalities, geographic details). While not explicitly attributed, the structure matches typical ACLED event reporting.",
+      "source_context": "Key incidents describing airstrikes in Nyala"
+    },
+    {
+      "evidence": "Around the same period, a suspected army drone strike on an open market in southern Khartoum killed over 40 people in a single incident.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites a specific conflict event (a drone strike in southern Khartoum), including location, timing context, actor implication (suspected army), event type (air/drone strike), and a fatality figure (over 40 killed). These are characteristic elements contained in ACLED event data and descriptions, so it is consistent with being derived from ACLED.",
+      "source_context": "Key incidents describing suspected drone strike in Khartoum"
+    },
+    {
+      "evidence": "These market and residential area attacks drew widespread condemnation, with Sudanese civil groups and international observers calling them potential war crimes.",
+      "is_acled_data": false,
+      "reasoning": "The statement is general commentary about condemnation and characterizing attacks as potential war crimes; it does not reference specific ACLED event data, counts, locations, actors, or figures, nor is it attributed to ACLED.",
+      "source_context": "Reactions to civilian-impacting attacks"
+    },
+    {
+      "evidence": "Toward late September 2024, the Sudanese army launched a major offensive to reclaim RSF-held parts of Khartoum, beginning with pre-dawn air raids on September 26 and followed by heavy artillery battles across the city.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a narrative about a specific offensive and air raids without citing ACLED or presenting ACLED-style event counts, fatalities, or coded event details. It could stem from media reporting; no explicit ACLED attribution or dataset characteristics are present.",
+      "source_context": "Escalation in late September offensive details"
+    },
+    {
+      "evidence": "Fighting also intensified in other regions such as Darfur and Kordofan during these months, highlighting the central role of artillery shelling and airstrikes nationwide.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general qualitative claim about intensified fighting in Darfur and Kordofan and the prominence of artillery and airstrikes; it lacks specific event counts, locations, dates, fatalities, or explicit attribution to ACLED. This reads as broad analysis rather than data derived from ACLED event records.",
+      "source_context": "Escalation and spread of violence beyond Khartoum"
+    },
+    {
+      "evidence": "The extensive use of heavy weapons by both factions in August–September 2024 had devastating consequences for civilians and deepened Sudan’s humanitarian crisis.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a broad qualitative assessment about heavy weapons worsening the humanitarian crisis, without citing specific ACLED event counts, locations, fatalities, or trend metrics. It reads as general analysis rather than data explicitly derived from ACLED.",
+      "source_context": "Overall assessment of impact on civilians and humanitarian situation"
+    }
+  ],
+  "insights": [
+    {
+      "insight": "By August–September 2024, Sudan’s civil war between the national army (Gen. Abdel Fattah al-Burhan) and the RSF (Mohamed “Hemedti” Dagalo) had entered its second year, with widespread fighting across the country.",
+      "context": "Background overview of conflict timeline and parties"
+    },
+    {
+      "insight": "Indiscriminate shelling and airstrikes by both sides turned many areas, including the Khartoum capital region, into active battlegrounds with heavy civilian casualties.",
+      "context": "Background noting tactics and their impact on civilians"
+    },
+    {
+      "insight": "UN estimates put the death toll above 4,000 by August 2024, with the true number likely higher.",
+      "context": "Background casualty estimate"
+    },
+    {
+      "insight": "In mid-August 2024, the Sudanese Air Force bombed a neighborhood in Khartoum North (Bahri) for the first time, killing about ten people.",
+      "context": "Key incidents describing mid-August airstrike on Bahri"
+    },
+    {
+      "insight": "In early September 2024, RSF forces shelled a crowded market in Sennar, reportedly killing around 40 civilians.",
+      "context": "Key incidents detailing RSF shelling in Sennar"
+    },
+    {
+      "insight": "In mid-September 2024, Sudanese army airstrikes in Nyala, South Darfur, hit a market and residential areas, killing roughly 40 civilians according to local sources.",
+      "context": "Key incidents describing airstrikes in Nyala"
+    },
+    {
+      "insight": "Around the same period, a suspected army drone strike on an open market in southern Khartoum killed over 40 people in a single incident.",
+      "context": "Key incidents describing suspected drone strike in Khartoum"
+    },
+    {
+      "insight": "These market and residential area attacks drew widespread condemnation, with Sudanese civil groups and international observers calling them potential war crimes.",
+      "context": "Reactions to civilian-impacting attacks"
+    },
+    {
+      "insight": "Toward late September 2024, the Sudanese army launched a major offensive to reclaim RSF-held parts of Khartoum, beginning with pre-dawn air raids on September 26 and followed by heavy artillery battles across the city.",
+      "context": "Escalation in late September offensive details"
+    },
+    {
+      "insight": "Fighting also intensified in other regions such as Darfur and Kordofan during these months, highlighting the central role of artillery shelling and airstrikes nationwide.",
+      "context": "Escalation and spread of violence beyond Khartoum"
+    },
+    {
+      "insight": "The extensive use of heavy weapons by both factions in August–September 2024 had devastating consequences for civilians and deepened Sudan’s humanitarian crisis.",
+      "context": "Overall assessment of impact on civilians and humanitarian situation"
+    }
+  ],
+  "prompt": "Give me a summary of artillery shelling and airstrikes political violence, and conflict situations during August - September 2024 in Sudan."
+}

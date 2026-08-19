@@ -1,0 +1,282 @@
+{
+  "total_insights": 27,
+  "total_classified": 27,
+  "acled_count": 20,
+  "non_acled_count": 7,
+  "pct_acled": 0.7407407407407407,
+  "details": [
+    {
+      "evidence": "In early 2024, Rwanda-backed M23 operations in North Kivu shifted to artillery-led, short, decisive campaigns with drones as episodic enablers, producing rapid strike-to-territory swings along the Sake–Mushaki–Kibumba–Goma corridor.",
+      "is_acled_data": false,
+      "reasoning": "The evidence is a qualitative operational characterization of M23 tactics (artillery-led campaigns, drone use, rapid territorial shifts along a corridor) without citing specific ACLED event counts, locations with event records, fatalities, or actor-level entries. It reads as analytical narrative rather than derived from ACLED’s event-based data or explicitly attributed to ACLED.",
+      "source_context": "Intro and Key Findings; describes stand-off strikes followed by compressed territorial changes and the corridor focus."
+    },
+    {
+      "evidence": "ACLED data show a clear 2024 inflection: surges in RDF-linked artillery/shelling, episodic air/drone strikes, and clustered territorial outcomes, with a February peak and sustained shelling through June.",
+      "is_acled_data": true,
+      "reasoning": "The evidence explicitly cites “ACLED data” and describes conflict event trends (artillery/shelling, air/drone strikes, territorial outcomes), a temporal pattern (February peak, sustained through June), and actor linkage (RDF), which align with ACLED’s event-based, actor-level, and trend analysis data types.",
+      "source_context": "Key Findings and The 2024 inflection section citing monthly tallies and clustering."
+    },
+    {
+      "evidence": "February 2024 recorded the highest combined RDF-linked air/drone (6) and shelling (8) events, followed by sustained shelling in April–June (6, 8, 4), marking the clearest monthly clustering of stand-off fires.",
+      "is_acled_data": true,
+      "reasoning": "The evidence reports monthly counts of specific conflict event types (RDF-linked air/drone and shelling events) and identifies temporal clustering, which aligns with ACLED’s event-level data and trend analysis. This type of actor-linked event counting and monthly patterning is characteristic of ACLED-derived insights.",
+      "source_context": "The 2024 inflection; monthly counts detailed from ACLED-derived series [1][2][3]."
+    },
+    {
+      "evidence": "Stand-off strike events in North Kivu jumped from near-zero before 2024 to 38 in 2024, alongside a rise in direct battles to 120, indicating a shift toward conventional fires supporting maneuver.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific counts of conflict event types (stand-off strikes and direct battles) and temporal change (near-zero before 2024 to 38 and 120 in 2024), which aligns with ACLED’s event-level battle/remote violence data and trend analysis derived from those events.",
+      "source_context": "The 2024 inflection; year-over-year comparison for stand-off events and battles [4][5]."
+    },
+    {
+      "evidence": "A precise February pairing in Shasha shows an air/drone strike on February 6 followed by territorial overtake on February 7, exemplifying compressed 1–14 day strike-to-territory sequences.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific conflict events with exact dates, locations (Shasha), and event types (air/drone strike followed by territorial overtake) and discusses a tight temporal sequence between events. This aligns with ACLED’s event-level battle and remote violence data and temporal pattern analysis, suggesting it is derived from ACLED-style event records.",
+      "source_context": "The 2024 inflection; specific Shasha linkage case [1][2][6]."
+    },
+    {
+      "evidence": "RDF-linked events are overwhelmingly concentrated in North Kivu geographically, outpacing neighboring areas.",
+      "is_acled_data": true,
+      "reasoning": "The statement references geographic concentration of RDF-linked events in North Kivu, which aligns with ACLED’s geographic conflict event data and actor-level event counts across subnational areas. This is consistent with ACLED-derived event distribution analysis.",
+      "source_context": "The 2024 inflection; spatial concentration via disambiguated mentions [7]."
+    },
+    {
+      "evidence": "Artillery is the workhorse: in 2023–2024, M23/RDF-linked actors conducted about six times more shelling events (145) than air/drone strikes (25) in North Kivu, and shelling caused more total reported deaths (197 vs 64).",
+      "is_acled_data": true,
+      "reasoning": "The evidence provides specific counts of conflict event types (shelling vs air/drone strikes), a subnational location (North Kivu), a defined time period (2023–2024), actor attribution (M23/RDF-linked), and reported fatalities—exactly the kinds of event-level statistics and temporal patterns characteristic of ACLED data.",
+      "source_context": "How the playbook works; comparative modality counts and deaths [8]."
+    },
+    {
+      "evidence": "Most shelling events report zero or low fatalities, suggesting a shaping-fires doctrine that suppresses and degrades positions to enable ground gains rather than mass-casualty effects.",
+      "is_acled_data": false,
+      "reasoning": "The statement is an interpretive military analysis about shelling effects and doctrine, not a citation of specific ACLED event data or statistics. It lacks explicit ACLED attribution, event counts, locations, or fatality figures tied to ACLED.",
+      "source_context": "How the playbook works; lethality patterns and doctrinal interpretation [9][10]."
+    },
+    {
+      "evidence": "Rwanda-linked drone activity is episodic, clustering in late 2023 to early 2024 with a fatality spike in January–February, and absent outside that window; FARDC/SADC show no independent air/drone strikes in the period.",
+      "is_acled_data": true,
+      "reasoning": "The evidence describes temporal clustering of drone/airstrike events, absence outside a window, and a fatality spike—these are conflict event and fatality trend patterns tied to specific actors (Rwanda-linked, FARDC/SADC). Such temporal and actor-level event/fatality analysis aligns with ACLED’s event data and trend analysis capabilities.",
+      "source_context": "How the playbook works; monthly sequencing and actor comparison for air/drone [11]."
+    },
+    {
+      "evidence": "M23/RDF shelling produces higher deaths per event than FARDC/SADC shelling, implying better targeting, munitions, or fire control, despite FARDC/SADC firing more overall.",
+      "is_acled_data": true,
+      "reasoning": "The evidence compares shelling outcomes (deaths per event) between specific actors (M23/RDF vs FARDC/SADC) and references event counts and fatality figures, which align with ACLED’s battle-related event data and actor-level fatality metrics. This type of quantitative comparison (deaths per event by actor) can be derived from ACLED’s event and casualty data.",
+      "source_context": "How the playbook works; efficiency comparison of shelling lethality [12]."
+    },
+    {
+      "evidence": "The Sake–Mushaki–Kibumba–Goma corridor’s tempo peaks in February 2024 and is predominantly shelling, with ambiguous attribution in field logs.",
+      "is_acled_data": true,
+      "reasoning": "Mentions a specific corridor, temporal peak (February 2024), event type predominance (shelling), and ambiguous attribution in field logs—these align with ACLED-style event data, geographic breakdowns, and temporal trend analysis typical of ACLED datasets.",
+      "source_context": "How the playbook works; corridor tempo and attribution opacity [13]."
+    },
+    {
+      "evidence": "Sake functions as a churn hub: a February 2024 sequence saw shelling on Feb 6, a non-state overtake six days later, and a government regain five days after—two control changes within 11 days at the same node.",
+      "is_acled_data": true,
+      "reasoning": "The evidence describes specific conflict events with dates, types (shelling, non-state overtake, government regain), and control changes at a defined location over a short period, which aligns with ACLED’s battle-related event data, temporal patterns, and actor-level activity typical of ACLED event descriptions.",
+      "source_context": "The corridor that moves; Sake sequence details [14][15]."
+    },
+    {
+      "evidence": "Karuba exhibited a roughly two-week strike-to-overtake sequence, while Shasha saw a one-day air/drone-triggered overtake, indicating drones as triggers within artillery-led campaigns.",
+      "is_acled_data": false,
+      "reasoning": "The evidence describes specific operational sequences (strike-to-overtake timing and drone-triggered overtakes) in Karuba and Shasha, which reads as tactical/operational analysis rather than a citation of ACLED event counts, fatalities, or coded battle events. There is no attribution to ACLED, nor clear use of ACLED-style event data or metrics. It appears to be narrative analysis, not ACLED-derived data.",
+      "source_context": "The corridor that moves; adjacent node patterns [14][15]."
+    },
+    {
+      "evidence": "Within the corridor in 2024, shelling accounts for about five times more RDF-mention stand-off strike events than air/drone and drives higher aggregate lethality; drones are less frequent and less severe in this subset.",
+      "is_acled_data": true,
+      "reasoning": "The evidence discusses counts and relative frequencies of specific conflict event types (shelling vs. air/drone stand-off strikes) and their lethality in 2024 within a defined corridor, tied to a specific actor (RDF). This aligns with ACLED’s event-based data, actor-level activity, temporal patterns, and fatality metrics. The phrasing suggests analysis derived from categorized ACLED events rather than general commentary.",
+      "source_context": "The corridor that moves; modality dominance and lethality within corridor [16]."
+    },
+    {
+      "evidence": "Sake concentrates lethality among RDF-mention strikes, including a late-May outlier that skews fatalities upward, underscoring Sake as a lethality hub amid repeated contestation.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references localized conflict lethality patterns (fatalities), temporal specifics (late-May outlier), and location-based event concentration (Sake as a hub), which align with ACLED’s event-level data, fatalities, and spatiotemporal trend analysis typically derived from ACLED datasets.",
+      "source_context": "The corridor that moves; Sake’s fatality concentration and late-May incident [17][18]."
+    },
+    {
+      "evidence": "Counter-fires by FARDC/SADC contribute to Sake’s skewed fatality profile, with a major late-May shelling incident increasing civilian risk.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references specific conflict events (counter-fires by FARDC/SADC, a late-May shelling incident), effects on civilian risk, and implies a fatality profile skew tied to temporal patterns—elements consistent with ACLED’s event descriptions, battle-related data, and fatality counts. This aligns with ACLED-style actor-level and temporal event analysis rather than general commentary.",
+      "source_context": "The corridor that moves; FARDC/SADC counter-fire impact [18][17]."
+    },
+    {
+      "evidence": "Early-year artillery around Kibumba and successive shelling around Sake and Mushaki drove territorial capture at Mushaki mid-January, with renewed salvos in late May–June.",
+      "is_acled_data": true,
+      "reasoning": "The evidence describes specific battle-related events (artillery and shelling), locations (Kibumba, Sake, Mushaki), and temporal patterns (early-year, mid-January, late May–June), which align with ACLED’s event-level conflict data and trend analysis. It reads like a summary derived from ACLED event records rather than general commentary.",
+      "source_context": "The corridor that moves; timeline of line movement around Mushaki–Sake–Kibumba [18]."
+    },
+    {
+      "evidence": "Near Goma’s periphery (Mugunga, Lac Vert, Mubambiro), shelling clustered in February–April 2024, including 122 mm rockets, without corresponding same-location territorial changes within two weeks.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific conflict event details: precise locations near Goma, timing (Feb–Apr 2024), event type (shelling including 122 mm rockets), and a temporal pattern (no territorial changes within two weeks). These are characteristic of ACLED’s battle/explosions event data, geographic and temporal clustering, and trend analysis, suggesting derivation from ACLED-style event records.",
+      "source_context": "The corridor that moves; urban approach patterns [19]."
+    },
+    {
+      "evidence": "Civilian exposure is acute near Goma: Mubambiro saw multiple shelling events with all recorded deaths as civilians; Mugunga also had all-civilian fatalities; Lac Vert’s salvos recorded zero fatalities.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific conflict locations (Mubambiro, Mugunga, Lac Vert), event types (shelling), and fatality outcomes with civilian-only casualties, which aligns with ACLED’s event-based data, subnational geography, and violence-against-civilians/fatality statistics. This is the kind of granular conflict event information ACLED provides.",
+      "source_context": "The corridor that moves; civilian risk distribution near urban edge [19][20]."
+    },
+    {
+      "evidence": "Across 2024, RDF-linked air/artillery strike events in North Kivu contain zero co-mentions of FDLR or its aliases, contradicting Kigali’s stated FDLR-focused rationale for operations.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references specific conflict event types (RDF-linked air/artillery strikes), actor co-mentions, and temporal patterns in 2024—elements typical of ACLED’s event-level, actor-coded data and trend analysis. The claim about zero co-mentions aligns with ACLED’s actor/activity coding and event descriptions, indicating derivation from ACLED datasets.",
+      "source_context": "What the data say Rwanda’s war is not; monthly co-mention check [21]."
+    },
+    {
+      "evidence": "Among 38 RDF-referenced strike events in 2024, none involve FDLR; most are tied to M23 contexts, while fewer SADC-linked counters account for disproportionate fatalities (6 events, 69 deaths).",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific counts of conflict events, actor associations (RDF, FDLR, M23, SADC), and fatality figures for 2024—typical ACLED event- and actor-level data with temporal patterns. This aligns with ACLED’s event counts, actor activity, and fatalities, indicating derivation from ACLED data.",
+      "source_context": "What the data say Rwanda’s war is not; 2024 co-mention matrix and counterpart lethality [22]."
+    },
+    {
+      "evidence": "A broader 2023–2024 opponent bucketing shows no FDLR-targeted strikes, with most strikes categorized against M23/allied non-state actors, indicating a proxy fight rather than counter-FDLR operations.",
+      "is_acled_data": false,
+      "reasoning": "The statement is an analytical characterization of strike targeting patterns (“opponent bucketing” showing no FDLR-targeted strikes and most against M23/allied actors). It does not cite ACLED event counts, locations, actor codes, or temporal trends explicitly tied to ACLED data. Without attribution to ACLED or concrete event-level metrics, it reads as general analysis rather than ACLED-derived data.",
+      "source_context": "What the data say Rwanda’s war is not; opponent bucketing [23]."
+    },
+    {
+      "evidence": "Field notes and actor strings frequently register “M23–RDF” and report RDF heavy artillery deployments along the border, reflecting a semi-overt, effects-driven proxy artillery campaign around Sake–Goma.",
+      "is_acled_data": true,
+      "reasoning": "Mentions of “actor strings” like “M23–RDF,” field notes referencing event codings, and reports of specific deployments and proxy artillery activity around precise locations align with ACLED’s actor-level event data and geocoded conflict reporting. This phrasing is characteristic of ACLED event descriptions and coding conventions, indicating derivation from ACLED data.",
+      "source_context": "What the data say Rwanda’s war is not; notes and actor string patterns [24][25]."
+    },
+    {
+      "evidence": "Regional Burundi tensions rose in late 2024, especially around Cibitoke, but are decoupled from corridor strike peaks; October shows high Burundi tensions and zero corridor strikes.",
+      "is_acled_data": true,
+      "reasoning": "The statement references temporal and geographic conflict trends (Burundi tensions rising in late 2024, concentrated around Cibitoke) and contrasts them with ‘corridor strike’ counts (zero in October). This aligns with ACLED-style event data and trend analysis—subnational location, time-specific tension levels, and event-type counts—indicative of derivation from ACLED datasets or metrics.",
+      "source_context": "What the data say Rwanda’s war is not; timing and correlation analysis [26][27]."
+    },
+    {
+      "evidence": "The deterrence environment is defined by competitive artillery salvos rather than sustained drone warfare; FARDC/SADC counters are fewer but can be far deadlier per event.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a qualitative characterization of the conflict environment and comparative lethality of counters, not a reference to specific ACLED event data, counts, actor-level entries, or ACLED-derived trends. It reads as analytical commentary rather than data explicitly tied to ACLED metrics.",
+      "source_context": "Conclusion and body; synthesis of artillery-led dynamics and counter-fire lethality [11][18]."
+    },
+    {
+      "evidence": "Humanitarian planning should prioritize pre-positioning around Sake and Goma due to localized, punctuated strike-to-territory swings and concentrated civilian risk on urban approaches.",
+      "is_acled_data": false,
+      "reasoning": "The evidence is a humanitarian planning recommendation and geopolitical analysis about pre-positioning around Sake and Goma, referencing strike-to-territory swings and civilian risk without citing specific ACLED event data, counts, locations, fatalities, or actor-level details. It appears as analytical guidance rather than information explicitly derived from ACLED datasets.",
+      "source_context": "Conclusion; policy implications drawn from corridor risks [19][20]."
+    },
+    {
+      "evidence": "Diplomatic efforts should aim to curb cross-border stand-off exchanges rather than focusing on a sustained drone threat, which remains episodic in the record.",
+      "is_acled_data": false,
+      "reasoning": "This is a general policy/diplomatic analysis statement about focusing on cross-border standoff exchanges versus drone threats. It does not reference specific ACLED event data, counts, fatalities, locations, or actor-level data, and thus is not derived from ACLED.",
+      "source_context": "Conclusion; diplomatic recommendation based on modality patterns [11][26]."
+    }
+  ],
+  "insights": [
+    {
+      "insight": "In early 2024, Rwanda-backed M23 operations in North Kivu shifted to artillery-led, short, decisive campaigns with drones as episodic enablers, producing rapid strike-to-territory swings along the Sake–Mushaki–Kibumba–Goma corridor.",
+      "context": "Intro and Key Findings; describes stand-off strikes followed by compressed territorial changes and the corridor focus."
+    },
+    {
+      "insight": "ACLED data show a clear 2024 inflection: surges in RDF-linked artillery/shelling, episodic air/drone strikes, and clustered territorial outcomes, with a February peak and sustained shelling through June.",
+      "context": "Key Findings and The 2024 inflection section citing monthly tallies and clustering."
+    },
+    {
+      "insight": "February 2024 recorded the highest combined RDF-linked air/drone (6) and shelling (8) events, followed by sustained shelling in April–June (6, 8, 4), marking the clearest monthly clustering of stand-off fires.",
+      "context": "The 2024 inflection; monthly counts detailed from ACLED-derived series [1][2][3]."
+    },
+    {
+      "insight": "Stand-off strike events in North Kivu jumped from near-zero before 2024 to 38 in 2024, alongside a rise in direct battles to 120, indicating a shift toward conventional fires supporting maneuver.",
+      "context": "The 2024 inflection; year-over-year comparison for stand-off events and battles [4][5]."
+    },
+    {
+      "insight": "A precise February pairing in Shasha shows an air/drone strike on February 6 followed by territorial overtake on February 7, exemplifying compressed 1–14 day strike-to-territory sequences.",
+      "context": "The 2024 inflection; specific Shasha linkage case [1][2][6]."
+    },
+    {
+      "insight": "RDF-linked events are overwhelmingly concentrated in North Kivu geographically, outpacing neighboring areas.",
+      "context": "The 2024 inflection; spatial concentration via disambiguated mentions [7]."
+    },
+    {
+      "insight": "Artillery is the workhorse: in 2023–2024, M23/RDF-linked actors conducted about six times more shelling events (145) than air/drone strikes (25) in North Kivu, and shelling caused more total reported deaths (197 vs 64).",
+      "context": "How the playbook works; comparative modality counts and deaths [8]."
+    },
+    {
+      "insight": "Most shelling events report zero or low fatalities, suggesting a shaping-fires doctrine that suppresses and degrades positions to enable ground gains rather than mass-casualty effects.",
+      "context": "How the playbook works; lethality patterns and doctrinal interpretation [9][10]."
+    },
+    {
+      "insight": "Rwanda-linked drone activity is episodic, clustering in late 2023 to early 2024 with a fatality spike in January–February, and absent outside that window; FARDC/SADC show no independent air/drone strikes in the period.",
+      "context": "How the playbook works; monthly sequencing and actor comparison for air/drone [11]."
+    },
+    {
+      "insight": "M23/RDF shelling produces higher deaths per event than FARDC/SADC shelling, implying better targeting, munitions, or fire control, despite FARDC/SADC firing more overall.",
+      "context": "How the playbook works; efficiency comparison of shelling lethality [12]."
+    },
+    {
+      "insight": "The Sake–Mushaki–Kibumba–Goma corridor’s tempo peaks in February 2024 and is predominantly shelling, with ambiguous attribution in field logs.",
+      "context": "How the playbook works; corridor tempo and attribution opacity [13]."
+    },
+    {
+      "insight": "Sake functions as a churn hub: a February 2024 sequence saw shelling on Feb 6, a non-state overtake six days later, and a government regain five days after—two control changes within 11 days at the same node.",
+      "context": "The corridor that moves; Sake sequence details [14][15]."
+    },
+    {
+      "insight": "Karuba exhibited a roughly two-week strike-to-overtake sequence, while Shasha saw a one-day air/drone-triggered overtake, indicating drones as triggers within artillery-led campaigns.",
+      "context": "The corridor that moves; adjacent node patterns [14][15]."
+    },
+    {
+      "insight": "Within the corridor in 2024, shelling accounts for about five times more RDF-mention stand-off strike events than air/drone and drives higher aggregate lethality; drones are less frequent and less severe in this subset.",
+      "context": "The corridor that moves; modality dominance and lethality within corridor [16]."
+    },
+    {
+      "insight": "Sake concentrates lethality among RDF-mention strikes, including a late-May outlier that skews fatalities upward, underscoring Sake as a lethality hub amid repeated contestation.",
+      "context": "The corridor that moves; Sake’s fatality concentration and late-May incident [17][18]."
+    },
+    {
+      "insight": "Counter-fires by FARDC/SADC contribute to Sake’s skewed fatality profile, with a major late-May shelling incident increasing civilian risk.",
+      "context": "The corridor that moves; FARDC/SADC counter-fire impact [18][17]."
+    },
+    {
+      "insight": "Early-year artillery around Kibumba and successive shelling around Sake and Mushaki drove territorial capture at Mushaki mid-January, with renewed salvos in late May–June.",
+      "context": "The corridor that moves; timeline of line movement around Mushaki–Sake–Kibumba [18]."
+    },
+    {
+      "insight": "Near Goma’s periphery (Mugunga, Lac Vert, Mubambiro), shelling clustered in February–April 2024, including 122 mm rockets, without corresponding same-location territorial changes within two weeks.",
+      "context": "The corridor that moves; urban approach patterns [19]."
+    },
+    {
+      "insight": "Civilian exposure is acute near Goma: Mubambiro saw multiple shelling events with all recorded deaths as civilians; Mugunga also had all-civilian fatalities; Lac Vert’s salvos recorded zero fatalities.",
+      "context": "The corridor that moves; civilian risk distribution near urban edge [19][20]."
+    },
+    {
+      "insight": "Across 2024, RDF-linked air/artillery strike events in North Kivu contain zero co-mentions of FDLR or its aliases, contradicting Kigali’s stated FDLR-focused rationale for operations.",
+      "context": "What the data say Rwanda’s war is not; monthly co-mention check [21]."
+    },
+    {
+      "insight": "Among 38 RDF-referenced strike events in 2024, none involve FDLR; most are tied to M23 contexts, while fewer SADC-linked counters account for disproportionate fatalities (6 events, 69 deaths).",
+      "context": "What the data say Rwanda’s war is not; 2024 co-mention matrix and counterpart lethality [22]."
+    },
+    {
+      "insight": "A broader 2023–2024 opponent bucketing shows no FDLR-targeted strikes, with most strikes categorized against M23/allied non-state actors, indicating a proxy fight rather than counter-FDLR operations.",
+      "context": "What the data say Rwanda’s war is not; opponent bucketing [23]."
+    },
+    {
+      "insight": "Field notes and actor strings frequently register “M23–RDF” and report RDF heavy artillery deployments along the border, reflecting a semi-overt, effects-driven proxy artillery campaign around Sake–Goma.",
+      "context": "What the data say Rwanda’s war is not; notes and actor string patterns [24][25]."
+    },
+    {
+      "insight": "Regional Burundi tensions rose in late 2024, especially around Cibitoke, but are decoupled from corridor strike peaks; October shows high Burundi tensions and zero corridor strikes.",
+      "context": "What the data say Rwanda’s war is not; timing and correlation analysis [26][27]."
+    },
+    {
+      "insight": "The deterrence environment is defined by competitive artillery salvos rather than sustained drone warfare; FARDC/SADC counters are fewer but can be far deadlier per event.",
+      "context": "Conclusion and body; synthesis of artillery-led dynamics and counter-fire lethality [11][18]."
+    },
+    {
+      "insight": "Humanitarian planning should prioritize pre-positioning around Sake and Goma due to localized, punctuated strike-to-territory swings and concentrated civilian risk on urban approaches.",
+      "context": "Conclusion; policy implications drawn from corridor risks [19][20]."
+    },
+    {
+      "insight": "Diplomatic efforts should aim to curb cross-border stand-off exchanges rather than focusing on a sustained drone threat, which remains episodic in the record.",
+      "context": "Conclusion; diplomatic recommendation based on modality patterns [11][26]."
+    }
+  ],
+  "prompt": "Explores the roles and operations of the Rwanda Defence Force in regional conflicts and their geopolitical significance."
+}

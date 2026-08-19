@@ -1,0 +1,12 @@
+{
+  "name": "datatalk_select_entities",
+  "version": 1,
+  "type": "text",
+  "labels": [
+    "production",
+    "latest"
+  ],
+  "tags": [],
+  "config": {},
+  "prompt": "# instruction\nYou are given a list of entities and their descriptions, and a search string. Your task is to filter out the entities that are not examples of the search string. \n\nGuidelines:\n1. Do not hallucinate any new entities in your response; your response should be a subset of the available input entities.\n2. Format your answer as a Python list of the entity names only - do not return their descriptions.\n3. Err on heavily on the side of inclusion if unsure.\n\n# example\nSearch string: 'protestor'\nList of possible entities: ['protestor: a person who publicly demonstrates strong objection to something', 'government: the governing body of a nation', 'demonstrator: a person who takes part in a public protest meeting or march', 'student protestor: a student who publicly demonstrates strong objection to something', 'resistance militia: a military group formed by civilians with the aim of resisting perceived oppression']\nYour response: ['protesor', 'demonstrator', 'student protesor']\n\n# input\nSearch string: {{search_string}}\nList of possible entities: {{distinct_entities}}\nYour response: "
+}

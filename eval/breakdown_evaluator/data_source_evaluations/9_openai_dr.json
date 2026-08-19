@@ -1,0 +1,172 @@
+{
+  "total_insights": 16,
+  "total_classified": 16,
+  "acled_count": 7,
+  "non_acled_count": 9,
+  "pct_acled": 0.4375,
+  "details": [
+    {
+      "evidence": "In April 2023, an insurgency led by the Fano militia erupted in Ethiopia’s Amhara region after the federal government moved to dismantle regional special forces.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general narrative about the start of the Fano insurgency and government actions, not citing specific ACLED event counts, fatalities, locations, or actor-coded events. It reads as contextual background rather than data derived from ACLED.",
+      "source_context": "Background section describing the trigger for conflict in April 2023."
+    },
+    {
+      "evidence": "The disarmament order led to protests and clashes across Amhara in April 2023, causing dozens of deaths that month.",
+      "is_acled_data": true,
+      "reasoning": "The statement references protests, clashes, timing (April 2023), and fatalities (“dozens of deaths”), which align with ACLED’s event-based data on riots/protests, battles, and fatality counts tied to specific temporal patterns. This is the type of information ACLED collects and reports.",
+      "source_context": "Background section referencing ACLED data on initial casualties."
+    },
+    {
+      "evidence": "Fano fighters resisted integration of regional units into the national army, believing it would undermine Amhara’s security.",
+      "is_acled_data": false,
+      "reasoning": "This is a qualitative statement about motives and political stance (Fano resisting integration) rather than specific ACLED event data (counts, locations, fatalities, event descriptions). It reads as general analysis, not derived from ACLED’s structured conflict events.",
+      "source_context": "Background section citing VOA on Fano’s motivations."
+    },
+    {
+      "evidence": "The early unrest in April 2023 set the stage for broader conflict between Fano and Prime Minister Abiy Ahmed’s government.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical claim about how early unrest influenced broader conflict dynamics, without citing specific ACLED event data, counts, actors, locations, or temporal patterns. It reads as narrative commentary rather than a data point derived from ACLED.",
+      "source_context": "Background section summarizing the conflict’s escalation trajectory."
+    },
+    {
+      "evidence": "By early August 2023, Fano militias conducted coordinated attacks, temporarily seizing Lalibela airport and advancing into Bahir Dar and Gondar before federal forces repelled them.",
+      "is_acled_data": true,
+      "reasoning": "The evidence describes specific conflict events with timing (early August 2023), actors (Fano militias, federal forces), locations (Lalibela airport, Bahir Dar, Gondar), and battle dynamics (attacks, temporary seizure, advances, repelled). This aligns with ACLED’s battle/event descriptions and geographic-temporal actor-level data commonly captured by ACLED.",
+      "source_context": "Escalation section citing BBC reporting on August 2023 advances."
+    },
+    {
+      "evidence": "Heavy weapons were used in the conflict, including a government airstrike in Finote Selam that killed at least 26 people in a town square.",
+      "is_acled_data": true,
+      "reasoning": "The evidence describes a specific conflict event with location, tactic (airstrike/heavy weapons), and fatalities—information types that ACLED catalogs in its event data (event descriptions, battle/explosions/remote violence categories, fatality counts, and geolocation). While it could also come from media, such event-level details are within ACLED’s dataset scope, so it is consistent with ACLED-derived data.",
+      "source_context": "Escalation section referencing PBS/AP report on the Finote Selam airstrike."
+    },
+    {
+      "evidence": "The federal government declared a state of emergency in Amhara in August 2023 and deployed ENDF troops to regain control.",
+      "is_acled_data": false,
+      "reasoning": "The statement describes a government policy action (state of emergency declaration and troop deployment). Policy declarations and government actions of this type are not ACLED data unless tied to specific coded events; thus this evidence is not derived from ACLED.",
+      "source_context": "Escalation section detailing government response in August 2023."
+    },
+    {
+      "evidence": "By late August 2023, at least 183 people had been killed in Amhara since July, and over 1,000 people were arrested under the state of emergency.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific fatality counts tied to a timeframe and location (Amhara, July–late August 2023) and references arrests under a state of emergency alongside conflict-related deaths. ACLED commonly reports fatalities and temporal patterns for conflict events in specific regions, making this consistent with ACLED-derived data.",
+      "source_context": "Escalation section citing UN figures via PBS/AP and reporting on arrests."
+    },
+    {
+      "evidence": "The Amhara regional administration was severely disrupted, with some local officials fleeing during the height of the Fano offensive.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a qualitative assessment about administrative disruption and officials fleeing; it is not tied to specific ACLED event records, counts, locations, or actor-level data. It reads as narrative analysis rather than data explicitly attributable to ACLED.",
+      "source_context": "Escalation section referencing BBC on the administration’s instability."
+    },
+    {
+      "evidence": "From April to December 2023, ACLED recorded 647 violent events in Amhara, resulting in approximately 1,559 fatalities.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific counts of violent events and fatalities over a defined period in a specific region, explicitly attributed to ACLED (“ACLED recorded 647 violent events… approximately 1,559 fatalities”), which aligns with ACLED’s event and fatality data.",
+      "source_context": "Continued Violence section citing ACLED conflict data."
+    },
+    {
+      "evidence": "Most incidents and casualties were from battles between Fano fighters and federal forces, alongside significant violence against civilians including targeted killings and massacres.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references patterns typical of ACLED outputs: distribution of incidents and casualties by event type (battles vs. violence against civilians), implying counts and fatalities drawn from event data. This aligns with ACLED’s battle-related data, violence against civilians statistics, and fatality figures.",
+      "source_context": "Continued Violence section referencing ACLED categorization of events."
+    },
+    {
+      "evidence": "The insurgency transitioned into a guerrilla phase, with Fano remnants conducting sporadic rural attacks and the government responding with heavy-handed counterinsurgency operations.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical characterization of conflict dynamics (transition to guerrilla phase, sporadic rural attacks, heavy-handed counterinsurgency) without citing specific ACLED event counts, locations, actor data, or temporal trends. It reads as narrative analysis rather than a data point explicitly derived from ACLED.",
+      "source_context": "Continued Violence section describing the shift in conflict dynamics."
+    },
+    {
+      "evidence": "In January 2024, Fano fighters attacked army units in Merawi, after which Ethiopian soldiers summarily executed dozens of local civilians.",
+      "is_acled_data": true,
+      "reasoning": "The evidence describes a specific conflict event with actors (Fano fighters, Ethiopian soldiers), location (Merawi), time (January 2024), and type (battle followed by violence against civilians), which aligns with ACLED’s event-level data and descriptions. ACLED commonly records such incidents and associated civilian victimization.",
+      "source_context": "Continued Violence section citing Human Rights Watch on Merawi incident."
+    },
+    {
+      "evidence": "Human rights organizations documented abuses and called for investigations into atrocities committed during the conflict.",
+      "is_acled_data": false,
+      "reasoning": "The statement about human rights organizations documenting abuses and calling for investigations is general human-rights reporting, not specific ACLED event data or metrics. It lacks ACLED-linked event counts, actor data, locations, or explicit ACLED attribution.",
+      "source_context": "Continued Violence section referencing Human Rights Watch findings and appeals."
+    },
+    {
+      "evidence": "As of mid-2024, Amhara remained volatile, and the federal parliament extended the state of emergency to address ongoing unrest.",
+      "is_acled_data": false,
+      "reasoning": "The evidence cites a government policy action (extension of a state of emergency) and general volatility, which are policy statements and broad context rather than specific conflict event data or ACLED-derived metrics. This falls under policy/government declarations, not ACLED event statistics or analyses.",
+      "source_context": "Continued Violence section citing VOA on the extension of the state of emergency."
+    },
+    {
+      "evidence": "Overall, the Fano insurgency has driven a major increase in political violence in Amhara since April 2023, causing hundreds of deaths and continuing insecurity.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a broad analytical claim about increased violence and deaths without citing specific ACLED event counts, fatalities, or actor/location data. It reads as general commentary rather than a metric or trend explicitly derived from ACLED.",
+      "source_context": "Summary statement synthesizing data from news reports, ACLED, and HRW."
+    }
+  ],
+  "insights": [
+    {
+      "insight": "In April 2023, an insurgency led by the Fano militia erupted in Ethiopia’s Amhara region after the federal government moved to dismantle regional special forces.",
+      "context": "Background section describing the trigger for conflict in April 2023."
+    },
+    {
+      "insight": "The disarmament order led to protests and clashes across Amhara in April 2023, causing dozens of deaths that month.",
+      "context": "Background section referencing ACLED data on initial casualties."
+    },
+    {
+      "insight": "Fano fighters resisted integration of regional units into the national army, believing it would undermine Amhara’s security.",
+      "context": "Background section citing VOA on Fano’s motivations."
+    },
+    {
+      "insight": "The early unrest in April 2023 set the stage for broader conflict between Fano and Prime Minister Abiy Ahmed’s government.",
+      "context": "Background section summarizing the conflict’s escalation trajectory."
+    },
+    {
+      "insight": "By early August 2023, Fano militias conducted coordinated attacks, temporarily seizing Lalibela airport and advancing into Bahir Dar and Gondar before federal forces repelled them.",
+      "context": "Escalation section citing BBC reporting on August 2023 advances."
+    },
+    {
+      "insight": "Heavy weapons were used in the conflict, including a government airstrike in Finote Selam that killed at least 26 people in a town square.",
+      "context": "Escalation section referencing PBS/AP report on the Finote Selam airstrike."
+    },
+    {
+      "insight": "The federal government declared a state of emergency in Amhara in August 2023 and deployed ENDF troops to regain control.",
+      "context": "Escalation section detailing government response in August 2023."
+    },
+    {
+      "insight": "By late August 2023, at least 183 people had been killed in Amhara since July, and over 1,000 people were arrested under the state of emergency.",
+      "context": "Escalation section citing UN figures via PBS/AP and reporting on arrests."
+    },
+    {
+      "insight": "The Amhara regional administration was severely disrupted, with some local officials fleeing during the height of the Fano offensive.",
+      "context": "Escalation section referencing BBC on the administration’s instability."
+    },
+    {
+      "insight": "From April to December 2023, ACLED recorded 647 violent events in Amhara, resulting in approximately 1,559 fatalities.",
+      "context": "Continued Violence section citing ACLED conflict data."
+    },
+    {
+      "insight": "Most incidents and casualties were from battles between Fano fighters and federal forces, alongside significant violence against civilians including targeted killings and massacres.",
+      "context": "Continued Violence section referencing ACLED categorization of events."
+    },
+    {
+      "insight": "The insurgency transitioned into a guerrilla phase, with Fano remnants conducting sporadic rural attacks and the government responding with heavy-handed counterinsurgency operations.",
+      "context": "Continued Violence section describing the shift in conflict dynamics."
+    },
+    {
+      "insight": "In January 2024, Fano fighters attacked army units in Merawi, after which Ethiopian soldiers summarily executed dozens of local civilians.",
+      "context": "Continued Violence section citing Human Rights Watch on Merawi incident."
+    },
+    {
+      "insight": "Human rights organizations documented abuses and called for investigations into atrocities committed during the conflict.",
+      "context": "Continued Violence section referencing Human Rights Watch findings and appeals."
+    },
+    {
+      "insight": "As of mid-2024, Amhara remained volatile, and the federal parliament extended the state of emergency to address ongoing unrest.",
+      "context": "Continued Violence section citing VOA on the extension of the state of emergency."
+    },
+    {
+      "insight": "Overall, the Fano insurgency has driven a major increase in political violence in Amhara since April 2023, causing hundreds of deaths and continuing insecurity.",
+      "context": "Summary statement synthesizing data from news reports, ACLED, and HRW."
+    }
+  ],
+  "prompt": "Status of political violence in Amhara since Fano insurgency began in April 2023."
+}

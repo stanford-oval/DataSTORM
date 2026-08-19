@@ -1,0 +1,104 @@
+{
+  "per_dimension": [
+    {
+      "dimension": "actor_entity",
+      "score": 1.0,
+      "num_concept_groups": 0,
+      "num_consistent_groups": 0,
+      "notes": "No repeated actor/group matching logic across queries (no custom actor filters or exclusions). Dyad listings (Q15, Q21) do not define actor filters, so no consistency issue arises."
+    },
+    {
+      "dimension": "geography",
+      "score": 0.8,
+      "num_concept_groups": 5,
+      "num_consistent_groups": 4,
+      "notes": "Geographic filters for Russia’s border oblasts (Belgorod, Kursk, Bryansk) and Ukraine’s Donetsk/Luhansk are otherwise consistent. One cosmetic inconsistency: Belgorod selection uses exact match in two queries and a prefix ILIKE in another."
+    },
+    {
+      "dimension": "temporal",
+      "score": 1.0,
+      "num_concept_groups": 4,
+      "num_consistent_groups": 4,
+      "notes": "Temporal windows are expressed consistently across repeated concepts (e.g., March 2024, Aug–Dec 2024, calendar year 2024, quarterly groupings) using equivalent filters (year=2024 vs date bounds)."
+    },
+    {
+      "dimension": "event_taxonomy",
+      "score": 0.33,
+      "num_concept_groups": 3,
+      "num_consistent_groups": 1,
+      "notes": "Two key taxonomy conflicts: cross‑border strikes/incursions definition (Q5/Q26 vs Q16) and infrastructure category mapping (Q17 vs Q18/Q19). Other repeated taxonomies (e.g., event_type='Battles' and EVRV subtypes in Q1/Q6) are consistent."
+    },
+    {
+      "dimension": "counting_aggregation",
+      "score": 1.0,
+      "num_concept_groups": 0,
+      "num_consistent_groups": 0,
+      "notes": "No repeated metric with differing aggregation choices (COUNT vs COUNT DISTINCT, null handling, or duplicate handling) over the same concept slice. Where medians/percentiles are used, they apply to different slices, so no internal conflict."
+    },
+    {
+      "dimension": "population_scope",
+      "score": 1.0,
+      "num_concept_groups": 0,
+      "num_consistent_groups": 0,
+      "notes": "Queries that share place/time windows intentionally analyze different populations (e.g., PV+Dem only vs all events) and are not used to assert the same concept; no genuine scope clashes detected."
+    }
+  ],
+  "conflicts": [
+    {
+      "dimension": "event_taxonomy",
+      "concept": "Cross-border strikes/incursions in Russia’s Belgorod, Kursk, Bryansk (2024)",
+      "query_indices": [
+        5,
+        16
+      ],
+      "predicate_a": "(event_type = 'Explosions/Remote violence' AND sub_event_type IN ('Shelling/artillery/missile attack','Air/drone strike','Grenade','Remote explosive/landmine/IED')) OR (event_type = 'Battles' AND sub_event_type = 'Armed clash')",
+      "predicate_b": "event_type IN ('Explosions/Remote violence','Battles') AND (sub_event_type ILIKE '%drone%' OR '%missile%' OR '%shell%' OR '%air%' OR (event_type='Battles' AND notes ILIKE '%incursion%'))",
+      "severity": "result-changing",
+      "explanation": "Q5 uses a closed list of EVRV sub_event_types plus Battles:Armed clash to represent cross-border attack/incursion modalities, whereas Q16 uses broad text pattern matches on sub_event_type and notes. This will include/exclude different events (e.g., EVRV 'Remote explosive/landmine/IED' and 'Grenade' are included by Q5 but typically excluded by Q16 unless their text matches), altering counts and shares."
+    },
+    {
+      "dimension": "event_taxonomy",
+      "concept": "Cross-border strikes/incursions in Russia’s Belgorod, Kursk, Bryansk (2024)",
+      "query_indices": [
+        26,
+        16
+      ],
+      "predicate_a": "event_type IN ('Explosions/Remote violence','Battles') AND sub_event_type IN ('Shelling/artillery/missile attack','Air/drone strike','Grenade','Remote explosive/landmine/IED','Armed clash')",
+      "predicate_b": "event_type IN ('Explosions/Remote violence','Battles') AND (sub_event_type ILIKE '%drone%' OR '%missile%' OR '%shell%' OR '%air%' OR (event_type='Battles' AND notes ILIKE '%incursion%'))",
+      "severity": "result-changing",
+      "explanation": "Q26 matches Q5’s event-type/subtype list for cross-border activity; Q16 uses text patterning. The differing inclusion criteria will yield different quarterly event totals and trends for the same cross-border concept."
+    },
+    {
+      "dimension": "event_taxonomy",
+      "concept": "Infrastructure category mapping in Belgorod and Kursk (2024)",
+      "query_indices": [
+        17,
+        18,
+        19
+      ],
+      "predicate_a": "Q17 treats infra_category = sub_event_type (no text-tag mapping), counting by sub_event_type.",
+      "predicate_b": "Q18/Q19 infer infra_category via tags/notes pattern matching into buckets: power, rail, bridge, depot/warehouse, fuel, airfield (Q18 also includes 'other-logistics'), with differing keyword sets.",
+      "severity": "result-changing",
+      "explanation": "Q17’s 'infra_category' equals sub_event_type, while Q18/Q19 reclassify events into logistics-oriented categories via string matching with non-identical keyword lists. Using these outputs side-by-side would misalign categories and change which events are counted per category."
+    },
+    {
+      "dimension": "geography",
+      "concept": "Belgorod oblast selection for March 2024 extracts",
+      "query_indices": [
+        20,
+        22
+      ],
+      "predicate_a": "admin1 = 'Belgorod'",
+      "predicate_b": "admin1 ILIKE 'Belgorod%'",
+      "severity": "cosmetic",
+      "explanation": "Both intend to select Belgorod oblast in March 2024; using a prefix ILIKE may match variants like 'Belgorod Oblast' if present. In ACLED Russia admin1 is typically 'Belgorod', so results are likely identical, but the predicates are not strictly the same."
+    }
+  ],
+  "overall_score": 0.86,
+  "summary": "Temporal and geographic filters are largely consistent across the report, with only a minor cosmetic difference in Belgorod selection. The main inconsistencies are definitional: cross‑border strikes/incursions are identified via strict subtype lists in some queries but via broad text patterning in another, and 'infrastructure categories' are defined differently across queries. Aligning these event-taxonomy definitions will improve comparability of cross‑border and infrastructure-targeting metrics.",
+  "report_dir": "<repo>/datatalk/acled/4/Status_of_the_Russian-Ukrainian_conflict,_as_if_we_are_at_the_end_of_2024_heading_into_2025.__20260323_180333",
+  "model": "gpt-5",
+  "num_queries": 27,
+  "applicable": true,
+  "id": 4
+}

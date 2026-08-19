@@ -1,0 +1,211 @@
+{
+  "per_dimension": [
+    {
+      "dimension": "actor_entity",
+      "score": 0.0,
+      "num_concept_groups": 2,
+      "num_consistent_groups": 0,
+      "notes": "Definitions of 'gang/cartel-related' events vary widely across queries: some rely on inter1/2 categories, others on actor/name keywords across actor1/2/assoc/notes/tags, some include demonstrations, others restrict to certain event types; several purported 'gang-related' queries have no gang filter at all."
+    },
+    {
+      "dimension": "geography",
+      "score": 1.0,
+      "num_concept_groups": 0,
+      "num_consistent_groups": 0,
+      "notes": "No repeated place filters targeting the same geography across 2+ queries to assess. Note: there are isolated inconsistencies (e.g., admin1='Michoacán' vs dataset's 'Michoacan de Ocampo'), but they do not form a multi-query concept group per instructions."
+    },
+    {
+      "dimension": "temporal",
+      "score": 1.0,
+      "num_concept_groups": 1,
+      "num_consistent_groups": 1,
+      "notes": "For overlapping periods (e.g., 2018–2024, or 2023–2024), queries generally use equivalent bounds (year BETWEEN vs date ranges; <= 2024-12-31 vs < 2025-01-01)."
+    },
+    {
+      "dimension": "event_taxonomy",
+      "score": 0.0,
+      "num_concept_groups": 1,
+      "num_consistent_groups": 0,
+      "notes": "For the concept 'gang-related political violence', some queries confine to disorder_type='Political violence' while others also include 'Political violence; Demonstrations' or no disorder_type restriction at all. Event_type inclusion also varies for comparable concepts."
+    },
+    {
+      "dimension": "counting_aggregation",
+      "score": 0.0,
+      "num_concept_groups": 1,
+      "num_consistent_groups": 0,
+      "notes": "For 'share of gang events by actor' in 2024, one query counts actor1-only appearances against a denominator built from inter1/2 or notes, while another counts appearances of actor1 or actor2 and uses DISTINCT event_id in both numerator and denominator."
+    },
+    {
+      "dimension": "population_scope",
+      "score": 0.0,
+      "num_concept_groups": 1,
+      "num_consistent_groups": 0,
+      "notes": "Several 2018–2024 analytical queries omit country='Mexico' and thus operate on global data, whereas others correctly scope to Mexico."
+    }
+  ],
+  "conflicts": [
+    {
+      "dimension": "actor_entity",
+      "concept": "Gang/cartel-related events in Mexico, 2024 (general definition)",
+      "query_indices": [
+        8,
+        12
+      ],
+      "predicate_a": "country='Mexico' AND event_date >= '2024-01-01' AND < '2025-01-01' AND disorder_type IN ('Political violence','Political violence; Demonstrations') AND (COALESCE(actor1,'')/COALESCE(actor2,'') ILIKE gang/cartel keywords)",
+      "predicate_b": "country='Mexico' AND year IN (2023,2024) AND disorder_type IN ('Political violence','Political violence; Demonstrations') AND (actor1/actor2/assoc_actor_1/assoc_actor_2/notes ILIKE '%cartel%','%gang%','%criminal%','%sicario%','%narco%')",
+      "severity": "result-changing",
+      "explanation": "Q8 detects gangs via actor1/2 (plus some keywords) while Q12 includes assoc_actor fields and the keyword 'criminal', making it more inclusive and likely to include non-cartel criminal references; this will change which events are counted as 'gang-related'."
+    },
+    {
+      "dimension": "actor_entity",
+      "concept": "Gang-related Violence against Civilians events in Mexico, 2024",
+      "query_indices": [
+        10,
+        16
+      ],
+      "predicate_a": "country='Mexico' AND year=2024 AND event_type='Violence against civilians' AND (actor1/actor2/assoc_actor_1/assoc_actor_2/notes ILIKE gang/cartel keywords)",
+      "predicate_b": "country='Mexico' AND event_date BETWEEN '2024-01-01' AND '2024-12-31' AND event_type='Violence against civilians' AND (LOWER(actor1)~'(cartel|cjng|sinaloa|golfo|zeta|jalisco|noreste|familia michoacana|templarios|juárez)' OR same on actor2)",
+      "severity": "result-changing",
+      "explanation": "Q10 includes associated actors and notes for cartel detection; Q16 limits detection to actor1/actor2 only. Events where cartels are mentioned only in notes/assoc_actor would be included by Q10 but excluded by Q16."
+    },
+    {
+      "dimension": "actor_entity",
+      "concept": "Gang/cartel-related events in Mexico, 2024 (general definition)",
+      "query_indices": [
+        8,
+        14
+      ],
+      "predicate_a": "Q8 as above (PV/PV;D only; actor1/2 keywords)",
+      "predicate_b": "country='Mexico' AND year=2024 AND (actor1/actor2/assoc_actor_1/assoc_actor_2 ILIKE '%cartel%' OR '%narco%' OR '%drug%' OR '%gang%' OR '%mafia%')",
+      "severity": "result-changing",
+      "explanation": "Q14's inclusion of 'drug' and 'mafia' and absence of a disorder_type restriction will pull in additional non-comparable events (e.g., strategic developments, protests), diverging from Q8's political-violence-only scope."
+    },
+    {
+      "dimension": "actor_entity",
+      "concept": "Top states by number of gang-related political violence events in 2024",
+      "query_indices": [
+        12,
+        19
+      ],
+      "predicate_a": "country='Mexico' AND year IN (2023,2024) AND disorder_type IN ('Political violence','Political violence; Demonstrations') AND gang detection via actor1/2/assoc/notes keywords",
+      "predicate_b": "country='Mexico' AND event_date BETWEEN '2024-01-01' AND '2024-12-31' AND disorder_type='Political violence' AND (inter1 IN ('Political militia','Identity militia') OR inter2 IN (...))",
+      "severity": "result-changing",
+      "explanation": "Q12 uses name/keyword heuristics across multiple text fields; Q19 infers gangs via inter1/2 categories only and excludes 'Political violence; Demonstrations'. The resulting state counts will not be comparable."
+    },
+    {
+      "dimension": "actor_entity",
+      "concept": "Monthly trend of gang-related events in Mexico, 2023–2024",
+      "query_indices": [
+        1,
+        20
+      ],
+      "predicate_a": "country='Mexico' AND event_date BETWEEN '2023-01-01' AND '2024-12-31' AND event_type IN ('Battles','Violence against civilians','Explosions/Remote violence') [no gang filter]",
+      "predicate_b": "country='Mexico' AND event_date >= '2023-01-01' AND < '2025-01-01' AND (actor1/actor2/assoc_actor_1/assoc_actor_2/notes ILIKE cartels list)",
+      "severity": "result-changing",
+      "explanation": "Q1 describes 'gang-related' but fails to filter for gang/cartel involvement, counting all violent events of those types; Q20 explicitly filters for cartels. The time series measure different universes."
+    },
+    {
+      "dimension": "actor_entity",
+      "concept": "Municipal fatality rates for gang-related events in Mexico, 2024",
+      "query_indices": [
+        18,
+        21
+      ],
+      "predicate_a": "country='Mexico' AND year=2024 AND combined text fields (actor1/2/assoc/notes/tags) ILIKE extensive cartel keyword list",
+      "predicate_b": "country='Mexico' AND year=2024 AND event_type IN ('Battles','Violence against civilians','Explosions/Remote violence') [no gang filter]; HAVING COUNT(*)>=20",
+      "severity": "result-changing",
+      "explanation": "Q18 requires cartel involvement, while Q21 does not filter for gangs at all despite the question stating 'gang-related', leading to incomparable denominators for fatalities-per-event rates."
+    },
+    {
+      "dimension": "actor_entity",
+      "concept": "Criminal-group event identification (2023–2024)",
+      "query_indices": [
+        2,
+        6
+      ],
+      "predicate_a": "Q2 likely_criminal: inter1/2 IN ('Political militia','Identity militia','Rebel group') OR actor1/actor2 regex for cartel-related strings",
+      "predicate_b": "Q6 'criminal' events: inter1 IN ('Political militia','Identity militia','Rebel group','Rioters') OR interaction IN ('Political militia-Civilians','Identity militia-Civilians','Rebel group-Civilians','Rioters-Civilians')",
+      "severity": "result-changing",
+      "explanation": "Q6 includes 'Rioters' as criminal actors, unlike Q2; this materially changes which events are considered attributable to criminal groups."
+    },
+    {
+      "dimension": "event_taxonomy",
+      "concept": "Gang-related political violence (disorder_type scope)",
+      "query_indices": [
+        12,
+        19
+      ],
+      "predicate_a": "disorder_type IN ('Political violence','Political violence; Demonstrations')",
+      "predicate_b": "disorder_type = 'Political violence' only",
+      "severity": "result-changing",
+      "explanation": "Including 'Political violence; Demonstrations' (Q12) versus excluding it (Q19) will yield different counts for ostensibly the same 'political violence' concept."
+    },
+    {
+      "dimension": "counting_aggregation",
+      "concept": "Share of gang-related events by actor in Mexico, 2024",
+      "query_indices": [
+        9,
+        17
+      ],
+      "predicate_a": "Numerator: COUNT(*) over events where actor1 is gang (actor1 only); Denominator: COUNT(*) over all gang-related events (detected via inter1/2 or notes).",
+      "predicate_b": "Numerator: COUNT(DISTINCT event_id_cnty) over events where actor1 OR actor2 is a gang actor and inter_type IN ('Political militia','Identity militia','Rebel group'); Denominator: COUNT(DISTINCT event_id_cnty) over the same gang-event identification.",
+      "severity": "result-changing",
+      "explanation": "Q9 restricts the numerator to actor1-only appearances and uses a denominator defined differently than the numerator filter; Q17 counts both actor slots and aligns numerator/denominator on the same detection logic with DISTINCT events. Resulting shares are not comparable."
+    },
+    {
+      "dimension": "population_scope",
+      "concept": "Mexico-only scope for 2018–2024 longitudinal actor trends",
+      "query_indices": [
+        23,
+        20
+      ],
+      "predicate_a": "Q23 events_in_scope: no country filter (global).",
+      "predicate_b": "Q20: e.country='Mexico'.",
+      "severity": "result-changing",
+      "explanation": "Q23 aggregates events worldwide; Q20 restricts to Mexico. For a Mexico-focused report, Q23 should be limited to Mexico to be comparable with other queries."
+    },
+    {
+      "dimension": "population_scope",
+      "concept": "Mexico-only scope for operations/extortion dynamics, 2018–2024",
+      "query_indices": [
+        24,
+        22
+      ],
+      "predicate_a": "Q24 operations/flagged_events: WHERE year BETWEEN 2018 AND 2024 (no country filter).",
+      "predicate_b": "Q22 violent_events: WHERE country='Mexico'.",
+      "severity": "result-changing",
+      "explanation": "Q24 computes pre/post effects using global data (evidenced by preview rows from Aden/Aleppo), whereas related Mexico-focused analyses scope to Mexico."
+    },
+    {
+      "dimension": "population_scope",
+      "concept": "Mexico-only scope for state-response comparisons, 2018–2024",
+      "query_indices": [
+        26,
+        25
+      ],
+      "predicate_a": "Q26 monthly: WHERE event_date BETWEEN 2018-01-01 AND 2024-12-31 (no country filter).",
+      "predicate_b": "Q25 mx: WHERE country='Mexico' AND event_date BETWEEN 2018-01-01 AND 2024-12-31.",
+      "severity": "result-changing",
+      "explanation": "Q26's community vs militarized comparison uses all countries, misaligning with Mexico-only analyses like Q25."
+    },
+    {
+      "dimension": "population_scope",
+      "concept": "Mexico-only scope for social-control changes after intensified state force months, 2018–2024",
+      "query_indices": [
+        27,
+        25
+      ],
+      "predicate_a": "Q27 monthly: WHERE event_date >= '2018-01-01' AND < '2025-01-01' (no country filter).",
+      "predicate_b": "Q25: WHERE country='Mexico' ...",
+      "severity": "result-changing",
+      "explanation": "Q27 lacks a Mexico filter and thus may identify top municipalities outside Mexico, making its rankings non-comparable within a Mexico report."
+    }
+  ],
+  "overall_score": 0.3333333333333333,
+  "summary": "The audit finds major inconsistencies in how 'gang/cartel-related' events are identified, with divergent use of inter1/2 categories vs. actor/notes keywords vs. no gang filters at all. Several longitudinal analyses (2018–2024) also omit the Mexico country filter, pulling global data and rendering results non-comparable. Temporal bounds are generally consistent, but event taxonomy, actor definitions, counting choices, and population scope require standardization for trustworthy, comparable figures.",
+  "report_dir": "<repo>/datatalk/acled_ablations/no_qc/17/Research_gang_violence_in_Mexico_and_its_outlook_in_2025,_as_if_we_are_at_the_end_of_2024_heading_into_2025.__20260529_174454",
+  "model": "gpt-5",
+  "num_queries": 28,
+  "applicable": true,
+  "id": 17
+}

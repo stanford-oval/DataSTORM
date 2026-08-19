@@ -1,0 +1,75 @@
+{
+  "dataset_id": 75,
+  "dataset_path": "data/notebooks/flag-75.json",
+  "metadata": {
+    "category": "Goal Management",
+    "dataset_description": "The dataset consists of 500 entries simulating ServiceNow `sn_gf_goal` table, which details various attributes related to organizational goals. These attributes include goal state, owner, department, start and end dates, and description, alongside metrics such as priority, percent complete, and target percentage. This data primarily tracks the progression and management of departmental and individual goals, offering insights into the effectiveness and alignment of these goals with broader organizational objectives. Additionally, the table captures updates made to each goal, providing a timeline of modifications and the identity of individuals making these updates.",
+    "goal": "Examine and analyze elevated goal achievement rates in a certain department and to leverage these insights to improve goal management across all departments.",
+    "header": "Goal Achievement Rate Analysis in IT Department (Flag 75)",
+    "role": "Goal Management Analyst"
+  },
+  "predicted_insights": [
+    "IT’s notably higher completion rate (about 21–25 percentage points above other departments) signals a substantial execution advantage; if non-IT teams closed this gap, they could boost their completion rates by roughly 20+ percentage points.",
+    "The narrow 1.54-point range around the overall mean (~74.76) indicates departments set similarly ambitious targets; Finance’s slightly higher mean (+0.95 vs overall) suggests any elevated achievement there is unlikely due to easier targets and may instead reflect superior execution practices that could be replicated elsewhere.",
+    "IT’s high completion rate (65.12%) coincides with a balanced category mix—the top two categories are nearly tied (Employee Satisfaction 24.03% vs. Revenue Growth 23.26%, a 0.78 pp gap) and the spread from most to least represented categories is only about 10.08 pp—suggesting that a diversified goal portfolio may support stronger execution.",
+    "IT’s 158-day median completion time is about 11% faster than HR (177 days) and 25% faster than Marketing (211 days), suggesting replicable process efficiencies that could reduce cycle times across departments.",
+    "IT’s mean shortfall (4.19) is ~85% smaller than Finance’s (27.96) and roughly 7–8 times smaller than Marketing/HR (~30), indicating that adopting IT’s goal management practices could realistically cut other departments’ gaps by about 24–28 percentage points.",
+    "IT assigns about 85% of its goals as High/Critical—roughly 4x HR and ~5x Marketing/Finance—highlighting a much stronger prioritization focus that could guide how other departments target their highest-impact goals.",
+    "High/Critical goals are achieved 4–11x more often than Low/Medium across departments, with absolute gaps of ~35–52 percentage points (largest in IT: 56.36% vs 5.26%), indicating urgency-prioritized goals are far more likely to meet targets.",
+    "IT substantially outperforms other departments with an average achievement rate of ~97.6% across categories (including exceeding targets in Employee Satisfaction at 105.15% and Revenue Growth at 102.29%), versus ~64.4% for Finance, ~64.4% for HR, and ~59.9% for Marketing, with the largest gap in Employee Satisfaction (IT 105.15% vs Finance 53.91%, a 51.24-point difference), highlighting IT as a potential source of best practices.",
+    "Within IT, Employee Satisfaction’s completion share is about 14 percentage points higher than the next-best categories and roughly 1.55× the rate of the lowest category, suggesting that execution practices used for Employee Satisfaction goals in IT could be leveraged to raise completion rates in other categories and departments.",
+    "IT’s non-completed goals are 15.88–23.82 percentage points more complete than others (e.g., +15.88 vs Finance, +22.45 vs Marketing), indicating stronger in-progress execution that, if emulated, could lift other departments’ goal progress by about one-fifth.",
+    "Employee Satisfaction outperforms the next-best IT category (Revenue Growth at 70.4%) by 4.5 percentage points and the lowest (Efficiency at 66.61%) by 8.29 points, indicating a notable execution edge for people-focused goals that could be replicated to lift underperforming categories.",
+    "High and Critical goals are completed at roughly twice the rate of Low/Medium (≈75% vs ≈38%), and High slightly exceeds the dataset’s average target_percentage (74.76%), suggesting that elevating priority or resource focus could materially lift overall completion (dataset mean percent_complete is 50.84%)."
+  ],
+  "predicted_summary": "IT stands out across multiple performance dimensions: it completes the highest share of goals (65.12% vs 44.59% Marketing, 44.14% HR, 40.62% Finance), finishes completed goals fastest (median 158 days), has the smallest average shortfall to targets (4.19 percentage points vs 27.96–31.79 elsewhere), and even its unfinished goals are further along (60.38% average progress among non-completed, the highest). Since average target levels are similar across departments (74.17–75.71), IT’s edge is unlikely to be due to “easier” goals.\nPriority level strongly aligns with achievement: across all departments, High priority goals have the highest average progress (76.02%), followed by Critical (74.97%), while Low and Medium trail (~38%). Within departments, the share of goals that meet or exceed their targets is much higher for High/Critical than for Low/Medium—Finance 45.0% vs 10.19%, HR 58.06% vs 14.04%, IT 56.36% vs 5.26%, and Marketing 58.33% vs 6.45%. IT also carries a much heavier mix of High/Critical goals (85.3%) than other departments (15.6–21.4%).\nIT’s category performance is broadly strong and uniquely exceeds targets in key areas, with Employee Satisfaction as a standout: it is IT’s largest category (24.03% of IT goals), has the highest completion share within IT (80.65% Completed), and the highest average progress (74.9%). On a percent-of-target basis, IT is the only department with categories above 100%—Employee Satisfaction at 105.15% and Revenue Growth at 102.29%—while other departments’ categories average only 56–75% of target.",
+  "score_insights": 0.8276481670066171,
+  "score_insights_dict": [
+    {
+      "gt_insight": "Departments consistently achieve higher task completion rates for Critical and High priority tasks, with significant variance in progress on lower priorities.",
+      "pred_insight": "High/Critical goals are achieved 4–11x more often than Low/Medium across departments, with absolute gaps of ~35–52 percentage points (largest in IT: 56.36% vs 5.26%), indicating urgency-prioritized goals are far more likely to meet targets.",
+      "score": 0.818182666258546
+    },
+    {
+      "gt_insight": "There are higher success rates in critical and high priority goals within the IT department",
+      "pred_insight": "High and Critical goals are completed at roughly twice the rate of Low/Medium (≈75% vs ≈38%), and High slightly exceeds the dataset’s average target_percentage (74.76%), suggesting that elevating priority or resource focus could materially lift overall completion (dataset mean percent_complete is 50.84%).",
+      "score": 0.7867598912739037
+    },
+    {
+      "gt_insight": "There is a consistent higher success rates for critical and high priority goals across departments",
+      "pred_insight": "High/Critical goals are achieved 4–11x more often than Low/Medium across departments, with absolute gaps of ~35–52 percentage points (largest in IT: 56.36% vs 5.26%), indicating urgency-prioritized goals are far more likely to meet targets.",
+      "score": 0.8377065025246277
+    },
+    {
+      "gt_insight": "IT department exhibits a higher number of both Critical and High priority goals compared to other departments",
+      "pred_insight": "IT assigns about 85% of its goals as High/Critical—roughly 4x HR and ~5x Marketing/Finance—highlighting a much stronger prioritization focus that could guide how other departments target their highest-impact goals.",
+      "score": 0.8679436079693911
+    }
+  ],
+  "score_summary": 0.6379790166594013,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.8439988875894738,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "High/Critical goals are achieved 4–11x more often than Low/Medium across departments, with absolute gaps of ~35–52 percentage points (largest in IT: 56.36% vs 5.26%), indicating urgency-prioritized goals are far more likely to meet targets.",
+      "gt_insight": "Departments consistently achieve higher task completion rates for Critical and High priority tasks, with significant variance in progress on lower priorities.",
+      "score": 0.7935211677995102
+    },
+    {
+      "pred_insight": "High/Critical goals are achieved 4–11x more often than Low/Medium across departments, with absolute gaps of ~35–52 percentage points (largest in IT: 56.36% vs 5.26%), indicating urgency-prioritized goals are far more likely to meet targets.",
+      "gt_insight": "There are higher success rates in critical and high priority goals within the IT department",
+      "score": 0.8079948167686958
+    },
+    {
+      "pred_insight": "High/Critical goals are achieved 4–11x more often than Low/Medium across departments, with absolute gaps of ~35–52 percentage points (largest in IT: 56.36% vs 5.26%), indicating urgency-prioritized goals are far more likely to meet targets.",
+      "gt_insight": "There is a consistent higher success rates for critical and high priority goals across departments",
+      "score": 0.8813471306503999
+    },
+    {
+      "pred_insight": "IT assigns about 85% of its goals as High/Critical—roughly 4x HR and ~5x Marketing/Finance—highlighting a much stronger prioritization focus that could guide how other departments target their highest-impact goals.",
+      "gt_insight": "IT department exhibits a higher number of both Critical and High priority goals compared to other departments",
+      "score": 0.8931324351392892
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.1237406812334231,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.7540803004323424
+}

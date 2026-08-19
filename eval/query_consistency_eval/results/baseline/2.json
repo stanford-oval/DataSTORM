@@ -1,0 +1,175 @@
+{
+  "per_dimension": [
+    {
+      "dimension": "actor_entity",
+      "score": 0.0,
+      "num_concept_groups": 5,
+      "num_consistent_groups": 0,
+      "notes": "Actor matching for ELN, FARC dissidents (umbrella/fronts), Gulf Clan, and VAC perpetrator attribution varies widely across queries: different fields scanned (actor1/actor2 vs also assoc_actor, notes/tags), different alias lists (Spanish/English/acronyms), and different heuristics (single-side perpetrator vs any-side flagging). All multi-query groups show result-changing divergences."
+    },
+    {
+      "dimension": "geography",
+      "score": 0.5,
+      "num_concept_groups": 2,
+      "num_consistent_groups": 1,
+      "notes": "Country = 'Colombia' is used consistently across the report. However, normalization of the department Córdoba is inconsistent: some queries include both 'Córdoba' and 'Cordoba' variants while others use only 'Córdoba', risking missed rows if unaccented entries exist."
+    },
+    {
+      "dimension": "temporal",
+      "score": 0.0,
+      "num_concept_groups": 1,
+      "num_consistent_groups": 0,
+      "notes": "Nearly all queries use the same pre/post windows (pre: 2020-08-01–2022-07-31; post: 2022-08-01–2024-12-31), but Q9 counts 'pre' as any date before 2022-08-01 with no lower bound, breaking alignment."
+    },
+    {
+      "dimension": "event_taxonomy",
+      "score": 0.67,
+      "num_concept_groups": 3,
+      "num_consistent_groups": 2,
+      "notes": "Definitions for IED/grenade remote violence are consistent (Q9, Q22). VAC is consistently filtered via event_type='Violence against civilians' across multiple queries. However, 'clashes with state forces' are inconsistently defined across Q23/Q24/Q27 (Armed clash-only vs any Battles with state forces vs interaction-pattern only), which is result-changing."
+    },
+    {
+      "dimension": "counting_aggregation",
+      "score": 0.0,
+      "num_concept_groups": 2,
+      "num_consistent_groups": 0,
+      "notes": "Two repeated metrics diverge: (1) average fatalities per event (Q0 includes NULL fatalities as 0; Q2 excludes NULLs); (2) monthly averages (Q0 divides totals by fixed months 24/29; Q1 averages over observed months only, excluding zero months). Both are result-changing."
+    },
+    {
+      "dimension": "population_scope",
+      "score": 0.0,
+      "num_concept_groups": 1,
+      "num_consistent_groups": 0,
+      "notes": "The definition of 'non-state actors' differs across HHI analyses: Q20 includes External/Other forces and Rioters while Q21 restricts to Rebel group/Political militia/Identity militia. This changes the base population for concentration metrics."
+    }
+  ],
+  "conflicts": [
+    {
+      "dimension": "temporal",
+      "concept": "Pre vs post policy windows (national, Aug 2020–Jul 2022 vs Aug 2022–Dec 2024)",
+      "query_indices": [
+        0,
+        9
+      ],
+      "predicate_a": "Q0: period defined as CASE WHEN event_date BETWEEN DATE '2020-08-01' AND DATE '2022-07-31' THEN 'pre' WHEN event_date BETWEEN DATE '2022-08-01' AND DATE '2024-12-31' THEN 'post' END, and events filtered to event_date BETWEEN '2020-08-01' AND '2024-12-31'.",
+      "predicate_b": "Q9: pre_total uses WHERE event_date < DATE '2022-08-01'; post_total uses WHERE event_date >= DATE '2022-08-01' AND event_date <= DATE '2024-12-31' (no lower bound for pre).",
+      "severity": "result-changing",
+      "explanation": "Q9's 'pre' includes all events before Aug 2022 rather than only Aug 2020–Jul 2022, inflating pre counts and breaking comparability with other pre/post analyses."
+    },
+    {
+      "dimension": "actor_entity",
+      "concept": "ELN attribution across queries",
+      "query_indices": [
+        3,
+        6
+      ],
+      "predicate_a": "Q3: ELN if (actor1 ILIKE '%ELN%' OR actor2 ILIKE '%ELN%') OR (actor1/actor2 ILIKE '%Ejerc%Liberaci%n Nacional%') — actor1/actor2 only.",
+      "predicate_b": "Q6: ELN if any of actor1/actor2/assoc_actor_1/assoc_actor_2 ILIKE '%ELN%' OR '%National Liberation Army%' OR '%Ejército de Liberación Nacional%'.",
+      "severity": "result-changing",
+      "explanation": "Q6 scans more fields and aliases; Q3 omits assoc_actor fields and some aliases, leading to different sets of ELN-tagged events."
+    },
+    {
+      "dimension": "actor_entity",
+      "concept": "FARC dissidents umbrella/front identification",
+      "query_indices": [
+        7,
+        8
+      ],
+      "predicate_a": "Q7: Dissidents if (any of actor/assoc/notes contain both 'farc' and 'dissiden%') OR matches explicit fronts (e.g., 'carlos patiño','jaime martínez', etc.).",
+      "predicate_b": "Q8: Only events where actor1/actor2/assoc_actor_1/assoc_actor_2 ILIKE '%FARC dissident%' (front_name extracted accordingly) and event_type='Explosions/Remote violence'.",
+      "severity": "result-changing",
+      "explanation": "Q8 requires the exact 'FARC dissident' phrase and ignores notes and many known fronts, missing numerous dissident-attributed events/fronts included by Q7."
+    },
+    {
+      "dimension": "actor_entity",
+      "concept": "Gulf Clan (AGC/Clan del Golfo) attribution",
+      "query_indices": [
+        25,
+        16
+      ],
+      "predicate_a": "Q25: Gulf Clan detection via '%Gulf Clan%' OR '%Clan del Golfo%' OR '%Autodefensas Gaitanistas de Colombia%' (no 'AGC' acronym).",
+      "predicate_b": "Q16: Gulf Clan detection includes '%Gulf Clan%' OR '%Clan del Golfo%' OR '%AGC%' OR '%Autodefensas Gaitanistas%'.",
+      "severity": "result-changing",
+      "explanation": "Excluding the 'AGC' acronym in Q25 will undercount Gulf Clan-linked events compared to Q16."
+    },
+    {
+      "dimension": "actor_entity",
+      "concept": "Perpetrator attribution in VAC",
+      "query_indices": [
+        14,
+        15
+      ],
+      "predicate_a": "Q14: Flags ELN/FARC dissidents/Gulf Clan if their names appear anywhere in actor1/actor2/assoc fields (counts event toward actor if present).",
+      "predicate_b": "Q15: perpetrator = CASE WHEN actor1 ILIKE '%Civilians%' THEN actor2 ELSE actor1; top actors and aggregates based solely on this single-side perpetrator field.",
+      "severity": "result-changing",
+      "explanation": "Q15 can misattribute events where the perpetrator is in assoc_actor fields or where naming conventions differ, whereas Q14 credits any event mentioning the group. Aggregates by actor are therefore not comparable."
+    },
+    {
+      "dimension": "geography",
+      "concept": "Córdoba department name normalization",
+      "query_indices": [
+        21,
+        25
+      ],
+      "predicate_a": "Q21: e.admin1 IN ('Meta', 'Córdoba', 'Cauca', 'Arauca', 'La Guajira').",
+      "predicate_b": "Q25: admin1 IN ('Meta','Córdoba','Cordoba') and later normalizes CASE WHEN department IN ('Córdoba','Cordoba') THEN 'Córdoba'.",
+      "severity": "result-changing",
+      "explanation": "If any records use the unaccented 'Cordoba', Q21 will miss them while Q25 includes them, creating inconsistent department totals."
+    },
+    {
+      "dimension": "event_taxonomy",
+      "concept": "Definition of 'clashes with state forces'",
+      "query_indices": [
+        23,
+        24
+      ],
+      "predicate_a": "Q23: Battles AND sub_event_type='Armed clash' AND (inter1='State forces' OR inter2='State forces').",
+      "predicate_b": "Q24: Battles AND (inter1='State forces' OR inter2='State forces') — no sub_event_type constraint (includes attacks/territory changes).",
+      "severity": "result-changing",
+      "explanation": "Including non-'Armed clash' Battles (attacks, territory changes) expands the set beyond clashes, yielding different event counts and outcomes."
+    },
+    {
+      "dimension": "counting_aggregation",
+      "concept": "Average fatalities per event (national by event_type/period)",
+      "query_indices": [
+        0,
+        2
+      ],
+      "predicate_a": "Q0: COALESCE(fatalities,0); avg = SUM(fatalities)/COUNT(*) (includes NULL fatalities as zero).",
+      "predicate_b": "Q2: Excludes rows with fatalities IS NULL; avg = AVG(fatalities) over non-null only (and bootstraps from that set).",
+      "severity": "result-changing",
+      "explanation": "Different handling of NULL fatalities leads to different averages and CIs for the same concept."
+    },
+    {
+      "dimension": "counting_aggregation",
+      "concept": "Monthly average events (national by event_type/period)",
+      "query_indices": [
+        0,
+        1
+      ],
+      "predicate_a": "Q0: monthly_avg_events = COUNT(*)/24 for pre and /29 for post (fixed denominators include zero months).",
+      "predicate_b": "Q1: period_avgs = AVG(monthly_count) over observed months only (months with zero events are absent).",
+      "severity": "result-changing",
+      "explanation": "Excluding zero-event months in Q1 biases monthly averages upward relative to Q0’s fixed-month denominator."
+    },
+    {
+      "dimension": "population_scope",
+      "concept": "Non-state actor set for HHI",
+      "query_indices": [
+        20,
+        21
+      ],
+      "predicate_a": "Q20: Non-state actors include inter_code in ('Political militia','Identity militia','Rebel group','External/Other forces','Rioters').",
+      "predicate_b": "Q21: Non-state actors limited to inter types ('Rebel group','Political militia','Identity militia') — excludes 'External/Other forces' and 'Rioters'.",
+      "severity": "result-changing",
+      "explanation": "Different actor universes change unique_actors counts, total events by actor, and thus HHI and top3 shares, preventing direct comparison across departments/periods."
+    }
+  ],
+  "overall_score": 0.2,
+  "summary": "The audit finds substantial internal inconsistencies across the report’s SQL, especially in actor matching rules, monthly/fatality aggregation methods, and one key pre/post time-window. ELN/FARC dissident/Gulf Clan attribution varies by fields scanned and alias coverage; monthly averages and average-fatalities-per-event are computed with incompatible denominators and NULL handling; and one query (Q9) mis-defines the pre period. While country scope is consistent and some taxonomies (VAC and IED/grenade) are aligned, the overall comparability of many actor- and period-based results is compromised.",
+  "report_dir": "<repo>/datatalk/acled/2/Analyze_Petro’s_total_peace_policy_in_Colombia_and_its_impact_on_violence_v._armed_groups.__20260323_174739",
+  "model": "gpt-5",
+  "num_queries": 29,
+  "applicable": true,
+  "id": 2
+}

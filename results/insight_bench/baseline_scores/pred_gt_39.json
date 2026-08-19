@@ -1,0 +1,75 @@
+{
+  "dataset_id": 39,
+  "dataset_path": "data/notebooks/flag-39.json",
+  "metadata": {
+    "category": "Finance Management",
+    "dataset_description": "This dataset comprises 500 simulated entries from the ServiceNow `fm_expense_line` table, which tracks various attributes of financial expenses. Key fields include 'number', 'opened_at', 'amount', 'state', 'short_description', 'ci', 'user', 'department', 'category', 'process_date', 'source_id', and 'type'. The table provides a comprehensive record of financial transactions, capturing the expense amount, departmental allocation, and the nature of each expense. It offers a detailed view of organizational expenditures across various categories, highlighting both the timing and the approval status of each financial entry.",
+    "goal": "Examine how the cost of an expense impacts its processing time, with the goal of improving the efficiency and equity of expense report processing across all cost levels.",
+    "header": "Analysis of Expense Processing Dynamics (Flag 39)",
+    "role": "Financial Operations Analyst"
+  },
+  "predicted_insights": [
+    "Lower-cost claims (~$1k) take over 5 times longer on average than higher-cost claims (~$11.7k), suggesting small expenses face disproportionate delays that could be targeted to improve processing equity and efficiency.",
+    "This 5.6 percentage-point gap represents 7 extra Pending/Submitted cases per 125 items in the lowest quartile; eliminating this disparity would reduce open low-amount items by ~11% (7/65), helping small expenses clear more equitably.",
+    "The relationship between expense amount and processing speed is generally weak (range ≈ -0.187 to 0.067), and notably negative in HR and IT, implying that higher-cost reports may be processed slightly faster there—an equity signal worth auditing to ensure consistent handling across cost levels.",
+    "Within the highest-cost quartile, declines (26.4%) nearly match processed outcomes (27.2%), and 46.4% are still pending or just submitted, indicating high-cost expenses face heavier scrutiny and slower completion.",
+    "Across all 7 departments, the relationship between expense amount and processing time is very weak (all |ρ| < 0.19), with HR (-0.187) and IT (-0.154) showing the strongest negative associations, suggesting higher-cost reports there may be processed slightly faster.",
+    "At least half of expenses in every cost quartile are processed the same day (0 days), indicating no median-level delay for higher-cost reports; the inefficiency comes from a smaller tail of cases (max 28 days) rather than systemic cost-related slowness, so focusing interventions on outliers could improve equity and efficiency.",
+    "Highest-cost expenses have the lowest delay rate (19.2%) while mid-range Q2 is highest (28.0%), an 8.8 percentage-point gap that suggests high-value reports may be prioritized and that streamlining mid-tier processing could improve equity.",
+    "Across all departments, higher-cost expenses are processed faster than lower-cost ones (Q4–Q1 differences are all negative), with disparities ranging from about -1.19 (Customer Support) to -4.18 (Sales), suggesting potential equity issues for lower-cost submissions.",
+    "Across the observed range (≈94 to ≈14,786 units), higher-cost expenses are predicted to be processed about 4.19 days faster than lower-cost ones, and a 1 SD increase in amount (~3,300 units) corresponds to ~0.94 fewer processing days—indicating larger expenses tend to move quicker, which may raise equity concerns.",
+    "Across 20 amount bins spanning about 419 to 12,898 units, the mean predicted Decline probability remains constant at 0.50, indicating decisions are amount-agnostic and suggesting any inequities by cost level are unlikely to come from higher rejection rates.",
+    "End-of-month high-amount submissions take 30% longer to process (3.5 vs 2.6923 days), suggesting a bottleneck near month-end; prioritizing or smoothing workload then could improve equity and efficiency across cost levels.",
+    "All regions exhibit negative slopes (from -0.72 to -1.66 days per $1,000), meaning higher-cost expenses are processed faster, with South America having the strongest acceleration (-1.6636 days per $1,000) and Europe the weakest (-0.7182), suggesting potential prioritization of larger expenses that varies by location."
+  ],
+  "predicted_summary": "Higher-cost expenses move faster through processing. Among Processed expenses, average processing_time drops from about 15.4 days near $1.0k to about 3.0 days near $11.7k (Pearson r = -0.72; slope ≈ -0.00107 days per dollar; R² = 0.51). This pattern holds even after accounting for department, location, state, and user: each additional 1,000 units of amount is associated with roughly 0.285 fewer days (≈6.8 hours) of processing_time (β = -0.000285; R² = 0.631; n = 500).\nDelays cluster more in lower-cost expenses. While the median processing_time is 0.0 days in every amount quartile (indicating many same-day completions), the share of expenses taking more than 1 day is higher in lower quartiles (Q1 24.8%; Q2 28.0%; Q3 24.8%) than in the highest quartile (Q4 19.2%). Lower-cost expenses are also more likely to sit in non-Processed states: 52% in Q1 vs 46.4% in Q4.\nThe amount–time relationship varies across departments, locations, and submission timing. Customer Support shows the largest low–high amount gap in average processing_time (Q4–Q1 ≈ -1.19 days, i.e., faster for higher amounts), while Development is an outlier with a slight positive amount–time correlation (Spearman ≈ +0.0666 vs negatives elsewhere, e.g., HR -0.1870, IT -0.1535). By location, Europe exhibits the steepest decrease in processing_time as amount rises (≈ -0.7182 days per $1,000 among Processed expenses). For high-amount expenses (≥ 7,992.29), submitting in the last 7 days of a month is linked to longer processing_time (3.5 vs 2.6923 days), and despite speed differences, the likelihood of Decline does not change with amount once department, location, and user are controlled (odds ratio ≈ 1.00).",
+  "score_insights": 0.7020261253413907,
+  "score_insights_dict": [
+    {
+      "gt_insight": "There is a correlation between expense amount and processing time, lower-cost expenses are processed slower than higher-cost ones",
+      "pred_insight": "Lower-cost claims (~$1k) take over 5 times longer on average than higher-cost claims (~$11.7k), suggesting small expenses face disproportionate delays that could be targeted to improve processing equity and efficiency.",
+      "score": 0.8927288263247231
+    },
+    {
+      "gt_insight": "Expenses within lower cost brackets experience significantly longer processing times, with the longest delays occurring in the lowest bracket.",
+      "pred_insight": "Lower-cost claims (~$1k) take over 5 times longer on average than higher-cost claims (~$11.7k), suggesting small expenses face disproportionate delays that could be targeted to improve processing equity and efficiency.",
+      "score": 0.8499936987061163
+    },
+    {
+      "gt_insight": "There is varied processing outcomes across expense brackets",
+      "pred_insight": "Highest-cost expenses have the lowest delay rate (19.2%) while mid-range Q2 is highest (28.0%), an 8.8 percentage-point gap that suggests high-value reports may be prioritized and that streamlining mid-tier processing could improve equity.",
+      "score": 0.6492807210220186
+    },
+    {
+      "gt_insight": "Processing times for expenses under $1000 vary significantly across departments and users.",
+      "pred_insight": "Across all departments, higher-cost expenses are processed faster than lower-cost ones (Q4–Q1 differences are all negative), with disparities ranging from about -1.19 (Customer Support) to -4.18 (Sales), suggesting potential equity issues for lower-cost submissions.",
+      "score": 0.41610125531270487
+    }
+  ],
+  "score_summary": 0.5954639043988227,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.7338853446293399,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "Lower-cost claims (~$1k) take over 5 times longer on average than higher-cost claims (~$11.7k), suggesting small expenses face disproportionate delays that could be targeted to improve processing equity and efficiency.",
+      "gt_insight": "There is a correlation between expense amount and processing time, lower-cost expenses are processed slower than higher-cost ones",
+      "score": 0.8935101018702776
+    },
+    {
+      "pred_insight": "Lower-cost claims (~$1k) take over 5 times longer on average than higher-cost claims (~$11.7k), suggesting small expenses face disproportionate delays that could be targeted to improve processing equity and efficiency.",
+      "gt_insight": "Expenses within lower cost brackets experience significantly longer processing times, with the longest delays occurring in the lowest bracket.",
+      "score": 0.8147147256312632
+    },
+    {
+      "pred_insight": "Lower-cost claims (~$1k) take over 5 times longer on average than higher-cost claims (~$11.7k), suggesting small expenses face disproportionate delays that could be targeted to improve processing equity and efficiency.",
+      "gt_insight": "There is varied processing outcomes across expense brackets",
+      "score": 0.6637653024857056
+    },
+    {
+      "pred_insight": "Across all departments, higher-cost expenses are processed faster than lower-cost ones (Q4–Q1 differences are all negative), with disparities ranging from about -1.19 (Customer Support) to -4.18 (Sales), suggesting potential equity issues for lower-cost submissions.",
+      "gt_insight": "Processing times for expenses under $1000 vary significantly across departments and users.",
+      "score": 0.563551248530113
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.10689067883436412,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.8802355445904005
+}

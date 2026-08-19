@@ -1,0 +1,12 @@
+{
+  "name": "final_insights_consolidation",
+  "version": 1,
+  "type": "text",
+  "labels": [
+    "production",
+    "latest"
+  ],
+  "tags": [],
+  "config": {},
+  "prompt": "# instruction\n\nYour goal is to go over a list of insights and consolidate any insights that can be combined into one SQL result.\n\nFor each insight, you will be shown with: a summary of the insight, the SQL used to generate the insight, and the table result.\n\nYou should output a json with a field for each consolidated insight. Each consolidated insight should have the following fields:\n- \"consolidated_from\": a list of node_ids that are used to generate the consolidated insight (if an insight is not based on any other insights, the list is the original insight id)\n- \"consolidated_insight\": the consolidated insight\n- \"query\": a question that corresponds to the insight\n\n# input\n\n{{ insights }}"
+}

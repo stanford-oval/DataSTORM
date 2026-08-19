@@ -1,0 +1,75 @@
+{
+  "dataset_id": 60,
+  "dataset_path": "data/notebooks/flag-60.json",
+  "metadata": {
+    "category": "Incident Management",
+    "dataset_description": "The dataset comprises 500 entries simulating ServiceNow incidents table, detailing various attributes such as category, state, open and close dates, involved personnel, and incident specifics like location, description, and priority. It captures incident management activities with fields like 'opened_at', 'closed_at', 'assigned_to', 'short_description', and 'priority', reflecting the operational handling and urgency of issues across different locations and categories.",
+    "goal": "Investigate trends in increasing incident assignments to understand their impact on user agents.",
+    "header": "User Agent Wellbeing and Incident Volume Analysis (Flag 60)",
+    "role": "Wellbeing Manager"
+  },
+  "predicted_insights": [
+    "Total assignments across all assignees peaked at 52 in Oct 2023 (driven by Howard’s 13 and balanced contributions from others) and fell to a low of 30 in Dec 2023 (−42% from the peak), with Fred showing the highest individual volatility (range 2–14) and the single largest monthly spike (14 in Sep).",
+    "From early 2023 to their late-2023/Jan-2024 peaks, average resolution times ballooned by roughly 10–28x per agent (Beth ~27.7x, Charlie ~10.2x, Fred ~13.0x, Luke ~21.6x, Howard ~11.7x), suggesting backlog-driven delays likely from increased assignments, with a partial pullback in Feb 2024 for most agents.",
+    "Across agents, the highest average monthly share is Charlie Whitherspoon’s “2 - High” (~0.324), closely followed by Fred Luddy’s “4 - Low” (~0.304), while late-period jumps in severe work (e.g., Fred Luddy “1 - Critical” 0.25→0.75 from 2023-12 to 2024-01 and Howard Johnson “2 - High” 0.00→0.6364 from 2023-12 to 2024-01) suggest an increasing severity load on those agents.",
+    "High-priority workload is spiky and uneven across agents: the single-month peak was Fred Luddy with 10 in 2023-09 (after 0 in 2023-02), Charlie Whitherspoon peaked at 9 in 2023-07, Howard Johnson at 8 in 2024-01, and Luke Wilson at 7 in 2023-08, indicating concentrated bursts rather than steady growth that could stress specific agents during those months.",
+    "Hardware and Inquiry / Help together account for about 72% of the total positive growth in assignments (0.3296 of 0.456 slope units), suggesting user-agent capacity increases should focus on these two categories.",
+    "The median handoff rate across the period was ~79.0% with a 19.1‑point range (peak 87.9% in Mar 2023 vs. trough 68.8% in Jan 2024), meaning roughly 3 in 4 incidents were resolved by someone other than the assigned agent; notably, even in the highest‑volume months (Aug and Oct 2023 with 54 incidents), handoff remained high at ~79.6% and 75.9%, suggesting persistent cross‑team handoffs not purely driven by volume.",
+    "All agents experienced a synchronized step-change from near‑zero/negative medians to multi‑thousand‑hour medians starting around Sep–Nov 2023 (increases of roughly 3–6k hours), strongly suggesting a systemic effect such as backlog closures or timestamp corrections that inflated resolution times across the board rather than agent-specific slowdowns.",
+    "Overall, busier months did not meaningfully slow agents down; if anything, Fred Luddy and Charlie Whitherspoon resolved tickets slightly faster when handling more assignments (r=-0.166 and -0.124), while Luke Wilson and Beth Anglin showed virtually no change (r≈0.03 and 0.01).",
+    "Across assignees the median moved from hundreds of hours in early 2023 to several thousand by late 2023/early 2024 (e.g., Beth +27.6x from 246h to 6807h; Luke +40x from 138h to 5547h), with sharp Q4 spikes (Howard 6395h in Nov-23), signaling growing backlogs that likely strained agents.",
+    "Non-assignee closures dominate: the median monthly share by assignee was ~74% (Beth), ~83% (Charlie), 80% (Fred), ~82% (Howard), and ~81% (Luke), with repeated 100% months (Howard 4, Charlie 3, Luke 3) indicating that incidents are frequently closed by someone other than the assigned agent—suggesting handoffs that could decouple workload from closure credit.",
+    "Luke Wilson’s self-closed incidents take about 64 days longer than when others close his assignments, while Fred Luddy’s are about 22 days faster when he self-closes—implying targeted reassignment could materially shorten resolution times for certain assignees.",
+    "Assignment volatility is highest for Howard Johnson (range from -66.67% in 2023-12 to +450.0% in 2024-01), with notable surges also for Fred Luddy (+200.0% in 2023-03), Luke Wilson (+200.0% in 2023-05), Charlie Whitherspoon (+133.33% in 2023-06), and Beth Anglin (+80.0% in 2023-09), indicating sharp, uneven swings in monthly workload across agents that could impact capacity planning."
+  ],
+  "predicted_summary": "Resolution times ballooned in late 2023/Jan 2024 despite only modest, choppy changes in assignment volume per agent. Monthly assignments stayed within narrow bands—e.g., Beth Anglin 5–11 (low Aug 2023=5, high Oct=11, Jan 2024=7), Charlie Whitherspoon 3–12 (Jan 2024=7), Fred Luddy 2–14 (Jan 2024=4), Howard Johnson 2–13 (Jan 2024=11), and Luke Wilson 2–11 (Jan 2024=5)—yet median resolution times jumped from hundreds of hours early in 2023 to multi-thousand-hour peaks: Beth 6,807h (Jan 2024), Charlie 6,476h (Jan 2024), Luke 5,547h (Jan 2024), Fred 4,583h (Dec 2023), Howard 6,395h (Nov 2023). The statistical link between monthly assignment counts and median resolution time was weak to negative for all agents (Pearson r from -0.166 to +0.033), indicating rising resolution times were not primarily driven by higher assignment volumes.\nThe severity mix showed agent-specific spikes rather than a steady team-wide rise, while high-priority counts fluctuated without a consistent tie to longer resolution times. High-priority (Critical/High) monthly counts saw episodic surges—e.g., Charlie 9 (Jul 2023), Fred 10 (Sep 2023), Howard 8 (Jan 2024)—but late-2023 time peaks often occurred when high-priority counts were moderate (e.g., Howard’s median peak in Nov 2023 occurred with 3 high-priority incidents). Within-agent priority shares shifted sharply in some months: Fred’s “1 - Critical” rose from 0.25 (Dec 2023) to 0.75 (Jan 2024), and Howard’s “2 - High” reached 0.6364 (Jan 2024), while Charlie’s “2 - High” varied widely month-to-month (0.0–0.6667). These patterns show the burden of severity increased in specific bursts for certain agents rather than as a uniform trend.\nWork regularly changes hands before closure, and who closes an incident materially affects time-to-resolution—patterns that differ by agent. Team-wide, the monthly handoff rate (closed_by ≠ assigned_to) stayed high—71.9% (Jan 2023), peaking at 87.9% (Mar 2023), hovering ~76–81% mid-2023, dipping to 68.8% (Jan 2024), then back to 80.0% (Feb 2024). By agent, the share of incidents closed by someone else was commonly dominant—Charlie ~75–85% with 100% in Apr 2023, Dec 2023, and Feb 2024; Howard 62.5–100% with 100% in Feb 2023, Jun 2023, Jan 2024, and Feb 2024; Luke had several 100% months in 2023 but 0% in Feb 2024. Correspondingly, median resolution times differ by who closes: Luke’s self-closed incidents took ~1,536h longer than when closed by others, Howard’s ~613h longer, while Fred’s were ~532h faster when self-closed (Beth ~118h faster; Charlie ~86h longer). These consistent, quantitative gaps highlight distinct resolution dynamics across agents tied to handoffs.",
+  "score_insights": 0.5051428922784109,
+  "score_insights_dict": [
+    {
+      "gt_insight": "The time to resolution of incidents is slightly decreasing over time.",
+      "pred_insight": "Overall, busier months did not meaningfully slow agents down; if anything, Fred Luddy and Charlie Whitherspoon resolved tickets slightly faster when handling more assignments (r=-0.166 and -0.124), while Luke Wilson and Beth Anglin showed virtually no change (r≈0.03 and 0.01).",
+      "score": 0.5053292017448426
+    },
+    {
+      "gt_insight": "There is no correlation between the volume of incidents and the TTR. Unlike TTR, the number of incidents is increasing over time. This indicates that as the volume of incidents increases, while the TTR tends to be uniform",
+      "pred_insight": "Overall, busier months did not meaningfully slow agents down; if anything, Fred Luddy and Charlie Whitherspoon resolved tickets slightly faster when handling more assignments (r=-0.166 and -0.124), while Luke Wilson and Beth Anglin showed virtually no change (r≈0.03 and 0.01).",
+      "score": 0.5370771325319381
+    },
+    {
+      "gt_insight": "There is no clear trend in the volume of incidents across different categories over time.",
+      "pred_insight": "High-priority workload is spiky and uneven across agents: the single-month peak was Fred Luddy with 10 in 2023-09 (after 0 in 2023-02), Charlie Whitherspoon peaked at 9 in 2023-07, Howard Johnson at 8 in 2024-01, and Luke Wilson at 7 in 2023-08, indicating concentrated bursts rather than steady growth that could stress specific agents during those months.",
+      "score": 0.3553029141154956
+    },
+    {
+      "gt_insight": "The productivity is similar for all agents, and all of them manage to resolve incidents even though the volume increases over time",
+      "pred_insight": "Overall, busier months did not meaningfully slow agents down; if anything, Fred Luddy and Charlie Whitherspoon resolved tickets slightly faster when handling more assignments (r=-0.166 and -0.124), while Luke Wilson and Beth Anglin showed virtually no change (r≈0.03 and 0.01).",
+      "score": 0.6228623207213674
+    }
+  ],
+  "score_summary": 0.3029238365578756,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.5149375002389578,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "Overall, busier months did not meaningfully slow agents down; if anything, Fred Luddy and Charlie Whitherspoon resolved tickets slightly faster when handling more assignments (r=-0.166 and -0.124), while Luke Wilson and Beth Anglin showed virtually no change (r≈0.03 and 0.01).",
+      "gt_insight": "The time to resolution of incidents is slightly decreasing over time.",
+      "score": 0.5643779720991674
+    },
+    {
+      "pred_insight": "Overall, busier months did not meaningfully slow agents down; if anything, Fred Luddy and Charlie Whitherspoon resolved tickets slightly faster when handling more assignments (r=-0.166 and -0.124), while Luke Wilson and Beth Anglin showed virtually no change (r≈0.03 and 0.01).",
+      "gt_insight": "There is no correlation between the volume of incidents and the TTR. Unlike TTR, the number of incidents is increasing over time. This indicates that as the volume of incidents increases, while the TTR tends to be uniform",
+      "score": 0.597229300211189
+    },
+    {
+      "pred_insight": "High-priority workload is spiky and uneven across agents: the single-month peak was Fred Luddy with 10 in 2023-09 (after 0 in 2023-02), Charlie Whitherspoon peaked at 9 in 2023-07, Howard Johnson at 8 in 2024-01, and Luke Wilson at 7 in 2023-08, indicating concentrated bursts rather than steady growth that could stress specific agents during those months.",
+      "gt_insight": "There is no clear trend in the volume of incidents across different categories over time.",
+      "score": 0.21045240806073773
+    },
+    {
+      "pred_insight": "Overall, busier months did not meaningfully slow agents down; if anything, Fred Luddy and Charlie Whitherspoon resolved tickets slightly faster when handling more assignments (r=-0.166 and -0.124), while Luke Wilson and Beth Anglin showed virtually no change (r≈0.03 and 0.01).",
+      "gt_insight": "The productivity is similar for all agents, and all of them manage to resolve incidents even though the volume increases over time",
+      "score": 0.6876903205847369
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.8375359418868861,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.16480808559431254
+}

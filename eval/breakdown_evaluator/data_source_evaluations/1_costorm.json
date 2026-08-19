@@ -1,0 +1,302 @@
+{
+  "total_insights": 29,
+  "total_classified": 29,
+  "acled_count": 21,
+  "non_acled_count": 8,
+  "pct_acled": 0.7241379310344828,
+  "details": [
+    {
+      "evidence": "Under Petro’s “Total Peace,” direct attacks on civilians declined from roughly 1,600 incidents in 2022 to about 1,300 in 2024, with associated fatalities down by about a third and slightly lower lethality per incident.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites counts of direct attacks on civilians over time and associated fatalities and lethality per incident, which align with ACLED’s violence against civilians event data and fatality statistics. These are typical ACLED-derived metrics and trends.",
+      "source_context": "Section: From Fewer Corpses to Deadlier Clashes; cites [2][3] for annual declines in VAC incidents and fatalities."
+    },
+    {
+      "evidence": "Abductions and forced disappearances nearly doubled between 2022 and 2023 and stayed elevated in 2024, indicating a shift from lethal punishment to non‑lethal coercion of civilians.",
+      "is_acled_data": true,
+      "reasoning": "The statement reports temporal trends in specific conflict event types against civilians (abductions/forced disappearances) with comparative changes between years, which aligns with ACLED’s violence against civilians statistics and trend analysis derived from event data.",
+      "source_context": "Section: From Fewer Corpses to Deadlier Clashes; cites [4][5] on abduction trends and low fatality counts."
+    },
+    {
+      "evidence": "Overall political‑violence events showed a gentle decline by 2024—about a 16% drop from 2023—but average deaths per event rose again after a 2023 dip.",
+      "is_acled_data": true,
+      "reasoning": "The statement cites quantitative changes in political-violence event counts and average fatalities per event over time, which are core ACLED metrics (event counts and fatality figures, temporal trend analysis). This matches ACLED-derived conflict trend analysis.",
+      "source_context": "Section: From Fewer Corpses to Deadlier Clashes; references monthly and annual ACLED aggregates [1][2]."
+    },
+    {
+      "evidence": "Battles remained numerically stable 2022–2024, but lethality followed a U‑shape: fatalities per clash fell in 2023 and rebounded in 2024, raising total battle deaths despite slightly fewer engagements.",
+      "is_acled_data": true,
+      "reasoning": "The statement references battle event counts and fatalities per clash over 2022–2024, describing temporal trends in battle-related deaths versus engagements—metrics directly aligned with ACLED’s battle event and fatality data and trend analysis derived from event data.",
+      "source_context": "Section: From Fewer Corpses to Deadlier Clashes; data from [2][3]."
+    },
+    {
+      "evidence": "Explosions and remote violence became markedly more lethal in 2024, with average deaths per incident roughly doubling versus 2023.",
+      "is_acled_data": true,
+      "reasoning": "The statement references a specific conflict event type (explosions/remote violence) and compares average deaths per incident across years, which aligns with ACLED’s event and fatality data and temporal trend analysis capabilities.",
+      "source_context": "Section: From Fewer Corpses to Deadlier Clashes; cites [2][3]."
+    },
+    {
+      "evidence": "Shelling/artillery emerged in 2024 as rare but extremely lethal; eight shelling incidents caused 23 deaths, the highest per‑event lethality among remote‑violence subtypes that year.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites counts of specific event types (shelling incidents), fatalities, and a subtype classification within explosions/remote violence for a given year—details characteristic of ACLED event and fatality data and typologies.",
+      "source_context": "Section: From Fewer Corpses to Deadlier Clashes; supported by [2][6][3]."
+    },
+    {
+      "evidence": "A thin tail of high‑fatality battles and remote attacks accounted for a rising share of total killings in 2024, while most such incidents caused no deaths.",
+      "is_acled_data": true,
+      "reasoning": "The statement discusses distributions of fatalities across event types (battles and remote attacks) and temporal trend in 2024, which aligns with ACLED’s battle-related categories (battles, explosions/remote violence) and fatality counts, indicating analysis derived from ACLED event data patterns.",
+      "source_context": "Section: From Fewer Corpses to Deadlier Clashes; severity concentration and tail effects from [10][11]."
+    },
+    {
+      "evidence": "Petro’s strategy prioritized dialogue with armed/criminal groups and rural justice mechanisms, seeking negotiated governance and social policy integration.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a policy/strategy description about Petro’s governance approach and negotiations, which is general political analysis rather than specific conflict event data or ACLED-derived metrics.",
+      "source_context": "Section: Ceasefires, Coca, and a Three‑Act War; sources [12][13]."
+    },
+    {
+      "evidence": "Forced coca eradication dropped about 60%, shifting toward crop substitution and sustainable agriculture as part of a broader rural turn.",
+      "is_acled_data": false,
+      "reasoning": "The claim concerns policy outcomes on coca eradication and agricultural shifts, which are economic/ policy metrics rather than conflict event data. ACLED does not track forced eradication percentage changes or crop substitution programs; it focuses on conflict events, fatalities, and actor activity.",
+      "source_context": "Section: Ceasefires, Coca, and a Three‑Act War; references [13][14]."
+    },
+    {
+      "evidence": "Despite 23 formal peace agreements and international praise, implementation lagged due to inequality, fiscal constraints, and loss of Senate control in April 2024, slowing core reforms.",
+      "is_acled_data": false,
+      "reasoning": "The statement discusses peace agreement implementation, inequality, fiscal constraints, and political control of the Senate affecting reforms—general political analysis and governance context, not conflict event counts, fatalities, or actor-level event data tied to ACLED.",
+      "source_context": "Section: Ceasefires, Coca, and a Three‑Act War; cites [18][13][15][19]."
+    },
+    {
+      "evidence": "Reduced eradication raids likely contributed to fewer lethal civilian‑targeting incidents in rural areas, but slow territorial reforms left armed groups space to maneuver and adapt.",
+      "is_acled_data": false,
+      "reasoning": "The statement is an analytical inference about policy (eradication raids, territorial reforms) and its effects, without citing specific ACLED event counts, locations, or actor-level data. It is general commentary, not directly tied to ACLED-derived metrics or explicitly attributed to ACLED.",
+      "source_context": "Section: Ceasefires, Coca, and a Three‑Act War; linkage via [12][13][17][20][9][21]."
+    },
+    {
+      "evidence": "The ELN’s trajectory had three acts: high activity/lethality in early 2023; a mid‑2023 ceasefire lull with fewer events/fatalities; and a 2024 resurgence with fewer but deadlier engagements and more lethal remote attacks.",
+      "is_acled_data": true,
+      "reasoning": "The evidence discusses temporal patterns in ELN activity—event frequency, lethality, ceasefire lull, resurgence, and modality (remote attacks)—which aligns with ACLED’s event counts, fatality figures, and actor-level trend analysis. This type of trajectory is typically derived from ACLED’s conflict event and fatality data across time.",
+      "source_context": "Section: Ceasefires, Coca, and a Three‑Act War; data from [22][23][24][25][26][27][28][29][3]."
+    },
+    {
+      "evidence": "FARC dissidents and the Gulf Clan consolidated in select territories amid fewer army offensives and uneven state‑building, shifting to fewer skirmishes and more impactful battles/remote strikes.",
+      "is_acled_data": true,
+      "reasoning": "The statement references shifts in conflict modalities (fewer skirmishes, more impactful battles/remote strikes), territorial consolidation by armed groups (FARC dissidents, Gulf Clan), and changes in army offensives—elements that align with ACLED’s battle/remote violence event categories, actor-level activity, and temporal trend analysis. This reflects insights typically derived from ACLED event data and trend summaries rather than general geopolitical commentary.",
+      "source_context": "Section: Ceasefires, Coca, and a Three‑Act War; references [12][14][15][16][17][1][24][20][8][30]."
+    },
+    {
+      "evidence": "Net effect: dialogue reduced everyday civilian killing, but absent rapid state occupation of territory, armed actors reconfigured conflict into fewer, deadlier engagements.",
+      "is_acled_data": false,
+      "reasoning": "The statement is an analytical assessment about the net effect of dialogue on conflict patterns, not citing specific ACLED event counts, actor data, or trends. It lacks explicit ACLED-derived metrics or attribution and reads as general commentary.",
+      "source_context": "Section: Ceasefires, Coca, and a Three‑Act War; synthesis of trends across [2][3][10][11][20]."
+    },
+    {
+      "evidence": "By 2024, two principal conflict corridors exhibited elevated lethality per event: Arauca–Norte de Santander (~0.46) and Cauca–Antioquia (~0.53), versus ~0.27 elsewhere.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites subnational conflict corridors with lethality per event ratios and comparative figures, which align with ACLED-style metrics combining event counts and fatalities at geographic levels. Such calculations are commonly derived from ACLED event and fatality data by location/region.",
+      "source_context": "Section: Where the War Tightened; corridor metrics from [31]."
+    },
+    {
+      "evidence": "Violence against civilians was especially deadly along the Cauca–Antioquia axis—nearly one death per attack on average—while the eastern corridor combined high lethality with heavier civilian targeting.",
+      "is_acled_data": true,
+      "reasoning": "The statement references violence against civilians with quantitative lethality metrics (deaths per attack) and specific subnational corridors (Cauca–Antioquia axis, eastern corridor). These are characteristic of ACLED-derived analyses combining event counts, fatalities, and geographic breakdowns of violence against civilians.",
+      "source_context": "Section: Where the War Tightened; corridor subtype patterns from [32][31]."
+    },
+    {
+      "evidence": "A small set of municipalities carried outsized harm in 2024: Argelia (Cauca) and Tame (Arauca) ranked high for events and fatalities; Quibdó (Chocó) led fatalities nationally despite being outside the main corridors.",
+      "is_acled_data": true,
+      "reasoning": "The statement references subnational locations (municipalities) and compares event and fatality rankings, including noting which areas led in fatalities. These are specific conflict event counts and fatality metrics at a geographic level, which are core elements of ACLED’s dataset and analyses.",
+      "source_context": "Section: Where the War Tightened; municipal rankings from [22][33]."
+    },
+    {
+      "evidence": "Other hotspots showed “fewer but deadlier” dynamics: Puerto Guzmán (Putumayo) and Remedios (Antioquia) posted more than one death per incident on average, tied to FARC dissidents (CDF: Frontier Command) and the Gulf Clan respectively.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references subnational locations, armed group attribution, incident-level metrics (deaths per incident), and ties trends to specific actors—characteristics typical of ACLED’s event-based data and analysis of fatalities and incidents at localized levels.",
+      "source_context": "Section: Where the War Tightened; municipal lethality and actor ties from [34][35][36]."
+    },
+    {
+      "evidence": "In 2024, the top 10 municipalities by deaths accounted for nearly a quarter of fatalities but only about one‑eighth of events, evidencing concentrated lethality pockets within dispersed conflict.",
+      "is_acled_data": true,
+      "reasoning": "The statement references subnational event and fatality distributions (share of fatalities vs. share of events by municipalities), which aligns with ACLED’s event counts, fatality data, and geographic breakdowns. This pattern-based insight could be directly derived from ACLED’s dataset and typical analyses using it.",
+      "source_context": "Section: Where the War Tightened; concentration measures from [33]."
+    },
+    {
+      "evidence": "Departmental profiles in 2024 showed rising lethality: in Cauca and Antioquia, battle deaths grew faster than clashes, and remote‑violence fatalities rose sharply, driven by IED campaigns and sporadic shelling.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references departmental (subnational) profiles in 2024, compares battle deaths to clashes, and notes increases in remote-violence fatalities driven by IEDs and shelling—metrics and event typologies (battles, explosions/remote violence, fatalities) that align closely with ACLED’s event categories, fatality counts, and subnational trend analysis. This is characteristic of insights derived from ACLED data.",
+      "source_context": "Section: Where the War Tightened; modality trends from [20][9]."
+    },
+    {
+      "evidence": "Shelling epitomized the “few but spectacular” pattern: an Army–FARC dissident clash in Cauca caused 15 deaths via artillery; an ELN mortar strike in Antioquia killed five in one incident.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific conflict events with locations, actors (Army–FARC dissidents, ELN), event types (shelling, mortar strike), and fatality counts—hallmarks of ACLED event data and descriptions. It reflects battle-related incidents and casualties in subnational areas, consistent with ACLED’s event reporting.",
+      "source_context": "Section: Where the War Tightened; specific dyads/incidents from [7][8][9][3]."
+    },
+    {
+      "evidence": "Explosions/remote attacks in 2024 produced a disproportionate share of deaths relative to their event counts, with a small fraction of incidents driving a significant portion of fatalities.",
+      "is_acled_data": true,
+      "reasoning": "The statement discusses explosions/remote attacks in 2024 and their share of deaths relative to event counts—i.e., event types and fatality proportions—directly aligning with ACLED’s event-type categories (explosions/remote violence) and fatality statistics, as well as temporal trend analysis. This is characteristic of insights derived from ACLED event and fatality data.",
+      "source_context": "Section: Where the War Tightened; distributional evidence from [3][10]."
+    },
+    {
+      "evidence": "Despite lethal pockets, national Herfindahl‑style metrics still show geographically dispersed violence, creating a dual reality of widespread low‑level conflict with corridor hotspots.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a generalized analytical claim about spatial dispersion of violence using a Herfindahl-style metric and mentions corridor hotspots, without citing specific ACLED event counts, locations, or indices. It reads as broader conflict analysis rather than referencing ACLED-derived data or metrics explicitly.",
+      "source_context": "Section: Where the War Tightened; concentration indices from [38][33][11]."
+    },
+    {
+      "evidence": "International narratives highlighted Colombia as a peacebuilding model in 2024—citing 23 agreements and reduced lethal civilian targeting—while subnational data showed rising battle/remote lethality in key corridors.",
+      "is_acled_data": true,
+      "reasoning": "References to counts of agreements may be general, but the claims about reduced targeting of civilians and rising battle/remote violence lethality in specific corridors align with ACLED’s event-based metrics: violence against civilians statistics, battle/explosions-remote violence data, fatalities, and subnational trends. The phrasing suggests subnational trend analysis grounded in ACLED-type data rather than purely general commentary.",
+      "source_context": "Section: The Peace That Didn’t Occupy the Territory; contrasts from [18][13][31] versus [20][9][21][32]."
+    },
+    {
+      "evidence": "Municipalities like Remedios and Puerto Guzmán reached top‑decile lethality in late 2024, often with a single dominant actor responsible for most killings, indicating local quasi‑hegemony.",
+      "is_acled_data": true,
+      "reasoning": "The claim references subnational locations, lethality levels (implying fatality rates or top-decile metrics), timeframe (late 2024), and dominance by a single actor—elements consistent with ACLED’s event-based fatalities, actor-level activity, and geographic trend analysis. This type of top-decile lethality assessment by municipality and actor dominance likely derives from ACLED’s conflict event and fatality data and their derived analytical metrics.",
+      "source_context": "Section: The Peace That Didn’t Occupy the Territory; late‑2024 municipal panel from [29][35][9][36]."
+    },
+    {
+      "evidence": "The 2024 severity distribution confirms tail risk: top 1–10% of battle and remote events accounted for a high share of fatalities, with median events causing zero deaths.",
+      "is_acled_data": true,
+      "reasoning": "The statement discusses severity distribution of battle and remote violence events and fatalities with median deaths per event—metrics derived from event-level counts and fatality data, which are core ACLED outputs. It references categories ACLED uses (battles, explosions/remote violence) and statistical summaries from such event data.",
+      "source_context": "Sections: From Fewer Corpses; Where the War Tightened; detailed distributions from [10][11]."
+    },
+    {
+      "evidence": "Policy risk for 2025: national improvements in civilian targeting could mask entrenched high‑impact war zones along the Arauca–Norte de Santander and Cauca–Antioquia corridors where each incident can shift local control.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a policy risk assessment and qualitative analysis about potential masking of conflict hotspots and shifts in local control; it does not cite specific ACLED event counts, actor data, fatalities, or geographic event statistics. It is general commentary rather than explicitly derived from ACLED data.",
+      "source_context": "Section: The Peace That Didn’t Occupy the Territory; corridor risk framing from [31][32][33]."
+    },
+    {
+      "evidence": "Core policy implication: translating negotiation into territorial state presence is essential—prioritize corridor hotpots, curb battle/remote lethality, improve attribution for unidentified armed groups, and embed justice and services locally.",
+      "is_acled_data": false,
+      "reasoning": "The evidence is a policy implication and analytic recommendation about governance and security strategy; it does not cite or present specific ACLED event data, statistics, actor-level details, or ACLED-derived trends. It is general analysis, not directly tied to ACLED datasets.",
+      "source_context": "Sections: Where the War Tightened; The Peace That Didn’t Occupy the Territory; recommendations synthesizing [31][32][33][20][9][30]."
+    },
+    {
+      "evidence": "Conclusion: Total Peace reduced routine killing of civilians and overall event counts modestly, but the conflict reconfigured into fewer, deadlier battles and remote strikes, with shelling punctuating mass‑casualty episodes concentrated in corridor municipalities.",
+      "is_acled_data": true,
+      "reasoning": "The statement references changes in event counts, violence against civilians, battle lethality, and modality shifts (remote violence, shelling) as well as subnational concentration (“corridor municipalities”). These are all metrics ACLED tracks (event types, fatalities, geographic concentration), suggesting it is derived from ACLED-style event data and trend analysis.",
+      "source_context": "Conclusion; synthesis of national and subnational trends with references throughout [2][3][7][8][31][33]."
+    }
+  ],
+  "insights": [
+    {
+      "insight": "Under Petro’s “Total Peace,” direct attacks on civilians declined from roughly 1,600 incidents in 2022 to about 1,300 in 2024, with associated fatalities down by about a third and slightly lower lethality per incident.",
+      "context": "Section: From Fewer Corpses to Deadlier Clashes; cites [2][3] for annual declines in VAC incidents and fatalities."
+    },
+    {
+      "insight": "Abductions and forced disappearances nearly doubled between 2022 and 2023 and stayed elevated in 2024, indicating a shift from lethal punishment to non‑lethal coercion of civilians.",
+      "context": "Section: From Fewer Corpses to Deadlier Clashes; cites [4][5] on abduction trends and low fatality counts."
+    },
+    {
+      "insight": "Overall political‑violence events showed a gentle decline by 2024—about a 16% drop from 2023—but average deaths per event rose again after a 2023 dip.",
+      "context": "Section: From Fewer Corpses to Deadlier Clashes; references monthly and annual ACLED aggregates [1][2]."
+    },
+    {
+      "insight": "Battles remained numerically stable 2022–2024, but lethality followed a U‑shape: fatalities per clash fell in 2023 and rebounded in 2024, raising total battle deaths despite slightly fewer engagements.",
+      "context": "Section: From Fewer Corpses to Deadlier Clashes; data from [2][3]."
+    },
+    {
+      "insight": "Explosions and remote violence became markedly more lethal in 2024, with average deaths per incident roughly doubling versus 2023.",
+      "context": "Section: From Fewer Corpses to Deadlier Clashes; cites [2][3]."
+    },
+    {
+      "insight": "Shelling/artillery emerged in 2024 as rare but extremely lethal; eight shelling incidents caused 23 deaths, the highest per‑event lethality among remote‑violence subtypes that year.",
+      "context": "Section: From Fewer Corpses to Deadlier Clashes; supported by [2][6][3]."
+    },
+    {
+      "insight": "A thin tail of high‑fatality battles and remote attacks accounted for a rising share of total killings in 2024, while most such incidents caused no deaths.",
+      "context": "Section: From Fewer Corpses to Deadlier Clashes; severity concentration and tail effects from [10][11]."
+    },
+    {
+      "insight": "Petro’s strategy prioritized dialogue with armed/criminal groups and rural justice mechanisms, seeking negotiated governance and social policy integration.",
+      "context": "Section: Ceasefires, Coca, and a Three‑Act War; sources [12][13]."
+    },
+    {
+      "insight": "Forced coca eradication dropped about 60%, shifting toward crop substitution and sustainable agriculture as part of a broader rural turn.",
+      "context": "Section: Ceasefires, Coca, and a Three‑Act War; references [13][14]."
+    },
+    {
+      "insight": "Despite 23 formal peace agreements and international praise, implementation lagged due to inequality, fiscal constraints, and loss of Senate control in April 2024, slowing core reforms.",
+      "context": "Section: Ceasefires, Coca, and a Three‑Act War; cites [18][13][15][19]."
+    },
+    {
+      "insight": "Reduced eradication raids likely contributed to fewer lethal civilian‑targeting incidents in rural areas, but slow territorial reforms left armed groups space to maneuver and adapt.",
+      "context": "Section: Ceasefires, Coca, and a Three‑Act War; linkage via [12][13][17][20][9][21]."
+    },
+    {
+      "insight": "The ELN’s trajectory had three acts: high activity/lethality in early 2023; a mid‑2023 ceasefire lull with fewer events/fatalities; and a 2024 resurgence with fewer but deadlier engagements and more lethal remote attacks.",
+      "context": "Section: Ceasefires, Coca, and a Three‑Act War; data from [22][23][24][25][26][27][28][29][3]."
+    },
+    {
+      "insight": "FARC dissidents and the Gulf Clan consolidated in select territories amid fewer army offensives and uneven state‑building, shifting to fewer skirmishes and more impactful battles/remote strikes.",
+      "context": "Section: Ceasefires, Coca, and a Three‑Act War; references [12][14][15][16][17][1][24][20][8][30]."
+    },
+    {
+      "insight": "Net effect: dialogue reduced everyday civilian killing, but absent rapid state occupation of territory, armed actors reconfigured conflict into fewer, deadlier engagements.",
+      "context": "Section: Ceasefires, Coca, and a Three‑Act War; synthesis of trends across [2][3][10][11][20]."
+    },
+    {
+      "insight": "By 2024, two principal conflict corridors exhibited elevated lethality per event: Arauca–Norte de Santander (~0.46) and Cauca–Antioquia (~0.53), versus ~0.27 elsewhere.",
+      "context": "Section: Where the War Tightened; corridor metrics from [31]."
+    },
+    {
+      "insight": "Violence against civilians was especially deadly along the Cauca–Antioquia axis—nearly one death per attack on average—while the eastern corridor combined high lethality with heavier civilian targeting.",
+      "context": "Section: Where the War Tightened; corridor subtype patterns from [32][31]."
+    },
+    {
+      "insight": "A small set of municipalities carried outsized harm in 2024: Argelia (Cauca) and Tame (Arauca) ranked high for events and fatalities; Quibdó (Chocó) led fatalities nationally despite being outside the main corridors.",
+      "context": "Section: Where the War Tightened; municipal rankings from [22][33]."
+    },
+    {
+      "insight": "Other hotspots showed “fewer but deadlier” dynamics: Puerto Guzmán (Putumayo) and Remedios (Antioquia) posted more than one death per incident on average, tied to FARC dissidents (CDF: Frontier Command) and the Gulf Clan respectively.",
+      "context": "Section: Where the War Tightened; municipal lethality and actor ties from [34][35][36]."
+    },
+    {
+      "insight": "In 2024, the top 10 municipalities by deaths accounted for nearly a quarter of fatalities but only about one‑eighth of events, evidencing concentrated lethality pockets within dispersed conflict.",
+      "context": "Section: Where the War Tightened; concentration measures from [33]."
+    },
+    {
+      "insight": "Departmental profiles in 2024 showed rising lethality: in Cauca and Antioquia, battle deaths grew faster than clashes, and remote‑violence fatalities rose sharply, driven by IED campaigns and sporadic shelling.",
+      "context": "Section: Where the War Tightened; modality trends from [20][9]."
+    },
+    {
+      "insight": "Shelling epitomized the “few but spectacular” pattern: an Army–FARC dissident clash in Cauca caused 15 deaths via artillery; an ELN mortar strike in Antioquia killed five in one incident.",
+      "context": "Section: Where the War Tightened; specific dyads/incidents from [7][8][9][3]."
+    },
+    {
+      "insight": "Explosions/remote attacks in 2024 produced a disproportionate share of deaths relative to their event counts, with a small fraction of incidents driving a significant portion of fatalities.",
+      "context": "Section: Where the War Tightened; distributional evidence from [3][10]."
+    },
+    {
+      "insight": "Despite lethal pockets, national Herfindahl‑style metrics still show geographically dispersed violence, creating a dual reality of widespread low‑level conflict with corridor hotspots.",
+      "context": "Section: Where the War Tightened; concentration indices from [38][33][11]."
+    },
+    {
+      "insight": "International narratives highlighted Colombia as a peacebuilding model in 2024—citing 23 agreements and reduced lethal civilian targeting—while subnational data showed rising battle/remote lethality in key corridors.",
+      "context": "Section: The Peace That Didn’t Occupy the Territory; contrasts from [18][13][31] versus [20][9][21][32]."
+    },
+    {
+      "insight": "Municipalities like Remedios and Puerto Guzmán reached top‑decile lethality in late 2024, often with a single dominant actor responsible for most killings, indicating local quasi‑hegemony.",
+      "context": "Section: The Peace That Didn’t Occupy the Territory; late‑2024 municipal panel from [29][35][9][36]."
+    },
+    {
+      "insight": "The 2024 severity distribution confirms tail risk: top 1–10% of battle and remote events accounted for a high share of fatalities, with median events causing zero deaths.",
+      "context": "Sections: From Fewer Corpses; Where the War Tightened; detailed distributions from [10][11]."
+    },
+    {
+      "insight": "Policy risk for 2025: national improvements in civilian targeting could mask entrenched high‑impact war zones along the Arauca–Norte de Santander and Cauca–Antioquia corridors where each incident can shift local control.",
+      "context": "Section: The Peace That Didn’t Occupy the Territory; corridor risk framing from [31][32][33]."
+    },
+    {
+      "insight": "Core policy implication: translating negotiation into territorial state presence is essential—prioritize corridor hotpots, curb battle/remote lethality, improve attribution for unidentified armed groups, and embed justice and services locally.",
+      "context": "Sections: Where the War Tightened; The Peace That Didn’t Occupy the Territory; recommendations synthesizing [31][32][33][20][9][30]."
+    },
+    {
+      "insight": "Conclusion: Total Peace reduced routine killing of civilians and overall event counts modestly, but the conflict reconfigured into fewer, deadlier battles and remote strikes, with shelling punctuating mass‑casualty episodes concentrated in corridor municipalities.",
+      "context": "Conclusion; synthesis of national and subnational trends with references throughout [2][3][7][8][31][33]."
+    }
+  ],
+  "prompt": "Do a deep research on Petro's presidency in Columbia and Columbia's conflict summary and outlook, as if we are at the end of 2024 heading into 2025"
+}

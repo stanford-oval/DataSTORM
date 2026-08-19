@@ -1,0 +1,92 @@
+{
+  "total_insights": 8,
+  "total_classified": 8,
+  "acled_count": 7,
+  "non_acled_count": 1,
+  "pct_acled": 0.875,
+  "details": [
+    {
+      "evidence": "Around 27 November 2024, Majangir ethnic militia from Gambela attacked Shekibido Kebele (Masha district, Sheka zone) in South West Ethiopia Peoples’ Region, killing at least 20 civilians, mainly farmers and local officials.",
+      "is_acled_data": true,
+      "reasoning": "The evidence describes a specific violent event with date, location (Shekibido Kebele, Masha district, Sheka zone), actors (Majangir ethnic militia), target (civilians), and fatalities (at least 20). This aligns with ACLED-style event data: violence against civilians, actor-level details, geographic specificity, and casualty figures.",
+      "source_context": "South West Ethiopia Peoples’ Region section; major incident detailed as occurring around 27 Nov in Shekibido Kebele."
+    },
+    {
+      "evidence": "The cross-border Majangir militia attack was the most significant event in South West Ethiopia Peoples’ Region between 23 November and 3 December 2024, with no other large-scale incidents reported in that period.",
+      "is_acled_data": true,
+      "reasoning": "The statement identifies a specific conflict event (a cross-border Majangir militia attack), characterizes its significance relative to other events within a defined timeframe and subnational region, and implies comparative event incidence (no other large-scale incidents reported). This aligns with ACLED’s event descriptions, actor-level data, temporal and subnational breakdowns, and conflict trend analysis derived from event data.",
+      "source_context": "South West Ethiopia Peoples’ Region section; noted as the most significant event with no other large-scale incidents."
+    },
+    {
+      "evidence": "On 23 November 2024, ENDF forces clashed with OLA insurgents in West Guji Zone, reportedly killing several OLA militants.",
+      "is_acled_data": true,
+      "reasoning": "The evidence describes a specific battle event with date, location, actors (ENDF vs OLA), and reported fatalities, which aligns with ACLED battle/event data and actor-level information.",
+      "source_context": "Oromia Region section; example of government-OLA clashes on 23 Nov in West Guji."
+    },
+    {
+      "evidence": "Around the same late-November period, approximately 10 OLA fighters surrendered to authorities in the East Borena/Guji area.",
+      "is_acled_data": true,
+      "reasoning": "Mentions a specific conflict-related event (OLA fighters surrendering) with actors, location, and timing—typical of ACLED event descriptions and armed group activity data.",
+      "source_context": "Oromia Region section; mention of small groups of OLA rebels laying down arms in East Borena/Guji."
+    },
+    {
+      "evidence": "On 24 November 2024, unidentified gunmen shot at a public bus in East Wellega, wounding one civilian passenger.",
+      "is_acled_data": true,
+      "reasoning": "The evidence describes a specific conflict event with date, location, actors (unidentified gunmen), target (public bus/civilian), and casualty detail (one wounded), which matches ACLED-style event reporting and incident descriptions.",
+      "source_context": "Oromia Region section; violence against civilians incident on 24 Nov in East Wellega."
+    },
+    {
+      "evidence": "On 2 December 2024, an Amhara-based Fano militia ambushed Oromo livestock traders in Horo Gudru Wellega Zone, killing about 5–6 people and destroying their truck and dozens of sheep.",
+      "is_acled_data": true,
+      "reasoning": "The evidence describes a specific conflict event with date, actors (Fano militia, Oromo traders), location (Horo Gudru Wellega Zone), fatalities, and property destruction—details consistent with ACLED event descriptions and actor-level data.",
+      "source_context": "Oromia Region section; Fano militia ambush on 2 Dec in Horo Gudru Wellega."
+    },
+    {
+      "evidence": "A peace agreement signed on 1 December 2024 led to roughly 800 OLA fighters from the central Oromia faction laying down arms and entering rehabilitation centers in Ambo and nearby areas on 3 December 2024.",
+      "is_acled_data": false,
+      "reasoning": "The evidence describes a peace agreement and subsequent demobilization/rehabilitation of approximately 800 OLA fighters and references rehabilitation centers and dates. This is a policy/demobilization development and a specific headcount not typically captured as an ACLED event record (which focuses on discrete conflict events, violence types, fatalities, and actor activity tied to events). Without explicit attribution to ACLED event data, it appears to be from policy/government reports or media, not ACLED.",
+      "source_context": "Oromia Region section; peace initiative resulting in demobilization on 3 Dec after a 1 Dec agreement."
+    },
+    {
+      "evidence": "Local residents in Ambo held a reception ceremony for the approximately 800 demobilized OLA fighters entering rehabilitation on 3 December 2024, signaling community support for de-escalation.",
+      "is_acled_data": true,
+      "reasoning": "The evidence describes a specific event involving demobilized OLA fighters, location (Ambo), date (3 December 2024), and actor-level details with an indication of community action. This fits ACLED-style event data on armed group activity and protest/riot-type gatherings, including event descriptions and actor information.",
+      "source_context": "Oromia Region section; note of reception ceremony in Ambo following demobilization."
+    }
+  ],
+  "insights": [
+    {
+      "insight": "Around 27 November 2024, Majangir ethnic militia from Gambela attacked Shekibido Kebele (Masha district, Sheka zone) in South West Ethiopia Peoples’ Region, killing at least 20 civilians, mainly farmers and local officials.",
+      "context": "South West Ethiopia Peoples’ Region section; major incident detailed as occurring around 27 Nov in Shekibido Kebele."
+    },
+    {
+      "insight": "The cross-border Majangir militia attack was the most significant event in South West Ethiopia Peoples’ Region between 23 November and 3 December 2024, with no other large-scale incidents reported in that period.",
+      "context": "South West Ethiopia Peoples’ Region section; noted as the most significant event with no other large-scale incidents."
+    },
+    {
+      "insight": "On 23 November 2024, ENDF forces clashed with OLA insurgents in West Guji Zone, reportedly killing several OLA militants.",
+      "context": "Oromia Region section; example of government-OLA clashes on 23 Nov in West Guji."
+    },
+    {
+      "insight": "Around the same late-November period, approximately 10 OLA fighters surrendered to authorities in the East Borena/Guji area.",
+      "context": "Oromia Region section; mention of small groups of OLA rebels laying down arms in East Borena/Guji."
+    },
+    {
+      "insight": "On 24 November 2024, unidentified gunmen shot at a public bus in East Wellega, wounding one civilian passenger.",
+      "context": "Oromia Region section; violence against civilians incident on 24 Nov in East Wellega."
+    },
+    {
+      "insight": "On 2 December 2024, an Amhara-based Fano militia ambushed Oromo livestock traders in Horo Gudru Wellega Zone, killing about 5–6 people and destroying their truck and dozens of sheep.",
+      "context": "Oromia Region section; Fano militia ambush on 2 Dec in Horo Gudru Wellega."
+    },
+    {
+      "insight": "A peace agreement signed on 1 December 2024 led to roughly 800 OLA fighters from the central Oromia faction laying down arms and entering rehabilitation centers in Ambo and nearby areas on 3 December 2024.",
+      "context": "Oromia Region section; peace initiative resulting in demobilization on 3 Dec after a 1 Dec agreement."
+    },
+    {
+      "insight": "Local residents in Ambo held a reception ceremony for the approximately 800 demobilized OLA fighters entering rehabilitation on 3 December 2024, signaling community support for de-escalation.",
+      "context": "Oromia Region section; note of reception ceremony in Ambo following demobilization."
+    }
+  ],
+  "prompt": "Summary of recent events in South West Ethiopia Peoples region and Oromia region, between 23 November 2024 and 3 December 2024"
+}

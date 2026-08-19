@@ -1,0 +1,40 @@
+# Credentials — never commit
+secrets.toml
+*.env
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+build/
+dist/
+*.egg-info/
+.venv/
+.idea
+.vscode
+.DS_Store
+
+# Runtime output
+log/
+sql_results/
+*.log
+prompt_logs.jsonl
+_suql_error_log.txt
+debug_logs*.log
+
+# Local domain data (see README: "Per-domain data")
+datatalk_domains/
+
+# Generated run output
+runs/
+datatalk_generated_articles/
+
+# Withheld pending an ACLED redistribution decision: the generated ACLED
+# reports and their run directories. See results/README.md.
+results/acled/
+
+# ACLED's own published articles, used as evaluation references. Not ours to
+# redistribute; retrieve them yourself per
+# eval/deep_research_bench_evaluator/references/README.md
+eval/deep_research_bench_evaluator/references/*.md
+!eval/deep_research_bench_evaluator/references/README.md

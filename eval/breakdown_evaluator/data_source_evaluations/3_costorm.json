@@ -1,0 +1,342 @@
+{
+  "total_insights": 33,
+  "total_classified": 33,
+  "acled_count": 29,
+  "non_acled_count": 4,
+  "pct_acled": 0.8787878787878788,
+  "details": [
+    {
+      "evidence": "By 2024, the Sahel’s conflict split into three distinct patterns: Burkina Faso consolidated into fewer but deadlier JNIM and IS Sahel events, Mali saw a marked drop in IS Sahel lethality per event, and Niger experienced a late, battle-led surge in per-event lethality concentrated in Tillabéri.",
+      "is_acled_data": true,
+      "reasoning": "The statement references per-event lethality trends, event counts/consolidation, temporal changes by year (2024), actor-specific patterns (JNIM and IS Sahel), and subnational concentration (Tillabéri). These are characteristic ACLED-derived metrics (event counts, fatalities per event, actor-level and geographic breakdowns, temporal trend analysis).",
+      "source_context": "A region splits three ways: the 2024 lethality map"
+    },
+    {
+      "evidence": "Burkina Faso recorded the highest JNIM lethality in 2024 at about 4.63 deaths per event, with IS Sahel also elevated near 3.7, despite declining event counts—indicating consolidation into fewer, deadlier operations.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites actor-specific lethality metrics (deaths per event) and references event counts and trends for JNIM and IS Sahel in 2024. These are typical ACLED-derived measures based on event data and fatalities tied to specific actors and timeframes, indicating use of ACLED event and fatality data.",
+      "source_context": "A region splits three ways: the 2024 lethality map"
+    },
+    {
+      "evidence": "Mali’s IS Sahel lethality per event fell from roughly 5.1 in 2022 to about 1.7 in 2024, while JNIM activity stayed robust with steadier lethality around two deaths per incident.",
+      "is_acled_data": true,
+      "reasoning": "The statement cites group-specific lethality per event over time (fatalities per incident for IS Sahel and JNIM in 2022 vs 2024). Such metrics come from aggregating ACLED’s actor-level event counts and fatality data and deriving temporal trends, which aligns with ACLED’s event/fatality and actor activity data.",
+      "source_context": "A region splits three ways: the 2024 lethality map"
+    },
+    {
+      "evidence": "Niger’s 2024 lethality rose sharply: JNIM fatalities per event climbed to about 4.22 and IS Sahel to around 3.45, reflecting a pivot to deadlier engagements, especially in Tillabéri.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites actor-specific fatalities per event (lethality rates) for JNIM and IS Sahel in a specific year and region (Tillabéri), which aligns with ACLED’s event-level data (fatality counts, actor data, and subnational geography) and derived trend metrics from those events.",
+      "source_context": "A region splits three ways: the 2024 lethality map"
+    },
+    {
+      "evidence": "Battles are consistently more lethal than violence against civilians (VAC) across the Sahel, but trends diverged: IS Sahel’s battle lethality plunged in Mali (10.3 in 2022 to 4.25 in 2024) while rising in Niger (~8.0 in 2024).",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites comparative lethality metrics for battles vs. violence against civilians, with specific actor (IS Sahel), country-level, and temporal (yearly) fatality-per-event figures. Such battle/VAC event and fatality data, disaggregated by actor, country, and year, are core to ACLED’s event and casualty datasets and typical of ACLED-derived trend analyses.",
+      "source_context": "Event-type lens: battles vs VAC lethality trends"
+    },
+    {
+      "evidence": "In Burkina Faso, IS Sahel battle lethality peaked in 2023 and eased in 2024, while VAC lethality rebounded—showing that fewer total events did not translate into safer conditions.",
+      "is_acled_data": true,
+      "reasoning": "References battle lethality trends over time for IS Sahel in Burkina Faso and VAC (violence against civilians) lethality, linking fewer total events to safety implications. These are specific temporal patterns from event and fatality data and actor-level categories typical of ACLED analyses.",
+      "source_context": "Event-type lens: battles vs VAC lethality trends"
+    },
+    {
+      "evidence": "IS Sahel remains more lethal per VAC incident than JNIM, whereas JNIM accounts for larger volumes of incidents, particularly in Burkina Faso.",
+      "is_acled_data": true,
+      "reasoning": "The statement compares lethality per violence-against-civilians (VAC) incident between IS Sahel and JNIM and contrasts incident volumes by actor and country. These are metrics directly derived from ACLED event data: actor-level incident counts, VAC categorization, and lethality/fatality per incident, with subnational/country breakdowns. This aligns with ACLED’s event, VAC, fatality, and actor activity data.",
+      "source_context": "Event-type lens: group comparisons"
+    },
+    {
+      "evidence": "Within-type lethality shifts, not just event mix changes, drove national trends: Mali’s downturn reflects within-battle and within-VAC declines in Gao and Ménaka; Niger’s rise is battle-led with a parallel VAC uptick.",
+      "is_acled_data": true,
+      "reasoning": "The evidence discusses within-type lethality (fatalities per event) and distinguishes between event type mixes (battles vs. violence against civilians) across specific subnational areas (Gao, Ménaka) and countries (Mali, Niger). These are hallmarks of analyses derived from ACLED’s event-type categories, subnational geographies, and fatality data, reflecting conflict trend analysis based on ACLED datasets.",
+      "source_context": "Within-type lethality shifts dominate"
+    },
+    {
+      "evidence": "Burkina Faso’s JNIM lethality clusters in Centre-Nord and Est, with Sanmatenga averaging ~8.45 deaths per event and Gourma ~6.5, indicating geographic concentration of deadliness.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites subnational locations (Centre-Nord, Est; Sanmatenga, Gourma) and provides average deaths per event, indicating use of event-level fatality counts and geographic breakdowns typical of ACLED analyses. The concept of lethality (deaths per event) calculated for specific provinces strongly suggests derivation from ACLED’s event and fatality data.",
+      "source_context": "Geographic clustering of lethality in Burkina Faso"
+    },
+    {
+      "evidence": "Niger’s surge is concentrated in Tillabéri districts such as Torodi and Gothèye, highlighting localized escalation zones.",
+      "is_acled_data": true,
+      "reasoning": "Mentions a surge concentrated in specific subnational districts (Tillabéri, Torodi, Gothèye), indicating localized escalation zones. This aligns with ACLED’s geographic conflict data and trend analysis based on event counts by location; such specificity suggests derivation from ACLED’s subnational event data.",
+      "source_context": "Geographic concentration of Niger’s rise"
+    },
+    {
+      "evidence": "Strategic adaptation underpins divergence: JNIM emphasizes localized coercion for territorial control, while IS Sahel projects cross-border operations from the tri-border heartland, shaping country-specific lethality patterns.",
+      "is_acled_data": false,
+      "reasoning": "The statement is interpretive analysis about strategic behavior and territorial vs cross-border emphasis, without citing specific event counts, locations, fatalities, or actor-level event data from ACLED. It reads as general geopolitical commentary rather than direct use of ACLED-derived metrics.",
+      "source_context": "Strategic adaptation context"
+    },
+    {
+      "evidence": "In Burkina Faso, average fatalities per JNIM-linked event increased by about 3.42 since 2021, with roughly 2.46 points due to higher within-type lethality and 0.96 due to composition shifts.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites average fatalities per JNIM-linked event over time and decomposes changes into within-type lethality versus composition shifts. This relies on event-level counts and fatality data by actor/type—core ACLED data—and a temporal analysis derived from those events. The decomposition is an analysis step, but the underlying metrics (events, fatalities, actor linkage) are characteristic of ACLED.",
+      "source_context": "Burkina Faso’s consolidation: Oaxaca-style decomposition"
+    },
+    {
+      "evidence": "Burkina Faso’s battles averaged ~7.35 deaths in 2023 and ~7.34 in 2024, while VAC lethality rose from ~0.74 in 2021 to ~3.65 in 2024; ERV lethality remained above 2021 levels despite easing from a 2023 spike.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites battle and event-type-specific lethality (average deaths per battle, VAC, ERV) by year, which aligns with ACLED’s event categories and fatality metrics derived from its event data. This type of per-event average fatalities and temporal trend analysis is characteristic of ACLED-based calculations.",
+      "source_context": "Burkina Faso event-type lethality changes 2021–2024"
+    },
+    {
+      "evidence": "Monthly data in Burkina Faso show fewer JNIM events since early 2022 but higher lethality per event in 2023–2024, with months like May (~6.61), June (~7.41), and August (~8.59) 2024 reaching very high averages.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites monthly event counts by actor (JNIM) and calculates lethality per event with specific monthly averages for 2024. These are typical ACLED-derived metrics using ACLED event and fatality data over time and by actor, indicating reliance on ACLED temporal patterns, actor-level events, and fatalities.",
+      "source_context": "Burkina Faso monthly dynamics 2023–2024"
+    },
+    {
+      "evidence": "The share of zero-fatality JNIM events in Burkina Faso dropped from about three-quarters in 2021–2022 to roughly two-fifths in 2023–2024, indicating fewer bloodless encounters.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references shares of zero-fatality events for a specific actor (JNIM) over defined time periods and locations, which aligns with ACLED’s event- and fatality-based data and actor-level breakdowns. Calculating proportions of events with zero fatalities from 2021–2024 is a typical analysis derived directly from ACLED event and fatality records.",
+      "source_context": "Burkina Faso zero-fatality share collapse"
+    },
+    {
+      "evidence": "In Burkina Faso during 2024, tail risk intensified: the top 5% of events often accounted for half or more of monthly fatalities, sometimes exceeding 80%, showing mass-casualty outliers increasingly drive totals.",
+      "is_acled_data": true,
+      "reasoning": "The statement refers to distribution of fatalities across events within a specific country and year, implying analysis of event-level fatality counts and temporal aggregation (monthly) — metrics directly available from ACLED event data. The notion that a small share of events accounts for a large share of fatalities is a derived statistic based on ACLED incidents and fatalities, consistent with conflict trend analysis using ACLED.",
+      "source_context": "Burkina Faso tail-risk concentration"
+    },
+    {
+      "evidence": "High-fatality (≥10 deaths) events in Burkina Faso concentrate along Centre-Nord, Sahel, and Est corridors, with Sanmatenga, Gourma, Tapoa, Koulpélogo, and Namentenga among top districts.",
+      "is_acled_data": true,
+      "reasoning": "The statement cites high-fatality (≥10 deaths) conflict events concentrated in specific subnational areas and lists top districts, which aligns with ACLED’s event-level fatality counts and geographic subnational breakdowns derived from conflict event data.",
+      "source_context": "Burkina Faso geographic distribution of high-fatality events"
+    },
+    {
+      "evidence": "Sanmatenga (Centre-Nord) recorded ~8.45 deaths per JNIM event in 2024 (727 deaths, 86 incidents), combining high volume and severity; Yagha had a similar average (8.44) with fewer events.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites subnational locations, counts of incidents and fatalities, and computes deaths per event for JNIM in 2024—metrics directly aligned with ACLED’s event-level data (incident counts, fatality figures, actor-specific activity, and geographic breakdowns).",
+      "source_context": "Centre-Nord and Est hotspots: district specifics"
+    },
+    {
+      "evidence": "Est’s Gourma posted ~6.51 deaths per JNIM event (534 deaths over 82 events) and Banwa recorded ~6.16, with top-10 per-event lethality dominated by Centre-Nord and Est districts (≥20 events).",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites per-event lethality metrics by subnational districts (deaths per JNIM event, total deaths and event counts) and references a threshold of events (≥20) by regions like Centre-Nord and Est. This aligns with ACLED’s event-level data (counts, fatalities) and geographic breakdowns, and appears to be a calculated statistic derived from ACLED’s conflict event and fatality data.",
+      "source_context": "Centre-Nord and Est hotspots: admin2 rankings"
+    },
+    {
+      "evidence": "Burkina Faso’s zero-fatality share for JNIM events fell to ~40–41% in 2023–2024, reinforcing the shift toward more lethal outcomes per incident.",
+      "is_acled_data": true,
+      "reasoning": "The statement references the share of zero-fatality events for JNIM in Burkina Faso over 2023–2024, which implies calculations based on event-level fatality data and actor-tagged incidents—both are core components of ACLED (event counts, fatalities, actor-level data, temporal patterns). This type of metric (proportion of events with zero fatalities) is typically derived from ACLED’s event and fatality dataset.",
+      "source_context": "National pivot toward higher lethality per incident"
+    },
+    {
+      "evidence": "High-fatality JNIM battle incidents cluster in Centre-Nord and Est with average tolls around two dozen per event; Sahel region’s battles are deadlier still; VAC spikes in Boucle du Mouhoun and Est.",
+      "is_acled_data": true,
+      "reasoning": "Mentions specific conflict event patterns: battle incidents by actor (JNIM), regional clustering (Centre-Nord, Est, Sahel), fatality averages per event, and references to VAC (violence against civilians) spikes in specific subnational regions. These are characteristic ACLED metrics: actor-level battles, fatalities, subnational geography, and VAC statistics derived from event data.",
+      "source_context": "High-fatality battles and VAC clustering in Burkina Faso"
+    },
+    {
+      "evidence": "Event-count leaders like Koulpélogo (104 events) and Kossi (112) have lower per-event lethality (~4.9–4.7) than Sanmatenga and Gourma, illustrating consolidation: some locales pair high frequency with extreme lethality.",
+      "is_acled_data": true,
+      "reasoning": "Mentions specific subnational units with precise event counts and per-event lethality (fatalities per event), which are core ACLED metrics (event counts, fatalities, geographic breakdown). The framing compares provinces like Koulpélogo, Kossi, Sanmatenga, and Gourma—consistent with ACLED’s subnational event/fatality data and derived lethality calculations.",
+      "source_context": "Event-count vs lethality rankings in Burkina Faso"
+    },
+    {
+      "evidence": "Mali’s IS Sahel fatalities per event dropped from 5.11 (2022) to 1.73 (2024), driven mainly by within-type declines rather than composition: battle lethality fell from ~10.3 to ~4.25; VAC from ~5.5 to ~1.15.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites fatalities per event over time for IS Sahel and by event type (battle vs. violence against civilians), which aligns with ACLED’s event-level data and actor-level categorization. Calculations of lethality (fatalities per event) and within-type changes are typical derivatives of ACLED event and fatality counts by event type and actor in Mali across years.",
+      "source_context": "Mali IS Sahel within-type lethality declines 2022–2024"
+    },
+    {
+      "evidence": "Composition effects in Mali were modest compared to within-type effects (e.g., -0.19 vs -1.32 in 2023; -0.64 vs -2.74 in 2024), suggesting constrained IS Sahel capacity or tactical retrenchment in Gao and Ménaka.",
+      "is_acled_data": false,
+      "reasoning": "The evidence discusses “composition effects” versus “within-type effects” with numeric values (e.g., -0.19 vs -1.32) across years and interprets tactical implications. These appear to be results of an analytical decomposition rather than direct ACLED event metrics (counts, fatalities, or standard ACLED indices). Without explicit attribution to ACLED event data, this seems like independent analytical/statistical modeling, not direct ACLED-derived data.",
+      "source_context": "Mali decomposition and geographic focus"
+    },
+    {
+      "evidence": "JNIM in Mali maintained steadier activity with lower per-event lethality than IS Sahel, reflecting differing group dynamics within the country.",
+      "is_acled_data": true,
+      "reasoning": "The statement compares activity levels and per-event lethality between JNIM and IS Sahel in Mali, which implies use of event counts and fatalities per event—metrics directly aligned with ACLED’s event/fatality actor-level data and temporal activity patterns.",
+      "source_context": "Mali JNIM stability vs IS Sahel attenuation"
+    },
+    {
+      "evidence": "Niger’s Tillabéri axis (Torodi–Gothèye–Téra–Bankilaré–Ouallam) led the 2024 surge, with battles driving high lethality: JNIM in Gothèye averaged ~14.7 deaths per battle (12 engagements).",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific subnational locations, counts of battles (12 engagements), and an average fatality figure per battle (~14.7), reflecting event-level battle data and fatalities over time—hallmarks of ACLED’s event dataset and actor/location breakdowns.",
+      "source_context": "Niger Tillabéri battle-led surge: JNIM metrics"
+    },
+    {
+      "evidence": "IS Sahel in Niger recorded high battle lethality: ~13 per battle in Bankilaré, ~15.5 in Ouallam, and ~12.3 in Tillia, indicating widespread intense clashes across Tillabéri.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites battle lethality (average fatalities per battle) at specific subnational locations within Tillabéri, tied to a specific armed group (IS Sahel). This aligns with ACLED’s battle-related event data, fatality counts, geographic breakdown, and actor-level analysis, suggesting it is derived from ACLED event data and calculations.",
+      "source_context": "Niger Tillabéri battle-led surge: IS Sahel metrics"
+    },
+    {
+      "evidence": "Explosions/remote violence contributed to Niger’s toll: IS Sahel’s ERV in Bankilaré averaged ~13.7 deaths across three events; JNIM’s battles in Torodi averaged ~10.2 deaths over a dozen clashes.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites event types (explosions/remote violence, battles), specific locations (Bankilaré, Torodi), armed actors (IS Sahel, JNIM), event counts, and average fatality figures—hallmarks of ACLED’s event-level data and actor/location-tagged fatality statistics. These are typical aggregates derived from ACLED event records.",
+      "source_context": "Niger ERV and battle intensity details"
+    },
+    {
+      "evidence": "Téra hosted high-frequency IS Sahel battles and VAC incidents with elevated averages, reinforcing Tillabéri’s role as the epicenter of lethal activity in Niger.",
+      "is_acled_data": true,
+      "reasoning": "The statement references specific conflict metrics (frequency of IS Sahel battles, violence against civilians incidents, elevated averages) and locational emphasis (Téra, Tillabéri as epicenter of lethal activity), which align with ACLED’s event counts, actor-level data, VAC statistics, and subnational geographic analysis derived from ACLED datasets.",
+      "source_context": "Niger district-level intensification"
+    },
+    {
+      "evidence": "Regionally, JNIM shows wider dispersion in many months overall, while IS Sahel exhibits broader dispersion than JNIM in Niger during 2022–2024, amplifying Tillabéri’s risk profile.",
+      "is_acled_data": true,
+      "reasoning": "The statement compares geographic dispersion of operations by JNIM and IS Sahel across countries and time (2022–2024) and references a subnational area (Tillabéri). Such dispersion assessments rely on ACLED’s geocoded event data and actor-level activity over time. This aligns with ACLED’s geographic conflict data, temporal patterns, and armed group activity analyses, indicating derivation from ACLED-type event data rather than general commentary.",
+      "source_context": "Regional dispersion patterns 2022–2024"
+    },
+    {
+      "evidence": "Policy implications are localized: Burkina Faso requires civilian protection focused on Centre-Nord and Est battle and VAC hotspots; Mali needs to consolidate the IS Sahel lethality taper in Gao–Ménaka; Niger demands urgent reinforcement along the Tillabéri axis.",
+      "is_acled_data": false,
+      "reasoning": "The statement provides policy recommendations and localized implications without citing specific ACLED event counts, fatality figures, or actor/location-based event data. It is general analysis about protection priorities and reinforcement needs, not a direct presentation of ACLED-derived metrics or explicitly attributed to ACLED.",
+      "source_context": "Conclusion: policy stakes and geographic prioritization"
+    },
+    {
+      "evidence": "Risk monitoring should track within-type lethality and admin2 clustering—rather than event volume alone—to anticipate harm, as lethality increases are often driven by deadlier battles and VAC within the same event types.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references tracking lethality within event types and clustering at the admin2 level, concepts aligned with ACLED’s event-type taxonomy, fatality counts, and subnational (admin2) geocoding. It discusses analytical use of ACLED-style variables (event volume vs. lethality within battles and violence against civilians), indicating derivation from ACLED data characteristics rather than general commentary.",
+      "source_context": "Conclusion: monitoring focus recommendation"
+    },
+    {
+      "evidence": "Absent governance and inclusion alongside security measures, current country-specific equilibria risk solidifying into a persistent, lethal status quo that shifts the burden rather than resolving it.",
+      "is_acled_data": false,
+      "reasoning": "This is a general analytical statement about governance, inclusion, and security equilibria; it does not reference event counts, fatalities, locations, actors, or any ACLED-derived metrics. It is commentary rather than data tied to ACLED.",
+      "source_context": "Conclusion: strategic warning"
+    }
+  ],
+  "insights": [
+    {
+      "insight": "By 2024, the Sahel’s conflict split into three distinct patterns: Burkina Faso consolidated into fewer but deadlier JNIM and IS Sahel events, Mali saw a marked drop in IS Sahel lethality per event, and Niger experienced a late, battle-led surge in per-event lethality concentrated in Tillabéri.",
+      "context": "A region splits three ways: the 2024 lethality map"
+    },
+    {
+      "insight": "Burkina Faso recorded the highest JNIM lethality in 2024 at about 4.63 deaths per event, with IS Sahel also elevated near 3.7, despite declining event counts—indicating consolidation into fewer, deadlier operations.",
+      "context": "A region splits three ways: the 2024 lethality map"
+    },
+    {
+      "insight": "Mali’s IS Sahel lethality per event fell from roughly 5.1 in 2022 to about 1.7 in 2024, while JNIM activity stayed robust with steadier lethality around two deaths per incident.",
+      "context": "A region splits three ways: the 2024 lethality map"
+    },
+    {
+      "insight": "Niger’s 2024 lethality rose sharply: JNIM fatalities per event climbed to about 4.22 and IS Sahel to around 3.45, reflecting a pivot to deadlier engagements, especially in Tillabéri.",
+      "context": "A region splits three ways: the 2024 lethality map"
+    },
+    {
+      "insight": "Battles are consistently more lethal than violence against civilians (VAC) across the Sahel, but trends diverged: IS Sahel’s battle lethality plunged in Mali (10.3 in 2022 to 4.25 in 2024) while rising in Niger (~8.0 in 2024).",
+      "context": "Event-type lens: battles vs VAC lethality trends"
+    },
+    {
+      "insight": "In Burkina Faso, IS Sahel battle lethality peaked in 2023 and eased in 2024, while VAC lethality rebounded—showing that fewer total events did not translate into safer conditions.",
+      "context": "Event-type lens: battles vs VAC lethality trends"
+    },
+    {
+      "insight": "IS Sahel remains more lethal per VAC incident than JNIM, whereas JNIM accounts for larger volumes of incidents, particularly in Burkina Faso.",
+      "context": "Event-type lens: group comparisons"
+    },
+    {
+      "insight": "Within-type lethality shifts, not just event mix changes, drove national trends: Mali’s downturn reflects within-battle and within-VAC declines in Gao and Ménaka; Niger’s rise is battle-led with a parallel VAC uptick.",
+      "context": "Within-type lethality shifts dominate"
+    },
+    {
+      "insight": "Burkina Faso’s JNIM lethality clusters in Centre-Nord and Est, with Sanmatenga averaging ~8.45 deaths per event and Gourma ~6.5, indicating geographic concentration of deadliness.",
+      "context": "Geographic clustering of lethality in Burkina Faso"
+    },
+    {
+      "insight": "Niger’s surge is concentrated in Tillabéri districts such as Torodi and Gothèye, highlighting localized escalation zones.",
+      "context": "Geographic concentration of Niger’s rise"
+    },
+    {
+      "insight": "Strategic adaptation underpins divergence: JNIM emphasizes localized coercion for territorial control, while IS Sahel projects cross-border operations from the tri-border heartland, shaping country-specific lethality patterns.",
+      "context": "Strategic adaptation context"
+    },
+    {
+      "insight": "In Burkina Faso, average fatalities per JNIM-linked event increased by about 3.42 since 2021, with roughly 2.46 points due to higher within-type lethality and 0.96 due to composition shifts.",
+      "context": "Burkina Faso’s consolidation: Oaxaca-style decomposition"
+    },
+    {
+      "insight": "Burkina Faso’s battles averaged ~7.35 deaths in 2023 and ~7.34 in 2024, while VAC lethality rose from ~0.74 in 2021 to ~3.65 in 2024; ERV lethality remained above 2021 levels despite easing from a 2023 spike.",
+      "context": "Burkina Faso event-type lethality changes 2021–2024"
+    },
+    {
+      "insight": "Monthly data in Burkina Faso show fewer JNIM events since early 2022 but higher lethality per event in 2023–2024, with months like May (~6.61), June (~7.41), and August (~8.59) 2024 reaching very high averages.",
+      "context": "Burkina Faso monthly dynamics 2023–2024"
+    },
+    {
+      "insight": "The share of zero-fatality JNIM events in Burkina Faso dropped from about three-quarters in 2021–2022 to roughly two-fifths in 2023–2024, indicating fewer bloodless encounters.",
+      "context": "Burkina Faso zero-fatality share collapse"
+    },
+    {
+      "insight": "In Burkina Faso during 2024, tail risk intensified: the top 5% of events often accounted for half or more of monthly fatalities, sometimes exceeding 80%, showing mass-casualty outliers increasingly drive totals.",
+      "context": "Burkina Faso tail-risk concentration"
+    },
+    {
+      "insight": "High-fatality (≥10 deaths) events in Burkina Faso concentrate along Centre-Nord, Sahel, and Est corridors, with Sanmatenga, Gourma, Tapoa, Koulpélogo, and Namentenga among top districts.",
+      "context": "Burkina Faso geographic distribution of high-fatality events"
+    },
+    {
+      "insight": "Sanmatenga (Centre-Nord) recorded ~8.45 deaths per JNIM event in 2024 (727 deaths, 86 incidents), combining high volume and severity; Yagha had a similar average (8.44) with fewer events.",
+      "context": "Centre-Nord and Est hotspots: district specifics"
+    },
+    {
+      "insight": "Est’s Gourma posted ~6.51 deaths per JNIM event (534 deaths over 82 events) and Banwa recorded ~6.16, with top-10 per-event lethality dominated by Centre-Nord and Est districts (≥20 events).",
+      "context": "Centre-Nord and Est hotspots: admin2 rankings"
+    },
+    {
+      "insight": "Burkina Faso’s zero-fatality share for JNIM events fell to ~40–41% in 2023–2024, reinforcing the shift toward more lethal outcomes per incident.",
+      "context": "National pivot toward higher lethality per incident"
+    },
+    {
+      "insight": "High-fatality JNIM battle incidents cluster in Centre-Nord and Est with average tolls around two dozen per event; Sahel region’s battles are deadlier still; VAC spikes in Boucle du Mouhoun and Est.",
+      "context": "High-fatality battles and VAC clustering in Burkina Faso"
+    },
+    {
+      "insight": "Event-count leaders like Koulpélogo (104 events) and Kossi (112) have lower per-event lethality (~4.9–4.7) than Sanmatenga and Gourma, illustrating consolidation: some locales pair high frequency with extreme lethality.",
+      "context": "Event-count vs lethality rankings in Burkina Faso"
+    },
+    {
+      "insight": "Mali’s IS Sahel fatalities per event dropped from 5.11 (2022) to 1.73 (2024), driven mainly by within-type declines rather than composition: battle lethality fell from ~10.3 to ~4.25; VAC from ~5.5 to ~1.15.",
+      "context": "Mali IS Sahel within-type lethality declines 2022–2024"
+    },
+    {
+      "insight": "Composition effects in Mali were modest compared to within-type effects (e.g., -0.19 vs -1.32 in 2023; -0.64 vs -2.74 in 2024), suggesting constrained IS Sahel capacity or tactical retrenchment in Gao and Ménaka.",
+      "context": "Mali decomposition and geographic focus"
+    },
+    {
+      "insight": "JNIM in Mali maintained steadier activity with lower per-event lethality than IS Sahel, reflecting differing group dynamics within the country.",
+      "context": "Mali JNIM stability vs IS Sahel attenuation"
+    },
+    {
+      "insight": "Niger’s Tillabéri axis (Torodi–Gothèye–Téra–Bankilaré–Ouallam) led the 2024 surge, with battles driving high lethality: JNIM in Gothèye averaged ~14.7 deaths per battle (12 engagements).",
+      "context": "Niger Tillabéri battle-led surge: JNIM metrics"
+    },
+    {
+      "insight": "IS Sahel in Niger recorded high battle lethality: ~13 per battle in Bankilaré, ~15.5 in Ouallam, and ~12.3 in Tillia, indicating widespread intense clashes across Tillabéri.",
+      "context": "Niger Tillabéri battle-led surge: IS Sahel metrics"
+    },
+    {
+      "insight": "Explosions/remote violence contributed to Niger’s toll: IS Sahel’s ERV in Bankilaré averaged ~13.7 deaths across three events; JNIM’s battles in Torodi averaged ~10.2 deaths over a dozen clashes.",
+      "context": "Niger ERV and battle intensity details"
+    },
+    {
+      "insight": "Téra hosted high-frequency IS Sahel battles and VAC incidents with elevated averages, reinforcing Tillabéri’s role as the epicenter of lethal activity in Niger.",
+      "context": "Niger district-level intensification"
+    },
+    {
+      "insight": "Regionally, JNIM shows wider dispersion in many months overall, while IS Sahel exhibits broader dispersion than JNIM in Niger during 2022–2024, amplifying Tillabéri’s risk profile.",
+      "context": "Regional dispersion patterns 2022–2024"
+    },
+    {
+      "insight": "Policy implications are localized: Burkina Faso requires civilian protection focused on Centre-Nord and Est battle and VAC hotspots; Mali needs to consolidate the IS Sahel lethality taper in Gao–Ménaka; Niger demands urgent reinforcement along the Tillabéri axis.",
+      "context": "Conclusion: policy stakes and geographic prioritization"
+    },
+    {
+      "insight": "Risk monitoring should track within-type lethality and admin2 clustering—rather than event volume alone—to anticipate harm, as lethality increases are often driven by deadlier battles and VAC within the same event types.",
+      "context": "Conclusion: monitoring focus recommendation"
+    },
+    {
+      "insight": "Absent governance and inclusion alongside security measures, current country-specific equilibria risk solidifying into a persistent, lethal status quo that shifts the burden rather than resolving it.",
+      "context": "Conclusion: strategic warning"
+    }
+  ],
+  "prompt": "Analyze levels of violence in Burkina Faso, Mali, and Niger, especially related to JNIM and IS Sahel operations."
+}

@@ -1,0 +1,95 @@
+{
+  "dataset_id": 95,
+  "dataset_path": "data/notebooks/flag-95.json",
+  "metadata": {
+    "category": "Incidents Management",
+    "dataset_description": "The dataset comprises 500 entries simulating ServiceNow incidents table, detailing various attributes such as category, state, open and close dates, involved personnel, and incident specifics like location, description, and priority. It captures incident management activities with fields like 'opened_at', 'closed_at', 'assigned_to', 'short_description', and 'priority', reflecting the operational handling and urgency of issues across different locations and categories.",
+    "goal": "Find the discrepancy and imbalance in distribution of incidents assigned across categories",
+    "header": "Hardware Incident Dataset (Flag 95)",
+    "role": "L2 Support Agent"
+  },
+  "predicted_insights": [
+    "With five categories an even split would be 20% each, but Software is +9.82 percentage points above this while the others are −2.46 points below it; Software has 70 more incidents than any other category (170 vs 100), about 1.7× as many—indicating a notable assignment imbalance concentrated in Software.",
+    "With 100% alignment between categories and assignement_groups across the five groups, any imbalance in workload by category likely stems from actual incident volumes rather than misclassification or routing errors.",
+    "Software is disproportionately high with 170 of 570 incidents (29.8%), driven by a Q3-2023 surge (Jul–Sep: 25, 25, 27—about 45% of Software’s total), while each other category totals 100 (17.5%) and stays mostly in single digits to low teens monthly; all categories show 0 in 2024-02, suggesting a data cutoff rather than an operational drop.",
+    "The workload is imbalanced: Software has 170 incidents—70% more than any other category—and within it Fred Luddy handles 49 vs Luke Wilson’s 15 (≈3.3× difference), while Database is comparatively more balanced (max 26 vs min 16, ≈1.6×).",
+    "This 1.7x gap means Software handles 70% more incidents than any other category, capturing about 29.8% of all 570 incidents, whereas each other category accounts for roughly 17.5%, indicating a notable workload imbalance toward Software.",
+    "Beyond having the top share, Software’s top assignee handles 49 incidents—over 80% more than the next-highest top assignee load (27 in Hardware)—indicating imbalance in both percentage and absolute workload.",
+    "Incident assignment in Software is highly concentrated—about 3× more unequal than Inquiry / Help (0.207 vs 0.068) and ~40% higher than Hardware—indicating a potential workload imbalance among the five assignees that could impact throughput and burnout risk.",
+    "Compared with other categories where the top location accounts for only 22–23% (22–23 of 100 incidents), Software’s 25.29% (43 of 170) means Australia handles nearly twice as many top-location incidents as any other category’s top location, indicating a modest but meaningful geographic skew in Software incidents.",
+    "By Jan 2024, Hardware and Network combined reached ~52.9% of incidents versus Software’s 17.6%, reversing Aug 2023 when Software alone held 44.6% and Hardware+Network together were ~26.8%, highlighting a pronounced shift and imbalance in category load over time.",
+    "Totals per location are similar (113–117 incidents), so the cross-location imbalance is driven mainly by Software’s higher load—most extreme in Australia where Software is 2.9× Database (43 vs 15)—while non-Software categories stay within a tight 16–23 range across all locations.",
+    "The spread is substantial: the top rate (0.30) is ~21% above the cross-category average (~0.248), while Database’s rate (0.15) is about half of the top categories, indicating critical incidents are far more concentrated in Hardware and Inquiry / Help than in Database.",
+    "Software’s variance (22.0) is over 3× higher than any other category (next highest Database at 6.8), driven by Australia’s elevated volume (43 vs 30–34 elsewhere), indicating a strong geographic imbalance in software incidents."
+  ],
+  "predicted_summary": "Across 570 incidents, category volumes are imbalanced and volatile over time: Software is the largest category at 29.82% (170 incidents) versus 17.54% (100 incidents) for each of Database, Hardware, Inquiry/Help, and Network—a 1.7× largest-to-smallest gap. Software’s monthly share swung sharply from 14.6% (Jan 2023) to a mid‑year peak of 42–44.6% (Jul–Aug 2023) before dropping to 17.6% (Jan 2024), while in Jan 2024 Hardware and Network each reached 26.5%, Inquiry/Help fell to 8.8%, and Database was ~20.6%, underscoring substantial month‑to‑month shifts in category mix.\nWithin-category assignment is most unequal for Software: the top assignee handled 28.82% of Software incidents (49 of 170), the highest single‑assignee concentration among all categories, and Software also shows the greatest imbalance across its assignees by Gini coefficient (0.2071), indicating a comparatively skewed workload distribution inside this category.\nGeographically, Software both dominates and concentrates: it leads incident volume in every location and shows the highest variance in counts across locations (variance 22.0; counts across Australia–United States: 43, 31, 32, 30, 34). Its incidents are most concentrated in a single location as well—25.29% of all Software incidents (43 of 170) occur in Australia, where the category mix is most imbalanced (Software 43 vs Database 15, Hardware 17, Inquiry/Help 22, Network 20).",
+  "score_insights": 0.32284678340632006,
+  "score_insights_dict": [
+    {
+      "gt_insight": "The incidents are equally distributed across all categories.",
+      "pred_insight": "With 100% alignment between categories and assignement_groups across the five groups, any imbalance in workload by category likely stems from actual incident volumes rather than misclassification or routing errors.",
+      "score": 0.5539373982147743
+    },
+    {
+      "gt_insight": "There are no specific issues mentioned in the incident descriptions for each category.",
+      "pred_insight": "With 100% alignment between categories and assignement_groups across the five groups, any imbalance in workload by category likely stems from actual incident volumes rather than misclassification or routing errors.",
+      "score": 0.36985177153029036
+    },
+    {
+      "gt_insight": "There are specific mentions of printers in the incident descriptions.",
+      "pred_insight": "The spread is substantial: the top rate (0.30) is ~21% above the cross-category average (~0.248), while Database’s rate (0.15) is about half of the top categories, indicating critical incidents are far more concentrated in Hardware and Inquiry / Help than in Database.",
+      "score": 0.10610538753984652
+    },
+    {
+      "gt_insight": "There is no specific location where hardware incidents are concentrated.",
+      "pred_insight": "Totals per location are similar (113–117 incidents), so the cross-location imbalance is driven mainly by Software’s higher load—most extreme in Australia where Software is 2.9× Database (43 vs 15)—while non-Software categories stay within a tight 16–23 range across all locations.",
+      "score": 0.23117751140020343
+    },
+    {
+      "gt_insight": "There is no significant increasing trend in the 'Hardware' or any other category.",
+      "pred_insight": "Software is disproportionately high with 170 of 570 incidents (29.8%), driven by a Q3-2023 surge (Jul–Sep: 25, 25, 27—about 45% of Software’s total), while each other category totals 100 (17.5%) and stays mostly in single digits to low teens monthly; all categories show 0 in 2024-02, suggesting a data cutoff rather than an operational drop.",
+      "score": 0.3896150689658312
+    },
+    {
+      "gt_insight": "There is a significant variation in performance between Beth Anglin and Charlie Whitherspoon in terms of incident priority handling and resolution times.",
+      "pred_insight": "Incident assignment in Software is highly concentrated—about 3× more unequal than Inquiry / Help (0.207 vs 0.068) and ~40% higher than Hardware—indicating a potential workload imbalance among the five assignees that could impact throughput and burnout risk.",
+      "score": 0.2863935627869746
+    }
+  ],
+  "score_summary": 0.40468154692056857,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.3689306910973463,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "With 100% alignment between categories and assignement_groups across the five groups, any imbalance in workload by category likely stems from actual incident volumes rather than misclassification or routing errors.",
+      "gt_insight": "The incidents are equally distributed across all categories.",
+      "score": 0.57666766581818
+    },
+    {
+      "pred_insight": "With 100% alignment between categories and assignement_groups across the five groups, any imbalance in workload by category likely stems from actual incident volumes rather than misclassification or routing errors.",
+      "gt_insight": "There are no specific issues mentioned in the incident descriptions for each category.",
+      "score": 0.30939808789830126
+    },
+    {
+      "pred_insight": "With 100% alignment between categories and assignement_groups across the five groups, any imbalance in workload by category likely stems from actual incident volumes rather than misclassification or routing errors.",
+      "gt_insight": "There are specific mentions of printers in the incident descriptions.",
+      "score": 0.288886591731594
+    },
+    {
+      "pred_insight": "Totals per location are similar (113–117 incidents), so the cross-location imbalance is driven mainly by Software’s higher load—most extreme in Australia where Software is 2.9× Database (43 vs 15)—while non-Software categories stay within a tight 16–23 range across all locations.",
+      "gt_insight": "There is no specific location where hardware incidents are concentrated.",
+      "score": 0.3157457659774895
+    },
+    {
+      "pred_insight": "Software is disproportionately high with 170 of 570 incidents (29.8%), driven by a Q3-2023 surge (Jul–Sep: 25, 25, 27—about 45% of Software’s total), while each other category totals 100 (17.5%) and stays mostly in single digits to low teens monthly; all categories show 0 in 2024-02, suggesting a data cutoff rather than an operational drop.",
+      "gt_insight": "There is no significant increasing trend in the 'Hardware' or any other category.",
+      "score": 0.3991749322365764
+    },
+    {
+      "pred_insight": "The spread is substantial: the top rate (0.30) is ~21% above the cross-category average (~0.248), while Database’s rate (0.15) is about half of the top categories, indicating critical incidents are far more concentrated in Hardware and Inquiry / Help than in Database.",
+      "gt_insight": "There is a significant variation in performance between Beth Anglin and Charlie Whitherspoon in terms of incident priority handling and resolution times.",
+      "score": 0.3237111029219365
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.22552516575050388,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.29665185690717233
+}

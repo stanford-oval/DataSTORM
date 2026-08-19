@@ -1,0 +1,188 @@
+{
+  "prompt": "How is Al-Shabaab targeting civilians in Somalia following recent events?",
+  "criteria": [
+    {
+      "name": "Retaliation To Surveillance",
+      "description": "Assess how militant targeting of civilians intensifies in response to government surveillance measures, particularly mandates perceived to threaten insurgent freedom of movement and financing."
+    },
+    {
+      "name": "Targeting Business Centers",
+      "description": "Examine patterns of attacks on commercial hubs and business owners, especially those complying with security directives, and the resulting climate of fear and economic disruption."
+    },
+    {
+      "name": "Coercion And Compliance Dilemma",
+      "description": "Analyze how militants pressure civilians to defy state directives while authorities demand compliance, creating a risk calculus that influences business operations and public behavior."
+    },
+    {
+      "name": "Urban Focus In Capital",
+      "description": "Identify concentration of civilian targeting in major urban areas and neighborhoods, and how urban security initiatives shape attack locations and methods."
+    },
+    {
+      "name": "Methods Of Intimidation",
+      "description": "Track the predominant tactics used against civilians—such as shootings, IEDs, and threats—and any shifts in modus operandi linked to policy changes or counter-insurgency pressure."
+    },
+    {
+      "name": "Extortion And Financing Pressure",
+      "description": "Evaluate how attacks relate to preserving revenue streams from informal taxation, with violence used to enforce payment and deter measures that could expose collectors."
+    },
+    {
+      "name": "Counter-Insurgency Pressure Effects",
+      "description": "Assess whether targeted operations against militant leadership correlate with short-term spikes or shifts in retaliatory violence against civilians."
+    },
+    {
+      "name": "Business Closures And Economic Impact",
+      "description": "Measure how fear of retaliation and compliance uncertainty lead to market closures, reduced operating hours, and broader economic slowdowns."
+    },
+    {
+      "name": "Selective Compliance Patterns",
+      "description": "Explore uneven adoption of surveillance mandates across districts and how differential compliance correlates with localized targeting risks."
+    },
+    {
+      "name": "Regional Variation In Violence",
+      "description": "Compare intensity and forms of civilian targeting across regions, noting where militant focus shifts in response to security operations and political dynamics."
+    },
+    {
+      "name": "Security Forces And ATMIS Engagements",
+      "description": "Contextualize civilian targeting within broader battle patterns between militants and security actors, noting spillover risks to bystanders."
+    },
+    {
+      "name": "Information Control And Surveillance Sabotage",
+      "description": "Assess attempts to destroy or circumvent surveillance infrastructure and intimidate those facilitating data collection."
+    },
+    {
+      "name": "Political Tensions And Security Fallout",
+      "description": "Analyze how federal–regional disputes and leadership changes affect security coordination, potentially creating openings for militant attacks on civilians."
+    },
+    {
+      "name": "Temporal Escalation Patterns",
+      "description": "Identify periods of increased civilian targeting following specific government actions, security operations, or political milestones."
+    },
+    {
+      "name": "Civic Life Disruption",
+      "description": "Evaluate broader social impacts, including restrictions on movement, altered daily routines, and erosion of trust in state protection."
+    },
+    {
+      "name": "Messaging And Psychological Warfare",
+      "description": "Examine how militants use attacks to signal power, deter cooperation with authorities, and shape public narratives against surveillance."
+    },
+    {
+      "name": "Risk Mitigation Responses",
+      "description": "Document adaptations by civilians and businesses—such as security measures, relocation, or non-compliance—to reduce exposure to targeting."
+    },
+    {
+      "name": "Urban-Rural Spillover Dynamics",
+      "description": "Consider whether tactics used in the capital diffuse to other localities or remain concentrated based on surveillance and enforcement reach."
+    },
+    {
+      "name": "Event Type Shifts",
+      "description": "Track changes in the balance between battles and remote/explosive violence and how these shifts influence civilian harm."
+    },
+    {
+      "name": "Humanitarian And Protection Needs",
+      "description": "Assess emerging needs for protection, psychosocial support, and assistance for affected communities due to targeted intimidation and violence."
+    }
+  ],
+  "criterion_scores": [
+    {
+      "name": "Retaliation To Surveillance",
+      "score": 0.25,
+      "explanation": "The article mentions surveillance and urban security initiatives obliquely (references to “surveillance” appear in the task, but the article itself does not analyze retaliation to specific surveillance mandates or SIM/registration-like measures). It does not link intensified civilian targeting to government surveillance policies or mandates perceived to threaten insurgent movement/financing."
+    },
+    {
+      "name": "Targeting Business Centers",
+      "score": 0.85,
+      "explanation": "Strong coverage of attacks on economic/public venues in Mogadishu (hotels, restaurants, markets) with counts and proportions, noting higher concentration and signaling aims. Less detail on specific business owners complying with directives, but clearly ties to economic hubs and fear."
+    },
+    {
+      "name": "Coercion And Compliance Dilemma",
+      "score": 0.6,
+      "explanation": "The piece analyzes how violence along corridors regulates movement, taxation, and obedience, and pressures workers and local elites. However, it does not explicitly frame the dual pressure from militants versus authorities’ directives creating a compliance dilemma among civilians and businesses."
+    },
+    {
+      "name": "Urban Focus In Capital",
+      "score": 0.95,
+      "explanation": "Very well covered. Identifies Mogadishu as the densest hotspot, details neighborhoods, venues, methods, and how urban operations are calibrated for visibility and political timelines."
+    },
+    {
+      "name": "Methods Of Intimidation",
+      "score": 0.95,
+      "explanation": "Thorough description of predominant tactics (armed attacks, IEDs, suicide bombings rarely), venues (vehicles, settlements), lethality patterns, and shifts toward spectacle in the capital under pressure."
+    },
+    {
+      "name": "Extortion And Financing Pressure",
+      "score": 0.7,
+      "explanation": "The article links corridor violence to enforcing taxation, extraction, and revenue via checkpoints/IEDs and abductions. It stops short of directly tying violence to preserving specific informal tax streams threatened by state measures but the connection to revenue enforcement is clear."
+    },
+    {
+      "name": "Counter-Insurgency Pressure Effects",
+      "score": 0.6,
+      "explanation": "It states adaptation under military pressure and suggests timing around offensives, leadership losses, and political activity, but provides limited causal evidence or detailed linkage of targeted leadership operations to spikes in civilian targeting."
+    },
+    {
+      "name": "Business Closures And Economic Impact",
+      "score": 0.4,
+      "explanation": "The article implies economic disruption in Mogadishu’s economic/public venues and road risk for traders, but lacks concrete evidence on closures, reduced hours, or quantified slowdowns."
+    },
+    {
+      "name": "Selective Compliance Patterns",
+      "score": 0.2,
+      "explanation": "No substantive discussion of uneven adoption of surveillance mandates across districts or correlation of compliance with localized targeting. Only general corridor/district variation without compliance linkage."
+    },
+    {
+      "name": "Regional Variation In Violence",
+      "score": 0.85,
+      "explanation": "Strong comparative mapping across Banadir, Lower Shabelle, Lower Juba, Bay, and specific districts, noting tactic differences (IED-heavy near Mogadishu vs. face-to-face attacks deeper countryside) and corridor logic. Limited linkage to political dynamics beyond generalities."
+    },
+    {
+      "name": "Security Forces And ATMIS Engagements",
+      "score": 0.35,
+      "explanation": "Mentions broader battles and pressure and some targeting of security facilities with bystander harm, but little detail on ATMIS/Somali forces engagements’ patterns or specific spillover to civilians."
+    },
+    {
+      "name": "Information Control And Surveillance Sabotage",
+      "score": 0.2,
+      "explanation": "Minimal to no discussion of attempts to destroy/circumvent surveillance infrastructure or intimidation of those facilitating data collection. Focus is on movement/tax enforcement rather than surveillance systems."
+    },
+    {
+      "name": "Political Tensions And Security Fallout",
+      "score": 0.4,
+      "explanation": "Touches on timing around political activity and national calendars, but does not analyze federal–regional disputes, leadership changes, or coordination breakdowns influencing civilian targeting."
+    },
+    {
+      "name": "Temporal Escalation Patterns",
+      "score": 0.8,
+      "explanation": "Provides monthly patterns, October peak, specific week spikes on roads, and clustering of suicide attacks in certain months, though attribution to triggers is cautious."
+    },
+    {
+      "name": "Civic Life Disruption",
+      "score": 0.7,
+      "explanation": "Describes constraints on movement, altered travel for traders, access to services, humanitarian operations, and general fear; lacks deeper exploration of daily routine changes and trust erosion narratives."
+    },
+    {
+      "name": "Messaging And Psychological Warfare",
+      "score": 0.85,
+      "explanation": "Analyzes use of high-visibility attacks in Mogadishu for signaling, propaganda value, and audience effects; discusses spectacle vs. routine coercion clearly."
+    },
+    {
+      "name": "Risk Mitigation Responses",
+      "score": 0.35,
+      "explanation": "Mentions humanitarian scaling back/suspension and calls for negotiated corridors; limited discussion of civilian/business adaptations (security measures, relocation, non-compliance) beyond broad implications."
+    },
+    {
+      "name": "Urban-Rural Spillover Dynamics",
+      "score": 0.75,
+      "explanation": "Explains dual strategy and how tactics differ and complement across corridors vs. capital; some inference on diffusion is present, though not explicitly framed as spillover across localities."
+    },
+    {
+      "name": "Event Type Shifts",
+      "score": 0.8,
+      "explanation": "Describes balance between battles vs. remote violence nationally, dominance of armed attacks/IEDs, rarity of suicide bombings, and lethality differences, linking to effects on civilian harm."
+    },
+    {
+      "name": "Humanitarian And Protection Needs",
+      "score": 0.65,
+      "explanation": "Addresses threats to aid workers, access constraints, need for coordinated mechanisms, and suggestions for protection strategies along corridors; could expand on psychosocial support and specific protection services needed."
+    }
+  ],
+  "overall_score": 0.6100000000000001
+}

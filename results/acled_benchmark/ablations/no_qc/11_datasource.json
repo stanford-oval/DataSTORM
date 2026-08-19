@@ -1,0 +1,202 @@
+{
+  "total_insights": 19,
+  "total_classified": 19,
+  "acled_count": 0,
+  "non_acled_count": 19,
+  "pct_acled": 0.0,
+  "details": [
+    {
+      "evidence": "Myanmar’s resistance operates through modular alliances rather than a unified command, enabling coordinated campaigns without centralization.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a qualitative organizational assessment about resistance group structure and alliances. It is not citing specific ACLED event counts, actor-level entries, locations, fatalities, or trend metrics, nor is it attributed to ACLED data. Therefore it is general analysis, not ACLED-derived.",
+      "source_context": "Key Findings; From Flashpoint to Fabric section summary of architecture"
+    },
+    {
+      "evidence": "Collaboration between established EAOs and newer Bamar-led forces (e.g., BPLA with the Three Brotherhood Alliance) is episodic and mission-bound, sharing intelligence and timing while retaining distinct chains of command.",
+      "is_acled_data": false,
+      "reasoning": "The evidence is qualitative analysis about collaboration patterns and command structures among resistance groups. It is not citing specific ACLED event counts, locations, fatalities, or actor-coded events, nor is it attributed to ACLED. Therefore, it is general analytical commentary, not derived from ACLED data.",
+      "source_context": "From Flashpoint to Fabric: example vignette and description of BPLA–Three Brotherhood ties"
+    },
+    {
+      "evidence": "Modular pressure across multiple noncontiguous fronts forces the Tatmadaw to overstretch limited air and artillery resources, creating exploitable gaps.",
+      "is_acled_data": false,
+      "reasoning": "The statement is analytical commentary about military overstretch and tactics, not citing specific conflict events, counts, locations, fatalities, or ACLED-derived trends. It lacks any explicit attribution to ACLED data and does not reference event-level metrics typical of ACLED.",
+      "source_context": "From Flashpoint to Fabric: explanation of semi-autonomous fronts and Tatmadaw strain"
+    },
+    {
+      "evidence": "Each partner’s retention of budgets, recruits, and constituencies allows flexible surges in one theater and lulls in another without collapsing overall resistance effort.",
+      "is_acled_data": false,
+      "reasoning": "The statement is strategic analysis about resource retention and operational flexibility of resistance partners, not tied to specific conflict events, actors, counts, locations, or ACLED-derived metrics. It reads as general commentary rather than data from ACLED.",
+      "source_context": "From Flashpoint to Fabric: agility and independence as strength"
+    },
+    {
+      "evidence": "Post-2021 coup dynamics, including emergence of Bamar-led formations, changed EAO calculus and enabled broader synchronization across disparate actors.",
+      "is_acled_data": false,
+      "reasoning": "The statement is broad analytical commentary about post-coup dynamics and actor synchronization, without referencing specific ACLED event data, counts, locations, trends, or actor-level entries. It reads as general analysis rather than data derived from ACLED.",
+      "source_context": "From Flashpoint to Fabric: evolution after February 2021"
+    },
+    {
+      "evidence": "Trust is fragile and ceasefire pressures can fracture coordination; alliances are effective in bursts and vulnerable in pauses.",
+      "is_acled_data": false,
+      "reasoning": "The evidence is a qualitative assessment about trust, ceasefire pressures, and alliance cohesion. It does not reference specific events, counts, fatalities, locations, or actor-level data tied to ACLED. It is general analysis rather than data derived from ACLED event records.",
+      "source_context": "From Flashpoint to Fabric: liabilities and fragility"
+    },
+    {
+      "evidence": "Centralized command is constrained by the junta’s control of Myanmar’s financial system, limiting NUG’s ability to provision and direct forces at scale.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a strategic/organizational analysis about financial control constraining NUG command and provisioning. It does not reference specific conflict events, fatalities, or actor-level event data typical of ACLED, nor is it attributed to ACLED. This is general analytical commentary, not ACLED-derived data.",
+      "source_context": "Why Command Stays Federated: financial choke under junta control"
+    },
+    {
+      "evidence": "Political mistrust of NUG and NLD-linked command among many EAOs makes unification difficult, making federation a practical equilibrium.",
+      "is_acled_data": false,
+      "reasoning": "This is analytical commentary about political mistrust and organizational dynamics (NUG, NLD, EAOs) and a conclusion about federation as an equilibrium. It’s not referencing specific conflict events, counts, fatalities, or ACLED-attributed data.",
+      "source_context": "Why Command Stays Federated: politics and mistrust"
+    },
+    {
+      "evidence": "NUG and brokers facilitate modular coordination via liaison links, deconfliction channels, pooled fundraising for specific campaigns, and humanitarian coordination to build reciprocity.",
+      "is_acled_data": false,
+      "reasoning": "The statement describes organizational coordination mechanisms (liaison links, deconfliction channels, pooled fundraising, humanitarian coordination) and is qualitative analysis rather than event-based metrics. It does not reference specific conflict events, actor-coded incidents, fatalities, locations, or trends attributable to ACLED.",
+      "source_context": "Why Command Stays Federated: description of workarounds and NUCC role"
+    },
+    {
+      "evidence": "Decentralization reduces single-point failure; hits on one hub do not paralyze the wider resistance while shared objectives still align timing and targets.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a strategic/organizational analysis about decentralization benefits and coordination, not tied to specific conflict event data, counts, locations, fatalities, or actor-level events from ACLED. It reflects general analytical commentary rather than ACLED-derived metrics or descriptions.",
+      "source_context": "Why Command Stays Federated: resilience of federated architecture"
+    },
+    {
+      "evidence": "Grassroots logistics, crowdfunding, and diaspora pipelines provide a resilient, redundant backbone suited to decentralized operations under repression.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical observation about logistics and support networks; it does not reference specific conflict events, actors, locations, or statistics derived from ACLED data.",
+      "source_context": "The Backbone Below: crowdfunding and redundancy"
+    },
+    {
+      "evidence": "Civil society partners tied to EROs support communications, procurement, and local facilitation, enabling compartmentalized handoffs and need-to-know supply chains.",
+      "is_acled_data": false,
+      "reasoning": "The statement is qualitative analysis about civil society partners and supply chains; it does not reference specific conflict events, counts, locations, fatalities, or actor/event data attributed to ACLED.",
+      "source_context": "The Backbone Below: operational design and compartmentalization"
+    },
+    {
+      "evidence": "Humanitarian networks double as lifelines for displaced populations and reinforce local legitimacy and governance experiments of PDFs and EAOs.",
+      "is_acled_data": false,
+      "reasoning": "The statement is qualitative analysis about humanitarian networks supporting displaced populations and legitimizing local governance by PDFs/EAOs. It does not reference specific conflict events, counts, locations, fatalities, or ACLED-attributed actor/event data, so it is not derived from ACLED data.",
+      "source_context": "The Backbone Below: humanitarian–resistance nexus"
+    },
+    {
+      "evidence": "Everyday acts of defiance and shared narratives help synchronize timelines for strikes, protests, and aid, sustaining morale despite communications disruptions.",
+      "is_acled_data": false,
+      "reasoning": "The evidence is qualitative analysis about morale, narratives, and coordination of strikes/protests amid communication disruptions. It does not cite specific conflict events, counts, locations, fatalities, or actor-level data typical of ACLED, nor is it attributed to ACLED.",
+      "source_context": "The Backbone Below: morale and synchronization via civic actions"
+    },
+    {
+      "evidence": "Fragmentation risks persist due to divergent ideologies, territorial claims, and external patrons, leading to uneven performance across theaters.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical assessment about fragmentation risks and performance, not tied to specific ACLED event counts, actor data, locations, or trends. It reads as commentary rather than data derived from ACLED.",
+      "source_context": "Friction Inside the Machine: fragmentation and uneven outcomes"
+    },
+    {
+      "evidence": "Pragmatic fixes—liaison channels, time-bound MOUs, deconfliction protocols, and checkpoint rules—enable synchronized windows of action without merging command structures.",
+      "is_acled_data": false,
+      "reasoning": "The evidence describes coordination mechanisms and operational practices (liaison channels, MOUs, deconfliction, checkpoint rules) in general analytical terms, not specific conflict events, counts, locations, or actor/event data tied to ACLED. It is qualitative analysis, not derived from ACLED event data.",
+      "source_context": "Friction Inside the Machine: practical coordination mechanisms"
+    },
+    {
+      "evidence": "Campaign outcomes correlate with liaison capacity and shared logistics; areas with strong compacts see sequenced strikes and multiplied effects, others remain patchy.",
+      "is_acled_data": false,
+      "reasoning": "The statement is analytical about operational coordination (liaison capacity, shared logistics, sequenced strikes) and campaign outcomes, without referencing specific event counts, locations, fatalities, or actor/event data from ACLED. It reads as strategic assessment rather than data explicitly tied to ACLED’s event-based metrics.",
+      "source_context": "Friction Inside the Machine: district-level variability"
+    },
+    {
+      "evidence": "The strategic roadmap emphasizes investing in liaison and deconfliction, expanding redundant finance and supply chains, and codifying time-bound compacts to make synchronization repeatable.",
+      "is_acled_data": false,
+      "reasoning": "The evidence is a strategic policy/operational recommendation about liaison, deconfliction, financing, and compacts. It is not event-based conflict data, statistics, or analysis derived from ACLED datasets.",
+      "source_context": "Conclusion: pragmatic roadmap for durable modular synchronization"
+    },
+    {
+      "evidence": "Unified command is neither feasible nor necessarily desirable in the current context; federated synchronization more effectively stretches the military and endures shocks.",
+      "is_acled_data": false,
+      "reasoning": "The statement is strategic/analytical commentary about command structures and coordination among resistance groups. It does not reference specific conflict events, actor activity counts, fatalities, locations, or trends derived from ACLED event data, nor is it attributed to ACLED.",
+      "source_context": "Conclusion: argument against a single pyramid and for modular synchronization"
+    }
+  ],
+  "insights": [
+    {
+      "insight": "Myanmar’s resistance operates through modular alliances rather than a unified command, enabling coordinated campaigns without centralization.",
+      "context": "Key Findings; From Flashpoint to Fabric section summary of architecture"
+    },
+    {
+      "insight": "Collaboration between established EAOs and newer Bamar-led forces (e.g., BPLA with the Three Brotherhood Alliance) is episodic and mission-bound, sharing intelligence and timing while retaining distinct chains of command.",
+      "context": "From Flashpoint to Fabric: example vignette and description of BPLA–Three Brotherhood ties"
+    },
+    {
+      "insight": "Modular pressure across multiple noncontiguous fronts forces the Tatmadaw to overstretch limited air and artillery resources, creating exploitable gaps.",
+      "context": "From Flashpoint to Fabric: explanation of semi-autonomous fronts and Tatmadaw strain"
+    },
+    {
+      "insight": "Each partner’s retention of budgets, recruits, and constituencies allows flexible surges in one theater and lulls in another without collapsing overall resistance effort.",
+      "context": "From Flashpoint to Fabric: agility and independence as strength"
+    },
+    {
+      "insight": "Post-2021 coup dynamics, including emergence of Bamar-led formations, changed EAO calculus and enabled broader synchronization across disparate actors.",
+      "context": "From Flashpoint to Fabric: evolution after February 2021"
+    },
+    {
+      "insight": "Trust is fragile and ceasefire pressures can fracture coordination; alliances are effective in bursts and vulnerable in pauses.",
+      "context": "From Flashpoint to Fabric: liabilities and fragility"
+    },
+    {
+      "insight": "Centralized command is constrained by the junta’s control of Myanmar’s financial system, limiting NUG’s ability to provision and direct forces at scale.",
+      "context": "Why Command Stays Federated: financial choke under junta control"
+    },
+    {
+      "insight": "Political mistrust of NUG and NLD-linked command among many EAOs makes unification difficult, making federation a practical equilibrium.",
+      "context": "Why Command Stays Federated: politics and mistrust"
+    },
+    {
+      "insight": "NUG and brokers facilitate modular coordination via liaison links, deconfliction channels, pooled fundraising for specific campaigns, and humanitarian coordination to build reciprocity.",
+      "context": "Why Command Stays Federated: description of workarounds and NUCC role"
+    },
+    {
+      "insight": "Decentralization reduces single-point failure; hits on one hub do not paralyze the wider resistance while shared objectives still align timing and targets.",
+      "context": "Why Command Stays Federated: resilience of federated architecture"
+    },
+    {
+      "insight": "Grassroots logistics, crowdfunding, and diaspora pipelines provide a resilient, redundant backbone suited to decentralized operations under repression.",
+      "context": "The Backbone Below: crowdfunding and redundancy"
+    },
+    {
+      "insight": "Civil society partners tied to EROs support communications, procurement, and local facilitation, enabling compartmentalized handoffs and need-to-know supply chains.",
+      "context": "The Backbone Below: operational design and compartmentalization"
+    },
+    {
+      "insight": "Humanitarian networks double as lifelines for displaced populations and reinforce local legitimacy and governance experiments of PDFs and EAOs.",
+      "context": "The Backbone Below: humanitarian–resistance nexus"
+    },
+    {
+      "insight": "Everyday acts of defiance and shared narratives help synchronize timelines for strikes, protests, and aid, sustaining morale despite communications disruptions.",
+      "context": "The Backbone Below: morale and synchronization via civic actions"
+    },
+    {
+      "insight": "Fragmentation risks persist due to divergent ideologies, territorial claims, and external patrons, leading to uneven performance across theaters.",
+      "context": "Friction Inside the Machine: fragmentation and uneven outcomes"
+    },
+    {
+      "insight": "Pragmatic fixes—liaison channels, time-bound MOUs, deconfliction protocols, and checkpoint rules—enable synchronized windows of action without merging command structures.",
+      "context": "Friction Inside the Machine: practical coordination mechanisms"
+    },
+    {
+      "insight": "Campaign outcomes correlate with liaison capacity and shared logistics; areas with strong compacts see sequenced strikes and multiplied effects, others remain patchy.",
+      "context": "Friction Inside the Machine: district-level variability"
+    },
+    {
+      "insight": "The strategic roadmap emphasizes investing in liaison and deconfliction, expanding redundant finance and supply chains, and codifying time-bound compacts to make synchronization repeatable.",
+      "context": "Conclusion: pragmatic roadmap for durable modular synchronization"
+    },
+    {
+      "insight": "Unified command is neither feasible nor necessarily desirable in the current context; federated synchronization more effectively stretches the military and endures shocks.",
+      "context": "Conclusion: argument against a single pyramid and for modular synchronization"
+    }
+  ],
+  "prompt": "Research state of resistance groups in Myanmar post 2021 coup: What is the landscape of these groups?"
+}

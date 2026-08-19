@@ -1,0 +1,322 @@
+{
+  "total_insights": 31,
+  "total_classified": 31,
+  "acled_count": 26,
+  "non_acled_count": 5,
+  "pct_acled": 0.8387096774193549,
+  "details": [
+    {
+      "evidence": "Total Peace coincided with fewer lethal peaks but did not uniformly reduce overall conflict activity across Colombia.",
+      "is_acled_data": true,
+      "reasoning": "The statement references temporal conflict trends (lethal peaks) and overall conflict activity across Colombia, which aligns with ACLED’s event counts, fatalities, and trend analyses. It suggests pattern-based insights likely derived from ACLED’s temporal and actor-level event data rather than general commentary.",
+      "source_context": "Key Findings; A quieter tally, a louder map"
+    },
+    {
+      "evidence": "Monthly fatalities declined after August 2022, with averages falling from roughly 185 pre-Petro to 168 in the first year and 152 thereafter; 90th percentile ‘bad months’ eased from about 237 to 196 and then 184.",
+      "is_acled_data": true,
+      "reasoning": "The evidence reports monthly conflict-related fatalities and distributional metrics (averages and 90th percentile) over specific periods tied to a policy change, which aligns with ACLED’s fatality counts and temporal trend analysis derived from event data. While not explicitly attributed, the structure and metrics are characteristic of ACLED-derived analyses of fatalities over time.",
+      "source_context": "A quieter tally, a louder map"
+    },
+    {
+      "evidence": "Event volumes showed steadier throughput rather than boom–bust cycles: average monthly events dipped slightly (about 446 pre-Petro to ~430–431 after) while median monthly events rose (402 to ~410–412).",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites quantitative trends in monthly event volumes (average and median counts) before and after a policy change. ACLED provides conflict event counts and supports temporal trend analysis, making such monthly event statistics characteristic of ACLED-derived data.",
+      "source_context": "A quieter tally, a louder map"
+    },
+    {
+      "evidence": "The historic coupling between activity and deaths weakened in early Petro months and partially re-tightened later, aligning with ceasefire-focused harm reduction rather than immediate confrontation cessation.",
+      "is_acled_data": true,
+      "reasoning": "The statement discusses the relationship between conflict activity and deaths over time, implying analysis of event counts and fatality trends across Petro’s tenure. This aligns with ACLED’s temporal event and fatality data and trend analysis, suggesting it is derived from ACLED-type metrics rather than general commentary.",
+      "source_context": "A quieter tally, a louder map"
+    },
+    {
+      "evidence": "ELN remained active in Arauca and Norte de Santander with frequent low- or zero-fatality incidents that maintained intimidation without high lethality.",
+      "is_acled_data": true,
+      "reasoning": "Mentions specific armed group activity in defined subnational areas with characterization of incident frequency and lethality (low-/zero-fatality incidents), which aligns with ACLED’s event-level data on locations, actor activity, and fatality counts/trends.",
+      "source_context": "A quieter tally, a louder map"
+    },
+    {
+      "evidence": "FARC dissident factions (EMC and Segunda Marquetalia) increased activity post-August 2022 and peaked in 2023–2024 despite dialogues, consolidating especially in the southwest.",
+      "is_acled_data": true,
+      "reasoning": "The claim references armed group activity trends over time (post-Aug 2022, peak in 2023–2024) and geographic consolidation (southwest), which align with ACLED’s event-based temporal and subnational actor activity data. Such patterns are commonly derived from ACLED’s conflict event counts and actor-level data, even though no numbers are given.",
+      "source_context": "A quieter tally, a louder map; Where the guns moved"
+    },
+    {
+      "evidence": "The AGC/Gulf Clan’s May 2022 surge transitioned into sustained monthly activity (40–60 events) through 2023–2024, with only uneven pauses despite ceasefire language.",
+      "is_acled_data": true,
+      "reasoning": "Mentions specific armed group activity quantified as monthly event counts and temporal patterns (sustained 40–60 events per month, surge in May 2022, pauses despite ceasefire), which aligns with ACLED’s event-count time series and actor-level activity data.",
+      "source_context": "A quieter tally, a louder map"
+    },
+    {
+      "evidence": "Ceasefire months saw fewer operations and more strategic developments, indicating negotiation footprints, but lethality effects differed by group.",
+      "is_acled_data": true,
+      "reasoning": "The statement references temporal changes in operations and lethality across groups during ceasefire months, which aligns with ACLED’s event counts, actor activity, and temporal trend analysis; such patterns (reduced operations, varied fatality impacts) are typically derived from ACLED event and fatality data by group over time.",
+      "source_context": "Ceasefires as levers—and loopholes"
+    },
+    {
+      "evidence": "Under ceasefire signaling, AGC incidents became less deadly per event; FARC dissidents showed limited lethality improvement; ELN paradoxically recorded higher deaths per event while overall volume dipped.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references changes in deaths per event and incident volumes for specific armed groups (AGC, FARC dissidents, ELN), which aligns with ACLED’s event-level data and fatality counts enabling calculations like lethality per event and temporal trends by actor. This is characteristic of analyses derived from ACLED actor-level event and fatality data.",
+      "source_context": "Ceasefires as levers—and loopholes"
+    },
+    {
+      "evidence": "Verified ELN ceasefire windows reduced deaths per event and the share of incidents with fatalities, highlighting the impact of monitoring.",
+      "is_acled_data": true,
+      "reasoning": "Mentions quantified changes in fatalities per event and share of incidents with fatalities tied to ELN ceasefire periods and monitoring—metrics consistent with ACLED event-level data (fatalities, incidents, temporal patterns by actor).",
+      "source_context": "Ceasefires as levers—and loopholes"
+    },
+    {
+      "evidence": "During FARC dissident ‘ceasefire months,’ a higher fraction of incidents turned deadly despite slightly fewer deaths per event, suggesting partial, tactical restraint without consistent nonlethal behavior.",
+      "is_acled_data": true,
+      "reasoning": "The statement references incident shares turning deadly and deaths per event during certain months, which aligns with ACLED-style event counts, lethality rates, and temporal pattern analysis derived from conflict event and fatality data.",
+      "source_context": "Ceasefires as levers—and loopholes"
+    },
+    {
+      "evidence": "Ceasefires rebalanced tactics: flagged months showed higher shares of strategic developments, especially for the AGC, signaling over sustained operations.",
+      "is_acled_data": true,
+      "reasoning": "Mentions shifts in event types (“higher shares of strategic developments”), timing (“flagged months”), and specific actor (AGC), which aligns with ACLED’s actor-level event coding and temporal pattern analysis derived from event data.",
+      "source_context": "Ceasefires as levers—and loopholes"
+    },
+    {
+      "evidence": "Compliance gaps were evident as state–group battles continued outside ceasefire windows, and the Gulf Clan engaged state forces even during its declared ceasefire.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references specific conflict dynamics—state–group battles outside ceasefire windows and Gulf Clan engagements during a declared ceasefire—consistent with ACLED’s event-level battle data, actor activity, and temporal pattern tracking. This aligns with ACLED’s descriptions of battles and actor behavior over time, suggesting derivation from ACLED event records rather than general commentary.",
+      "source_context": "Ceasefires as levers—and loopholes"
+    },
+    {
+      "evidence": "Battles surged in Cauca, Huila, Tolima, and Arauca in the later period, while declining in Norte de Santander, Chocó, and several Caribbean departments, indicating displacement and consolidation of conflict.",
+      "is_acled_data": true,
+      "reasoning": "The statement compares changes in battle activity across specific Colombian departments over time, reflecting subnational, temporal trends in battle events. This aligns with ACLED’s battle-related data, geographic breakdowns, and conflict trend analysis derived from event counts. No indicators suggest another data source, and the content is typical of ACLED-derived trend summaries.",
+      "source_context": "Where the guns moved"
+    },
+    {
+      "evidence": "Cauca saw battles climb from roughly 120–150 to about 200–230, largely driven by FARC dissidents, while previously quieter Huila and Tolima rose from near-zero to double-digit clashes.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites counts of battles and temporal changes at the subnational level (Cauca, Huila, Tolima) and attributes activity to a specific actor (FARC dissidents). These are core ACLED metrics: battle event counts, geographic breakdowns, temporal trends, and actor-level data. The phrasing matches typical ACLED-derived summaries of battle counts by department over time.",
+      "source_context": "Where the guns moved"
+    },
+    {
+      "evidence": "Arauca experienced increased clashes with ELN as a primary belligerent, reinforcing ELN’s border corridor presence.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references increased clashes involving the ELN in a specific location (Arauca) and emphasizes the ELN’s role as a primary belligerent and presence along a border corridor—details consistent with ACLED’s battle-related event counts, actor activity, and subnational geographic trends derived from event data.",
+      "source_context": "Where the guns moved"
+    },
+    {
+      "evidence": "Dissidents became dominant in multiple southwest and central departments; ELN remained salient in Arauca and parts of Antioquia; AGC retrenched on some coasts but held Caribbean and Andean corridors.",
+      "is_acled_data": true,
+      "reasoning": "The evidence describes the geographic distribution and relative dominance/salience of specific armed actors across Colombian departments, which aligns with ACLED’s actor-level and subnational conflict activity data derived from event locations and counts. It reflects patterns in armed group presence and control inferred from ACLED’s geographic and actor data rather than general commentary.",
+      "source_context": "Where the guns moved"
+    },
+    {
+      "evidence": "Antioquia emerged as a pivot with rising clashes involving ELN, dissidents, and AGC, even as nearby coastal departments saw declines.",
+      "is_acled_data": true,
+      "reasoning": "The statement references subnational conflict trends (rising clashes in Antioquia vs. declines in nearby coastal departments) and specific armed actors (ELN, dissidents, AGC), which aligns with ACLED’s event counts, actor-level data, and geographic trend analysis. While not explicitly attributed, the phrasing reflects typical ACLED-derived insights on clashes and regional dynamics.",
+      "source_context": "Where the guns moved"
+    },
+    {
+      "evidence": "Violence against civilians concentrated in hotspots such as Cúcuta, Santander de Quilichao, and Caucasia, with frequent coercive incidents often featuring low per-event fatalities.",
+      "is_acled_data": true,
+      "reasoning": "The statement references violence against civilians, specific hotspot locations, and notes patterns like frequent coercive incidents with low per-event fatalities—all elements consistent with ACLED’s event-based data (violence against civilians, geographic breakdowns, and fatality counts).",
+      "source_context": "Where the guns moved"
+    },
+    {
+      "evidence": "Cúcuta recorded regular ELN-linked incidents with higher per-event lethality than peers; in Caucasia, AGC-linked violence had median and mean fatalities around 1 in 2023–2024 VAC data.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references incident patterns, actor-linked events (ELN, AGC), per-event lethality, and VAC (violence against civilians) statistics with temporal and subnational specificity (Cúcuta, Caucasia, 2023–2024). These are core ACLED metrics (event counts, fatalities, actor activity, VAC), indicating derivation from ACLED-style data.",
+      "source_context": "Where the guns moved"
+    },
+    {
+      "evidence": "In Cauca’s Argelia–Toribío corridor, dissidents drove battle-heavy activity punctuated by deadly spikes, sustaining chronic insecurity amid shifting control.",
+      "is_acled_data": true,
+      "reasoning": "Mentions subnational corridor (Argelia–Toribío in Cauca), actor (dissidents), battle-heavy activity with deadly spikes, and sustained insecurity tied to shifting control—this aligns with ACLED-style event-based, geographic, and temporal conflict trends and actor activity descriptions, likely synthesized from ACLED battle and fatality data.",
+      "source_context": "Where the guns moved"
+    },
+    {
+      "evidence": "Conflict activity followed a V-shaped temporal pattern: an initial dip after Total Peace’s launch, followed by rises above pre-2022 levels—especially in battles and later in some civilian harm categories.",
+      "is_acled_data": true,
+      "reasoning": "The evidence describes temporal patterns in conflict activity, with specific references to battles and civilian harm categories, which aligns with ACLED’s event counts, battle data, violence against civilians, and trend analysis over time. This is the type of insight commonly derived from ACLED event data.",
+      "source_context": "Mechanisms, limits, and the road to durable peace"
+    },
+    {
+      "evidence": "By the later period, incidents tied to ELN, dissidents, and AGC exceeded early post-Petro levels; battles first halved, then surpassed earlier pace; violence against civilians fell then climbed, with AGC’s share spiking early.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references incident counts and temporal trends by armed actors (ELN, dissidents, AGC), shifts in battle frequency, and violence against civilians over time—these are core ACLED metrics (event counts, battle data, actor activity, VAC statistics, and trend analysis). While not explicitly attributed, the structure and indicators align closely with ACLED-derived analysis.",
+      "source_context": "Mechanisms, limits, and the road to durable peace"
+    },
+    {
+      "evidence": "The policy’s theory of change relies on transparent engagement, humanitarian diplomacy, and monitored ceasefires to build verifiable trust and reduce violations.",
+      "is_acled_data": false,
+      "reasoning": "This is a policy description/theory of change about engagement, diplomacy, and ceasefires. It is general analysis and not tied to specific ACLED event data, statistics, or actor-level entries.",
+      "source_context": "Mechanisms, limits, and the road to durable peace"
+    },
+    {
+      "evidence": "ELN incidents increased in number but became less lethal overall, with a marked drop in the share of ELN civilian-targeting events that resulted in fatalities, consistent with effective verification.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references changes in incident counts, lethality, and the share of civilian-targeting events resulting in fatalities for the ELN—metrics that align with ACLED’s event-level data, violence against civilians statistics, and fatality indicators, suggesting derivation from ACLED conflict event data and actor-level trends.",
+      "source_context": "Mechanisms, limits, and the road to durable peace"
+    },
+    {
+      "evidence": "Socioeconomic reforms advanced—such as 570,000 hectares of land redistributed and legislative moves to sustain PDET funding—but implementation lagged in hotspot regions due to political resistance and governance gaps.",
+      "is_acled_data": false,
+      "reasoning": "The evidence discusses socioeconomic reforms (land redistribution figures, legislative actions, implementation challenges) and governance/policy context, not conflict event counts, fatalities, actor activity, or other ACLED-specific event data. It reflects policy and development metrics rather than ACLED-derived conflict datasets.",
+      "source_context": "Mechanisms, limits, and the road to durable peace"
+    },
+    {
+      "evidence": "Victim profiles show sustained civilian harm in Cauca and Arauca, frequent attribution to unidentified armed groups, and recurring targeting of farmers, labor groups, women, indigenous communities, and communal councils.",
+      "is_acled_data": true,
+      "reasoning": "Mentions victim profiles with sustained civilian harm in specific departments, frequent attribution to unidentified armed groups, and targeted groups (farmers, labor, women, indigenous, communal councils). This aligns with ACLED’s violence against civilians statistics, actor-level data, event descriptions, and subnational geographic breakdowns. While not explicitly citing ACLED, the content reflects typical ACLED-derived insights on victim/actor patterns and locations.",
+      "source_context": "Mechanisms, limits, and the road to durable peace"
+    },
+    {
+      "evidence": "Actor-specific outcomes suggest differentiated approaches: strong verification for ELN, calibrated coercive pressure against predatory AGC networks, and incentives with territorial governance to counter dissident expansion.",
+      "is_acled_data": false,
+      "reasoning": "The statement offers analytical policy prescriptions and qualitative assessments about approaches to different armed actors (ELN, AGC, dissidents) without citing specific conflict events, counts, locations, or actor-level statistics tied to ACLED. It reads as general strategic analysis rather than data derived from ACLED event datasets.",
+      "source_context": "Mechanisms, limits, and the road to durable peace"
+    },
+    {
+      "evidence": "Total Peace demonstrably dampened fatal spikes but did not shrink the battlefield; armed activity persisted and in some areas expanded, especially with dissident consolidation in the southwest and ELN adaptation along borders.",
+      "is_acled_data": true,
+      "reasoning": "The evidence discusses changes in fatal spikes, persistence/expansion of armed activity, and geographic patterns of dissident consolidation and ELN adaptation—elements consistent with ACLED’s event counts, fatalities, actor activity, and subnational trends. While interpretive, it aligns with insights typically derived from ACLED conflict event and actor-level data.",
+      "source_context": "Conclusion"
+    },
+    {
+      "evidence": "Where ceasefires are verified, lethality declines; where territorial governance and economic reforms lag in illicit corridors, violence shifts geographically rather than subsides.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical claim about ceasefire verification effects and violence shifting with governance/economic reforms. It does not reference specific ACLED event counts, fatalities, locations, actor data, or trends explicitly tied to ACLED. It reads as synthesis/commentary rather than a citation of ACLED-derived metrics.",
+      "source_context": "Conclusion"
+    },
+    {
+      "evidence": "Locking in gains requires rigorous group-specific verification and enforcement, accelerated land and PDET delivery in hotspots, and enhanced civilian protections where incidents are frequent even with low median lethality.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a policy recommendation about verification, land/PDET delivery, and civilian protection strategies. It does not cite specific ACLED event counts, fatalities, locations, or actor-level data. It is general analysis rather than evidence derived from ACLED datasets.",
+      "source_context": "Conclusion"
+    }
+  ],
+  "insights": [
+    {
+      "insight": "Total Peace coincided with fewer lethal peaks but did not uniformly reduce overall conflict activity across Colombia.",
+      "context": "Key Findings; A quieter tally, a louder map"
+    },
+    {
+      "insight": "Monthly fatalities declined after August 2022, with averages falling from roughly 185 pre-Petro to 168 in the first year and 152 thereafter; 90th percentile ‘bad months’ eased from about 237 to 196 and then 184.",
+      "context": "A quieter tally, a louder map"
+    },
+    {
+      "insight": "Event volumes showed steadier throughput rather than boom–bust cycles: average monthly events dipped slightly (about 446 pre-Petro to ~430–431 after) while median monthly events rose (402 to ~410–412).",
+      "context": "A quieter tally, a louder map"
+    },
+    {
+      "insight": "The historic coupling between activity and deaths weakened in early Petro months and partially re-tightened later, aligning with ceasefire-focused harm reduction rather than immediate confrontation cessation.",
+      "context": "A quieter tally, a louder map"
+    },
+    {
+      "insight": "ELN remained active in Arauca and Norte de Santander with frequent low- or zero-fatality incidents that maintained intimidation without high lethality.",
+      "context": "A quieter tally, a louder map"
+    },
+    {
+      "insight": "FARC dissident factions (EMC and Segunda Marquetalia) increased activity post-August 2022 and peaked in 2023–2024 despite dialogues, consolidating especially in the southwest.",
+      "context": "A quieter tally, a louder map; Where the guns moved"
+    },
+    {
+      "insight": "The AGC/Gulf Clan’s May 2022 surge transitioned into sustained monthly activity (40–60 events) through 2023–2024, with only uneven pauses despite ceasefire language.",
+      "context": "A quieter tally, a louder map"
+    },
+    {
+      "insight": "Ceasefire months saw fewer operations and more strategic developments, indicating negotiation footprints, but lethality effects differed by group.",
+      "context": "Ceasefires as levers—and loopholes"
+    },
+    {
+      "insight": "Under ceasefire signaling, AGC incidents became less deadly per event; FARC dissidents showed limited lethality improvement; ELN paradoxically recorded higher deaths per event while overall volume dipped.",
+      "context": "Ceasefires as levers—and loopholes"
+    },
+    {
+      "insight": "Verified ELN ceasefire windows reduced deaths per event and the share of incidents with fatalities, highlighting the impact of monitoring.",
+      "context": "Ceasefires as levers—and loopholes"
+    },
+    {
+      "insight": "During FARC dissident ‘ceasefire months,’ a higher fraction of incidents turned deadly despite slightly fewer deaths per event, suggesting partial, tactical restraint without consistent nonlethal behavior.",
+      "context": "Ceasefires as levers—and loopholes"
+    },
+    {
+      "insight": "Ceasefires rebalanced tactics: flagged months showed higher shares of strategic developments, especially for the AGC, signaling over sustained operations.",
+      "context": "Ceasefires as levers—and loopholes"
+    },
+    {
+      "insight": "Compliance gaps were evident as state–group battles continued outside ceasefire windows, and the Gulf Clan engaged state forces even during its declared ceasefire.",
+      "context": "Ceasefires as levers—and loopholes"
+    },
+    {
+      "insight": "Battles surged in Cauca, Huila, Tolima, and Arauca in the later period, while declining in Norte de Santander, Chocó, and several Caribbean departments, indicating displacement and consolidation of conflict.",
+      "context": "Where the guns moved"
+    },
+    {
+      "insight": "Cauca saw battles climb from roughly 120–150 to about 200–230, largely driven by FARC dissidents, while previously quieter Huila and Tolima rose from near-zero to double-digit clashes.",
+      "context": "Where the guns moved"
+    },
+    {
+      "insight": "Arauca experienced increased clashes with ELN as a primary belligerent, reinforcing ELN’s border corridor presence.",
+      "context": "Where the guns moved"
+    },
+    {
+      "insight": "Dissidents became dominant in multiple southwest and central departments; ELN remained salient in Arauca and parts of Antioquia; AGC retrenched on some coasts but held Caribbean and Andean corridors.",
+      "context": "Where the guns moved"
+    },
+    {
+      "insight": "Antioquia emerged as a pivot with rising clashes involving ELN, dissidents, and AGC, even as nearby coastal departments saw declines.",
+      "context": "Where the guns moved"
+    },
+    {
+      "insight": "Violence against civilians concentrated in hotspots such as Cúcuta, Santander de Quilichao, and Caucasia, with frequent coercive incidents often featuring low per-event fatalities.",
+      "context": "Where the guns moved"
+    },
+    {
+      "insight": "Cúcuta recorded regular ELN-linked incidents with higher per-event lethality than peers; in Caucasia, AGC-linked violence had median and mean fatalities around 1 in 2023–2024 VAC data.",
+      "context": "Where the guns moved"
+    },
+    {
+      "insight": "In Cauca’s Argelia–Toribío corridor, dissidents drove battle-heavy activity punctuated by deadly spikes, sustaining chronic insecurity amid shifting control.",
+      "context": "Where the guns moved"
+    },
+    {
+      "insight": "Conflict activity followed a V-shaped temporal pattern: an initial dip after Total Peace’s launch, followed by rises above pre-2022 levels—especially in battles and later in some civilian harm categories.",
+      "context": "Mechanisms, limits, and the road to durable peace"
+    },
+    {
+      "insight": "By the later period, incidents tied to ELN, dissidents, and AGC exceeded early post-Petro levels; battles first halved, then surpassed earlier pace; violence against civilians fell then climbed, with AGC’s share spiking early.",
+      "context": "Mechanisms, limits, and the road to durable peace"
+    },
+    {
+      "insight": "The policy’s theory of change relies on transparent engagement, humanitarian diplomacy, and monitored ceasefires to build verifiable trust and reduce violations.",
+      "context": "Mechanisms, limits, and the road to durable peace"
+    },
+    {
+      "insight": "ELN incidents increased in number but became less lethal overall, with a marked drop in the share of ELN civilian-targeting events that resulted in fatalities, consistent with effective verification.",
+      "context": "Mechanisms, limits, and the road to durable peace"
+    },
+    {
+      "insight": "Socioeconomic reforms advanced—such as 570,000 hectares of land redistributed and legislative moves to sustain PDET funding—but implementation lagged in hotspot regions due to political resistance and governance gaps.",
+      "context": "Mechanisms, limits, and the road to durable peace"
+    },
+    {
+      "insight": "Victim profiles show sustained civilian harm in Cauca and Arauca, frequent attribution to unidentified armed groups, and recurring targeting of farmers, labor groups, women, indigenous communities, and communal councils.",
+      "context": "Mechanisms, limits, and the road to durable peace"
+    },
+    {
+      "insight": "Actor-specific outcomes suggest differentiated approaches: strong verification for ELN, calibrated coercive pressure against predatory AGC networks, and incentives with territorial governance to counter dissident expansion.",
+      "context": "Mechanisms, limits, and the road to durable peace"
+    },
+    {
+      "insight": "Total Peace demonstrably dampened fatal spikes but did not shrink the battlefield; armed activity persisted and in some areas expanded, especially with dissident consolidation in the southwest and ELN adaptation along borders.",
+      "context": "Conclusion"
+    },
+    {
+      "insight": "Where ceasefires are verified, lethality declines; where territorial governance and economic reforms lag in illicit corridors, violence shifts geographically rather than subsides.",
+      "context": "Conclusion"
+    },
+    {
+      "insight": "Locking in gains requires rigorous group-specific verification and enforcement, accelerated land and PDET delivery in hotspots, and enhanced civilian protections where incidents are frequent even with low median lethality.",
+      "context": "Conclusion"
+    }
+  ],
+  "prompt": "Analyze Petro’s total peace policy in Colombia and its impact on violence v. armed groups."
+}

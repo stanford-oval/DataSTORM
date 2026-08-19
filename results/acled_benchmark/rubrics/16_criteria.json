@@ -1,0 +1,64 @@
+{
+  "criteria": [
+    {
+      "name": "Balance of Territorial Control",
+      "description": "Assess shifting frontlines and which actors hold momentum in key regions, noting patterns of advances, sieges, and strategic chokepoints that influence nationwide leverage."
+    },
+    {
+      "name": "Fragmentation of Armed Actors",
+      "description": "Examine the proliferation of militias and alliances, their evolving alignments, and how local defense forces and splinter groups reshape the conflict landscape."
+    },
+    {
+      "name": "Internal Cohesion Risks",
+      "description": "Evaluate signs of internal disputes and defections within major factions, and how decentralized structures and local agendas affect command and control and violence patterns."
+    },
+    {
+      "name": "Foreign Support and Meddling",
+      "description": "Analyze external backing, arms transfers, and training pipelines to warring parties, and how these inputs escalate capabilities, prolong fighting, and shape strategic choices."
+    },
+    {
+      "name": "Airpower and Drone Dynamics",
+      "description": "Track the growing use of air and drone strikes by both sides, the evolution of strike ranges and targets, and the impact on battlefield outcomes and civilian harm."
+    },
+    {
+      "name": "Humanitarian Catastrophe Trends",
+      "description": "Assess the scale and drivers of displacement, civilian targeting, and service collapse, highlighting how conflict intensity and siege tactics worsen humanitarian needs."
+    },
+    {
+      "name": "Peace Process Viability",
+      "description": "Evaluate the status of mediation efforts, preconditions and red lines of belligerents, and the degree to which battlefield calculations undermine negotiations."
+    },
+    {
+      "name": "Darfur Flashpoints and Sieges",
+      "description": "Monitor evolving fronts and besiegements in western regions, the role of allied militias, and implications for regional control and intercommunal violence."
+    },
+    {
+      "name": "Power Vacuums and Governance",
+      "description": "Assess the presence or absence of governance in contested areas, the effectiveness of ad hoc administrations, and the risks of lawlessness and warlordism."
+    },
+    {
+      "name": "Economies of War",
+      "description": "Analyze conflict financing mechanisms such as resource extraction and smuggling, and how economic incentives drive commanders’ behavior and entrench the conflict."
+    },
+    {
+      "name": "Ideological and Political Agendas",
+      "description": "Examine how Islamist and anti-Islamist currents within armed institutions and their backers shape alliances, foreign support, and postwar state visions."
+    },
+    {
+      "name": "Regional Security Spillovers",
+      "description": "Assess cross-border dynamics, training hubs, and coastal interests, and how neighboring states’ involvement affects regional stability and maritime corridors."
+    },
+    {
+      "name": "Civilian Arming and Militarization",
+      "description": "Track the emergence and spread of popular resistance groups, proliferation of small arms, and the long-term implications for community security and conflict recurrence."
+    },
+    {
+      "name": "Prospects for 2025 Scenarios",
+      "description": "Outline plausible trajectories—continued offensives, stalemate with fragmentation, or negotiated pauses—based on current trends in support, cohesion, and territorial control."
+    },
+    {
+      "name": "Accountability and Atrocities",
+      "description": "Evaluate patterns of targeted violence against communities, retaliation dynamics, and the presence or absence of mechanisms to deter or address mass abuses."
+    }
+  ]
+}

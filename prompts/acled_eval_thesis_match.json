@@ -1,0 +1,12 @@
+{
+  "name": "acled_eval_thesis_match",
+  "version": 1,
+  "type": "text",
+  "labels": [
+    "production",
+    "latest"
+  ],
+  "tags": [],
+  "config": {},
+  "prompt": "# instruction\n\nYou are an expert evaluator of analytical research articles. Your task is to assess whether a generated article\nconveys the same central thesis as a reference article.\n\n# input\n\n## Research Task\n{{task_prompt}}\n\n## Generated Article\n{{generated_article}}\n\n## Reference Article\n{{reference_article}}\n\n## Instructions\n\n1. **Extract the central thesis** from the Generated Article — the main argument, finding, or conclusion the\narticle is making.\n2. **Extract the central thesis** from the Reference Article.\n3. **Score alignment** on a 0.0–1.0 scale:\n   - **1.0** — Identical thesis: same core argument, same conclusions, same framing\n   - **0.75–0.99** — Highly aligned: same main point with minor differences in emphasis or framing\n   - **0.5–0.74** — Partially aligned: shares key conclusions but misses important aspects or adds divergent claims\n   - **0.25–0.49** — Weakly aligned: touches on related themes but the central argument differs substantially\n   - **0.0–0.24** — Not aligned: fundamentally different arguments or completely misses the reference thesis\n4. **Explain** your score in 2–4 sentences, citing specific differences or similarities.\n\nReturn your answer as a JSON object with fields: generated_thesis, reference_thesis, alignment_score, explanation.\n\n---\nOutput schema (for structured output config):\n{\n  \"generated_thesis\": \"string\",\n  \"reference_thesis\": \"string\",\n  \"alignment_score\": \"float\",\n  \"explanation\": \"string\"\n}"
+}

@@ -1,0 +1,143 @@
+{
+  "prompt": "Explores the roles and operations of the Rwanda Defence Force in regional conflicts and their geopolitical significance.",
+  "criteria": [
+    {
+      "name": "Shift to bilateral missions",
+      "description": "Assess the move from multilateral peacekeeping toward bilateral deployments and how this repositions the actor as an alternative security partner on the continent."
+    },
+    {
+      "name": "Unilateral engagement dynamics",
+      "description": "Evaluate the rise of unilateral or indirect interventions supporting proxy groups and how this alters regional power balances and conflict trajectories."
+    },
+    {
+      "name": "Security effectiveness vs. spillovers",
+      "description": "Examine the extent to which deployments suppress insurgent violence in target areas while noting limits in protecting civilians from other armed actors."
+    },
+    {
+      "name": "Proxy warfare and civilian risks",
+      "description": "Analyze the increased use of proxy fighters and heavier firepower and the associated elevated risks to civilian populations and displacement."
+    },
+    {
+      "name": "Economic and commercial incentives",
+      "description": "Identify how foreign deployments create access to strategic routes and resource sites and open commercial opportunities linked to domestic political networks."
+    },
+    {
+      "name": "Leveraging peacekeeping for influence",
+      "description": "Explore how contributions to multilateral missions provide diplomatic leverage, including the ability to counter external criticism or threaten withdrawals."
+    },
+    {
+      "name": "Narratives justifying intervention",
+      "description": "Assess official security rationales and historical or territorial claims used to legitimize cross-border engagement and how these are received domestically and internationally."
+    },
+    {
+      "name": "International backlash and balancing",
+      "description": "Consider tensions with external partners over controversial interventions and how these are balanced against reliance on the actor’s peacekeeping roles."
+    },
+    {
+      "name": "State-building and political entanglements",
+      "description": "Evaluate how deployments intertwine security assistance with political influence in host regions, including reshaping local governance through allied actors."
+    },
+    {
+      "name": "Capability development and training",
+      "description": "Examine how external operations provide operational experience, interoperability, and training benefits that enhance overall military capacity."
+    },
+    {
+      "name": "Regional security architecture shifts",
+      "description": "Analyze how withdrawals of traditional partners and emergence of new security providers create openings for regional actors to expand their roles."
+    },
+    {
+      "name": "Information denial and evidence",
+      "description": "Assess patterns of official denials versus accumulating open-source evidence and how information contests shape perceptions of legitimacy."
+    },
+    {
+      "name": "Impact on host-state sovereignty",
+      "description": "Evaluate how foreign military presence and support to local proxies affect host government authority and territorial control."
+    },
+    {
+      "name": "Resource governance and smuggling risks",
+      "description": "Consider allegations and patterns of cross-border resource extraction and trade linked to conflict, and their implications for regional economies."
+    },
+    {
+      "name": "Humanitarian and displacement implications",
+      "description": "Track how intensified operations and shifting frontlines influence humanitarian conditions, access, and population movements."
+    }
+  ],
+  "criterion_scores": [
+    {
+      "name": "Shift to bilateral missions",
+      "score": 0.85,
+      "explanation": "The article details Rwanda’s bilateral deployments in Mozambique (Cabo Delgado) and its direct role in DRC, contrasting them with multilateral peacekeeping and arguing Kigali positions itself as a reliable security provider. It notes persistence despite funding headwinds and leverage with Maputo, signaling an alternative partner role. Could more explicitly frame the systemic shift away from multilateralism and provide comparative timelines across theaters."
+    },
+    {
+      "name": "Unilateral engagement dynamics",
+      "score": 0.6,
+      "explanation": "It discusses RDF-linked operations in eastern DRC and overlaps with other forces, hints at alignment with proxies (M23 implicitly) and notes interactions with SADC/EAC. However, explicit analysis of unilateral or indirect proxy support and how that alters regional power balances is underdeveloped; proxy dynamics are more implied than analyzed."
+    },
+    {
+      "name": "Security effectiveness vs. spillovers",
+      "score": 0.9,
+      "explanation": "Strong treatment: shows deployments correlating with reduced co-movement with violence against civilians, while displacement co-moves positively; describes low per-event lethality in clashes with spikes in shelling/air/drone and how this shapes humanitarian rhythms. Clear on limits and trade-offs."
+    },
+    {
+      "name": "Proxy warfare and civilian risks",
+      "score": 0.5,
+      "explanation": "Notes elevated risks in hotspots where shelling/air-drone concentrate harm and references heavier modalities. But it does not substantively analyze proxy fighter use nor systematically connect it to civilian harm or displacement beyond brief mentions; proxy warfare dimension remains thin."
+    },
+    {
+      "name": "Economic and commercial incentives",
+      "score": 0.3,
+      "explanation": "Touches lightly on secured nodes/roads enabling reconstruction and potential leverage but lacks concrete discussion of access to strategic routes/resources (e.g., minerals trade in eastern DRC) or commercial opportunities linked to domestic networks. Largely absent."
+    },
+    {
+      "name": "Leveraging peacekeeping for influence",
+      "score": 0.9,
+      "explanation": "Explicitly argues Rwanda uses peacekeeping contributions to build diplomatic capital, blunt criticism, and gain leverage; cites interoperability and reputation benefits in Mozambique and CAR and references diplomatic insulation. Well covered."
+    },
+    {
+      "name": "Narratives justifying intervention",
+      "score": 0.4,
+      "explanation": "Provides operational and deterrence rationales and the “security provider” identity, but does not analyze official historical/territorial claims or domestic/international reception in depth. Lacks discussion of stated justifications vis-à-vis DRC (e.g., border security, genocide-related narratives)."
+    },
+    {
+      "name": "International backlash and balancing",
+      "score": 0.7,
+      "explanation": "Mentions tensions and incidents involving SADC (deaths of South African soldiers), and notes peacekeeping-derived insulation against censure. Could better detail specific diplomatic clashes, sanctions threats, or donor conditioning and how partners balance criticism with reliance on RDF."
+    },
+    {
+      "name": "State-building and political entanglements",
+      "score": 0.55,
+      "explanation": "Hints that deployments intertwine with stabilization, reconstruction nodes, and create dependence that converts into political leverage; mentions reshaping through allied actors implicitly in CAR/Mozambique. However, analysis of governance reshaping and political influence in host institutions is limited."
+    },
+    {
+      "name": "Capability development and training",
+      "score": 0.65,
+      "explanation": "Notes interoperability, expeditionary steadiness, rules of engagement, and operational experience alongside partners (SAMIM, FACA, Wagner co-presence). Could be more explicit on training pipelines, doctrine refinement, and capacity gains within RDF."
+    },
+    {
+      "name": "Regional security architecture shifts",
+      "score": 0.75,
+      "explanation": "Touches on emergence of new providers (Rwanda) and overlaps with EAC/SADC, hints at space created by others’ limitations/funding headwinds; would benefit from explicit discussion of withdrawals of traditional partners (e.g., MONUSCO drawdown, SAMIM wind-down) and consequent openings."
+    },
+    {
+      "name": "Information denial and evidence",
+      "score": 0.6,
+      "explanation": "Discusses reporting dynamics (national vs subnational sources) and how they shape perceptions of lethality and presence. However, it does not explicitly analyze official denials versus accumulating open-source evidence or information contests over legitimacy."
+    },
+    {
+      "name": "Impact on host-state sovereignty",
+      "score": 0.6,
+      "explanation": "Notes dependence of host governments (Mozambique), co-presence in CAR with FACA/Wagner, and RDF shaping front lines in DRC. Yet it stops short of assessing how sovereignty and territorial control of hosts are affected, or whether proxies displace state authority."
+    },
+    {
+      "name": "Resource governance and smuggling risks",
+      "score": 0.25,
+      "explanation": "Essentially absent. No substantive discussion of cross-border resource extraction, smuggling, or implications for regional economies; only indirect reference to secured roads enabling reconstruction."
+    },
+    {
+      "name": "Humanitarian and displacement implications",
+      "score": 0.9,
+      "explanation": "Provides detailed correlation analysis of displacement co-movements with RDF activity in North Kivu, timing windows, lags, and pattern differences in Cabo Delgado; notes concentrated harm from certain modalities and effects on access and movement. Strong coverage."
+    }
+  ],
+  "overall_score": 0.6300000000000001
+}

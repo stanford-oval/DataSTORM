@@ -1,0 +1,65 @@
+{
+  "dataset_id": 26,
+  "dataset_path": "data/notebooks/flag-26.json",
+  "metadata": {
+    "category": "Asset Management",
+    "dataset_description": "The dataset consists of 500 entries simulating ServiceNow alm_hardware table, detailing key attributes of hardware assets such as asset tags, display names, configuration item (CI) identifiers, serial numbers, and model categories. It includes information on asset assignment, last update timestamps, cost, departmental allocation, and warranty expiration dates. The table effectively captures asset management activities, offering insights into the operational handling, allocation, and maintenance status of hardware resources across various departments within an organization.",
+    "goal": "Analyze the relationship between the cost of assets and their warranty periods to identify discrepancies and align procurement strategies with the observed asset value trends.",
+    "header": "Asset Warranty Analysis (Flag 26)",
+    "role": "Operations Manager"
+  },
+  "predicted_insights": [
+    "While the overall correlation is weak, shorter warranties (3–11 months) average roughly $3.6k–$4.8k versus about $1.6k–$2.7k for mid-length warranties (16–23 months), but a rebound to ~$2.8k–$3.1k at 24–36 months suggests multiple procurement tiers (e.g., premium short-warranty items and standardized long-warranty buys) that blur a simple cost–warranty relationship.",
+    "These high-cost/low-warranty discrepancies are concentrated: Customer Support, Sales, and IT together account for 147 of 184 such assets (about 80%), and overall they represent 184 of 500 assets (36.8%), indicating that focusing procurement reviews on these three departments could address most of the misalignment.",
+    "Web Servers’ median cost per warranty month (~333) is about 11x higher than Printers (~60) and roughly 30x higher than Storage Devices/Peripherals (~11–10), signaling a pronounced cost-to-warranty premium on servers that may warrant renegotiating warranties or procurement terms for high-value infrastructure.",
+    "Newer purchases cost about 11.25 more per warranty month (173.93 vs 162.68), implying less warranty coverage per dollar after 2024 and signaling an opportunity to negotiate longer warranties or better unit pricing to restore pre-2024 value levels.",
+    "Among the 42 high-cost/short-warranty assets, 39 (93%) are Computers versus only 3 (7%) servers/web servers, indicating that procurement discrepancies are concentrated in end-user computer purchases and suggesting targeted negotiation for longer warranties or better pricing on these models.",
+    "The starkly negative Computer correlation (-0.999 vs. |corr| ≤ 0.25 in other categories) implies higher-priced computers tend to have shorter warranties, indicating a procurement misalignment where premium spend isn’t translating into extended coverage and should be renegotiated.",
+    "This ~9.83-day drop is about a 1.7% reduction in average warranty coverage year-over-year, hinting that 2024 procurement terms may have slightly worsened; unless 2024 asset costs fell by at least a comparable percentage, the value per dollar likely declined.",
+    "The zero-overlap (0/500 = 0%) between the highest-cost and shortest-warranty groups suggests procurement is avoiding high-cost purchases with minimal warranty coverage, implying that higher spending tends to align with at least average or longer warranties.",
+    "The warranty coverage per dollar varies dramatically across categories—Computer Peripherals deliver roughly 35 times more warranty months per $1,000 than Web Servers (107.04 vs. 3.08), indicating high-cost infrastructure like Web Servers and Servers offer comparatively poor warranty value and may warrant renegotiation or alternative procurement.",
+    "Development secures about 9.9× more warranty coverage per $1,000 than HR (45.22 vs 4.57 months), and mid-tier departments range widely (IT 32.78, Customer Support 31.36, Finance 30.04, Sales 27.35, Product Management 14.12), indicating substantial cross-department variability that procurement could standardize to better align warranty value with asset spend.",
+    "Q1 2024 provides about 0.212 fewer warranty months per $1,000 than Q4 2023—roughly 6.4 fewer days of coverage per $1,000—signaling a tangible drop in warranty value per dollar spent.",
+    "Across 500 assets spanning 7 model categories, 0 (0%) were low outliers in warranty months per $1k, suggesting procurement has maintained consistent warranty value relative to cost within categories despite wide cost dispersion (mean $3,124; std $2,725; cost range $92–$11,516)."
+  ],
+  "predicted_summary": "Across all 500 assets, cost and warranty length are only weakly aligned (Pearson correlation −0.1376), but category-level patterns are stark: in Computers, the rank relationship is almost perfectly negative (Spearman ≈ −0.999, meaning higher-priced units tend to have shorter warranties), while Web Servers deliver the poorest warranty value—showing both the highest median cost per warranty month (~333.11) and the lowest average warranty duration per $1,000 of spend (~3.08 months).\nWarranty value has been slipping over time: the median cost-to-warranty-month ratio rose by 6.91% for purchases on/after 2024‑01‑01 (162.68 → 173.93), the average warranty months per $1,000 fell 3.43% from 2023‑Q4 to 2024‑Q1 (6.1812 → 5.969), and 2024 purchases carry warranties that are on average 9.83 days shorter than 2023 (577.74 vs 587.57 days).\nDepartmental patterns point to concentrated misalignment: Customer Support (61 assets), Sales (52), IT (34), Development (13), Finance (13), Product Management (7), and HR (4) are buying above‑median‑cost assets with below‑median warranties, and the gap in warranty value per dollar is wide—HR trails Development by about 40.64 warranty months per $1,000; moreover, 42 assets fall into the high‑cost (top quartile) and low‑warranty (bottom quartile) bucket, even though none hit the most extreme top‑10%/bottom‑10% threshold.",
+  "score_insights": 0.6599525450660163,
+  "score_insights_dict": [
+    {
+      "gt_insight": "Computers exhibit significantly shorter warranty periods compared to other asset categories, which may not reflect their cost and complexity.",
+      "pred_insight": "The starkly negative Computer correlation (-0.999 vs. |corr| ≤ 0.25 in other categories) implies higher-priced computers tend to have shorter warranties, indicating a procurement misalignment where premium spend isn’t translating into extended coverage and should be renegotiated.",
+      "score": 0.8029436093388812
+    },
+    {
+      "gt_insight": "Servers and Web Servers are the most expensive asset categories on average, followed by computers.",
+      "pred_insight": "Web Servers’ median cost per warranty month (~333) is about 11x higher than Printers (~60) and roughly 30x higher than Storage Devices/Peripherals (~11–10), signaling a pronounced cost-to-warranty premium on servers that may warrant renegotiating warranties or procurement terms for high-value infrastructure.",
+      "score": 0.48774079197939263
+    },
+    {
+      "gt_insight": "Strong correlation between the cost of computer assets and their warranty periods.",
+      "pred_insight": "The zero-overlap (0/500 = 0%) between the highest-cost and shortest-warranty groups suggests procurement is avoiding high-cost purchases with minimal warranty coverage, implying that higher spending tends to align with at least average or longer warranties.",
+      "score": 0.6891732338797751
+    }
+  ],
+  "score_summary": 0.42225632781484135,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.7085388994686053,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "The starkly negative Computer correlation (-0.999 vs. |corr| ≤ 0.25 in other categories) implies higher-priced computers tend to have shorter warranties, indicating a procurement misalignment where premium spend isn’t translating into extended coverage and should be renegotiated.",
+      "gt_insight": "Computers exhibit significantly shorter warranty periods compared to other asset categories, which may not reflect their cost and complexity.",
+      "score": 0.7107949328790701
+    },
+    {
+      "pred_insight": "Web Servers’ median cost per warranty month (~333) is about 11x higher than Printers (~60) and roughly 30x higher than Storage Devices/Peripherals (~11–10), signaling a pronounced cost-to-warranty premium on servers that may warrant renegotiating warranties or procurement terms for high-value infrastructure.",
+      "gt_insight": "Servers and Web Servers are the most expensive asset categories on average, followed by computers.",
+      "score": 0.6074966503407654
+    },
+    {
+      "pred_insight": "The zero-overlap (0/500 = 0%) between the highest-cost and shortest-warranty groups suggests procurement is avoiding high-cost purchases with minimal warranty coverage, implying that higher spending tends to align with at least average or longer warranties.",
+      "gt_insight": "Strong correlation between the cost of computer assets and their warranty periods.",
+      "score": 0.8073251151859802
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.5522528027632904,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.6304818322651669
+}

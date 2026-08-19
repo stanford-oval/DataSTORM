@@ -1,0 +1,99 @@
+{
+  "acled": {
+    "topics": 20,
+    "files": 166,
+    "flagged_for_raw_data": [],
+    "skipped_topics": [
+      "Petro's_presidency_in_Columbia_and_Columbia's_conflict_summary_and_outlook__20260113_022520",
+      "Petro's_presidency_in_Columbia_and_Columbia's_conflict_summary_and_outlook__20260113_035743",
+      "Petro's_presidency_in_Columbia_and_Columbia's_conflict_summary_and_outlook__20260112_204108",
+      "We_are_at_the_end_of_2024._Write_an_article_on_the_peach_talks_in_Narino,_Columbia_and_the_relationship_with__20260113_045357",
+      "Use_this_dataset_and_internet_data,_analyze_Petro\u2019s_total_peace_policy_in_Colombia_and_its_impact_on_violenc__20260126_213823",
+      "Petro's_presidency_in_Columbia_and_Columbia's_conflict_summary_and_outlook__20260113_030207",
+      "Petro's_presidency_in_Columbia_and_Columbia's_conflict_summary_and_outlook__20260113_024645",
+      "Petro's_presidency_in_Columbia_and_Columbia's_conflict_summary_and_outlook__20260113_021030",
+      "Use_this_dataset_and_internet_data,_analyze_levels_of_violence_in_Burkina_Faso,_Mali,_and_Niger,_especially___20260202_205650"
+    ],
+    "runs": {
+      "1": "Do_a_deep_research_on_Petro's_presidency_in_Columbia_and_Columbia's_conflict_summary_and_outlook,_as_if_we_a__20260323_173121",
+      "10": "What_are_the_status_of_militants_in_Pakistan_over_the_last_year_and_what_would_be_the_outlook_for_conflicts___20260323_192343",
+      "11": "Research_state_of_resistance_groups_in_Myanmar_post_2021_coup:_What_is_the_landscape_of_these_groups?__20260323_193631",
+      "12": "What_are_the_threats_in_Kenya_with_respect_to_communal_militias_and_al-Shabaab._Focus_on_November_2024.__20260323_194919",
+      "13": "Research_clashes_between_Islamic_State_Mozambique_and_state_forces_in_Cabo_Delgado._Focus_on_November_2024.__20260323_200032",
+      "14": "Analysis_on_the_aftermath_of_SNNPR's_dissolution_and_ongoing_violence_in_Ethiopia._Focus_on_September_2024.__20260323_201223",
+      "15": "How_does_the_the_Viv_Ansanm_alliance_reshapes_Haiti's_gang_landscape?__20260324_084310",
+      "16": "Analyze_current_state_of_war_in_Sudan_and_peace_outlook,_as_if_we_are_at_the_end_of_2024_heading_into_2025.__20260323_204350",
+      "17": "Research_gang_violence_in_Mexico_and_its_outlook_in_2025,_as_if_we_are_at_the_end_of_2024_heading_into_2025.__20260323_205631",
+      "18": "Explores_the_roles_and_operations_of_the_Rwanda_Defence_Force_in_regional_conflicts_and_their_geopolitical_s__20260324_085855",
+      "19": "Summary_of_recent_events_in_South_West_Ethiopia_Peoples_region_and_Oromia_region,_between_23_November_2024_a__20260324_091723",
+      "2": "Analyze_Petro\u2019s_total_peace_policy_in_Colombia_and_its_impact_on_violence_v._armed_groups.__20260323_174739",
+      "20": "Research_Defection_and_violence_against_civilians_in_Sudan's_al-Jazirah_state._Focus_on_November_2024.__20260324_200035",
+      "3": "Analyze_levels_of_violence_in_Burkina_Faso,_Mali,_and_Niger,_especially_related_to_JNIM_and_IS_Sahel_operati__20260324_180253",
+      "4": "Status_of_the_Russian-Ukrainian_conflict,_as_if_we_are_at_the_end_of_2024_heading_into_2025.__20260323_180333",
+      "5": "How_is_Al-Shabaab_targeting_civilians_in_Somalia_following_recent_events?__20260323_181809",
+      "6": "What_is_the_status_of_conflicts_in_Tigray_after_the_Pretoria_agreement?_Focus_on_October_2024.__20260323_183231",
+      "7": "Provide_an_analysis_of_Georgia's_upcoming_election,_civil_unrest,_and_political_developments_as_of_October_2__20260323_184458",
+      "8": "Give_me_a_summary_of_artillery_shelling_and_airstrikes_political_violence,_and_conflict_situations_during_Au__20260323_185740",
+      "9": "Status_of_political_violence_in_Amhara_since_Fano_insurgency_began_in_April_2023.__20260323_191019"
+    }
+  },
+  "acled_benchmark": {
+    "race": 60,
+    "criteria_match": 60,
+    "ablations": 85
+  },
+  "insight_bench": {
+    "datasets": 100,
+    "aggregates": {
+      "score_insights": {
+        "mean": 0.6187,
+        "n": 100
+      },
+      "score_insights_Qwen3-30B-A3B-Instruct-2507": {
+        "mean": 0.6913,
+        "n": 100
+      },
+      "score_insights_llama_eval": {
+        "mean": 0.6871,
+        "n": 3
+      },
+      "score_llm_predicted_summary": {
+        "mean": 0.5248,
+        "n": 100
+      },
+      "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": {
+        "mean": 0.5869,
+        "n": 100
+      },
+      "score_summary": {
+        "mean": 0.3528,
+        "n": 100
+      }
+    }
+  },
+  "insight_bench_baseline": {
+    "datasets": 100,
+    "aggregates": {
+      "score_insights": {
+        "mean": 0.4708,
+        "n": 100
+      },
+      "score_insights_Qwen3-30B-A3B-Instruct-2507": {
+        "mean": 0.4994,
+        "n": 100
+      },
+      "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": {
+        "mean": 0.2038,
+        "n": 100
+      },
+      "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": {
+        "mean": 0.5152,
+        "n": 100
+      },
+      "score_summary": {
+        "mean": 0.4661,
+        "n": 100
+      }
+    }
+  }
+}

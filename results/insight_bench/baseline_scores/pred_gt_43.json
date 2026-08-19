@@ -1,0 +1,85 @@
+{
+  "dataset_id": 43,
+  "dataset_path": "data/notebooks/flag-43.json",
+  "metadata": {
+    "category": "Finance Management",
+    "dataset_description": "The dataset consists of 642 entries, capturing detailed records of financial expenses within an organization. The data simulates the ServiceNow `fm_expense_line` table, including key fields such as 'number', 'opened_at', 'amount', 'state', 'short_description', 'ci', 'user', 'department', 'category', 'processed_date', 'source_id', and 'type'. This dataset documents the flow of financial transactions, offering a comprehensive view of organizational spending by detailing the amount, departmental allocation, and nature of each expense. It highlights different expense categories, departmental spending patterns, and the processing state of each entry, providing valuable insights into both the financial operations and the efficiency of expense processing within the organization.",
+    "goal": "To analyze departmental spending patterns, uncover insights into expense allocation across categories, and assess the efficiency of the expense processing workflow.",
+    "header": "Expense Trends and Departmental Analysis (Flag 43)",
+    "role": "Financial Analyst"
+  },
+  "predicted_insights": [
+    "Spending is concentrated: the top three departments (Product Management, Customer Support, Finance) account for 67.7% (19,866,204 of 29,372,800) of total spend, while the bottom three (HR, IT, Development) together comprise only 18.3% (5,378,546), indicating a strong focus of costs in a few areas.",
+    "Services dominates five of seven departments (up to 57.54% in Development and 53.42% in IT), Customer Support is notably asset-heavy (44.59%), and Travel varies widely—from 0.00% in IT to 31.98% in Sales—indicating distinct operating profiles and potential policy differences across teams.",
+    "IT is the only department with a negative median (-159.74 hours), while Development has the longest tail (p90 4674.69 hours ≈ 195 days) and Sales the highest typical time (median 1020.22 hours ≈ 42.5 days), indicating heavy-tailed delays that vary substantially by department.",
+    "Only 2 of 7 departments (Finance at 2.88% and HR at 2.04%) achieved any sub‑48‑hour processing, indicating that over 70% of departments had zero requests processed within 48 hours and highlighting a broad efficiency gap.",
+    "Services is the dominant spend in every department, peaking in IT at 53.71%, while Sales allocates the most to Travel (27.47%) and Product Management leads in Miscellaneous (17.21%), highlighting distinct operational cost profiles across teams.",
+    "October alone accounted for about 38% of year-to-date spend (≈$2.41M of ≈$6.37M), and it was the highest-spend month for every department except Customer Support, which peaked in September.",
+    "Negative processing times are widespread—ranging from 32.1% to 52.6%—with IT highest at 52.6%, which is 20.4 percentage points above Sales (32.1%), indicating potential systemic timestamp or workflow issues disproportionately affecting IT expenses.",
+    "Overall, about 22.1% of the 642 expenses in 2024 were declined, with Customer Support’s decline rate (27.3%) roughly 63% higher than IT’s lowest rate (16.7%), suggesting department-specific differences in submission quality or approval criteria.",
+    "IT and Product Management have the slowest median processing times (~1974–1955 h ≈ 82–81 days), about 85% longer than HR (~1067 h ≈ 44.5 days), and all other departments are 46–77% slower than HR—indicating notable workflow bottlenecks outside HR.",
+    "Services and Assets together account for 67.70% of total spend, indicating that targeting these two categories would yield the greatest impact on cost control.",
+    "With 250 of 642 expenses (38.94%) showing negative processing times, there are likely timestamp/order issues that could distort the reported average processing time (410.65 hours) and obscure true efficiency differences across departments and categories.",
+    "The top two departments—Customer Support and Product Management—account for nearly half of all spend (49.16%), and the top three (adding Finance) reach 68.94%, revealing a strong concentration of expenses that suggests focusing efficiency efforts there would affect roughly two-thirds of total dollars."
+  ],
+  "predicted_summary": "Company spending is concentrated in a few teams and back‑loaded in the year: Customer Support (25.14% of total) and Product Management (24.02%) together account for nearly half of 2024 spend (49.16%), and with Finance (19.78%) the top three comprise 68.94%. Monthly spend ramped through Q2–Q3 and surged in October across nearly all departments (e.g., Product Management rose from $57,871 in March to $607,759 in October; Finance $558,359; HR $296,439; Development $232,268; Sales $167,134; IT $94,602), while Customer Support peaked earlier at $459,716 in September (and remained high at $450,746 in October).\n2024 saw notable shifts in category mix versus departmental norms, even though company‑wide the year’s spend split was Services 38.81%, Assets 28.89%, Travel 19.64%, Miscellaneous 12.66%: Customer Support pivoted toward Assets (44.59% in 2024 vs 28.94% historically) with Services down (31.77% vs 39.97%); Sales moved sharply away from Assets (5.72% vs 25.31%) toward Services (46.47% vs 39.37%) and Travel (31.98% vs 27.47%); IT eliminated Travel in 2024 (0.00% vs 13.03%) while increasing Assets (26.78% vs 23.08%) and Miscellaneous (19.80% vs 10.18%); Finance reduced Services (12.99% vs 33.83%) and increased Miscellaneous (28.63% vs 12.14%); Development increased Services (57.54% vs 45.97%) and reduced Travel (2.35% vs 15.98%).\nExpense processing appears slow and inconsistent in 2024: across departments, median processing times for new requests ranged from about 416 to 1,020 hours (~17–43 days) with 90th percentiles from ~3,413 to ~4,675 hours (~142–195 days); only 2.88% (Finance) and 2.04% (HR) of requests were processed within 48 hours, and 0% in all other departments. Additionally, 38.94% of all expenses show negative processing times (e.g., IT 52.56%, Product Management 44.76%, Development 37.65%, Finance 37.50%, Customer Support 35.23%, HR 33.67%, Sales 32.14%), and even among processed expenses, median times remain high (about 1,067–1,974 hours, ~44–82 days, lowest in HR and highest in IT).",
+  "score_insights": 0.4763458615659156,
+  "score_insights_dict": [
+    {
+      "gt_insight": "Total expenses vary significantly across departments.",
+      "pred_insight": "Spending is concentrated: the top three departments (Product Management, Customer Support, Finance) account for 67.7% (19,866,204 of 29,372,800) of total spend, while the bottom three (HR, IT, Development) together comprise only 18.3% (5,378,546), indicating a strong focus of costs in a few areas.",
+      "score": 0.5543374727155964
+    },
+    {
+      "gt_insight": "Customer Support has the highest average expense claims.",
+      "pred_insight": "Overall, about 22.1% of the 642 expenses in 2024 were declined, with Customer Support’s decline rate (27.3%) roughly 63% higher than IT’s lowest rate (16.7%), suggesting department-specific differences in submission quality or approval criteria.",
+      "score": 0.4578491424318072
+    },
+    {
+      "gt_insight": "The 'Services' category has the highest total expenses.",
+      "pred_insight": "Services is the dominant spend in every department, peaking in IT at 53.71%, while Sales allocates the most to Travel (27.47%) and Product Management leads in Miscellaneous (17.21%), highlighting distinct operational cost profiles across teams.",
+      "score": 0.5720885164048485
+    },
+    {
+      "gt_insight": "Finance and HR departments have processed the highest number of expenses.",
+      "pred_insight": "Only 2 of 7 departments (Finance at 2.88% and HR at 2.04%) achieved any sub‑48‑hour processing, indicating that over 70% of departments had zero requests processed within 48 hours and highlighting a broad efficiency gap.",
+      "score": 0.375249258064664
+    },
+    {
+      "gt_insight": "HR has the quickest average processing time for expenses.",
+      "pred_insight": "IT and Product Management have the slowest median processing times (~1974–1955 h ≈ 82–81 days), about 85% longer than HR (~1067 h ≈ 44.5 days), and all other departments are 46–77% slower than HR—indicating notable workflow bottlenecks outside HR.",
+      "score": 0.4222049182126617
+    }
+  ],
+  "score_summary": 0.40163127224482464,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.5419830524115266,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "Spending is concentrated: the top three departments (Product Management, Customer Support, Finance) account for 67.7% (19,866,204 of 29,372,800) of total spend, while the bottom three (HR, IT, Development) together comprise only 18.3% (5,378,546), indicating a strong focus of costs in a few areas.",
+      "gt_insight": "Total expenses vary significantly across departments.",
+      "score": 0.6139046414317411
+    },
+    {
+      "pred_insight": "Services dominates five of seven departments (up to 57.54% in Development and 53.42% in IT), Customer Support is notably asset-heavy (44.59%), and Travel varies widely—from 0.00% in IT to 31.98% in Sales—indicating distinct operating profiles and potential policy differences across teams.",
+      "gt_insight": "Customer Support has the highest average expense claims.",
+      "score": 0.35684532892011145
+    },
+    {
+      "pred_insight": "Services is the dominant spend in every department, peaking in IT at 53.71%, while Sales allocates the most to Travel (27.47%) and Product Management leads in Miscellaneous (17.21%), highlighting distinct operational cost profiles across teams.",
+      "gt_insight": "The 'Services' category has the highest total expenses.",
+      "score": 0.7693400823879181
+    },
+    {
+      "pred_insight": "Only 2 of 7 departments (Finance at 2.88% and HR at 2.04%) achieved any sub‑48‑hour processing, indicating that over 70% of departments had zero requests processed within 48 hours and highlighting a broad efficiency gap.",
+      "gt_insight": "Finance and HR departments have processed the highest number of expenses.",
+      "score": 0.3098908713889224
+    },
+    {
+      "pred_insight": "IT and Product Management have the slowest median processing times (~1974–1955 h ≈ 82–81 days), about 85% longer than HR (~1067 h ≈ 44.5 days), and all other departments are 46–77% slower than HR—indicating notable workflow bottlenecks outside HR.",
+      "gt_insight": "HR has the quickest average processing time for expenses.",
+      "score": 0.6599343379289397
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.10230839454686444,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.5658010619432333
+}

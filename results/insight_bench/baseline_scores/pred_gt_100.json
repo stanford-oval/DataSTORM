@@ -1,0 +1,95 @@
+{
+  "dataset_id": 100,
+  "dataset_path": "data/notebooks/flag-100.json",
+  "metadata": {
+    "category": "Incidents Management",
+    "dataset_description": "The dataset comprises 500 entries simulating ServiceNow incidents table, detailing various attributes such as category, state, open and close dates, involved personnel, and incident specifics like location, description, and priority. It captures incident management activities with fields like 'opened_at', 'closed_at', 'assigned_to', 'short_description', and 'priority', reflecting the operational handling and urgency of issues across different locations and categories.",
+    "goal": "Find the discrepancy and imbalance in distribution of incidents assigned across categories",
+    "header": "Hardware Incident Dataset (Flag 100)",
+    "role": "L2 Support Agent"
+  },
+  "predicted_insights": [
+    "The distribution is perfectly uniform: each of the 5 categories has 100 incidents, meaning each accounts for exactly 20% of the 500 total incidents, indicating no category-level imbalance.",
+    "Across all 500 incidents, the mismatch rate between category and assignement_group is 0% (0/500), implying perfect alignment; thus any category-level workload imbalance would reflect true categorization rather than misrouting.",
+    "The uniform 20.0 incidents-per-assignee across all five categories indicates no category-level workload imbalance; with 500 incidents, this implies about 100 incidents per category and roughly 5 unique assignees serving each category, so per-assignee load is evenly distributed.",
+    "Despite being the most uneven, Hardware’s workload is still fairly balanced: the top handler manages 27% of its incidents (27 of 100), only 2.25 times the lowest share (12%), indicating modest imbalance overall.",
+    "Because category and assignement_group share the same five unique values and match in 500/500 cases, any imbalance across categories in this dataset represents actual assignment distribution rather than labeling inconsistencies.",
+    "Infrastructure-focused categories gained ground: Hardware and Network combined rose from 39.06% in 2023 to 52.94% in January 2024 (+13.88 pp), largely offseting the fall in Inquiry / Help.",
+    "Despite being the most skewed, Australia’s top two categories (Software 26% and Inquiry / Help 22%) together account for only 48%, indicating that even the most imbalanced location remains fairly diversified across categories.",
+    "The unevenness is substantial: Software’s variance is about 71% higher than Database and roughly 4.1 times that of Network, implying that Software incidents are notably concentrated in certain locations compared to others.",
+    "High-priority tickets are modestly skewed toward operational categories—Hardware, Network, and Inquiry/Help collectively comprise 63.6% of high-priority incidents versus 60.0% overall—suggesting these areas more frequently escalate to urgent severity.",
+    "India’s incident mix skews toward infrastructure: Network (+3 percentage points) and Database (+2pp) exceed their global shares, while Inquiry/Help is underrepresented by 4pp, suggesting India faces proportionally more technical outages than general queries.",
+    "The top concentration is modest (27%) and the gap between the most and least concentrated assignees is only 4 percentage points (27% vs 23%), indicating assignments are broadly balanced across categories with no assignee heavily dominated by a single category.",
+    "By H2 2023, Inquiry / Help became the largest category at 23%, signaling a notable shift in workload toward user assistance requests as technical categories like Network and Software both declined by roughly 2.5–2.8 percentage points."
+  ],
+  "predicted_summary": "Top-line balance hides internal skew: every category has the same incident count (100 each), zero mismatches between category and assignment_group (0 of 500), and identical incidents-per-assignee ratios (20.0). Yet distribution within categories is uneven—Hardware shows the most unequal spread across its assignees (highest inequality, Gini 0.148), and the most concentrated individual workload observed is 27% of an assignee’s incidents falling in Hardware (Luke Wilson).\nLocation-driven imbalances are pronounced: Australia is the most skewed location, with Software holding the largest single-category share at 26% (26 of 100). Consistent with this, Software is the category most unevenly spread across locations (highest variance in within-location share, 0.00116). In India, Network is overrepresented at 23% of local incidents versus 20% overall (overrepresentation ratio 1.15).\nVolatility over time and severity skew cluster in specific categories: Inquiry / Help’s share rose by +4.79 percentage points from H1 to H2 2023, then dropped by −11.99 points into January 2024 (from 20.82% in 2023 to 8.82% in Jan 2024). High‑priority incidents are not evenly distributed—Hardware, Inquiry / Help, and Network each account for 21.2% of Critical/High cases versus 20.0% of all incidents (+1.2 percentage points), indicating a tilt toward these categories for the most urgent work.",
+  "score_insights": 0.43748248666889816,
+  "score_insights_dict": [
+    {
+      "gt_insight": "The incidents are equally distributed across all categories.",
+      "pred_insight": "The distribution is perfectly uniform: each of the 5 categories has 100 incidents, meaning each accounts for exactly 20% of the 500 total incidents, indicating no category-level imbalance.",
+      "score": 0.9316130053878988
+    },
+    {
+      "gt_insight": "There are no specific issues mentioned in the incident descriptions for each category.",
+      "pred_insight": "The uniform 20.0 incidents-per-assignee across all five categories indicates no category-level workload imbalance; with 500 incidents, this implies about 100 incidents per category and roughly 5 unique assignees serving each category, so per-assignee load is evenly distributed.",
+      "score": 0.45511030086932297
+    },
+    {
+      "gt_insight": "There are specific mentions of printers in the incident descriptions.",
+      "pred_insight": "The uniform 20.0 incidents-per-assignee across all five categories indicates no category-level workload imbalance; with 500 incidents, this implies about 100 incidents per category and roughly 5 unique assignees serving each category, so per-assignee load is evenly distributed.",
+      "score": 0.10259227583763653
+    },
+    {
+      "gt_insight": "There is no specific location where hardware incidents are concentrated.",
+      "pred_insight": "The uniform 20.0 incidents-per-assignee across all five categories indicates no category-level workload imbalance; with 500 incidents, this implies about 100 incidents per category and roughly 5 unique assignees serving each category, so per-assignee load is evenly distributed.",
+      "score": 0.34881147468663604
+    },
+    {
+      "gt_insight": "There is no significant increasing trend in the 'Hardware' or any other category.",
+      "pred_insight": "The distribution is perfectly uniform: each of the 5 categories has 100 incidents, meaning each accounts for exactly 20% of the 500 total incidents, indicating no category-level imbalance.",
+      "score": 0.4467890636270728
+    },
+    {
+      "gt_insight": "",
+      "pred_insight": "The uniform 20.0 incidents-per-assignee across all five categories indicates no category-level workload imbalance; with 500 incidents, this implies about 100 incidents per category and roughly 5 unique assignees serving each category, so per-assignee load is evenly distributed.",
+      "score": 0.33997879960482186
+    }
+  ],
+  "score_summary": 0.2926200654784682,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.43899613562955064,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "The uniform 20.0 incidents-per-assignee across all five categories indicates no category-level workload imbalance; with 500 incidents, this implies about 100 incidents per category and roughly 5 unique assignees serving each category, so per-assignee load is evenly distributed.",
+      "gt_insight": "The incidents are equally distributed across all categories.",
+      "score": 0.8191475600654776
+    },
+    {
+      "pred_insight": "Across all 500 incidents, the mismatch rate between category and assignement_group is 0% (0/500), implying perfect alignment; thus any category-level workload imbalance would reflect true categorization rather than misrouting.",
+      "gt_insight": "There are no specific issues mentioned in the incident descriptions for each category.",
+      "score": 0.30000000000000004
+    },
+    {
+      "pred_insight": "India’s incident mix skews toward infrastructure: Network (+3 percentage points) and Database (+2pp) exceed their global shares, while Inquiry/Help is underrepresented by 4pp, suggesting India faces proportionally more technical outages than general queries.",
+      "gt_insight": "There are specific mentions of printers in the incident descriptions.",
+      "score": 0.2315816673648048
+    },
+    {
+      "pred_insight": "Despite being the most uneven, Hardware’s workload is still fairly balanced: the top handler manages 27% of its incidents (27 of 100), only 2.25 times the lowest share (12%), indicating modest imbalance overall.",
+      "gt_insight": "There is no specific location where hardware incidents are concentrated.",
+      "score": 0.3166673831112424
+    },
+    {
+      "pred_insight": "The uniform 20.0 incidents-per-assignee across all five categories indicates no category-level workload imbalance; with 500 incidents, this implies about 100 incidents per category and roughly 5 unique assignees serving each category, so per-assignee load is evenly distributed.",
+      "gt_insight": "There is no significant increasing trend in the 'Hardware' or any other category.",
+      "score": 0.28540203023693855
+    },
+    {
+      "pred_insight": "The unevenness is substantial: Software’s variance is about 71% higher than Database and roughly 4.1 times that of Network, implying that Software incidents are notably concentrated in certain locations compared to others.",
+      "gt_insight": "",
+      "score": 0.6811781729988406
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.25944125478548724,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.24813928405750763
+}

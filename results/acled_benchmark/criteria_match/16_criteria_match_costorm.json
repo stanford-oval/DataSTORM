@@ -1,0 +1,143 @@
+{
+  "prompt": "Analyze current state of war in Sudan and peace outlook, as if we are at the end of 2024 heading into 2025.",
+  "criteria": [
+    {
+      "name": "Balance of Territorial Control",
+      "description": "Assess shifting frontlines and which actors hold momentum in key regions, noting patterns of advances, sieges, and strategic chokepoints that influence nationwide leverage."
+    },
+    {
+      "name": "Fragmentation of Armed Actors",
+      "description": "Examine the proliferation of militias and alliances, their evolving alignments, and how local defense forces and splinter groups reshape the conflict landscape."
+    },
+    {
+      "name": "Internal Cohesion Risks",
+      "description": "Evaluate signs of internal disputes and defections within major factions, and how decentralized structures and local agendas affect command and control and violence patterns."
+    },
+    {
+      "name": "Foreign Support and Meddling",
+      "description": "Analyze external backing, arms transfers, and training pipelines to warring parties, and how these inputs escalate capabilities, prolong fighting, and shape strategic choices."
+    },
+    {
+      "name": "Airpower and Drone Dynamics",
+      "description": "Track the growing use of air and drone strikes by both sides, the evolution of strike ranges and targets, and the impact on battlefield outcomes and civilian harm."
+    },
+    {
+      "name": "Humanitarian Catastrophe Trends",
+      "description": "Assess the scale and drivers of displacement, civilian targeting, and service collapse, highlighting how conflict intensity and siege tactics worsen humanitarian needs."
+    },
+    {
+      "name": "Peace Process Viability",
+      "description": "Evaluate the status of mediation efforts, preconditions and red lines of belligerents, and the degree to which battlefield calculations undermine negotiations."
+    },
+    {
+      "name": "Darfur Flashpoints and Sieges",
+      "description": "Monitor evolving fronts and besiegements in western regions, the role of allied militias, and implications for regional control and intercommunal violence."
+    },
+    {
+      "name": "Power Vacuums and Governance",
+      "description": "Assess the presence or absence of governance in contested areas, the effectiveness of ad hoc administrations, and the risks of lawlessness and warlordism."
+    },
+    {
+      "name": "Economies of War",
+      "description": "Analyze conflict financing mechanisms such as resource extraction and smuggling, and how economic incentives drive commanders’ behavior and entrench the conflict."
+    },
+    {
+      "name": "Ideological and Political Agendas",
+      "description": "Examine how Islamist and anti-Islamist currents within armed institutions and their backers shape alliances, foreign support, and postwar state visions."
+    },
+    {
+      "name": "Regional Security Spillovers",
+      "description": "Assess cross-border dynamics, training hubs, and coastal interests, and how neighboring states’ involvement affects regional stability and maritime corridors."
+    },
+    {
+      "name": "Civilian Arming and Militarization",
+      "description": "Track the emergence and spread of popular resistance groups, proliferation of small arms, and the long-term implications for community security and conflict recurrence."
+    },
+    {
+      "name": "Prospects for 2025 Scenarios",
+      "description": "Outline plausible trajectories—continued offensives, stalemate with fragmentation, or negotiated pauses—based on current trends in support, cohesion, and territorial control."
+    },
+    {
+      "name": "Accountability and Atrocities",
+      "description": "Evaluate patterns of targeted violence against communities, retaliation dynamics, and the presence or absence of mechanisms to deter or address mass abuses."
+    }
+  ],
+  "criterion_scores": [
+    {
+      "name": "Balance of Territorial Control",
+      "score": 0.75,
+      "explanation": "The article details shifting hotspots from Khartoum to Al Jazirah and North Darfur, identifies lethal corridors (Al Fasher–Melit; Sharg Al Jazirah–Um Algura), and notes RSF’s wider footprint. It conveys momentum via lethal clusters and occupation patterns. However, it lacks a systematic map of who controls which cities, key bases, or supply routes, and offers limited discussion of sieges’ strategic chokepoints beyond Al Fasher."
+    },
+    {
+      "name": "Fragmentation of Armed Actors",
+      "score": 0.5,
+      "explanation": "Mentions RSF and allied formations, “political militias,” and Darfur joint forces, implying alliances. But it does not systematically examine proliferation of militias, local defense forces, or splinter groups across regions nor how these reconfigure the conflict."
+    },
+    {
+      "name": "Internal Cohesion Risks",
+      "score": 0.25,
+      "explanation": "Touches on decentralized RSF predation and occupation without formal administration, suggesting local autonomy, but offers little about internal disputes, command/control breakdowns, defections, or divergent agendas within SAF or RSF."
+    },
+    {
+      "name": "Foreign Support and Meddling",
+      "score": 0.25,
+      "explanation": "Briefly references Egypt’s diplomatic role and allegations of airstrike involvement, and AU/UN mediation challenges. It does not analyze arms transfers, training pipelines, or concrete external backing shaping capabilities and choices."
+    },
+    {
+      "name": "Airpower and Drone Dynamics",
+      "score": 0.25,
+      "explanation": "Only an indirect mention via an article about accusations of Egyptian involvement in air strikes; no analysis of either side’s air/drone use, ranges, targets, or battlefield/civilian impact."
+    },
+    {
+      "name": "Humanitarian Catastrophe Trends",
+      "score": 1.0,
+      "explanation": "Strong coverage with figures on displacement (9+ million), 25 million in need, economic contraction (~18%), impediments (looting, abductions) and access constraints. It ties siege/predation to aid obstruction and worsening needs."
+    },
+    {
+      "name": "Peace Process Viability",
+      "score": 0.9,
+      "explanation": "Analyzes ceasefire/announcement windows, quantifies pre/post impacts on events and fatalities, finds no sustained de-escalation, and critiques announcement-heavy, enforcement-light architecture; outlines needed focus on lethal outliers and access. Slight gap on belligerents’ explicit preconditions/red lines."
+    },
+    {
+      "name": "Darfur Flashpoints and Sieges",
+      "score": 0.85,
+      "explanation": "Provides detailed data on North Darfur (Al Fasher, Melit), mentions siege dynamics and extreme fatality averages, and roles of RSF/allies. Could further elaborate on allied militias’ specific roles and intercommunal violence patterns."
+    },
+    {
+      "name": "Power Vacuums and Governance",
+      "score": 0.75,
+      "explanation": "Describes RSF occupation-predation model, lack of formal administration, lawless coercion (raids, abductions, looting), and implications for access. Less coverage of SAF-held areas’ governance or any ad hoc administrations’ effectiveness."
+    },
+    {
+      "name": "Economies of War",
+      "score": 0.6,
+      "explanation": "Links RSF predation, looting, and abductions to a coercive economy and access denial; suggests economic collapse context. However, limited discussion of resource extraction, gold smuggling, taxation, or cross-border finance sustaining actors."
+    },
+    {
+      "name": "Ideological and Political Agendas",
+      "score": 0.25,
+      "explanation": "Does not engage with Islamist vs. anti-Islamist currents within SAF/RSF or among backers, nor how ideologies shape alliances and state visions."
+    },
+    {
+      "name": "Regional Security Spillovers",
+      "score": 0.3,
+      "explanation": "Touches minimally on Egypt’s role and regional mediation but lacks analysis of cross-border training hubs, arms flows, Chad/Libya/South Sudan dynamics, Red Sea/coastal interests, or maritime corridors."
+    },
+    {
+      "name": "Civilian Arming and Militarization",
+      "score": 0.25,
+      "explanation": "Focuses on violence against civilians by RSF/political militias, but does not track emergence and spread of popular resistance groups or civilian arming trends and long-term implications."
+    },
+    {
+      "name": "Prospects for 2025 Scenarios",
+      "score": 0.7,
+      "explanation": "Offers implications for 2025: targeting ultra-lethal clusters, no-offensive zones, access corridors, and decoupling averages/outliers. It implies risks of continued lethality despite fewer battles. Could more explicitly outline multiple scenario pathways (continued offensives, stalemate/fragmentation, negotiated pauses)."
+    },
+    {
+      "name": "Accountability and Atrocities",
+      "score": 0.6,
+      "explanation": "Documents patterns of targeted violence, massacres, and fat-tailed distributions, implicating RSF/political militias, and notes lack of effective deterrence via failed ceasefires. Limited discussion of accountability mechanisms (domestic/international), justice initiatives, or documentation efforts."
+    }
+  ],
+  "overall_score": 0.5466666666666666
+}

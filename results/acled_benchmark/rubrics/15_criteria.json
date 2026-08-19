@@ -1,0 +1,52 @@
+{
+  "criteria": [
+    {
+      "name": "Alliance-driven truce",
+      "description": "Assess how the coalition reduces infighting among rival gangs and enables a sustained decrease in inter-gang clashes while consolidating power."
+    },
+    {
+      "name": "Territorial expansion dynamics",
+      "description": "Examine the shift from rivalries to coordinated expansion into new neighborhoods and corridors, including movement from contested zones to strategic urban centers and outskirts."
+    },
+    {
+      "name": "Targeting state infrastructure",
+      "description": "Evaluate the increase in organized attacks on government, security facilities, and public institutions as part of efforts to destabilize authorities and counter security deployments."
+    },
+    {
+      "name": "Revenue diversification and control",
+      "description": "Analyze how gangs capitalize on reduced internal conflict to intensify extortion, kidnappings, control of roadways and ports, and exploitation of agricultural assets."
+    },
+    {
+      "name": "Adaptation to external security pressure",
+      "description": "Track how gangs unify and adjust tactics in response to international or national security missions, including coordinated actions and resilience against enforcement operations."
+    },
+    {
+      "name": "Shifts in violence distribution",
+      "description": "Identify relocation of violence hotspots within urban areas and spillover into peri-urban or rural regions, with changing patterns of confrontations and territorial consolidation."
+    },
+    {
+      "name": "Civilian impact and displacement",
+      "description": "Assess trends in direct attacks versus indirect harms such as property destruction, forced displacement, and heightened risks for vulnerable groups under criminal governance."
+    },
+    {
+      "name": "Political autonomy and confrontation",
+      "description": "Evaluate gangs’ evolving independence from political patrons and their increasing role as direct challengers to transitional or incumbent authorities."
+    },
+    {
+      "name": "Maritime and border control",
+      "description": "Monitor expansion into coastal and border areas to dominate trafficking routes, enable rapid movement, and generate revenue through targeting transport and trade."
+    },
+    {
+      "name": "Alliance cohesion and fragility",
+      "description": "Consider internal disputes, leadership changes, and resource strains that could fracture the coalition, alongside factors that maintain unity against shared threats."
+    },
+    {
+      "name": "Prospects for negotiation",
+      "description": "Analyze the potential for dialogue with authorities, including risks of partial inclusion or exclusion that may create fissures within alliances and alter violence levels."
+    },
+    {
+      "name": "Security force engagement risks",
+      "description": "Examine intensified clashes between gangs and security forces, potential human rights concerns, and implications for overall stability and civilian safety."
+    }
+  ]
+}

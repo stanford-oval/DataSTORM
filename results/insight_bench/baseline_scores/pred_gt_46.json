@@ -1,0 +1,65 @@
+{
+  "dataset_id": 46,
+  "dataset_path": "data/notebooks/flag-46.json",
+  "metadata": {
+    "category": "Finance Management",
+    "dataset_description": "The dataset consists of 500 entries simulating the ServiceNow `fm_expense_line` table, which records various attributes of financial expenses. Key fields include 'number', 'opened_at', 'amount', 'state', 'short_description', 'ci', 'user', 'department', 'category', 'process_date', 'source_id', and 'type'. This table documents the flow of financial transactions by detailing the amount, departmental allocation, and the nature of each expense. It provides a clear view of organizational expenditures across different categories, highlighting both the timing and approval state of each financial entry. Additionally, the dataset captures patterns in expense submissions, including potential duplicate claims and their impact on financial management.",
+    "goal": "To identify and rectify the causes of high rejection rates in travel expenses while also detecting and addressing potential duplicate expense claims. This ensures that submissions align with organizational policies and reduces the risk of financial inefficiencies or unauthorized claims.",
+    "header": "Travel Expense Rejection Analysis (Flag 46)",
+    "role": "Expense Audit Analyst"
+  },
+  "predicted_insights": [
+    "The average monthly decline rate over this period was about 41.4% (median 41.2%), with peaks in 2023-11 (57.1%) and 2024-03 (53.8%) and a sharp improvement in 2024-04 (27.3%), indicating substantial volatility and highlighting late-year and early-spring as high-risk windows for rejections.",
+    "The duplicates are limited to two users—about 3.7% of the 54 users—with only one duplicate instance per user, indicating isolated cases rather than a widespread pattern of repeat submissions.",
+    "IT’s Travel claims are over twice as likely to be declined as Finance (54.55% vs 25.0%), while two departments (Development and Product Management) have zero declines, indicating concentrated rejection issues in a few teams and potential inconsistencies in policy adherence across departments.",
+    "Higher-value Travel claims (Q4) are declined about 19 percentage points less than the lowest-amount quartile (Q1: 48.65% vs. Q4: 29.73%) with similar sample sizes per quartile, suggesting larger trips may be better pre-vetted or more policy-compliant and that low-to-mid tiers (Q1–Q3) warrant targeted policy clarification or pre-approval checks.",
+    "The variance is large (0.0%–54.55%), with IT and HR each exceeding 50% decline rates—roughly double Finance’s 25%—suggesting those two departments are prime targets for policy clarification or pre-approval controls to reduce rejections and potential noncompliance.",
+    "Declined Travel items represent 61 of the dataset’s 173 missing source_id records (~35%), indicating that missing source linkage is a strong marker for rejection and that enforcing source_id capture in Travel submissions could materially reduce declines and aid duplicate-claim detection.",
+    "While IT and HR show the highest decline rates, Customer Support combines a high rate with the largest volume—35 declined out of 79—making it the biggest contributor to Travel rejections and the most impactful target for policy clarification and training.",
+    "Across these three common Travel templates (25 total submissions), 9 were declined (36%), with the largest share of declines coming from \"Automatically generated expense line for creation of travel asset\" (5/9 = 56%) and the highest risk by rate from \"Travel equipment asset registration\" (60%), suggesting asset-related travel entries are a concentrated driver of rejections and prime targets for policy clarification and duplicate-check rules.",
+    "Only 2 of the 54 users in the dataset exhibited potential duplicate Travel claims, and the maximum duplicate count observed was 2, indicating the issue is concentrated among a small subset of users.",
+    "Monday’s rejection rate (52%) is nearly double Sunday’s (26.3%) and about 18% higher than the weekday average (~44%), suggesting early-week submissions may be more error-prone or strictly reviewed; prioritizing pre-submission checks on Mondays could meaningfully reduce declines.",
+    "Among Travel expenses without a source_id, Declined is the most common outcome at 41.5% (61/147), slightly higher than Processed at 36.1% (53/147), suggesting missing source references may be associated with elevated rejection risk.",
+    "The concentration of rejections is notable: the top six users (Ofelia plus five tied at three declines) account for 19 of 61 declined Travel expenses (~31%), and users with at least two declines (16 people) account for 39 of 61 (~64%), suggesting targeted coaching for a small group could substantially reduce rejections."
+  ],
+  "predicted_summary": "All rejected Travel expenses lacked a source_id: 100% (61 of 61) of declines had a missing source_id. Among submissions with a missing source_id, the rejection rate was 41.5% (61 of 147), while no declines occurred when a source_id was present, indicating this single field fully explains all observed rejections.\nRejections are concentrated by department and dominated in absolute terms by Customer Support and Sales. Decline rates by department: IT 54.6% (6 of 11), HR 50.0% (1 of 2), Customer Support 44.3% (35 of 79), Sales 40.0% (18 of 45), Finance 25.0% (1 of 4), Development 0.0%, Product Management 0.0%. Customer Support and Sales together account for 86.9% of all declines (53 of 61).\nPotential duplicate Travel claims are rare and concentrated among two users: only 2 potential duplicates were detected (same user and amount within 7 days), both involving Carolina Kinlaw and Lacy Hyten, meaning these two users account for 100% of identified duplicate patterns. Additionally, the highest individual count of declined Travel submissions is 4 (Ofelia Sheffler), suggesting a small set of users recur in exception cases.",
+  "score_insights": 0.6411437050759419,
+  "score_insights_dict": [
+    {
+      "gt_insight": "There are disproportionately high rejection rates for Travel expenses",
+      "pred_insight": "Among Travel expenses without a source_id, Declined is the most common outcome at 41.5% (61/147), slightly higher than Processed at 36.1% (53/147), suggesting missing source references may be associated with elevated rejection risk.",
+      "score": 0.7930359365734457
+    },
+    {
+      "gt_insight": "There is a variable distribution of Expense Reports across categories",
+      "pred_insight": "The variance is large (0.0%–54.55%), with IT and HR each exceeding 50% decline rates—roughly double Finance’s 25%—suggesting those two departments are prime targets for policy clarification or pre-approval controls to reduce rejections and potential noncompliance.",
+      "score": 0.37923432383525785
+    },
+    {
+      "gt_insight": "Certain users have submitted multiple duplicate expense claims.",
+      "pred_insight": "Only 2 of the 54 users in the dataset exhibited potential duplicate Travel claims, and the maximum duplicate count observed was 2, indicating the issue is concentrated among a small subset of users.",
+      "score": 0.751160854819122
+    }
+  ],
+  "score_summary": 0.5296226145906429,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.7041041773185467,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "IT’s Travel claims are over twice as likely to be declined as Finance (54.55% vs 25.0%), while two departments (Development and Product Management) have zero declines, indicating concentrated rejection issues in a few teams and potential inconsistencies in policy adherence across departments.",
+      "gt_insight": "There are disproportionately high rejection rates for Travel expenses",
+      "score": 0.8668220562234922
+    },
+    {
+      "pred_insight": "IT’s Travel claims are over twice as likely to be declined as Finance (54.55% vs 25.0%), while two departments (Development and Product Management) have zero declines, indicating concentrated rejection issues in a few teams and potential inconsistencies in policy adherence across departments.",
+      "gt_insight": "There is a variable distribution of Expense Reports across categories",
+      "score": 0.4617178776110221
+    },
+    {
+      "pred_insight": "Only 2 of the 54 users in the dataset exhibited potential duplicate Travel claims, and the maximum duplicate count observed was 2, indicating the issue is concentrated among a small subset of users.",
+      "gt_insight": "Certain users have submitted multiple duplicate expense claims.",
+      "score": 0.7837725981211259
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.10419372414053392,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.5678157533941339
+}

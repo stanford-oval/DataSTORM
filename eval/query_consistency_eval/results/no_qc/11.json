@@ -1,0 +1,199 @@
+{
+  "per_dimension": [
+    {
+      "dimension": "actor_entity",
+      "score": 0.2,
+      "num_concept_groups": 5,
+      "num_consistent_groups": 1,
+      "notes": "Multiple different and conflicting definitions of 'resistance actors' (inter-category vs. name-patterns; inclusion/exclusion of Identity militia); mixed treatment of state forces (e.g., classifying 'Pyu Saw Htee' as state) and PDFs detection varies across queries and actor columns searched. Only the 'resistance-initiated' concept using inter1 in Q24 and Q25 is internally consistent."
+    },
+    {
+      "dimension": "geography",
+      "score": 0.0,
+      "num_concept_groups": 1,
+      "num_consistent_groups": 0,
+      "notes": "Most queries constrain to country='Myanmar', but at least two omit the country filter entirely, causing inclusion of non-Myanmar events."
+    },
+    {
+      "dimension": "temporal",
+      "score": 0.5,
+      "num_concept_groups": 2,
+      "num_consistent_groups": 1,
+      "notes": "Two period concepts recur: (a) Feb 1, 2021–Dec 31, 2024; (b) calendar years 2021–2024. The calendar-year group is internally consistent. The Feb 1 group has outliers with missing or broader timeframes."
+    },
+    {
+      "dimension": "event_taxonomy",
+      "score": 1.0,
+      "num_concept_groups": 1,
+      "num_consistent_groups": 1,
+      "notes": "Where the same event-type concept is reused (e.g., 'Armed clash'), filters are consistent. Other uses involve distinct concepts."
+    },
+    {
+      "dimension": "counting_aggregation",
+      "score": 0.0,
+      "num_concept_groups": 1,
+      "num_consistent_groups": 0,
+      "notes": "At least one pair of 'top actors by event count' queries use different counting bases (COUNT(*) of mentions vs COUNT(DISTINCT event_id_cnty))."
+    },
+    {
+      "dimension": "population_scope",
+      "score": 1.0,
+      "num_concept_groups": 0,
+      "num_consistent_groups": 0,
+      "notes": "No multi-query groups identified that strictly differ in base population beyond geography and actor definitions already captured."
+    }
+  ],
+  "conflicts": [
+    {
+      "dimension": "actor_entity",
+      "concept": "Non-state resistance actors (inclusion of Identity militia)",
+      "query_indices": [
+        7,
+        9
+      ],
+      "predicate_a": "(inter1 IN ('Rebel group', 'Political militia') OR inter2 IN ('Rebel group', 'Political militia'))",
+      "predicate_b": "(inter1 IN ('Rebel group','Political militia','Identity militia') OR inter2 IN ('Rebel group','Political militia','Identity militia'))",
+      "severity": "result-changing",
+      "explanation": "Q7 excludes Identity militia while Q9 includes it. Counts of 'events involving resistance actors' will differ materially across the two."
+    },
+    {
+      "dimension": "actor_entity",
+      "concept": "Non-state resistance actors (inclusion set and fallback via interaction)",
+      "query_indices": [
+        9,
+        10
+      ],
+      "predicate_a": "(inter1 IN ('Rebel group','Political militia','Identity militia') OR inter2 IN ('Rebel group','Political militia','Identity militia'))",
+      "predicate_b": "((inter1 IN ('Rebel group','Political militia','Identity militia') OR inter2 IN ('Rebel group','Political militia','Identity militia')) OR interaction IN ('Rebel group only','Rebel group-Civilians',...,'Identity militia-External/Other forces'))",
+      "severity": "result-changing",
+      "explanation": "Q10 broadens inclusion via interaction codes in addition to inter1/inter2, potentially pulling in events that Q9 would exclude."
+    },
+    {
+      "dimension": "actor_entity",
+      "concept": "Non-state resistance actors (as 'defined in question 1')",
+      "query_indices": [
+        1,
+        13
+      ],
+      "predicate_a": "Q1 identifies resistance via inter1/inter2 category in Armed clash events: ((inter1='State forces' AND inter2 IN ('Rebel group','Political militia')) OR (inter2='State forces' AND inter1 IN ('Rebel group','Political militia')))",
+      "predicate_b": "Q13 uses extensive actor1/actor2 ILIKE patterns (e.g., '%pdf%','%kio%','%knla%','%arakan army%', etc.) and no inter-category constraint to define resistance actors.",
+      "severity": "result-changing",
+      "explanation": "Q13 claims to follow Q1’s definition but substitutes a very different name-based pattern list, leading to different inclusion and hence different type/subtype distributions."
+    },
+    {
+      "dimension": "actor_entity",
+      "concept": "State forces vs non-state (classification of pro-junta militia)",
+      "query_indices": [
+        14,
+        18
+      ],
+      "predicate_a": "Q14 treats state side as (inter = 'State forces' OR actor ILIKE '%Tatmadaw%'/'%Myanmar Police%'/'%Pyu Saw Htee%') and requires the opposing side inter IN ('Rebel group','Political militia','Identity militia').",
+      "predicate_b": "Q18 strictly uses inter1/inter2 to assign the non-state actor when the other side is 'State forces'.",
+      "severity": "result-changing",
+      "explanation": "Including 'Pyu Saw Htee' as a state actor in Q14 reclassifies dyads relative to Q18 (where 'Pyu Saw Htee' is non-state). Dyad counts and rankings will differ."
+    },
+    {
+      "dimension": "actor_entity",
+      "concept": "PDFs detection across queries",
+      "query_indices": [
+        0,
+        4
+      ],
+      "predicate_a": "Q0 matches PDFs/LDF via actor1 or assoc_actor_1 only (e.g., actor1 ILIKE '%people%defen%e%forc%' OR assoc_actor_1 ILIKE same).",
+      "predicate_b": "Q4 pdf_flag matches PDFs via actor1, actor2, assoc_actor_1, assoc_actor_2 with multiple patterns including '\\bPDF\\b' and 'local people...'.",
+      "severity": "result-changing",
+      "explanation": "Q0 misses events where PDFs are recorded on actor2/assoc_actor_2, undercounting PDF-involved events relative to Q4."
+    },
+    {
+      "dimension": "actor_entity",
+      "concept": "PDFs detection across queries",
+      "query_indices": [
+        0,
+        20
+      ],
+      "predicate_a": "Q0: PDF/LDF match on actor1 and assoc_actor_1 only.",
+      "predicate_b": "Q20: PDF match across actor1/actor2/assoc_actor_1/assoc_actor_2 using '%People''s Defense Force%'/'%People%Defense%Force%'/'%PDF%'.",
+      "severity": "result-changing",
+      "explanation": "Different actor fields and pattern sets will change which events are attributed to PDFs, affecting monthly TBA vs PDF comparisons with Q0-based metrics."
+    },
+    {
+      "dimension": "actor_entity",
+      "concept": "Top resistance actors by event count (actor identification)",
+      "query_indices": [
+        11,
+        15
+      ],
+      "predicate_a": "Q11 filters actors via inter IN ('Rebel group','Political militia','Identity militia') and excludes 'Protesters (Myanmar)'.",
+      "predicate_b": "Q15 filters on extensive name patterns for PDFs/EAOs/NUG-linked forces, without an inter-category constraint.",
+      "severity": "result-changing",
+      "explanation": "The two produce different actor universes for ranking; some actors included by one approach may be excluded by the other, altering counts and ranks."
+    },
+    {
+      "dimension": "geography",
+      "concept": "Country scope = Myanmar",
+      "query_indices": [
+        3,
+        7
+      ],
+      "predicate_a": "Q3: WHERE event_date BETWEEN DATE '2021-01-01' AND DATE '2024-12-31' (no country filter).",
+      "predicate_b": "Q7: WHERE country = 'Myanmar' AND event_date BETWEEN DATE '2021-02-01' AND DATE '2024-12-31'.",
+      "severity": "result-changing",
+      "explanation": "Q3 includes events from outside Myanmar (preview shows Ukraine/Russia), compromising any Myanmar-specific cross-border analysis."
+    },
+    {
+      "dimension": "geography",
+      "concept": "Country scope = Myanmar",
+      "query_indices": [
+        23,
+        25
+      ],
+      "predicate_a": "Q23: base WHERE disorder_type IN (...) with no country predicate.",
+      "predicate_b": "Q25: WHERE country = 'Myanmar' AND event_date BETWEEN DATE '2021-02-01' AND DATE '2024-12-31'.",
+      "severity": "result-changing",
+      "explanation": "Q23’s episode detection may include non-Myanmar events, while Q25 restricts to Myanmar, making any comparison inconsistent."
+    },
+    {
+      "dimension": "temporal",
+      "concept": "Feb 1, 2021–Dec 31, 2024 period",
+      "query_indices": [
+        1,
+        20
+      ],
+      "predicate_a": "Q1: event_date >= DATE '2021-02-01' AND event_date <= DATE '2024-12-31'.",
+      "predicate_b": "Q20: No explicit date filter (groups by month for all years present).",
+      "severity": "result-changing",
+      "explanation": "Q20 reports monthly TBA/PDF events for years outside the intended period (preview shows 2020), breaking comparability with other Feb 2021–Dec 2024 analyses."
+    },
+    {
+      "dimension": "temporal",
+      "concept": "Feb 1, 2021–Dec 31, 2024 period (weekly offensives)",
+      "query_indices": [
+        19,
+        25
+      ],
+      "predicate_a": "Q19: WHERE country='Myanmar' AND event_type IN ('Battles','Explosions/Remote violence') (no time bounds).",
+      "predicate_b": "Q25: event_date BETWEEN DATE '2021-02-01' AND DATE '2024-12-31'.",
+      "severity": "result-changing",
+      "explanation": "Q19 includes weeks from 2020, while Q25 restricts to the post-coup period. Weekly 'multi-front' signals are not comparable across the two time bases."
+    },
+    {
+      "dimension": "counting_aggregation",
+      "concept": "Top actors by event count (counting unit)",
+      "query_indices": [
+        11,
+        22
+      ],
+      "predicate_a": "Q11: COUNT(*) over UNION ALL of actor1 and actor2 mentions (counts mentions, may count an event twice if both sides qualify).",
+      "predicate_b": "Q22: COUNT(DISTINCT event_id_cnty) per actor (unique events per actor) and totals based on DISTINCT events.",
+      "severity": "result-changing",
+      "explanation": "Different counting units (mentions vs unique events) yield different absolute counts and actor rankings for the same timeframe."
+    }
+  ],
+  "overall_score": 0.45,
+  "summary": "Several core concepts are filtered inconsistently across the queries. In particular, definitions of 'resistance actors' and 'state forces' vary widely (inter-category vs name patterns; inclusion of Identity militias; classifying Pyu Saw Htee as state), some queries omit the Myanmar country filter, and a few omit or widen the intended Feb 2021–Dec 2024 timeframe. These inconsistencies are substantial enough to produce different row sets and materially affect counts and rankings, reducing cross-query comparability.",
+  "report_dir": "<repo>/datatalk/acled_ablations/no_qc_fixed/11/Research_state_of_resistance_groups_in_Myanmar_post_2021_coup:_What_is_the_landscape_of_these_groups?__resummarized_20260601_231104",
+  "model": "gpt-5",
+  "num_queries": 27,
+  "applicable": true,
+  "id": 11
+}

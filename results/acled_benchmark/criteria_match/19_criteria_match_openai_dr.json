@@ -1,0 +1,116 @@
+{
+  "prompt": "Summary of recent events in South West Ethiopia Peoples region and Oromia region, between 23 November 2024 and 3 December 2024",
+  "criteria": [
+    {
+      "name": "Unusual violence patterns",
+      "description": "Assess instances of atypical or rare attacks in generally calmer areas, noting shifts from historical norms and implications for regional stability."
+    },
+    {
+      "name": "Cross-border militia incursions",
+      "description": "Examine reports of armed groups moving across administrative or regional boundaries to conduct attacks, and what this suggests about security gaps and local dynamics."
+    },
+    {
+      "name": "Federal and regional security response",
+      "description": "Evaluate how state forces deploy and intervene after incidents, including measures to prevent further attacks and the effectiveness of stabilization efforts."
+    },
+    {
+      "name": "Fragmentation within insurgent groups",
+      "description": "Analyze splintering, leadership disputes, and factionalization within armed movements and how these affect conflict intensity and negotiation prospects."
+    },
+    {
+      "name": "Credibility of peace initiatives",
+      "description": "Assess peace deals and dialogue claims, comparing official narratives with insurgent statements and on-the-ground conflict trends to gauge the sincerity and impact of agreements."
+    },
+    {
+      "name": "Post-agreement conflict trajectory",
+      "description": "Track whether violence decreases, remains steady, or escalates following peace announcements, highlighting any short-lived lulls or rapid resumption of hostilities."
+    },
+    {
+      "name": "Geographic concentration of violence",
+      "description": "Identify zones or districts with persistently high levels of conflict and civilian targeting, and consider why certain areas remain hotspots over time."
+    },
+    {
+      "name": "Targeting of civilian groups",
+      "description": "Monitor patterns of violence against civilians, including attacks linked to identity or religion, and assess frequency and drivers of such targeting."
+    },
+    {
+      "name": "Government offensive operations",
+      "description": "Review reported security operations against insurgents across multiple zones, considering their scope, timing, and correlation with changes in violence levels."
+    },
+    {
+      "name": "Demonstration and unrest trends",
+      "description": "Observe fluctuations in protests and riots alongside political violence, noting periods of decline or absence and potential links to security operations or negotiations."
+    },
+    {
+      "name": "Media and information environment",
+      "description": "Compare official communications, local reports, and independent media coverage to identify narrative discrepancies and potential propaganda or misinformation."
+    },
+    {
+      "name": "Regional administrative context",
+      "description": "Consider the historical political turbulence and multi-ethnic composition of regions to contextualize current events and explain why some areas remain relatively peaceful."
+    }
+  ],
+  "criterion_scores": [
+    {
+      "name": "Unusual violence patterns",
+      "score": 0.75,
+      "explanation": "The article highlights an atypical attack in South West Ethiopia Peoples’ Region—Majangir militia crossing from Gambela to Sheka zone, killing at least 20—framed as the most significant event and unusual for a generally calmer area. However, it does not explicitly compare to historical norms in detail or discuss broader implications for regional stability beyond noting its significance."
+    },
+    {
+      "name": "Cross-border militia incursions",
+      "score": 1.0,
+      "explanation": "Directly addressed with the Majangir ethnic militia crossing from Gambela into Sheka zone to attack Shekibido Kebele. It clearly notes movement across regional boundaries and identifies it as the key incident in the SWEP region during the period."
+    },
+    {
+      "name": "Federal and regional security response",
+      "score": 0.5,
+      "explanation": "In Oromia, mentions ENDF clashes with OLA and surrenders, indicating some state intervention. However, it lacks detail on deployment patterns, preventive measures, or stabilization efficacy. For the SWEP region incident, no government response is described."
+    },
+    {
+      "name": "Fragmentation within insurgent groups",
+      "score": 0.5,
+      "explanation": "Notes that around 800 OLA fighters from the central Oromia faction surrendered following a peace agreement, implying factional dynamics. Also mentions small groups surrendering separately. However, there is limited analysis of leadership disputes, splintering, or how factionalization affects conflict intensity or negotiations."
+    },
+    {
+      "name": "Credibility of peace initiatives",
+      "score": 0.75,
+      "explanation": "Describes a 1 December peace agreement followed by mass surrender and reception ceremonies, suggesting some sincerity. It contrasts ongoing violence with the initiative but does not compare official narratives with insurgent statements or independent coverage in depth, nor assess long-term impact."
+    },
+    {
+      "name": "Post-agreement conflict trajectory",
+      "score": 0.5,
+      "explanation": "Indicates that on 3 December, large-scale surrender occurred after the 1 December agreement, suggesting de-escalation. However, it does not systematically track whether violence decreased, remained steady, or escalated across the timeframe post-announcement, nor discuss short-lived lulls or resumption beyond that immediate event."
+    },
+    {
+      "name": "Geographic concentration of violence",
+      "score": 0.5,
+      "explanation": "Lists specific zones (Sheka in SWEP, West Guji, East Wellega, Horo Gudru Wellega, Ambo area) but does not analyze persistent hotspots or reasons why certain areas remain violent. Provides incidents geographically but lacks discussion of concentration over time."
+    },
+    {
+      "name": "Targeting of civilian groups",
+      "score": 0.75,
+      "explanation": "Details civilian-targeting incidents: the mass killing in Sheka, bus shooting injuring a passenger in East Wellega, and Fano militia ambush killing Oromo livestock traders with property destruction. It notes identity-linked targeting (Oromo traders) but offers limited assessment of frequency and drivers."
+    },
+    {
+      "name": "Government offensive operations",
+      "score": 0.5,
+      "explanation": "Mentions ENDF clashes with OLA in West Guji and subsequent surrenders, implying operations. However, it lacks coverage of operations across multiple zones in scope, timing, and correlation with violence changes beyond these examples."
+    },
+    {
+      "name": "Demonstration and unrest trends",
+      "score": 0.25,
+      "explanation": "No protests or riots are discussed. The only civic event mentioned is a reception ceremony for demobilized fighters, which is not an unrest trend. The article does not observe fluctuations in demonstrations."
+    },
+    {
+      "name": "Media and information environment",
+      "score": 0.25,
+      "explanation": "References ACLED entries for incidents, but does not compare official communications, local reports, or independent media narratives, nor identify discrepancies or propaganda. Minimal assessment of the information environment."
+    },
+    {
+      "name": "Regional administrative context",
+      "score": 0.25,
+      "explanation": "Mentions regional boundaries (Gambela to SWEP) and zones in Oromia, but provides little historical or multi-ethnic context explaining why areas are peaceful or turbulent. The analysis is event-focused without broader administrative or historical framing."
+    }
+  ],
+  "overall_score": 0.5416666666666666
+}

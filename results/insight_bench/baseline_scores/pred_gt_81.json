@@ -1,0 +1,75 @@
+{
+  "dataset_id": 81,
+  "dataset_path": "data/notebooks/flag-81.json",
+  "metadata": {
+    "category": "Strategic Goal Management",
+    "dataset_description": "This dataset includes 500 simulated entries from the ServiceNow `sn_gf_goal` table, detailing various aspects of organizational goals. Key attributes include goal status, responsible parties, associated departments, start and end dates, and detailed descriptions. The dataset also contains metrics such as priority ranking, percentage completion, and target achievement rate. It primarily focuses on tracking the progress and management of both departmental and individual goals, offering insights into the effectiveness and alignment of these goals with broader organizational strategies. Additionally, the dataset logs updates to each goal, providing a record of modifications and the identities of those making these changes.",
+    "goal": "Analyze the factors (whether time-based or categorical) that influence goal completion rates and evaluate their impact on overall departmental performance.",
+    "header": "Cost Efficiency Goals Analysis (Flag 81)",
+    "role": "Enterprise Performance Analyst"
+  },
+  "predicted_insights": [
+    "Network leads Software by 9 percentage points (57% vs 48%), and because Database, Hardware, and Inquiry/Help cluster around ~53–54%, elevating Software to the median (~53%) would yield a 5-point (≈10% relative) gain for that group and could measurably lift overall 24-hour completion if incident volumes are comparable.",
+    "Critical incidents take the longest to close (~3,359 hours ≈ 140 days), about 481 hours (~20 days) longer than Low priority, suggesting that higher priority is not translating into faster resolution and could be constraining departmental performance improvements.",
+    "Overall, only 6 of 236 incidents (2.54%) closed within 72 hours, with the best month reaching just 5.56% (2/36 in 2023-10) and most months at 0%, indicating timely closure is rare and likely undermining departmental SLA performance.",
+    "The best day for 72-hour closure is Monday (60.6%) and the worst is Wednesday (44.3%), a 16.3 percentage-point gap, while weekend openings (59.3% Saturday, 55.8% Sunday) perform on par with strong weekdays—suggesting targeted midweek resourcing could materially improve overall closure rates.",
+    "The range between priorities is 12.8 percentage points (58.4% High vs. 45.6% Moderate), with High only 0.8 points above Critical—indicating mid-priority (Moderate) tickets lag most and present the greatest leverage to improve overall 24-hour performance.",
+    "From Jan–Nov 2023, months with higher workloads (23–38 tickets) coincided with markedly longer medians (≈2,588–3,805 hours), roughly 10–16x higher than the early-year baseline (≈246 hours in Jan 2023), signaling capacity constraints as volume rises.",
+    "Database has the slowest median close time (~3922 hours ≈ 163 days), about 51% longer than Network (~2598 hours), a gap of ~1324 hours (~55 days) that likely makes Database tickets a major drag on overall departmental goal completion rates.",
+    "Items opened on Wednesday have a median closure time of 755.55 hours—about 13.5× longer than Tuesday (55.86 hours) and vastly higher than all other days (0.0), indicating a pronounced mid‑week bottleneck that likely dominates overall completion time variability.",
+    "Across 70 group-months (5 assignement_group × 14 months), only 1 had any 24-hour completions (Hardware in 2023-11 at 14.29%), meaning 98.6% of group-months recorded a 0% 24-hour completion rate—signaling a systemic failure to meet a 24-hour SLA.",
+    "Time effects overshadow location: the cross-location average 24-hour completion rate fell from ~82% (Jan–Jun 2023) to ~22% (Sep–Dec 2023) and ~9% (Jan–Feb 2024), with sustained 0% performance in Canada (4 months) and the UK (3 months), indicating a systemic decline likely dragging departmental outcomes regardless of where tickets originated.",
+    "Weekend openings outperformed weekdays by about 5.9 percentage points overall (57.4% vs 51.4%) despite representing only 27.2% of all incidents (136/500), with weekends particularly strong in Oct–Jan (≥88.9% up to 100%), indicating faster turnaround when weekend load is lighter or prioritized.",
+    "The 24-hour completion rate surged from 7.32% in Jan-2023 to 97.06% in Jan-2024 (+89.74 percentage points), with the monthly average jumping from 22.7% in 1H 2023 to 73.2% in 2H 2023 (+50.5 pp), indicating substantial process efficiency gains in the second half of the year."
+  ],
+  "predicted_summary": "Completion speed varies meaningfully by both priority and team: higher-priority incidents are more likely to be resolved within 24 hours (58.4% for High and 57.6% for Critical) than Moderate (45.6%) or Low (50.4%), and assignment groups range from 57% (Network) and 54% (Inquiry/Help) to 48% (Software). Median time-to-close also differs by group and priority, with Network having the shortest median (≈2,598 hours) and Database the longest (≈3,922 hours), while Critical tickets exhibit the longest median among priorities (≈3,359 hours vs. ≈2,877 hours for Low).\nWhen incidents are opened affects quick-closure rates: tickets opened on weekends achieve higher 24-hour completion than weekdays (57.4% vs. 51.4%), and within 72 hours performance peaks on Monday (60.6%) and Saturday (59.3%) but dips midweek, with Wednesday the lowest (44.3%). This indicates a clear day-of-week pattern in short-term resolution likelihood.\nTime trends, workload, and geography shape outcomes: for incidents opened each month, the 24-hour completion rate climbed sharply from 7.3% in 2023-01 to 97.1% by 2024-01, yet regional performance diverged late 2023–early 2024 (Canada and the UK at 0% by Nov–Feb; the US intermittently at 0% in Sep/Dec/Feb; India briefly rebounding to 50% in 2024-01; Australia sliding from 83% in 2023-06 to 0% by 2024-02). Additionally, heavier monthly ticket volumes are associated with longer median closure times (strong positive correlation, r = 0.70).",
+  "score_insights": 0.12536378084910596,
+  "score_insights_dict": [
+    {
+      "gt_insight": "There was no column end_date to conduct any analysis",
+      "pred_insight": "The best day for 72-hour closure is Monday (60.6%) and the worst is Wednesday (44.3%), a 16.3 percentage-point gap, while weekend openings (59.3% Saturday, 55.8% Sunday) perform on par with strong weekdays—suggesting targeted midweek resourcing could materially improve overall closure rates.",
+      "score": 0.11189769838913136
+    },
+    {
+      "gt_insight": "There was no column start_date to conduct any analysis",
+      "pred_insight": "The best day for 72-hour closure is Monday (60.6%) and the worst is Wednesday (44.3%), a 16.3 percentage-point gap, while weekend openings (59.3% Saturday, 55.8% Sunday) perform on par with strong weekdays—suggesting targeted midweek resourcing could materially improve overall closure rates.",
+      "score": 0.10464666954626331
+    },
+    {
+      "gt_insight": "There was no column department to conduct any analysis",
+      "pred_insight": "Network leads Software by 9 percentage points (57% vs 48%), and because Database, Hardware, and Inquiry/Help cluster around ~53–54%, elevating Software to the median (~53%) would yield a 5-point (≈10% relative) gain for that group and could measurably lift overall 24-hour completion if incident volumes are comparable.",
+      "score": 0.1398096036264488
+    },
+    {
+      "gt_insight": "There was no column department to conduct any analysis",
+      "pred_insight": "Network leads Software by 9 percentage points (57% vs 48%), and because Database, Hardware, and Inquiry/Help cluster around ~53–54%, elevating Software to the median (~53%) would yield a 5-point (≈10% relative) gain for that group and could measurably lift overall 24-hour completion if incident volumes are comparable.",
+      "score": 0.14510115183458036
+    }
+  ],
+  "score_summary": 0.13350861195549837,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.10792389633031696,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "Across 70 group-months (5 assignement_group × 14 months), only 1 had any 24-hour completions (Hardware in 2023-11 at 14.29%), meaning 98.6% of group-months recorded a 0% 24-hour completion rate—signaling a systemic failure to meet a 24-hour SLA.",
+      "gt_insight": "There was no column end_date to conduct any analysis",
+      "score": 0.11297446687297041
+    },
+    {
+      "pred_insight": "Across 70 group-months (5 assignement_group × 14 months), only 1 had any 24-hour completions (Hardware in 2023-11 at 14.29%), meaning 98.6% of group-months recorded a 0% 24-hour completion rate—signaling a systemic failure to meet a 24-hour SLA.",
+      "gt_insight": "There was no column start_date to conduct any analysis",
+      "score": 0.10862898951606086
+    },
+    {
+      "pred_insight": "Across 70 group-months (5 assignement_group × 14 months), only 1 had any 24-hour completions (Hardware in 2023-11 at 14.29%), meaning 98.6% of group-months recorded a 0% 24-hour completion rate—signaling a systemic failure to meet a 24-hour SLA.",
+      "gt_insight": "There was no column department to conduct any analysis",
+      "score": 0.10387790033952034
+    },
+    {
+      "pred_insight": "Across 70 group-months (5 assignement_group × 14 months), only 1 had any 24-hour completions (Hardware in 2023-11 at 14.29%), meaning 98.6% of group-months recorded a 0% 24-hour completion rate—signaling a systemic failure to meet a 24-hour SLA.",
+      "gt_insight": "There was no column department to conduct any analysis",
+      "score": 0.1062142285927162
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.10108448206290757,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.14657139251969675
+}

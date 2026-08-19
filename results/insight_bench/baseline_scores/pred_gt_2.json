@@ -1,0 +1,75 @@
+{
+  "dataset_id": 2,
+  "dataset_path": "data/notebooks/flag-2.json",
+  "metadata": {
+    "category": "Incidents Management.",
+    "dataset_description": "The dataset comprises 500 entries simulating a ServiceNow incidents table, detailing various attributes such as category, state, open and close dates, involved personnel, and incident specifics like description, and priority. It captures incident management activities with fields like 'opened_at', 'closed_at', 'assigned_to', 'short_description', and 'priority', reflecting the operational handling and urgency of issues across different locations and categories.",
+    "goal": "Analyze the trend of incident resolution times and identify potential reasons for any observed patterns.",
+    "header": "Incident Resolution Time Dataset (Flag 2)",
+    "role": "Operations Data Analyst"
+  },
+  "predicted_insights": [
+    "Over the year, the median resolution time grew by ~2012 hours (~18×, from ~4.9 to ~88.8 days), averaging ~168 hours (~7 days) more each month—an unusually linear buildup indicative of accumulating backlog or substantially slower resolution processes.",
+    "Closures peaked in 2023-03 (41) and fell to a low in 2024-01 (22)—a 46% drop—with a mid-year dip in 2023-06 (23) and relatively steady late-summer volumes around 30 (2023-08–09), totaling 372 closed incidents over the period.",
+    "This moderate negative correlation indicates a throughput-duration trade-off: months with more closures tended to have lower typical (median) resolution times (e.g., 2023-03 had 41 closures with 441.6 hours median), while months with fewer closures had much longer median times (e.g., 2024-01 had 22 closures with 2130.0 hours median).",
+    "The typical Openspace incident takes about 77 days to resolve, roughly 64% longer than the next-slowest group (Service Desk at ~47 days) and more than double Hardware (~33 days), highlighting a markedly slower resolution pace in that team compared to others.",
+    "Despite volumes fluctuating between 22–41 incidents per month, the monthly median resolution time increased steadily from 117.6h to 2130.0h (~18×), suggesting rising cycle times likely driven by factors other than volume (e.g., backlog growth or increasing incident complexity).",
+    "Across assignment groups with data in both halves of 2023, median resolution times rose substantially by an average of about 984 hours (~41 days), with H2 medians ranging roughly 1338–1997 hours, indicating a broad, systemic slowdown rather than an isolated issue; notably, a new/renamed group (“Openspace”) appeared with a high H2 median (1852.8 hours) but no H1 baseline, hinting at process or routing changes.",
+    "H2 had zero quick resolutions (0 of 134) compared to seven in H1 despite a 44% drop in total resolved volume (238 to 134), signaling a notable shift where no incidents were closed within three days in H2—potentially indicating rising case complexity or process delays.",
+    "The 2023-H2 missing-closure rate (38.25%) is notably higher than the dataset-wide rate (128/500 = 25.6%), and incidents opened in 2023-H2 account for about 65% (83/128) of all missing closed_at entries—pointing to a potential backlog or slower closures in that period.",
+    "High-priority incidents are resolved fastest (974.4 h), about 11.5% quicker than Moderate (1,100.4 h) and 22.4% quicker than Critical (1,255.2 h), suggesting effective triage for High but potential bottlenecks on the most critical cases.",
+    "Incidents opened on Sundays take about 374 hours (~44%) longer to resolve than those opened on Thursdays (1233.6h vs 859.2h), indicating a pronounced weekend slowdown.",
+    "The median resolution time rose steadily each month—by 1969.2 hours (~82 days) from January to October (~15.5x increase)—even though monthly closed-incident volumes stayed relatively stable (29–44), suggesting longer cycle times or growing backlog for incidents opened later in the year.",
+    "High-priority work comprised roughly 62–84% of openings each month (e.g., 82% in April vs. 62% in October), and months with ≥35 High-priority cases (Jan 2023, Nov 2023, Jan 2024) coincided with the highest total openings (44–45), highlighting concentrated workload periods that could stress resolution capacity."
+  ],
+  "predicted_summary": "Incident resolution times have increased dramatically and consistently over the period, independent of volume. The monthly median rose from 117.6 hours (2023-01) to 2,130.0 hours (2024-01), adding roughly 150–200 hours each month, and when measured by the month incidents were opened, medians climbed from 135.6 hours (2023-01) to 2,104.8 hours (2023-10). Meanwhile, monthly incident counts were stable to declining (e.g., 31 closed in 2023-01 vs 22 in 2024-01), and the correlation between monthly volume and median resolution time is moderately negative (-0.522), pointing to non-volume factors (e.g., process slowdowns or backlog aging) as the likely drivers.\nSpecific teams appear to be major contributors to the slowdown. Openspace has the highest median resolution time among closed incidents at 1,852.8 hours, and Hardware saw the largest jump from 2023-H1 to 2023-H2, increasing by 1,296.0 hours (from 700.8 to 1,996.8 hours). These outsized medians and sharp increases relative to other groups align with the overall upward trend and suggest team-level differences are a key part of the pattern.\nService speed deteriorated notably in the second half of 2023, with signs of backlog accumulation and slower turnaround in certain time windows and severities. The share of incidents resolved within 72 hours fell from 2.94% in 2023-H1 to 0% in 2023-H2, and 38.25% of incidents opened in 2023-H2 still lack a closed_at timestamp. Among closed incidents, median times vary meaningfully by when and what: incidents opened on Sundays take the longest (1,233.6 hours) versus Thursdays (859.2 hours), and by priority the medians are 1 - Critical: 1,255.2 hours, 2 - High: 974.4 hours, 3 - Moderate: 1,100.4 hours—patterns that are consistent with staffing/triage effects and further explain the overall slowdown.",
+  "score_insights": 0.6135470391741585,
+  "score_insights_dict": [
+    {
+      "gt_insight": "The time to resolution of incidents is increasing over time",
+      "pred_insight": "The median resolution time rose steadily each month—by 1969.2 hours (~82 days) from January to October (~15.5x increase)—even though monthly closed-incident volumes stayed relatively stable (29–44), suggesting longer cycle times or growing backlog for incidents opened later in the year.",
+      "score": 0.8496339752339782
+    },
+    {
+      "gt_insight": "There is a negative correlation between the volume of incidents and the TTR",
+      "pred_insight": "This moderate negative correlation indicates a throughput-duration trade-off: months with more closures tended to have lower typical (median) resolution times (e.g., 2023-03 had 41 closures with 441.6 hours median), while months with fewer closures had much longer median times (e.g., 2024-01 had 22 closures with 2130.0 hours median).",
+      "score": 0.8030935298322855
+    },
+    {
+      "gt_insight": "The increase in TTR is uniform across all categories",
+      "pred_insight": "Across assignment groups with data in both halves of 2023, median resolution times rose substantially by an average of about 984 hours (~41 days), with H2 medians ranging roughly 1338–1997 hours, indicating a broad, systemic slowdown rather than an isolated issue; notably, a new/renamed group (“Openspace”) appeared with a high H2 median (1852.8 hours) but no H1 baseline, hinting at process or routing changes.",
+      "score": 0.5653377025857956
+    },
+    {
+      "gt_insight": "The productivity is more or less uniform across all agents",
+      "pred_insight": "H2 had zero quick resolutions (0 of 134) compared to seven in H1 despite a 44% drop in total resolved volume (238 to 134), signaling a notable shift where no incidents were closed within three days in H2—potentially indicating rising case complexity or process delays.",
+      "score": 0.2361229490445748
+    }
+  ],
+  "score_summary": 0.8119504731991908,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.5960512227987369,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "H2 had zero quick resolutions (0 of 134) compared to seven in H1 despite a 44% drop in total resolved volume (238 to 134), signaling a notable shift where no incidents were closed within three days in H2—potentially indicating rising case complexity or process delays.",
+      "gt_insight": "The time to resolution of incidents is increasing over time",
+      "score": 0.8941189765176674
+    },
+    {
+      "pred_insight": "This moderate negative correlation indicates a throughput-duration trade-off: months with more closures tended to have lower typical (median) resolution times (e.g., 2023-03 had 41 closures with 441.6 hours median), while months with fewer closures had much longer median times (e.g., 2024-01 had 22 closures with 2130.0 hours median).",
+      "gt_insight": "There is a negative correlation between the volume of incidents and the TTR",
+      "score": 0.8486321208681231
+    },
+    {
+      "pred_insight": "Across assignment groups with data in both halves of 2023, median resolution times rose substantially by an average of about 984 hours (~41 days), with H2 medians ranging roughly 1338–1997 hours, indicating a broad, systemic slowdown rather than an isolated issue; notably, a new/renamed group (“Openspace”) appeared with a high H2 median (1852.8 hours) but no H1 baseline, hinting at process or routing changes.",
+      "gt_insight": "The increase in TTR is uniform across all categories",
+      "score": 0.4453382459901534
+    },
+    {
+      "pred_insight": "H2 had zero quick resolutions (0 of 134) compared to seven in H1 despite a 44% drop in total resolved volume (238 to 134), signaling a notable shift where no incidents were closed within three days in H2—potentially indicating rising case complexity or process delays.",
+      "gt_insight": "The productivity is more or less uniform across all agents",
+      "score": 0.19611554781900353
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.11128256204398615,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.8107587254322137
+}

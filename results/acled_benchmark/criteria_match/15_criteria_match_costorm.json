@@ -1,0 +1,116 @@
+{
+  "prompt": "How does the the Viv Ansanm alliance reshapes Haiti's gang landscape?",
+  "criteria": [
+    {
+      "name": "Alliance-driven truce",
+      "description": "Assess how the coalition reduces infighting among rival gangs and enables a sustained decrease in inter-gang clashes while consolidating power."
+    },
+    {
+      "name": "Territorial expansion dynamics",
+      "description": "Examine the shift from rivalries to coordinated expansion into new neighborhoods and corridors, including movement from contested zones to strategic urban centers and outskirts."
+    },
+    {
+      "name": "Targeting state infrastructure",
+      "description": "Evaluate the increase in organized attacks on government, security facilities, and public institutions as part of efforts to destabilize authorities and counter security deployments."
+    },
+    {
+      "name": "Revenue diversification and control",
+      "description": "Analyze how gangs capitalize on reduced internal conflict to intensify extortion, kidnappings, control of roadways and ports, and exploitation of agricultural assets."
+    },
+    {
+      "name": "Adaptation to external security pressure",
+      "description": "Track how gangs unify and adjust tactics in response to international or national security missions, including coordinated actions and resilience against enforcement operations."
+    },
+    {
+      "name": "Shifts in violence distribution",
+      "description": "Identify relocation of violence hotspots within urban areas and spillover into peri-urban or rural regions, with changing patterns of confrontations and territorial consolidation."
+    },
+    {
+      "name": "Civilian impact and displacement",
+      "description": "Assess trends in direct attacks versus indirect harms such as property destruction, forced displacement, and heightened risks for vulnerable groups under criminal governance."
+    },
+    {
+      "name": "Political autonomy and confrontation",
+      "description": "Evaluate gangs’ evolving independence from political patrons and their increasing role as direct challengers to transitional or incumbent authorities."
+    },
+    {
+      "name": "Maritime and border control",
+      "description": "Monitor expansion into coastal and border areas to dominate trafficking routes, enable rapid movement, and generate revenue through targeting transport and trade."
+    },
+    {
+      "name": "Alliance cohesion and fragility",
+      "description": "Consider internal disputes, leadership changes, and resource strains that could fracture the coalition, alongside factors that maintain unity against shared threats."
+    },
+    {
+      "name": "Prospects for negotiation",
+      "description": "Analyze the potential for dialogue with authorities, including risks of partial inclusion or exclusion that may create fissures within alliances and alter violence levels."
+    },
+    {
+      "name": "Security force engagement risks",
+      "description": "Examine intensified clashes between gangs and security forces, potential human rights concerns, and implications for overall stability and civilian safety."
+    }
+  ],
+  "criterion_scores": [
+    {
+      "name": "Alliance-driven truce",
+      "score": 0.5,
+      "explanation": "The article explains that Viv Ansanm formed from rival coalitions and reduced fragmented turf wars into a coordinated campaign, implying some consolidation and reduced infighting. However, it does not explicitly document a sustained decrease in inter-gang clashes across the board or detail mechanisms of truce among rivals; instead, it emphasizes clashes with police and concentration around ports. Coverage is partial."
+    },
+    {
+      "name": "Territorial expansion dynamics",
+      "score": 0.75,
+      "explanation": "The piece assesses a shift from scattered turf battles to coordinated operations in port-adjacent neighborhoods and logistics corridors. It notes limited geographic spread despite high incident volume, focusing on specific nodes (Solino, Fort National, etc.), and movement toward strategic urban centers. It lacks detailed discussion of expansion into outskirts or peri-urban corridors beyond the immediate port belt."
+    },
+    {
+      "name": "Targeting state infrastructure",
+      "score": 1.0,
+      "explanation": "Strongly addressed. The article details organized attacks on prisons, government buildings, police facilities, and emphasizes a strategic pivot to ports as critical infrastructure, with quantitative breakdowns showing majority of incidents and fatalities at ports."
+    },
+    {
+      "name": "Revenue diversification and control",
+      "score": 0.5,
+      "explanation": "It mentions extortion of traders and transporters, control of roads, disruption of supply chains, and leverage via ports and fuel depots. However, it provides limited analysis of kidnappings, systematic control of ports for revenue extraction, or exploitation of agricultural assets. The revenue dimension is touched on but not deeply analyzed."
+    },
+    {
+      "name": "Adaptation to external security pressure",
+      "score": 0.75,
+      "explanation": "The article discusses coordinated confrontations with Haitian National Police, linkage between strategic developments and subsequent violence, and contextualizes actions amid debates over a multinational mission (Kenya-led). It suggests proto-insurgent adaptation but lacks detailed tactical descriptions of how the alliance changes methods specifically in response to deployments."
+    },
+    {
+      "name": "Shifts in violence distribution",
+      "score": 0.75,
+      "explanation": "It identifies relocation of hotspots to port-adjacent neighborhoods, concentration of lethality there, and contrasts with non-port sites. Spillover to peri-urban or rural areas is not covered, limiting completeness."
+    },
+    {
+      "name": "Civilian impact and displacement",
+      "score": 0.75,
+      "explanation": "The article highlights increased violence against civilians, high share occurring in Port-au-Prince, displacement figures (>200,000), extortion, service disruption, and daily precarity. It could further differentiate direct attacks vs. indirect harms and discuss vulnerable groups in more depth."
+    },
+    {
+      "name": "Political autonomy and confrontation",
+      "score": 0.75,
+      "explanation": "It argues Viv Ansanm behaves as a proto-insurgent actor, directly confronting state forces, and seeks negotiations or amnesty, suggesting growing autonomy from traditional patrons. However, explicit analysis of ties to political patrons and the evolution away from them is limited."
+    },
+    {
+      "name": "Maritime and border control",
+      "score": 0.75,
+      "explanation": "Maritime control is extensively covered via ports and seaborne logistics dominance. Border areas and cross-border trafficking routes are not analyzed, so the border-control aspect is underdeveloped."
+    },
+    {
+      "name": "Alliance cohesion and fragility",
+      "score": 0.5,
+      "explanation": "The formation from rival coalitions and centralized coordination is described, with references to organizational maneuvering. Yet the piece does not delve into internal disputes, leadership changes, resource strains, or specific factors maintaining unity; thus coverage is partial."
+    },
+    {
+      "name": "Prospects for negotiation",
+      "score": 0.75,
+      "explanation": "It mentions leaders floating demands for negotiations or amnesty, and discusses risks of concessions. However, it lacks a nuanced exploration of inclusion/exclusion scenarios and their potential to fracture alliances or alter violence levels."
+    },
+    {
+      "name": "Security force engagement risks",
+      "score": 0.75,
+      "explanation": "The article documents intensified clashes with Haitian National Police in numerous battle locations and notes concerns about force-first approaches and collateral harm. It could more explicitly address human rights implications and detailed impacts on civilian safety during operations."
+    }
+  ],
+  "overall_score": 0.7083333333333334
+}

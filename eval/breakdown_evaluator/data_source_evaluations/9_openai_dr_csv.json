@@ -1,0 +1,242 @@
+{
+  "total_insights": 23,
+  "total_classified": 23,
+  "acled_count": 4,
+  "non_acled_count": 19,
+  "pct_acled": 0.17391304347826086,
+  "details": [
+    {
+      "evidence": "In April 2023, Ethiopia’s federal government ordered regional special forces, including Amhara’s, to integrate into the national army or police, triggering widespread protests in Amhara.",
+      "is_acled_data": false,
+      "reasoning": "The evidence describes a government policy decision (order to integrate regional special forces) and resulting protests. While ACLED may record protests as events, the statement is a policy declaration and general description rather than citing specific ACLED event data, counts, or actor-level entries. It is not explicitly tied to ACLED data.",
+      "source_context": "Background and Causes (April–July 2023)"
+    },
+    {
+      "evidence": "Amhara nationalists and the Fano militia viewed the disarmament/integration order as a threat to Amhara’s security and autonomy.",
+      "is_acled_data": false,
+      "reasoning": "This is a qualitative assertion about perceptions and motivations of Amhara nationalists and Fano regarding a disarmament order. It is political analysis/commentary, not specific ACLED event data, counts, fatalities, locations, or actor/event records attributed to ACLED.",
+      "source_context": "Background and Causes (April–July 2023)"
+    },
+    {
+      "evidence": "Tensions in Amhara were already heightened after the Tigray war, with many Amhara feeling excluded from the November 2022 peace deal and anxious about disputed territories seized during the war.",
+      "is_acled_data": false,
+      "reasoning": "The statement is general political context and sentiment about perceptions after the Tigray war and the peace deal; it is not tied to specific ACLED event data, counts, fatalities, or actor-level events.",
+      "source_context": "Background and Causes (April–July 2023)"
+    },
+    {
+      "evidence": "The April 2023 protests and clashes marked the beginning of an open Fano insurgency against the federal government in Amhara.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytic claim about the onset of an insurgency, not a citation of specific ACLED event counts, actor/event data, or trends. It lacks explicit ACLED attribution and does not reference concrete ACLED-coded events or statistics.",
+      "source_context": "Background and Causes (April–July 2023)"
+    },
+    {
+      "evidence": "By late July–early August 2023, the Fano insurgency escalated into full-scale battles with the Ethiopian National Defense Force (ENDF), with rebels advancing in several towns.",
+      "is_acled_data": true,
+      "reasoning": "The statement describes a temporal escalation into battles between Fano and the ENDF in late July–early August 2023 and mentions advances in several towns. This aligns with ACLED’s battle-related event data, temporal patterns, and actor-level activity. It references specific conflict dynamics over a defined period, which ACLED commonly reports and analyzes.",
+      "source_context": "Escalation of Conflict (August 2023)"
+    },
+    {
+      "evidence": "The federal government declared a six-month state of emergency on August 4, 2023, and deployed the army under a special command post to regain control in Amhara.",
+      "is_acled_data": false,
+      "reasoning": "This is a policy/government declaration about a state of emergency and troop deployment, which falls under policy statements rather than ACLED event data. It is not a conflict event count, actor/event description, or statistic explicitly tied to ACLED.",
+      "source_context": "Escalation of Conflict (August 2023)"
+    },
+    {
+      "evidence": "Officials later claimed major cities in Amhara were retaken from militias after days of heavy combat.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general claim by officials about retaking cities after heavy combat, without referencing specific ACLED event data, counts, locations, or attribution to ACLED. It reads as a government declaration or media report, not ACLED-derived data.",
+      "source_context": "Escalation of Conflict (August 2023)"
+    },
+    {
+      "evidence": "Although no official casualty figures were released for August 2023 clashes, hospital reports indicated many civilian deaths and injuries.",
+      "is_acled_data": false,
+      "reasoning": "Reference to hospital reports of civilian deaths/injuries without citing ACLED; it’s a general casualty claim from medical sources, not ACLED event/fatality data.",
+      "source_context": "Escalation of Conflict (August 2023)"
+    },
+    {
+      "evidence": "The unrest in Amhara became Ethiopia’s most serious security crisis since the end of the Tigray conflict.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a broad qualitative assessment about the relative severity of the Amhara unrest compared to the Tigray conflict, not a citation of specific ACLED event counts, fatalities, temporal trends, or actor data. It reads as general analysis rather than a metric or figure derived from ACLED.",
+      "source_context": "Escalation of Conflict (August 2023)"
+    },
+    {
+      "evidence": "Due to persistent violence, the state of emergency was extended for four additional months in early 2024.",
+      "is_acled_data": false,
+      "reasoning": "An extension of a state of emergency is a government policy decision, not event-level conflict data. This is a policy statement/declaration and not something ACLED specifically provides as data.",
+      "source_context": "Escalation of Conflict (August 2023)"
+    },
+    {
+      "evidence": "Between April 2023 and December 2024, ACLED recorded over 2,200 violent incidents in Amhara, causing more than 6,000 fatalities.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific counts of violent incidents and fatalities over a defined period in Amhara and explicitly attributes them to ACLED, aligning with ACLED’s event and fatality data outputs.",
+      "source_context": "Ongoing Violence and Human Impact (2023–2024)"
+    },
+    {
+      "evidence": "Most incidents involved battles between Fano insurgents and Ethiopian security forces, with hundreds of events targeting unarmed civilians.",
+      "is_acled_data": true,
+      "reasoning": "Mentions incident/event types (battles between Fano and security forces) and counts of events targeting civilians, which aligns with ACLED’s event and violence-against-civilians data and actor-level battle data.",
+      "source_context": "Ongoing Violence and Human Impact (2023–2024)"
+    },
+    {
+      "evidence": "Human Rights Watch reported that Ethiopian soldiers summarily executed dozens of civilians in Merawi in January 2024 following a Fano attack.",
+      "is_acled_data": false,
+      "reasoning": "The evidence cites Human Rights Watch as the source for summary executions in Merawi. This is a human rights report, not ACLED event data or analysis explicitly attributed to ACLED.",
+      "source_context": "Ongoing Violence and Human Impact (2023–2024)"
+    },
+    {
+      "evidence": "Local estimates suggested upwards of 80 civilians were killed in the Merawi massacre, while the national human rights commission confirmed at least 45 deaths.",
+      "is_acled_data": false,
+      "reasoning": "The evidence cites local estimates and a national human rights commission confirmation of deaths in a specific massacre. It does not reference ACLED event records or attribution. Such casualty figures from local/NHRC sources are not inherently ACLED data unless explicitly tied to ACLED reporting.",
+      "source_context": "Ongoing Violence and Human Impact (2023–2024)"
+    },
+    {
+      "evidence": "Human rights groups documented numerous abuses by federal troops operating with impunity in Amhara since the conflict began.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general claim from human rights groups about abuses and impunity; it is not tied to specific ACLED event data, counts, locations, or actor-level records, nor is it attributed to ACLED.",
+      "source_context": "Ongoing Violence and Human Impact (2023–2024)"
+    },
+    {
+      "evidence": "The insurgency and counterinsurgency have devastated villages, displaced residents, and fueled a regional humanitarian crisis.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a broad humanitarian impact claim about devastation and displacement, not tied to specific ACLED event counts, fatalities, locations, or actor-level data. It resembles general analysis/humanitarian commentary rather than ACLED-derived metrics.",
+      "source_context": "Ongoing Violence and Human Impact (2023–2024)"
+    },
+    {
+      "evidence": "As of end-2024, the Fano insurgency remains active; the army holds main cities, but clashes continue in rural areas.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a high-level qualitative assessment about insurgency status and control of cities vs rural clashes. It does not reference specific ACLED event counts, locations, fatalities, or actor-level data, nor is it attributed to ACLED. It reads as general analysis rather than data derived from ACLED.",
+      "source_context": "Current Status and Outlook"
+    },
+    {
+      "evidence": "Violence intensity has fluctuated with surges, including a peak in mid-2024, and no definitive resolution has emerged.",
+      "is_acled_data": true,
+      "reasoning": "The statement references temporal patterns and fluctuations in violence intensity, including a peak in mid-2024, which aligns with ACLED’s event-based trend analysis and time-series summaries derived from counts of conflict events and related metrics.",
+      "source_context": "Current Status and Outlook"
+    },
+    {
+      "evidence": "No comprehensive peace agreement or political settlement exists with Fano, and the militia’s decentralized structure hinders negotiations.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a qualitative political assessment about the absence of a peace agreement and organizational structure of Fano affecting negotiations. It is not based on specific ACLED event data or metrics (counts, locations, fatalities, event types).",
+      "source_context": "Current Status and Outlook"
+    },
+    {
+      "evidence": "Amhara civilians continue to bear the brunt of violence and lawlessness amid the ongoing conflict.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general qualitative claim about civilians bearing the brunt of violence without citing specific ACLED event data, statistics, locations, or trends. It reads as broad analysis/commentary rather than information derived from ACLED’s event-based metrics.",
+      "source_context": "Current Status and Outlook"
+    },
+    {
+      "evidence": "Ethiopian authorities face the dual challenge of quelling the insurgency and addressing Amhara grievances without further alienation.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical observation about government challenges and grievances, not tied to specific conflict events, counts, actors, or trends from ACLED. It reflects commentary rather than ACLED-derived data.",
+      "source_context": "Current Status and Outlook"
+    },
+    {
+      "evidence": "International monitors have called for investigations and accountability for atrocities by all sides, but progress has been limited.",
+      "is_acled_data": false,
+      "reasoning": "This is a general statement about international calls for investigations and accountability, reflecting policy/advocacy positions and progress, not specific conflict event data, counts, or actor-level details from ACLED.",
+      "source_context": "Current Status and Outlook"
+    },
+    {
+      "evidence": "Since April 2023, Amhara has experienced sustained political violence that has killed thousands and become one of Ethiopia’s gravest recent conflicts.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a broad qualitative claim about sustained violence and deaths without citing specific ACLED event counts, fatalities, actors, or temporal/geographic breakdowns. It reads as general analysis and could come from media or other sources; no explicit tie to ACLED data is present.",
+      "source_context": "Current Status and Outlook"
+    }
+  ],
+  "insights": [
+    {
+      "insight": "In April 2023, Ethiopia’s federal government ordered regional special forces, including Amhara’s, to integrate into the national army or police, triggering widespread protests in Amhara.",
+      "context": "Background and Causes (April–July 2023)"
+    },
+    {
+      "insight": "Amhara nationalists and the Fano militia viewed the disarmament/integration order as a threat to Amhara’s security and autonomy.",
+      "context": "Background and Causes (April–July 2023)"
+    },
+    {
+      "insight": "Tensions in Amhara were already heightened after the Tigray war, with many Amhara feeling excluded from the November 2022 peace deal and anxious about disputed territories seized during the war.",
+      "context": "Background and Causes (April–July 2023)"
+    },
+    {
+      "insight": "The April 2023 protests and clashes marked the beginning of an open Fano insurgency against the federal government in Amhara.",
+      "context": "Background and Causes (April–July 2023)"
+    },
+    {
+      "insight": "By late July–early August 2023, the Fano insurgency escalated into full-scale battles with the Ethiopian National Defense Force (ENDF), with rebels advancing in several towns.",
+      "context": "Escalation of Conflict (August 2023)"
+    },
+    {
+      "insight": "The federal government declared a six-month state of emergency on August 4, 2023, and deployed the army under a special command post to regain control in Amhara.",
+      "context": "Escalation of Conflict (August 2023)"
+    },
+    {
+      "insight": "Officials later claimed major cities in Amhara were retaken from militias after days of heavy combat.",
+      "context": "Escalation of Conflict (August 2023)"
+    },
+    {
+      "insight": "Although no official casualty figures were released for August 2023 clashes, hospital reports indicated many civilian deaths and injuries.",
+      "context": "Escalation of Conflict (August 2023)"
+    },
+    {
+      "insight": "The unrest in Amhara became Ethiopia’s most serious security crisis since the end of the Tigray conflict.",
+      "context": "Escalation of Conflict (August 2023)"
+    },
+    {
+      "insight": "Due to persistent violence, the state of emergency was extended for four additional months in early 2024.",
+      "context": "Escalation of Conflict (August 2023)"
+    },
+    {
+      "insight": "Between April 2023 and December 2024, ACLED recorded over 2,200 violent incidents in Amhara, causing more than 6,000 fatalities.",
+      "context": "Ongoing Violence and Human Impact (2023–2024)"
+    },
+    {
+      "insight": "Most incidents involved battles between Fano insurgents and Ethiopian security forces, with hundreds of events targeting unarmed civilians.",
+      "context": "Ongoing Violence and Human Impact (2023–2024)"
+    },
+    {
+      "insight": "Human Rights Watch reported that Ethiopian soldiers summarily executed dozens of civilians in Merawi in January 2024 following a Fano attack.",
+      "context": "Ongoing Violence and Human Impact (2023–2024)"
+    },
+    {
+      "insight": "Local estimates suggested upwards of 80 civilians were killed in the Merawi massacre, while the national human rights commission confirmed at least 45 deaths.",
+      "context": "Ongoing Violence and Human Impact (2023–2024)"
+    },
+    {
+      "insight": "Human rights groups documented numerous abuses by federal troops operating with impunity in Amhara since the conflict began.",
+      "context": "Ongoing Violence and Human Impact (2023–2024)"
+    },
+    {
+      "insight": "The insurgency and counterinsurgency have devastated villages, displaced residents, and fueled a regional humanitarian crisis.",
+      "context": "Ongoing Violence and Human Impact (2023–2024)"
+    },
+    {
+      "insight": "As of end-2024, the Fano insurgency remains active; the army holds main cities, but clashes continue in rural areas.",
+      "context": "Current Status and Outlook"
+    },
+    {
+      "insight": "Violence intensity has fluctuated with surges, including a peak in mid-2024, and no definitive resolution has emerged.",
+      "context": "Current Status and Outlook"
+    },
+    {
+      "insight": "No comprehensive peace agreement or political settlement exists with Fano, and the militia’s decentralized structure hinders negotiations.",
+      "context": "Current Status and Outlook"
+    },
+    {
+      "insight": "Amhara civilians continue to bear the brunt of violence and lawlessness amid the ongoing conflict.",
+      "context": "Current Status and Outlook"
+    },
+    {
+      "insight": "Ethiopian authorities face the dual challenge of quelling the insurgency and addressing Amhara grievances without further alienation.",
+      "context": "Current Status and Outlook"
+    },
+    {
+      "insight": "International monitors have called for investigations and accountability for atrocities by all sides, but progress has been limited.",
+      "context": "Current Status and Outlook"
+    },
+    {
+      "insight": "Since April 2023, Amhara has experienced sustained political violence that has killed thousands and become one of Ethiopia’s gravest recent conflicts.",
+      "context": "Current Status and Outlook"
+    }
+  ],
+  "prompt": "Status of political violence in Amhara since Fano insurgency began in April 2023."
+}

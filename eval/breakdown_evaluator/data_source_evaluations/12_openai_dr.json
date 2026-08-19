@@ -1,0 +1,222 @@
+{
+  "total_insights": 21,
+  "total_classified": 21,
+  "acled_count": 9,
+  "non_acled_count": 12,
+  "pct_acled": 0.42857142857142855,
+  "details": [
+    {
+      "evidence": "Communal militia violence persisted in Kenya in November 2024, particularly in pastoral northern regions where ethnic militias and bandit groups operate.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general qualitative claim about ongoing communal militia violence in northern Kenya in November 2024 without citing specific event counts, locations, actors, or fatalities. It resembles broad analysis rather than explicit reference to ACLED event data or metrics.",
+      "source_context": "Opening summary of communal militia threats in pastoral regions."
+    },
+    {
+      "evidence": "On November 2, 2024, suspected Turkana ethnic militia raided near Baragoi, Samburu County, killing a herder and stealing about 100 goats.",
+      "is_acled_data": true,
+      "reasoning": "The evidence describes a specific conflict event with date, location (Baragoi, Samburu County), actors (suspected Turkana ethnic militia), event type (raid/violence against civilians and livestock theft), and casualties (one herder killed) — all elements typical of ACLED event data and descriptions.",
+      "source_context": "Specific incident in Samburu County cited with ACLED reference."
+    },
+    {
+      "evidence": "Raids like the Baragoi incident are linked to ongoing cattle rustling and inter-ethnic conflicts in northern Kenya.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general claim linking raids (e.g., Baragoi) to cattle rustling and inter-ethnic conflicts without citing specific events, counts, fatalities, actor data, or attribution to ACLED. It reads as general analysis rather than ACLED-derived event data.",
+      "source_context": "Explanation of the context around communal raids."
+    },
+    {
+      "evidence": "Later in November, armed bandits attacked a village along the West Pokot–Turkana border, triggering clashes that left six people dead and 16 injured.",
+      "is_acled_data": true,
+      "reasoning": "The evidence describes a specific violent conflict event with location (West Pokot–Turkana border), timing (later in November), actors (armed bandits), event type (armed attack triggering clashes), and casualties (six dead, 16 injured). Such granular event descriptions and casualty figures align with ACLED’s event-level data and reporting.",
+      "source_context": "West Pokot–Turkana border attack reported by KBC."
+    },
+    {
+      "evidence": "Identity-based militias and bandit gangs remained a serious security threat in northern Kenya, causing lethal violence, displacement, and cycles of retaliation.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical assertion about security threats and impacts without citing specific ACLED event counts, locations, dates, fatalities, or actor-level data. It reads as broad commentary rather than being tied to explicit ACLED-derived metrics or trends.",
+      "source_context": "Synthesis statement on impacts of militia violence."
+    },
+    {
+      "evidence": "Kenyan authorities maintained multi-agency security operations in affected areas, but tensions and reprisals persisted.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general description of security operations and tensions, not specific event counts, locations, actors, or fatalities tied to ACLED event data, nor is it attributed to ACLED. It reads as general analysis rather than ACLED-derived metrics or event descriptions.",
+      "source_context": "Note on government response and continued instability."
+    },
+    {
+      "evidence": "Peace efforts occurred in early November, including meetings between rival pastoralist leaders such as Pokot and Tugen in Baringo County, agreeing to coexist peacefully.",
+      "is_acled_data": false,
+      "reasoning": "The evidence describes peace meetings between pastoralist leaders and an agreement to coexist, which is a policy/peace initiative narrative rather than specific conflict events, counts, fatalities, or actor-level incident data typically captured by ACLED. It is not explicitly tied to ACLED event records or attributed to ACLED.",
+      "source_context": "Peace initiative example mentioned with ACLED reference."
+    },
+    {
+      "evidence": "Despite peace efforts, communal militias continued sporadic attacks and violent cattle raids throughout November 2024.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a broad qualitative claim about continued sporadic attacks and cattle raids in November 2024 without citing specific events, counts, locations, actors, or attribution to ACLED. It reads as general commentary rather than being grounded in ACLED event data or metrics.",
+      "source_context": "Concluding assessment of communal militia threat trend."
+    },
+    {
+      "evidence": "Al-Shabaab remained a major threat in November 2024, focusing on Kenya’s northeastern border regions and coastal areas.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical claim about Al-Shabaab’s threat and areas of focus without citing specific events, counts, fatalities, or ACLED-attributed data. It lacks concrete ACLED event metrics or explicit attribution to ACLED, so it is not identifiable as derived from ACLED data.",
+      "source_context": "Opening summary of al-Shabaab threats."
+    },
+    {
+      "evidence": "On November 2, an IED attributed to al-Shabaab targeted a Kenyan police convoy between Mandera and Arabia, injuring five officers and damaging a vehicle.",
+      "is_acled_data": true,
+      "reasoning": "The evidence describes a specific conflict event with date, location, actor (al-Shabaab), event type (IED/explosion targeting security forces), and casualty details—typical of ACLED event records and summaries derived from ACLED’s explosions/remote violence data for Kenya in November 2024.",
+      "source_context": "Mandera IED attack details with ACLED reference."
+    },
+    {
+      "evidence": "Al-Shabaab claimed fatalities in the November 2 convoy attack, but Kenyan officials did not confirm any deaths.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references a specific conflict event (a November 2 convoy attack), claimed fatalities by an armed group, and lack of official confirmation—details that align with ACLED event descriptions and fatality reporting for armed group activity and incident records in November 2024 Kenya.",
+      "source_context": "Claim vs. official confirmation discrepancy for Mandera incident."
+    },
+    {
+      "evidence": "On November 5, Kenya’s Special Operations Group raided two al-Shabaab camps in Hulugho, Garissa County, after intelligence on bomb-making.",
+      "is_acled_data": true,
+      "reasoning": "The evidence describes a specific conflict event with date, actors (Kenya’s Special Operations Group and al-Shabaab), location (Hulugho, Garissa County), and action (raids on camps after intelligence on bomb-making), which matches the type of event-level data ACLED collects and reports.",
+      "source_context": "Police raid on suspected al-Shabaab camps described with ACLED reference."
+    },
+    {
+      "evidence": "During the Hulugho raids, militants escaped, but police recovered communications gear, rocket launcher ammunition, and IED materials, indicating IED manufacturing on Kenyan soil near the border.",
+      "is_acled_data": false,
+      "reasoning": "The evidence references specific details of a raid (recovered gear, ammunition, IED materials) and an inference about IED manufacturing, but it does not cite ACLED, provide event/fatality counts, coded event types, or other ACLED-specific metrics. It appears to be a narrative/journalistic incident detail rather than data explicitly derived from ACLED.",
+      "source_context": "Findings from the Hulugho raids and their implications."
+    },
+    {
+      "evidence": "On November 10, al-Shabaab attacked a security camp in Fafi, Garissa County, engaging police reservists and army personnel; the group claimed responsibility, with no detailed casualty report available.",
+      "is_acled_data": true,
+      "reasoning": "The evidence describes a specific conflict event with date, location (Fafi, Garissa County), actors (al-Shabaab, police reservists, army), claim of responsibility, and lack of casualty details—elements typical of ACLED event records and summaries derived from ACLED incident data.",
+      "source_context": "Fafi attack summary with ACLED reference."
+    },
+    {
+      "evidence": "On November 14, al-Shabaab attacked a security post in Lafey, Mandera County, as part of its campaign against Kenyan forces; responsibility was claimed by the group.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references a specific conflict event with date, location (Lafey, Mandera County), actor (al-Shabaab), target (security post), and claim of responsibility—details characteristic of ACLED event data and armed group activity reporting.",
+      "source_context": "Lafey attack summary with ACLED reference."
+    },
+    {
+      "evidence": "Also on November 14, an ambulance in Mandera South struck an IED near Iresuki village, injuring the driver; authorities suspect al-Shabaab involvement.",
+      "is_acled_data": true,
+      "reasoning": "The evidence describes a specific conflict event (IED explosion injuring an ambulance driver in Mandera South on Nov 14 with suspected al-Shabaab involvement), including date, location, incident type, and actors—details characteristic of ACLED event data.",
+      "source_context": "Ambulance IED incident reported by The Kenya Times."
+    },
+    {
+      "evidence": "Al-Shabaab’s activity in November 2024 targeted both security personnel and civilians, demonstrating continued lethality in Kenya.",
+      "is_acled_data": true,
+      "reasoning": "The statement references specific actor activity and targeting patterns in a defined time period (November 2024) in Kenya, which aligns with ACLED’s actor-level event data and temporal trend analysis on violence against civilians and security forces. While no figures are given, the claim about Al-Shabaab’s targeting and lethality is the type of insight typically derived from ACLED event records and trend summaries.",
+      "source_context": "Synthesis of multiple incidents showing target sets."
+    },
+    {
+      "evidence": "Kenyan officials warned that al-Shabaab seeks to exploit porous borders and the military drawdown in Somalia to infiltrate fighters into Kenya.",
+      "is_acled_data": false,
+      "reasoning": "This is a policy/official warning and strategic commentary about al-Shabaab exploiting porous borders and the Somalia drawdown, not a specific conflict event, statistic, or actor-level dataset tied to ACLED. It lacks event counts, fatalities, locations, or explicit ACLED attribution.",
+      "source_context": "Official warnings about infiltration dynamics."
+    },
+    {
+      "evidence": "The November 2024 al-Shabaab threat profile featured IED attacks and armed ambushes in the northeast, prompting heightened vigilance and ongoing counterterror operations in border counties.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general threat profile summarizing tactics (IEDs, ambushes) and a geographic focus (northeast, border counties) without citing specific events, counts, dates, fatalities, or explicit ACLED attribution. It reads as analytical commentary rather than direct use of ACLED event data.",
+      "source_context": "Overall assessment of tactics and government response."
+    },
+    {
+      "evidence": "Kenyan authorities continued counterterror operations in known militant hideouts, including the Boni Forest area on the coast.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general description of counterterror operations in a known area (Boni Forest) without citing specific events, dates, counts, locations, or attribution to ACLED. It reads as general analysis/commentary rather than ACLED-derived event data.",
+      "source_context": "Mention of continued operations in Boni Forest."
+    },
+    {
+      "evidence": "The dual challenges of local communal violence and jihadi terrorism defined Kenya’s security environment in November 2024.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a broad analytical summary about Kenya’s security environment and does not reference specific ACLED event data, counts, fatalities, locations, or trends. It reads as general commentary rather than data derived from ACLED.",
+      "source_context": "Final synthesis highlighting concurrent threats."
+    }
+  ],
+  "insights": [
+    {
+      "insight": "Communal militia violence persisted in Kenya in November 2024, particularly in pastoral northern regions where ethnic militias and bandit groups operate.",
+      "context": "Opening summary of communal militia threats in pastoral regions."
+    },
+    {
+      "insight": "On November 2, 2024, suspected Turkana ethnic militia raided near Baragoi, Samburu County, killing a herder and stealing about 100 goats.",
+      "context": "Specific incident in Samburu County cited with ACLED reference."
+    },
+    {
+      "insight": "Raids like the Baragoi incident are linked to ongoing cattle rustling and inter-ethnic conflicts in northern Kenya.",
+      "context": "Explanation of the context around communal raids."
+    },
+    {
+      "insight": "Later in November, armed bandits attacked a village along the West Pokot–Turkana border, triggering clashes that left six people dead and 16 injured.",
+      "context": "West Pokot–Turkana border attack reported by KBC."
+    },
+    {
+      "insight": "Identity-based militias and bandit gangs remained a serious security threat in northern Kenya, causing lethal violence, displacement, and cycles of retaliation.",
+      "context": "Synthesis statement on impacts of militia violence."
+    },
+    {
+      "insight": "Kenyan authorities maintained multi-agency security operations in affected areas, but tensions and reprisals persisted.",
+      "context": "Note on government response and continued instability."
+    },
+    {
+      "insight": "Peace efforts occurred in early November, including meetings between rival pastoralist leaders such as Pokot and Tugen in Baringo County, agreeing to coexist peacefully.",
+      "context": "Peace initiative example mentioned with ACLED reference."
+    },
+    {
+      "insight": "Despite peace efforts, communal militias continued sporadic attacks and violent cattle raids throughout November 2024.",
+      "context": "Concluding assessment of communal militia threat trend."
+    },
+    {
+      "insight": "Al-Shabaab remained a major threat in November 2024, focusing on Kenya’s northeastern border regions and coastal areas.",
+      "context": "Opening summary of al-Shabaab threats."
+    },
+    {
+      "insight": "On November 2, an IED attributed to al-Shabaab targeted a Kenyan police convoy between Mandera and Arabia, injuring five officers and damaging a vehicle.",
+      "context": "Mandera IED attack details with ACLED reference."
+    },
+    {
+      "insight": "Al-Shabaab claimed fatalities in the November 2 convoy attack, but Kenyan officials did not confirm any deaths.",
+      "context": "Claim vs. official confirmation discrepancy for Mandera incident."
+    },
+    {
+      "insight": "On November 5, Kenya’s Special Operations Group raided two al-Shabaab camps in Hulugho, Garissa County, after intelligence on bomb-making.",
+      "context": "Police raid on suspected al-Shabaab camps described with ACLED reference."
+    },
+    {
+      "insight": "During the Hulugho raids, militants escaped, but police recovered communications gear, rocket launcher ammunition, and IED materials, indicating IED manufacturing on Kenyan soil near the border.",
+      "context": "Findings from the Hulugho raids and their implications."
+    },
+    {
+      "insight": "On November 10, al-Shabaab attacked a security camp in Fafi, Garissa County, engaging police reservists and army personnel; the group claimed responsibility, with no detailed casualty report available.",
+      "context": "Fafi attack summary with ACLED reference."
+    },
+    {
+      "insight": "On November 14, al-Shabaab attacked a security post in Lafey, Mandera County, as part of its campaign against Kenyan forces; responsibility was claimed by the group.",
+      "context": "Lafey attack summary with ACLED reference."
+    },
+    {
+      "insight": "Also on November 14, an ambulance in Mandera South struck an IED near Iresuki village, injuring the driver; authorities suspect al-Shabaab involvement.",
+      "context": "Ambulance IED incident reported by The Kenya Times."
+    },
+    {
+      "insight": "Al-Shabaab’s activity in November 2024 targeted both security personnel and civilians, demonstrating continued lethality in Kenya.",
+      "context": "Synthesis of multiple incidents showing target sets."
+    },
+    {
+      "insight": "Kenyan officials warned that al-Shabaab seeks to exploit porous borders and the military drawdown in Somalia to infiltrate fighters into Kenya.",
+      "context": "Official warnings about infiltration dynamics."
+    },
+    {
+      "insight": "The November 2024 al-Shabaab threat profile featured IED attacks and armed ambushes in the northeast, prompting heightened vigilance and ongoing counterterror operations in border counties.",
+      "context": "Overall assessment of tactics and government response."
+    },
+    {
+      "insight": "Kenyan authorities continued counterterror operations in known militant hideouts, including the Boni Forest area on the coast.",
+      "context": "Mention of continued operations in Boni Forest."
+    },
+    {
+      "insight": "The dual challenges of local communal violence and jihadi terrorism defined Kenya’s security environment in November 2024.",
+      "context": "Final synthesis highlighting concurrent threats."
+    }
+  ],
+  "prompt": "What are the threats in Kenya with respect to communal militias and al-Shabaab. Focus on November 2024."
+}

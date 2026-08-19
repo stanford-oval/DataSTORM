@@ -1,0 +1,84 @@
+{
+  "criteria": [
+    {
+      "name": "Retaliation To Surveillance",
+      "description": "Assess how militant targeting of civilians intensifies in response to government surveillance measures, particularly mandates perceived to threaten insurgent freedom of movement and financing."
+    },
+    {
+      "name": "Targeting Business Centers",
+      "description": "Examine patterns of attacks on commercial hubs and business owners, especially those complying with security directives, and the resulting climate of fear and economic disruption."
+    },
+    {
+      "name": "Coercion And Compliance Dilemma",
+      "description": "Analyze how militants pressure civilians to defy state directives while authorities demand compliance, creating a risk calculus that influences business operations and public behavior."
+    },
+    {
+      "name": "Urban Focus In Capital",
+      "description": "Identify concentration of civilian targeting in major urban areas and neighborhoods, and how urban security initiatives shape attack locations and methods."
+    },
+    {
+      "name": "Methods Of Intimidation",
+      "description": "Track the predominant tactics used against civilians—such as shootings, IEDs, and threats—and any shifts in modus operandi linked to policy changes or counter-insurgency pressure."
+    },
+    {
+      "name": "Extortion And Financing Pressure",
+      "description": "Evaluate how attacks relate to preserving revenue streams from informal taxation, with violence used to enforce payment and deter measures that could expose collectors."
+    },
+    {
+      "name": "Counter-Insurgency Pressure Effects",
+      "description": "Assess whether targeted operations against militant leadership correlate with short-term spikes or shifts in retaliatory violence against civilians."
+    },
+    {
+      "name": "Business Closures And Economic Impact",
+      "description": "Measure how fear of retaliation and compliance uncertainty lead to market closures, reduced operating hours, and broader economic slowdowns."
+    },
+    {
+      "name": "Selective Compliance Patterns",
+      "description": "Explore uneven adoption of surveillance mandates across districts and how differential compliance correlates with localized targeting risks."
+    },
+    {
+      "name": "Regional Variation In Violence",
+      "description": "Compare intensity and forms of civilian targeting across regions, noting where militant focus shifts in response to security operations and political dynamics."
+    },
+    {
+      "name": "Security Forces And ATMIS Engagements",
+      "description": "Contextualize civilian targeting within broader battle patterns between militants and security actors, noting spillover risks to bystanders."
+    },
+    {
+      "name": "Information Control And Surveillance Sabotage",
+      "description": "Assess attempts to destroy or circumvent surveillance infrastructure and intimidate those facilitating data collection."
+    },
+    {
+      "name": "Political Tensions And Security Fallout",
+      "description": "Analyze how federal–regional disputes and leadership changes affect security coordination, potentially creating openings for militant attacks on civilians."
+    },
+    {
+      "name": "Temporal Escalation Patterns",
+      "description": "Identify periods of increased civilian targeting following specific government actions, security operations, or political milestones."
+    },
+    {
+      "name": "Civic Life Disruption",
+      "description": "Evaluate broader social impacts, including restrictions on movement, altered daily routines, and erosion of trust in state protection."
+    },
+    {
+      "name": "Messaging And Psychological Warfare",
+      "description": "Examine how militants use attacks to signal power, deter cooperation with authorities, and shape public narratives against surveillance."
+    },
+    {
+      "name": "Risk Mitigation Responses",
+      "description": "Document adaptations by civilians and businesses—such as security measures, relocation, or non-compliance—to reduce exposure to targeting."
+    },
+    {
+      "name": "Urban-Rural Spillover Dynamics",
+      "description": "Consider whether tactics used in the capital diffuse to other localities or remain concentrated based on surveillance and enforcement reach."
+    },
+    {
+      "name": "Event Type Shifts",
+      "description": "Track changes in the balance between battles and remote/explosive violence and how these shifts influence civilian harm."
+    },
+    {
+      "name": "Humanitarian And Protection Needs",
+      "description": "Assess emerging needs for protection, psychosocial support, and assistance for affected communities due to targeted intimidation and violence."
+    }
+  ]
+}

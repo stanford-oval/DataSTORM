@@ -1,0 +1,188 @@
+{
+  "prompt": "Analyze Petro’s total peace policy in Colombia and its impact on violence v. armed groups.",
+  "criteria": [
+    {
+      "name": "State–group violence trend",
+      "description": "Assess whether government engagement and ceasefires correlate with reductions in clashes between security forces and armed groups, noting that gains depend on oversight and continuity of agreements."
+    },
+    {
+      "name": "Ceasefire stability and oversight",
+      "description": "Evaluate the durability, monitoring mechanisms, and geographic scope of ceasefires, and how weak protocols or leadership splits lead to suspensions, violations, or uneven implementation."
+    },
+    {
+      "name": "Fragmentation within armed groups",
+      "description": "Analyze internal divisions, splintering, and competing factions, and how these dynamics shape negotiation outcomes, localized violence, and the feasibility of national-level deals."
+    },
+    {
+      "name": "Intergroup competition and alliances",
+      "description": "Track shifting rivalries and tactical alliances among armed groups across regions, highlighting opportunistic coalitions and localized turf wars that intensify when state pressure eases."
+    },
+    {
+      "name": "Territorial expansion patterns",
+      "description": "Examine trends in the number and distribution of affected municipalities, identifying how reduced state–group confrontation enables armed groups to expand footprints and contest new areas."
+    },
+    {
+      "name": "Illicit economies as drivers",
+      "description": "Assess how revenues from drugs, illegal mining, smuggling, extortion, and environmental crimes fuel expansion, finance operations, and heighten competition among groups."
+    },
+    {
+      "name": "Negotiating leverage and incentives",
+      "description": "Evaluate how groups use territorial control and revenue streams to bolster bargaining power, and how policy choices inadvertently strengthen their negotiation positions."
+    },
+    {
+      "name": "Civilian harm and protection",
+      "description": "Measure impacts on civilians from expanded presence and intergroup fighting, including displacement, coercion, and intimidation, and assess the adequacy of state protection measures."
+    },
+    {
+      "name": "State capacity and coordination",
+      "description": "Assess the government’s ability to manage multiple, heterogeneous negotiation tracks simultaneously, including legal frameworks, institutional bandwidth, and interagency coordination."
+    },
+    {
+      "name": "Security pressure versus talks balance",
+      "description": "Evaluate the balance between dialogue and sustained, targeted security operations to deter predation and protect civilians, noting risks of peace processes without credible enforcement."
+    },
+    {
+      "name": "Urban versus rural processes",
+      "description": "Analyze whether urban gang negotiations are sidelined relative to rural-focused talks, and how this imbalance affects city-level violence and criminal governance."
+    },
+    {
+      "name": "Cross-border and sanctuary dynamics",
+      "description": "Consider how neighboring-country politics and safe havens influence group strategies, ceasefire compliance, and negotiation leverage."
+    },
+    {
+      "name": "Election-cycle volatility",
+      "description": "Assess how political cycles and local power transitions spur short-term spikes in violence as groups seek to influence authorities and control territories."
+    },
+    {
+      "name": "Technological and tactical shifts",
+      "description": "Monitor changes in groups’ tactics and tools, such as improvised aerial systems or coercive curfews, and their effects on conflict intensity and state response."
+    },
+    {
+      "name": "Local versus national agreements",
+      "description": "Evaluate the effectiveness of localized, community-responsive accords with committed factions versus broad national deals, considering scalability and spillover risks."
+    },
+    {
+      "name": "Justice versus political recognition",
+      "description": "Analyze tensions between treating organized crime as justice-subject actors versus granting political status, and how this shapes incentives and peace architecture."
+    },
+    {
+      "name": "Implementation of prior accords",
+      "description": "Assess how continuity and credibility in implementing earlier peace commitments affect reintegration, recidivism, and the legitimacy of new negotiation efforts."
+    },
+    {
+      "name": "Revenue diversification and adaptation",
+      "description": "Track how groups diversify income sources and adapt to market shifts, and how these adaptations correlate with geographic moves and conflict hotspots."
+    },
+    {
+      "name": "Regional hotspots and corridors",
+      "description": "Identify persistent and emerging conflict corridors tied to production and trafficking routes, and how control contests there drive broader violence patterns."
+    },
+    {
+      "name": "Corruption and local governance capture",
+      "description": "Evaluate the role of bribery and collusion with local officials and security actors in enabling armed group freedom of movement and undermining enforcement."
+    }
+  ],
+  "criterion_scores": [
+    {
+      "name": "State–group violence trend",
+      "score": 0.9,
+      "explanation": "The article explicitly analyzes trends in clashes and fatalities across phases, noting reduced lethal peaks alongside continued clashes and regional variance. It links dialogue/ceasefires to dampened lethality and acknowledges dependence on verification and continuity. Minor gap: limited explicit quantitative breakdown of state–group clash counts beyond illustrative regions."
+    },
+    {
+      "name": "Ceasefire stability and oversight",
+      "score": 0.85,
+      "explanation": "It discusses formal ceasefire windows (especially ELN), monitoring effects on lethality, uneven compliance (AGC battling during ceasefire), and how weak enforcement yields loopholes and suspensions/violations. Geographic scope is implied through actor/region references but not systematically mapped; leadership splits are hinted for dissidents but not deeply tied to stability."
+    },
+    {
+      "name": "Fragmentation within armed groups",
+      "score": 0.8,
+      "explanation": "Addresses FARC dissident factions (EMC, Segunda Marquetalia), their differing behaviors, and how fragmentation affects lethality and negotiation outcomes. It notes tailored strategies per actor. Could delve more into intra-group splits, command-and-control breakdowns, and localized factionalism shaping talks."
+    },
+    {
+      "name": "Intergroup competition and alliances",
+      "score": 0.6,
+      "explanation": "Identifies shifting rivalries and overlapping presence (Antioquia pivot with all three groups; displacement and consolidation), but provides limited detail on explicit tactical alliances or opportunistic coalitions. Competition is discussed more than alliances; causal link to eased state pressure is implied rather than systematically evidenced."
+    },
+    {
+      "name": "Territorial expansion patterns",
+      "score": 0.85,
+      "explanation": "Strong geographic analysis: identifies departments with surges/declines, southwest consolidation by dissidents, border dynamics, and contested corridors. Notes expansion enabled by limited state governance accompanying talks. Could add explicit metrics on numbers of municipalities affected."
+    },
+    {
+      "name": "Illicit economies as drivers",
+      "score": 0.65,
+      "explanation": "Mentions ties to illicit economies and historical corridors, and that governance gaps where these economies thrive lead to risk displacement. However, it lacks detailed discussion of specific commodities (cocaine, mining, extortion) per group/region and quantified impacts."
+    },
+    {
+      "name": "Negotiating leverage and incentives",
+      "score": 0.75,
+      "explanation": "Explains how groups used continued operations and territorial repositioning to bolster bargaining power; shows ceasefire verification can alter incentives (ELN) and highlights AGC predation strengthening leverage absent enforcement. Could more explicitly connect revenue/territorial control to formal negotiation concessions."
+    },
+    {
+      "name": "Civilian harm and protection",
+      "score": 0.85,
+      "explanation": "Analyzes violence against civilians trends, hotspots (Cúcuta, Caucasia, Santander de Quilichao), median lethality near zero but frequent coercion, specific vulnerable groups, and calls for enhanced protection. Some data are descriptive; protection policy adequacy is discussed but not thoroughly evaluated."
+    },
+    {
+      "name": "State capacity and coordination",
+      "score": 0.6,
+      "explanation": "Touches on managing verification, multiple tracks, and implementation capacity via PDET/land reform bottlenecks and governance gaps. Limited direct assessment of institutional bandwidth, legal frameworks, or interagency coordination specifics across simultaneous negotiations."
+    },
+    {
+      "name": "Security pressure versus talks balance",
+      "score": 0.8,
+      "explanation": "Argues for calibrated coercive pressure alongside talks, notes risks of peace without enforcement, and provides actor-specific prescriptions (hard-edged verification; pressure vs AGC). Could include more concrete examples of targeted operations or measurable deterrent effects."
+    },
+    {
+      "name": "Urban versus rural processes",
+      "score": 0.55,
+      "explanation": "Mentions city hotspots like Cúcuta and urban criminal governance indicators (AGC in Caucasia), but does not explicitly assess whether urban gang negotiations were sidelined relative to rural talks. Urban dynamics are present but not contrasted as a policy imbalance."
+    },
+    {
+      "name": "Cross-border and sanctuary dynamics",
+      "score": 0.6,
+      "explanation": "References Arauca and border corridors with ELN persistence and adaptation; implies cross-border effects but does not analyze neighboring country politics or sanctuaries (e.g., Venezuela) in depth or their influence on compliance and leverage."
+    },
+    {
+      "name": "Election-cycle volatility",
+      "score": 0.3,
+      "explanation": "No explicit discussion of electoral cycles or local power transitions driving short-term violence spikes; temporal patterns are covered but not linked to elections."
+    },
+    {
+      "name": "Technological and tactical shifts",
+      "score": 0.5,
+      "explanation": "Covers shifts in tactic mix (battles vs VAC, intimidation, IEDs), and changes in lethality per event. Does not discuss technological changes (e.g., drones) or novel tactics like curfews in detail."
+    },
+    {
+      "name": "Local versus national agreements",
+      "score": 0.7,
+      "explanation": "Notes that localized cooperation with verification reduces violations, contrasts with broad uneven national de-escalation, and warns of spillover/redistribution of risk. Could include explicit case studies of local accords and scalability analysis."
+    },
+    {
+      "name": "Justice versus political recognition",
+      "score": 0.55,
+      "explanation": "Touches on tensions via references to treating actors with humanitarian diplomacy and 2016 oversight architecture, but lacks explicit analysis of justice vs political status tradeoffs and their incentive effects under Total Peace."
+    },
+    {
+      "name": "Implementation of prior accords",
+      "score": 0.7,
+      "explanation": "References the 2016 playbook, oversight bodies, reintegration-adjacent PDET and land reform, and how slow implementation harms legitimacy. Could more directly tie to recidivism metrics and specific unfulfilled commitments."
+    },
+    {
+      "name": "Revenue diversification and adaptation",
+      "score": 0.45,
+      "explanation": "Alludes to illicit economies as drivers and group adaptation but does not detail diversification across drugs/mining/extortion, nor link these to geographic moves with concrete examples."
+    },
+    {
+      "name": "Regional hotspots and corridors",
+      "score": 0.85,
+      "explanation": "Identifies persistent and emerging corridors (Cauca southwest, Arauca border, Antioquia pivot, Caribbean declines), and links them to broader patterns. Strong spatial narrative though more on trafficking route specifics would help."
+    },
+    {
+      "name": "Corruption and local governance capture",
+      "score": 0.5,
+      "explanation": "Mentions criminal capture of territory and governance gaps undermining enforcement, but does not analyze bribery/collusion mechanisms or specific cases of local official/security force complicity enabling group movement."
+    }
+  ],
+  "overall_score": 0.6674999999999999
+}

@@ -1,0 +1,85 @@
+{
+  "dataset_id": 50,
+  "dataset_path": "data/notebooks/flag-50.json",
+  "metadata": {
+    "category": "Incidents Management",
+    "dataset_description": "The dataset comprises 500 entries simulating ServiceNow incidents table, detailing various attributes such as category, state, open and close dates, involved personnel, and incident specifics like description, and priority. It captures incident management activities with fields like 'opened_at', 'closed_at', 'assigned_to', 'short_description', and 'priority', reflecting the operational handling and urgency of issues across different locations and categories.",
+    "goal": "Identify and analyze increasing trends in the number of incidents assigned to understand the implications of these trends on workload and agent efficiency.",
+    "header": "Incident Category Trends Over Time (Flag 50)",
+    "role": "Strategic Planning Manager"
+  },
+  "predicted_insights": [
+    "While the overall upward trend is not significant, incidents peaked at 52 in 2023-10 and fell to a low of 30 in 2023-12—a 73% swing—indicating potential seasonal workload spikes that could impact agent efficiency even without sustained growth.",
+    "Workloads per agent appear stable rather than growing: while monthly counts fluctuated within roughly 6–14 incidents (peak of 14 for Fred Luddy in 2023-09), these variations did not form a sustained upward assignment trend, suggesting no systematic increase in workload or erosion of efficiency over the period.",
+    "The trend magnitudes (≈600–891 hours added to the median each month) imply roughly 7,200–10,700 more median hours over the 12-month span, and by 2024-01 three agents’ monthly medians exceeded 5,500 hours—strong evidence of rapidly worsening time-to-resolution that can strain workload and erode agent efficiency.",
+    "Workload variability dominates over sustained growth: Inquiry / Help swung from 1 incident in 2023-02 to a peak of 14 in 2023-10, and Database peaked at 14 in 2023-09, indicating sporadic spikes that likely impact agent load more than any steady increase.",
+    "Although Howard Johnson had the biggest net gain, the strongest upward trend slope was Charlie Whitherspoon’s 0.1593, indicating a mid-period rise followed by a drop—demonstrating that net change and trend slope can diverge and affect assessments of workload momentum.",
+    "The top positive link between workload and resolution time is near zero (r ≈ 0.036), whereas three agents show notably negative correlations (e.g., Fred Luddy r ≈ -0.318), indicating that higher monthly workloads generally did not slow median resolution times in 2023 and may even coincide with improved efficiency for some agents.",
+    "The late-Q3 to early-Q4 period showed a concentrated workload surge, with +10 moderate-priority incidents in October and +9 high-priority incidents in September, indicating teams may need to plan for roughly 15–20 extra assignments across mid/high urgency within a two-month window to maintain efficiency.",
+    "Australia’s August peak of 14 assignments was the highest for that location in 2023, doubling July’s workload (+100% MoM) and sitting about 86.7% above its 2023 monthly median of 7.5—indicating a short, intense surge that likely required temporary capacity.",
+    "From mid-2023 onward, while volumes peaked (e.g., 52 incidents in 2023-10), average resolution time dropped dramatically (e.g., to about -2,840 hours in 2023-10), suggesting that increased workload did not slow— and may have coincided with faster—resolutions, though the negative times indicate potential timestamp issues that influence this trend.",
+    "The +6 jump in September preceded a peak of 52 incidents in October, followed by sharp drops of -14 in November and -8 in December, indicating a brief but intense workload surge that would require flexible staffing to maintain agent efficiency.",
+    "All five agents actually experienced decreases in median resolution time over the year, ranging from −4,226.83 to −10,231.44 hours—a spread of about 6,004.61 hours—indicating markedly faster median resolution by Jan-2024 across the board.",
+    "High‑severity mix shifted upward for most agents—Luke Wilson reached the highest 2024‑01 share at 80% and Charlie also rose sharply (+28.6 pp), while only Beth Anglin declined (−19.6 pp)—suggesting a broader rise in critical/high workload that may pressure handling capacity and efficiency."
+  ],
+  "predicted_summary": "Incident volumes remained broadly flat from 2023-01 to 2024-01: overall monthly counts showed no statistically significant upward trend (+0.22 incidents per month, p=0.679), no individual agent exhibited a significant rise (highest: +0.225/month for Charlie Whitherspoon, p=0.180), and no assignment group trended up (e.g., Hardware +0.17/month, p=0.42; Software −0.14/month, p=0.50). Short-term spikes did occur—most notably a +6 jump in total incidents in September 2023—but these did not translate into sustained growth.\nResolution times lengthened markedly across the board despite stable volumes: every agent showed a statistically significant upward trend in monthly median resolution time, increasing by roughly +600 to +891 hours per month (R² ≈ 0.66–0.81; all p < 0.001). Meanwhile, the relationship between monthly incident volume and average resolution time was weakly negative overall (Pearson r = −0.2765), and even the strongest within-agent association between assignments and resolution time was near zero (r ≈ 0.036 for Howard Johnson), indicating that longer resolution times are not explained by higher incident counts.\nThe workload mix and where/when it spikes are shifting in ways that can concentrate pressure: Howard Johnson saw the largest point-to-point increase in assignments (+4 incidents from Jan 2023 to Jan 2024), Fred Luddy’s share of high-severity work rose by 30.6 percentage points (from 44.4% to 75.0%), and there were sharp bursts by category and location—Priority “3 - Moderate” jumped by +10 in October 2023 and Australia rose by +7 in August 2023. These concentrated surges and a tilt toward higher-severity assignments for some agents align with the observed upward drift in resolution times.",
+  "score_insights": 0.6725365838653069,
+  "score_insights_dict": [
+    {
+      "gt_insight": "There is no clear trend in the volume of incidents opened over time. The volume of incidents opened fluctuates over time, with some weeks having higher volumes than others. Further analysis is required to identify any underlying patterns or causes for the fluctuations.",
+      "pred_insight": "Workloads per agent appear stable rather than growing: while monthly counts fluctuated within roughly 6–14 incidents (peak of 14 for Fred Luddy in 2023-09), these variations did not form a sustained upward assignment trend, suggesting no systematic increase in workload or erosion of efficiency over the period.",
+      "score": 0.7986129930737768
+    },
+    {
+      "gt_insight": "There is a no correlation between the volume of incidents and the TTR",
+      "pred_insight": "The top positive link between workload and resolution time is near zero (r ≈ 0.036), whereas three agents show notably negative correlations (e.g., Fred Luddy r ≈ -0.318), indicating that higher monthly workloads generally did not slow median resolution times in 2023 and may even coincide with improved efficiency for some agents.",
+      "score": 0.6242515464436235
+    },
+    {
+      "gt_insight": "The time to resolution of incidents is slightly decreasing over time",
+      "pred_insight": "All five agents actually experienced decreases in median resolution time over the year, ranging from −4,226.83 to −10,231.44 hours—a spread of about 6,004.61 hours—indicating markedly faster median resolution by Jan-2024 across the board.",
+      "score": 0.6113933125793551
+    },
+    {
+      "gt_insight": "There is no increase in the volume of incidents across all categories.",
+      "pred_insight": "Workloads per agent appear stable rather than growing: while monthly counts fluctuated within roughly 6–14 incidents (peak of 14 for Fred Luddy in 2023-09), these variations did not form a sustained upward assignment trend, suggesting no systematic increase in workload or erosion of efficiency over the period.",
+      "score": 0.8053092341912789
+    },
+    {
+      "gt_insight": "The productivity is uniform across all agents, and all of them manage to resolve incidents even though the volume increases over time",
+      "pred_insight": "The top positive link between workload and resolution time is near zero (r ≈ 0.036), whereas three agents show notably negative correlations (e.g., Fred Luddy r ≈ -0.318), indicating that higher monthly workloads generally did not slow median resolution times in 2023 and may even coincide with improved efficiency for some agents.",
+      "score": 0.5231158330385004
+    }
+  ],
+  "score_summary": 0.5102724707010126,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.6517141559749089,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "While the overall upward trend is not significant, incidents peaked at 52 in 2023-10 and fell to a low of 30 in 2023-12—a 73% swing—indicating potential seasonal workload spikes that could impact agent efficiency even without sustained growth.",
+      "gt_insight": "There is no clear trend in the volume of incidents opened over time. The volume of incidents opened fluctuates over time, with some weeks having higher volumes than others. Further analysis is required to identify any underlying patterns or causes for the fluctuations.",
+      "score": 0.605109359694023
+    },
+    {
+      "pred_insight": "The top positive link between workload and resolution time is near zero (r ≈ 0.036), whereas three agents show notably negative correlations (e.g., Fred Luddy r ≈ -0.318), indicating that higher monthly workloads generally did not slow median resolution times in 2023 and may even coincide with improved efficiency for some agents.",
+      "gt_insight": "There is a no correlation between the volume of incidents and the TTR",
+      "score": 0.6943371853797794
+    },
+    {
+      "pred_insight": "From mid-2023 onward, while volumes peaked (e.g., 52 incidents in 2023-10), average resolution time dropped dramatically (e.g., to about -2,840 hours in 2023-10), suggesting that increased workload did not slow— and may have coincided with faster—resolutions, though the negative times indicate potential timestamp issues that influence this trend.",
+      "gt_insight": "The time to resolution of incidents is slightly decreasing over time",
+      "score": 0.5672484345147437
+    },
+    {
+      "pred_insight": "Workloads per agent appear stable rather than growing: while monthly counts fluctuated within roughly 6–14 incidents (peak of 14 for Fred Luddy in 2023-09), these variations did not form a sustained upward assignment trend, suggesting no systematic increase in workload or erosion of efficiency over the period.",
+      "gt_insight": "There is no increase in the volume of incidents across all categories.",
+      "score": 0.8023968930524932
+    },
+    {
+      "pred_insight": "Workloads per agent appear stable rather than growing: while monthly counts fluctuated within roughly 6–14 incidents (peak of 14 for Fred Luddy in 2023-09), these variations did not form a sustained upward assignment trend, suggesting no systematic increase in workload or erosion of efficiency over the period.",
+      "gt_insight": "The productivity is uniform across all agents, and all of them manage to resolve incidents even though the volume increases over time",
+      "score": 0.5894789072335053
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.10451950534590555,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.48820819982929525
+}

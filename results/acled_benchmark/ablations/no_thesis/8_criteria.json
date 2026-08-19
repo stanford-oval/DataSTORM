@@ -1,0 +1,143 @@
+{
+  "prompt": "Give me a summary of artillery shelling and airstrikes political violence, and conflict situations during August - September 2024 in Sudan.",
+  "criteria": [
+    {
+      "name": "Shift to remote violence",
+      "description": "Assess the transition from direct battles to increased use of artillery, shelling, and airstrikes, and how this reflects strategic recalibration by warring parties."
+    },
+    {
+      "name": "Geographic concentration of attacks",
+      "description": "Identify which regions and urban areas are most affected by shelling and airstrikes and how the spatial pattern changes over time."
+    },
+    {
+      "name": "Stalemate-induced escalation",
+      "description": "Examine how military stalemates drive intensified indirect fire to pressure opponents and influence negotiations without major territorial changes."
+    },
+    {
+      "name": "Civilian impact and disruption",
+      "description": "Evaluate the effects of shelling and airstrikes on civilian life, including displacement, casualties, infrastructure damage, and restrictions on basic services."
+    },
+    {
+      "name": "Inter-factional tensions",
+      "description": "Analyze internal divisions within armed groups and how localized disputes or rival interests trigger clashes that affect broader conflict dynamics."
+    },
+    {
+      "name": "Multi-front pressures",
+      "description": "Assess how simultaneous fronts strain capacities, affecting parties’ ability to hold or expand territory and prompting reliance on long-range tactics."
+    },
+    {
+      "name": "Blue Nile expansion risks",
+      "description": "Track advances into new theaters and the potential for multi-actor confrontations that could create three-way conflict dynamics."
+    },
+    {
+      "name": "Airpower resurgence",
+      "description": "Evaluate the increased frequency and strategic objectives of airstrikes, including targeting of mobilization hubs and logistical nodes."
+    },
+    {
+      "name": "Negotiation dynamics and violence",
+      "description": "Consider correlations between ceasefire talks and escalations in violence as actors seek leverage at the bargaining table."
+    },
+    {
+      "name": "Humanitarian access constraints",
+      "description": "Assess how looting, insecurity, and seasonal factors disrupt aid delivery routes and the implications for worsening humanitarian conditions."
+    },
+    {
+      "name": "Seasonal and environmental factors",
+      "description": "Examine how weather and flooding affect mobility, supply lines, and operational choices of armed groups."
+    },
+    {
+      "name": "Targeting of strategic infrastructure",
+      "description": "Identify attacks linked to fuel, communications, and military bases, and how control or disruption of these assets shapes campaigns."
+    },
+    {
+      "name": "Urban-rural conflict interplay",
+      "description": "Analyze differences in tactics and impacts between city centers and peripheral or rural areas and how control shifts along key corridors."
+    },
+    {
+      "name": "Civilians’ self-protection responses",
+      "description": "Note instances of local resistance or community defense and their repercussions, including retaliatory violence."
+    },
+    {
+      "name": "Prospects for conflict diffusion",
+      "description": "Evaluate risks that fighting in one region catalyzes expansion or spillover into adjacent areas, altering the balance of power."
+    }
+  ],
+  "criterion_scores": [
+    {
+      "name": "Shift to remote violence",
+      "score": 0.95,
+      "explanation": "The article explicitly details a transition from RSF-dominant shelling to SAF-led air/drone strikes, with weekly peaks (late August vs late September) and month-over-month mechanism shifts in Khartoum. It analyzes substitution rather than combined-arms synchronization. Very strong coverage."
+    },
+    {
+      "name": "Geographic concentration of attacks",
+      "score": 0.9,
+      "explanation": "Identifies key hotspots and states: Khartoum (Al Sahafa, Al Azhari, Kafouri, Bahri), Omdurman/Karrari (Al Thawra, Karari), El Fasher (North Darfur), plus mentions of Al Jazirah and Sennar. Tracks spatial differences by mechanism and how patterns sharpened through September. Minor gaps on other regions and rural breadth."
+    },
+    {
+      "name": "Stalemate-induced escalation",
+      "score": 0.85,
+      "explanation": "Repeatedly emphasizes stalled frontlines, sieges, and reliance on indirect fire for pressure without territorial change. Links intensified air/shelling to leverage and coercion. Could further detail negotiation leverage calculus, but the stalemate-escalation link is clear."
+    },
+    {
+      "name": "Civilian impact and disruption",
+      "score": 0.95,
+      "explanation": "Provides casualty estimates, mechanism-specific lethality, facility impacts (hospitals, water), displacement, and service collapse. Discusses differences in civilian-targeting rates by actor and neighborhood-level survival strategies. Comprehensive."
+    },
+    {
+      "name": "Inter-factional tensions",
+      "score": 0.35,
+      "explanation": "Limited discussion of internal divisions within SAF or RSF. Focus is on SAF vs RSF dynamics, sieges, and tactics. Little on localized disputes among sub-factions affecting broader dynamics. Only tangentially implied via siege behavior."
+    },
+    {
+      "name": "Multi-front pressures",
+      "score": 0.75,
+      "explanation": "Notes simultaneous fronts (Khartoum, El Fasher, Al Jazirah, Sennar), strain leading to reliance on airpower and shelling, and limited ability to maneuver or expand. Could expand on how capacities are stretched across additional theatres beyond those mentioned."
+    },
+    {
+      "name": "Blue Nile expansion risks",
+      "score": 0.25,
+      "explanation": "Briefly references Sennar but does not analyze Blue Nile expansion or three-way conflict dynamics. Minimal coverage of this specific theater and associated risks."
+    },
+    {
+      "name": "Airpower resurgence",
+      "score": 0.95,
+      "explanation": "Thoroughly evaluates increased frequency, geographic focus, and objectives (checking RSF movements, targeting urban areas, mobilization implications). Quantifies month-over-month increases, weekly cycles, and lethality per incident."
+    },
+    {
+      "name": "Negotiation dynamics and violence",
+      "score": 0.5,
+      "explanation": "Mentions sieges/blockades turning aid into negotiations and implies coercive leverage, but lacks explicit linkage to ceasefire talks or temporal correlation between negotiations and escalation. Partial coverage."
+    },
+    {
+      "name": "Humanitarian access constraints",
+      "score": 0.9,
+      "explanation": "Details sieges, blockades (notably El Fasher), aid delivery paralysis, looting/insecurity implied, and compounded displacement. Mentions seasonal factors only indirectly; otherwise strong on constraints and implications."
+    },
+    {
+      "name": "Seasonal and environmental factors",
+      "score": 0.3,
+      "explanation": "Minimal treatment; a passing mention of seasonal pressures is absent or implicit. No substantive analysis of rains/flooding effects on mobility or logistics for Aug–Sep period."
+    },
+    {
+      "name": "Targeting of strategic infrastructure",
+      "score": 0.7,
+      "explanation": "Discusses repeated strikes on hospitals and water systems; references targeting of logistical nodes implicitly. Less detail on fuel depots, communications nodes, and specific military bases beyond sieges; still, infrastructure impact is addressed."
+    },
+    {
+      "name": "Urban-rural conflict interplay",
+      "score": 0.75,
+      "explanation": "Strong urban focus contrasting Omdurman shelling vs Khartoum airstrikes and El Fasher dynamics. Notes differences in tactics and neighborhood-level impacts. Less analysis of rural peripheries and corridor control beyond brief mentions."
+    },
+    {
+      "name": "Civilians’ self-protection responses",
+      "score": 0.6,
+      "explanation": "Mentions civilian survival strategies (sheltering from shells, scanning for jets) and displacement decisions. Does not cover community defense groups or local resistance/retaliation. Partial coverage focused on passive protection."
+    },
+    {
+      "name": "Prospects for conflict diffusion",
+      "score": 0.65,
+      "explanation": "Notes diffusion of airstrike spikes from North Darfur to East Darfur, Sennar, and Khartoum; discusses risk of further spikes and spillovers. Could more directly assess how fighting catalyzes expansion into adjacent areas and alters balance of power."
+    }
+  ],
+  "overall_score": 0.69
+}

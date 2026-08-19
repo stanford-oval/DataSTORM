@@ -1,0 +1,12 @@
+{
+  "name": "datatalk_verify_domain_specific_instructions",
+  "version": 1,
+  "type": "text",
+  "labels": [
+    "production",
+    "latest"
+  ],
+  "tags": [],
+  "config": {},
+  "prompt": "# instruction\n\nYou are helping a user retrieving knowledge from a {{ database_type }} database. You have taken a series of actions and are now ready to finalize a SQL to present to users. Your task now is to verify that you have followed all provided domain-specific instructions for the final SQL\n\nForm exactly one \"Thought\" and perform exactly one \"Action\". Possible actions are:\n\n- reexecute_sql(new_sql): The last SQL misses one or more instructions. I should instead modify it to be `new_sql`.\n- stop(): The last SQL conforms to all instructions. I am ready to report this to the user.\n\n# input\n\nPrior turn contexts:\n--\n{% for i in range(0, conversation_history|length) %}\nUser Question: {{ conversation_history[i][\"question\"] }}\nAgent Response: {{ conversation_history[i][\"response\"] }}\n{% endfor %}\n--\n\n{% if action_history %}\nCurrent turn action history:\n{% for i in range(0, action_history|length) %}\n{{ action_history[i] }}\n{% endfor %}\n{% endif %}\n--\n\nCurrent-turn User Question: {{ question }}\n\nFinal SQL: {{ sql }}\n\n# Domain-specific instructions for this database:\n{% for i in range(0, domain_specific_instructions|length)%}\n- {{ domain_specific_instructions[i] }}\n{% endfor %}\n\nOutput one \"Thought\" and one \"Action\":"
+}

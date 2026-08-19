@@ -1,0 +1,85 @@
+{
+  "dataset_id": 80,
+  "dataset_path": "data/notebooks/flag-80.json",
+  "metadata": {
+    "category": "Goal Management",
+    "dataset_description": "This dataset includes 500 entries simulating the ServiceNow `sn_gf_goal` table, which encompasses various attributes related to organizational objectives. These attributes cover goal status, responsible individuals, departmental association, start and end periods, and detailed descriptions. The dataset also includes metrics such as priority level, completion percentage, and target achievement rate. The primary focus is on monitoring and managing both departmental and individual objectives, providing insights into the effectiveness of these goals and their alignment with overall organizational strategies. Additionally, the dataset records updates to each objective, offering a historical log of changes and the identities of those responsible for these updates.",
+    "goal": "Examine the extended timelines of 'Cost Efficiency' objectives within the Finance department to identify root causes and propose strategies for improving the management of these objectives.",
+    "header": "Departmental Objective Monitoring and Evaluation (Flag 80)",
+    "role": "Strategic Objectives Analyst"
+  },
+  "predicted_insights": [
+    "The distribution is dominated by long-running items—over 85% (201/236) take more than 30 days and 71% (168/236) exceed 60 days—so focusing improvement efforts on the oldest 60+ day cases would likely produce the largest reduction in extended timelines.",
+    "The 9 percentage-point gap between Database (37%) and Network (28%)—about a 32% higher rate—suggests that lowering Database’s long-duration share to Hardware’s 33% would prevent roughly 4 additional over-60-day cases per 100 tickets, directly supporting Finance’s cost-efficiency goals by shrinking extended timelines.",
+    "Critical tickets take about 16.8% (~482 hours) longer to resolve than Low-priority tickets, indicating the most urgent work is actually the slowest and highlighting a likely bottleneck where improving triage and resourcing could deliver the largest cycle-time and cost-efficiency gains.",
+    "Higher workloads tend to coincide with longer median resolution times (ρ=0.625), with high-volume weeks (e.g., volume 10) reaching ~5,330 hours median resolution while some low-volume weeks still spiked above 8,400 hours, suggesting both capacity strain and backlog aging drive extended timelines impacting cost efficiency.",
+    "Resolution times are tightly clustered (~2,877–3,359 hours; ~120–140 days) with Critical only ~482 hours (~20 days) slower than Low, indicating weak differentiation by priority and suggesting systemic process delays that could undermine cost-efficiency goals.",
+    "With 0 mismatches out of 500 tickets (0%), routing accuracy between category and assignement_group appears perfect, implying misassignment is unlikely to drive extended timelines for Finance “Cost Efficiency” objectives and that focus should shift to other factors (e.g., priority mix or location).",
+    "Overall, the median resolution time expanded about 18.2x from 2023-01 (~246h ≈ 10 days) to 2024-02 (~4479h ≈ 187 days), peaking at ~5614h (~234 days) in 2024-01 with increases in 9 of 13 month-to-month transitions—indicating sustained timeline elongation that likely signals accumulating backlog or process inefficiencies that could undermine cost efficiency if unaddressed.",
+    "About 2 in 5 incidents exceed 30 days, so reducing just a quarter of these long-running cases would drop the over-30-day rate from 40.2% to roughly 30.2%, materially improving timeliness and likely reducing cost overruns.",
+    "Four out of five groups (80%) have negative median resolution hours, and the gap between the highest (Software +192.19 h) and lowest (Network −407.71 h) is ~599.9 h (~25 days), signaling systemic timestamp/order issues that could mask true cycle times and impede accurate management of Finance cost-efficiency objectives.",
+    "The tail is extremely long—roughly 301–346 days at p95—and is not strictly aligned with urgency (Moderate > High), with a spread of ~1,094.5 hours (~45.6 days) between the slowest and fastest priorities; this non-monotonicity suggests triage or queue-management gaps that, if present in Finance “Cost Efficiency” objectives, could be mitigated by targeting aging moderate-priority items and enforcing SLA-driven escalations.",
+    "Hardware and Database are overrepresented in the longest-resolution tail—1.4x and 1.2x the 5% baseline—indicating bottlenecks concentrated in these categories that are likely to magnify extended timelines and associated costs impacting Finance cost-efficiency objectives.",
+    "Non-critical priorities (Moderate+Low) account for 13 of 25 tickets (52%) in the longest-resolution group, indicating that lower-priority work is a major contributor to prolonged timelines; improving triage and throughput for non-urgent issues could significantly advance Finance’s Cost Efficiency objectives."
+  ],
+  "predicted_summary": "Extended timelines are pervasive and worsening: 40.2% (201/500) of incidents exceeded 30 days, including 33.6% (168/500) surpassing 60 days; the 95th percentile resolution time spans roughly 301–346 days across priorities. Month-over-month median resolution time surged about 23x from 246.0 hours in 2023-01 to 5,613.7 hours in 2024-01 before easing 20% in 2024-02, indicating a broad, systemic elongation with a heavy long-tail.\nHigher priority is not translating into faster resolution: the longest median belongs to 1 - Critical at ~3,358.7 hours (~140 days), while 2 - High, 3 - Moderate, and 4 - Low are all similarly long (~2,877–2,951 hours, ~120–123 days). In the extreme tail (top 5% longest cases), 3 - Moderate accounts for the largest share (8 of 25; 32%), with 1 - Critical and 2 - High each at 24% (6/25) and 4 - Low at 20% (5/25), showing that very long delays are not confined to critical items.\nDelays cluster in specific groups/categories and rise with workload: the Database assignment group has the highest share of >60-day resolutions at 37% (37/100), and categories overrepresented among the longest 5% include Hardware (7% of its tickets) and Database (6%) versus a 5% baseline (Network is underrepresented at 3%). Weekly ticket volume is positively correlated with weekly median resolution time (Spearman 0.625), indicating timelines lengthen when demand rises, amplifying these hotspots.",
+  "score_insights": 0.10868673336300003,
+  "score_insights_dict": [
+    {
+      "gt_insight": "There was no column end_date to conduct any analysis",
+      "pred_insight": "Four out of five groups (80%) have negative median resolution hours, and the gap between the highest (Software +192.19 h) and lowest (Network −407.71 h) is ~599.9 h (~25 days), signaling systemic timestamp/order issues that could mask true cycle times and impede accurate management of Finance cost-efficiency objectives.",
+      "score": 0.11050964497779263
+    },
+    {
+      "gt_insight": "There was no column department to conduct any analysis",
+      "pred_insight": "Non-critical priorities (Moderate+Low) account for 13 of 25 tickets (52%) in the longest-resolution group, indicating that lower-priority work is a major contributor to prolonged timelines; improving triage and throughput for non-urgent issues could significantly advance Finance’s Cost Efficiency objectives.",
+      "score": 0.10434576137635727
+    },
+    {
+      "gt_insight": "There was no column end_date to conduct any analysis",
+      "pred_insight": "Four out of five groups (80%) have negative median resolution hours, and the gap between the highest (Software +192.19 h) and lowest (Network −407.71 h) is ~599.9 h (~25 days), signaling systemic timestamp/order issues that could mask true cycle times and impede accurate management of Finance cost-efficiency objectives.",
+      "score": 0.11672066410304578
+    },
+    {
+      "gt_insight": "There was no column contains_keywords to conduct any analysis",
+      "pred_insight": "With 0 mismatches out of 500 tickets (0%), routing accuracy between category and assignement_group appears perfect, implying misassignment is unlikely to drive extended timelines for Finance “Cost Efficiency” objectives and that focus should shift to other factors (e.g., priority mix or location).",
+      "score": 0.1052212455417465
+    },
+    {
+      "gt_insight": "There was no column start_date to conduct any analysis",
+      "pred_insight": "The distribution is dominated by long-running items—over 85% (201/236) take more than 30 days and 71% (168/236) exceed 60 days—so focusing improvement efforts on the oldest 60+ day cases would likely produce the largest reduction in extended timelines.",
+      "score": 0.10663635081605805
+    }
+  ],
+  "score_summary": 0.16068089143767023,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.11863755893521404,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "With 0 mismatches out of 500 tickets (0%), routing accuracy between category and assignement_group appears perfect, implying misassignment is unlikely to drive extended timelines for Finance “Cost Efficiency” objectives and that focus should shift to other factors (e.g., priority mix or location).",
+      "gt_insight": "There was no column end_date to conduct any analysis",
+      "score": 0.12475155338987967
+    },
+    {
+      "pred_insight": "With 0 mismatches out of 500 tickets (0%), routing accuracy between category and assignement_group appears perfect, implying misassignment is unlikely to drive extended timelines for Finance “Cost Efficiency” objectives and that focus should shift to other factors (e.g., priority mix or location).",
+      "gt_insight": "There was no column department to conduct any analysis",
+      "score": 0.11767554637713651
+    },
+    {
+      "pred_insight": "Four out of five groups (80%) have negative median resolution hours, and the gap between the highest (Software +192.19 h) and lowest (Network −407.71 h) is ~599.9 h (~25 days), signaling systemic timestamp/order issues that could mask true cycle times and impede accurate management of Finance cost-efficiency objectives.",
+      "gt_insight": "There was no column end_date to conduct any analysis",
+      "score": 0.12740299777782352
+    },
+    {
+      "pred_insight": "With 0 mismatches out of 500 tickets (0%), routing accuracy between category and assignement_group appears perfect, implying misassignment is unlikely to drive extended timelines for Finance “Cost Efficiency” objectives and that focus should shift to other factors (e.g., priority mix or location).",
+      "gt_insight": "There was no column contains_keywords to conduct any analysis",
+      "score": 0.11267620502964985
+    },
+    {
+      "pred_insight": "With 0 mismatches out of 500 tickets (0%), routing accuracy between category and assignement_group appears perfect, implying misassignment is unlikely to drive extended timelines for Finance “Cost Efficiency” objectives and that focus should shift to other factors (e.g., priority mix or location).",
+      "gt_insight": "There was no column start_date to conduct any analysis",
+      "score": 0.11068149210158058
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.10076745119334249,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.17484417061433
+}

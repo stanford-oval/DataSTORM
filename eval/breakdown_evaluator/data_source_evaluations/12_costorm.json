@@ -1,0 +1,382 @@
+{
+  "total_insights": 37,
+  "total_classified": 37,
+  "acled_count": 27,
+  "non_acled_count": 10,
+  "pct_acled": 0.7297297297297297,
+  "details": [
+    {
+      "evidence": "A single clash near Wargadud, Mandera on 21 November accounted for eight deaths and all Mandera fatalities, making it a lethal outlier in an otherwise low‑fatality month.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites a specific conflict event (a clash near Wargadud, Mandera on 21 November), provides fatality counts, and frames it within subnational and temporal context (Mandera fatalities in November). This aligns with ACLED’s event-level data, fatalities, geographic breakdowns, and trend analysis.",
+      "source_context": "Section: A Lethal Outlier on a Quiet Front; details of Wargadud firefight and its concentration of deaths."
+    },
+    {
+      "evidence": "Events in the same week included clashes in Fafi (one death) and Alango Gof (no deaths), indicating the week‑47 spike was a brief, localized surge rather than sustained escalation.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references specific conflict events with locations (Fafi, Alango Gof), timing (same week, week-47), outcomes (one death, no deaths), and uses these to describe a temporal spike—elements characteristic of ACLED event data (event descriptions, fatalities, geographic locations, and temporal trend analysis).",
+      "source_context": "Section: A Lethal Outlier on a Quiet Front; comparison of Wargadud with Fafi and Alango Gof incidents."
+    },
+    {
+      "evidence": "Al‑Shabaab‑linked fatalities in Kenya fell to nine in November from 17 in October, before rising to 20 in December, while incident counts stayed near the 2024 monthly norm.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites monthly fatalities linked to al-Shabaab in Kenya across specific months and references incident counts relative to a 2024 norm—these are temporal conflict metrics (fatalities, incident counts) that align with ACLED’s event-based data and trend analysis.",
+      "source_context": "Section: A Lethal Outlier on a Quiet Front; national monthly fatality and incident trends."
+    },
+    {
+      "evidence": "In November, al‑Shabaab was linked to 10 events: eight armed clashes, two non‑lethal IED/explosive incidents, and one abduction of civilians.",
+      "is_acled_data": true,
+      "reasoning": "The evidence provides specific event counts and types (armed clashes, IED incidents, abduction) for al-Shabaab in a defined time period, which aligns with ACLED’s event-level conflict data and actor activity statistics.",
+      "source_context": "Section: A Lethal Outlier on a Quiet Front; breakdown of event types."
+    },
+    {
+      "evidence": "Mandera recorded five al‑Shabaab events and eight deaths (all from Wargadud), while Garissa had four incidents with only one fatality; Wajir and Makueni each had one non‑fatal event.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific subnational counts of al-Shabaab events and fatalities for Mandera, Garissa, Wajir, and Makueni, which aligns with ACLED’s event-level data: conflict event counts, fatalities, geographic breakdowns, and actor-specific activity. This level of granular event and fatality reporting by county is characteristic of ACLED outputs.",
+      "source_context": "Section: A Lethal Outlier on a Quiet Front; geographic distribution of incidents and fatalities."
+    },
+    {
+      "evidence": "Within Mandera, Alungo, Arabia, and Iresuki saw activity without fatalities; only Wargadud resulted in deaths.",
+      "is_acled_data": true,
+      "reasoning": "The statement references specific locations with conflict activity and distinguishes events with and without fatalities, which aligns with ACLED’s event-level geographic data and fatality counts for particular locales.",
+      "source_context": "Section: A Lethal Outlier on a Quiet Front; sub‑county specifics in Mandera."
+    },
+    {
+      "evidence": "Most November incidents targeted Kenyan police or security positions; only one non‑lethal incident directly targeted civilians, and one abduction remained isolated.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references incident targeting patterns in November, distinguishing between attacks on security forces versus civilians and noting an abduction count, which aligns with ACLED’s event-level data on actor targeting, event types (violence against civilians, abductions), and temporal aggregation. This suggests derivation from ACLED incident/event data rather than general commentary.",
+      "source_context": "Section: A Lethal Outlier on a Quiet Front; targeting patterns and civilian impact."
+    },
+    {
+      "evidence": "Activity was sporadic with stretches of zero events, punctuated by scattered clashes and a week‑47 spike driven by Wargadud.",
+      "is_acled_data": true,
+      "reasoning": "Mentions temporal conflict trends (stretches of zero events, scattered clashes, a week-47 spike, specific locality Wargadud). This aligns with ACLED-style event count timelines and subnational event data, suggesting it derives from ACLED event records and weekly aggregation.",
+      "source_context": "Section: A Lethal Outlier on a Quiet Front; daily/weekly distribution patterns."
+    },
+    {
+      "evidence": "The operational theatre formed a narrow belt along the Somali border, with hotspots in Mandera (Alango/Alungo, Arabia, Iresuki, Wargadud) and Garissa (Fafi, Hulugho).",
+      "is_acled_data": true,
+      "reasoning": "Mentions specific subnational hotspots and locations of conflict activity (Mandera/Garissa localities) along a defined operational belt, which aligns with ACLED’s geographic conflict data and event location detail typical of ACLED-derived mapping/analysis. While no counts are given, the granular place naming and framing of an operational theatre based on event locations is characteristic of ACLED-based insights.",
+      "source_context": "Section: Mandera–Garissa as a Skirmish Frontier; spatial clustering of events."
+    },
+    {
+      "evidence": "All nine al‑Shabaab‑related deaths in November came from armed clashes; two IED incidents caused injuries but no fatalities.",
+      "is_acled_data": true,
+      "reasoning": "The evidence provides event-type-specific casualties for November (al‑Shabaab-related deaths all from armed clashes; IED incidents with injuries but no fatalities). This aligns with ACLED’s battle and explosion/remote violence event data and fatality/casualty counts by event type and time period.",
+      "source_context": "Section: Mandera–Garissa as a Skirmish Frontier; event type–casualty linkage."
+    },
+    {
+      "evidence": "Fafi recorded three al‑Shabaab events with one fatality; Hulugho and Wajir had single non‑fatal clashes, underscoring low lethality outside Wargadud.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific counts of al-Shabaab events, locations (Fafi, Hulugho, Wajir), mentions fatalities, and characterizes clash outcomes—these are typical ACLED metrics (event counts, geographic breakdowns, and fatality figures) and align with ACLED’s event-based data.",
+      "source_context": "Section: Mandera–Garissa as a Skirmish Frontier; sub‑county asymmetries."
+    },
+    {
+      "evidence": "Two non‑lethal roadside IEDs in Mandera targeted security and mobility: one injured five police near Arabia; another wounded an ambulance driver near Iresuki.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific conflict events (roadside IED incidents), locations (Mandera, Arabia, Iresuki), impacts (injuries to police and an ambulance driver), and outcomes (non-lethal), which are typical elements of ACLED event records and descriptions.",
+      "source_context": "Section: Mandera–Garissa as a Skirmish Frontier; specifics on IED incidents."
+    },
+    {
+      "evidence": "Kenya’s two November IED incidents matched the 2024 monthly average count (~2.08) but produced zero deaths, below the yearly mean (~5 fatalities/month), contrasting sharply with Somalia’s higher IED averages.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites monthly incident counts and fatalities for IED events in Kenya (and a comparative reference to Somalia) with specific averages and November totals—metrics that align with ACLED’s event counts and fatality data, as well as temporal trend analysis derived from ACLED event data.",
+      "source_context": "Section: Mandera–Garissa as a Skirmish Frontier; comparative IED statistics Kenya vs Somalia."
+    },
+    {
+      "evidence": "In Garissa, all al‑Shabaab events targeted security forces, clustered in Fafi and Hulugho, and included SOG raids seizing IED components and weapons with minimal fatalities.",
+      "is_acled_data": true,
+      "reasoning": "Mentions specific al-Shabaab event targeting patterns, geographic clustering (Fafi, Hulugho in Garissa), operational details (SOG raids, seizure of IED components and weapons), and fatality characterization—all elements typical of ACLED event-level data and summaries derived from it.",
+      "source_context": "Section: Mandera–Garissa as a Skirmish Frontier; security interdictions and targeting in Garissa."
+    },
+    {
+      "evidence": "County‑level patterns show Mandera as the only county with lethal clashes and injury‑causing explosions; Garissa had multiple engagements and interdictions with minimal deaths; Wajir had one non‑fatal clash; civilians were largely spared lethal harm.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites county-level patterns of clashes and explosions, specifies lethality and injuries, and differentiates event types (engagements, interdictions, non-fatal clash) with subnational geographic detail. This aligns with ACLED’s event-based data, including battles and explosions/remote violence, fatalities/casualties, and county-level breakdowns. The phrasing suggests aggregation from conflict events rather than general commentary.",
+      "source_context": "Section: Mandera–Garissa as a Skirmish Frontier; synthesis of county dynamics."
+    },
+    {
+      "evidence": "Communal and identity‑based militias generated more recorded activity than al‑Shabaab in November but caused fewer deaths, indicating diffuse, localized conflicts.",
+      "is_acled_data": true,
+      "reasoning": "The statement compares recorded activity levels and fatalities between communal/identity-based militias and al-Shabaab for a specific time period (November), implying use of event counts and fatality data by actor—both core ACLED metrics (event counts, actor-level activity, and fatalities) and a temporal comparison. This aligns with ACLED-derived conflict trend analysis and actor-level data.",
+      "source_context": "Section: Parallel Tracks; comparative volume and lethality of communal militia vs al‑Shabaab."
+    },
+    {
+      "evidence": "Including strategic developments, identity militias were involved in 18 events nationwide in November versus 10 for al‑Shabaab; by direct political violence, militias had eight incidents concentrated partly in Garissa with others in Isiolo, Meru, Samburu, and Turkana.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites precise event counts and subnational distribution for identity militias and al‑Shabaab in a specific month, which aligns with ACLED’s event-based data and actor-level, geographic breakdowns and temporal patterns.",
+      "source_context": "Section: Parallel Tracks; event counts and geographic spread for communal militias."
+    },
+    {
+      "evidence": "The deadliest communal‑militia event killed two civilians in Gotu, Isiolo; other incidents in Meru (Buuri), Samburu (Baragoi), Turkana (Kibish), Fafi, and Isiolo town each caused one death.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific conflict events with locations, actor type (communal militias), and fatality counts, including subnational place names and a deadliest incident—this aligns with ACLED’s event-level data on violence against civilians and geographic conflict details.",
+      "source_context": "Section: Parallel Tracks; locality‑level fatality distribution for communal militias."
+    },
+    {
+      "evidence": "Across November, communal militias were linked to six fatalities in 15 recorded events, compared to al‑Shabaab’s nine deaths in 10 incidents; the median fatalities per militia event hovered around zero.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific counts of events and fatalities, compares actor-specific deaths (communal militias vs. al-Shabaab), and mentions a distributional metric (median fatalities per event) for November 2024 in Kenya. These are classic ACLED-derived metrics (event counts, fatalities, actor-level data, temporal scope) and align with ACLED’s event-based datasets and trend analysis.",
+      "source_context": "Section: Parallel Tracks; comparative lethality metrics."
+    },
+    {
+      "evidence": "Ten identity‑militia incidents were non‑lethal strategic developments such as community meetings and property destruction, highlighting their lower lethal profile compared to the al‑Shabaab frontier.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references counts of specific conflict event types (ten identity-militia incidents) and characterizes them as non-lethal strategic developments, which aligns with ACLED event typologies and incident counts. This type of actor-level event count and categorization is typical of ACLED-derived data.",
+      "source_context": "Section: Parallel Tracks; event type mix for communal militias."
+    },
+    {
+      "evidence": "Fafi, Garissa, is a key overlap zone hosting both communal‑militia violence (one death) and multiple al‑Shabaab–security clashes and interdictions in November.",
+      "is_acled_data": true,
+      "reasoning": "Mentions a specific subnational location (Fafi, Garissa), event types (communal-militia violence, al-Shabaab–security clashes and interdictions), timing (November), and a fatality count (one death). These are characteristic ACLED event-level and actor-level data points and temporal/geographic breakdowns.",
+      "source_context": "Section: Parallel Tracks; Fafi as intersection corridor."
+    },
+    {
+      "evidence": "Communal‑militia activity peaked in week 45 (five events, three deaths) and saw no fatalities in weeks 46 and 48, showing no coordinated escalation around al‑Shabaab’s week‑47 spike.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific weekly event and fatality counts and temporal patterns (weeks 45–48, number of events and deaths), which align with ACLED’s event- and fatality-based time series and trend analysis derived from its dataset.",
+      "source_context": "Section: Parallel Tracks; temporal sequencing of militia vs al‑Shabaab activity."
+    },
+    {
+      "evidence": "In 2024, communal militias averaged about 21.9 events per month; November’s 18 incidents marked a dip, while al‑Shabaab’s November tempo matched its yearly norm.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites monthly averages of conflict events for communal militias and compares November incident counts and tempo to yearly norms—specific event count/time-series metrics typical of ACLED’s event-based dataset and trend analysis.",
+      "source_context": "Section: Parallel Tracks; baseline comparisons to 2024 averages."
+    },
+    {
+      "evidence": "Structural drivers—poverty, unequal access to land/services, and social marginalization—underlie both the Mandera–Garissa skirmish line and the Isiolo–Meru–Samburu–Turkana communal arc.",
+      "is_acled_data": false,
+      "reasoning": "The statement discusses structural drivers like poverty, land access, and social marginalization and references regional dynamics; it is general analytical commentary not tied to specific ACLED event data, counts, actors, or locations attributed to ACLED.",
+      "source_context": "Section: Beneath the Skirmishes; structural vulnerabilities across regions."
+    },
+    {
+      "evidence": "Border insecurity and under‑investment in the north‑east enable al‑Shabaab recruitment in Mandera and Garissa, leveraging local grievances and Somali sanctuary.",
+      "is_acled_data": false,
+      "reasoning": "The statement is qualitative analysis about drivers of al‑Shabaab recruitment (border insecurity, under‑investment, local grievances, sanctuary). It does not cite specific conflict events, counts, fatalities, actor-level event data, or ACLED-attributed metrics. Therefore it is general commentary, not derived from ACLED data.",
+      "source_context": "Section: Beneath the Skirmishes; conditions facilitating al‑Shabaab footholds."
+    },
+    {
+      "evidence": "Al‑Shabaab has adapted with increased digital outreach to Kenyan constituencies, aligning with a strategy of sustained pressure via low‑fatality clashes and non‑lethal IED harassment rather than mass‑casualty attacks.",
+      "is_acled_data": false,
+      "reasoning": "The statement is analytical commentary about al‑Shabaab’s strategic adaptation (digital outreach, preference for low‑fatality clashes and non‑lethal IED harassment). It does not cite specific ACLED event counts, fatalities, locations, or actor-level event data, nor is it attributed to ACLED. Therefore it is not ACLED-derived.",
+      "source_context": "Section: Beneath the Skirmishes; tactical adaptation and propaganda strategy."
+    },
+    {
+      "evidence": "Approximately six in seven al‑Shabaab incidents in November targeted police or security posts, with civilians directly targeted only once and not killed, reflecting a state‑centric confrontation.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites incident targeting patterns for al-Shabaab in a specific month (proportion of incidents targeting police/security vs. civilians), which aligns with ACLED’s event-level data, actor targeting, and temporal pattern analysis derived from recorded incidents.",
+      "source_context": "Section: Beneath the Skirmishes; targeting proportions and implications."
+    },
+    {
+      "evidence": "Communal militias in northern rangelands mobilize around resource conflicts (grazing, water, cattle rustling) and banditry, with ethnic/political fragmentation and inflammatory rhetoric amplifying grievances.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical description of militia dynamics and drivers (resource conflicts, banditry, grievances) without reference to specific events, counts, locations, dates, or actor-level event data. It is not explicitly tied to ACLED datasets or metrics.",
+      "source_context": "Section: Beneath the Skirmishes; drivers of communal militia violence."
+    },
+    {
+      "evidence": "Low‑level, persistent conflict erodes trust in state institutions and can create recruitment pools exploitable by extremist organizations over time.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical assertion about how persistent conflict affects trust and recruitment, not tied to specific ACLED event data, counts, locations, actor activity, or trends. It reads as contextual commentary rather than data derived from ACLED.",
+      "source_context": "Section: Beneath the Skirmishes; long‑term risks of entrenched communal violence."
+    },
+    {
+      "evidence": "From January to October 2024, al‑Shabaab averaged just over 10 events per month; November closely matched this pace, underscoring entrenched low‑level conflict.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites event counts and temporal trends for al-Shabaab (average events per month and comparison for November), which are core ACLED metrics derived from conflict event data and trend analysis.",
+      "source_context": "Section: Beneath the Skirmishes; 2024 trendlines for al‑Shabaab events."
+    },
+    {
+      "evidence": "November’s two al‑Shabaab IED incidents in Kenya, though non‑fatal, disrupted mobility and even health services when an ambulance was hit, highlighting infrastructural impacts.",
+      "is_acled_data": true,
+      "reasoning": "The statement cites a specific count and type of conflict events (two al-Shabaab IED incidents in November in Kenya), their outcomes (non-fatal), and impacts on services (ambulance hit), which aligns with ACLED’s event-based data on explosions/remote violence, incident descriptions, and casualty details.",
+      "source_context": "Section: Beneath the Skirmishes; effects of IED harassment on services."
+    },
+    {
+      "evidence": "Policy responses should differentiate between the al‑Shabaab border skirmish frontier and the communal‑militia track, while addressing shared structural vulnerabilities.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a policy recommendation differentiating response tracks; it is general analysis without reference to specific ACLED event data, trends, counts, or actor-level statistics.",
+      "source_context": "Section: Beneath the Skirmishes; strategic policy framing."
+    },
+    {
+      "evidence": "Recommended measures include strengthening border governance and community‑responsive policing, enhancing county‑level prevention and intelligence sharing, and pairing counter‑terrorism with socio‑economic inclusion in marginalized regions.",
+      "is_acled_data": false,
+      "reasoning": "The evidence lists policy recommendations (border governance, community policing, intelligence sharing, socio-economic inclusion). These are general policy measures and not event counts, fatalities, actor activity, or trend data derived from ACLED. It is general analysis, not ACLED-specific data.",
+      "source_context": "Section: Beneath the Skirmishes; policy prescriptions for al‑Shabaab frontier."
+    },
+    {
+      "evidence": "Support for locally grounded peace processes in communal flashpoints (e.g., Isiolo, Turkana, Fafi) can contain militia violence and reduce opportunities for extremist instrumentalization.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general policy/analytical recommendation about supporting peace processes in specific counties and its potential effects. It does not reference event counts, fatalities, actor activity, or any specific ACLED-derived metrics or trends. Therefore, it is not derived from ACLED data.",
+      "source_context": "Section: Beneath the Skirmishes; policy prescriptions for communal conflicts."
+    },
+    {
+      "evidence": "November’s headline: one fierce Wargadud clash generated most al‑Shabaab deaths amid frequent low‑fatality skirmishes and separate, localized communal‑militia incidents across several counties.",
+      "is_acled_data": true,
+      "reasoning": "The statement references specific conflict dynamics in November: a particular clash at Wargadud producing most al‑Shabaab deaths, frequent low‑fatality skirmishes, and localized communal‑militia incidents across counties. These elements—event locations, actor activity, fatality distribution, and temporal focus—align with ACLED’s battle/event data, fatalities, and subnational patterns. It reads like a synthesis of ACLED event and fatality data for November rather than general commentary.",
+      "source_context": "Section: Conclusion; synthesis of monthly dynamics."
+    },
+    {
+      "evidence": "Counting bodies alone can mask persistent risk: al‑Shabaab’s steady targeting of security forces, recurring non‑lethal IEDs, and chronic communal violence indicate entrenched twin frontiers of low‑level war.",
+      "is_acled_data": false,
+      "reasoning": "The statement is qualitative commentary about risk and patterns (targeting security forces, non-lethal IEDs, communal violence) without citing specific ACLED events, counts, locations, or ACLED-derived metrics. It is general analysis rather than explicit use of ACLED data.",
+      "source_context": "Section: Conclusion; caution against relying solely on monthly fatality totals."
+    },
+    {
+      "evidence": "Key forward risks include the possibility that the Mandera–Garissa skirmish line escalates to higher‑intensity conflict and that localized militias become conduits for extremist influence if structural issues persist.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a forward-looking risk assessment about potential escalation and militia dynamics, not a citation of specific conflict events, counts, fatalities, locations, or actor data. It is general analytical commentary, which is not ACLED data unless tied to explicit ACLED-derived metrics or attributions.",
+      "source_context": "Section: Conclusion; forward‑looking risk assessment."
+    }
+  ],
+  "insights": [
+    {
+      "insight": "A single clash near Wargadud, Mandera on 21 November accounted for eight deaths and all Mandera fatalities, making it a lethal outlier in an otherwise low‑fatality month.",
+      "context": "Section: A Lethal Outlier on a Quiet Front; details of Wargadud firefight and its concentration of deaths."
+    },
+    {
+      "insight": "Events in the same week included clashes in Fafi (one death) and Alango Gof (no deaths), indicating the week‑47 spike was a brief, localized surge rather than sustained escalation.",
+      "context": "Section: A Lethal Outlier on a Quiet Front; comparison of Wargadud with Fafi and Alango Gof incidents."
+    },
+    {
+      "insight": "Al‑Shabaab‑linked fatalities in Kenya fell to nine in November from 17 in October, before rising to 20 in December, while incident counts stayed near the 2024 monthly norm.",
+      "context": "Section: A Lethal Outlier on a Quiet Front; national monthly fatality and incident trends."
+    },
+    {
+      "insight": "In November, al‑Shabaab was linked to 10 events: eight armed clashes, two non‑lethal IED/explosive incidents, and one abduction of civilians.",
+      "context": "Section: A Lethal Outlier on a Quiet Front; breakdown of event types."
+    },
+    {
+      "insight": "Mandera recorded five al‑Shabaab events and eight deaths (all from Wargadud), while Garissa had four incidents with only one fatality; Wajir and Makueni each had one non‑fatal event.",
+      "context": "Section: A Lethal Outlier on a Quiet Front; geographic distribution of incidents and fatalities."
+    },
+    {
+      "insight": "Within Mandera, Alungo, Arabia, and Iresuki saw activity without fatalities; only Wargadud resulted in deaths.",
+      "context": "Section: A Lethal Outlier on a Quiet Front; sub‑county specifics in Mandera."
+    },
+    {
+      "insight": "Most November incidents targeted Kenyan police or security positions; only one non‑lethal incident directly targeted civilians, and one abduction remained isolated.",
+      "context": "Section: A Lethal Outlier on a Quiet Front; targeting patterns and civilian impact."
+    },
+    {
+      "insight": "Activity was sporadic with stretches of zero events, punctuated by scattered clashes and a week‑47 spike driven by Wargadud.",
+      "context": "Section: A Lethal Outlier on a Quiet Front; daily/weekly distribution patterns."
+    },
+    {
+      "insight": "The operational theatre formed a narrow belt along the Somali border, with hotspots in Mandera (Alango/Alungo, Arabia, Iresuki, Wargadud) and Garissa (Fafi, Hulugho).",
+      "context": "Section: Mandera–Garissa as a Skirmish Frontier; spatial clustering of events."
+    },
+    {
+      "insight": "All nine al‑Shabaab‑related deaths in November came from armed clashes; two IED incidents caused injuries but no fatalities.",
+      "context": "Section: Mandera–Garissa as a Skirmish Frontier; event type–casualty linkage."
+    },
+    {
+      "insight": "Fafi recorded three al‑Shabaab events with one fatality; Hulugho and Wajir had single non‑fatal clashes, underscoring low lethality outside Wargadud.",
+      "context": "Section: Mandera–Garissa as a Skirmish Frontier; sub‑county asymmetries."
+    },
+    {
+      "insight": "Two non‑lethal roadside IEDs in Mandera targeted security and mobility: one injured five police near Arabia; another wounded an ambulance driver near Iresuki.",
+      "context": "Section: Mandera–Garissa as a Skirmish Frontier; specifics on IED incidents."
+    },
+    {
+      "insight": "Kenya’s two November IED incidents matched the 2024 monthly average count (~2.08) but produced zero deaths, below the yearly mean (~5 fatalities/month), contrasting sharply with Somalia’s higher IED averages.",
+      "context": "Section: Mandera–Garissa as a Skirmish Frontier; comparative IED statistics Kenya vs Somalia."
+    },
+    {
+      "insight": "In Garissa, all al‑Shabaab events targeted security forces, clustered in Fafi and Hulugho, and included SOG raids seizing IED components and weapons with minimal fatalities.",
+      "context": "Section: Mandera–Garissa as a Skirmish Frontier; security interdictions and targeting in Garissa."
+    },
+    {
+      "insight": "County‑level patterns show Mandera as the only county with lethal clashes and injury‑causing explosions; Garissa had multiple engagements and interdictions with minimal deaths; Wajir had one non‑fatal clash; civilians were largely spared lethal harm.",
+      "context": "Section: Mandera–Garissa as a Skirmish Frontier; synthesis of county dynamics."
+    },
+    {
+      "insight": "Communal and identity‑based militias generated more recorded activity than al‑Shabaab in November but caused fewer deaths, indicating diffuse, localized conflicts.",
+      "context": "Section: Parallel Tracks; comparative volume and lethality of communal militia vs al‑Shabaab."
+    },
+    {
+      "insight": "Including strategic developments, identity militias were involved in 18 events nationwide in November versus 10 for al‑Shabaab; by direct political violence, militias had eight incidents concentrated partly in Garissa with others in Isiolo, Meru, Samburu, and Turkana.",
+      "context": "Section: Parallel Tracks; event counts and geographic spread for communal militias."
+    },
+    {
+      "insight": "The deadliest communal‑militia event killed two civilians in Gotu, Isiolo; other incidents in Meru (Buuri), Samburu (Baragoi), Turkana (Kibish), Fafi, and Isiolo town each caused one death.",
+      "context": "Section: Parallel Tracks; locality‑level fatality distribution for communal militias."
+    },
+    {
+      "insight": "Across November, communal militias were linked to six fatalities in 15 recorded events, compared to al‑Shabaab’s nine deaths in 10 incidents; the median fatalities per militia event hovered around zero.",
+      "context": "Section: Parallel Tracks; comparative lethality metrics."
+    },
+    {
+      "insight": "Ten identity‑militia incidents were non‑lethal strategic developments such as community meetings and property destruction, highlighting their lower lethal profile compared to the al‑Shabaab frontier.",
+      "context": "Section: Parallel Tracks; event type mix for communal militias."
+    },
+    {
+      "insight": "Fafi, Garissa, is a key overlap zone hosting both communal‑militia violence (one death) and multiple al‑Shabaab–security clashes and interdictions in November.",
+      "context": "Section: Parallel Tracks; Fafi as intersection corridor."
+    },
+    {
+      "insight": "Communal‑militia activity peaked in week 45 (five events, three deaths) and saw no fatalities in weeks 46 and 48, showing no coordinated escalation around al‑Shabaab’s week‑47 spike.",
+      "context": "Section: Parallel Tracks; temporal sequencing of militia vs al‑Shabaab activity."
+    },
+    {
+      "insight": "In 2024, communal militias averaged about 21.9 events per month; November’s 18 incidents marked a dip, while al‑Shabaab’s November tempo matched its yearly norm.",
+      "context": "Section: Parallel Tracks; baseline comparisons to 2024 averages."
+    },
+    {
+      "insight": "Structural drivers—poverty, unequal access to land/services, and social marginalization—underlie both the Mandera–Garissa skirmish line and the Isiolo–Meru–Samburu–Turkana communal arc.",
+      "context": "Section: Beneath the Skirmishes; structural vulnerabilities across regions."
+    },
+    {
+      "insight": "Border insecurity and under‑investment in the north‑east enable al‑Shabaab recruitment in Mandera and Garissa, leveraging local grievances and Somali sanctuary.",
+      "context": "Section: Beneath the Skirmishes; conditions facilitating al‑Shabaab footholds."
+    },
+    {
+      "insight": "Al‑Shabaab has adapted with increased digital outreach to Kenyan constituencies, aligning with a strategy of sustained pressure via low‑fatality clashes and non‑lethal IED harassment rather than mass‑casualty attacks.",
+      "context": "Section: Beneath the Skirmishes; tactical adaptation and propaganda strategy."
+    },
+    {
+      "insight": "Approximately six in seven al‑Shabaab incidents in November targeted police or security posts, with civilians directly targeted only once and not killed, reflecting a state‑centric confrontation.",
+      "context": "Section: Beneath the Skirmishes; targeting proportions and implications."
+    },
+    {
+      "insight": "Communal militias in northern rangelands mobilize around resource conflicts (grazing, water, cattle rustling) and banditry, with ethnic/political fragmentation and inflammatory rhetoric amplifying grievances.",
+      "context": "Section: Beneath the Skirmishes; drivers of communal militia violence."
+    },
+    {
+      "insight": "Low‑level, persistent conflict erodes trust in state institutions and can create recruitment pools exploitable by extremist organizations over time.",
+      "context": "Section: Beneath the Skirmishes; long‑term risks of entrenched communal violence."
+    },
+    {
+      "insight": "From January to October 2024, al‑Shabaab averaged just over 10 events per month; November closely matched this pace, underscoring entrenched low‑level conflict.",
+      "context": "Section: Beneath the Skirmishes; 2024 trendlines for al‑Shabaab events."
+    },
+    {
+      "insight": "November’s two al‑Shabaab IED incidents in Kenya, though non‑fatal, disrupted mobility and even health services when an ambulance was hit, highlighting infrastructural impacts.",
+      "context": "Section: Beneath the Skirmishes; effects of IED harassment on services."
+    },
+    {
+      "insight": "Policy responses should differentiate between the al‑Shabaab border skirmish frontier and the communal‑militia track, while addressing shared structural vulnerabilities.",
+      "context": "Section: Beneath the Skirmishes; strategic policy framing."
+    },
+    {
+      "insight": "Recommended measures include strengthening border governance and community‑responsive policing, enhancing county‑level prevention and intelligence sharing, and pairing counter‑terrorism with socio‑economic inclusion in marginalized regions.",
+      "context": "Section: Beneath the Skirmishes; policy prescriptions for al‑Shabaab frontier."
+    },
+    {
+      "insight": "Support for locally grounded peace processes in communal flashpoints (e.g., Isiolo, Turkana, Fafi) can contain militia violence and reduce opportunities for extremist instrumentalization.",
+      "context": "Section: Beneath the Skirmishes; policy prescriptions for communal conflicts."
+    },
+    {
+      "insight": "November’s headline: one fierce Wargadud clash generated most al‑Shabaab deaths amid frequent low‑fatality skirmishes and separate, localized communal‑militia incidents across several counties.",
+      "context": "Section: Conclusion; synthesis of monthly dynamics."
+    },
+    {
+      "insight": "Counting bodies alone can mask persistent risk: al‑Shabaab’s steady targeting of security forces, recurring non‑lethal IEDs, and chronic communal violence indicate entrenched twin frontiers of low‑level war.",
+      "context": "Section: Conclusion; caution against relying solely on monthly fatality totals."
+    },
+    {
+      "insight": "Key forward risks include the possibility that the Mandera–Garissa skirmish line escalates to higher‑intensity conflict and that localized militias become conduits for extremist influence if structural issues persist.",
+      "context": "Section: Conclusion; forward‑looking risk assessment."
+    }
+  ],
+  "prompt": "What are the threats in Kenya with respect to communal militias and al-Shabaab. Focus on November 2024."
+}

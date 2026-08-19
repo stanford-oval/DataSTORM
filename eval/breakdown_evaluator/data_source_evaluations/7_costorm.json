@@ -1,0 +1,232 @@
+{
+  "total_insights": 22,
+  "total_classified": 22,
+  "acled_count": 13,
+  "non_acled_count": 9,
+  "pct_acled": 0.5909090909090909,
+  "details": [
+    {
+      "evidence": "Georgia’s 2024 unrest featured mass protests and intense polarization but officially recorded no protest-related fatalities and relatively few police interventions, even during large post-election rallies.",
+      "is_acled_data": false,
+      "reasoning": "The statement provides qualitative claims about protest-related fatalities and police interventions without citing ACLED or presenting specific ACLED event or fatality counts. It reads as general analysis/summary rather than explicit ACLED-derived event data or statistics.",
+      "source_context": "Intro: contrasts chaotic optics with a near bloodless official record in 2024 using ACLED and post-election scenes."
+    },
+    {
+      "evidence": "The October 26 parliamentary elections were framed as a referendum on Georgia’s trajectory: potential one-party dominance under Georgian Dream versus a return to competitive pluralism and closer EU integration.",
+      "is_acled_data": false,
+      "reasoning": "The statement is general political analysis about how the elections were framed and potential political trajectories; it does not reference conflict events, fatalities, protests, or any ACLED-derived metrics or actor data.",
+      "source_context": "Stakes section outlining narratives by Georgian Dream and opposition parties."
+    },
+    {
+      "evidence": "European institutions warned pre-election that Georgia’s framework contained structural obstacles to fair competition, with the ‘transparency of foreign influence’ law flagged as chilling monitoring and opposition without outright bans.",
+      "is_acled_data": false,
+      "reasoning": "The evidence discusses European institutions’ warnings about electoral framework and a foreign influence law chilling monitoring/opposition—this is policy/legal analysis and political commentary, not event-based conflict data or statistics from ACLED.",
+      "source_context": "References to PACE Resolution 2561 and EU bodies’ critiques of the law and systemic issues."
+    },
+    {
+      "evidence": "Authorities shifted from visible street-level coercion in spring 2024 to apparent restraint by late summer through election day, replacing police-heavy tactics with deniable intimidation and legal controls.",
+      "is_acled_data": false,
+      "reasoning": "The statement is qualitative analysis about shifts in policing and intimidation tactics over time, without referencing specific ACLED event counts, categories, locations, or actor-level data. It reads as general political/security commentary rather than data explicitly tied to ACLED event records or trends.",
+      "source_context": "Central argument describing a two-phase containment strategy."
+    },
+    {
+      "evidence": "Protests surged in April–May 2024 during the foreign influence law fight, peaking at 41 events in April and 53 in May—the highest monthly totals in the 22-month dataset.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites monthly counts of protest events and references a 22‑month dataset, which aligns with ACLED’s event-count time series for protests/riots and temporal trend analysis. These specific event counts and peak months are characteristic outputs of ACLED data.",
+      "source_context": "Timeline section citing ACLED monthly counts."
+    },
+    {
+      "evidence": "Police interventions concentrated in April–May (five each month), with May containing the only two 2024 incidents coded as excessive force against protesters, plus clustered arrests and injuries.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites month-specific counts of police interventions and identifies incidents coded as excessive force against protesters, along with arrests and injuries—details characteristic of ACLED event coding and temporal patterning of protest/riot events.",
+      "source_context": "Spring surge details: interventions, excessive force, arrests, and injuries."
+    },
+    {
+      "evidence": "June marked a hinge: protests dropped to 14, but interventions and arrests remained comparatively elevated relative to the smaller protest volume, indicating disproportionate enforcement as mobilization ebbed.",
+      "is_acled_data": true,
+      "reasoning": "The statement references specific protest event counts (14 in June) and interprets enforcement trends relative to protest volume, which aligns with ACLED’s event count and temporal trend data on protests and related policing/riots. This is characteristic of analysis derived from ACLED event data.",
+      "source_context": "June transition analysis."
+    },
+    {
+      "evidence": "From August to October 2024, protests continued (25 events total) with no recorded police interventions, no excessive-force incidents, and no protest-linked arrests or injuries; October had 10 demos without intervention.",
+      "is_acled_data": true,
+      "reasoning": "The evidence reports specific counts of protest events over a defined period, notes absence of police intervention, arrests, injuries, and provides monthly event counts—this aligns with ACLED’s event-based protest and intervention data and temporal trend summaries.",
+      "source_context": "Autumn restraint documented via ACLED indicators."
+    },
+    {
+      "evidence": "On election day (Oct 26), ACLED logged six events (three riots, three strategic developments) with minimal injuries, no fatalities, and no arrests; security forces were not central actors.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific ACLED-logged event counts on a given date, with event types (riots, strategic developments), casualties, arrests, and actor involvement—core elements of ACLED event data explicitly attributed to ACLED.",
+      "source_context": "Election day event composition and severity profile."
+    },
+    {
+      "evidence": "Georgia’s protest-intervention rate in 2024 is lower than Armenia’s and far below Azerbaijan’s despite Georgia having a higher protest volume than Azerbaijan, indicating reliance on alternatives to constant visible crackdowns.",
+      "is_acled_data": true,
+      "reasoning": "The statement compares protest volumes and intervention rates across Georgia, Armenia, and Azerbaijan—metrics ACLED tracks through protest/riot event counts and whether state forces intervened. Cross-country comparisons of protest volumes and intervention rates are typical ACLED-derived analyses of event data and trends.",
+      "source_context": "Regional comparison of intervention rates and protest volumes."
+    },
+    {
+      "evidence": "Non-lethal ‘violence against civilians’ rose fivefold year-on-year (Jan–Oct 2023 vs Jan–Oct 2024), from three to 15 incidents, signaling increased intimidation short of lethal force rather than escalation to armed conflict.",
+      "is_acled_data": true,
+      "reasoning": "The statement cites counts of 'violence against civilians' incidents over specific periods and compares year-on-year event totals—metrics directly aligned with ACLED event categories and temporal trend analyses. This is characteristic of ACLED-derived data on incident counts and violence against civilians.",
+      "source_context": "Violence against civilians trend description and interpretation."
+    },
+    {
+      "evidence": "Targeted attacks clustered between May 5 and June 25 and primarily hit political and civic actors—student leaders, NGO staff, journalists, and opposition figures—often linked to opposition to the foreign influence law.",
+      "is_acled_data": true,
+      "reasoning": "The evidence describes a specific temporal cluster of targeted attacks, identifies victim categories (civilians such as student leaders, NGO staff, journalists, opposition figures), and links them to a particular issue, which aligns with ACLED’s event-based data on violence against civilians, actor-level details, and temporal pattern analysis. This resembles insights derived from ACLED-style event coding rather than general commentary.",
+      "source_context": "Temporal and victim profiling of civilian-targeting incidents."
+    },
+    {
+      "evidence": "All 15 civilian-targeting incidents were coded with perpetrators as ‘Unidentified Armed Group (Georgia)’, suggesting coercion aligned with ruling-party interests while maintaining plausible deniability.",
+      "is_acled_data": true,
+      "reasoning": "Mentions specific count of civilian-targeting incidents (15) and coding of perpetrators as ‘Unidentified Armed Group (Georgia)’, which matches ACLED’s event-level and actor coding structure for violence against civilians.",
+      "source_context": "Actor coding and its implication for deniability."
+    },
+    {
+      "evidence": "These intimidation incidents were geographically concentrated in Tbilisi (10 of 15), reflecting focus on the capital’s media, NGO, and party ecosystems rather than nationwide indiscriminate coercion.",
+      "is_acled_data": false,
+      "reasoning": "The statement discusses the concentration of intimidation incidents in Tbilisi without citing specific ACLED event counts or attribution. It reads as analytical commentary about geographic focus rather than explicit ACLED-derived event data or statistics.",
+      "source_context": "Geographic distribution of violence against civilians."
+    },
+    {
+      "evidence": "Election-day violence followed the same pattern: partisan mobs and unidentified actors vandalized opposition offices and clashed with rivals, with minimal injuries and no arrests recorded.",
+      "is_acled_data": true,
+      "reasoning": "The evidence describes election-day violence patterns, including actors involved, clashes, vandalism, injuries, and arrests—details consistent with ACLED event descriptions and conflict trend analysis. It references event-level characteristics and outcomes (minimal injuries, no arrests), which align with ACLED’s riots/protests and violence against civilians data.",
+      "source_context": "Oct 26 specific incidents in Tbilisi, Zugdidi, Kizilajlo and their severity profile."
+    },
+    {
+      "evidence": "The foreign influence law, passed over a presidential veto, is presented by the government as transparency-enhancing but criticized by international watchdogs for chilling independent monitoring and skewing the electoral playing field.",
+      "is_acled_data": false,
+      "reasoning": "The statement concerns a policy (foreign influence law), its passage over a veto, and reactions by watchdogs. This is political/legal analysis and commentary about legislation, not conflict event data, fatalities, or ACLED-derived trends. Therefore, it is not derived from ACLED data.",
+      "source_context": "Legal engineering section describing competing narratives and critiques."
+    },
+    {
+      "evidence": "ACLED data show 200 protests and only 13 interventions across Jan–Oct 2024, with zero interventions from August to October despite 25 demonstrations, reinforcing the shift away from visible repression near the election.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific counts of protests and interventions over a defined period, including monthly/temporal patterns and references to demonstrations and state interventions. These are event counts and temporal trends that align with ACLED’s protest/riot and actor intervention data, explicitly attributed as “ACLED data show…,” indicating derivation from ACLED event data.",
+      "source_context": "Aggregate counts linking legal context with policing trends."
+    },
+    {
+      "evidence": "Compared to the 2020 election window (July–October), the 2024 period saw just seven election-related demonstrations (vs. 91 in 2020), with zero fatalities and injuries in both cycles, indicating a calmer but more constrained field of contention.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites counts of election-related demonstrations over specific time windows and compares them across years, along with fatalities/injuries counts. These are characteristic ACLED metrics (event counts by category, temporal comparison, and fatality figures) and align with ACLED’s protest/riot and casualty datasets, suggesting derivation from ACLED event data.",
+      "source_context": "Historical comparison of election-period demonstrations and severity."
+    },
+    {
+      "evidence": "Beyond demonstrations, ‘violence against civilians’ was the most frequent non-protest event type through October 2024 (15 incidents, all non-lethal), alongside six ‘strategic developments,’ highlighting a pivot to quieter pressure tactics.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific ACLED-style event categories (‘violence against civilians,’ ‘strategic developments’), provides incident counts and lethality, and frames temporal scope through October 2024—characteristic of ACLED event data and taxonomy.",
+      "source_context": "Distribution of non-demonstration event types and lethality."
+    },
+    {
+      "evidence": "The observed governance template: apply targeted force and intimidation during early-year unrest; subsequently reduce visible policing as elections near; and use legal frameworks to structurally favor incumbents while maintaining formal electoral processes.",
+      "is_acled_data": false,
+      "reasoning": "This is a qualitative governance/strategy inference about policing and legal frameworks, not a citation of specific ACLED event counts, actors, locations, fatalities, or trends. It reads as general political analysis rather than data tied to ACLED event records.",
+      "source_context": "Synthesis of timing, tactics, and legal context leading to a ‘repression without bloodshed’ model."
+    },
+    {
+      "evidence": "Georgia’s 2024 cycle exemplifies ‘repression without bloodshed’: frequent injuries and targeted intimidation, no protest fatalities, deniable perpetrators, and legal rules that erode competitive politics without overt mass violence.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a qualitative characterization of the election environment (“repression without bloodshed,” intimidation, lack of fatalities) without citing specific ACLED event counts, actor data, or fatality figures. It reads as analytical commentary rather than reference to ACLED-derived event statistics or trends.",
+      "source_context": "Conclusion summarizing the paradox and its mechanisms."
+    },
+    {
+      "evidence": "For international monitoring and Georgia’s EU aspirations, the key risk shifts from headline casualty counts to the choreography of timing, deniable violence, and legal engineering that can hollow out democracy while keeping streets superficially calm.",
+      "is_acled_data": false,
+      "reasoning": "The evidence is a qualitative, general analytical statement about risks, tactics, and democratic erosion, not referencing event counts, fatalities, locations, or any ACLED-derived metrics. It is not tied to specific ACLED event data or trends.",
+      "source_context": "Final implication for monitoring and EU trajectory."
+    }
+  ],
+  "insights": [
+    {
+      "insight": "Georgia’s 2024 unrest featured mass protests and intense polarization but officially recorded no protest-related fatalities and relatively few police interventions, even during large post-election rallies.",
+      "context": "Intro: contrasts chaotic optics with a near bloodless official record in 2024 using ACLED and post-election scenes."
+    },
+    {
+      "insight": "The October 26 parliamentary elections were framed as a referendum on Georgia’s trajectory: potential one-party dominance under Georgian Dream versus a return to competitive pluralism and closer EU integration.",
+      "context": "Stakes section outlining narratives by Georgian Dream and opposition parties."
+    },
+    {
+      "insight": "European institutions warned pre-election that Georgia’s framework contained structural obstacles to fair competition, with the ‘transparency of foreign influence’ law flagged as chilling monitoring and opposition without outright bans.",
+      "context": "References to PACE Resolution 2561 and EU bodies’ critiques of the law and systemic issues."
+    },
+    {
+      "insight": "Authorities shifted from visible street-level coercion in spring 2024 to apparent restraint by late summer through election day, replacing police-heavy tactics with deniable intimidation and legal controls.",
+      "context": "Central argument describing a two-phase containment strategy."
+    },
+    {
+      "insight": "Protests surged in April–May 2024 during the foreign influence law fight, peaking at 41 events in April and 53 in May—the highest monthly totals in the 22-month dataset.",
+      "context": "Timeline section citing ACLED monthly counts."
+    },
+    {
+      "insight": "Police interventions concentrated in April–May (five each month), with May containing the only two 2024 incidents coded as excessive force against protesters, plus clustered arrests and injuries.",
+      "context": "Spring surge details: interventions, excessive force, arrests, and injuries."
+    },
+    {
+      "insight": "June marked a hinge: protests dropped to 14, but interventions and arrests remained comparatively elevated relative to the smaller protest volume, indicating disproportionate enforcement as mobilization ebbed.",
+      "context": "June transition analysis."
+    },
+    {
+      "insight": "From August to October 2024, protests continued (25 events total) with no recorded police interventions, no excessive-force incidents, and no protest-linked arrests or injuries; October had 10 demos without intervention.",
+      "context": "Autumn restraint documented via ACLED indicators."
+    },
+    {
+      "insight": "On election day (Oct 26), ACLED logged six events (three riots, three strategic developments) with minimal injuries, no fatalities, and no arrests; security forces were not central actors.",
+      "context": "Election day event composition and severity profile."
+    },
+    {
+      "insight": "Georgia’s protest-intervention rate in 2024 is lower than Armenia’s and far below Azerbaijan’s despite Georgia having a higher protest volume than Azerbaijan, indicating reliance on alternatives to constant visible crackdowns.",
+      "context": "Regional comparison of intervention rates and protest volumes."
+    },
+    {
+      "insight": "Non-lethal ‘violence against civilians’ rose fivefold year-on-year (Jan–Oct 2023 vs Jan–Oct 2024), from three to 15 incidents, signaling increased intimidation short of lethal force rather than escalation to armed conflict.",
+      "context": "Violence against civilians trend description and interpretation."
+    },
+    {
+      "insight": "Targeted attacks clustered between May 5 and June 25 and primarily hit political and civic actors—student leaders, NGO staff, journalists, and opposition figures—often linked to opposition to the foreign influence law.",
+      "context": "Temporal and victim profiling of civilian-targeting incidents."
+    },
+    {
+      "insight": "All 15 civilian-targeting incidents were coded with perpetrators as ‘Unidentified Armed Group (Georgia)’, suggesting coercion aligned with ruling-party interests while maintaining plausible deniability.",
+      "context": "Actor coding and its implication for deniability."
+    },
+    {
+      "insight": "These intimidation incidents were geographically concentrated in Tbilisi (10 of 15), reflecting focus on the capital’s media, NGO, and party ecosystems rather than nationwide indiscriminate coercion.",
+      "context": "Geographic distribution of violence against civilians."
+    },
+    {
+      "insight": "Election-day violence followed the same pattern: partisan mobs and unidentified actors vandalized opposition offices and clashed with rivals, with minimal injuries and no arrests recorded.",
+      "context": "Oct 26 specific incidents in Tbilisi, Zugdidi, Kizilajlo and their severity profile."
+    },
+    {
+      "insight": "The foreign influence law, passed over a presidential veto, is presented by the government as transparency-enhancing but criticized by international watchdogs for chilling independent monitoring and skewing the electoral playing field.",
+      "context": "Legal engineering section describing competing narratives and critiques."
+    },
+    {
+      "insight": "ACLED data show 200 protests and only 13 interventions across Jan–Oct 2024, with zero interventions from August to October despite 25 demonstrations, reinforcing the shift away from visible repression near the election.",
+      "context": "Aggregate counts linking legal context with policing trends."
+    },
+    {
+      "insight": "Compared to the 2020 election window (July–October), the 2024 period saw just seven election-related demonstrations (vs. 91 in 2020), with zero fatalities and injuries in both cycles, indicating a calmer but more constrained field of contention.",
+      "context": "Historical comparison of election-period demonstrations and severity."
+    },
+    {
+      "insight": "Beyond demonstrations, ‘violence against civilians’ was the most frequent non-protest event type through October 2024 (15 incidents, all non-lethal), alongside six ‘strategic developments,’ highlighting a pivot to quieter pressure tactics.",
+      "context": "Distribution of non-demonstration event types and lethality."
+    },
+    {
+      "insight": "The observed governance template: apply targeted force and intimidation during early-year unrest; subsequently reduce visible policing as elections near; and use legal frameworks to structurally favor incumbents while maintaining formal electoral processes.",
+      "context": "Synthesis of timing, tactics, and legal context leading to a ‘repression without bloodshed’ model."
+    },
+    {
+      "insight": "Georgia’s 2024 cycle exemplifies ‘repression without bloodshed’: frequent injuries and targeted intimidation, no protest fatalities, deniable perpetrators, and legal rules that erode competitive politics without overt mass violence.",
+      "context": "Conclusion summarizing the paradox and its mechanisms."
+    },
+    {
+      "insight": "For international monitoring and Georgia’s EU aspirations, the key risk shifts from headline casualty counts to the choreography of timing, deniable violence, and legal engineering that can hollow out democracy while keeping streets superficially calm.",
+      "context": "Final implication for monitoring and EU trajectory."
+    }
+  ],
+  "prompt": "Provide an analysis of Georgia's upcoming election, civil unrest, and political developments as of October 2024."
+}

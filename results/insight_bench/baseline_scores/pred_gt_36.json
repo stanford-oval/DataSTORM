@@ -1,0 +1,85 @@
+{
+  "dataset_id": 36,
+  "dataset_path": "data/notebooks/flag-36.json",
+  "metadata": {
+    "category": "Goal Management",
+    "dataset_description": "The dataset combines 1,050 entries from two simulated ServiceNow `sn_gf_goal` tables, capturing various attributes related to organizational goals. These attributes include goal state, owner, department, start and end dates, descriptions, and key performance metrics such as priority, percent complete, and target percentage. The dataset offers a comprehensive view of goal management across departments, with a focus on cross-departmental collaboration, seasonal performance trends, and priority-level efficiency. The data also tracks updates to each goal, documenting the timeline of changes and the individuals responsible for these updates, providing a rich context for analyzing organizational efficiency and strategic goal alignment.",
+    "goal": "Analyze the impact of cross-departmental collaboration and seasonal timing on the success rates of organizational goals. Additionally, assess how task priority correlates with completion rates across different categories to optimize resource allocation and strategic planning.",
+    "header": "Cross-Departmental and Temporal Performance Analysis (Flag 36)",
+    "role": "Strategic Performance Analyst"
+  },
+  "predicted_insights": [
+    "Cross-departmental collaboration outperformed non-collaboration every quarter, averaging ~29.1% vs ~18.2% goal_met (~11 percentage points higher) and peaking in Q4 with a ~16.2 pp advantage (42.9% vs 26.7%), suggesting the strongest seasonal benefit in Q4.",
+    "Across all five categories, High priority has the highest average completion (69.10%–75.77%), exceeding Critical by 4–20 percentage points, with the largest gap in Customer Satisfaction (High 75.77% vs Critical 55.61%), suggesting that “critical” items are more challenging rather than faster to complete.",
+    "Seasonality is pronounced: Q4 has the highest success rate in every category (peaking at 37.3% for Revenue Growth and ~35–36% for Cost Reduction and Process Improvement), while Q3 is often the weakest (as low as 8.2% for Customer Satisfaction and 9.4% for Innovation), and Revenue Growth uniquely rises steadily each quarter (14.8% → 22.2% → 26.8% → 37.3%), suggesting a strategic advantage in timing revenue initiatives later in the year and shoring up capacity in Q3.",
+    "Goal success rates tend to peak in Q4 across all priorities—most notably High priority at 47.83% (18.58 to 26.09 percentage points higher than other priorities)—while Low priority bottoms out in Q3 at just 2.5%, indicating strong seasonal effects on outcomes.",
+    "High priority outperforms Low by large margins in Process Improvement (+32.33 pts) and Cost Reduction (+30.39 pts) but only modestly in Innovation (+5.97 pts), indicating prioritization yields the biggest execution gains in operational/efficiency goals and the smallest in innovation-focused work.",
+    "While HR shows the top positive link, the correlations are generally weak across departments (|r| ≤ 0.153) and span from 0.1525 (HR) to -0.0753 (Sales), a spread of about 0.228, suggesting that priority alone explains little of completion variance and other factors (e.g., timing or category) likely drive outcomes.",
+    "Despite being fewer in number (320 cross-departmental vs 730 single-department), cross-departmental goals achieved a markedly higher success rate (29.4% vs 18.1%), hinting that collaboration may materially improve goal attainment.",
+    "Critical tasks lag targets by ~5.0 percentage points more than the dataset’s overall average shortfall (~14.7 pp from mean targets minus mean completion) and about 2.46× more than High-priority tasks, highlighting them as the highest-leverage area for closing performance gaps.",
+    "High-priority goals have the smallest shortfall on average across categories (~-7.98 p.p. vs. Medium ~-14.81, Low ~-19.20, Critical ~-19.90), while Revenue Growth–Critical shows the largest gap (-25.28 p.p.), indicating prioritization likely improves goal attainment relative to targets.",
+    "Q4’s success rate (31.82%) exceeds Q1–Q3 by 12.07–17.48 percentage points (vs 19.75%, 20.14%, 14.34%), suggesting a strong end-of-year seasonal uplift that could be leveraged when scheduling cross-departmental goals and allocating resources.",
+    "While the average adjusted effect is near zero, the impact varies strongly by season: cross-departmental goals underperform in Q1 (−13.4 pp) and Q4 (−5.5 pp) but outperform in Q2 (+16.9 pp) and Q3 (+5.9 pp), suggesting timing cross-functional initiatives toward Q2–Q3 could improve success rates.",
+    "Mentions rise slightly over the year, peaking in Q4 and running about 3.04 percentage points higher than Q2, indicating collaboration-heavy goals tend to cluster toward year-end."
+  ],
+  "predicted_summary": "Seasonal timing is a major driver of success: overall goal_met rates peak in Q4 at 31.82% (vs Q1 19.75%, Q2 20.14%, Q3 14.34%), roughly doubling Q3. By category, Q4 is the high point for 4 of 5 categories—Cost Reduction 35.7%, Customer Satisfaction 32.1%, Process Improvement 35.6%, Revenue Growth 37.3%—while Innovation peaks in Q2 (24.5% vs Q4 19.6%). Q3 is broadly a low point (e.g., Customer Satisfaction just 8.2%).\nCross-departmental collaboration shows a descriptive edge but a limited independent effect once timing is accounted for: within each quarter, cross-departmental goals outperform single-department goals by 4.7–16.2 percentage points (Q1 23.0% vs 18.3%; Q2 28.8% vs 16.7%; Q3 22.0% vs 10.9%; Q4 42.9% vs 26.7%), and overall the odds of success are higher (odds ratio ≈1.88). However, controlling for quarter reduces the estimated effect to ≈−0.4 percentage points, and cross-departmental prevalence is stable across quarters (≈29–32%), indicating much of the apparent advantage is explained by seasonality and goal mix rather than collaboration alone.\nPriority relates to performance in a non-linear way: High-priority goals consistently deliver the strongest results, while Critical goals underperform relative to targets. High has the highest goal_met rate in every quarter (Q1 34.67%, Q2 28.99%, Q3 26.87%, Q4 47.83%) and across all categories (≈23–40% depending on category), and the highest average percent_complete across categories (≈69–76%). Critical has the largest shortfalls from target (average shortfall ≈19.7 points; ≈15–25 points by category) and lower goal_met rates (≈3.7–16.7%), whereas High’s shortfalls are the smallest (≈5.5–12.5 points), with High typically outperforming Critical by 6–20 percentage points in completion.",
+  "score_insights": 0.381879565934924,
+  "score_insights_dict": [
+    {
+      "gt_insight": "",
+      "pred_insight": "Mentions rise slightly over the year, peaking in Q4 and running about 3.04 percentage points higher than Q2, indicating collaboration-heavy goals tend to cluster toward year-end.",
+      "score": 0.314095255017481
+    },
+    {
+      "gt_insight": "",
+      "pred_insight": "Despite being fewer in number (320 cross-departmental vs 730 single-department), cross-departmental goals achieved a markedly higher success rate (29.4% vs 18.1%), hinting that collaboration may materially improve goal attainment.",
+      "score": 0.382948724061577
+    },
+    {
+      "gt_insight": "",
+      "pred_insight": "Despite being fewer in number (320 cross-departmental vs 730 single-department), cross-departmental goals achieved a markedly higher success rate (29.4% vs 18.1%), hinting that collaboration may materially improve goal attainment.",
+      "score": 0.407905295460242
+    },
+    {
+      "gt_insight": "",
+      "pred_insight": "Despite being fewer in number (320 cross-departmental vs 730 single-department), cross-departmental goals achieved a markedly higher success rate (29.4% vs 18.1%), hinting that collaboration may materially improve goal attainment.",
+      "score": 0.41802171155209294
+    },
+    {
+      "gt_insight": "",
+      "pred_insight": "Despite being fewer in number (320 cross-departmental vs 730 single-department), cross-departmental goals achieved a markedly higher success rate (29.4% vs 18.1%), hinting that collaboration may materially improve goal attainment.",
+      "score": 0.3864268435832269
+    }
+  ],
+  "score_summary": 0.5737302033528242,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.7564750296080907,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "Mentions rise slightly over the year, peaking in Q4 and running about 3.04 percentage points higher than Q2, indicating collaboration-heavy goals tend to cluster toward year-end.",
+      "gt_insight": "",
+      "score": 0.7607334228102477
+    },
+    {
+      "pred_insight": "While HR shows the top positive link, the correlations are generally weak across departments (|r| ≤ 0.153) and span from 0.1525 (HR) to -0.0753 (Sales), a spread of about 0.228, suggesting that priority alone explains little of completion variance and other factors (e.g., timing or category) likely drive outcomes.",
+      "gt_insight": "",
+      "score": 0.7554104313075514
+    },
+    {
+      "pred_insight": "While HR shows the top positive link, the correlations are generally weak across departments (|r| ≤ 0.153) and span from 0.1525 (HR) to -0.0753 (Sales), a spread of about 0.228, suggesting that priority alone explains little of completion variance and other factors (e.g., timing or category) likely drive outcomes.",
+      "gt_insight": "",
+      "score": 0.7554104313075514
+    },
+    {
+      "pred_insight": "While HR shows the top positive link, the correlations are generally weak across departments (|r| ≤ 0.153) and span from 0.1525 (HR) to -0.0753 (Sales), a spread of about 0.228, suggesting that priority alone explains little of completion variance and other factors (e.g., timing or category) likely drive outcomes.",
+      "gt_insight": "",
+      "score": 0.7554104313075514
+    },
+    {
+      "pred_insight": "While HR shows the top positive link, the correlations are generally weak across departments (|r| ≤ 0.153) and span from 0.1525 (HR) to -0.0753 (Sales), a spread of about 0.228, suggesting that priority alone explains little of completion variance and other factors (e.g., timing or category) likely drive outcomes.",
+      "gt_insight": "",
+      "score": 0.7554104313075514
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.1053912715045291,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.6998653774444056
+}

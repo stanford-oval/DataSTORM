@@ -1,0 +1,322 @@
+{
+  "total_insights": 31,
+  "total_classified": 31,
+  "acled_count": 20,
+  "non_acled_count": 11,
+  "pct_acled": 0.6451612903225806,
+  "details": [
+    {
+      "evidence": "By late 2024, drones accounted for up to 75% of combat losses and shifted from auxiliary roles to orchestrating artillery and delivering decisive attrition.",
+      "is_acled_data": false,
+      "reasoning": "The claim about drones comprising up to 75% of combat losses and their evolving roles is a broad analytical/statistical assertion about warfare dynamics, not tied to ACLED event counts, fatalities, or actor/location-specific event data. It resembles military/technology analysis rather than ACLED-derived conflict event statistics, and there is no explicit attribution to ACLED.",
+      "source_context": "Engines of Escalation: Drones, Data, and the Compression of Decision Time; citing [1]."
+    },
+    {
+      "evidence": "AI-enabled targeting, including facial recognition identifying over 250,000 Russian soldiers, compressed decision cycles and prioritized sensor-to-shooter fusion as a key competitive edge.",
+      "is_acled_data": false,
+      "reasoning": "The evidence discusses AI-enabled targeting capabilities and facial recognition identifying 250,000 Russian soldiers—technology, capability, and force-identification claims—not event-based conflict data. It is general analytic/technology commentary and not tied to ACLED’s event counts, fatalities, locations, or actor/event coding, nor is it attributed to ACLED.",
+      "source_context": "Engines of Escalation: Drones, Data, and the Compression of Decision Time; citing [2]."
+    },
+    {
+      "evidence": "Remote explosions occurred about twice as often as direct battles in 2024, but battles had roughly ten times higher fatalities per incident, making shifts toward close combat disproportionately deadly.",
+      "is_acled_data": true,
+      "reasoning": "The statement compares frequencies of event types (remote explosions vs. direct battles) and their fatalities per incident in 2024, which aligns with ACLED’s event-type categories and fatality counts and enables temporal trend analysis derived from ACLED event data.",
+      "source_context": "Engines of Escalation; data summary referencing [3]."
+    },
+    {
+      "evidence": "In late 2024, Kharkiv saw a sharp rise in battle-classified engagements and a decline in explosions, indicating more frequent direct clashes under drone-directed fire.",
+      "is_acled_data": true,
+      "reasoning": "Mentions specific conflict event categories (battles vs explosions/remote violence) and temporal trend (rise/decline) in a specific location (Kharkiv) in late 2024, which aligns with ACLED’s event-type counts and trend analysis by location and time.",
+      "source_context": "Engines of Escalation; trend note referencing [4]."
+    },
+    {
+      "evidence": "Civilian-targeted explosions in H2 2024 produced the highest fatalities in Donetsk while Kherson recorded the most such events, revealing different regional harm profiles.",
+      "is_acled_data": true,
+      "reasoning": "The statement cites subnational comparisons of civilian-targeted explosions, including counts of events and associated fatalities by region (Donetsk highest fatalities; Kherson most events) in H2 2024. This aligns with ACLED’s event-type categories (explosions/remote violence, violence against civilians), fatality figures, geographic breakdowns, and temporal framing—typical outputs from ACLED event data and trend analysis.",
+      "source_context": "Engines of Escalation; citing [5][6]."
+    },
+    {
+      "evidence": "Black Sea naval and port-targeting activity peaked in October 2024, marking a pulsed escalation rather than a steady trend.",
+      "is_acled_data": true,
+      "reasoning": "The statement references a temporal pattern in conflict activity (naval and port-targeting events peaking in October 2024), which aligns with ACLED’s event-based counts and trend analysis by time. Such peak/temporal escalation assessments are commonly derived from ACLED’s event data and timelines.",
+      "source_context": "Engines of Escalation; referencing [7]."
+    },
+    {
+      "evidence": "The August 2024 incursion into Russia’s Kursk region and heavy year-end casualties intensified the war’s tempo without producing a breakthrough.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a high-level narrative about an incursion and overall casualties/tempo without citing specific event counts, locations, actors, or fatality figures from ACLED. It reads as general analysis rather than data explicitly attributed to ACLED event records or trends.",
+      "source_context": "Engines of Escalation; contextual note citing [8]."
+    },
+    {
+      "evidence": "Donetsk and Luhansk battle events nearly doubled from early 2024 to Q4, reaching almost 1,500 in December, signaling a clear escalation into winter.",
+      "is_acled_data": true,
+      "reasoning": "The statement cites specific counts and temporal trends of battle events in Donetsk and Luhansk, which aligns with ACLED’s event-based battle data and subnational, time-series conflict metrics. This is characteristic of ACLED-derived event count analysis.",
+      "source_context": "Where the War Ran Hottest; monthly battle trends citing [9]."
+    },
+    {
+      "evidence": "Battle-related fatalities in Donbas surged faster than event counts starting in May and remained elevated through year-end, indicating rising lethality even when clash numbers plateaued.",
+      "is_acled_data": true,
+      "reasoning": "The statement references battle-related fatalities versus event counts over specific months, describing lethality trends—metrics ACLED tracks (event counts, fatalities, temporal patterns). This aligns with ACLED-derived conflict trend analysis using its event and fatality data.",
+      "source_context": "Where the War Ran Hottest; fatalities vs events citing [10]."
+    },
+    {
+      "evidence": "In Donetsk Q4 2024, battles overtook explosions as the dominant violence type, with December recording 1,353 battle events and 4,335 battle fatalities while explosion fatalities fell to 325.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific subnational event and fatality counts by violence type (battles vs. explosions) and temporal detail (Q4 2024, December), which aligns with ACLED’s event-based data, battle/explosion categories, fatalities, and trend analysis at the regional level (Donetsk). This granularity and categorization are characteristic of ACLED outputs.",
+      "source_context": "Where the War Ran Hottest; Q4 comparative metrics citing [11]."
+    },
+    {
+      "evidence": "December 2024 featured punishing spikes in Donetsk, including December 23 with 65 battle events and 231 fatalities, illustrating high-activity days with variable lethality.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific daily counts of battle events and fatalities for a particular date and region, which aligns with ACLED’s event-level data (battle events, temporal patterns, and fatality figures).",
+      "source_context": "Where the War Ran Hottest; daily spikes citing [12]."
+    },
+    {
+      "evidence": "Within Donetsk, Pokrovska and Hrodivska hromadas concentrated high fatalities on fewer events, while Kurakhivska had many engagements but lower per-event lethality, reflecting mixed tactics across sectors.",
+      "is_acled_data": true,
+      "reasoning": "Mentions subnational locations (hromadas), compares event counts and per-event lethality, and discusses fatalities and engagements—hallmarks of ACLED’s event-level, geographic, and fatality data and derived trend analysis.",
+      "source_context": "Where the War Ran Hottest; hromada-level patterns citing [13]."
+    },
+    {
+      "evidence": "Locations like Ocheretynska and Marinska saw high battle event counts, while Hrodivska posted outsized fatalities relative to events.",
+      "is_acled_data": true,
+      "reasoning": "Mentions specific subnational locations with high battle event counts and outsized fatalities relative to events—these are hallmark ACLED metrics (event counts, battle categories, fatalities, geographic breakdown).",
+      "source_context": "Where the War Ran Hottest; location highlights citing [14]."
+    },
+    {
+      "evidence": "Drone-related incidents around Crimea were relatively steady in 2024 but peaked in October; fatalities clustered in a few months, suggesting variability in lethality rather than frequency.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references temporal patterns of conflict events (drone-related incidents) and clustering of fatalities—both are typical ACLED-derived metrics (event counts over time and fatality distributions). It describes trends (steady vs. peak in October) and lethality variability, which align with ACLED’s event and fatality time-series analyses, even though ACLED is not explicitly cited.",
+      "source_context": "Where the War Ran Hottest; Crimea/Black Sea drone patterns citing [15][16]."
+    },
+    {
+      "evidence": "Late-2024 ground trends align with Russian resource constraints and do not alone indicate sustained maritime escalation.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a high-level analytical assessment about resource constraints and maritime escalation, not referencing specific conflict event data, counts, locations, fatalities, or ACLED-derived trends. It reads as general geopolitical analysis rather than data explicitly tied to ACLED events.",
+      "source_context": "Where the War Ran Hottest; strategic interpretation citing [17]."
+    },
+    {
+      "evidence": "Cross-border strike fatalities inside Russia increased more than sixfold in H2 2024, with Kursk’s August–October period driving the surge (876 deaths across the three months, 347 in September).",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific fatality counts, temporal patterns (H2 2024 and monthly breakdown), geographic focus (inside Russia, Kursk), and cross-border strike events—exactly the type of event- and fatality-based conflict trend data ACLED provides.",
+      "source_context": "Borders Blur; cross-border lethality citing [18]."
+    },
+    {
+      "evidence": "Kursk’s event distribution featured many no-fatality or single-fatality incidents but a thin tail of mass-casualty outliers (up to 100 deaths in one event) that dominated totals.",
+      "is_acled_data": true,
+      "reasoning": "Describes subnational event distribution and fatality counts, including mass-casualty outliers dominating totals—exactly the type of event-level and fatality pattern analysis ACLED provides from its conflict event dataset.",
+      "source_context": "Borders Blur; event-level fatality distribution citing [19]."
+    },
+    {
+      "evidence": "Belgorod experienced the highest volume of cross-border strikes (nearly 1,000 in August) but relatively low fatalities, showing a weak link between event volume and deaths.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites event counts (nearly 1,000 cross-border strikes in a specific month and location) and relates them to fatalities, which aligns with ACLED’s event-level data and fatality figures with subnational and temporal breakdowns.",
+      "source_context": "Borders Blur; Belgorod volume-lethality relationship citing [18][20]."
+    },
+    {
+      "evidence": "Bryansk remained comparatively quiet with few events and isolated fatal months, contrasting with Belgorod and Kursk patterns.",
+      "is_acled_data": true,
+      "reasoning": "The statement compares subnational conflict activity levels and temporal fatality patterns across specific regions (Bryansk vs. Belgorod and Kursk), which aligns with ACLED’s event counts, fatality data, and subnational trend analysis derived from its event dataset.",
+      "source_context": "Borders Blur; regional comparison citing [18][20]."
+    },
+    {
+      "evidence": "Cross-border activity into Russia in 2024 was dominated by remote violence (air/drone and artillery), creating routine fire without set-piece battles on Russian soil.",
+      "is_acled_data": true,
+      "reasoning": "The statement describes the type of cross-border conflict activity in 2024 as predominantly “remote violence” (air/drone, artillery) without set-piece battles on Russian soil. ACLED categorizes events by event type (e.g., explosions/remote violence vs. battles) and tracks temporal patterns and locations, enabling such a characterization. This aligns with ACLED’s event-type and trend analysis, suggesting it could be derived from ACLED data.",
+      "source_context": "Borders Blur; modality characterization citing [21]."
+    },
+    {
+      "evidence": "Civilian-targeting incidents inside Ukraine rose in H2 2024, with the largest percentage increases in Kyiv City, Luhansk, Zaporizhia, Sumy, and Kherson, and the largest absolute gains in Donetsk and Kherson.",
+      "is_acled_data": true,
+      "reasoning": "The statement references subnational trends in civilian-targeting incidents, specifying H2 2024 changes and identifying oblast/city-level increases. This aligns with ACLED’s event-based data on violence against civilians and its temporal and geographic trend analysis; the phrasing and metrics (percentage and absolute gains by region) are characteristic of ACLED-derived analysis.",
+      "source_context": "Borders Blur; civilian-targeting trends citing [22]."
+    },
+    {
+      "evidence": "Although only about one in nine explosions/remote attacks nationwide explicitly targeted civilians, the absolute scale reached 3,922 such incidents in 2024, straining urban services and utilities.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites counts of explosions/remote violence and specifies how many explicitly targeted civilians—both are standard ACLED event categories (explosions/remote violence and violence against civilians) with temporal aggregation for 2024. This aligns with ACLED’s event-count statistics and categorization, suggesting derivation from ACLED data.",
+      "source_context": "Borders Blur; national civilian-targeting share citing [23]."
+    },
+    {
+      "evidence": "Explosions outnumbered battles each month in 2024, while battles peaked in December, indicating a protracted, resource-intensive conflict trajectory.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references monthly counts and comparisons of event types (explosions vs. battles) and identifies a temporal peak, which aligns with ACLED’s event-type categories and trend analysis derived from its conflict event data.",
+      "source_context": "Polarized Backers; monthly mode comparison citing [24]."
+    },
+    {
+      "evidence": "Regional lethality diverged: Donetsk had high battle volumes with lower per-event deaths, whereas Kherson had fewer engagements but high fatalities per event.",
+      "is_acled_data": true,
+      "reasoning": "The statement compares subnational regions (Donetsk vs. Kherson) on battle event volumes and fatalities per event—metrics directly tied to ACLED’s event counts, battle categories, fatality figures, and geographic breakdowns. This kind of regional lethality and per-event fatality analysis is characteristic of analyses derived from ACLED event and fatality data.",
+      "source_context": "Polarized Backers; regional contrast citing [25]."
+    },
+    {
+      "evidence": "Alliance polarization intensified in 2024, with NATO/EU backing Ukraine and Russia receiving increased support from China, Iran, and North Korea, narrowing diplomatic off-ramps.",
+      "is_acled_data": false,
+      "reasoning": "This is broad geopolitical analysis about alliance polarization and diplomatic dynamics, not specific conflict event data, fatalities, or actor/event trends drawn from ACLED. It references state support and diplomacy rather than ACLED-style event-based metrics or attribution.",
+      "source_context": "Polarized Backers; geopolitical alignment citing [26][27][29]."
+    },
+    {
+      "evidence": "Sanctions and export controls tightened but demanded constant coordination and enforcement, complicating aid pipelines and adding administrative friction.",
+      "is_acled_data": false,
+      "reasoning": "The evidence discusses sanctions, export controls, coordination, and administrative friction—policy and aid logistics issues—not conflict event data, fatalities, actors, or geolocated incidents. This is general geopolitical/policy analysis, which is not ACLED-derived.",
+      "source_context": "Polarized Backers; policy mechanics citing [30][31][32]."
+    },
+    {
+      "evidence": "Displacement solidified as a long-term European challenge, with millions of Ukrainians abroad facing integration and employment gaps while damaged housing impedes returns.",
+      "is_acled_data": false,
+      "reasoning": "The evidence discusses long-term displacement, integration, employment gaps, and housing damage affecting returns—topics typically covered by humanitarian sources like UNHCR/OCHA and socio-economic analyses, not ACLED’s event-based conflict data. It is general analysis about displacement impacts rather than specific conflict events, fatalities, or ACLED-derived metrics.",
+      "source_context": "Polarized Backers; humanitarian landscape citing [28][33]."
+    },
+    {
+      "evidence": "Municipal services in affected Ukrainian oblasts faced repeated shocks as H2 civilian-targeting surged and critical infrastructure absorbed renewed strikes, forcing protection–reconstruction trade-offs.",
+      "is_acled_data": false,
+      "reasoning": "The evidence is a qualitative statement about municipal services and infrastructure impacts without specific event counts, locations, actors, or ACLED-derived statistics. It reads as general analysis, not explicitly tied to ACLED event data or metrics.",
+      "source_context": "Polarized Backers; domestic service strain citing [22][23][24]."
+    },
+    {
+      "evidence": "Both sides encountered resource constraints: Ukraine’s demands for air defense, artillery, and counter-drone systems outpaced Western production, while Russia faced munitions and manpower pressures even with external suppliers.",
+      "is_acled_data": false,
+      "reasoning": "This is general strategic analysis about resource constraints and supply/demand for weapons and manpower, not specific conflict event counts, fatalities, locations, or actor-level event data attributed to ACLED.",
+      "source_context": "Polarized Backers; capacity constraints citing [26][27][28][29][30]."
+    },
+    {
+      "evidence": "The war entered an intensifying but indecisive equilibrium: enough external support to prevent collapse but insufficient for decisive breakthroughs, making a negotiated stalemate in 2025 likely.",
+      "is_acled_data": false,
+      "reasoning": "This is a broad geopolitical assessment about equilibrium and likelihood of a negotiated stalemate, not citing specific ACLED event counts, fatalities, locations, or actor-level data. It’s general analysis rather than ACLED-derived metrics.",
+      "source_context": "Polarized Backers; overall assessment citing [24][30][31][32][33]."
+    },
+    {
+      "evidence": "Key 2025 variables include the pace of counter-drone and electronic warfare adaptation, resilience of munitions and air-defense supply chains, and alignment of military aid with civilian protection and reconstruction.",
+      "is_acled_data": false,
+      "reasoning": "This is high-level strategic analysis about future variables (counter-drone/EW adaptation, supply chains, aid alignment) and not specific conflict event data, fatalities, locations, or actor/event trends tied to ACLED. It is general commentary rather than ACLED-derived metrics.",
+      "source_context": "Conclusion; forward-looking indicators."
+    }
+  ],
+  "insights": [
+    {
+      "insight": "By late 2024, drones accounted for up to 75% of combat losses and shifted from auxiliary roles to orchestrating artillery and delivering decisive attrition.",
+      "context": "Engines of Escalation: Drones, Data, and the Compression of Decision Time; citing [1]."
+    },
+    {
+      "insight": "AI-enabled targeting, including facial recognition identifying over 250,000 Russian soldiers, compressed decision cycles and prioritized sensor-to-shooter fusion as a key competitive edge.",
+      "context": "Engines of Escalation: Drones, Data, and the Compression of Decision Time; citing [2]."
+    },
+    {
+      "insight": "Remote explosions occurred about twice as often as direct battles in 2024, but battles had roughly ten times higher fatalities per incident, making shifts toward close combat disproportionately deadly.",
+      "context": "Engines of Escalation; data summary referencing [3]."
+    },
+    {
+      "insight": "In late 2024, Kharkiv saw a sharp rise in battle-classified engagements and a decline in explosions, indicating more frequent direct clashes under drone-directed fire.",
+      "context": "Engines of Escalation; trend note referencing [4]."
+    },
+    {
+      "insight": "Civilian-targeted explosions in H2 2024 produced the highest fatalities in Donetsk while Kherson recorded the most such events, revealing different regional harm profiles.",
+      "context": "Engines of Escalation; citing [5][6]."
+    },
+    {
+      "insight": "Black Sea naval and port-targeting activity peaked in October 2024, marking a pulsed escalation rather than a steady trend.",
+      "context": "Engines of Escalation; referencing [7]."
+    },
+    {
+      "insight": "The August 2024 incursion into Russia’s Kursk region and heavy year-end casualties intensified the war’s tempo without producing a breakthrough.",
+      "context": "Engines of Escalation; contextual note citing [8]."
+    },
+    {
+      "insight": "Donetsk and Luhansk battle events nearly doubled from early 2024 to Q4, reaching almost 1,500 in December, signaling a clear escalation into winter.",
+      "context": "Where the War Ran Hottest; monthly battle trends citing [9]."
+    },
+    {
+      "insight": "Battle-related fatalities in Donbas surged faster than event counts starting in May and remained elevated through year-end, indicating rising lethality even when clash numbers plateaued.",
+      "context": "Where the War Ran Hottest; fatalities vs events citing [10]."
+    },
+    {
+      "insight": "In Donetsk Q4 2024, battles overtook explosions as the dominant violence type, with December recording 1,353 battle events and 4,335 battle fatalities while explosion fatalities fell to 325.",
+      "context": "Where the War Ran Hottest; Q4 comparative metrics citing [11]."
+    },
+    {
+      "insight": "December 2024 featured punishing spikes in Donetsk, including December 23 with 65 battle events and 231 fatalities, illustrating high-activity days with variable lethality.",
+      "context": "Where the War Ran Hottest; daily spikes citing [12]."
+    },
+    {
+      "insight": "Within Donetsk, Pokrovska and Hrodivska hromadas concentrated high fatalities on fewer events, while Kurakhivska had many engagements but lower per-event lethality, reflecting mixed tactics across sectors.",
+      "context": "Where the War Ran Hottest; hromada-level patterns citing [13]."
+    },
+    {
+      "insight": "Locations like Ocheretynska and Marinska saw high battle event counts, while Hrodivska posted outsized fatalities relative to events.",
+      "context": "Where the War Ran Hottest; location highlights citing [14]."
+    },
+    {
+      "insight": "Drone-related incidents around Crimea were relatively steady in 2024 but peaked in October; fatalities clustered in a few months, suggesting variability in lethality rather than frequency.",
+      "context": "Where the War Ran Hottest; Crimea/Black Sea drone patterns citing [15][16]."
+    },
+    {
+      "insight": "Late-2024 ground trends align with Russian resource constraints and do not alone indicate sustained maritime escalation.",
+      "context": "Where the War Ran Hottest; strategic interpretation citing [17]."
+    },
+    {
+      "insight": "Cross-border strike fatalities inside Russia increased more than sixfold in H2 2024, with Kursk’s August–October period driving the surge (876 deaths across the three months, 347 in September).",
+      "context": "Borders Blur; cross-border lethality citing [18]."
+    },
+    {
+      "insight": "Kursk’s event distribution featured many no-fatality or single-fatality incidents but a thin tail of mass-casualty outliers (up to 100 deaths in one event) that dominated totals.",
+      "context": "Borders Blur; event-level fatality distribution citing [19]."
+    },
+    {
+      "insight": "Belgorod experienced the highest volume of cross-border strikes (nearly 1,000 in August) but relatively low fatalities, showing a weak link between event volume and deaths.",
+      "context": "Borders Blur; Belgorod volume-lethality relationship citing [18][20]."
+    },
+    {
+      "insight": "Bryansk remained comparatively quiet with few events and isolated fatal months, contrasting with Belgorod and Kursk patterns.",
+      "context": "Borders Blur; regional comparison citing [18][20]."
+    },
+    {
+      "insight": "Cross-border activity into Russia in 2024 was dominated by remote violence (air/drone and artillery), creating routine fire without set-piece battles on Russian soil.",
+      "context": "Borders Blur; modality characterization citing [21]."
+    },
+    {
+      "insight": "Civilian-targeting incidents inside Ukraine rose in H2 2024, with the largest percentage increases in Kyiv City, Luhansk, Zaporizhia, Sumy, and Kherson, and the largest absolute gains in Donetsk and Kherson.",
+      "context": "Borders Blur; civilian-targeting trends citing [22]."
+    },
+    {
+      "insight": "Although only about one in nine explosions/remote attacks nationwide explicitly targeted civilians, the absolute scale reached 3,922 such incidents in 2024, straining urban services and utilities.",
+      "context": "Borders Blur; national civilian-targeting share citing [23]."
+    },
+    {
+      "insight": "Explosions outnumbered battles each month in 2024, while battles peaked in December, indicating a protracted, resource-intensive conflict trajectory.",
+      "context": "Polarized Backers; monthly mode comparison citing [24]."
+    },
+    {
+      "insight": "Regional lethality diverged: Donetsk had high battle volumes with lower per-event deaths, whereas Kherson had fewer engagements but high fatalities per event.",
+      "context": "Polarized Backers; regional contrast citing [25]."
+    },
+    {
+      "insight": "Alliance polarization intensified in 2024, with NATO/EU backing Ukraine and Russia receiving increased support from China, Iran, and North Korea, narrowing diplomatic off-ramps.",
+      "context": "Polarized Backers; geopolitical alignment citing [26][27][29]."
+    },
+    {
+      "insight": "Sanctions and export controls tightened but demanded constant coordination and enforcement, complicating aid pipelines and adding administrative friction.",
+      "context": "Polarized Backers; policy mechanics citing [30][31][32]."
+    },
+    {
+      "insight": "Displacement solidified as a long-term European challenge, with millions of Ukrainians abroad facing integration and employment gaps while damaged housing impedes returns.",
+      "context": "Polarized Backers; humanitarian landscape citing [28][33]."
+    },
+    {
+      "insight": "Municipal services in affected Ukrainian oblasts faced repeated shocks as H2 civilian-targeting surged and critical infrastructure absorbed renewed strikes, forcing protection–reconstruction trade-offs.",
+      "context": "Polarized Backers; domestic service strain citing [22][23][24]."
+    },
+    {
+      "insight": "Both sides encountered resource constraints: Ukraine’s demands for air defense, artillery, and counter-drone systems outpaced Western production, while Russia faced munitions and manpower pressures even with external suppliers.",
+      "context": "Polarized Backers; capacity constraints citing [26][27][28][29][30]."
+    },
+    {
+      "insight": "The war entered an intensifying but indecisive equilibrium: enough external support to prevent collapse but insufficient for decisive breakthroughs, making a negotiated stalemate in 2025 likely.",
+      "context": "Polarized Backers; overall assessment citing [24][30][31][32][33]."
+    },
+    {
+      "insight": "Key 2025 variables include the pace of counter-drone and electronic warfare adaptation, resilience of munitions and air-defense supply chains, and alignment of military aid with civilian protection and reconstruction.",
+      "context": "Conclusion; forward-looking indicators."
+    }
+  ],
+  "prompt": "Status of the Russian-Ukrainian conflict, as if we are at the end of 2024 heading into 2025."
+}

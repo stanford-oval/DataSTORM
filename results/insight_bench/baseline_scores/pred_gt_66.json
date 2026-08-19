@@ -1,0 +1,65 @@
+{
+  "dataset_id": 66,
+  "dataset_path": "data/notebooks/flag-66.json",
+  "metadata": {
+    "category": "Financial Management",
+    "dataset_description": "The dataset consists of 500 entries simulating ServiceNow fm_expense_line table, which records various attributes of financial expenses. Key fields include 'number', 'opened_at', 'amount', 'state', 'short_description', 'ci', 'user', 'department', 'category', 'process_date', 'source_id', and 'type'. This table documents the flow of financial transactions by detailing the amount, departmental allocation, and the nature of each expense. Provides a clear view of organizational expenditures across different categories, highlighting both the timing and the approval state of each financial entry.",
+    "goal": "To uncover and address the reasons behind the varying rates of expense rejections across departments to improve overall financial management within the organization.",
+    "header": "Expense Management Discrepancies (Flag 66)",
+    "role": "Financial Compliance Analyst"
+  },
+  "predicted_insights": [
+    "The IT department’s decline rate (44.19%) is about 7× the overall departmental median (~6%) and over 3× the next-highest (HR at 14.29%), indicating a highly concentrated rejection issue specific to IT relative to other departments.",
+    "IT shows consistently elevated rejection rates across all categories (up to 56.52% for Assets), HR’s rejections spike specifically in Travel (50.00%), and Product Management has 0% rejections across all categories—evidence of department- and category-specific policy enforcement or compliance gaps driving overall rejection variability.",
+    "IT exhibits consistently high rejection rates across all amount tiers (50.0–85.7%, peaking at 85.7% in Q2), while Product Management has 0% in every quartile and Development/Finance/HR show 0% in at least three quartiles, indicating department practices dominate over expense size; meanwhile, Customer Support and Sales generally show lower and decreasing decline rates with higher amounts (e.g., Customer Support 2.2% in Q3 and 6.0% in Q4; Sales 3.7–4.2% in Q3–Q4).",
+    "IT is the clear outlier with very high and persistent rejection rates (≥50% in 7 of 11 months, including two 100% months), while Finance is usually 0% but exhibits sharp spikes (100% in 2024-02 and 50% in 2024-04); by contrast, Customer Support and Sales are generally low (mostly ≤15–20%) with isolated peaks (CS 20% in 2023-08; Sales 25% in 2024-03), and Product Management remains at 0% throughout observed months.",
+    "IT’s Asset expenses have both the highest decline rate (56.5%) and the most declines (13), while Product Management has 0% declines—indicating substantial inter-department variability that likely drives overall rejection patterns and suggests targeted review of IT asset requests.",
+    "The top decline rate in IT (53.85%) is about 1.6× higher than Sales’ top rate (33.33%) and 3.5× higher than Finance’s (15.38%), while Product Management’s top submitter had 0 declines across 12 submissions, indicating substantial process variability across departments that could be driving rejection disparities.",
+    "Processing times differ substantially—Product Management averages 8.65 days versus 4.30 in Finance (a 4.35-day gap, ~2x slower)—and there are zero measurable declined processing times across all departments, limiting visibility into rejection timeliness.",
+    "The direction and magnitude of differences vary sharply by department: Finance and IT reject higher-cost submissions on average (~29% and ~5% higher than processed), while Development’s declined expenses are ~94% lower than its processed ones (327 vs 5,055), indicating department-specific review thresholds that likely drive varying rejection rates.",
+    "Missing source_id is linked to higher rejection only in 2 of 7 departments—most starkly HR (+41.7 percentage points, 50.0% vs 8.3%) and Customer Support (+6.9 pp, 11.3% vs 4.4%)—whereas IT shows the opposite (with source_id +19.2 pp), suggesting department-specific rules; given 111 of 500 expenses (22.2%) lack a source_id, standardizing source capture could notably reduce declines in HR and Customer Support.",
+    "IT and Finance drive the volatility in declines—IT hit ≥50% in four different months (peaking at 83.3% in Feb-2024) and Finance jumped from 0% historically to 100% in Feb-2024 and 50% in Apr-2024—suggesting a department-specific control or policy shift around early 2024, while Product Management had 0% declines across the entire period and Sep-2023 showed 0% across all departments.",
+    "Processed turnaround times vary substantially across departments (1.42–7.98 days, a 6.56-day spread), with Product Management the slowest and IT the fastest, while the absence of processed timestamps for all declined expenses suggests the workflow does not capture decline completion times—obscuring rejection cycle duration and potentially biasing cross-department comparisons tied to rejection rates.",
+    "IT exhibits markedly higher rejection rates across amounts—peaking at 72.7% in Q2 and remaining elevated at 45.5% in Q4—whereas Sales and Customer Support stay below ~10.5% across quartiles and Finance spikes only in Q3 (40% with 2 of 5 declined), suggesting department-specific review behaviors rather than a simple “larger amount = more rejections” rule."
+  ],
+  "predicted_summary": "Rejections are highly uneven across departments and concentrated in specific categories and users: IT is the clear outlier with 44.19% of its expenses declined (vs 0.00% in Product Management), driven largely by Assets (56.5% declined, 13/23). Other department-category hotspots include HR’s Travel (50.0%, 1/2), Finance’s Assets (14.3%, 2/14), Customer Support’s Miscellaneous (14.3%, 1/7), Sales’ Miscellaneous (14.3%, 1/7), and Development’s Services (16.7%, 1/6). Within departments, declines are also concentrated among a few frequent submitters—for example, in IT Vernon Engelman has 53.85% declined (7/13), in Sales Cristina Sharper 33.33% (2/6), and in Customer Support Rachel Larrison 22.22% (2/9).\nRejection likelihood varies by expense amount band in department-specific ways rather than simply rising with size: In IT, mid-range expenses are most likely to be declined (about 72.7% in Q2 vs 45.5% in Q4 and 27.3% in Q1; among decided expenses, Q2 reaches 85.7%), while Finance rejections cluster in the upper-mid quartile (40.0% in Q3 with 0.0% in other quartiles). HR shows higher declines in lower and middle amounts (25.0% in Q1 and 33.3% in Q2, dropping to 0.0% in Q3–Q4). Sales is low overall but is highest in its smallest claims (9.7% in Q1 vs ~3.2–3.3% in Q2–Q4), and Customer Support declines taper with amount (10.4% Q1, 7.5% Q2, 1.5% Q3) before a small uptick at the top end (4.5% Q4).\nTiming and documentation correlate strongly with rejections: IT’s monthly decline rates surged late 2023–early 2024 (e.g., 66.7% in Nov 2023, 50.0% in Dec, 83.3% in Feb 2024, 66.7% in Mar, 50.0% in Apr), while Finance jumped from months at 0% to 100% in Feb 2024 and 50% in Apr; other departments stayed low and Product Management remained at 0% throughout. Documentation presence (source_id) is also linked to outcomes but differently by department—for HR, declines are 50.0% without a source_id vs 8.3% with; Customer Support 11.3% without vs 4.4% with; IT shows the reverse pattern (50.0% with vs 30.8% without). Additionally, across all departments, declined expenses consistently lack a recorded processed_date, unlike processed items, indicating a systematic process difference in how declines are recorded.",
+  "score_insights": 0.3891844800008995,
+  "score_insights_dict": [
+    {
+      "gt_insight": "Certain departments, notably Product Management and HR, exhibit notably longer processing delays in specific categories such as Services and Travel, indicating potential workflow bottlenecks.",
+      "pred_insight": "Processing times differ substantially—Product Management averages 8.65 days versus 4.30 in Finance (a 4.35-day gap, ~2x slower)—and there are zero measurable declined processing times across all departments, limiting visibility into rejection timeliness.",
+      "score": 0.5811415809238517
+    },
+    {
+      "gt_insight": "There is no correlation between the number of expense reports submitted and rejection rates",
+      "pred_insight": "IT exhibits markedly higher rejection rates across amounts—peaking at 72.7% in Q2 and remaining elevated at 45.5% in Q4—whereas Sales and Customer Support stay below ~10.5% across quartiles and Finance spikes only in Q3 (40% with 2 of 5 declined), suggesting department-specific review behaviors rather than a simple “larger amount = more rejections” rule.",
+      "score": 0.3028569833889033
+    },
+    {
+      "gt_insight": "The Customer Support and Sales departments have the highest total expenses, with Customer Support leading significantly in total spending and count of expense instances.",
+      "pred_insight": "IT exhibits consistently high rejection rates across all amount tiers (50.0–85.7%, peaking at 85.7% in Q2), while Product Management has 0% in every quartile and Development/Finance/HR show 0% in at least three quartiles, indicating department practices dominate over expense size; meanwhile, Customer Support and Sales generally show lower and decreasing decline rates with higher amounts (e.g., Customer Support 2.2% in Q3 and 6.0% in Q4; Sales 3.7–4.2% in Q3–Q4).",
+      "score": 0.2835548756899434
+    }
+  ],
+  "score_summary": 0.3642101513374709,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.40796442363641566,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "Processed turnaround times vary substantially across departments (1.42–7.98 days, a 6.56-day spread), with Product Management the slowest and IT the fastest, while the absence of processed timestamps for all declined expenses suggests the workflow does not capture decline completion times—obscuring rejection cycle duration and potentially biasing cross-department comparisons tied to rejection rates.",
+      "gt_insight": "Certain departments, notably Product Management and HR, exhibit notably longer processing delays in specific categories such as Services and Travel, indicating potential workflow bottlenecks.",
+      "score": 0.5972870519543363
+    },
+    {
+      "pred_insight": "IT exhibits markedly higher rejection rates across amounts—peaking at 72.7% in Q2 and remaining elevated at 45.5% in Q4—whereas Sales and Customer Support stay below ~10.5% across quartiles and Finance spikes only in Q3 (40% with 2 of 5 declined), suggesting department-specific review behaviors rather than a simple “larger amount = more rejections” rule.",
+      "gt_insight": "There is no correlation between the number of expense reports submitted and rejection rates",
+      "score": 0.3701928377372191
+    },
+    {
+      "pred_insight": "IT exhibits consistently high rejection rates across all amount tiers (50.0–85.7%, peaking at 85.7% in Q2), while Product Management has 0% in every quartile and Development/Finance/HR show 0% in at least three quartiles, indicating department practices dominate over expense size; meanwhile, Customer Support and Sales generally show lower and decreasing decline rates with higher amounts (e.g., Customer Support 2.2% in Q3 and 6.0% in Q4; Sales 3.7–4.2% in Q3–Q4).",
+      "gt_insight": "The Customer Support and Sales departments have the highest total expenses, with Customer Support leading significantly in total spending and count of expense instances.",
+      "score": 0.2564133812176914
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.10439135138309588,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.3937136754591096
+}

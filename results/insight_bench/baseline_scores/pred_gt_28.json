@@ -1,0 +1,75 @@
+{
+  "dataset_id": 28,
+  "dataset_path": "data/notebooks/flag-28.json",
+  "metadata": {
+    "category": "Goal Management",
+    "dataset_description": "The dataset consists of 500 entries simulating ServiceNow `sn_gf_goal` table, which details various attributes related to organizational goals. These attributes include goal state, owner, department, start and end dates, and description, alongside metrics such as priority, percent complete, and target percentage. This data primarily tracks the progression and management of departmental and individual goals, offering insights into the effectiveness and alignment of these goals with broader organizational objectives. Additionally, the table captures updates made to each goal, providing a timeline of modifications and the identity of individuals making these updates.",
+    "goal": "Examine and analyze elevated goal achievement rates in a certain department and to leverage these insights to improve goal management across all departments.",
+    "header": "Goal Achievement Rate Analysis in IT Department (Flag 28)",
+    "role": "Goal Management Analyst"
+  },
+  "predicted_insights": [
+    "IT’s goal achievement rate (48.8%) is about 2.1× HR’s and more than 3× Finance’s and Marketing’s, suggesting IT’s target-setting or execution practices could be leveraged to raise performance in other departments.",
+    "Finance has the highest mean target (75.71) and Marketing the lowest (74.17), a narrow spread of about 1.54 points, suggesting target-setting is fairly consistent across departments; thus, any elevated achievement rates are more likely due to execution differences than target stringency.",
+    "Despite representing only 8.6% of Finance goals (11 of 128), Critical items average 78.64% completion—about 27.8 points higher than the dataset’s overall mean (50.84%)—suggesting that emphasizing critical priorities is associated with markedly higher goal achievement.",
+    "Customer Satisfaction’s achievement rate is about 12.1 percentage points higher than Efficiency (18.27%)—roughly 1.66×—suggesting customer-focused practices may be leveraged to elevate performance in lower-performing categories.",
+    "IT’s shortfall (−4.19) is ~87% smaller than Marketing’s (−31.79) and 24–28 points smaller than the other departments, implying that adopting IT’s goal-setting or execution practices could cut the typical gap to targets by roughly 24–28 percentage points elsewhere.",
+    "Although IT has the highest count of qualifying goals (51), HR reaches targets faster (median 173 days across 29 goals vs. IT’s 181), suggesting HR’s processes may be more time-efficient and worth replicating to accelerate goal achievement in other departments.",
+    "The spread in average achievement rates across metrics is narrow—73.40% (Expense Ratio) vs. 69.37% (Sales Increase), a ~4.0 percentage-point gap—suggesting that standardizing practices from the top-performing metric could realistically raise outcomes for others by a few points across departments.",
+    "IT’s average is 33.82 percentage points higher than the next-best department (Finance) and about 1.57× the average of the other three departments, indicating substantial process or execution advantages that could be replicated to boost organization-wide goal attainment.",
+    "Employee Satisfaction’s 61.3% success rate in IT is ~13 percentage points above the IT category average (~48.0%); if other IT categories matched this rate, an estimated 16 additional goals would meet targets (Efficiency +7, Revenue Growth +4, Customer Satisfaction +3, Cost Reduction +2).",
+    "IT and Marketing outperform HR by about 15.7 percentage points (61.1% vs 45.5%) and Finance by about 6.6 points (61.1% vs 54.5%), suggesting that practices used in these top departments could help close the overall gap between average targets (74.8%) and average completion (50.8%).",
+    "The gap in target setting is minimal: IT is only 0.16 points below the overall dataset mean (74.76) while Others are 0.05 points above, and the 0.21-point IT–Others difference is tiny relative to the target_percentage standard deviation (14.55), suggesting variations in achievement likely stem from execution (e.g., percent_complete or state) rather than target levels.",
+    "If Marketing, HR, and Finance matched IT’s 65.12% completion rate, they would collectively complete about 92 additional goals (≈30–31 more per department), representing roughly a 46–60% relative uplift over their current completion rates."
+  ],
+  "predicted_summary": "IT stands out as the clear top performer across multiple success indicators: 48.8% of IT goals meet or beat their targets (vs. Finance 15.6%, HR 23.4%, Marketing 14.9%), IT’s goals are closest to target on average (shortfall of 4.19 points vs. Finance 27.96, HR 29.88, Marketing 31.79), IT has the highest completion share (65.12% vs. Finance 40.63%, HR 44.14%, Marketing 44.59%), and the highest average goal achievement rate (~98.49%).\nSuccess is concentrated by category and priority: company-wide, Customer Satisfaction goals have the highest hit rate at ~30.36%, yet within IT the Employee Satisfaction category dramatically outperforms with 61.3% of goals meeting/exceeding targets (19 of 31)—roughly double the company’s best category rate. High-priority (“Critical”) goals also tend to fare better: IT and Marketing have ~61.1% of Critical goals meeting/exceeding targets, and in Finance the “Critical” priority has the highest average completion (78.64%).\nIT’s elevated results are not explained by easier targets or longer timelines: IT’s average target level (74.60%) is only 0.21 points lower than other departments (74.81%), yet outcomes are much stronger. Among goals that do hit targets, median durations are shorter in higher-performing areas—HR 173 days and IT 181—than in Finance (188) and especially Marketing (321.5), indicating successful goals in stronger departments tend to finish sooner.",
+  "score_insights": 0.6477930297308246,
+  "score_insights_dict": [
+    {
+      "gt_insight": "Significantly higher success rates in the IT department compared to other departments",
+      "pred_insight": "IT’s goal achievement rate (48.8%) is about 2.1× HR’s and more than 3× Finance’s and Marketing’s, suggesting IT’s target-setting or execution practices could be leveraged to raise performance in other departments.",
+      "score": 0.8468399745243511
+    },
+    {
+      "gt_insight": "Higher success rates in Critical and High priority goals within the IT department",
+      "pred_insight": "IT’s goal achievement rate (48.8%) is about 2.1× HR’s and more than 3× Finance’s and Marketing’s, suggesting IT’s target-setting or execution practices could be leveraged to raise performance in other departments.",
+      "score": 0.5878233049015823
+    },
+    {
+      "gt_insight": "Consistent higher success rates for Critical and High priority goals across departments",
+      "pred_insight": "Despite representing only 8.6% of Finance goals (11 of 128), Critical items average 78.64% completion—about 27.8 points higher than the dataset’s overall mean (50.84%)—suggesting that emphasizing critical priorities is associated with markedly higher goal achievement.",
+      "score": 0.68623835591523
+    },
+    {
+      "gt_insight": "IT department exhibits a higher number of both Critical and High priority goals compared to other departments",
+      "pred_insight": "IT’s goal achievement rate (48.8%) is about 2.1× HR’s and more than 3× Finance’s and Marketing’s, suggesting IT’s target-setting or execution practices could be leveraged to raise performance in other departments.",
+      "score": 0.47027048358213513
+    }
+  ],
+  "score_summary": 0.7844088102356138,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.651394602471776,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "IT’s average is 33.82 percentage points higher than the next-best department (Finance) and about 1.57× the average of the other three departments, indicating substantial process or execution advantages that could be replicated to boost organization-wide goal attainment.",
+      "gt_insight": "Significantly higher success rates in the IT department compared to other departments",
+      "score": 0.8619255251333037
+    },
+    {
+      "pred_insight": "IT’s average is 33.82 percentage points higher than the next-best department (Finance) and about 1.57× the average of the other three departments, indicating substantial process or execution advantages that could be replicated to boost organization-wide goal attainment.",
+      "gt_insight": "Higher success rates in Critical and High priority goals within the IT department",
+      "score": 0.6137058006102775
+    },
+    {
+      "pred_insight": "Despite representing only 8.6% of Finance goals (11 of 128), Critical items average 78.64% completion—about 27.8 points higher than the dataset’s overall mean (50.84%)—suggesting that emphasizing critical priorities is associated with markedly higher goal achievement.",
+      "gt_insight": "Consistent higher success rates for Critical and High priority goals across departments",
+      "score": 0.609509662469389
+    },
+    {
+      "pred_insight": "IT’s goal achievement rate (48.8%) is about 2.1× HR’s and more than 3× Finance’s and Marketing’s, suggesting IT’s target-setting or execution practices could be leveraged to raise performance in other departments.",
+      "gt_insight": "IT department exhibits a higher number of both Critical and High priority goals compared to other departments",
+      "score": 0.5204374216741342
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.10198875826191767,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.8881611248836695
+}

@@ -1,0 +1,741 @@
+{
+  "id": "5",
+  "prompt": "How is Al-Shabaab targeting civilians in Somalia following recent events?",
+  "timestamp": "2026-03-29T04:06:47.851071",
+  "openai_dr": {
+    "total_insights": 16,
+    "total_classified": 16,
+    "acled_count": 4,
+    "non_acled_count": 12,
+    "pct_acled": 0.25,
+    "details": [
+      {
+        "evidence": "Al-Shabaab has escalated attacks on civilians following intensified Somali government offensives and clan uprisings, becoming more lethal in tactics.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general analytical claim about escalation and lethality following government offensives and clan uprisings, without citing specific event counts, fatalities, locations, or trends directly tied to ACLED data. It reads as narrative analysis rather than referencing ACLED-derived metrics or datasets.",
+        "source_context": "Introduction noting recent events and officials’ observations (BBC; UN press briefing)."
+      },
+      {
+        "evidence": "As the group loses territory, it uses indiscriminate terrorist attacks to demonstrate it remains a potent threat, showing little regard for civilian life.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general analytical claim about tactics and intent without referencing specific ACLED event counts, locations, fatalities, or actor-level data. It is commentary rather than a citation of ACLED-derived metrics or trends.",
+        "source_context": "Framing statements citing officials and UN sources about Al-Shabaab’s intent (BBC; UN press)."
+      },
+      {
+        "evidence": "Large-scale bombings in crowded urban areas are a core tactic, using suicide and car bombs to maximize casualties and terror.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general characterization of Al-Shabaab’s tactics (suicide and car bombings in urban areas) without citing specific events, counts, locations, dates, or actor/event data attributed to ACLED. It reads as broad analytical commentary rather than insight directly derived from ACLED event data.",
+        "source_context": "Pattern listed under Large-Scale Bombings in Public Areas."
+      },
+      {
+        "evidence": "Twin car bombs in Mogadishu in late 2022 killed around 120 people near the education ministry.",
+        "is_acled_data": true,
+        "reasoning": "Specific conflict event description with location, date context, actor (Al-Shabaab implied), attack type (twin car bombs), target vicinity (education ministry), and fatality count aligns with ACLED event-level data and casualty figures that ACLED tracks.",
+        "source_context": "Example under bombings pattern (BBC; Amnesty)."
+      },
+      {
+        "evidence": "These bombings often kill dozens, including children and bystanders, and serve as messages that the militants remain active despite setbacks.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general qualitative claim about bombings causing civilian deaths and serving as messages; it lacks specific event counts, dates, locations, or actor-level data and is not attributed to ACLED. It reads as commentary rather than derived from ACLED event data.",
+        "source_context": "Explanation of purpose and impact of bombings (BBC; Amnesty)."
+      },
+      {
+        "evidence": "Al-Shabaab retaliates against civilian collaboration with security measures, targeting those who implement or support surveillance like CCTV installations.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a generalized claim about Al-Shabaab targeting civilians involved in surveillance (e.g., CCTV installations) and does not reference specific events, counts, locations, dates, or figures from ACLED. It reads as analytic commentary rather than being tied to ACLED event data or statistics.",
+        "source_context": "Pattern on retaliation against security measures and collaborators."
+      },
+      {
+        "evidence": "In October 2024, reprisals against shops with CCTV in Mogadishu killed at least three civilians and injured four, with militants warning shopkeepers to remove cameras.",
+        "is_acled_data": true,
+        "reasoning": "The evidence cites a specific conflict event with date, location (Mogadishu), actor (Al-Shabaab militants), target (shops with CCTV/civilians), and casualty figures (killed and injured). These are the types of event-level details and violence-against-civilians statistics that ACLED collects and reports.",
+        "source_context": "Specific incident of reprisals tied to CCTV installations (Middle East Monitor/Reuters)."
+      },
+      {
+        "evidence": "The group frequently attacks soft targets such as hotels, restaurants, and markets, especially venues frequented by officials or foreigners, to inflict casualties and gain publicity.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general characterization of Al-Shabaab’s target preferences (soft targets like hotels and restaurants) without citing specific event counts, locations, dates, fatalities, or attribution to ACLED. It reads as qualitative analysis typical of media or analytical summaries, not directly derived from ACLED event data.",
+        "source_context": "Pattern on attacks on soft targets (hotels and public venues)."
+      },
+      {
+        "evidence": "In June 2023, Al-Shabaab gunmen attacked Mogadishu’s Pearl Beach hotel, killing at least six civilians before security forces ended the siege.",
+        "is_acled_data": true,
+        "reasoning": "The evidence is a specific conflict event description with date, location (Mogadishu’s Pearl Beach hotel), actor (Al-Shabaab), event type (attack/siege), and fatalities (at least six civilians). Such event-level details are characteristic of ACLED incident data and could be directly drawn from ACLED’s event records, even though no attribution is stated.",
+        "source_context": "Example of hotel attack (Al Jazeera)."
+      },
+      {
+        "evidence": "Raids on busy public venues like beachfront restaurants and shopping areas create widespread fear among ordinary Somalis.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general qualitative claim about tactics (raids on public venues causing fear) without specific event counts, dates, locations, fatalities, or explicit attribution to ACLED. It reads as narrative analysis rather than data derived from ACLED event records.",
+        "source_context": "Description of impact of soft-target attacks."
+      },
+      {
+        "evidence": "In rebellious rural areas, Al-Shabaab uses punitive violence—burning villages, destroying wells, and attacking convoys—to deter communities from resisting or aiding the government.",
+        "is_acled_data": false,
+        "reasoning": "The evidence is a general qualitative statement about tactics (burning villages, destroying wells, attacking convoys) without citing specific events, counts, dates, locations, or attribution to ACLED. It reads as analytical commentary rather than a summary of ACLED event data.",
+        "source_context": "Pattern on punitive violence in rural communities."
+      },
+      {
+        "evidence": "In central Somalia (Sept 2022), militants torched villages, demolished wells, and ambushed a food convoy, killing numerous villagers including women and children.",
+        "is_acled_data": true,
+        "reasoning": "The evidence describes specific conflict events (location, timeframe, tactics like torching villages, destroying wells, ambushing a convoy, and civilian fatalities), which aligns with ACLED-style event reporting and violence against civilians data. While not explicitly attributed to ACLED, the granular event description is characteristic of ACLED data.",
+        "source_context": "Specific rural punitive attack example (International Crisis Group via Hiiraan)."
+      },
+      {
+        "evidence": "Al-Shabaab’s strategy has shifted from direct battles to asymmetric terror tactics—bombings, raids, and assassinations—to undermine the government and terrorize the population.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general analytical claim about a strategic shift to asymmetric tactics without citing specific event counts, locations, dates, actors, or trends from ACLED. It reads as qualitative commentary rather than data explicitly tied to ACLED event records or metrics.",
+        "source_context": "Synthesis on strategic shift (BBC)."
+      },
+      {
+        "evidence": "International observers warn the ongoing offensive may prompt further increases in violence against civilians unless there is a decisive victory.",
+        "is_acled_data": false,
+        "reasoning": "This is a general analytical warning by “international observers” about potential future violence, not a citation of specific conflict events, statistics, or trends from ACLED. It lacks event counts, fatalities, actor-level data, or explicit attribution to ACLED.",
+        "source_context": "Warning stated by observers (BBC)."
+      },
+      {
+        "evidence": "Rights organizations classify Al-Shabaab’s indiscriminate killings of civilians as war crimes under international law.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a normative/legal assessment by rights organizations about war crimes, not a reference to specific ACLED event data, counts, or actor-level statistics, nor is it attributed to ACLED.",
+        "source_context": "Condemnations and legal framing (Amnesty International)."
+      },
+      {
+        "evidence": "Protecting civilians remains a critical challenge in Somalia’s security fight despite ongoing military pressure on Al-Shabaab.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general analytical observation about challenges in protecting civilians and does not reference specific event counts, locations, fatalities, or actor-level data tied to ACLED. It lacks any explicit attribution to ACLED or concrete conflict event metrics.",
+        "source_context": "Conclusion emphasizing ongoing challenge (UN press briefing)."
+      }
+    ],
+    "insights": [
+      {
+        "insight": "Al-Shabaab has escalated attacks on civilians following intensified Somali government offensives and clan uprisings, becoming more lethal in tactics.",
+        "context": "Introduction noting recent events and officials’ observations (BBC; UN press briefing)."
+      },
+      {
+        "insight": "As the group loses territory, it uses indiscriminate terrorist attacks to demonstrate it remains a potent threat, showing little regard for civilian life.",
+        "context": "Framing statements citing officials and UN sources about Al-Shabaab’s intent (BBC; UN press)."
+      },
+      {
+        "insight": "Large-scale bombings in crowded urban areas are a core tactic, using suicide and car bombs to maximize casualties and terror.",
+        "context": "Pattern listed under Large-Scale Bombings in Public Areas."
+      },
+      {
+        "insight": "Twin car bombs in Mogadishu in late 2022 killed around 120 people near the education ministry.",
+        "context": "Example under bombings pattern (BBC; Amnesty)."
+      },
+      {
+        "insight": "These bombings often kill dozens, including children and bystanders, and serve as messages that the militants remain active despite setbacks.",
+        "context": "Explanation of purpose and impact of bombings (BBC; Amnesty)."
+      },
+      {
+        "insight": "Al-Shabaab retaliates against civilian collaboration with security measures, targeting those who implement or support surveillance like CCTV installations.",
+        "context": "Pattern on retaliation against security measures and collaborators."
+      },
+      {
+        "insight": "In October 2024, reprisals against shops with CCTV in Mogadishu killed at least three civilians and injured four, with militants warning shopkeepers to remove cameras.",
+        "context": "Specific incident of reprisals tied to CCTV installations (Middle East Monitor/Reuters)."
+      },
+      {
+        "insight": "The group frequently attacks soft targets such as hotels, restaurants, and markets, especially venues frequented by officials or foreigners, to inflict casualties and gain publicity.",
+        "context": "Pattern on attacks on soft targets (hotels and public venues)."
+      },
+      {
+        "insight": "In June 2023, Al-Shabaab gunmen attacked Mogadishu’s Pearl Beach hotel, killing at least six civilians before security forces ended the siege.",
+        "context": "Example of hotel attack (Al Jazeera)."
+      },
+      {
+        "insight": "Raids on busy public venues like beachfront restaurants and shopping areas create widespread fear among ordinary Somalis.",
+        "context": "Description of impact of soft-target attacks."
+      },
+      {
+        "insight": "In rebellious rural areas, Al-Shabaab uses punitive violence—burning villages, destroying wells, and attacking convoys—to deter communities from resisting or aiding the government.",
+        "context": "Pattern on punitive violence in rural communities."
+      },
+      {
+        "insight": "In central Somalia (Sept 2022), militants torched villages, demolished wells, and ambushed a food convoy, killing numerous villagers including women and children.",
+        "context": "Specific rural punitive attack example (International Crisis Group via Hiiraan)."
+      },
+      {
+        "insight": "Al-Shabaab’s strategy has shifted from direct battles to asymmetric terror tactics—bombings, raids, and assassinations—to undermine the government and terrorize the population.",
+        "context": "Synthesis on strategic shift (BBC)."
+      },
+      {
+        "insight": "International observers warn the ongoing offensive may prompt further increases in violence against civilians unless there is a decisive victory.",
+        "context": "Warning stated by observers (BBC)."
+      },
+      {
+        "insight": "Rights organizations classify Al-Shabaab’s indiscriminate killings of civilians as war crimes under international law.",
+        "context": "Condemnations and legal framing (Amnesty International)."
+      },
+      {
+        "insight": "Protecting civilians remains a critical challenge in Somalia’s security fight despite ongoing military pressure on Al-Shabaab.",
+        "context": "Conclusion emphasizing ongoing challenge (UN press briefing)."
+      }
+    ],
+    "prompt": "How is Al-Shabaab targeting civilians in Somalia following recent events?"
+  },
+  "openai_dr_csv": {
+    "total_insights": 24,
+    "total_classified": 24,
+    "acled_count": 4,
+    "non_acled_count": 20,
+    "pct_acled": 0.16666666666666666,
+    "details": [
+      {
+        "evidence": "Somalia’s federal offensives in 2022-2023 reclaimed territory in central regions, prompting Al-Shabaab to intensify attacks with little regard for civilian life.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general analytical claim about offensives and Al-Shabaab’s response without citing specific ACLED event counts, locations, or temporal patterns. It lacks explicit ACLED attribution and concrete event data, so it is not clearly derived from ACLED.",
+        "source_context": "Context section citing CTC and HRW on government offensives and Al-Shabaab’s response."
+      },
+      {
+        "evidence": "Al-Shabaab combines indiscriminate terrorism with targeted reprisals, using IEDs, suicide bombings, mortar shelling, and targeted killings that have caused a high number of civilian casualties.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general characterization of tactics and impacts (IEDs, suicide bombings, mortar shelling, targeted killings, high civilian casualties) without citing specific ACLED event counts, actor entries, locations, or ACLED-derived statistics. It reads as qualitative analysis rather than data explicitly attributed to ACLED or specific event metrics.",
+        "source_context": "Context section referencing Human Rights Watch’s findings."
+      },
+      {
+        "evidence": "The group frequently strikes areas recently freed by government forces to undermine the offensive by terrorizing local populations.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general analytical claim about Al-Shabaab targeting recently liberated areas to undermine offensives, not a specific reference to ACLED event counts, locations, or actor-level data. It lacks explicit ties to ACLED event data or statistics.",
+        "source_context": "Context section referencing HRW on attacks in newly liberated areas."
+      },
+      {
+        "evidence": "Conflict data shows Al-Shabaab was involved in hundreds of violent incidents against civilians in 2022-2023, resulting in hundreds of civilian deaths.",
+        "is_acled_data": true,
+        "reasoning": "The statement references counts of violent incidents against civilians and resulting civilian deaths over 2022-2023 for a specific actor (Al‑Shabaab), which aligns with ACLED’s event counts, violence against civilians statistics, fatality figures, and actor-level data.",
+        "source_context": "Context section citing HRW conflict data."
+      },
+      {
+        "evidence": "UN officials warn Al-Shabaab remains determined to continue terrorist attacks regardless of civilian losses.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general warning by UN officials about Al-Shabaab’s intent, not specific event data, statistics, or analyses attributed to ACLED. It reflects commentary/policy statements rather than ACLED-derived conflict event information.",
+        "source_context": "Context section referencing UN press statements."
+      },
+      {
+        "evidence": "Al-Shabaab conducts large-scale bombings in public places, targeting soft venues like markets, restaurants, and hotels at peak hours to maximize casualties.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a generalized description of Al-Shabaab tactics (bombings in public places targeting soft venues at peak hours) without citing specific events, counts, locations, dates, or ACLED attribution. It reads as analytical commentary rather than a reference to ACLED event data or statistics.",
+        "source_context": "Indiscriminate Bombings section general description."
+      },
+      {
+        "evidence": "In August 2024, a suicide bombing and gun attack at Mogadishu’s Lido Beach killed over 32 civilians and wounded dozens.",
+        "is_acled_data": false,
+        "reasoning": "The statement provides a specific incident description with casualties, but there is no attribution to ACLED. It could come from media reports or other databases; without explicit linkage to ACLED data, it should not be classified as ACLED-derived.",
+        "source_context": "Indiscriminate Bombings section citing Al Jazeera on the Lido Beach attack."
+      },
+      {
+        "evidence": "An October 2024 suicide bombing at a Mogadishu café near a police academy killed both officers and civilians.",
+        "is_acled_data": true,
+        "reasoning": "The evidence describes a specific conflict event (a suicide bombing in Mogadishu in October 2024), including location, date, type of violence, actors/targets, and casualties—details that align with ACLED’s event-level data on explosions/remote violence and fatalities. Such incident reporting is within ACLED’s scope.",
+        "source_context": "Indiscriminate Bombings section citing Al Jazeera on the café bombing."
+      },
+      {
+        "evidence": "Al-Shabaab claims such attacks as strikes against government or Western targets, but they primarily kill ordinary Somalis.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general analytical claim about target framing versus actual victims, without citing specific ACLED event data, counts, or actor-level statistics. It is not explicitly tied to ACLED datasets or metrics.",
+        "source_context": "Indiscriminate Bombings section noting the group’s media framing versus actual impact."
+      },
+      {
+        "evidence": "IEDs and suicide attacks by Al-Shabaab have been a leading cause of Somali civilian casualties in recent years.",
+        "is_acled_data": true,
+        "reasoning": "Statement references patterns of civilian harm attributable to specific tactics (IEDs, suicide attacks) by Al-Shabaab over time, which aligns with ACLED’s event-based categories (explosions/remote violence, violence against civilians) and casualty patterns/trends by actor and tactic. Such a claim is plausibly derived from ACLED’s actor-level event data and temporal trend analysis on civilian casualties.",
+        "source_context": "Indiscriminate Bombings section referencing HRW reports."
+      },
+      {
+        "evidence": "Use of car bombs, roadside explosives, and remote-detonated devices in populated areas exemplifies Al-Shabaab’s indiscriminate tactics.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general characterization of Al-Shabaab’s tactics (car bombs, roadside IEDs, remote-detonated devices) without citing specific ACLED events, counts, locations, or actor-level data. It reads as qualitative analysis rather than a reference to ACLED-derived event data.",
+        "source_context": "Indiscriminate Bombings section general methods."
+      },
+      {
+        "evidence": "Al-Shabaab carries out targeted assassinations of civilians to punish cooperation with the government and instill fear.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general characterization of Al-Shabaab’s tactics (targeted assassinations to punish cooperation and instill fear) without citing specific ACLED event data, counts, locations, or actor-level entries. It reads as analytical commentary rather than an insight explicitly derived from ACLED datasets.",
+        "source_context": "Targeted Killings section overview."
+      },
+      {
+        "evidence": "In late 2024, Al-Shabaab murdered six Mogadishu businessmen over the installation of security cameras, part of a broader intimidation campaign.",
+        "is_acled_data": false,
+        "reasoning": "The statement describes a specific incident (six businessmen killed over security cameras) but does not reference ACLED as a source or use ACLED-specific event coding or statistics. It resembles a media-reported anecdote; without explicit attribution to ACLED or ACLED-style event data, it should not be classified as ACLED-derived.",
+        "source_context": "Targeted Killings section citing Somali Digest on CCTV-related killings."
+      },
+      {
+        "evidence": "The group has threatened and attacked individuals complying with government orders to mount CCTV cameras, with dozens slain for assisting security measures.",
+        "is_acled_data": true,
+        "reasoning": "The evidence describes violence against civilians by an armed group, referencing threats and attacks tied to compliance with security measures, and mentions fatalities (“dozens slain”), which aligns with ACLED’s event-based data on violence against civilians, actor activity, and fatality counts.",
+        "source_context": "Targeted Killings section citing Somali Digest on ongoing intimidation."
+      },
+      {
+        "evidence": "Al-Shabaab targets community leaders, elders, aid workers, and others perceived as collaborating with the state or foreign partners.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general characterization of Al-Shabaab’s targeting patterns (community leaders, elders, aid workers) without citing specific ACLED events, counts, locations, or actor-coded event data. It reads as qualitative analysis rather than information explicitly drawn from ACLED datasets.",
+        "source_context": "Targeted Killings section general targets."
+      },
+      {
+        "evidence": "Assassinations of business owners, civil servants, and non-combatants aim to demonstrate reach and deter public support for the government.",
+        "is_acled_data": false,
+        "reasoning": "This is a general analytical statement about targeting and deterrence aims, not a specific event count, actor/event description, fatality figure, or trend explicitly tied to ACLED data.",
+        "source_context": "Targeted Killings section analysis of intent."
+      },
+      {
+        "evidence": "Al-Shabaab abducts children and young adults for indoctrination or conscription, constituting grave violations of children’s rights.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general claim about abductions and violations of children’s rights without citing specific events, counts, locations, or ACLED attribution. It reads as qualitative analysis rather than event-based data tied to ACLED.",
+        "source_context": "Abductions section referencing UN monitors."
+      },
+      {
+        "evidence": "Girls and women are abducted for forced marriages or servitude by Al-Shabaab.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general claim about abductions and forced marriages by Al-Shabaab without referencing specific events, dates, locations, counts, or attribution to ACLED. It reads as qualitative context rather than ACLED-derived event data or statistics.",
+        "source_context": "Abductions section referencing UN statements."
+      },
+      {
+        "evidence": "In areas under its influence, Al-Shabaab imposes harsh punishments, including public executions and amputations, to enforce compliance.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general description of Al-Shabaab’s methods (public executions and amputations) without specific event counts, dates, locations, or attribution to ACLED datasets. It reads as qualitative commentary rather than ACLED-derived event data or statistics.",
+        "source_context": "Abductions section description of coercive practices."
+      },
+      {
+        "evidence": "The group extorts taxes from farmers and businesses under threat of violence, effectively targeting civilians to maintain control.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general description of Al-Shabaab’s extortion practices targeting civilians, not tied to specific ACLED-coded events, statistics, locations, or actor/event counts. It reads as analytical/contextual commentary rather than explicit ACLED-derived event data or metrics.",
+        "source_context": "Abductions section on extortion tactics."
+      },
+      {
+        "evidence": "As African Union troops draw down, Al-Shabaab may exploit security gaps by escalating attacks and coercion against unprotected civilians.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general analytical prediction about potential exploitation of security gaps and escalation against civilians; it does not cite specific ACLED event data, statistics, locations, or trends explicitly derived from ACLED.",
+        "source_context": "Abductions section referencing UN concerns about drawdown effects."
+      },
+      {
+        "evidence": "Despite territorial losses, Al-Shabaab retains significant capacity for complex attacks on civilian and security targets to erode public confidence and retaliate.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general analytical claim about Al-Shabaab’s capabilities and intentions without citing specific ACLED event counts, locations, actor-level metrics, or trends. It is not tied to explicit ACLED data or statistics.",
+        "source_context": "Conclusion section referencing UN statements on resilience and brutality."
+      },
+      {
+        "evidence": "Ending Al-Shabaab’s threat requires sustained military pressure alongside civilian protection and measures to disrupt its intimidation capabilities.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general policy/strategy assertion about countering Al-Shabaab, not a reference to specific conflict events, statistics, or actor-level data from ACLED.",
+        "source_context": "Conclusion section prescribing response measures."
+      },
+      {
+        "evidence": "Somali civilians remain on the front lines of violence amid an ongoing insurgent campaign characterized by both mass-casualty attacks and targeted killings.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general characterization of violence and does not cite specific ACLED event counts, actor data, fatalities, locations, or trends explicitly tied to ACLED datasets.",
+        "source_context": "Conclusion section summarizing the civilian toll."
+      }
+    ],
+    "insights": [
+      {
+        "insight": "Somalia’s federal offensives in 2022-2023 reclaimed territory in central regions, prompting Al-Shabaab to intensify attacks with little regard for civilian life.",
+        "context": "Context section citing CTC and HRW on government offensives and Al-Shabaab’s response."
+      },
+      {
+        "insight": "Al-Shabaab combines indiscriminate terrorism with targeted reprisals, using IEDs, suicide bombings, mortar shelling, and targeted killings that have caused a high number of civilian casualties.",
+        "context": "Context section referencing Human Rights Watch’s findings."
+      },
+      {
+        "insight": "The group frequently strikes areas recently freed by government forces to undermine the offensive by terrorizing local populations.",
+        "context": "Context section referencing HRW on attacks in newly liberated areas."
+      },
+      {
+        "insight": "Conflict data shows Al-Shabaab was involved in hundreds of violent incidents against civilians in 2022-2023, resulting in hundreds of civilian deaths.",
+        "context": "Context section citing HRW conflict data."
+      },
+      {
+        "insight": "UN officials warn Al-Shabaab remains determined to continue terrorist attacks regardless of civilian losses.",
+        "context": "Context section referencing UN press statements."
+      },
+      {
+        "insight": "Al-Shabaab conducts large-scale bombings in public places, targeting soft venues like markets, restaurants, and hotels at peak hours to maximize casualties.",
+        "context": "Indiscriminate Bombings section general description."
+      },
+      {
+        "insight": "In August 2024, a suicide bombing and gun attack at Mogadishu’s Lido Beach killed over 32 civilians and wounded dozens.",
+        "context": "Indiscriminate Bombings section citing Al Jazeera on the Lido Beach attack."
+      },
+      {
+        "insight": "An October 2024 suicide bombing at a Mogadishu café near a police academy killed both officers and civilians.",
+        "context": "Indiscriminate Bombings section citing Al Jazeera on the café bombing."
+      },
+      {
+        "insight": "Al-Shabaab claims such attacks as strikes against government or Western targets, but they primarily kill ordinary Somalis.",
+        "context": "Indiscriminate Bombings section noting the group’s media framing versus actual impact."
+      },
+      {
+        "insight": "IEDs and suicide attacks by Al-Shabaab have been a leading cause of Somali civilian casualties in recent years.",
+        "context": "Indiscriminate Bombings section referencing HRW reports."
+      },
+      {
+        "insight": "Use of car bombs, roadside explosives, and remote-detonated devices in populated areas exemplifies Al-Shabaab’s indiscriminate tactics.",
+        "context": "Indiscriminate Bombings section general methods."
+      },
+      {
+        "insight": "Al-Shabaab carries out targeted assassinations of civilians to punish cooperation with the government and instill fear.",
+        "context": "Targeted Killings section overview."
+      },
+      {
+        "insight": "In late 2024, Al-Shabaab murdered six Mogadishu businessmen over the installation of security cameras, part of a broader intimidation campaign.",
+        "context": "Targeted Killings section citing Somali Digest on CCTV-related killings."
+      },
+      {
+        "insight": "The group has threatened and attacked individuals complying with government orders to mount CCTV cameras, with dozens slain for assisting security measures.",
+        "context": "Targeted Killings section citing Somali Digest on ongoing intimidation."
+      },
+      {
+        "insight": "Al-Shabaab targets community leaders, elders, aid workers, and others perceived as collaborating with the state or foreign partners.",
+        "context": "Targeted Killings section general targets."
+      },
+      {
+        "insight": "Assassinations of business owners, civil servants, and non-combatants aim to demonstrate reach and deter public support for the government.",
+        "context": "Targeted Killings section analysis of intent."
+      },
+      {
+        "insight": "Al-Shabaab abducts children and young adults for indoctrination or conscription, constituting grave violations of children’s rights.",
+        "context": "Abductions section referencing UN monitors."
+      },
+      {
+        "insight": "Girls and women are abducted for forced marriages or servitude by Al-Shabaab.",
+        "context": "Abductions section referencing UN statements."
+      },
+      {
+        "insight": "In areas under its influence, Al-Shabaab imposes harsh punishments, including public executions and amputations, to enforce compliance.",
+        "context": "Abductions section description of coercive practices."
+      },
+      {
+        "insight": "The group extorts taxes from farmers and businesses under threat of violence, effectively targeting civilians to maintain control.",
+        "context": "Abductions section on extortion tactics."
+      },
+      {
+        "insight": "As African Union troops draw down, Al-Shabaab may exploit security gaps by escalating attacks and coercion against unprotected civilians.",
+        "context": "Abductions section referencing UN concerns about drawdown effects."
+      },
+      {
+        "insight": "Despite territorial losses, Al-Shabaab retains significant capacity for complex attacks on civilian and security targets to erode public confidence and retaliate.",
+        "context": "Conclusion section referencing UN statements on resilience and brutality."
+      },
+      {
+        "insight": "Ending Al-Shabaab’s threat requires sustained military pressure alongside civilian protection and measures to disrupt its intimidation capabilities.",
+        "context": "Conclusion section prescribing response measures."
+      },
+      {
+        "insight": "Somali civilians remain on the front lines of violence amid an ongoing insurgent campaign characterized by both mass-casualty attacks and targeted killings.",
+        "context": "Conclusion section summarizing the civilian toll."
+      }
+    ],
+    "prompt": "How is Al-Shabaab targeting civilians in Somalia following recent events?"
+  },
+  "costorm": {
+    "total_insights": 30,
+    "total_classified": 30,
+    "acled_count": 21,
+    "non_acled_count": 9,
+    "pct_acled": 0.7,
+    "details": [
+      {
+        "evidence": "Al‑Shabaab waged a dual strategy in 2024: routine, coercive violence along rural–urban corridors and fewer but higher‑visibility attacks in Mogadishu tied to economic hubs and political timing.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a qualitative strategic assessment about attack patterns and timing, without citing specific ACLED event counts, locations, or actor-level metrics. It reads as general analysis rather than explicit use of ACLED-derived data.",
+        "source_context": "Article thesis statement and summary in title and introduction."
+      },
+      {
+        "evidence": "Mogadishu (Banadir) was the largest hotspot for civilian targeting with 76 incidents in 2024, while outside the capital violence concentrated along specific corridors like Afgooye, Kismaayo, Baydhaba, and Afmadow rather than being evenly spread.",
+        "is_acled_data": true,
+        "reasoning": "The evidence cites specific counts of incidents targeting civilians (76 in Mogadishu in 2024) and identifies subnational hotspots/corridors of violence. These are hallmark outputs of ACLED’s event-based dataset: violence against civilians metrics, geographic breakdowns, and temporal aggregation for 2024. This aligns with ACLED data characteristics rather than general commentary.",
+        "source_context": "District‑level incident distribution figures."
+      },
+      {
+        "evidence": "Overall Al‑Shabaab activity clustered in Lower Shabelle, Bay, Lower Juba, and Banadir, with 214 civilian‑targeting events concentrated in Mogadishu and key towns like Kismaayo and Baidoa.",
+        "is_acled_data": true,
+        "reasoning": "The evidence cites specific counts of civilian-targeting events (214) and identifies subnational clustering by regions and cities (Lower Shabelle, Bay, Lower Juba, Banadir; Mogadishu, Kismaayo, Baidoa), which aligns with ACLED’s event-level, actor-specific, and geographic conflict data and violence against civilians statistics.",
+        "source_context": "Conflict map and spatial clustering of civilian targeting."
+      },
+      {
+        "evidence": "Civilian targeting in 2024 was routine, averaging low‑ to mid‑20s incidents monthly, peaking modestly in October after a spring lull and midsummer softening.",
+        "is_acled_data": true,
+        "reasoning": "The evidence cites monthly counts/patterns of civilian-targeting incidents in 2024, references temporal trends (spring lull, midsummer softening, October peak), and focuses on violence against civilians—metrics characteristic of ACLED’s event-based data and trend analysis. This aligns with ACLED’s conflict event counts and temporal patterning rather than general commentary.",
+        "source_context": "Time‑series characterization of monthly incident counts."
+      },
+      {
+        "evidence": "Non‑urban areas experienced far more civilian‑targeting incidents and higher overall fatalities than urban areas; non‑urban attacks were more lethal per incident despite a slight decline in average lethality.",
+        "is_acled_data": true,
+        "reasoning": "The evidence compares incident counts and fatalities between urban and non-urban areas and discusses lethality per incident—metrics characteristic of ACLED’s event-based data (violence against civilians, fatalities, geographic breakdowns). This type of subnational, event-count and lethality analysis aligns with ACLED-derived insights.",
+        "source_context": "Urban vs non‑urban casualty comparison 2023–2024."
+      },
+      {
+        "evidence": "Urban civilian‑targeting incidents rose slightly from 16 to 21 year‑over‑year, but fatalities fell sharply from 28 to 7, yielding about 0.33 deaths per urban attack despite frequent IED use.",
+        "is_acled_data": true,
+        "reasoning": "The evidence cites counts of incidents and fatalities, calculates deaths per attack, and specifies urban civilian-targeting trends over time, which align with ACLED’s event and fatality data and derived temporal trend analysis on violence against civilians.",
+        "source_context": "Urban incident and fatality trend details."
+      },
+      {
+        "evidence": "The dominant tactics against civilians were simple armed attacks/assassinations and remote explosives (landmines/IEDs), while suicide bombings were rare but highly lethal when used.",
+        "is_acled_data": true,
+        "reasoning": "The statement classifies tactics used against civilians (armed attacks/assassinations, remote explosives, suicide bombings) and comments on their relative frequency and lethality. This aligns with ACLED’s event-type/actor-level data and violence against civilians statistics derived from coded events (assassinations vs. explosions/remote violence, suicide bombings) and can be inferred from ACLED trend analysis. It is not general commentary but a synthesis of event data patterns typical of ACLED outputs.",
+        "source_context": "Tactic composition across 2024 civilian targeting."
+      },
+      {
+        "evidence": "Vehicles and transport were the top venue for harm: 38 IED attacks on vehicles killed at least 53 civilians, and 17 direct attacks on vehicles killed about 29 more.",
+        "is_acled_data": true,
+        "reasoning": "The evidence provides specific counts of IED attacks and direct attacks on vehicles, along with civilian fatality figures, which align with ACLED’s event-level data on explosions/remote violence and violence against civilians, including fatality counts and incident totals. This is characteristic of analysis derived from ACLED conflict event data.",
+        "source_context": "Venue–tactic combinations for road/vehicle incidents."
+      },
+      {
+        "evidence": "Settlements faced frequent direct attacks—35 incidents causing at least 63 deaths—alongside additional IED incidents, reflecting enforcement within communities.",
+        "is_acled_data": true,
+        "reasoning": "Mentions specific counts of incidents (35) and associated fatalities (at least 63) related to direct attacks and IED incidents against settlements, which aligns with ACLED event and fatality data on violence against civilians and explosions/remote violence.",
+        "source_context": "Settlement targeting statistics."
+      },
+      {
+        "evidence": "Roadside IEDs on highways were especially lethal per incident compared to IEDs in other venues, heightening travel risks for civilians.",
+        "is_acled_data": true,
+        "reasoning": "The statement compares lethality per incident of roadside IEDs on highways versus other venues, implying event-type categorization and fatality-per-event analysis across locations—metrics that can be derived from ACLED’s event data (explosions/remote violence), fatalities, and geocoded locations. This aligns with ACLED-derived conflict trend and actor/incident analysis.",
+        "source_context": "Venue‑specific lethality comparison for IEDs."
+      },
+      {
+        "evidence": "Corridor geographies showed bomb‑heavy lethality near Mogadishu (Afgooye, Marka, Balcad), while deeper rural districts (Jilib, Diinsoor, Jamaame, Saakow) saw fatalities mainly from direct face‑to‑face attacks.",
+        "is_acled_data": true,
+        "reasoning": "The evidence discusses spatial patterns of conflict lethality and modalities (bomb-heavy near Mogadishu vs. direct attacks in rural districts) with specific subnational locations. This aligns with ACLED’s geocoded event data, event types (explosions/remote violence vs. violence against civilians), and fatality patterns by location, which are typical outputs derived from ACLED’s event and geographic datasets.",
+        "source_context": "District‑specific modality patterns of fatalities."
+      },
+      {
+        "evidence": "Road and vehicle IEDs were normalized at a rate of about one incident per week per district, with occasional spikes driven by single high‑casualty bus attacks.",
+        "is_acled_data": true,
+        "reasoning": "The evidence references incident frequency of IED events over time at the district level and mentions spikes tied to specific high-casualty attacks—this aligns with ACLED’s event counts, temporal trends, and subnational breakdowns of explosions/remote violence and casualty-linked incidents.",
+        "source_context": "Weekly profile of road/vehicle IED incidents and fatality spikes."
+      },
+      {
+        "evidence": "Labor groups—drivers, porters, and workers—were the most frequently targeted associated category, with 48 events and 83 deaths, indicating coercion of economic lifelines.",
+        "is_acled_data": true,
+        "reasoning": "Mentions specific counts of targeted events and associated fatalities for a victim category (labor groups), which aligns with ACLED’s event- and actor-level data on violence against civilians and fatality figures. This type of granular event count and death toll by victim category is characteristic of ACLED-derived analysis.",
+        "source_context": "Victim profile and associated target categories."
+      },
+      {
+        "evidence": "Attacks on local security forces and district officials were frequent but produced low to moderate deaths per event, signaling persistent intimidation over mass killing.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a qualitative assessment about attack frequency and lethality signaling intimidation; it does not cite specific ACLED event counts, fatalities, actor data, or trends. It reads as general analytical commentary rather than direct use of ACLED-derived metrics.",
+        "source_context": "Patterns of attacks on local authorities."
+      },
+      {
+        "evidence": "Abductions and forced disappearances (20 incidents) were mostly non‑lethal, serving recruitment, intelligence‑gathering, and tax enforcement functions.",
+        "is_acled_data": true,
+        "reasoning": "Mentions a specific count of incidents (20) of abductions/forced disappearances and characterizes their lethality and functions, which aligns with ACLED’s event-level data on violence against civilians and actor activities. The quantitative incident count and event-type framing suggest derivation from ACLED event data.",
+        "source_context": "Non‑lethal coercive incidents around settlements and vehicles."
+      },
+      {
+        "evidence": "Aid workers were repeatedly targeted in settlement and transport venues within southern Somalia’s corridors, forcing operational scale‑backs and constraining access to basic services.",
+        "is_acled_data": true,
+        "reasoning": "Mentions targeted violence against a specific civilian group (aid workers), locations/venues (settlements, transport corridors in southern Somalia), and operational impacts consistent with event-based patterns. This aligns with ACLED’s violence against civilians and actor-level event data that track where and how civilians are targeted. While no figures are given, the phrasing suggests synthesis from ACLED event descriptions and geographic patterns rather than general commentary.",
+        "source_context": "Humanitarian access constraints and targeting of aid staff."
+      },
+      {
+        "evidence": "This dispersed violence constitutes “corridors of control,” using IEDs, direct attacks, and abductions to regulate movement, extract revenue, discipline workers and elites, and sideline the state and aid actors.",
+        "is_acled_data": false,
+        "reasoning": "The evidence is analytical narrative about tactics and effects (“corridors of control,” regulation of movement, revenue extraction) rather than citing specific ACLED events, counts, locations, or actor-level statistics. It reads as general analysis, not directly tied to ACLED-derived event data.",
+        "source_context": "Synthesis of corridor governance mechanisms."
+      },
+      {
+        "evidence": "Mogadishu recorded 76 civilian‑targeting incidents causing 138 deaths (≈1.8 deaths per event), a higher per‑attack lethality than many rural areas despite fewer incidents.",
+        "is_acled_data": true,
+        "reasoning": "The evidence cites counts of civilian-targeting incidents, associated fatalities, a per-event lethality calculation, and a specific subnational location (Mogadishu). These are hallmark ACLED metrics (event counts, violence against civilians, fatality figures, geographic breakdown), consistent with analysis derived from ACLED event data.",
+        "source_context": "Capital’s incident and fatality metrics."
+      },
+      {
+        "evidence": "Nearly half of Mogadishu’s incidents (46%) hit economic and public venues like hotels, restaurants, and markets, compared to 29% in secondary cities, emphasizing symbolic and economic targets in the capital.",
+        "is_acled_data": true,
+        "reasoning": "The statement provides percentages of incidents by location type (economic/public venues) in Mogadishu versus secondary cities— a subnational, event-type/location breakdown typical of ACLED’s coded event data and venue targeting analysis. It reflects aggregated conflict event data by place and category, which ACLED produces.",
+        "source_context": "Venue distribution comparison between Mogadishu and other urban centers."
+      },
+      {
+        "evidence": "In Mogadishu, Al‑Shabaab primarily used armed assaults (41 events) and IEDs (25), with three suicide bombings reserved for maximum impact and rising lethality (7, 9, and 11 deaths respectively).",
+        "is_acled_data": true,
+        "reasoning": "The evidence cites specific counts of event types in a city (armed assaults, IEDs, suicide bombings) and associated fatality figures across events, which aligns with ACLED’s event-level data on conflict types, locations, and fatalities. This granular breakdown by tactic and location is characteristic of ACLED-derived analysis.",
+        "source_context": "Banadir tactic mix and suicide bombing details by month."
+      },
+      {
+        "evidence": "High‑profile urban operations often blend targeted strikes on officials or facilities with substantial bystander harm and include occasional indirect fire (e.g., 107mm rockets) into political/diplomatic zones.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general analytical description of tactics (urban operations blending targeted strikes, bystander harm, occasional rocket fire) without citing specific events, counts, locations, dates, or ACLED attribution. It reads as qualitative commentary rather than data derived from ACLED event records or statistics.",
+        "source_context": "Urban tactic adaptation and propaganda value."
+      },
+      {
+        "evidence": "Mogadishu’s civilian deaths peaked in January and October, with the October spike driven by an 11‑fatality suicide bombing in Hamar Jabjab; suicide attacks on civilians occurred only in January, July, and October and only in Banadir.",
+        "is_acled_data": true,
+        "reasoning": "The evidence cites specific temporal spikes in civilian fatalities, references a precise event (an 11-fatality suicide bombing in Hamar Jabjab), and notes subnational location (Banadir) and attack types (suicide attacks) by month. These are characteristic of ACLED’s event-level, fatality-count, location, and temporal pattern data derived from recorded conflict events.",
+        "source_context": "Monthly fatality peaks and suicide attack timing/location."
+      },
+      {
+        "evidence": "Urban spectaculars appear calibrated to phases of intensified government offensives and political activity, aligning violence with national security and parliamentary calendars.",
+        "is_acled_data": false,
+        "reasoning": "The statement is an analytic claim about timing of attacks relative to government offensives and political calendars. It does not cite specific ACLED event counts, dates, or actor-level data, nor is it explicitly attributed to ACLED. It reads as general analysis rather than direct use of ACLED-derived temporal trend data.",
+        "source_context": "Temporal alignment of major urban incidents with political timelines."
+      },
+      {
+        "evidence": "For rural traders, most risk accumulates on roads: non‑urban incidents dominated totals and fatalities, with transport routes outside Mogadishu having the most civilian‑targeting events and deaths of any venue type.",
+        "is_acled_data": true,
+        "reasoning": "The evidence discusses counts of civilian-targeting incidents and fatalities by venue type (roads/transport routes vs. urban), and differentiates non-urban vs. urban locations—this aligns with ACLED’s event-level data, violence against civilians statistics, fatality counts, and geographic breakdowns. The phrasing suggests aggregated analysis from conflict event data rather than general commentary.",
+        "source_context": "Civilian experience on corridors and venue fatality leadership."
+      },
+      {
+        "evidence": "For health workers, Al‑Shabaab attacks targeted medical staff in rural and semi‑rural districts, while aid worker incidents concentrated more in Mogadishu, tightening a broader access squeeze.",
+        "is_acled_data": true,
+        "reasoning": "Mentions targeted attacks on specific civilian categories (medical and aid workers) and their geographic concentration (rural districts vs. Mogadishu), which aligns with ACLED’s event-level data on violence against civilians and subnational location patterns. While no numbers are provided, the characterization of incident locations and victim types is consistent with insights derived from ACLED’s incident records.",
+        "source_context": "Sector‑specific targeting patterns affecting service delivery."
+      },
+      {
+        "evidence": "Despite high visibility, Mogadishu’s urban attacks represent only a fraction of overall incidents and fatalities, which accrue mainly along rural–urban corridors.",
+        "is_acled_data": true,
+        "reasoning": "The statement compares the share of incidents and fatalities across geographies (urban Mogadishu vs. rural–urban corridors), implying subnational event and fatality distribution analysis based on conflict event counts and locations—data types characteristic of ACLED. While phrased analytically, it reflects aggregate spatial patterns from ACLED’s event and fatality data.",
+        "source_context": "Relative contribution of urban vs non‑urban to totals."
+      },
+      {
+        "evidence": "Civilian protection strategies that focus on fortifying the capital are insufficient because non‑urban incidents and deaths still dominate; securing specific roads, junctions, and market approaches would better match harm geography.",
+        "is_acled_data": false,
+        "reasoning": "The statement offers strategic policy analysis about focusing beyond the capital and targeting roads/junctions based on “harm geography,” but it does not cite specific ACLED event counts, locations, or actor-level data. It is a general recommendation rather than explicit use of ACLED-derived statistics or maps.",
+        "source_context": "Policy implication on protection priorities."
+      },
+      {
+        "evidence": "Urban security in Mogadishu should prioritize safeguards for economic and public venues given their higher concentration of attacks and per‑event lethality.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general analytical recommendation about prioritizing urban security at economic/public venues due to higher concentration of attacks and lethality. It does not cite specific ACLED event counts, locations, or actor-level data, nor does it explicitly attribute patterns to ACLED. It reads as analytic commentary rather than a direct use of ACLED-derived metrics.",
+        "source_context": "Tailored urban protection recommendation."
+      },
+      {
+        "evidence": "Humanitarian access requires negotiated corridors and protection measures aligned with documented road and settlement harm patterns, and coordination mechanisms should be data‑informed by civilian targeting geography.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a policy/operational recommendation about humanitarian access and coordination, referencing general patterns like road and settlement harm and civilian targeting geography without citing specific ACLED event data, statistics, or attribution. It is general analysis, not clearly derived from ACLED.",
+        "source_context": "Humanitarian policy recommendations based on incident mapping."
+      },
+      {
+        "evidence": "Al‑Shabaab’s dual system converts dispersed coercive power in rural corridors into high‑profile urban theatre, sustaining fear, eroding state authority, and shaping both movement and governance across Somalia.",
+        "is_acled_data": false,
+        "reasoning": "The statement is analytical narrative about Al‑Shabaab’s strategy and effects, not citing specific events, counts, locations, or trends from ACLED. It is general commentary rather than event-based data attributable to ACLED.",
+        "source_context": "Conclusion linking corridor control to capital spectacle and strategic objectives."
+      }
+    ],
+    "insights": [
+      {
+        "insight": "Al‑Shabaab waged a dual strategy in 2024: routine, coercive violence along rural–urban corridors and fewer but higher‑visibility attacks in Mogadishu tied to economic hubs and political timing.",
+        "context": "Article thesis statement and summary in title and introduction."
+      },
+      {
+        "insight": "Mogadishu (Banadir) was the largest hotspot for civilian targeting with 76 incidents in 2024, while outside the capital violence concentrated along specific corridors like Afgooye, Kismaayo, Baydhaba, and Afmadow rather than being evenly spread.",
+        "context": "District‑level incident distribution figures."
+      },
+      {
+        "insight": "Overall Al‑Shabaab activity clustered in Lower Shabelle, Bay, Lower Juba, and Banadir, with 214 civilian‑targeting events concentrated in Mogadishu and key towns like Kismaayo and Baidoa.",
+        "context": "Conflict map and spatial clustering of civilian targeting."
+      },
+      {
+        "insight": "Civilian targeting in 2024 was routine, averaging low‑ to mid‑20s incidents monthly, peaking modestly in October after a spring lull and midsummer softening.",
+        "context": "Time‑series characterization of monthly incident counts."
+      },
+      {
+        "insight": "Non‑urban areas experienced far more civilian‑targeting incidents and higher overall fatalities than urban areas; non‑urban attacks were more lethal per incident despite a slight decline in average lethality.",
+        "context": "Urban vs non‑urban casualty comparison 2023–2024."
+      },
+      {
+        "insight": "Urban civilian‑targeting incidents rose slightly from 16 to 21 year‑over‑year, but fatalities fell sharply from 28 to 7, yielding about 0.33 deaths per urban attack despite frequent IED use.",
+        "context": "Urban incident and fatality trend details."
+      },
+      {
+        "insight": "The dominant tactics against civilians were simple armed attacks/assassinations and remote explosives (landmines/IEDs), while suicide bombings were rare but highly lethal when used.",
+        "context": "Tactic composition across 2024 civilian targeting."
+      },
+      {
+        "insight": "Vehicles and transport were the top venue for harm: 38 IED attacks on vehicles killed at least 53 civilians, and 17 direct attacks on vehicles killed about 29 more.",
+        "context": "Venue–tactic combinations for road/vehicle incidents."
+      },
+      {
+        "insight": "Settlements faced frequent direct attacks—35 incidents causing at least 63 deaths—alongside additional IED incidents, reflecting enforcement within communities.",
+        "context": "Settlement targeting statistics."
+      },
+      {
+        "insight": "Roadside IEDs on highways were especially lethal per incident compared to IEDs in other venues, heightening travel risks for civilians.",
+        "context": "Venue‑specific lethality comparison for IEDs."
+      },
+      {
+        "insight": "Corridor geographies showed bomb‑heavy lethality near Mogadishu (Afgooye, Marka, Balcad), while deeper rural districts (Jilib, Diinsoor, Jamaame, Saakow) saw fatalities mainly from direct face‑to‑face attacks.",
+        "context": "District‑specific modality patterns of fatalities."
+      },
+      {
+        "insight": "Road and vehicle IEDs were normalized at a rate of about one incident per week per district, with occasional spikes driven by single high‑casualty bus attacks.",
+        "context": "Weekly profile of road/vehicle IED incidents and fatality spikes."
+      },
+      {
+        "insight": "Labor groups—drivers, porters, and workers—were the most frequently targeted associated category, with 48 events and 83 deaths, indicating coercion of economic lifelines.",
+        "context": "Victim profile and associated target categories."
+      },
+      {
+        "insight": "Attacks on local security forces and district officials were frequent but produced low to moderate deaths per event, signaling persistent intimidation over mass killing.",
+        "context": "Patterns of attacks on local authorities."
+      },
+      {
+        "insight": "Abductions and forced disappearances (20 incidents) were mostly non‑lethal, serving recruitment, intelligence‑gathering, and tax enforcement functions.",
+        "context": "Non‑lethal coercive incidents around settlements and vehicles."
+      },
+      {
+        "insight": "Aid workers were repeatedly targeted in settlement and transport venues within southern Somalia’s corridors, forcing operational scale‑backs and constraining access to basic services.",
+        "context": "Humanitarian access constraints and targeting of aid staff."
+      },
+      {
+        "insight": "This dispersed violence constitutes “corridors of control,” using IEDs, direct attacks, and abductions to regulate movement, extract revenue, discipline workers and elites, and sideline the state and aid actors.",
+        "context": "Synthesis of corridor governance mechanisms."
+      },
+      {
+        "insight": "Mogadishu recorded 76 civilian‑targeting incidents causing 138 deaths (≈1.8 deaths per event), a higher per‑attack lethality than many rural areas despite fewer incidents.",
+        "context": "Capital’s incident and fatality metrics."
+      },
+      {
+        "insight": "Nearly half of Mogadishu’s incidents (46%) hit economic and public venues like hotels, restaurants, and markets, compared to 29% in secondary cities, emphasizing symbolic and economic targets in the capital.",
+        "context": "Venue distribution comparison between Mogadishu and other urban centers."
+      },
+      {
+        "insight": "In Mogadishu, Al‑Shabaab primarily used armed assaults (41 events) and IEDs (25), with three suicide bombings reserved for maximum impact and rising lethality (7, 9, and 11 deaths respectively).",
+        "context": "Banadir tactic mix and suicide bombing details by month."
+      },
+      {
+        "insight": "High‑profile urban operations often blend targeted strikes on officials or facilities with substantial bystander harm and include occasional indirect fire (e.g., 107mm rockets) into political/diplomatic zones.",
+        "context": "Urban tactic adaptation and propaganda value."
+      },
+      {
+        "insight": "Mogadishu’s civilian deaths peaked in January and October, with the October spike driven by an 11‑fatality suicide bombing in Hamar Jabjab; suicide attacks on civilians occurred only in January, July, and October and only in Banadir.",
+        "context": "Monthly fatality peaks and suicide attack timing/location."
+      },
+      {
+        "insight": "Urban spectaculars appear calibrated to phases of intensified government offensives and political activity, aligning violence with national security and parliamentary calendars.",
+        "context": "Temporal alignment of major urban incidents with political timelines."
+      },
+      {
+        "insight": "For rural traders, most risk accumulates on roads: non‑urban incidents dominated totals and fatalities, with transport routes outside Mogadishu having the most civilian‑targeting events and deaths of any venue type.",
+        "context": "Civilian experience on corridors and venue fatality leadership."
+      },
+      {
+        "insight": "For health workers, Al‑Shabaab attacks targeted medical staff in rural and semi‑rural districts, while aid worker incidents concentrated more in Mogadishu, tightening a broader access squeeze.",
+        "context": "Sector‑specific targeting patterns affecting service delivery."
+      },
+      {
+        "insight": "Despite high visibility, Mogadishu’s urban attacks represent only a fraction of overall incidents and fatalities, which accrue mainly along rural–urban corridors.",
+        "context": "Relative contribution of urban vs non‑urban to totals."
+      },
+      {
+        "insight": "Civilian protection strategies that focus on fortifying the capital are insufficient because non‑urban incidents and deaths still dominate; securing specific roads, junctions, and market approaches would better match harm geography.",
+        "context": "Policy implication on protection priorities."
+      },
+      {
+        "insight": "Urban security in Mogadishu should prioritize safeguards for economic and public venues given their higher concentration of attacks and per‑event lethality.",
+        "context": "Tailored urban protection recommendation."
+      },
+      {
+        "insight": "Humanitarian access requires negotiated corridors and protection measures aligned with documented road and settlement harm patterns, and coordination mechanisms should be data‑informed by civilian targeting geography.",
+        "context": "Humanitarian policy recommendations based on incident mapping."
+      },
+      {
+        "insight": "Al‑Shabaab’s dual system converts dispersed coercive power in rural corridors into high‑profile urban theatre, sustaining fear, eroding state authority, and shaping both movement and governance across Somalia.",
+        "context": "Conclusion linking corridor control to capital spectacle and strategic objectives."
+      }
+    ],
+    "prompt": "How is Al-Shabaab targeting civilians in Somalia following recent events?"
+  }
+}

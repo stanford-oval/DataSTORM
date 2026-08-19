@@ -1,0 +1,12 @@
+{
+  "name": "graph_generation",
+  "version": 1,
+  "type": "text",
+  "labels": [
+    "production",
+    "latest"
+  ],
+  "tags": [],
+  "config": {},
+  "prompt": "# instruction\n\nYour task is to generate a plotly HTML plot from a given CSV. You should write python code to read the CSV and generate the HTML plotly plot.\n\nFollow the following instructions:\n\n1. First, determine if the CSV is suitable for generating a plotly plot. If not, output \"No suitable plot can be generated\" and stop. Example of cases that are not suitable:\n    - The CSV contains only a few rows.\n    - The CSV primarily contains text data, not numeric data.\n2. If the CSV is suitable, output the Python code only, no other text. You can put comments in the code as thinking tokens.\n3. Save the HTML plotly plot in the same directory as the CSV file, with the same filename but with a .html extension.\n\n# input\n\nCSV File Path: {{ csv_file_path }}\n\nContext / Snapshot of the CSV: {{ csv_snapshot }}"
+}

@@ -1,0 +1,64 @@
+{
+  "criteria": [
+    {
+      "name": "Defection-triggered reprisals",
+      "description": "Assess how high-profile defections alter conflict dynamics and prompt punitive violence against associated communities, including patterns of targeted retaliation and intimidation."
+    },
+    {
+      "name": "Violence against civilians surge",
+      "description": "Evaluate changes in the frequency and severity of attacks on civilians, noting spikes, geographic concentration, and common forms such as killings, looting, sexual violence, and sieges."
+    },
+    {
+      "name": "Ethnic targeting patterns",
+      "description": "Identify whether violence aligns with ethnic or community affiliations linked to defectors or armed groups, and how this shapes displacement, victimization, and local tensions."
+    },
+    {
+      "name": "Strategic territorial consolidation",
+      "description": "Analyze how armed actors prioritize and fortify key locations, withdraw from less strategic areas, and use defensive lines to block adversaries’ advances."
+    },
+    {
+      "name": "Horizontal command resilience",
+      "description": "Examine the adaptability of decentralized armed group structures in absorbing defections and reorganizing forces to maintain operational effectiveness."
+    },
+    {
+      "name": "Coordinated offensives impact",
+      "description": "Assess the effects of multi-front offensives on territorial control, supply lines, and the opposing side’s ability to regroup, including push-pull dynamics across adjacent states."
+    },
+    {
+      "name": "Community arming and mobilization",
+      "description": "Evaluate claims and evidence of civilian arming or local mobilization, and how this influences reprisals, security risks, and conflict escalation."
+    },
+    {
+      "name": "Siege and blockade tactics",
+      "description": "Identify the use of sieges and blockades, including restrictions on movement and access to essentials, and their humanitarian consequences for trapped populations."
+    },
+    {
+      "name": "Displacement and humanitarian fallout",
+      "description": "Assess displacement patterns, sheltering behavior, and humanitarian needs arising from intensified violence, including health crises and access to aid."
+    },
+    {
+      "name": "Geography shaping operations",
+      "description": "Analyze how terrain and natural barriers affect maneuverability, defensive positions, and the feasibility of force concentration or counterattacks."
+    },
+    {
+      "name": "Inter-state operational linkages",
+      "description": "Consider how forces link operations across neighboring regions to encircle opponents, secure supply routes, and synchronize advances or withdrawals."
+    },
+    {
+      "name": "Retaliation narratives and justifications",
+      "description": "Examine the narratives used by armed actors to justify attacks on civilians, including accusations of local mobilization, and their role in legitimizing punitive campaigns."
+    },
+    {
+      "name": "Command-and-control disruptions",
+      "description": "Evaluate how leadership changes, defections, or ambushes affect operational cohesion, morale, and subsequent tactical decisions by both sides."
+    },
+    {
+      "name": "Civil-military mediation roles",
+      "description": "Assess the influence of local leaders and civil society in facilitating negotiations, defections, or ceasefires, and the durability of such arrangements under pressure."
+    },
+    {
+      "name": "Prospective axes of advance",
+      "description": "Identify likely future targets and lines of movement based on current force dispositions, recent gains, and strategic priorities of the warring parties."
+    }
+  ]
+}

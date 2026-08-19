@@ -1,0 +1,75 @@
+{
+  "dataset_id": 56,
+  "dataset_path": "data/notebooks/flag-56.json",
+  "metadata": {
+    "category": "Incident Management",
+    "dataset_description": "The dataset comprises 600 entries simulating ServiceNow incidents table, detailing various attributes such as category, state, open and close dates, involved personnel, and incident specifics like description, and priority. It captures incident management activities with fields like 'opened_at', 'closed_at', 'assigned_to', 'short_description', and 'priority', reflecting the operational handling and urgency of issues across different locations and categories.",
+    "goal": "Analyze the hardware-related incidents during an identified time window to pinpoint potential hiccups that could be causing any anomalies.",
+    "header": "Hardware Incident Analysis During Specific Time Windows (Flag 56)",
+    "role": "DT Asset Manager"
+  },
+  "predicted_insights": [
+    "Across the window, Hardware openings were typically 1 per day (occasionally 2), with a single outlier at 3 on 2023-10-29 surpassing the 2.46 anomaly threshold, indicating a generally stable intake with one notable surge.",
+    "The UK made up 23% of all Hardware incident openings in this period, and the small spread between top and bottom locations (23 vs 17, a 6-incident gap) suggests hardware issues were fairly evenly distributed across regions rather than driven by a single hotspot.",
+    "Beth Anglin’s median Hardware resolution time is about 26% longer than the next-highest (Luke Wilson) and roughly 3.6× the lowest (Howard Johnson), indicating a concentrated delay for Beth’s assignments that may signal process or workload bottlenecks.",
+    "8066.69 hours is about 336 days (roughly 85% of the ~394-day window), revealing a pronounced long-tail where the slowest 5% of Hardware tickets take nearly a year to close, even though the category includes many critical cases (30 critical vs 28 low).",
+    "All identified Hardware TTR outliers (2/2, 100%) in this window came from the UK and spanned roughly 45–98 days to resolve, involving different assignees, indicating a likely location-specific bottleneck rather than an individual performance issue.",
+    "High-priority Hardware incidents are resolved far faster than all other priorities—about 32.6 hours versus roughly 801–1255 hours for Low/Moderate/Critical—meaning Critical is ~38.6x slower, Moderate ~33.1x slower, and Low ~24.6x slower than High, an inverted pattern that suggests potential misprioritization or workflow bottlenecks for non-High tickets.",
+    "The routing for Hardware issues was perfect in this period (36/36 correctly assigned), suggesting any observed anomalies in Hardware outcomes are unlikely due to misassignment across support groups.",
+    "In this window, only 22.2% of Hardware tickets were system-updated, while 77.8% were updated by people—44.4% by employees (16) and 33.3% by admins (12)—indicating most Hardware incidents still require manual handling.",
+    "The UK’s hardware incident count is only 2 higher than the next location (Canada) and 6 higher than the lowest (Australia), a narrow range (17–23) that suggests a mild hotspot in the UK rather than a significant anomaly.",
+    "There were 30 '1 - Critical' Hardware incidents in total during this window, and Luke Wilson handled 40% of them—indicating a concentrated reliance on one assignee that could become a bottleneck or single point of failure during anomaly periods.",
+    "The United States’ average resolution time was 7.7% higher than Australia (the next slowest) and about 2.06× India, indicating a sizable location-specific gap in Hardware incident resolution performance.",
+    "There were two peak months—January and November 2023—each with 12 hardware incident openings, which is four times March 2023’s low of 3, indicating the workload is prone to periodic spikes rather than being steady."
+  ],
+  "predicted_summary": "Incident openings show a clear temporal pattern: across Jan 2023–Jan 2024, only a single day (2023-10-29) exhibits an anomalous spike, while January 2023 is the busiest month overall with 12 hardware incidents opened.\nGeography reveals a split between volume and resolution speed: the UK generated the most hardware incidents (23), yet the United States had the longest average time-to-resolution at 4071.81 hours (about 170 days), indicating regional differences in how long incidents remain open.\nResolution times are highly skewed, with a long tail: the 95th percentile across the full window is 8066.69 hours (about 336 days). In the Oct 1–Jan 31 subset, two UK incidents exceeded that subset’s 95th percentile (≈2347 hours and ≈1077 hours). Within that same subset, median time-to-resolution varies sharply by priority—Critical ≈1255.39 hours (~52 days), Moderate ≈1077.25 hours (~45 days), Low ≈801.55 hours (~33 days), while High is far shorter at ≈32.56 hours (~1.4 days). One assignee (Beth Anglin) shows an especially high median resolution time (≈4090.28 hours, ~170 days), and Luke Wilson handled the most Critical incidents (12).",
+  "score_insights": 0.3320768834778629,
+  "score_insights_dict": [
+    {
+      "gt_insight": "There is a uniform decreasing trend of TTR for all category incidents over time.",
+      "pred_insight": "8066.69 hours is about 336 days (roughly 85% of the ~394-day window), revealing a pronounced long-tail where the slowest 5% of Hardware tickets take nearly a year to close, even though the category includes many critical cases (30 critical vs 28 low).",
+      "score": 0.2226802629351131
+    },
+    {
+      "gt_insight": "All categories have the same number of incidents on average.",
+      "pred_insight": "The UK made up 23% of all Hardware incident openings in this period, and the small spread between top and bottom locations (23 vs 17, a 6-incident gap) suggests hardware issues were fairly evenly distributed across regions rather than driven by a single hotspot.",
+      "score": 0.32714454313869823
+    },
+    {
+      "gt_insight": "There are fluctuations in incident frequencies across categories, with slightly higher activity in September and October.",
+      "pred_insight": "Across the window, Hardware openings were typically 1 per day (occasionally 2), with a single outlier at 3 on 2023-10-29 surpassing the 2.46 anomaly threshold, indicating a generally stable intake with one notable surge.",
+      "score": 0.3111795838169571
+    },
+    {
+      "gt_insight": "There is no trend detected in the number of hardware incidents over time.",
+      "pred_insight": "Across the window, Hardware openings were typically 1 per day (occasionally 2), with a single outlier at 3 on 2023-10-29 surpassing the 2.46 anomaly threshold, indicating a generally stable intake with one notable surge.",
+      "score": 0.4673031440206833
+    }
+  ],
+  "score_summary": 0.5098890995393288,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.32006906684271264,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "High-priority Hardware incidents are resolved far faster than all other priorities—about 32.6 hours versus roughly 801–1255 hours for Low/Moderate/Critical—meaning Critical is ~38.6x slower, Moderate ~33.1x slower, and Low ~24.6x slower than High, an inverted pattern that suggests potential misprioritization or workflow bottlenecks for non-High tickets.",
+      "gt_insight": "There is a uniform decreasing trend of TTR for all category incidents over time.",
+      "score": 0.2932408621703428
+    },
+    {
+      "pred_insight": "The UK made up 23% of all Hardware incident openings in this period, and the small spread between top and bottom locations (23 vs 17, a 6-incident gap) suggests hardware issues were fairly evenly distributed across regions rather than driven by a single hotspot.",
+      "gt_insight": "All categories have the same number of incidents on average.",
+      "score": 0.26827962378729836
+    },
+    {
+      "pred_insight": "Across the window, Hardware openings were typically 1 per day (occasionally 2), with a single outlier at 3 on 2023-10-29 surpassing the 2.46 anomaly threshold, indicating a generally stable intake with one notable surge.",
+      "gt_insight": "There are fluctuations in incident frequencies across categories, with slightly higher activity in September and October.",
+      "score": 0.385141106982858
+    },
+    {
+      "pred_insight": "Across the window, Hardware openings were typically 1 per day (occasionally 2), with a single outlier at 3 on 2023-10-29 surpassing the 2.46 anomaly threshold, indicating a generally stable intake with one notable surge.",
+      "gt_insight": "There is no trend detected in the number of hardware incidents over time.",
+      "score": 0.3336146744303513
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.19599037702528901,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.3902904605845644
+}

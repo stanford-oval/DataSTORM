@@ -1,0 +1,175 @@
+{
+  "per_dimension": [
+    {
+      "dimension": "actor_entity",
+      "score": 0.0,
+      "num_concept_groups": 1,
+      "num_consistent_groups": 0,
+      "notes": "Queries identifying 'Fano' events use different actor fields (actor1/actor2 only vs including assoc_actor_1/assoc_actor_2 and even notes), leading to different row sets."
+    },
+    {
+      "dimension": "geography",
+      "score": 0.0,
+      "num_concept_groups": 1,
+      "num_consistent_groups": 0,
+      "notes": "One query (Q13) mixes adm1/region/admin1 on a different table; others consistently use admin1='Amhara' on the events table."
+    },
+    {
+      "dimension": "temporal",
+      "score": 1.0,
+      "num_concept_groups": 1,
+      "num_consistent_groups": 1,
+      "notes": "All queries targeting April 2023–December 2024 use equivalent inclusive bounds (<= 2024-12-31 or < 2025-01-01)."
+    },
+    {
+      "dimension": "event_taxonomy",
+      "score": 0.0,
+      "num_concept_groups": 1,
+      "num_consistent_groups": 0,
+      "notes": "Some queries define 'political violence' via disorder_type; others use event_type lists (including Strategic developments, Protests, Riots), yielding non-equivalent sets."
+    },
+    {
+      "dimension": "counting_aggregation",
+      "score": 0.0,
+      "num_concept_groups": 2,
+      "num_consistent_groups": 0,
+      "notes": "Actor-dyad counting differs (normalized LEAST/GREATEST vs directional actor1/actor2). One query pre-filters out NULL fatalities before summing while others sum with COALESCE; this is cosmetically inconsistent."
+    },
+    {
+      "dimension": "population_scope",
+      "score": 0.0,
+      "num_concept_groups": 1,
+      "num_consistent_groups": 0,
+      "notes": "Several Amhara queries omit country='Ethiopia' while others include it; base-population filters are not consistently applied."
+    }
+  ],
+  "conflicts": [
+    {
+      "dimension": "event_taxonomy",
+      "concept": "Political violence in Amhara (Apr 2023–Dec 2024) monthly counts/fatalities",
+      "query_indices": [
+        1,
+        10
+      ],
+      "predicate_a": "disorder_type IN ('Political violence', 'Political violence; Demonstrations')",
+      "predicate_b": "event_type IN ('Battles','Explosions/Remote violence','Violence against civilians','Strategic developments')",
+      "severity": "result-changing",
+      "explanation": "Q1 uses ACLED's disorder_type to define political violence; Q10 instead filters by an event_type list (including Strategic developments) regardless of disorder_type. These select different sets of events, so monthly totals are not comparable."
+    },
+    {
+      "dimension": "event_taxonomy",
+      "concept": "Political violence in Amhara (Apr 2023–Dec 2024) monthly counts/fatalities",
+      "query_indices": [
+        1,
+        17
+      ],
+      "predicate_a": "disorder_type IN ('Political violence', 'Political violence; Demonstrations')",
+      "predicate_b": "event_type IN ('Battles','Explosions/Remote violence','Violence against civilians','Strategic developments','Protests','Riots')",
+      "severity": "result-changing",
+      "explanation": "Q17 expands the event set to include Protests and Riots independently of disorder_type, diverging from the political-violence definition used in Q1. This changes the composition and counts."
+    },
+    {
+      "dimension": "actor_entity",
+      "concept": "Fano-involved events (Amhara, Apr 2023–Dec 2024)",
+      "query_indices": [
+        11,
+        26
+      ],
+      "predicate_a": "(actor1 ILIKE '%Fano%' OR actor2 ILIKE '%Fano%')",
+      "predicate_b": "(actor1 ILIKE '%fano%' OR actor2 ILIKE '%fano%' OR assoc_actor_1 ILIKE '%fano%' OR assoc_actor_2 ILIKE '%fano%')",
+      "severity": "result-changing",
+      "explanation": "Q11 only checks primary actor fields; Q26 also includes associated actors. Events where Fano is coded in assoc_actor_* will be counted in Q26 but missed in Q11."
+    },
+    {
+      "dimension": "actor_entity",
+      "concept": "Fano-involved events (Amhara, Apr 2023–Dec 2024)",
+      "query_indices": [
+        20,
+        21
+      ],
+      "predicate_a": "(actor1 ILIKE '%Fano%' OR actor2 ILIKE '%Fano%')",
+      "predicate_b": "(actor1 ILIKE '%Fano%' OR actor2 ILIKE '%Fano%' OR assoc_actor_1 ILIKE '%Fano%' OR assoc_actor_2 ILIKE '%Fano%')",
+      "severity": "result-changing",
+      "explanation": "Q20 uses only actor1/actor2; Q21 includes assoc_actor fields. This will produce different counts and shares for Fano involvement by location/month."
+    },
+    {
+      "dimension": "actor_entity",
+      "concept": "Fano-involved events (Amhara, Apr 2023–Dec 2024)",
+      "query_indices": [
+        11,
+        24
+      ],
+      "predicate_a": "(actor1 ILIKE '%Fano%' OR actor2 ILIKE '%Fano%')",
+      "predicate_b": "(actor1/actor2/assoc_actor_1/assoc_actor_2 ILIKE '%Fano%' OR notes ILIKE '%Fano%')",
+      "severity": "result-changing",
+      "explanation": "Q24 includes mentions in notes and assoc_actor fields; Q11 does not. Fano-coded via notes or assoc_actor_* will be included only by Q24."
+    },
+    {
+      "dimension": "counting_aggregation",
+      "concept": "Top actor pairs in battles (Amhara, Apr 2023–Dec 2024)",
+      "query_indices": [
+        8,
+        15
+      ],
+      "predicate_a": "GROUP BY LEAST(actor1, actor2), GREATEST(actor1, actor2)",
+      "predicate_b": "GROUP BY actor1, actor2",
+      "severity": "result-changing",
+      "explanation": "Q8 normalizes dyads, collapsing directionality; Q15 treats (actor1, actor2) as ordered. The same dyad can appear in two rows in Q15 with different counts, changing rankings and totals vs Q8."
+    },
+    {
+      "dimension": "population_scope",
+      "concept": "Amhara region base filter ('Ethiopia' + admin1='Amhara')",
+      "query_indices": [
+        12,
+        14
+      ],
+      "predicate_a": "WHERE admin1 = 'Amhara' (no country filter)",
+      "predicate_b": "WHERE country = 'Ethiopia' AND admin1 = 'Amhara'",
+      "severity": "cosmetic",
+      "explanation": "Most queries constrain by country='Ethiopia'; some (e.g., Q12) do not. While 'Amhara' is unique to Ethiopia in ACLED, applying country consistently avoids accidental mismatches and ensures uniform base populations."
+    },
+    {
+      "dimension": "population_scope",
+      "concept": "Amhara region base filter ('Ethiopia' + admin1='Amhara')",
+      "query_indices": [
+        8,
+        15
+      ],
+      "predicate_a": "WHERE admin1 = 'Amhara' (no country filter)",
+      "predicate_b": "WHERE country = 'Ethiopia' AND admin1 = 'Amhara'",
+      "severity": "cosmetic",
+      "explanation": "Same inconsistency in country filtering for the battles dyad queries; using country consistently is recommended."
+    },
+    {
+      "dimension": "geography",
+      "concept": "Amhara regional filter field choice",
+      "query_indices": [
+        13,
+        1
+      ],
+      "predicate_a": "(adm1 = 'Amhara' OR region = 'Amhara' OR admin1 = 'Amhara') on acled_events",
+      "predicate_b": "admin1 = 'Amhara' (on events)",
+      "severity": "result-changing",
+      "explanation": "Mixing 'region' (a different ACLED geographic hierarchy) with admin1 risks selecting non-Amhara or no rows, and Q13 is on a different table entirely. Use country='Ethiopia' AND admin1='Amhara' consistently."
+    },
+    {
+      "dimension": "counting_aggregation",
+      "concept": "Monthly fatalities in Amhara political violence (Apr 2023–Dec 2024)",
+      "query_indices": [
+        0,
+        6
+      ],
+      "predicate_a": "Filter excludes rows with fatalities IS NOT NULL before SUM(fatalities)",
+      "predicate_b": "SUM(COALESCE(fatalities, 0)) without filtering out NULL fatalities",
+      "severity": "cosmetic",
+      "explanation": "SQL SUM ignores NULLs, so totals typically match. However, pre-filtering could drop months comprised entirely of NULL fatalities, affecting month coverage. Align on one approach."
+    }
+  ],
+  "overall_score": 0.17,
+  "summary": "The queries show consistent temporal bounds but diverge on key dimensions: political-violence taxonomy (disorder_type vs event_type lists), Fano actor identification (primary vs associated actors and notes), and actor-pair aggregation (normalized vs directional). Several queries also inconsistently apply the country filter for Amhara and mix geographic fields in one case, risking non-comparable base populations. Aligning definitions and filters would substantially improve the report’s internal consistency.",
+  "report_dir": "<repo>/datatalk/acled_ablations/no_qc/9/Status_of_political_violence_in_Amhara_since_Fano_insurgency_began_in_April_2023.__20260530_083413",
+  "model": "gpt-5",
+  "num_queries": 29,
+  "applicable": true,
+  "id": 9
+}

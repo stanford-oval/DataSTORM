@@ -1,0 +1,52 @@
+{
+  "criteria": [
+    {
+      "name": "Unusual violence patterns",
+      "description": "Assess instances of atypical or rare attacks in generally calmer areas, noting shifts from historical norms and implications for regional stability."
+    },
+    {
+      "name": "Cross-border militia incursions",
+      "description": "Examine reports of armed groups moving across administrative or regional boundaries to conduct attacks, and what this suggests about security gaps and local dynamics."
+    },
+    {
+      "name": "Federal and regional security response",
+      "description": "Evaluate how state forces deploy and intervene after incidents, including measures to prevent further attacks and the effectiveness of stabilization efforts."
+    },
+    {
+      "name": "Fragmentation within insurgent groups",
+      "description": "Analyze splintering, leadership disputes, and factionalization within armed movements and how these affect conflict intensity and negotiation prospects."
+    },
+    {
+      "name": "Credibility of peace initiatives",
+      "description": "Assess peace deals and dialogue claims, comparing official narratives with insurgent statements and on-the-ground conflict trends to gauge the sincerity and impact of agreements."
+    },
+    {
+      "name": "Post-agreement conflict trajectory",
+      "description": "Track whether violence decreases, remains steady, or escalates following peace announcements, highlighting any short-lived lulls or rapid resumption of hostilities."
+    },
+    {
+      "name": "Geographic concentration of violence",
+      "description": "Identify zones or districts with persistently high levels of conflict and civilian targeting, and consider why certain areas remain hotspots over time."
+    },
+    {
+      "name": "Targeting of civilian groups",
+      "description": "Monitor patterns of violence against civilians, including attacks linked to identity or religion, and assess frequency and drivers of such targeting."
+    },
+    {
+      "name": "Government offensive operations",
+      "description": "Review reported security operations against insurgents across multiple zones, considering their scope, timing, and correlation with changes in violence levels."
+    },
+    {
+      "name": "Demonstration and unrest trends",
+      "description": "Observe fluctuations in protests and riots alongside political violence, noting periods of decline or absence and potential links to security operations or negotiations."
+    },
+    {
+      "name": "Media and information environment",
+      "description": "Compare official communications, local reports, and independent media coverage to identify narrative discrepancies and potential propaganda or misinformation."
+    },
+    {
+      "name": "Regional administrative context",
+      "description": "Consider the historical political turbulence and multi-ethnic composition of regions to contextualize current events and explain why some areas remain relatively peaceful."
+    }
+  ]
+}

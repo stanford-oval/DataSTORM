@@ -1,0 +1,65 @@
+{
+  "dataset_id": 71,
+  "dataset_path": "data/notebooks/flag-71.json",
+  "metadata": {
+    "category": "Finance Management",
+    "dataset_description": "The dataset consists of 500 entries simulating ServiceNow fm_expense_line table, which records various attributes of financial expenses. Key fields include 'number', 'opened_at', 'amount', 'state', 'short_description', 'ci', 'user', 'department', 'category', 'process_date', 'source_id', and 'type'. This table documents the flow of financial transactions by detailing the amount, departmental allocation, and the nature of each expense. Provides a clear view of organizational expenditures across different categories, highlighting both the timing and the approval state of each financial entry.",
+    "goal": "To understand the factors contributing to faster expense processing times in a specific department and evaluate whether these practices can be extended to improve efficiency across all departments.",
+    "header": "Expense Processing Time Analysis (Flag 71)",
+    "role": "Operational Efficiency Analyst"
+  },
+  "predicted_insights": [
+    "Development’s median cycle time of 24 hours is roughly 8–14 times faster than other departments (vs. next-fastest IT at ~203 hours and slowest HR at ~343 hours), indicating that replicating Development’s processes could yield substantial, quantifiable reductions in processing time across the organization.",
+    "Development consistently processes fastest across all quartiles (12–24 hours), while HR shows the slowest and most variable times (peaking at 645.8 hours in Q3), and several departments display non‑monotonic patterns with amount (e.g., Sales Q3 is 173.0 hours vs Q1 293.9 and Q4 246.1), suggesting that process efficiency rather than expense size drives speed and that adopting Development-like practices could cut typical medians by 100–500 hours elsewhere.",
+    "Development’s processing is dramatically faster across categories (0–24 hours) while HR’s Miscellaneous category is the slowest at 645.81 hours (~26.9 days), suggesting that practices from Development could potentially reduce processing times by hundreds of hours in slower department-category areas, especially Miscellaneous.",
+    "Only 1 of 7 departments (Development) achieved any within-24-hour completions—and at a high 72.22%—while the other 6 departments were all at 0%, highlighting a 72.22 percentage-point performance gap that suggests Development’s processes could be a key model for cross-department efficiency gains.",
+    "In Development, 50% of categories have same-day median processing, 75% are processed within 0.5 days, and all categories are within 1 day—indicating a highly streamlined workflow that could serve as a benchmark.",
+    "Both top performers achieve a next‑day (24.0‑hour) median across 9 cases each, suggesting a consistent, repeatable workflow that can serve as a concrete 1‑day median benchmark for other departments to target.",
+    "Processing is markedly slower on weekends—median times rise to 36 hours on Saturday and 48 hours on Sunday—while most weekdays (Mon/Tue/Thu) are processed the same day (0.0 hours), suggesting weekday-focused workflows or staffing practices that could be replicated department-wide to cut delays.",
+    "Development’s processing is broadly efficient—at least 57% of processed expenses in every category completed within 24 hours, and Miscellaneous hit 100%—suggesting that their workflows (especially for lower-volume categories) could be a model to lift same-day processing rates in other departments.",
+    "In Development’s processed expenses, 8 of 10 amount quantile bins (80%) had mean processing times of 24 hours or less—including two mid-to-high amount bins at 0 hours—showing that higher amounts generally do not slow processing.",
+    "The modest negative correlation (−0.272) suggests that higher-volume days are associated with slightly faster processing—evidenced by the only 2-submission day having a 0-hour median—and notably 41% (7 of 17) of days achieved 0-hour same-day median processing, hinting at scalable efficiencies but with limited effect size.",
+    "Development’s processing is exceptionally fast and consistent—its 90th percentile (48h) is below every other department’s median—while HR and Product Management have the slowest tails (p90 ≈ 576–580h ≈ 24 days), indicating that adopting Development’s practices could substantially reduce long delays in those teams.",
+    "Auto-generated entries are faster at both median and 90th percentile in 5 of 7 departments (notably Sales: median −24% and p90 −19%), reduce only the tail in Customer Support (p90 −6% but median +9%), and are slower in IT (median +63% and p90 +61%), suggesting the automation benefit is substantial where volumes are higher (e.g., Sales) but may not generalize to IT without process changes."
+  ],
+  "predicted_summary": "Development’s processing is both faster and more predictable than every other department: median 24 hours and 90th percentile 48 hours versus medians ranging 202–343 hours and 90th percentiles 349–580 hours elsewhere; 72% of Development’s processed expenses are completed within 24 hours compared with 0% in all other departments.\nDevelopment’s speed is consistent regardless of expense size, category, day, or workload: medians by category range from 0–24 hours (Services 0h, Travel 0h, Miscellaneous 12h, Assets 24h), medians across amount quartiles stay tightly between 12–24 hours with a near-zero Spearman correlation to amount (−0.084), Mondays have a 0-hour median, and daily submission volume has a slight negative correlation with same-day median processing time (Spearman −0.272), indicating busier days are not slower; individual users also show consistent fast medians (e.g., two users at 24 hours over 9 items each).\nExpenses marked “Automatically generated” are associated with faster processing in the fastest department and several others: in Development the median is 0.0 hours versus 24.0 hours for others (p90 38.4 vs 48.0); Finance shows a strong gap (median 48.0 vs 235.6; p90 48.0 vs 351.2); Sales (median 190.2 vs 249.4; p90 390.1 vs 480.6), Product Management (median 258.1 vs 275.0; p90 258.1 vs 603.6), and HR (median 321.8 vs 459.5; p90 395.2 vs 608.6) also trend faster, while IT is an exception where “Automatically generated” is slower (median 310.0 vs 189.9; p90 576.6 vs 358.9) and Customer Support is mixed.",
+  "score_insights": 0.44384513089852157,
+  "score_insights_dict": [
+    {
+      "gt_insight": "Customer Support consistently leads in high-cost spending, with a peak in July 2023.",
+      "pred_insight": "Development’s processing is broadly efficient—at least 57% of processed expenses in every category completed within 24 hours, and Miscellaneous hit 100%—suggesting that their workflows (especially for lower-volume categories) could be a model to lift same-day processing rates in other departments.",
+      "score": 0.1038417348392671
+    },
+    {
+      "gt_insight": "Processing Times are uniform across expense categories in departments",
+      "pred_insight": "In Development’s processed expenses, 8 of 10 amount quantile bins (80%) had mean processing times of 24 hours or less—including two mid-to-high amount bins at 0 hours—showing that higher amounts generally do not slow processing.",
+      "score": 0.5893866882794393
+    },
+    {
+      "gt_insight": "Lower expense brackets has faster processing",
+      "pred_insight": "In Development’s processed expenses, 8 of 10 amount quantile bins (80%) had mean processing times of 24 hours or less—including two mid-to-high amount bins at 0 hours—showing that higher amounts generally do not slow processing.",
+      "score": 0.6383069695768582
+    }
+  ],
+  "score_summary": 0.3025964405705263,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.46321019060636875,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "In Development’s processed expenses, 8 of 10 amount quantile bins (80%) had mean processing times of 24 hours or less—including two mid-to-high amount bins at 0 hours—showing that higher amounts generally do not slow processing.",
+      "gt_insight": "Customer Support consistently leads in high-cost spending, with a peak in July 2023.",
+      "score": 0.18814817084352556
+    },
+    {
+      "pred_insight": "In Development, 50% of categories have same-day median processing, 75% are processed within 0.5 days, and all categories are within 1 day—indicating a highly streamlined workflow that could serve as a benchmark.",
+      "gt_insight": "Processing Times are uniform across expense categories in departments",
+      "score": 0.5484443177186931
+    },
+    {
+      "pred_insight": "In Development’s processed expenses, 8 of 10 amount quantile bins (80%) had mean processing times of 24 hours or less—including two mid-to-high amount bins at 0 hours—showing that higher amounts generally do not slow processing.",
+      "gt_insight": "Lower expense brackets has faster processing",
+      "score": 0.6530380832568875
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.11955990421813405,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.4087517337681887
+}

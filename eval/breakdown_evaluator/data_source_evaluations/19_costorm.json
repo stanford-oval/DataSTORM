@@ -1,0 +1,232 @@
+{
+  "total_insights": 22,
+  "total_classified": 22,
+  "acled_count": 15,
+  "non_acled_count": 7,
+  "pct_acled": 0.6818181818181818,
+  "details": [
+    {
+      "evidence": "Across 23 November to 3 December 2024, Oromia recorded 33 political-violence events and 146 fatalities, with zero demonstrations, indicating contention was expressed through clashes, attacks, and remote violence rather than protests.",
+      "is_acled_data": true,
+      "reasoning": "The evidence provides counts of political-violence events and fatalities over a defined period in a specific region and specifies event types (clashes, attacks, remote violence vs. protests). These are core ACLED metrics (event counts by type, fatality figures, and temporal framing).",
+      "source_context": "Intro and event/fatality overview citing ACLED counts and types [1][2][3][4]."
+    },
+    {
+      "evidence": "Demobilization events—agreements and surrenders—occurred with zero fatalities and were concentrated in North Shewa, West Shewa, and Guji, highlighting a narrow geographic and temporal window of non-lethal ‘peace optics.’",
+      "is_acled_data": true,
+      "reasoning": "Mentions specific event types (demobilization agreements/surrenders), zero fatalities, and geographic concentration (North Shewa, West Shewa, Guji) within a defined temporal window—all elements consistent with ACLED’s event-level data (event types, fatalities, locations, and temporal patterns).",
+      "source_context": "Split-screen framing and mapping of ‘Strategic developments’ with zero fatalities, clustered around 2–3 December [2][5][6][7][10][11]."
+    },
+    {
+      "evidence": "Violence peaked around 25–26 November with roughly 10 fatalities per day from battles, and on 28 November with 11 deaths from explosions/remote violence and 10 from violence against civilians, showing compressed lethal spikes.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific conflict event types (battles, explosions/remote violence, violence against civilians) and day-by-day fatality counts with temporal spikes, which align with ACLED’s event taxonomy and fatality/time-series data derived from its event records.",
+      "source_context": "Daily distribution and lethality patterns, highlighting 28 November as deadliest date [5][4]."
+    },
+    {
+      "evidence": "Civilians accounted for 31 of the 146 fatalities, while most deaths stemmed from battles between OLF‑OLA and federal forces and from strikes/shelling, indicating combat and remote attacks drove lethality.",
+      "is_acled_data": true,
+      "reasoning": "The evidence provides specific fatality counts, disaggregation of civilian fatalities, and attributes deaths to event types (battles, strikes/shelling) and actors (OLF‑OLA and federal forces). This aligns with ACLED’s event-based data on violence against civilians, battle-related fatalities, explosions/remote violence, and actor-level activity, typical of ACLED-derived summaries.",
+      "source_context": "Fatality composition by event type and actors [2]."
+    },
+    {
+      "evidence": "North Shewa experienced a one‑day burst of three agreement-type events on 2 December, centered on Jiru Dada (Dera woreda), making it the top site by event count in the window and emblematic of the demobilization push.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references specific event counts, event type (“agreement-type events”), precise date (2 December), specific location (Jiru Dada, Dera woreda, North Shewa), and compares site event counts within a time window—hallmarks of ACLED’s event-level data and subnational temporal analysis.",
+      "source_context": "Location prominence and specific agreements in Jiru Dada/Dera [12][7][3][13][14]."
+    },
+    {
+      "evidence": "Approximately 800 OLF‑OLA fighters from Central Oromia reportedly entered rehabilitation in Ambo (West Shewa) on 3 December following a 1 December peace deal, reinforcing the Central Oromia demobilization narrative.",
+      "is_acled_data": false,
+      "reasoning": "The statement discusses a reported demobilization/rehabilitation of approximately 800 OLF-OLA fighters after a peace deal, which is more akin to a political/rehabilitation development and numeric claim from reports rather than ACLED-style coded conflict events (battles, violence, protests) or ACLED-attributed actor/event data. There is no explicit attribution to ACLED, and the content is not a standard ACLED event metric or fatality/location entry.",
+      "source_context": "West Shewa demobilization sequence around Ambo [3][10]."
+    },
+    {
+      "evidence": "Even near demobilization hubs, violence persisted: VAC incidents in Enewari and Muke Turi (North Shewa) and Minare (West Shewa) occurred within days of agreements, each causing at least one death.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific violence against civilians (VAC) incidents with locations (Enewari, Muke Turi, Minare), timing relative to agreements, and mentions fatalities. This aligns with ACLED’s event-level data on VAC, fatalities, and geolocated incidents, typical of summaries derived from ACLED reports.",
+      "source_context": "Temporal proximity analysis linking agreements to nearby VAC events with single fatalities [16][17]."
+    },
+    {
+      "evidence": "Central Oromia’s demobilization was spatially tight and temporally brief—primarily 2–3 December—and did not extend across the region, resembling a negotiated corridor rather than a broad de-escalation.",
+      "is_acled_data": false,
+      "reasoning": "The statement is an interpretive assessment about the scope and timing of a demobilization, described as a “negotiated corridor” rather than broad de-escalation. It lacks explicit references to ACLED event counts, actor data, specific incidents, fatalities, or locations drawn from ACLED. This reads as analytical commentary rather than direct use of ACLED-derived metrics or event records.",
+      "source_context": "Clustering of agreement events and limited geographic spread [12][7][3][6]."
+    },
+    {
+      "evidence": "Peripheral zones bore the brunt of civilian harm: East Wellega recorded the most VAC incidents (four, five deaths total), while Arsi had fewer VAC events but higher lethality (two incidents causing 13 civilian deaths).",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites subnational counts of violence against civilians incidents and fatalities (VAC incidents and civilian deaths) by zones (East Wellega, Arsi) within a specific time window, which aligns with ACLED’s event-level data on VAC, fatalities, and geographic breakdowns. This type of granular incident/fatality accounting is characteristic of ACLED outputs.",
+      "source_context": "Zone-level VAC distribution and lethality contrast between East Wellega and Arsi [22][10][11]."
+    },
+    {
+      "evidence": "Single high-fatality VAC incidents shaped risk profiles in South West Shewa (six killed in Tulu Bolo) and Horo Gudru Wellega (about five killed in Jawij Migir), underscoring episodic but deadly threats.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific violence against civilians incidents with locations (Tulu Bolo, Jawij Migir), subnational areas (South West Shewa, Horo Gudru Wellega), and approximate fatality counts, which aligns with ACLED’s event-level VAC data and geographic/fatality reporting.",
+      "source_context": "Examples of concentrated lethal events defining local risk [15][22][23]."
+    },
+    {
+      "evidence": "No VAC incidents were recorded in demobilizing North and West Shewa during the window, while Guji saw both an agreement and a non-fatal VAC incident, indicating uneven de-escalation across zones.",
+      "is_acled_data": true,
+      "reasoning": "Mentions VAC (violence against civilians) incidents, demobilizing zones, and an agreement/non-fatal incident across specific subnational areas and a defined time window—this aligns with ACLED event-type data, VAC statistics, subnational breakdowns, and temporal patterns that ACLED provides.",
+      "source_context": "Spatial mapping of VAC presence/absence and agreements [24][10][25][11]."
+    },
+    {
+      "evidence": "OLF‑OLA perpetrated the deadliest civilian attacks in Arsi, killing nine in Sole Ferekasa and four in Gobesa, yielding high median lethality per VAC incident for this actor in the period.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific actor (OLF‑OLA), locations (Sole Ferekasa, Gobesa in Arsi), counts of civilians killed, and references a metric derived from event data (median lethality per violence-against-civilians incident during the period). These are characteristic of ACLED’s event-level and actor-level VAC data and derived trend statistics.",
+      "source_context": "Actor-location breakdown of VAC incidents and fatalities attributed to OLF‑OLA [24][23][26]."
+    },
+    {
+      "evidence": "A Fano Youth Militia ambush on Oromo traders in Jawij Migir (Horo Gudru Wellega) left about five dead, making Fano’s single recorded attack among the period’s most lethal VAC events.",
+      "is_acled_data": true,
+      "reasoning": "The evidence describes a specific violent event against civilians with actors (Fano Youth Militia, Oromo traders), location (Jawij Migir, Horo Gudru Wellega), timeframe context, fatalities (~five dead), and compares lethality within the period—elements typical of ACLED event data and VAC categorization. This aligns with ACLED’s event descriptions, actor-level data, fatalities, and temporal comparison.",
+      "source_context": "Specific lethal event attributed to Fano Youth Militia [21][24][23][26]."
+    },
+    {
+      "evidence": "Unidentified armed groups contributed to civilian harm variability: six killed in Tulu Bolo (South West Shewa) versus zero fatalities in Ayana (East Wellega), reflecting volatility within this category.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references specific conflict events with locations, actor type (unidentified armed groups), and fatality counts comparing Tulu Bolo and Ayana—elements typical of ACLED event and violence-against-civilians data with subnational breakdowns and fatalities.",
+      "source_context": "Contrasting outcomes for unidentified gunmen across locations [24][23][26]."
+    },
+    {
+      "evidence": "Ethiopian military personnel appeared in five VAC incidents across West/East Wellega and Guji, causing seven civilian deaths total—more frequent but less lethal on average than OLF‑OLA’s attacks.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites counts of violence against civilians incidents, locations (West/East Wellega and Guji), actor involvement (Ethiopian military, OLF-OLA), and civilian fatality totals, as well as a comparative trend statement. These are typical ACLED event- and actor-level VAC statistics and temporal pattern summaries derived from ACLED data.",
+      "source_context": "State force implication and relative lethality in VAC incidents [24][22][26][8]."
+    },
+    {
+      "evidence": "East Wellega simultaneously functioned as a battlefront and a site of repeat lower-scale civilian targeting, with battles there producing 13 fatalities during the window.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific conflict event details typical of ACLED: a subnational location (East Wellega), event types (battles and violence against civilians), temporal window, and a precise fatality count (13). These elements align with ACLED’s battle-related data, civilian targeting statistics, and geographic/temporal breakdowns.",
+      "source_context": "Battle fatalities and dual-threat profile for East Wellega [21][15][8][9]."
+    },
+    {
+      "evidence": "For civilians along the Wellega–Arsi corridor, risk was defined by whether a small number of highly lethal incidents struck specific routes or markets on a given day, rather than by sustained large offensives.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a qualitative, analytical characterization of risk patterns (sporadic lethal incidents vs. sustained offensives) without citing specific ACLED event counts, locations, dates, fatalities, or actor data. It reads as general analysis rather than a direct use of ACLED-derived metrics or explicitly attributed ACLED trends.",
+      "source_context": "Synthesis of multi-actor, episodic threat environment in peripheral zones [22][23][10][11]."
+    },
+    {
+      "evidence": "ACLED recorded zero events and zero fatalities in South West Ethiopia Peoples region during 23 November–3 December 2024, providing no corroboration for a widely cited claim of a ‘rare deadly attack’ killing 20 people in that region during this window.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites ACLED-recorded event and fatality counts (zero events, zero fatalities) for a specific region and time window, directly referencing ACLED’s event and fatality data to assess a claim. This is explicitly ACLED-derived data.",
+      "source_context": "Cross-regional check showing blank SWEP records in the period versus narrative claims [28][29][30][21][27]."
+    },
+    {
+      "evidence": "The absence of records in South West Ethiopia Peoples for the window may reflect documentation gaps rather than proof of non-occurrence, given the contemporaneous suspension of key human rights organizations that likely impeded reporting.",
+      "is_acled_data": false,
+      "reasoning": "The statement is an interpretive comment about possible reporting gaps due to suspension of human rights organizations. It does not reference specific ACLED events, counts, or actor/location data, nor is it attributed to ACLED. It is general analysis about documentation, not ACLED-derived data.",
+      "source_context": "Context on civic space crackdown and its impact on monitoring [31][32][27][33]."
+    },
+    {
+      "evidence": "Overall, the empirically documented deadly front for late November–early December 2024 lies in Oromia’s peripheries (Arsi and the Wellega corridor), while Central Oromia’s peace gestures remained localized and non-lethal.",
+      "is_acled_data": false,
+      "reasoning": "The statement is an analytical characterization of where violence was most deadly and references \"peace gestures\" without citing specific event counts, fatalities, locations, or actor-level data from ACLED. It reads as generalized analysis rather than a direct summary of ACLED event data or trends explicitly attributed to ACLED.",
+      "source_context": "Geographic misalignment between narratives and data-backed violence patterns [28][29][30][21][11]."
+    },
+    {
+      "evidence": "Policy implication: localized demobilization in Central Oromia should not be interpreted as regional de-escalation; protection and engagement should focus on the Wellega–Arsi corridors where civilians face concentrated, multi-actor threats.",
+      "is_acled_data": false,
+      "reasoning": "This is a policy implication and analytical recommendation about demobilization and prioritizing corridors; it does not reference specific ACLED event counts, locations, fatalities, or actor/event data. It is general analysis rather than data explicitly derived from ACLED.",
+      "source_context": "Conclusion highlighting operational priorities based on spatial risk distribution [15][22][24][26][8][11][9]."
+    },
+    {
+      "evidence": "Policy implication: strengthening independent monitoring is essential to prevent narrative distortion that overemphasizes symbolic peace ceremonies and uncorroborated claims while obscuring areas with highest civilian risk.",
+      "is_acled_data": false,
+      "reasoning": "This is a policy implication and analytic recommendation about monitoring and narratives; it does not reference specific ACLED event data, counts, locations, or actor-level information.",
+      "source_context": "Conclusion on monitoring capacity needs amid shrinking civic space [32][31][27][33]."
+    }
+  ],
+  "insights": [
+    {
+      "insight": "Across 23 November to 3 December 2024, Oromia recorded 33 political-violence events and 146 fatalities, with zero demonstrations, indicating contention was expressed through clashes, attacks, and remote violence rather than protests.",
+      "context": "Intro and event/fatality overview citing ACLED counts and types [1][2][3][4]."
+    },
+    {
+      "insight": "Demobilization events—agreements and surrenders—occurred with zero fatalities and were concentrated in North Shewa, West Shewa, and Guji, highlighting a narrow geographic and temporal window of non-lethal ‘peace optics.’",
+      "context": "Split-screen framing and mapping of ‘Strategic developments’ with zero fatalities, clustered around 2–3 December [2][5][6][7][10][11]."
+    },
+    {
+      "insight": "Violence peaked around 25–26 November with roughly 10 fatalities per day from battles, and on 28 November with 11 deaths from explosions/remote violence and 10 from violence against civilians, showing compressed lethal spikes.",
+      "context": "Daily distribution and lethality patterns, highlighting 28 November as deadliest date [5][4]."
+    },
+    {
+      "insight": "Civilians accounted for 31 of the 146 fatalities, while most deaths stemmed from battles between OLF‑OLA and federal forces and from strikes/shelling, indicating combat and remote attacks drove lethality.",
+      "context": "Fatality composition by event type and actors [2]."
+    },
+    {
+      "insight": "North Shewa experienced a one‑day burst of three agreement-type events on 2 December, centered on Jiru Dada (Dera woreda), making it the top site by event count in the window and emblematic of the demobilization push.",
+      "context": "Location prominence and specific agreements in Jiru Dada/Dera [12][7][3][13][14]."
+    },
+    {
+      "insight": "Approximately 800 OLF‑OLA fighters from Central Oromia reportedly entered rehabilitation in Ambo (West Shewa) on 3 December following a 1 December peace deal, reinforcing the Central Oromia demobilization narrative.",
+      "context": "West Shewa demobilization sequence around Ambo [3][10]."
+    },
+    {
+      "insight": "Even near demobilization hubs, violence persisted: VAC incidents in Enewari and Muke Turi (North Shewa) and Minare (West Shewa) occurred within days of agreements, each causing at least one death.",
+      "context": "Temporal proximity analysis linking agreements to nearby VAC events with single fatalities [16][17]."
+    },
+    {
+      "insight": "Central Oromia’s demobilization was spatially tight and temporally brief—primarily 2–3 December—and did not extend across the region, resembling a negotiated corridor rather than a broad de-escalation.",
+      "context": "Clustering of agreement events and limited geographic spread [12][7][3][6]."
+    },
+    {
+      "insight": "Peripheral zones bore the brunt of civilian harm: East Wellega recorded the most VAC incidents (four, five deaths total), while Arsi had fewer VAC events but higher lethality (two incidents causing 13 civilian deaths).",
+      "context": "Zone-level VAC distribution and lethality contrast between East Wellega and Arsi [22][10][11]."
+    },
+    {
+      "insight": "Single high-fatality VAC incidents shaped risk profiles in South West Shewa (six killed in Tulu Bolo) and Horo Gudru Wellega (about five killed in Jawij Migir), underscoring episodic but deadly threats.",
+      "context": "Examples of concentrated lethal events defining local risk [15][22][23]."
+    },
+    {
+      "insight": "No VAC incidents were recorded in demobilizing North and West Shewa during the window, while Guji saw both an agreement and a non-fatal VAC incident, indicating uneven de-escalation across zones.",
+      "context": "Spatial mapping of VAC presence/absence and agreements [24][10][25][11]."
+    },
+    {
+      "insight": "OLF‑OLA perpetrated the deadliest civilian attacks in Arsi, killing nine in Sole Ferekasa and four in Gobesa, yielding high median lethality per VAC incident for this actor in the period.",
+      "context": "Actor-location breakdown of VAC incidents and fatalities attributed to OLF‑OLA [24][23][26]."
+    },
+    {
+      "insight": "A Fano Youth Militia ambush on Oromo traders in Jawij Migir (Horo Gudru Wellega) left about five dead, making Fano’s single recorded attack among the period’s most lethal VAC events.",
+      "context": "Specific lethal event attributed to Fano Youth Militia [21][24][23][26]."
+    },
+    {
+      "insight": "Unidentified armed groups contributed to civilian harm variability: six killed in Tulu Bolo (South West Shewa) versus zero fatalities in Ayana (East Wellega), reflecting volatility within this category.",
+      "context": "Contrasting outcomes for unidentified gunmen across locations [24][23][26]."
+    },
+    {
+      "insight": "Ethiopian military personnel appeared in five VAC incidents across West/East Wellega and Guji, causing seven civilian deaths total—more frequent but less lethal on average than OLF‑OLA’s attacks.",
+      "context": "State force implication and relative lethality in VAC incidents [24][22][26][8]."
+    },
+    {
+      "insight": "East Wellega simultaneously functioned as a battlefront and a site of repeat lower-scale civilian targeting, with battles there producing 13 fatalities during the window.",
+      "context": "Battle fatalities and dual-threat profile for East Wellega [21][15][8][9]."
+    },
+    {
+      "insight": "For civilians along the Wellega–Arsi corridor, risk was defined by whether a small number of highly lethal incidents struck specific routes or markets on a given day, rather than by sustained large offensives.",
+      "context": "Synthesis of multi-actor, episodic threat environment in peripheral zones [22][23][10][11]."
+    },
+    {
+      "insight": "ACLED recorded zero events and zero fatalities in South West Ethiopia Peoples region during 23 November–3 December 2024, providing no corroboration for a widely cited claim of a ‘rare deadly attack’ killing 20 people in that region during this window.",
+      "context": "Cross-regional check showing blank SWEP records in the period versus narrative claims [28][29][30][21][27]."
+    },
+    {
+      "insight": "The absence of records in South West Ethiopia Peoples for the window may reflect documentation gaps rather than proof of non-occurrence, given the contemporaneous suspension of key human rights organizations that likely impeded reporting.",
+      "context": "Context on civic space crackdown and its impact on monitoring [31][32][27][33]."
+    },
+    {
+      "insight": "Overall, the empirically documented deadly front for late November–early December 2024 lies in Oromia’s peripheries (Arsi and the Wellega corridor), while Central Oromia’s peace gestures remained localized and non-lethal.",
+      "context": "Geographic misalignment between narratives and data-backed violence patterns [28][29][30][21][11]."
+    },
+    {
+      "insight": "Policy implication: localized demobilization in Central Oromia should not be interpreted as regional de-escalation; protection and engagement should focus on the Wellega–Arsi corridors where civilians face concentrated, multi-actor threats.",
+      "context": "Conclusion highlighting operational priorities based on spatial risk distribution [15][22][24][26][8][11][9]."
+    },
+    {
+      "insight": "Policy implication: strengthening independent monitoring is essential to prevent narrative distortion that overemphasizes symbolic peace ceremonies and uncorroborated claims while obscuring areas with highest civilian risk.",
+      "context": "Conclusion on monitoring capacity needs amid shrinking civic space [32][31][27][33]."
+    }
+  ],
+  "prompt": "Summary of recent events in South West Ethiopia Peoples region and Oromia region, between 23 November 2024 and 3 December 2024"
+}

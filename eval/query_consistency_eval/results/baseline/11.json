@@ -1,0 +1,175 @@
+{
+  "per_dimension": [
+    {
+      "dimension": "actor_entity",
+      "score": 0.0,
+      "num_concept_groups": 4,
+      "num_consistent_groups": 0,
+      "notes": "Major divergences in how EAOs, PDFs/LDFs, and joint operations are identified (inter-code vs name lists; inclusion of assoc_actor fields; inclusion/exclusion of ULA/AA; use of 'interaction' text). Also inconsistent inclusion of Protesters/Identity militia in the base 'resistance' set across queries."
+    },
+    {
+      "dimension": "geography",
+      "score": 1.0,
+      "num_concept_groups": 0,
+      "num_consistent_groups": 0,
+      "notes": "All queries consistently scope to country='Myanmar'; no repeated concept groups with differing admin1 normalization detected."
+    },
+    {
+      "dimension": "temporal",
+      "score": 0.667,
+      "num_concept_groups": 3,
+      "num_consistent_groups": 2,
+      "notes": "2024-only windows are consistently specified; 2023–2024 windows are largely consistent. However, the broader 2021–2024 window is inconsistently bounded (year BETWEEN 2021–2024 vs event_date >= 2021-02-01)."
+    },
+    {
+      "dimension": "event_taxonomy",
+      "score": 0.5,
+      "num_concept_groups": 2,
+      "num_consistent_groups": 1,
+      "notes": "IED/Drone/Shelling sub_event_type labels are used consistently. But for 2024 EAO battle severity, some queries restrict to sub_event_type='Armed clash' while others use all event_type='Battles'."
+    },
+    {
+      "dimension": "counting_aggregation",
+      "score": 0.0,
+      "num_concept_groups": 2,
+      "num_consistent_groups": 0,
+      "notes": "Percentile aggregation uses different functions (percentile_disc vs percentile_cont) and null-handling. Joint/collaboration counts use incompatible pair-generation rules (cross-side vs all co-listed; varying exclusions), so results are not comparable."
+    },
+    {
+      "dimension": "population_scope",
+      "score": 1.0,
+      "num_concept_groups": 0,
+      "num_consistent_groups": 0,
+      "notes": "All analyses consistently restrict to Myanmar; no cross-query differences in population scope detected beyond actor/entity filtering (covered under actor_entity)."
+    }
+  ],
+  "conflicts": [
+    {
+      "dimension": "actor_entity",
+      "concept": "EAO-led/EAO-involved clashes in 2024",
+      "query_indices": [
+        7,
+        8
+      ],
+      "predicate_a": "Q7: AND sub_event_type = 'Armed clash' AND (inter1 = 'Political militia' OR inter2 = 'Political militia')",
+      "predicate_b": "Q8: AND ((actor1 ILIKE '%KIO%' OR actor1 ILIKE '%KIA%' OR actor1 ILIKE '%KNU%' OR actor1 ILIKE '%KNLA%' OR actor1 ILIKE '%ULA%' OR actor1 ILIKE '%AA%' OR actor1 ILIKE '%TNLA%' OR actor1 ILIKE '%KNDF%') OR (actor2 ILIKE the same list))",
+      "severity": "result-changing",
+      "explanation": "Q7 uses the 'Political militia' inter-code (typically PDFs/LDFs) to stand in for EAOs, while Q8 explicitly matches EAO names. These select different actor sets for the same 2024 EAO concept."
+    },
+    {
+      "dimension": "actor_entity",
+      "concept": "EAO-involved battles in 2024 vs resistance-involved battles",
+      "query_indices": [
+        8,
+        9
+      ],
+      "predicate_a": "Q8: EAO events identified via actor1/actor2 name list (KIO/KIA, KNU/KNLA, ULA/AA, TNLA, KNDF)",
+      "predicate_b": "Q9: AND event_type = 'Battles' AND (inter1 IN ('Rebel group','Political militia') OR inter2 IN ('Rebel group','Political militia'))",
+      "severity": "result-changing",
+      "explanation": "Q9 includes both EAOs and PDFs (any Rebel group or Political militia), whereas Q8 restricts to EAOs by name. The resulting battle sets differ materially."
+    },
+    {
+      "dimension": "actor_entity",
+      "concept": "EAO–PDF joint operations (2023–2024) detection",
+      "query_indices": [
+        4,
+        5
+      ],
+      "predicate_a": "Q4: Flags EAOs from actor1/actor2/assoc_actor_1/assoc_actor_2 (patterns for KIO/KIA, KNU/KNLA, ULA/AA, TNLA, KNDF) and PDFs/LDFs from actor/assoc fields; pairs built when one is EAO and the other PDF/LDF.",
+      "predicate_b": "Q5: EAO detection only from actor1/actor2 (KIO/KIA, KNU/KNLA, TNLA, KNDF; ULA/AA omitted); PDF/LDF detection from actor and assoc; no assoc-based EAO detection.",
+      "severity": "result-changing",
+      "explanation": "Q5 will miss joint events credited via assoc_actor fields and any involving ULA/AA that Q4 captures, leading to different counts and partner maps."
+    },
+    {
+      "dimension": "actor_entity",
+      "concept": "Base 'resistance-related events' set (2021–2024) re Protesters inclusion",
+      "query_indices": [
+        3,
+        17
+      ],
+      "predicate_a": "Q3: (inter1 IN ('Rebel group','Political militia') OR inter2 IN ('Rebel group','Political militia'))",
+      "predicate_b": "Q17: (inter1 IN ('Rebel group','Protesters','Political militia') OR inter2 IN ('Rebel group','Protesters','Political militia'))",
+      "severity": "result-changing",
+      "explanation": "Q17 includes Protesters via inter-codes while Q3 excludes them. For claims about the same resistance scope, these return different rows."
+    },
+    {
+      "dimension": "actor_entity",
+      "concept": "Resistance actor scope for per-admin1 top actors",
+      "query_indices": [
+        3,
+        21
+      ],
+      "predicate_a": "Q3: Resistance scope via inter1/2 IN ('Rebel group','Political militia')",
+      "predicate_b": "Q21: resistance_actor_rows include inter IN ('Rebel group','Political militia','Identity militia','Protesters') for actor selection",
+      "severity": "result-changing",
+      "explanation": "Q21 includes Identity militia and Protesters among 'resistance actors' whereas Q3 limits to Rebel group/Political militia, altering actor sets and shares."
+    },
+    {
+      "dimension": "actor_entity",
+      "concept": "EAO vs PDF classification for IED/drone analysis (2023–2024)",
+      "query_indices": [
+        6,
+        24
+      ],
+      "predicate_a": "Q6: Categorization via interaction::text LIKE '%Political militia%' (PDF/Local Defense) and LIKE '%Rebel group%' (EAO) after resistance filter.",
+      "predicate_b": "Q24: is_pdf via extensive name patterns in actor/assoc fields ('People Defen% Force', 'PDF', 'Local Defense' variants); EAO via inter1/inter2 = 'Rebel group'.",
+      "severity": "result-changing",
+      "explanation": "Different classification mechanisms (inter-code vs string name heuristics) will assign events to categories differently, shifting counts and shares by admin1."
+    },
+    {
+      "dimension": "temporal",
+      "concept": "2021–2024 analysis window start date",
+      "query_indices": [
+        3,
+        2
+      ],
+      "predicate_a": "Q3: year BETWEEN 2021 AND 2024",
+      "predicate_b": "Q2: event_date >= DATE '2021-02-01' AND event_date <= DATE '2024-12-31'",
+      "severity": "result-changing",
+      "explanation": "Q3 includes January 2021 events; Q2 excludes them. For '2021–2024' comparisons, this produces different denominators and may change top rankings."
+    },
+    {
+      "dimension": "event_taxonomy",
+      "concept": "Armed clash-only vs all Battles for 2024 severity",
+      "query_indices": [
+        7,
+        9
+      ],
+      "predicate_a": "Q7: sub_event_type = 'Armed clash' (only)",
+      "predicate_b": "Q9: event_type = 'Battles' (all battle subtypes)",
+      "severity": "result-changing",
+      "explanation": "Restricting to Armed clashes excludes other battle subtypes (e.g., attacks, territory changes). Lethality distributions and counts are not comparable across the two definitions."
+    },
+    {
+      "dimension": "counting_aggregation",
+      "concept": "Percentile method and null handling for 2024 battle lethality",
+      "query_indices": [
+        7,
+        8
+      ],
+      "predicate_a": "Q7: PERCENTILE_DISC(0.5/0.9) WITHIN GROUP (...) FILTER (WHERE fatalities IS NOT NULL)",
+      "predicate_b": "Q8: percentile_cont(0.5/0.9) WITHIN GROUP (ORDER BY fatalities) without explicit null filter",
+      "severity": "result-changing",
+      "explanation": "Discrete vs continuous percentile functions generally yield different numeric results; null handling also differs, so medians and p90s are not comparable."
+    },
+    {
+      "dimension": "counting_aggregation",
+      "concept": "Collaboration/joint events pair-generation (2023–2024)",
+      "query_indices": [
+        15,
+        20
+      ],
+      "predicate_a": "Q15: Builds pairs from all co-listed actors (actor1/actor2 and assoc lists) within the same event/admin1/year; excludes Myanmar military/police.",
+      "predicate_b": "Q20: Generates cross-side pairs only (side1 actor vs side2 actor), includes non-resistance pairs (e.g., 'Civilians + Military'), no explicit resistance-only filter.",
+      "severity": "result-changing",
+      "explanation": "Different pairing rules produce different joint_event_count universes and top pairs; Q20’s results are not directly comparable to resistance-only co-listing in Q15."
+    }
+  ],
+  "overall_score": 0.528,
+  "summary": "Actor/entity filters are the main source of inconsistency: EAOs and PDFs are identified by inter-codes in some places, by name lists in others, and joint operations logic varies by whether assoc actors are considered and which EAO sets are included. Temporal windows are mostly aligned except for the 2021 start date, and battle taxonomy and percentile methods differ in the 2024 lethality analyses. As written, several headline comparisons would mix non-equivalent populations, so numbers are not mutually comparable across those sections.",
+  "report_dir": "<repo>/datatalk/acled/11/Research_state_of_resistance_groups_in_Myanmar_post_2021_coup:_What_is_the_landscape_of_these_groups?__20260323_193631",
+  "model": "gpt-5",
+  "num_queries": 27,
+  "applicable": true,
+  "id": 11
+}

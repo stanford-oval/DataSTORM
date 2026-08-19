@@ -1,0 +1,342 @@
+{
+  "total_insights": 33,
+  "total_classified": 33,
+  "acled_count": 24,
+  "non_acled_count": 9,
+  "pct_acled": 0.7272727272727273,
+  "details": [
+    {
+      "evidence": "In late 2024, Sudan experienced fewer recorded battles but far higher lethality per clash, culminating in October’s peak of over 3,200 killed despite only 204 battles.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific counts of battles and fatalities over time (e.g., 204 battles and over 3,200 killed in October 2024) and references lethality per clash and temporal peaks—these are hallmark ACLED metrics (event counts by type and fatality figures over time).",
+      "source_context": "Intro and When Fewer Battles Kill More People section; refs [1][2][3]."
+    },
+    {
+      "evidence": "From 2023 to 2024, total battles fell 24% (2,579 to 1,961), but distinct battle locations rose from 326 to 417 and affected districts from 110 to 113, indicating wider spatial exposure to conflict despite fewer engagements.",
+      "is_acled_data": true,
+      "reasoning": "Mentions specific counts of battles over time and changes in distinct battle locations and affected districts, which are typical ACLED metrics (event counts and geographic breakdown). The quantitative comparison 2023 vs 2024 aligns with ACLED’s battle event and location data, indicating derivation from ACLED or a direct analysis of its dataset.",
+      "source_context": "When Fewer Battles Kill More People; ref [4]."
+    },
+    {
+      "evidence": "Average fatalities per battle surged through 2024, from 2.73 in Q1 to 9.07 in Q4, the highest in the two‑year series.",
+      "is_acled_data": true,
+      "reasoning": "The statement reports a quantitative trend in battle-related fatalities over time (average fatalities per battle by quarter), which aligns with ACLED’s event- and fatality-based metrics and temporal trend analyses derived from battle events. This type of statistic is characteristic of ACLED-derived analysis.",
+      "source_context": "When Fewer Battles Kill More People; ref [2]."
+    },
+    {
+      "evidence": "The correlation between battle frequency and fatalities weakened sharply in 2024 versus 2023, signaling outlier‑driven lethality rather than volume-driven deaths.",
+      "is_acled_data": true,
+      "reasoning": "It references a quantified relationship between battle event frequency and fatalities across years, which aligns with ACLED’s event counts and fatality data and their use in temporal trend analyses. This type of correlation analysis is directly derivable from ACLED battle events and reported fatalities.",
+      "source_context": "When Fewer Battles Kill More People; ref [1]."
+    },
+    {
+      "evidence": "Fatalities were highly concentrated: in 2024, the deadliest 1% of battles caused nearly 30% of battle deaths, and the top 10% caused about two‑thirds.",
+      "is_acled_data": true,
+      "reasoning": "The statement discusses distribution of battle fatalities (concentration across top 1% and 10% of battles in 2024), which relies on event-level battle data and fatality counts—core components ACLED tracks. Such percentile-based concentration analyses are typical derivations from ACLED’s battle event and fatality datasets.",
+      "source_context": "When Fewer Battles Kill More People; ref [6]."
+    },
+    {
+      "evidence": "By late 2024, Sudan faced the world’s largest displacement crisis, with over 9 million displaced and about 25 million needing aid amid an economy contracted by roughly 18%.",
+      "is_acled_data": false,
+      "reasoning": "The evidence cites large-scale displacement, humanitarian needs, and economic contraction figures. These are typically from UN/OCHA/UNHCR or economic sources, not ACLED’s event-based conflict data. No explicit ACLED attribution or event/fatality statistics are present.",
+      "source_context": "When Fewer Battles Kill More People; refs [7][8]."
+    },
+    {
+      "evidence": "Lethality shifted away from Khartoum: by Q4 2024, over 4,200 battle deaths occurred outside Khartoum versus 139 inside, despite only modest increases in the number of clashes outside.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites battle deaths by location and time (Q4 2024) with a subnational comparison (inside vs. outside Khartoum) and references clash counts—these are event-based fatality and geographic breakdown metrics characteristic of ACLED’s battle-related data and temporal trend analysis.",
+      "source_context": "When Fewer Battles Kill More People; ref [9]."
+    },
+    {
+      "evidence": "Khartoum’s political violence events dropped from ~3,190 in 2023 to ~2,370 in 2024, while Al Jazirah and North Darfur surged to 1,186 and 963 events respectively, becoming new epicenters.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific counts of political violence events by year and subnational locations (Khartoum, Al Jazirah, North Darfur) and identifies shifts in epicenters—this aligns with ACLED’s event counts, geographic breakdowns, and temporal trend analysis derived from their dataset.",
+      "source_context": "From Khartoum Frontlines to Deadly Clusters; ref [10]."
+    },
+    {
+      "evidence": "Outside the capital, Q4 2024 saw soaring fatalities paired with only moderate growth in battles; districts and locations with battles increased nationally, reinforcing dispersion.",
+      "is_acled_data": true,
+      "reasoning": "Mentions temporal pattern (Q4 2024), fatalities, battle counts, and geographic dispersion of battle locations/districts—these are core ACLED metrics (fatalities, battle events, subnational location counts) and trend analysis derived from event data.",
+      "source_context": "From Khartoum Frontlines to Deadly Clusters; refs [4][9][11]."
+    },
+    {
+      "evidence": "Ultra‑lethal hubs emerged: in October, ~19 battles in Al Jazirah produced 956 deaths; in December, 56 battles in North Darfur caused 976 deaths.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites monthly counts of battles in specific subnational regions (Al Jazirah, North Darfur) along with associated fatality totals. This aligns closely with ACLED’s event-based data structure (battle events, geographic breakdowns, and fatality counts) and temporal aggregation, suggesting it is derived from ACLED-style conflict event data.",
+      "source_context": "From Khartoum Frontlines to Deadly Clusters; ref [12]."
+    },
+    {
+      "evidence": "At district level, Sharg Al Jazirah averaged over 60 deaths per battle (15 clashes in 2024), Melit about 21, and Al Fasher nearly 10 across 317 battles—extreme outliers in lethality.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites subnational locations, counts of battles, and average fatalities per battle in 2024—metrics that align with ACLED’s event-level battle data and fatality counts, aggregated to districts. This type of granular event and lethality analysis is characteristic of ACLED-derived data.",
+      "source_context": "From Khartoum Frontlines to Deadly Clusters; ref [13]."
+    },
+    {
+      "evidence": "In Q4 2024, Al Fasher and Sharg Al Jazirah together accounted for just over half of all battle deaths; Sharg Al Jazirah logged 903 deaths in 11 events (80+ per clash) and Al Fasher 1,321 deaths in 92 events.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific quarter (Q4 2024) battle deaths, event counts, and subnational locations (Al Fasher, Sharg Al Jazirah), including fatalities per event. These are hallmark ACLED outputs: event counts, battle-related fatalities, and geographic breakdowns over a time period. The granular pairing of deaths with number of events strongly indicates derivation from ACLED event/fatality data.",
+      "source_context": "From Khartoum Frontlines to Deadly Clusters; ref [14]."
+    },
+    {
+      "evidence": "Excluding districts with average fatalities per battle above 40 strengthened the battle–fatality correlation in October and December, confirming a small set of outliers distorted national patterns; November showed strong correlation even without exclusions.",
+      "is_acled_data": true,
+      "reasoning": "The evidence discusses battle events, fatalities, temporal patterning by month, and statistical correlation after excluding outlier districts—all consistent with analyses derived from ACLED’s battle and fatality event data and subnational breakdowns. The metrics (battle counts, fatalities, district-level averages) and month-specific correlations align with ACLED-derived conflict trend analysis.",
+      "source_context": "From Khartoum Frontlines to Deadly Clusters; ref [15]."
+    },
+    {
+      "evidence": "Single‑day events drove mass casualties: Oct 1 in Melit saw four clashes each >100 deaths (one at 163); Oct 22 in Tamboul (Sharg Al Jazirah) had a 520‑death battle, the year’s deadliest; December included a 280‑death territory‑overtake in Um Algura.",
+      "is_acled_data": true,
+      "reasoning": "The evidence lists specific conflict events with dates, locations, event types (clashes/battles/territory overtake), and precise fatality counts, which aligns with ACLED’s event-level battle and fatality data and subnational geolocation. This level of event-specific casualty detail is characteristic of ACLED-derived reporting.",
+      "source_context": "From Khartoum Frontlines to Deadly Clusters; refs [16][17]."
+    },
+    {
+      "evidence": "Repeated high‑casualty battles around Al Fasher in late 2024, including several December government‑regain‑territory events each with 50–89 deaths, made the siege a sustained mass‑casualty setting.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific battle events with dates (late 2024/December), locations (Al Fasher), government territorial changes, and quantified fatality ranges (50–89 deaths). These are characteristic of ACLED event-level battle data with casualty figures and temporal/geographic detail, indicating derivation from ACLED-style conflict event records.",
+      "source_context": "From Khartoum Frontlines to Deadly Clusters; ref [17]."
+    },
+    {
+      "evidence": "RSF’s footprint expanded dramatically in 2024, appearing in more districts and locations than the army; in October alone RSF reached 78 admin2s and 320 locations—about double the army’s footprint.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific subnational coverage metrics (admin2s and number of locations) comparing RSF and army footprints in a given month. This aligns with ACLED’s geographic conflict data and actor activity derived from event locations, a typical ACLED-derived statistic.",
+      "source_context": "Occupation, Predation; ref [18]."
+    },
+    {
+      "evidence": "RSF expanded its presence from 371 locations in 2023 to 1,032 in 2024, nearly tripling geographic spread—an unmatched surge among actors.",
+      "is_acled_data": true,
+      "reasoning": "The claim cites a quantified count of an armed actor’s presence across specific locations over time, implying actor-level, geographically disaggregated event/location data and temporal trend analysis—features characteristic of ACLED’s dataset and reporting. The precise location counts (371 to 1,032) are consistent with ACLED-derived measures of actor footprint/areas of activity.",
+      "source_context": "Occupation, Predation; ref [19]."
+    },
+    {
+      "evidence": "RSF and allied political militias dominated civilian targeting in 2024, responsible for roughly 1,200 of 1,522 recorded attacks on civilians, concentrated in Al Jazirah (Al Hasahisa, Wad Medani) and North Darfur (Kutum, El Fasher).",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific counts of attacks on civilians, identifies responsible actors (RSF and allied militias), provides subnational locations (Al Jazirah, North Darfur with localities), and frames it as recorded events in 2024—all characteristic of ACLED’s event-based civilian targeting statistics and geographic breakdowns.",
+      "source_context": "Occupation, Predation; refs [20][21][22][23]."
+    },
+    {
+      "evidence": "Civilian‑targeting incidents were often low‑fatality or with no confirmed deaths, forming a long tail of predatory coercion (beatings, raids, roadside assaults) that shaped daily life under occupation.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a qualitative characterization of civilian-targeting patterns (low-fatality incidents, coercive acts shaping daily life) without citing specific event counts, fatalities, locations, or explicit attribution to ACLED. It reads as analytical narrative rather than a direct reference to ACLED event data or statistics.",
+      "source_context": "Occupation, Predation; refs [20][21]."
+    },
+    {
+      "evidence": "Looting/property destruction (430+ events) and abductions (239) outnumbered pitched clashes and were widely dispersed, densest in Al Jazirah, Khartoum, and Darfur—signaling sustained coercive control.",
+      "is_acled_data": true,
+      "reasoning": "Mentions specific conflict event counts (looting/property destruction 430+ events, abductions 239), types of events, and subnational geographic concentrations (Al Jazirah, Khartoum, Darfur), which align with ACLED’s event-based data and spatial breakdowns.",
+      "source_context": "Occupation, Predation; ref [24]."
+    },
+    {
+      "evidence": "Civilian‑attack fatalities showed fat‑tailed distributions—many small incidents punctuated by massacres up to 120 dead—mirroring the battle outlier dynamics.",
+      "is_acled_data": true,
+      "reasoning": "Describes fatalities in violence against civilians and distribution of incident sizes, referencing massacres and event-level patterns; this aligns with ACLED’s event/fatality data and temporal pattern analysis derived from its conflict events.",
+      "source_context": "Occupation, Predation; refs [20][21][25][3]."
+    },
+    {
+      "evidence": "Aid‑impediment proxies (looting, abductions) showed an independent association with fatalities in October and stronger in November 2024; by December, battle intensity largely explained fatalities without added association from impediments.",
+      "is_acled_data": false,
+      "reasoning": "The evidence discusses statistical associations between aid-impediment proxies (looting, abductions) and fatalities over specific months, implying an analytical model of relationships rather than direct reporting of event counts. While ACLED tracks events like looting, abductions, and fatalities, the phrasing suggests a higher-level analytical finding not explicitly attributed to ACLED data. Without explicit attribution to ACLED or direct reference to ACLED event metrics, treat as non-ACLED-derived.",
+      "source_context": "Occupation, Predation; ref [26]."
+    },
+    {
+      "evidence": "Humanitarian operations faced funding shortfalls, insecurity, deliberate obstruction, and logistics barriers, contributing to mass displacement and acute food insecurity for tens of millions.",
+      "is_acled_data": false,
+      "reasoning": "The evidence discusses humanitarian operations, funding shortfalls, logistical barriers, displacement, and food insecurity—topics typically sourced from humanitarian agencies (e.g., OCHA, WFP, UNHCR) rather than ACLED’s event-based conflict data. It is not tied to specific ACLED event counts, fatalities, or actor/location data.",
+      "source_context": "Occupation, Predation; refs [7][8][26]."
+    },
+    {
+      "evidence": "Ceasefire and negotiation announcements in 2024 had minimal impact on reducing violence: post‑announcement two‑week periods saw only slight dips in events and, on fatalities, often increases by dozens, with large swings.",
+      "is_acled_data": true,
+      "reasoning": "References specific temporal patterns in conflict event counts and fatalities following ceasefire announcements (two-week post-announcement periods, dips in events, increases in fatalities). These are hallmark ACLED-derived metrics: event counts, fatality figures, and trend analysis over defined windows tied to conflict events.",
+      "source_context": "Ceasefires Without Peace; refs [27][28]."
+    },
+    {
+      "evidence": "A 21‑day sustained reduction in both battles and battle deaths did not occur in any tested ceasefire window; all 30 mass‑casualty windows showed post‑announcement battle deaths at least doubling in two weeks and staying ≥150% into week three.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references quantified patterns in battles and battle deaths over specific time windows (ceasefire and mass-casualty windows), which aligns with ACLED’s event- and fatality-based temporal trend analysis using battle counts and battle-related deaths. This type of granular, time-bounded conflict trend analysis is characteristic of analyses derived from ACLED event and fatality data.",
+      "source_context": "Ceasefires Without Peace; ref [29]."
+    },
+    {
+      "evidence": "The deadliest late‑2024 periods clustered around mid‑September to late‑October ceasefire announcements, with some windows exceeding 1,100–1,300 post‑announcement battle deaths.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites temporal clustering around ceasefire announcements and provides specific post-announcement battle death figures, which align with ACLED’s battle-related event data and fatality counts as well as trend analysis over time. This type of quantified conflict event/fatality pattern is characteristic of ACLED-derived analysis.",
+      "source_context": "Ceasefires Without Peace; ref [29]."
+    },
+    {
+      "evidence": "October 2024 concentrated lethality: over 3,200 total deaths, about two‑thirds from battles, with 77% of battle deaths from just 5% of clashes—extreme outlier concentration.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific conflict fatalities, battle shares, and distribution of deaths across clashes in a given month—metrics consistent with ACLED’s event-level fatality and battle data and concentration analyses. This granular breakdown (total deaths, proportion from battles, and concentration among a small share of clashes) aligns with ACLED-derived temporal and actor/event-type statistics.",
+      "source_context": "Ceasefires Without Peace; refs [3][5]."
+    },
+    {
+      "evidence": "National ceasefires failed to curb ultra‑lethal corridors (e.g., Al Fasher–Melit, Sharg Al Jazirah–Um Algura), leaving the main drivers of fatalities unrestrained.",
+      "is_acled_data": true,
+      "reasoning": "Mentions specific ultra-lethal corridors with place pairs and asserts they are main drivers of fatalities despite ceasefires. This aligns with ACLED-style subnational conflict geography and fatality distribution derived from event and casualty data, indicating reliance on ACLED’s location-specific fatality trends.",
+      "source_context": "Ceasefires Without Peace; refs [12][15]."
+    },
+    {
+      "evidence": "The diplomatic process was announcement‑heavy and enforcement‑light; AU backed UN‑led efforts but coordination and inclusion were limited, while Egypt led some overlapping initiatives amid contested roles.",
+      "is_acled_data": false,
+      "reasoning": "The statement is diplomatic/process analysis about AU, UN, and Egypt roles and coordination; it concerns policy and mediation efforts, not conflict event counts, fatalities, locations, or actor-level event data from ACLED.",
+      "source_context": "Ceasefires Without Peace; refs [30][31][32]."
+    },
+    {
+      "evidence": "Past Sudan agreements show that without real cessation of hostilities, credible humanitarian access, and inclusive participation, peace deals are fragile—patterns echoed in late‑2024 data.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytic conclusion about peace deal fragility and references “late‑2024 data” without citing specific ACLED event counts, actor activity, fatalities, or explicit ACLED attribution. It is not tied to concrete ACLED metrics or trends, so it is not clearly derived from ACLED data.",
+      "source_context": "Ceasefires Without Peace; refs [33][27][28][34]."
+    },
+    {
+      "evidence": "For 2025, effective peace requires targeting outliers: enforce no‑offensive zones around deadliest theatres, measure progress by reductions in fatalities per battle and civilian attacks, and embed enforceable humanitarian corridors.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a policy recommendation about peace strategies (no-offensive zones, measuring progress, humanitarian corridors). It does not reference specific ACLED event data, figures, trends, or attribution. It is general analysis, not directly derived from ACLED.",
+      "source_context": "Ceasefires Without Peace; refs [12][15][3][5]."
+    },
+    {
+      "evidence": "Sudan’s conflict now runs on a thin lattice of sieges, raids, and roadblocks enabling routine predation, punctuated by catastrophic spikes that can turn a single day into a national tragedy.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a qualitative, interpretive description of conflict dynamics (sieges, raids, roadblocks, spikes of violence) without citing event counts, locations, actors, fatalities, or trends explicitly tied to ACLED. It reads as general analysis rather than data derived from ACLED.",
+      "source_context": "Conclusion and Occupation, Predation; refs [20][16][17][25]."
+    },
+    {
+      "evidence": "Credible peace will be judged by taming lethal corridors in North Darfur and Al Jazirah, reducing RSF‑led predation, and restoring safe, sustained humanitarian access—rather than by counting ceasefire announcements or aggregate battle totals.",
+      "is_acled_data": false,
+      "reasoning": "The statement is evaluative commentary about how to judge peace (focus on corridors, RSF predation, humanitarian access) and rejects using ceasefire counts or aggregate battle totals as metrics. It does not cite specific ACLED event data, figures, or actor/location-coded statistics; it’s a qualitative policy/analytical assertion rather than derived from ACLED datasets.",
+      "source_context": "Conclusion; refs [7][33][8][10][15]."
+    }
+  ],
+  "insights": [
+    {
+      "insight": "In late 2024, Sudan experienced fewer recorded battles but far higher lethality per clash, culminating in October’s peak of over 3,200 killed despite only 204 battles.",
+      "context": "Intro and When Fewer Battles Kill More People section; refs [1][2][3]."
+    },
+    {
+      "insight": "From 2023 to 2024, total battles fell 24% (2,579 to 1,961), but distinct battle locations rose from 326 to 417 and affected districts from 110 to 113, indicating wider spatial exposure to conflict despite fewer engagements.",
+      "context": "When Fewer Battles Kill More People; ref [4]."
+    },
+    {
+      "insight": "Average fatalities per battle surged through 2024, from 2.73 in Q1 to 9.07 in Q4, the highest in the two‑year series.",
+      "context": "When Fewer Battles Kill More People; ref [2]."
+    },
+    {
+      "insight": "The correlation between battle frequency and fatalities weakened sharply in 2024 versus 2023, signaling outlier‑driven lethality rather than volume-driven deaths.",
+      "context": "When Fewer Battles Kill More People; ref [1]."
+    },
+    {
+      "insight": "Fatalities were highly concentrated: in 2024, the deadliest 1% of battles caused nearly 30% of battle deaths, and the top 10% caused about two‑thirds.",
+      "context": "When Fewer Battles Kill More People; ref [6]."
+    },
+    {
+      "insight": "By late 2024, Sudan faced the world’s largest displacement crisis, with over 9 million displaced and about 25 million needing aid amid an economy contracted by roughly 18%.",
+      "context": "When Fewer Battles Kill More People; refs [7][8]."
+    },
+    {
+      "insight": "Lethality shifted away from Khartoum: by Q4 2024, over 4,200 battle deaths occurred outside Khartoum versus 139 inside, despite only modest increases in the number of clashes outside.",
+      "context": "When Fewer Battles Kill More People; ref [9]."
+    },
+    {
+      "insight": "Khartoum’s political violence events dropped from ~3,190 in 2023 to ~2,370 in 2024, while Al Jazirah and North Darfur surged to 1,186 and 963 events respectively, becoming new epicenters.",
+      "context": "From Khartoum Frontlines to Deadly Clusters; ref [10]."
+    },
+    {
+      "insight": "Outside the capital, Q4 2024 saw soaring fatalities paired with only moderate growth in battles; districts and locations with battles increased nationally, reinforcing dispersion.",
+      "context": "From Khartoum Frontlines to Deadly Clusters; refs [4][9][11]."
+    },
+    {
+      "insight": "Ultra‑lethal hubs emerged: in October, ~19 battles in Al Jazirah produced 956 deaths; in December, 56 battles in North Darfur caused 976 deaths.",
+      "context": "From Khartoum Frontlines to Deadly Clusters; ref [12]."
+    },
+    {
+      "insight": "At district level, Sharg Al Jazirah averaged over 60 deaths per battle (15 clashes in 2024), Melit about 21, and Al Fasher nearly 10 across 317 battles—extreme outliers in lethality.",
+      "context": "From Khartoum Frontlines to Deadly Clusters; ref [13]."
+    },
+    {
+      "insight": "In Q4 2024, Al Fasher and Sharg Al Jazirah together accounted for just over half of all battle deaths; Sharg Al Jazirah logged 903 deaths in 11 events (80+ per clash) and Al Fasher 1,321 deaths in 92 events.",
+      "context": "From Khartoum Frontlines to Deadly Clusters; ref [14]."
+    },
+    {
+      "insight": "Excluding districts with average fatalities per battle above 40 strengthened the battle–fatality correlation in October and December, confirming a small set of outliers distorted national patterns; November showed strong correlation even without exclusions.",
+      "context": "From Khartoum Frontlines to Deadly Clusters; ref [15]."
+    },
+    {
+      "insight": "Single‑day events drove mass casualties: Oct 1 in Melit saw four clashes each >100 deaths (one at 163); Oct 22 in Tamboul (Sharg Al Jazirah) had a 520‑death battle, the year’s deadliest; December included a 280‑death territory‑overtake in Um Algura.",
+      "context": "From Khartoum Frontlines to Deadly Clusters; refs [16][17]."
+    },
+    {
+      "insight": "Repeated high‑casualty battles around Al Fasher in late 2024, including several December government‑regain‑territory events each with 50–89 deaths, made the siege a sustained mass‑casualty setting.",
+      "context": "From Khartoum Frontlines to Deadly Clusters; ref [17]."
+    },
+    {
+      "insight": "RSF’s footprint expanded dramatically in 2024, appearing in more districts and locations than the army; in October alone RSF reached 78 admin2s and 320 locations—about double the army’s footprint.",
+      "context": "Occupation, Predation; ref [18]."
+    },
+    {
+      "insight": "RSF expanded its presence from 371 locations in 2023 to 1,032 in 2024, nearly tripling geographic spread—an unmatched surge among actors.",
+      "context": "Occupation, Predation; ref [19]."
+    },
+    {
+      "insight": "RSF and allied political militias dominated civilian targeting in 2024, responsible for roughly 1,200 of 1,522 recorded attacks on civilians, concentrated in Al Jazirah (Al Hasahisa, Wad Medani) and North Darfur (Kutum, El Fasher).",
+      "context": "Occupation, Predation; refs [20][21][22][23]."
+    },
+    {
+      "insight": "Civilian‑targeting incidents were often low‑fatality or with no confirmed deaths, forming a long tail of predatory coercion (beatings, raids, roadside assaults) that shaped daily life under occupation.",
+      "context": "Occupation, Predation; refs [20][21]."
+    },
+    {
+      "insight": "Looting/property destruction (430+ events) and abductions (239) outnumbered pitched clashes and were widely dispersed, densest in Al Jazirah, Khartoum, and Darfur—signaling sustained coercive control.",
+      "context": "Occupation, Predation; ref [24]."
+    },
+    {
+      "insight": "Civilian‑attack fatalities showed fat‑tailed distributions—many small incidents punctuated by massacres up to 120 dead—mirroring the battle outlier dynamics.",
+      "context": "Occupation, Predation; refs [20][21][25][3]."
+    },
+    {
+      "insight": "Aid‑impediment proxies (looting, abductions) showed an independent association with fatalities in October and stronger in November 2024; by December, battle intensity largely explained fatalities without added association from impediments.",
+      "context": "Occupation, Predation; ref [26]."
+    },
+    {
+      "insight": "Humanitarian operations faced funding shortfalls, insecurity, deliberate obstruction, and logistics barriers, contributing to mass displacement and acute food insecurity for tens of millions.",
+      "context": "Occupation, Predation; refs [7][8][26]."
+    },
+    {
+      "insight": "Ceasefire and negotiation announcements in 2024 had minimal impact on reducing violence: post‑announcement two‑week periods saw only slight dips in events and, on fatalities, often increases by dozens, with large swings.",
+      "context": "Ceasefires Without Peace; refs [27][28]."
+    },
+    {
+      "insight": "A 21‑day sustained reduction in both battles and battle deaths did not occur in any tested ceasefire window; all 30 mass‑casualty windows showed post‑announcement battle deaths at least doubling in two weeks and staying ≥150% into week three.",
+      "context": "Ceasefires Without Peace; ref [29]."
+    },
+    {
+      "insight": "The deadliest late‑2024 periods clustered around mid‑September to late‑October ceasefire announcements, with some windows exceeding 1,100–1,300 post‑announcement battle deaths.",
+      "context": "Ceasefires Without Peace; ref [29]."
+    },
+    {
+      "insight": "October 2024 concentrated lethality: over 3,200 total deaths, about two‑thirds from battles, with 77% of battle deaths from just 5% of clashes—extreme outlier concentration.",
+      "context": "Ceasefires Without Peace; refs [3][5]."
+    },
+    {
+      "insight": "National ceasefires failed to curb ultra‑lethal corridors (e.g., Al Fasher–Melit, Sharg Al Jazirah–Um Algura), leaving the main drivers of fatalities unrestrained.",
+      "context": "Ceasefires Without Peace; refs [12][15]."
+    },
+    {
+      "insight": "The diplomatic process was announcement‑heavy and enforcement‑light; AU backed UN‑led efforts but coordination and inclusion were limited, while Egypt led some overlapping initiatives amid contested roles.",
+      "context": "Ceasefires Without Peace; refs [30][31][32]."
+    },
+    {
+      "insight": "Past Sudan agreements show that without real cessation of hostilities, credible humanitarian access, and inclusive participation, peace deals are fragile—patterns echoed in late‑2024 data.",
+      "context": "Ceasefires Without Peace; refs [33][27][28][34]."
+    },
+    {
+      "insight": "For 2025, effective peace requires targeting outliers: enforce no‑offensive zones around deadliest theatres, measure progress by reductions in fatalities per battle and civilian attacks, and embed enforceable humanitarian corridors.",
+      "context": "Ceasefires Without Peace; refs [12][15][3][5]."
+    },
+    {
+      "insight": "Sudan’s conflict now runs on a thin lattice of sieges, raids, and roadblocks enabling routine predation, punctuated by catastrophic spikes that can turn a single day into a national tragedy.",
+      "context": "Conclusion and Occupation, Predation; refs [20][16][17][25]."
+    },
+    {
+      "insight": "Credible peace will be judged by taming lethal corridors in North Darfur and Al Jazirah, reducing RSF‑led predation, and restoring safe, sustained humanitarian access—rather than by counting ceasefire announcements or aggregate battle totals.",
+      "context": "Conclusion; refs [7][33][8][10][15]."
+    }
+  ],
+  "prompt": "Analyze current state of war in Sudan and peace outlook, as if we are at the end of 2024 heading into 2025."
+}

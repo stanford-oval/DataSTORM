@@ -1,0 +1,75 @@
+{
+  "dataset_id": 87,
+  "dataset_path": "data/notebooks/flag-87.json",
+  "metadata": {
+    "category": "Finance Management",
+    "dataset_description": "This dataset contains 500 simulated entries from the ServiceNow `fm_expense_line` table, which captures various details of financial expenses. Key attributes include 'number', 'opened_at', 'amount', 'state', 'short_description', 'ci', 'user', 'department', 'category', 'process_date', 'source_id', and 'type'. The table provides a comprehensive record of financial transactions, detailing the amount, departmental allocation, and nature of each expense. It offers a clear view of organizational expenditures across different categories, highlighting the timing and approval status of each financial entry.",
+    "goal": "Investigate the factors leading to quicker expense processing times within a specific department and assess whether these practices can be implemented to enhance efficiency across all departments.",
+    "header": "Analysis of Expense Processing Times (Flag 87)",
+    "role": "Operational Efficiency Analyst"
+  },
+  "predicted_insights": [
+    "If other assignement_groups matched Network’s median, typical processing times could drop by about 238–1,324 hours (roughly 10–55 days), with Database seeing the largest potential reduction (~1,324 hours, ~55 days), highlighting substantial cross-department efficiency gains from adopting Network’s practices.",
+    "Automation already accounts for nearly one-third of updates in the Network group (29 of 100), providing a solid baseline to compare cycle times (closed_at minus opened_at) between system- and human-updated tickets and to assess whether expanding similar automated workflows across other assignment groups could meaningfully reduce processing time.",
+    "The median processing times within the same group vary widely—from -1190.42 to 39.76 hours—a spread of about 1,230 hours, with Fred Luddy roughly 360 hours faster than the next quickest assignee, suggesting either standout practices worth auditing or possible timestamp/data-quality issues that must be resolved before generalizing.",
+    "Achieving a Resolved state sooner is associated with a median time savings of roughly 218 hours (~9.1 days), a meaningful ~7% improvement that, if the underlying practices are standardized, could materially accelerate processing across departments.",
+    "System-driven updates are the largest share in 'Software' (38%) versus employee (33%) and admin (29%), indicating heavier automation that could be assessed for broader adoption to improve processing efficiency across departments.",
+    "In 'Software', low-priority incidents close in a median 48.37h—about 65% faster than high priority (138.33h) and 92% faster than moderate (633.22h)—while a negative median for critical (-245.48h) signals timestamp inconsistencies; this highlights both triage/process variability and the need for data hygiene before scaling practices across departments.",
+    "Incidents updated by 'system' close 235–314 hours faster than those updated by admins or employees (about 7.9% faster than admin and 10.2% faster than employee), suggesting automation is associated with materially quicker resolution that could be leveraged across departments.",
+    "Within the fastest group, low-priority items close ~3% faster than moderate (1,525.6 vs 1,576.6 hours) and 62–69% faster than critical/high, indicating that priority severity strongly drives closure speed; thus, department-wide efficiency gains may hinge on managing priority mix and streamlining non-urgent workflows.",
+    "Two of the three sys_updated_by categories (admin and employee) have negative median processing times (-40.35 h and -562.28 h), indicating timestamp inconsistencies for at least 67% of categories, while system shows a plausible median of 192.19 h (~8.0 days), suggesting data quality must be addressed before benchmarking and scaling any “faster processing” practices across departments.",
+    "Low-priority items are processed ~14% faster than Critical and ~32 hours faster than High on median, indicating that complexity (not urgency) likely drives longer cycle times—streamlining workflows used on simpler, low-priority work could improve efficiency across departments.",
+    "In the fastest group (Network), cases handled by different people for assignment and closure showed a roughly 13.1-hour lower median processing time than when the same person did both, suggesting role separation may be linked to quicker turnarounds even in top-performing departments.",
+    "With more than half the dataset (52.8%, 264 records) showing invalid negative durations, only 47.2% (236 records) are immediately reliable for processing-time analysis, meaning any cross-department efficiency comparisons should first correct or exclude these records to avoid misleading conclusions."
+  ],
+  "predicted_summary": "Automation appears linked to quicker handling: across all departments, tickets updated by the system close about 235 hours faster than those updated by admins (median 2,759 vs 2,994 hours) and about 314 hours faster than those updated by employees (2,759 vs 3,073 hours). The prevalence of system updates varies by department (29% in Network vs 38% in Software), aligning with observed differences in speed.\nLower-priority tickets consistently finish sooner, but the magnitude of “fast” varies sharply by department. Low-priority tickets have the lowest median processing time overall (~2,876.7 hours), and they are also the quickest within the fastest department (Network: ~1,525.6 hours) and within Software (~48.4 hours). The fastest department by overall median is Network (~2,597.8 hours), underscoring that departmental practices can drive large time differences even for the same priority level.\nTiming data show a pervasive anomaly that can skew conclusions: 52.8% of records have negative processing durations (closed earlier than opened), and several subgroup medians are negative (e.g., the critical priority in Software at -245.5 hours and certain assignee metrics in Network). This indicates systemic timestamp issues that likely bias comparisons and “fastest” rankings.",
+  "score_insights": 0.1623520980189598,
+  "score_insights_dict": [
+    {
+      "gt_insight": "There was no column processed_date to conduct any analysis",
+      "pred_insight": "Automation already accounts for nearly one-third of updates in the Network group (29 of 100), providing a solid baseline to compare cycle times (closed_at minus opened_at) between system- and human-updated tickets and to assess whether expanding similar automated workflows across other assignment groups could meaningfully reduce processing time.",
+      "score": 0.14578613014613434
+    },
+    {
+      "gt_insight": "There was no column amount to conduct any analysis",
+      "pred_insight": "With more than half the dataset (52.8%, 264 records) showing invalid negative durations, only 47.2% (236 records) are immediately reliable for processing-time analysis, meaning any cross-department efficiency comparisons should first correct or exclude these records to avoid misleading conclusions.",
+      "score": 0.21912052061837958
+    },
+    {
+      "gt_insight": "There was no column processed_date to conduct any analysis",
+      "pred_insight": "Automation already accounts for nearly one-third of updates in the Network group (29 of 100), providing a solid baseline to compare cycle times (closed_at minus opened_at) between system- and human-updated tickets and to assess whether expanding similar automated workflows across other assignment groups could meaningfully reduce processing time.",
+      "score": 0.13880223044894302
+    },
+    {
+      "gt_insight": "There was no column department to conduct any analysis",
+      "pred_insight": "With more than half the dataset (52.8%, 264 records) showing invalid negative durations, only 47.2% (236 records) are immediately reliable for processing-time analysis, meaning any cross-department efficiency comparisons should first correct or exclude these records to avoid misleading conclusions.",
+      "score": 0.14569951086238234
+    }
+  ],
+  "score_summary": 0.20631098316055238,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.11528624665601514,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "With more than half the dataset (52.8%, 264 records) showing invalid negative durations, only 47.2% (236 records) are immediately reliable for processing-time analysis, meaning any cross-department efficiency comparisons should first correct or exclude these records to avoid misleading conclusions.",
+      "gt_insight": "There was no column processed_date to conduct any analysis",
+      "score": 0.12474388880420484
+    },
+    {
+      "pred_insight": "With more than half the dataset (52.8%, 264 records) showing invalid negative durations, only 47.2% (236 records) are immediately reliable for processing-time analysis, meaning any cross-department efficiency comparisons should first correct or exclude these records to avoid misleading conclusions.",
+      "gt_insight": "There was no column amount to conduct any analysis",
+      "score": 0.10831111721768842
+    },
+    {
+      "pred_insight": "With more than half the dataset (52.8%, 264 records) showing invalid negative durations, only 47.2% (236 records) are immediately reliable for processing-time analysis, meaning any cross-department efficiency comparisons should first correct or exclude these records to avoid misleading conclusions.",
+      "gt_insight": "There was no column processed_date to conduct any analysis",
+      "score": 0.11986811295968025
+    },
+    {
+      "pred_insight": "Two of the three sys_updated_by categories (admin and employee) have negative median processing times (-40.35 h and -562.28 h), indicating timestamp inconsistencies for at least 67% of categories, while system shows a plausible median of 192.19 h (~8.0 days), suggesting data quality must be addressed before benchmarking and scaling any “faster processing” practices across departments.",
+      "gt_insight": "There was no column department to conduct any analysis",
+      "score": 0.10822186764248706
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.11806291534127547,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.1427713111691727
+}

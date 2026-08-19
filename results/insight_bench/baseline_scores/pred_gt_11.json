@@ -1,0 +1,95 @@
+{
+  "dataset_id": 11,
+  "dataset_path": "data/notebooks/flag-11.json",
+  "metadata": {
+    "category": "Incident Management",
+    "dataset_description": "The dataset comprises 500 entries simulating ServiceNow incidents table, detailing various attributes such as category, state, open and close dates, involved personnel, and incident specifics like location, description, and priority. It captures incident management activities with fields like 'opened_at', 'closed_at', 'assigned_to', 'short_description', and 'priority', reflecting the operational handling and urgency of issues across different locations and categories.",
+    "goal": "Analyze the incident data to identify trends and underlying causes for the increasing resolution time in certain category.",
+    "header": "Category based Incident Trends Analysis (Flag 11)",
+    "role": "L2 Engineering Manager"
+  },
+  "predicted_insights": [
+    "Because all 600 incidents are in terminal states (Resolved/Closed), resolution time is defined for 100% of records; over roughly 17 months and 5 categories this averages about 7 incidents per category per month, so raw month-over-month medians may be noisy—using a 3-month rolling median would more reliably reveal any underlying increase in resolution time.",
+    "Service Desk’s median for Hardware (1521.6 hours ≈ 63.4 days) is about 8–10 times higher than for other categories (~157–184 hours), indicating a hardware-specific backlog or escalation bottleneck within Service Desk that likely drives the overall increase in resolution times.",
+    "The total incident surge in Jul–Aug (85 and 92) was driven chiefly by Hardware (47 and 43), accounting for ~55% and ~47% of all tickets, indicating a mid-year Hardware spike likely contributed to longer resolution times for that category.",
+    "Beginning in Sep 2023, Hardware’s monthly median resolution time stayed above ~1,400 hours and climbed to ~2,756 hours by May 2024—an order-of-magnitude jump versus early 2023—while other categories were flat or declining, indicating the overall rise in resolution time is overwhelmingly driven by a persistent Hardware-specific backlog or process slowdown.",
+    "The Hardware median jump (~2,144 hours ≈ 89 days) dwarfs other categories and contrasts with Network’s decrease (−35.29h), suggesting a late-period backlog or supply chain/procurement constraints specifically impacting hardware-related resolutions.",
+    "This increase equals roughly 103 additional days and is about 10% higher than Australia’s and 19% higher than Canada’s increases, indicating a broad slowdown with a particularly acute impact in the UK.",
+    "Hardware incidents in the UK Service Desk not only shrank in share but also in absolute volume from 9 to 3 (-66.7%), while total UK Service Desk tickets fell from 33 to 18 (-45.5%), indicating hardware issues became a smaller portion of the workload.",
+    "Service Desk’s median resolution time ballooned ~14.4× (≈6.7 to 96.4 days), outpacing Network’s ~11.8× rise, signaling a substantial post–Nov 2023 backlog or process bottleneck specifically impacting Hardware incidents.",
+    "Both medians are very long—about 96.4 days (Service Desk) and 88.9 days (Network)—with Service Desk roughly 180 hours (~7.5 days, ~8%) slower than Network, indicating a meaningful within-category bottleneck that likely contributes to the rising resolution times.",
+    "Median resolution time rose by about 2,492 hours (~104 days) from 264 hours in 2023-06 to 2,756 hours in 2024-05 while volumes were mostly low (3–8 per month, except spikes of 36–48 in 2023-09/10), suggesting the prolonged resolution times are not driven by incident volume.",
+    "High-priority Hardware incidents took 68.4 hours longer to resolve than Critical (+4.4%, ~2.9 days), indicating a potential prioritization or capacity bottleneck, while the absence of Moderate closures suggests backlog or categorization issues.",
+    "Hardware resolution times have escalated sharply: for Service Desk from 108.6 hours (May-2023) to 2788.8 hours (May-2024, ~25.7× increase) and for Network from 107.0 hours to 2709.6 hours (~25.3×), with sustained rises from Sep-2023 onward."
+  ],
+  "predicted_summary": "Hardware is the standout driver of longer resolution times: its monthly median resolution time rose by about 195.2 hours per month, increasing from roughly 76.4 hours in 2023-01 to about 2,756.4 hours by 2024-05, and the median jumped by approximately 2,144.43 hours when comparing incidents closed in the first six months of the period to those closed in the last six months.\nWithin Hardware, the slowdown is concentrated in the Service Desk (and to a lesser extent Network) groups: Service Desk’s median resolution time increased by about 2,153.36 hours between the first and last six months, reaching 2,313.6 hours in the last six months (Network: 2,133.6 hours); over the last 12 months, Service Desk’s median was 1,892.4 hours versus 1,755.6 hours for Network, and across all categories Service Desk exhibits the highest median resolution times.\nThe increase in Hardware resolution times is not explained by workload or prioritization and is concentrated in the UK: UK Hardware medians rose by roughly 2,467.56 hours between the first and last six months while the share of UK Service Desk tickets that were Hardware fell by 10.61 percentage points (27.27% to 16.67%); monthly Hardware volume and median resolution time are only weakly related (r = -0.12); and even high-priority Hardware tickets over the last 12 months took around two months to resolve (median 1,550.4 hours for Priority 1 versus 1,618.8 hours for Priority 2).",
+  "score_insights": 0.6537707319514003,
+  "score_insights_dict": [
+    {
+      "gt_insight": "Linear Increase in TTR for Hardware incidents suspiciously from a particular time period",
+      "pred_insight": "Beginning in Sep 2023, Hardware’s monthly median resolution time stayed above ~1,400 hours and climbed to ~2,756 hours by May 2024—an order-of-magnitude jump versus early 2023—while other categories were flat or declining, indicating the overall rise in resolution time is overwhelmingly driven by a persistent Hardware-specific backlog or process slowdown.",
+      "score": 0.8319345203649726
+    },
+    {
+      "gt_insight": "Fluctuations observed in incident frequencies across categories and Increased Hardware incidents from 2023-06 to 2023-08",
+      "pred_insight": "The total incident surge in Jul–Aug (85 and 92) was driven chiefly by Hardware (47 and 43), accounting for ~55% and ~47% of all tickets, indicating a mid-year Hardware spike likely contributed to longer resolution times for that category.",
+      "score": 0.6620760453239204
+    },
+    {
+      "gt_insight": "Specific time windows with elevated Hardware incidents identified",
+      "pred_insight": "The total incident surge in Jul–Aug (85 and 92) was driven chiefly by Hardware (47 and 43), accounting for ~55% and ~47% of all tickets, indicating a mid-year Hardware spike likely contributed to longer resolution times for that category.",
+      "score": 0.8512947381848323
+    },
+    {
+      "gt_insight": "Hardware incidents predominantly occur in Australia during spikes from 2023-06 to 2023-08",
+      "pred_insight": "The total incident surge in Jul–Aug (85 and 92) was driven chiefly by Hardware (47 and 43), accounting for ~55% and ~47% of all tickets, indicating a mid-year Hardware spike likely contributed to longer resolution times for that category.",
+      "score": 0.43572564133164776
+    },
+    {
+      "gt_insight": "Increase in TTR for Hardware incidents during anomaly periods",
+      "pred_insight": "Beginning in Sep 2023, Hardware’s monthly median resolution time stayed above ~1,400 hours and climbed to ~2,756 hours by May 2024—an order-of-magnitude jump versus early 2023—while other categories were flat or declining, indicating the overall rise in resolution time is overwhelmingly driven by a persistent Hardware-specific backlog or process slowdown.",
+      "score": 0.8052214254863055
+    },
+    {
+      "gt_insight": "Specific system outage types identified as problematic during anomalies",
+      "pred_insight": "The total incident surge in Jul–Aug (85 and 92) was driven chiefly by Hardware (47 and 43), accounting for ~55% and ~47% of all tickets, indicating a mid-year Hardware spike likely contributed to longer resolution times for that category.",
+      "score": 0.3363720210167239
+    }
+  ],
+  "score_summary": 0.3973362918193317,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.6390074425415502,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "Beginning in Sep 2023, Hardware’s monthly median resolution time stayed above ~1,400 hours and climbed to ~2,756 hours by May 2024—an order-of-magnitude jump versus early 2023—while other categories were flat or declining, indicating the overall rise in resolution time is overwhelmingly driven by a persistent Hardware-specific backlog or process slowdown.",
+      "gt_insight": "Linear Increase in TTR for Hardware incidents suspiciously from a particular time period",
+      "score": 0.6543921311762484
+    },
+    {
+      "pred_insight": "The total incident surge in Jul–Aug (85 and 92) was driven chiefly by Hardware (47 and 43), accounting for ~55% and ~47% of all tickets, indicating a mid-year Hardware spike likely contributed to longer resolution times for that category.",
+      "gt_insight": "Fluctuations observed in incident frequencies across categories and Increased Hardware incidents from 2023-06 to 2023-08",
+      "score": 0.6006815429931155
+    },
+    {
+      "pred_insight": "The total incident surge in Jul–Aug (85 and 92) was driven chiefly by Hardware (47 and 43), accounting for ~55% and ~47% of all tickets, indicating a mid-year Hardware spike likely contributed to longer resolution times for that category.",
+      "gt_insight": "Specific time windows with elevated Hardware incidents identified",
+      "score": 0.8088653786720869
+    },
+    {
+      "pred_insight": "The total incident surge in Jul–Aug (85 and 92) was driven chiefly by Hardware (47 and 43), accounting for ~55% and ~47% of all tickets, indicating a mid-year Hardware spike likely contributed to longer resolution times for that category.",
+      "gt_insight": "Hardware incidents predominantly occur in Australia during spikes from 2023-06 to 2023-08",
+      "score": 0.5936703472050032
+    },
+    {
+      "pred_insight": "Beginning in Sep 2023, Hardware’s monthly median resolution time stayed above ~1,400 hours and climbed to ~2,756 hours by May 2024—an order-of-magnitude jump versus early 2023—while other categories were flat or declining, indicating the overall rise in resolution time is overwhelmingly driven by a persistent Hardware-specific backlog or process slowdown.",
+      "gt_insight": "Increase in TTR for Hardware incidents during anomaly periods",
+      "score": 0.8762878334001755
+    },
+    {
+      "pred_insight": "Service Desk’s median resolution time ballooned ~14.4× (≈6.7 to 96.4 days), outpacing Network’s ~11.8× rise, signaling a substantial post–Nov 2023 backlog or process bottleneck specifically impacting Hardware incidents.",
+      "gt_insight": "Specific system outage types identified as problematic during anomalies",
+      "score": 0.3001474218026714
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.8264689824582996,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.3204613822369891
+}

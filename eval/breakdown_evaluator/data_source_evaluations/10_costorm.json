@@ -1,0 +1,302 @@
+{
+  "total_insights": 29,
+  "total_classified": 29,
+  "acled_count": 23,
+  "non_acled_count": 6,
+  "pct_acled": 0.7931034482758621,
+  "details": [
+    {
+      "evidence": "Pakistan’s 2024 political-violence is highly concentrated: 90%+ of 2,404 events occurred in Balochistan (51%) and Khyber Pakhtunkhwa (39%), leaving other provinces marginal.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific counts and proportions of political-violence events by province in 2024 (2,404 events; 51% Balochistan, 39% Khyber Pakhtunkhwa), which aligns with ACLED’s subnational event counts and geographic breakdowns derived from its conflict event dataset.",
+      "source_context": "Nationwide distribution and totals cited in the introduction; references [1][2][3]."
+    },
+    {
+      "evidence": "Balochistan experienced 1,229 events in 2024, up roughly 180% over 2023, while KP had 945 events, up about 25%; no other province exceeded 120 events.",
+      "is_acled_data": true,
+      "reasoning": "The evidence provides province-level counts of conflict events over specific years and percentage changes, which aligns with ACLED’s event count and subnational breakdown data and trend analysis. This type of quantitative event data is characteristic of ACLED outputs.",
+      "source_context": "Provincial comparisons and year-on-year change; references [3]."
+    },
+    {
+      "evidence": "Balochistan is the volume hub with lower per-incident lethality (~0.89 deaths/event), while KP combines high incident load with the country’s highest lethality (~1.8 deaths/event).",
+      "is_acled_data": true,
+      "reasoning": "The statement provides subnational conflict metrics (incident volume by province and per-incident lethality calculated as deaths per event). These are typical outputs derived from ACLED’s event counts and fatality figures with geographic breakdowns, indicating analysis based on ACLED-style data.",
+      "source_context": "Provincial lethality metrics; references [4]."
+    },
+    {
+      "evidence": "District-level divergence is stark: Kech (Balochistan) logged 341 incidents with ~0.71 deaths/event, whereas Kurram and North Waziristan (KP) saw ~3.02 and ~2.52 deaths/event, respectively.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites district-level counts of incidents and calculated deaths per event for specific districts in Pakistan, which aligns with ACLED’s subnational event and fatality data and derived metrics (events, fatalities, location-specific breakdowns).",
+      "source_context": "District statistics; references [1][5]."
+    },
+    {
+      "evidence": "Balochistan’s insurgency is characterized by infrastructure-targeting and remote explosive attacks; remote explosives average ~1.11 deaths/incident in the province.",
+      "is_acled_data": true,
+      "reasoning": "Mentions incident-level characteristics (remote explosives), subnational focus (Balochistan), and a quantified fatalities-per-incident metric (~1.11 deaths/incident), which aligns with ACLED’s event and fatality data and derived trend analysis from those events.",
+      "source_context": "Tactics and lethality in Balochistan; references [6][7][8]."
+    },
+    {
+      "evidence": "KP’s conflict is dominated by TTP-led armed clashes and shootings that are notably more lethal than similar events in Balochistan (about 2.37 vs. 1.68 deaths per clash).",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites subnational comparisons of conflict event types involving a specific armed group (TTP) and provides average fatalities per clash for KP vs. Balochistan. This reflects ACLED-style battle event and fatality data with geographic breakdowns and actor-level detail, consistent with ACLED-derived analysis.",
+      "source_context": "Comparative clash lethality; references [6][8]."
+    },
+    {
+      "evidence": "By late 2024, KP battles averaged just over three deaths per incident, confirming KP as the primary fatality hub.",
+      "is_acled_data": true,
+      "reasoning": "The claim references subnational battle-related data (Khyber Pakhtunkhwa), event-level metric (deaths per incident), and identifies a primary fatality hub—these are typical outputs from ACLED’s event and fatality datasets and derived temporal/subnational analysis.",
+      "source_context": "Temporal increase in battle lethality; references [9]."
+    },
+    {
+      "evidence": "Balochistan averaged ~100 incidents per month in 2024 versus under 80 in KP, but KP generated more deaths.",
+      "is_acled_data": true,
+      "reasoning": "Mentions subnational incident counts per month and comparative fatalities between Balochistan and KP in 2024—these are event counts and fatality figures with geographic breakdowns, which are core ACLED metrics and typical of analyses derived from ACLED data.",
+      "source_context": "Monthly event averages and fatality contrast; references [10]."
+    },
+    {
+      "evidence": "Within Balochistan, Kech led nationally with 341 incidents and 243 fatalities; Gwadar, Panjgur, Kalat, and Awaran also saw triple-digit percentage incident increases over 2023.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific subnational locations with exact counts of incidents and fatalities, and references year-over-year incident increases—metrics characteristic of ACLED’s event-based, location-specific conflict and fatality data and trend analysis.",
+      "source_context": "District escalation patterns; references [11]."
+    },
+    {
+      "evidence": "Balochistan recorded 348 infrastructure-targeting incidents in 2024—more than any other region—causing 395 fatalities.",
+      "is_acled_data": true,
+      "reasoning": "The statement gives a precise count of conflict incidents targeting infrastructure in a specific region (Balochistan) for 2024 and associated fatalities, which aligns with ACLED’s event-level data (incident counts, subnational breakdowns, and fatality figures). This type of quantified, region-specific conflict event and casualty data is characteristic of ACLED outputs.",
+      "source_context": "Infrastructure attack counts and casualties; references [13]."
+    },
+    {
+      "evidence": "In the Kech–Gwadar–Quetta corridor, infrastructure incidents dominate: in 44 of 48 district-months across these districts, there were no non-infrastructure militant events.",
+      "is_acled_data": true,
+      "reasoning": "The statement cites granular subnational temporal patterns of militant event types (infrastructure vs. non-infrastructure) aggregated by district-months across specific districts. This kind of event count and categorization by location and time is characteristic of analyses derived from ACLED’s event data and coding schema.",
+      "source_context": "Conflict composition in key corridor; references [14]."
+    },
+    {
+      "evidence": "Quetta and Kachhi had roughly two in five incidents strike infrastructure; two November 2024 infrastructure attacks in Quetta killed 26 people, showing potential for mass casualties.",
+      "is_acled_data": true,
+      "reasoning": "Mentions subnational locations (Quetta, Kachhi), proportion of incidents targeting infrastructure, specific event timing (November 2024), event type (infrastructure attacks), and casualty figures (26 killed). These align with ACLED’s event-level data, geographic breakdowns, and fatality counts, suggesting derivation from ACLED-style conflict event data.",
+      "source_context": "District infrastructure targeting intensity and example; references [15][14]."
+    },
+    {
+      "evidence": "Across Balochistan, IED incidents outnumber shootings, but shootings kill more people per event; for BLA and BLF, shootings/armed assaults make up well over half of operations and are the deadliest tactic.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references tactic types (IED vs shootings/armed assaults), counts and relative frequencies across a subnational region (Balochistan), and lethality per event for specific armed groups (BLA, BLF). This aligns with ACLED’s event-type and actor-level data, fatalities, and subnational breakdowns. Such comparative statements about event types and group tactics/lethality are characteristic of analyses derived from ACLED event data.",
+      "source_context": "Tactical lethality and actor tactics; references [16][17]."
+    },
+    {
+      "evidence": "Baloch separatist groups (BLA, BLF, and umbrella-coded Baloch Separatists) dominate Balochistan by event volume, targeting state forces, infrastructure, and sometimes civilians, clustering along the Kech–Gwadar–Quetta axis.",
+      "is_acled_data": true,
+      "reasoning": "Mentions specific armed groups, event volume dominance, targeting patterns, and geographic clustering along a subnational axis, which aligns with ACLED’s event counts, actor-level activity, and geocoded conflict data. This is the type of analysis typically derived from ACLED event data.",
+      "source_context": "Actor dominance and geographic focus; references [1][2][19][13][14]."
+    },
+    {
+      "evidence": "Frequent IEDs, ambushes, and abductions along Balochistan’s routes increase convoy protection needs, raise costs, and deter investment, creating chronic economic disruption despite lower per-incident lethality.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a qualitative analysis about economic disruption and security implications of IEDs, ambushes, and abductions in Balochistan, without citing specific ACLED event counts, fatalities, locations, or actor data. It reads as general commentary, not explicitly tied to ACLED-derived metrics.",
+      "source_context": "Conflict impact on logistics and economy; references [12][13]."
+    },
+    {
+      "evidence": "KP’s lethality belt—Kurram, North/South Waziristan, Bannu, Dera Ismail Khan—features higher deaths per incident than higher-volume districts like Kech (e.g., ~3 in Kurram, ~2.5 in North Waziristan).",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites deaths per incident by specific districts, implying calculations from event-level fatality counts and incident counts with subnational granularity—metrics ACLED provides (events, fatalities, locations). This type of per-incident lethality comparison across districts aligns with ACLED-derived analyses.",
+      "source_context": "District lethality comparison; references [5][11]."
+    },
+    {
+      "evidence": "In Kurram, around 80% of incidents are armed clashes averaging nearly three deaths each; smaller ‘attacks’ approach six deaths per event, while IEDs are less lethal.",
+      "is_acled_data": true,
+      "reasoning": "The evidence provides subnational conflict metrics typical of ACLED: shares of event types (armed clashes vs. attacks/IEDs), average fatalities per event, and comparisons of lethality by event type in Kurram. These are derived from event counts and fatality data by event category and location, which align with ACLED’s battle-related data, fatality figures, and geographic breakdowns.",
+      "source_context": "District-level tactic mix and lethality in KP; references [21]."
+    },
+    {
+      "evidence": "Across Waziristan districts, clashes dominate and average around three deaths per event; in South Waziristan, frequent IEDs usually cause fewer than one death per incident.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references specific conflict event patterns (clash dominance, IED frequency), subnational locations (Waziristan, South Waziristan), and average fatalities per event—metrics characteristic of ACLED’s event-level and fatality data and regional breakdowns.",
+      "source_context": "Tactic-specific lethality in KP districts; references [21]."
+    },
+    {
+      "evidence": "In KP Q4 2024, battles reached about 3.2 deaths per event—the most lethal configuration in Pakistan—while equivalent Balochistan clashes stayed below two.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites subnational battle lethality (deaths per event) by province and quarter (KP vs. Balochistan, Q4 2024), which aligns with ACLED’s event-level battle data and fatality counts aggregated to temporal and geographic units. This type of metric (deaths per event by region/period) is directly derivable from ACLED datasets.",
+      "source_context": "Quarterly lethality comparison; references [9]."
+    },
+    {
+      "evidence": "KP’s incidents peaked in Q3, but fatalities rose into Q4 with ~2.5 deaths per event; Q4 armed clashes caused 500+ deaths across ~160 engagements, while IEDs/grenades remained lower-fatality.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites quarterly incident and fatality trends, per-event fatality averages, counts of armed clashes and IED/grenade events with fatalities, which align with ACLED’s event-type breakdowns, temporal patterns, and fatality figures at subnational (KP) level—typical outputs from ACLED data.",
+      "source_context": "Temporal trend of lethality and event types; references [22][23]."
+    },
+    {
+      "evidence": "TTP was Pakistan’s most active and lethal militant actor in 2024, conducting 500+ attacks on security forces and killing ~2 personnel per incident, concentrated in KP.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific actor-level activity (TTP), quantified event counts (500+ attacks), fatalities per incident (~2), target type (security forces), and subnational concentration (KP). These are typical ACLED metrics (event counts, actor data, casualty figures, geographic breakdown).",
+      "source_context": "Actor-level activity and lethality; references [19]."
+    },
+    {
+      "evidence": "TTP-linked fatalities in KP climbed through 2024, peaking in December; its activity concentrated in North/South Waziristan, Kurram, Bannu, and Dera Ismail Khan.",
+      "is_acled_data": true,
+      "reasoning": "Mentions fatalities, temporal trend peaking in December 2024, and specific subnational locations of TTP activity—all are event-based statistics and geographic breakdowns consistent with ACLED’s conflict data and trend analysis.",
+      "source_context": "Temporal and geographic profile of TTP in KP; references [25][26][5][20][23]."
+    },
+    {
+      "evidence": "Mentions linking TTP attacks to Afghanistan were absent in Q1 2024 but rose from April, peaking in November; the deadliest months (Nov–Dec) overlap with higher Afghanistan-linked references, suggesting cross-border sanctuary/facilitation effects.",
+      "is_acled_data": true,
+      "reasoning": "The evidence discusses temporal patterns in references linking TTP attacks to Afghanistan across 2024 and correlates these with deadliest months, implying analysis of event descriptions and timing. This fits ACLED-derived insights: actor-level/event descriptions, temporal trends, and fatalities by month. While it includes interpretive commentary about cross-border facilitation, the core—monthly rise/peak of Afghanistan-linked mentions and overlap with deadliest months—aligns with ACLED event data and trend analysis.",
+      "source_context": "Cross-border dynamics correlation; references [27][25]."
+    },
+    {
+      "evidence": "Iran conducted missile strikes into Pakistan in January 2024 targeting Baloch militants (Jaish), showing Balochistan’s insurgency can trigger interstate military action and elevate regional stakes.",
+      "is_acled_data": false,
+      "reasoning": "The statement describes Iranian missile strikes into Pakistan and offers analytical implications about interstate escalation. It does not present ACLED-specific event counts, fatalities, coded actors, locations, or attribution to ACLED data; it resembles general event reporting/analysis likely from media or official sources rather than ACLED-derived metrics.",
+      "source_context": "Iran–Pakistan incident and implications; references [28]."
+    },
+    {
+      "evidence": "Persistent instability in Afghanistan and porous borders enable TTP and allies to exploit cross-border routes, undermining Pakistan’s CT efforts and blending domestic insurgency with cross-border militancy.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical assertion about cross-border dynamics and counterterrorism challenges; it does not reference specific ACLED event counts, locations, fatalities, or actor-level event data. It reads as geopolitical analysis rather than data derived from ACLED.",
+      "source_context": "Structural cross-border sanctuary dynamics; references [29][30][31]."
+    },
+    {
+      "evidence": "Pakistan reports intensified CT operations (e.g., 236 militants killed and 295 arrested in 2023) and enhanced international cooperation, but kinetic gains are limited without enforceable cross-border arrangements.",
+      "is_acled_data": false,
+      "reasoning": "The evidence cites government-reported CT operation outcomes (militants killed/arrested) and policy/cooperation assessments, which align with official statements or media summaries rather than ACLED event-based counts. It is general analysis with aggregate figures not attributed to ACLED and not clearly derived from ACLED’s event/fatality datasets.",
+      "source_context": "CT efforts and limitations; references [30][31][32][33]."
+    },
+    {
+      "evidence": "The 2025 baseline risk split likely persists: Balochistan faces high-frequency, infrastructure-disruptive violence; KP faces recurrent high-fatality clashes, with potential diplomatic flare-ups involving Iran or Afghanistan.",
+      "is_acled_data": false,
+      "reasoning": "This is a forward-looking, qualitative risk/outlook statement about regional conflict dynamics (Balochistan vs KP, potential diplomatic flare-ups). It does not reference specific event counts, fatalities, actor-level data, locations, or ACLED indices. It reads as geopolitical analysis rather than evidence explicitly tied to ACLED event data.",
+      "source_context": "Forward-looking risk assessment; references [28][30][27][25]."
+    },
+    {
+      "evidence": "Bending the curve in 2025 requires rules-based border cooperation with Kabul and Tehran, joint targeting of cross-border groups, and domestic governance reforms addressing local grievances in Balochistan and KP.",
+      "is_acled_data": false,
+      "reasoning": "This is a policy recommendation and strategic analysis (border cooperation, joint targeting, governance reforms). It is not presenting event counts, fatalities, actor activity, or other ACLED-derived metrics, nor is it attributed to ACLED.",
+      "source_context": "Policy recommendations for de-escalation; references [28][32][30][33][31]."
+    },
+    {
+      "evidence": "Pakistan’s conflict map exhibits a structural ‘volume versus lethality’ split: Balochistan as high-frequency, infrastructure-disruptive hub centered on Kech–Quetta–Gwadar; KP as the high-fatality Waziristan–Kurram–Bannu battleground.",
+      "is_acled_data": true,
+      "reasoning": "The statement references subnational patterns of event frequency and lethality (volume vs. fatalities) and specifies geographic hotspots (Kech–Quetta–Gwadar; Waziristan–Kurram–Bannu), which aligns with ACLED’s event counts, fatality data, and location-based breakdowns. This type of structural conflict pattern typically derives from ACLED’s event and fatality datasets and spatial analysis.",
+      "source_context": "Synthesis of core pattern; references [3][12][11][1][4][5][8][15]."
+    }
+  ],
+  "insights": [
+    {
+      "insight": "Pakistan’s 2024 political-violence is highly concentrated: 90%+ of 2,404 events occurred in Balochistan (51%) and Khyber Pakhtunkhwa (39%), leaving other provinces marginal.",
+      "context": "Nationwide distribution and totals cited in the introduction; references [1][2][3]."
+    },
+    {
+      "insight": "Balochistan experienced 1,229 events in 2024, up roughly 180% over 2023, while KP had 945 events, up about 25%; no other province exceeded 120 events.",
+      "context": "Provincial comparisons and year-on-year change; references [3]."
+    },
+    {
+      "insight": "Balochistan is the volume hub with lower per-incident lethality (~0.89 deaths/event), while KP combines high incident load with the country’s highest lethality (~1.8 deaths/event).",
+      "context": "Provincial lethality metrics; references [4]."
+    },
+    {
+      "insight": "District-level divergence is stark: Kech (Balochistan) logged 341 incidents with ~0.71 deaths/event, whereas Kurram and North Waziristan (KP) saw ~3.02 and ~2.52 deaths/event, respectively.",
+      "context": "District statistics; references [1][5]."
+    },
+    {
+      "insight": "Balochistan’s insurgency is characterized by infrastructure-targeting and remote explosive attacks; remote explosives average ~1.11 deaths/incident in the province.",
+      "context": "Tactics and lethality in Balochistan; references [6][7][8]."
+    },
+    {
+      "insight": "KP’s conflict is dominated by TTP-led armed clashes and shootings that are notably more lethal than similar events in Balochistan (about 2.37 vs. 1.68 deaths per clash).",
+      "context": "Comparative clash lethality; references [6][8]."
+    },
+    {
+      "insight": "By late 2024, KP battles averaged just over three deaths per incident, confirming KP as the primary fatality hub.",
+      "context": "Temporal increase in battle lethality; references [9]."
+    },
+    {
+      "insight": "Balochistan averaged ~100 incidents per month in 2024 versus under 80 in KP, but KP generated more deaths.",
+      "context": "Monthly event averages and fatality contrast; references [10]."
+    },
+    {
+      "insight": "Within Balochistan, Kech led nationally with 341 incidents and 243 fatalities; Gwadar, Panjgur, Kalat, and Awaran also saw triple-digit percentage incident increases over 2023.",
+      "context": "District escalation patterns; references [11]."
+    },
+    {
+      "insight": "Balochistan recorded 348 infrastructure-targeting incidents in 2024—more than any other region—causing 395 fatalities.",
+      "context": "Infrastructure attack counts and casualties; references [13]."
+    },
+    {
+      "insight": "In the Kech–Gwadar–Quetta corridor, infrastructure incidents dominate: in 44 of 48 district-months across these districts, there were no non-infrastructure militant events.",
+      "context": "Conflict composition in key corridor; references [14]."
+    },
+    {
+      "insight": "Quetta and Kachhi had roughly two in five incidents strike infrastructure; two November 2024 infrastructure attacks in Quetta killed 26 people, showing potential for mass casualties.",
+      "context": "District infrastructure targeting intensity and example; references [15][14]."
+    },
+    {
+      "insight": "Across Balochistan, IED incidents outnumber shootings, but shootings kill more people per event; for BLA and BLF, shootings/armed assaults make up well over half of operations and are the deadliest tactic.",
+      "context": "Tactical lethality and actor tactics; references [16][17]."
+    },
+    {
+      "insight": "Baloch separatist groups (BLA, BLF, and umbrella-coded Baloch Separatists) dominate Balochistan by event volume, targeting state forces, infrastructure, and sometimes civilians, clustering along the Kech–Gwadar–Quetta axis.",
+      "context": "Actor dominance and geographic focus; references [1][2][19][13][14]."
+    },
+    {
+      "insight": "Frequent IEDs, ambushes, and abductions along Balochistan’s routes increase convoy protection needs, raise costs, and deter investment, creating chronic economic disruption despite lower per-incident lethality.",
+      "context": "Conflict impact on logistics and economy; references [12][13]."
+    },
+    {
+      "insight": "KP’s lethality belt—Kurram, North/South Waziristan, Bannu, Dera Ismail Khan—features higher deaths per incident than higher-volume districts like Kech (e.g., ~3 in Kurram, ~2.5 in North Waziristan).",
+      "context": "District lethality comparison; references [5][11]."
+    },
+    {
+      "insight": "In Kurram, around 80% of incidents are armed clashes averaging nearly three deaths each; smaller ‘attacks’ approach six deaths per event, while IEDs are less lethal.",
+      "context": "District-level tactic mix and lethality in KP; references [21]."
+    },
+    {
+      "insight": "Across Waziristan districts, clashes dominate and average around three deaths per event; in South Waziristan, frequent IEDs usually cause fewer than one death per incident.",
+      "context": "Tactic-specific lethality in KP districts; references [21]."
+    },
+    {
+      "insight": "In KP Q4 2024, battles reached about 3.2 deaths per event—the most lethal configuration in Pakistan—while equivalent Balochistan clashes stayed below two.",
+      "context": "Quarterly lethality comparison; references [9]."
+    },
+    {
+      "insight": "KP’s incidents peaked in Q3, but fatalities rose into Q4 with ~2.5 deaths per event; Q4 armed clashes caused 500+ deaths across ~160 engagements, while IEDs/grenades remained lower-fatality.",
+      "context": "Temporal trend of lethality and event types; references [22][23]."
+    },
+    {
+      "insight": "TTP was Pakistan’s most active and lethal militant actor in 2024, conducting 500+ attacks on security forces and killing ~2 personnel per incident, concentrated in KP.",
+      "context": "Actor-level activity and lethality; references [19]."
+    },
+    {
+      "insight": "TTP-linked fatalities in KP climbed through 2024, peaking in December; its activity concentrated in North/South Waziristan, Kurram, Bannu, and Dera Ismail Khan.",
+      "context": "Temporal and geographic profile of TTP in KP; references [25][26][5][20][23]."
+    },
+    {
+      "insight": "Mentions linking TTP attacks to Afghanistan were absent in Q1 2024 but rose from April, peaking in November; the deadliest months (Nov–Dec) overlap with higher Afghanistan-linked references, suggesting cross-border sanctuary/facilitation effects.",
+      "context": "Cross-border dynamics correlation; references [27][25]."
+    },
+    {
+      "insight": "Iran conducted missile strikes into Pakistan in January 2024 targeting Baloch militants (Jaish), showing Balochistan’s insurgency can trigger interstate military action and elevate regional stakes.",
+      "context": "Iran–Pakistan incident and implications; references [28]."
+    },
+    {
+      "insight": "Persistent instability in Afghanistan and porous borders enable TTP and allies to exploit cross-border routes, undermining Pakistan’s CT efforts and blending domestic insurgency with cross-border militancy.",
+      "context": "Structural cross-border sanctuary dynamics; references [29][30][31]."
+    },
+    {
+      "insight": "Pakistan reports intensified CT operations (e.g., 236 militants killed and 295 arrested in 2023) and enhanced international cooperation, but kinetic gains are limited without enforceable cross-border arrangements.",
+      "context": "CT efforts and limitations; references [30][31][32][33]."
+    },
+    {
+      "insight": "The 2025 baseline risk split likely persists: Balochistan faces high-frequency, infrastructure-disruptive violence; KP faces recurrent high-fatality clashes, with potential diplomatic flare-ups involving Iran or Afghanistan.",
+      "context": "Forward-looking risk assessment; references [28][30][27][25]."
+    },
+    {
+      "insight": "Bending the curve in 2025 requires rules-based border cooperation with Kabul and Tehran, joint targeting of cross-border groups, and domestic governance reforms addressing local grievances in Balochistan and KP.",
+      "context": "Policy recommendations for de-escalation; references [28][32][30][33][31]."
+    },
+    {
+      "insight": "Pakistan’s conflict map exhibits a structural ‘volume versus lethality’ split: Balochistan as high-frequency, infrastructure-disruptive hub centered on Kech–Quetta–Gwadar; KP as the high-fatality Waziristan–Kurram–Bannu battleground.",
+      "context": "Synthesis of core pattern; references [3][12][11][1][4][5][8][15]."
+    }
+  ],
+  "prompt": "What are the status of militants in Pakistan over the last year and what would be the outlook for conflicts involving militants in Pakistan going into 2025?"
+}

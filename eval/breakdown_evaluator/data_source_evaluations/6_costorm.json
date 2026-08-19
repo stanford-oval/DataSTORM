@@ -1,0 +1,262 @@
+{
+  "total_insights": 25,
+  "total_classified": 25,
+  "acled_count": 12,
+  "non_acled_count": 13,
+  "pct_acled": 0.48,
+  "details": [
+    {
+      "evidence": "Large-scale warfare in Tigray has dramatically subsided by October 2024 compared to October 2022, with incidents dropping from 59 events and 321 fatalities to 9 events and 8 deaths.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific counts of events and fatalities over time in a defined region, comparing October 2022 to October 2024. Event and fatality counts and temporal trend analysis are core ACLED outputs, suggesting this is derived from ACLED data.",
+      "source_context": "Introduction; comparative statistics citing October 2022 vs October 2024, referencing Pretoria Agreement effect."
+    },
+    {
+      "evidence": "The reduction in violence represents a structural break: October political-violence events fell well below both wartime and pre-war averages, with only 2 political-violence incidents recorded in October 2024.",
+      "is_acled_data": true,
+      "reasoning": "Mentions specific monthly count of political-violence events and comparison to wartime and pre-war averages, which matches ACLED’s event count/time-series metrics and conflict trend analysis derived from ACLED data.",
+      "source_context": "From All-Out War to a Brittle Peace; comparison of 2019–2022 October averages vs October 2024."
+    },
+    {
+      "evidence": "Lethality has collapsed: after zero fatalities in September 2024 and one in October 2023, October 2024 recorded only three political-violence deaths, indicating persistently low-level lethality.",
+      "is_acled_data": true,
+      "reasoning": "Statement cites monthly political-violence fatality counts and trends (zero in Sept 2024, one in Oct 2023, three in Oct 2024), which are core ACLED metrics (event-based fatality data and temporal patterns).",
+      "source_context": "From All-Out War to a Brittle Peace; fatalities trend across months and years."
+    },
+    {
+      "evidence": "Violent incidents in October 2024 cluster temporally at the start and end of the month, with mid-October showing more events but no deaths, reflecting uneven temporal distribution of harm.",
+      "is_acled_data": true,
+      "reasoning": "The statement references temporal clustering of violent incidents within a specific month and notes fatalities (none in mid-October), which aligns with ACLED’s event counts, temporal pattern analysis, and fatality data. This is characteristic of insights derived from ACLED event data and their temporal distribution of harm.",
+      "source_context": "From All-Out War to a Brittle Peace; weekly and temporal clustering observations."
+    },
+    {
+      "evidence": "Institutions, policing, and governance disputes have replaced frontlines as primary arenas of contention in Tigray’s post-war phase.",
+      "is_acled_data": false,
+      "reasoning": "The statement is general analytical commentary about shifting arenas of contention (institutions, policing, governance) and does not reference specific ACLED event data, counts, actor details, or ACLED attribution.",
+      "source_context": "From All-Out War to a Brittle Peace; shift from battlefield dynamics to institutional contestation."
+    },
+    {
+      "evidence": "A protest crackdown in Alamata on October 1, where Tigray-affiliated police used live fire, caused two deaths and at least seven injuries, highlighting uneven and sometimes lethal protest policing.",
+      "is_acled_data": true,
+      "reasoning": "The evidence describes a specific protest event with date, location (Alamata), actors (Tigray-affiliated police), tactics (live fire), and casualties (two deaths, at least seven injuries), which aligns with ACLED-style event reporting on riots/protests and violence against civilians with fatality counts and actor details.",
+      "source_context": "Edges of the Map; detailed account of Alamata protest over curriculum and language policy."
+    },
+    {
+      "evidence": "An explosive remnant of war detonated in Yechilay (Abergele) on October 31, killing three members of a family, underscoring ongoing civilian risks from ERW despite the end of active hostilities.",
+      "is_acled_data": true,
+      "reasoning": "The evidence describes a specific conflict event (an ERW explosion in Yechilay on Oct 31 with three fatalities), including date, location, type of event, and casualties—details that align with ACLED’s event-level data on explosions/remote violence and fatality counts.",
+      "source_context": "From All-Out War to a Brittle Peace and Edges of the Map; ERW incident in Central Tigray."
+    },
+    {
+      "evidence": "No Eritrean-linked incidents were recorded in Tigray during October 2024; documented frictions involved domestic Ethiopian actors.",
+      "is_acled_data": true,
+      "reasoning": "The statement references incident recording within a specific month and region and distinguishes actors involved, aligning with ACLED event/actor-level data and temporal patterns. It mirrors ACLED-style reporting of recorded incidents and actor attribution.",
+      "source_context": "From All-Out War to a Brittle Peace; explicit absence of Eritrean involvement in the month’s events."
+    },
+    {
+      "evidence": "October’s fatalities were confined to three localities—Alamata, Humera, and Yechilay—illustrating a pattern of high lethality but low frequency localized events.",
+      "is_acled_data": true,
+      "reasoning": "The statement specifies fatalities confined to particular localities and implies event frequency and lethality patterns in October, which aligns with ACLED’s fatality counts, geographic event locations, and temporal pattern analysis derived from event data.",
+      "source_context": "Edges of the Map; spatial concentration and location-specific breakdown."
+    },
+    {
+      "evidence": "A single mid-October clash near Humera between Fano militia and federal troops caused three deaths but did not repeat, suggesting an isolated confrontation rather than a renewed front.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites a specific conflict event with date context (mid-October), location (near Humera), actors involved (Fano militia and federal troops), and fatalities (three deaths), which aligns with ACLED-style event data detailing battles and fatality counts. It presents a single incident and its characteristics consistent with ACLED event records.",
+      "source_context": "Edges of the Map; actor-pair analysis of Fano vs ENDF near Humera."
+    },
+    {
+      "evidence": "Western Tigray remains a contested security grey area, with uneven volatility between Western and North Western zones despite the formal cease-fire.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general qualitative assessment about a contested area and uneven volatility without citing specific event counts, locations, dates, actors, or ACLED-derived metrics. It reads as analysis rather than explicit ACLED event data or trend figures.",
+      "source_context": "Edges of the Map; 2024 pattern comparison across Western and North Western Tigray."
+    },
+    {
+      "evidence": "Mekelle hosted the highest number of non-lethal political events—protests, reshuffles, religious moves, detainee releases—indicating political turbulence without fatalities in the capital.",
+      "is_acled_data": true,
+      "reasoning": "Mentions counts and types of political events (protests, reshuffles, religious moves, detainee releases) in a specific location (Mekelle) and characterizes them as non-lethal—aligning with ACLED event categories (riots/protests, strategic developments) and fatality data. This is consistent with ACLED-derived event and location analysis.",
+      "source_context": "Mekelle’s Quiet Turbulence; city-level event mix and outcomes."
+    },
+    {
+      "evidence": "Protests in Mekelle (housing scheme and factory wage grievances) were managed without lethal force or reported arrests, contrasting with lethal policing in Alamata.",
+      "is_acled_data": false,
+      "reasoning": "The evidence describes protests managed without lethal force or arrests in Mekelle and contrasts with lethal policing in Alamata, but it is presented as a narrative comparison without citing ACLED event records, counts, or actor-coded incidents. No explicit attribution to ACLED data or use of ACLED-specific metrics is provided.",
+      "source_context": "Mekelle’s Quiet Turbulence; protest policing differentials across locations."
+    },
+    {
+      "evidence": "Over 440 former ENDF soldiers were released by the Tigray Interim Regional Administration in late October as a Pretoria-aligned confidence-building measure, though broader justice efforts remain limited.",
+      "is_acled_data": false,
+      "reasoning": "The evidence describes release of former ENDF soldiers by a regional administration as a confidence-building measure and comments on justice efforts. This is a policy/government action and political development rather than an ACLED-coded conflict event metric (counts, fatalities, actor event data). Unless explicitly tied to an ACLED event record, such releases and broader justice efforts are not ACLED data.",
+      "source_context": "Mekelle’s Quiet Turbulence; detainee release and its relation to the Pretoria framework."
+    },
+    {
+      "evidence": "A TPLF faction led by Debretsion Gebremichael announced the removal of interim president Getachew Reda and multiple officials on October 7, signaling internal power realignment within Pretoria-implementation institutions.",
+      "is_acled_data": false,
+      "reasoning": "The evidence describes a political announcement and leadership change within TPLF/Pretoria-implementation institutions, which is a policy/political statement rather than an ACLED-coded conflict event (battles, violence, protests) or statistics derived from ACLED. No mention of ACLED event data, fatalities, or actor-level event reporting is present.",
+      "source_context": "Mekelle’s Quiet Turbulence; intra-Tigray leadership reshuffle."
+    },
+    {
+      "evidence": "On October 23, bishops in Mekelle declared a Tigray Orthodox Tewahdo Church Synod, defying the national Holy Synod, signaling ecclesiastical and political-culture realignment toward Tigrayan autonomy.",
+      "is_acled_data": false,
+      "reasoning": "The evidence describes a church synod declaration and political-cultural realignment, which is a policy/religious institutional action and analytical characterization. It does not reference specific ACLED event data (e.g., conflict incidents, battles, protests, fatalities, or actor-level events) nor attribute information to ACLED.",
+      "source_context": "Mekelle’s Quiet Turbulence; religious institutional shifts."
+    },
+    {
+      "evidence": "Humanitarian needs remain acute in Tigray—severe food insecurity, mass displacement, and damaged infrastructure persist—despite the end of large-scale fighting.",
+      "is_acled_data": false,
+      "reasoning": "The evidence discusses humanitarian conditions—food insecurity, displacement, and infrastructure damage—without referencing specific conflict events, counts, fatalities, or ACLED-derived metrics. These are typically humanitarian assessments, not ACLED event data.",
+      "source_context": "Peace Without Security; overview of humanitarian strain two years after Pretoria."
+    },
+    {
+      "evidence": "Gender-based violence needs far outstrip available services, with over 7 million people estimated to require GBV-related support across northern Ethiopia, including Tigray.",
+      "is_acled_data": false,
+      "reasoning": "The evidence cites humanitarian needs for GBV-related support and a population figure across northern Ethiopia. This is a humanitarian statistic, likely from UN/OCHA or similar sources, not ACLED’s event-based conflict data or analyses.",
+      "source_context": "Peace Without Security; GBV caseload and service gaps."
+    },
+    {
+      "evidence": "A conflict-related sexual violence case near Maychew involved members of the Tigray Defense Force raping a girl, highlighting that domestic forces can perpetrate abuses post-Pretoria.",
+      "is_acled_data": true,
+      "reasoning": "Describes a specific violence-against-civilians incident with location (near Maychew), perpetrator (Tigray Defense Force), victim type (a girl), and event detail (rape). Such incident-level actor/location/event data aligns with ACLED event descriptions and VAC records, fitting ACLED’s scope.",
+      "source_context": "Peace Without Security; specific GBV incident implicating TDF."
+    },
+    {
+      "evidence": "Residual explosive remnants of war continue to impose lethal risks on civilians, compounding hardship for already vulnerable communities.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general qualitative observation about explosive remnants of war posing risks to civilians; it does not reference specific events, counts, locations, fatalities, or actor-level data tied to ACLED. It reads as humanitarian/contextual commentary rather than ACLED-derived event data.",
+      "source_context": "Peace Without Security; emphasis on ERW impacts linked to the Abergele incident."
+    },
+    {
+      "evidence": "Women’s economic reintegration lags; barriers to employment, capital, and livelihoods keep many in precarious situations that increase exposure to violence and exploitation.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general socioeconomic and protection analysis about women’s economic reintegration and exposure to violence; it does not reference specific ACLED event data, counts, locations, or actor-level incidents. It reflects qualitative commentary rather than ACLED-derived metrics or event-based evidence.",
+      "source_context": "Peace Without Security; socio-economic challenges for women."
+    },
+    {
+      "evidence": "October 2024’s event profile in Tigray is characterized by low overall frequency but localized lethal spikes, with key risks at the periphery (Alamata, Humera, Abergele) and political turbulence centered in Mekelle.",
+      "is_acled_data": true,
+      "reasoning": "The statement references an event profile for October 2024, noting frequency, localized lethal spikes, specific hotspot locations (Alamata, Humera, Abergele, Mekelle), and spatial distribution of risks—elements consistent with ACLED’s event counts, fatalities, and geographic subnational breakdowns and temporal trend analysis. While phrased analytically, it is grounded in characteristics typical of ACLED event and location-based data.",
+      "source_context": "Synthesis across sections; spatial center-periphery dynamics and incident mix."
+    },
+    {
+      "evidence": "Pretoria has succeeded in halting large-scale, multi-actor warfare, but delayed implementation, ambiguous provisions, and unresolved territorial/security questions sustain a brittle peace.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical assessment about the peace process and its fragility, not citing specific ACLED event counts, actor data, locations, or temporal trends. It lacks explicit ACLED attribution and does not reference concrete conflict event data.",
+      "source_context": "Conclusion and earlier analysis; assessment of Pretoria’s achievements and limits."
+    },
+    {
+      "evidence": "The primary security and governance challenges in October 2024 are internal—protest management, policing standards, ERW clearance, service delivery, and institutional accountability—rather than interstate aggression.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a qualitative assessment about governance and security priorities, not tied to specific ACLED event counts, actor data, or conflict metrics. It reads as general analysis rather than evidence derived from ACLED event data or indicators.",
+      "source_context": "Conclusion; shift from external to domestic determinants of stability."
+    },
+    {
+      "evidence": "The durability of peace will hinge on whether authorities can prevent localized incidents from escalating while advancing inclusive governance and protection in hotspots like Alamata, Humera, and Abergele.",
+      "is_acled_data": false,
+      "reasoning": "The statement is general analytical commentary about conditions for sustaining peace and mentions hotspots without referencing specific events, counts, trends, or actor-level data attributed to ACLED.",
+      "source_context": "Conclusion; policy-implication framing tied to localized risks."
+    }
+  ],
+  "insights": [
+    {
+      "insight": "Large-scale warfare in Tigray has dramatically subsided by October 2024 compared to October 2022, with incidents dropping from 59 events and 321 fatalities to 9 events and 8 deaths.",
+      "context": "Introduction; comparative statistics citing October 2022 vs October 2024, referencing Pretoria Agreement effect."
+    },
+    {
+      "insight": "The reduction in violence represents a structural break: October political-violence events fell well below both wartime and pre-war averages, with only 2 political-violence incidents recorded in October 2024.",
+      "context": "From All-Out War to a Brittle Peace; comparison of 2019–2022 October averages vs October 2024."
+    },
+    {
+      "insight": "Lethality has collapsed: after zero fatalities in September 2024 and one in October 2023, October 2024 recorded only three political-violence deaths, indicating persistently low-level lethality.",
+      "context": "From All-Out War to a Brittle Peace; fatalities trend across months and years."
+    },
+    {
+      "insight": "Violent incidents in October 2024 cluster temporally at the start and end of the month, with mid-October showing more events but no deaths, reflecting uneven temporal distribution of harm.",
+      "context": "From All-Out War to a Brittle Peace; weekly and temporal clustering observations."
+    },
+    {
+      "insight": "Institutions, policing, and governance disputes have replaced frontlines as primary arenas of contention in Tigray’s post-war phase.",
+      "context": "From All-Out War to a Brittle Peace; shift from battlefield dynamics to institutional contestation."
+    },
+    {
+      "insight": "A protest crackdown in Alamata on October 1, where Tigray-affiliated police used live fire, caused two deaths and at least seven injuries, highlighting uneven and sometimes lethal protest policing.",
+      "context": "Edges of the Map; detailed account of Alamata protest over curriculum and language policy."
+    },
+    {
+      "insight": "An explosive remnant of war detonated in Yechilay (Abergele) on October 31, killing three members of a family, underscoring ongoing civilian risks from ERW despite the end of active hostilities.",
+      "context": "From All-Out War to a Brittle Peace and Edges of the Map; ERW incident in Central Tigray."
+    },
+    {
+      "insight": "No Eritrean-linked incidents were recorded in Tigray during October 2024; documented frictions involved domestic Ethiopian actors.",
+      "context": "From All-Out War to a Brittle Peace; explicit absence of Eritrean involvement in the month’s events."
+    },
+    {
+      "insight": "October’s fatalities were confined to three localities—Alamata, Humera, and Yechilay—illustrating a pattern of high lethality but low frequency localized events.",
+      "context": "Edges of the Map; spatial concentration and location-specific breakdown."
+    },
+    {
+      "insight": "A single mid-October clash near Humera between Fano militia and federal troops caused three deaths but did not repeat, suggesting an isolated confrontation rather than a renewed front.",
+      "context": "Edges of the Map; actor-pair analysis of Fano vs ENDF near Humera."
+    },
+    {
+      "insight": "Western Tigray remains a contested security grey area, with uneven volatility between Western and North Western zones despite the formal cease-fire.",
+      "context": "Edges of the Map; 2024 pattern comparison across Western and North Western Tigray."
+    },
+    {
+      "insight": "Mekelle hosted the highest number of non-lethal political events—protests, reshuffles, religious moves, detainee releases—indicating political turbulence without fatalities in the capital.",
+      "context": "Mekelle’s Quiet Turbulence; city-level event mix and outcomes."
+    },
+    {
+      "insight": "Protests in Mekelle (housing scheme and factory wage grievances) were managed without lethal force or reported arrests, contrasting with lethal policing in Alamata.",
+      "context": "Mekelle’s Quiet Turbulence; protest policing differentials across locations."
+    },
+    {
+      "insight": "Over 440 former ENDF soldiers were released by the Tigray Interim Regional Administration in late October as a Pretoria-aligned confidence-building measure, though broader justice efforts remain limited.",
+      "context": "Mekelle’s Quiet Turbulence; detainee release and its relation to the Pretoria framework."
+    },
+    {
+      "insight": "A TPLF faction led by Debretsion Gebremichael announced the removal of interim president Getachew Reda and multiple officials on October 7, signaling internal power realignment within Pretoria-implementation institutions.",
+      "context": "Mekelle’s Quiet Turbulence; intra-Tigray leadership reshuffle."
+    },
+    {
+      "insight": "On October 23, bishops in Mekelle declared a Tigray Orthodox Tewahdo Church Synod, defying the national Holy Synod, signaling ecclesiastical and political-culture realignment toward Tigrayan autonomy.",
+      "context": "Mekelle’s Quiet Turbulence; religious institutional shifts."
+    },
+    {
+      "insight": "Humanitarian needs remain acute in Tigray—severe food insecurity, mass displacement, and damaged infrastructure persist—despite the end of large-scale fighting.",
+      "context": "Peace Without Security; overview of humanitarian strain two years after Pretoria."
+    },
+    {
+      "insight": "Gender-based violence needs far outstrip available services, with over 7 million people estimated to require GBV-related support across northern Ethiopia, including Tigray.",
+      "context": "Peace Without Security; GBV caseload and service gaps."
+    },
+    {
+      "insight": "A conflict-related sexual violence case near Maychew involved members of the Tigray Defense Force raping a girl, highlighting that domestic forces can perpetrate abuses post-Pretoria.",
+      "context": "Peace Without Security; specific GBV incident implicating TDF."
+    },
+    {
+      "insight": "Residual explosive remnants of war continue to impose lethal risks on civilians, compounding hardship for already vulnerable communities.",
+      "context": "Peace Without Security; emphasis on ERW impacts linked to the Abergele incident."
+    },
+    {
+      "insight": "Women’s economic reintegration lags; barriers to employment, capital, and livelihoods keep many in precarious situations that increase exposure to violence and exploitation.",
+      "context": "Peace Without Security; socio-economic challenges for women."
+    },
+    {
+      "insight": "October 2024’s event profile in Tigray is characterized by low overall frequency but localized lethal spikes, with key risks at the periphery (Alamata, Humera, Abergele) and political turbulence centered in Mekelle.",
+      "context": "Synthesis across sections; spatial center-periphery dynamics and incident mix."
+    },
+    {
+      "insight": "Pretoria has succeeded in halting large-scale, multi-actor warfare, but delayed implementation, ambiguous provisions, and unresolved territorial/security questions sustain a brittle peace.",
+      "context": "Conclusion and earlier analysis; assessment of Pretoria’s achievements and limits."
+    },
+    {
+      "insight": "The primary security and governance challenges in October 2024 are internal—protest management, policing standards, ERW clearance, service delivery, and institutional accountability—rather than interstate aggression.",
+      "context": "Conclusion; shift from external to domestic determinants of stability."
+    },
+    {
+      "insight": "The durability of peace will hinge on whether authorities can prevent localized incidents from escalating while advancing inclusive governance and protection in hotspots like Alamata, Humera, and Abergele.",
+      "context": "Conclusion; policy-implication framing tied to localized risks."
+    }
+  ],
+  "prompt": "What is the status of conflicts in Tigray after the Pretoria agreement? Focus on October 2024."
+}

@@ -1,0 +1,362 @@
+{
+  "total_insights": 35,
+  "total_classified": 35,
+  "acled_count": 19,
+  "non_acled_count": 16,
+  "pct_acled": 0.5428571428571428,
+  "details": [
+    {
+      "evidence": "Mexico’s 2024 cartel/gang violence was highly concentrated: the top 10 municipalities accounted for 32.9% of incidents and nearly 30% of fatalities; the top 100 covered roughly three-quarters of events and over two-thirds of deaths.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites precise shares of incidents and fatalities concentrated in specific municipalities and rank-order groupings (top 10, top 100) for 2024. These are subnational conflict event counts and fatality figures—core ACLED metrics—and the framing suggests aggregation directly from event-level data by location, which aligns with ACLED’s geographic conflict data and trend analysis outputs.",
+      "source_context": "A country of hotspots, not a firestorm; ACLED municipal rollup and national totals [1]."
+    },
+    {
+      "evidence": "Culiacán was the single largest hotspot, recording 492 incidents (12.2% of national total), far ahead of cities like León and Tijuana.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites a specific city-level count of conflict incidents and its share of the national total, comparing hotspots across cities. These are characteristic ACLED-style event counts and subnational breakdowns derived from conflict event data.",
+      "source_context": "Municipal concentration highlights; Culiacán’s leading share of incidents [1]."
+    },
+    {
+      "evidence": "Lethality per incident varied across top hubs: Acapulco had higher average deaths per event, while Mazatlán skewed to lower-fatality incidents.",
+      "is_acled_data": true,
+      "reasoning": "The statement compares average deaths per event across locations, implying use of event counts with associated fatality figures and geographic breakdowns—core ACLED outputs (event- and location-level fatalities enabling lethality-per-incident metrics).",
+      "source_context": "Divergence in lethality across hotspots [2]."
+    },
+    {
+      "evidence": "Violence against civilians dominated event types—about four times as common as battles—with 3,264 civilian-targeting events versus 755 battles; bombings and riots were minimal.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific counts of conflict event types (violence against civilians vs. battles, mentions of bombings and riots) and compares frequencies—this aligns with ACLED’s event-type statistics and breakdowns drawn from its dataset.",
+      "source_context": "Event type distribution showing civilian-targeting dominance [3]."
+    },
+    {
+      "evidence": "Most incidents were low-lethality per event: single-fatality attacks were most common, non-fatal next, and multi-victim events declined steeply; 20+ fatality events were rare.",
+      "is_acled_data": true,
+      "reasoning": "The evidence discusses distribution of fatalities per event (single-fatality most common, rarity of 20+ fatalities), which aligns with ACLED’s event-level fatality counts and conflict trend analysis derived from its incident data.",
+      "source_context": "Lethality-per-event distribution patterns [4]."
+    },
+    {
+      "evidence": "Fatalities were slightly less concentrated than incidents up to the top-200 municipalities, indicating deadlier outliers can occur outside the busiest hubs.",
+      "is_acled_data": true,
+      "reasoning": "The evidence compares concentration of incidents and fatalities across municipalities (subnational units), implying use of event counts and fatality totals with geographic breakdowns—core ACLED metrics and analyses (event/fatality distributions by location).",
+      "source_context": "Concentration-versus-lethality gap across municipality ranks [1]."
+    },
+    {
+      "evidence": "Attribution opacity was pervasive: many incidents listed “unidentified” actors, complicating prevention and prosecution.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytic observation about attribution opacity and use of “unidentified” actors; it does not cite specific ACLED event counts, actor data, or ACLED-derived metrics. It reads as qualitative commentary rather than data explicitly tied to ACLED.",
+      "source_context": "High share of unnamed perpetrators in VAC and battles [5]."
+    },
+    {
+      "evidence": "A clear operational split emerged: frequency hubs with many incidents but lower deaths per event vs. fewer‑but‑deadlier locales with higher average lethality.",
+      "is_acled_data": true,
+      "reasoning": "The statement discusses patterns in incident frequency and lethality (events vs. fatalities per event) across locales, which aligns with ACLED’s event counts, fatality data, and subnational trend analysis. This kind of split is a typical insight derived from ACLED’s event and casualty datasets.",
+      "source_context": "Two-track harm distinction and municipal profiles [6][7]."
+    },
+    {
+      "evidence": "Chihuahua city and Acapulco led lethality per event (~1.5 deaths/event) despite fewer incidents than mega-hubs; Culiacán and Tijuana had near-1.06–1.15 deaths/event with much higher volumes.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites lethality per event (deaths per event) by specific cities alongside incident volumes, which matches ACLED’s event-level and fatality data aggregated to subnational locations. This type of metric (fatalities per event by city) is a typical derivative of ACLED’s event counts and fatality figures rather than general commentary.",
+      "source_context": "Municipal lethality metrics comparisons [6][7]."
+    },
+    {
+      "evidence": "Celaya and Centro (Tabasco) also showed high lethality per event (~1.39 and ~1.33), placing them in the fewer‑but‑deadlier tier.",
+      "is_acled_data": true,
+      "reasoning": "Mentions lethality per event (fatalities divided by number of events) for specific locations, which aligns with ACLED-style metrics using event counts and fatalities with subnational geography; this is characteristic of analysis derived from ACLED event and fatality data.",
+      "source_context": "High-severity municipal examples beyond the mega-hubs [6][7]."
+    },
+    {
+      "evidence": "Incident frequency and lethality per event had a weak, threshold-dependent relationship (slightly negative at ≥10 events; slightly positive at ≥30 events), confirming distinct problem types.",
+      "is_acled_data": false,
+      "reasoning": "The statement describes a statistical relationship between incident frequency and lethality per event with threshold-dependent effects. It does not reference ACLED, specific ACLED event counts, or actor/location/event categories, and could stem from a generic analytical model or another dataset. No explicit tie to ACLED event data is present.",
+      "source_context": "Correlation analysis across municipalities at different thresholds [8][9]."
+    },
+    {
+      "evidence": "Event-type mixes differed within hotspots: most were overwhelmingly VAC (often 90%+), but Culiacán had an unusually high share of battles, and Michoacán outliers like Buenavista were battle-heavy with elevated explosions.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references event-type mixes within specific hotspots, distinguishing shares of violence against civilians versus battles and explosions at subnational locations (e.g., Culiacán, Buenavista in Michoacán). This aligns with ACLED’s event-type and geographic breakdowns and implies analysis of ACLED-coded categories (VAC, battles, explosions/remote violence).",
+      "source_context": "Municipal tactical profiles diverging from the VAC-heavy norm [10]."
+    },
+    {
+      "evidence": "Mechanically, frequency hubs reflect sustained intimidation markets (shootings, threats, targeted attacks), while fewer‑but‑deadlier locales feature confrontations or targeted attacks yielding higher fatalities per event.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical characterization of patterns (frequency hubs vs. deadlier locales) without citing specific ACLED event counts, fatalities, locations, or actor data. It reflects conceptual analysis rather than direct use of ACLED-derived metrics.",
+      "source_context": "Operational mechanisms inferred from event mixes and clashes [11][12]."
+    },
+    {
+      "evidence": "Policy metrics should be bifurcated: track volume suppression in frequency hubs and lethality reduction in deadlier locales, with tactics tailored to each profile.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a normative policy recommendation about how to structure metrics (volume vs. lethality) and tailoring tactics; it does not reference specific conflict event data, counts, fatalities, locations, or ACLED-derived analyses. It is general analytical guidance, not data from ACLED.",
+      "source_context": "Recommended metric and tactic separation by municipal typology [13]."
+    },
+    {
+      "evidence": "2024 monthly activity crested in October with ~450 events and 541 fatalities after a steady climb from late‑2023, indicating a late‑year spike rather than election‑month peaks.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites monthly counts of conflict events (~450) and fatalities (541) with temporal trend analysis (late‑year spike vs. election-month peaks). These are core ACLED metrics (event counts, fatalities, and time-series patterns) characteristic of ACLED-derived reporting.",
+      "source_context": "Temporal dynamics and October 2024 peak [14]."
+    },
+    {
+      "evidence": "Election-related targeting spiked in April (highest attacks on officials/candidates) and was most lethal in June (57 deaths), revealing election-period vulnerability distinct from the October overall peak.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites temporal patterns in attacks on officials/candidates and monthly fatality counts (e.g., 57 deaths in June), which align with ACLED’s event-level data on violence against civilians, actor targeting, and fatalities, including month-by-month trend analysis. This is characteristic of ACLED-derived insights.",
+      "source_context": "Electoral violence timing within the yearly rise [15]."
+    },
+    {
+      "evidence": "State-level changes were redistributive: Sinaloa more than doubled and Tabasco more than tripled cartel-linked events vs. 2023, while Zacatecas, Veracruz, and Tamaulipas declined.",
+      "is_acled_data": true,
+      "reasoning": "It cites state-level changes in counts of cartel-linked events versus 2023, which aligns with ACLED’s subnational conflict event data and temporal trend analysis by actor/event type.",
+      "source_context": "Year-over-year state surges and retreats [16]."
+    },
+    {
+      "evidence": "City-level reshuffling featured a strong rise in Culiacán (+~180 incidents YoY), with Mazatlán, Costa Rica (Sinaloa), and Villahermosa (Tabasco) up, while Fresnillo, Zacatecas city, and Cancún declined.",
+      "is_acled_data": true,
+      "reasoning": "Mentions city-level incident counts with year-over-year changes across specific Mexican cities, implying subnational conflict event totals and temporal trends—core ACLED outputs (event counts, geographic breakdowns, trend analysis).",
+      "source_context": "Municipal hotspot churn and new entrants to top-100 [17][18][19]."
+    },
+    {
+      "evidence": "Violence clustered along corridors: the Pacific corridor led volume and late‑year lethality spikes; the Gulf corridor rose fastest proportionally, especially near Tabasco and southern border nodes.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a qualitative geographic and temporal characterization of violence along corridors without citing event counts, fatalities, specific locations from ACLED, or explicit attribution. It reads as analytical synthesis rather than direct use of ACLED event data.",
+      "source_context": "Corridor signatures and comparative growth patterns [20][21][22]."
+    },
+    {
+      "evidence": "On the Pacific corridor, civilian-targeting grew ~one-third and high-fatality attacks nearly tripled; October–November saw peak events and fatalities, with a December cool-off.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites changes in civilian-targeting and high-fatality attacks, references peaks by month, and notes temporal patterns and fatalities along a specific geographic corridor—elements characteristic of ACLED’s event counts, violence against civilians metrics, fatality figures, and temporal trend analysis at subnational scales.",
+      "source_context": "Pacific corridor monthly surges and severity trends [20][21][22]."
+    },
+    {
+      "evidence": "Gulf corridor incidents more than doubled with fatalities surging, while abductions dipped there; along the Pacific, abductions nearly doubled and formed a larger share of cartel incidents.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites subnational incident and fatality trends, and shifts in abductions’ share of cartel incidents across specific regions (Gulf corridor vs. Pacific). These are typical ACLED-derived metrics—event counts, fatalities, actor/incident categorization, and regional breakdowns—consistent with ACLED conflict trend analysis.",
+      "source_context": "Corridor-specific shifts in abductions and overall incident growth [22][23]."
+    },
+    {
+      "evidence": "CJNG–Sinaloa clashes spiked mid‑2024 in Chiapas municipalities near Guatemala (Amatenango de la Frontera, Chicomuselo, Frontera Comalapa) before easing late in the year.",
+      "is_acled_data": true,
+      "reasoning": "Mentions specific armed group clashes, precise subnational locations, and a temporal spike-and-ease pattern in 2024—hallmarks of ACLED’s event-based, geo-referenced conflict trend data and actor activity analysis.",
+      "source_context": "Southern border rivalry dynamics fitting the corridor thesis [24]."
+    },
+    {
+      "evidence": "Even with identifiable CJNG–Sinaloa clashes being unusually lethal, most clashes still involved unnamed actors, keeping attribution opacity high.",
+      "is_acled_data": true,
+      "reasoning": "The statement discusses attribution opacity in recorded clashes and contrasts named actors (CJNG vs. Sinaloa) with unnamed actors, which aligns with ACLED’s actor-level event coding and attribution practices derived from event data. This reflects insights from ACLED’s event descriptions and actor coding rather than general commentary.",
+      "source_context": "Named vs unnamed actor patterns in clashes and lethality among named pairs [25]."
+    },
+    {
+      "evidence": "Given pervasive opacity (about six in ten events unnamed overall; ~90% unnamed in VAC and ~80% in battles), strategies should anchor to place, pattern, and timing rather than group attribution.",
+      "is_acled_data": true,
+      "reasoning": "The claim references the share of events with unnamed actors overall and within specific ACLED event categories (violence against civilians and battles). Actor-name coverage rates and category-specific statistics are characteristic of ACLED’s event/actor-level dataset and coding, indicating it is derived from ACLED data.",
+      "source_context": "Perpetrator attribution rates and operational implication [26][27]."
+    },
+    {
+      "evidence": "Tiered municipal tactics are advised: frequency hubs (e.g., Culiacán, Tijuana, León, Monterrey) prioritize volume suppression through high-frequency patrols, focused deterrence, rapid clearance, and protection of repeat locations.",
+      "is_acled_data": false,
+      "reasoning": "The evidence presents policy/tactical recommendations (tiered municipal tactics and policing strategies) and cites example cities but does not reference specific ACLED event data, counts, trends, or actor-level information. It is general analytical guidance, not derived from or attributed to ACLED datasets.",
+      "source_context": "Playbook for high-volume hubs under VAC-heavy mixes [28][29]."
+    },
+    {
+      "evidence": "Fewer‑but‑deadlier locales (e.g., Celaya, Chihuahua) should focus on lethality reduction via hotspot deployments at peak times, gun carrying/homicide suppression, strike teams on assault clusters, and victim/witness protection.",
+      "is_acled_data": false,
+      "reasoning": "This is a policy recommendation about policing strategies and lethality reduction in specific cities, not a presentation of conflict event counts, fatalities, or actor/location-specific event data attributable to ACLED. It lacks explicit ACLED-derived metrics or references to ACLED trends and appears as general analysis.",
+      "source_context": "Playbook for high-severity, lower-volume municipalities [29]."
+    },
+    {
+      "evidence": "Mixed-profile Pacific nodes (e.g., Acapulco, Centro/Tabasco) need hybrid approaches separating routine intimidation control from surge responses during high-fatality streaks.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a strategic/analytical prescription about “hybrid approaches” for certain locales and distinguishes types of gang control versus surge responses. It does not cite specific conflict event counts, actor data, fatalities, or ACLED-derived trends. It’s general analysis not explicitly grounded in ACLED event data.",
+      "source_context": "Hybrid municipal tactics where profiles combine volume and lethality [29]."
+    },
+    {
+      "evidence": "Measurement should match typology: use events per 10,000 residents and repeat-location rates in frequency hubs; track fatalities per event and the share of multi-victim incidents in deadlier locales.",
+      "is_acled_data": false,
+      "reasoning": "The evidence describes a proposed measurement framework (events per 10,000 residents, repeat-location rates, fatalities per event, share of multi-victim incidents). It is a methodological suggestion and references population-based rates and location repetition; it does not cite or clearly derive from ACLED event data, nor does it reference ACLED explicitly. While ACLED could supply event and fatality counts, the inclusion of population denominators and the generic framework indicate this is not specifically ACLED-derived.",
+      "source_context": "Metrics design aligned to operational bifurcation [29]."
+    },
+    {
+      "evidence": "Corridors should be treated as operational theaters: prioritize Pacific for volume and late‑year severity, monitor rapid Gulf acceleration, and focus interdiction on logistics nodes, ports, interior–coast highways, and southern border crossings.",
+      "is_acled_data": false,
+      "reasoning": "This is strategic/operational guidance and qualitative analysis about prioritizing regions and logistics nodes; it does not cite or present specific ACLED event data, counts, actors, or trends explicitly derived from ACLED.",
+      "source_context": "Corridor-centric interdiction strategy and priority nodes [20][21][22][28][30]."
+    },
+    {
+      "evidence": "Deploy tech-enabled, lawful SIGINT/cyber support to map couriers/financing, synchronize port-of-entry targeting with precursor monitoring, and maintain joint corridor metrics for volume, high-fatality shares, and abductions.",
+      "is_acled_data": false,
+      "reasoning": "This is a policy/operational recommendation about SIGINT/cyber support and targeting logistics corridors, not a citation of conflict event data, fatalities, or actor/location-specific metrics from ACLED.",
+      "source_context": "Operational upgrades for corridor interdiction under evolving cartel tech use [30][28][31]."
+    },
+    {
+      "evidence": "Fuse enforcement with prevention in recruitment-heavy hubs and corridor nodes: scale community-violence interventions (mediation, credible messengers), youth employment pipelines, and co-locate with hotspot policing and victim services.",
+      "is_acled_data": false,
+      "reasoning": "The evidence is a policy recommendation about combining enforcement with prevention and service co-location. It contains no event counts, fatalities, locations, trends, actor data, or any attribution to ACLED; it is general strategic guidance rather than data derived from ACLED event records.",
+      "source_context": "Prevention–enforcement integration where recruitment pipelines are thick [32][33]."
+    },
+    {
+      "evidence": "Cross-border cooperation advanced unevenly in 2024; to build reliability, narrow binational task lines (precursors, finance, cyber logistics), share corridor dashboards, and set clear data-use guardrails.",
+      "is_acled_data": false,
+      "reasoning": "The statement is policy/strategy advice about cross-border cooperation and data-sharing practices; it does not reference conflict event counts, actor activity, fatalities, locations, or any ACLED-derived metrics. It is general analysis, not ACLED data.",
+      "source_context": "Cooperation gaps and targeted, trust-building collaboration proposals [34][35][36]."
+    },
+    {
+      "evidence": "Performance management should stress-test for diffusion beyond the top‑100 municipalities, monitor for post‑election reversion in Chiapas, and recalibrate when hotspot rankings churn.",
+      "is_acled_data": false,
+      "reasoning": "This is strategic guidance about monitoring and management (stress-testing diffusion, post-election reversion, hotspot ranking churn), not citing or presenting specific conflict event data, actor data, or ACLED-derived metrics. It’s general analytical advice rather than ACLED-based evidence.",
+      "source_context": "Adaptive planning for shifting hotspots and temporal reversions [37]."
+    },
+    {
+      "evidence": "Under persistent opacity and adaptation, prioritize place-based indicators—time-of-day spikes, repeat-location clusters, corridor traffic anomalies—as leading signals for operational shifts.",
+      "is_acled_data": false,
+      "reasoning": "The evidence suggests a methodological recommendation (use place-based indicators like time-of-day spikes and corridor anomalies) and does not reference specific ACLED event counts, fatalities, actor data, or ACLED-derived trends. It is general analytic guidance, not data or findings explicitly tied to ACLED.",
+      "source_context": "Indicator-led management when perpetrator attribution is unreliable [31][30][28]."
+    },
+    {
+      "evidence": "Overall conclusion: Mexico’s 2024 gang violence was concentrated and patterned along identifiable corridors, with a split between high-volume hubs and fewer‑but‑deadlier locales; 2025 should deploy tiered municipal tactics, corridor-level interdiction, integrated community strategies, and narrowly scoped cross-border cooperation.",
+      "is_acled_data": false,
+      "reasoning": "The excerpt is a high-level strategic conclusion about patterns and policy recommendations (corridors, hubs vs. deadlier locales, tactics). It does not reference specific event counts, fatalities, locations, actors, or trends explicitly tied to ACLED data, nor does it attribute the analysis to ACLED. It is general analytical commentary rather than identifiable ACLED-derived metrics.",
+      "source_context": "Synthesis of ACLED patterns and strategic recommendations [1][2][3][4][10][14][16][20][21][22][23][24][26][27][28][29][34][32][35][36]."
+    }
+  ],
+  "insights": [
+    {
+      "insight": "Mexico’s 2024 cartel/gang violence was highly concentrated: the top 10 municipalities accounted for 32.9% of incidents and nearly 30% of fatalities; the top 100 covered roughly three-quarters of events and over two-thirds of deaths.",
+      "context": "A country of hotspots, not a firestorm; ACLED municipal rollup and national totals [1]."
+    },
+    {
+      "insight": "Culiacán was the single largest hotspot, recording 492 incidents (12.2% of national total), far ahead of cities like León and Tijuana.",
+      "context": "Municipal concentration highlights; Culiacán’s leading share of incidents [1]."
+    },
+    {
+      "insight": "Lethality per incident varied across top hubs: Acapulco had higher average deaths per event, while Mazatlán skewed to lower-fatality incidents.",
+      "context": "Divergence in lethality across hotspots [2]."
+    },
+    {
+      "insight": "Violence against civilians dominated event types—about four times as common as battles—with 3,264 civilian-targeting events versus 755 battles; bombings and riots were minimal.",
+      "context": "Event type distribution showing civilian-targeting dominance [3]."
+    },
+    {
+      "insight": "Most incidents were low-lethality per event: single-fatality attacks were most common, non-fatal next, and multi-victim events declined steeply; 20+ fatality events were rare.",
+      "context": "Lethality-per-event distribution patterns [4]."
+    },
+    {
+      "insight": "Fatalities were slightly less concentrated than incidents up to the top-200 municipalities, indicating deadlier outliers can occur outside the busiest hubs.",
+      "context": "Concentration-versus-lethality gap across municipality ranks [1]."
+    },
+    {
+      "insight": "Attribution opacity was pervasive: many incidents listed “unidentified” actors, complicating prevention and prosecution.",
+      "context": "High share of unnamed perpetrators in VAC and battles [5]."
+    },
+    {
+      "insight": "A clear operational split emerged: frequency hubs with many incidents but lower deaths per event vs. fewer‑but‑deadlier locales with higher average lethality.",
+      "context": "Two-track harm distinction and municipal profiles [6][7]."
+    },
+    {
+      "insight": "Chihuahua city and Acapulco led lethality per event (~1.5 deaths/event) despite fewer incidents than mega-hubs; Culiacán and Tijuana had near-1.06–1.15 deaths/event with much higher volumes.",
+      "context": "Municipal lethality metrics comparisons [6][7]."
+    },
+    {
+      "insight": "Celaya and Centro (Tabasco) also showed high lethality per event (~1.39 and ~1.33), placing them in the fewer‑but‑deadlier tier.",
+      "context": "High-severity municipal examples beyond the mega-hubs [6][7]."
+    },
+    {
+      "insight": "Incident frequency and lethality per event had a weak, threshold-dependent relationship (slightly negative at ≥10 events; slightly positive at ≥30 events), confirming distinct problem types.",
+      "context": "Correlation analysis across municipalities at different thresholds [8][9]."
+    },
+    {
+      "insight": "Event-type mixes differed within hotspots: most were overwhelmingly VAC (often 90%+), but Culiacán had an unusually high share of battles, and Michoacán outliers like Buenavista were battle-heavy with elevated explosions.",
+      "context": "Municipal tactical profiles diverging from the VAC-heavy norm [10]."
+    },
+    {
+      "insight": "Mechanically, frequency hubs reflect sustained intimidation markets (shootings, threats, targeted attacks), while fewer‑but‑deadlier locales feature confrontations or targeted attacks yielding higher fatalities per event.",
+      "context": "Operational mechanisms inferred from event mixes and clashes [11][12]."
+    },
+    {
+      "insight": "Policy metrics should be bifurcated: track volume suppression in frequency hubs and lethality reduction in deadlier locales, with tactics tailored to each profile.",
+      "context": "Recommended metric and tactic separation by municipal typology [13]."
+    },
+    {
+      "insight": "2024 monthly activity crested in October with ~450 events and 541 fatalities after a steady climb from late‑2023, indicating a late‑year spike rather than election‑month peaks.",
+      "context": "Temporal dynamics and October 2024 peak [14]."
+    },
+    {
+      "insight": "Election-related targeting spiked in April (highest attacks on officials/candidates) and was most lethal in June (57 deaths), revealing election-period vulnerability distinct from the October overall peak.",
+      "context": "Electoral violence timing within the yearly rise [15]."
+    },
+    {
+      "insight": "State-level changes were redistributive: Sinaloa more than doubled and Tabasco more than tripled cartel-linked events vs. 2023, while Zacatecas, Veracruz, and Tamaulipas declined.",
+      "context": "Year-over-year state surges and retreats [16]."
+    },
+    {
+      "insight": "City-level reshuffling featured a strong rise in Culiacán (+~180 incidents YoY), with Mazatlán, Costa Rica (Sinaloa), and Villahermosa (Tabasco) up, while Fresnillo, Zacatecas city, and Cancún declined.",
+      "context": "Municipal hotspot churn and new entrants to top-100 [17][18][19]."
+    },
+    {
+      "insight": "Violence clustered along corridors: the Pacific corridor led volume and late‑year lethality spikes; the Gulf corridor rose fastest proportionally, especially near Tabasco and southern border nodes.",
+      "context": "Corridor signatures and comparative growth patterns [20][21][22]."
+    },
+    {
+      "insight": "On the Pacific corridor, civilian-targeting grew ~one-third and high-fatality attacks nearly tripled; October–November saw peak events and fatalities, with a December cool-off.",
+      "context": "Pacific corridor monthly surges and severity trends [20][21][22]."
+    },
+    {
+      "insight": "Gulf corridor incidents more than doubled with fatalities surging, while abductions dipped there; along the Pacific, abductions nearly doubled and formed a larger share of cartel incidents.",
+      "context": "Corridor-specific shifts in abductions and overall incident growth [22][23]."
+    },
+    {
+      "insight": "CJNG–Sinaloa clashes spiked mid‑2024 in Chiapas municipalities near Guatemala (Amatenango de la Frontera, Chicomuselo, Frontera Comalapa) before easing late in the year.",
+      "context": "Southern border rivalry dynamics fitting the corridor thesis [24]."
+    },
+    {
+      "insight": "Even with identifiable CJNG–Sinaloa clashes being unusually lethal, most clashes still involved unnamed actors, keeping attribution opacity high.",
+      "context": "Named vs unnamed actor patterns in clashes and lethality among named pairs [25]."
+    },
+    {
+      "insight": "Given pervasive opacity (about six in ten events unnamed overall; ~90% unnamed in VAC and ~80% in battles), strategies should anchor to place, pattern, and timing rather than group attribution.",
+      "context": "Perpetrator attribution rates and operational implication [26][27]."
+    },
+    {
+      "insight": "Tiered municipal tactics are advised: frequency hubs (e.g., Culiacán, Tijuana, León, Monterrey) prioritize volume suppression through high-frequency patrols, focused deterrence, rapid clearance, and protection of repeat locations.",
+      "context": "Playbook for high-volume hubs under VAC-heavy mixes [28][29]."
+    },
+    {
+      "insight": "Fewer‑but‑deadlier locales (e.g., Celaya, Chihuahua) should focus on lethality reduction via hotspot deployments at peak times, gun carrying/homicide suppression, strike teams on assault clusters, and victim/witness protection.",
+      "context": "Playbook for high-severity, lower-volume municipalities [29]."
+    },
+    {
+      "insight": "Mixed-profile Pacific nodes (e.g., Acapulco, Centro/Tabasco) need hybrid approaches separating routine intimidation control from surge responses during high-fatality streaks.",
+      "context": "Hybrid municipal tactics where profiles combine volume and lethality [29]."
+    },
+    {
+      "insight": "Measurement should match typology: use events per 10,000 residents and repeat-location rates in frequency hubs; track fatalities per event and the share of multi-victim incidents in deadlier locales.",
+      "context": "Metrics design aligned to operational bifurcation [29]."
+    },
+    {
+      "insight": "Corridors should be treated as operational theaters: prioritize Pacific for volume and late‑year severity, monitor rapid Gulf acceleration, and focus interdiction on logistics nodes, ports, interior–coast highways, and southern border crossings.",
+      "context": "Corridor-centric interdiction strategy and priority nodes [20][21][22][28][30]."
+    },
+    {
+      "insight": "Deploy tech-enabled, lawful SIGINT/cyber support to map couriers/financing, synchronize port-of-entry targeting with precursor monitoring, and maintain joint corridor metrics for volume, high-fatality shares, and abductions.",
+      "context": "Operational upgrades for corridor interdiction under evolving cartel tech use [30][28][31]."
+    },
+    {
+      "insight": "Fuse enforcement with prevention in recruitment-heavy hubs and corridor nodes: scale community-violence interventions (mediation, credible messengers), youth employment pipelines, and co-locate with hotspot policing and victim services.",
+      "context": "Prevention–enforcement integration where recruitment pipelines are thick [32][33]."
+    },
+    {
+      "insight": "Cross-border cooperation advanced unevenly in 2024; to build reliability, narrow binational task lines (precursors, finance, cyber logistics), share corridor dashboards, and set clear data-use guardrails.",
+      "context": "Cooperation gaps and targeted, trust-building collaboration proposals [34][35][36]."
+    },
+    {
+      "insight": "Performance management should stress-test for diffusion beyond the top‑100 municipalities, monitor for post‑election reversion in Chiapas, and recalibrate when hotspot rankings churn.",
+      "context": "Adaptive planning for shifting hotspots and temporal reversions [37]."
+    },
+    {
+      "insight": "Under persistent opacity and adaptation, prioritize place-based indicators—time-of-day spikes, repeat-location clusters, corridor traffic anomalies—as leading signals for operational shifts.",
+      "context": "Indicator-led management when perpetrator attribution is unreliable [31][30][28]."
+    },
+    {
+      "insight": "Overall conclusion: Mexico’s 2024 gang violence was concentrated and patterned along identifiable corridors, with a split between high-volume hubs and fewer‑but‑deadlier locales; 2025 should deploy tiered municipal tactics, corridor-level interdiction, integrated community strategies, and narrowly scoped cross-border cooperation.",
+      "context": "Synthesis of ACLED patterns and strategic recommendations [1][2][3][4][10][14][16][20][21][22][23][24][26][27][28][29][34][32][35][36]."
+    }
+  ],
+  "prompt": "Research gang violence in Mexico and its outlook in 2025, as if we are at the end of 2024 heading into 2025."
+}

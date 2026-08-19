@@ -1,0 +1,143 @@
+{
+  "prompt": "Give me a summary of artillery shelling and airstrikes political violence, and conflict situations during August - September 2024 in Sudan.",
+  "criteria": [
+    {
+      "name": "Shift to remote violence",
+      "description": "Assess the trend of increased use of artillery shelling and airstrikes relative to direct battles, and how this shift shapes the conflict’s intensity and civilian risks."
+    },
+    {
+      "name": "Geographic concentration of violence",
+      "description": "Identify which regions see the highest levels of shelling and airstrikes and how frontlines or control zones influence where violence concentrates."
+    },
+    {
+      "name": "Stalemate-driven tactics",
+      "description": "Examine how battlefield stalemates prompt parties to escalate indirect fire to pressure opponents and influence negotiations rather than pursue territorial advances."
+    },
+    {
+      "name": "Internal factional tensions",
+      "description": "Evaluate signs of fragmentation within armed groups, including intra-militia clashes over local interests, and the implications for command cohesion and conflict dynamics."
+    },
+    {
+      "name": "Multi-front pressures",
+      "description": "Analyze how simultaneous fighting across multiple regions constrains each side’s capacity to launch major offensives and encourages reliance on remote strikes."
+    },
+    {
+      "name": "Expansion to new theaters",
+      "description": "Track advances into new states or areas and how such moves risk creating multi-party confrontations with additional armed actors."
+    },
+    {
+      "name": "Targeting of strategic infrastructure",
+      "description": "Assess attempts to seize or deny critical assets such as fuel routes, bases, or logistics hubs, and how these efforts affect operational capabilities."
+    },
+    {
+      "name": "Airpower escalation and effects",
+      "description": "Monitor increases in airstrike frequency, their intended military objectives, and the collateral damage to civilian infrastructure and services."
+    },
+    {
+      "name": "Humanitarian access and disruption",
+      "description": "Evaluate how flooding, insecurity, and looting affect aid delivery, road access, and the broader humanitarian situation as needs worsen."
+    },
+    {
+      "name": "Ceasefire talks and conflict behavior",
+      "description": "Examine how failed or ongoing mediation efforts correlate with escalations in shelling or airstrikes as parties seek leverage."
+    },
+    {
+      "name": "Civilian harm and displacement patterns",
+      "description": "Track patterns of civilian casualties, abductions, and population movements linked to shelling and airstrikes, including attacks meant to intimidate communities."
+    },
+    {
+      "name": "Local defense and community responses",
+      "description": "Assess instances of civilian self-protection or resistance and the resultant reprisals, and how these dynamics alter local security."
+    },
+    {
+      "name": "Inter-group alliances and realignments",
+      "description": "Monitor shifting alliances among armed groups and local forces, and how these changes reshape control and conflict trajectories."
+    },
+    {
+      "name": "Seasonal and terrain constraints",
+      "description": "Consider how rainy seasons and damaged road networks influence operational tempo, supply lines, and the choice of tactics."
+    },
+    {
+      "name": "Prospects for escalation or spillover",
+      "description": "Analyze indicators that current trends could lead to intensified urban assaults, broader regional involvement, or new fronts opening."
+    }
+  ],
+  "criterion_scores": [
+    {
+      "name": "Shift to remote violence",
+      "score": 0.5,
+      "explanation": "Mentions frequent artillery shelling and aerial bombings as central features and notes heavy weapons use, but does not explicitly compare to direct battles or analyze the trend relative to ground engagements or its implications beyond general civilian risk."
+    },
+    {
+      "name": "Geographic concentration of violence",
+      "score": 0.75,
+      "explanation": "Identifies Khartoum/Bahri, Sennar, South Darfur (Nyala), Darfur and Kordofan as affected, noting Khartoum suffered some of the worst violence. However, it lacks analysis of frontlines, control zones, or why violence concentrates in those areas."
+    },
+    {
+      "name": "Stalemate-driven tactics",
+      "score": 0.25,
+      "explanation": "Hints at heavy weapons use and a late-September offensive but does not analyze stalemates prompting indirect fire to pressure opponents or negotiations; no discussion of intent beyond general escalation."
+    },
+    {
+      "name": "Internal factional tensions",
+      "score": 0.0,
+      "explanation": "No mention of fragmentation within armed groups or intra-militia clashes; cohesion dynamics are not discussed."
+    },
+    {
+      "name": "Multi-front pressures",
+      "score": 0.25,
+      "explanation": "Briefly notes fighting also raged in Darfur and Kordofan, but does not analyze how simultaneous fronts constrain offensives or drive reliance on remote strikes."
+    },
+    {
+      "name": "Expansion to new theaters",
+      "score": 0.25,
+      "explanation": "Mentions incidents in Sennar and South Darfur and continued fighting across regions, but provides no analysis of advances into new states or multi-party confrontations; no clear evidence of expansion dynamics."
+    },
+    {
+      "name": "Targeting of strategic infrastructure",
+      "score": 0.0,
+      "explanation": "No discussion of attempts to seize or deny fuel routes, bases, or logistics hubs; focus is on markets and residential areas hit."
+    },
+    {
+      "name": "Airpower escalation and effects",
+      "score": 0.75,
+      "explanation": "Cites multiple airstrikes, including first-time bombing in Bahri and specific lethal incidents, and notes civilian harm and condemnation. However, limited analysis of intended military objectives or quantified frequency trends."
+    },
+    {
+      "name": "Humanitarian access and disruption",
+      "score": 0.25,
+      "explanation": "Mentions broader humanitarian crisis but provides no details on flooding, aid delivery, looting, or road access disruptions during Aug–Sep 2024."
+    },
+    {
+      "name": "Ceasefire talks and conflict behavior",
+      "score": 0.0,
+      "explanation": "No discussion of mediation efforts, ceasefire talks, or their correlation with escalations."
+    },
+    {
+      "name": "Civilian harm and displacement patterns",
+      "score": 0.5,
+      "explanation": "Provides casualty figures from several incidents and notes heavy civilian casualties, but lacks analysis of displacement patterns, abductions, or intimidation tactics beyond market strikes."
+    },
+    {
+      "name": "Local defense and community responses",
+      "score": 0.0,
+      "explanation": "No mention of civilian self-protection, resistance, or resultant reprisals."
+    },
+    {
+      "name": "Inter-group alliances and realignments",
+      "score": 0.0,
+      "explanation": "No discussion of shifting alliances among armed groups or local forces."
+    },
+    {
+      "name": "Seasonal and terrain constraints",
+      "score": 0.0,
+      "explanation": "No mention of rainy season, terrain, or road conditions affecting operations or tactics."
+    },
+    {
+      "name": "Prospects for escalation or spillover",
+      "score": 0.25,
+      "explanation": "References a late-September army offensive suggesting potential escalation in Khartoum, but provides no forward-looking analysis or indicators of broader regional involvement or new fronts opening."
+    }
+  ],
+  "overall_score": 0.25
+}

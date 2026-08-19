@@ -1,0 +1,85 @@
+{
+  "dataset_id": 83,
+  "dataset_path": "data/notebooks/flag-83.json",
+  "metadata": {
+    "category": "Goal Management",
+    "dataset_description": "The dataset combines 1,050 entries from two simulated ServiceNow `sn_gf_goal` tables, capturing various attributes related to organizational goals. These attributes include goal state, owner, department, start and end dates, descriptions, and key performance metrics such as priority, percent complete, and target percentage. The dataset offers a comprehensive view of goal management across departments, with a focus on cross-departmental collaboration, seasonal performance trends, and priority-level efficiency. The data also tracks updates to each goal, documenting the timeline of changes and the individuals responsible for these updates, providing a rich context for analyzing organizational efficiency and strategic goal alignment.",
+    "goal": "Analyze the impact of cross-departmental collaboration and seasonal timing on the success rates of organizational goals. Additionally, assess how task priority correlates with completion rates across different categories to optimize resource allocation and strategic planning.",
+    "header": "Cross-Departmental and Temporal Performance Analysis (Flag 83)",
+    "role": "Strategic Performance Analyst"
+  },
+  "predicted_insights": [
+    "Even when category and assignement_group align, only 2.54% of tickets were resolved within 72 hours—about 1 in 40—implying that faster turnaround likely depends more on process efficiency than on departmental alignment alone.",
+    "Priority’s linkage to resolution time is ≈2.2× stronger in Network (0.331) than the next highest category, Inquiry / Help (0.147), indicating that prioritization-driven triage and resource allocation in the Network group is likely to yield the largest efficiency gains.",
+    "Resolved performance fluctuates widely by month (range 0.30–0.625), with a steep 0.325-point (52%) drop from January to February while February also has the lowest volume (10 tickets), indicating a likely seasonal trough where targeted cross-departmental support could stabilize outcomes.",
+    "Low-priority items often resolve at higher rates than high/moderate within the same group (e.g., Inquiry/Help: 64.71% vs 47.83%/46.67%, Network: 62.96% vs 50.00%/30.00%), while Hardware excels on critical (66.67%) but lags on high/moderate (30.43%/36.84%), suggesting rebalancing efforts by priority could improve overall outcomes.",
+    "Across all quarters, only 1.2% of tickets (6 of 500) met the 72-hour resolution threshold, with Q4’s 2.5% roughly 2–3 times higher than other quarters, suggesting a modest seasonal uptick but overall very limited rapid resolution that may benefit from targeted cross-team process improvements.",
+    "Across all five quarters analyzed, the mismatch rate is consistently 0.0%, indicating no cross-departmental reassignment from the original category to the final assignement_group, suggesting highly consistent routing that likely minimizes handoffs regardless of season.",
+    "Across all groups, 392 of 500 tickets (78.4%) are closed by someone other than the assignee, with rates ranging from 74% (Inquiry / Help) to 82% (Database), indicating prevalent cross-team handoffs that could be streamlined to improve goal attainment and resource allocation.",
+    "Hardware’s 0.202 gap is ~82% higher than Database (0.111) and ~2.5× Inquiry/Help (0.080), indicating resolution outcomes there are especially sensitive to priority, so focusing cross-team escalation and staffing on critical Hardware issues could yield the biggest efficiency gains.",
+    "The Network gap (~75 days) is about 6.1x larger than Software and still ~82 hours larger than Database, indicating that critical network incidents likely face substantial cross-team dependencies and capacity constraints; prioritizing cross-departmental readiness for critical network issues could yield the biggest improvement in time-to-resolution.",
+    "Across the entire analysis period (2023-01 to 2024-02), 0.0% of Priority 1 incidents were resolved within 48 hours in all 5/5 categories, indicating a system-wide shortfall rather than a category-specific issue and suggesting that improving early-stage response capacity could yield universal gains.",
+    "The near-parity in sub-48-hour resolution rates (only a 0.79 pp or ~1.5% relative lift for non-assignee closers) suggests cross-ownership handoffs do not materially slow resolution, implying process improvements should focus more on factors like priority/category or timing rather than who performs the final closure.",
+    "Contrary to expectation, “2 - High” (58.60% on average across categories) slightly outperforms “1 - Critical” (57.47%) in within-48h resolution, while “4 - Low” (50.59%) beats “3 - Moderate” (46.42%); performance varies widely by category (e.g., Hardware High 73.91% vs. Network High 46.43%), suggesting prioritization and process efficiency differ across teams and should guide resource allocation."
+  ],
+  "predicted_summary": "Cross-departmental routing appears negligible in this dataset (0.0% mismatch between final assignment_group and category in every quarter from 2023-Q1 through 2024-Q1), so the impact of cross-department collaboration on rapid resolution cannot be quantified; by contrast, intra-team handoffs are common—especially in Database, where 82% of tickets are closed by someone other than the current assignee—yet the 48-hour resolution rate is nearly the same whether the closer is the assignee or not (52.78% vs 53.57%; +0.79 percentage points).\nSeasonal timing shows clear variability but uniformly low rapid-resolution performance: the highest 72-hour resolution share occurs in 2023-Q4 at just 2.5% (3 of 120 tickets), while the lowest monthly “Resolved” rate appears in 2024-02 at 30% (3 of 10), indicating a pronounced trough early in 2024 alongside a very low ceiling for fast turnarounds even at the peak.\nPriority’s effect on outcomes is strongly category-dependent: Network exhibits the strongest monotonic link between priority and resolution time (absolute Spearman ≈ 0.331) and the largest median resolution-time gap between Priority 1 and Priority 4 (≈1,796.96 hours), while Hardware shows the greatest spread in “Resolved” share between Priority 1 and 4 (≈20.2 percentage points); illustrative of this heterogeneity, Network’s 48-hour completion rates vary markedly by priority (e.g., Priority 1 at 72.00% vs Priority 2 at 46.43% vs Priority 4 at 62.96%).",
+  "score_insights": 0.13401583208125073,
+  "score_insights_dict": [
+    {
+      "gt_insight": "There was no column description to conduct any analysis",
+      "pred_insight": "The Network gap (~75 days) is about 6.1x larger than Software and still ~82 hours larger than Database, indicating that critical network incidents likely face substantial cross-team dependencies and capacity constraints; prioritizing cross-departmental readiness for critical network issues could yield the biggest improvement in time-to-resolution.",
+      "score": 0.1933111941376625
+    },
+    {
+      "gt_insight": "There was no column start_date to conduct any analysis",
+      "pred_insight": "Across all five quarters analyzed, the mismatch rate is consistently 0.0%, indicating no cross-departmental reassignment from the original category to the final assignement_group, suggesting highly consistent routing that likely minimizes handoffs regardless of season.",
+      "score": 0.10552945360349145
+    },
+    {
+      "gt_insight": "There was no column percent_complete to conduct any analysis",
+      "pred_insight": "Across the entire analysis period (2023-01 to 2024-02), 0.0% of Priority 1 incidents were resolved within 48 hours in all 5/5 categories, indicating a system-wide shortfall rather than a category-specific issue and suggesting that improving early-stage response capacity could yield universal gains.",
+      "score": 0.12551095150865826
+    },
+    {
+      "gt_insight": "There was no column start_date to conduct any analysis",
+      "pred_insight": "Across all five quarters analyzed, the mismatch rate is consistently 0.0%, indicating no cross-departmental reassignment from the original category to the final assignement_group, suggesting highly consistent routing that likely minimizes handoffs regardless of season.",
+      "score": 0.10765354670413974
+    },
+    {
+      "gt_insight": "There was no column department to conduct any analysis",
+      "pred_insight": "The Network gap (~75 days) is about 6.1x larger than Software and still ~82 hours larger than Database, indicating that critical network incidents likely face substantial cross-team dependencies and capacity constraints; prioritizing cross-departmental readiness for critical network issues could yield the biggest improvement in time-to-resolution.",
+      "score": 0.13807401445230183
+    }
+  ],
+  "score_summary": 0.3121817619149989,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.10462726196395009,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "Across all five quarters analyzed, the mismatch rate is consistently 0.0%, indicating no cross-departmental reassignment from the original category to the final assignement_group, suggesting highly consistent routing that likely minimizes handoffs regardless of season.",
+      "gt_insight": "There was no column description to conduct any analysis",
+      "score": 0.1004406512524075
+    },
+    {
+      "pred_insight": "Even when category and assignement_group align, only 2.54% of tickets were resolved within 72 hours—about 1 in 40—implying that faster turnaround likely depends more on process efficiency than on departmental alignment alone.",
+      "gt_insight": "There was no column start_date to conduct any analysis",
+      "score": 0.10806873539330916
+    },
+    {
+      "pred_insight": "Even when category and assignement_group align, only 2.54% of tickets were resolved within 72 hours—about 1 in 40—implying that faster turnaround likely depends more on process efficiency than on departmental alignment alone.",
+      "gt_insight": "There was no column percent_complete to conduct any analysis",
+      "score": 0.10518534164186984
+    },
+    {
+      "pred_insight": "Even when category and assignement_group align, only 2.54% of tickets were resolved within 72 hours—about 1 in 40—implying that faster turnaround likely depends more on process efficiency than on departmental alignment alone.",
+      "gt_insight": "There was no column start_date to conduct any analysis",
+      "score": 0.10505083528072054
+    },
+    {
+      "pred_insight": "Across the entire analysis period (2023-01 to 2024-02), 0.0% of Priority 1 incidents were resolved within 48 hours in all 5/5 categories, indicating a system-wide shortfall rather than a category-specific issue and suggesting that improving early-stage response capacity could yield universal gains.",
+      "gt_insight": "There was no column department to conduct any analysis",
+      "score": 0.10439074625144343
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.23695972208862665,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.40039919587343753
+}

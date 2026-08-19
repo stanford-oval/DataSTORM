@@ -1,0 +1,85 @@
+{
+  "dataset_id": 64,
+  "dataset_path": "data/notebooks/flag-64.json",
+  "metadata": {
+    "category": "Asset Management",
+    "dataset_description": "The dataset consists of 500 entries simulating ServiceNow alm_hardware table, detailing key attributes of hardware assets such as asset tags, display names, configuration item (CI) identifiers, serial numbers, and model categories. It includes information on asset assignment, last update timestamps, cost, departmental allocation, and warranty expiration dates. The table effectively captures asset management activities, offering insights into the operational handling, allocation, and maintenance status of hardware resources across various departments within an organization.",
+    "goal": "Analyze any uneven distribution and higher cost of assets in the certain department, with a particular focus on the HR department, to optimize asset management and enhance cost-effectiveness.",
+    "header": "Asset Cost Analysis by Department (Flag 64)",
+    "role": "Asset Manager"
+  },
+  "predicted_insights": [
+    "HR’s asset spend is concentrated in higher-cost categories—servers average ~11% more than other departments ($8,816 vs $7,940.50), computers are ~3% cheaper, and HR has no peripherals, printers, racks, or storage devices—suggesting an uneven allocation that likely elevates HR’s average costs by focusing on expensive gear while underinvesting in lower-cost support assets.",
+    "HR assignees hold about 2.7 times more assets than those in other departments, suggesting a concentrated allocation that may elevate per-person support needs and, assuming similar unit costs (mean ~$2,130), equates to roughly $15k of hardware per HR assignee versus ~$5.6k elsewhere.",
+    "HR’s above-threshold rate is about 2.3× higher than other departments, and although HR holds only 5.6% of all assets (28/500), it accounts for 12% of the above-threshold assets (15/125), indicating a disproportionate concentration of higher-cost items in HR that could be targeted for cost optimization.",
+    "HR holds only 5.6% of assets but consumes 12.8% of total spend, indicating HR’s average asset cost is roughly 2.29× the organization-wide average—suggesting a concentration of higher-value equipment in HR.",
+    "Computers make up about 45% of HR’s total asset spend (61,215 of 136,479), while Web Servers are ~29% (40,000), a notably large share for HR that signals a potential area for cost optimization.",
+    "The entire top 5% cost tail in HR consists of just 2 server-class assets (R940 and R340), indicating that occasional enterprise server purchases—not typical HR endpoints—drive the most extreme hardware expenses and present a focused opportunity for cost control.",
+    "Aligning HR’s average asset cost with the cross-department average would yield an estimated $2,907 savings per asset (~60% reduction), highlighting a substantial cost-optimization opportunity in HR’s asset portfolio.",
+    "Asset ownership in HR is notably concentrated: one assignee controls 39.3% while the top two hold 67.9% (19/28), the disparity ratio between the most and least loaded assignees is 5.5× (11 vs 2), and the Herfindahl index is 0.304—indicating moderate concentration and suggesting opportunities to rebalance assets to reduce single-point dependency.",
+    "HR’s asset costs are highly concentrated: the top three assignees hold about 95% of the department’s total ($129,406 of $136,479), and the highest individual total is 7.6× the lowest, indicating a markedly uneven distribution of asset value.",
+    "Recent HR purchases were about 9.3% cheaper than earlier ones, with 8 assets bought recently versus 20 earlier, indicating a potential improvement in procurement cost efficiency that merits validation with more data.",
+    "While Computers are the largest single category, HR’s combined server spend (Web Server + Server) totals USD 75,264 and makes up about 55.15% of HR hardware costs, indicating that optimizing server lifecycle, consolidation, or procurement could yield more savings than focusing solely on PCs.",
+    "The single top HR assignee holds nearly 40% of HR asset value, with a cost (54,185) roughly 2.0× the average cost per remaining assignee (27,431), indicating a pronounced cost concentration that suggests targeted review of this assignee’s assets could yield outsized savings."
+  ],
+  "predicted_summary": "HR’s assets are systematically higher-cost relative to the rest of the company: the average cost per asset is $4,874 (about 2.5× higher than $1,967 in other departments), and 53.6% of HR assets exceed the company-wide 75th-percentile cost threshold of $3,513 (vs 23.3% elsewhere). HR accounts for 12.8% of total asset spend but only 5.6% of total asset count, a 7.21 percentage-point gap. Within the dataset window, recent HR purchases were modestly cheaper than earlier ones ($4,543 vs $5,007).\nAsset ownership and spend are highly concentrated within HR: the average number of assets per person is 7.0 (vs 2.64 in other departments). The top 10% of HR assignees by asset count (1 out of 4 people) hold 39.3% of HR assets (11 of 28). By spend, a single assignee accounts for 39.7% of total HR asset cost ($54,185 of $136,479), and the top three assignees together represent 94.8% of HR’s total asset cost.\nCategory and model mix drive HR’s cost profile: Computers represent the largest share of HR spend at 44.85% ($61,215), followed by Web Servers at 29.3% ($40,000) and Servers at 25.9% ($35,264). While HR computers are slightly cheaper on average than in other departments ($3,222 vs $3,323), HR servers are more expensive ($8,816 vs $7,941) and include the highest-cost outliers (Dell PowerEdge R940 and R340 above HR’s 95th percentile). HR has minimal to no spend in lower-cost categories seen elsewhere (peripherals, printers, racks, storage), which elevates its overall average cost.",
+  "score_insights": 0.5048925893370036,
+  "score_insights_dict": [
+    {
+      "gt_insight": "The Finance department has the longest average warranty duration for assets, while Development has the shortest.",
+      "pred_insight": "HR assignees hold about 2.7 times more assets than those in other departments, suggesting a concentrated allocation that may elevate per-person support needs and, assuming similar unit costs (mean ~$2,130), equates to roughly $15k of hardware per HR assignee versus ~$5.6k elsewhere.",
+      "score": 0.10359737000560551
+    },
+    {
+      "gt_insight": "Computers, Servers, and Web Servers in HR Department have the highest cost contributions",
+      "pred_insight": "While Computers are the largest single category, HR’s combined server spend (Web Server + Server) totals USD 75,264 and makes up about 55.15% of HR hardware costs, indicating that optimizing server lifecycle, consolidation, or procurement could yield more savings than focusing solely on PCs.",
+      "score": 0.5964776970929316
+    },
+    {
+      "gt_insight": "There is a concentration of High-End Assets in the HR Department Compared to Other Departments",
+      "pred_insight": "HR holds only 5.6% of assets but consumes 12.8% of total spend, indicating HR’s average asset cost is roughly 2.29× the organization-wide average—suggesting a concentration of higher-value equipment in HR.",
+      "score": 0.8789044979133696
+    },
+    {
+      "gt_insight": "There is a weak correlation between mumber of users and high cost of computer assets in HR Department",
+      "pred_insight": "HR assignees hold about 2.7 times more assets than those in other departments, suggesting a concentrated allocation that may elevate per-person support needs and, assuming similar unit costs (mean ~$2,130), equates to roughly $15k of hardware per HR assignee versus ~$5.6k elsewhere.",
+      "score": 0.3986873285295538
+    },
+    {
+      "gt_insight": "Customer Support and Sales departments lead in investment in high-end Computers, while the HR department has notable spending on both Computers and Servers.",
+      "pred_insight": "HR’s asset spend is concentrated in higher-cost categories—servers average ~11% more than other departments ($8,816 vs $7,940.50), computers are ~3% cheaper, and HR has no peripherals, printers, racks, or storage devices—suggesting an uneven allocation that likely elevates HR’s average costs by focusing on expensive gear while underinvesting in lower-cost support assets.",
+      "score": 0.5467960531435576
+    }
+  ],
+  "score_summary": 0.4897053405689957,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.5467824347731232,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "Aligning HR’s average asset cost with the cross-department average would yield an estimated $2,907 savings per asset (~60% reduction), highlighting a substantial cost-optimization opportunity in HR’s asset portfolio.",
+      "gt_insight": "The Finance department has the longest average warranty duration for assets, while Development has the shortest.",
+      "score": 0.18548984553373649
+    },
+    {
+      "pred_insight": "While Computers are the largest single category, HR’s combined server spend (Web Server + Server) totals USD 75,264 and makes up about 55.15% of HR hardware costs, indicating that optimizing server lifecycle, consolidation, or procurement could yield more savings than focusing solely on PCs.",
+      "gt_insight": "Computers, Servers, and Web Servers in HR Department have the highest cost contributions",
+      "score": 0.7222640574305716
+    },
+    {
+      "pred_insight": "HR’s asset spend is concentrated in higher-cost categories—servers average ~11% more than other departments ($8,816 vs $7,940.50), computers are ~3% cheaper, and HR has no peripherals, printers, racks, or storage devices—suggesting an uneven allocation that likely elevates HR’s average costs by focusing on expensive gear while underinvesting in lower-cost support assets.",
+      "gt_insight": "There is a concentration of High-End Assets in the HR Department Compared to Other Departments",
+      "score": 0.8916154510809913
+    },
+    {
+      "pred_insight": "HR’s above-threshold rate is about 2.3× higher than other departments, and although HR holds only 5.6% of all assets (28/500), it accounts for 12% of the above-threshold assets (15/125), indicating a disproportionate concentration of higher-cost items in HR that could be targeted for cost optimization.",
+      "gt_insight": "There is a weak correlation between mumber of users and high cost of computer assets in HR Department",
+      "score": 0.34073831093863344
+    },
+    {
+      "pred_insight": "Computers make up about 45% of HR’s total asset spend (61,215 of 136,479), while Web Servers are ~29% (40,000), a notably large share for HR that signals a potential area for cost optimization.",
+      "gt_insight": "Customer Support and Sales departments lead in investment in high-end Computers, while the HR department has notable spending on both Computers and Servers.",
+      "score": 0.5938045088816829
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.2483515765099305,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.7594309436171782
+}

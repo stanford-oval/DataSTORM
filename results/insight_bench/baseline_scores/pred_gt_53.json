@@ -1,0 +1,85 @@
+{
+  "dataset_id": 53,
+  "dataset_path": "data/notebooks/flag-53.json",
+  "metadata": {
+    "category": "Incident Management",
+    "dataset_description": "The dataset comprises 500 entries simulating ServiceNow incidents table, detailing various attributes such as category, state, open and close dates, involved personnel, and incident specifics like description, and priority. It captures incident management activities with fields like 'opened_at', 'closed_at', 'assigned_to', 'short_description', and 'priority', reflecting the operational handling and urgency of issues across different locations and categories.",
+    "goal": "Analyze the performance trends of human agents to identify discrepancies and propose measures to optimize resolution times across the team.",
+    "header": "Agent Performance Analysis Over Time (Flag 53)",
+    "role": "Team Lead"
+  },
+  "predicted_insights": [
+    "Median resolution times ballooned across the team in late 2023–early 2024, with the highest monthly median at 6807.45 hours (Beth, 2024-01) and the lowest non-null at 138.33 hours (Luke, 2023-01)—a ~49x spread—while some mid-2023 months were far lower (e.g., Howard at 769.52 hours in 2023-10), indicating emerging backlog or process bottlenecks versus earlier performance.",
+    "Team closures peaked in August and October 2023 (54 total each), driven by Fred Luddy’s 13 (Aug) and Beth Anglin’s 15 (Oct), while the single highest individual month was Charlie Whitherspoon’s 17 in November 2023; conversely, output dropped sharply to 10 total in February 2024 with Luke Wilson closing none, indicating seasonality or staffing impacts on team throughput.",
+    "Across all assignees, an average of 78.4% of tickets were closed by someone other than the assigned agent (range: 72%–82%), indicating widespread handoffs or closure-by-queue practices that may be inflating cross-ownership and masking true individual resolution performance.",
+    "Resolution performance varies widely by agent and priority: for Critical and High, Fred Luddy is fastest (2227.48h and 1393.99h) while Beth Anglin is slowest (4794.38h and 4383.32h), a spread of ~2567h (Critical) and ~2989h (High); notably for Moderate, Fred is the slowest (4212.19h) while Luke Wilson leads (2629.05h), suggesting that rebalancing Moderate-priority work away from Fred and coaching slower performers on Critical/High could materially reduce team medians.",
+    "75% (15/20) of agent–priority medians are negative—strongly suggesting timestamp/order or timezone issues—while the largest positive medians cluster in “3 - Moderate” (Luke Wilson ≈ 2068.9 h ≈ 86 days; Fred Luddy ≈ 1416.9 h ≈ 59 days) and “4 - Low” for Beth Anglin (≈ 820.8 h ≈ 34 days), indicating potential backlog in moderate/low priorities and the need to fix data quality before benchmarking performance.",
+    "Data integrity issues appear widespread: 14 of 20 agent–priority combinations exceed 50% with closed_at earlier than opened_at (median 55.56%), highest for Luke Wilson on High priority at 63.64% and lowest for Luke Wilson on Moderate at 20%, indicating that high/critical tickets are most affected and that resolution-time metrics may be systematically distorted.",
+    "Performance varies widely by agent and priority: for High priority, Beth Anglin’s median (4383.32h) is ~3.1x slower than Fred Luddy’s (1393.99h), a 2989.33h gap per ticket; for Critical, Beth (4794.38h) is ~2.2x slower than Fred (2227.48h), while for Moderate, Fred is slowest (4212.19h) versus Beth fastest (2146.66h), highlighting targeted coaching opportunities by priority.",
+    "Charlie Whitherspoon has the highest urgent load at 59% Critical+High, while Fred Luddy has the highest Low share (31%) and the lowest High share (19%); rebalancing some High/Critical tickets from Charlie to Fred or Luke (46–48% Critical+High) could smooth workload and help reduce overall resolution times.",
+    "Non-assignee closures are consistently high across the team (72–82%), suggesting frequent handoffs or ownership mismatches that could be inflating resolution times and obscuring individual performance contributions.",
+    "Only Fred resolves faster when closing his own tickets (~677 hours faster), while Luke (+~2753 hours) and Charlie (+~2080 hours) are markedly slower on self-closed work, indicating that reassignment or peer closure tends to accelerate resolution for most assignees.",
+    "Medians surged dramatically across the year—e.g., Beth Anglin rose from 246h (Jan 2023) to a peak of 6807h (Jan 2024, +27.6x), Luke Wilson from 138h to 5547h (+40.1x), Fred Luddy from 392h to 4583h (+11.7x), and Howard Johnson peaked at 6395h (Nov 2023)—indicating growing backlogs and uneven workloads; balancing assignments and earlier triage for Beth/Luke-heavy queues could cut median times by several thousand hours.",
+    "The spread between the highest and lowest agent p90s is 1152.74 hours (about 20% higher for Luke Wilson vs. Fred Luddy), highlighting substantial variation in the slowest 10% of tickets that likely drives team-wide delays."
+  ],
+  "predicted_summary": "Cross-closures dominate and are generally faster: 72–82% of incidents were closed by someone other than the assignee (Luke Wilson 82%, Fred Luddy 81%, Howard Johnson 81%, Charlie Whitherspoon 76%, Beth Anglin 72%). For most assignees, these cross-closed incidents resolved substantially faster than self-closed ones: Luke Wilson’s median was ~1,837h when closed by others vs ~4,590h when self-closed; Charlie Whitherspoon ~3,150h vs ~5,229h; Beth Anglin ~3,443h vs ~3,851h. Howard Johnson was about the same (~2,674h vs ~2,657h), and only Fred Luddy was faster on self-closed (~2,347h vs ~3,024h). This pattern indicates team throughput is being driven by cross-closures, with notable disparities in self-closure efficiency by assignee.\nResolution times escalated sharply across the board in late 2023–early 2024, indicating aging backlog closures: examples include Beth Anglin rising from 976.98h (2023-06) to 6,807.45h (2024-01); Luke Wilson from 138.33h (2023-01) to 5,547.31h (2024-01); Fred Luddy from 833.13h (2023-06) to 4,583.24h (2023-12); Charlie Whitherspoon from 663.13h (2023-02) to 6,475.97h (2024-01); and Howard Johnson peaking at 6,394.76h (2023-11) and remaining elevated into 2024 (4,619.48h in 2024-02). In February 2024, closures dropped to very low counts (e.g., 0–4 per assignee) while medians remained high (3,149–4,697h), consistent with closing older, long-lived cases. The tail is particularly heavy for Luke Wilson, who has the highest 90th percentile at 6,897.45h.\nAfter filtering out timestamp anomalies, pronounced performance differences by priority emerge: among valid cases (closed_at ≥ opened_at), Fred Luddy has the fastest medians for Critical (2,227.48h) and High (1,393.99h); Luke Wilson is strong on High (1,419.72h) but slow on Low (3,609.52h) and Critical (3,449.49h); Charlie Whitherspoon is consistently high across priorities (Critical 4,035.72h, High 3,402.03h, Moderate 3,716.70h, Low 3,770.60h); Beth Anglin is especially high on Critical (4,794.38h) and High (4,383.32h); and Howard Johnson sits mid-to-high (Critical 2,358.19h, High 2,280.00h, Moderate 2,732.33h, Low 2,994.32h). Priority mix is relatively balanced per assignee (each priority ~18–31%), so these gaps reflect substantive resolution-time discrepancies rather than just different work mixes. Notably, without filtering, 39–64% of incidents by assignee/priority show closed_at earlier than opened_at, producing misleading negative medians; the filtered figures provide the more representative benchmark.",
+  "score_insights": 0.32779384781487897,
+  "score_insights_dict": [
+    {
+      "gt_insight": "Luke Wilson has highest average TTR among agents",
+      "pred_insight": "The spread between the highest and lowest agent p90s is 1152.74 hours (about 20% higher for Luke Wilson vs. Fred Luddy), highlighting substantial variation in the slowest 10% of tickets that likely drives team-wide delays.",
+      "score": 0.33767673132762577
+    },
+    {
+      "gt_insight": "TTR is slightly decreasing for all the agents over time",
+      "pred_insight": "Team closures peaked in August and October 2023 (54 total each), driven by Fred Luddy’s 13 (Aug) and Beth Anglin’s 15 (Oct), while the single highest individual month was Charlie Whitherspoon’s 17 in November 2023; conversely, output dropped sharply to 10 total in February 2024 with Luke Wilson closing none, indicating seasonality or staffing impacts on team throughput.",
+      "score": 0.28983290876343987
+    },
+    {
+      "gt_insight": "The number of incidents assigned to each agent, including Fred Luddy, remains uniform over time",
+      "pred_insight": "75% (15/20) of agent–priority medians are negative—strongly suggesting timestamp/order or timezone issues—while the largest positive medians cluster in “3 - Moderate” (Luke Wilson ≈ 2068.9 h ≈ 86 days; Fred Luddy ≈ 1416.9 h ≈ 59 days) and “4 - Low” for Beth Anglin (≈ 820.8 h ≈ 34 days), indicating potential backlog in moderate/low priorities and the need to fix data quality before benchmarking performance.",
+      "score": 0.21452210599933239
+    },
+    {
+      "gt_insight": "The number of open incidents follow an increasing then decreasing trend for all agents including Luke Wilson. The peak is reached around 2023-09.",
+      "pred_insight": "Medians surged dramatically across the year—e.g., Beth Anglin rose from 246h (Jan 2023) to a peak of 6807h (Jan 2024, +27.6x), Luke Wilson from 138h to 5547h (+40.1x), Fred Luddy from 392h to 4583h (+11.7x), and Howard Johnson peaked at 6395h (Nov 2023)—indicating growing backlogs and uneven workloads; balancing assignments and earlier triage for Beth/Luke-heavy queues could cut median times by several thousand hours.",
+      "score": 0.39749433265338474
+    },
+    {
+      "gt_insight": "There is a continued linear increase in TTR if workload during leave periods is not balanced",
+      "pred_insight": "Medians surged dramatically across the year—e.g., Beth Anglin rose from 246h (Jan 2023) to a peak of 6807h (Jan 2024, +27.6x), Luke Wilson from 138h to 5547h (+40.1x), Fred Luddy from 392h to 4583h (+11.7x), and Howard Johnson peaked at 6395h (Nov 2023)—indicating growing backlogs and uneven workloads; balancing assignments and earlier triage for Beth/Luke-heavy queues could cut median times by several thousand hours.",
+      "score": 0.399443160330612
+    }
+  ],
+  "score_summary": 0.3845631432525587,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.4289014207922669,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "75% (15/20) of agent–priority medians are negative—strongly suggesting timestamp/order or timezone issues—while the largest positive medians cluster in “3 - Moderate” (Luke Wilson ≈ 2068.9 h ≈ 86 days; Fred Luddy ≈ 1416.9 h ≈ 59 days) and “4 - Low” for Beth Anglin (≈ 820.8 h ≈ 34 days), indicating potential backlog in moderate/low priorities and the need to fix data quality before benchmarking performance.",
+      "gt_insight": "Luke Wilson has highest average TTR among agents",
+      "score": 0.7719709916338302
+    },
+    {
+      "pred_insight": "75% (15/20) of agent–priority medians are negative—strongly suggesting timestamp/order or timezone issues—while the largest positive medians cluster in “3 - Moderate” (Luke Wilson ≈ 2068.9 h ≈ 86 days; Fred Luddy ≈ 1416.9 h ≈ 59 days) and “4 - Low” for Beth Anglin (≈ 820.8 h ≈ 34 days), indicating potential backlog in moderate/low priorities and the need to fix data quality before benchmarking performance.",
+      "gt_insight": "TTR is slightly decreasing for all the agents over time",
+      "score": 0.2740767267235046
+    },
+    {
+      "pred_insight": "75% (15/20) of agent–priority medians are negative—strongly suggesting timestamp/order or timezone issues—while the largest positive medians cluster in “3 - Moderate” (Luke Wilson ≈ 2068.9 h ≈ 86 days; Fred Luddy ≈ 1416.9 h ≈ 59 days) and “4 - Low” for Beth Anglin (≈ 820.8 h ≈ 34 days), indicating potential backlog in moderate/low priorities and the need to fix data quality before benchmarking performance.",
+      "gt_insight": "The number of incidents assigned to each agent, including Fred Luddy, remains uniform over time",
+      "score": 0.21270186747764588
+    },
+    {
+      "pred_insight": "Medians surged dramatically across the year—e.g., Beth Anglin rose from 246h (Jan 2023) to a peak of 6807h (Jan 2024, +27.6x), Luke Wilson from 138h to 5547h (+40.1x), Fred Luddy from 392h to 4583h (+11.7x), and Howard Johnson peaked at 6395h (Nov 2023)—indicating growing backlogs and uneven workloads; balancing assignments and earlier triage for Beth/Luke-heavy queues could cut median times by several thousand hours.",
+      "gt_insight": "The number of open incidents follow an increasing then decreasing trend for all agents including Luke Wilson. The peak is reached around 2023-09.",
+      "score": 0.43172350319260105
+    },
+    {
+      "pred_insight": "Medians surged dramatically across the year—e.g., Beth Anglin rose from 246h (Jan 2023) to a peak of 6807h (Jan 2024, +27.6x), Luke Wilson from 138h to 5547h (+40.1x), Fred Luddy from 392h to 4583h (+11.7x), and Howard Johnson peaked at 6395h (Nov 2023)—indicating growing backlogs and uneven workloads; balancing assignments and earlier triage for Beth/Luke-heavy queues could cut median times by several thousand hours.",
+      "gt_insight": "There is a continued linear increase in TTR if workload during leave periods is not balanced",
+      "score": 0.45403401493375284
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.11163311106576863,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.3223843479605598
+}

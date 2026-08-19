@@ -1,0 +1,75 @@
+{
+  "dataset_id": 48,
+  "dataset_path": "data/notebooks/flag-48.json",
+  "metadata": {
+    "category": "Incidents Management.",
+    "dataset_description": "The dataset comprises 500 entries simulating a ServiceNow incidents table, detailing various attributes such as category, state, open and close dates, involved personnel, and incident specifics like description, and priority. It captures incident management activities with fields like 'opened_at', 'closed_at', 'assigned_to', 'short_description', and 'priority', reflecting the operational handling and urgency of issues across different locations and categories.",
+    "goal": "Analyze the trend of incident resolution times and identify potential reasons for any observed patterns.",
+    "header": "Incident Resolution Time Dataset (Flag 48)",
+    "role": "Operations Data Analyst"
+  },
+  "predicted_insights": [
+    "There is a sharp regime shift around 2023-09: the median flips from negative to positive and rises by ~7,665 hours from 2023-01 (-2221.1h) to 2024-01 (5443.8h), while the 90th percentile expands from 131.6h (2023-01) to 8475.6h (2024-01) before easing in 2024-02, suggesting a systemic change (e.g., timestamp handling or process) that dramatically increased reported resolution durations.",
+    "Opened incidents rose notably in the second half of 2023 (avg 42/month) versus the first half (35.7/month), peaking at 52 in Oct 2023 and bottoming at 30 in Dec 2023 (a 73% swing), with 500 total incidents opened from Jan 2023 through Jan 2024 and none in Feb 2024 due to data coverage.",
+    "Medians climbed markedly across 2023, culminating in January 2024 highs (e.g., High at 6873.61 hours and Critical at 5543.56), but Moderate plunged to 710.25 hours in February 2024 from 5680.12 in January 2024—contrasting with very fast resolutions early on (Moderate at 70.84 hours in January 2023)—suggesting a late-2023/early-2024 backlog buildup followed by a February clearance specifically for Moderate cases.",
+    "Median resolution times were predominantly negative through mid-2023 but turned sharply positive from late 2023 onward, peaking in 2024-01 for Database (~6558.8 hours) and Network (~5344.0 hours), suggesting large backlogs or delayed closures, while Inquiry/Help had no February 2024 median (no data).",
+    "Contrary to expectations, higher priority does not correspond to faster resolution—Critical incidents take the longest, with a median 482 hours (~20 days) more than Low priority, and Moderate exceeds High by ~42.5 hours.",
+    "When monthly volume exceeded ~25 incidents, the median resolution time consistently surpassed ~2,400 hours and remained elevated (4,322–5,614h) even as volume later dipped, suggesting backlog accumulation and capacity constraints—rather than only same-month demand—drive longer resolution times.",
+    "Australia’s January 2024 median (8,699.889 hours ≈ 362 days) was more than double December (+114%) before dropping to 5,439.016 hours in February, indicating a likely one-off closure of very old tickets that inflated January’s median.",
+    "Because two-thirds (2 of 3) of Australia’s January 2024 closures were carry-overs from 2023, the month’s resolution-time metrics were likely inflated by older backlog, suggesting that January performance reflects clearing aged incidents rather than delays on newly opened tickets.",
+    "Database incidents take the longest to resolve—about 1324 hours (~55 days) longer than Network, a ~51% increase—while Software handles the most incidents (52) yet achieves the second-fastest median time, suggesting comparatively efficient resolution processes or less complex issues.",
+    "The spread between the highest (Canada) and lowest (Australia) medians is roughly 606.87 hours (~25 days), and Canada’s median (~140 days) is about 10.8% higher than the U.S., suggesting meaningful location-based differences that could impact SLA compliance and resource planning.",
+    "Across the period, the median resolution time surged from 246.05 hours in January 2023 to 5,613.72 hours in January 2024 (~22.8× higher), with the sharp July spike following a low June suggesting volatility likely driven by backlog accumulation or process bottlenecks.",
+    "All assignement_groups actually saw declines from June to July 2023 (negative “increases”), with Database experiencing the largest drop (-4699.53 hours), and every group’s July median turning negative—an unusual pattern for durations that points to a broad process or calculation shift rather than isolated team effects."
+  ],
+  "predicted_summary": "Incident resolution times escalated sharply from mid‑2023 onward, shifting from impossible/negative monthly medians in Jan–Aug 2023 to sustained, very high durations from Sep 2023 through early 2024 (median 1,043 h in 2023‑09 rising to 5,444 h in 2024‑01; 90th percentile peaking at 8,476 h in 2024‑01). The largest month‑over‑month jump occurred in 2023‑07 (~+1,400 h), and resolution times remained elevated even after incident volume eased, with a strong positive correlation between monthly volume and median resolution time (Pearson ≈ 0.70), a pattern consistent with backlog accumulation and later clearance. The negative medians early in 2023 indicate timestamp anomalies that complicate interpretation of that period but do not explain the late‑2023/early‑2024 surge.\nHigher‑priority incidents did not resolve faster than lower‑priority ones over the period: overall median times were tightly clustered (Critical ≈ 3,359 h; High ≈ 2,908 h; Moderate ≈ 2,951 h; Low ≈ 2,877 h), and in 2024‑01 all priorities had very long and similar medians (Critical 5,544 h; High 6,874 h; Moderate 5,680 h; Low 5,391 h), indicating that severity labels were not associated with materially quicker closure during the surge.\nThe late‑2023/early‑2024 slowdown is concentrated in specific groups, categories, and places: the Database assignment group has the highest overall median (~3,922 h); category medians in 2024‑01 were especially elevated for Database (6,559 h), Network (5,344 h), and Hardware (4,882 h); geographically, Canada has the highest overall median (~3,359 h), while Australia posted the steepest single‑month spike (+4,639 h in 2024‑01), with two‑thirds of those closures opened in 2023—consistent with older tickets driving unusually long resolution times.",
+  "score_insights": 0.35100908356445176,
+  "score_insights_dict": [
+    {
+      "gt_insight": "The time to resolution of incidents is not showing any trends.",
+      "pred_insight": "Australia’s January 2024 median (8,699.889 hours ≈ 362 days) was more than double December (+114%) before dropping to 5,439.016 hours in February, indicating a likely one-off closure of very old tickets that inflated January’s median.",
+      "score": 0.3536359146698439
+    },
+    {
+      "gt_insight": "There is no correlation between the volume of incidents and the TTR",
+      "pred_insight": "Database incidents take the longest to resolve—about 1324 hours (~55 days) longer than Network, a ~51% increase—while Software handles the most incidents (52) yet achieves the second-fastest median time, suggesting comparatively efficient resolution processes or less complex issues.",
+      "score": 0.28600245476879993
+    },
+    {
+      "gt_insight": "There is no increase in TTR for any specific category of incidents. There is a slight decrease.",
+      "pred_insight": "All assignement_groups actually saw declines from June to July 2023 (negative “increases”), with Database experiencing the largest drop (-4699.53 hours), and every group’s July median turning negative—an unusual pattern for durations that points to a broad process or calculation shift rather than isolated team effects.",
+      "score": 0.5406172507527419
+    },
+    {
+      "gt_insight": "There are no noticeable trends in the productivity levels among human agents",
+      "pred_insight": "Australia’s January 2024 median (8,699.889 hours ≈ 362 days) was more than double December (+114%) before dropping to 5,439.016 hours in February, indicating a likely one-off closure of very old tickets that inflated January’s median.",
+      "score": 0.22378071406642136
+    }
+  ],
+  "score_summary": 0.2401068434539714,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.3038469143598509,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "Because two-thirds (2 of 3) of Australia’s January 2024 closures were carry-overs from 2023, the month’s resolution-time metrics were likely inflated by older backlog, suggesting that January performance reflects clearing aged incidents rather than delays on newly opened tickets.",
+      "gt_insight": "The time to resolution of incidents is not showing any trends.",
+      "score": 0.36726121871345674
+    },
+    {
+      "pred_insight": "Database incidents take the longest to resolve—about 1324 hours (~55 days) longer than Network, a ~51% increase—while Software handles the most incidents (52) yet achieves the second-fastest median time, suggesting comparatively efficient resolution processes or less complex issues.",
+      "gt_insight": "There is no correlation between the volume of incidents and the TTR",
+      "score": 0.2902531047205587
+    },
+    {
+      "pred_insight": "All assignement_groups actually saw declines from June to July 2023 (negative “increases”), with Database experiencing the largest drop (-4699.53 hours), and every group’s July median turning negative—an unusual pattern for durations that points to a broad process or calculation shift rather than isolated team effects.",
+      "gt_insight": "There is no increase in TTR for any specific category of incidents. There is a slight decrease.",
+      "score": 0.3272606386026003
+    },
+    {
+      "pred_insight": "All assignement_groups actually saw declines from June to July 2023 (negative “increases”), with Database experiencing the largest drop (-4699.53 hours), and every group’s July median turning negative—an unusual pattern for durations that points to a broad process or calculation shift rather than isolated team effects.",
+      "gt_insight": "There are no noticeable trends in the productivity levels among human agents",
+      "score": 0.23061269540278778
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.48943363710546894,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.11825827311362883
+}

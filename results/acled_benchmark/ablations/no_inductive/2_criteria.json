@@ -1,0 +1,188 @@
+{
+  "prompt": "Analyze Petro’s total peace policy in Colombia and its impact on violence v. armed groups.",
+  "criteria": [
+    {
+      "name": "State–group violence trend",
+      "description": "Assess whether confrontations between security forces and armed groups decline during negotiation periods and ceasefires, and how unilateral or bilateral de-escalation measures affect overall conflict intensity."
+    },
+    {
+      "name": "Intergroup conflict displacement",
+      "description": "Examine whether reduced state pressure enables armed groups to shift focus toward fighting rivals, leading to increased clashes and competition over territory and illicit economies."
+    },
+    {
+      "name": "Territorial expansion dynamics",
+      "description": "Track the spread of armed group activity to new localities and corridors, noting patterns of strategic expansion tied to trafficking routes, resource-rich zones, and areas of weak state presence."
+    },
+    {
+      "name": "Illicit economy incentives",
+      "description": "Analyze how revenues from drugs, illegal mining, smuggling, extortion, and land control drive group behavior, territorial moves, and bargaining strategies during negotiations."
+    },
+    {
+      "name": "Ceasefire stability and oversight",
+      "description": "Evaluate the robustness of ceasefire design, including monitoring, protocols, territorial demarcation, and enforcement, and the impact of weak mechanisms on compliance and spoilers."
+    },
+    {
+      "name": "Fragmentation and factional splits",
+      "description": "Assess internal divisions within armed groups, the emergence of factions with divergent incentives, and how fragmentation shapes talks, ceasefire adherence, and localized violence."
+    },
+    {
+      "name": "Alliances of convenience",
+      "description": "Identify fluid, opportunistic alliances and rivalries among groups that vary by region, and how these shifting relationships alter conflict patterns and civilian risk."
+    },
+    {
+      "name": "Urban versus rural processes",
+      "description": "Compare progress and prioritization between negotiations with rural armed actors and urban gangs, and the consequences of sidelining city-level peace efforts."
+    },
+    {
+      "name": "Cross-border and sanctuary effects",
+      "description": "Consider how neighboring territories and safe havens influence group resilience, negotiation leverage, and the conduct of hostilities."
+    },
+    {
+      "name": "Civilian protection outcomes",
+      "description": "Measure changes in civilian harm, displacement, and coercion as state–group violence falls but intergroup competition intensifies, with attention to hotspots of contestation."
+    },
+    {
+      "name": "State capacity and sequencing",
+      "description": "Evaluate the government’s ability to manage multiple, heterogeneous negotiation tracks, and the effects of sequencing or simultaneous talks on momentum and spillovers."
+    },
+    {
+      "name": "Security pressure balance",
+      "description": "Assess the calibration between negotiations and sustained, targeted security operations to deter predation, protect communities, and prevent groups from strengthening."
+    },
+    {
+      "name": "Local implementation environment",
+      "description": "Analyze the presence of state institutions and services in contested areas, and how gaps in governance affect the durability of agreements and conflict relapse."
+    },
+    {
+      "name": "Electoral-cycle volatility",
+      "description": "Identify patterns of violence and coercion around local political events, and how armed groups leverage elections to assert control and influence outcomes."
+    },
+    {
+      "name": "Technology and tactics adaptation",
+      "description": "Track shifts in armed group tactics, including the adoption of new tools and coercive practices, and their implications for security force posture and civilian safety."
+    },
+    {
+      "name": "Negotiation leverage-building",
+      "description": "Examine how groups expand territory, revenue, and coercive capacity to bolster bargaining positions, and how talks may inadvertently incentivize such behavior."
+    },
+    {
+      "name": "Legal and status ambiguities",
+      "description": "Assess how debates over political versus criminal status shape eligibility for negotiations, justice arrangements, and the coherence of the peace framework."
+    },
+    {
+      "name": "Localized agreements potential",
+      "description": "Evaluate the feasibility and impact of partial, place-based deals with more compliant factions, including their capacity to reduce harm despite limited national scope."
+    },
+    {
+      "name": "Criminal governance and corruption",
+      "description": "Investigate how bribery, cooptation of officials, and informal pacts affect enforcement, group impunity, and the uneven application of state power."
+    },
+    {
+      "name": "Humanitarian and displacement trends",
+      "description": "Monitor displacement, confinement, and access constraints as proxies for deteriorating security in areas of intensified intergroup warfare and economic competition."
+    }
+  ],
+  "criterion_scores": [
+    {
+      "name": "State–group violence trend",
+      "score": 0.9,
+      "explanation": "The article clearly tracks declines in state kinetic operations (battles down ~25%, explosions down ~20%) during negotiation/ceasefire periods and links these to changes in overall conflict intensity (more events, fewer fatalities). It references temporal shifts post-Aug 2022 and notes reorientation of clashes to certain departments. Minor gap: limited explicit discussion of unilateral vs bilateral de-escalation design specifics beyond general pullback and ceasefire periods."
+    },
+    {
+      "name": "Intergroup conflict displacement",
+      "score": 0.8,
+      "explanation": "The piece argues that reduced state pressure created space for groups to refocus on rivals and coercion, and mentions dissident–Gulf Clan encounters and selective clashes moving to new fronts. It implies competition and substitution effects, but provides fewer concrete examples of direct intergroup battles increasing versus civilian-focused coercion. Still, it captures displacement dynamics reasonably."
+    },
+    {
+      "name": "Territorial expansion dynamics",
+      "score": 0.9,
+      "explanation": "It maps expansion to specific corridors and municipalities (Arauca, Chocó rivers, southern Bolívar, La Guajira; Cauca/Huila/Valle nodes) and notes border and trafficking-linked areas (Maicao, Riohacha, Quibdó). It connects expansion to weak state presence and UAG attribution. Strong coverage with multiple localities and route-like corridors."
+    },
+    {
+      "name": "Illicit economy incentives",
+      "score": 0.75,
+      "explanation": "The article ties coercion to revenue extraction via extortion and shadow governance, references coastal rackets and border economies (Maicao), and implies economic drivers. However, it only briefly touches on drugs/mining/smuggling; extortion is central, but analysis of broader illicit portfolios’ role in bargaining and moves is limited."
+    },
+    {
+      "name": "Ceasefire stability and oversight",
+      "score": 0.8,
+      "explanation": "It evaluates ceasefire design weaknesses—under-resourced monitoring, lack of guardrails, heterogeneous actors—and prescribes tighter verification, demarcation-type measures. Good discussion, though specifics on protocols/territorial demarcation mechanisms and enforcement architecture are high-level rather than detailed."
+    },
+    {
+      "name": "Fragmentation and factional splits",
+      "score": 0.8,
+      "explanation": "The article emphasizes a fragmented marketplace of force and heterogeneous responses, references multiple dissident structures (EMC/Segunda Marquetalia implied), and notes uneven adherence. It could deepen with explicit cases of factions’ divergent incentives and ceasefire compliance differences."
+    },
+    {
+      "name": "Alliances of convenience",
+      "score": 0.6,
+      "explanation": "There is mention of encounters with the Gulf Clan and fluid rival balances varying by department, but the analysis of opportunistic alliances/rivalries by region is limited and not deeply illustrated. Partial coverage."
+    },
+    {
+      "name": "Urban versus rural processes",
+      "score": 0.7,
+      "explanation": "It contrasts rural corridors (Arauca, Chocó, southern Bolívar) with urban nodes (Quibdó, Cartagena, Bogotá extortion mentions, Cúcuta). It suggests sidelining city-level efforts implicitly via UAG dominance. However, it does not systematically compare negotiation tracks for urban gangs vs rural actors or policy prioritization tradeoffs."
+    },
+    {
+      "name": "Cross-border and sanctuary effects",
+      "score": 0.7,
+      "explanation": "Mentions Venezuela’s role in talks and safe-haven controversies and highlights border localities (Maicao, Riohacha, Cúcuta). Coverage exists but is brief; deeper assessment of how sanctuaries shape resilience/leverage is limited."
+    },
+    {
+      "name": "Civilian protection outcomes",
+      "score": 0.95,
+      "explanation": "Strong quantification of civilian harm dynamics: abductions/disappearances up 113%, sexual violence halved, attacks slightly down; UAG dominance with lower per-event lethality; municipal hotspots (Arauca’s Saravena/Arauquita/Tame; Quibdó 99% UAG share). Clear depiction of harm, displacement proxies via confinement/coercion implied, though displacement per se is not deeply quantified."
+    },
+    {
+      "name": "State capacity and sequencing",
+      "score": 0.75,
+      "explanation": "Discusses under-resourced bureaucracy, limited congressional backing, polarization, and managing heterogeneous tracks. Sequencing vs simultaneous management is implied but not explicitly analyzed with examples; still, capacity constraints are well noted."
+    },
+    {
+      "name": "Security pressure balance",
+      "score": 0.85,
+      "explanation": "Evaluates calibration between talks and targeted enforcement, arguing for deterrence of coercion, corridor-specific measures, and continued selective pressure. Describes correlations between reduced battles and increased coercion, highlighting the need to balance negotiations and operations. Good coverage."
+    },
+    {
+      "name": "Local implementation environment",
+      "score": 0.7,
+      "explanation": "Touches on areas of weak state presence and governance-by-intimidation, and calls for services/economic alternatives. However, analysis of institutional presence, services, and their link to durability is somewhat general without deep institutional detail."
+    },
+    {
+      "name": "Electoral-cycle volatility",
+      "score": 0.3,
+      "explanation": "The article does not meaningfully analyze violence around elections or coercion tied to local political events. Only tangential hints of governance-by-intimidation; electoral patterns are largely absent."
+    },
+    {
+      "name": "Technology and tactics adaptation",
+      "score": 0.6,
+      "explanation": "It documents a shift in tactics (from firefights to abduction/extortion; lower lethality per event; attribution opacity). However, adoption of new tools/technology is not explored; adaptation is behavioral rather than technological."
+    },
+    {
+      "name": "Negotiation leverage-building",
+      "score": 0.8,
+      "explanation": "Argues that ceasefire signals and reduced kinetics incentivized groups to expand territory and coercive capacity to strengthen bargaining positions. Provides evidence of expansion and increased civilian coercion. Could further detail explicit negotiation leverage strategies by group."
+    },
+    {
+      "name": "Legal and status ambiguities",
+      "score": 0.65,
+      "explanation": "References debates over ideological vs profit-driven actors, political polarization, and eligibility implied by heterogeneous cast, but does not deeply explore legal status debates (political vs criminal) and justice arrangements. Partial coverage."
+    },
+    {
+      "name": "Localized agreements potential",
+      "score": 0.55,
+      "explanation": "Concludes with corridor-specific protection and targeted measures, implying place-based approaches. However, it does not explicitly analyze partial localized deals with compliant factions or case studies of local agreements and their impacts."
+    },
+    {
+      "name": "Criminal governance and corruption",
+      "score": 0.6,
+      "explanation": "Shows governance-by-intimidation and shadow rule, coastal/border rackets, but offers limited discussion of bribery/cooptation of officials or informal pacts affecting enforcement. Partial treatment of criminal governance without focused corruption analysis."
+    },
+    {
+      "name": "Humanitarian and displacement trends",
+      "score": 0.5,
+      "explanation": "While civilian coercion is well detailed, displacement/confinement/access constraints are only indirectly referenced. No systematic monitoring or metrics of displacement trends are presented. Partial coverage."
+    }
+  ],
+  "overall_score": 0.7100000000000001
+}

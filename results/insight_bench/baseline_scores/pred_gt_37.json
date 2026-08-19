@@ -1,0 +1,75 @@
+{
+  "dataset_id": 37,
+  "dataset_path": "data/notebooks/flag-37.json",
+  "metadata": {
+    "category": "User Management",
+    "dataset_description": "This dataset contains 500 simulated records from the ServiceNow `sys_user` table. The `sys_user` table captures user-related information, detailing the profiles of employees or system users. Key fields include 'user_id', 'name', 'schedule', 'role', 'email', and 'department', offering a comprehensive view of the users managed within the ServiceNow system. This dataset is crucial for analyzing workflow, user involvement, and the detailed tracking of processes such as incident resolution within an organization.",
+    "goal": "Evaluate the distribution of managerial roles within the IT department to identify and rectify imbalances that may lead to management overload in system user administration.",
+    "header": "IT Department Management Staffing Analysis (Flag 37)",
+    "role": "HR Data Analyst"
+  },
+  "predicted_insights": [
+    "Ed Gompf manages 76% of IT direct reports (76 of 100), over 3× Mariano’s load (24%), indicating a significant managerial imbalance that may contribute to system user administration overload.",
+    "These two IT-involved managers together oversee 100 of 500 users (20% of the organization), with Ed Gompf alone managing 76 (15.2%)—over 3.1× more than Mariano—signaling a concentrated management load that may elevate overload risk in user administration.",
+    "In 2024, Ed Gompf accounted for about 74% (23 of 31) of the new IT direct reports identified in the analysis—nearly 3× the runner-up—signaling a notable concentration that could heighten management overload risk.",
+    "IT management is highly concentrated: 76% of IT reports to a single manager (Ed Gompf) and the remaining 24% to one other, suggesting a potential management overload and single point-of-failure risk that may warrant redistributing direct reports.",
+    "IT management is highly concentrated: one manager (Ed Gompf) oversees 76% of the department—over three times the second manager’s load (76 vs. 24)—indicating a potential management overload and single-point dependency risk.",
+    "Only two managers oversee all 100 IT staff, with Ed Gompf’s headcount (76) being ~3.2x Mariano Mauray’s (24); Ed’s team is balanced across roles (≈36% Employee, 33% Analyst, 32% Developer) whereas Mariano’s is developer-leaning (≈42% Developer), and no Assistant roles are present.",
+    "All IT managers identified (100%) lead teams spread across at least three locations, suggesting elevated coordination complexity and potential management overload risk in system user administration.",
+    "With 0% (0/2) of IT managers handling small teams (≤2) and 100% (2/2) overseeing larger teams (>2), managerial responsibility is concentrated, suggesting a potential overload risk for system user administration.",
+    "Multi-location oversight in IT is highly concentrated: Ed Gompf manages direct reports across 33 locations—about 2.75× more than the next manager—suggesting a disproportionate coordination and user administration burden.",
+    "Only two IT managers oversee 100 total reports, with one manager handling 76 (76%) versus 24 for the other—a 3.2x imbalance—so the 90th percentile being close to the max underscores that managerial load is heavily concentrated in a single individual.",
+    "There are 0 cross-department cases among IT-overseeing managers (0 identified managers with 0 non-IT direct reports), indicating a low risk of management overload from cross-functional supervision.",
+    "This concentration suggests potential management overload: Ed Gompf carries 13 more direct reports than the Q3 threshold—about 20.6% higher—indicating a clear candidate for workload rebalancing within IT."
+  ],
+  "predicted_summary": "Managerial load is highly concentrated: only two managers oversee 100% of IT staff, with Ed Gompf managing 76% (76 of 100) and Mariano Mauray 24% (24 of 100). Ed’s team is about 3.17 times larger than Mariano’s (76 vs. 24), exceeds both the 75th percentile (63) and the 90th percentile (70.8) of IT manager team sizes, and sits at the maximum (76), while the median is 50.\nTeams are widely dispersed across locations under both managers, adding coordination complexity: Ed Gompf’s direct reports span 33 unique locations and Mariano Mauray’s span 12, and both managers oversee teams across three or more locations.\nRole mix is balanced overall but concentrated under one manager and becoming more so: across IT there are 34 Developers, 34 Analysts, and 32 Employees, of which Ed Gompf alone manages 70.6% of Developers (24/34), 73.5% of Analysts (25/34), and 84.4% of Employees (27/32); in 2024 he also gained the most new IT direct reports (+23), reinforcing this concentration.",
+  "score_insights": 0.6669301965075348,
+  "score_insights_dict": [
+    {
+      "gt_insight": "There is a disparity in Managerial Distribution across departments",
+      "pred_insight": "IT management is highly concentrated: one manager (Ed Gompf) oversees 76% of the department—over three times the second manager’s load (76 vs. 24)—indicating a potential management overload and single-point dependency risk.",
+      "score": 0.8110192361578156
+    },
+    {
+      "gt_insight": "Employees located in high-retention locations tend to have significantly longer tenures compared to those in other locations.",
+      "pred_insight": "IT management is highly concentrated: one manager (Ed Gompf) oversees 76% of the department—over three times the second manager’s load (76 vs. 24)—indicating a potential management overload and single-point dependency risk.",
+      "score": 0.10526956855748996
+    },
+    {
+      "gt_insight": "There is a disproportionate high number of reportees per manager in the IT Department",
+      "pred_insight": "IT management is highly concentrated: 76% of IT reports to a single manager (Ed Gompf) and the remaining 24% to one other, suggesting a potential management overload and single point-of-failure risk that may warrant redistributing direct reports.",
+      "score": 0.8732186955117319
+    },
+    {
+      "gt_insight": "There is a significant disparity among managers in terms of reportee numbers",
+      "pred_insight": "Only two IT managers oversee 100 total reports, with one manager handling 76 (76%) versus 24 for the other—a 3.2x imbalance—so the 90th percentile being close to the max underscores that managerial load is heavily concentrated in a single individual.",
+      "score": 0.8782132858031018
+    }
+  ],
+  "score_summary": 0.671279830860674,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.6832197980414927,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "Ed Gompf manages 76% of IT direct reports (76 of 100), over 3× Mariano’s load (24%), indicating a significant managerial imbalance that may contribute to system user administration overload.",
+      "gt_insight": "There is a disparity in Managerial Distribution across departments",
+      "score": 0.7543776334174253
+    },
+    {
+      "pred_insight": "Multi-location oversight in IT is highly concentrated: Ed Gompf manages direct reports across 33 locations—about 2.75× more than the next manager—suggesting a disproportionate coordination and user administration burden.",
+      "gt_insight": "Employees located in high-retention locations tend to have significantly longer tenures compared to those in other locations.",
+      "score": 0.19872439087034469
+    },
+    {
+      "pred_insight": "Multi-location oversight in IT is highly concentrated: Ed Gompf manages direct reports across 33 locations—about 2.75× more than the next manager—suggesting a disproportionate coordination and user administration burden.",
+      "gt_insight": "There is a disproportionate high number of reportees per manager in the IT Department",
+      "score": 0.8900893130359624
+    },
+    {
+      "pred_insight": "Only two IT managers oversee 100 total reports, with one manager handling 76 (76%) versus 24 for the other—a 3.2x imbalance—so the 90th percentile being close to the max underscores that managerial load is heavily concentrated in a single individual.",
+      "gt_insight": "There is a significant disparity among managers in terms of reportee numbers",
+      "score": 0.8896878548422384
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.3191204900692534,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.5575963411677609
+}

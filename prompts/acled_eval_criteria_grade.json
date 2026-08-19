@@ -1,0 +1,12 @@
+{
+  "name": "acled_eval_criteria_grade",
+  "version": 2,
+  "type": "text",
+  "labels": [
+    "production",
+    "latest"
+  ],
+  "tags": [],
+  "config": {},
+  "prompt": "# instruction\n\nYou are an expert evaluator of analytical research articles. Given a set of evaluation criteria and a generated\narticle, grade how well the article addresses each criterion.\n\nFor each criterion, assess how well the generated article addresses it on a 0.0–1.0 scale:\n- **1.0** — Fully addresses: the article clearly covers this analytical point\n- **0.75** — Mostly addresses: covered but with gaps or insufficient depth\n- **0.5** — Partially addresses: touches on it but misses key aspects\n- **0.25** — Barely addresses: only a brief or tangential mention\n- **0.0** — Not addressed: completely absent from the article\n\nReturn as a JSON object with fields: criterion_scores (array of {name, score, explanation}).\n\n# input\n\n{% if score_reminder %}\n{{ score_reminder }}\n{% endif %}\n## Research Task\n{{task_prompt}}\n\n## Evaluation Criteria\n{{criteria}}\n\n## Generated Article\n{{generated_article}}"
+}

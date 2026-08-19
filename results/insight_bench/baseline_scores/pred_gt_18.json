@@ -1,0 +1,65 @@
+{
+  "dataset_id": 18,
+  "dataset_path": "data/notebooks/flag-18.json",
+  "metadata": {
+    "category": "Asset Management & User Management",
+    "dataset_description": "The dataset comprises two key tables simulating ServiceNow platform: the `sys_user` table and the `alm_hardware` table with 500 entries. The assets alm_hardware table, consists of detailing key attributes of hardware assets such as asset tags, display names, configuration item (CI) identifiers, serial numbers, and model categories. It includes information on asset assignment, last update timestamps, cost, departmental allocation, and warranty expiration dates. The `sys_user` table, on the other hand, contains user-related information, focusing on the details of employees or system users. This includes fields such as 'user_id', 'name', 'role', 'email', 'start_date', and 'department', providing insights into the user profiles managed within the ServiceNow system.",
+    "goal": "To explore and understand the correlation between asset purchase dates, warranty periods, and employee start dates to optimize asset procurement and warranty management.",
+    "header": "Asset Warranty and Purchase Date Analysis (Flag 18)",
+    "role": "Procurement Analyst"
+  },
+  "predicted_insights": [
+    "Among the most frequent durations alone, at least 31 assets have >2‑year warranties (>730 days) while only 24 (4.8% of 500) have exactly 1 year, indicating procurement often secures extended coverage that could support biennial or longer refresh planning.",
+    "Average warranty duration rises steadily across months, increasing by about 775.9 days from 2023-05 (383.25 days) to 2024-04 (1159.17 days), indicating later purchases are covered for roughly two additional years on average—an actionable pattern for scheduling procurements to maximize coverage.",
+    "Storage Devices offer the best warranty value—about 0.9% cheaper per warranty-day than Computer Peripherals and roughly 11× and 36× cheaper than Computers and Servers, respectively—highlighting categories where procurement can stretch coverage per dollar when aligning purchases to employee start dates.",
+    "Using the column bounds as a proxy, warranty durations in this dataset likely span roughly 365 days (from 2023-05-30 to 2024-05-29) to about 1267 days (~3.5 years; from 2024-04-24 to 2027-10-12), indicating warranties commonly range between 1 and 3.5 years.",
+    "The longest-to-shortest spread is ~186 days (Rack 782.39 vs. Server 596.00), meaning racks carry about 31% longer average warranties than servers, indicating infrastructure chassis receive substantially longer coverage than compute units.",
+    "Warranty length is largely independent of price: for example, $8,000 assets range from 365 to 1,196 days while $400 assets span 365 to 1,143 days, suggesting warranty terms can be negotiated independently of cost to better align with employee assignment and refresh cycles.",
+    "Correlations are generally weak across the 7 departments (absolute r up to ~0.21), indicating cost is not a strong predictor of warranty length overall; still, Finance’s modest positive r (~0.21) suggests pricier Finance assets tend to carry slightly longer warranties, while Development’s negative r (~-0.21) implies higher spend there does not buy longer coverage.",
+    "Across 27 total upcoming expirations, Sales alone accounts for about 41% (11/27)—nearly as many as Customer Support and IT combined (13)—so prioritizing renewals or replacements for Sales first would address the largest share of near-term risk and can streamline procurement planning.",
+    "With r^2 ≈ 0.17%, price explains virtually none of the variance in warranty length; many assets share ~1-year warranties regardless of cost, so extending coverage likely requires timing or service add-ons rather than buying pricier models.",
+    "Because Customer Support accounts for the largest share of missing serials (74 of the dataset’s 172, ~43%), targeting serial capture improvements there would yield the biggest immediate reduction in warranty and asset-tracking gaps, whereas departments like Product Management have a high rate (34.78%) but far fewer impacted assets (8).",
+    "With an average asset cost of 3013, the 39 assets nearing warranty end represent an estimated near-term exposure of roughly 117,000, suggesting a manageable but material budget window for renewals or refresh planning.",
+    "HR’s expiring-warranty rate (53.85%) is more than double the next-highest department (Sales at 23.81%) and roughly four times Finance (12.00%), indicating a pronounced renewal surge concentrated in HR that could benefit from staggered procurement or bulk warranty extensions."
+  ],
+  "predicted_summary": "Warranty terms have lengthened markedly over time: the average warranty duration by purchase month rose from 383 days (2023-05) to 1,159 days (2024-04)—a roughly 3x increase—while 365-day warranties remain a common baseline (24 assets), and multi‑year warranties (≈951–1,172 days) have become more prevalent in later purchases.\nNear-term warranty expirations are concentrated in specific departments: overall, 7.8% of assets (39/500) expire within 90 days, with Sales holding the highest immediate count (11 assets), while over a 180‑day horizon HR has the highest exposure (53.85% of its assets), followed by Sales at 23.81% and several others clustered around 12–17%.\nWarranty value and length vary by category and are largely independent of asset cost: Storage Devices deliver the lowest average cost per warranty‑day (≈0.4509), Rack and Web Server assets have the longest average warranties (≈782 and ≈779 days), Servers the shortest (≈596 days), and overall cost shows virtually no linear relationship with warranty duration (Pearson r ≈ −0.0406), with Finance the only department showing a modest positive cost‑warranty link (r ≈ 0.2061).",
+  "score_insights": 0.47767412447920404,
+  "score_insights_dict": [
+    {
+      "gt_insight": "Positive Correlation Between Asset Purchase Dates and Warranty Periods",
+      "pred_insight": "Average warranty duration rises steadily across months, increasing by about 775.9 days from 2023-05 (383.25 days) to 2024-04 (1159.17 days), indicating later purchases are covered for roughly two additional years on average—an actionable pattern for scheduling procurements to maximize coverage.",
+      "score": 0.7909953369277628
+    },
+    {
+      "gt_insight": "Linear Regression Model Predicts Warranty Periods Based on Purchase Dates",
+      "pred_insight": "Average warranty duration rises steadily across months, increasing by about 775.9 days from 2023-05 (383.25 days) to 2024-04 (1159.17 days), indicating later purchases are covered for roughly two additional years on average—an actionable pattern for scheduling procurements to maximize coverage.",
+      "score": 0.3059127557423055
+    },
+    {
+      "gt_insight": "Strong Positive Correlation Between Employee Start Dates and Asset Purchase Dates",
+      "pred_insight": "Storage Devices offer the best warranty value—about 0.9% cheaper per warranty-day than Computer Peripherals and roughly 11× and 36× cheaper than Computers and Servers, respectively—highlighting categories where procurement can stretch coverage per dollar when aligning purchases to employee start dates.",
+      "score": 0.336114280767544
+    }
+  ],
+  "score_summary": 0.526265945492551,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.4725673112825559,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "Average warranty duration rises steadily across months, increasing by about 775.9 days from 2023-05 (383.25 days) to 2024-04 (1159.17 days), indicating later purchases are covered for roughly two additional years on average—an actionable pattern for scheduling procurements to maximize coverage.",
+      "gt_insight": "Positive Correlation Between Asset Purchase Dates and Warranty Periods",
+      "score": 0.8359891916130382
+    },
+    {
+      "pred_insight": "Average warranty duration rises steadily across months, increasing by about 775.9 days from 2023-05 (383.25 days) to 2024-04 (1159.17 days), indicating later purchases are covered for roughly two additional years on average—an actionable pattern for scheduling procurements to maximize coverage.",
+      "gt_insight": "Linear Regression Model Predicts Warranty Periods Based on Purchase Dates",
+      "score": 0.3066440490695095
+    },
+    {
+      "pred_insight": "Storage Devices offer the best warranty value—about 0.9% cheaper per warranty-day than Computer Peripherals and roughly 11× and 36× cheaper than Computers and Servers, respectively—highlighting categories where procurement can stretch coverage per dollar when aligning purchases to employee start dates.",
+      "gt_insight": "Strong Positive Correlation Between Employee Start Dates and Asset Purchase Dates",
+      "score": 0.27506869316511995
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.10427844866573818,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.6009635215683877
+}

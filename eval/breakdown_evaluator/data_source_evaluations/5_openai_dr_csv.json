@@ -1,0 +1,252 @@
+{
+  "total_insights": 24,
+  "total_classified": 24,
+  "acled_count": 4,
+  "non_acled_count": 20,
+  "pct_acled": 0.16666666666666666,
+  "details": [
+    {
+      "evidence": "Somalia’s federal offensives in 2022-2023 reclaimed territory in central regions, prompting Al-Shabaab to intensify attacks with little regard for civilian life.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical claim about offensives and Al-Shabaab’s response without citing specific ACLED event counts, locations, or temporal patterns. It lacks explicit ACLED attribution and concrete event data, so it is not clearly derived from ACLED.",
+      "source_context": "Context section citing CTC and HRW on government offensives and Al-Shabaab’s response."
+    },
+    {
+      "evidence": "Al-Shabaab combines indiscriminate terrorism with targeted reprisals, using IEDs, suicide bombings, mortar shelling, and targeted killings that have caused a high number of civilian casualties.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general characterization of tactics and impacts (IEDs, suicide bombings, mortar shelling, targeted killings, high civilian casualties) without citing specific ACLED event counts, actor entries, locations, or ACLED-derived statistics. It reads as qualitative analysis rather than data explicitly attributed to ACLED or specific event metrics.",
+      "source_context": "Context section referencing Human Rights Watch’s findings."
+    },
+    {
+      "evidence": "The group frequently strikes areas recently freed by government forces to undermine the offensive by terrorizing local populations.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical claim about Al-Shabaab targeting recently liberated areas to undermine offensives, not a specific reference to ACLED event counts, locations, or actor-level data. It lacks explicit ties to ACLED event data or statistics.",
+      "source_context": "Context section referencing HRW on attacks in newly liberated areas."
+    },
+    {
+      "evidence": "Conflict data shows Al-Shabaab was involved in hundreds of violent incidents against civilians in 2022-2023, resulting in hundreds of civilian deaths.",
+      "is_acled_data": true,
+      "reasoning": "The statement references counts of violent incidents against civilians and resulting civilian deaths over 2022-2023 for a specific actor (Al‑Shabaab), which aligns with ACLED’s event counts, violence against civilians statistics, fatality figures, and actor-level data.",
+      "source_context": "Context section citing HRW conflict data."
+    },
+    {
+      "evidence": "UN officials warn Al-Shabaab remains determined to continue terrorist attacks regardless of civilian losses.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general warning by UN officials about Al-Shabaab’s intent, not specific event data, statistics, or analyses attributed to ACLED. It reflects commentary/policy statements rather than ACLED-derived conflict event information.",
+      "source_context": "Context section referencing UN press statements."
+    },
+    {
+      "evidence": "Al-Shabaab conducts large-scale bombings in public places, targeting soft venues like markets, restaurants, and hotels at peak hours to maximize casualties.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a generalized description of Al-Shabaab tactics (bombings in public places targeting soft venues at peak hours) without citing specific events, counts, locations, dates, or ACLED attribution. It reads as analytical commentary rather than a reference to ACLED event data or statistics.",
+      "source_context": "Indiscriminate Bombings section general description."
+    },
+    {
+      "evidence": "In August 2024, a suicide bombing and gun attack at Mogadishu’s Lido Beach killed over 32 civilians and wounded dozens.",
+      "is_acled_data": false,
+      "reasoning": "The statement provides a specific incident description with casualties, but there is no attribution to ACLED. It could come from media reports or other databases; without explicit linkage to ACLED data, it should not be classified as ACLED-derived.",
+      "source_context": "Indiscriminate Bombings section citing Al Jazeera on the Lido Beach attack."
+    },
+    {
+      "evidence": "An October 2024 suicide bombing at a Mogadishu café near a police academy killed both officers and civilians.",
+      "is_acled_data": true,
+      "reasoning": "The evidence describes a specific conflict event (a suicide bombing in Mogadishu in October 2024), including location, date, type of violence, actors/targets, and casualties—details that align with ACLED’s event-level data on explosions/remote violence and fatalities. Such incident reporting is within ACLED’s scope.",
+      "source_context": "Indiscriminate Bombings section citing Al Jazeera on the café bombing."
+    },
+    {
+      "evidence": "Al-Shabaab claims such attacks as strikes against government or Western targets, but they primarily kill ordinary Somalis.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical claim about target framing versus actual victims, without citing specific ACLED event data, counts, or actor-level statistics. It is not explicitly tied to ACLED datasets or metrics.",
+      "source_context": "Indiscriminate Bombings section noting the group’s media framing versus actual impact."
+    },
+    {
+      "evidence": "IEDs and suicide attacks by Al-Shabaab have been a leading cause of Somali civilian casualties in recent years.",
+      "is_acled_data": true,
+      "reasoning": "Statement references patterns of civilian harm attributable to specific tactics (IEDs, suicide attacks) by Al-Shabaab over time, which aligns with ACLED’s event-based categories (explosions/remote violence, violence against civilians) and casualty patterns/trends by actor and tactic. Such a claim is plausibly derived from ACLED’s actor-level event data and temporal trend analysis on civilian casualties.",
+      "source_context": "Indiscriminate Bombings section referencing HRW reports."
+    },
+    {
+      "evidence": "Use of car bombs, roadside explosives, and remote-detonated devices in populated areas exemplifies Al-Shabaab’s indiscriminate tactics.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general characterization of Al-Shabaab’s tactics (car bombs, roadside IEDs, remote-detonated devices) without citing specific ACLED events, counts, locations, or actor-level data. It reads as qualitative analysis rather than a reference to ACLED-derived event data.",
+      "source_context": "Indiscriminate Bombings section general methods."
+    },
+    {
+      "evidence": "Al-Shabaab carries out targeted assassinations of civilians to punish cooperation with the government and instill fear.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general characterization of Al-Shabaab’s tactics (targeted assassinations to punish cooperation and instill fear) without citing specific ACLED event data, counts, locations, or actor-level entries. It reads as analytical commentary rather than an insight explicitly derived from ACLED datasets.",
+      "source_context": "Targeted Killings section overview."
+    },
+    {
+      "evidence": "In late 2024, Al-Shabaab murdered six Mogadishu businessmen over the installation of security cameras, part of a broader intimidation campaign.",
+      "is_acled_data": false,
+      "reasoning": "The statement describes a specific incident (six businessmen killed over security cameras) but does not reference ACLED as a source or use ACLED-specific event coding or statistics. It resembles a media-reported anecdote; without explicit attribution to ACLED or ACLED-style event data, it should not be classified as ACLED-derived.",
+      "source_context": "Targeted Killings section citing Somali Digest on CCTV-related killings."
+    },
+    {
+      "evidence": "The group has threatened and attacked individuals complying with government orders to mount CCTV cameras, with dozens slain for assisting security measures.",
+      "is_acled_data": true,
+      "reasoning": "The evidence describes violence against civilians by an armed group, referencing threats and attacks tied to compliance with security measures, and mentions fatalities (“dozens slain”), which aligns with ACLED’s event-based data on violence against civilians, actor activity, and fatality counts.",
+      "source_context": "Targeted Killings section citing Somali Digest on ongoing intimidation."
+    },
+    {
+      "evidence": "Al-Shabaab targets community leaders, elders, aid workers, and others perceived as collaborating with the state or foreign partners.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general characterization of Al-Shabaab’s targeting patterns (community leaders, elders, aid workers) without citing specific ACLED events, counts, locations, or actor-coded event data. It reads as qualitative analysis rather than information explicitly drawn from ACLED datasets.",
+      "source_context": "Targeted Killings section general targets."
+    },
+    {
+      "evidence": "Assassinations of business owners, civil servants, and non-combatants aim to demonstrate reach and deter public support for the government.",
+      "is_acled_data": false,
+      "reasoning": "This is a general analytical statement about targeting and deterrence aims, not a specific event count, actor/event description, fatality figure, or trend explicitly tied to ACLED data.",
+      "source_context": "Targeted Killings section analysis of intent."
+    },
+    {
+      "evidence": "Al-Shabaab abducts children and young adults for indoctrination or conscription, constituting grave violations of children’s rights.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general claim about abductions and violations of children’s rights without citing specific events, counts, locations, or ACLED attribution. It reads as qualitative analysis rather than event-based data tied to ACLED.",
+      "source_context": "Abductions section referencing UN monitors."
+    },
+    {
+      "evidence": "Girls and women are abducted for forced marriages or servitude by Al-Shabaab.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general claim about abductions and forced marriages by Al-Shabaab without referencing specific events, dates, locations, counts, or attribution to ACLED. It reads as qualitative context rather than ACLED-derived event data or statistics.",
+      "source_context": "Abductions section referencing UN statements."
+    },
+    {
+      "evidence": "In areas under its influence, Al-Shabaab imposes harsh punishments, including public executions and amputations, to enforce compliance.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general description of Al-Shabaab’s methods (public executions and amputations) without specific event counts, dates, locations, or attribution to ACLED datasets. It reads as qualitative commentary rather than ACLED-derived event data or statistics.",
+      "source_context": "Abductions section description of coercive practices."
+    },
+    {
+      "evidence": "The group extorts taxes from farmers and businesses under threat of violence, effectively targeting civilians to maintain control.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general description of Al-Shabaab’s extortion practices targeting civilians, not tied to specific ACLED-coded events, statistics, locations, or actor/event counts. It reads as analytical/contextual commentary rather than explicit ACLED-derived event data or metrics.",
+      "source_context": "Abductions section on extortion tactics."
+    },
+    {
+      "evidence": "As African Union troops draw down, Al-Shabaab may exploit security gaps by escalating attacks and coercion against unprotected civilians.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical prediction about potential exploitation of security gaps and escalation against civilians; it does not cite specific ACLED event data, statistics, locations, or trends explicitly derived from ACLED.",
+      "source_context": "Abductions section referencing UN concerns about drawdown effects."
+    },
+    {
+      "evidence": "Despite territorial losses, Al-Shabaab retains significant capacity for complex attacks on civilian and security targets to erode public confidence and retaliate.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical claim about Al-Shabaab’s capabilities and intentions without citing specific ACLED event counts, locations, actor-level metrics, or trends. It is not tied to explicit ACLED data or statistics.",
+      "source_context": "Conclusion section referencing UN statements on resilience and brutality."
+    },
+    {
+      "evidence": "Ending Al-Shabaab’s threat requires sustained military pressure alongside civilian protection and measures to disrupt its intimidation capabilities.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general policy/strategy assertion about countering Al-Shabaab, not a reference to specific conflict events, statistics, or actor-level data from ACLED.",
+      "source_context": "Conclusion section prescribing response measures."
+    },
+    {
+      "evidence": "Somali civilians remain on the front lines of violence amid an ongoing insurgent campaign characterized by both mass-casualty attacks and targeted killings.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general characterization of violence and does not cite specific ACLED event counts, actor data, fatalities, locations, or trends explicitly tied to ACLED datasets.",
+      "source_context": "Conclusion section summarizing the civilian toll."
+    }
+  ],
+  "insights": [
+    {
+      "insight": "Somalia’s federal offensives in 2022-2023 reclaimed territory in central regions, prompting Al-Shabaab to intensify attacks with little regard for civilian life.",
+      "context": "Context section citing CTC and HRW on government offensives and Al-Shabaab’s response."
+    },
+    {
+      "insight": "Al-Shabaab combines indiscriminate terrorism with targeted reprisals, using IEDs, suicide bombings, mortar shelling, and targeted killings that have caused a high number of civilian casualties.",
+      "context": "Context section referencing Human Rights Watch’s findings."
+    },
+    {
+      "insight": "The group frequently strikes areas recently freed by government forces to undermine the offensive by terrorizing local populations.",
+      "context": "Context section referencing HRW on attacks in newly liberated areas."
+    },
+    {
+      "insight": "Conflict data shows Al-Shabaab was involved in hundreds of violent incidents against civilians in 2022-2023, resulting in hundreds of civilian deaths.",
+      "context": "Context section citing HRW conflict data."
+    },
+    {
+      "insight": "UN officials warn Al-Shabaab remains determined to continue terrorist attacks regardless of civilian losses.",
+      "context": "Context section referencing UN press statements."
+    },
+    {
+      "insight": "Al-Shabaab conducts large-scale bombings in public places, targeting soft venues like markets, restaurants, and hotels at peak hours to maximize casualties.",
+      "context": "Indiscriminate Bombings section general description."
+    },
+    {
+      "insight": "In August 2024, a suicide bombing and gun attack at Mogadishu’s Lido Beach killed over 32 civilians and wounded dozens.",
+      "context": "Indiscriminate Bombings section citing Al Jazeera on the Lido Beach attack."
+    },
+    {
+      "insight": "An October 2024 suicide bombing at a Mogadishu café near a police academy killed both officers and civilians.",
+      "context": "Indiscriminate Bombings section citing Al Jazeera on the café bombing."
+    },
+    {
+      "insight": "Al-Shabaab claims such attacks as strikes against government or Western targets, but they primarily kill ordinary Somalis.",
+      "context": "Indiscriminate Bombings section noting the group’s media framing versus actual impact."
+    },
+    {
+      "insight": "IEDs and suicide attacks by Al-Shabaab have been a leading cause of Somali civilian casualties in recent years.",
+      "context": "Indiscriminate Bombings section referencing HRW reports."
+    },
+    {
+      "insight": "Use of car bombs, roadside explosives, and remote-detonated devices in populated areas exemplifies Al-Shabaab’s indiscriminate tactics.",
+      "context": "Indiscriminate Bombings section general methods."
+    },
+    {
+      "insight": "Al-Shabaab carries out targeted assassinations of civilians to punish cooperation with the government and instill fear.",
+      "context": "Targeted Killings section overview."
+    },
+    {
+      "insight": "In late 2024, Al-Shabaab murdered six Mogadishu businessmen over the installation of security cameras, part of a broader intimidation campaign.",
+      "context": "Targeted Killings section citing Somali Digest on CCTV-related killings."
+    },
+    {
+      "insight": "The group has threatened and attacked individuals complying with government orders to mount CCTV cameras, with dozens slain for assisting security measures.",
+      "context": "Targeted Killings section citing Somali Digest on ongoing intimidation."
+    },
+    {
+      "insight": "Al-Shabaab targets community leaders, elders, aid workers, and others perceived as collaborating with the state or foreign partners.",
+      "context": "Targeted Killings section general targets."
+    },
+    {
+      "insight": "Assassinations of business owners, civil servants, and non-combatants aim to demonstrate reach and deter public support for the government.",
+      "context": "Targeted Killings section analysis of intent."
+    },
+    {
+      "insight": "Al-Shabaab abducts children and young adults for indoctrination or conscription, constituting grave violations of children’s rights.",
+      "context": "Abductions section referencing UN monitors."
+    },
+    {
+      "insight": "Girls and women are abducted for forced marriages or servitude by Al-Shabaab.",
+      "context": "Abductions section referencing UN statements."
+    },
+    {
+      "insight": "In areas under its influence, Al-Shabaab imposes harsh punishments, including public executions and amputations, to enforce compliance.",
+      "context": "Abductions section description of coercive practices."
+    },
+    {
+      "insight": "The group extorts taxes from farmers and businesses under threat of violence, effectively targeting civilians to maintain control.",
+      "context": "Abductions section on extortion tactics."
+    },
+    {
+      "insight": "As African Union troops draw down, Al-Shabaab may exploit security gaps by escalating attacks and coercion against unprotected civilians.",
+      "context": "Abductions section referencing UN concerns about drawdown effects."
+    },
+    {
+      "insight": "Despite territorial losses, Al-Shabaab retains significant capacity for complex attacks on civilian and security targets to erode public confidence and retaliate.",
+      "context": "Conclusion section referencing UN statements on resilience and brutality."
+    },
+    {
+      "insight": "Ending Al-Shabaab’s threat requires sustained military pressure alongside civilian protection and measures to disrupt its intimidation capabilities.",
+      "context": "Conclusion section prescribing response measures."
+    },
+    {
+      "insight": "Somali civilians remain on the front lines of violence amid an ongoing insurgent campaign characterized by both mass-casualty attacks and targeted killings.",
+      "context": "Conclusion section summarizing the civilian toll."
+    }
+  ],
+  "prompt": "How is Al-Shabaab targeting civilians in Somalia following recent events?"
+}

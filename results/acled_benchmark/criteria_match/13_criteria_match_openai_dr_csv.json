@@ -1,0 +1,188 @@
+{
+  "prompt": "Research clashes between Islamic State Mozambique and state forces in Cabo Delgado. Focus on November 2024.",
+  "criteria": [
+    {
+      "name": "Geographic Dispersion of Violence",
+      "description": "Assess how insurgent activity shifts from core strongholds to new districts and provinces, indicating expanding or probing fronts beyond primary conflict zones."
+    },
+    {
+      "name": "State Force Operational Strains",
+      "description": "Evaluate indicators of logistical shortfalls, withdrawals, and contested reoccupations that point to pressure on conventional forces and the difficulty of securing reclaimed areas."
+    },
+    {
+      "name": "Insurgent Mobility and Tactics",
+      "description": "Examine use of small, mobile units, improvised explosives, and rapid incursions to exploit gaps in static defenses and mounted patrols."
+    },
+    {
+      "name": "Militia Dynamics and Coordination",
+      "description": "Analyze the emergence and behavior of local militias, their relations with state forces, and how miscoordination or distrust complicates counterinsurgency operations."
+    },
+    {
+      "name": "Civilian Targeting and Displacement",
+      "description": "Track patterns of civilian attacks, kidnappings, and the resultant population movements to gauge humanitarian impact and security vacuums."
+    },
+    {
+      "name": "Claims Versus Verification",
+      "description": "Compare militant propaganda and official statements with independent reporting to identify discrepancies and information operations."
+    },
+    {
+      "name": "Security Posture in Southern Districts",
+      "description": "Assess whether force deployments and response times in southern areas align with the evolving threat and terrain-specific challenges."
+    },
+    {
+      "name": "Contested Control and Re-liberation Cycles",
+      "description": "Identify repeated cycles of capture, claim of liberation, and subsequent attacks that signal incomplete stabilization and persistent insurgent presence."
+    },
+    {
+      "name": "Riverine and Corridor Vulnerabilities",
+      "description": "Evaluate activity along key rivers, roads, and junctions that serve as insurgent movement corridors and stress points for security control."
+    },
+    {
+      "name": "Inter-Force Coordination Challenges",
+      "description": "Assess coordination between national forces, foreign deployments, and local auxiliaries, including incidents of misidentification and detentions, to gauge command-and-control effectiveness."
+    },
+    {
+      "name": "Human Rights and Force Legitimacy",
+      "description": "Examine allegations of abuses linked to security forces and their impact on community trust, international partners, and overall legitimacy."
+    },
+    {
+      "name": "Regional and Transnational Linkages",
+      "description": "Consider evidence of broader networks and financing that connect local insurgents to regional hubs, affecting capabilities and resilience."
+    },
+    {
+      "name": "Adaptive Insurgent Targeting",
+      "description": "Analyze shifts from military to militia and civilian targets as insurgents test defenses and seek influence through intimidation."
+    },
+    {
+      "name": "Information Environment and Perception",
+      "description": "Evaluate how public messaging by all actors shapes perceptions of security progress or failure, influencing local cooperation and morale."
+    },
+    {
+      "name": "Humanitarian Access and Protection",
+      "description": "Assess constraints on aid delivery and community protection mechanisms amid shifting frontlines and population displacement."
+    },
+    {
+      "name": "Force Posture Suitability",
+      "description": "Review whether defensive versus offensive postures and patrol patterns match the threat profile of a guerilla adversary."
+    },
+    {
+      "name": "Community-State Relations",
+      "description": "Observe levels of local trust or suspicion toward state forces and how this affects intelligence flows, cooperation, and operational freedom."
+    },
+    {
+      "name": "Spillover Risk Assessment",
+      "description": "Monitor indications of cross-boundary incursions into adjacent provinces and the potential for broader regional destabilization."
+    },
+    {
+      "name": "Resilience of Insurgent Logistics",
+      "description": "Identify patterns of looting and resource acquisition that sustain insurgent operations despite countermeasures."
+    },
+    {
+      "name": "Efficacy of Territorial Security Operations",
+      "description": "Measure the durability of gains in contested areas and the speed at which insurgents re-infiltrate after operations conclude."
+    }
+  ],
+  "criterion_scores": [
+    {
+      "name": "Geographic Dispersion of Violence",
+      "score": 0.5,
+      "explanation": "Mentions activity in Macomia, Meluco, and references Muidumbe/Mapato, but lacks systematic assessment of shifts beyond core strongholds or to new districts/provinces; no analysis of expanding fronts or comparative dispersion over time."
+    },
+    {
+      "name": "State Force Operational Strains",
+      "score": 0.25,
+      "explanation": "Notes state forces holding major towns and reliance on Rwandan/SADC support, but provides no concrete indicators of logistical shortfalls, withdrawals, or contested reoccupations in November."
+    },
+    {
+      "name": "Insurgent Mobility and Tactics",
+      "score": 0.5,
+      "explanation": "References raids, skirmishes, coordinated assaults, abduction, and seizing a tractor, but does not analyze unit size, use of IEDs, rapid incursions, or exploitation of static defenses in detail."
+    },
+    {
+      "name": "Militia Dynamics and Coordination",
+      "score": 0.0,
+      "explanation": "No discussion of local militias, their emergence, behavior, or relations with state forces."
+    },
+    {
+      "name": "Civilian Targeting and Displacement",
+      "score": 0.75,
+      "explanation": "Describes village attack/abductions, panic, and displacements with examples (Minhanha, Mapato) and mentions thousands fleeing. Could better quantify patterns and kidnappings across the month."
+    },
+    {
+      "name": "Claims Versus Verification",
+      "score": 0.5,
+      "explanation": "Notes IS media claiming responsibility and boasting casualties and cites independent sources, but lacks explicit comparison of specific claims to verified outcomes or identification of discrepancies."
+    },
+    {
+      "name": "Security Posture in Southern Districts",
+      "score": 0.0,
+      "explanation": "Does not assess deployments or response in southern districts relative to threat."
+    },
+    {
+      "name": "Contested Control and Re-liberation Cycles",
+      "score": 0.25,
+      "explanation": "Alludes to holding major towns and insurgent activity in rural areas but does not document cycles of capture, liberation, and re-infiltration with specific locations in November."
+    },
+    {
+      "name": "Riverine and Corridor Vulnerabilities",
+      "score": 0.0,
+      "explanation": "No evaluation of rivers, roads, junctions, or movement corridors."
+    },
+    {
+      "name": "Inter-Force Coordination Challenges",
+      "score": 0.25,
+      "explanation": "Mentions presence of Rwandan and SADC forces and engagements alongside FDS, but no analysis of coordination issues, misidentification, or detentions."
+    },
+    {
+      "name": "Human Rights and Force Legitimacy",
+      "score": 0.0,
+      "explanation": "No discussion of alleged abuses by security forces or impacts on legitimacy."
+    },
+    {
+      "name": "Regional and Transnational Linkages",
+      "score": 0.25,
+      "explanation": "Notes IS affiliation and cites think-tank context, but no analysis of regional networks, financing, or cross-border support affecting capabilities in November."
+    },
+    {
+      "name": "Adaptive Insurgent Targeting",
+      "score": 0.5,
+      "explanation": "Mentions attacks on civilians and security forces, coordinated assaults, and abductions, implying varied targeting; lacks explicit analysis of shifts or rationale over the month."
+    },
+    {
+      "name": "Information Environment and Perception",
+      "score": 0.5,
+      "explanation": "References IS propaganda and government distraction due to post-election unrest; however, limited assessment of public messaging by state or its effect on perceptions and cooperation."
+    },
+    {
+      "name": "Humanitarian Access and Protection",
+      "score": 0.25,
+      "explanation": "Notes displacement but does not assess constraints on aid delivery or protection mechanisms amid shifting frontlines."
+    },
+    {
+      "name": "Force Posture Suitability",
+      "score": 0.25,
+      "explanation": "States forces hold major towns while insurgents operate in rural/forested areas, but lacks evaluation of defensive vs offensive postures, patrol patterns, or suitability against guerrilla tactics."
+    },
+    {
+      "name": "Community-State Relations",
+      "score": 0.25,
+      "explanation": "Indirectly touches on fear and flight; no examination of trust, intelligence flows, or cooperation with state forces."
+    },
+    {
+      "name": "Spillover Risk Assessment",
+      "score": 0.0,
+      "explanation": "No monitoring or discussion of cross-boundary incursions into adjacent provinces or regional destabilization."
+    },
+    {
+      "name": "Resilience of Insurgent Logistics",
+      "score": 0.25,
+      "explanation": "Mentions looting/seizing a tractor, but no broader pattern of resource acquisition or logistics sustaining operations."
+    },
+    {
+      "name": "Efficacy of Territorial Security Operations",
+      "score": 0.25,
+      "explanation": "Notes persistence of insurgent threat despite prior gains and state holding towns, but lacks specific measures of durability of gains or reinfiltration speed post-operations in November."
+    }
+  ],
+  "overall_score": 0.275
+}

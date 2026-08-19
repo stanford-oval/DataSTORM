@@ -1,0 +1,75 @@
+{
+  "dataset_id": 22,
+  "dataset_path": "data/notebooks/flag-22.json",
+  "metadata": {
+    "category": "Finance Management",
+    "dataset_description": "The dataset consists of 500 entries simulating ServiceNow fm_expense_line table, which records various attributes of financial expenses. Key fields include 'number', 'opened_at', 'amount', 'state', 'short_description', 'ci', 'user', 'department', 'category', 'process_date', 'source_id', and 'type'. This table documents the flow of financial transactions by detailing the amount, departmental allocation, and the nature of each expense. Provides a clear view of organizational expenditures across different categories, highlighting both the timing and the approval state of each financial entry.",
+    "goal": "To analyze and understand how the cost of an expense influences its processing time, with the aim of improving the efficiency and equity of expense report processing across all cost brackets.",
+    "header": "Expense Processing Efficiency Analysis (Flag 22)",
+    "role": "Financial Operations Analyst"
+  },
+  "predicted_insights": [
+    "The near-perfect monotonic relationship means higher-cost expenses tend to wait much longer—e.g., representative values show ~4–6 days around ~$1k versus ~29–32 days around ~$8k—suggesting systemic delays at higher cost brackets that may impact equity and throughput.",
+    "Processing time rises sharply with amount: the median increases from 2.0 to 30.0 days (+28 days, ~15x) and the 90th percentile from 3.0 to 33.0 days (+30 days, ~11x) from decile 1 to 10, with the tail widening (p90–median gap grows from 1.0 to 3.0 days), indicating markedly slower and slightly more variable processing for higher-cost expenses.",
+    "The median age varies by only 154 days across deciles (878 to 1032 days), with the highest delay in Decile 03 (1032 days) and the high-cost Decile 10 relatively lower (905 days), indicating no monotonic cost–delay relationship and suggesting processing delays are broadly distributed rather than cost-driven (≈17.5% spread from min to max).",
+    "The top amount quartile had 0% of processed expenses completed within 7 days while the bottom quartile had 100%, revealing a stark, amount-driven bottleneck that disproportionately delays high-cost expenses and is an obvious target for speeding up approvals.",
+    "High-cost (Q4) Asset and Travel expenses take roughly 3–5x longer to process than low/mid-cost ones (e.g., IT Travel 5.0→24.5 days ≈5x; Sales Assets 8.6→27.0 ≈3x), peaking at 33.0 days for Product Management | Assets, indicating cost-driven bottlenecks concentrated in Assets/Travel rather than Services.",
+    "After roughly 7.3k, each additional 1,000 in amount adds about 1.35 fewer days to processing time than it does below that level (a ~36% drop in marginal delay), suggesting high-value expenses receive handling that reduces sensitivity of processing time to amount even though higher amounts still take longer overall.",
+    "Across 7 departments and a broad expense range (101–8,919), cost-adjustment removed department-level differences, indicating equitable processing times and suggesting improvement efforts should target amount-driven delays near the ~1.48k threshold rather than department-specific workflows.",
+    "Even after controlling for cost (low-amount mean ≈ 10.9 days, high-amount mean ≈ 30.8 days), quarter-to-quarter performance still shifts by about ±1 day, suggesting non-cost operational or seasonal effects; focusing on the 2024‑Q2 slowdown (+1.11 days) could recover roughly a day per processed expense in that period.",
+    "Processing times rise markedly with higher amount brackets overall within ±$200 of each threshold—about 4–5 days near $1k, 11–12 days near $3k, and ~20 days near $5k—suggesting deeper reviews for larger expenses even though a distinct “threshold penalty” is only detectable at $1k.",
+    "This gradient implies a sizable equity gap: an $8.9k expense is predicted to take about 33.5 days longer to process than a $107 expense after controlling for department and category, meaning higher-cost reports experience weeks of additional delay.",
+    "Adjusted processing time rises sharply with expense size: the mean residual shifts from -109.4 hours in the lowest amount decile to +264.7 hours in the highest, implying high-cost expenses wait about 11 extra days even after controlling for department and category, highlighting a potential equity issue.",
+    "Declines are not monotonic with amount: the third quartile has the highest decline rate (11.2%) while the second quartile is lowest (7.2%), indicating amount alone weakly explains decline decisions."
+  ],
+  "predicted_summary": "Amount is the dominant driver of processing time among processed expenses: cost and time move almost perfectly together (Spearman ρ=0.991), each additional $1,000 is associated with about 3.80 more days after accounting for department and category, and amount uniquely explains 97.7% of the variance in processing time; this pattern holds across departments (no significant residual differences after adjustment) and shows only small quarter-to-quarter swings (≈−1.0 to +1.1 days).\nProcessing speed differs sharply by amount tier: in the lowest amount quartile, 100% of expenses are processed within 7 days, versus 0% in the highest quartile (a 100‑point gap); by decile, median processing time scales from 2 days (lowest decile) to 30 days (highest), and 90th‑percentile times from 3 to 33 days, with the same upward pattern visible within department–category groups.\nThe amount–time relationship includes threshold effects: a significant bend occurs around ~$7.27k, where the incremental delay per $1,000 decreases from about 3.76 to 2.41 days, and there is a localized, statistically significant delay jump just above the $1,000 mark (+0.80 days vs just below), whereas similar discontinuities are not observed at $3,000 or $5,000.",
+  "score_insights": 0.7102936094760235,
+  "score_insights_dict": [
+    {
+      "gt_insight": "Positive Correlation Between Expense Amount and Processing Time, Lower-cost expenses are processed faster than higher-cost ones",
+      "pred_insight": "Adjusted processing time rises sharply with expense size: the mean residual shifts from -109.4 hours in the lowest amount decile to +264.7 hours in the highest, implying high-cost expenses wait about 11 extra days even after controlling for department and category, highlighting a potential equity issue.",
+      "score": 0.8437613706441851
+    },
+    {
+      "gt_insight": "Longer Processing Times for Higher-Cost Expenses",
+      "pred_insight": "The top amount quartile had 0% of processed expenses completed within 7 days while the bottom quartile had 100%, revealing a stark, amount-driven bottleneck that disproportionately delays high-cost expenses and is an obvious target for speeding up approvals.",
+      "score": 0.8500954713506473
+    },
+    {
+      "gt_insight": "Varied Processing Outcomes Across Expense Brackets",
+      "pred_insight": "Processing time rises sharply with amount: the median increases from 2.0 to 30.0 days (+28 days, ~15x) and the 90th percentile from 3.0 to 33.0 days (+30 days, ~11x) from decile 1 to 10, with the tail widening (p90–median gap grows from 1.0 to 3.0 days), indicating markedly slower and slightly more variable processing for higher-cost expenses.",
+      "score": 0.585793267188391
+    },
+    {
+      "gt_insight": "Uniform Processing Times Across Users and Departments for High-Cost Expenses",
+      "pred_insight": "Across 7 departments and a broad expense range (101–8,919), cost-adjustment removed department-level differences, indicating equitable processing times and suggesting improvement efforts should target amount-driven delays near the ~1.48k threshold rather than department-specific workflows.",
+      "score": 0.5615243287208704
+    }
+  ],
+  "score_summary": 0.5883027133663237,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.7943990671816522,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "High-cost (Q4) Asset and Travel expenses take roughly 3–5x longer to process than low/mid-cost ones (e.g., IT Travel 5.0→24.5 days ≈5x; Sales Assets 8.6→27.0 ≈3x), peaking at 33.0 days for Product Management | Assets, indicating cost-driven bottlenecks concentrated in Assets/Travel rather than Services.",
+      "gt_insight": "Positive Correlation Between Expense Amount and Processing Time, Lower-cost expenses are processed faster than higher-cost ones",
+      "score": 0.8874380716728171
+    },
+    {
+      "pred_insight": "The top amount quartile had 0% of processed expenses completed within 7 days while the bottom quartile had 100%, revealing a stark, amount-driven bottleneck that disproportionately delays high-cost expenses and is an obvious target for speeding up approvals.",
+      "gt_insight": "Longer Processing Times for Higher-Cost Expenses",
+      "score": 0.8842922927399302
+    },
+    {
+      "pred_insight": "Adjusted processing time rises sharply with expense size: the mean residual shifts from -109.4 hours in the lowest amount decile to +264.7 hours in the highest, implying high-cost expenses wait about 11 extra days even after controlling for department and category, highlighting a potential equity issue.",
+      "gt_insight": "Varied Processing Outcomes Across Expense Brackets",
+      "score": 0.6141466194640401
+    },
+    {
+      "pred_insight": "Across 7 departments and a broad expense range (101–8,919), cost-adjustment removed department-level differences, indicating equitable processing times and suggesting improvement efforts should target amount-driven delays near the ~1.48k threshold rather than department-specific workflows.",
+      "gt_insight": "Uniform Processing Times Across Users and Departments for High-Cost Expenses",
+      "score": 0.7917192848498211
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.11468722645376754,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.7468326169831989
+}

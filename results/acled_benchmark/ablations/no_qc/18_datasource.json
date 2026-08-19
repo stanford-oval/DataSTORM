@@ -1,0 +1,222 @@
+{
+  "total_insights": 21,
+  "total_classified": 21,
+  "acled_count": 11,
+  "non_acled_count": 10,
+  "pct_acled": 0.5238095238095238,
+  "details": [
+    {
+      "evidence": "Rwanda’s expeditionary security model is bilateral, rapid, and asset-centric, concentrating forces around strategic nodes like LNG sites and regime corridors to produce localized drops in violence and increased host dependence, which Kigali converts into diplomatic leverage and investor signaling.",
+      "is_acled_data": false,
+      "reasoning": "The evidence is a qualitative strategic analysis about Rwanda’s security model, leverage, and investor signaling, not specific conflict event data, counts, locations, or actor-level statistics attributable to ACLED.",
+      "source_context": "Key Findings summary of model and outcomes in Mozambique and CAR."
+    },
+    {
+      "evidence": "In Mozambique’s Cabo Delgado, after RDF deployed in July 2021, insurgent incidents within 25 km of Afungi, Palma, and Mocímboa da Praia fell to low single digits per month, indicating asset-proximate stabilization around LNG infrastructure and partial displacement to peripheral areas.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific temporal and geographic patterns in insurgent incident counts within defined radii of locations (Afungi, Palma, Mocímboa da Praia) after July 2021. This aligns with ACLED’s event count, location-based, and temporal trend data. The phrasing about monthly incident levels and spatial displacement suggests analysis derived from ACLED’s geocoded event dataset and time-series counts around LNG infrastructure areas.",
+      "source_context": "Mozambique corridor section referencing ACLED-based geofenced trends [1]."
+    },
+    {
+      "evidence": "Rwanda’s deployments in CAR show patterns consistent with modulation of violence around regime-critical corridors rather than broad pacification, aligning with a node-centric stabilization approach amid wider volatility.",
+      "is_acled_data": false,
+      "reasoning": "The evidence is an analytical assertion about deployment patterns and a node-centric stabilization approach without citing specific event counts, locations, fatalities, or actor-level data from ACLED. It reads as geopolitical analysis rather than a direct use of ACLED event data.",
+      "source_context": "CAR analysis of prefecture-level splits and event mixes [11]."
+    },
+    {
+      "evidence": "ACLED-based tests show marked post-deployment declines near Mozambique’s LNG corridor, consistent with focused stabilization; similar asset-proximate effects are suggested in CAR, though attribution limits hinder precise causal inference.",
+      "is_acled_data": true,
+      "reasoning": "The evidence explicitly references “ACLED-based tests” and discusses post-deployment declines in conflict near specific locations, which aligns with ACLED’s event counts, geographic data, and temporal trend analysis. The language indicates analysis grounded in ACLED event data rather than general commentary.",
+      "source_context": "Key Findings and measurement sections referencing ACLED time series and geofenced analyses [1][11]."
+    },
+    {
+      "evidence": "Rwanda converts tactical gains into diplomatic capital by showing up quickly, concentrating force, and rotating cleanly—behaviors perceived by hosts and investors as reliability and professionalism compared to slower multilateral missions.",
+      "is_acled_data": false,
+      "reasoning": "The evidence is qualitative geopolitical analysis about Rwanda’s operational behavior and its diplomatic effects, not specific conflict event data, statistics, or actor-level metrics attributed to ACLED.",
+      "source_context": "Military diplomacy section describing expeditionary posture and host/investor perceptions."
+    },
+    {
+      "evidence": "Between 2020 and 2024 in Cabo Delgado, nearly four out of five RDF-linked events are coded as battles, with fatalities concentrated in those engagements, reinforcing a tactic of protecting key nodes rather than broad area control.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites event type distribution (share of events coded as battles), actor linkage (RDF-linked events), temporal scope (2020–2024), location (Cabo Delgado), and fatality concentration—all core ACLED event and fatality metrics and actor-level coding. This is characteristic of analysis directly derived from ACLED data.",
+      "source_context": "Military diplomacy section citing ACLED proportions of event types in Mozambique [5]."
+    },
+    {
+      "evidence": "Operational enablers—disciplined rotations, robust logistics, and adaptable tools like drones—support Rwanda’s fast, targeted interventions while allowing coordination with regional organizations without losing bilateral agility.",
+      "is_acled_data": false,
+      "reasoning": "The evidence is a qualitative assessment of Rwanda’s operational enablers and coordination approach, not tied to specific ACLED event counts, fatalities, locations, actor data, or trends, nor is it attributed to ACLED.",
+      "source_context": "Operational enablers and planning mindset description [6]."
+    },
+    {
+      "evidence": "Rwanda’s credibility is bolstered by its evolution from a rebel force to a leading UN peacekeeping contributor, providing social proof that it can rapidly secure critical nodes with professional conduct.",
+      "is_acled_data": false,
+      "reasoning": "The evidence is a qualitative geopolitical assessment about Rwanda’s reputation and peacekeeping role, not specific conflict event data, fatalities, locations, or actor-level event records attributable to ACLED.",
+      "source_context": "Peacekeeping pedigree and reputation discussion [7]."
+    },
+    {
+      "evidence": "Kagame frames military engagement as diplomacy, pairing security provision with pan-African initiatives (AU reforms, AfCFTA) to create a branded export of fast, targeted stabilization that yields diplomatic dividends and host dependence.",
+      "is_acled_data": false,
+      "reasoning": "The evidence is a qualitative geopolitical analysis of Kagame’s framing of military engagement and pan-African initiatives; it does not reference conflict event counts, fatalities, locations, or actor-level event data attributable to ACLED.",
+      "source_context": "Blending diplomacy and military strategy section [8]."
+    },
+    {
+      "evidence": "Across theaters through 2024, RDF-involved operations are dominated by armed clashes and air/drone strikes (approximately 134 clashes and 95 air/drone strikes) with relatively few violence-against-civilians incidents, indicating decisive interventions near priority nodes.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites counts of specific event types (armed clashes, air/drone strikes) and references violence-against-civilians incidence, which aligns with ACLED’s event-type categorizations and actor/event counts over time. These quantitative breakdowns by event category and timeframe are characteristic of ACLED-derived summaries.",
+      "source_context": "Measurement section citing event-type distribution for RDF-involved events [9]."
+    },
+    {
+      "evidence": "Reported fatalities per RDF-involved event tend to be low in the datasets, with upper-quartile fatality counts at or near zero/one in some countries, suggesting generally low per-event lethality within the tagged subset.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references per-event fatalities, quartiles, and lethality within a tagged subset of RDF-involved events—metrics that align with ACLED’s event-level fatality counts and actor-tagged data. This suggests analysis derived from ACLED’s event dataset and statistical summaries thereof.",
+      "source_context": "Measurement section on fatalities distribution by country [10]."
+    },
+    {
+      "evidence": "In CAR, prefecture-level data indicate mixes of battles, violence against civilians, and strategic developments in deployment areas (e.g., around Bangui), but the data do not permit clean causal comparisons to peripheral prefectures without additional controls.",
+      "is_acled_data": true,
+      "reasoning": "Mentions prefecture-level data on battles and violence against civilians, tied to geographic subnational breakdowns and event types typical of ACLED. The phrasing aligns with ACLED’s event-based, subnational data and categories (battles, VAC), even though it notes limitations for causal comparisons.",
+      "source_context": "CAR prefecture splits and limits of inference [11]."
+    },
+    {
+      "evidence": "Attribution gaps in open conflict datasets, especially in CAR, obscure RDF activity because Rwandan elements may be embedded in MINUSCA or reported under host-force labels, reducing direct RDF tag capture.",
+      "is_acled_data": false,
+      "reasoning": "The evidence discusses attribution gaps in open conflict datasets and MINUSCA labeling practices, which is general methodological commentary rather than specific ACLED event data or metrics. It is not explicitly tied to ACLED figures or actor/event records.",
+      "source_context": "Attribution gap discussion referencing sparse RDF tags in Bangui/Bambari [12]."
+    },
+    {
+      "evidence": "String-matching and actor-name coding issues can misattribute or miss RDF events (e.g., spurious ‘RDF’ hits in Myanmar and few valid matches in Africa), highlighting the need for improved actor coding and cross-source validation.",
+      "is_acled_data": true,
+      "reasoning": "The evidence discusses actor-name coding, string-matching, and misattribution of RDF events across countries—topics specific to ACLED’s actor-level/event-coding methodology. This reflects ACLED-derived insights about data quality and the need for improved actor coding and cross-source validation, which aligns with ACLED’s actor-level event data practices.",
+      "source_context": "Actor-name matching pitfalls and query anomalies in ACLED [13][14]."
+    },
+    {
+      "evidence": "Methodologically, ACLED event-type distributions and CAR prefecture splits are compatible with testing corridor-centric stabilization, but sparse RDF labeling near assets necessitates better actor matching, geocoding, and cross-validation with UN SITREPs and MINUSCA logs.",
+      "is_acled_data": true,
+      "reasoning": "The evidence explicitly references “ACLED event-type distributions” and subnational splits, which are ACLED-specific constructs, indicating the analysis is derived from ACLED data, even though it also mentions cross-validation with UN and MINUSCA sources.",
+      "source_context": "Measurement and methods takeaway recommending data improvements [12][9][11]."
+    },
+    {
+      "evidence": "In eastern DRC (2019–2024), ACLED records almost no RDF events, with months of zeros and a small cluster in September 2024, suggesting modalities designed for plausible deniability amid M23-related tensions.",
+      "is_acled_data": true,
+      "reasoning": "The evidence explicitly references ACLED records of RDF events in eastern DRC over 2019–2024, describing event counts, temporal patterns (months of zeros, a cluster in Sept 2024), and interpretation tied to M23 tensions. These are conflict event counts and temporal trends directly from ACLED data.",
+      "source_context": "Great Lakes section on sparse RDF footprint in North/South Kivu and Ituri [15]."
+    },
+    {
+      "evidence": "ACLED shows no direct RDF–FARDC clashes and no direct RDF–M23 events inside DRC from 2015–2024, underscoring the deniable or proxy nature of Rwanda’s involvement in the Kivus.",
+      "is_acled_data": true,
+      "reasoning": "The statement references specific ACLED-derived findings about the absence of direct RDF–FARDC and RDF–M23 events within a defined time frame (2015–2024), which relies on ACLED’s event and actor-level data and conflict event records. This aligns with ACLED’s dataset content (event counts/descriptions and actor interactions). The interpretive conclusion about deniable/proxy involvement is analysis, but the core claim is based on ACLED event data.",
+      "source_context": "Queries showing no recorded direct clashes with FARDC or M23 [16][17]."
+    },
+    {
+      "evidence": "Where RDF is tagged in DRC, events skew toward kinetic categories with some civilian harm, indicating that even limited, deniable engagements can incur reputational costs when they enter public reporting.",
+      "is_acled_data": true,
+      "reasoning": "Mentions tagging of RDF in DRC and event categorizations skewing toward kinetic categories with civilian harm—this aligns with ACLED’s actor tagging, event type classifications (battles, explosions/remote violence), and violence against civilians data, suggesting use of ACLED event data rather than general commentary.",
+      "source_context": "Distribution of event types and instances involving civilian harm in DRC [18][19]."
+    },
+    {
+      "evidence": "Benchmarking shows Rwanda has relatively few cross-border events attributed to it compared to some regional peers, yet sanctions narratives and diplomatic scrutiny can still escalate absent database-confirmed confrontations.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a comparative claim about cross-border events and narratives/sanctions without citing specific ACLED event counts or actor-level data. It reads as general analysis and benchmarking language without explicit ACLED attribution or concrete event statistics, so it is not clearly derived from ACLED data.",
+      "source_context": "Regional benchmarking and sanctions exposure discussion [20]."
+    },
+    {
+      "evidence": "The core trade-off in Rwanda’s model is between earning diplomatic and investment leverage through fast, localized stabilization around strategic assets and accumulating reputational and sanctions risk from opaque Great Lakes entanglements.",
+      "is_acled_data": false,
+      "reasoning": "This is a high-level analytical statement about Rwanda’s strategic trade-offs and reputational risks, not tied to specific conflict event data, counts, locations, fatalities, or actor-level details attributed to ACLED.",
+      "source_context": "Conclusion summarizing benefits and exposure across Mozambique/CAR versus Great Lakes."
+    },
+    {
+      "evidence": "Key indicators to watch include LNG restart timelines and security metrics along the Afungi–Palma–Mocímboa corridor, signs of CAR regime dependence along Bangui-linked routes, and improvements in actor coding and cross-source validation to narrow attribution gaps.",
+      "is_acled_data": false,
+      "reasoning": "The evidence discusses monitoring LNG restart timelines, security metrics along specific corridors, regime dependence on routes, and methodological improvements like actor coding and cross-source validation. These are analytical indicators and methodological references, not explicit ACLED event data, counts, fatalities, or actor-level records attributed to ACLED. No direct citation of ACLED datasets or metrics is present.",
+      "source_context": "Conclusion outlining forward-looking metrics and data needs."
+    }
+  ],
+  "insights": [
+    {
+      "insight": "Rwanda’s expeditionary security model is bilateral, rapid, and asset-centric, concentrating forces around strategic nodes like LNG sites and regime corridors to produce localized drops in violence and increased host dependence, which Kigali converts into diplomatic leverage and investor signaling.",
+      "context": "Key Findings summary of model and outcomes in Mozambique and CAR."
+    },
+    {
+      "insight": "In Mozambique’s Cabo Delgado, after RDF deployed in July 2021, insurgent incidents within 25 km of Afungi, Palma, and Mocímboa da Praia fell to low single digits per month, indicating asset-proximate stabilization around LNG infrastructure and partial displacement to peripheral areas.",
+      "context": "Mozambique corridor section referencing ACLED-based geofenced trends [1]."
+    },
+    {
+      "insight": "Rwanda’s deployments in CAR show patterns consistent with modulation of violence around regime-critical corridors rather than broad pacification, aligning with a node-centric stabilization approach amid wider volatility.",
+      "context": "CAR analysis of prefecture-level splits and event mixes [11]."
+    },
+    {
+      "insight": "ACLED-based tests show marked post-deployment declines near Mozambique’s LNG corridor, consistent with focused stabilization; similar asset-proximate effects are suggested in CAR, though attribution limits hinder precise causal inference.",
+      "context": "Key Findings and measurement sections referencing ACLED time series and geofenced analyses [1][11]."
+    },
+    {
+      "insight": "Rwanda converts tactical gains into diplomatic capital by showing up quickly, concentrating force, and rotating cleanly—behaviors perceived by hosts and investors as reliability and professionalism compared to slower multilateral missions.",
+      "context": "Military diplomacy section describing expeditionary posture and host/investor perceptions."
+    },
+    {
+      "insight": "Between 2020 and 2024 in Cabo Delgado, nearly four out of five RDF-linked events are coded as battles, with fatalities concentrated in those engagements, reinforcing a tactic of protecting key nodes rather than broad area control.",
+      "context": "Military diplomacy section citing ACLED proportions of event types in Mozambique [5]."
+    },
+    {
+      "insight": "Operational enablers—disciplined rotations, robust logistics, and adaptable tools like drones—support Rwanda’s fast, targeted interventions while allowing coordination with regional organizations without losing bilateral agility.",
+      "context": "Operational enablers and planning mindset description [6]."
+    },
+    {
+      "insight": "Rwanda’s credibility is bolstered by its evolution from a rebel force to a leading UN peacekeeping contributor, providing social proof that it can rapidly secure critical nodes with professional conduct.",
+      "context": "Peacekeeping pedigree and reputation discussion [7]."
+    },
+    {
+      "insight": "Kagame frames military engagement as diplomacy, pairing security provision with pan-African initiatives (AU reforms, AfCFTA) to create a branded export of fast, targeted stabilization that yields diplomatic dividends and host dependence.",
+      "context": "Blending diplomacy and military strategy section [8]."
+    },
+    {
+      "insight": "Across theaters through 2024, RDF-involved operations are dominated by armed clashes and air/drone strikes (approximately 134 clashes and 95 air/drone strikes) with relatively few violence-against-civilians incidents, indicating decisive interventions near priority nodes.",
+      "context": "Measurement section citing event-type distribution for RDF-involved events [9]."
+    },
+    {
+      "insight": "Reported fatalities per RDF-involved event tend to be low in the datasets, with upper-quartile fatality counts at or near zero/one in some countries, suggesting generally low per-event lethality within the tagged subset.",
+      "context": "Measurement section on fatalities distribution by country [10]."
+    },
+    {
+      "insight": "In CAR, prefecture-level data indicate mixes of battles, violence against civilians, and strategic developments in deployment areas (e.g., around Bangui), but the data do not permit clean causal comparisons to peripheral prefectures without additional controls.",
+      "context": "CAR prefecture splits and limits of inference [11]."
+    },
+    {
+      "insight": "Attribution gaps in open conflict datasets, especially in CAR, obscure RDF activity because Rwandan elements may be embedded in MINUSCA or reported under host-force labels, reducing direct RDF tag capture.",
+      "context": "Attribution gap discussion referencing sparse RDF tags in Bangui/Bambari [12]."
+    },
+    {
+      "insight": "String-matching and actor-name coding issues can misattribute or miss RDF events (e.g., spurious ‘RDF’ hits in Myanmar and few valid matches in Africa), highlighting the need for improved actor coding and cross-source validation.",
+      "context": "Actor-name matching pitfalls and query anomalies in ACLED [13][14]."
+    },
+    {
+      "insight": "Methodologically, ACLED event-type distributions and CAR prefecture splits are compatible with testing corridor-centric stabilization, but sparse RDF labeling near assets necessitates better actor matching, geocoding, and cross-validation with UN SITREPs and MINUSCA logs.",
+      "context": "Measurement and methods takeaway recommending data improvements [12][9][11]."
+    },
+    {
+      "insight": "In eastern DRC (2019–2024), ACLED records almost no RDF events, with months of zeros and a small cluster in September 2024, suggesting modalities designed for plausible deniability amid M23-related tensions.",
+      "context": "Great Lakes section on sparse RDF footprint in North/South Kivu and Ituri [15]."
+    },
+    {
+      "insight": "ACLED shows no direct RDF–FARDC clashes and no direct RDF–M23 events inside DRC from 2015–2024, underscoring the deniable or proxy nature of Rwanda’s involvement in the Kivus.",
+      "context": "Queries showing no recorded direct clashes with FARDC or M23 [16][17]."
+    },
+    {
+      "insight": "Where RDF is tagged in DRC, events skew toward kinetic categories with some civilian harm, indicating that even limited, deniable engagements can incur reputational costs when they enter public reporting.",
+      "context": "Distribution of event types and instances involving civilian harm in DRC [18][19]."
+    },
+    {
+      "insight": "Benchmarking shows Rwanda has relatively few cross-border events attributed to it compared to some regional peers, yet sanctions narratives and diplomatic scrutiny can still escalate absent database-confirmed confrontations.",
+      "context": "Regional benchmarking and sanctions exposure discussion [20]."
+    },
+    {
+      "insight": "The core trade-off in Rwanda’s model is between earning diplomatic and investment leverage through fast, localized stabilization around strategic assets and accumulating reputational and sanctions risk from opaque Great Lakes entanglements.",
+      "context": "Conclusion summarizing benefits and exposure across Mozambique/CAR versus Great Lakes."
+    },
+    {
+      "insight": "Key indicators to watch include LNG restart timelines and security metrics along the Afungi–Palma–Mocímboa corridor, signs of CAR regime dependence along Bangui-linked routes, and improvements in actor coding and cross-source validation to narrow attribution gaps.",
+      "context": "Conclusion outlining forward-looking metrics and data needs."
+    }
+  ],
+  "prompt": "Explores the roles and operations of the Rwanda Defence Force in regional conflicts and their geopolitical significance."
+}

@@ -1,0 +1,84 @@
+{
+  "criteria": [
+    {
+      "name": "Election stakes and polarization",
+      "description": "Assess how the contest is framed as pivotal for the country’s direction and how entrenched polarization between incumbents and main opposition shapes campaign dynamics and public perceptions."
+    },
+    {
+      "name": "Dominance of ruling party",
+      "description": "Evaluate the ruling party’s consolidation strategies, including efforts to marginalize opponents, centralization of power, and potential moves to entrench long-term control."
+    },
+    {
+      "name": "Fragmented opposition landscape",
+      "description": "Analyze opposition cohesion, splintering, and alliance-building efforts, and how these factors affect electoral competitiveness and post-election leverage."
+    },
+    {
+      "name": "Foreign agent law impact",
+      "description": "Examine how legislation targeting foreign-funded groups affects civil society, media, and political pluralism, including compliance, resistance, and legal challenges."
+    },
+    {
+      "name": "Protest mobilization patterns",
+      "description": "Track the scale, duration, and composition of demonstrations, triggers for mobilization, and how protest waves evolve over time."
+    },
+    {
+      "name": "Intimidation and targeted violence",
+      "description": "Identify patterns of harassment and attacks against activists, journalists, and opposition figures, including alleged use of unidentified perpetrators and vandalism."
+    },
+    {
+      "name": "Police tactics and accountability",
+      "description": "Assess law enforcement responses to demonstrations, including use of force, detentions, and follow-up investigations or lack thereof."
+    },
+    {
+      "name": "Legal-curb on assembly",
+      "description": "Evaluate regulatory changes that restrict protest tactics and public gatherings, and their implications for future mobilization."
+    },
+    {
+      "name": "Populist and conservative appeals",
+      "description": "Analyze the ruling party’s messaging emphasizing social conservatism, identity politics, and how these narratives are used to galvanize support."
+    },
+    {
+      "name": "Anti-foreign interference narrative",
+      "description": "Examine claims of external meddling and ‘foreign influence’ as a campaign frame, and how these narratives justify policy and security measures."
+    },
+    {
+      "name": "Geopolitical reorientation signals",
+      "description": "Assess shifts in foreign policy posture, including relations with Western partners and regional powers, and how these shifts intersect with domestic politics."
+    },
+    {
+      "name": "War trauma instrumentalization",
+      "description": "Identify use of historical conflicts and regional insecurity in campaign messaging to shape voter attitudes and define adversaries."
+    },
+    {
+      "name": "Election system changes",
+      "description": "Evaluate the implications of electoral rules and technologies, such as proportionality, thresholds, and electronic voting, for outcomes and trust."
+    },
+    {
+      "name": "Turnout and undecided voters",
+      "description": "Analyze the pivotal role of turnout and late-deciding or uncommitted voters in determining the balance of power."
+    },
+    {
+      "name": "Media environment pressure",
+      "description": "Assess pressures on independent media, including legal, financial, and physical threats, and their effects on information pluralism."
+    },
+    {
+      "name": "EU/US relations trade-offs",
+      "description": "Evaluate how domestic political choices accept or risk fallout with key partners, prioritizing electoral goals over international alignment."
+    },
+    {
+      "name": "Post-election unrest risk",
+      "description": "Gauge scenarios for contention after results, including opposition challenges, mass mobilization potential, and triggers for escalation."
+    },
+    {
+      "name": "Provocateurs and infiltration risks",
+      "description": "Consider the possibility of staged incidents or infiltration affecting protest dynamics and public narratives about violence."
+    },
+    {
+      "name": "Conflict escalation determinants",
+      "description": "Identify factors that could tip protests toward escalation or de-escalation, including policing strategies, organizer discipline, and targeted attacks."
+    },
+    {
+      "name": "Judicial and institutional checks",
+      "description": "Assess the role and effectiveness of courts and institutions in adjudicating contested laws and election disputes, and their perceived independence."
+    }
+  ]
+}

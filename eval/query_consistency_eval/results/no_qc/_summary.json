@@ -1,0 +1,27 @@
+{
+  "set": "no_qc",
+  "ids": [
+    1,
+    2,
+    4,
+    8,
+    9,
+    10,
+    11,
+    12,
+    17,
+    18
+  ],
+  "n_applicable": 10,
+  "mean_overall": 0.4061666666666667,
+  "per_dimension_means": {
+    "actor_entity": 0.10300000000000001,
+    "geography": 0.45,
+    "temporal": 0.8253333333333334,
+    "event_taxonomy": 0.3586666666666667,
+    "counting_aggregation": 0.45,
+    "population_scope": 0.25
+  },
+  "total_conflicts": 112,
+  "result_changing_conflicts": 106
+}

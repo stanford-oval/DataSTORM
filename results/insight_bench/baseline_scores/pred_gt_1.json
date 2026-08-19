@@ -1,0 +1,95 @@
+{
+  "dataset_id": 1,
+  "dataset_path": "data/notebooks/flag-1.json",
+  "metadata": {
+    "category": "Incidents Management",
+    "dataset_description": "The dataset comprises 500 entries simulating ServiceNow incidents table, detailing various attributes such as category, state, open and close dates, involved personnel, and incident specifics like location, description, and priority. It captures incident management activities with fields like 'opened_at', 'closed_at', 'assigned_to', 'short_description', and 'priority', reflecting the operational handling and urgency of issues across different locations and categories.",
+    "goal": "Find the discrepancy and imbalance in distribution of incidents assigned across categories",
+    "header": "Hardware Incident Dataset (Flag 1)",
+    "role": "L2 Support Agent"
+  },
+  "predicted_insights": [
+    "Hardware alone accounts for two-thirds (67.2%) of all 500 incidents—over 6.5 times the next largest category (Network at 10.2%)—and the bottom three categories together contribute only 22.6%, highlighting a strong assignment imbalance.",
+    "The distribution is highly imbalanced—Hardware alone accounts for 336/500 (67.2%) and aligns 1:1 with its group (as do Network, Software, and Database), while only Inquiry / Help is split across multiple groups (25, 5, 1, 1) and represents just 32/500 (6.4%).",
+    "Hardware alone accounts for 336 of 500 incidents (67.2%) with 310 (92.3% of Hardware) being High or Critical, and across all categories there is only 1 Low-priority incident (in Software), indicating a strong skew toward higher-severity work concentrated in Hardware.",
+    "All categories except Inquiry / Help perfectly align with same-named assignment groups, producing an overall 93.6% (468/500) name-match rate, while Inquiry / Help has 0% alignment (32 incidents) likely because there is no same-named assignment_group for that category.",
+    "All 32 mismatches (6.4% of 500 incidents) occur exclusively in the Inquiry / Help category, while the remaining 468 incidents across Hardware, Network, Software, and Database have 0 mismatches—indicating the mismatch issue is isolated to Inquiry / Help, likely due to a naming misalignment (e.g., no same-named assignment group).",
+    "Hardware incidents in Australia are about 24x higher than the next largest category (Software=10) and 7.5x the combined total of all other categories (32), indicating an extreme concentration that likely drives overall volume there.",
+    "Despite the decline, Hardware still constitutes a majority of January 2024 incidents (~55.9%), highlighting persistent imbalance, while Network (+8.0 pts) and Software (+7.0 pts) gains suggest a shift of workload away from Hardware.",
+    "A nearly 66 percentage-point spread for Hardware versus under 22 percentage points for all other categories suggests Hardware incidents are far more geographically concentrated, pointing to location-specific hardware issues or imbalanced resource allocation.",
+    "Hardware drives most volatility in incident volumes—capturing 4 of the top 5 MoM spikes (11, 9, 8, 8)—while Database and Network remain relatively steady (never exceeding ±5), indicating surge preparedness and staffing should prioritize the Hardware queue around peak months like July.",
+    "With five locations (uniform baseline ≈20%), Hardware’s 71.73% in Australia is about 3.6× higher than uniform, whereas other categories peak around 24–29%, indicating a pronounced, location-specific skew for Hardware incidents in Australia.",
+    "Even the most skewed category has fewer than 30% of its incidents handled by a single assignee, and Database is the most balanced with a 22.5% maximum assignee share.",
+    "Charlie's Hardware load is over 6× their next-largest category (Network at 11 tickets, 9.6%), so nearly 3 of every 4 of their cases are Hardware; shifting just 20 Hardware tickets would drop their Hardware share to ~53%, substantially reducing specialization risk."
+  ],
+  "predicted_summary": "Incident distribution is heavily hardware-centric and skewed toward higher severities: Hardware accounts for 67.2% of all incidents (336/500) and 72.4% of all high/critical cases (310/428). Within categories, the share of high/critical incidents is 92.3% for Hardware (310/336), ~90% for Network (46/51) and Database (36/40), 70.7% for Software (29/41), while Inquiry / Help is predominantly moderate (78.1%, 25/32). Low-priority tickets are virtually absent across the estate (only 1 low-priority in Software; none in other categories).\nAssignments are almost perfectly aligned with category names except for Inquiry / Help: 100% of Hardware (336/336), Network (51/51), Software (41/41), and Database (40/40) incidents go to same-named groups, whereas 0% of Inquiry / Help (0/32) do. Inquiry / Help is routed instead to Service Desk (78.1%, 25/32), Hardware (15.6%, 5/32), Database (3.1%, 1/32), and Software (3.1%, 1/32). Within Inquiry / Help, workload is concentrated—one assignee handles 28.1% (9/32) of these tickets.\nHardware incidents are geographically concentrated and temporally volatile: 71.73% of all Hardware tickets come from Australia, and Australia’s incident mix is 88.28% Hardware (241/273). Hardware shows the most uneven location spread in 2023 (highest–lowest share gap of 0.659) and the biggest time swings—largest month-over-month change (±11 incidents in Jul 2023) and the largest recent share drop (−12.14 percentage points from 68.03% in 2023 to 55.88% in Jan 2024).",
+  "score_insights": 0.5192060255250567,
+  "score_insights_dict": [
+    {
+      "gt_insight": "hardware incidents is significantly higher than others",
+      "pred_insight": "Hardware incidents in Australia are about 24x higher than the next largest category (Software=10) and 7.5x the combined total of all other categories (32), indicating an extreme concentration that likely drives overall volume there.",
+      "score": 0.856311794980255
+    },
+    {
+      "gt_insight": "Specific hardware issues related Printer Malfucntioning are predominantly mentioned in incident descriptions",
+      "pred_insight": "A nearly 66 percentage-point spread for Hardware versus under 22 percentage points for all other categories suggests Hardware incidents are far more geographically concentrated, pointing to location-specific hardware issues or imbalanced resource allocation.",
+      "score": 0.5146027741559265
+    },
+    {
+      "gt_insight": "Most of the hardware incidents are related to printer issues",
+      "pred_insight": "A nearly 66 percentage-point spread for Hardware versus under 22 percentage points for all other categories suggests Hardware incidents are far more geographically concentrated, pointing to location-specific hardware issues or imbalanced resource allocation.",
+      "score": 0.2572112489417927
+    },
+    {
+      "gt_insight": "Most of the hardware incidents are occurring in the Australia location",
+      "pred_insight": "With five locations (uniform baseline ≈20%), Hardware’s 71.73% in Australia is about 3.6× higher than uniform, whereas other categories peak around 24–29%, indicating a pronounced, location-specific skew for Hardware incidents in Australia.",
+      "score": 0.8070122068378099
+    },
+    {
+      "gt_insight": "There is not a significant increase in hardware incidents over time, it is relatively stable and higher than others.",
+      "pred_insight": "Despite the decline, Hardware still constitutes a majority of January 2024 incidents (~55.9%), highlighting persistent imbalance, while Network (+8.0 pts) and Software (+7.0 pts) gains suggest a shift of workload away from Hardware.",
+      "score": 0.549046875525403
+    },
+    {
+      "gt_insight": "Printer with id 'Printer546' is causing the most issues",
+      "pred_insight": "Hardware drives most volatility in incident volumes—capturing 4 of the top 5 MoM spikes (11, 9, 8, 8)—while Database and Network remain relatively steady (never exceeding ±5), indicating surge preparedness and staffing should prioritize the Hardware queue around peak months like July.",
+      "score": 0.1310512527091529
+    }
+  ],
+  "score_summary": 0.5799394858278093,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.5030191770286981,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "Hardware alone accounts for two-thirds (67.2%) of all 500 incidents—over 6.5 times the next largest category (Network at 10.2%)—and the bottom three categories together contribute only 22.6%, highlighting a strong assignment imbalance.",
+      "gt_insight": "hardware incidents is significantly higher than others",
+      "score": 0.8665175834839361
+    },
+    {
+      "pred_insight": "Hardware alone accounts for 336 of 500 incidents (67.2%) with 310 (92.3% of Hardware) being High or Critical, and across all categories there is only 1 Low-priority incident (in Software), indicating a strong skew toward higher-severity work concentrated in Hardware.",
+      "gt_insight": "Specific hardware issues related Printer Malfucntioning are predominantly mentioned in incident descriptions",
+      "score": 0.32349341551242555
+    },
+    {
+      "pred_insight": "Hardware alone accounts for 336 of 500 incidents (67.2%) with 310 (92.3% of Hardware) being High or Critical, and across all categories there is only 1 Low-priority incident (in Software), indicating a strong skew toward higher-severity work concentrated in Hardware.",
+      "gt_insight": "Most of the hardware incidents are related to printer issues",
+      "score": 0.3577949836438152
+    },
+    {
+      "pred_insight": "Hardware incidents in Australia are about 24x higher than the next largest category (Software=10) and 7.5x the combined total of all other categories (32), indicating an extreme concentration that likely drives overall volume there.",
+      "gt_insight": "Most of the hardware incidents are occurring in the Australia location",
+      "score": 0.8308199990190767
+    },
+    {
+      "pred_insight": "Despite the decline, Hardware still constitutes a majority of January 2024 incidents (~55.9%), highlighting persistent imbalance, while Network (+8.0 pts) and Software (+7.0 pts) gains suggest a shift of workload away from Hardware.",
+      "gt_insight": "There is not a significant increase in hardware incidents over time, it is relatively stable and higher than others.",
+      "score": 0.418973512104923
+    },
+    {
+      "pred_insight": "Hardware alone accounts for 336 of 500 incidents (67.2%) with 310 (92.3% of Hardware) being High or Critical, and across all categories there is only 1 Low-priority incident (in Software), indicating a strong skew toward higher-severity work concentrated in Hardware.",
+      "gt_insight": "Printer with id 'Printer546' is causing the most issues",
+      "score": 0.22051556840801217
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.10202603107206414,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.5803256476525205
+}

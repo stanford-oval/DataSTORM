@@ -1,0 +1,187 @@
+{
+  "per_dimension": [
+    {
+      "dimension": "actor_entity",
+      "score": 0.25,
+      "num_concept_groups": 4,
+      "num_consistent_groups": 1,
+      "notes": "Major divergence in how “RDF-linked” is defined. Some queries only accept the ACLED canonical actor name “Military Forces of Rwanda (1994-)” in specific actor fields; others add many synonyms (RDF, Rwanda Armed Forces, Rwandan forces/military), search notes/tags, or omit actor2. Myanmar homonym exclusions are inconsistently applied."
+    },
+    {
+      "dimension": "geography",
+      "score": 0.0,
+      "num_concept_groups": 2,
+      "num_consistent_groups": 0,
+      "notes": "DRC normalization varies widely (different country strings vs ISO), and one Cabo Delgado query omits country=’Mozambique’. These will return different geographies."
+    },
+    {
+      "dimension": "temporal",
+      "score": 1.0,
+      "num_concept_groups": 3,
+      "num_consistent_groups": 3,
+      "notes": "Shared windows such as 2019–2024 and Jan 2023–Dec 2024 are implemented consistently (inclusive bounds)."
+    },
+    {
+      "dimension": "event_taxonomy",
+      "score": 0.5,
+      "num_concept_groups": 2,
+      "num_consistent_groups": 1,
+      "notes": "Air/drone strike is consistently keyed on sub_event_type. However, the “Battles” concept is inconsistently defined (one query uses Battles event_type; another restricts to sub_event_type='Armed clash' only)."
+    },
+    {
+      "dimension": "counting_aggregation",
+      "score": 0.0,
+      "num_concept_groups": 1,
+      "num_consistent_groups": 0,
+      "notes": "For the same Cabo Delgado window, one query filters to time_precision in (1,2) and another has no precision filter, changing the base set."
+    },
+    {
+      "dimension": "population_scope",
+      "score": 0.25,
+      "num_concept_groups": 4,
+      "num_consistent_groups": 1,
+      "notes": "Use of a “cleaned corpus” is inconsistent: some rely on tags (rdf_linked), others on string matching, and Myanmar homonym handling varies. One group (outside Rwanda) is consistent."
+    }
+  ],
+  "conflicts": [
+    {
+      "dimension": "actor_entity",
+      "concept": "Cleaned RDF corpus excluding Myanmar homonyms",
+      "query_indices": [
+        8,
+        9
+      ],
+      "predicate_a": "has_rwanda = (actor/assoc ILIKE '%Military Forces of Rwanda (1994-)%' OR notes ILIKE '%Rwanda Defence Force%' OR notes ILIKE '%Rwandan forces%'); exclude when any actor/notes ~* '\\y(PRDF|HRDF|NRDF|SRDF|MSPDF|PDF)\\y' (2019–2024)",
+      "predicate_b": "country IN ('Democratic Republic of the Congo','Mozambique','Central African Republic','Burundi','Rwanda') AND (actor/assoc/notes ILIKE '%Military Forces of Rwanda (1994-)%' OR '%RDF%' OR '%Rwanda Armed Forces%' OR '%Rwandan armed forces%' OR '%Rwandan forces%'); exclude Myanmar via country <> 'Myanmar' and ILIKE matches to PRDF/HRDF/SRDF/MSPDF/'Palaw PDF'/'Pyu Saw Htee'",
+      "severity": "result-changing",
+      "explanation": "Different positive-match vocabularies (Q9 adds broad '%RDF%' and more synonyms) and different Myanmar exclusion lists/techniques will change which events qualify, even within overlapping countries/years."
+    },
+    {
+      "dimension": "actor_entity",
+      "concept": "Cabo Delgado RDF-linked events (2021–2024)",
+      "query_indices": [
+        10,
+        11
+      ],
+      "predicate_a": "actor1 ILIKE '%Military Forces of Rwanda (1994-)%' OR assoc_actor_1 ILIKE '%Military Forces of Rwanda (1994-)%'",
+      "predicate_b": "actor1 OR actor2 OR assoc_actor_1 OR assoc_actor_2 ILIKE '%Military Forces of Rwanda (1994-)%'",
+      "severity": "result-changing",
+      "explanation": "Q11 includes RDF in actor2/assoc_actor_2 while Q10 does not, so events where RDF is listed as actor2/assoc2 will be counted in Q11 but missed in Q10."
+    },
+    {
+      "dimension": "event_taxonomy",
+      "concept": "Battles definition in Cabo Delgado (2021–2024)",
+      "query_indices": [
+        10,
+        11
+      ],
+      "predicate_a": "event_type='Battles' (grouping all Battles sub_event_types into the Battles bucket)",
+      "predicate_b": "sub_event_type='Armed clash' OR event_type IN ('Explosions/Remote violence','Violence against civilians','Strategic developments')",
+      "severity": "result-changing",
+      "explanation": "Q11 treats only 'Armed clash' as the Battles sub_event_type and excludes other Battles subtypes (e.g., Non-state actor overtakes territory, Government regains territory), making its 'Battles' counts non-comparable to Q10."
+    },
+    {
+      "dimension": "counting_aggregation",
+      "concept": "Inclusion of imprecise dates for Cabo Delgado (2021–2024)",
+      "query_indices": [
+        10,
+        11
+      ],
+      "predicate_a": "time_precision IN (1,2)",
+      "predicate_b": "no time_precision filter",
+      "severity": "result-changing",
+      "explanation": "Q10 excludes imprecise (e.g., time_precision=3) records; Q11 includes all. This changes event totals and shares."
+    },
+    {
+      "dimension": "geography",
+      "concept": "DRC country label normalization",
+      "query_indices": [
+        0,
+        26
+      ],
+      "predicate_a": "country IN ('Democratic Republic of the Congo','Democratic Republic of Congo')",
+      "predicate_b": "country IN ('Democratic Republic of Congo','Mozambique','Central African Republic')",
+      "severity": "result-changing",
+      "explanation": "Q26 only matches 'Democratic Republic of Congo' (without 'the') while Q0 also includes 'Democratic Republic of the Congo'. Rows labeled with the definite-article form will be omitted by Q26."
+    },
+    {
+      "dimension": "geography",
+      "concept": "DRC normalization (names vs ISO)",
+      "query_indices": [
+        0,
+        7
+      ],
+      "predicate_a": "country IN ('Democratic Republic of the Congo','Democratic Republic of Congo')",
+      "predicate_b": "country='Democratic Republic of the Congo' OR country='Congo, Democratic Republic of' OR iso=180",
+      "severity": "result-changing",
+      "explanation": "Q7’s broader normalization (including alternative country string and ISO code) will include events missed by Q0 (and vice versa for countries not normalized the same way)."
+    },
+    {
+      "dimension": "geography",
+      "concept": "Cabo Delgado scope (Mozambique vs admin1 only)",
+      "query_indices": [
+        10,
+        11
+      ],
+      "predicate_a": "country='Mozambique' AND admin1='Cabo Delgado'",
+      "predicate_b": "admin1='Cabo Delgado' (no country predicate)",
+      "severity": "result-changing",
+      "explanation": "Q11 could include spurious rows if any other country uses the same admin1 name; Q10 cannot. This changes the population covered."
+    },
+    {
+      "dimension": "actor_entity",
+      "concept": "Air/drone strikes linked to RDF (2019–2024) — synonym coverage",
+      "query_indices": [
+        18,
+        19
+      ],
+      "predicate_a": "sub_event_type='Air/drone strike' AND (actor1/actor2/assoc1/assoc2 ILIKE '%Military Forces of Rwanda (1994-)%' OR notes/actors include '%RDF%', '%Rwanda Defence Force%', '%Rwanda Armed Forces%', '%Rwandan armed forces%', '%Rwandan forces%')",
+      "predicate_b": "sub_event_type='Air/drone strike' AND actors/notes additionally include variants like '%Rwandan Defence Force%', '%Rwandan Defense Forces%', '%Rwanda Defense Forces%', '%Rwandan army%', '%Rwanda military%'",
+      "severity": "result-changing",
+      "explanation": "Q19’s much broader alias set will admit events missed by Q18 (and vice versa for aliases not shared), affecting counts by country/year."
+    },
+    {
+      "dimension": "actor_entity",
+      "concept": "Air/drone strikes (2023–2024) — actor2 coverage",
+      "query_indices": [
+        20,
+        18
+      ],
+      "predicate_a": "(actor1 OR assoc_actor_1 OR assoc_actor_2 OR notes LIKE '%Rwandan%') for sub_event_type='Air/drone strike' (no actor2 check)",
+      "predicate_b": "(actor1 OR actor2 OR assoc_actor_1 OR assoc_actor_2 OR notes) for sub_event_type='Air/drone strike'",
+      "severity": "result-changing",
+      "explanation": "Events where RDF appears only as actor2 will be omitted by Q20 but included by Q18, altering monthly counts and lethality."
+    },
+    {
+      "dimension": "population_scope",
+      "concept": "Using the 'cleaned corpus' for timeline vs tags",
+      "query_indices": [
+        26,
+        8
+      ],
+      "predicate_a": "tags ILIKE '%rdf_linked%' (country IN ('Democratic Republic of Congo','Mozambique','Central African Republic'))",
+      "predicate_b": "year 2019–2024 AND actor/notes pattern defining RDF involvement (no reliance on tags; Myanmar homonyms excluded by regex)",
+      "severity": "result-changing",
+      "explanation": "Q26 purports to be 'within the cleaned corpus' but uses a tag flag instead of the explicit cleaned filters (and different country label list), so it will select a different base than Q8’s cleaned logic."
+    },
+    {
+      "dimension": "population_scope",
+      "concept": "Excluding Myanmar homonyms across analyses",
+      "query_indices": [
+        18,
+        8
+      ],
+      "predicate_a": "year=2024 AND sub_event_type='Air/drone strike' with RDF synonyms (no Myanmar exclusion) — output includes Myanmar",
+      "predicate_b": "2019–2024 cleaned corpus excludes Myanmar PDF/PRDF/HRDF/NRDF/SRDF/MSPDF/PDF homonyms via regex",
+      "severity": "result-changing",
+      "explanation": "Including Myanmar in Q18 contradicts the cleaned-corpus approach that avoids Myanmar homonym collisions, making cross-table comparisons inconsistent."
+    }
+  ],
+  "overall_score": 0.33,
+  "summary": "Temporal windows and the air/drone sub-event definition are applied consistently, but core consistency breaks down around who counts as “RDF-linked,” how the DRC is identified, and how Battles are defined. Several tables mix different actor alias sets, omit actor2, rely on tags instead of the stated cleaned filters, or even include Myanmar despite earlier exclusions. These inconsistencies will materially change event counts, shares, and fatalities across otherwise comparable outputs.",
+  "report_dir": "<repo>/datatalk/acled/18/Explores_the_roles_and_operations_of_the_Rwanda_Defence_Force_in_regional_conflicts_and_their_geopolitical_s__20260324_085855",
+  "model": "gpt-5",
+  "num_queries": 28,
+  "applicable": true,
+  "id": 18
+}

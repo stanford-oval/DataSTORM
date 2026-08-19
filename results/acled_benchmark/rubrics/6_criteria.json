@@ -1,0 +1,64 @@
+{
+  "criteria": [
+    {
+      "name": "Post-agreement security climate",
+      "description": "Assess whether overall security conditions in Tigray are stabilizing or deteriorating since the peace deal, noting persistence of unrest despite formal cessation of hostilities."
+    },
+    {
+      "name": "Factional split within ruling movement",
+      "description": "Examine internal divisions within the dominant regional party, how competing factions emerged, and how the split threatens governance and peace implementation."
+    },
+    {
+      "name": "Control over armed forces",
+      "description": "Evaluate the extent to which civilian leaders and party factions exert authority over regional armed formations, and how incomplete disarmament heightens risks of renewed violence."
+    },
+    {
+      "name": "Federal–regional power dynamics",
+      "description": "Analyze interactions between the interim regional administration and the federal government, including appointments, oversight, and potential intervention scenarios."
+    },
+    {
+      "name": "Legal and institutional legitimacy",
+      "description": "Review party registration, electoral requirements, and institutional recognition, and how procedural disputes affect claims to authority and the transition to elected governance."
+    },
+    {
+      "name": "Geographic patterns of support",
+      "description": "Identify whether support for factions aligns with sub-regional or locality-based patterns and the extent to which these patterns are fluid rather than rigidly territorial."
+    },
+    {
+      "name": "Risk of intra-Tigray violence",
+      "description": "Assess triggers and pathways for internal armed confrontation, including leadership targeting, factional mobilization, and clashes in disputed areas."
+    },
+    {
+      "name": "Impact on peace agreement implementation",
+      "description": "Consider how internal disputes impede key provisions such as disarmament, reintegration, territorial arrangements, and the establishment of a regional government through elections."
+    },
+    {
+      "name": "Spillover from neighboring conflicts",
+      "description": "Evaluate how concurrent unrest in adjacent regions and disputed territories influences security dynamics and escalatory risks in Tigray."
+    },
+    {
+      "name": "Humanitarian and displacement context",
+      "description": "Assess how lingering displacement and slow recovery from prior war amplify the costs of renewed instability and complicate reconciliation."
+    },
+    {
+      "name": "Mediation and dialogue efforts",
+      "description": "Examine the role and effectiveness of civil society, religious leaders, and international partners in facilitating dialogue and preventing escalation."
+    },
+    {
+      "name": "Public sentiment and legitimacy crisis",
+      "description": "Gauge local perceptions of factional motives, trust in leadership, and calls for alternative political options, and how these views affect stability."
+    },
+    {
+      "name": "Scenarios and outlook",
+      "description": "Outline plausible near-term outcomes—consolidation by one faction or escalation to violence—and their implications for governance and civilian security."
+    },
+    {
+      "name": "Security incidents post-ceasefire",
+      "description": "Track patterns of armed incidents involving regional forces or militias since the ceasefire, focusing on whether incidents are isolated or indicative of systematic relapse."
+    },
+    {
+      "name": "Administrative control maneuvers",
+      "description": "Monitor attempts by factions to seize or retain control of interim government positions and party organs, and their compliance with procedural rules."
+    }
+  ]
+}

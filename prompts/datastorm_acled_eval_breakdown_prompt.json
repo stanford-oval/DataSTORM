@@ -1,0 +1,12 @@
+{
+  "name": "datastorm_acled_eval_breakdown_prompt",
+  "version": 1,
+  "type": "text",
+  "labels": [
+    "production",
+    "latest"
+  ],
+  "tags": [],
+  "config": {},
+  "prompt": "Given an input article, your task is to break down the insights in the article into itemized points. Each insight should be self-contained.\n\nInput article: {{ article }}"
+}

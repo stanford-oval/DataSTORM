@@ -1,0 +1,75 @@
+{
+  "dataset_id": 40,
+  "dataset_path": "data/notebooks/flag-40.json",
+  "metadata": {
+    "category": "Finance Management",
+    "dataset_description": "This dataset contains 500 simulated entries from the ServiceNow `fm_expense_line` table, which captures various details of financial expenses. Key attributes include 'number', 'opened_at', 'amount', 'state', 'short_description', 'ci', 'user', 'department', 'category', 'process_date', 'source_id', and 'type'. The table provides a comprehensive record of financial transactions, detailing the amount, departmental allocation, and nature of each expense. It offers a clear view of organizational expenditures across different categories, highlighting the timing and approval status of each financial entry.",
+    "goal": "Investigate the factors leading to quicker expense processing times within a specific department and assess whether these practices can be implemented to enhance efficiency across all departments.",
+    "header": "Analysis of Expense Processing Times (Flag 40)",
+    "role": "Operational Efficiency Analyst"
+  },
+  "predicted_insights": [
+    "If other departments matched Customer Support’s 52.5-day median, their medians would drop by 9.5–30.5 days, with HR seeing the largest potential reduction of 30.5 days (~36.7%).",
+    "This is a weak negative relationship (r^2 ≈ 4.7%), suggesting larger expenses tend to be processed slightly faster in Customer Support; among sampled points, processing times span 1–246 days while amounts range roughly $40.8k–$143.7k, indicating that process factors beyond amount likely dominate turnaround variability.",
+    "One-time requests are 20.0 units (about 28%) faster at the median than Recurring within Customer Support, suggesting that streamlining recurring workflows could reduce typical processing times by roughly a quarter if similar improvements are applied across departments.",
+    "Customer Support’s travel expenses are processed 16–72 days faster than other categories (32% faster than Services, 58% faster than Assets, and 68% faster than Miscellaneous), suggesting that streamlining practices used in travel processing could substantially shorten processing times in other categories and departments.",
+    "Even though One-time expenses are more common in Customer Support (13 vs 6), Recurring expenses are processed about 22.5 units faster—a ~44% lower median—indicating that standardizing recurring workflows could meaningfully reduce processing times if adopted across other departments.",
+    "Nearly 2 in 5 Customer Support expenses are recorded as being processed before they were opened, a quantitative signal of a potential timestamp/workflow anomaly that could distort perceived processing speed and should be corrected before scaling efficiency practices.",
+    "Europe’s median is 20.5 days faster than North America and 40–65 days faster than Asia, Africa, and South America, suggesting that adopting Europe’s workflows could cut typical processing times by several weeks across locations.",
+    "Recurring expenses are processed faster at the median by 6.0 units—about a 21% reduction versus the One-time median (6.0/29.0)—suggesting that standardized or automated workflows used for recurring items could meaningfully shorten processing times if adopted more broadly.",
+    "Only half of the departments (3/6) mirror Finance’s “Recurring is faster” pattern, indicating that efficiency gains from Recurring-focused practices are not universal and that the 3 non-aligning departments are prime targets for process improvement.",
+    "Fast processing is rare overall—only 12 of 122 expenses (9.84%) were completed within 7 days—so practices from Product Management (16.67%) could help lift lagging departments like HR (0%) and IT (9.09%).",
+    "Travel’s 5.0 median is roughly 73% faster than Miscellaneous (18.5), ~85% faster than Assets (33.0), and ~87% faster than Services (38.5), indicating a potential 13.5–33.5 reduction in typical processing time if similar practices are adopted for other categories.",
+    "Despite having a similar workload (68 records) to IT (68) and Development (69), Product Management’s median processing time is 14% higher than the company median, indicating department-specific process inefficiencies rather than volume are likely responsible."
+  ],
+  "predicted_summary": "Customer Support stands out for speed: when negative records are excluded, it has the shortest department-wide median processing time at 52.5 days. Within Customer Support, Travel is the fastest category (median 34 days). The relative speed of expense types depends on whether negatives are included: excluding negatives, One-time is quicker than Recurring by 20 days (51 vs 71), but including negatives, Recurring appears faster (28.5 vs 51). This shift aligns with the department’s high share of negative periods (38.46%) and Europe’s notably negative median (−11 days), and larger amounts are modestly associated with quicker handling (Pearson r = −0.2167).\nCompany-wide, Recurring expenses are generally processed faster than One-time by 6 days at the median (23 vs 29), but this advantage is only observed in half of the departments with both types present (3 of 6). The faster performance of Recurring is a common pattern, yet not uniformly realized across all departments.\nFast-turnaround pockets exist outside the fastest department: Product Management has the highest share of expenses completed within 7 days (16.67%; 3 of 18), and its Travel category is exceptionally quick (median 5 days), even though the department’s overall median is 3.5 days longer than the company-wide median. This highlights significant category-level variability beneath department-level averages.",
+  "score_insights": 0.39805311562655676,
+  "score_insights_dict": [
+    {
+      "gt_insight": "Processing times vary significantly across departments",
+      "pred_insight": "Despite having a similar workload (68 records) to IT (68) and Development (69), Product Management’s median processing time is 14% higher than the company median, indicating department-specific process inefficiencies rather than volume are likely responsible.",
+      "score": 0.5681692760169998
+    },
+    {
+      "gt_insight": "Amounts in expense reports vary significantly based on short description keywords",
+      "pred_insight": "This is a weak negative relationship (r^2 ≈ 4.7%), suggesting larger expenses tend to be processed slightly faster in Customer Support; among sampled points, processing times span 1–246 days while amounts range roughly $40.8k–$143.7k, indicating that process factors beyond amount likely dominate turnaround variability.",
+      "score": 0.2208314288297067
+    },
+    {
+      "gt_insight": "Processing times vary across expense categories within departments",
+      "pred_insight": "Customer Support’s travel expenses are processed 16–72 days faster than other categories (32% faster than Services, 58% faster than Assets, and 68% faster than Miscellaneous), suggesting that streamlining practices used in travel processing could substantially shorten processing times in other categories and departments.",
+      "score": 0.5117859106353717
+    },
+    {
+      "gt_insight": "Lower expense brackets have faster processing times in the Development department",
+      "pred_insight": "Travel’s 5.0 median is roughly 73% faster than Miscellaneous (18.5), ~85% faster than Assets (33.0), and ~87% faster than Services (38.5), indicating a potential 13.5–33.5 reduction in typical processing time if similar practices are adopted for other categories.",
+      "score": 0.2914258470241489
+    }
+  ],
+  "score_summary": 0.449484179265258,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.4895783851545564,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "Fast processing is rare overall—only 12 of 122 expenses (9.84%) were completed within 7 days—so practices from Product Management (16.67%) could help lift lagging departments like HR (0%) and IT (9.09%).",
+      "gt_insight": "Processing times vary significantly across departments",
+      "score": 0.7532750812347353
+    },
+    {
+      "pred_insight": "Even though One-time expenses are more common in Customer Support (13 vs 6), Recurring expenses are processed about 22.5 units faster—a ~44% lower median—indicating that standardizing recurring workflows could meaningfully reduce processing times if adopted across other departments.",
+      "gt_insight": "Amounts in expense reports vary significantly based on short description keywords",
+      "score": 0.2830586672100469
+    },
+    {
+      "pred_insight": "Even though One-time expenses are more common in Customer Support (13 vs 6), Recurring expenses are processed about 22.5 units faster—a ~44% lower median—indicating that standardizing recurring workflows could meaningfully reduce processing times if adopted across other departments.",
+      "gt_insight": "Processing times vary across expense categories within departments",
+      "score": 0.5979053058329445
+    },
+    {
+      "pred_insight": "Travel’s 5.0 median is roughly 73% faster than Miscellaneous (18.5), ~85% faster than Assets (33.0), and ~87% faster than Services (38.5), indicating a potential 13.5–33.5 reduction in typical processing time if similar practices are adopted for other categories.",
+      "gt_insight": "Lower expense brackets have faster processing times in the Development department",
+      "score": 0.3240744863404987
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.14059984543521842,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.6082934521340553
+}

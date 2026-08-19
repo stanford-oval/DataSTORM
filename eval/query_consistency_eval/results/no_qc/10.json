@@ -1,0 +1,211 @@
+{
+  "per_dimension": [
+    {
+      "dimension": "actor_entity",
+      "score": 0.0,
+      "num_concept_groups": 6,
+      "num_consistent_groups": 0,
+      "notes": "Definitions of “militant-involved” and specific group matching (e.g., TTP) vary widely: some use inter1/2 categories, others rely on text '%militant%' or numeric interaction codes, and the code sets differ across queries. TTP matching predicates differ across queries and columns searched."
+    },
+    {
+      "dimension": "geography",
+      "score": 1.0,
+      "num_concept_groups": 1,
+      "num_consistent_groups": 1,
+      "notes": "All relevant queries consistently filter country = 'Pakistan'. Place-specific filters (e.g., KP province, cities) are not reused elsewhere, so no cross-query inconsistency arises."
+    },
+    {
+      "dimension": "temporal",
+      "score": 0.67,
+      "num_concept_groups": 3,
+      "num_consistent_groups": 2,
+      "notes": "Year windows for 2024 and for 2023–2024 are expressed equivalently (year IN vs date bounds). The 'last 12 months' window is inconsistent across queries (rolling day vs full calendar months vs a fixed 'as of' date)."
+    },
+    {
+      "dimension": "event_taxonomy",
+      "score": 0.0,
+      "num_concept_groups": 2,
+      "num_consistent_groups": 0,
+      "notes": "Event/target categorization varies: 'militant attacks/clashes' alternates between event_type lists vs actor-based selection; police/security-targeted definitions differ (notes/tags vs interaction text vs none). Interaction/target role classification also differs (symmetrical interaction vs inter2-only)."
+    },
+    {
+      "dimension": "counting_aggregation",
+      "score": 0.5,
+      "num_concept_groups": 2,
+      "num_consistent_groups": 1,
+      "notes": "Per-actor 'events_count' is deduplicated by event in one query but not another. Monthly unique militant actor counts are consistently computed with COUNT(DISTINCT)."
+    },
+    {
+      "dimension": "population_scope",
+      "score": 1.0,
+      "num_concept_groups": 1,
+      "num_consistent_groups": 1,
+      "notes": "All queries consistently filter to Pakistan; no cross-query omission of country or scope expansion detected. Use of different table names (events vs acled_events) appears cosmetic here without evidence of different populations."
+    }
+  ],
+  "conflicts": [
+    {
+      "dimension": "actor_entity",
+      "concept": "Militant-involved events in 2024 (Pakistan)",
+      "query_indices": [
+        9,
+        17
+      ],
+      "predicate_a": "(inter1 IN ('Rebel group','Political militia','Identity militia') OR inter2 IN ('Rebel group','Political militia','Identity militia'))",
+      "predicate_b": "(lower(actor1) LIKE '%militant%' OR lower(actor2) LIKE '%militant%' OR interaction IN (13,15)) AND event_type IN ('Explosions/Remote violence','Violence against civilians')",
+      "severity": "result-changing",
+      "explanation": "Q9 uses ACLED interaction categories to capture all non-state armed actors on either side; Q17 relies on a literal 'militant' string or a subset of numeric interaction codes and additionally restricts event types. They will select different sets of events."
+    },
+    {
+      "dimension": "actor_entity",
+      "concept": "Militant-involved events, monthly trend 2023–2024",
+      "query_indices": [
+        2,
+        8
+      ],
+      "predicate_a": "event_type IN ('Battles','Explosions/Remote violence','Violence against civilians') OR sub_event_type IN ('Armed clash','Attack', 'Remote explosive/landmine/IED','Suicide bomb','Grenade','Shelling/artillery/missile attack','Air/drone strike','Non-state actor overtakes territory','Disrupted weapons use')",
+      "predicate_b": "(inter1 IN ('Rebel group','Political militia','Identity militia') OR inter2 IN ('Rebel group','Political militia','Identity militia'))",
+      "severity": "result-changing",
+      "explanation": "Q2 is event-type based without restricting actors (may include state-only or other actors), while Q8 is actor-based (non-state on either side) with no event-type restriction. They will count different events."
+    },
+    {
+      "dimension": "actor_entity",
+      "concept": "TTP identification",
+      "query_indices": [
+        4,
+        11
+      ],
+      "predicate_a": "UPPER(actor1) LIKE '%TTP%' OR UPPER(actor2) LIKE '%TTP%' OR UPPER(actor1) LIKE '%TEHRIK-I-TALIBAN%' OR UPPER(actor2) LIKE '%TEHRIK-I-TALIBAN%'",
+      "predicate_b": "lower(actor1) LIKE '%tehreek-e-taliban pakistan%' OR lower(actor2) LIKE '%tehreek-e-taliban pakistan%' OR lower(assoc_actor_1) LIKE '%tehreek-e-taliban pakistan%' OR lower(assoc_actor_2) LIKE '%tehreek-e-taliban pakistan%'",
+      "severity": "result-changing",
+      "explanation": "They match different name variants and search different columns. Q4 misses assoc_actor fields; Q11 misses the 'TTP' acronym and alternate transliterations, so each returns different events."
+    },
+    {
+      "dimension": "actor_entity",
+      "concept": "TTP identification",
+      "query_indices": [
+        4,
+        26
+      ],
+      "predicate_a": "UPPER(actor1) LIKE '%TTP%' OR UPPER(actor2) LIKE '%TTP%' OR UPPER(actor1) LIKE '%TEHRIK-I-TALIBAN%' OR UPPER(actor2) LIKE '%TEHRIK-I-TALIBAN%'",
+      "predicate_b": "actor1/actor2/assoc_actor_1/assoc_actor_2 ILIKE patterns for '%TTP%' OR '%Tehrik-i-Taliban Pakistan%' (multiple variants)",
+      "severity": "result-changing",
+      "explanation": "Q26 searches both actor and associated actor fields and includes more spelling variants than Q4. Q4 is narrower in variants and columns, so their TTP pulls will not match."
+    },
+    {
+      "dimension": "actor_entity",
+      "concept": "Militant interactions via numeric codes (acled_events)",
+      "query_indices": [
+        10,
+        17
+      ],
+      "predicate_a": "interaction IN (13,14,15,16) OR actor fields contain 'militant'",
+      "predicate_b": "interaction IN (13,15) OR actor fields contain 'militant'",
+      "severity": "result-changing",
+      "explanation": "The sets of numeric interaction codes differ (13,14,15,16 vs 13,15), producing different event sets for the same concept."
+    },
+    {
+      "dimension": "actor_entity",
+      "concept": "Militant interactions via numeric codes (acled_events)",
+      "query_indices": [
+        10,
+        13
+      ],
+      "predicate_a": "interaction IN (13,14,15,16) OR actor fields contain 'militant'",
+      "predicate_b": "interaction IN (14,24) OR (militant vs police/state string matches)",
+      "severity": "result-changing",
+      "explanation": "Numeric code lists are disjoint/overlapping differently; Q13 also adds specific text matches. These criteria will return different events."
+    },
+    {
+      "dimension": "actor_entity",
+      "concept": "Militant actor involvement detection (side placement)",
+      "query_indices": [
+        3,
+        9
+      ],
+      "predicate_a": "inter1 IN ('Rebel group','Political militia','Identity militia')",
+      "predicate_b": "inter1 IN ('Rebel group','Political militia','Identity militia') OR inter2 IN ('Rebel group','Political militia','Identity militia')",
+      "severity": "result-changing",
+      "explanation": "Q3 only flags events where the militant is coded as actor1; Q9 includes militants on either side. This asymmetry will exclude some militant incidents in Q3."
+    },
+    {
+      "dimension": "actor_entity",
+      "concept": "Militant scope for last-12-months actor analysis",
+      "query_indices": [
+        20,
+        21
+      ],
+      "predicate_a": "inter_txt IN ('Rebel group','Political militia','Identity militia','External/Other forces')",
+      "predicate_b": "inter1 IN ('Rebel group','Political militia','Identity militia') OR inter2 IN ('Rebel group','Political militia','Identity militia')",
+      "severity": "result-changing",
+      "explanation": "Q20 includes 'External/Other forces' as militants; Q21 restricts to the three non-state categories. This expands the actor set in Q20 relative to Q21."
+    },
+    {
+      "dimension": "temporal",
+      "concept": "Last 12 months window (rolling)",
+      "query_indices": [
+        19,
+        21
+      ],
+      "predicate_a": "event_date > (max_dt - INTERVAL '12 months') AND event_date <= max_dt (day-rolling window)",
+      "predicate_b": "events from the first day of the month 11 months before end_month through end_month (full calendar months)",
+      "severity": "result-changing",
+      "explanation": "One window is day-rolling; the other is full-calendar-months. Their covered dates differ, altering which events are counted."
+    },
+    {
+      "dimension": "temporal",
+      "concept": "Last 12 months anchor date",
+      "query_indices": [
+        19,
+        20
+      ],
+      "predicate_a": "Window ends at MAX(event_date) in the data",
+      "predicate_b": "Window ends at a fixed parameter DATE '2026-05-30'",
+      "severity": "result-changing",
+      "explanation": "Different anchor dates for the rolling window will select different months/days, producing incomparable results."
+    },
+    {
+      "dimension": "event_taxonomy",
+      "concept": "Police/security-targeted events definition",
+      "query_indices": [
+        24,
+        25
+      ],
+      "predicate_a": "is_police_security = 1 if inter2='State forces' OR notes/tags mention police/security terms",
+      "predicate_b": "police_security_events counted where interaction_text ILIKE '%State forces%'",
+      "severity": "result-changing",
+      "explanation": "Q24 mixes role-based inter2 with keyword heuristics; Q25 uses interaction text only. These methods will tag different sets of events as police/security-targeted."
+    },
+    {
+      "dimension": "event_taxonomy",
+      "concept": "Interaction/target role classification",
+      "query_indices": [
+        14,
+        22
+      ],
+      "predicate_a": "Classify by symmetrical interaction text sets (e.g., 'Rebel group-State forces', 'State forces-Rebel group' grouped together)",
+      "predicate_b": "Use inter2 as target_category directly (no symmetry handling); no additional interaction filtering",
+      "severity": "result-changing",
+      "explanation": "Q14 treats interaction roles symmetrically; Q22 depends on actor2 coding only. Events where role order differs will be categorized inconsistently."
+    },
+    {
+      "dimension": "counting_aggregation",
+      "concept": "Per-actor events_count de-duplication",
+      "query_indices": [
+        16,
+        20
+      ],
+      "predicate_a": "Count(*) over union-all actor1/actor2 rows (no DISTINCT by event_id per actor)",
+      "predicate_b": "SELECT DISTINCT event_id_cnty per actor before counting; counts de-duplicated per actor",
+      "severity": "result-changing",
+      "explanation": "Q16 may double-count if an actor appears as both actor1 and actor2 in the same event (or due to duplicates), while Q20 deduplicates by event per actor. Resulting 'events_count' is not comparable."
+    }
+  ],
+  "overall_score": 0.53,
+  "summary": "There are substantial inconsistencies in how “militant-involved” events and specific groups (notably TTP) are defined across queries. Temporal windows for the “last 12 months” and target-category definitions (e.g., police/security-targeted) also diverge, leading to result-changing differences. Yearly windows and geography are consistent, and some aggregation methods are aligned, but overall consistency is moderate at best.",
+  "report_dir": "<repo>/datatalk/acled_ablations/no_qc_fixed/10/What_are_the_status_of_militants_in_Pakistan_over_the_last_year_and_what_would_be_the_outlook_for_conflicts__resummarized_20260602_030806",
+  "model": "gpt-5",
+  "num_queries": 27,
+  "applicable": true,
+  "id": 10
+}

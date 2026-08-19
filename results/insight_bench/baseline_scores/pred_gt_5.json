@@ -1,0 +1,75 @@
+{
+  "dataset_id": 5,
+  "dataset_path": "data/notebooks/flag-5.json",
+  "metadata": {
+    "category": "Incident Management",
+    "dataset_description": "The dataset comprises 500 entries simulating ServiceNow incidents table, detailing various attributes such as category, state, open and close dates, involved personnel, and incident specifics like description, and priority. It captures incident management activities with fields like 'opened_at', 'closed_at', 'assigned_to', 'short_description', and 'priority', reflecting the operational handling and urgency of issues across different locations and categories.",
+    "goal": "Analyze the trends in the dataset to identify factors that influence the time to resolution, particularly in certain category.",
+    "header": "Time to Resolution Trends Across Incident Categories (Flag 5)",
+    "role": "Hardware Incident Analyst"
+  },
+  "predicted_insights": [
+    "Hardware’s median TTR (420.0 hours) is about 278 hours longer—nearly 3×—than Software’s 141.8 hours, indicating that performance issues are concentrated in Hardware and that improving this category likely offers the largest potential reduction in overall resolution times.",
+    "Operationally, low-priority incidents have a median resolution time about 4.1× longer than the average of higher priorities—roughly 27.4 days versus ~6.6 days—suggesting backlog deferral that may merit separate SLA targets.",
+    "Off-hours Software tickets not only occur more often (67 vs 53) but take nearly two extra days to resolve on median (~45 hours longer, ~47% increase), indicating that opening time is a meaningful driver of longer resolution times—likely tied to after-hours coverage and handoff delays.",
+    "The absence of sufficient Service Desk data in the Software category suggests these tickets are rarely resolved by the Service Desk and are concentrated in the Software group, where the typical (median) resolution time is about 125 hours (~5.2 days).",
+    "Resolution speed decreases with lower priority: moving from Critical to High adds about 49 hours to the median, and from High to Moderate adds ~25 hours, meaning Critical software incidents are resolved ~44% faster than Moderate and ~34% faster than High, reflecting effective prioritization.",
+    "Resolution times for Software incidents were highly variable in 2023 (15.18–214.35 hours) but improved markedly by January 2024 (50.39 hours), which is about 57% faster than the 2023 monthly median of ~117 hours.",
+    "Across Software assignees, median resolution times span roughly 92.8–205.4 hours (>2x difference), with Fred Luddy’s median about 51% higher than Luke Wilson’s and 121% higher than Howard Johnson’s—indicating that who handles the ticket can substantially influence resolution speed in this category.",
+    "Software incidents are twice as likely to exceed 72 hours as to be resolved within it (80 vs 40), indicating that two-thirds of these tickets run long and suggesting targeted process or capacity improvements in the Software queue could yield substantial time-to-resolution gains.",
+    "Assignee choice strongly influences Software resolution times: the top median (Fred Luddy, 210.49h) is 44% higher than the next highest and 102.69 hours longer than the shortest (Charlie Whitherspoon, 107.8h), revealing substantial variability across assignees.",
+    "125.13 hours is about 5.21 days, meaning at least half of Software-category tickets assigned to the Software group take over five days to resolve, which can materially drive the category’s overall resolution time.",
+    "This drop equals a median reduction of about 81.73 hours (~3.4 days), cutting typical resolution time to roughly 38% of its 2023 level (from ~5.5 to ~2.1 days), indicating substantially faster turnaround for Software tickets opened in 2024.",
+    "Critical Software incidents opened in 2023 took a median 95.06 hours (about 4 days) to resolve, indicating extended turnaround for the highest priority; the absence of Low-priority cases in this slice may skew category performance metrics and suggests either routing differences or data gaps."
+  ],
+  "predicted_summary": "Within the Software category, when tickets are opened outside business hours (6pm–8am), the typical resolution time rises to about 139.9 hours versus 95.13 hours during business hours—an added 44.8 hours (+47%). Coupled with the fact that 66.67% of Software incidents take more than 72 hours to resolve, this points to timing of ticket creation as a key driver of longer, multi-day resolutions.\nResolution times for Software incidents have recently improved substantially: the median fell by 61.86% from 132.12 hours in 2023 to 50.39 hours in 2024. Monthly medians in 2023 were volatile and often high (e.g., March–July ranging ≈187–214 hours), while January 2024 reached ≈50.39 hours, indicating a notable downward trend.\nCategory and priority appear weak predictors in this dataset, while assignment-related factors show stronger associations: Software’s median time is not significantly different from other categories (141.8 vs 168.1 hours; p=0.168), and priorities overall are not significantly different (p=0.106) despite “4 - Low” appearing slow. In contrast, within Software the ‘Software’ assignment group shows the longest typical resolution (≈125.13 hours), and the assignee with the longest median is Fred Luddy (≈210.49 hours); within Software, median times also rise from ‘1 - Critical’ (≈95.06) to ‘3 - Moderate’ (≈169.06), a +78% increase.",
+  "score_insights": 0.4318573260762916,
+  "score_insights_dict": [
+    {
+      "gt_insight": "Incident distribution across categories is more or less uniform",
+      "pred_insight": "The absence of sufficient Service Desk data in the Software category suggests these tickets are rarely resolved by the Service Desk and are concentrated in the Software group, where the typical (median) resolution time is about 125 hours (~5.2 days).",
+      "score": 0.24601193226445903
+    },
+    {
+      "gt_insight": "Average time to resolution for Hardware incidents is higher than for other categories",
+      "pred_insight": "Hardware’s median TTR (420.0 hours) is about 278 hours longer—nearly 3×—than Software’s 141.8 hours, indicating that performance issues are concentrated in Hardware and that improving this category likely offers the largest potential reduction in overall resolution times.",
+      "score": 0.6943877234084288
+    },
+    {
+      "gt_insight": "Average time to resolution for Hardware incidents is not only higher than other categories but also increasing over time",
+      "pred_insight": "Hardware’s median TTR (420.0 hours) is about 278 hours longer—nearly 3×—than Software’s 141.8 hours, indicating that performance issues are concentrated in Hardware and that improving this category likely offers the largest potential reduction in overall resolution times.",
+      "score": 0.5302073195486099
+    },
+    {
+      "gt_insight": "Uniform distribution of incidents closed by human agents indicates that earlier anomalies may not be productivity-related",
+      "pred_insight": "The absence of sufficient Service Desk data in the Software category suggests these tickets are rarely resolved by the Service Desk and are concentrated in the Software group, where the typical (median) resolution time is about 125 hours (~5.2 days).",
+      "score": 0.2568223290836686
+    }
+  ],
+  "score_summary": 0.4005730049756592,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.5029524314958148,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "Critical Software incidents opened in 2023 took a median 95.06 hours (about 4 days) to resolve, indicating extended turnaround for the highest priority; the absence of Low-priority cases in this slice may skew category performance metrics and suggests either routing differences or data gaps.",
+      "gt_insight": "Incident distribution across categories is more or less uniform",
+      "score": 0.30598401096033784
+    },
+    {
+      "pred_insight": "Hardware’s median TTR (420.0 hours) is about 278 hours longer—nearly 3×—than Software’s 141.8 hours, indicating that performance issues are concentrated in Hardware and that improving this category likely offers the largest potential reduction in overall resolution times.",
+      "gt_insight": "Average time to resolution for Hardware incidents is higher than for other categories",
+      "score": 0.8311359157710705
+    },
+    {
+      "pred_insight": "Hardware’s median TTR (420.0 hours) is about 278 hours longer—nearly 3×—than Software’s 141.8 hours, indicating that performance issues are concentrated in Hardware and that improving this category likely offers the largest potential reduction in overall resolution times.",
+      "gt_insight": "Average time to resolution for Hardware incidents is not only higher than other categories but also increasing over time",
+      "score": 0.5961340980438479
+    },
+    {
+      "pred_insight": "Critical Software incidents opened in 2023 took a median 95.06 hours (about 4 days) to resolve, indicating extended turnaround for the highest priority; the absence of Low-priority cases in this slice may skew category performance metrics and suggests either routing differences or data gaps.",
+      "gt_insight": "Uniform distribution of incidents closed by human agents indicates that earlier anomalies may not be productivity-related",
+      "score": 0.2785557012080032
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.35750971988298247,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.44215962732248937
+}

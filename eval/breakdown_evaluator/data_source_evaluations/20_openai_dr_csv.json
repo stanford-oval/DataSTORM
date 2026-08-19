@@ -1,0 +1,112 @@
+{
+  "total_insights": 10,
+  "total_classified": 10,
+  "acled_count": 4,
+  "non_acled_count": 6,
+  "pct_acled": 0.4,
+  "details": [
+    {
+      "evidence": "On 19 October 2024, a high-ranking RSF commander in Al-Jazirah defected to the Sudanese Armed Forces (SAF) with hundreds of fighters.",
+      "is_acled_data": true,
+      "reasoning": "The evidence describes a specific conflict event with date, location, actors, and action (defection of an RSF commander with fighters to SAF). Such event-level details align with ACLED’s event descriptions and armed group activity data, which track defections and actor movements as conflict events.",
+      "source_context": "Article opening; details the date and nature of the defection in Al-Jazirah."
+    },
+    {
+      "evidence": "The defection triggered immediate RSF reprisals in Al-Jazirah targeting communities perceived as supportive of the defector or the SAF.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a qualitative claim about reprisals following a defection, without citing specific events, dates, locations, counts, fatalities, or actor-coded incidents. It reads as narrative analysis rather than referencing ACLED event data or statistics, and there is no explicit attribution to ACLED.",
+      "source_context": "Article notes a chain reaction of violence and RSF retaliatory actions following the defection."
+    },
+    {
+      "evidence": "Violence against civilians in Al-Jazirah spiked in November 2024, with ACLED recording a 129% increase in attacks compared to prior periods.",
+      "is_acled_data": true,
+      "reasoning": "The evidence explicitly cites ACLED and references a quantified change in violence against civilians (event counts/temporal trend), which are core ACLED data outputs.",
+      "source_context": "Section on surge in violence references ACLED data for early November 2024."
+    },
+    {
+      "evidence": "RSF forces conducted retaliatory massacres and assaults across villages in Al-Jazirah in late October and throughout November 2024.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references specific conflict activity (RSF retaliatory massacres and assaults) in a defined location (Al-Jazirah) and time frame (late October–November 2024), which aligns with ACLED’s event-based data on violence against civilians and armed group activity. Such phrasing commonly reflects aggregated ACLED incident reports and temporal patterns.",
+      "source_context": "Description of RSF actions following the defection, including timing and scope."
+    },
+    {
+      "evidence": "A mass killing occurred in Al-Sireha village (Al-Jazirah) in late October 2024, leaving dozens of civilians dead.",
+      "is_acled_data": true,
+      "reasoning": "The evidence describes a specific violent event (mass killing) with location (Al-Sireha, Al-Jazirah), timing (late October 2024), and impact (dozens of civilians dead). Such incident-level details, fatalities, and violence against civilians are core components of ACLED’s event data and could be directly sourced from ACLED.",
+      "source_context": "Example provided within the surge in violence section citing local media reports."
+    },
+    {
+      "evidence": "Throughout November 2024, RSF units shelled and raided rural communities, looting property, abducting residents, and executing civilians suspected of SAF alignment.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a generalized description of RSF behavior (shelling, raids, looting, abductions, executions) during November 2024 without citing specific events, counts, locations, or attribution to ACLED. It reads as narrative commentary rather than referencing ACLED event data or statistics.",
+      "source_context": "Details of tactics used by RSF in the November campaign of violence."
+    },
+    {
+      "evidence": "RSF forces deliberately destroyed infrastructure, including flooding Al-Sireha’s farmland by wrecking irrigation channels.",
+      "is_acled_data": false,
+      "reasoning": "The statement describes deliberate infrastructure destruction and flooding of farmland, but it is a general claim without specific ACLED event references, dates, locations with coordinates, fatalities, or actor-tagged incident data. It reads like a narrative/qualitative report rather than a citation of ACLED event data or statistics.",
+      "source_context": "Humanitarian impact section describing intentional infrastructure damage."
+    },
+    {
+      "evidence": "The violence led to widespread displacement as civilians fled insecure areas in Al-Jazirah.",
+      "is_acled_data": false,
+      "reasoning": "The statement describes displacement due to violence in Al-Jazirah but does not reference specific ACLED event data, counts, or actor/location details. Displacement figures and humanitarian impacts are typically from agencies like UNHCR/OCHA, not ACLED, unless explicitly tied to ACLED. Therefore it appears to be general humanitarian impact, not derived from ACLED.",
+      "source_context": "Humanitarian impact section referencing displacement trends reported by monitors."
+    },
+    {
+      "evidence": "By early November 2024, relief monitors reported a significant rise in fatalities and mass displacement in Al-Jazirah.",
+      "is_acled_data": false,
+      "reasoning": "The evidence cites relief monitors reporting fatalities and mass displacement, which aligns with humanitarian sources (e.g., UN/OCHA/NGOs) rather than ACLED’s event-based conflict data. It lacks explicit linkage to ACLED events, actors, or ACLED attribution.",
+      "source_context": "Citations to monitoring reports indicating increased fatalities and displacement."
+    },
+    {
+      "evidence": "The November 2024 crisis in Al-Jazirah marked a major deterioration in humanitarian conditions in a state previously considered relatively calm.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general qualitative assessment of humanitarian conditions and calmness, not tied to specific ACLED event counts, fatalities, locations, or actor data. It reflects contextual/humanitarian analysis rather than explicit ACLED-derived conflict event data.",
+      "source_context": "Summary conclusion emphasizing the shift from relative calm to crisis due to the defection and ensuing violence."
+    }
+  ],
+  "insights": [
+    {
+      "insight": "On 19 October 2024, a high-ranking RSF commander in Al-Jazirah defected to the Sudanese Armed Forces (SAF) with hundreds of fighters.",
+      "context": "Article opening; details the date and nature of the defection in Al-Jazirah."
+    },
+    {
+      "insight": "The defection triggered immediate RSF reprisals in Al-Jazirah targeting communities perceived as supportive of the defector or the SAF.",
+      "context": "Article notes a chain reaction of violence and RSF retaliatory actions following the defection."
+    },
+    {
+      "insight": "Violence against civilians in Al-Jazirah spiked in November 2024, with ACLED recording a 129% increase in attacks compared to prior periods.",
+      "context": "Section on surge in violence references ACLED data for early November 2024."
+    },
+    {
+      "insight": "RSF forces conducted retaliatory massacres and assaults across villages in Al-Jazirah in late October and throughout November 2024.",
+      "context": "Description of RSF actions following the defection, including timing and scope."
+    },
+    {
+      "insight": "A mass killing occurred in Al-Sireha village (Al-Jazirah) in late October 2024, leaving dozens of civilians dead.",
+      "context": "Example provided within the surge in violence section citing local media reports."
+    },
+    {
+      "insight": "Throughout November 2024, RSF units shelled and raided rural communities, looting property, abducting residents, and executing civilians suspected of SAF alignment.",
+      "context": "Details of tactics used by RSF in the November campaign of violence."
+    },
+    {
+      "insight": "RSF forces deliberately destroyed infrastructure, including flooding Al-Sireha’s farmland by wrecking irrigation channels.",
+      "context": "Humanitarian impact section describing intentional infrastructure damage."
+    },
+    {
+      "insight": "The violence led to widespread displacement as civilians fled insecure areas in Al-Jazirah.",
+      "context": "Humanitarian impact section referencing displacement trends reported by monitors."
+    },
+    {
+      "insight": "By early November 2024, relief monitors reported a significant rise in fatalities and mass displacement in Al-Jazirah.",
+      "context": "Citations to monitoring reports indicating increased fatalities and displacement."
+    },
+    {
+      "insight": "The November 2024 crisis in Al-Jazirah marked a major deterioration in humanitarian conditions in a state previously considered relatively calm.",
+      "context": "Summary conclusion emphasizing the shift from relative calm to crisis due to the defection and ensuing violence."
+    }
+  ],
+  "prompt": "Research Defection and violence against civilians in Sudan's al-Jazirah state. Focus on November 2024."
+}

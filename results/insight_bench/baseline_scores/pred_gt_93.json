@@ -1,0 +1,65 @@
+{
+  "dataset_id": 93,
+  "dataset_path": "data/notebooks/flag-93.json",
+  "metadata": {
+    "category": "Finance Management",
+    "dataset_description": "The dataset consists of 500 entries simulating the ServiceNow `fm_expense_line` table, which records various attributes of financial expenses. Key fields include 'number', 'opened_at', 'amount', 'state', 'short_description', 'ci', 'user', 'department', 'category', 'process_date', 'source_id', and 'type'. This table documents the flow of financial transactions by detailing the amount, departmental allocation, and the nature of each expense. It provides a clear view of organizational expenditures across different categories, highlighting both the timing and approval state of each financial entry. Additionally, the dataset captures patterns in expense submissions, including potential duplicate claims and their impact on financial management.",
+    "goal": "To identify and rectify the causes of high rejection rates in travel expenses while also detecting and addressing potential duplicate expense claims. This ensures that submissions align with organizational policies and reduces the risk of financial inefficiencies or unauthorized claims.",
+    "header": "Travel Expense Rejection Analysis (Flag 93)",
+    "role": "Expense Audit Analyst"
+  },
+  "predicted_insights": [
+    "India has the highest share of incidents left in 'Resolved' (56%) while the UK has the highest 'Closed' rate (54%); the 10 percentage point spread in Closed rates (44%–54%) signals meaningful regional variation in closure follow-through—an operational pattern that, if mirrored in expense processing, could contribute to uneven rejection or duplicate-claim prevention across locations.",
+    "Although duplicates appear in every location, India accounts for 4 of 12 (33%), and cutting India’s count to the cross-location median (2) would reduce total duplicates by 2 cases (from 12 to 10), a 17% drop.",
+    "Potential duplicates were found in 4 of 5 categories (none in Software); although both Database and Hardware had 4 flagged incidents, Database’s higher 4.00% share indicates duplicates are more concentrated there than in Hardware.",
+    "The low duplicate rate among employee-updated incidents (2.4%, 4 of 167) suggests duplicate detection efforts may be more impactful if prioritized on incidents last updated by other roles (e.g., admin or system), supporting the goal of minimizing unauthorized or inefficient claims.",
+    "With a low duplicate rate of 1.6% (about 1 in 62 incidents), a simple same-day duplicate check could efficiently auto-flag a small, manageable subset for review, suggesting that greater impact on reducing rejections may come from focusing on non-duplicate policy issues.",
+    "The Database group’s median closure time is about 50.9% longer than the fastest group (Network, 2597.83 hours) and 30.6% longer than Hardware (3002.68 hours), suggesting this is the highest-impact area to target for process improvements that could also reduce backlogs and improve timeliness of policy/duplicate checks in analogous workflows.",
+    "A 10 percentage-point gap in system-driven updates between Software (38%) and Hardware (28%) indicates uneven automation across groups; boosting automation in lower-automation groups could standardize policy enforcement and improve duplicate detection, directly reducing rejections and financial leakage.",
+    "With only 4 unique callers across 500 records (≈125 records per caller), the 12 potential duplicates imply about 3 duplicate submissions per caller on average, suggesting targeted same-day duplicate alerts by caller would be impactful.",
+    "Across the top 17 caller-location pairs (28 total duplicates), Canada shows the highest concentration (8/28 ≈ 28.6%), and Don Goodliffe alone accounts for 11 of these 28 duplicates, indicating targeted reviews in Canada—especially for Don Goodliffe’s submissions—could yield the greatest reduction in duplicates.",
+    "The three user-facing groups (Hardware, Software, Inquiry / Help) collectively account for 30 of 42 potential duplicates (~71%), suggesting that improving intake and triage in these queues could prevent most repeat submissions and reduce rework.",
+    "The peak duplicate intensity was low (2 incidents) and occurred on four separate dates over the year, indicating that duplicates are infrequent but recur in small clusters tied to the same caller, category, location, and priority—suggesting targeted checks on these attributes could efficiently curb duplicate submissions.",
+    "Although each location logged the same total incidents (100), India accounts for 33% (2 of 6) of all potential duplicates while representing only 20% of volume, indicating a ~65% higher relative duplicate burden—prioritizing controls on rapid repeat submissions in India would yield the largest immediate reduction in duplicates."
+  ],
+  "predicted_summary": "Potential duplicate records are a small but measurable share: 2.40% of all incidents (12/500) when matching on caller_id, category, and location within 24 hours, and 1.60% (8/500) under a stricter rule that also requires the same priority. Duplicates concentrate in specific slices—Database has the highest duplicate rate among categories (4.00%), India has the highest location-level rate (2.00%), the Don Goodliffe | Canada pair appears most often (4 within 24 hours), and March 19, 2023 records the peak daily count (2).\nDuplicate patterns vary by team and updater: Hardware, Software, and Inquiry / Help are tied for the highest counts of flagged duplicates within 24-hour windows (10 each). Among incidents last updated by an employee, 2.4% (4/167) are potential duplicates—matching the overall baseline—while Software stands out for automation intensity, with 38.0% of its records updated by ‘system.’\nProcess outcomes and cycle times differ meaningfully across the organization: India skews toward ‘Resolved’ (44% Closed / 56% Resolved), while the UK (54% / 46%) and United States (53% / 47%) skew toward ‘Closed’; Australia (48% / 52%) and Canada (51% / 49%) are near even. The Database assignment group has by far the longest median time from open to close at ~3,921.77 hours (~163 days), and ‘Database’ also leads categories in duplicate rate (4.00%).",
+  "score_insights": 0.15745084591204875,
+  "score_insights_dict": [
+    {
+      "gt_insight": "The analysis could not be completed due to a KeyError indicating that 'Declined' is not a valid state in the dataset",
+      "pred_insight": "India has the highest share of incidents left in 'Resolved' (56%) while the UK has the highest 'Closed' rate (54%); the 10 percentage point spread in Closed rates (44%–54%) signals meaningful regional variation in closure follow-through—an operational pattern that, if mirrored in expense processing, could contribute to uneven rejection or duplicate-claim prevention across locations.",
+      "score": 0.143563536318345
+    },
+    {
+      "gt_insight": "The distribution of expense reports shows equal reporting across all IT departments",
+      "pred_insight": "Although each location logged the same total incidents (100), India accounts for 33% (2 of 6) of all potential duplicates while representing only 20% of volume, indicating a ~65% higher relative duplicate burden—prioritizing controls on rapid repeat submissions in India would yield the largest immediate reduction in duplicates.",
+      "score": 0.13716202425922988
+    },
+    {
+      "gt_insight": "The analysis could not be completed due to missing columns 'user' and 'amount' in the dataset",
+      "pred_insight": "With only 4 unique callers across 500 records (≈125 records per caller), the 12 potential duplicates imply about 3 duplicate submissions per caller on average, suggesting targeted same-day duplicate alerts by caller would be impactful.",
+      "score": 0.1916269771585713
+    }
+  ],
+  "score_summary": 0.12139407931370708,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.13335538148111073,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "Potential duplicates were found in 4 of 5 categories (none in Software); although both Database and Hardware had 4 flagged incidents, Database’s higher 4.00% share indicates duplicates are more concentrated there than in Hardware.",
+      "gt_insight": "The analysis could not be completed due to a KeyError indicating that 'Declined' is not a valid state in the dataset",
+      "score": 0.10786677555851557
+    },
+    {
+      "pred_insight": "The low duplicate rate among employee-updated incidents (2.4%, 4 of 167) suggests duplicate detection efforts may be more impactful if prioritized on incidents last updated by other roles (e.g., admin or system), supporting the goal of minimizing unauthorized or inefficient claims.",
+      "gt_insight": "The distribution of expense reports shows equal reporting across all IT departments",
+      "score": 0.1858470642774543
+    },
+    {
+      "pred_insight": "Potential duplicates were found in 4 of 5 categories (none in Software); although both Database and Hardware had 4 flagged incidents, Database’s higher 4.00% share indicates duplicates are more concentrated there than in Hardware.",
+      "gt_insight": "The analysis could not be completed due to missing columns 'user' and 'amount' in the dataset",
+      "score": 0.10635230460736234
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.10904200007999706,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.10300945040928981
+}

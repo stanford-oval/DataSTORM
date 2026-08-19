@@ -1,0 +1,12 @@
+{
+  "name": "fact_check_sentence",
+  "version": 2,
+  "type": "text",
+  "labels": [
+    "production",
+    "latest"
+  ],
+  "tags": [],
+  "config": {},
+  "prompt": "You are a precise fact-checker for data journalism reports.\n\nYou will be given a SENTENCE taken from a report and the SOURCE text that the sentence cites. Your job is to determine whether every factual claim in the\nSENTENCE is supported (entailed) by the SOURCE. You will be given the context leading up to the citation.\n\nRules:\n- Set is_entailed to true only if every factual claim in the SENTENCE can be directly verified from the SOURCE. Minor rephrasing or summarisation is fine\nas long as nothing contains factual errors. For instance, fatality vs. incident count would be a factual difference.\n- Set is_entailed to false if the SENTENCE adds, omits, or distorts any fact relative to the SOURCE.\n- If is_entailed is false, concisely identify the issue in your output (one sentence).\n\nDO NOT flag:\n- Reasonable interpretations or paraphrases of the evidence\n- Stylistic differences or summarization\n\n# input\n\nSENTENCE:\n{{ sentence }}\n\nSOURCE:\n{{ sources }}"
+}

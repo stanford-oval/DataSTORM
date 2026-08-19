@@ -1,0 +1,122 @@
+{
+  "total_insights": 11,
+  "total_classified": 11,
+  "acled_count": 5,
+  "non_acled_count": 6,
+  "pct_acled": 0.45454545454545453,
+  "details": [
+    {
+      "evidence": "Ethiopia’s House of Federation approved the creation of the South Ethiopia Region on 5 July 2023 after referendums by six zones and five special districts formerly within SNNPR.",
+      "is_acled_data": false,
+      "reasoning": "The evidence describes a governmental decision creating the South Ethiopia Region following referendums—this is a policy/government action, not conflict event data or statistics derived from ACLED.",
+      "source_context": "Background: Approval of South Ethiopia Region following referendums, constitutionnet.org"
+    },
+    {
+      "evidence": "The dissolution of SNNPR resulted in two entities: the new South Ethiopia Region and the remainder renamed as the Central Ethiopia Region.",
+      "is_acled_data": false,
+      "reasoning": "The statement describes administrative changes (dissolution and renaming of regions) rather than conflict event data or ACLED-derived metrics. It is a policy/governmental restructuring detail, not an ACLED event-based insight.",
+      "source_context": "Background: Outcome of SNNPR reorganization, en.wikipedia.org"
+    },
+    {
+      "evidence": "SNNPR had historically been ethnically diverse and experienced tension and violence, foreshadowing potential unrest after its breakup.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general historical and geopolitical observation about SNNPR’s ethnic diversity and past tensions, not specific event counts, actor data, fatalities, or geographic conflict events tied to ACLED. It lacks explicit ACLED attribution or use of ACLED-derived metrics.",
+      "source_context": "Background: SNNPR’s history of ethnic tensions, constitutionnet.org"
+    },
+    {
+      "evidence": "In early September 2024, inter-ethnic clashes between Meskan and Mareko militias in Guraghe Zone (Central Ethiopia Region) resulted in around a dozen deaths, including 7 in one attack and 5 in a reprisal.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific conflict events with dates (early September 2024), actors (Meskan and Mareko militias), location (Guraghe Zone, Central Ethiopia Region), event types (inter-ethnic clashes/attacks and reprisal), and fatality counts (around a dozen, with 7 and 5 in specific incidents). This aligns with ACLED’s event-level data on battles/violence and fatalities at subnational locations.",
+      "source_context": "Post-Dissolution Violence: Guraghe Zone clashes, acled"
+    },
+    {
+      "evidence": "On 12 September 2024 in Amaro (Kore Zone) of the South Ethiopia Region, suspected OLA militants from neighboring Oromia killed four local farmers, following a prior clash over attempts to seize residents’ guns.",
+      "is_acled_data": true,
+      "reasoning": "The evidence describes a specific conflict event with date, location, actors (suspected OLA militants), target (local farmers), and fatalities—typical ACLED event description content and structure, likely sourced from ACLED incident data.",
+      "source_context": "Post-Dissolution Violence: OLA spillover into South Ethiopia Region, acled"
+    },
+    {
+      "evidence": "These September 2024 incidents in Central and South Ethiopia Regions indicate a resurgence of ethnic and insurgent conflicts in areas affected by SNNPR’s breakup.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a high-level analytical claim about a resurgence of conflicts without citing specific event counts, locations, actors, fatalities, or ACLED-attributed metrics. It lacks explicit ACLED data elements or attribution and reads as general commentary rather than derived event data.",
+      "source_context": "Post-Dissolution Violence: Interpretation of renewed conflicts"
+    },
+    {
+      "evidence": "In September 2024, the Amhara Region was the epicenter of conflict in Ethiopia, with intense fighting between federal forces and Fano militias, particularly around Gondar.",
+      "is_acled_data": true,
+      "reasoning": "The statement references specific conflict dynamics (region as epicenter, actors: federal forces vs Fano, location around Gondar, timeframe September 2024). This aligns with ACLED’s event-based, actor-level, geographic and temporal conflict data and trend analysis. While no fatalities are cited, identifying epicenter and intense fighting between named actors in a specific area and period is typical of insights derived from ACLED event counts and descriptions.",
+      "source_context": "Ongoing Violence: Amhara clashes, ethiopiaobserver.com"
+    },
+    {
+      "evidence": "Amhara experienced over 110 violent incidents and more than 300 fatalities in September 2024, surpassing other regions.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific counts of violent incidents and fatalities by region and month (Amhara, September 2024) and compares them to other regions. Incident/event counts and fatality figures at subnational and temporal levels are core ACLED outputs derived from its event dataset and commonly used in ACLED analyses.",
+      "source_context": "Ongoing Violence: ACLED data on Amhara, acled"
+    },
+    {
+      "evidence": "Oromia remained volatile in September 2024 due to the OLA insurgency, with dozens of clashes and around 100 fatalities.",
+      "is_acled_data": true,
+      "reasoning": "The statement cites specific conflict metrics for a defined time and place—counts of clashes and fatalities in Oromia in September 2024 tied to the OLA insurgency. These are typical ACLED outputs (event counts, battle activity, and fatality figures by actor and month). While not explicitly attributed, the structure aligns with ACLED event-based data.",
+      "source_context": "Ongoing Violence: ACLED data on Oromia, acled"
+    },
+    {
+      "evidence": "The Tigray Region remained relatively calm in 2024 following the 2022 ceasefire.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general qualitative assessment about regional calm after a ceasefire, without citing specific ACLED event counts, fatalities, actor data, or temporal trends. It lacks explicit attribution to ACLED or concrete event-based metrics, so it is not clearly derived from ACLED data.",
+      "source_context": "Ongoing Violence: Relative calm in Tigray post-ceasefire"
+    },
+    {
+      "evidence": "A year after SNNPR’s dissolution, Ethiopia faced widespread insecurity, spanning ethnic strife in the new southern regions and full-scale conflict in Amhara, highlighting the fragility of peace and federal reforms.",
+      "is_acled_data": false,
+      "reasoning": "The statement is high-level analytical commentary about insecurity and conflict dynamics without citing specific ACLED event counts, locations, fatalities, or actor-level data. It does not reference ACLED or present concrete event-based metrics, so it is not derived from ACLED data.",
+      "source_context": "Overall assessment of national security context, constitutionnet.org and acled"
+    }
+  ],
+  "insights": [
+    {
+      "insight": "Ethiopia’s House of Federation approved the creation of the South Ethiopia Region on 5 July 2023 after referendums by six zones and five special districts formerly within SNNPR.",
+      "context": "Background: Approval of South Ethiopia Region following referendums, constitutionnet.org"
+    },
+    {
+      "insight": "The dissolution of SNNPR resulted in two entities: the new South Ethiopia Region and the remainder renamed as the Central Ethiopia Region.",
+      "context": "Background: Outcome of SNNPR reorganization, en.wikipedia.org"
+    },
+    {
+      "insight": "SNNPR had historically been ethnically diverse and experienced tension and violence, foreshadowing potential unrest after its breakup.",
+      "context": "Background: SNNPR’s history of ethnic tensions, constitutionnet.org"
+    },
+    {
+      "insight": "In early September 2024, inter-ethnic clashes between Meskan and Mareko militias in Guraghe Zone (Central Ethiopia Region) resulted in around a dozen deaths, including 7 in one attack and 5 in a reprisal.",
+      "context": "Post-Dissolution Violence: Guraghe Zone clashes, acled"
+    },
+    {
+      "insight": "On 12 September 2024 in Amaro (Kore Zone) of the South Ethiopia Region, suspected OLA militants from neighboring Oromia killed four local farmers, following a prior clash over attempts to seize residents’ guns.",
+      "context": "Post-Dissolution Violence: OLA spillover into South Ethiopia Region, acled"
+    },
+    {
+      "insight": "These September 2024 incidents in Central and South Ethiopia Regions indicate a resurgence of ethnic and insurgent conflicts in areas affected by SNNPR’s breakup.",
+      "context": "Post-Dissolution Violence: Interpretation of renewed conflicts"
+    },
+    {
+      "insight": "In September 2024, the Amhara Region was the epicenter of conflict in Ethiopia, with intense fighting between federal forces and Fano militias, particularly around Gondar.",
+      "context": "Ongoing Violence: Amhara clashes, ethiopiaobserver.com"
+    },
+    {
+      "insight": "Amhara experienced over 110 violent incidents and more than 300 fatalities in September 2024, surpassing other regions.",
+      "context": "Ongoing Violence: ACLED data on Amhara, acled"
+    },
+    {
+      "insight": "Oromia remained volatile in September 2024 due to the OLA insurgency, with dozens of clashes and around 100 fatalities.",
+      "context": "Ongoing Violence: ACLED data on Oromia, acled"
+    },
+    {
+      "insight": "The Tigray Region remained relatively calm in 2024 following the 2022 ceasefire.",
+      "context": "Ongoing Violence: Relative calm in Tigray post-ceasefire"
+    },
+    {
+      "insight": "A year after SNNPR’s dissolution, Ethiopia faced widespread insecurity, spanning ethnic strife in the new southern regions and full-scale conflict in Amhara, highlighting the fragility of peace and federal reforms.",
+      "context": "Overall assessment of national security context, constitutionnet.org and acled"
+    }
+  ],
+  "prompt": "Analysis on the aftermath of SNNPR's dissolution and ongoing violence in Ethiopia. Focus on September 2024."
+}

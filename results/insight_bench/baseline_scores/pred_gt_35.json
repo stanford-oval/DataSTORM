@@ -1,0 +1,85 @@
+{
+  "dataset_id": 35,
+  "dataset_path": "data/notebooks/flag-35.json",
+  "metadata": {
+    "category": "Goal Management",
+    "dataset_description": "This dataset comprises 500 simulated records from the ServiceNow `sn_gf_goal` table, detailing various aspects related to organizational goals. Key attributes include goal status, assigned owner, department affiliation, start and end dates, and comprehensive descriptions. The dataset also features metrics like priority level, percentage completed, and target achievement percentage. It primarily focuses on tracking and managing both departmental and individual goals, providing insights into the effectiveness of these goals and their alignment with overarching organizational strategies. Additionally, the dataset logs updates for each goal, offering a historical view of changes and the identities of those making these updates.",
+    "goal": "Investigate the unexpectedly high success rates of Low and Medium priority 'Cost Optimization' goals, and utilize these findings to enhance goal management efficiency across all goal categories.",
+    "header": "Focused Analysis of Goal Management Categories (Flag 35)",
+    "role": "Operational Effectiveness Analyst"
+  },
+  "predicted_insights": [
+    "Low and Medium priorities vastly outperform higher priorities—Medium (75.68%) is about 2.9× Critical (26.09%), and Low (72.22%) is ~1.85× High (39.13%), a gap of 49.59 and 33.09 percentage points respectively—indicating lower-priority cost goals are more reliably achievable and may benefit from scaling or re-scoping across categories.",
+    "High and Critical goals miss targets by roughly 10.6–10.9 points on average—about 15x (vs Medium) to 24x (vs Low) the shortfall of lower-priority goals—suggesting priority calibration or resource allocation issues that could unlock efficiency gains.",
+    "Cost Reduction (Cost Optimization) stands out with the highest average success across Low and Medium priorities (~73.95%), outpacing other categories by 14–26 percentage points, and Medium outperforms Low there by +3.45 pts (also in Efficiency by +8.32 pts), whereas Medium underperforms Low in Customer Satisfaction by −13.37 pts and in Revenue Growth by −4.55 pts.",
+    "Low-priority Cost Reduction goals are perfect (100%) in HR, Operations, and Sales but drop sharply to 42.9% in IT (where Medium reaches 83.3%), and Finance shows Medium outperforming Low (100% vs 80%), yielding department-averaged success rates of about 84.6% for Low vs 78.4% for Medium—suggesting prioritization impacts differ by department.",
+    "Success rates vary by 27.35 percentage points across departments (88.89% in Finance vs 61.54% in IT), with three departments achieving ≥80% success—indicating repeatable practices in Finance, Operations, and Sales that could be leveraged to boost outcomes in HR and IT.",
+    "Low/Medium priorities beat High/Critical by ~36.6 percentage points on average (~2.7x higher), with the largest gap in Employee Satisfaction (~+50 pp) and a substantial gap in Cost Reduction (~+42 pp), indicating that higher urgency may be linked to lower success and that recalibrating priority assignments could improve efficiency.",
+    "The success-rate gap between Low/Medium and High/Critical priorities is largest in Q3 at about 46.7 percentage points (56.16% vs 9.43%), with Low/Medium rates remaining relatively stable across quartiles (~55–65%) while High/Critical rates drop markedly at higher target thresholds.",
+    "Low/Medium Cost Reduction goals run only ~4% longer than High/Critical ones, suggesting that minor schedule extensions alone are unlikely to account for their unexpectedly high success rates and pointing to other drivers of efficiency.",
+    "Low/Medium priorities have a lower average target (68.56%) than High/Critical (71.31%) by 2.75 percentage points, suggesting more attainable targets that could contribute to their higher observed success rates.",
+    "Finance and Operations outperform targets by double digits (12.39 and 11.22), more than 2x Sales (5.42), while IT slightly underachieves (-0.23), indicating the high success in low/medium-priority cost goals is concentrated in Finance/Operations—suggesting targeted best-practice transfer could raise results in IT and HR.",
+    "The departmental target averages (67.28–70.77) are 7.6–11.1 points below the dataset-wide target mean (78.33), while the overall percent_complete mean (72.86) exceeds all these targets, which can help explain the unexpectedly high success rates of Low/Medium cost-focused goals—especially in Operations.",
+    "Low and Medium Cost Reduction goals outperform targets by about +5 points on average, whereas High and Critical underperform by 3–5 points, revealing an 8–11 point gap that points to tighter targets or execution constraints at higher priorities—an actionable area to rebalance support or recalibrate targets to improve overall goal management efficiency."
+  ],
+  "predicted_summary": "In the Cost Reduction (Cost Optimization) category, Low/Medium priorities markedly outperform High/Critical on both success and attainment: goal_met is 74.5% for Low/Medium vs 32.6% for High/Critical (detail: Low 72.22%, Medium 75.68%, High 39.13%, Critical 26.09%), and average margin-to-target is +5.17 and +5.56 for Low/Medium vs −5.17 and −3.41 for High/Critical. This advantage isn’t explained by easier targets or shorter timelines: average targets are similar (Low/Medium 67.53–69.59% vs High/Critical 70.62–72.00%), and Low/Medium goals are only ~4% longer on average (108.18 vs 103.98 days).\nThe Low/Medium advantage persists across the entire portfolio: across all categories, goal_met averages about 58.4% for Low/Medium vs 21.7% for High/Critical, and Low/Medium maintain relatively stable success across target difficulty (goal_met by target quartile Q1–Q4: 65.28%, 55.36%, 56.16%, 56.90%) while High/Critical drop sharply (29.63%, 25.00%, 9.43%, 18.18%). On attainment, Low/Medium hover near their targets on average (margins −0.44 and −0.72 points), whereas High/Critical fall short by roughly 10 points (−10.56 and −10.87).\nWithin Cost Reduction, the strongest Low/Medium performance is concentrated in Finance, Operations, and Sales: goal_met rates are 88.89%, 83.33%, and 80.0%, respectively, with sizable overachievement margins (Finance +12.39 points, Operations +11.22, Sales +5.42). These departments’ target levels are comparable to peers (Operations 70.77%, Finance 69.97%, Sales 67.28% vs IT 68.14%, HR 68.42%), while IT and HR show much thinner margins (−0.23 and +0.15), indicating the high success is not driven by easier targets and is unevenly distributed across departments.",
+  "score_insights": 0.6378132284634822,
+  "score_insights_dict": [
+    {
+      "gt_insight": "Cost reduction goals achieve significantly higher success rates compared to other categories",
+      "pred_insight": "Cost Reduction (Cost Optimization) stands out with the highest average success across Low and Medium priorities (~73.95%), outpacing other categories by 14–26 percentage points, and Medium outperforms Low there by +3.45 pts (also in Efficiency by +8.32 pts), whereas Medium underperforms Low in Customer Satisfaction by −13.37 pts and in Revenue Growth by −4.55 pts.",
+      "score": 0.8096290012095742
+    },
+    {
+      "gt_insight": "Cross-departmental tasks exhibit higher completion percentages and target achievements compared to non-cross-departmental tasks.",
+      "pred_insight": "Low-priority Cost Reduction goals are perfect (100%) in HR, Operations, and Sales but drop sharply to 42.9% in IT (where Medium reaches 83.3%), and Finance shows Medium outperforming Low (100% vs 80%), yielding department-averaged success rates of about 84.6% for Low vs 78.4% for Medium—suggesting prioritization impacts differ by department.",
+      "score": 0.2834517429582911
+    },
+    {
+      "gt_insight": "Unusually high success rates for low and medium priority 'Cost Reduction' goals compared to High and Critical",
+      "pred_insight": "Low and Medium Cost Reduction goals outperform targets by about +5 points on average, whereas High and Critical underperform by 3–5 points, revealing an 8–11 point gap that points to tighter targets or execution constraints at higher priorities—an actionable area to rebalance support or recalibrate targets to improve overall goal management efficiency.",
+      "score": 0.8109356418032492
+    },
+    {
+      "gt_insight": "Higher success rates for Low and Medium priority goals in the Cost Reduction category",
+      "pred_insight": "Low and Medium priorities vastly outperform higher priorities—Medium (75.68%) is about 2.9× Critical (26.09%), and Low (72.22%) is ~1.85× High (39.13%), a gap of 49.59 and 33.09 percentage points respectively—indicating lower-priority cost goals are more reliably achievable and may benefit from scaling or re-scoping across categories.",
+      "score": 0.7900722336319882
+    },
+    {
+      "gt_insight": "Higher number of Low and Medium priority goals in 'Cost Reduction' compared to other categories",
+      "pred_insight": "Finance and Operations outperform targets by double digits (12.39 and 11.22), more than 2x Sales (5.42), while IT slightly underachieves (-0.23), indicating the high success in low/medium-priority cost goals is concentrated in Finance/Operations—suggesting targeted best-practice transfer could raise results in IT and HR.",
+      "score": 0.4949775227143087
+    }
+  ],
+  "score_summary": 0.5562954786549363,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.7128987731057259,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "Cost Reduction (Cost Optimization) stands out with the highest average success across Low and Medium priorities (~73.95%), outpacing other categories by 14–26 percentage points, and Medium outperforms Low there by +3.45 pts (also in Efficiency by +8.32 pts), whereas Medium underperforms Low in Customer Satisfaction by −13.37 pts and in Revenue Growth by −4.55 pts.",
+      "gt_insight": "Cost reduction goals achieve significantly higher success rates compared to other categories",
+      "score": 0.8890714507313268
+    },
+    {
+      "pred_insight": "The departmental target averages (67.28–70.77) are 7.6–11.1 points below the dataset-wide target mean (78.33), while the overall percent_complete mean (72.86) exceeds all these targets, which can help explain the unexpectedly high success rates of Low/Medium cost-focused goals—especially in Operations.",
+      "gt_insight": "Cross-departmental tasks exhibit higher completion percentages and target achievements compared to non-cross-departmental tasks.",
+      "score": 0.4889896180369543
+    },
+    {
+      "pred_insight": "Low and Medium priorities vastly outperform higher priorities—Medium (75.68%) is about 2.9× Critical (26.09%), and Low (72.22%) is ~1.85× High (39.13%), a gap of 49.59 and 33.09 percentage points respectively—indicating lower-priority cost goals are more reliably achievable and may benefit from scaling or re-scoping across categories.",
+      "gt_insight": "Unusually high success rates for low and medium priority 'Cost Reduction' goals compared to High and Critical",
+      "score": 0.8300780947161053
+    },
+    {
+      "pred_insight": "Low and Medium priorities vastly outperform higher priorities—Medium (75.68%) is about 2.9× Critical (26.09%), and Low (72.22%) is ~1.85× High (39.13%), a gap of 49.59 and 33.09 percentage points respectively—indicating lower-priority cost goals are more reliably achievable and may benefit from scaling or re-scoping across categories.",
+      "gt_insight": "Higher success rates for Low and Medium priority goals in the Cost Reduction category",
+      "score": 0.8833568563350948
+    },
+    {
+      "pred_insight": "Low/Medium Cost Reduction goals run only ~4% longer than High/Critical ones, suggesting that minor schedule extensions alone are unlikely to account for their unexpectedly high success rates and pointing to other drivers of efficiency.",
+      "gt_insight": "Higher number of Low and Medium priority goals in 'Cost Reduction' compared to other categories",
+      "score": 0.4729978457091485
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.1235564093395922,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.6760364998453003
+}

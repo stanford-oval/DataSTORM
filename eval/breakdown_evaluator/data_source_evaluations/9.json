@@ -1,0 +1,821 @@
+{
+  "id": "9",
+  "prompt": "Status of political violence in Amhara since Fano insurgency began in April 2023.",
+  "timestamp": "2026-03-29T04:06:47.859425",
+  "openai_dr": {
+    "total_insights": 16,
+    "total_classified": 16,
+    "acled_count": 7,
+    "non_acled_count": 9,
+    "pct_acled": 0.4375,
+    "details": [
+      {
+        "evidence": "In April 2023, an insurgency led by the Fano militia erupted in Ethiopia’s Amhara region after the federal government moved to dismantle regional special forces.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general narrative about the start of the Fano insurgency and government actions, not citing specific ACLED event counts, fatalities, locations, or actor-coded events. It reads as contextual background rather than data derived from ACLED.",
+        "source_context": "Background section describing the trigger for conflict in April 2023."
+      },
+      {
+        "evidence": "The disarmament order led to protests and clashes across Amhara in April 2023, causing dozens of deaths that month.",
+        "is_acled_data": true,
+        "reasoning": "The statement references protests, clashes, timing (April 2023), and fatalities (“dozens of deaths”), which align with ACLED’s event-based data on riots/protests, battles, and fatality counts tied to specific temporal patterns. This is the type of information ACLED collects and reports.",
+        "source_context": "Background section referencing ACLED data on initial casualties."
+      },
+      {
+        "evidence": "Fano fighters resisted integration of regional units into the national army, believing it would undermine Amhara’s security.",
+        "is_acled_data": false,
+        "reasoning": "This is a qualitative statement about motives and political stance (Fano resisting integration) rather than specific ACLED event data (counts, locations, fatalities, event descriptions). It reads as general analysis, not derived from ACLED’s structured conflict events.",
+        "source_context": "Background section citing VOA on Fano’s motivations."
+      },
+      {
+        "evidence": "The early unrest in April 2023 set the stage for broader conflict between Fano and Prime Minister Abiy Ahmed’s government.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general analytical claim about how early unrest influenced broader conflict dynamics, without citing specific ACLED event data, counts, actors, locations, or temporal patterns. It reads as narrative commentary rather than a data point derived from ACLED.",
+        "source_context": "Background section summarizing the conflict’s escalation trajectory."
+      },
+      {
+        "evidence": "By early August 2023, Fano militias conducted coordinated attacks, temporarily seizing Lalibela airport and advancing into Bahir Dar and Gondar before federal forces repelled them.",
+        "is_acled_data": true,
+        "reasoning": "The evidence describes specific conflict events with timing (early August 2023), actors (Fano militias, federal forces), locations (Lalibela airport, Bahir Dar, Gondar), and battle dynamics (attacks, temporary seizure, advances, repelled). This aligns with ACLED’s battle/event descriptions and geographic-temporal actor-level data commonly captured by ACLED.",
+        "source_context": "Escalation section citing BBC reporting on August 2023 advances."
+      },
+      {
+        "evidence": "Heavy weapons were used in the conflict, including a government airstrike in Finote Selam that killed at least 26 people in a town square.",
+        "is_acled_data": true,
+        "reasoning": "The evidence describes a specific conflict event with location, tactic (airstrike/heavy weapons), and fatalities—information types that ACLED catalogs in its event data (event descriptions, battle/explosions/remote violence categories, fatality counts, and geolocation). While it could also come from media, such event-level details are within ACLED’s dataset scope, so it is consistent with ACLED-derived data.",
+        "source_context": "Escalation section referencing PBS/AP report on the Finote Selam airstrike."
+      },
+      {
+        "evidence": "The federal government declared a state of emergency in Amhara in August 2023 and deployed ENDF troops to regain control.",
+        "is_acled_data": false,
+        "reasoning": "The statement describes a government policy action (state of emergency declaration and troop deployment). Policy declarations and government actions of this type are not ACLED data unless tied to specific coded events; thus this evidence is not derived from ACLED.",
+        "source_context": "Escalation section detailing government response in August 2023."
+      },
+      {
+        "evidence": "By late August 2023, at least 183 people had been killed in Amhara since July, and over 1,000 people were arrested under the state of emergency.",
+        "is_acled_data": true,
+        "reasoning": "The evidence cites specific fatality counts tied to a timeframe and location (Amhara, July–late August 2023) and references arrests under a state of emergency alongside conflict-related deaths. ACLED commonly reports fatalities and temporal patterns for conflict events in specific regions, making this consistent with ACLED-derived data.",
+        "source_context": "Escalation section citing UN figures via PBS/AP and reporting on arrests."
+      },
+      {
+        "evidence": "The Amhara regional administration was severely disrupted, with some local officials fleeing during the height of the Fano offensive.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a qualitative assessment about administrative disruption and officials fleeing; it is not tied to specific ACLED event records, counts, locations, or actor-level data. It reads as narrative analysis rather than data explicitly attributable to ACLED.",
+        "source_context": "Escalation section referencing BBC on the administration’s instability."
+      },
+      {
+        "evidence": "From April to December 2023, ACLED recorded 647 violent events in Amhara, resulting in approximately 1,559 fatalities.",
+        "is_acled_data": true,
+        "reasoning": "The evidence cites specific counts of violent events and fatalities over a defined period in a specific region, explicitly attributed to ACLED (“ACLED recorded 647 violent events… approximately 1,559 fatalities”), which aligns with ACLED’s event and fatality data.",
+        "source_context": "Continued Violence section citing ACLED conflict data."
+      },
+      {
+        "evidence": "Most incidents and casualties were from battles between Fano fighters and federal forces, alongside significant violence against civilians including targeted killings and massacres.",
+        "is_acled_data": true,
+        "reasoning": "The evidence references patterns typical of ACLED outputs: distribution of incidents and casualties by event type (battles vs. violence against civilians), implying counts and fatalities drawn from event data. This aligns with ACLED’s battle-related data, violence against civilians statistics, and fatality figures.",
+        "source_context": "Continued Violence section referencing ACLED categorization of events."
+      },
+      {
+        "evidence": "The insurgency transitioned into a guerrilla phase, with Fano remnants conducting sporadic rural attacks and the government responding with heavy-handed counterinsurgency operations.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general analytical characterization of conflict dynamics (transition to guerrilla phase, sporadic rural attacks, heavy-handed counterinsurgency) without citing specific ACLED event counts, locations, actor data, or temporal trends. It reads as narrative analysis rather than a data point explicitly derived from ACLED.",
+        "source_context": "Continued Violence section describing the shift in conflict dynamics."
+      },
+      {
+        "evidence": "In January 2024, Fano fighters attacked army units in Merawi, after which Ethiopian soldiers summarily executed dozens of local civilians.",
+        "is_acled_data": true,
+        "reasoning": "The evidence describes a specific conflict event with actors (Fano fighters, Ethiopian soldiers), location (Merawi), time (January 2024), and type (battle followed by violence against civilians), which aligns with ACLED’s event-level data and descriptions. ACLED commonly records such incidents and associated civilian victimization.",
+        "source_context": "Continued Violence section citing Human Rights Watch on Merawi incident."
+      },
+      {
+        "evidence": "Human rights organizations documented abuses and called for investigations into atrocities committed during the conflict.",
+        "is_acled_data": false,
+        "reasoning": "The statement about human rights organizations documenting abuses and calling for investigations is general human-rights reporting, not specific ACLED event data or metrics. It lacks ACLED-linked event counts, actor data, locations, or explicit ACLED attribution.",
+        "source_context": "Continued Violence section referencing Human Rights Watch findings and appeals."
+      },
+      {
+        "evidence": "As of mid-2024, Amhara remained volatile, and the federal parliament extended the state of emergency to address ongoing unrest.",
+        "is_acled_data": false,
+        "reasoning": "The evidence cites a government policy action (extension of a state of emergency) and general volatility, which are policy statements and broad context rather than specific conflict event data or ACLED-derived metrics. This falls under policy/government declarations, not ACLED event statistics or analyses.",
+        "source_context": "Continued Violence section citing VOA on the extension of the state of emergency."
+      },
+      {
+        "evidence": "Overall, the Fano insurgency has driven a major increase in political violence in Amhara since April 2023, causing hundreds of deaths and continuing insecurity.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a broad analytical claim about increased violence and deaths without citing specific ACLED event counts, fatalities, or actor/location data. It reads as general commentary rather than a metric or trend explicitly derived from ACLED.",
+        "source_context": "Summary statement synthesizing data from news reports, ACLED, and HRW."
+      }
+    ],
+    "insights": [
+      {
+        "insight": "In April 2023, an insurgency led by the Fano militia erupted in Ethiopia’s Amhara region after the federal government moved to dismantle regional special forces.",
+        "context": "Background section describing the trigger for conflict in April 2023."
+      },
+      {
+        "insight": "The disarmament order led to protests and clashes across Amhara in April 2023, causing dozens of deaths that month.",
+        "context": "Background section referencing ACLED data on initial casualties."
+      },
+      {
+        "insight": "Fano fighters resisted integration of regional units into the national army, believing it would undermine Amhara’s security.",
+        "context": "Background section citing VOA on Fano’s motivations."
+      },
+      {
+        "insight": "The early unrest in April 2023 set the stage for broader conflict between Fano and Prime Minister Abiy Ahmed’s government.",
+        "context": "Background section summarizing the conflict’s escalation trajectory."
+      },
+      {
+        "insight": "By early August 2023, Fano militias conducted coordinated attacks, temporarily seizing Lalibela airport and advancing into Bahir Dar and Gondar before federal forces repelled them.",
+        "context": "Escalation section citing BBC reporting on August 2023 advances."
+      },
+      {
+        "insight": "Heavy weapons were used in the conflict, including a government airstrike in Finote Selam that killed at least 26 people in a town square.",
+        "context": "Escalation section referencing PBS/AP report on the Finote Selam airstrike."
+      },
+      {
+        "insight": "The federal government declared a state of emergency in Amhara in August 2023 and deployed ENDF troops to regain control.",
+        "context": "Escalation section detailing government response in August 2023."
+      },
+      {
+        "insight": "By late August 2023, at least 183 people had been killed in Amhara since July, and over 1,000 people were arrested under the state of emergency.",
+        "context": "Escalation section citing UN figures via PBS/AP and reporting on arrests."
+      },
+      {
+        "insight": "The Amhara regional administration was severely disrupted, with some local officials fleeing during the height of the Fano offensive.",
+        "context": "Escalation section referencing BBC on the administration’s instability."
+      },
+      {
+        "insight": "From April to December 2023, ACLED recorded 647 violent events in Amhara, resulting in approximately 1,559 fatalities.",
+        "context": "Continued Violence section citing ACLED conflict data."
+      },
+      {
+        "insight": "Most incidents and casualties were from battles between Fano fighters and federal forces, alongside significant violence against civilians including targeted killings and massacres.",
+        "context": "Continued Violence section referencing ACLED categorization of events."
+      },
+      {
+        "insight": "The insurgency transitioned into a guerrilla phase, with Fano remnants conducting sporadic rural attacks and the government responding with heavy-handed counterinsurgency operations.",
+        "context": "Continued Violence section describing the shift in conflict dynamics."
+      },
+      {
+        "insight": "In January 2024, Fano fighters attacked army units in Merawi, after which Ethiopian soldiers summarily executed dozens of local civilians.",
+        "context": "Continued Violence section citing Human Rights Watch on Merawi incident."
+      },
+      {
+        "insight": "Human rights organizations documented abuses and called for investigations into atrocities committed during the conflict.",
+        "context": "Continued Violence section referencing Human Rights Watch findings and appeals."
+      },
+      {
+        "insight": "As of mid-2024, Amhara remained volatile, and the federal parliament extended the state of emergency to address ongoing unrest.",
+        "context": "Continued Violence section citing VOA on the extension of the state of emergency."
+      },
+      {
+        "insight": "Overall, the Fano insurgency has driven a major increase in political violence in Amhara since April 2023, causing hundreds of deaths and continuing insecurity.",
+        "context": "Summary statement synthesizing data from news reports, ACLED, and HRW."
+      }
+    ],
+    "prompt": "Status of political violence in Amhara since Fano insurgency began in April 2023."
+  },
+  "openai_dr_csv": {
+    "total_insights": 23,
+    "total_classified": 23,
+    "acled_count": 4,
+    "non_acled_count": 19,
+    "pct_acled": 0.17391304347826086,
+    "details": [
+      {
+        "evidence": "In April 2023, Ethiopia’s federal government ordered regional special forces, including Amhara’s, to integrate into the national army or police, triggering widespread protests in Amhara.",
+        "is_acled_data": false,
+        "reasoning": "The evidence describes a government policy decision (order to integrate regional special forces) and resulting protests. While ACLED may record protests as events, the statement is a policy declaration and general description rather than citing specific ACLED event data, counts, or actor-level entries. It is not explicitly tied to ACLED data.",
+        "source_context": "Background and Causes (April–July 2023)"
+      },
+      {
+        "evidence": "Amhara nationalists and the Fano militia viewed the disarmament/integration order as a threat to Amhara’s security and autonomy.",
+        "is_acled_data": false,
+        "reasoning": "This is a qualitative assertion about perceptions and motivations of Amhara nationalists and Fano regarding a disarmament order. It is political analysis/commentary, not specific ACLED event data, counts, fatalities, locations, or actor/event records attributed to ACLED.",
+        "source_context": "Background and Causes (April–July 2023)"
+      },
+      {
+        "evidence": "Tensions in Amhara were already heightened after the Tigray war, with many Amhara feeling excluded from the November 2022 peace deal and anxious about disputed territories seized during the war.",
+        "is_acled_data": false,
+        "reasoning": "The statement is general political context and sentiment about perceptions after the Tigray war and the peace deal; it is not tied to specific ACLED event data, counts, fatalities, or actor-level events.",
+        "source_context": "Background and Causes (April–July 2023)"
+      },
+      {
+        "evidence": "The April 2023 protests and clashes marked the beginning of an open Fano insurgency against the federal government in Amhara.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general analytic claim about the onset of an insurgency, not a citation of specific ACLED event counts, actor/event data, or trends. It lacks explicit ACLED attribution and does not reference concrete ACLED-coded events or statistics.",
+        "source_context": "Background and Causes (April–July 2023)"
+      },
+      {
+        "evidence": "By late July–early August 2023, the Fano insurgency escalated into full-scale battles with the Ethiopian National Defense Force (ENDF), with rebels advancing in several towns.",
+        "is_acled_data": true,
+        "reasoning": "The statement describes a temporal escalation into battles between Fano and the ENDF in late July–early August 2023 and mentions advances in several towns. This aligns with ACLED’s battle-related event data, temporal patterns, and actor-level activity. It references specific conflict dynamics over a defined period, which ACLED commonly reports and analyzes.",
+        "source_context": "Escalation of Conflict (August 2023)"
+      },
+      {
+        "evidence": "The federal government declared a six-month state of emergency on August 4, 2023, and deployed the army under a special command post to regain control in Amhara.",
+        "is_acled_data": false,
+        "reasoning": "This is a policy/government declaration about a state of emergency and troop deployment, which falls under policy statements rather than ACLED event data. It is not a conflict event count, actor/event description, or statistic explicitly tied to ACLED.",
+        "source_context": "Escalation of Conflict (August 2023)"
+      },
+      {
+        "evidence": "Officials later claimed major cities in Amhara were retaken from militias after days of heavy combat.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general claim by officials about retaking cities after heavy combat, without referencing specific ACLED event data, counts, locations, or attribution to ACLED. It reads as a government declaration or media report, not ACLED-derived data.",
+        "source_context": "Escalation of Conflict (August 2023)"
+      },
+      {
+        "evidence": "Although no official casualty figures were released for August 2023 clashes, hospital reports indicated many civilian deaths and injuries.",
+        "is_acled_data": false,
+        "reasoning": "Reference to hospital reports of civilian deaths/injuries without citing ACLED; it’s a general casualty claim from medical sources, not ACLED event/fatality data.",
+        "source_context": "Escalation of Conflict (August 2023)"
+      },
+      {
+        "evidence": "The unrest in Amhara became Ethiopia’s most serious security crisis since the end of the Tigray conflict.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a broad qualitative assessment about the relative severity of the Amhara unrest compared to the Tigray conflict, not a citation of specific ACLED event counts, fatalities, temporal trends, or actor data. It reads as general analysis rather than a metric or figure derived from ACLED.",
+        "source_context": "Escalation of Conflict (August 2023)"
+      },
+      {
+        "evidence": "Due to persistent violence, the state of emergency was extended for four additional months in early 2024.",
+        "is_acled_data": false,
+        "reasoning": "An extension of a state of emergency is a government policy decision, not event-level conflict data. This is a policy statement/declaration and not something ACLED specifically provides as data.",
+        "source_context": "Escalation of Conflict (August 2023)"
+      },
+      {
+        "evidence": "Between April 2023 and December 2024, ACLED recorded over 2,200 violent incidents in Amhara, causing more than 6,000 fatalities.",
+        "is_acled_data": true,
+        "reasoning": "The evidence cites specific counts of violent incidents and fatalities over a defined period in Amhara and explicitly attributes them to ACLED, aligning with ACLED’s event and fatality data outputs.",
+        "source_context": "Ongoing Violence and Human Impact (2023–2024)"
+      },
+      {
+        "evidence": "Most incidents involved battles between Fano insurgents and Ethiopian security forces, with hundreds of events targeting unarmed civilians.",
+        "is_acled_data": true,
+        "reasoning": "Mentions incident/event types (battles between Fano and security forces) and counts of events targeting civilians, which aligns with ACLED’s event and violence-against-civilians data and actor-level battle data.",
+        "source_context": "Ongoing Violence and Human Impact (2023–2024)"
+      },
+      {
+        "evidence": "Human Rights Watch reported that Ethiopian soldiers summarily executed dozens of civilians in Merawi in January 2024 following a Fano attack.",
+        "is_acled_data": false,
+        "reasoning": "The evidence cites Human Rights Watch as the source for summary executions in Merawi. This is a human rights report, not ACLED event data or analysis explicitly attributed to ACLED.",
+        "source_context": "Ongoing Violence and Human Impact (2023–2024)"
+      },
+      {
+        "evidence": "Local estimates suggested upwards of 80 civilians were killed in the Merawi massacre, while the national human rights commission confirmed at least 45 deaths.",
+        "is_acled_data": false,
+        "reasoning": "The evidence cites local estimates and a national human rights commission confirmation of deaths in a specific massacre. It does not reference ACLED event records or attribution. Such casualty figures from local/NHRC sources are not inherently ACLED data unless explicitly tied to ACLED reporting.",
+        "source_context": "Ongoing Violence and Human Impact (2023–2024)"
+      },
+      {
+        "evidence": "Human rights groups documented numerous abuses by federal troops operating with impunity in Amhara since the conflict began.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general claim from human rights groups about abuses and impunity; it is not tied to specific ACLED event data, counts, locations, or actor-level records, nor is it attributed to ACLED.",
+        "source_context": "Ongoing Violence and Human Impact (2023–2024)"
+      },
+      {
+        "evidence": "The insurgency and counterinsurgency have devastated villages, displaced residents, and fueled a regional humanitarian crisis.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a broad humanitarian impact claim about devastation and displacement, not tied to specific ACLED event counts, fatalities, locations, or actor-level data. It resembles general analysis/humanitarian commentary rather than ACLED-derived metrics.",
+        "source_context": "Ongoing Violence and Human Impact (2023–2024)"
+      },
+      {
+        "evidence": "As of end-2024, the Fano insurgency remains active; the army holds main cities, but clashes continue in rural areas.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a high-level qualitative assessment about insurgency status and control of cities vs rural clashes. It does not reference specific ACLED event counts, locations, fatalities, or actor-level data, nor is it attributed to ACLED. It reads as general analysis rather than data derived from ACLED.",
+        "source_context": "Current Status and Outlook"
+      },
+      {
+        "evidence": "Violence intensity has fluctuated with surges, including a peak in mid-2024, and no definitive resolution has emerged.",
+        "is_acled_data": true,
+        "reasoning": "The statement references temporal patterns and fluctuations in violence intensity, including a peak in mid-2024, which aligns with ACLED’s event-based trend analysis and time-series summaries derived from counts of conflict events and related metrics.",
+        "source_context": "Current Status and Outlook"
+      },
+      {
+        "evidence": "No comprehensive peace agreement or political settlement exists with Fano, and the militia’s decentralized structure hinders negotiations.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a qualitative political assessment about the absence of a peace agreement and organizational structure of Fano affecting negotiations. It is not based on specific ACLED event data or metrics (counts, locations, fatalities, event types).",
+        "source_context": "Current Status and Outlook"
+      },
+      {
+        "evidence": "Amhara civilians continue to bear the brunt of violence and lawlessness amid the ongoing conflict.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general qualitative claim about civilians bearing the brunt of violence without citing specific ACLED event data, statistics, locations, or trends. It reads as broad analysis/commentary rather than information derived from ACLED’s event-based metrics.",
+        "source_context": "Current Status and Outlook"
+      },
+      {
+        "evidence": "Ethiopian authorities face the dual challenge of quelling the insurgency and addressing Amhara grievances without further alienation.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general analytical observation about government challenges and grievances, not tied to specific conflict events, counts, actors, or trends from ACLED. It reflects commentary rather than ACLED-derived data.",
+        "source_context": "Current Status and Outlook"
+      },
+      {
+        "evidence": "International monitors have called for investigations and accountability for atrocities by all sides, but progress has been limited.",
+        "is_acled_data": false,
+        "reasoning": "This is a general statement about international calls for investigations and accountability, reflecting policy/advocacy positions and progress, not specific conflict event data, counts, or actor-level details from ACLED.",
+        "source_context": "Current Status and Outlook"
+      },
+      {
+        "evidence": "Since April 2023, Amhara has experienced sustained political violence that has killed thousands and become one of Ethiopia’s gravest recent conflicts.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a broad qualitative claim about sustained violence and deaths without citing specific ACLED event counts, fatalities, actors, or temporal/geographic breakdowns. It reads as general analysis and could come from media or other sources; no explicit tie to ACLED data is present.",
+        "source_context": "Current Status and Outlook"
+      }
+    ],
+    "insights": [
+      {
+        "insight": "In April 2023, Ethiopia’s federal government ordered regional special forces, including Amhara’s, to integrate into the national army or police, triggering widespread protests in Amhara.",
+        "context": "Background and Causes (April–July 2023)"
+      },
+      {
+        "insight": "Amhara nationalists and the Fano militia viewed the disarmament/integration order as a threat to Amhara’s security and autonomy.",
+        "context": "Background and Causes (April–July 2023)"
+      },
+      {
+        "insight": "Tensions in Amhara were already heightened after the Tigray war, with many Amhara feeling excluded from the November 2022 peace deal and anxious about disputed territories seized during the war.",
+        "context": "Background and Causes (April–July 2023)"
+      },
+      {
+        "insight": "The April 2023 protests and clashes marked the beginning of an open Fano insurgency against the federal government in Amhara.",
+        "context": "Background and Causes (April–July 2023)"
+      },
+      {
+        "insight": "By late July–early August 2023, the Fano insurgency escalated into full-scale battles with the Ethiopian National Defense Force (ENDF), with rebels advancing in several towns.",
+        "context": "Escalation of Conflict (August 2023)"
+      },
+      {
+        "insight": "The federal government declared a six-month state of emergency on August 4, 2023, and deployed the army under a special command post to regain control in Amhara.",
+        "context": "Escalation of Conflict (August 2023)"
+      },
+      {
+        "insight": "Officials later claimed major cities in Amhara were retaken from militias after days of heavy combat.",
+        "context": "Escalation of Conflict (August 2023)"
+      },
+      {
+        "insight": "Although no official casualty figures were released for August 2023 clashes, hospital reports indicated many civilian deaths and injuries.",
+        "context": "Escalation of Conflict (August 2023)"
+      },
+      {
+        "insight": "The unrest in Amhara became Ethiopia’s most serious security crisis since the end of the Tigray conflict.",
+        "context": "Escalation of Conflict (August 2023)"
+      },
+      {
+        "insight": "Due to persistent violence, the state of emergency was extended for four additional months in early 2024.",
+        "context": "Escalation of Conflict (August 2023)"
+      },
+      {
+        "insight": "Between April 2023 and December 2024, ACLED recorded over 2,200 violent incidents in Amhara, causing more than 6,000 fatalities.",
+        "context": "Ongoing Violence and Human Impact (2023–2024)"
+      },
+      {
+        "insight": "Most incidents involved battles between Fano insurgents and Ethiopian security forces, with hundreds of events targeting unarmed civilians.",
+        "context": "Ongoing Violence and Human Impact (2023–2024)"
+      },
+      {
+        "insight": "Human Rights Watch reported that Ethiopian soldiers summarily executed dozens of civilians in Merawi in January 2024 following a Fano attack.",
+        "context": "Ongoing Violence and Human Impact (2023–2024)"
+      },
+      {
+        "insight": "Local estimates suggested upwards of 80 civilians were killed in the Merawi massacre, while the national human rights commission confirmed at least 45 deaths.",
+        "context": "Ongoing Violence and Human Impact (2023–2024)"
+      },
+      {
+        "insight": "Human rights groups documented numerous abuses by federal troops operating with impunity in Amhara since the conflict began.",
+        "context": "Ongoing Violence and Human Impact (2023–2024)"
+      },
+      {
+        "insight": "The insurgency and counterinsurgency have devastated villages, displaced residents, and fueled a regional humanitarian crisis.",
+        "context": "Ongoing Violence and Human Impact (2023–2024)"
+      },
+      {
+        "insight": "As of end-2024, the Fano insurgency remains active; the army holds main cities, but clashes continue in rural areas.",
+        "context": "Current Status and Outlook"
+      },
+      {
+        "insight": "Violence intensity has fluctuated with surges, including a peak in mid-2024, and no definitive resolution has emerged.",
+        "context": "Current Status and Outlook"
+      },
+      {
+        "insight": "No comprehensive peace agreement or political settlement exists with Fano, and the militia’s decentralized structure hinders negotiations.",
+        "context": "Current Status and Outlook"
+      },
+      {
+        "insight": "Amhara civilians continue to bear the brunt of violence and lawlessness amid the ongoing conflict.",
+        "context": "Current Status and Outlook"
+      },
+      {
+        "insight": "Ethiopian authorities face the dual challenge of quelling the insurgency and addressing Amhara grievances without further alienation.",
+        "context": "Current Status and Outlook"
+      },
+      {
+        "insight": "International monitors have called for investigations and accountability for atrocities by all sides, but progress has been limited.",
+        "context": "Current Status and Outlook"
+      },
+      {
+        "insight": "Since April 2023, Amhara has experienced sustained political violence that has killed thousands and become one of Ethiopia’s gravest recent conflicts.",
+        "context": "Current Status and Outlook"
+      }
+    ],
+    "prompt": "Status of political violence in Amhara since Fano insurgency began in April 2023."
+  },
+  "costorm": {
+    "total_insights": 39,
+    "total_classified": 39,
+    "acled_count": 25,
+    "non_acled_count": 14,
+    "pct_acled": 0.6410256410256411,
+    "details": [
+      {
+        "evidence": "April 2023 disbandment of the Amhara Special Force catalyzed a shift from urban protests to a sustained ENDF–Fano rural war.",
+        "is_acled_data": false,
+        "reasoning": "The statement is an analytical claim about a causal shift in conflict dynamics following a policy decision (disbandment of Amhara Special Force) and characterizes the conflict as a sustained ENDF–Fano rural war. It does not cite specific ACLED event counts, locations, dates, fatalities, or actor-coded events. Without explicit reference to ACLED event data or metrics, this reads as general analysis rather than ACLED-derived data.",
+        "source_context": "Section: From Disbanded Forces to a Rural War; describes April 2023 decision and subsequent escalation."
+      },
+      {
+        "evidence": "Fano militias filled the security vacuum post-disbandment, framing their role as defending Amhara communities against perceived threats and asserting territorial claims.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general analytical narrative about Fano militias filling a security vacuum and framing their role; it does not cite specific ACLED event data, counts, locations, or actor-coded events. It reads as commentary rather than a direct use of ACLED-derived metrics or descriptions.",
+        "source_context": "Section: From Disbanded Forces to a Rural War; outlines Fano’s narrative and mobilization."
+      },
+      {
+        "evidence": "The August 2023 state of emergency enabled mass arrests and movement restrictions, deepening mistrust and institutionalizing confrontation.",
+        "is_acled_data": false,
+        "reasoning": "This is a qualitative statement about policy impacts (state of emergency enabling arrests and restrictions) and social dynamics (mistrust, confrontation). It reflects general analysis/political commentary and government actions, not specific ACLED event counts, actor data, fatalities, or location-based conflict events attributed to ACLED.",
+        "source_context": "Section: From Disbanded Forces to a Rural War; details government measures and effects."
+      },
+      {
+        "evidence": "Political-violence events surged from 16 in June 2023 to sustained 100+ monthly in 2024, peaking at 161 in October 2024.",
+        "is_acled_data": true,
+        "reasoning": "The evidence cites specific monthly counts of political-violence events and a peak figure, which are temporal conflict event statistics typical of ACLED’s event data and trend analysis.",
+        "source_context": "Section: From Disbanded Forces to a Rural War; monthly escalation statistics."
+      },
+      {
+        "evidence": "Battles dominated the conflict (70–90% of monthly incidents; 1,538 total), indicating a war defined by armed engagements rather than protests.",
+        "is_acled_data": true,
+        "reasoning": "The evidence reports specific counts and proportions of conflict event types (battles comprising 70–90% monthly incidents; 1,538 total), which aligns with ACLED’s event-type breakdown and temporal patterns derived from event data. This is characteristic of ACLED battle-related data and incident counts.",
+        "source_context": "Section: From Disbanded Forces to a Rural War; event-type distribution."
+      },
+      {
+        "evidence": "Rural areas were the primary battleground: 605 rural battle events, mainly ENDF–Fano, concentrated in North Shewa, West/East Gojam, and North Wello.",
+        "is_acled_data": true,
+        "reasoning": "The evidence cites specific counts of battle events (605), identifies actors (ENDF–Fano), and pinpoints subnational locations (North Shewa, West/East Gojam, North Wello), which aligns with ACLED’s battle event data, actor-level information, and geographic breakdowns. This is characteristic of ACLED-derived event statistics.",
+        "source_context": "Section: From Disbanded Forces to a Rural War; geographic concentration of rural clashes."
+      },
+      {
+        "evidence": "Frequency of rural battles accelerated in 2024 with 424 rural battles that year, reflecting attritional warfare.",
+        "is_acled_data": true,
+        "reasoning": "The evidence cites a specific count of battle events (424 rural battles in 2024) and discusses temporal patterns, which aligns with ACLED’s battle-related event data and trend analysis derived from its event dataset.",
+        "source_context": "Section: From Disbanded Forces to a Rural War; year-over-year increase."
+      },
+      {
+        "evidence": "Urban areas experienced intermittent high-impact incidents that shaped political narratives despite lower overall event counts.",
+        "is_acled_data": true,
+        "reasoning": "The statement references event counts and high-impact incidents shaping narratives in urban areas, which aligns with ACLED’s event-based data and trend analysis of subnational locations and temporal patterns. It suggests analysis grounded in ACLED metrics (event counts, incident characteristics), rather than general commentary.",
+        "source_context": "Section: From Disbanded Forces to a Rural War; hybrid conflict characterization."
+      },
+      {
+        "evidence": "By early 2024, recruitment and defections between state units, local administrations, and Fano entrenched an insurgency dynamic.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a generalized analytical claim about recruitment and defections entrenching an insurgency dynamic, without citing specific ACLED event counts, actor-level events, locations, fatalities, or temporal patterns directly from ACLED. It reads as commentary rather than data explicitly grounded in ACLED event records.",
+        "source_context": "Section: From Disbanded Forces to a Rural War; organizational shifts."
+      },
+      {
+        "evidence": "By late 2024, rural areas saw ~7.5 times more events and ~9 times more fatalities than towns, confirming a countryside-centric war.",
+        "is_acled_data": true,
+        "reasoning": "The evidence cites counts of conflict events and fatalities, and contrasts rural versus town locations, which are core ACLED metrics (event/fatality totals and geographic breakdowns). The temporal framing (late 2024) and subnational location comparison align with ACLED’s event-based trend analysis.",
+        "source_context": "Section: The Attrition Belt; rural vs urban comparative metrics."
+      },
+      {
+        "evidence": "The ‘attrition belt’ spans North Shewa, West Gojam, East Gojam, and North Wello, accounting for the majority of rural battles.",
+        "is_acled_data": true,
+        "reasoning": "The statement identifies specific subnational zones (North Shewa, West Gojam, East Gojam, North Wello) and characterizes the distribution of battle events (“majority of rural battles”), which aligns with ACLED’s geographic conflict data and battle-related event counts. This kind of regional breakdown of where battles occur is typically derived from ACLED’s event data and spatial analysis.",
+        "source_context": "Section: The Attrition Belt; mapping core zones."
+      },
+      {
+        "evidence": "North Shewa had the most rural clashes (131) with lower average lethality, while West/East Gojam had fewer but deadlier clashes (428 and 360 rural battle deaths, respectively).",
+        "is_acled_data": true,
+        "reasoning": "The evidence cites specific subnational conflict metrics: counts of rural clashes (event counts) and battle-related fatalities by zones (West/East Gojam). These are typical ACLED outputs—event counts, battle deaths, and geographic breakdowns—indicating derivation from ACLED event and fatality data.",
+        "source_context": "Section: The Attrition Belt; zone-specific lethality patterns."
+      },
+      {
+        "evidence": "Total battle events nearly tripled from 395 (2023) to 1,143 (2024); rural battles rose from 181 to 424.",
+        "is_acled_data": true,
+        "reasoning": "The evidence cites specific counts of battle events by year and differentiates rural battles—metrics consistent with ACLED’s event-type and subnational/geographic breakdowns. These are conflict event counts and battle-related data typical of ACLED-derived trend analysis.",
+        "source_context": "Section: The Attrition Belt; year-over-year escalation."
+      },
+      {
+        "evidence": "The week beginning 30 September 2024 was the most intense, with 70 political-violence events (58 battles).",
+        "is_acled_data": true,
+        "reasoning": "The statement cites a specific weekly count of political-violence events and battles, which aligns with ACLED’s event-based metrics and temporal aggregation of battles and other event types.",
+        "source_context": "Section: The Attrition Belt; weekly spike detail."
+      },
+      {
+        "evidence": "Rural clashes are mostly small-scale: median 1 death per event; nearly half record zero fatalities, but a minority reach 3–10+ and some exceed 60.",
+        "is_acled_data": true,
+        "reasoning": "The evidence cites event-level fatality distributions (median deaths per event, share with zero fatalities, ranges reaching 3–10+ and >60), which are typical metrics derived from ACLED’s conflict event and fatality data. This reflects aggregated analysis of ACLED battle-related events and casualty counts rather than general commentary.",
+        "source_context": "Section: The Attrition Belt; distribution of battle lethality."
+      },
+      {
+        "evidence": "Micro-geographies like Dega Damot and parts of South Gondar show unusually high fatalities per clash, suggesting offensive or encirclement tactics or heavier weapons.",
+        "is_acled_data": true,
+        "reasoning": "The statement references fatalities per clash at specific subnational locations (micro-geographies) and infers tactics, which aligns with ACLED’s battle-related event data, fatality counts, and granular geographic breakdowns that enable calculating fatalities per event and comparing across areas like Dega Damot and South Gondar.",
+        "source_context": "Section: The Attrition Belt; localized lethality insights."
+      },
+      {
+        "evidence": "The conflict produces a shifting mosaic of ambushes, checkpoints, and raids, complicating aid logistics and local administration operations.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general analytic description of conflict dynamics and their operational impacts, not a reference to specific ACLED event counts, actor data, locations, or trends. It lacks attribution to ACLED and does not cite concrete event data or statistics.",
+        "source_context": "Section: The Attrition Belt; operational landscape for aid and governance."
+      },
+      {
+        "evidence": "Extrajudicial killings surged from late 2023 and peaked in August 2024 (~30 incidents), indicating lethal punishment overtaking detention as coercion.",
+        "is_acled_data": true,
+        "reasoning": "Mentions counts and temporal trend of a specific event type (extrajudicial killings) peaking in a given month (~30 incidents). This aligns with ACLED’s event-level data, violence against civilians statistics, and trend analysis derived from incident counts.",
+        "source_context": "Section: Civilians in the Crossfire; trend in extrajudicial killings vs abductions."
+      },
+      {
+        "evidence": "Monthly fatalities from Fano-related clashes correlate moderately (≈0.54) with violence against civilians, with simultaneous peaks in mid–late 2024, especially October.",
+        "is_acled_data": true,
+        "reasoning": "The evidence references monthly fatalities and violence against civilians, and a temporal correlation/peaks, which align with ACLED’s event-based fatality counts and violence-against-civilians metrics as well as trend analysis derived from those data.",
+        "source_context": "Section: Civilians in the Crossfire; correlation between clashes and civilian harm."
+      },
+      {
+        "evidence": "Battles remain two-thirds to three-quarters of incidents, while violence against civilians rises in parallel, indicating cumulative escalation rather than substitution.",
+        "is_acled_data": true,
+        "reasoning": "The statement references the share of event types (battles vs. violence against civilians) and trends over time, which are core ACLED metrics derived from event classifications and temporal patterns. It indicates proportions of incidents by category and parallel increases—consistent with ACLED event-type distributions and trend analysis.",
+        "source_context": "Section: Civilians in the Crossfire; event-type trends."
+      },
+      {
+        "evidence": "Civilian targeting clusters in West Gojam, North Shewa, North Wello, and Central/West Gondar, mirroring rural battle zones.",
+        "is_acled_data": true,
+        "reasoning": "The evidence references clusters of civilian targeting in specific subnational areas and links them to rural battle zones, which aligns with ACLED’s geographic conflict data, violence against civilians statistics, and battle-related event data. This type of spatial patterning and actor/event-based insight is commonly derived from ACLED event records and their subnational breakdowns.",
+        "source_context": "Section: Civilians in the Crossfire; spatial overlap of civilian harm and battlefronts."
+      },
+      {
+        "evidence": "Principal perpetrators of civilian harm include Ethiopia’s national army (linked to 148 events), Fano (96), and unidentified armed groups.",
+        "is_acled_data": true,
+        "reasoning": "The evidence cites actor-level counts of events linked to harm against civilians (national army 148 events, Fano 96), which aligns with ACLED’s event-based and violence-against-civilians data and actor activity statistics.",
+        "source_context": "Section: Civilians in the Crossfire; perpetrator distribution."
+      },
+      {
+        "evidence": "Sexual violence is significant: at least 42 incidents coded; women in 31 events and girls in 16; state-linked workers targeted in at least 28 incidents.",
+        "is_acled_data": true,
+        "reasoning": "The evidence cites specific counts of coded incidents and disaggregates victims (women, girls) and targeted categories (state-linked workers), which aligns with ACLED’s event-based violence against civilians data and actor-level coding. The phrasing suggests totals from coded events, characteristic of ACLED datasets.",
+        "source_context": "Section: Civilians in the Crossfire; victim profiles and modalities."
+      },
+      {
+        "evidence": "Late-2024 incidents, such as an Ethiopian Red Cross ambulance attack near Sanja (25 Dec) and alleged killings/sexual assaults of two female government employees in Weger, illustrate attacks undermining local services and legitimacy.",
+        "is_acled_data": false,
+        "reasoning": "The evidence references specific late-2024 incidents (ambulance attack near Sanja, alleged killings/assaults in Weger) but does not attribute them to ACLED datasets or provide ACLED-style event counts, actor coding, or fatality figures. It appears as narrative examples likely from media or other sources rather than explicitly derived from ACLED data.",
+        "source_context": "Section: Civilians in the Crossfire; illustrative cases."
+      },
+      {
+        "evidence": "Narratives of “genocide” and systemic bias fuel Fano mobilization; abuses by federal forces reinforce these grievances, while Fano’s own abuses erode its protective legitimacy.",
+        "is_acled_data": false,
+        "reasoning": "The evidence is a qualitative narrative about motivations, grievances, and legitimacy dynamics of Fano and federal forces. It does not reference specific ACLED event data, counts, fatalities, locations, or actor-level datasets, nor is it attributed to ACLED. It is general analytical commentary rather than ACLED-derived metrics or event descriptions.",
+        "source_context": "Section: Civilians in the Crossfire; political framing and community perceptions."
+      },
+      {
+        "evidence": "Rare but devastating urban incidents—massacres and explosions—create ‘loud shocks’ that can match or exceed rural battle fatalities on specific days.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a qualitative observation about the impact of rare urban incidents relative to rural battle fatalities on specific days. It does not cite specific ACLED event counts, fatalities, locations, or temporal patterns, nor is it attributed to ACLED. It reads as general analysis rather than a direct use of ACLED data.",
+        "source_context": "Section: Quiet Cities, Loud Shocks; characterization of urban spikes."
+      },
+      {
+        "evidence": "On 9 July 2024, around 80 civilians were reportedly killed in a single Fano attack in Ykaho, Quara, constituting nearly nine-tenths of that day’s regional deaths.",
+        "is_acled_data": true,
+        "reasoning": "The evidence cites a specific date, location (Ykaho, Quara), actor (Fano), event type (violence against civilians), and fatality count, along with a regional share of deaths for that day—details characteristic of ACLED event and fatality data and subnational breakdowns.",
+        "source_context": "Section: Quiet Cities, Loud Shocks; specific deadly day example."
+      },
+      {
+        "evidence": "Urban violence overall is modest in volume, but per-incident lethality of urban civilian targeting and explosions is far higher than rural averages.",
+        "is_acled_data": true,
+        "reasoning": "The statement compares urban vs. rural event volumes and per-incident lethality for civilian targeting and explosions—metrics that can be derived from ACLED’s event counts, event types (violence against civilians, explosions), locations (urban vs. rural), and fatality figures. It reflects analysis of ACLED event data rather than general commentary.",
+        "source_context": "Section: Quiet Cities, Loud Shocks; urban lethality vs volume."
+      },
+      {
+        "evidence": "Notable urban explosions: Dawunt (single blast, 50 deaths), Menze Gera Midir (29 deaths), Debub Achefer (two blasts, 45 deaths).",
+        "is_acled_data": true,
+        "reasoning": "The evidence lists specific explosions with locations, counts of blasts, and fatality figures—details that align with ACLED’s event-level data on explosions/remote violence and fatalities. This type of granular conflict event information is characteristic of ACLED datasets.",
+        "source_context": "Section: Quiet Cities, Loud Shocks; high-fatality urban explosion examples."
+      },
+      {
+        "evidence": "Urban civilian targeting is concentrated: Quara (6 events, 101 deaths), Debub Mecha (7 events, 98 deaths), Merawi (4 events, 56 deaths).",
+        "is_acled_data": true,
+        "reasoning": "The evidence gives specific counts of events and associated fatalities for violence against civilians in particular subnational locations, which aligns with ACLED’s event-level data (violence against civilians, fatalities, and geographic breakdowns). This is characteristic of ACLED-derived statistics.",
+        "source_context": "Section: Quiet Cities, Loud Shocks; locality-specific urban tolls."
+      },
+      {
+        "evidence": "Debub Mecha and Bahir Dar town are outliers: Debub Mecha for exceptionally high civilian deaths; Bahir Dar for a dense cluster of civilian attacks and explosions.",
+        "is_acled_data": true,
+        "reasoning": "The evidence cites subnational locations with patterns in civilian targeting and explosions, referencing high civilian deaths and dense clusters of civilian attacks—metrics aligned with ACLED’s event types (violence against civilians, explosions/remote violence), fatality counts, and geocoded clustering. This appears to be an analysis derived from ACLED event and fatality data at the district/town level.",
+        "source_context": "Section: Quiet Cities, Loud Shocks; urban outliers."
+      },
+      {
+        "evidence": "Specific weeks/dates—29 Jan, 9 Jul, 12–13 Oct, 6 Dec 2024—show single urban events driving sharp fatality spikes that rival rural battle deaths.",
+        "is_acled_data": true,
+        "reasoning": "The evidence references specific dates and links urban events to sharp fatality spikes that rival rural battle deaths, indicating use of ACLED temporal event data and fatality counts. This aligns with ACLED’s event-based datasets, trend analysis, and subnational/temporal breakdowns.",
+        "source_context": "Section: Quiet Cities, Loud Shocks; timing of urban shock spikes."
+      },
+      {
+        "evidence": "Urban massacres impose high political costs by targeting visible public spaces and vulnerable groups, intensifying domestic and international scrutiny of both ENDF and Fano.",
+        "is_acled_data": false,
+        "reasoning": "This statement is general analytical commentary about political costs and scrutiny, not referencing specific ACLED event data, counts, fatalities, locations, or actor-level statistics. It does not cite or attribute ACLED and lacks concrete conflict metrics, so it is not derived from ACLED data.",
+        "source_context": "Section: Quiet Cities, Loud Shocks; political implications of urban incidents."
+      },
+      {
+        "evidence": "Data aggregation choices can inflate perceived centrality of urban events; disaggregated rural battle data confirm the war’s rural backbone with urban shocks layered on top.",
+        "is_acled_data": false,
+        "reasoning": "The statement discusses methodological considerations about data aggregation and offers a qualitative interpretation (urban vs. rural centrality) without citing specific ACLED event counts, locations, or actor-level data. It reads as analytic commentary rather than a direct use of ACLED-derived metrics or explicitly attributed ACLED data.",
+        "source_context": "Section: Quiet Cities, Loud Shocks; methodological caveat."
+      },
+      {
+        "evidence": "Daily life in cities like Bahir Dar or Gondar can appear calm while rural districts endure repeated clashes, creating a perception gap between visibility and mortality.",
+        "is_acled_data": false,
+        "reasoning": "The evidence is a general observational statement about urban-rural perception gaps and calm vs. clashes without referencing specific ACLED event counts, locations, fatalities, or trend data. It reads as qualitative commentary rather than data explicitly tied to ACLED metrics or actor/event records.",
+        "source_context": "Section: Quiet Cities, Loud Shocks; lived-experience disjuncture."
+      },
+      {
+        "evidence": "October 2024 was exceptionally deadly (~660 political-violence deaths), coinciding with high clashes and civilian killings.",
+        "is_acled_data": true,
+        "reasoning": "The evidence cites a specific monthly fatality estimate (~660 deaths) and links it to high levels of clashes and violence against civilians, which are core ACLED metrics (fatality counts, event types, and temporal trends). This is consistent with ACLED-derived data and analysis of conflict event patterns over time.",
+        "source_context": "Sections: Civilians in the Crossfire and Conclusion; peak month summary."
+      },
+      {
+        "evidence": "Stabilization requires reducing routine rural clashes and sweeps, constraining abuses by both federal and Fano forces, and designing strategies beyond urban-centric responses.",
+        "is_acled_data": false,
+        "reasoning": "This is a policy-oriented recommendation about stabilization strategies and constraining abuses, not tied to specific ACLED event counts, actor data, fatalities, or locations. It is general analysis rather than evidence explicitly derived from ACLED datasets.",
+        "source_context": "Conclusion; policy implications."
+      },
+      {
+        "evidence": "Focusing solely on preventing the next urban atrocity risks misdiagnosing the conflict’s core drivers rooted in the rural attrition belt.",
+        "is_acled_data": false,
+        "reasoning": "This is a qualitative analytical statement about conflict drivers and strategy, not referencing specific ACLED event counts, locations, actor data, or trends. It is commentary rather than data derived from ACLED.",
+        "source_context": "Conclusion; warning against urban-only approaches."
+      },
+      {
+        "evidence": "Humanitarian operations must navigate a fluid rural risk lattice of ambushes and checkpoints, tailoring access strategies to shifting micro-fronts.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a qualitative, operational assessment about humanitarian access and fluid risk dynamics. It does not reference specific conflict events, counts, locations, actors, fatalities, or trends tied to ACLED data, nor is it attributed to ACLED. Therefore it is general analysis rather than ACLED-derived data.",
+        "source_context": "The Attrition Belt and Civilians in the Crossfire; implications for aid delivery."
+      }
+    ],
+    "insights": [
+      {
+        "insight": "April 2023 disbandment of the Amhara Special Force catalyzed a shift from urban protests to a sustained ENDF–Fano rural war.",
+        "context": "Section: From Disbanded Forces to a Rural War; describes April 2023 decision and subsequent escalation."
+      },
+      {
+        "insight": "Fano militias filled the security vacuum post-disbandment, framing their role as defending Amhara communities against perceived threats and asserting territorial claims.",
+        "context": "Section: From Disbanded Forces to a Rural War; outlines Fano’s narrative and mobilization."
+      },
+      {
+        "insight": "The August 2023 state of emergency enabled mass arrests and movement restrictions, deepening mistrust and institutionalizing confrontation.",
+        "context": "Section: From Disbanded Forces to a Rural War; details government measures and effects."
+      },
+      {
+        "insight": "Political-violence events surged from 16 in June 2023 to sustained 100+ monthly in 2024, peaking at 161 in October 2024.",
+        "context": "Section: From Disbanded Forces to a Rural War; monthly escalation statistics."
+      },
+      {
+        "insight": "Battles dominated the conflict (70–90% of monthly incidents; 1,538 total), indicating a war defined by armed engagements rather than protests.",
+        "context": "Section: From Disbanded Forces to a Rural War; event-type distribution."
+      },
+      {
+        "insight": "Rural areas were the primary battleground: 605 rural battle events, mainly ENDF–Fano, concentrated in North Shewa, West/East Gojam, and North Wello.",
+        "context": "Section: From Disbanded Forces to a Rural War; geographic concentration of rural clashes."
+      },
+      {
+        "insight": "Frequency of rural battles accelerated in 2024 with 424 rural battles that year, reflecting attritional warfare.",
+        "context": "Section: From Disbanded Forces to a Rural War; year-over-year increase."
+      },
+      {
+        "insight": "Urban areas experienced intermittent high-impact incidents that shaped political narratives despite lower overall event counts.",
+        "context": "Section: From Disbanded Forces to a Rural War; hybrid conflict characterization."
+      },
+      {
+        "insight": "By early 2024, recruitment and defections between state units, local administrations, and Fano entrenched an insurgency dynamic.",
+        "context": "Section: From Disbanded Forces to a Rural War; organizational shifts."
+      },
+      {
+        "insight": "By late 2024, rural areas saw ~7.5 times more events and ~9 times more fatalities than towns, confirming a countryside-centric war.",
+        "context": "Section: The Attrition Belt; rural vs urban comparative metrics."
+      },
+      {
+        "insight": "The ‘attrition belt’ spans North Shewa, West Gojam, East Gojam, and North Wello, accounting for the majority of rural battles.",
+        "context": "Section: The Attrition Belt; mapping core zones."
+      },
+      {
+        "insight": "North Shewa had the most rural clashes (131) with lower average lethality, while West/East Gojam had fewer but deadlier clashes (428 and 360 rural battle deaths, respectively).",
+        "context": "Section: The Attrition Belt; zone-specific lethality patterns."
+      },
+      {
+        "insight": "Total battle events nearly tripled from 395 (2023) to 1,143 (2024); rural battles rose from 181 to 424.",
+        "context": "Section: The Attrition Belt; year-over-year escalation."
+      },
+      {
+        "insight": "The week beginning 30 September 2024 was the most intense, with 70 political-violence events (58 battles).",
+        "context": "Section: The Attrition Belt; weekly spike detail."
+      },
+      {
+        "insight": "Rural clashes are mostly small-scale: median 1 death per event; nearly half record zero fatalities, but a minority reach 3–10+ and some exceed 60.",
+        "context": "Section: The Attrition Belt; distribution of battle lethality."
+      },
+      {
+        "insight": "Micro-geographies like Dega Damot and parts of South Gondar show unusually high fatalities per clash, suggesting offensive or encirclement tactics or heavier weapons.",
+        "context": "Section: The Attrition Belt; localized lethality insights."
+      },
+      {
+        "insight": "The conflict produces a shifting mosaic of ambushes, checkpoints, and raids, complicating aid logistics and local administration operations.",
+        "context": "Section: The Attrition Belt; operational landscape for aid and governance."
+      },
+      {
+        "insight": "Extrajudicial killings surged from late 2023 and peaked in August 2024 (~30 incidents), indicating lethal punishment overtaking detention as coercion.",
+        "context": "Section: Civilians in the Crossfire; trend in extrajudicial killings vs abductions."
+      },
+      {
+        "insight": "Monthly fatalities from Fano-related clashes correlate moderately (≈0.54) with violence against civilians, with simultaneous peaks in mid–late 2024, especially October.",
+        "context": "Section: Civilians in the Crossfire; correlation between clashes and civilian harm."
+      },
+      {
+        "insight": "Battles remain two-thirds to three-quarters of incidents, while violence against civilians rises in parallel, indicating cumulative escalation rather than substitution.",
+        "context": "Section: Civilians in the Crossfire; event-type trends."
+      },
+      {
+        "insight": "Civilian targeting clusters in West Gojam, North Shewa, North Wello, and Central/West Gondar, mirroring rural battle zones.",
+        "context": "Section: Civilians in the Crossfire; spatial overlap of civilian harm and battlefronts."
+      },
+      {
+        "insight": "Principal perpetrators of civilian harm include Ethiopia’s national army (linked to 148 events), Fano (96), and unidentified armed groups.",
+        "context": "Section: Civilians in the Crossfire; perpetrator distribution."
+      },
+      {
+        "insight": "Sexual violence is significant: at least 42 incidents coded; women in 31 events and girls in 16; state-linked workers targeted in at least 28 incidents.",
+        "context": "Section: Civilians in the Crossfire; victim profiles and modalities."
+      },
+      {
+        "insight": "Late-2024 incidents, such as an Ethiopian Red Cross ambulance attack near Sanja (25 Dec) and alleged killings/sexual assaults of two female government employees in Weger, illustrate attacks undermining local services and legitimacy.",
+        "context": "Section: Civilians in the Crossfire; illustrative cases."
+      },
+      {
+        "insight": "Narratives of “genocide” and systemic bias fuel Fano mobilization; abuses by federal forces reinforce these grievances, while Fano’s own abuses erode its protective legitimacy.",
+        "context": "Section: Civilians in the Crossfire; political framing and community perceptions."
+      },
+      {
+        "insight": "Rare but devastating urban incidents—massacres and explosions—create ‘loud shocks’ that can match or exceed rural battle fatalities on specific days.",
+        "context": "Section: Quiet Cities, Loud Shocks; characterization of urban spikes."
+      },
+      {
+        "insight": "On 9 July 2024, around 80 civilians were reportedly killed in a single Fano attack in Ykaho, Quara, constituting nearly nine-tenths of that day’s regional deaths.",
+        "context": "Section: Quiet Cities, Loud Shocks; specific deadly day example."
+      },
+      {
+        "insight": "Urban violence overall is modest in volume, but per-incident lethality of urban civilian targeting and explosions is far higher than rural averages.",
+        "context": "Section: Quiet Cities, Loud Shocks; urban lethality vs volume."
+      },
+      {
+        "insight": "Notable urban explosions: Dawunt (single blast, 50 deaths), Menze Gera Midir (29 deaths), Debub Achefer (two blasts, 45 deaths).",
+        "context": "Section: Quiet Cities, Loud Shocks; high-fatality urban explosion examples."
+      },
+      {
+        "insight": "Urban civilian targeting is concentrated: Quara (6 events, 101 deaths), Debub Mecha (7 events, 98 deaths), Merawi (4 events, 56 deaths).",
+        "context": "Section: Quiet Cities, Loud Shocks; locality-specific urban tolls."
+      },
+      {
+        "insight": "Debub Mecha and Bahir Dar town are outliers: Debub Mecha for exceptionally high civilian deaths; Bahir Dar for a dense cluster of civilian attacks and explosions.",
+        "context": "Section: Quiet Cities, Loud Shocks; urban outliers."
+      },
+      {
+        "insight": "Specific weeks/dates—29 Jan, 9 Jul, 12–13 Oct, 6 Dec 2024—show single urban events driving sharp fatality spikes that rival rural battle deaths.",
+        "context": "Section: Quiet Cities, Loud Shocks; timing of urban shock spikes."
+      },
+      {
+        "insight": "Urban massacres impose high political costs by targeting visible public spaces and vulnerable groups, intensifying domestic and international scrutiny of both ENDF and Fano.",
+        "context": "Section: Quiet Cities, Loud Shocks; political implications of urban incidents."
+      },
+      {
+        "insight": "Data aggregation choices can inflate perceived centrality of urban events; disaggregated rural battle data confirm the war’s rural backbone with urban shocks layered on top.",
+        "context": "Section: Quiet Cities, Loud Shocks; methodological caveat."
+      },
+      {
+        "insight": "Daily life in cities like Bahir Dar or Gondar can appear calm while rural districts endure repeated clashes, creating a perception gap between visibility and mortality.",
+        "context": "Section: Quiet Cities, Loud Shocks; lived-experience disjuncture."
+      },
+      {
+        "insight": "October 2024 was exceptionally deadly (~660 political-violence deaths), coinciding with high clashes and civilian killings.",
+        "context": "Sections: Civilians in the Crossfire and Conclusion; peak month summary."
+      },
+      {
+        "insight": "Stabilization requires reducing routine rural clashes and sweeps, constraining abuses by both federal and Fano forces, and designing strategies beyond urban-centric responses.",
+        "context": "Conclusion; policy implications."
+      },
+      {
+        "insight": "Focusing solely on preventing the next urban atrocity risks misdiagnosing the conflict’s core drivers rooted in the rural attrition belt.",
+        "context": "Conclusion; warning against urban-only approaches."
+      },
+      {
+        "insight": "Humanitarian operations must navigate a fluid rural risk lattice of ambushes and checkpoints, tailoring access strategies to shifting micro-fronts.",
+        "context": "The Attrition Belt and Civilians in the Crossfire; implications for aid delivery."
+      }
+    ],
+    "prompt": "Status of political violence in Amhara since Fano insurgency began in April 2023."
+  }
+}

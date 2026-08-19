@@ -1,0 +1,85 @@
+{
+  "dataset_id": 7,
+  "dataset_path": "data/notebooks/flag-7.json",
+  "metadata": {
+    "category": "Incident Management",
+    "dataset_description": "The dataset comprises 500 entries simulating ServiceNow incidents table, detailing various attributes such as category, state, open and close dates, involved personnel, and incident specifics like description, and priority. It captures incident management activities with fields like 'opened_at', 'closed_at', 'assigned_to', 'short_description', and 'priority', reflecting the operational handling and urgency of issues across different locations and categories.",
+    "goal": "Analyze the workload distribution among agents to identify any overload situations, specifically focusing on any agent with increasing assignments.",
+    "header": "Incident Assignment and Resolution Efficiency Analysis (Flag 7)",
+    "role": "L2 Incident Analyst"
+  },
+  "predicted_insights": [
+    "Beth Anglin’s workload nearly tripled over the year (+188%, from 8 to 23) and stayed at or above 14 from July onward, indicating a sustained rise that equates to roughly 15 additional assignments year-over-year and potential overload risk.",
+    "Beth’s peak of 24 is double the next-highest agent peak (12 by Luke Wilson), and her workload stayed elevated around that time (Sep–Nov average ≈19.3 and 24 again in Jan 2024), signaling a persistent, concentrated load compared to peers whose monthly peaks were ≤12.",
+    "This +8 surge was a 5x jump over the prior month and tied his peak monthly load (10, also seen in 2023-08), indicating sharp workload volatility that could signal overload risk during spike months.",
+    "This spike represents roughly a 164% surge in Luke Wilson’s average resolution time in January 2024 versus December 2023—far exceeding other agents’ month-over-month changes—suggesting a potential overload or a sharp rise in ticket complexity concentrated in that period.",
+    "Beth Anglin’s high-priority workload increased by about 15 incidents from 2023-01 (8) to 2024-01 (23), equating to a sustained rise of ~1.27 incidents per month, while all peers trended downward—flagging a potential developing overload concentrated on a single agent.",
+    "Beth Anglin drives nearly all increasing workload, appearing in five rising groups and accounting for ~188 of ~203 total increasing assignments (~93%), with Network alone growing from 6 to 16 monthly assignments across the period (slope +0.72).",
+    "A single agent (Beth Anglin) dominates two different groups simultaneously, handling two-thirds of their incidents (16 of 24 in Network and 2 of 3 in Service Desk), indicating concentrated workload and potential single-point-of-failure risk across teams.",
+    "In 2024Q1, all high-priority incidents were handled by Howard Johnson (100% share, up from 83.33% in 2023Q4), indicating a pronounced concentration of critical workload on a single agent while no other agent had a ≥10pp increase.",
+    "Four of five agents showed spikes, with Fred Luddy and Luke Wilson each spiking in 10 weeks (sustained overload risk), while Howard Johnson had none, indicating workload pressure is concentrated on a subset of the team.",
+    "While four agents hit 4-week increasing streaks, these ramps started from low baselines and peaked at 3–4 incidents per week during the streaks, and only Beth ever spiked higher (7 in a later week), indicating short-lived upticks rather than sustained overload.",
+    "Across 500 incidents between 2023-01-01 and 2024-01-31 (~56.6 weeks), the team handled about 8.8 incidents per week overall; with five agents, an even baseline is roughly 1.8 incidents per agent per week—use this as a benchmark to flag potential overload once high-priority incidents are correctly parsed and isolated.",
+    "While Fred Luddy has the top proportion, Beth Anglin carries the largest high‑priority workload by volume—174 P1/P2 incidents out of 188 total (92.55%)—indicating a concentration of critical work despite a slightly lower share."
+  ],
+  "predicted_summary": "Beth Anglin is the only agent with a sustained upward monthly assignment trend (2023-01 to 2024-01), including high-priority work rising by +1.27 incidents per month; she set the dataset’s single-month peak (24 assignments in Oct 2023) and, in the most recent quarter, handled ~66.7% of incidents in both Network and Service Desk. Her workload is increasing across multiple teams (Network +0.72, Database +0.40, Service Desk +0.09, Hardware +0.03, Software +0.02 incidents per month), indicating broad-based growth rather than isolated spikes (only 2 spike weeks).\nWorkload strain appears episodic for several agents: Fred Luddy and Luke Wilson each had 10 spike weeks, and Charlie Whitherspoon had 9, where weekly assignments exceeded 1.5× their own 75th‑percentile load. Luke’s average resolution time jumped by ~151.79 hours from Dec 2023 (~92.76 h) to Jan 2024 (~244.54 h), coinciding with a 4‑week run of increasing assignments; Fred’s caseload is highly intense, with 96.15% (75 of 78) of his assignments being Priority 1–2. These patterns reflect intermittent overload driven by volume and case severity.\nHoward Johnson shows emerging overload signals without a consistent monthly uptrend: he recorded the largest single month‑over‑month assignment jump (+8 tickets, from 2 in Dec 2023 to 10 in Jan 2024), a 4‑week streak of rising weekly assignments, and a shift toward higher severity—his share of Priority 1–2 incidents rose by +16.67 percentage points to 100% in 2024Q1. He also has small upward trends in Service Desk (+0.04) and Hardware (+0.02) assignments, indicating localized growth.",
+  "score_insights": 0.6338464412822106,
+  "score_insights_dict": [
+    {
+      "gt_insight": "Beth Anglin has a higher average number of incident assignments compared to other agents",
+      "pred_insight": "Beth’s peak of 24 is double the next-highest agent peak (12 by Luke Wilson), and her workload stayed elevated around that time (Sep–Nov average ≈19.3 and 24 again in Jan 2024), signaling a persistent, concentrated load compared to peers whose monthly peaks were ≤12.",
+      "score": 0.769172536341413
+    },
+    {
+      "gt_insight": "Beth Anglin received significantly increasing incident assignments over the time period. We see a linearly increasing trend",
+      "pred_insight": "Beth Anglin’s high-priority workload increased by about 15 incidents from 2023-01 (8) to 2024-01 (23), equating to a sustained rise of ~1.27 incidents per month, while all peers trended downward—flagging a potential developing overload concentrated on a single agent.",
+      "score": 0.8437474591518124
+    },
+    {
+      "gt_insight": "Increase in network category incidents assigned to Beth Anglin",
+      "pred_insight": "Beth Anglin drives nearly all increasing workload, appearing in five rising groups and accounting for ~188 of ~203 total increasing assignments (~93%), with Network alone growing from 6 to 16 monthly assignments across the period (slope +0.72).",
+      "score": 0.7933225811898917
+    },
+    {
+      "gt_insight": "The resolution time (TTR) for Beth Anglin  remains uniform over the entire timeline",
+      "pred_insight": "While four agents hit 4-week increasing streaks, these ramps started from low baselines and peaked at 3–4 incidents per week during the streaks, and only Beth ever spiked higher (7 in a later week), indicating short-lived upticks rather than sustained overload.",
+      "score": 0.16021700869855454
+    },
+    {
+      "gt_insight": "Continued increase in assignments for Beth Anglin if the trend during leave periods is not addressed",
+      "pred_insight": "Beth Anglin’s workload nearly tripled over the year (+188%, from 8 to 23) and stayed at or above 14 from July onward, indicating a sustained rise that equates to roughly 15 additional assignments year-over-year and potential overload risk.",
+      "score": 0.6027726210293809
+    }
+  ],
+  "score_summary": 0.6657915612625547,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.707534185706762,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "Beth’s peak of 24 is double the next-highest agent peak (12 by Luke Wilson), and her workload stayed elevated around that time (Sep–Nov average ≈19.3 and 24 again in Jan 2024), signaling a persistent, concentrated load compared to peers whose monthly peaks were ≤12.",
+      "gt_insight": "Beth Anglin has a higher average number of incident assignments compared to other agents",
+      "score": 0.7974701613593602
+    },
+    {
+      "pred_insight": "Beth Anglin’s high-priority workload increased by about 15 incidents from 2023-01 (8) to 2024-01 (23), equating to a sustained rise of ~1.27 incidents per month, while all peers trended downward—flagging a potential developing overload concentrated on a single agent.",
+      "gt_insight": "Beth Anglin received significantly increasing incident assignments over the time period. We see a linearly increasing trend",
+      "score": 0.8814726208113315
+    },
+    {
+      "pred_insight": "Beth Anglin drives nearly all increasing workload, appearing in five rising groups and accounting for ~188 of ~203 total increasing assignments (~93%), with Network alone growing from 6 to 16 monthly assignments across the period (slope +0.72).",
+      "gt_insight": "Increase in network category incidents assigned to Beth Anglin",
+      "score": 0.8580235801644014
+    },
+    {
+      "pred_insight": "A single agent (Beth Anglin) dominates two different groups simultaneously, handling two-thirds of their incidents (16 of 24 in Network and 2 of 3 in Service Desk), indicating concentrated workload and potential single-point-of-failure risk across teams.",
+      "gt_insight": "The resolution time (TTR) for Beth Anglin  remains uniform over the entire timeline",
+      "score": 0.20195979252003612
+    },
+    {
+      "pred_insight": "Beth Anglin’s high-priority workload increased by about 15 incidents from 2023-01 (8) to 2024-01 (23), equating to a sustained rise of ~1.27 incidents per month, while all peers trended downward—flagging a potential developing overload concentrated on a single agent.",
+      "gt_insight": "Continued increase in assignments for Beth Anglin if the trend during leave periods is not addressed",
+      "score": 0.7987447736786802
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.10436188692773722,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.8799746274528187
+}

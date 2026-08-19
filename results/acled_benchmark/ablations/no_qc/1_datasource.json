@@ -1,0 +1,282 @@
+{
+  "total_insights": 27,
+  "total_classified": 27,
+  "acled_count": 13,
+  "non_acled_count": 14,
+  "pct_acled": 0.48148148148148145,
+  "details": [
+    {
+      "evidence": "Ceasefire periods in Colombia (2022–2024) often coincided with a shift from open clashes to coercive governance tactics—extortion, kidnapping, curfews—rather than a sustained reduction in overall violence.",
+      "is_acled_data": false,
+      "reasoning": "The statement is an analytical claim about shifts in tactics during ceasefire periods without citing specific ACLED event counts or actor-level metrics; it reads as general conflict analysis rather than data explicitly attributed to ACLED.",
+      "source_context": "Article thesis and opening vignette at La Parada; overview of Total Peace outcomes and behavior shifts during truces."
+    },
+    {
+      "evidence": "Quarterly conflict events returned to above roughly 1,200 per quarter in 2023–2024, with fatalities around 400–550, mirroring pre-Petro levels rather than declining.",
+      "is_acled_data": true,
+      "reasoning": "The statement gives specific quarterly counts of conflict events and fatalities over 2023–2024 and compares them to pre-Petro levels. Event counts and fatality figures over time are core ACLED metrics and temporal trend analysis derived from such event data aligns with ACLED’s outputs.",
+      "source_context": "Section ‘The pledge and the paradox’; cites [1] for quarterly events/fatalities comparison."
+    },
+    {
+      "evidence": "Ceasefire windows became adaptation windows for armed groups, who leveraged weak verification and state presence to expand parallel authority.",
+      "is_acled_data": false,
+      "reasoning": "This is a qualitative analytical statement about how armed groups used ceasefire periods; it does not reference specific ACLED event data, counts, locations, or actor-level statistics, nor is it attributed to ACLED. It reads as general analysis rather than data-derived insight.",
+      "source_context": "Discussion of brittle design and fragmented armed landscape; references early ELN truce unraveling and continued activity of multiple groups [3][4][5]."
+    },
+    {
+      "evidence": "Unidentified Armed Group (Colombia) was implicated in more than 3,700 events with high lethality during 2022–2024, highlighting opacity and accountability gaps.",
+      "is_acled_data": true,
+      "reasoning": "The claim cites a specific actor (“Unidentified Armed Group (Colombia)”) and quantifies the number of events with a temporal window (2022–2024), which aligns with ACLED’s actor-level event counts and lethality metrics derived from event data. This type of actor-event count over a defined period is characteristic of ACLED datasets.",
+      "source_context": "Actor patterns and event counts indicating prominent role of unidentified groups [5]."
+    },
+    {
+      "evidence": "Targeting of community and indigenous leaders persisted through late 2024, with Cauca showing high concentrations of attacks on indigenous authorities and social leaders.",
+      "is_acled_data": true,
+      "reasoning": "The statement references targeted violence against community and indigenous leaders, with a subnational concentration in Cauca and a temporal reference (late 2024). This aligns with ACLED’s violence against civilians event data, geographic breakdowns, and trend analysis by location and time. While not explicitly attributed, the content type matches ACLED’s datasets and typical reporting.",
+      "source_context": "Community impacts and leadership targeting in Cauca and Antioquia [6]."
+    },
+    {
+      "evidence": "In many top-violence localities, civilian targeting dominated over battles (e.g., Cúcuta, Tame, Quibdó, Santander de Quilichao, Saravena, Arauquita, Tumaco, Corinto), reflecting social control rather than front-line warfare.",
+      "is_acled_data": true,
+      "reasoning": "The statement compares types of conflict events (civilian targeting vs. battles) across specific localities, implying use of subnational event-type distributions and geographic breakdowns typical of ACLED’s event data (violence against civilians vs. battles by location). This aligns with ACLED statistics and analysis rather than general commentary.",
+      "source_context": "Geography of harm and top admin2 profiles with leading event type as violence against civilians [8]."
+    },
+    {
+      "evidence": "Cauca’s average monthly events rose from ~33.7 to ~42.9 and Arauca’s increased by nearly seven events per month after August 2022, while Antioquia and Córdoba declined—indicating redistribution of harm to border/rent hubs.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites subnational average monthly conflict event counts and temporal changes after a specific date, which aligns with ACLED’s event-based, time-series and geographic conflict data and trend analysis at the department level in Colombia.",
+      "source_context": "Department-level redistribution and monthly aggregates masking concentration in border and illicit-rent corridors [9]."
+    },
+    {
+      "evidence": "Border dynamics with Venezuela showed late-2024 spikes in cross-border-linked clashes in Arauca and Norte de Santander; near Ecuador, Nariño and Putumayo had persistent clashes tied to rent/logistics rather than explicit cross-border flags.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references specific subnational locations (Arauca, Norte de Santander, Nariño, Putumayo) and temporal patterns (late-2024 spikes, persistent clashes) tied to cross-border-linked clashes and conflict dynamics. This aligns with ACLED-style event data, geographic breakdowns, and trend analysis derived from recorded events, even though no fatalities are cited. It reads like a synthesis of ACLED event patterns rather than general commentary.",
+      "source_context": "Cross-border signatures and displacement correlations along Venezuela and Ecuador frontiers [10]."
+    },
+    {
+      "evidence": "Displacement and ‘tax regimes’ intensified near borders, with Tumaco and northern Cauca experiencing extortion backed by abductions even amid ceasefire elsewhere.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a qualitative description of displacement, extortion, and abductions in specific regions without citing event counts, fatalities, or explicit ACLED attribution. It reads as analytical/journalistic context rather than specific ACLED event data or metrics.",
+      "source_context": "Human toll and extortion-kidnapping enforcement patterns in border corridors [10][8]."
+    },
+    {
+      "evidence": "Bogotá’s violence profile leaned toward riots and protest, contrasting with rural coercion that set prices, movement, and labor norms.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a qualitative characterization of violence types in Bogotá vs. rural areas without citing specific event counts, actors, locations, or ACLED attribution. It reads as general analysis rather than derived from ACLED event data or statistics.",
+      "source_context": "Urban-rural divergence in event types and governance modes [8][9]."
+    },
+    {
+      "evidence": "Ceasefire effects were uneven across departments: in Antioquia, battles and violence against civilians were higher during ceasefire windows; in Cauca, some categories were lower during ceasefire periods.",
+      "is_acled_data": true,
+      "reasoning": "The statement references subnational (department-level) comparisons of conflict event categories (battles, violence against civilians) across temporal windows (ceasefire periods), which aligns with ACLED’s event counts, actor/activity categories, and temporal trend analysis based on its dataset. This type of granular, department-level, category-specific trend comparison is characteristic of analyses derived from ACLED data.",
+      "source_context": "Department-level comparisons of ceasefire vs non-ceasefire months for event types and fatalities [11]."
+    },
+    {
+      "evidence": "Fatalities were concentrated in Cauca and Antioquia (897 and 681 respectively from Aug 2022–Dec 2024), with a majority of events involving non-state actors, indicating strong parallel authority.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites subnational fatality totals over a defined period and links them to event types involving non-state actors—hallmarks of ACLED’s event-based, geographically disaggregated fatality and actor data. This matches ACLED’s coverage of fatalities, locations, time frames, and actor involvement patterns.",
+      "source_context": "Top admin1 units by fatalities and share of non-state involvement [12]."
+    },
+    {
+      "evidence": "Attacks on civilians remained high across Petro’s term: 2,893 incidents causing about 3,245 deaths and 615 abductions, with Unidentified Armed Group most frequently listed as perpetrator.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific counts of attacks on civilians, fatalities, abductions, and identifies a frequent perpetrator, which aligns with ACLED’s event-level data on violence against civilians, fatality figures, and actor-level information. This is characteristic of ACLED-derived statistics.",
+      "source_context": "Violence-against-civilians distribution and top perpetrator/targets [13]."
+    },
+    {
+      "evidence": "Event time series showed recurrent spikes in both violence against civilians and battles, especially in mid-to-late 2024, contradicting expectations of sustained de-escalation.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references an event time series with recurrent spikes specifically in violence against civilians and battles, which are core ACLED event categories and temporal trend analyses derived from ACLED data. This aligns with ACLED’s conflict event counts and trend patterns, indicating it is likely based on ACLED data.",
+      "source_context": "Monthly trends by event type and fatalities [14]."
+    },
+    {
+      "evidence": "Kidnapping served as an enforcement tool for illegal ‘taxes’ during ceasefires, ensuring compliance without open firefights, as reflected in hundreds of abductions since 2022.",
+      "is_acled_data": false,
+      "reasoning": "The statement is an analytical claim about kidnapping being used to enforce illegal taxes during ceasefires, citing “hundreds of abductions since 2022” without referencing specific ACLED event counts, actor data, or ACLED attribution. It reads as general analysis and aggregation, not explicitly tied to ACLED event data or metrics.",
+      "source_context": "Political economy vignette of trucking corridor and broader abduction data [13]."
+    },
+    {
+      "evidence": "Conflict hotspots shifted toward Catatumbo (Norte de Santander) and Arauca hubs (e.g., Villa del Rosario/La Parada, Arauca city) in 2023–2024 compared to 2020–2021, with ELN and unidentified groups often cited.",
+      "is_acled_data": true,
+      "reasoning": "The statement references specific conflict hotspots shifting over time (2020–2021 vs. 2023–2024), mentions locations and actors (ELN, unidentified groups), and implies subnational, temporal trend analysis grounded in event data—elements characteristic of ACLED’s geocoded event and actor datasets.",
+      "source_context": "Spatial shifts and actor drivers in key regions [15]."
+    },
+    {
+      "evidence": "The energy transition timing created a fiscal and security gap in peripheries: halting new oil exploration reduced local revenues and services before renewables scaled, enabling armed groups to levy ‘impuestos.’",
+      "is_acled_data": false,
+      "reasoning": "This is analytical commentary about fiscal impacts of energy transition and armed groups levying taxes, not citing specific conflict event data, locations, counts, fatalities, or ACLED-attributed actor/activity metrics.",
+      "source_context": "Structural headwinds: energy policy timing and local capacity erosion [16][17]."
+    },
+    {
+      "evidence": "Colombia’s macro slowdown (growth ~0.6% in 2023 and ~1.1% in 2024; inflation easing to ~5% by end-2024) constrained fiscal space for territorial governance expansion.",
+      "is_acled_data": false,
+      "reasoning": "The evidence cites macroeconomic indicators (GDP growth and inflation) and fiscal space, which are economic data, not conflict event data or ACLED-derived metrics.",
+      "source_context": "Macroeconomic conditions and budget pressure limiting policy reach [17]."
+    },
+    {
+      "evidence": "Redistributive tax reforms targeting high earners and hydrocarbons faced political resistance amid weak growth, further limiting funds for state presence in hotspots.",
+      "is_acled_data": false,
+      "reasoning": "The statement discusses tax reforms, hydrocarbons policy, political resistance, and fiscal impacts—economic and policy analysis not tied to specific ACLED event data or conflict metrics. It lacks references to events, fatalities, locations, or actor activity attributed to ACLED.",
+      "source_context": "Fiscal reform context and constraints [19]."
+    },
+    {
+      "evidence": "Event compositions during Petro’s term featured many low-fatality incidents alongside attacks and abductions, signaling coercive control mechanisms rather than large-scale battles.",
+      "is_acled_data": true,
+      "reasoning": "The statement references event compositions, low-fatality incidents, and types of events (attacks, abductions) to infer coercive control—these are typical ACLED-derived insights based on event types and fatality counts from ACLED’s incident-level data and trend analysis.",
+      "source_context": "Sub-event distributions and median fatalities indicating control rather than high-intensity warfare [18]."
+    },
+    {
+      "evidence": "Non-state actor dominance persisted across multiple event types, with common actor pairs involving civilians and unidentified/criminal/insurgent groups, and ongoing clashes with state forces.",
+      "is_acled_data": true,
+      "reasoning": "The statement discusses actor dominance, common actor pairings (civilians with unidentified/criminal/insurgent groups), and clashes with state forces—elements typical of ACLED’s actor-level event data and conflict typologies derived from event records. This aligns with ACLED’s armed group activity and event-type analysis rather than general commentary.",
+      "source_context": "Actor pair analysis and continued non-state activity across categories [20]."
+    },
+    {
+      "evidence": "In the absence of verified monitoring and local buy-in, ceasefires substituted state functions with illegal checkpoints, group taxation, and kidnappings as compliance tools.",
+      "is_acled_data": false,
+      "reasoning": "This is a qualitative analytic statement about ceasefire dynamics and coercive practices (checkpoints, taxation, kidnappings) without referencing specific event counts, locations, timelines, or actor-level data attributed to ACLED. It reads as general analysis rather than ACLED-derived event data or metrics.",
+      "source_context": "Synthesis of ceasefire outcomes, monitoring literature, and observed substitution dynamics [7][18][20]."
+    },
+    {
+      "evidence": "National aggregates in the low-to-mid 200s monthly masked concentrated harm in border and coca corridors, supporting a displacement rather than de-escalation interpretation.",
+      "is_acled_data": false,
+      "reasoning": "The statement references “national aggregates in the low-to-mid 200s monthly” and interprets patterns (displacement vs de-escalation) without explicitly tying to ACLED event counts or attribution. It reads as analytical commentary about trends and harm concentration, not a direct citation of ACLED event data or indices.",
+      "source_context": "National vs subnational patterns and concentration in rent hubs [9]."
+    },
+    {
+      "evidence": "Effective truce design requires corridor-specific enforcement and services—policing, justice, cadastral and competition oversight—plus protection for leaders and traders in identified hotspots.",
+      "is_acled_data": false,
+      "reasoning": "This is a policy/analytical recommendation about truce design and service provision, not a reference to specific conflict events, actors, fatalities, or ACLED-derived metrics. It is general commentary rather than ACLED data.",
+      "source_context": "Policy recommendations for coupling ceasefires with localized state capacity and market enforcement."
+    },
+    {
+      "evidence": "Sequencing energy transition with bridge revenues and targeted transfers to exposed subnational governments, alongside rapid verifiable state deployment, is critical to prevent governance vacuums.",
+      "is_acled_data": false,
+      "reasoning": "This is a policy/analytical recommendation about managing energy transition and governance, not conflict event data, statistics, or trends tied to ACLED. It contains no event counts, fatalities, actors, or ACLED attribution.",
+      "source_context": "Policy linkage between fiscal/energy timing and territorial security capacity [16][17][19]."
+    },
+    {
+      "evidence": "Success metrics should shift from national aggregates to reductions in civilian targeting, abductions, and extortion in named hotspots (Cauca, Nariño, Catatumbo, border corridors).",
+      "is_acled_data": false,
+      "reasoning": "This is a policy/analysis recommendation about shifting success metrics and naming hotspots. It does not cite specific ACLED event counts or statistics and is general commentary rather than data explicitly attributed to ACLED.",
+      "source_context": "Conclusion advocating hotspot-specific indicators based on observed harm distribution [8][9][10][13]."
+    },
+    {
+      "evidence": "The La Parada vignette encapsulates the period’s paradox: ceasefire banners coexisted with increased ‘tarifas’ enforced by abductions, illustrating negotiated shadow rule during truces.",
+      "is_acled_data": false,
+      "reasoning": "The evidence is a qualitative vignette describing coexistence of ceasefire messaging and criminal ‘tarifas’ enforced by abductions, implying negotiated shadow rule. It does not cite specific event counts, locations, fatalities, or actor-coded incidents, nor attribute data to ACLED. This is narrative analysis rather than explicit ACLED-derived event data.",
+      "source_context": "Opening anecdote and concluding return to La Parada scene."
+    }
+  ],
+  "insights": [
+    {
+      "insight": "Ceasefire periods in Colombia (2022–2024) often coincided with a shift from open clashes to coercive governance tactics—extortion, kidnapping, curfews—rather than a sustained reduction in overall violence.",
+      "context": "Article thesis and opening vignette at La Parada; overview of Total Peace outcomes and behavior shifts during truces."
+    },
+    {
+      "insight": "Quarterly conflict events returned to above roughly 1,200 per quarter in 2023–2024, with fatalities around 400–550, mirroring pre-Petro levels rather than declining.",
+      "context": "Section ‘The pledge and the paradox’; cites [1] for quarterly events/fatalities comparison."
+    },
+    {
+      "insight": "Ceasefire windows became adaptation windows for armed groups, who leveraged weak verification and state presence to expand parallel authority.",
+      "context": "Discussion of brittle design and fragmented armed landscape; references early ELN truce unraveling and continued activity of multiple groups [3][4][5]."
+    },
+    {
+      "insight": "Unidentified Armed Group (Colombia) was implicated in more than 3,700 events with high lethality during 2022–2024, highlighting opacity and accountability gaps.",
+      "context": "Actor patterns and event counts indicating prominent role of unidentified groups [5]."
+    },
+    {
+      "insight": "Targeting of community and indigenous leaders persisted through late 2024, with Cauca showing high concentrations of attacks on indigenous authorities and social leaders.",
+      "context": "Community impacts and leadership targeting in Cauca and Antioquia [6]."
+    },
+    {
+      "insight": "In many top-violence localities, civilian targeting dominated over battles (e.g., Cúcuta, Tame, Quibdó, Santander de Quilichao, Saravena, Arauquita, Tumaco, Corinto), reflecting social control rather than front-line warfare.",
+      "context": "Geography of harm and top admin2 profiles with leading event type as violence against civilians [8]."
+    },
+    {
+      "insight": "Cauca’s average monthly events rose from ~33.7 to ~42.9 and Arauca’s increased by nearly seven events per month after August 2022, while Antioquia and Córdoba declined—indicating redistribution of harm to border/rent hubs.",
+      "context": "Department-level redistribution and monthly aggregates masking concentration in border and illicit-rent corridors [9]."
+    },
+    {
+      "insight": "Border dynamics with Venezuela showed late-2024 spikes in cross-border-linked clashes in Arauca and Norte de Santander; near Ecuador, Nariño and Putumayo had persistent clashes tied to rent/logistics rather than explicit cross-border flags.",
+      "context": "Cross-border signatures and displacement correlations along Venezuela and Ecuador frontiers [10]."
+    },
+    {
+      "insight": "Displacement and ‘tax regimes’ intensified near borders, with Tumaco and northern Cauca experiencing extortion backed by abductions even amid ceasefire elsewhere.",
+      "context": "Human toll and extortion-kidnapping enforcement patterns in border corridors [10][8]."
+    },
+    {
+      "insight": "Bogotá’s violence profile leaned toward riots and protest, contrasting with rural coercion that set prices, movement, and labor norms.",
+      "context": "Urban-rural divergence in event types and governance modes [8][9]."
+    },
+    {
+      "insight": "Ceasefire effects were uneven across departments: in Antioquia, battles and violence against civilians were higher during ceasefire windows; in Cauca, some categories were lower during ceasefire periods.",
+      "context": "Department-level comparisons of ceasefire vs non-ceasefire months for event types and fatalities [11]."
+    },
+    {
+      "insight": "Fatalities were concentrated in Cauca and Antioquia (897 and 681 respectively from Aug 2022–Dec 2024), with a majority of events involving non-state actors, indicating strong parallel authority.",
+      "context": "Top admin1 units by fatalities and share of non-state involvement [12]."
+    },
+    {
+      "insight": "Attacks on civilians remained high across Petro’s term: 2,893 incidents causing about 3,245 deaths and 615 abductions, with Unidentified Armed Group most frequently listed as perpetrator.",
+      "context": "Violence-against-civilians distribution and top perpetrator/targets [13]."
+    },
+    {
+      "insight": "Event time series showed recurrent spikes in both violence against civilians and battles, especially in mid-to-late 2024, contradicting expectations of sustained de-escalation.",
+      "context": "Monthly trends by event type and fatalities [14]."
+    },
+    {
+      "insight": "Kidnapping served as an enforcement tool for illegal ‘taxes’ during ceasefires, ensuring compliance without open firefights, as reflected in hundreds of abductions since 2022.",
+      "context": "Political economy vignette of trucking corridor and broader abduction data [13]."
+    },
+    {
+      "insight": "Conflict hotspots shifted toward Catatumbo (Norte de Santander) and Arauca hubs (e.g., Villa del Rosario/La Parada, Arauca city) in 2023–2024 compared to 2020–2021, with ELN and unidentified groups often cited.",
+      "context": "Spatial shifts and actor drivers in key regions [15]."
+    },
+    {
+      "insight": "The energy transition timing created a fiscal and security gap in peripheries: halting new oil exploration reduced local revenues and services before renewables scaled, enabling armed groups to levy ‘impuestos.’",
+      "context": "Structural headwinds: energy policy timing and local capacity erosion [16][17]."
+    },
+    {
+      "insight": "Colombia’s macro slowdown (growth ~0.6% in 2023 and ~1.1% in 2024; inflation easing to ~5% by end-2024) constrained fiscal space for territorial governance expansion.",
+      "context": "Macroeconomic conditions and budget pressure limiting policy reach [17]."
+    },
+    {
+      "insight": "Redistributive tax reforms targeting high earners and hydrocarbons faced political resistance amid weak growth, further limiting funds for state presence in hotspots.",
+      "context": "Fiscal reform context and constraints [19]."
+    },
+    {
+      "insight": "Event compositions during Petro’s term featured many low-fatality incidents alongside attacks and abductions, signaling coercive control mechanisms rather than large-scale battles.",
+      "context": "Sub-event distributions and median fatalities indicating control rather than high-intensity warfare [18]."
+    },
+    {
+      "insight": "Non-state actor dominance persisted across multiple event types, with common actor pairs involving civilians and unidentified/criminal/insurgent groups, and ongoing clashes with state forces.",
+      "context": "Actor pair analysis and continued non-state activity across categories [20]."
+    },
+    {
+      "insight": "In the absence of verified monitoring and local buy-in, ceasefires substituted state functions with illegal checkpoints, group taxation, and kidnappings as compliance tools.",
+      "context": "Synthesis of ceasefire outcomes, monitoring literature, and observed substitution dynamics [7][18][20]."
+    },
+    {
+      "insight": "National aggregates in the low-to-mid 200s monthly masked concentrated harm in border and coca corridors, supporting a displacement rather than de-escalation interpretation.",
+      "context": "National vs subnational patterns and concentration in rent hubs [9]."
+    },
+    {
+      "insight": "Effective truce design requires corridor-specific enforcement and services—policing, justice, cadastral and competition oversight—plus protection for leaders and traders in identified hotspots.",
+      "context": "Policy recommendations for coupling ceasefires with localized state capacity and market enforcement."
+    },
+    {
+      "insight": "Sequencing energy transition with bridge revenues and targeted transfers to exposed subnational governments, alongside rapid verifiable state deployment, is critical to prevent governance vacuums.",
+      "context": "Policy linkage between fiscal/energy timing and territorial security capacity [16][17][19]."
+    },
+    {
+      "insight": "Success metrics should shift from national aggregates to reductions in civilian targeting, abductions, and extortion in named hotspots (Cauca, Nariño, Catatumbo, border corridors).",
+      "context": "Conclusion advocating hotspot-specific indicators based on observed harm distribution [8][9][10][13]."
+    },
+    {
+      "insight": "The La Parada vignette encapsulates the period’s paradox: ceasefire banners coexisted with increased ‘tarifas’ enforced by abductions, illustrating negotiated shadow rule during truces.",
+      "context": "Opening anecdote and concluding return to La Parada scene."
+    }
+  ],
+  "prompt": "Do a deep research on Petro's presidency in Columbia and Columbia's conflict summary and outlook, as if we are at the end of 2024 heading into 2025"
+}

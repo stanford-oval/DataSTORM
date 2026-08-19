@@ -1,0 +1,85 @@
+{
+  "dataset_id": 94,
+  "dataset_path": "data/notebooks/flag-94.json",
+  "metadata": {
+    "category": "Incidents Management",
+    "dataset_description": "The dataset comprises 500 entries simulating ServiceNow incidents table, detailing various attributes such as category, state, open and close dates, involved personnel, and incident specifics like location, description, and priority. It captures incident management activities with fields like 'opened_at', 'closed_at', 'assigned_to', 'short_description', and 'priority', reflecting the operational handling and urgency of issues across different locations and categories.",
+    "goal": "Find the discrepancy and imbalance in distribution of incidents assigned across categories",
+    "header": "Hardware Incident Dataset (Flag 94)",
+    "role": "L2 Support Agent"
+  },
+  "predicted_insights": [
+    "There is no category imbalance—each category accounts for 20% (100/500) of incidents, indicating zero variance in assignment across categories.",
+    "While each category has 100 incidents, assignment within categories is uneven—Hardware shows the largest skew (Luke 27% vs. Charlie 12%, a 15-point spread), Inquiry / Help is most balanced (max 23%, min 16%, 7-point spread), and Fred leads Network and Software at 24% each while being lowest in Inquiry / Help at 16%.",
+    "Each category has the same total volume (100 incidents), but their priority mix is skewed differently: Database has the most High (32) and the fewest Critical (15), Hardware peaks at Critical (30) and Low (28) with the fewest Moderate (19), Inquiry / Help is bimodal at Critical and Moderate (30 each) with the fewest Low (17), Network leans to High (28) and Low (27), and Software peaks at Moderate (30) with the fewest High (19), indicating imbalanced priority distributions across categories despite equal totals.",
+    "With 0% mismatches across 500 incidents and both fields sharing the same five unique values, any imbalance across categories reflects actual workload distribution rather than misrouting between categories and assignment groups.",
+    "Since 0 out of 500 incidents (0%) are mismatched, routing perfectly mirrors categories, meaning any workload imbalance across categories represents genuine demand rather than misclassification or misrouting.",
+    "Imbalance varies widely month to month: the largest within-month gap is 12x (Feb 2023: Software 12 vs Inquiry / Help 1), and the most volatile category is Inquiry / Help (range 1–14) followed by Database (3–14), while fall 2023 workload peaks shifted to Inquiry / Help (14 in Oct) and Database (14 in Sep).",
+    "Canada is the most balanced with only a 3% spread between categories (21%/21%/21%/19%/18%), while Australia is the most skewed with an 11% spread (26% Software vs 15% Database), and leadership by category varies by region (e.g., Network leads in India at 23% and Hardware leads in the UK at 23%).",
+    "Workload volume is equal across assignees (100 each), but category mix differs: Luke Wilson is most hardware-focused (27%, the highest single-category share), Charlie Whitherspoon is least involved in Hardware (12%) but strongest in Database (26%), and Fred Luddy concentrates on Network+Software (48%) while Beth Anglin and Howard Johnson are comparatively balanced (each category 16–24% and 17–23%, respectively).",
+    "The incident distribution is perfectly uniform: all 5 categories have 100 incidents each (20% apiece), yielding zero range and zero variation, so there is no category assignment imbalance.",
+    "Incident assignment is notably concentrated in Hardware: its disparity of 15 is 50% higher than the next category (Database, 10) and about 2.1× the least unequal category (Inquiry / Help, 7), signaling a pronounced workload imbalance among the five assignees.",
+    "Work appears more centralized in 2024 YTD: Howard Johnson is now the top assignee in 3 of 5 categories (66.7% Inquiry / Help, 50.0% Software, 42.9% Database), whereas 2023 top shares per category were much lower (about 23.7–28.6%); Network shifted the least (only ~8.1 points, to 33.3%).",
+    "The concentration of work on the top assignee shifts the most in Software (~4.1 percentage points) when priority changes, while categories like Inquiry / Help remain comparatively stable (~1.1 percentage points), suggesting priority-driven assignment imbalance is strongest in Software."
+  ],
+  "predicted_summary": "Overall category volumes are perfectly even (100 incidents each), but the workload within categories is uneven across assignees—most notably in Hardware, where the top assignee handles 27 incidents vs. 12 for the lowest (a 15-incident gap and 2.25× difference). Other categories show smaller but present gaps: Database (26 vs. 16; gap 10), Network (24 vs. 15; gap 9), Software (24 vs. 15; gap 9), and Inquiry / Help (23 vs. 16; gap 7).\nSeverity mix differs markedly by category despite equal totals: critical incidents range from 15% in Database to 30% in Hardware and Inquiry / Help (a 2× spread), and the combined high-priority share (Critical+High) spans 44% in Software to 53% in Hardware, Inquiry / Help, and Network (9 percentage-point range), indicating some categories skew toward higher-severity work while others skew lower.\nAssignment concentration is shifting over time in Inquiry / Help: the top assignee’s share jumped from 23.7% of 2023 incidents to 66.7% in 2024 year-to-date (≈+43 percentage points), the largest change among categories, indicating a recent and pronounced imbalance in who handles this category.",
+  "score_insights": 0.3645507484864671,
+  "score_insights_dict": [
+    {
+      "gt_insight": "The distribution of incidents shows equal occurrence across all IT categories",
+      "pred_insight": "There is no category imbalance—each category accounts for 20% (100/500) of incidents, indicating zero variance in assignment across categories.",
+      "score": 0.9109617496394071
+    },
+    {
+      "gt_insight": "Word analysis shows no specific patterns or recurring issues across IT categories",
+      "pred_insight": "The incident distribution is perfectly uniform: all 5 categories have 100 incidents each (20% apiece), yielding zero range and zero variation, so there is no category assignment imbalance.",
+      "score": 0.38218996744578393
+    },
+    {
+      "gt_insight": "Analysis shows zero occurrences of the word 'Printer' in incident descriptions",
+      "pred_insight": "With 0% mismatches across 500 incidents and both fields sharing the same five unique values, any imbalance across categories reflects actual workload distribution rather than misrouting between categories and assignment groups.",
+      "score": 0.12115712372715562
+    },
+    {
+      "gt_insight": "Hardware incidents show a relatively even distribution across locations, with UK having a slightly higher concentration",
+      "pred_insight": "Canada is the most balanced with only a 3% spread between categories (21%/21%/21%/19%/18%), while Australia is the most skewed with an 11% spread (26% Software vs 15% Database), and leadership by category varies by region (e.g., Network leads in India at 23% and Hardware leads in the UK at 23%).",
+      "score": 0.2577602560538455
+    },
+    {
+      "gt_insight": "The analysis could not be completed due to an IndexError indicating empty data. The code attempted to analyze printer incidents but encountered an error suggesting there were no valid printer IDs extracted from the short_description field.",
+      "pred_insight": "Since 0 out of 500 incidents (0%) are mismatched, routing perfectly mirrors categories, meaning any workload imbalance across categories represents genuine demand rather than misclassification or misrouting.",
+      "score": 0.15068464556614353
+    }
+  ],
+  "score_summary": 0.4371315442286413,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.41999869294909986,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "The incident distribution is perfectly uniform: all 5 categories have 100 incidents each (20% apiece), yielding zero range and zero variation, so there is no category assignment imbalance.",
+      "gt_insight": "The distribution of incidents shows equal occurrence across all IT categories",
+      "score": 0.8858459322679011
+    },
+    {
+      "pred_insight": "Since 0 out of 500 incidents (0%) are mismatched, routing perfectly mirrors categories, meaning any workload imbalance across categories represents genuine demand rather than misclassification or misrouting.",
+      "gt_insight": "Word analysis shows no specific patterns or recurring issues across IT categories",
+      "score": 0.3917715201324733
+    },
+    {
+      "pred_insight": "Since 0 out of 500 incidents (0%) are mismatched, routing perfectly mirrors categories, meaning any workload imbalance across categories represents genuine demand rather than misclassification or misrouting.",
+      "gt_insight": "Analysis shows zero occurrences of the word 'Printer' in incident descriptions",
+      "score": 0.2612681533776822
+    },
+    {
+      "pred_insight": "Canada is the most balanced with only a 3% spread between categories (21%/21%/21%/19%/18%), while Australia is the most skewed with an 11% spread (26% Software vs 15% Database), and leadership by category varies by region (e.g., Network leads in India at 23% and Hardware leads in the UK at 23%).",
+      "gt_insight": "Hardware incidents show a relatively even distribution across locations, with UK having a slightly higher concentration",
+      "score": 0.3411246515618856
+    },
+    {
+      "pred_insight": "With 0% mismatches across 500 incidents and both fields sharing the same five unique values, any imbalance across categories reflects actual workload distribution rather than misrouting between categories and assignment groups.",
+      "gt_insight": "The analysis could not be completed due to an IndexError indicating empty data. The code attempted to analyze printer incidents but encountered an error suggesting there were no valid printer IDs extracted from the short_description field.",
+      "score": 0.21998320740555757
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.10039040764391254,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.31399816307991735
+}

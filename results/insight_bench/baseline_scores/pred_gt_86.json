@@ -1,0 +1,85 @@
+{
+  "dataset_id": 86,
+  "dataset_path": "data/notebooks/flag-86.json",
+  "metadata": {
+    "category": "Finance Management",
+    "dataset_description": "This dataset comprises 500 simulated entries from the ServiceNow `fm_expense_line` table, which tracks various attributes of financial expenses. Key fields include 'number', 'opened_at', 'amount', 'state', 'short_description', 'ci', 'user', 'department', 'category', 'process_date', 'source_id', and 'type'. The table provides a comprehensive record of financial transactions, capturing the expense amount, departmental allocation, and the nature of each expense. It offers a detailed view of organizational expenditures across various categories, highlighting both the timing and the approval status of each financial entry.",
+    "goal": "Examine how the cost of an expense impacts its processing time, with the goal of improving the efficiency and equity of expense report processing across all cost levels.",
+    "header": "Analysis of Expense Processing Dynamics (Flag 86)",
+    "role": "Financial Operations Analyst"
+  },
+  "predicted_insights": [
+    "Because 0 of 14 fields record cost, you cannot assess cost-versus-processing-time with this table alone, but you can compute processing time for all 500 records (from opened_at to closed_at) and, with costs added via a join, perform a balanced analysis across the 5 equally sized categories (100 each).",
+    "Despite higher urgency, Critical tickets take about 20% longer than Low-priority (3698.96 vs 3092.11 hours), and processing time is not strictly aligned with urgency since Moderate is ~102 hours slower than High.",
+    "The gap between the slowest (Database, 3797.53 h) and fastest (Network, 3063.82 h) groups is 733.71 hours (~30.6 days), meaning Database takes about 24% longer on average—this sizable variance by assignement_group should be controlled for when evaluating cost-related processing efficiency to ensure equitable turnaround across cost levels.",
+    "This gap is about 1.18 days—roughly 41% of India’s median—highlighting a sizable location-based disparity in processing times that could be targeted to improve fairness and efficiency across regions.",
+    "About 75% of items complete within ~5,528 hours (~230 days) and only ~11% take longer than ~6,445 hours (~268 days), indicating a long right tail where a small subset experiences markedly slower processing.",
+    "The median processing time dropped about 87% from its Feb 2023 peak to Jan 2024, with the largest month-over-month improvement in Aug 2023 (down ~1,156 hours, ~45%), and it stayed under 1,000 hours from Oct 2023 onward—indicating substantial, sustained efficiency gains.",
+    "Closed cases take about 217.82 hours (~9.1 days) longer than Resolved on a median basis, roughly a 7.8% increase, indicating that the final state attained can materially affect cycle time—an important lever to standardize when aiming for equitable processing across expense amounts.",
+    "At the 95th percentile, Hardware’s processing time is about 1,172 hours (~7 weeks, ~17%) longer than Inquiry / Help, indicating substantial long-tail delays concentrated in Hardware that present a high-impact target for improving both efficiency and equity across groups.",
+    "Four of five locations show negative median processing times (as low as −342.3 h in Canada), strongly suggesting a timestamp direction error; Australia’s positive median (1.38 h) is the only plausible value, so correcting time calculations is essential before assessing processing efficiency and equity across cost levels.",
+    "Because over half of the records (52.8%) have inverted timestamps, any analysis of processing efficiency or equity by cost level would be significantly biased unless these 264 records are corrected or excluded, as they could reverse the direction and magnitude of average processing times.",
+    "The slowest category (Database) has a median processing time about 1324 hours (~55 days) longer than the fastest (Network)—roughly a 51% gap—and about 31% longer than Hardware, indicating sizable category-driven disparities that could affect processing efficiency and equity.",
+    "Since 95.34% (225/236) of non-negative cases exceeded 7 days, delays are systemic, suggesting that broad process-speed improvements would likely produce larger efficiency and equity gains across cost levels than narrowly targeting specific subsets."
+  ],
+  "predicted_summary": "Cost impact cannot be assessed directly because the dataset has no monetary fields; however, processing speeds vary widely across operational dimensions: average time is longest for 1 – Critical at 3,698.96 hours versus 4 – Low at 3,092.11 hours, the Database assignment group has the longest average at 3,797.53 hours, Hardware exhibits the heaviest long tail with a 95th percentile of ~8,066.69 hours, and within valid (non‑negative) records the Database category has the highest median at ~3,921.8 hours.\nProcessing times are both highly variable and often implausible: 52.80% of records show closed_at earlier than opened_at (negative durations), reflected in negative median times across most locations (Canada −342.30 h, UK −289.25 h, United States −98.09 h, India −69.73 h; Australia ~1.38 h). Among records with non‑negative durations, only 4.66% are completed within 7 days, and median time differs by 217.82 hours between outcomes (Closed 3,021.16 h vs Resolved 2,803.34 h). Overall durations span ~23.9 to 9,197.3 hours.\nProcessing speed improved markedly over time: the median duration fell from ~4,801.8 hours in January 2023 (peaking at ~5,646.0 hours in February 2023) to ~710.2 hours by January 2024, with mostly month‑over‑month declines and only minor upticks in April and November.",
+  "score_insights": 0.5787766723072074,
+  "score_insights_dict": [
+    {
+      "gt_insight": "There was no column processed_date to conduct any analysis",
+      "pred_insight": "Because 0 of 14 fields record cost, you cannot assess cost-versus-processing-time with this table alone, but you can compute processing time for all 500 records (from opened_at to closed_at) and, with costs added via a join, perform a balanced analysis across the 5 equally sized categories (100 each).",
+      "score": 0.3790529652219953
+    },
+    {
+      "gt_insight": "There was no column amount to conduct any analysis",
+      "pred_insight": "Because 0 of 14 fields record cost, you cannot assess cost-versus-processing-time with this table alone, but you can compute processing time for all 500 records (from opened_at to closed_at) and, with costs added via a join, perform a balanced analysis across the 5 equally sized categories (100 each).",
+      "score": 0.6312342591256127
+    },
+    {
+      "gt_insight": "There was no column amount to conduct any analysis",
+      "pred_insight": "Because 0 of 14 fields record cost, you cannot assess cost-versus-processing-time with this table alone, but you can compute processing time for all 500 records (from opened_at to closed_at) and, with costs added via a join, perform a balanced analysis across the 5 equally sized categories (100 each).",
+      "score": 0.622122931005131
+    },
+    {
+      "gt_insight": "There was no column amount to conduct any analysis",
+      "pred_insight": "Because 0 of 14 fields record cost, you cannot assess cost-versus-processing-time with this table alone, but you can compute processing time for all 500 records (from opened_at to closed_at) and, with costs added via a join, perform a balanced analysis across the 5 equally sized categories (100 each).",
+      "score": 0.630966523662502
+    },
+    {
+      "gt_insight": "There was no column amount to conduct any analysis",
+      "pred_insight": "Because 0 of 14 fields record cost, you cannot assess cost-versus-processing-time with this table alone, but you can compute processing time for all 500 records (from opened_at to closed_at) and, with costs added via a join, perform a balanced analysis across the 5 equally sized categories (100 each).",
+      "score": 0.6305066825207962
+    }
+  ],
+  "score_summary": 0.42455606379041316,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.3718812268349031,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "Because 0 of 14 fields record cost, you cannot assess cost-versus-processing-time with this table alone, but you can compute processing time for all 500 records (from opened_at to closed_at) and, with costs added via a join, perform a balanced analysis across the 5 equally sized categories (100 each).",
+      "gt_insight": "There was no column processed_date to conduct any analysis",
+      "score": 0.2532736919022883
+    },
+    {
+      "pred_insight": "Because 0 of 14 fields record cost, you cannot assess cost-versus-processing-time with this table alone, but you can compute processing time for all 500 records (from opened_at to closed_at) and, with costs added via a join, perform a balanced analysis across the 5 equally sized categories (100 each).",
+      "gt_insight": "There was no column amount to conduct any analysis",
+      "score": 0.4201346690515894
+    },
+    {
+      "pred_insight": "Because 0 of 14 fields record cost, you cannot assess cost-versus-processing-time with this table alone, but you can compute processing time for all 500 records (from opened_at to closed_at) and, with costs added via a join, perform a balanced analysis across the 5 equally sized categories (100 each).",
+      "gt_insight": "There was no column amount to conduct any analysis",
+      "score": 0.3953325910735459
+    },
+    {
+      "pred_insight": "Because 0 of 14 fields record cost, you cannot assess cost-versus-processing-time with this table alone, but you can compute processing time for all 500 records (from opened_at to closed_at) and, with costs added via a join, perform a balanced analysis across the 5 equally sized categories (100 each).",
+      "gt_insight": "There was no column amount to conduct any analysis",
+      "score": 0.3953325910735459
+    },
+    {
+      "pred_insight": "Because 0 of 14 fields record cost, you cannot assess cost-versus-processing-time with this table alone, but you can compute processing time for all 500 records (from opened_at to closed_at) and, with costs added via a join, perform a balanced analysis across the 5 equally sized categories (100 each).",
+      "gt_insight": "There was no column amount to conduct any analysis",
+      "score": 0.3953325910735459
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.10096131164894558,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.2851124807883577
+}

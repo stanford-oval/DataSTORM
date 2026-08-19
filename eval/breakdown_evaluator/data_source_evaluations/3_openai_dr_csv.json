@@ -1,0 +1,242 @@
+{
+  "total_insights": 23,
+  "total_classified": 23,
+  "acled_count": 11,
+  "non_acled_count": 12,
+  "pct_acled": 0.4782608695652174,
+  "details": [
+    {
+      "evidence": "Burkina Faso, Mali, and Niger have seen a sharp surge in conflict violence, with the Liptako-Gourma tri-border region as the epicenter of instability in Africa.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a broad qualitative claim about increased violence and the tri-border region being the epicenter, without citing specific event counts, fatalities, locations, temporal trends, or actor-level data tied to ACLED. It reads as general analysis rather than a direct use of ACLED-derived metrics.",
+      "source_context": "Opening context on regional instability and geography of violence."
+    },
+    {
+      "evidence": "Reported fatalities in Burkina Faso, Mali, and Niger reached 7,620 in the first half of 2024, a 190% increase compared to the same period in 2021.",
+      "is_acled_data": true,
+      "reasoning": "The statement provides aggregated conflict-related fatality counts over a defined period and a comparative percentage change across years for specific countries. Fatality counts and temporal trend comparisons are core ACLED outputs derived from its event data. This aligns with ACLED’s datasets on fatalities and trend analysis; no indicators suggest another source.",
+      "source_context": "ACLED-based statistic highlighting record-high fatalities in early 2024."
+    },
+    {
+      "evidence": "The rise in violence is largely driven by militant Islamist groups, chiefly JNIM and the Islamic State’s Sahel affiliate.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical claim attributing rising violence to JNIM and IS Sahel, without citing specific ACLED event counts, actor-level figures, temporal trends, or other ACLED-derived metrics. It lacks explicit attribution to ACLED and does not reference concrete ACLED data elements.",
+      "source_context": "Attribution of primary perpetrators behind escalating violence."
+    },
+    {
+      "evidence": "Burkina Faso experienced nearly tripled fatalities from Islamist insurgent attacks after two military coups in 2022, reaching about 8,600 deaths in 2023 (137% increase year-on-year).",
+      "is_acled_data": true,
+      "reasoning": "The evidence provides specific fatality counts and a year-on-year percentage increase in deaths from Islamist insurgent attacks in Burkina Faso, tied to conflict events and temporal trends. Fatality figures and conflict trend analysis by year are core ACLED outputs, making it likely derived from ACLED data.",
+      "source_context": "Country-specific escalation in Burkina Faso after political upheaval."
+    },
+    {
+      "evidence": "JNIM is the predominant actor behind the surge in Burkina Faso, expanding across northern and eastern regions, while IS Sahel (formerly ISGS) operates on a smaller scale.",
+      "is_acled_data": true,
+      "reasoning": "The claim identifies predominant armed actors and their relative operational scale and geographic spread within Burkina Faso, which aligns with ACLED’s actor-level data, event counts by actor, and subnational distribution analysis derived from recorded events. While not citing numbers, this type of comparative actor prominence and regional expansion assessment is commonly drawn from ACLED event data and trends.",
+      "source_context": "Breakdown of armed actors in Burkina Faso and their relative presence."
+    },
+    {
+      "evidence": "Attack lethality in Burkina Faso doubled in 2023, with each violent event averaging about 5 fatalities.",
+      "is_acled_data": true,
+      "reasoning": "The claim provides event-level fatality metrics (average fatalities per violent event in 2023 for Burkina Faso), which aligns with ACLED’s event counts and fatality data and typical ACLED-derived trend analysis on lethality.",
+      "source_context": "Trend in increasing lethality of attacks in Burkina Faso."
+    },
+    {
+      "evidence": "A JNIM-led massacre in Barsalogho, Burkina Faso, in August 2024 killed roughly 200 people.",
+      "is_acled_data": true,
+      "reasoning": "The evidence describes a specific violent event (JNIM-led massacre), with location (Barsalogho, Burkina Faso), time (August 2024), actor (JNIM), and fatality figure (~200). Such event-level details and fatalities align with ACLED’s event data and actor-level reporting. While the exact fatality count could also come from media, this type of specific conflict event and casualty information is characteristic of ACLED data usage.",
+      "source_context": "Example of high-casualty incident in Burkina Faso."
+    },
+    {
+      "evidence": "By late 2024, nearly half of Burkina Faso’s territory was reportedly occupied or contested by jihadist groups.",
+      "is_acled_data": false,
+      "reasoning": "The claim about the proportion of national territory occupied or contested by jihadist groups is a territorial control/contest assessment, not a direct output of ACLED’s event-based dataset. ACLED provides conflict events, fatalities, actor activity, and trends, but not authoritative percentages of territory controlled or contested. Such territorial control estimates typically come from government statements, think tanks, or media syntheses, unless explicitly attributed to ACLED’s analyses.",
+      "source_context": "Extent of territorial loss by the state in Burkina Faso."
+    },
+    {
+      "evidence": "Mali faces a protracted insurgency in central and northern regions, with JNIM and IS Sahel as the main perpetrators.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical claim about the insurgency and principal perpetrators in Mali, without citing specific ACLED event counts, fatalities, locations, or actor-level metrics. It reads as broad context rather than data derived from ACLED.",
+      "source_context": "Overview of Mali’s conflict dynamics and key actors."
+    },
+    {
+      "evidence": "JNIM has consolidated as the dominant non-state armed group in Mali, entrenching influence in central areas and border zones and sometimes acting as a quasi-governing force.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a qualitative assessment about JNIM’s dominance and governance-like influence in Mali. It is general geopolitical analysis without citing specific ACLED event counts, actor-level statistics, locations, or temporal patterns. Unless explicitly tied to ACLED metrics or events, this is not directly derived from ACLED data.",
+      "source_context": "JNIM’s role and influence within Mali."
+    },
+    {
+      "evidence": "In September 2024, JNIM attacked a police academy and Bamako’s international airport, causing numerous deaths.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific conflict events (JNIM attacks on a police academy and Bamako’s international airport in Sept 2024) with actor identification, locations, timing, and fatalities—details that align with ACLED’s event-based data. Such incident reports and fatality counts are core ACLED outputs.",
+      "source_context": "Illustration of JNIM’s capacity for high-profile attacks in Mali."
+    },
+    {
+      "evidence": "ISGS (IS Sahel Province) resurged around 2022 under new leadership, achieving significant gains against JNIM in northeast Mali (Gao and Ménaka).",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical claim about ISGS resurgence and gains against JNIM in specific regions and time period without citing event counts, fatalities, or specific ACLED-derived metrics. It reads as narrative analysis rather than explicit ACLED event data or trends.",
+      "source_context": "IS Sahel’s resurgence and territorial advances in Mali."
+    },
+    {
+      "evidence": "Direct clashes between JNIM and ISGS have intensified in Mali as they compete for territory and dominance.",
+      "is_acled_data": true,
+      "reasoning": "The statement references intensified direct clashes between specific armed groups (JNIM and ISGS) in a specific country (Mali), which aligns with ACLED’s battle/event data and actor-level conflict trend analysis. ACLED tracks inter-group battles, territorial competition, and temporal patterns, making this a plausible insight derived from ACLED event data.",
+      "source_context": "Description of inter-jihadist rivalry in Mali."
+    },
+    {
+      "evidence": "Thousands are killed annually in Mali due to continued attacks on civilians and security forces, and by late 2024 large parts of northern Mali were outside state control.",
+      "is_acled_data": true,
+      "reasoning": "Mentions fatalities from attacks on civilians and security forces and areas outside state control in northern Mali by late 2024, which aligns with ACLED’s event-based fatality counts, violence-against-civilians data, armed group activity, and temporal/geographic control trends. While phrased generally, these insights are typical outputs derived from ACLED conflict event and fatality data over time.",
+      "source_context": "Impact of insurgency and erosion of state authority in Mali."
+    },
+    {
+      "evidence": "Niger experiences persistent extremist attacks concentrated in border regions, particularly Tillabéri and Tahoua, by ISIS-Sahel and JNIM.",
+      "is_acled_data": true,
+      "reasoning": "The statement references persistent extremist attacks concentrated in specific subnational regions (Tillabéri and Tahoua) and attributes them to specific armed actors (ISIS-Sahel and JNIM). This aligns with ACLED’s geographic conflict data and actor-level activity patterns derived from event records. While no counts are given, the content reflects ACLED-style subnational distribution and actor attribution of conflict events.",
+      "source_context": "Spatial concentration and perpetrators of violence in Niger."
+    },
+    {
+      "evidence": "Niger recorded at least 299 terrorist attacks in 2023, primarily by ISIS-Sahel in the west/northwest and Boko Haram/ISWA in the far southeast.",
+      "is_acled_data": true,
+      "reasoning": "The statement provides a specific count of terrorist attacks in 2023 for Niger and attributes them to particular armed groups in defined subnational areas. This aligns with ACLED-style event counts and actor/location breakdowns derived from conflict event data.",
+      "source_context": "Official tally and distribution of terrorist incidents in Niger."
+    },
+    {
+      "evidence": "Extremist incursions in Niger have caused heavy casualties among security forces and civilians, contributing to a steep rise in fatalities.",
+      "is_acled_data": true,
+      "reasoning": "The statement references fatalities and casualties from extremist incursions in Niger, which aligns with ACLED’s event-based data on violence against civilians, battle-related incidents, and fatality counts, and could be derived from ACLED conflict trend data.",
+      "source_context": "Human toll of insurgent activity in Niger."
+    },
+    {
+      "evidence": "Despite security efforts, Niger has lost control of some frontier areas by 2024, reflecting the regional reach of JNIM and IS Sahel.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general assessment about state control and the reach of JNIM and IS Sahel, without citing specific ACLED event counts, locations, timelines, or actor-level event data. It reads as geopolitical analysis rather than a direct insight derived from ACLED’s event-based metrics.",
+      "source_context": "State control challenges in Niger’s borderlands by 2024."
+    },
+    {
+      "evidence": "JNIM is the central Sahel’s most potent insurgent force, with an estimated 5,000 fighters—more than twice ISGS’s size—and a dominant regional presence.",
+      "is_acled_data": false,
+      "reasoning": "The statement provides an estimated fighter count and comparative size between JNIM and ISGS. ACLED tracks events, fatalities, and actor activity, but does not publish insurgent force size estimates as event-derived data. This appears to be analytic/force size estimation, likely from other sources, not ACLED event data.",
+      "source_context": "Relative strength and scale of JNIM compared to IS Sahel."
+    },
+    {
+      "evidence": "IS Sahel, though smaller, has demonstrated capacity for devastating attacks and territorial grabs in areas of weak state authority.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general qualitative assessment about IS Sahel’s capabilities and behavior, not citing specific ACLED event counts, fatalities, locations, or actor-coded data. It reads as analytical commentary rather than a reference to ACLED-derived metrics or trends.",
+      "source_context": "IS Sahel’s operational effectiveness despite smaller size."
+    },
+    {
+      "evidence": "The rivalry between Al-Qaeda-linked JNIM and ISIS-linked IS Sahel adds complexity, as they fight both state forces and each other.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical observation about inter-group rivalry and does not cite specific ACLED event counts, locations, fatalities, or actor-coded events. It reads as contextual commentary rather than data derived from ACLED.",
+      "source_context": "Nature and implications of inter-factional conflict."
+    },
+    {
+      "evidence": "The region faces a humanitarian and security crisis: record killings, mass displacement and need, and significant territory under extremist control.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a broad humanitarian and security assessment (record killings, mass displacement, territory under extremist control) without citing specific event counts, fatalities, actor-level events, or ACLED attribution. It aligns more with general commentary and humanitarian metrics (e.g., displacement) rather than ACLED-derived event data.",
+      "source_context": "Summary of humanitarian and security consequences across the central Sahel."
+    },
+    {
+      "evidence": "Without a robust, coordinated response, violence in the central Sahel is likely to persist or intensify due to entrenched JNIM and IS Sahel campaigns in fragile borderlands.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical forecast about future violence and group presence, not citing specific event counts, fatalities, locations, or actor-level metrics from ACLED. It is not tied to ACLED-derived data or trends explicitly.",
+      "source_context": "Forward-looking assessment of conflict trajectory absent effective intervention."
+    }
+  ],
+  "insights": [
+    {
+      "insight": "Burkina Faso, Mali, and Niger have seen a sharp surge in conflict violence, with the Liptako-Gourma tri-border region as the epicenter of instability in Africa.",
+      "context": "Opening context on regional instability and geography of violence."
+    },
+    {
+      "insight": "Reported fatalities in Burkina Faso, Mali, and Niger reached 7,620 in the first half of 2024, a 190% increase compared to the same period in 2021.",
+      "context": "ACLED-based statistic highlighting record-high fatalities in early 2024."
+    },
+    {
+      "insight": "The rise in violence is largely driven by militant Islamist groups, chiefly JNIM and the Islamic State’s Sahel affiliate.",
+      "context": "Attribution of primary perpetrators behind escalating violence."
+    },
+    {
+      "insight": "Burkina Faso experienced nearly tripled fatalities from Islamist insurgent attacks after two military coups in 2022, reaching about 8,600 deaths in 2023 (137% increase year-on-year).",
+      "context": "Country-specific escalation in Burkina Faso after political upheaval."
+    },
+    {
+      "insight": "JNIM is the predominant actor behind the surge in Burkina Faso, expanding across northern and eastern regions, while IS Sahel (formerly ISGS) operates on a smaller scale.",
+      "context": "Breakdown of armed actors in Burkina Faso and their relative presence."
+    },
+    {
+      "insight": "Attack lethality in Burkina Faso doubled in 2023, with each violent event averaging about 5 fatalities.",
+      "context": "Trend in increasing lethality of attacks in Burkina Faso."
+    },
+    {
+      "insight": "A JNIM-led massacre in Barsalogho, Burkina Faso, in August 2024 killed roughly 200 people.",
+      "context": "Example of high-casualty incident in Burkina Faso."
+    },
+    {
+      "insight": "By late 2024, nearly half of Burkina Faso’s territory was reportedly occupied or contested by jihadist groups.",
+      "context": "Extent of territorial loss by the state in Burkina Faso."
+    },
+    {
+      "insight": "Mali faces a protracted insurgency in central and northern regions, with JNIM and IS Sahel as the main perpetrators.",
+      "context": "Overview of Mali’s conflict dynamics and key actors."
+    },
+    {
+      "insight": "JNIM has consolidated as the dominant non-state armed group in Mali, entrenching influence in central areas and border zones and sometimes acting as a quasi-governing force.",
+      "context": "JNIM’s role and influence within Mali."
+    },
+    {
+      "insight": "In September 2024, JNIM attacked a police academy and Bamako’s international airport, causing numerous deaths.",
+      "context": "Illustration of JNIM’s capacity for high-profile attacks in Mali."
+    },
+    {
+      "insight": "ISGS (IS Sahel Province) resurged around 2022 under new leadership, achieving significant gains against JNIM in northeast Mali (Gao and Ménaka).",
+      "context": "IS Sahel’s resurgence and territorial advances in Mali."
+    },
+    {
+      "insight": "Direct clashes between JNIM and ISGS have intensified in Mali as they compete for territory and dominance.",
+      "context": "Description of inter-jihadist rivalry in Mali."
+    },
+    {
+      "insight": "Thousands are killed annually in Mali due to continued attacks on civilians and security forces, and by late 2024 large parts of northern Mali were outside state control.",
+      "context": "Impact of insurgency and erosion of state authority in Mali."
+    },
+    {
+      "insight": "Niger experiences persistent extremist attacks concentrated in border regions, particularly Tillabéri and Tahoua, by ISIS-Sahel and JNIM.",
+      "context": "Spatial concentration and perpetrators of violence in Niger."
+    },
+    {
+      "insight": "Niger recorded at least 299 terrorist attacks in 2023, primarily by ISIS-Sahel in the west/northwest and Boko Haram/ISWA in the far southeast.",
+      "context": "Official tally and distribution of terrorist incidents in Niger."
+    },
+    {
+      "insight": "Extremist incursions in Niger have caused heavy casualties among security forces and civilians, contributing to a steep rise in fatalities.",
+      "context": "Human toll of insurgent activity in Niger."
+    },
+    {
+      "insight": "Despite security efforts, Niger has lost control of some frontier areas by 2024, reflecting the regional reach of JNIM and IS Sahel.",
+      "context": "State control challenges in Niger’s borderlands by 2024."
+    },
+    {
+      "insight": "JNIM is the central Sahel’s most potent insurgent force, with an estimated 5,000 fighters—more than twice ISGS’s size—and a dominant regional presence.",
+      "context": "Relative strength and scale of JNIM compared to IS Sahel."
+    },
+    {
+      "insight": "IS Sahel, though smaller, has demonstrated capacity for devastating attacks and territorial grabs in areas of weak state authority.",
+      "context": "IS Sahel’s operational effectiveness despite smaller size."
+    },
+    {
+      "insight": "The rivalry between Al-Qaeda-linked JNIM and ISIS-linked IS Sahel adds complexity, as they fight both state forces and each other.",
+      "context": "Nature and implications of inter-factional conflict."
+    },
+    {
+      "insight": "The region faces a humanitarian and security crisis: record killings, mass displacement and need, and significant territory under extremist control.",
+      "context": "Summary of humanitarian and security consequences across the central Sahel."
+    },
+    {
+      "insight": "Without a robust, coordinated response, violence in the central Sahel is likely to persist or intensify due to entrenched JNIM and IS Sahel campaigns in fragile borderlands.",
+      "context": "Forward-looking assessment of conflict trajectory absent effective intervention."
+    }
+  ],
+  "prompt": "Analyze levels of violence in Burkina Faso, Mali, and Niger, especially related to JNIM and IS Sahel operations."
+}

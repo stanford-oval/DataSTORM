@@ -1,0 +1,75 @@
+{
+  "dataset_id": 52,
+  "dataset_path": "data/notebooks/flag-52.json",
+  "metadata": {
+    "category": "Incident Management",
+    "dataset_description": "The dataset comprises 500 entries simulating ServiceNow incidents table, detailing various attributes such as category, state, open and close dates, involved personnel, and incident specifics like description, and priority. It captures incident management activities with fields like 'opened_at', 'closed_at', 'assigned_to', 'short_description', and 'priority', reflecting the operational handling and urgency of issues across different locations and categories.",
+    "goal": "Analyze the trends in the dataset to identify factors that influence the time to resolution, particularly in certain category.",
+    "header": "Time to Resolution Trends Across Incident Categories (Flag 52)",
+    "role": "Hardware Incident Analyst"
+  },
+  "predicted_insights": [
+    "The Database median resolution time (~3,922 hours ≈ 163 days) is about 31% longer than Hardware and roughly 51% longer than Network, indicating database issues take substantially longer to resolve than other categories.",
+    "Resolution time balloons as priority decreases in Database: \"4 - Low\" takes a median ~1305 hours (~54 days) versus \"3 - Moderate\" ~44 hours (~1.8 days), while negative medians for high/critical priorities suggest timestamp inconsistencies that could skew performance assessments.",
+    "Medians surged from 392.005 hours in Jan 2023 to a peak of 6558.826 hours in Jan 2024 (~16.7× higher), then fell by ~46% to 3541.842 hours in Feb 2024, indicating a severe late-2023 slowdown with partial recovery in early 2024.",
+    "Even the fastest Database median (Luke Wilson at 2,839.19 hours ≈118 days) is months long, and the gap from lowest to highest median is 1,896.67 hours (~79 days)—a ~66.8% spread—indicating substantial assignee-driven variability in Database resolution times.",
+    "With 500 incidents spread across five categories over ~13.5 months, each category likely averages only about 7–8 tickets per month, so raw month-over-month medians may be volatile; using a 3-month rolling median or aggregating by quarter would yield more stable and interpretable resolution-time trends.",
+    "Since 'Closed' vs 'Resolved' status shows minimal impact on resolution time, merging them increases the sample from 114 to 236 tickets (~2.07x), enabling more reliable comparisons to uncover stronger drivers like category or priority.",
+    "Contrary to expectations, low-priority Software incidents resolve fastest—about 14% faster than critical and roughly 75% faster than moderate—while moderate takes the longest (≈3568 hours), suggesting workload or triage effects beyond stated priority.",
+    "These five Software tickets each took 6,869–8,529 hours (≈286–355 days) to resolve, averaging about 7,723 hours (~322 days), suggesting a few very long-running cases heavily inflate Software’s overall time-to-resolution.",
+    "Resolution times increase from Critical to Moderate but then drop sharply for Low priority, with Low (~2,040h) resolving ~1,528 hours (~43%) faster than Moderate (~3,568h), suggesting a non-linear priority–effort relationship likely driven by triage or backlog dynamics.",
+    "Australia’s median resolution time (~1,156 hours ≈ 48 days) is ~77% slower than Canada and ~108% slower than India, while the negative medians in the United States and UK suggest timestamp/data issues and underscore substantial location-driven variation.",
+    "The slowest median (Charlie Whitherspoon at 3798.32 hours) is about 2x the fastest (Luke Wilson at 1913.77 hours), a gap of roughly 1884.55 hours (~78.5 days), indicating that assignee selection can significantly impact resolution speed.",
+    "From the February 2023 peak (≈5,646 h) to October 2023 (≈246 h), the median fell by about 5,400 hours (~95.6%), while November 2023 jumped to ≈1,743 h—about 7.1 times October—highlighting strong overall improvement but late-year volatility; notably, the Jul–Oct 2023 average (~1,064 h) was far lower than the Feb–Apr 2023 average (~5,360 h)."
+  ],
+  "predicted_summary": "Across categories, Database stands out as the slowest overall (median ≈3,921.8 hours) and shows a pronounced time trend: its monthly median rose from 392.0 hours (2023-01) to a peak of 6,558.8 hours (2024-01), remaining elevated through late 2023 (≈2,180–4,319 hours). By contrast, Software’s median by opened month spiked early (≈5,646 hours in 2023-02), then fell steadily to ≈246 hours by 2023-10, with a brief rebound to ≈1,743 hours in 2023-11 and ≈710 hours in 2024-01—indicating strong month-to-month effects on resolution times.\nPriority does not consistently map to faster resolution: in Software, the median time increases from 2,040.1 hours (4 - Low) to 3,568.1 hours (3 - Moderate), with 1 - Critical at 2,384.5 hours and 2 - High at 3,027.6 hours, while within Database the “4 - Low” priority is the slowest among its priorities (median ≈1,305.0 hours). Lower-priority work often waits longer, and “Critical” is not always the fastest to resolve.\nWho is assigned appears to influence resolution time more than final ticket state: in Database, the assignee with the highest median (Fred Luddy) takes ≈4,735.9 hours versus the category median of ≈3,921.8 hours; in Software, medians range from ≈1,913.8 hours (Luke Wilson) to ≈3,798.3 hours (Charlie Whitherspoon)—a spread of ~1,884 hours. In contrast, “Closed” vs “Resolved” tickets have nearly identical averages (3,314.08 vs 3,343.62 hours; ~0.9% difference) and comparable medians (3,021.16 vs 2,803.34 hours), indicating status label has minimal impact.",
+  "score_insights": 0.37061089448315654,
+  "score_insights_dict": [
+    {
+      "gt_insight": "Incident distribution across categories is more or less uniform",
+      "pred_insight": "With 500 incidents spread across five categories over ~13.5 months, each category likely averages only about 7–8 tickets per month, so raw month-over-month medians may be volatile; using a 3-month rolling median or aggregating by quarter would yield more stable and interpretable resolution-time trends.",
+      "score": 0.2961691647508332
+    },
+    {
+      "gt_insight": "Average time to resolution for Software incidents is higher than for other categories. Avg TTR is also negative for Network and Inquiry/Help categories, which suggests possible errors in logging.",
+      "pred_insight": "These five Software tickets each took 6,869–8,529 hours (≈286–355 days) to resolve, averaging about 7,723 hours (~322 days), suggesting a few very long-running cases heavily inflate Software’s overall time-to-resolution.",
+      "score": 0.37634994334503563
+    },
+    {
+      "gt_insight": "Average time to resolution for is generally decreasing over time for all categories.",
+      "pred_insight": "From the February 2023 peak (≈5,646 h) to October 2023 (≈246 h), the median fell by about 5,400 hours (~95.6%), while November 2023 jumped to ≈1,743 h—about 7.1 times October—highlighting strong overall improvement but late-year volatility; notably, the Jul–Oct 2023 average (~1,064 h) was far lower than the Feb–Apr 2023 average (~5,360 h).",
+      "score": 0.532549652369299
+    },
+    {
+      "gt_insight": "Uniform distribution of incidents closed by human agents indicates that earlier anomalies may not be productivity-related",
+      "pred_insight": "Resolution time balloons as priority decreases in Database: \"4 - Low\" takes a median ~1305 hours (~54 days) versus \"3 - Moderate\" ~44 hours (~1.8 days), while negative medians for high/critical priorities suggest timestamp inconsistencies that could skew performance assessments.",
+      "score": 0.2773748174674585
+    }
+  ],
+  "score_summary": 0.3473594045678031,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.4541865270310713,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "With 500 incidents spread across five categories over ~13.5 months, each category likely averages only about 7–8 tickets per month, so raw month-over-month medians may be volatile; using a 3-month rolling median or aggregating by quarter would yield more stable and interpretable resolution-time trends.",
+      "gt_insight": "Incident distribution across categories is more or less uniform",
+      "score": 0.4095872247807952
+    },
+    {
+      "pred_insight": "These five Software tickets each took 6,869–8,529 hours (≈286–355 days) to resolve, averaging about 7,723 hours (~322 days), suggesting a few very long-running cases heavily inflate Software’s overall time-to-resolution.",
+      "gt_insight": "Average time to resolution for Software incidents is higher than for other categories. Avg TTR is also negative for Network and Inquiry/Help categories, which suggests possible errors in logging.",
+      "score": 0.5537926879417856
+    },
+    {
+      "pred_insight": "From the February 2023 peak (≈5,646 h) to October 2023 (≈246 h), the median fell by about 5,400 hours (~95.6%), while November 2023 jumped to ≈1,743 h—about 7.1 times October—highlighting strong overall improvement but late-year volatility; notably, the Jul–Oct 2023 average (~1,064 h) was far lower than the Feb–Apr 2023 average (~5,360 h).",
+      "gt_insight": "Average time to resolution for is generally decreasing over time for all categories.",
+      "score": 0.5459000622043809
+    },
+    {
+      "pred_insight": "Resolution time balloons as priority decreases in Database: \"4 - Low\" takes a median ~1305 hours (~54 days) versus \"3 - Moderate\" ~44 hours (~1.8 days), while negative medians for high/critical priorities suggest timestamp inconsistencies that could skew performance assessments.",
+      "gt_insight": "Uniform distribution of incidents closed by human agents indicates that earlier anomalies may not be productivity-related",
+      "score": 0.3074661331973235
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.1219536929855783,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.2845808834259562
+}

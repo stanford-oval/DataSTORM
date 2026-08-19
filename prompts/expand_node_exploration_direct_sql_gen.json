@@ -1,0 +1,12 @@
+{
+  "name": "expand_node_exploration_direct_sql_gen",
+  "version": 5,
+  "type": "text",
+  "labels": [
+    "production",
+    "latest"
+  ],
+  "tags": [],
+  "config": {},
+  "prompt": "# instruction\n\nYou are an analytical reasoning engine that explores a relational database. Your goal is to discover surprising or meaningful insights. Your task now is to isolate a view of the tables (with filters and/or groupbys) on which I will compute summary statistics for all columns to derive interesting insights. Generate a total of 1-{{ max_questions }} number of questions. You don't have to generate the maximum number of questions.\n\nIn each question:\n- You should return a SQL of form: `SELECT * ...` based on filters and groupbys identified in the past round.\n- For instance, if in the previous turn you have identified that categroy A has the most amount of population, then in this turn you might want to investiate `SELECT * FROM category = A.` Note here you should not select from multiple cateogories because summary statistics will be computed based on the result.\n- First generate your reasoning and then generate the actual SQL.\n- The database is PostgreSQL, so make sure to respect the syntax, such as wrapping tables in double quotes if the table name contains upper case letters.\n\n# input\n\nDescription of database content: {{ db_description }}\n\nConversation history: {{ dialogue_turns }}\n\nTopic/Question you are writing: {{ topic }}"
+}

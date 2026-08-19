@@ -1,0 +1,85 @@
+{
+  "dataset_id": 41,
+  "dataset_path": "data/notebooks/flag-41.json",
+  "metadata": {
+    "category": "Finance Management",
+    "dataset_description": "The dataset consists of 500 entries simulating the ServiceNow fm_expense_line table, which records various attributes of financial expenses. Key fields include 'number', 'opened_at', 'amount', 'state', 'short_description', 'ci', 'user', 'department', 'category', 'processed_date', 'source_id', and 'type'. This table documents the flow of financial transactions by detailing the amount, departmental allocation, and the nature of each expense. It provides a comprehensive view of organizational expenditures across different categories, highlighting both the timing and the approval state of each financial entry. Additionally, the dataset offers insights into the efficiency of expense processing based on different states, revealing potential areas for workflow optimization.",
+    "goal": "To detect and investigate instances of repeated identical expense claims by individual users, determining whether these repetitions are fraudulent or due to misunderstandings of the expense policy.",
+    "header": "Expense Claim Patterns and Fraud Analysis (Flag 41)",
+    "role": "Compliance and Audit Analyst"
+  },
+  "predicted_insights": [
+    "This behavior appears isolated: just 1 of 50 users (2%) exhibited repeated identical claims within 14 days out of 499 total claims, suggesting targeted review for a single user rather than a broad, systemic issue.",
+    "Duplicate claim behavior appears rare in this dataset—only 1 duplicate group among 499 claims (~0.2%)—and none were Declined, suggesting either effective user compliance or limited enforcement against near-duplicate submissions.",
+    "Only 1 out of 7 departments (≈14%) shows any duplicate claim groups, and it’s exclusively Sales, indicating a localized rather than organization-wide issue.",
+    "All observed duplicates are concentrated in the Miscellaneous category, with a rate of about 0.71% versus 0% elsewhere, suggesting this catch-all category may harbor most repeated identical claims and is the best target for policy clarification or monitoring.",
+    "All (100 of 100; 100%) repeated identical claims were processed and none were stopped or pending, indicating duplicates are routinely approved and highlighting a clear gap where pre-approval duplicate checks could prevent potential fraud.",
+    "All repeated identical claims were Recurring, indicating systematic repeat submissions tied to recurring expenses rather than duplicate One-time claims, so fraud reviews should prioritize Recurring patterns over One-time duplicates.",
+    "All repeated identical claims happened within 24 hours despite the dataset’s average processing time being 1129 hours (~47 days), suggesting immediate re-submissions likely driven by confusion or UX issues, and indicating that a simple real-time duplicate check could prevent nearly all (100%) repeats.",
+    "Those 99 repeated claims alone constitute about 20% (99 of 499) of all claims in this dataset, indicating a concentrated risk and making this user a high-priority target for policy education or audit.",
+    "Non-repeat claims take about 2.55 times longer to process than repeat claims on average, suggesting repeat submissions are identified and resolved more quickly—potentially due to streamlined detection of duplicates rather than complex review.",
+    "All identified repeated identical claims are concentrated in Recurring submissions, creating a 27.78 percentage-point gap versus One-time claims, indicating that auditing Recurring expenses may yield the highest impact for detecting policy misunderstandings or abuse.",
+    "All 99 repeated identical claims detected occurred in Sales (100% of repeats), while every other department showed 0%, indicating the repeat-claim risk is concentrated entirely in Sales and warrants focused policy review or audit.",
+    "All 100 repeated identical claims were processed and 0 were Declined, Submitted, or Pending, suggesting duplicates are not being intercepted by submission or review controls."
+  ],
+  "predicted_summary": "Repeated identical claims are overwhelmingly concentrated in a single individual and department: 99 out of 100 repeats (99%) were submitted by the user “evanskevin,” and the Sales department shows both the highest count (99 repeats) and the highest repeat rate—61.49% of its 161 total claims were repeats.\nRepeated claims are consistently approved and move through the system faster: 100% of repeats are in the Processed state (0% Declined), and they are completed on average 763.59 hours sooner than non-repeats (493.13 vs. 1256.72 hours). Nearly all repeats occur in rapid succession, with 99 of 99 measured repeats (100%) resubmitted within 24 hours of the prior identical claim.\nThe repeat pattern aligns with recurring expenses rather than one-offs and is marginally concentrated in one category: One-time claims have a 0% repeat rate and 0% of repeats are tagged One-time (0 out of 100), while Recurring claims show a 27.78% repeat rate. By category, Miscellaneous has the highest duplicate rate at about 0.71%, with Assets, Services, and Travel at 0%.",
+  "score_insights": 0.46551839437081277,
+  "score_insights_dict": [
+    {
+      "gt_insight": "",
+      "pred_insight": "This behavior appears isolated: just 1 of 50 users (2%) exhibited repeated identical claims within 14 days out of 499 total claims, suggesting targeted review for a single user rather than a broad, systemic issue.",
+      "score": 0.2550435263746585
+    },
+    {
+      "gt_insight": "Processing times vary significantly based on the state of the expenses",
+      "pred_insight": "All repeated identical claims happened within 24 hours despite the dataset’s average processing time being 1129 hours (~47 days), suggesting immediate re-submissions likely driven by confusion or UX issues, and indicating that a simple real-time duplicate check could prevent nearly all (100%) repeats.",
+      "score": 0.2708686525989433
+    },
+    {
+      "gt_insight": "There is a high incidence of repeated identical expense claims",
+      "pred_insight": "All observed duplicates are concentrated in the Miscellaneous category, with a rate of about 0.71% versus 0% elsewhere, suggesting this catch-all category may harbor most repeated identical claims and is the best target for policy clarification or monitoring.",
+      "score": 0.7602111960503063
+    },
+    {
+      "gt_insight": "Significant repetition in expense claims by a single user",
+      "pred_insight": "Those 99 repeated claims alone constitute about 20% (99 of 499) of all claims in this dataset, indicating a concentrated risk and making this user a high-priority target for policy education or audit.",
+      "score": 0.7883812311077547
+    },
+    {
+      "gt_insight": "",
+      "pred_insight": "Those 99 repeated claims alone constitute about 20% (99 of 499) of all claims in this dataset, indicating a concentrated risk and making this user a high-priority target for policy education or audit.",
+      "score": 0.2530873657224007
+    }
+  ],
+  "score_summary": 0.596852719762233,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.5641802641060847,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "All 100 repeated identical claims were processed and 0 were Declined, Submitted, or Pending, suggesting duplicates are not being intercepted by submission or review controls.",
+      "gt_insight": "",
+      "score": 0.37031859202626577
+    },
+    {
+      "pred_insight": "All repeated identical claims happened within 24 hours despite the dataset’s average processing time being 1129 hours (~47 days), suggesting immediate re-submissions likely driven by confusion or UX issues, and indicating that a simple real-time duplicate check could prevent nearly all (100%) repeats.",
+      "gt_insight": "Processing times vary significantly based on the state of the expenses",
+      "score": 0.31220950120865953
+    },
+    {
+      "pred_insight": "All (100 of 100; 100%) repeated identical claims were processed and none were stopped or pending, indicating duplicates are routinely approved and highlighting a clear gap where pre-approval duplicate checks could prevent potential fraud.",
+      "gt_insight": "There is a high incidence of repeated identical expense claims",
+      "score": 0.871239281142622
+    },
+    {
+      "pred_insight": "This behavior appears isolated: just 1 of 50 users (2%) exhibited repeated identical claims within 14 days out of 499 total claims, suggesting targeted review for a single user rather than a broad, systemic issue.",
+      "gt_insight": "Significant repetition in expense claims by a single user",
+      "score": 0.8556400805496545
+    },
+    {
+      "pred_insight": "All 100 repeated identical claims were processed and 0 were Declined, Submitted, or Pending, suggesting duplicates are not being intercepted by submission or review controls.",
+      "gt_insight": "",
+      "score": 0.41149386560322154
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.11482090871205874,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.8395047513472932
+}

@@ -1,0 +1,75 @@
+{
+  "dataset_id": 10,
+  "dataset_path": "data/notebooks/flag-10.json",
+  "metadata": {
+    "category": "Incident Management",
+    "dataset_description": "The dataset comprises 500 entries simulating ServiceNow incidents table, detailing various attributes such as category, state, open and close dates, involved personnel, and incident specifics like description, and priority. It captures incident management activities with fields like 'opened_at', 'closed_at', 'assigned_to', 'short_description', and 'priority', reflecting the operational handling and urgency of issues across different locations and categories.",
+    "goal": "Identify trends and underlying factors or correlations contributing to the increase in TTR.",
+    "header": "Incident Resolution Time Trends Analysis (Flag 10)",
+    "role": "Incidents Manager"
+  },
+  "predicted_insights": [
+    "The median TTR increased every month, rising by 772.8 hours (~32.2 days) from 81.6 to 854.4 hours over 13 months—about +64.4 hours (~2.7 days) per month on average—indicating a steady, systemic deterioration in resolution speed rather than isolated spikes.",
+    "The Network group’s median TTR jumped by ~9.5× (an extra ~32.3 days), indicating a concentrated slowdown that likely drove the overall TTR increase and elevated SLA risk in early 2024.",
+    "Despite a 17.5x spread in closure volume (2 to 35), median TTRs are tightly clustered (840.0–856.8 hours; ~16.8 hours range, ~2% variability), indicating broadly elevated TTR across groups and suggesting systemic factors (e.g., aging backlog) rather than workload-driven differences.",
+    "Because every one of the 58 January-2024 closures exceeded 7 days, the month’s minimum TTR was >168 hours and the SLA breach rate and count were both 100% and 58, respectively.",
+    "The strong positive correlation indicates workload pressure: as monthly tickets grew over 2023 (from 5 in January to 65–67 in November/December), median TTR climbed roughly tenfold (81.6h to 859.2h), suggesting higher ticket volume is strongly associated with slower resolution times.",
+    "By December the medians converged near ~33 days across priorities (792.0h High, 784.8h Critical, 782.4h Moderate), with High surpassing Critical and rising ~9.7x from January, signaling a broad, priority-agnostic slowdown in resolution throughput.",
+    "Only 2 of 12 months (Feb, Sep) had a ratio above 1.0 and the average ratio was ~0.83, meaning about 17% more tickets were opened than closed per month on average—implying backlog growth (especially in Mar, Jul, Nov) that likely pressured TTR upward.",
+    "Hardware’s median TTR (772.8h) is about 30% higher than Network’s (594.0h), a 178.8-hour (~7.5-day) gap, indicating substantial group-specific differences that likely drive the overall increase in TTR.",
+    "Hardware and Software have notably higher median TTRs (772.8h and 724.8h), about 30% and 22% higher than Network’s 594.0h, indicating these groups likely contribute disproportionately to the overall TTR increase.",
+    "There is a clear late-week effect: median TTR rises from Monday to Thursday (597.6 → 655.2 hours), drops on Friday (573.6), then climbs again over the weekend (Saturday 626.4, Sunday 645.6), with Thursday being 81.6 hours (~14%) slower than Friday—suggesting staffing or process constraints later in the week and on weekends may be elevating overall TTR.",
+    "Median TTR worsened by roughly 72 hours (~3 days) every month, accumulating ~778 additional hours over 2023—about a 10.5x increase from January—signaling a persistent and near-perfectly linear degradation in resolution speed.",
+    "Beyond the share increase, the absolute count of Priority 1–2 tickets jumped by 214 (from 92 to 306, a 233% increase), indicating a heavier high-severity workload in H2 that can pressure TTR."
+  ],
+  "predicted_summary": "Time to resolve rose dramatically and consistently over the period: the monthly median increased from 81.6 hours in 2023-01 to 854.4 hours in 2024-01 (+772.8 hours overall, roughly +71.7 hours per month). By 2024-01, 100% of closed tickets (58/58) took longer than 168 hours (7 days). This rise closely tracked workload: monthly ticket volume (opened_at) and median TTR were very strongly correlated in 2023 (Pearson r=0.971), and most months closed fewer tickets than were opened (closed/opened often <1), aligning longer TTR with mounting backlog and demand.\nPriority no longer meaningfully differentiated resolution speed by the end of 2023: median TTRs converged across priorities, with P1 Critical at 784.8h, P2 High at 792.0h, and P3 Moderate at 782.4h in 2023-12, despite all rising sharply over the year (e.g., P2 from 81.6h in Jan to 792.0h in Dec). At the same time, the mix shifted toward higher priorities: the share of P1–2 tickets rose by 3.09 percentage points from H1 2023 (90.2%) to H2 2023 (93.29%), indicating a heavier high-priority load coinciding with the TTR escalation.\nGroup-level patterns show both structural differences and acute deterioration: across 2023, Hardware had the highest median TTR (772.8h) followed by Software (724.8h) and Database (670.8h), yet Network experienced the steepest increase into 2024, with its median rising by 775.2 hours from 2023-01 (81.6h) to 2024-01 (856.8h). In 2024-01, assignment groups with more closed tickets also tended to have higher TTR (Spearman ρ=0.80, p=0.20; N=4), linking higher within-group throughput to slower resolution, while day-of-week effects were comparatively minor (medians 573.6–655.2h).",
+  "score_insights": 0.778255771429996,
+  "score_insights_dict": [
+    {
+      "gt_insight": "The time to resolution of incidents is increasing over time",
+      "pred_insight": "The median TTR increased every month, rising by 772.8 hours (~32.2 days) from 81.6 to 854.4 hours over 13 months—about +64.4 hours (~2.7 days) per month on average—indicating a steady, systemic deterioration in resolution speed rather than isolated spikes.",
+      "score": 0.8379842141622544
+    },
+    {
+      "gt_insight": "There is a positive correlation between the volume of incidents and the TTR",
+      "pred_insight": "The strong positive correlation indicates workload pressure: as monthly tickets grew over 2023 (from 5 in January to 65–67 in November/December), median TTR climbed roughly tenfold (81.6h to 859.2h), suggesting higher ticket volume is strongly associated with slower resolution times.",
+      "score": 0.8267522648534493
+    },
+    {
+      "gt_insight": "The increase in TTR is uniform across all categories",
+      "pred_insight": "Despite a 17.5x spread in closure volume (2 to 35), median TTRs are tightly clustered (840.0–856.8 hours; ~16.8 hours range, ~2% variability), indicating broadly elevated TTR across groups and suggesting systemic factors (e.g., aging backlog) rather than workload-driven differences.",
+      "score": 0.8130322777569431
+    },
+    {
+      "gt_insight": "The productivity is more or less uniform across all agents",
+      "pred_insight": "Despite a 17.5x spread in closure volume (2 to 35), median TTRs are tightly clustered (840.0–856.8 hours; ~16.8 hours range, ~2% variability), indicating broadly elevated TTR across groups and suggesting systemic factors (e.g., aging backlog) rather than workload-driven differences.",
+      "score": 0.6352543289473374
+    }
+  ],
+  "score_summary": 0.8414568647652125,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.8385871768272635,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "The median TTR increased every month, rising by 772.8 hours (~32.2 days) from 81.6 to 854.4 hours over 13 months—about +64.4 hours (~2.7 days) per month on average—indicating a steady, systemic deterioration in resolution speed rather than isolated spikes.",
+      "gt_insight": "The time to resolution of incidents is increasing over time",
+      "score": 0.8584714629064522
+    },
+    {
+      "pred_insight": "The strong positive correlation indicates workload pressure: as monthly tickets grew over 2023 (from 5 in January to 65–67 in November/December), median TTR climbed roughly tenfold (81.6h to 859.2h), suggesting higher ticket volume is strongly associated with slower resolution times.",
+      "gt_insight": "There is a positive correlation between the volume of incidents and the TTR",
+      "score": 0.8656698768844674
+    },
+    {
+      "pred_insight": "Despite a 17.5x spread in closure volume (2 to 35), median TTRs are tightly clustered (840.0–856.8 hours; ~16.8 hours range, ~2% variability), indicating broadly elevated TTR across groups and suggesting systemic factors (e.g., aging backlog) rather than workload-driven differences.",
+      "gt_insight": "The increase in TTR is uniform across all categories",
+      "score": 0.8228641654865857
+    },
+    {
+      "pred_insight": "Despite a 17.5x spread in closure volume (2 to 35), median TTRs are tightly clustered (840.0–856.8 hours; ~16.8 hours range, ~2% variability), indicating broadly elevated TTR across groups and suggesting systemic factors (e.g., aging backlog) rather than workload-driven differences.",
+      "gt_insight": "The productivity is more or less uniform across all agents",
+      "score": 0.8073432020315486
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.14810519884489395,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.8700904968379877
+}

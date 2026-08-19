@@ -1,0 +1,65 @@
+{
+  "dataset_id": 27,
+  "dataset_path": "data/notebooks/flag-27.json",
+  "metadata": {
+    "category": "User Management",
+    "dataset_description": "The dataset comprises 500 entries simulating ServiceNow sys_user table. The `sys_user` table, on the other hand, contains user-related information, focusing on the details of employees or system users. This includes fields such as 'user_id', 'name', 'schedule', 'role', 'email', and 'department', providing insights into the user profiles managed within the ServiceNow system. Together, these tables are instrumental in understanding the workflow, user involvement and detailed tracking of incident resolution processes within an organization.",
+    "goal": "To assess the distribution of managerial responsibilities within the IT department to identify and correct imbalances that could lead to system user management overload.",
+    "header": "Management Staffing Analysis in IT Department (Flag 27)",
+    "role": "HR Data Analyst"
+  },
+  "predicted_insights": [
+    "Management load is highly concentrated: Ed Gompf oversees about 75% of IT’s direct reports (76 of 101), over 3x Mariano Maury, indicating a potential imbalance that risks user management overload.",
+    "Only two non-person accounts exist in IT and they are evenly split (1 each) across two managers, indicating minimal concentration and low risk of overload from system accounts.",
+    "Only about 1.9% of IT users (2/103) lack a manager, which is notably lower than the overall dataset’s 6.9% missing rate (41/591), suggesting IT’s manager coverage is comparatively strong and unlikely to cause user management overload.",
+    "Cross-location oversight among IT managers is rare (only 2 managers) despite 51 unique locations in the dataset, suggesting multi-site coordination—and the risk of management overload tied to it—is concentrated in a very small subset of managers, making targeted support feasible.",
+    "Only about 1.9% of IT users (2 out of 103) lack a manager, indicating near-complete coverage; any management overload risk is more likely driven by uneven distribution among the 101 assigned users rather than missing assignments.",
+    "Ed Gompf manages approximately 75% of IT users (76 of 101), indicating a concentrated managerial load that may warrant rebalancing.",
+    "Despite the 11.51 average, workloads vary substantially—from 6 to 17 users per manager (≈2.8× spread), with four managers each handling 17 users—indicating uneven distribution that may contribute to user-management overload outside IT and provides a baseline to compare against IT.",
+    "With only two IT managers, one oversees about 75% of users (76 of 101), roughly triple the other's load; shifting 16 users from the heavier to the lighter manager would reduce the Gini below 0.10 and rebalance to 60 vs 41.",
+    "IT management is highly concentrated: 76 of 101 IT users (about three times the 25 under the other manager) report to one manager, signaling a potential overload risk and a clear target for rebalancing.",
+    "Among the 101 IT users who have assigned managers, all are managed by IT-only managers (0 cross-department cases), indicating managerial responsibilities are siloed within IT and that any overload risks are likely due to internal IT spans of control rather than cross-department obligations.",
+    "Managerial load is highly concentrated: one IT manager alone accounts for roughly three-quarters of all managed IT users, signaling a potential single-point bottleneck and elevated overload risk in system user oversight.",
+    "All 101 managed IT users report to IT managers, indicating any management load in IT stems from within the department rather than cross-department assignments, despite there being 42 unique managers overall in the dataset."
+  ],
+  "predicted_summary": "IT user management is highly concentrated: only 2 managers oversee 101 managed IT users (average 50.5 users per manager vs 11.51 in non-IT, about 4.4x higher). One manager alone has 76 direct reports—75.25% of managed IT users (73.8% of all 103 IT accounts)—while the other has 25; the inequality score (Gini) is 0.252.\nManagerial alignment is entirely within IT and non-person accounts are minimal: 0% of managed IT users report to non-IT managers and no IT managers have reports outside IT; only 2 of 103 accounts (1.9%) are non-person, evenly split (1 each), indicating the load distribution is not driven by service/admin/test accounts.\nCoverage and span: 2 of 103 IT users (1.9%) have no assigned manager, and both IT managers have direct reports across multiple locations (2 of 2), meaning all 101 managed IT users are in teams that span more than one location.",
+  "score_insights": 0.8220629858679774,
+  "score_insights_dict": [
+    {
+      "gt_insight": "Disparity in Managerial Distribution Across Departments",
+      "pred_insight": "Despite the 11.51 average, workloads vary substantially—from 6 to 17 users per manager (≈2.8× spread), with four managers each handling 17 users—indicating uneven distribution that may contribute to user-management overload outside IT and provides a baseline to compare against IT.",
+      "score": 0.8003536883449861
+    },
+    {
+      "gt_insight": "Disproportionate Number of Reportees per Manager in the IT Department",
+      "pred_insight": "Managerial load is highly concentrated: one IT manager alone accounts for roughly three-quarters of all managed IT users, signaling a potential single-point bottleneck and elevated overload risk in system user oversight.",
+      "score": 0.8437875632674483
+    },
+    {
+      "gt_insight": "Significant Disparity Among Managers in Terms of Reportee Numbers",
+      "pred_insight": "Management load is highly concentrated: Ed Gompf oversees about 75% of IT’s direct reports (76 of 101), over 3x Mariano Maury, indicating a potential imbalance that risks user management overload.",
+      "score": 0.8220477059914982
+    }
+  ],
+  "score_summary": 0.8135727158478554,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.8247694205213181,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "Only about 1.9% of IT users (2 out of 103) lack a manager, indicating near-complete coverage; any management overload risk is more likely driven by uneven distribution among the 101 assigned users rather than missing assignments.",
+      "gt_insight": "Disparity in Managerial Distribution Across Departments",
+      "score": 0.7235106119708539
+    },
+    {
+      "pred_insight": "Managerial load is highly concentrated: one IT manager alone accounts for roughly three-quarters of all managed IT users, signaling a potential single-point bottleneck and elevated overload risk in system user oversight.",
+      "gt_insight": "Disproportionate Number of Reportees per Manager in the IT Department",
+      "score": 0.867101784978263
+    },
+    {
+      "pred_insight": "Management load is highly concentrated: Ed Gompf oversees about 75% of IT’s direct reports (76 of 101), over 3x Mariano Maury, indicating a potential imbalance that risks user management overload.",
+      "gt_insight": "Significant Disparity Among Managers in Terms of Reportee Numbers",
+      "score": 0.8836958646148375
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.12446482464156523,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.8700345933741126
+}

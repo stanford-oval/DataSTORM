@@ -1,0 +1,65 @@
+{
+  "dataset_id": 74,
+  "dataset_path": "data/notebooks/flag-74.json",
+  "metadata": {
+    "category": "User Management",
+    "dataset_description": "The dataset comprises 500 entries simulating ServiceNow sys_user table. The `sys_user` table, on the other hand, contains user-related information, focusing on the details of employees or system users. This includes fields such as 'user_id', 'name', 'schedule', 'role', 'email', and 'department', providing insights into the user profiles managed within the ServiceNow system. Together, these tables are instrumental in understanding the workflow, user involvement and detailed tracking of incident resolution processes within an organization.",
+    "goal": "To assess the distribution of managerial responsibilities within the IT department to identify and correct imbalances that could lead to system user management overload.",
+    "header": "Management Staffing Analysis in IT Department (Flag 74)",
+    "role": "HR Data Analyst"
+  },
+  "predicted_insights": [
+    "One manager (Ed Gompf) accounts for roughly 75% of IT direct reports (76 of 101), a ~3:1 imbalance versus the other manager that could create a management bottleneck.",
+    "With only 2 IT managers overseeing roughly 101 total direct reports, IT management load is about 4.4× higher than non-IT; to match the non-IT average of 11.51, IT would need about 9 managers (≈101/11.51), indicating a shortfall of roughly 7 managers.",
+    "The most-loaded IT manager (Ed Gompf) handles 76 IT direct reports—about 3.0 times the next manager’s 25—indicating a pronounced concentration that heightens overload risk.",
+    "IT’s missing-manager rate (1.94%) is much lower than the overall dataset’s (41 of 591 = 6.94%)—about 72% lower—indicating IT has strong manager coverage; any overload risk is more likely due to uneven distribution among assigned managers than unassigned users.",
+    "Ed Gompf oversees 51 more IT staff than the next manager—about 3× as many—signaling a potential managerial workload imbalance.",
+    "Only two IT managers reach the maximum diversity of 5 unique employee titles, concentrating cross-role coordination demands with Ed Gompf and Mariano Maury rather than being evenly spread across IT.",
+    "Ed Gompf’s 27-analyst group is 3.4 times larger than the next-biggest single-title cluster (8 under Mariano Maury) and represents 35.5% of his top five title groups shown (27 of 76), indicating a concentrated load on one role that risks management bottlenecks and skill siloing.",
+    "This equates to about 1.9% of IT users being unmanaged, implying 98.1% manager coverage—low overall imbalance, but the unmanaged accounts could still pose approval and access-governance gaps.",
+    "IT’s unassigned-manager rate (1.94%) is well below the organization-wide missing-manager rate of about 6.9% (41 of 591), suggesting IT is comparatively well covered and any managerial overload risk is more likely in other departments.",
+    "There is no managerial overlap across departments for IT: 100% (101 of 101) of IT employees are managed exclusively by IT-only managers, indicating minimal risk of cross-department user management overload.",
+    "All 101 IT employees (100%) are managed by multi-location managers, suggesting centralized oversight across sites that could increase coordination complexity and risk of system user management overload.",
+    "Managerial load is highly concentrated: one manager (Ed Gompf) alone oversees 73.8% of the IT staff and the top two cover 98.06%, leaving just 2 employees outside this group—indicating potential overload and a single point of failure."
+  ],
+  "predicted_summary": "Managerial responsibility in IT is highly concentrated: only two managers cover 101 assigned IT employees, averaging 50.5 direct reports each—4.39 times the non-IT average (11.51). One manager alone (Ed Gompf) carries 75.25% of all managed IT staff (76 of 101), leaving 24.75% (25 of 101) to the other (Mariano Maury).\nTeam composition under the heaviest-loaded manager is also concentrated: while both IT managers oversee similarly broad role mixes (5 unique employee titles each), Ed Gompf’s team includes the largest single-title cluster in the department—27 Data Analysts—within his 76 direct reports.\nCoverage is nearly complete but structurally centralized and geographically dispersed: 98.06% of IT employees (101 of 103) have an assigned manager (with 1.94% unassigned), all assigned staff report to managers who span multiple locations (101 of 101), and none report to cross-department managers (0), indicating IT-only managerial focus across distributed sites.",
+  "score_insights": 0.6132904653798908,
+  "score_insights_dict": [
+    {
+      "gt_insight": "Scheduling activity peaks across all departments in April 2024, with HR showing the highest volume of schedules.",
+      "pred_insight": "IT’s missing-manager rate (1.94%) is much lower than the overall dataset’s (41 of 591 = 6.94%)—about 72% lower—indicating IT has strong manager coverage; any overload risk is more likely due to uneven distribution among assigned managers than unassigned users.",
+      "score": 0.10082518070306115
+    },
+    {
+      "gt_insight": "There is a disproportionate high number of reportees per manager in the IT Department",
+      "pred_insight": "One manager (Ed Gompf) accounts for roughly 75% of IT direct reports (76 of 101), a ~3:1 imbalance versus the other manager that could create a management bottleneck.",
+      "score": 0.8703796689448609
+    },
+    {
+      "gt_insight": "There is a significant disparity among managers in terms of reportee numbers",
+      "pred_insight": "One manager (Ed Gompf) accounts for roughly 75% of IT direct reports (76 of 101), a ~3:1 imbalance versus the other manager that could create a management bottleneck.",
+      "score": 0.8686665464917505
+    }
+  ],
+  "score_summary": 0.5477255911331897,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.6510797230089518,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "Only two IT managers reach the maximum diversity of 5 unique employee titles, concentrating cross-role coordination demands with Ed Gompf and Mariano Maury rather than being evenly spread across IT.",
+      "gt_insight": "Scheduling activity peaks across all departments in April 2024, with HR showing the highest volume of schedules.",
+      "score": 0.19544827529904776
+    },
+    {
+      "pred_insight": "One manager (Ed Gompf) accounts for roughly 75% of IT direct reports (76 of 101), a ~3:1 imbalance versus the other manager that could create a management bottleneck.",
+      "gt_insight": "There is a disproportionate high number of reportees per manager in the IT Department",
+      "score": 0.8769010475902258
+    },
+    {
+      "pred_insight": "The most-loaded IT manager (Ed Gompf) handles 76 IT direct reports—about 3.0 times the next manager’s 25—indicating a pronounced concentration that heightens overload risk.",
+      "gt_insight": "There is a significant disparity among managers in terms of reportee numbers",
+      "score": 0.8808898461375818
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.10334676354685231,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.8752974195823716
+}

@@ -1,0 +1,143 @@
+{
+  "prompt": "Research gang violence in Mexico and its outlook in 2025, as if we are at the end of 2024 heading into 2025.",
+  "criteria": [
+    {
+      "name": "Evolving cartel fragmentation",
+      "description": "Assess internal splits within major criminal organizations and how factional rivalries reshape power balances and fuel localized surges in violence."
+    },
+    {
+      "name": "Territorial diffusion of conflict",
+      "description": "Track how violence spreads beyond traditional hotspots into new regions as organizations exploit openings and contest emerging markets."
+    },
+    {
+      "name": "Shift to diversified revenue",
+      "description": "Examine gangs’ growing reliance on extortion, human smuggling, and fuel theft and how competition over these markets drives conflict dynamics."
+    },
+    {
+      "name": "Arms and tactics escalation",
+      "description": "Monitor increased use of explosives, drones, and remote attacks that enable asymmetric warfare and intimidation of civilians."
+    },
+    {
+      "name": "CJNG expansion opportunities",
+      "description": "Evaluate how one major group leverages rivals’ fragmentation to push into contested areas and forge opportunistic alliances, intensifying clashes."
+    },
+    {
+      "name": "Sinaloa network instability",
+      "description": "Analyze how internal rifts in a dominant network disrupt regional criminal ecosystems and trigger spillover violence in adjacent states."
+    },
+    {
+      "name": "State security posture shift",
+      "description": "Assess indications of a move from restraint to more assertive operations and how this affects confrontation rates and public security."
+    },
+    {
+      "name": "Militarization and human rights risks",
+      "description": "Evaluate the expanding role of military and quasi-military forces in public security and associated risks of abuses and civilian harm."
+    },
+    {
+      "name": "Political violence and co-optation",
+      "description": "Track intimidation, attacks, and co-optation of political actors as gangs seek influence over local governance and public institutions."
+    },
+    {
+      "name": "Judicial vulnerability and impunity",
+      "description": "Assess how reforms and institutional weaknesses may increase criminal penetration of the judiciary, undermining accountability and trust."
+    },
+    {
+      "name": "US policy pressure impacts",
+      "description": "Analyze how a harder external stance on drugs and migration shapes Mexico’s security strategy, enforcement priorities, and gang behavior."
+    },
+    {
+      "name": "Migration-crime nexus",
+      "description": "Monitor how tighter migration controls increase the profitability of human smuggling, funding gang expansion and intensifying route conflicts."
+    },
+    {
+      "name": "Civic harm and displacement",
+      "description": "Evaluate trends in civilian targeting, displacement, and community coercion as groups assert control and state responses intensify."
+    },
+    {
+      "name": "Market spillovers across regions",
+      "description": "Assess how conflicts over strategic markets (e.g., fuel theft, border control) in one state trigger knock-on violence in neighboring areas."
+    },
+    {
+      "name": "Prospects for short-term escalation",
+      "description": "Gauge likelihood of near-term upticks in clashes and lethality due to factional competition, opportunistic expansions, and assertive policing."
+    }
+  ],
+  "criterion_scores": [
+    {
+      "name": "Evolving cartel fragmentation",
+      "score": 0.75,
+      "explanation": "The article discusses decentralization into networks and semi-autonomous cells, limited impact of leadership removals, and factional infighting in Sinaloa after extraditions. However, it lacks detailed mapping of specific internal splits across multiple major groups and how particular factional rivalries reshape local balances beyond a few examples."
+    },
+    {
+      "name": "Territorial diffusion of conflict",
+      "score": 0.5,
+      "explanation": "It lists multiple hotspots (Guanajuato, Colima, Baja California, etc.) and notes that even tourist zones and big cities have seen spikes. Yet it does not explicitly analyze diffusion beyond traditional hotspots into new regions or explain mechanisms of spread and new contested corridors in 2024–2025."
+    },
+    {
+      "name": "Shift to diversified revenue",
+      "score": 1.0,
+      "explanation": "Strong coverage on diversification: extortion, fuel theft, kidnapping, and migrant smuggling, with corporate survey data and examples of control over supply chains and pricing. It connects diversification to financing and fueling further violence."
+    },
+    {
+      "name": "Arms and tactics escalation",
+      "score": 0.25,
+      "explanation": "The piece references brutality and high violence but does not specifically address increased use of explosives, drones, IEDs, or remote attacks. Only general intimidation and assassinations are mentioned."
+    },
+    {
+      "name": "CJNG expansion opportunities",
+      "score": 0.5,
+      "explanation": "It mentions CJNG’s role in Guanajuato conflicts and its continued dominance but does not analyze how CJNG leverages rivals’ fragmentation for expansions or specific opportunistic alliances in late 2024/2025."
+    },
+    {
+      "name": "Sinaloa network instability",
+      "score": 0.75,
+      "explanation": "Notes extraditions of key figures and subsequent deadly infighting in Sinaloa, and implies disruptions could provoke spikes. However, it does not detail spillover effects into adjacent states or broader ecosystem disruptions."
+    },
+    {
+      "name": "State security posture shift",
+      "score": 0.5,
+      "explanation": "Covers transition from AMLO to Sheinbaum and emphasizes policy continuity rather than a shift. It assesses ongoing militarized posture and limited assertiveness. It could have more explicitly evaluated any indications of moving from restraint to assertive operations and impacts on confrontation rates."
+    },
+    {
+      "name": "Militarization and human rights risks",
+      "score": 0.5,
+      "explanation": "Addresses militarization, National Guard under army control, and critiques of limited results. However, it does not substantively discuss human rights risks or documented abuses/civilian harm associated with militarization."
+    },
+    {
+      "name": "Political violence and co-optation",
+      "score": 0.75,
+      "explanation": "Provides data on attacks on officials, 2024 election-cycle assassinations, and dynamics of political-criminal agreements. Good linkage to intimidation and co-optation, though more specifics on institutional capture mechanisms would strengthen it."
+    },
+    {
+      "name": "Judicial vulnerability and impunity",
+      "score": 0.5,
+      "explanation": "Mentions weak justice system, high impunity, few convictions. Lacks detail on specific reforms, penetration of judiciary, or how institutional weaknesses may be exploited in 2025."
+    },
+    {
+      "name": "US policy pressure impacts",
+      "score": 0.25,
+      "explanation": "References DEA commentary and extraditions but does not analyze how a harder US stance on drugs/migration shapes Mexico’s strategy or gang behavior."
+    },
+    {
+      "name": "Migration-crime nexus",
+      "score": 0.5,
+      "explanation": "Mentions migrant smuggling as a diversified revenue stream and tighter controls increasing profitability implicitly, but lacks explicit discussion of how tighter migration controls boost smuggling profits and intensify route conflicts in specific regions."
+    },
+    {
+      "name": "Civic harm and displacement",
+      "score": 0.5,
+      "explanation": "Touches on civilian coercion via extortion and intimidation and cites a high-profile beheading of a mayor. It does not analyze displacement trends or broader civilian targeting patterns with data."
+    },
+    {
+      "name": "Market spillovers across regions",
+      "score": 0.5,
+      "explanation": "Notes Guanajuato fuel theft conflicts and Colima port precursor routes. However, it does not explicitly trace knock-on effects into neighboring states or cross-regional spillovers triggered by specific market contests."
+    },
+    {
+      "name": "Prospects for short-term escalation",
+      "score": 0.75,
+      "explanation": "Provides an outlook noting likely continued turf wars, potential spikes after leadership disruptions, and persistent high levels due to continuity in policy and diversification. Could be more specific on near-term triggers and regional likelihoods for escalation."
+    }
+  ],
+  "overall_score": 0.5666666666666667
+}

@@ -1,0 +1,302 @@
+{
+  "total_insights": 29,
+  "total_classified": 29,
+  "acled_count": 17,
+  "non_acled_count": 12,
+  "pct_acled": 0.5862068965517241,
+  "details": [
+    {
+      "evidence": "Belgorod in 2024 experienced a high volume of remote strikes (drones, glide munitions, artillery) focused on infrastructure, with low median fatalities per event and minimal ground combat.",
+      "is_acled_data": true,
+      "reasoning": "The statement references specific conflict event characteristics in a defined location and period: high volume of remote strike events, event types (drones, glide munitions, artillery under explosions/remote violence), focus on infrastructure targets, low median fatalities per event, and minimal ground combat. These align with ACLED’s event counts, event type classifications, fatality figures, and subnational geographic analysis, which ACLED provides. While not explicitly attributed, the structure and metrics are characteristic of ACLED-derived analysis.",
+      "source_context": "Section: Belgorod as a low-lethality pressure valve; ACLED data showing ~85%+ remote attacks, ~1% battles, median fatalities near zero."
+    },
+    {
+      "evidence": "Air and drone strike incidents in Belgorod rose from ~470 in Q1 to nearly 2,500 in Q3 before easing to ~1,700 in Q4, while shelling/missile attacks were heavy early then declined.",
+      "is_acled_data": true,
+      "reasoning": "The evidence gives quarterly counts of specific conflict event types (air/drone strikes, shelling/missile attacks) in a defined location (Belgorod) with temporal trend descriptions, which aligns with ACLED’s event count and temporal pattern data. This is characteristic of ACLED-derived analysis of explosions/remote violence over time by subnational area.",
+      "source_context": "Belgorod quarterly event trends in 2024; references [1][2][4]."
+    },
+    {
+      "evidence": "A March 2024 spike in Belgorod lethality (662 deaths across 775 events) was driven by a small cluster of high-fatality battles near border villages like Kozinka and Spodariushino.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific conflict event counts, fatalities, locations, and timing (March 2024; 662 deaths across 775 events; border villages Kozinka and Spodariushino) and attributes lethality to battle events—exactly the type of subnational, event-level, temporal, and fatality data ACLED provides and is used for trend analysis.",
+      "source_context": "Belgorod March outlier; eight engagements with 72–83 fatalities each; references [7][8][9]."
+    },
+    {
+      "evidence": "Belgorod strikes prioritized energy and logistics nodes—substations, power lines, and fuel depots—causing disruption with typically low casualty counts.",
+      "is_acled_data": true,
+      "reasoning": "The evidence describes specific conflict event targeting (energy/logistics nodes in Belgorod), event types (strikes on infrastructure), locations, and casualty patterns (typically low casualties), which aligns with ACLED’s event-based data and summaries of trends derived from such events. While not explicitly attributed to ACLED, the content matches ACLED-style event descriptions and trend characterization.",
+      "source_context": "Infrastructure-first campaign description; repeated attacks in Shebekino and Murom; references [10][11][5]."
+    },
+    {
+      "evidence": "By year’s end, Belgorod became a bombardment zone designed for persistent disruption rather than territorial change, with almost no sustained ground fighting.",
+      "is_acled_data": false,
+      "reasoning": "The statement is qualitative analysis about the character of fighting in Belgorod (disruption-focused bombardment with little ground combat) without citing specific event counts, fatalities, actor data, or explicit ACLED attribution. It reads as general commentary rather than a direct use of ACLED event data.",
+      "source_context": "Belgorod concluding assessment; references [1][2][3][10][11][6][4][5][9]."
+    },
+    {
+      "evidence": "Kursk shifted from sporadic harassment to sustained ground combat from August 2024, with several hundred battles in Q3 and nearly 900 in Q4 and fatalities rising from ~750 to ~1,250.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific counts of battles by quarter, a temporal shift in conflict type, and fatality figures for a specific subnational area (Kursk) and time period (Q3–Q4 2024). These are characteristic ACLED outputs: event counts by category (battles), temporal trend analysis, subnational geographic breakdown, and reported fatalities. This aligns closely with ACLED’s battle-related data and trend metrics.",
+      "source_context": "Kursk structural break and battle/fatality counts; references [1][12][13]."
+    },
+    {
+      "evidence": "In Kursk, the share of battles among political-violence events rose from about one-quarter in Q3 to roughly two-fifths in Q4, the highest among Russia’s border regions.",
+      "is_acled_data": true,
+      "reasoning": "The evidence discusses the share of battles among political-violence events by quarter and compares across subnational regions, which aligns with ACLED’s event-type breakdowns, temporal trend analysis, and subnational conflict metrics derived from their event data.",
+      "source_context": "Kursk event-type composition; references [2][6]."
+    },
+    {
+      "evidence": "Kursk combat was characterized by numerous armed clashes with rising per-event lethality (~1–2 deaths per engagement), and an initial burst of territorial changes that later tapered as the front stabilized.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites per-event lethality (~1–2 deaths per engagement), frequency of armed clashes, and temporal/territorial trend patterns (initial burst of territorial changes followed by stabilization). These align with ACLED’s battle event counts, fatality figures, and trend analysis derived from event-level data and geographic changes, which are core ACLED outputs.",
+      "source_context": "Kursk battle lethality and territorial-change dynamics; references [13][2]."
+    },
+    {
+      "evidence": "Operationally, Ukraine exploited interior lines to stress Russian logistics and reveal command-and-control weaknesses in Kursk, but could not convert gains into durable occupation, with Russia recapturing ~58% of seized territory by year’s end.",
+      "is_acled_data": false,
+      "reasoning": "The evidence is operational-strategic analysis about interior lines, logistics, C2 weaknesses, and a claimed percentage of territory recaptured. It does not cite event counts, fatalities, locations, or actor-level event data tied to ACLED, nor is it attributed to ACLED. Territory control percentages and campaign assessment are general analysis, not ACLED-specific metrics.",
+      "source_context": "Analyst assessments and territorial outcomes; references [14][15][16]."
+    },
+    {
+      "evidence": "Kursk’s lethality profile far exceeded Belgorod’s: per-event fatalities hovered near one, 90th percentile ~2, and air/drone and shelling strikes were notably deadlier (e.g., October: 451 air/drone attacks causing 275 fatalities).",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites per-event fatalities, percentile statistics, counts of air/drone and shelling attacks, and fatality totals by month and location (Kursk vs. Belgorod). These are specific conflict event counts and fatality figures with subnational and temporal breakdowns, which align with ACLED’s event-based data and derived trend metrics.",
+      "source_context": "Kursk lethality statistics vs. Belgorod; references [3][17][4][5]."
+    },
+    {
+      "evidence": "Infrastructure targeting in Kursk included bridges, rail, depots, and fuel sites aimed at disrupting Russian movement and resupply, with lower territorial-change frequency later in the year.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a qualitative summary about infrastructure targeting in Kursk and mentions reduced territorial-change frequency later in the year. It does not reference specific ACLED event counts, actor data, fatalities, or explicitly use ACLED attributions. It resembles general analytical commentary rather than direct use of ACLED event data.",
+      "source_context": "Kursk infrastructure focus and decline in territorial events; references [10][11][18][13]."
+    },
+    {
+      "evidence": "Border battles in Kursk did not replace fighting in eastern Ukraine; monthly battle counts in Kursk correlated strongly (r=0.83–0.98) with Donetsk and Luhansk from August onward, indicating coupled fronts.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites monthly battle counts by location and computes correlations between fronts over specific months, which aligns with ACLED’s battle event counts, subnational geographic breakdowns, and temporal trend analysis derived from event data. This is characteristic of ACLED-based analysis.",
+      "source_context": "Battlefield coupling analysis; references [19][20]."
+    },
+    {
+      "evidence": "Despite the war spilling into Russia, the deadliest areas in 2024 remained Ukrainian frontline districts, especially in Donbas and the south.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general qualitative assessment about where the deadliest areas were, without citing specific ACLED event or fatality data, locations, or ACLED attribution. It reads as analytical commentary rather than a direct reference to ACLED-derived metrics.",
+      "source_context": "National lethality distribution overview; references [21][22][23][24]."
+    },
+    {
+      "evidence": "Pokrovskyi district (Donetsk) recorded 25,395 deaths in 2024 from grinding battles, making it one of the war’s most lethal locales.",
+      "is_acled_data": true,
+      "reasoning": "The claim cites a specific subnational location (Pokrovskyi district, Donetsk) and a precise fatality count for 2024 linked to battle activity, which aligns with ACLED’s event-based fatality data and geographic breakdowns. Such detailed conflict fatality figures by district are characteristic of ACLED outputs.",
+      "source_context": "Donbas district-level fatalities; reference [21]."
+    },
+    {
+      "evidence": "Kherson’s main district registered 23,675 deaths in 2024 despite fewer events, reflecting high lethality per strike or battle.",
+      "is_acled_data": false,
+      "reasoning": "The claim cites a district-level total deaths figure (23,675) for 2024 and discusses lethality per strike, but it appears to be an aggregate mortality statistic rather than an event-based fatality count tied to specific conflict events. ACLED provides event-based fatalities, counts, and trends, not general mortality totals for administrative districts. Without explicit attribution to ACLED event data, this looks like broader mortality/demographic reporting, not ACLED-derived.",
+      "source_context": "Kherson lethality concentration; reference [21]."
+    },
+    {
+      "evidence": "In Donetsk and Luhansk, monthly battles nearly doubled (from ~600–700 in Jan–Feb to ~1,500 by Dec), while shelling more than halved, indicating a shift to close-quarters combat.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific monthly counts and trends in battle and shelling events by subregion (Donetsk and Luhansk), reflecting ACLED-style categories (battles vs. explosions/remote violence) and temporal pattern analysis derived from event data, which aligns with ACLED’s dataset and metrics.",
+      "source_context": "Frontline shift in violence types; reference [22]."
+    },
+    {
+      "evidence": "Nationwide in Ukraine, battles were the deadliest category in 2024, with fatalities surpassing 7,000 in May, November, and December, and nearly 6,000 in October.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites nationwide battle-related fatalities by month in 2024, specifying categories (battles) and temporal fatality counts. Monthly battle fatality totals and category breakdowns are core ACLED outputs derived from event data and are consistent with ACLED’s battle-related data and fatality trend analysis.",
+      "source_context": "Ukraine national fatality by event type; reference [23]."
+    },
+    {
+      "evidence": "In Q4 2024, Pokrovskyi accounted for over one-third of Ukrainian battles and nearly 9,800 deaths; other high-intensity districts included Bakhmutskyi, Volnovaskyi, Kupianskyi, and Chuhuivskyi.",
+      "is_acled_data": true,
+      "reasoning": "The statement gives subnational district-level shares of battles and a precise fatality figure for a specific quarter (Q4 2024), naming districts like Pokrovskyi, Bakhmutskyi, Volnovaskyi, Kupianskyi, and Chuhuivskyi. This aligns with ACLED’s event-based, subnational geographic data, battle counts, and fatality estimates, and temporal trend analysis by quarter. Such granular conflict-event and fatality statistics are characteristic of ACLED outputs.",
+      "source_context": "Q4 district concentration of battles and deaths; reference [24]."
+    },
+    {
+      "evidence": "Ukraine maintained high battle counts throughout 2024 (exceeding 2,000 monthly by December), while Russia’s battle events rose only after August in line with the Kursk campaign.",
+      "is_acled_data": true,
+      "reasoning": "The statement cites specific battle event counts and monthly temporal trends tied to particular campaigns, which aligns with ACLED’s battle-related event data and conflict trend analysis by month. This type of quantified event count (e.g., exceeding 2,000 monthly) and timing of increases corresponds to ACLED’s dataset outputs.",
+      "source_context": "National battle event timelines; references [25][26]."
+    },
+    {
+      "evidence": "Belgorod and Kursk absorbed high volumes of remote attacks, but frontline districts in Donetsk, Kherson, Kharkiv, and Zaporizhia suffered far higher lethality and more civilian-targeting incidents.",
+      "is_acled_data": true,
+      "reasoning": "The statement compares subnational patterns of attack types, lethality, and civilian-targeting incidents across specific regions—metrics aligned with ACLED’s event counts, remote violence categories, fatalities, and violence against civilians data. It references geographic breakdowns and relative lethality, which are typical outputs from ACLED-derived analyses.",
+      "source_context": "Comparison of border vs frontline lethality and civilian harm; references [23][21][24]."
+    },
+    {
+      "evidence": "Russia escalated attacks against Ukraine’s energy infrastructure in late 2024, causing rolling blackouts affecting over a million people and contributing to a 2024 recovery cost estimate of ~$15B (within ~$50.5B overall).",
+      "is_acled_data": false,
+      "reasoning": "The evidence cites impacts on energy infrastructure, rolling blackouts affecting over a million people, and monetary recovery cost estimates (~$15B within ~$50.5B overall). These are infrastructure damage impacts and economic/humanitarian cost figures, not specific conflict event counts or ACLED-attributed statistics. ACLED does not generally provide blackout figures or recovery cost estimates.",
+      "source_context": "Energy infrastructure damage and costs; references [28][16]."
+    },
+    {
+      "evidence": "Ukraine implemented resilience measures—hardened nodes, mobile generation, cyber upgrades, grid synchronization with ENTSO-E, and added renewables—reducing blackout risks and sustaining operations.",
+      "is_acled_data": false,
+      "reasoning": "The evidence discusses infrastructure resilience measures and energy grid upgrades, which are policy/technical developments and general analysis about blackout risk, not conflict event data or ACLED-derived metrics (events, fatalities, actor activity, locations). No attribution to ACLED is present.",
+      "source_context": "Energy resilience strategy; references [27][28][29]."
+    },
+    {
+      "evidence": "Ukraine also targeted Russian infrastructure: Belgorod saw nearly 1,000 recorded incidents in August with low fatalities per event; Kursk’s late-2024 strikes were fewer but deadlier (e.g., 251–347 monthly fatalities Aug–Sep).",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific monthly incident counts and fatalities by location (Belgorod, Kursk) and time (Aug–Sep 2024), reflecting conflict event counts and fatality figures with temporal and subnational breakdowns, which are characteristic of ACLED event data and trend analysis.",
+      "source_context": "Cross-border infrastructure targeting metrics; references [30][26]."
+    },
+    {
+      "evidence": "Battlefield activity within Russia increased toward the end of 2024 even as some border incident counts declined from peaks, indicating conflict deepening inside Russia rather than only at its edges.",
+      "is_acled_data": true,
+      "reasoning": "The statement discusses temporal trends in battlefield activity and border incident counts within Russia, implying event counts and subnational shift in conflict locations—classic ACLED-derived metrics (event counts, geographic distribution, trend analysis). It aligns with ACLED’s battle/incident data and trend analysis rather than general commentary.",
+      "source_context": "Russia Aug–Dec 2024 activity trends; references [26][31]."
+    },
+    {
+      "evidence": "In 2024, Russia broadened its nuclear doctrine to include more scenarios for nuclear use, coupled with heightened signaling to influence Western aid debates and deter deeper Ukrainian strikes.",
+      "is_acled_data": false,
+      "reasoning": "The claim concerns changes to Russia’s nuclear doctrine and signaling—policy statements and strategic posture—rather than conflict event data, fatalities, or actor-level incidents tracked by ACLED. This is geopolitical/policy analysis, not derived from ACLED event datasets.",
+      "source_context": "Nuclear doctrine change and signaling; references [32][33]."
+    },
+    {
+      "evidence": "Western military and financial support enabled Ukraine to sustain border disruptions and frontline defense despite Russian territorial holdings (~20% of Ukraine) and continued offensives.",
+      "is_acled_data": false,
+      "reasoning": "The statement is broad geopolitical analysis about Western support enabling Ukraine’s defense and mentions territorial control (~20%) without citing specific ACLED event data or metrics. It does not reference ACLED event counts, fatalities, locations, trends, or actor-level data, so it is not derived from ACLED.",
+      "source_context": "Role of Western aid and limits of Ukrainian border ops; references [34][16]."
+    },
+    {
+      "evidence": "By end-2024, Russia had retaken roughly 58% of territory Ukraine seized in Kursk and intensified energy strikes, while Ukraine proved able to strike/hold parts of Kursk and keep its grid functioning under assault.",
+      "is_acled_data": false,
+      "reasoning": "The evidence discusses territorial control percentages in Kursk and energy strike impacts on Ukraine’s grid—territory control and infrastructure functioning assessments are broader geopolitical/military analysis, not specific ACLED event-level data. No mention of ACLED attribution, event counts, fatalities, or actor/event coding typical of ACLED.",
+      "source_context": "End-2024 equilibrium snapshot; references [16][27][28][29][30][26]."
+    },
+    {
+      "evidence": "Cross-border operations have generated more military than political destabilization inside Russia; demonstrations remained relatively stable despite rising battlefield activity.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a broad analytical claim about political destabilization and demonstrations remaining stable; it does not reference specific ACLED event counts, protest data, or actor-level statistics. It reads as general geopolitical analysis rather than explicit ACLED-derived metrics or trends.",
+      "source_context": "Domestic stability indicators vs battlefield events; references [26][31]."
+    },
+    {
+      "evidence": "The net effect of Belgorod’s low-lethality disruption and Kursk’s lethal ground fighting is a coupled battlefield pushing combat onto Russian soil without relieving Ukraine’s frontline pressure.",
+      "is_acled_data": false,
+      "reasoning": "The statement is an analytical assessment about the strategic effect of Belgorod and Kursk fighting, not citing specific event counts, fatalities, actor data, or ACLED-attributed metrics. It is general commentary rather than direct use of ACLED event data.",
+      "source_context": "Synthesis of Belgorod–Kursk impacts and coupled fronts theme; multiple sections summarizing."
+    }
+  ],
+  "insights": [
+    {
+      "insight": "Belgorod in 2024 experienced a high volume of remote strikes (drones, glide munitions, artillery) focused on infrastructure, with low median fatalities per event and minimal ground combat.",
+      "context": "Section: Belgorod as a low-lethality pressure valve; ACLED data showing ~85%+ remote attacks, ~1% battles, median fatalities near zero."
+    },
+    {
+      "insight": "Air and drone strike incidents in Belgorod rose from ~470 in Q1 to nearly 2,500 in Q3 before easing to ~1,700 in Q4, while shelling/missile attacks were heavy early then declined.",
+      "context": "Belgorod quarterly event trends in 2024; references [1][2][4]."
+    },
+    {
+      "insight": "A March 2024 spike in Belgorod lethality (662 deaths across 775 events) was driven by a small cluster of high-fatality battles near border villages like Kozinka and Spodariushino.",
+      "context": "Belgorod March outlier; eight engagements with 72–83 fatalities each; references [7][8][9]."
+    },
+    {
+      "insight": "Belgorod strikes prioritized energy and logistics nodes—substations, power lines, and fuel depots—causing disruption with typically low casualty counts.",
+      "context": "Infrastructure-first campaign description; repeated attacks in Shebekino and Murom; references [10][11][5]."
+    },
+    {
+      "insight": "By year’s end, Belgorod became a bombardment zone designed for persistent disruption rather than territorial change, with almost no sustained ground fighting.",
+      "context": "Belgorod concluding assessment; references [1][2][3][10][11][6][4][5][9]."
+    },
+    {
+      "insight": "Kursk shifted from sporadic harassment to sustained ground combat from August 2024, with several hundred battles in Q3 and nearly 900 in Q4 and fatalities rising from ~750 to ~1,250.",
+      "context": "Kursk structural break and battle/fatality counts; references [1][12][13]."
+    },
+    {
+      "insight": "In Kursk, the share of battles among political-violence events rose from about one-quarter in Q3 to roughly two-fifths in Q4, the highest among Russia’s border regions.",
+      "context": "Kursk event-type composition; references [2][6]."
+    },
+    {
+      "insight": "Kursk combat was characterized by numerous armed clashes with rising per-event lethality (~1–2 deaths per engagement), and an initial burst of territorial changes that later tapered as the front stabilized.",
+      "context": "Kursk battle lethality and territorial-change dynamics; references [13][2]."
+    },
+    {
+      "insight": "Operationally, Ukraine exploited interior lines to stress Russian logistics and reveal command-and-control weaknesses in Kursk, but could not convert gains into durable occupation, with Russia recapturing ~58% of seized territory by year’s end.",
+      "context": "Analyst assessments and territorial outcomes; references [14][15][16]."
+    },
+    {
+      "insight": "Kursk’s lethality profile far exceeded Belgorod’s: per-event fatalities hovered near one, 90th percentile ~2, and air/drone and shelling strikes were notably deadlier (e.g., October: 451 air/drone attacks causing 275 fatalities).",
+      "context": "Kursk lethality statistics vs. Belgorod; references [3][17][4][5]."
+    },
+    {
+      "insight": "Infrastructure targeting in Kursk included bridges, rail, depots, and fuel sites aimed at disrupting Russian movement and resupply, with lower territorial-change frequency later in the year.",
+      "context": "Kursk infrastructure focus and decline in territorial events; references [10][11][18][13]."
+    },
+    {
+      "insight": "Border battles in Kursk did not replace fighting in eastern Ukraine; monthly battle counts in Kursk correlated strongly (r=0.83–0.98) with Donetsk and Luhansk from August onward, indicating coupled fronts.",
+      "context": "Battlefield coupling analysis; references [19][20]."
+    },
+    {
+      "insight": "Despite the war spilling into Russia, the deadliest areas in 2024 remained Ukrainian frontline districts, especially in Donbas and the south.",
+      "context": "National lethality distribution overview; references [21][22][23][24]."
+    },
+    {
+      "insight": "Pokrovskyi district (Donetsk) recorded 25,395 deaths in 2024 from grinding battles, making it one of the war’s most lethal locales.",
+      "context": "Donbas district-level fatalities; reference [21]."
+    },
+    {
+      "insight": "Kherson’s main district registered 23,675 deaths in 2024 despite fewer events, reflecting high lethality per strike or battle.",
+      "context": "Kherson lethality concentration; reference [21]."
+    },
+    {
+      "insight": "In Donetsk and Luhansk, monthly battles nearly doubled (from ~600–700 in Jan–Feb to ~1,500 by Dec), while shelling more than halved, indicating a shift to close-quarters combat.",
+      "context": "Frontline shift in violence types; reference [22]."
+    },
+    {
+      "insight": "Nationwide in Ukraine, battles were the deadliest category in 2024, with fatalities surpassing 7,000 in May, November, and December, and nearly 6,000 in October.",
+      "context": "Ukraine national fatality by event type; reference [23]."
+    },
+    {
+      "insight": "In Q4 2024, Pokrovskyi accounted for over one-third of Ukrainian battles and nearly 9,800 deaths; other high-intensity districts included Bakhmutskyi, Volnovaskyi, Kupianskyi, and Chuhuivskyi.",
+      "context": "Q4 district concentration of battles and deaths; reference [24]."
+    },
+    {
+      "insight": "Ukraine maintained high battle counts throughout 2024 (exceeding 2,000 monthly by December), while Russia’s battle events rose only after August in line with the Kursk campaign.",
+      "context": "National battle event timelines; references [25][26]."
+    },
+    {
+      "insight": "Belgorod and Kursk absorbed high volumes of remote attacks, but frontline districts in Donetsk, Kherson, Kharkiv, and Zaporizhia suffered far higher lethality and more civilian-targeting incidents.",
+      "context": "Comparison of border vs frontline lethality and civilian harm; references [23][21][24]."
+    },
+    {
+      "insight": "Russia escalated attacks against Ukraine’s energy infrastructure in late 2024, causing rolling blackouts affecting over a million people and contributing to a 2024 recovery cost estimate of ~$15B (within ~$50.5B overall).",
+      "context": "Energy infrastructure damage and costs; references [28][16]."
+    },
+    {
+      "insight": "Ukraine implemented resilience measures—hardened nodes, mobile generation, cyber upgrades, grid synchronization with ENTSO-E, and added renewables—reducing blackout risks and sustaining operations.",
+      "context": "Energy resilience strategy; references [27][28][29]."
+    },
+    {
+      "insight": "Ukraine also targeted Russian infrastructure: Belgorod saw nearly 1,000 recorded incidents in August with low fatalities per event; Kursk’s late-2024 strikes were fewer but deadlier (e.g., 251–347 monthly fatalities Aug–Sep).",
+      "context": "Cross-border infrastructure targeting metrics; references [30][26]."
+    },
+    {
+      "insight": "Battlefield activity within Russia increased toward the end of 2024 even as some border incident counts declined from peaks, indicating conflict deepening inside Russia rather than only at its edges.",
+      "context": "Russia Aug–Dec 2024 activity trends; references [26][31]."
+    },
+    {
+      "insight": "In 2024, Russia broadened its nuclear doctrine to include more scenarios for nuclear use, coupled with heightened signaling to influence Western aid debates and deter deeper Ukrainian strikes.",
+      "context": "Nuclear doctrine change and signaling; references [32][33]."
+    },
+    {
+      "insight": "Western military and financial support enabled Ukraine to sustain border disruptions and frontline defense despite Russian territorial holdings (~20% of Ukraine) and continued offensives.",
+      "context": "Role of Western aid and limits of Ukrainian border ops; references [34][16]."
+    },
+    {
+      "insight": "By end-2024, Russia had retaken roughly 58% of territory Ukraine seized in Kursk and intensified energy strikes, while Ukraine proved able to strike/hold parts of Kursk and keep its grid functioning under assault.",
+      "context": "End-2024 equilibrium snapshot; references [16][27][28][29][30][26]."
+    },
+    {
+      "insight": "Cross-border operations have generated more military than political destabilization inside Russia; demonstrations remained relatively stable despite rising battlefield activity.",
+      "context": "Domestic stability indicators vs battlefield events; references [26][31]."
+    },
+    {
+      "insight": "The net effect of Belgorod’s low-lethality disruption and Kursk’s lethal ground fighting is a coupled battlefield pushing combat onto Russian soil without relieving Ukraine’s frontline pressure.",
+      "context": "Synthesis of Belgorod–Kursk impacts and coupled fronts theme; multiple sections summarizing."
+    }
+  ],
+  "prompt": "Status of the Russian-Ukrainian conflict, as if we are at the end of 2024 heading into 2025."
+}

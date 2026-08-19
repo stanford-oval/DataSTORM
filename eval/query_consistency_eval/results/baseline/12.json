@@ -1,0 +1,175 @@
+{
+  "per_dimension": [
+    {
+      "dimension": "actor_entity",
+      "score": 0.2,
+      "num_concept_groups": 5,
+      "num_consistent_groups": 1,
+      "notes": "Strong inconsistencies in how 'al‑Shabaab–linked' is detected: some queries search actor1/actor2 only, others also assoc_actor_1/2, and some additionally search notes/tags. Pattern lists also differ. Communal militia identification via inter1/inter2='Identity militia' is consistent."
+    },
+    {
+      "dimension": "geography",
+      "score": 0.333,
+      "num_concept_groups": 3,
+      "num_consistent_groups": 1,
+      "notes": "Country scope (country='Kenya') is consistent. However, 'Garissa county' is inconsistently filtered (admin1 vs admin2). Locality granularity differs (admin2/admin3 vs location), which will change grouping and counts."
+    },
+    {
+      "dimension": "temporal",
+      "score": 1.0,
+      "num_concept_groups": 2,
+      "num_consistent_groups": 2,
+      "notes": "November 2024 windows are consistently expressed via >= '2024-11-01' and < '2024-12-01' or equivalent <= '2024-11-30'. ISO week ranges (44–48) are consistently used."
+    },
+    {
+      "dimension": "event_taxonomy",
+      "score": 1.0,
+      "num_concept_groups": 2,
+      "num_consistent_groups": 2,
+      "notes": "IEDs are consistently defined as event_type='Explosions/Remote violence' and sub_event_type='Remote explosive/landmine/IED'. Communal militia event-type breakdowns use ACLED's event_type categories consistently."
+    },
+    {
+      "dimension": "counting_aggregation",
+      "score": 1.0,
+      "num_concept_groups": 0,
+      "num_consistent_groups": 0,
+      "notes": "No conflicting counting methods found for the same concept. COUNT(*) and SUM(fatalities) are used appropriately; DISTINCT is used only where joins could duplicate rows."
+    },
+    {
+      "dimension": "population_scope",
+      "score": 1.0,
+      "num_concept_groups": 0,
+      "num_consistent_groups": 0,
+      "notes": "All Kenya-focused queries consistently filter country='Kenya'. Cross-country benchmark in Somalia (Q14) is intentionally different."
+    }
+  ],
+  "conflicts": [
+    {
+      "dimension": "actor_entity",
+      "concept": "al‑Shabaab–linked events in Kenya, November 2024",
+      "query_indices": [
+        0,
+        2
+      ],
+      "predicate_a": "(actor1 OR actor2 OR assoc_actor_1 OR assoc_actor_2 OR notes OR tags) ILIKE ANY('%al-shabaab%','%al shabaab%','%al-shabab%','%al shabab%','%al shabab%','%ash-shabab%')",
+      "predicate_b": "(actor1 OR actor2 OR assoc_actor_1 OR assoc_actor_2) ILIKE ANY('%al-shabaab%','%al shabaab%','%al-shabab%','%al shabab%','%al shabab%','%ash-shabab%')",
+      "severity": "result-changing",
+      "explanation": "Q0 includes notes/tags to capture 'linked' mentions; Q2 omits them. Events mentioning al‑Shabaab only in notes/tags would be counted in Q0 but missed in Q2."
+    },
+    {
+      "dimension": "actor_entity",
+      "concept": "al‑Shabaab–linked events in Kenya, November 2024",
+      "query_indices": [
+        1,
+        0
+      ],
+      "predicate_a": "ILIKE patterns include '%al shabab' (missing trailing '%') alongside other variants; also searches notes and tags",
+      "predicate_b": "ILIKE patterns include '%al shabab%' (with trailing '%') and search notes/tags consistently",
+      "severity": "result-changing",
+      "explanation": "The missing trailing wildcard in Q1 ('%al shabab') will fail to match strings where 'al shabab' is followed by additional characters (e.g., modifiers), undercounting relative to Q0."
+    },
+    {
+      "dimension": "actor_entity",
+      "concept": "al‑Shabaab–linked events in Kenya, November 2024",
+      "query_indices": [
+        21,
+        15
+      ],
+      "predicate_a": "Q21: (actor1 ILIKE ... OR assoc_actor_1 ILIKE ...) only",
+      "predicate_b": "Q15: (actor1 OR actor2 OR assoc_actor_1 OR assoc_actor_2 OR notes OR tags) ILIKE ...",
+      "severity": "result-changing",
+      "explanation": "Q21 excludes actor2 and assoc_actor_2 and does not search notes/tags, so it will miss many 'linked' events that Q15 includes."
+    },
+    {
+      "dimension": "actor_entity",
+      "concept": "al‑Shabaab–linked events in Kenya, November 2024",
+      "query_indices": [
+        20,
+        15
+      ],
+      "predicate_a": "Q20: (actor1 ILIKE ... OR assoc_actor_1 ILIKE ...) only",
+      "predicate_b": "Q15: (actor1 OR actor2 OR assoc_actor_1 OR assoc_actor_2 OR notes OR tags) ILIKE ...",
+      "severity": "result-changing",
+      "explanation": "Q20 omits actor2 and assoc_actor_2 as well as notes/tags, narrowing the 'linked' detection compared to Q15."
+    },
+    {
+      "dimension": "actor_entity",
+      "concept": "al‑Shabaab vs communal militia categorization for November 2024 (weekly/daily comparisons)",
+      "query_indices": [
+        5,
+        6
+      ],
+      "predicate_a": "Q5 al‑Shabaab: actor1/actor2/assoc_actor_1/2 ILIKE ...; communal militia: inter1='Identity militia' OR inter2='Identity militia', with CASE prioritizing al‑Shabaab",
+      "predicate_b": "Q6 al‑Shabaab: actor1/actor2 ILIKE ... only; communal militia: inter1/inter2='Identity militia' AND NOT (actor1/actor2 ILIKE ...)",
+      "severity": "result-changing",
+      "explanation": "Q6 omits assoc_actor matches for al‑Shabaab, while Q5 includes them. This will shift some events between categories or exclude them from the al‑Shabaab daily series."
+    },
+    {
+      "dimension": "actor_entity",
+      "concept": "al‑Shabaab IED events in Kenya (Nov 2024 and 2024 average)",
+      "query_indices": [
+        14,
+        28
+      ],
+      "predicate_a": "Q14 Kenya filter: (actor1 OR actor2) ILIKE ANY('%al‑Shabaab%','%Harakat al‑Shabaab%','%Al Shabaab%')",
+      "predicate_b": "Q28: (actor1 OR actor2 OR assoc_actor_1 OR assoc_actor_2) ILIKE ANY('%al‑shabaab%','%al shabaab%','%al‑shabab%','%al shabab%','%al shabab%','%ash‑shabab%')",
+      "severity": "result-changing",
+      "explanation": "Q14 uses a narrower name list and excludes assoc_actor fields; Q28 uses broader variants and includes assoc_actor fields. The Kenya Nov IED count/fatalities will not align."
+    },
+    {
+      "dimension": "actor_entity",
+      "concept": "Target category mapping (Police/Military/Civilians/Other) for al‑Shabaab events in Kenya, Nov 2024",
+      "query_indices": [
+        18,
+        21
+      ],
+      "predicate_a": "Q18 categorization: Police if actor2 ILIKE '%Police Forces of Kenya%'; Military if ILIKE '%Military Forces of Kenya%'; Civilians if inter2='Civilians' OR actor2 ILIKE 'Civilians%'; else Other",
+      "predicate_b": "Q21 categorization expands Police to include '%kenya police%', '%administration police%'; Military to include '%kenya defence forces%', '%kdf%'; Civilians via inter2='Civilians' OR actor2 ILIKE '%civilians%'",
+      "severity": "result-changing",
+      "explanation": "Different synonym coverage can reclassify the same events into different target buckets, changing event/fatality totals per category."
+    },
+    {
+      "dimension": "actor_entity",
+      "concept": "al‑Shabaab–linked events in Kenya, November 2024",
+      "query_indices": [
+        8,
+        15
+      ],
+      "predicate_a": "Q8: (actor1 OR actor2 OR assoc_actor_1 OR assoc_actor_2) ILIKE ..., excludes notes/tags",
+      "predicate_b": "Q15: includes notes and tags in addition to actor and assoc_actor fields",
+      "severity": "result-changing",
+      "explanation": "Events only mentioning al‑Shabaab in notes/tags would be included in Q15 but excluded from Q8, affecting cross‑table comparability."
+    },
+    {
+      "dimension": "geography",
+      "concept": "Garissa county scope (Kenya, Nov 2024)",
+      "query_indices": [
+        3,
+        2
+      ],
+      "predicate_a": "Q3: (admin1='Garissa' OR admin2='Garissa')",
+      "predicate_b": "Q2: admin1 IN ('Garissa','Mandera','Wajir') — i.e., Garissa identified strictly via admin1",
+      "severity": "result-changing",
+      "explanation": "Including admin2='Garissa' can pull sub‑county records regardless of county and differs from using admin1 (county) only; this may add or omit events outside Garissa county proper."
+    },
+    {
+      "dimension": "geography",
+      "concept": "Locality granularity for al‑Shabaab localities in Kenya, Nov 2024",
+      "query_indices": [
+        7,
+        18
+      ],
+      "predicate_a": "Q7 locality: COALESCE(NULLIF(admin2,''), NULLIF(admin3,''), NULLIF(location,''))",
+      "predicate_b": "Q18 locality: location",
+      "severity": "result-changing",
+      "explanation": "Q7 often groups at sub‑county level (admin2) while Q18 groups at specific locations; this changes both the set of locality labels and the counts per locality."
+    }
+  ],
+  "overall_score": 0.756,
+  "summary": "Temporal windows, event taxonomy (IED definition), and population scope are consistently applied. However, the actor matching for 'al‑Shabaab–linked' varies widely across queries (fields searched and name variants), and target-category mappings differ, causing result-changing discrepancies. Geographic handling shows inconsistencies for Garissa county filtering and locality granularity, which can shift counts across locations.",
+  "report_dir": "<repo>/datatalk/acled/12/What_are_the_threats_in_Kenya_with_respect_to_communal_militias_and_al-Shabaab._Focus_on_November_2024.__20260323_194919",
+  "model": "gpt-5",
+  "num_queries": 29,
+  "applicable": true,
+  "id": 12
+}

@@ -1,0 +1,771 @@
+{
+  "id": "17",
+  "prompt": "Research gang violence in Mexico and its outlook in 2025, as if we are at the end of 2024 heading into 2025.",
+  "timestamp": "2026-03-29T04:06:47.875789",
+  "openai_dr": {
+    "total_insights": 15,
+    "total_classified": 15,
+    "acled_count": 0,
+    "non_acled_count": 15,
+    "pct_acled": 0.0,
+    "details": [
+      {
+        "evidence": "Homicide levels in Mexico have plateaued at historically high rates in recent years, with brutal incidents continuing into late 2024.",
+        "is_acled_data": false,
+        "reasoning": "The statement refers to overall homicide levels in Mexico and their trend, which are general crime statistics typically from governmental sources (e.g., SESNSP/INEGI) rather than ACLED’s conflict event data. It is not explicitly tied to ACLED event counts or actor-level conflict data.",
+        "source_context": "Ongoing Violence in Late 2024 section describing persistent high homicide rates."
+      },
+      {
+        "evidence": "Late 2024 saw open gun battles in Culiacán and the assassination of the mayor of Chilpancingo, highlighting entrenched organized crime.",
+        "is_acled_data": false,
+        "reasoning": "The statement references specific incidents (gun battles in Culiacán and an assassination in Chilpancingo) but provides no event counts, dates, actor details, or attribution to ACLED. It reads as general narrative/media-reported events rather than explicit ACLED-derived data.",
+        "source_context": "Examples cited of late-2024 violent incidents in Culiacán and Chilpancingo."
+      },
+      {
+        "evidence": "Authorities have struggled to contain turf wars as powerful cartels and offshoot gangs compete for control across regions.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general analytical observation about authorities struggling to contain cartel turf wars. It does not reference specific event counts, locations, actors, fatalities, or trends tied to ACLED data, nor is it attributed to ACLED.",
+        "source_context": "Overview of ongoing turf wars and criminal activities across Mexico."
+      },
+      {
+        "evidence": "AMLO’s “hugs, not bullets” strategy avoided direct confrontation with cartels and may have prevented escalation, but killings remained high.",
+        "is_acled_data": false,
+        "reasoning": "The statement is general policy analysis about AMLO’s security approach and overall killings remaining high. It does not reference specific ACLED event counts, actor data, fatalities from conflict events, or ACLED-attributed trends. Therefore it is not derived from ACLED data.",
+        "source_context": "Changing Security Strategy discussing outcomes of AMLO’s policy."
+      },
+      {
+        "evidence": "President Claudia Sheinbaum signals a shift toward bolstering intelligence operations and targeting cartel finances rather than appeasement or brute force.",
+        "is_acled_data": false,
+        "reasoning": "This is a policy statement about a government’s security strategy, not specific conflict event data or analysis derived from ACLED. ACLED does not track government policy declarations; it tracks events, actors, fatalities, and trends from conflict data.",
+        "source_context": "Sheinbaum’s indicated tactics contrasted with predecessor’s approach."
+      },
+      {
+        "evidence": "Sheinbaum’s administration plans to expand social programs to deter youth recruitment, though evidence suggests limited impact when cartel profits are high.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a policy analysis about planned social programs and their effectiveness; it does not reference conflict event data, fatalities, locations, or actor-level statistics attributed to ACLED.",
+        "source_context": "Discussion of social programs’ effectiveness in reducing cartel recruitment."
+      },
+      {
+        "evidence": "Sheinbaum must introduce new measures without overtly discrediting AMLO’s legacy, making drastic policy changes politically sensitive.",
+        "is_acled_data": false,
+        "reasoning": "The statement is political analysis about policy sensitivities and leadership dynamics, not based on specific conflict event data, fatalities, or actor-level metrics. It is general commentary rather than ACLED-derived data.",
+        "source_context": "Political balancing act outlined in Changing Security Strategy."
+      },
+      {
+        "evidence": "Experts are cautious about rapid improvement in security in 2025, anticipating continued high levels of violence.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general analytical forecast about security trends without reference to specific ACLED event data, counts, locations, or actor-level details. It is not explicitly attributed to ACLED and lacks concrete conflict event metrics.",
+        "source_context": "Outlook for 2025 section summarizing expert sentiment."
+      },
+      {
+        "evidence": "Election periods in Mexico often see spikes in violence, including targeted assassinations, as criminal groups protect their interests.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general analytical observation about violence during election periods and targeted assassinations without citing specific ACLED event data, counts, locations, or trends explicitly attributed to ACLED.",
+        "source_context": "Reference to narco-influence during 2024 elections and typical election-year violence."
+      },
+      {
+        "evidence": "Potential leadership changes or splintering within major cartels like Sinaloa or CJNG could escalate violence via turf wars and power realignments.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general analytical assertion about potential cartel leadership changes and resulting violence; it does not reference ACLED event counts, actor-level records, locations, fatalities, or any ACLED-derived metrics.",
+        "source_context": "Risks identified in Outlook for 2025 regarding cartel disruptions."
+      },
+      {
+        "evidence": "The government may avoid heavy-handed crackdowns in the near term to prevent provoking further bloodshed.",
+        "is_acled_data": false,
+        "reasoning": "This is a forward-looking policy analysis about government behavior, not a reference to event counts, actor data, fatalities, or any ACLED-derived metrics. It’s general commentary rather than evidence grounded in ACLED event data.",
+        "source_context": "Caution about immediate crackdowns in Outlook for 2025."
+      },
+      {
+        "evidence": "Even if intelligence-driven strategies begin to work, results are expected to take time to manifest on the ground.",
+        "is_acled_data": false,
+        "reasoning": "This is a general analytical statement about policy effectiveness timelines, not referencing specific conflict events, counts, actors, or ACLED-derived trends. It is commentary rather than data tied to ACLED.",
+        "source_context": "Outlook for 2025 noting delayed impact of new strategies."
+      },
+      {
+        "evidence": "Mexico will likely continue to face serious security challenges in 2025 driven by drug trafficking, extortion, and gang conflicts.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general forward-looking assessment about security challenges and drivers (drug trafficking, extortion, gang conflicts) without citing specific event counts, locations, actors, fatalities, or trends tied to ACLED. It is broad commentary rather than data explicitly derived from ACLED event datasets.",
+        "source_context": "Overall consensus statement in Outlook for 2025."
+      },
+      {
+        "evidence": "Public expectation entering 2025 is for continued high levels of cartel and gang violence despite policy shifts.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general expectation/commentary about future violence levels and policy shifts, not tied to specific ACLED event counts, fatalities, locations, or actor-level data.",
+        "source_context": "Near-term expectations described at the end of Outlook for 2025."
+      },
+      {
+        "evidence": "The hope is that smarter enforcement and social investments will gradually reduce bloodshed, but the near-term outlook remains guarded.",
+        "is_acled_data": false,
+        "reasoning": "This is a general analytical statement about future outlook and policy hopes, not tied to specific ACLED event counts, fatalities, actors, or trend data.",
+        "source_context": "Closing assessment of prospects for improvement."
+      }
+    ],
+    "insights": [
+      {
+        "insight": "Homicide levels in Mexico have plateaued at historically high rates in recent years, with brutal incidents continuing into late 2024.",
+        "context": "Ongoing Violence in Late 2024 section describing persistent high homicide rates."
+      },
+      {
+        "insight": "Late 2024 saw open gun battles in Culiacán and the assassination of the mayor of Chilpancingo, highlighting entrenched organized crime.",
+        "context": "Examples cited of late-2024 violent incidents in Culiacán and Chilpancingo."
+      },
+      {
+        "insight": "Authorities have struggled to contain turf wars as powerful cartels and offshoot gangs compete for control across regions.",
+        "context": "Overview of ongoing turf wars and criminal activities across Mexico."
+      },
+      {
+        "insight": "AMLO’s “hugs, not bullets” strategy avoided direct confrontation with cartels and may have prevented escalation, but killings remained high.",
+        "context": "Changing Security Strategy discussing outcomes of AMLO’s policy."
+      },
+      {
+        "insight": "President Claudia Sheinbaum signals a shift toward bolstering intelligence operations and targeting cartel finances rather than appeasement or brute force.",
+        "context": "Sheinbaum’s indicated tactics contrasted with predecessor’s approach."
+      },
+      {
+        "insight": "Sheinbaum’s administration plans to expand social programs to deter youth recruitment, though evidence suggests limited impact when cartel profits are high.",
+        "context": "Discussion of social programs’ effectiveness in reducing cartel recruitment."
+      },
+      {
+        "insight": "Sheinbaum must introduce new measures without overtly discrediting AMLO’s legacy, making drastic policy changes politically sensitive.",
+        "context": "Political balancing act outlined in Changing Security Strategy."
+      },
+      {
+        "insight": "Experts are cautious about rapid improvement in security in 2025, anticipating continued high levels of violence.",
+        "context": "Outlook for 2025 section summarizing expert sentiment."
+      },
+      {
+        "insight": "Election periods in Mexico often see spikes in violence, including targeted assassinations, as criminal groups protect their interests.",
+        "context": "Reference to narco-influence during 2024 elections and typical election-year violence."
+      },
+      {
+        "insight": "Potential leadership changes or splintering within major cartels like Sinaloa or CJNG could escalate violence via turf wars and power realignments.",
+        "context": "Risks identified in Outlook for 2025 regarding cartel disruptions."
+      },
+      {
+        "insight": "The government may avoid heavy-handed crackdowns in the near term to prevent provoking further bloodshed.",
+        "context": "Caution about immediate crackdowns in Outlook for 2025."
+      },
+      {
+        "insight": "Even if intelligence-driven strategies begin to work, results are expected to take time to manifest on the ground.",
+        "context": "Outlook for 2025 noting delayed impact of new strategies."
+      },
+      {
+        "insight": "Mexico will likely continue to face serious security challenges in 2025 driven by drug trafficking, extortion, and gang conflicts.",
+        "context": "Overall consensus statement in Outlook for 2025."
+      },
+      {
+        "insight": "Public expectation entering 2025 is for continued high levels of cartel and gang violence despite policy shifts.",
+        "context": "Near-term expectations described at the end of Outlook for 2025."
+      },
+      {
+        "insight": "The hope is that smarter enforcement and social investments will gradually reduce bloodshed, but the near-term outlook remains guarded.",
+        "context": "Closing assessment of prospects for improvement."
+      }
+    ],
+    "prompt": "Research gang violence in Mexico and its outlook in 2025, as if we are at the end of 2024 heading into 2025."
+  },
+  "openai_dr_csv": {
+    "total_insights": 25,
+    "total_classified": 25,
+    "acled_count": 1,
+    "non_acled_count": 24,
+    "pct_acled": 0.04,
+    "details": [
+      {
+        "evidence": "Mexico’s homicide levels remain near historic highs despite three consecutive annual declines, with over 31,000 murders in 2023 and a national rate around 24 per 100,000—over four times the U.S. rate.",
+        "is_acled_data": false,
+        "reasoning": "The evidence cites national homicide totals and rates (31,000 murders in 2023; ~24 per 100,000), which are general crime/homicide statistics typically from Mexican government sources or UNODC, not ACLED’s event-based conflict dataset. It is not tied to specific ACLED event counts or actor-level conflict data and lacks ACLED attribution.",
+        "source_context": "Persistently High Levels of Violence section; cites Mexico News Daily and AP data for 2023 figures and comparisons."
+      },
+      {
+        "evidence": "Under President López Obrador’s 2018–2024 term, approximately 194,000 killings occurred, making it the most violent six-year period on record.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a total national homicide count over a presidential term, typically from government crime statistics or media summaries, not ACLED’s event-based conflict dataset. It is not explicitly tied to ACLED event/fatality data or actor-level conflict events.",
+        "source_context": "Persistently High Levels of Violence section; Mexico News Daily data summarizing the administration’s total toll."
+      },
+      {
+        "evidence": "As of mid-2024, homicide levels remained elevated compared to pre-2018, about 9% higher than the same period in 2017 despite being 10% below the 2018 peak.",
+        "is_acled_data": false,
+        "reasoning": "The evidence cites national homicide levels and comparisons to 2017/2018 peaks, which are typically derived from government crime statistics (e.g., Mexico’s SESNSP) rather than ACLED’s event-based conflict data. It does not reference ACLED event counts, fatalities from specific conflict events, or ACLED attribution.",
+        "source_context": "Persistently High Levels of Violence section; AP data comparing January–August 2024 to 2017 and 2018."
+      },
+      {
+        "evidence": "Mexico’s criminal landscape is fragmented into horizontally integrated networks of semi-autonomous cells, limiting the impact of targeting individual leaders.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general analytical characterization of Mexico’s criminal network structure and leadership targeting efficacy, not a reference to specific ACLED event data, counts, actors, or trends. It reads as qualitative analysis rather than ACLED-derived metrics or event-based findings.",
+        "source_context": "Drivers of Violence section; Insight Crime analysis on decentralization and its implications."
+      },
+      {
+        "evidence": "Cartels have diversified beyond drugs into extortion, fuel theft, kidnapping, and migrant smuggling, which both finances and fuels further violence.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general analytical claim about cartel criminal portfolios and financing mechanisms, not a reference to specific ACLED event counts, actor activity records, fatalities, or location-based conflict data. It lacks attribution to ACLED and does not cite event-level evidence or trends derived from ACLED datasets.",
+        "source_context": "Drivers of Violence section; Insight Crime overview of diversified criminal portfolios."
+      },
+      {
+        "evidence": "Extortion is pervasive: 12% of major companies report organized crime influence in supply chains, nearly half faced attacks on transport, and 45% received protection payment demands.",
+        "is_acled_data": false,
+        "reasoning": "The evidence cites corporate impact metrics (percent of companies reporting supply-chain influence, transport attacks, and protection payment demands). These are business/enterprise survey-style statistics, not event-level conflict data, fatalities, or ACLED-derived trends. No attribution to ACLED is provided, and the content falls under economic/organizational impact indicators rather than ACLED event data.",
+        "source_context": "Drivers of Violence section; Spectrum Local News survey of corporations in Mexico."
+      },
+      {
+        "evidence": "Guanajuato leads in absolute homicides, with about 3,746 murders in 2023 driven by CJNG–Santa Rosa de Lima Cartel conflict over fuel theft and drug routes.",
+        "is_acled_data": false,
+        "reasoning": "The statement cites absolute homicide totals (3,746 in 2023 for Guanajuato) and attributes causes to cartel conflict. ACLED tracks conflict events and fatalities from such events, not overall criminal homicide totals from government crime statistics. The figure aligns with Mexican government homicide data, not ACLED event-derived fatalities, and there is no explicit ACLED attribution.",
+        "source_context": "Regional Hotspots section; Mexico News Daily data and context on Guanajuato."
+      },
+      {
+        "evidence": "Other high-burden states—México state, Baja California, Chihuahua, Michoacán, Guerrero, and Jalisco—each recorded well over a thousand killings in 2023.",
+        "is_acled_data": false,
+        "reasoning": "The statement reports total killings by state in 2023, which aligns more with general homicide statistics from government crime data rather than ACLED’s event-based conflict fatalities. It is not explicitly tied to ACLED event data or conflict categories and lacks attribution to ACLED.",
+        "source_context": "Regional Hotspots section; Mexico News Daily state-level homicide summaries."
+      },
+      {
+        "evidence": "Colima has an extreme per-capita murder rate—117 per 100,000 in 2023—linked to battles over its strategic port and trafficking corridors.",
+        "is_acled_data": false,
+        "reasoning": "The evidence cites a per-capita murder rate (117 per 100,000 in 2023) for Colima, which is a homicide statistic typically from governmental crime data or public health sources, not ACLED’s event-based conflict dataset. It is not tied to ACLED event counts or actor/event data and lacks explicit ACLED attribution.",
+        "source_context": "Regional Hotspots section; Mexico News Daily per-capita statistics and context."
+      },
+      {
+        "evidence": "Cartel violence and intimidation affect previously calmer or tourist areas, exemplified by the 2024 beheading of Chilpancingo’s mayor to terrorize authorities.",
+        "is_acled_data": false,
+        "reasoning": "The claim describes a specific sensational incident (beheading of Chilpancingo’s mayor in 2024) and general effects on tourist areas without citing ACLED event data, counts, locations, or actor-level statistics. It appears as narrative/media report-style content rather than analysis explicitly grounded in ACLED datasets.",
+        "source_context": "Regional Hotspots section; AP report on the Chilpancingo (Guerrero) mayor’s murder in late 2024."
+      },
+      {
+        "evidence": "Political violence is integral to cartel strategy: over 1,000 violent incidents against local officials occurred between 2018 and 2022, with spikes during the 2024 election cycle.",
+        "is_acled_data": true,
+        "reasoning": "The claim cites counts of violent incidents against local officials over specific years and notes spikes during an election cycle—these are event-based, temporal conflict statistics typical of ACLED’s violence against civilians and actor-level/event count data. This aligns with ACLED’s tracking of political violence incidents and temporal trends.",
+        "source_context": "Political Violence subsection; Insight Crime data and election-period escalations."
+      },
+      {
+        "evidence": "Violence often surges where incumbents are vulnerable, as shifting power disrupts political-criminal agreements and prompts gangs to attack or back favored candidates.",
+        "is_acled_data": false,
+        "reasoning": "This is a general analytical statement about political dynamics and gang behavior, not citing specific ACLED event data, counts, locations, or trends. It reads as commentary rather than data derived from ACLED.",
+        "source_context": "Political Violence subsection; Insight Crime analysis of dynamics during political transitions."
+      },
+      {
+        "evidence": "López Obrador publicly rejected a direct war with cartels yet relied heavily on the military via the National Guard, resulting in persistent high homicide rates and limited on-the-ground results.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a political/policy analysis about AMLO’s stance and use of the National Guard with general claims about homicide rates and limited results. It does not cite specific ACLED event data, actor-level entries, fatalities, or trend metrics attributable to ACLED.",
+        "source_context": "Government Response section; AP reporting on strategy and outcomes under AMLO."
+      },
+      {
+        "evidence": "Mexico’s Congress placed the National Guard under formal army control, deepening the militarization of public security despite limited investigative capacity and ongoing impunity.",
+        "is_acled_data": false,
+        "reasoning": "The statement concerns a government policy decision (placing the National Guard under army control) and broader analysis on militarization and impunity, which are policy/governance developments rather than specific conflict events or ACLED-derived metrics. It is not tied to ACLED event data, counts, fatalities, or actor-level event records.",
+        "source_context": "Government Response section; AP coverage of institutional changes and critiques."
+      },
+      {
+        "evidence": "Military and National Guard deployments often focus on patrols and checkpoints without robust investigative follow-through, leading to few arrests and persistent community complaints.",
+        "is_acled_data": false,
+        "reasoning": "This is a general analytical statement about security force deployments and their effectiveness, not a reference to specific conflict events, counts, fatalities, locations, or actor-level data from ACLED. It lacks explicit ACLED attribution or event-based metrics.",
+        "source_context": "Government Response section; AP observations on operational shortcomings and local perceptions."
+      },
+      {
+        "evidence": "President Claudia Sheinbaum’s early security plan signals continuity with AMLO: emphasis on intelligence improvements and social programs while avoiding large-scale confrontations.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a policy analysis about the new president’s security plan and its continuity with AMLO, focusing on intelligence, social programs, and avoiding large-scale confrontations. It reflects government policy positions, not conflict event data, counts, fatalities, or actor-level event information attributable to ACLED.",
+        "source_context": "Policy Continuity section; AP reporting on Sheinbaum’s announced approach."
+      },
+      {
+        "evidence": "Sheinbaum retains the military-led National Guard at the core of security, while proposing better integration of intelligence and a national security academy for policing-oriented training.",
+        "is_acled_data": false,
+        "reasoning": "This is a policy description about maintaining the National Guard and proposed training/integration measures. It is a government policy statement/analysis, not conflict event data, statistics, or actor/event trends attributed to ACLED.",
+        "source_context": "Policy Continuity section; AP details on Omar García Harfuch’s plans and institutional proposals."
+      },
+      {
+        "evidence": "Experts, including former DEA official Mike Vigil, view Sheinbaum’s plan as more of the same, suggesting limited prospects for dramatic near-term security improvements.",
+        "is_acled_data": false,
+        "reasoning": "This is expert commentary on policy prospects (a quote/assessment by a former DEA official) and not tied to specific conflict event data, fatalities, actors, or trends from ACLED.",
+        "source_context": "Policy Continuity section; AP quotes and expert skepticism about substantive change."
+      },
+      {
+        "evidence": "The Sinaloa Cartel and CJNG remain dominant and resilient; leadership disruptions in 2023–2024 did not threaten collapse and may trigger violent internal or inter-group conflicts.",
+        "is_acled_data": false,
+        "reasoning": "This is a qualitative assessment about cartel dominance and effects of leadership disruptions without citing specific event counts, locations, fatalities, or ACLED-derived actor/event trends. It reads as general analysis rather than explicit ACLED event data or metrics.",
+        "source_context": "Outlook for 2025 section; Insight Crime assessments and AP note on post-extradition infighting in Sinaloa."
+      },
+      {
+        "evidence": "Absent major strategic reforms—such as strengthening civilian investigative police and confronting corruption—violence is expected to remain elevated through 2025.",
+        "is_acled_data": false,
+        "reasoning": "This is a general analytical forecast about future violence contingent on reforms, not a statement derived from specific ACLED event data, statistics, or indices.",
+        "source_context": "Outlook for 2025 section; AP and Insight Crime caution on the need for structural changes."
+      },
+      {
+        "evidence": "Impunity is a core enabler of continued violence; with most crimes unpunished, deterrence is weak and cartel aggression remains incentivized.",
+        "is_acled_data": false,
+        "reasoning": "This is a general analytical statement about impunity and deterrence, not tied to specific ACLED event data, counts, locations, or actor-level statistics. It reflects commentary rather than ACLED-derived metrics.",
+        "source_context": "Outlook for 2025 section; AP commentary on justice system weaknesses."
+      },
+      {
+        "evidence": "Sustained narcotics demand and ongoing diversification into extortion and other rackets will continue funding and motivating violent competition in 2025.",
+        "is_acled_data": false,
+        "reasoning": "This is a forward-looking analytical statement about criminal financing and motivations; it does not cite conflict event counts, actor/activity data, or any other specific ACLED-derived metrics or trends.",
+        "source_context": "Outlook for 2025 section; Insight Crime on economic drivers of criminal violence."
+      },
+      {
+        "evidence": "Post-2024 political transitions are likely to fuel targeted violence into 2025 as criminal groups adjust to new power brokers or retaliate against hostile officials.",
+        "is_acled_data": false,
+        "reasoning": "This is a general forward-looking analytical statement about political transitions potentially fueling targeted violence; it is not tied to specific ACLED event data, statistics, or explicit attribution to ACLED.",
+        "source_context": "Outlook for 2025 section; Insight Crime analysis of electoral realignments and violence."
+      },
+      {
+        "evidence": "While homicides have slightly declined from the 2020 peak, the trend is shallow and uncertain; most indicators point to continued high gang-related violence in 2025.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general trend assessment about homicide levels and future outlook without referencing specific ACLED event counts, fatalities, actor data, or ACLED-attributed trends. It aligns more with broad criminological or journalistic analysis rather than ACLED-derived metrics.",
+        "source_context": "Outlook for 2025 section; Mexico News Daily trend data and overall assessment."
+      },
+      {
+        "evidence": "Overall, Mexico’s cartel violence is entrenched, intertwined with the economy and politics, and unlikely to see rapid improvement without long-term institutional reforms and strategic rethinking.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a broad analytical assessment about entrenched cartel violence and prospects for improvement; it does not reference specific conflict events, counts, locations, actors, or ACLED-attributed metrics. It is general commentary, not derived from ACLED event data.",
+        "source_context": "Summary section; synthesis of structural factors and policy continuity implications."
+      }
+    ],
+    "insights": [
+      {
+        "insight": "Mexico’s homicide levels remain near historic highs despite three consecutive annual declines, with over 31,000 murders in 2023 and a national rate around 24 per 100,000—over four times the U.S. rate.",
+        "context": "Persistently High Levels of Violence section; cites Mexico News Daily and AP data for 2023 figures and comparisons."
+      },
+      {
+        "insight": "Under President López Obrador’s 2018–2024 term, approximately 194,000 killings occurred, making it the most violent six-year period on record.",
+        "context": "Persistently High Levels of Violence section; Mexico News Daily data summarizing the administration’s total toll."
+      },
+      {
+        "insight": "As of mid-2024, homicide levels remained elevated compared to pre-2018, about 9% higher than the same period in 2017 despite being 10% below the 2018 peak.",
+        "context": "Persistently High Levels of Violence section; AP data comparing January–August 2024 to 2017 and 2018."
+      },
+      {
+        "insight": "Mexico’s criminal landscape is fragmented into horizontally integrated networks of semi-autonomous cells, limiting the impact of targeting individual leaders.",
+        "context": "Drivers of Violence section; Insight Crime analysis on decentralization and its implications."
+      },
+      {
+        "insight": "Cartels have diversified beyond drugs into extortion, fuel theft, kidnapping, and migrant smuggling, which both finances and fuels further violence.",
+        "context": "Drivers of Violence section; Insight Crime overview of diversified criminal portfolios."
+      },
+      {
+        "insight": "Extortion is pervasive: 12% of major companies report organized crime influence in supply chains, nearly half faced attacks on transport, and 45% received protection payment demands.",
+        "context": "Drivers of Violence section; Spectrum Local News survey of corporations in Mexico."
+      },
+      {
+        "insight": "Guanajuato leads in absolute homicides, with about 3,746 murders in 2023 driven by CJNG–Santa Rosa de Lima Cartel conflict over fuel theft and drug routes.",
+        "context": "Regional Hotspots section; Mexico News Daily data and context on Guanajuato."
+      },
+      {
+        "insight": "Other high-burden states—México state, Baja California, Chihuahua, Michoacán, Guerrero, and Jalisco—each recorded well over a thousand killings in 2023.",
+        "context": "Regional Hotspots section; Mexico News Daily state-level homicide summaries."
+      },
+      {
+        "insight": "Colima has an extreme per-capita murder rate—117 per 100,000 in 2023—linked to battles over its strategic port and trafficking corridors.",
+        "context": "Regional Hotspots section; Mexico News Daily per-capita statistics and context."
+      },
+      {
+        "insight": "Cartel violence and intimidation affect previously calmer or tourist areas, exemplified by the 2024 beheading of Chilpancingo’s mayor to terrorize authorities.",
+        "context": "Regional Hotspots section; AP report on the Chilpancingo (Guerrero) mayor’s murder in late 2024."
+      },
+      {
+        "insight": "Political violence is integral to cartel strategy: over 1,000 violent incidents against local officials occurred between 2018 and 2022, with spikes during the 2024 election cycle.",
+        "context": "Political Violence subsection; Insight Crime data and election-period escalations."
+      },
+      {
+        "insight": "Violence often surges where incumbents are vulnerable, as shifting power disrupts political-criminal agreements and prompts gangs to attack or back favored candidates.",
+        "context": "Political Violence subsection; Insight Crime analysis of dynamics during political transitions."
+      },
+      {
+        "insight": "López Obrador publicly rejected a direct war with cartels yet relied heavily on the military via the National Guard, resulting in persistent high homicide rates and limited on-the-ground results.",
+        "context": "Government Response section; AP reporting on strategy and outcomes under AMLO."
+      },
+      {
+        "insight": "Mexico’s Congress placed the National Guard under formal army control, deepening the militarization of public security despite limited investigative capacity and ongoing impunity.",
+        "context": "Government Response section; AP coverage of institutional changes and critiques."
+      },
+      {
+        "insight": "Military and National Guard deployments often focus on patrols and checkpoints without robust investigative follow-through, leading to few arrests and persistent community complaints.",
+        "context": "Government Response section; AP observations on operational shortcomings and local perceptions."
+      },
+      {
+        "insight": "President Claudia Sheinbaum’s early security plan signals continuity with AMLO: emphasis on intelligence improvements and social programs while avoiding large-scale confrontations.",
+        "context": "Policy Continuity section; AP reporting on Sheinbaum’s announced approach."
+      },
+      {
+        "insight": "Sheinbaum retains the military-led National Guard at the core of security, while proposing better integration of intelligence and a national security academy for policing-oriented training.",
+        "context": "Policy Continuity section; AP details on Omar García Harfuch’s plans and institutional proposals."
+      },
+      {
+        "insight": "Experts, including former DEA official Mike Vigil, view Sheinbaum’s plan as more of the same, suggesting limited prospects for dramatic near-term security improvements.",
+        "context": "Policy Continuity section; AP quotes and expert skepticism about substantive change."
+      },
+      {
+        "insight": "The Sinaloa Cartel and CJNG remain dominant and resilient; leadership disruptions in 2023–2024 did not threaten collapse and may trigger violent internal or inter-group conflicts.",
+        "context": "Outlook for 2025 section; Insight Crime assessments and AP note on post-extradition infighting in Sinaloa."
+      },
+      {
+        "insight": "Absent major strategic reforms—such as strengthening civilian investigative police and confronting corruption—violence is expected to remain elevated through 2025.",
+        "context": "Outlook for 2025 section; AP and Insight Crime caution on the need for structural changes."
+      },
+      {
+        "insight": "Impunity is a core enabler of continued violence; with most crimes unpunished, deterrence is weak and cartel aggression remains incentivized.",
+        "context": "Outlook for 2025 section; AP commentary on justice system weaknesses."
+      },
+      {
+        "insight": "Sustained narcotics demand and ongoing diversification into extortion and other rackets will continue funding and motivating violent competition in 2025.",
+        "context": "Outlook for 2025 section; Insight Crime on economic drivers of criminal violence."
+      },
+      {
+        "insight": "Post-2024 political transitions are likely to fuel targeted violence into 2025 as criminal groups adjust to new power brokers or retaliate against hostile officials.",
+        "context": "Outlook for 2025 section; Insight Crime analysis of electoral realignments and violence."
+      },
+      {
+        "insight": "While homicides have slightly declined from the 2020 peak, the trend is shallow and uncertain; most indicators point to continued high gang-related violence in 2025.",
+        "context": "Outlook for 2025 section; Mexico News Daily trend data and overall assessment."
+      },
+      {
+        "insight": "Overall, Mexico’s cartel violence is entrenched, intertwined with the economy and politics, and unlikely to see rapid improvement without long-term institutional reforms and strategic rethinking.",
+        "context": "Summary section; synthesis of structural factors and policy continuity implications."
+      }
+    ],
+    "prompt": "Research gang violence in Mexico and its outlook in 2025, as if we are at the end of 2024 heading into 2025."
+  },
+  "costorm": {
+    "total_insights": 33,
+    "total_classified": 33,
+    "acled_count": 22,
+    "non_acled_count": 11,
+    "pct_acled": 0.6666666666666666,
+    "details": [
+      {
+        "evidence": "Violence in Mexico during 2024 concentrated along strategic corridors rather than indicating a uniform national crisis or a single cartel’s takeover.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general analytical claim about spatial concentration of violence and cartel dynamics without citing specific event counts, locations, actor data, or ACLED-attributed metrics. It reads as narrative analysis rather than a reference to ACLED event or geographic data.",
+        "source_context": "Opening analysis contrasting disruption waves with ACLED’s corridor-based distribution."
+      },
+      {
+        "evidence": "ACLED recorded a roughly 40% rise in cartel/gang-related events from Q1 to Q4 2024, with notable spikes in July and October.",
+        "is_acled_data": true,
+        "reasoning": "The statement cites a quantified change in cartel/gang-related event counts over specific 2024 quarters and mentions monthly spikes, which aligns with ACLED’s event-based temporal trend data and actor-level categorization. It is explicitly attributed to ACLED recordings, fitting ACLED data characteristics.",
+        "source_context": "Quarterly counts cited: 829 (Q1), 959 (Q2), 1,095 (Q3), 1,156 (Q4)."
+      },
+      {
+        "evidence": "Three main corridors emerged as hotspots: Southern border (Chiapas–Tabasco), Pacific logistics (Sinaloa and neighboring states), and industrial–urban hubs (Nuevo León, Guanajuato, Mexico City).",
+        "is_acled_data": false,
+        "reasoning": "The statement identifies broad geographic corridors as violence hotspots without citing specific conflict event counts, actor-level data, or ACLED-attributed metrics. It reads as general analytical commentary rather than a direct use of ACLED event data or trends.",
+        "source_context": "Corridor lens breakdown lists three belts."
+      },
+      {
+        "evidence": "The Chiapas–Tabasco corridor had the highest 2024 concentration with 477 cartel-linked events, combining civilian attacks, clashes, and strategic disruptions tied to migration, fuel, and retail flows.",
+        "is_acled_data": true,
+        "reasoning": "The evidence cites a precise subnational corridor (Chiapas–Tabasco), specifies 2024 event counts (477) and categorizes them as cartel-linked events including civilian attacks, clashes, and disruptions—exactly the type of geocoded conflict event and actor-level typology ACLED tracks and reports. This aligns with ACLED’s event count and breakdown data by location and event type.",
+        "source_context": "Southern border corridor statistics and characterization."
+      },
+      {
+        "evidence": "Sinaloa registered 445 events in 2024 and led in armed clashes and looting/property destruction, indicating active contest and coercive control on the Pacific logistics corridor.",
+        "is_acled_data": true,
+        "reasoning": "Mentions a specific 2024 event count for Sinaloa and identifies leading event types (armed clashes, looting/property destruction) and implications for control—these are core ACLED metrics (event counts by location and event type).",
+        "source_context": "Pacific logistics corridor metrics and event-type profile."
+      },
+      {
+        "evidence": "Industrial hubs logged 308 incidents with 80–85% characterized as violence against civilians, featuring fewer battles or strategic developments.",
+        "is_acled_data": true,
+        "reasoning": "The evidence cites a specific incident count (308) and a proportion classified as violence against civilians, with mention of fewer battles—these are event-type breakdowns characteristic of ACLED conflict event data and typologies.",
+        "source_context": "Industrial–urban hubs profile across Nuevo León, Guanajuato, Mexico City."
+      },
+      {
+        "evidence": "From 2023 to 2024, violent events rose most in Sinaloa (+177), Tabasco (+154), and Chiapas (+123), while Zacatecas and Tamaulipas declined, showing redistribution rather than universal escalation.",
+        "is_acled_data": true,
+        "reasoning": "The evidence cites subnational changes in counts of violent events over time, which aligns with ACLED’s event count and geographic breakdown data and trend analysis by state. This type of quantitative, state-level event count comparison (2023 to 2024) is characteristic of ACLED-derived data.",
+        "source_context": "State-level shifts highlighting increases and declines."
+      },
+      {
+        "evidence": "National indicators showed slight improvement in homicides and socioeconomic metrics in 2024, yet corridor-specific violence intensified along key economic arteries.",
+        "is_acled_data": false,
+        "reasoning": "The evidence references national homicide and socioeconomic indicators and general commentary on corridor-specific violence, without citing specific ACLED event data, actor-level details, or subnational conflict event counts. Homicide and socioeconomic metrics are not ACLED data, and the statement lacks explicit ACLED attribution or event-based specifics.",
+        "source_context": "Reconciling national stabilization with corridor volatility."
+      },
+      {
+        "evidence": "Cartel–state confrontations increased by about 45.5% in 2024, with cartel–cartel and other interactions also rising, while the share of explicit cartel–civilian dyads fell even as absolute civilian targeting grew.",
+        "is_acled_data": true,
+        "reasoning": "The evidence reports quantified changes in specific conflict dyads (cartel–state, cartel–cartel, cartel–civilian) and trends in civilian targeting, which align with ACLED’s actor-level event data and violence against civilians statistics. The percentage change and dyadic breakdown suggest use of ACLED event counts and actor classifications rather than general commentary.",
+        "source_context": "Dyad data showing confrontation trends and relative shares."
+      },
+      {
+        "evidence": "Over half of cartel–state clashes were concentrated in Michoacán, Chiapas, Guerrero, and Zacatecas, with Michoacán leading both clashes (49) and confrontations (78).",
+        "is_acled_data": true,
+        "reasoning": "The statement provides specific counts of cartel–state clashes and confrontations and identifies subnational concentration across Mexican states, which aligns with ACLED’s event-based, actor-level, and geographic breakdown data. Such quantified battle/confrontation counts by state are characteristic of ACLED-derived analysis.",
+        "source_context": "State distributions for confrontations and battles."
+      },
+      {
+        "evidence": "CJNG remained the most frequently attributed cartel in 2024 with 178 events and about 53% share, largely flat year-on-year; Sinaloa grew from 92 to 112 events and Santa Rosa de Lima from 16 to 27.",
+        "is_acled_data": true,
+        "reasoning": "The evidence cites specific event counts and shares for armed groups (CJNG, Sinaloa, Santa Rosa de Lima) over time, which aligns with ACLED’s actor-level conflict event data and temporal trend analysis. These figures are characteristic of ACLED’s dataset rather than general commentary or non-conflict sources.",
+        "source_context": "Attribution changes and shares for CJNG, Sinaloa, and Santa Rosa de Lima."
+      },
+      {
+        "evidence": "CJNG’s activity is concentrated in Michoacán (65 events; 43 CJNG-attributed armed clashes), Chiapas (36), and Jalisco (24), reflecting intense but localized confrontations rather than a national offensive.",
+        "is_acled_data": true,
+        "reasoning": "The evidence provides specific conflict event counts by location and actor (CJNG) and references armed clashes, which aligns with ACLED’s event-level, actor-specific, and subnational geographic data. This is characteristic of ACLED-derived metrics rather than general commentary.",
+        "source_context": "CJNG geography and event profile."
+      },
+      {
+        "evidence": "Sinaloa expanded beyond its home base, with more events in Chiapas (38) and Zacatecas (28) than in Sinaloa state (20), signaling corridor-oriented growth along southern and central Pacific routes.",
+        "is_acled_data": true,
+        "reasoning": "The evidence cites specific subnational event counts for an armed group across multiple Mexican states and interprets corridor-oriented growth based on those counts. Such disaggregated conflict event tallies and actor activity by location are characteristic of ACLED’s event-level data and analysis.",
+        "source_context": "Sinaloa’s outward push and corridor positioning."
+      },
+      {
+        "evidence": "The Pacific corridor accounted for 182 cartel–state clashes in 2024, far exceeding central or northeastern corridors, with more visible Sinaloa-linked confrontations in several segments.",
+        "is_acled_data": true,
+        "reasoning": "The evidence reports a specific count of conflict events (cartel–state clashes) in 2024, broken down by geographic corridor and referencing actor-level involvement (Sinaloa-linked confrontations). This aligns with ACLED’s event counts, actor data, and subnational geographic breakdowns, suggesting it is derived from ACLED-type data.",
+        "source_context": "Corridor-level confrontation comparison."
+      },
+      {
+        "evidence": "Industrial belts showed fewer open battles but persistent civilian-focused violence, indicating a different operational profile from corridor battle zones.",
+        "is_acled_data": true,
+        "reasoning": "The statement contrasts open battles with violence against civilians across specific geographies (“industrial belts” vs. “corridor battle zones”), which aligns with ACLED’s event typologies (battles vs. violence against civilians) and subnational spatial analysis. It reflects conflict trend and actor-profile insights typically derived from ACLED event data patterns rather than general commentary.",
+        "source_context": "Contrast of industrial hubs vs. conflict corridors."
+      },
+      {
+        "evidence": "Culiacán became the top municipal hotspot in 2024, with cartel/gang incidents nearly triple (101 to 235) and total cartel-related events rising from 128 to 289—the largest municipal increase nationwide.",
+        "is_acled_data": true,
+        "reasoning": "The evidence provides specific municipal-level counts of cartel/gang incidents and total cartel-related events over time (2024 vs prior), identifying the largest increase nationwide. This aligns with ACLED’s event-based, subnational geographic data and temporal trend analysis of armed group activity. The quantitative event counts and hotspot designation are characteristic of ACLED-derived conflict event data.",
+        "source_context": "Culiacán municipal surge and ranking."
+      },
+      {
+        "evidence": "Strategic disruptions defined Culiacán’s violence: 116 strategic developments, including 88 looting/property destruction events and the highest disrupted-weapons-use count among top hotspots, generally low-casualty but highly disruptive.",
+        "is_acled_data": true,
+        "reasoning": "The evidence cites specific conflict event categories and counts (strategic disruptions, looting/property destruction events, disrupted-weapons-use) within a specific location (Culiacán), reflecting granular event data and hotspot analysis typical of ACLED outputs. This aligns with ACLED-style event classifications and subnational trend metrics rather than general commentary.",
+        "source_context": "Culiacán’s event-type breakdown and disruption tactics."
+      },
+      {
+        "evidence": "In Sinaloa, violence against civilians comprised over half of cartel-linked events, with prominent looting/property destruction and battles, reflecting coercive control along the Pacific logistics corridor.",
+        "is_acled_data": true,
+        "reasoning": "The evidence cites subnational, actor-linked event composition (violence against civilians comprising over half of cartel-linked events) and specific event types (looting/property destruction and battles) in Sinaloa, which aligns with ACLED’s event taxonomy and actor-level statistics derived from conflict event data.",
+        "source_context": "State-level event-type mix for Sinaloa."
+      },
+      {
+        "evidence": "The Chiapas–Tabasco belt became the busiest route, with municipalities like Chicomuselo (3 to 19) and Frontera Comalapa (10 to 23) showing sharp rises, combining civilian attacks, clashes, and strategic developments.",
+        "is_acled_data": true,
+        "reasoning": "Mentions specific municipalities with numeric event count increases (e.g., Chicomuselo 3 to 19; Frontera Comalapa 10 to 23) and refers to categories like civilian attacks, clashes, and strategic developments along a specific route. This aligns with ACLED’s subnational event counts, event types, and geographic trend analysis.",
+        "source_context": "Southern corridor municipal increases and mixed tactics."
+      },
+      {
+        "evidence": "Tabasco’s capital, Centro, surged from 5 to 67 cartel-linked events, ranking among top national hotspots for strategic disruptions (30 total; 25 looting/property destruction), often low-fatality but commercially disruptive.",
+        "is_acled_data": true,
+        "reasoning": "The evidence cites specific event counts by location, categorizes event types (cartel-linked events; looting/property destruction; strategic disruptions), references low-fatality characteristics, and implies subnational hotspot ranking—all features consistent with ACLED’s event-based, actor-level, and geographic conflict data and trend analysis.",
+        "source_context": "Centro (Tabasco) hotspot characterization."
+      },
+      {
+        "evidence": "Industrial hubs such as Monterrey (40 to 76) and León (145 to 174) faced primarily civilian-targeted incidents—extortion, targeted shootings, intimidation—eroding security without frequent open battles.",
+        "is_acled_data": true,
+        "reasoning": "Mentions city-specific incident counts changing over time (e.g., Monterrey 40→76, León 145→174) and describes types of events targeting civilians (extortion, targeted shootings, intimidation). These are consistent with ACLED’s event counts, violence against civilians categories, and subnational location data, indicating derivation from ACLED-style conflict event data rather than general commentary.",
+        "source_context": "Industrial–urban municipal trends and incident types."
+      },
+      {
+        "evidence": "Former epicenters like Tijuana, Zacatecas, and parts of Tamaulipas–Nuevo León border saw flat or declining confrontation counts, indicating a rotation of hotspots toward new logistics chokepoints.",
+        "is_acled_data": true,
+        "reasoning": "The evidence references subnational locations and trends in confrontation counts, implying event-based conflict data and temporal hotspot rotation—elements consistent with ACLED’s event counts and geographic trend analysis.",
+        "source_context": "Noted declines and redistribution of confrontations."
+      },
+      {
+        "evidence": "Post-2024 election reforms aimed to overhaul law enforcement, strengthen the judiciary, improve federal–local coordination, and bolster financial investigations and asset seizures.",
+        "is_acled_data": false,
+        "reasoning": "This is a policy reform statement about post-2024 election measures (law enforcement, judiciary, coordination, financial investigations). It is general political/policy analysis and not tied to ACLED event data, counts, fatalities, or actor-level conflict trends.",
+        "source_context": "Reform package intentions after 2024 elections."
+      },
+      {
+        "evidence": "Entrenched corruption within political and economic institutions undermines reforms, sustaining violence and humanitarian harms, especially for vulnerable groups.",
+        "is_acled_data": false,
+        "reasoning": "This is a general analytical statement about corruption and its effects; it does not reference specific conflict events, actors, locations, counts, or ACLED-attributed data.",
+        "source_context": "Corruption’s role in blunting policy effectiveness."
+      },
+      {
+        "evidence": "Security responses in late 2024 became reactive and corridor-focused; arrests rose about 15% from Q1 to Q4 and disrupted-weapons-use events nearly doubled, peaking in November, yet confrontations remained elevated as forces redeployed.",
+        "is_acled_data": true,
+        "reasoning": "The evidence cites temporal patterns in conflict-related events (arrests increasing, disrupted-weapons-use events nearly doubling, peak in November, elevated confrontations, redeployments); these are event-level, actor/activity, and trend metrics characteristic of ACLED outputs on conflict events and security force activity. The framing suggests counts and temporal trends drawn from event data rather than general commentary, aligning with ACLED-type data.",
+        "source_context": "Enforcement trends vs. persistent high confrontation levels."
+      },
+      {
+        "evidence": "Civilian fatalities in cartel/gang incidents increased by 416 from 2023 to 2024, with approximately 99% of the rise stemming from direct violence against civilians rather than battles or explosions.",
+        "is_acled_data": true,
+        "reasoning": "The statement cites changes in civilian fatalities tied to cartel/gang incidents from 2023 to 2024 and distinguishes the share attributable to violence against civilians versus battles or explosions. This aligns with ACLED’s event-based fatality counts, actor categories (cartels/gangs), and breakdown by event types (violence against civilians, battles, explosions/remote violence). The quantitative year-over-year change and event-type attribution are characteristic of ACLED-derived analysis.",
+        "source_context": "Lethality trends by event type and victim category."
+      },
+      {
+        "evidence": "Most high-activity states showed low fatalities per event (~1 per incident), but states like Guerrero and San Luis Potosí exhibited higher lethality.",
+        "is_acled_data": true,
+        "reasoning": "The evidence references fatalities per event and compares lethality across specific states, which aligns with ACLED’s event-level data including fatality counts and subnational geographic breakdowns. This type of metric (fatalities per incident by state) is commonly derived from ACLED conflict event data.",
+        "source_context": "State-level lethality differentials."
+      },
+      {
+        "evidence": "Enforced disappearances, totaling an estimated 60,000 since 2006, are expanding into newly contested corridors, used by cartels and some state actors to control communities and avoid accountability.",
+        "is_acled_data": false,
+        "reasoning": "The evidence cites a cumulative estimate of enforced disappearances since 2006 (60,000) and discusses their expansion into contested corridors with involvement of cartels and state actors. This is a broad humanitarian/statistical figure and analytical commentary, not specific ACLED event counts, fatalities, or actor-coded incidents attributed to ACLED. Without explicit attribution to ACLED or linkage to ACLED event data, it is not ACLED-derived.",
+        "source_context": "Disappearance trends and geographic spread."
+      },
+      {
+        "evidence": "Despite national poverty reduction and narrowing inequality in 2024, marginalized corridor regions lack licit opportunities, sustaining cartel recruitment and protection economies.",
+        "is_acled_data": false,
+        "reasoning": "The statement discusses poverty reduction, inequality, and lack of licit opportunities driving cartel recruitment—these are socioeconomic conditions and analytical commentary, not specific conflict event data, actor-level activity, or ACLED-derived metrics. No ACLED event counts, locations, fatalities, or explicitly attributed ACLED data are referenced.",
+        "source_context": "Socioeconomic improvements vs. corridor-level vulnerabilities."
+      },
+      {
+        "evidence": "High-profile prosecutions (e.g., arrest of a cartel chief linked to the disappearance of 43 students) show progress but have limited effect on daily security in most affected municipalities.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general analytical observation about prosecutions’ impact on security and references a high-profile case, but it does not cite or rely on specific ACLED event data, counts, actor data, or conflict trend metrics. It is commentary rather than ACLED-derived evidence.",
+        "source_context": "Justice milestones contrasted with local realities."
+      },
+      {
+        "evidence": "As of early 2025, CJNG remains dominant but geographically contained; Sinaloa expands along Pacific and southern-border routes; Santa Rosa de Lima tests strength in industrial–energy zones; state capacity is active yet constrained by corruption.",
+        "is_acled_data": false,
+        "reasoning": "The evidence offers broad analytical claims about cartel dominance, geographic expansion, testing strength in certain zones, and state capacity constraints. It does not reference specific ACLED event counts, locations, actor-level event data, fatalities, or trend analyses explicitly tied to ACLED datasets. This is general geopolitical analysis rather than cited ACLED conflict event data.",
+        "source_context": "Status of major cartels and state constraints entering 2025."
+      },
+      {
+        "evidence": "Three corridors will shape 2025: Pacific logistics centered on Culiacán with strategic disruptions; southern border with mixed clashes and civilian targeting; and industrial–urban belts with persistent civilian-focused violence threatening supply chains.",
+        "is_acled_data": false,
+        "reasoning": "The evidence describes broad strategic corridors and qualitative patterns (logistics disruptions, civilian targeting, supply chain risks) without citing specific ACLED event data, counts, locations, actors, or trends. It is general analytical commentary rather than explicit conflict event statistics or ACLED-derived metrics.",
+        "source_context": "Forward-looking corridor expectations for 2025."
+      },
+      {
+        "evidence": "Absent reforms that disrupt cartel–state collusion and expand viable economic/security alternatives in corridor regions, violence will likely rotate among strategic arteries rather than subside, with civilians bearing the brunt.",
+        "is_acled_data": false,
+        "reasoning": "This is a forward-looking analytical statement about cartel–state collusion and projected violence patterns. It does not reference specific ACLED event data, statistics, locations, or trends, and is general geopolitical analysis rather than derived from ACLED datasets.",
+        "source_context": "Conclusion on the rotating geography of risk and policy implications."
+      }
+    ],
+    "insights": [
+      {
+        "insight": "Violence in Mexico during 2024 concentrated along strategic corridors rather than indicating a uniform national crisis or a single cartel’s takeover.",
+        "context": "Opening analysis contrasting disruption waves with ACLED’s corridor-based distribution."
+      },
+      {
+        "insight": "ACLED recorded a roughly 40% rise in cartel/gang-related events from Q1 to Q4 2024, with notable spikes in July and October.",
+        "context": "Quarterly counts cited: 829 (Q1), 959 (Q2), 1,095 (Q3), 1,156 (Q4)."
+      },
+      {
+        "insight": "Three main corridors emerged as hotspots: Southern border (Chiapas–Tabasco), Pacific logistics (Sinaloa and neighboring states), and industrial–urban hubs (Nuevo León, Guanajuato, Mexico City).",
+        "context": "Corridor lens breakdown lists three belts."
+      },
+      {
+        "insight": "The Chiapas–Tabasco corridor had the highest 2024 concentration with 477 cartel-linked events, combining civilian attacks, clashes, and strategic disruptions tied to migration, fuel, and retail flows.",
+        "context": "Southern border corridor statistics and characterization."
+      },
+      {
+        "insight": "Sinaloa registered 445 events in 2024 and led in armed clashes and looting/property destruction, indicating active contest and coercive control on the Pacific logistics corridor.",
+        "context": "Pacific logistics corridor metrics and event-type profile."
+      },
+      {
+        "insight": "Industrial hubs logged 308 incidents with 80–85% characterized as violence against civilians, featuring fewer battles or strategic developments.",
+        "context": "Industrial–urban hubs profile across Nuevo León, Guanajuato, Mexico City."
+      },
+      {
+        "insight": "From 2023 to 2024, violent events rose most in Sinaloa (+177), Tabasco (+154), and Chiapas (+123), while Zacatecas and Tamaulipas declined, showing redistribution rather than universal escalation.",
+        "context": "State-level shifts highlighting increases and declines."
+      },
+      {
+        "insight": "National indicators showed slight improvement in homicides and socioeconomic metrics in 2024, yet corridor-specific violence intensified along key economic arteries.",
+        "context": "Reconciling national stabilization with corridor volatility."
+      },
+      {
+        "insight": "Cartel–state confrontations increased by about 45.5% in 2024, with cartel–cartel and other interactions also rising, while the share of explicit cartel–civilian dyads fell even as absolute civilian targeting grew.",
+        "context": "Dyad data showing confrontation trends and relative shares."
+      },
+      {
+        "insight": "Over half of cartel–state clashes were concentrated in Michoacán, Chiapas, Guerrero, and Zacatecas, with Michoacán leading both clashes (49) and confrontations (78).",
+        "context": "State distributions for confrontations and battles."
+      },
+      {
+        "insight": "CJNG remained the most frequently attributed cartel in 2024 with 178 events and about 53% share, largely flat year-on-year; Sinaloa grew from 92 to 112 events and Santa Rosa de Lima from 16 to 27.",
+        "context": "Attribution changes and shares for CJNG, Sinaloa, and Santa Rosa de Lima."
+      },
+      {
+        "insight": "CJNG’s activity is concentrated in Michoacán (65 events; 43 CJNG-attributed armed clashes), Chiapas (36), and Jalisco (24), reflecting intense but localized confrontations rather than a national offensive.",
+        "context": "CJNG geography and event profile."
+      },
+      {
+        "insight": "Sinaloa expanded beyond its home base, with more events in Chiapas (38) and Zacatecas (28) than in Sinaloa state (20), signaling corridor-oriented growth along southern and central Pacific routes.",
+        "context": "Sinaloa’s outward push and corridor positioning."
+      },
+      {
+        "insight": "The Pacific corridor accounted for 182 cartel–state clashes in 2024, far exceeding central or northeastern corridors, with more visible Sinaloa-linked confrontations in several segments.",
+        "context": "Corridor-level confrontation comparison."
+      },
+      {
+        "insight": "Industrial belts showed fewer open battles but persistent civilian-focused violence, indicating a different operational profile from corridor battle zones.",
+        "context": "Contrast of industrial hubs vs. conflict corridors."
+      },
+      {
+        "insight": "Culiacán became the top municipal hotspot in 2024, with cartel/gang incidents nearly triple (101 to 235) and total cartel-related events rising from 128 to 289—the largest municipal increase nationwide.",
+        "context": "Culiacán municipal surge and ranking."
+      },
+      {
+        "insight": "Strategic disruptions defined Culiacán’s violence: 116 strategic developments, including 88 looting/property destruction events and the highest disrupted-weapons-use count among top hotspots, generally low-casualty but highly disruptive.",
+        "context": "Culiacán’s event-type breakdown and disruption tactics."
+      },
+      {
+        "insight": "In Sinaloa, violence against civilians comprised over half of cartel-linked events, with prominent looting/property destruction and battles, reflecting coercive control along the Pacific logistics corridor.",
+        "context": "State-level event-type mix for Sinaloa."
+      },
+      {
+        "insight": "The Chiapas–Tabasco belt became the busiest route, with municipalities like Chicomuselo (3 to 19) and Frontera Comalapa (10 to 23) showing sharp rises, combining civilian attacks, clashes, and strategic developments.",
+        "context": "Southern corridor municipal increases and mixed tactics."
+      },
+      {
+        "insight": "Tabasco’s capital, Centro, surged from 5 to 67 cartel-linked events, ranking among top national hotspots for strategic disruptions (30 total; 25 looting/property destruction), often low-fatality but commercially disruptive.",
+        "context": "Centro (Tabasco) hotspot characterization."
+      },
+      {
+        "insight": "Industrial hubs such as Monterrey (40 to 76) and León (145 to 174) faced primarily civilian-targeted incidents—extortion, targeted shootings, intimidation—eroding security without frequent open battles.",
+        "context": "Industrial–urban municipal trends and incident types."
+      },
+      {
+        "insight": "Former epicenters like Tijuana, Zacatecas, and parts of Tamaulipas–Nuevo León border saw flat or declining confrontation counts, indicating a rotation of hotspots toward new logistics chokepoints.",
+        "context": "Noted declines and redistribution of confrontations."
+      },
+      {
+        "insight": "Post-2024 election reforms aimed to overhaul law enforcement, strengthen the judiciary, improve federal–local coordination, and bolster financial investigations and asset seizures.",
+        "context": "Reform package intentions after 2024 elections."
+      },
+      {
+        "insight": "Entrenched corruption within political and economic institutions undermines reforms, sustaining violence and humanitarian harms, especially for vulnerable groups.",
+        "context": "Corruption’s role in blunting policy effectiveness."
+      },
+      {
+        "insight": "Security responses in late 2024 became reactive and corridor-focused; arrests rose about 15% from Q1 to Q4 and disrupted-weapons-use events nearly doubled, peaking in November, yet confrontations remained elevated as forces redeployed.",
+        "context": "Enforcement trends vs. persistent high confrontation levels."
+      },
+      {
+        "insight": "Civilian fatalities in cartel/gang incidents increased by 416 from 2023 to 2024, with approximately 99% of the rise stemming from direct violence against civilians rather than battles or explosions.",
+        "context": "Lethality trends by event type and victim category."
+      },
+      {
+        "insight": "Most high-activity states showed low fatalities per event (~1 per incident), but states like Guerrero and San Luis Potosí exhibited higher lethality.",
+        "context": "State-level lethality differentials."
+      },
+      {
+        "insight": "Enforced disappearances, totaling an estimated 60,000 since 2006, are expanding into newly contested corridors, used by cartels and some state actors to control communities and avoid accountability.",
+        "context": "Disappearance trends and geographic spread."
+      },
+      {
+        "insight": "Despite national poverty reduction and narrowing inequality in 2024, marginalized corridor regions lack licit opportunities, sustaining cartel recruitment and protection economies.",
+        "context": "Socioeconomic improvements vs. corridor-level vulnerabilities."
+      },
+      {
+        "insight": "High-profile prosecutions (e.g., arrest of a cartel chief linked to the disappearance of 43 students) show progress but have limited effect on daily security in most affected municipalities.",
+        "context": "Justice milestones contrasted with local realities."
+      },
+      {
+        "insight": "As of early 2025, CJNG remains dominant but geographically contained; Sinaloa expands along Pacific and southern-border routes; Santa Rosa de Lima tests strength in industrial–energy zones; state capacity is active yet constrained by corruption.",
+        "context": "Status of major cartels and state constraints entering 2025."
+      },
+      {
+        "insight": "Three corridors will shape 2025: Pacific logistics centered on Culiacán with strategic disruptions; southern border with mixed clashes and civilian targeting; and industrial–urban belts with persistent civilian-focused violence threatening supply chains.",
+        "context": "Forward-looking corridor expectations for 2025."
+      },
+      {
+        "insight": "Absent reforms that disrupt cartel–state collusion and expand viable economic/security alternatives in corridor regions, violence will likely rotate among strategic arteries rather than subside, with civilians bearing the brunt.",
+        "context": "Conclusion on the rotating geography of risk and policy implications."
+      }
+    ],
+    "prompt": "Research gang violence in Mexico and its outlook in 2025, as if we are at the end of 2024 heading into 2025."
+  }
+}

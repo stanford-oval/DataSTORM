@@ -1,0 +1,95 @@
+{
+  "dataset_id": 62,
+  "dataset_path": "data/notebooks/flag-62.json",
+  "metadata": {
+    "category": "User Management",
+    "dataset_description": "The dataset comprises two key tables simulating ServiceNow platform: the `sys_user` table and the `incidents` table, each with 500 entries. The `incidents` table focuses on detailing various attributes such as category, state, open and close dates, involved personnel, and incident specifics like location, description, and priority. It effectively captures incident management activities with fields including 'opened_at', 'closed_at', 'assigned_to', 'short_description', and 'priority', reflecting the operational handling and urgency of issues across different locations and categories. The `sys_user` table, on the other hand, contains user-related information, focusing on the details of employees or system users. This includes fields such as 'user_id', 'name', 'schedule', 'role', 'email', and 'department', providing insights into the user profiles managed within the ServiceNow system. Together, these tables are instrumental in understanding the workflow, user involvement and detailed tracking of incident resolution processes within an organization.",
+    "goal": "Utilize incident and user data to analyze  the distribution of incident assignments among agents to identify imbalances, especially during leave periods.",
+    "header": "Workload Distribution and Efficiency Analysis (Flag 62)",
+    "role": "Agent Manager"
+  },
+  "predicted_insights": [
+    "Workload imbalance is evident in several months: for example, in 2023-12 Charlie handled 11 of 30 incidents (36.7%) while Howard handled only 2 (6.7%), in 2023-07 Charlie handled 12 of 42 (28.6%) while Fred handled 4 (9.5%), and the single-month peak was Fred’s 14 of 48 (29.2%) in 2023-09, patterns consistent with coverage shifts that could align with leave periods.",
+    "Luke Wilson had the most zero-incident weeks (12) including a 4-week gap (2023-04-17–2023-05-14), while Fred Luddy had the single longest uninterrupted gap (5 weeks, 2023-12-11–2024-01-14), suggesting potential leave-driven imbalances around the year-end period.",
+    "Across 57 such weeks (5 agents × 57 = 285 agent-weeks), every agent recorded 0 opens, showing no inter-agent variation in opening activity during these weeks and implying any workload imbalance would need to be assessed via assignments or closures rather than openings.",
+    "Across the 50 analyzed weeks, 0 had a computable top-agent share (0/50), meaning we cannot assess whether any agent dominated weekly assignments or whether load shifted during leave periods.",
+    "Although most agents had a similar number of zero-incident gaps (12–14), Fred Luddy accumulated the most total gap days (191) including a 35-day stretch over the 2023–2024 holiday period, which is 43–69 more gap days than others (122–148), indicating a disproportionately longer time away that could drive assignment imbalances during leave.",
+    "Stress periods did not overload any single agent: the largest deviation was an ~8.5% drop for Fred, while Beth handled the most stress-period openings (96) yet saw only a ~0.2% dip in her daily rate, indicating assignment remained fairly balanced even during ≥7-day gap events.",
+    "Only one agent (Beth Anglin) experiences a substantial increase in resolution time on leave-gap days (+158.78 hours) while all others see decreases (up to −136.17 hours), indicating a pronounced workload or complexity shift toward Beth during coverage periods that may warrant redistribution.",
+    "Despite overlapping ≥7-day zero-incident gaps, high/critical workload remained broadly stable: only two agents saw increases (Fred +0.59 pp, Luke +0.42 pp) while the largest shift was actually a decrease (Beth −2.08 pp), indicating no single agent absorbed a disproportionate surge in high/critical incidents.",
+    "Across 57 consecutive weeks (2023-01-02 to 2024-01-29), at least one agent had zero opened incidents each week, yet no agent exhibited any positive spike relative to their baseline (maximum increase 0.0), suggesting there were no compensatory load surges during weeks with zero-incident agents.",
+    "Fred Luddy experienced 17 zero-assignment weeks (about 29% of the 58-week period) punctuated by spikes up to 5 incidents in single weeks, indicating leave-driven load swings that suggest a need for proactive redistribution during those weeks.",
+    "Across all agents there were 15 such high-volume zero-assignment weeks, and over half of them (8/15 ≈ 53%) were concentrated in just Beth Anglin and Fred Luddy, indicating notable coverage gaps likely aligned with leave or scheduling imbalances.",
+    "Out of 500 incidents, 392 (78.4%) were closed by someone other than the assigned agent; Luke Wilson handled 82 of these (21.0%), and the top three agents (Luke, Fred, Howard) handled 244 (62.2%), indicating substantial cross-coverage that could signal workload imbalances during leave or peak periods."
+  ],
+  "predicted_summary": "Long-term assignment totals are evenly balanced, but short-term imbalances are pronounced: from 2023-01 through 2024-01 each agent received exactly 100 incidents (totaling 500 across five agents), yet week-to-week volatility is high—Fred Luddy has the highest variability in weekly assignments (coefficient of variation 0.9189)—and both Beth Anglin and Fred Luddy had 4 Monday-start weeks with zero assigned incidents even when total weekly incidents exceeded the overall weekly median.\nLeave-like gaps (≥7 consecutive zero-incident days) are frequent and sometimes lengthy—Fred Luddy (14 gaps; longest 35 days), Luke Wilson (13; longest 24), Beth Anglin (14; longest 20), Charlie Whitherspoon (14; longest 20), and Howard Johnson (12; longest 14)—and during days overlapping such gaps strain shows up more in performance/severity than in volume: no agent’s mean daily openings increased (largest change was Beth at −0.00053), while Beth’s average resolution time rose by about +158.78 hours versus baseline and Fred’s share of high/critical tickets ticked up by +0.59 percentage points.\nWeeks with “zero opens” are systemic rather than individual: in 100% of Monday-start weeks flagged as having at least one agent with zero openings (2023-01-02 to 2024-01-29), all agents recorded zero openings, indicating team-wide slowdowns rather than isolated absences; cross-coverage is common in closures, with Luke Wilson closing 82 incidents assigned to other agents (slightly ahead of Fred Luddy and Howard Johnson at 81 each).",
+  "score_insights": 0.4050317214104244,
+  "score_insights_dict": [
+    {
+      "gt_insight": "All agents have the same number of incidents assigned to them.",
+      "pred_insight": "Across 57 such weeks (5 agents × 57 = 285 agent-weeks), every agent recorded 0 opens, showing no inter-agent variation in opening activity during these weeks and implying any workload imbalance would need to be assessed via assignments or closures rather than openings.",
+      "score": 0.39524728284821453
+    },
+    {
+      "gt_insight": "Specific leave periods for Howard Johnson, Charlie Whitherspoon, and Fred Luddy were identified",
+      "pred_insight": "Workload imbalance is evident in several months: for example, in 2023-12 Charlie handled 11 of 30 incidents (36.7%) while Howard handled only 2 (6.7%), in 2023-07 Charlie handled 12 of 42 (28.6%) while Fred handled 4 (9.5%), and the single-month peak was Fred’s 14 of 48 (29.2%) in 2023-09, patterns consistent with coverage shifts that could align with leave periods.",
+      "score": 0.3102342298115729
+    },
+    {
+      "gt_insight": "There was no significant change in the distribution of incident categories for Beth Anglin and Luke Wilson during the other agents' PTO,",
+      "pred_insight": "Despite overlapping ≥7-day zero-incident gaps, high/critical workload remained broadly stable: only two agents saw increases (Fred +0.59 pp, Luke +0.42 pp) while the largest shift was actually a decrease (Beth −2.08 pp), indicating no single agent absorbed a disproportionate surge in high/critical incidents.",
+      "score": 0.47707645034484675
+    },
+    {
+      "gt_insight": "The distribution of incident assignments becomes uniform after the other agents return from their leave",
+      "pred_insight": "Despite overlapping ≥7-day zero-incident gaps, high/critical workload remained broadly stable: only two agents saw increases (Fred +0.59 pp, Luke +0.42 pp) while the largest shift was actually a decrease (Beth −2.08 pp), indicating no single agent absorbed a disproportionate surge in high/critical incidents.",
+      "score": 0.5380771637268047
+    },
+    {
+      "gt_insight": "The resolution time (TTR) for all is slightly decreasing over time",
+      "pred_insight": "Only one agent (Beth Anglin) experiences a substantial increase in resolution time on leave-gap days (+158.78 hours) while all others see decreases (up to −136.17 hours), indicating a pronounced workload or complexity shift toward Beth during coverage periods that may warrant redistribution.",
+      "score": 0.2581273751319727
+    },
+    {
+      "gt_insight": "There is not sufficient data to predict the future workload for agents accurately",
+      "pred_insight": "Across the 50 analyzed weeks, 0 had a computable top-agent share (0/50), meaning we cannot assess whether any agent dominated weekly assignments or whether load shifted during leave periods.",
+      "score": 0.4514278265991347
+    }
+  ],
+  "score_summary": 0.4019377326507132,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.47243380546559316,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "Across 57 such weeks (5 agents × 57 = 285 agent-weeks), every agent recorded 0 opens, showing no inter-agent variation in opening activity during these weeks and implying any workload imbalance would need to be assessed via assignments or closures rather than openings.",
+      "gt_insight": "All agents have the same number of incidents assigned to them.",
+      "score": 0.5125582429573133
+    },
+    {
+      "pred_insight": "Luke Wilson had the most zero-incident weeks (12) including a 4-week gap (2023-04-17–2023-05-14), while Fred Luddy had the single longest uninterrupted gap (5 weeks, 2023-12-11–2024-01-14), suggesting potential leave-driven imbalances around the year-end period.",
+      "gt_insight": "Specific leave periods for Howard Johnson, Charlie Whitherspoon, and Fred Luddy were identified",
+      "score": 0.3714799968608493
+    },
+    {
+      "pred_insight": "Despite overlapping ≥7-day zero-incident gaps, high/critical workload remained broadly stable: only two agents saw increases (Fred +0.59 pp, Luke +0.42 pp) while the largest shift was actually a decrease (Beth −2.08 pp), indicating no single agent absorbed a disproportionate surge in high/critical incidents.",
+      "gt_insight": "There was no significant change in the distribution of incident categories for Beth Anglin and Luke Wilson during the other agents' PTO,",
+      "score": 0.5911469236634345
+    },
+    {
+      "pred_insight": "Stress periods did not overload any single agent: the largest deviation was an ~8.5% drop for Fred, while Beth handled the most stress-period openings (96) yet saw only a ~0.2% dip in her daily rate, indicating assignment remained fairly balanced even during ≥7-day gap events.",
+      "gt_insight": "The distribution of incident assignments becomes uniform after the other agents return from their leave",
+      "score": 0.4795232959856334
+    },
+    {
+      "pred_insight": "Only one agent (Beth Anglin) experiences a substantial increase in resolution time on leave-gap days (+158.78 hours) while all others see decreases (up to −136.17 hours), indicating a pronounced workload or complexity shift toward Beth during coverage periods that may warrant redistribution.",
+      "gt_insight": "The resolution time (TTR) for all is slightly decreasing over time",
+      "score": 0.2622939555043945
+    },
+    {
+      "pred_insight": "Across the 50 analyzed weeks, 0 had a computable top-agent share (0/50), meaning we cannot assess whether any agent dominated weekly assignments or whether load shifted during leave periods.",
+      "gt_insight": "There is not sufficient data to predict the future workload for agents accurately",
+      "score": 0.6176004178219336
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.10074468206437329,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.6063288173431842
+}

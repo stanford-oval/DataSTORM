@@ -1,0 +1,85 @@
+{
+  "dataset_id": 42,
+  "dataset_path": "data/notebooks/flag-42.json",
+  "metadata": {
+    "category": "Finance Management",
+    "dataset_description": "The dataset consists of 500 entries simulating the ServiceNow fm_expense_line table, which records various attributes of financial expenses. This table documents the flow of financial transactions by detailing the amount, departmental allocation, and the nature of each expense. It provides a comprehensive view of organizational expenditures across different categories, highlighting both the timing and the approval state of each financial entry. Additionally, the dataset offers insights into the efficiency of expense processing based on different states, revealing potential areas for workflow optimization.",
+    "goal": "To detect and investigate instances of repeated identical expense claims by individual users, determining whether these repetitions are fraudulent or due to misunderstandings of the expense policy.",
+    "header": "Expense Claim Patterns and Fraud Analysis (Flag 42)",
+    "role": "Compliance and Audit Analyst"
+  },
+  "predicted_insights": [
+    "Across 500 claims by 50 users (495 unique amounts, 4 categories) from Jan–Oct 2024, the rate of repeated identical claims within 30 days is 0%, indicating duplicate-claim behavior under the strict same amount+category criterion is negligible.",
+    "Across 500 claims from 50 users, there are zero repeated source_id values (unique_count=500), but only 495 unique amounts indicate at least 5 claims share an identical amount, and the minimum processing_time_hours is -6816.58, suggesting data-quality issues that warrant checking for repeated claims using other fields (e.g., identical amounts, descriptions, and timestamps).",
+    "Repeated identical One-time claims were never declined (0.00%) while roughly 1 in 4 unique claims were declined (22.98%), indicating duplicates may be passing controls or treated as legitimate resubmissions rather than potential fraud.",
+    "Zero One-time duplicate groups were found, indicating a 0% duplication rate for One-time claims; this suggests that any repeated identical submissions, if they exist, may be concentrated in Recurring claims or involve non-identical repeats.",
+    "Recurring repeated claims are modestly more prevalent (243 vs. 216), about 1.13 times as common as One-time, suggesting investigations should prioritize recurring expense patterns (e.g., subscriptions or services) which constitute a slight majority of flagged repeats.",
+    "Across all 500 claims, the overall repeated-identical claim rate is 0%, indicating either strong policy adherence or that exact-duplicate detection (by user/amount/category/short_description) finds no repeats; notably, even the highest-volume department (Development, 78 claims) had zero repeats.",
+    "Across 500 claims spanning 50 users and 4 categories, no repeated identical claims were detected—indicating no observable duplicate-resubmission behavior—despite substantial variation in amounts (mean ≈ 43,627; std ≈ 26,083) and extreme processing times (from −6,816.6 to 6,910.1 hours), the negative times hinting at potential data quality or timestamp sequencing issues.",
+    "Across 50 users, 4 categories, and amounts ranging from 10,123 to 99,745 (mean 43,626.8), there were zero triple-repeat One-time claims in any 90-day window, indicating a very low risk of repeated identical submissions in the One-time category.",
+    "Across 500 claims, zero repeated identical submissions were found (supported by 500 unique short descriptions and 495 unique amounts), and the 21.8% decline rate for the remaining non-repeated claims implies roughly 109 declines.",
+    "Roughly 1 in 5 recurring expense claims are declined (~21%), indicating repeated submissions may be more frequently scrutinized and could reflect policy misunderstandings or potential fraud.",
+    "Because all 500 short_descriptions are unique and 495 amounts are unique, the dataset structurally contains no identical repeats; if investigating subtle repeat behavior, consider text similarity or amount thresholds rather than exact matches.",
+    "Given 495 unique amounts out of 500 claims (99% unique), the few identical amounts present appear across different users rather than repeated by the same user, indicating standardized expense price points without evidence of same-user resubmissions with altered descriptions."
+  ],
+  "predicted_summary": "Repeated identical claims are essentially absent under strict definitions: across 500 total claims (235 One-time, 265 Recurring), 0 claims were repeated by the same user with the same amount and short_description (0.0%); 0 users submitted two or more claims with the same amount and category within 30 days; 0% of One-time claims repeated three or more times with the same amount and category within 90 days; 0 duplicate source_id cases occurred; no departments showed any repeated identical claims (all departments 0 repeated / total claims); and 0 resubmissions occurred within 14 days after a prior Declined claim with the same details.\nUsing a broader repeat signal that ignores amounts and descriptions (same user + category), 459 claims fall into a “repeated” bucket, split 47.06% One-time (216 claims) and 52.94% Recurring (243 claims). This indicates that while exact duplicates are not appearing, users frequently submit multiple claims in the same category, with labeling skewed slightly toward Recurring patterns.\nDecline rates are broadly consistent and not elevated for repeats: Recurring claims were declined 20.75% of the time (55 of 265), overall non-repeated claims had a 21.8% Declined rate, and among One-time claims (where no duplicates were detected), non-duplicates were declined at 22.98%. Together with the absence of strict duplicates, this suggests declines in this dataset are not being driven by repeated identical submissions.",
+  "score_insights": 0.33532845744100337,
+  "score_insights_dict": [
+    {
+      "gt_insight": "Processing times vary significantly based on the state of the expenses",
+      "pred_insight": "Across 500 claims spanning 50 users and 4 categories, no repeated identical claims were detected—indicating no observable duplicate-resubmission behavior—despite substantial variation in amounts (mean ≈ 43,627; std ≈ 26,083) and extreme processing times (from −6,816.6 to 6,910.1 hours), the negative times hinting at potential data quality or timestamp sequencing issues.",
+      "score": 0.273353977769405
+    },
+    {
+      "gt_insight": "Amounts in expense reports vary significantly based on short description keywords",
+      "pred_insight": "Given 495 unique amounts out of 500 claims (99% unique), the few identical amounts present appear across different users rather than repeated by the same user, indicating standardized expense price points without evidence of same-user resubmissions with altered descriptions.",
+      "score": 0.4899684635763436
+    },
+    {
+      "gt_insight": "Average expense amounts vary significantly across different departments",
+      "pred_insight": "Across 500 claims spanning 50 users and 4 categories, no repeated identical claims were detected—indicating no observable duplicate-resubmission behavior—despite substantial variation in amounts (mean ≈ 43,627; std ≈ 26,083) and extreme processing times (from −6,816.6 to 6,910.1 hours), the negative times hinting at potential data quality or timestamp sequencing issues.",
+      "score": 0.2423593584860586
+    },
+    {
+      "gt_insight": "The number of expense reports submitted varies significantly by user",
+      "pred_insight": "Given 495 unique amounts out of 500 claims (99% unique), the few identical amounts present appear across different users rather than repeated by the same user, indicating standardized expense price points without evidence of same-user resubmissions with altered descriptions.",
+      "score": 0.2769548660277855
+    },
+    {
+      "gt_insight": "The distribution of expense categories shows which types of expenses are most common",
+      "pred_insight": "Recurring repeated claims are modestly more prevalent (243 vs. 216), about 1.13 times as common as One-time, suggesting investigations should prioritize recurring expense patterns (e.g., subscriptions or services) which constitute a slight majority of flagged repeats.",
+      "score": 0.39400562134542394
+    }
+  ],
+  "score_summary": 0.15504843742528884,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.46455112919362546,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "Across 500 claims spanning 50 users and 4 categories, no repeated identical claims were detected—indicating no observable duplicate-resubmission behavior—despite substantial variation in amounts (mean ≈ 43,627; std ≈ 26,083) and extreme processing times (from −6,816.6 to 6,910.1 hours), the negative times hinting at potential data quality or timestamp sequencing issues.",
+      "gt_insight": "Processing times vary significantly based on the state of the expenses",
+      "score": 0.48785902181372426
+    },
+    {
+      "pred_insight": "Across 500 claims spanning 50 users and 4 categories, no repeated identical claims were detected—indicating no observable duplicate-resubmission behavior—despite substantial variation in amounts (mean ≈ 43,627; std ≈ 26,083) and extreme processing times (from −6,816.6 to 6,910.1 hours), the negative times hinting at potential data quality or timestamp sequencing issues.",
+      "gt_insight": "Amounts in expense reports vary significantly based on short description keywords",
+      "score": 0.34476239986095075
+    },
+    {
+      "pred_insight": "Across 500 claims spanning 50 users and 4 categories, no repeated identical claims were detected—indicating no observable duplicate-resubmission behavior—despite substantial variation in amounts (mean ≈ 43,627; std ≈ 26,083) and extreme processing times (from −6,816.6 to 6,910.1 hours), the negative times hinting at potential data quality or timestamp sequencing issues.",
+      "gt_insight": "Average expense amounts vary significantly across different departments",
+      "score": 0.6580334562318441
+    },
+    {
+      "pred_insight": "Across 500 claims spanning 50 users and 4 categories, no repeated identical claims were detected—indicating no observable duplicate-resubmission behavior—despite substantial variation in amounts (mean ≈ 43,627; std ≈ 26,083) and extreme processing times (from −6,816.6 to 6,910.1 hours), the negative times hinting at potential data quality or timestamp sequencing issues.",
+      "gt_insight": "The number of expense reports submitted varies significantly by user",
+      "score": 0.45862026827071894
+    },
+    {
+      "pred_insight": "Recurring repeated claims are modestly more prevalent (243 vs. 216), about 1.13 times as common as One-time, suggesting investigations should prioritize recurring expense patterns (e.g., subscriptions or services) which constitute a slight majority of flagged repeats.",
+      "gt_insight": "The distribution of expense categories shows which types of expenses are most common",
+      "score": 0.37348049979088904
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.8307446619113723,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.26064326333356524
+}

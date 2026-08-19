@@ -1,0 +1,302 @@
+{
+  "total_insights": 29,
+  "total_classified": 29,
+  "acled_count": 17,
+  "non_acled_count": 12,
+  "pct_acled": 0.5862068965517241,
+  "details": [
+    {
+      "evidence": "Under Total Peace, Colombia saw more political-violence events but fewer deaths per event, indicating a shift to higher-frequency, lower-lethality coercion.",
+      "is_acled_data": true,
+      "reasoning": "The statement references counts of political-violence events and deaths per event, reflecting event frequency and fatality metrics—core ACLED measures (event counts, fatality counts, temporal patterns). This type of trend (higher frequency, lower lethality) is commonly derived from ACLED event and fatality data.",
+      "source_context": "National trend post–Aug 2022: events up ~10% (≈195 to 214/month), fatalities down ~6% (≈169 to 159/month); mid-2023 peaks near 300 events without parallel fatality increase [1][2]."
+    },
+    {
+      "evidence": "State kinetic activity receded after Aug 2022, with battles down by roughly a quarter and explosions by a fifth, while state ‘strategic developments’ rose during talks and ceasefire windows.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites quantitative changes in specific conflict event types (battles, explosions/remote violence) and references a category used by ACLED (“strategic developments”), as well as temporal trends after Aug 2022. These are core ACLED event metrics and classifications, indicating derivation from ACLED data.",
+      "source_context": "Change in state operations intensity and modality during negotiation periods [4][5]."
+    },
+    {
+      "evidence": "FARC dissidents expanded activity across most modalities post–Aug 2022, adding 300+ events, and ELN activity also grew, while both groups reduced per‑event lethality in civilian targeting and remote violence.",
+      "is_acled_data": true,
+      "reasoning": "Mentions actor-level activity (FARC dissidents, ELN), counts of added events (300+), modalities (battles, remote violence), and per-event lethality in civilian targeting—all are metrics ACLED tracks (event counts, violence against civilians, explosions/remote violence, fatalities). This aligns with conflict trend analysis derived from ACLED event data.",
+      "source_context": "Group-level shifts in frequency and lethality; dissidents expanded broadly; ELN activity increased with lower lethality per VAC/remote event [4][6][7][5]."
+    },
+    {
+      "evidence": "ELN battlefield engagements became more lethal per clash even as the number of battles decreased, implying sharper outcomes when fights did occur.",
+      "is_acled_data": true,
+      "reasoning": "The statement references battle-related trends (number of battles) and lethality per clash (fatalities per event), which are core ACLED metrics derived from event counts and fatality figures for armed groups like the ELN.",
+      "source_context": "ELN saw fewer battles but increased lethality per engagement [4][7][5]."
+    },
+    {
+      "evidence": "Kidnapping and forced disappearance surged by 113% nationally, becoming the dominant coercion tool against civilians, while sexual violence halved and attacks fell slightly.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites changes in coercive tactics against civilians (kidnapping, forced disappearance, sexual violence, attacks) with quantified national trends, which aligns with ACLED’s violence against civilians and event-type statistics derived from coded conflict events and temporal patterns.",
+      "source_context": "Violence against civilians composition shift in the post period [3]."
+    },
+    {
+      "evidence": "Unidentified Armed Groups (UAGs) maintained high incident volumes against civilians with fewer deaths per event, consistent with governance-by-intimidation and revenue extraction rather than mass-casualty attacks.",
+      "is_acled_data": true,
+      "reasoning": "References incident volumes against civilians and deaths per event by a specific actor category (UAGs), which aligns with ACLED’s event counts, actor-level activity, and fatality metrics; the characterization of patterns (high incidents, lower fatalities per event) suggests analysis derived from ACLED event and violence-against-civilians data.",
+      "source_context": "UAG VAC pattern indicates coercive control with lower lethality per incident [3][5][7]."
+    },
+    {
+      "evidence": "Negotiation-first signals and reduced state offensives created incentives for armed groups to reposition, increasing civilian coercion and organizational moves by criminal/paramilitary actors.",
+      "is_acled_data": false,
+      "reasoning": "The statement is an analytical claim about incentives and behavior shifts due to policy signals, without citing specific ACLED event counts, actor data, or trends. It reads as general analysis rather than evidence explicitly tied to ACLED’s event-based metrics.",
+      "source_context": "Ceasefire signaling and state pullback coincided with ELN and dissident expansion, and criminal actors’ organizational activity [8][4]."
+    },
+    {
+      "evidence": "Weak ceasefire design and monitoring capacity enabled opportunistic gains by armed groups, as Colombia’s fragmented landscape and under-resourced peace bureaucracy limited enforcement.",
+      "is_acled_data": false,
+      "reasoning": "The statement is policy/analytical commentary about ceasefire design, monitoring capacity, and bureaucratic limitations, not specific conflict event data or ACLED-attributed metrics. It does not cite event counts, locations, fatalities, or actor-level data from ACLED.",
+      "source_context": "Absence of robust monitoring and resource constraints undermined compliance; heterogeneous actors responded unevenly [11][12]."
+    },
+    {
+      "evidence": "Political polarization and partial implementation of earlier accords diluted consensus, encouraging hedging and intimidation-based governance where state pressure receded.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a qualitative political analysis about polarization, implementation of accords, and governance dynamics. It does not reference specific conflict event counts, actor activity, fatalities, or trends attributable to ACLED data.",
+      "source_context": "Domestic political context and incomplete delivery on prior agreements affected compliance and local governance dynamics [13][9][14]."
+    },
+    {
+      "evidence": "Cross-border dynamics, particularly Venezuela’s role in talks and safe-haven concerns, complicated monitoring and leverage over armed groups.",
+      "is_acled_data": false,
+      "reasoning": "This is general analytical commentary about cross-border dynamics and Venezuela’s role/safe-haven concerns, not referencing specific ACLED event counts, locations, fatalities, or actor-level event data attributed to ACLED.",
+      "source_context": "Regional factors added complexity to verification and pressure strategies [13]."
+    },
+    {
+      "evidence": "Arauca exemplifies the post-2022 shift: abduction/extortion events rose 314% (42 to 174), driven almost entirely by kidnapping; ELN-linked kidnapping/extortion events climbed to 70 and UAG coercion also surged.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific counts and percentage changes in abduction/extortion events, links them to armed actors (ELN, UAG), and implies subnational temporal event data—characteristics consistent with ACLED’s event-based conflict and actor-level datasets.",
+      "source_context": "Arauca post-period coercion spike and actor composition of incidents [15][16]."
+    },
+    {
+      "evidence": "Within Arauca, municipalities like Tame, Saravena, and Arauquita experienced near-total dominance of abductions in coercion incidents, indicating structured ‘tax’ enforcement through short-duration kidnappings.",
+      "is_acled_data": false,
+      "reasoning": "The statement discusses abduction patterns and coercion/tax enforcement in specific municipalities, but it does not reference specific ACLED event counts, actor data, fatalities, or explicit ACLED attribution. It reads as interpretive analysis rather than a direct use of ACLED event data.",
+      "source_context": "Municipal breakdown showing abduction-heavy coercion patterns enforcing market-day ‘taxes’ [17]."
+    },
+    {
+      "evidence": "In Chocó, UAG involvement in non-protest events rose sharply, with their share of such incidents increasing from ~30% to ~66%, signaling a shift toward unattributed enforcement along river corridors.",
+      "is_acled_data": true,
+      "reasoning": "The statement references actor-level activity shares over time in a specific subnational area (Chocó) and distinguishes event types (non-protest events), implying counts and proportions of events attributed to a specific armed group (UAG). This aligns with ACLED’s event data, actor data, and temporal trend analysis by event type and location. The phrasing about share rising from ~30% to ~66% suggests calculated proportions from ACLED event records.",
+      "source_context": "Departmental UAG rise and attribution opacity in Chocó [20]."
+    },
+    {
+      "evidence": "Quibdó saw the UAG share of violence against civilians jump from 69% to 99%, as incidents by identified actors nearly vanished, deepening accountability gaps.",
+      "is_acled_data": true,
+      "reasoning": "The statement provides actor-level shares of violence against civilians in a specific locality (Quibdó) over time, reflecting event-based counts and actor attribution—metrics ACLED tracks (violence against civilians by actor, subnational trends). This aligns with ACLED’s actor-level and location-specific event data and derived trend analysis.",
+      "source_context": "Municipal attribution shift in VAC to UAG in Quibdó [21][22]."
+    },
+    {
+      "evidence": "Southern Bolívar recorded a marked increase in UAG activity and share (crossing 50%), and Cartagena experienced one of the sharpest municipal UAG-share jumps, reflecting entrenched coastal rackets.",
+      "is_acled_data": true,
+      "reasoning": "References subnational armed group (UAG) activity levels and share changes by specific locations (Southern Bolívar, Cartagena), implying actor-level activity shares and temporal shifts derived from event data—consistent with ACLED’s geographic, actor-level, and trend analyses.",
+      "source_context": "Regional and municipal UAG concentration in southern Bolívar and Cartagena [20][22]."
+    },
+    {
+      "evidence": "La Guajira’s UAG activity roughly doubled (41 to 83), with Maicao reaching a 96% UAG share, indicating anonymous enforcement of cross-border economies.",
+      "is_acled_data": true,
+      "reasoning": "Mentions specific counts of armed group (UAG) activity by location and shares of activity (e.g., Maicao 96%), which aligns with ACLED’s subnational event counts and actor-level activity data. This appears to be derived from ACLED conflict event data and geographic breakdowns.",
+      "source_context": "Caribbean frontier UAG dominance and growth [18][22]."
+    },
+    {
+      "evidence": "The Gulf Clan expanded in Bolívar and Cesar in Magdalena Medio, adding layered pressure atop rising UAG activity and complicating local security dynamics.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical claim about territorial expansion and security dynamics without specific event counts, locations, dates, or ACLED attribution. It is not explicitly grounded in ACLED event data or statistics.",
+      "source_context": "AGC/Clan del Golfo expansion alongside UAG growth [18][19]."
+    },
+    {
+      "evidence": "In the southwest, FARC dissident fronts intensified across Cauca, Huila, and Valle (e.g., Jamundí, Toribío, Morales, La Plata), while El Tambo’s UAG share rose to 93%, illustrating a mixed mosaic of dissident and anonymous control.",
+      "is_acled_data": false,
+      "reasoning": "The evidence references territorial control shares (e.g., UAG share 93%) and a mosaic of control, which suggests a territorial governance/control metric not part of ACLED’s event-based dataset. ACLED tracks events, actors, locations, and trends, but does not provide percentage control shares like “UAG share 93%.” The statement appears to be analytical/territorial control assessment rather than direct ACLED event data.",
+      "source_context": "Municipal spikes tied to dissidents and UAG attribution in Cauca/Huila/Valle [23][17][22]."
+    },
+    {
+      "evidence": "Urban and border nodes shifted modalities: Cúcuta increases featured extortion mentions, and Bogotá emerged post‑2022 with new extortion-linked reports, reflecting broader diffusion of intimidation economies.",
+      "is_acled_data": false,
+      "reasoning": "The evidence discusses extortion mentions and intimidation economies in cities like Cúcuta and Bogotá without citing specific conflict events, counts, fatalities, or ACLED actor/location-coded data. It reads as analytical characterization rather than event-based metrics explicitly tied to ACLED datasets.",
+      "source_context": "Modality shifts in key nodes Cúcuta and Bogotá [17]."
+    },
+    {
+      "evidence": "Across multiple hotspots—Quibdó, Cartagena, El Tambo, Ocaña, Maicao—UAG attribution shares rose, clouding accountability even as coercion deepened.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a qualitative claim about rising “UAG attribution shares” across several cities and its implications for accountability. It lacks explicit references to ACLED event counts, actor-level coding, specific incidents, fatalities, or ACLED-derived trends. It reads as analytical commentary without clear grounding in ACLED data or attribution to ACLED.",
+      "source_context": "Widespread increase in UAG shares across municipalities [20][22][21]."
+    },
+    {
+      "evidence": "Reductions in state-involved battles correlate negatively with rises in abduction/extortion mentions, with Arauca and Norte de Santander showing the clearest substitution patterns at the monthly level.",
+      "is_acled_data": true,
+      "reasoning": "Mentions of state-involved battles and abduction/extortion, analyzed at monthly subnational levels (Arauca, Norte de Santander) and discussing substitution patterns, align with ACLED’s event-type counts, actor-level data, and temporal/spatial trend analysis derived from ACLED events.",
+      "source_context": "Moderately strong negative national correlation and department-level substitution patterns [24]."
+    },
+    {
+      "evidence": "Local heterogeneity matters: in Valle del Cauca and Antioquia, UAG-linked violence against civilians fell despite declines in state battles in some areas, reflecting differing criminal economies and rival balances.",
+      "is_acled_data": true,
+      "reasoning": "The statement references subnational trends in violence against civilians and changes in battles across specific departments, which aligns with ACLED’s event-level data on violence against civilians and battle events, as well as actor-level (UAG) activity and geographic breakdowns. While it includes interpretation about criminal economies and rival balances, the core evidence—declines in UAG-linked violence against civilians and state battles in Valle del Cauca and Antioquia—is the type of metric ACLED tracks.",
+      "source_context": "Contrasting departmental trends despite similar shifts in state kinetics [25]."
+    },
+    {
+      "evidence": "State–rebel clashes reoriented geographically, rising most in Chocó, Nariño, southern Bolívar, and La Guajira, while declining in Norte de Santander and parts of Cauca and Antioquia.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references subnational shifts in state–rebel clashes across specific departments, reflecting geographic conflict event trends typical of ACLED battle data and location-based event counts. This kind of regional increase/decrease in clashes is consistent with ACLED’s event-level, actor, and geocoded trend analysis.",
+      "source_context": "Departmental net changes in battles indicate new fronts and cooling in prior hotspots [26]."
+    },
+    {
+      "evidence": "Municipality-level shifts were stark: Tibú’s battles fell to zero, while Quibdó, Sipí, Santa Rosa del Sur, and Riohacha saw new or intensified engagements from low baselines, aligning with the emergent fronts.",
+      "is_acled_data": true,
+      "reasoning": "Mentions municipality-level shifts in battles and new/intensified engagements, which aligns with ACLED’s battle-related event counts and subnational geographic data. The phrasing suggests analysis of event data over time at the municipal level, a typical ACLED-derived insight.",
+      "source_context": "Municipal redistribution of clashes post–Aug 2022 [27][28][29]."
+    },
+    {
+      "evidence": "ELN dominates normalized engagement rates in several new clash nodes, while dissident structures proliferate in Cauca; concurrently, UAG attribution rises across municipalities, complicating verification and targeting.",
+      "is_acled_data": true,
+      "reasoning": "Mentions actor activity and engagement across locations (“clash nodes”), proliferation of dissident structures in specific areas (Cauca), and changing attributions (UAG) across municipalities—these align with ACLED’s actor-level, event/location-based conflict data and trend analysis derived from such events.",
+      "source_context": "Post-period actor landscape in active nodes and attribution trends [30]."
+    },
+    {
+      "evidence": "State posture adapted under talks: in some departments, battles declined while ‘strategic developments’ rose; however, state-involved VAC per month increased in Arauca and Bolívar, highlighting uneven protection outcomes.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references specific conflict event trends (declines in battles, rise in ‘strategic developments’), state-involved violence against civilians per month by departments (Arauca, Bolívar), and subnational temporal patterns—elements characteristic of ACLED’s event-type, actor, and location-based data and trend analysis.",
+      "source_context": "Mixed state response under negotiation constraints and department-specific VAC trends [31]."
+    },
+    {
+      "evidence": "Documented dissident governance practices—community summons, fines, short-duration kidnappings—coexisted with intermittent clashes, including with the Gulf Clan, indicating parallel rule with episodic kinetic friction.",
+      "is_acled_data": false,
+      "reasoning": "The evidence describes governance practices by dissidents and mentions clashes in general terms without citing specific event counts, locations, dates, fatalities, or ACLED attribution. It reads as qualitative analysis of parallel rule and intermittent conflict, not as ACLED event data or statistics.",
+      "source_context": "On-the-ground enforcement forms and selective confrontations in contested zones [32]."
+    },
+    {
+      "evidence": "The new equilibrium concentrates coercion in corridors where UAG attribution is rising and ELN/dissident structures are expanding, making accountability murkier while deepening civilian exposure to intimidation.",
+      "is_acled_data": false,
+      "reasoning": "The statement is analytical commentary about coercion concentration, actor expansion, and accountability, without citing specific event counts, locations, fatalities, or actor-level events from ACLED. It is not tied to explicit ACLED-derived metrics or datasets.",
+      "source_context": "Synthesis of spatial concentration and attribution opacity across identified corridors [18][20][22]."
+    },
+    {
+      "evidence": "Effective policy response should not revert to blanket offensives but tighten ceasefire design and verification, protect civilians in high-substitution corridors, improve attribution, and calibrate pressure to deter intimidation-based governance while preserving talks.",
+      "is_acled_data": false,
+      "reasoning": "The evidence is a policy recommendation and analytic guidance about ceasefire design and civilian protection, not referencing specific conflict events, counts, locations, or actor/activity data attributed to ACLED.",
+      "source_context": "Prescriptive conclusion on safeguards and targeted enforcement compatible with negotiations [11][8][12]."
+    }
+  ],
+  "insights": [
+    {
+      "insight": "Under Total Peace, Colombia saw more political-violence events but fewer deaths per event, indicating a shift to higher-frequency, lower-lethality coercion.",
+      "context": "National trend post–Aug 2022: events up ~10% (≈195 to 214/month), fatalities down ~6% (≈169 to 159/month); mid-2023 peaks near 300 events without parallel fatality increase [1][2]."
+    },
+    {
+      "insight": "State kinetic activity receded after Aug 2022, with battles down by roughly a quarter and explosions by a fifth, while state ‘strategic developments’ rose during talks and ceasefire windows.",
+      "context": "Change in state operations intensity and modality during negotiation periods [4][5]."
+    },
+    {
+      "insight": "FARC dissidents expanded activity across most modalities post–Aug 2022, adding 300+ events, and ELN activity also grew, while both groups reduced per‑event lethality in civilian targeting and remote violence.",
+      "context": "Group-level shifts in frequency and lethality; dissidents expanded broadly; ELN activity increased with lower lethality per VAC/remote event [4][6][7][5]."
+    },
+    {
+      "insight": "ELN battlefield engagements became more lethal per clash even as the number of battles decreased, implying sharper outcomes when fights did occur.",
+      "context": "ELN saw fewer battles but increased lethality per engagement [4][7][5]."
+    },
+    {
+      "insight": "Kidnapping and forced disappearance surged by 113% nationally, becoming the dominant coercion tool against civilians, while sexual violence halved and attacks fell slightly.",
+      "context": "Violence against civilians composition shift in the post period [3]."
+    },
+    {
+      "insight": "Unidentified Armed Groups (UAGs) maintained high incident volumes against civilians with fewer deaths per event, consistent with governance-by-intimidation and revenue extraction rather than mass-casualty attacks.",
+      "context": "UAG VAC pattern indicates coercive control with lower lethality per incident [3][5][7]."
+    },
+    {
+      "insight": "Negotiation-first signals and reduced state offensives created incentives for armed groups to reposition, increasing civilian coercion and organizational moves by criminal/paramilitary actors.",
+      "context": "Ceasefire signaling and state pullback coincided with ELN and dissident expansion, and criminal actors’ organizational activity [8][4]."
+    },
+    {
+      "insight": "Weak ceasefire design and monitoring capacity enabled opportunistic gains by armed groups, as Colombia’s fragmented landscape and under-resourced peace bureaucracy limited enforcement.",
+      "context": "Absence of robust monitoring and resource constraints undermined compliance; heterogeneous actors responded unevenly [11][12]."
+    },
+    {
+      "insight": "Political polarization and partial implementation of earlier accords diluted consensus, encouraging hedging and intimidation-based governance where state pressure receded.",
+      "context": "Domestic political context and incomplete delivery on prior agreements affected compliance and local governance dynamics [13][9][14]."
+    },
+    {
+      "insight": "Cross-border dynamics, particularly Venezuela’s role in talks and safe-haven concerns, complicated monitoring and leverage over armed groups.",
+      "context": "Regional factors added complexity to verification and pressure strategies [13]."
+    },
+    {
+      "insight": "Arauca exemplifies the post-2022 shift: abduction/extortion events rose 314% (42 to 174), driven almost entirely by kidnapping; ELN-linked kidnapping/extortion events climbed to 70 and UAG coercion also surged.",
+      "context": "Arauca post-period coercion spike and actor composition of incidents [15][16]."
+    },
+    {
+      "insight": "Within Arauca, municipalities like Tame, Saravena, and Arauquita experienced near-total dominance of abductions in coercion incidents, indicating structured ‘tax’ enforcement through short-duration kidnappings.",
+      "context": "Municipal breakdown showing abduction-heavy coercion patterns enforcing market-day ‘taxes’ [17]."
+    },
+    {
+      "insight": "In Chocó, UAG involvement in non-protest events rose sharply, with their share of such incidents increasing from ~30% to ~66%, signaling a shift toward unattributed enforcement along river corridors.",
+      "context": "Departmental UAG rise and attribution opacity in Chocó [20]."
+    },
+    {
+      "insight": "Quibdó saw the UAG share of violence against civilians jump from 69% to 99%, as incidents by identified actors nearly vanished, deepening accountability gaps.",
+      "context": "Municipal attribution shift in VAC to UAG in Quibdó [21][22]."
+    },
+    {
+      "insight": "Southern Bolívar recorded a marked increase in UAG activity and share (crossing 50%), and Cartagena experienced one of the sharpest municipal UAG-share jumps, reflecting entrenched coastal rackets.",
+      "context": "Regional and municipal UAG concentration in southern Bolívar and Cartagena [20][22]."
+    },
+    {
+      "insight": "La Guajira’s UAG activity roughly doubled (41 to 83), with Maicao reaching a 96% UAG share, indicating anonymous enforcement of cross-border economies.",
+      "context": "Caribbean frontier UAG dominance and growth [18][22]."
+    },
+    {
+      "insight": "The Gulf Clan expanded in Bolívar and Cesar in Magdalena Medio, adding layered pressure atop rising UAG activity and complicating local security dynamics.",
+      "context": "AGC/Clan del Golfo expansion alongside UAG growth [18][19]."
+    },
+    {
+      "insight": "In the southwest, FARC dissident fronts intensified across Cauca, Huila, and Valle (e.g., Jamundí, Toribío, Morales, La Plata), while El Tambo’s UAG share rose to 93%, illustrating a mixed mosaic of dissident and anonymous control.",
+      "context": "Municipal spikes tied to dissidents and UAG attribution in Cauca/Huila/Valle [23][17][22]."
+    },
+    {
+      "insight": "Urban and border nodes shifted modalities: Cúcuta increases featured extortion mentions, and Bogotá emerged post‑2022 with new extortion-linked reports, reflecting broader diffusion of intimidation economies.",
+      "context": "Modality shifts in key nodes Cúcuta and Bogotá [17]."
+    },
+    {
+      "insight": "Across multiple hotspots—Quibdó, Cartagena, El Tambo, Ocaña, Maicao—UAG attribution shares rose, clouding accountability even as coercion deepened.",
+      "context": "Widespread increase in UAG shares across municipalities [20][22][21]."
+    },
+    {
+      "insight": "Reductions in state-involved battles correlate negatively with rises in abduction/extortion mentions, with Arauca and Norte de Santander showing the clearest substitution patterns at the monthly level.",
+      "context": "Moderately strong negative national correlation and department-level substitution patterns [24]."
+    },
+    {
+      "insight": "Local heterogeneity matters: in Valle del Cauca and Antioquia, UAG-linked violence against civilians fell despite declines in state battles in some areas, reflecting differing criminal economies and rival balances.",
+      "context": "Contrasting departmental trends despite similar shifts in state kinetics [25]."
+    },
+    {
+      "insight": "State–rebel clashes reoriented geographically, rising most in Chocó, Nariño, southern Bolívar, and La Guajira, while declining in Norte de Santander and parts of Cauca and Antioquia.",
+      "context": "Departmental net changes in battles indicate new fronts and cooling in prior hotspots [26]."
+    },
+    {
+      "insight": "Municipality-level shifts were stark: Tibú’s battles fell to zero, while Quibdó, Sipí, Santa Rosa del Sur, and Riohacha saw new or intensified engagements from low baselines, aligning with the emergent fronts.",
+      "context": "Municipal redistribution of clashes post–Aug 2022 [27][28][29]."
+    },
+    {
+      "insight": "ELN dominates normalized engagement rates in several new clash nodes, while dissident structures proliferate in Cauca; concurrently, UAG attribution rises across municipalities, complicating verification and targeting.",
+      "context": "Post-period actor landscape in active nodes and attribution trends [30]."
+    },
+    {
+      "insight": "State posture adapted under talks: in some departments, battles declined while ‘strategic developments’ rose; however, state-involved VAC per month increased in Arauca and Bolívar, highlighting uneven protection outcomes.",
+      "context": "Mixed state response under negotiation constraints and department-specific VAC trends [31]."
+    },
+    {
+      "insight": "Documented dissident governance practices—community summons, fines, short-duration kidnappings—coexisted with intermittent clashes, including with the Gulf Clan, indicating parallel rule with episodic kinetic friction.",
+      "context": "On-the-ground enforcement forms and selective confrontations in contested zones [32]."
+    },
+    {
+      "insight": "The new equilibrium concentrates coercion in corridors where UAG attribution is rising and ELN/dissident structures are expanding, making accountability murkier while deepening civilian exposure to intimidation.",
+      "context": "Synthesis of spatial concentration and attribution opacity across identified corridors [18][20][22]."
+    },
+    {
+      "insight": "Effective policy response should not revert to blanket offensives but tighten ceasefire design and verification, protect civilians in high-substitution corridors, improve attribution, and calibrate pressure to deter intimidation-based governance while preserving talks.",
+      "context": "Prescriptive conclusion on safeguards and targeted enforcement compatible with negotiations [11][8][12]."
+    }
+  ],
+  "prompt": "Analyze Petro’s total peace policy in Colombia and its impact on violence v. armed groups."
+}

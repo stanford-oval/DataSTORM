@@ -1,0 +1,292 @@
+{
+  "total_insights": 28,
+  "total_classified": 28,
+  "acled_count": 19,
+  "non_acled_count": 9,
+  "pct_acled": 0.6785714285714286,
+  "details": [
+    {
+      "evidence": "Ukraine’s mid–late-2024 increase in air/drone strikes from Sumy into Russia’s Belgorod–Kursk shifted the conflict’s event geography northward and raised border-region lethality from a low base.",
+      "is_acled_data": true,
+      "reasoning": "Mentions a temporal shift in event geography and increased lethality in specific border regions tied to mid–late 2024 air/drone strikes, which aligns with ACLED’s event-based geocoded data, temporal patterns, and fatality trends. This is characteristic of ACLED-derived conflict event counts, locations, and lethality analysis.",
+      "source_context": "Key Findings; A New Latitude of Violence: The Northern Surge Takes Shape"
+    },
+    {
+      "evidence": "Ukrainian air/drone strike volumes in 2024 crested in August–October at roughly double the highest monthly pace of 2023, then eased toward year-end (e.g., Aug–Oct: 1,750, 2,126, 2,067; Nov–Dec: 1,759, 1,339).",
+      "is_acled_data": true,
+      "reasoning": "Monthly counts of Ukrainian air/drone strike events and trend patterns align with ACLED’s event-based time series (explosions/remote violence), including specific monthly volumes, which are characteristic of ACLED conflict event counts and temporal analysis.",
+      "source_context": "A New Latitude of Violence: The Northern Surge Takes Shape [1][2]"
+    },
+    {
+      "evidence": "Sumy became Ukraine’s top oblast for missile/air-related Explosions/Remote violence in 2024 (≈10,052 events), overtaking Donetsk, indicating a genuine geographic pivot rather than a uniform national increase.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites a specific count of events (≈10,052) for a defined event type (missile/air-related explosions/remote violence) at the subnational (oblast) level in 2024 and compares oblast rankings. These are hallmark ACLED metrics: event counts, event type categories, and geographic breakdowns used to identify temporal/spatial trends.",
+      "source_context": "A New Latitude of Violence: The Northern Surge Takes Shape [3]"
+    },
+    {
+      "evidence": "Belgorod and Kursk experienced large increases in ERV events in 2024 (Belgorod ≈8,340; Kursk ≈2,761), with Sumy’s share of a cross-border belt rising to about 22%.",
+      "is_acled_data": true,
+      "reasoning": "Mentions specific counts of Explosions/Remote Violence (ERV) events by region (Belgorod ≈8,340; Kursk ≈2,761) and a subnational share (Sumy’s portion of a cross-border belt ≈22%), which aligns with ACLED’s event-type classification, subnational event counts, and derived trend metrics. This is characteristic of ACLED-derived data.",
+      "source_context": "A New Latitude of Violence: The Northern Surge Takes Shape [4]"
+    },
+    {
+      "evidence": "Drones drove the northern pivot: by summer, Sumy shifted from shelling-dominant to air/drone-dominant, with air/drone strikes comprising about three-quarters of ERV in Sep–Oct; Chernihiv’s mix also shifted toward drones.",
+      "is_acled_data": true,
+      "reasoning": "The evidence discusses shifts in event types (shelling vs. air/drone strikes) by subnational regions (Sumy, Chernihiv) and provides proportions of ERV (explosions/remote violence) over specific months. This aligns with ACLED’s event-type categories, subnational geographic breakdowns, and temporal trend analysis derived from event data, suggesting it is based on ACLED-style metrics and categorizations.",
+      "source_context": "A New Latitude of Violence: The Northern Surge Takes Shape [5][6]"
+    },
+    {
+      "evidence": "Cross-border coupling intensified: air/drone strikes rose in Sumy and Chernihiv alongside surges in Belgorod and especially Kursk, which continued climbing into Q4 (Kursk quarterly air/drone strikes: 13 → 263 → 762 → 1,096).",
+      "is_acled_data": true,
+      "reasoning": "The evidence presents subnational, time-binned counts of air/drone strike events by region (Sumy, Chernihiv, Belgorod, Kursk) and a quarterly progression of strike counts, which aligns with ACLED’s event data and temporal trend analysis by location. The specificity of quarterly event counts strongly suggests ACLED-derived metrics.",
+      "source_context": "A New Latitude of Violence: The Northern Surge Takes Shape [7]"
+    },
+    {
+      "evidence": "Russian air defenses showed saturation: disrupted-to-strike ratios in Belgorod compressed from ~0.46 (Q1) to ~0.05 (Q3–Q4), and in Kursk from ~1.62 to ~0.09 over 2024, remaining low Aug–Dec (Belgorod ~0.04–0.06; Kursk ~0.07–0.14).",
+      "is_acled_data": false,
+      "reasoning": "The evidence presents technical strike-interception/saturation ratios for Russian air defenses in Belgorod and Kursk over specific quarters of 2024. ACLED tracks conflict events, fatalities, and temporal/spatial patterns, but it does not publish defense saturation or disrupted-to-strike efficiency ratios. These appear to be derived analytics on air defense performance rather than ACLED event metrics or summaries explicitly attributed to ACLED.",
+      "source_context": "A New Latitude of Violence: The Northern Surge Takes Shape [8][9]"
+    },
+    {
+      "evidence": "Lethality in the north rose from a low baseline: Sumy’s fatalities per ERV event roughly quintupled in 2024 to ~0.17 by Q4; Russia’s border oblasts saw higher lethality in Q3–Q4 even as event counts plateaued.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references fatalities per ERV (explosions/remote violence) event by subnational area (Sumy) and temporal quarters (Q3–Q4), as well as lethality trends in Russia’s border oblasts while event counts plateaued. These are specific ACLED-style metrics: event type (ERV), fatality counts per event, subnational geographic breakdowns, and temporal trend analysis—all core components of ACLED data and methodology.",
+      "source_context": "A New Latitude of Violence: The Northern Surge Takes Shape [10][11]"
+    },
+    {
+      "evidence": "Despite northern pressure, Russia sustained and intensified high-lethality battles on the Avdiivka–Pokrovsk axis through Q4 2024, keeping the eastern front as the principal locus of deadly combat.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a broad analytical claim about battle intensity and front-line focus without citing specific event counts, fatalities, locations, or ACLED attribution. It reads as general conflict analysis rather than a reference to ACLED event data or metrics.",
+      "source_context": "Key Findings; Saturation Without Decisive Suppression [12][13][14]"
+    },
+    {
+      "evidence": "Other axes diverged: Kupiansk–Lyman intensified steadily; Bakhmut–Chasiv Yar tapered late; Robotyne–Verbove continued to fade—reinforcing the east as the main concentration of battle fatalities.",
+      "is_acled_data": true,
+      "reasoning": "The evidence discusses subnational fronts (Kupiansk–Lyman, Bakhmut–Chasiv Yar, Robotyne–Verbove) and trends in intensity and fatalities, implying geographically specific conflict event trends and battle-related fatality concentrations—categories ACLED tracks (event counts, locations, temporal patterns, battle fatalities). While phrased analytically, it aligns with ACLED-derived trend analysis rather than general geopolitics.",
+      "source_context": "Saturation Without Decisive Suppression [12][13][14]"
+    },
+    {
+      "evidence": "Nationally, total monthly events rose from mid-thousands in 2023 to high-six-thousands by late 2024; fatalities per event increased, spiking in May–June and remaining elevated into winter.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references national monthly event counts and fatalities per event over time, including specific temporal spikes—metrics and trend analysis directly aligned with ACLED’s event-based data and temporal conflict patterns.",
+      "source_context": "Saturation Without Decisive Suppression [15]"
+    },
+    {
+      "evidence": "Battles drove the Q4 fatality surge (Nov–Dec among the year’s highest), while ERV produced large volumes and a fall uptick in deaths but remained less lethal per incident than battles.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references specific ACLED-style categories (battles vs. explosions/remote violence), temporal patterns (Q4, Nov–Dec surge), incident-level lethality comparisons, and fatalities—hallmark outputs from ACLED’s event and fatality data and conflict trend analysis.",
+      "source_context": "Saturation Without Decisive Suppression [16]"
+    },
+    {
+      "evidence": "In Q4 2024, Donetsk led both events and fatalities; Kherson had the highest lethality per event; Sumy had very high activity but lower deaths per incident, contrasting northern saturation with eastern/southern slaughter.",
+      "is_acled_data": true,
+      "reasoning": "The statement references subnational event counts, fatality totals, and lethality per event by oblast (Donetsk, Kherson, Sumy) in a specific time period (Q4 2024). These are typical ACLED metrics: event counts, fatalities, lethality ratios, geographic breakdowns, and temporal trends. This aligns with ACLED-derived analysis rather than general commentary.",
+      "source_context": "Saturation Without Decisive Suppression [17]"
+    },
+    {
+      "evidence": "Within ERV, Sumy exhibited high activity with low per-event lethality, while Kharkiv and Donetsk showed higher ERV lethality rates than Sumy.",
+      "is_acled_data": true,
+      "reasoning": "The statement references ERV (Explosions/Remote Violence) activity and compares per-event lethality across specific subnational areas (Sumy, Kharkiv, Donetsk). ACLED tracks event types including explosions/remote violence, event counts, locations, and fatalities, enabling per-event lethality metrics and subnational comparisons. This type of metric and geographic breakdown is consistent with analyses derived from ACLED event and fatality data.",
+      "source_context": "Saturation Without Decisive Suppression [18]"
+    },
+    {
+      "evidence": "Year-on-year, northern ERV volumes surged while eastern/southern volumes fell, but fatalities per event rose across all fronts—most sharply in the east—signaling deadlier strikes despite fewer incidents in some regions.",
+      "is_acled_data": true,
+      "reasoning": "Discusses year-on-year changes in explosions/remote violence (ERV) volumes, regional event counts, and fatalities per event—metrics directly aligned with ACLED event categories, temporal trends, subnational breakdowns, and fatality data.",
+      "source_context": "Saturation Without Decisive Suppression [19]"
+    },
+    {
+      "evidence": "Cross-border disruption did not suppress Russia’s main offensive engine: disrupted-weapons counts in Belgorod–Kursk–Bryansk peaked mid-year and declined as Avdiivka–Pokrovsk battle intensity and deaths rose quarter after quarter, showing weak/negative correlation.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references subnational locations (Belgorod–Kursk–Bryansk; Avdiivka–Pokrovsk), temporal patterns (peaked mid-year, quarter-over-quarter increases), battle intensity and deaths, and correlation between disrupted-weapons counts and fatalities—elements consistent with ACLED’s event, battle, and fatality data and trend analysis. While “disrupted-weapons counts” could be a specific operational metric, the framing ties it to event/fatality trends and subnational geographies typical of ACLED-derived analyses.",
+      "source_context": "Saturation Without Decisive Suppression [20][21]"
+    },
+    {
+      "evidence": "Logistics set limits on the northern campaign’s payoff: Russia adapted better to supply shocks, while Ukraine faced port blockages and shortages of trucks, railcars, and drivers, curbing sustained exploitation of gains.",
+      "is_acled_data": false,
+      "reasoning": "This is logistical and strategic analysis about supply chains and transport constraints; it does not reference specific conflict events, fatalities, locations, or ACLED-derived trend data. It appears as general commentary rather than ACLED event-based metrics.",
+      "source_context": "Mechanisms and Limits [22]"
+    },
+    {
+      "evidence": "Technological adaptation blunted decisive effects: Ukraine’s drone surge met improved Russian EW and force protection, keeping results localized; monthly air/drone strike volume showed virtually no correlation with disrupted-weapons events in 2024.",
+      "is_acled_data": false,
+      "reasoning": "The claim discusses correlations between air/drone strike volumes and disrupted-weapons events, plus technological adaptation and EW effects—this is analytical commentary about effectiveness and correlations not typically included in ACLED’s event-focused dataset. It lacks explicit ACLED attribution and references metrics (disrupted-weapons events) outside ACLED’s standard categories.",
+      "source_context": "Mechanisms and Limits [23][24]"
+    },
+    {
+      "evidence": "Higher strike activity in Russia’s border regions correlated positively (with a one-quarter lead) with eastern battle intensity on Avdiivka–Pokrovsk and Kupiansk–Lyman, suggesting timing alignment but not causation.",
+      "is_acled_data": true,
+      "reasoning": "The statement discusses correlations between strike activity in Russia’s border regions and battle intensity on specific front segments over time, implying use of event counts and temporal pattern analysis tied to subnational locations—typical of ACLED’s battle/remote violence event data and trend analysis. While it notes correlation not causation, this kind of lagged relationship and geographic specificity is consistent with analyses derived from ACLED event datasets.",
+      "source_context": "Mechanisms and Limits [25]"
+    },
+    {
+      "evidence": "The August 2024 Kursk incursion achieved initial gains but most ground was retaken by year’s end; Ukraine retained ~197 of ~470 square miles, highlighting rapid Russian counter-mobilization; Russian casualties peaked in December.",
+      "is_acled_data": false,
+      "reasoning": "The evidence discusses territorial control estimates (square miles retained), an assessment of rapid counter-mobilization, and a claim about casualty peaks in December without citing ACLED. ACLED provides event-level counts, fatalities, and temporal conflict trends, but it does not typically publish territorial control square mileage assessments or broad strategic evaluations unless explicitly tied to its event data. The phrasing appears as narrative analysis rather than direct ACLED-derived metrics, and no attribution to ACLED is given.",
+      "source_context": "Mechanisms and Limits [26]"
+    },
+    {
+      "evidence": "Geopolitically, Ukraine advanced toward NATO integration with stronger Western support, while regional states adjusted alliances amid perceptions of Russia’s battlefield advantage.",
+      "is_acled_data": false,
+      "reasoning": "The evidence is geopolitical analysis about NATO integration, Western support, and regional alliance shifts, not specific conflict event data, actor activity, or metrics typically provided by ACLED.",
+      "source_context": "Mechanisms and Limits [27][28]"
+    },
+    {
+      "evidence": "Energy-targeting incidents spiked nationwide in November 2024, with notable activity in Dnipropetrovsk, Sumy, and Zaporizhia; lethal civilian harm concentrated in Donetsk (Oct–Nov), with additional fatalities in Zaporizhia and Kherson.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites conflict event trends (energy-targeting incidents), specifies subnational locations (Dnipropetrovsk, Sumy, Zaporizhia, Donetsk, Kherson), time windows (Oct–Nov 2024), and mentions lethal civilian harm and fatalities. These align with ACLED’s event-based data, subnational geographic breakdowns, temporal trends, and violence against civilians/fatality statistics, which ACLED tracks. While not explicitly attributed, the structure matches typical ACLED-derived insights.",
+      "source_context": "Human Stakes [29][30][31]"
+    },
+    {
+      "evidence": "Sumy’s risk profile evolved: ERV volumes surged and fatalities per ERV event increased into Q4, especially from shelling, which more than tripled its average lethality from summer to late autumn.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references “explosions/remote violence (ERV)” volumes, fatalities per ERV event, lethality of shelling, and temporal shifts (summer to late autumn) in a specific subnational area (Sumy). These are ACLED-typical metrics: event type categories (ERV), subnational event counts, and fatality statistics with temporal trend analysis, all characteristic of ACLED-derived analyses.",
+      "source_context": "Human Stakes [11][32]"
+    },
+    {
+      "evidence": "Across Ukraine, fatalities per remote-violence event climbed in Q4 2024 on all fronts—sharpest in the east but significant in the north—indicating a deadlier environment amid dispersed event patterns.",
+      "is_acled_data": true,
+      "reasoning": "Mentions fatalities per remote-violence event, temporal change (Q4 2024), and subnational fronts, which aligns with ACLED’s event-type categories, fatality counts, and temporal/geographic trend analysis derived from ACLED data.",
+      "source_context": "Human Stakes [19]"
+    },
+    {
+      "evidence": "Inside Russia’s borderlands, late-2024 saw Kursk grow deadlier as battles escalated and violence against civilians became more lethal per event; Belgorod had earlier high battle lethality alongside large volumes of low-lethality explosions.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references subnational locations (Kursk, Belgorod) and discusses temporal conflict trends, battle escalation, event-type categories (battles vs. explosions/remote violence), violence against civilians, and lethality per event—metrics consistent with ACLED’s event counts, event types, and fatality statistics. This aligns with ACLED-derived analysis rather than general commentary.",
+      "source_context": "Human Stakes [33]"
+    },
+    {
+      "evidence": "Humanitarian operations faced worsening constraints heading into winter 2024–2025: intensified fighting, energy infrastructure attacks, and expected blackouts complicated access despite substantial donor commitments.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general humanitarian operations assessment about access constraints and expected blackouts; it lacks specific ACLED-style event data (counts, locations, actor activity, fatalities) or attribution to ACLED. This is more akin to humanitarian/energy infrastructure impact commentary rather than ACLED-derived metrics.",
+      "source_context": "Human Stakes [34][35]"
+    },
+    {
+      "evidence": "Operational shifts between Ukrainian axes (e.g., Bakhmut–Chasiv Yar vs Kupiansk–Lyman) and decreased disrupted-weapons use in adjacent Russian border regions complicated humanitarian planning and access routes.",
+      "is_acled_data": false,
+      "reasoning": "The statement is an analytical observation about operational shifts between fronts and impacts on humanitarian planning/access. It does not reference specific ACLED event counts, locations, fatalities, actor-level data, or ACLED-derived trend metrics. It reads as general conflict analysis rather than data explicitly tied to ACLED event information.",
+      "source_context": "Human Stakes [36]"
+    },
+    {
+      "evidence": "Overall conclusion: Ukraine’s northern gambit compressed Russia’s interception margins and imposed costs in Belgorod–Kursk, modestly raising border lethality, but did not decisively suppress Russia’s main offensives; strategy for 2025 must integrate sustained northern disruption, hardened civilian infrastructure, and reinforced eastern defenses.",
+      "is_acled_data": false,
+      "reasoning": "The evidence is a strategic, qualitative conclusion about tactics and 2025 planning, without citing event counts, fatalities, locations, or actor-level data. It is general analysis and not explicitly grounded in ACLED event data or attributed to ACLED.",
+      "source_context": "Conclusion [21][16][19][9]"
+    }
+  ],
+  "insights": [
+    {
+      "insight": "Ukraine’s mid–late-2024 increase in air/drone strikes from Sumy into Russia’s Belgorod–Kursk shifted the conflict’s event geography northward and raised border-region lethality from a low base.",
+      "context": "Key Findings; A New Latitude of Violence: The Northern Surge Takes Shape"
+    },
+    {
+      "insight": "Ukrainian air/drone strike volumes in 2024 crested in August–October at roughly double the highest monthly pace of 2023, then eased toward year-end (e.g., Aug–Oct: 1,750, 2,126, 2,067; Nov–Dec: 1,759, 1,339).",
+      "context": "A New Latitude of Violence: The Northern Surge Takes Shape [1][2]"
+    },
+    {
+      "insight": "Sumy became Ukraine’s top oblast for missile/air-related Explosions/Remote violence in 2024 (≈10,052 events), overtaking Donetsk, indicating a genuine geographic pivot rather than a uniform national increase.",
+      "context": "A New Latitude of Violence: The Northern Surge Takes Shape [3]"
+    },
+    {
+      "insight": "Belgorod and Kursk experienced large increases in ERV events in 2024 (Belgorod ≈8,340; Kursk ≈2,761), with Sumy’s share of a cross-border belt rising to about 22%.",
+      "context": "A New Latitude of Violence: The Northern Surge Takes Shape [4]"
+    },
+    {
+      "insight": "Drones drove the northern pivot: by summer, Sumy shifted from shelling-dominant to air/drone-dominant, with air/drone strikes comprising about three-quarters of ERV in Sep–Oct; Chernihiv’s mix also shifted toward drones.",
+      "context": "A New Latitude of Violence: The Northern Surge Takes Shape [5][6]"
+    },
+    {
+      "insight": "Cross-border coupling intensified: air/drone strikes rose in Sumy and Chernihiv alongside surges in Belgorod and especially Kursk, which continued climbing into Q4 (Kursk quarterly air/drone strikes: 13 → 263 → 762 → 1,096).",
+      "context": "A New Latitude of Violence: The Northern Surge Takes Shape [7]"
+    },
+    {
+      "insight": "Russian air defenses showed saturation: disrupted-to-strike ratios in Belgorod compressed from ~0.46 (Q1) to ~0.05 (Q3–Q4), and in Kursk from ~1.62 to ~0.09 over 2024, remaining low Aug–Dec (Belgorod ~0.04–0.06; Kursk ~0.07–0.14).",
+      "context": "A New Latitude of Violence: The Northern Surge Takes Shape [8][9]"
+    },
+    {
+      "insight": "Lethality in the north rose from a low baseline: Sumy’s fatalities per ERV event roughly quintupled in 2024 to ~0.17 by Q4; Russia’s border oblasts saw higher lethality in Q3–Q4 even as event counts plateaued.",
+      "context": "A New Latitude of Violence: The Northern Surge Takes Shape [10][11]"
+    },
+    {
+      "insight": "Despite northern pressure, Russia sustained and intensified high-lethality battles on the Avdiivka–Pokrovsk axis through Q4 2024, keeping the eastern front as the principal locus of deadly combat.",
+      "context": "Key Findings; Saturation Without Decisive Suppression [12][13][14]"
+    },
+    {
+      "insight": "Other axes diverged: Kupiansk–Lyman intensified steadily; Bakhmut–Chasiv Yar tapered late; Robotyne–Verbove continued to fade—reinforcing the east as the main concentration of battle fatalities.",
+      "context": "Saturation Without Decisive Suppression [12][13][14]"
+    },
+    {
+      "insight": "Nationally, total monthly events rose from mid-thousands in 2023 to high-six-thousands by late 2024; fatalities per event increased, spiking in May–June and remaining elevated into winter.",
+      "context": "Saturation Without Decisive Suppression [15]"
+    },
+    {
+      "insight": "Battles drove the Q4 fatality surge (Nov–Dec among the year’s highest), while ERV produced large volumes and a fall uptick in deaths but remained less lethal per incident than battles.",
+      "context": "Saturation Without Decisive Suppression [16]"
+    },
+    {
+      "insight": "In Q4 2024, Donetsk led both events and fatalities; Kherson had the highest lethality per event; Sumy had very high activity but lower deaths per incident, contrasting northern saturation with eastern/southern slaughter.",
+      "context": "Saturation Without Decisive Suppression [17]"
+    },
+    {
+      "insight": "Within ERV, Sumy exhibited high activity with low per-event lethality, while Kharkiv and Donetsk showed higher ERV lethality rates than Sumy.",
+      "context": "Saturation Without Decisive Suppression [18]"
+    },
+    {
+      "insight": "Year-on-year, northern ERV volumes surged while eastern/southern volumes fell, but fatalities per event rose across all fronts—most sharply in the east—signaling deadlier strikes despite fewer incidents in some regions.",
+      "context": "Saturation Without Decisive Suppression [19]"
+    },
+    {
+      "insight": "Cross-border disruption did not suppress Russia’s main offensive engine: disrupted-weapons counts in Belgorod–Kursk–Bryansk peaked mid-year and declined as Avdiivka–Pokrovsk battle intensity and deaths rose quarter after quarter, showing weak/negative correlation.",
+      "context": "Saturation Without Decisive Suppression [20][21]"
+    },
+    {
+      "insight": "Logistics set limits on the northern campaign’s payoff: Russia adapted better to supply shocks, while Ukraine faced port blockages and shortages of trucks, railcars, and drivers, curbing sustained exploitation of gains.",
+      "context": "Mechanisms and Limits [22]"
+    },
+    {
+      "insight": "Technological adaptation blunted decisive effects: Ukraine’s drone surge met improved Russian EW and force protection, keeping results localized; monthly air/drone strike volume showed virtually no correlation with disrupted-weapons events in 2024.",
+      "context": "Mechanisms and Limits [23][24]"
+    },
+    {
+      "insight": "Higher strike activity in Russia’s border regions correlated positively (with a one-quarter lead) with eastern battle intensity on Avdiivka–Pokrovsk and Kupiansk–Lyman, suggesting timing alignment but not causation.",
+      "context": "Mechanisms and Limits [25]"
+    },
+    {
+      "insight": "The August 2024 Kursk incursion achieved initial gains but most ground was retaken by year’s end; Ukraine retained ~197 of ~470 square miles, highlighting rapid Russian counter-mobilization; Russian casualties peaked in December.",
+      "context": "Mechanisms and Limits [26]"
+    },
+    {
+      "insight": "Geopolitically, Ukraine advanced toward NATO integration with stronger Western support, while regional states adjusted alliances amid perceptions of Russia’s battlefield advantage.",
+      "context": "Mechanisms and Limits [27][28]"
+    },
+    {
+      "insight": "Energy-targeting incidents spiked nationwide in November 2024, with notable activity in Dnipropetrovsk, Sumy, and Zaporizhia; lethal civilian harm concentrated in Donetsk (Oct–Nov), with additional fatalities in Zaporizhia and Kherson.",
+      "context": "Human Stakes [29][30][31]"
+    },
+    {
+      "insight": "Sumy’s risk profile evolved: ERV volumes surged and fatalities per ERV event increased into Q4, especially from shelling, which more than tripled its average lethality from summer to late autumn.",
+      "context": "Human Stakes [11][32]"
+    },
+    {
+      "insight": "Across Ukraine, fatalities per remote-violence event climbed in Q4 2024 on all fronts—sharpest in the east but significant in the north—indicating a deadlier environment amid dispersed event patterns.",
+      "context": "Human Stakes [19]"
+    },
+    {
+      "insight": "Inside Russia’s borderlands, late-2024 saw Kursk grow deadlier as battles escalated and violence against civilians became more lethal per event; Belgorod had earlier high battle lethality alongside large volumes of low-lethality explosions.",
+      "context": "Human Stakes [33]"
+    },
+    {
+      "insight": "Humanitarian operations faced worsening constraints heading into winter 2024–2025: intensified fighting, energy infrastructure attacks, and expected blackouts complicated access despite substantial donor commitments.",
+      "context": "Human Stakes [34][35]"
+    },
+    {
+      "insight": "Operational shifts between Ukrainian axes (e.g., Bakhmut–Chasiv Yar vs Kupiansk–Lyman) and decreased disrupted-weapons use in adjacent Russian border regions complicated humanitarian planning and access routes.",
+      "context": "Human Stakes [36]"
+    },
+    {
+      "insight": "Overall conclusion: Ukraine’s northern gambit compressed Russia’s interception margins and imposed costs in Belgorod–Kursk, modestly raising border lethality, but did not decisively suppress Russia’s main offensives; strategy for 2025 must integrate sustained northern disruption, hardened civilian infrastructure, and reinforced eastern defenses.",
+      "context": "Conclusion [21][16][19][9]"
+    }
+  ],
+  "prompt": "Status of the Russian-Ukrainian conflict, as if we are at the end of 2024 heading into 2025."
+}

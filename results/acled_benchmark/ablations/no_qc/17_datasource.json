@@ -1,0 +1,342 @@
+{
+  "total_insights": 33,
+  "total_classified": 33,
+  "acled_count": 17,
+  "non_acled_count": 16,
+  "pct_acled": 0.5151515151515151,
+  "details": [
+    {
+      "evidence": "From 2018–2024, militarized crackdowns in Mexico did not produce sustained violence reductions; instead, late-2024 saw spikes in cartel-linked violence and a shift toward targeting civilians and politics.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a broad analytical claim about policy effectiveness and trends (militarized crackdowns not reducing violence and shifts toward targeting civilians/politics) without citing specific ACLED event counts, actor data, or temporal statistics. It reads as general analysis rather than explicit ACLED-derived metrics or attributions.",
+      "source_context": "Key findings and ACLED series showing mid–late 2024 spikes and substitution toward civilian/political targeting."
+    },
+    {
+      "evidence": "Cartels increasingly substituted away from open battles to coercive governance tactics—extortion, intimidation, property attacks—evidenced by far more civilian-targeting incidents than armed clashes in 2024.",
+      "is_acled_data": true,
+      "reasoning": "The claim contrasts counts of civilian-targeting incidents versus armed clashes in 2024, which aligns with ACLED’s event-type data (violence against civilians vs. battles) and trend analysis derived from event counts. This type of evidence is characteristic of ACLED datasets and metrics.",
+      "source_context": "ACLED data noting ~2,922 civilian-targeting incidents vs. 638 clashes across 2024."
+    },
+    {
+      "evidence": "High impunity (near 95%) and weak, mistrusted municipal policing blunted deterrence, enabling coercive control despite deployments.",
+      "is_acled_data": false,
+      "reasoning": "The statement about 95% impunity and mistrusted municipal policing is a governance/justice metric and qualitative assessment, not event-based conflict data. It is not tied to ACLED’s event counts, fatalities, or actor-level records, nor attributed to ACLED.",
+      "source_context": "Discussion of structural impunity and low trust in municipal police undermining enforcement-only strategies."
+    },
+    {
+      "evidence": "Fragmentation and diversification within and among groups—especially CJNG turbulence, use of IEDs/drones, and municipal intimidation—better explain modality shifts than any pacification effect.",
+      "is_acled_data": false,
+      "reasoning": "This is an analytical interpretation about drivers of modality shifts (fragmentation, diversification, CJNG turbulence, drones/IEDs, municipal intimidation) without citing specific event counts, actor-level event data, or ACLED-attributed metrics. It reads as general analysis rather than direct use of ACLED event data.",
+      "source_context": "Key findings and 2024 trend explanations emphasizing fragmentation and tactical adaptation."
+    },
+    {
+      "evidence": "Late-2024 ACLED data show peak gang-tagged events in October (546) and November (529), contradicting claims of pacification.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific monthly counts of gang-tagged events in late 2024 and frames them as “ACLED data,” which aligns with ACLED’s event-count and temporal trend metrics derived from its conflict event dataset.",
+      "source_context": "From crackdowns to coercion section citing monthly event peaks."
+    },
+    {
+      "evidence": "Political violence mirrored broader trends: events and fatalities built into October 2024 (373 events, 468 fatalities) and stayed high in November.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific monthly counts of political violence events and fatalities (373 events, 468 fatalities) and references temporal trends. These are hallmark ACLED metrics (event counts and fatality figures over time) and align with ACLED’s conflict trend analysis derived from event data.",
+      "source_context": "Cartel-filtered political violence series pattern in 2024."
+    },
+    {
+      "evidence": "Abductions were not the main driver of the 2024 spike; they remained sparse and often decreased year-over-year.",
+      "is_acled_data": true,
+      "reasoning": "The statement discusses temporal patterns in a specific event type (abductions) and their contribution to a 2024 spike, implying event counts and year-over-year trends from conflict data. ACLED tracks violence against civilians, including abductions, and provides temporal trend analysis, so this insight is consistent with ACLED-derived data.",
+      "source_context": "Note that abductions did not drive the mid-late 2024 surge."
+    },
+    {
+      "evidence": "ACLED coding may undercount cartel-on-cartel fighting; analysts must triangulate actor tags and narratives to capture competition manifesting as civilian targeting or attacks on security forces.",
+      "is_acled_data": true,
+      "reasoning": "The statement discusses ACLED’s coding and actor tags, implying knowledge of ACLED methodology and limitations (undercounting cartel-on-cartel fighting and need to triangulate narratives). This is directly tied to ACLED data structure and practices, so it is derived from ACLED.",
+      "source_context": "Methodological caution on interaction coding and the need to read narrative fields."
+    },
+    {
+      "evidence": "Explosive incidents (IEDs, car bombs, drone-delivered devices) roughly doubled nationally from 2023 to 2024 (86 vs. 45), concentrated in Guerrero and Michoacán.",
+      "is_acled_data": true,
+      "reasoning": "The statement provides specific counts and temporal comparison of explosive incidents (a conflict event category ACLED tracks under explosions/remote violence) with subnational concentration in Guerrero and Michoacán. This aligns with ACLED’s event counts, temporal trends, and geographic breakdowns, indicating it is likely derived from ACLED data.",
+      "source_context": "Geographies section reporting 2024 explosive incident counts and hotspots."
+    },
+    {
+      "evidence": "Cartels used remote and area-denial tactics: La Familia Michoacana deployed drone-dropped explosives for coercive displacement in Guerrero; CJNG used landmines and explosive drones against military patrols in Michoacán.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific armed group tactics, locations (Guerrero, Michoacán), actors (La Familia Michoacana, CJNG), and modalities (drone-dropped explosives, landmines) against particular targets (military patrols), which aligns with ACLED-style event descriptions of explosions/remote violence and actor activity. This granular incident-level detail is characteristic of ACLED data.",
+      "source_context": "Event narratives detailing coercive displacement and explosive use."
+    },
+    {
+      "evidence": "Municipal hotspots showed diversification: Apatzingán had a CJNG surge (nearly 4x 2023 incidents) with clashes and IEDs; Buenavista and Parácuaro also increased.",
+      "is_acled_data": true,
+      "reasoning": "Mentions municipal hotspots, specific cartel activity, event count changes (nearly 4x 2023 incidents), and event types (clashes, IEDs) at specific locations—this aligns with ACLED’s subnational event counts, actor activity, and event-type data over time.",
+      "source_context": "Municipal battleground mapping in Michoacán."
+    },
+    {
+      "evidence": "Urban hubs experienced durable civilian-targeting volumes indicating extortion economies and coercive governance: Culiacán (371), León (161), Tijuana (143), Acapulco (126).",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific counts of civilian-targeting incidents in particular cities, consistent with ACLED’s violence against civilians event counts and subnational location data. The framing (civilian-targeting volumes by city with numeric totals) matches ACLED-style event data and geographic breakdowns.",
+      "source_context": "Urban civilian-targeting counts reflecting coercive control rather than episodic terror."
+    },
+    {
+      "evidence": "Guanajuato featured targeted killings and clashes involving state and federal forces, with Santa Rosa de Lima active across both modalities.",
+      "is_acled_data": true,
+      "reasoning": "The statement references specific conflict modalities (targeted killings, clashes), actors (state/federal forces, Santa Rosa de Lima), and geographic context (Guanajuato), which aligns with ACLED’s event- and actor-level data and descriptions of battles and violence against civilians.",
+      "source_context": "State-specific dynamics combining clashes and targeted killings."
+    },
+    {
+      "evidence": "The competitive landscape fractured: CJNG and Sinaloa dominated incident shares amid a long tail of mid-tier groups, fueling municipal contests from Chiapas to the Pacific coast.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a high-level analytical claim about group dominance and competitive landscape across regions without citing specific event counts, locations, or actor-level metrics tied to ACLED. It reads as general commentary rather than a direct use of ACLED event data or statistics.",
+      "source_context": "Group shares and proliferation of mid-tier groups driving local contests."
+    },
+    {
+      "evidence": "Border municipalities had mixed trajectories—some rising, others falling—consistent with displacement and reconfiguration rather than net reduction.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a qualitative analytical observation about trends in border municipalities and displacement/reconfiguration without citing specific ACLED event counts, actor data, or geographic event breakdowns. It reads as general analysis rather than a direct reference to ACLED-derived metrics.",
+      "source_context": "Geographical trends along the border indicating reconfiguration."
+    },
+    {
+      "evidence": "Puebla showed elevated civilian-targeting rates, including notable counts in the capital, signaling local capture pressures.",
+      "is_acled_data": true,
+      "reasoning": "The statement references elevated civilian-targeting rates and notable counts in a specific location (Puebla and its capital), which aligns with ACLED’s subnational event data and violence against civilians statistics. This type of metric and geographic specificity is characteristic of ACLED-derived analysis.",
+      "source_context": "State-level mention of Puebla’s elevated rates."
+    },
+    {
+      "evidence": "Election timing catalyzed strategic coercion: May 2024 saw 81 non-fatal attacks on officials/candidates, with assassinations in March–June, indicating deliberate intimidation strategies.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific counts of targeted political violence events (81 non-fatal attacks on officials/candidates in May 2024) and references temporal patterns around assassinations (March–June), which aligns with ACLED’s event-based data on violence against civilians, actor targeting, and time trends. This type of quantified event count by month and actor category is characteristic of ACLED datasets.",
+      "source_context": "Elections under duress section detailing warning waves and assassinations."
+    },
+    {
+      "evidence": "Event types in 2024 were dominated by civilian and property attacks—about five times armed clashes—consistent with extortion-backed pacification rather than territorial battles.",
+      "is_acled_data": true,
+      "reasoning": "References to event types in 2024 and a quantitative comparison (civilian/property attacks about five times armed clashes) align with ACLED’s event taxonomy and counts (violence against civilians vs. battles), indicating use of ACLED event data and trend analysis.",
+      "source_context": "Event-type comparison reinforcing coercive governance tactics."
+    },
+    {
+      "evidence": "Multiple major groups engaged in civilian targeting; CJNG often appeared, with incidents involving administrators, prison staff, and municipal-linked spaces.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references specific patterns of violence against civilians and mentions a particular armed group (CJNG) and targeted actor types (administrators, prison staff, municipal-linked spaces), which aligns with ACLED’s event- and actor-level data on violence against civilians and armed group activity. This type of detail is characteristic of insights derived from ACLED incident/event data rather than general commentary.",
+      "source_context": "Named-perpetrator records showing breadth of civilian targeting."
+    },
+    {
+      "evidence": "Lethality was calibrated: hotspots like Juárez (~2 deaths/event), Chilpancingo (~1.8), and Celaya (~1.4) mixed selective high-impact strikes with frequent lower-fatality intimidation.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites location-specific average fatalities per event (e.g., ~2 deaths/event in Juárez), which aligns with ACLED’s event-level fatality counts and subnational geocoded conflict data enabling per-event lethality calculations by location. This type of metric is directly derivable from ACLED’s event and fatality data.",
+      "source_context": "Fatalities-per-event metrics indicating strategy."
+    },
+    {
+      "evidence": "Most top states had more gang-linked political violence in 2024 than 2023, notably Sinaloa (314 vs. 140) and Tabasco (208 vs. 60).",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific subnational counts of gang-linked political violence by state and compares 2024 vs. 2023 totals, which aligns with ACLED’s event count data, temporal trend analysis, and actor-linked political violence metrics at the state level.",
+      "source_context": "Year-over-year state comparisons for political violence."
+    },
+    {
+      "evidence": "Banner threats near schools/prisons and episodic clashes late in 2024 by CJNG and Santa Rosa de Lima signaled persistent fragmentation and social control in lieu of open conflict.",
+      "is_acled_data": false,
+      "reasoning": "The statement is qualitative analysis about banners and episodic clashes indicating fragmentation and social control, without citing specific event counts, locations, dates, fatalities, or explicit attribution to ACLED. It reads as general analytical commentary rather than derived from ACLED event data.",
+      "source_context": "Late-year entries describing narcomantas and selective clashes."
+    },
+    {
+      "evidence": "Campaign-season coercion converts into post-election rents via municipal accommodation; reversing this requires protecting officials and shrinking financial/material resources of groups.",
+      "is_acled_data": false,
+      "reasoning": "This is a qualitative, political-economy statement about electoral coercion translating into rents and policy prescriptions. It is not citing specific conflict events, actors, fatalities, locations, or ACLED-derived trend metrics. Therefore it is general analysis, not ACLED data.",
+      "source_context": "Conversion mechanism from electoral intimidation to municipal capture."
+    },
+    {
+      "evidence": "Durable improvement in 2025 likely depends on aligned anti-corruption/AML enforcement, tighter firearm-flow controls, protection for officials, and funded community initiatives.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a forward-looking policy assessment about what improvements depend on (anti-corruption/AML enforcement, firearm controls, protection for officials, community initiatives). It is not presenting event counts, actor data, fatalities, locations, or trends tied to ACLED datasets and is general analysis rather than ACLED-derived data.",
+      "source_context": "Key findings and policy blueprint emphasizing coordinated triad and community programs."
+    },
+    {
+      "evidence": "Mexico’s lawsuit against U.S. gun manufacturers elevated southbound firearm control as a necessary complement to enforcement and binational coordination.",
+      "is_acled_data": false,
+      "reasoning": "This statement concerns a Mexican government lawsuit and policy emphasis on controlling southbound firearms. It reflects policy/legal actions and analysis, not conflict event data, fatalities, or actor/event statistics from ACLED. There is no attribution to ACLED or use of ACLED-derived metrics.",
+      "source_context": "Policy context highlighting gun-flow oversight and cooperation."
+    },
+    {
+      "evidence": "Anti-corruption and AML cooperation can disrupt criminal financial networks and recover assets, degrading coercive capacity when paired with prosecutions.",
+      "is_acled_data": false,
+      "reasoning": "This is a general policy/analytical statement about anti-corruption and AML cooperation affecting criminal networks. It does not reference specific conflict events, actors, locations, fatalities, or ACLED-derived metrics or trends.",
+      "source_context": "Evidence that financial disruption works when integrated with justice actions."
+    },
+    {
+      "evidence": "Without prosecutions and asset freezes, military engagements simply relocate harm; weak justice enables market diversification and de facto authority by cartels.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical claim about the effects of weak justice and military engagements on cartel behavior, not citing specific conflict event counts, locations, fatalities, or actor-level data from ACLED. It reflects policy/structural analysis rather than ACLED-derived event data.",
+      "source_context": "Late-2024 patterns in Michoacán showing limits of deployments absent courtroom follow-through."
+    },
+    {
+      "evidence": "Impunity and low trust in municipal police mean deployments alone lack the audit, prosecution, and seizure tools to deter extortion and attacks on officials.",
+      "is_acled_data": false,
+      "reasoning": "The statement is qualitative analysis about impunity, police trust, and deterrence capacity. It does not reference event counts, locations, fatalities, actor data, or any ACLED-derived metrics, nor is it attributed to ACLED. It is general commentary rather than specific conflict event data.",
+      "source_context": "Structural constraints undermining deterrence without institutional backing."
+    },
+    {
+      "evidence": "Community-led prevention in 2024 delivered measurable safety and cohesion gains; sustaining impact requires funding, institutional support, and protected municipal space.",
+      "is_acled_data": false,
+      "reasoning": "The statement discusses community-led prevention outcomes and policy needs, which is general analysis about social programs and governance, not specific conflict event data, fatalities, actor activity, or trends derived from ACLED. No attribution to ACLED is present.",
+      "source_context": "Role and needs of community programs for 2025."
+    },
+    {
+      "evidence": "High-inequality municipalities have stronger recruitment pipelines and extortion economies unless paired socioeconomic and governance safeguards accompany security measures.",
+      "is_acled_data": false,
+      "reasoning": "This statement is a generalized analytical claim about socioeconomic inequality, recruitment, and extortion economies. It does not reference specific conflict event data, actor activity, locations, fatalities, or ACLED-derived indices or trends. It reads as policy/academic analysis rather than a direct use of ACLED event data.",
+      "source_context": "Structural drivers linking inequality to criminal governance resilience."
+    },
+    {
+      "evidence": "A practical 2025 plan includes vetted protection for candidates/officials, expanded prosecutorial and financial intelligence capacity, tighter southbound gun controls, and funded community programs tied to integrity compacts.",
+      "is_acled_data": false,
+      "reasoning": "The evidence is a policy/plan recommendation (protection for officials, prosecutorial capacity, gun controls, community programs). It is general analysis/prescription and not tied to specific ACLED event counts, actor data, fatalities, or geographic conflict metrics. Therefore, it is not derived from ACLED data.",
+      "source_context": "Blueprint bullet points outlining actionable steps."
+    },
+    {
+      "evidence": "A credible 2025 scoreboard should track monthly attacks on officials, extortion complaints, firearm-trace recoveries, asset seizures, and ACLED civilian-targeting rates to gauge alignment progress.",
+      "is_acled_data": true,
+      "reasoning": "The evidence explicitly references “ACLED civilian-targeting rates,” which is a metric derived from ACLED’s violence-against-civilians event data and actor/event coding. Other items listed (attacks on officials, etc.) are not necessarily ACLED, but the inclusion of an ACLED-specific metric indicates derivation from ACLED data.",
+      "source_context": "Conclusion proposing measurable indicators of success."
+    },
+    {
+      "evidence": "If justice, financial disruption, and protected local governance advance together, ACLED should show durable declines; if not, fragmentation and municipal capture will persist under impunity.",
+      "is_acled_data": false,
+      "reasoning": "This is a conditional analytical statement about governance and violence trends, not citing or describing specific ACLED event data, metrics, or findings. It’s general commentary rather than data derived from ACLED.",
+      "source_context": "Final assessment of outcomes contingent on coordinated institutional actions."
+    }
+  ],
+  "insights": [
+    {
+      "insight": "From 2018–2024, militarized crackdowns in Mexico did not produce sustained violence reductions; instead, late-2024 saw spikes in cartel-linked violence and a shift toward targeting civilians and politics.",
+      "context": "Key findings and ACLED series showing mid–late 2024 spikes and substitution toward civilian/political targeting."
+    },
+    {
+      "insight": "Cartels increasingly substituted away from open battles to coercive governance tactics—extortion, intimidation, property attacks—evidenced by far more civilian-targeting incidents than armed clashes in 2024.",
+      "context": "ACLED data noting ~2,922 civilian-targeting incidents vs. 638 clashes across 2024."
+    },
+    {
+      "insight": "High impunity (near 95%) and weak, mistrusted municipal policing blunted deterrence, enabling coercive control despite deployments.",
+      "context": "Discussion of structural impunity and low trust in municipal police undermining enforcement-only strategies."
+    },
+    {
+      "insight": "Fragmentation and diversification within and among groups—especially CJNG turbulence, use of IEDs/drones, and municipal intimidation—better explain modality shifts than any pacification effect.",
+      "context": "Key findings and 2024 trend explanations emphasizing fragmentation and tactical adaptation."
+    },
+    {
+      "insight": "Late-2024 ACLED data show peak gang-tagged events in October (546) and November (529), contradicting claims of pacification.",
+      "context": "From crackdowns to coercion section citing monthly event peaks."
+    },
+    {
+      "insight": "Political violence mirrored broader trends: events and fatalities built into October 2024 (373 events, 468 fatalities) and stayed high in November.",
+      "context": "Cartel-filtered political violence series pattern in 2024."
+    },
+    {
+      "insight": "Abductions were not the main driver of the 2024 spike; they remained sparse and often decreased year-over-year.",
+      "context": "Note that abductions did not drive the mid-late 2024 surge."
+    },
+    {
+      "insight": "ACLED coding may undercount cartel-on-cartel fighting; analysts must triangulate actor tags and narratives to capture competition manifesting as civilian targeting or attacks on security forces.",
+      "context": "Methodological caution on interaction coding and the need to read narrative fields."
+    },
+    {
+      "insight": "Explosive incidents (IEDs, car bombs, drone-delivered devices) roughly doubled nationally from 2023 to 2024 (86 vs. 45), concentrated in Guerrero and Michoacán.",
+      "context": "Geographies section reporting 2024 explosive incident counts and hotspots."
+    },
+    {
+      "insight": "Cartels used remote and area-denial tactics: La Familia Michoacana deployed drone-dropped explosives for coercive displacement in Guerrero; CJNG used landmines and explosive drones against military patrols in Michoacán.",
+      "context": "Event narratives detailing coercive displacement and explosive use."
+    },
+    {
+      "insight": "Municipal hotspots showed diversification: Apatzingán had a CJNG surge (nearly 4x 2023 incidents) with clashes and IEDs; Buenavista and Parácuaro also increased.",
+      "context": "Municipal battleground mapping in Michoacán."
+    },
+    {
+      "insight": "Urban hubs experienced durable civilian-targeting volumes indicating extortion economies and coercive governance: Culiacán (371), León (161), Tijuana (143), Acapulco (126).",
+      "context": "Urban civilian-targeting counts reflecting coercive control rather than episodic terror."
+    },
+    {
+      "insight": "Guanajuato featured targeted killings and clashes involving state and federal forces, with Santa Rosa de Lima active across both modalities.",
+      "context": "State-specific dynamics combining clashes and targeted killings."
+    },
+    {
+      "insight": "The competitive landscape fractured: CJNG and Sinaloa dominated incident shares amid a long tail of mid-tier groups, fueling municipal contests from Chiapas to the Pacific coast.",
+      "context": "Group shares and proliferation of mid-tier groups driving local contests."
+    },
+    {
+      "insight": "Border municipalities had mixed trajectories—some rising, others falling—consistent with displacement and reconfiguration rather than net reduction.",
+      "context": "Geographical trends along the border indicating reconfiguration."
+    },
+    {
+      "insight": "Puebla showed elevated civilian-targeting rates, including notable counts in the capital, signaling local capture pressures.",
+      "context": "State-level mention of Puebla’s elevated rates."
+    },
+    {
+      "insight": "Election timing catalyzed strategic coercion: May 2024 saw 81 non-fatal attacks on officials/candidates, with assassinations in March–June, indicating deliberate intimidation strategies.",
+      "context": "Elections under duress section detailing warning waves and assassinations."
+    },
+    {
+      "insight": "Event types in 2024 were dominated by civilian and property attacks—about five times armed clashes—consistent with extortion-backed pacification rather than territorial battles.",
+      "context": "Event-type comparison reinforcing coercive governance tactics."
+    },
+    {
+      "insight": "Multiple major groups engaged in civilian targeting; CJNG often appeared, with incidents involving administrators, prison staff, and municipal-linked spaces.",
+      "context": "Named-perpetrator records showing breadth of civilian targeting."
+    },
+    {
+      "insight": "Lethality was calibrated: hotspots like Juárez (~2 deaths/event), Chilpancingo (~1.8), and Celaya (~1.4) mixed selective high-impact strikes with frequent lower-fatality intimidation.",
+      "context": "Fatalities-per-event metrics indicating strategy."
+    },
+    {
+      "insight": "Most top states had more gang-linked political violence in 2024 than 2023, notably Sinaloa (314 vs. 140) and Tabasco (208 vs. 60).",
+      "context": "Year-over-year state comparisons for political violence."
+    },
+    {
+      "insight": "Banner threats near schools/prisons and episodic clashes late in 2024 by CJNG and Santa Rosa de Lima signaled persistent fragmentation and social control in lieu of open conflict.",
+      "context": "Late-year entries describing narcomantas and selective clashes."
+    },
+    {
+      "insight": "Campaign-season coercion converts into post-election rents via municipal accommodation; reversing this requires protecting officials and shrinking financial/material resources of groups.",
+      "context": "Conversion mechanism from electoral intimidation to municipal capture."
+    },
+    {
+      "insight": "Durable improvement in 2025 likely depends on aligned anti-corruption/AML enforcement, tighter firearm-flow controls, protection for officials, and funded community initiatives.",
+      "context": "Key findings and policy blueprint emphasizing coordinated triad and community programs."
+    },
+    {
+      "insight": "Mexico’s lawsuit against U.S. gun manufacturers elevated southbound firearm control as a necessary complement to enforcement and binational coordination.",
+      "context": "Policy context highlighting gun-flow oversight and cooperation."
+    },
+    {
+      "insight": "Anti-corruption and AML cooperation can disrupt criminal financial networks and recover assets, degrading coercive capacity when paired with prosecutions.",
+      "context": "Evidence that financial disruption works when integrated with justice actions."
+    },
+    {
+      "insight": "Without prosecutions and asset freezes, military engagements simply relocate harm; weak justice enables market diversification and de facto authority by cartels.",
+      "context": "Late-2024 patterns in Michoacán showing limits of deployments absent courtroom follow-through."
+    },
+    {
+      "insight": "Impunity and low trust in municipal police mean deployments alone lack the audit, prosecution, and seizure tools to deter extortion and attacks on officials.",
+      "context": "Structural constraints undermining deterrence without institutional backing."
+    },
+    {
+      "insight": "Community-led prevention in 2024 delivered measurable safety and cohesion gains; sustaining impact requires funding, institutional support, and protected municipal space.",
+      "context": "Role and needs of community programs for 2025."
+    },
+    {
+      "insight": "High-inequality municipalities have stronger recruitment pipelines and extortion economies unless paired socioeconomic and governance safeguards accompany security measures.",
+      "context": "Structural drivers linking inequality to criminal governance resilience."
+    },
+    {
+      "insight": "A practical 2025 plan includes vetted protection for candidates/officials, expanded prosecutorial and financial intelligence capacity, tighter southbound gun controls, and funded community programs tied to integrity compacts.",
+      "context": "Blueprint bullet points outlining actionable steps."
+    },
+    {
+      "insight": "A credible 2025 scoreboard should track monthly attacks on officials, extortion complaints, firearm-trace recoveries, asset seizures, and ACLED civilian-targeting rates to gauge alignment progress.",
+      "context": "Conclusion proposing measurable indicators of success."
+    },
+    {
+      "insight": "If justice, financial disruption, and protected local governance advance together, ACLED should show durable declines; if not, fragmentation and municipal capture will persist under impunity.",
+      "context": "Final assessment of outcomes contingent on coordinated institutional actions."
+    }
+  ],
+  "prompt": "Research gang violence in Mexico and its outlook in 2025, as if we are at the end of 2024 heading into 2025."
+}

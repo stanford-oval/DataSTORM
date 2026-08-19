@@ -1,0 +1,64 @@
+{
+  "criteria": [
+    {
+      "name": "Evolving cartel fragmentation",
+      "description": "Assess internal splits within major criminal organizations and how factional rivalries reshape power balances and fuel localized surges in violence."
+    },
+    {
+      "name": "Territorial diffusion of conflict",
+      "description": "Track how violence spreads beyond traditional hotspots into new regions as organizations exploit openings and contest emerging markets."
+    },
+    {
+      "name": "Shift to diversified revenue",
+      "description": "Examine gangs’ growing reliance on extortion, human smuggling, and fuel theft and how competition over these markets drives conflict dynamics."
+    },
+    {
+      "name": "Arms and tactics escalation",
+      "description": "Monitor increased use of explosives, drones, and remote attacks that enable asymmetric warfare and intimidation of civilians."
+    },
+    {
+      "name": "CJNG expansion opportunities",
+      "description": "Evaluate how one major group leverages rivals’ fragmentation to push into contested areas and forge opportunistic alliances, intensifying clashes."
+    },
+    {
+      "name": "Sinaloa network instability",
+      "description": "Analyze how internal rifts in a dominant network disrupt regional criminal ecosystems and trigger spillover violence in adjacent states."
+    },
+    {
+      "name": "State security posture shift",
+      "description": "Assess indications of a move from restraint to more assertive operations and how this affects confrontation rates and public security."
+    },
+    {
+      "name": "Militarization and human rights risks",
+      "description": "Evaluate the expanding role of military and quasi-military forces in public security and associated risks of abuses and civilian harm."
+    },
+    {
+      "name": "Political violence and co-optation",
+      "description": "Track intimidation, attacks, and co-optation of political actors as gangs seek influence over local governance and public institutions."
+    },
+    {
+      "name": "Judicial vulnerability and impunity",
+      "description": "Assess how reforms and institutional weaknesses may increase criminal penetration of the judiciary, undermining accountability and trust."
+    },
+    {
+      "name": "US policy pressure impacts",
+      "description": "Analyze how a harder external stance on drugs and migration shapes Mexico’s security strategy, enforcement priorities, and gang behavior."
+    },
+    {
+      "name": "Migration-crime nexus",
+      "description": "Monitor how tighter migration controls increase the profitability of human smuggling, funding gang expansion and intensifying route conflicts."
+    },
+    {
+      "name": "Civic harm and displacement",
+      "description": "Evaluate trends in civilian targeting, displacement, and community coercion as groups assert control and state responses intensify."
+    },
+    {
+      "name": "Market spillovers across regions",
+      "description": "Assess how conflicts over strategic markets (e.g., fuel theft, border control) in one state trigger knock-on violence in neighboring areas."
+    },
+    {
+      "name": "Prospects for short-term escalation",
+      "description": "Gauge likelihood of near-term upticks in clashes and lethality due to factional competition, opportunistic expansions, and assertive policing."
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "per_dimension": [
+    {
+      "dimension": "actor_entity",
+      "score": 1.0,
+      "num_concept_groups": 0,
+      "num_consistent_groups": 0,
+      "notes": "No repeated actor-matching concept across queries. One query (Q17) searches for 'Fano' via free-text across actor fields, and others aggregate by actor1/perpetrator in different analytical contexts; these do not form conflicting multi-query groups."
+    },
+    {
+      "dimension": "geography",
+      "score": 0.4,
+      "num_concept_groups": 5,
+      "num_consistent_groups": 2,
+      "notes": "Two concepts are consistently defined: 'rural battles' (geo_precision IN (2,3)) across Q8, Q9, Q18, Q19, Q21, Q22 and 'urban VAC' (geo_precision=1) across Q11, Q12, Q18, Q21, Q22, Q23, Q24, Q25. However, urban/rural classification is inconsistent in several places: Q0 uses a hard-coded location list, Q6 vs Q7 diverge on rural restriction for the same 'Battles' pull, and Q12 vs Q13 diverge on urban restriction for the same VAC pull. Q28 also implicitly classifies any non-geo_precision=1 as rural, which can differ from other queries that limit 'rural' strictly to (2,3)."
+    },
+    {
+      "dimension": "temporal",
+      "score": 1.0,
+      "num_concept_groups": 2,
+      "num_consistent_groups": 2,
+      "notes": "Shared time windows are applied consistently: most queries use Apr 1, 2023–Dec 31, 2024; 2024-only analyses (Q21, Q22) use year=2024; Q4 spans 2023–2024 via >=2023-01-01 and <2025-01-01, which is equivalent for that question."
+    },
+    {
+      "dimension": "event_taxonomy",
+      "score": 1.0,
+      "num_concept_groups": 5,
+      "num_consistent_groups": 5,
+      "notes": "Definitions are consistent where the same concept is used: 'political violence' (disorder_type IN ('Political violence','Political violence; Demonstrations')), 'Battles', 'Violence against civilians', 'Protests', and 'Explosions/Remote violence' are filtered uniformly across the relevant queries."
+    },
+    {
+      "dimension": "counting_aggregation",
+      "score": 1.0,
+      "num_concept_groups": 2,
+      "num_consistent_groups": 2,
+      "notes": "Where the same metric is computed across multiple queries (e.g., rural battle event/fatality tallies across Q8/Q9; urban VAC counts/fatalities per admin3 across Q11/Q25), aggregation choices (COUNT(*), SUM(fatalities)) are consistent. Minor cosmetic differences (e.g., COALESCE vs implicit NULL handling) do not change results."
+    },
+    {
+      "dimension": "population_scope",
+      "score": 1.0,
+      "num_concept_groups": 0,
+      "num_consistent_groups": 0,
+      "notes": "All queries consistently scope to country='Ethiopia' and admin1='Amhara' for the relevant analyses; no conflicting scoping choices were found."
+    }
+  ],
+  "conflicts": [
+    {
+      "dimension": "geography",
+      "concept": "Urban vs rural classification in Amhara (Apr 2023–Dec 2024)",
+      "query_indices": [
+        0,
+        28
+      ],
+      "predicate_a": "Q0: CASE WHEN lower(trim(location)) IN ('bahir dar','woldiya','debre markos','gonder','debre berhan','lalibela','shoa robit','merawi','kobo') THEN 'urban' ELSE 'rural' END",
+      "predicate_b": "Q28: CASE WHEN geo_precision = 1 THEN 'urban' WHEN geo_precision IN (2,3) THEN 'rural' ELSE 'rural' END",
+      "severity": "result-changing",
+      "explanation": "Q0 treats only a short, hard-coded list of towns as urban and classifies all other locations as rural, whereas Q28 (and most other queries) use ACLED's geo_precision to separate urban (1) vs rural (2,3). This will misclassify many urban centers not in the list, altering event/fatality splits."
+    },
+    {
+      "dimension": "geography",
+      "concept": "Battles in Amhara (Apr 2023–Dec 2024) – base pull",
+      "query_indices": [
+        6,
+        7
+      ],
+      "predicate_a": "Q6: event_type = 'Battles' AND event_date >= '2023-04-01' AND <= '2024-12-31'",
+      "predicate_b": "Q7: event_type = 'Battles' AND geo_precision IN (2,3) AND event_date >= '2023-04-01' AND <= '2024-12-31'",
+      "severity": "result-changing",
+      "explanation": "Both queries purport to pull the same Battles subset, but Q7 restricts to rural battles only. This will return different rows and counts for the same nominal concept."
+    },
+    {
+      "dimension": "geography",
+      "concept": "Violence against civilians (VAC) in Amhara (Apr 2023–Dec 2024) – base pull",
+      "query_indices": [
+        12,
+        13
+      ],
+      "predicate_a": "Q12: event_type = 'Violence against civilians' AND geo_precision = 1",
+      "predicate_b": "Q13: event_type = 'Violence against civilians' (no geo_precision filter)",
+      "severity": "result-changing",
+      "explanation": "Q12 limits to urban VAC while Q13 includes both urban and rural VAC for the same date-range and area, producing different result sets under the same query description."
+    },
+    {
+      "dimension": "geography",
+      "concept": "Rural designation handling for non-1/2/3 geo_precision",
+      "query_indices": [
+        28,
+        19
+      ],
+      "predicate_a": "Q28: ELSE 'rural' (any geo_precision not equal to 1 is classified as rural)",
+      "predicate_b": "Q19: rural defined strictly as geo_precision IN (2,3) for battles",
+      "severity": "cosmetic",
+      "explanation": "If any events have geo_precision outside {1,2,3} or NULL, Q28 will bucket them as rural while other queries exclude them from rural. In standard ACLED this is rare (geo_precision ∈ {1,2,3}), so impact is likely negligible but the definitions are not strictly identical."
+    },
+    {
+      "dimension": "geography",
+      "concept": "Urban event filtering requires location not null",
+      "query_indices": [
+        11,
+        12
+      ],
+      "predicate_a": "Q11: geo_precision = 1 AND location IS NOT NULL",
+      "predicate_b": "Q12: geo_precision = 1 (no location IS NOT NULL constraint)",
+      "severity": "cosmetic",
+      "explanation": "ACLED urban events (geo_precision=1) nearly always have non-null location strings, so adding location IS NOT NULL likely does not change rows. Still, it's an unnecessary divergence in the urban filter."
+    }
+  ],
+  "overall_score": 0.9,
+  "summary": "Temporal windows and event-type definitions are applied consistently across the report, and aggregation methods align where the same metrics are computed. The main inconsistencies are geographic: Q0’s ad hoc urban list versus the standard geo_precision approach, and divergent use of urban/rural filters in nominally equivalent pulls (Q6 vs Q7; Q12 vs Q13). These result-changing differences affect comparability of urban–rural splits and should be harmonized.",
+  "report_dir": "<repo>/datatalk/acled/9/Status_of_political_violence_in_Amhara_since_Fano_insurgency_began_in_April_2023.__20260323_191019",
+  "model": "gpt-5",
+  "num_queries": 30,
+  "applicable": true,
+  "id": 9
+}

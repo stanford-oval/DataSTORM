@@ -1,0 +1,143 @@
+{
+  "prompt": "What are the threats in Kenya with respect to communal militias and al-Shabaab. Focus on November 2024.",
+  "criteria": [
+    {
+      "name": "Shifts in political volatility",
+      "description": "Assess whether anticipated political unrest materializes or dissipates, and how leadership changes recalibrate tensions, protest dynamics, and elite bargaining."
+    },
+    {
+      "name": "Communal militia flashpoints",
+      "description": "Identify localized triggers for intercommunal violence, such as land, resource access, and displacement pressures, and track how disputes escalate into armed clashes."
+    },
+    {
+      "name": "State security response toolkit",
+      "description": "Examine the range of government responses to communal violence, including emergency designations, deployments, arrests or summons of leaders, and reconciliation efforts, and evaluate their effectiveness and risks."
+    },
+    {
+      "name": "Land and displacement pressures",
+      "description": "Analyze how land-use schemes, flood mitigation, and settlement planning alter perceptions of access and rights, fueling grievances that can mobilize militias."
+    },
+    {
+      "name": "Al-Shabaab cross-border threat",
+      "description": "Evaluate patterns of militant operations near the border, focusing on targeting of security installations, use of IEDs, and cross-border staging areas that enable attacks."
+    },
+    {
+      "name": "Geographic concentration of attacks",
+      "description": "Track clusters of militant and communal violence in specific sub-counties or wards, noting how proximity to borders, roads, or rivers shapes risk patterns."
+    },
+    {
+      "name": "Security force casualty and adaptation trends",
+      "description": "Observe how attacks against security forces evolve and how tactics shift in response, including base hardening, convoy procedures, and area denial measures."
+    },
+    {
+      "name": "Airpower signaling and deterrence",
+      "description": "Assess the use of information operations and threats of airstrikes as coercive signals, and whether these precede or substitute for kinetic action."
+    },
+    {
+      "name": "Regional diplomatic constraints",
+      "description": "Consider how tensions among neighboring or partner states shape Kenya’s willingness to conduct cross-border operations and influence escalation pathways."
+    },
+    {
+      "name": "Local elite mediation dynamics",
+      "description": "Evaluate how national and county-level leaders leverage crises for political positioning while facilitating or hindering conflict resolution and resource allocation."
+    },
+    {
+      "name": "Protest versus battle mix",
+      "description": "Monitor the balance between riots/protests and armed clashes, and what it reveals about the broader security environment and public grievance channels."
+    },
+    {
+      "name": "Border security permeability",
+      "description": "Analyze movement corridors and the ability of militants to infiltrate, withdraw, and resupply across the frontier, including the implications for sustained attack tempo."
+    },
+    {
+      "name": "Community protection and retaliation cycles",
+      "description": "Identify patterns of tit-for-tat violence, militia mobilization, and the role of vigilante or self-defense groups in escalating or dampening conflict."
+    },
+    {
+      "name": "Civilian harm and displacement patterns",
+      "description": "Track how violence affects civilian casualties, displacement, and access to services, and how that, in turn, influences recruitment and local support dynamics."
+    },
+    {
+      "name": "Institutional capacity and succession",
+      "description": "Assess how transitions in key security portfolios impact coordination, responsiveness, and policy continuity in addressing both communal and militant threats."
+    }
+  ],
+  "criterion_scores": [
+    {
+      "name": "Shifts in political volatility",
+      "score": 0.25,
+      "explanation": "The article largely focuses on operational security events and does not assess national political unrest, leadership changes, protest dynamics, or elite bargaining. It briefly contrasts communal raids and insurgent harassment but offers no analysis of political volatility or whether anticipated unrest materialized in November."
+    },
+    {
+      "name": "Communal militia flashpoints",
+      "score": 0.75,
+      "explanation": "It identifies localized communal violence in Meru, Isiolo, Samburu, Turkana, Baringo, Kitui, and briefly Garissa, highlighting cattle raids, property destruction, and occasional killings. It notes triggers around livestock theft and rangeland tensions, and describes escalation into brief gunfights. However, it lacks deeper exploration of specific disputes over land, water points, or displacement pressures as concrete triggers in named wards and misses detailed escalation pathways."
+    },
+    {
+      "name": "State security response toolkit",
+      "score": 0.5,
+      "explanation": "The article references police reservists, county security teams, recoveries, seizures, and intelligence-led operations, hinting at deployments and interdictions against al-Shabaab and communal raiders. It recommends policy measures (convoy hardening, route clearance, mediation) but does not evaluate actual effectiveness or risks of November actions, nor discuss emergency designations, arrests/summons of leaders, or reconciliation initiatives in detail."
+    },
+    {
+      "name": "Land and displacement pressures",
+      "score": 0.25,
+      "explanation": "While it situates communal violence in pastoral belts and implies rangeland resource pressures, it does not analyze land-use schemes, flood mitigation, settlement planning, or displacement dynamics as drivers. The linkage between access/rights perceptions and militia mobilization is only indirectly suggested through livestock theft without structural analysis."
+    },
+    {
+      "name": "Al-Shabaab cross-border threat",
+      "score": 0.9,
+      "explanation": "Strong coverage of patterns near the Somalia border with specific corridors (Mandera–Garissa, Fafi/Hulugho), focus on targeting security installations/convoys, IED use, camp probes, and cross-border adjacency. It emphasizes low-lethality harassment and a single deadly ambush, aligning with cross-border threat characterization. It could more explicitly discuss staging areas inside Somalia, but the spatial and tactical evaluation is robust."
+    },
+    {
+      "name": "Geographic concentration of attacks",
+      "score": 0.9,
+      "explanation": "The article clearly tracks clusters: Mandera South, Mandera East/Lafey, Fafi/Hulugho, Wajir East for al-Shabaab, and Meru, Isiolo, Samburu, Baringo, Kitui, Turkana for communal militias. It links risk to proximity to border corridors and roads, distinguishing convoy routes versus pastoral herding zones. Minor gaps include ward-level granularity, but overall concentration analysis is strong."
+    },
+    {
+      "name": "Security force casualty and adaptation trends",
+      "score": 0.75,
+      "explanation": "It details casualties among security forces, notably the Nov. 21 Wargadud ambush, and notes generally low-fatality IED incidents. It proposes adaptations (convoy hardening, route clearance, evacuation), but provides limited evidence of actual November changes in base hardening or convoy procedures. Trend characterization is good; adaptation tracking is inferential rather than documented."
+    },
+    {
+      "name": "Airpower signaling and deterrence",
+      "score": 0.0,
+      "explanation": "No mention of airpower, airstrike threats, or information operations as coercive signals. This criterion is not addressed."
+    },
+    {
+      "name": "Regional diplomatic constraints",
+      "score": 0.0,
+      "explanation": "The article does not discuss regional diplomatic dynamics or how relations with neighboring states (e.g., Somalia, Ethiopia) constrain Kenya’s cross-border operations or escalation pathways."
+    },
+    {
+      "name": "Local elite mediation dynamics",
+      "score": 0.25,
+      "explanation": "It references peace meetings and coordination efforts in some counties and suggests mediation as a policy recommendation, but does not analyze how national or county elites leverage crises for political positioning or materially facilitate/hinder resolution and resource allocation in November."
+    },
+    {
+      "name": "Protest versus battle mix",
+      "score": 0.25,
+      "explanation": "The piece emphasizes armed clashes, IEDs, and communal raids, and notes non-lethal property incidents. It does not systematically compare protests/riots versus battles or assess public grievance channels; only an implicit focus on violence types is present without protest tracking."
+    },
+    {
+      "name": "Border security permeability",
+      "score": 0.75,
+      "explanation": "It analyzes movement along frontier corridors, harassment of convoys, and IEDs impacting mobility, implying infiltration/resupply along Mandera–Garissa routes. However, it does not explicitly assess infiltration/withdrawal pathways, specific crossing points, or sustained tempo mechanisms across the frontier; still, the corridor-based logic captures permeability indirectly."
+    },
+    {
+      "name": "Community protection and retaliation cycles",
+      "score": 0.5,
+      "explanation": "The article mentions police reservists, rapid recoveries, and prevention of escalation, and suggests avoiding reprisal cycles. Yet it does not document tit-for-tat violence or detailed retaliation patterns among communities or vigilante groups in November; coverage is partial and more descriptive than analytical."
+    },
+    {
+      "name": "Civilian harm and displacement patterns",
+      "score": 0.5,
+      "explanation": "It notes that communal violence resulted in dispersed and generally low fatalities with some killings and property destruction, and that civilians experienced theft. It does not quantify civilian casualties, discuss displacement movements, service access, or how harm affects recruitment/support dynamics; only partial treatment."
+    },
+    {
+      "name": "Institutional capacity and succession",
+      "score": 0.0,
+      "explanation": "No discussion of transitions in key security portfolios, coordination, responsiveness, or policy continuity. The article does not address institutional succession or capacity shifts."
+    }
+  ],
+  "overall_score": 0.43666666666666665
+}

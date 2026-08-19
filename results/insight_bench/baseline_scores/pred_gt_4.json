@@ -1,0 +1,115 @@
+{
+  "dataset_id": 4,
+  "dataset_path": "data/notebooks/flag-4.json",
+  "metadata": {
+    "category": "Incidents Management",
+    "dataset_description": "The dataset comprises 500 entries simulating ServiceNow incidents table, detailing various attributes such as category, state, open and close dates, involved personnel, and incident specifics like description, and priority. It captures incident management activities with fields like 'opened_at', 'closed_at', 'assigned_to', 'short_description', and 'priority', reflecting the operational handling and urgency of issues across different locations and categories.",
+    "goal": "Identify and analyze increasing trends in the number of incidents assigned to understand the implications of these trends on workload and agent efficiency.",
+    "header": "Incident Category Trends Over Time (Flag 4)",
+    "role": "Strategic Planning Manager"
+  },
+  "predicted_insights": [
+    "The monthly average is ~38.5 incidents with a wide range of 26–46; November (26) was ~32% below average while December (44) was ~14% above, and the largest month-over-month swing was +18 from November to December, suggesting a year-end surge and a mid-year lull (June at 30).",
+    "Charlie’s growth rate (~0.29 incidents/month ≈ +3.5 per year) is over twice Fred’s (~1.6/year) and about six times Luke’s (~0.5/year), suggesting workload is increasingly concentrating toward Charlie and, to a lesser extent, Fred.",
+    "Although no agent had a monotonic rise, late-period spikes indicate transient workload/complexity surges: Beth’s average resolution time jumped to 332.1h in Feb 2024 (~2.6× her Q4’23 average ~126h), Fred’s rose to 363.2h (~2.2× his Q4’23 average ~162.6h), and Howard peaked at 308.2h in Jan 2024 (~1.8× his Q4’23 average ~175.9h) before dropping to 223.4h in Feb.",
+    "Luke Wilson shows the strongest positive relationship (r≈0.56), indicating his average resolution time tends to increase when his monthly workload rises, whereas Howard Johnson’s moderate negative relationship (r≈-0.23) suggests he maintains or improves efficiency as volume grows—highlighting that workload affects agents’ efficiency differently.",
+    "Luke Wilson’s workload not only grew the most (+10), but also showed high volatility (0 in Jan 2023, peaking at 14 in Apr 2023, ending at 10), while other assignees saw much smaller net changes (+2 for Beth Anglin and Fred Luddy, −3 for Charlie Whitherspoon, −6 for Howard Johnson), indicating a noticeable shift of incident allocation toward Luke over the period.",
+    "From May 2023 to Feb 2024, four of five assignees more than doubled their median resolution times—Beth +169%, Charlie +223%, Fred +181%, Luke +188%—and all hit their period peak in Feb except Howard (Jan), indicating lengthening cycle times that likely reflect growing workload or case complexity.",
+    "Charlie’s 13 in Dec‑2023 is the single highest monthly load for any assignee; across Jan‑2023 to Jan‑2024 Luke shows the largest net gain (+9) while Howard has the steepest drop (−6, −75%), and the monthly ranges (Beth 4–9, Charlie 3–13, Fred 2–10, Howard 2–9, Luke 0–9) suggest workload volatility shifted from Howard/Fred toward Charlie/Luke by year‑end.",
+    "High-priority work dominated across agents—multiple months at 1.00 for Howard (6/13), three for Luke, and a late-year plateau ≥0.857 for Charlie—suggesting a sustained workload skew toward urgent tickets, with Charlie exhibiting the clearest structural shift upward (from 0.50 in 2023-04 to ≥0.857 thereafter) while Fred showed a late-year spike (1.00 in 2023-10–12) followed by a sharp January drop (0.55).",
+    "The February 2024 median resolution time (307.5h) is about 56% higher than January 2024 and ~86% above the 2023 monthly-median average (~165h), signaling a recent slowdown that may indicate workload surges or efficiency bottlenecks.",
+    "Incident volumes were higher and more volatile in the second half of 2023 (avg 39.2 vs 37.2 in H1), with sharp rebounds after troughs (Jul +13, Dec +18) and Jan‑2024 at 42 (~9% above the period average of 38.5), indicating seasonal surges that could strain agent capacity without proactive staffing.",
+    "Workload has become highly concentrated in Hardware: its share of monthly assignments grew from ~24% (9 of 37) in 2023-01 to over 90% (41 of 44) by 2023-12 and ~95% (40 of 42) in 2024-01, implying a substantial shift that could strain Hardware staffing and impact agent efficiency if not rebalanced.",
+    "At this rate, the Hardware group’s median resolution time is rising by about 28 hours per year, and the sharp increase from 123.38 hours in 2023-11 to 228.42 hours in 2024-01 (+105 hours) signals escalating workload or complexity that may impact agent efficiency."
+  ],
+  "predicted_summary": "Workload growth is concentrated in the Hardware group and coincides with slower resolution: Hardware’s monthly assigned incidents rose steeply from 9 (Jan‑2023) to 41 (Dec‑2023) and 40 (Jan‑2024), the strongest upward trend across groups (slope +2.18 incidents/month). Over the same period, Hardware’s median time to resolve increased by about +2.30 hours per month, and the overall median spiked from a 2023 band of ~140–193 hours to 196.7 hours (Jan‑2024) and 307.5 hours (Feb‑2024), indicating that late‑2023/early‑2024 workload peaks align with longer resolution times.\nRising individual workloads show different efficiency impacts by agent: Luke Wilson saw the largest end‑to‑end increase in monthly assignments (+10 from Jan‑2023 to Jan‑2024) and a moderate positive correlation between monthly load and average resolution time (r = 0.558), suggesting his resolution times lengthen as his assignments grow; his high‑priority share also reached 1.00 in Aug, Sep, and Dec‑2023 and 0.90 in Jan‑2024. In contrast, Charlie Whitherspoon had the strongest upward assignment trend (slope +0.291 incidents/month) but a slightly negative load‑to‑time correlation (r = −0.114), implying he maintained or improved resolution times even as workload rose, despite a sustained high‑priority mix (≥0.857 since Sep‑2023 and a peak of 13 high‑priority cases in Dec‑2023). Fred Luddy showed a smaller upward trend (slope +0.132) with a weaker positive correlation (r = 0.317) amid high‑priority volatility (1.00 share Oct–Dec‑2023 dropping to 0.55 in Jan‑2024).\nLate‑year spikes in volume and severity align with early‑2024 slowdowns: Assigned incidents fluctuated around ~38/month in 2023 but peaked in Apr (46) and Dec (44) after a trough in Nov (26), including the largest month‑to‑month jump of the period from Nov to Dec (+18). At the same time, high‑priority proportions were elevated across multiple agents in late‑2023 (e.g., Beth Anglin at 1.00 in Nov, Fred Luddy at 1.00 Oct–Dec, Howard Johnson at 1.00 in Nov and Dec, Luke Wilson at 1.00 in Aug, Sep, and Dec, and Charlie Whitherspoon ≥0.857 since Sep), indicating the workload surge also skewed toward more urgent work. These conditions coincide with the overall median resolution time rising to 196.7 hours (Jan‑2024) and spiking to 307.5 hours (Feb‑2024).",
+  "score_insights": 0.3933598352240065,
+  "score_insights_dict": [
+    {
+      "gt_insight": "The increase in volume of incidents is seen slightly, need to investigate further to understand the trend.",
+      "pred_insight": "Incident volumes were higher and more volatile in the second half of 2023 (avg 39.2 vs 37.2 in H1), with sharp rebounds after troughs (Jul +13, Dec +18) and Jan‑2024 at 42 (~9% above the period average of 38.5), indicating seasonal surges that could strain agent capacity without proactive staffing.",
+      "score": 0.519636048714681
+    },
+    {
+      "gt_insight": "There is a no correlation between the volume of incidents and the TTR",
+      "pred_insight": "Although no agent had a monotonic rise, late-period spikes indicate transient workload/complexity surges: Beth’s average resolution time jumped to 332.1h in Feb 2024 (~2.6× her Q4’23 average ~126h), Fred’s rose to 363.2h (~2.2× his Q4’23 average ~162.6h), and Howard peaked at 308.2h in Jan 2024 (~1.8× his Q4’23 average ~175.9h) before dropping to 223.4h in Feb.",
+      "score": 0.1559376510371753
+    },
+    {
+      "gt_insight": "The time to resolution of incidents is uniform over time",
+      "pred_insight": "Luke Wilson shows the strongest positive relationship (r≈0.56), indicating his average resolution time tends to increase when his monthly workload rises, whereas Howard Johnson’s moderate negative relationship (r≈-0.23) suggests he maintains or improves efficiency as volume grows—highlighting that workload affects agents’ efficiency differently.",
+      "score": 0.21347655752016234
+    },
+    {
+      "gt_insight": "The increase in volume of incidents is seen only for one particular categpry i.e. Hardware",
+      "pred_insight": "Workload has become highly concentrated in Hardware: its share of monthly assignments grew from ~24% (9 of 37) in 2023-01 to over 90% (41 of 44) by 2023-12 and ~95% (40 of 42) in 2024-01, implying a substantial shift that could strain Hardware staffing and impact agent efficiency if not rebalanced.",
+      "score": 0.7685277600682126
+    },
+    {
+      "gt_insight": "The productivity is more or less uniform across all agents, and all of them manage to resolve incidents even though the volume increases over time",
+      "pred_insight": "Luke Wilson shows the strongest positive relationship (r≈0.56), indicating his average resolution time tends to increase when his monthly workload rises, whereas Howard Johnson’s moderate negative relationship (r≈-0.23) suggests he maintains or improves efficiency as volume grows—highlighting that workload affects agents’ efficiency differently.",
+      "score": 0.38696544319181025
+    },
+    {
+      "gt_insight": "1. **Regular Updates and Maintenance**: Establish a routine for regular updates and maintenance of all systems and hardware. This can help prevent the uniform aging and degradation of infrastructure.\\\n2. **Proactive Monitoring and Predictive Maintenance**: Utilize tools for proactive monitoring and predictive maintenance to identify and address potential issues before they result in incidents. Machine learning models can predict failure points based on historical data. \\\n3. **Effective diagnosis**: Identify the location and reason for Hardware failure. ",
+      "pred_insight": "Workload has become highly concentrated in Hardware: its share of monthly assignments grew from ~24% (9 of 37) in 2023-01 to over 90% (41 of 44) by 2023-12 and ~95% (40 of 42) in 2024-01, implying a substantial shift that could strain Hardware staffing and impact agent efficiency if not rebalanced.",
+      "score": 0.36758697435635734
+    },
+    {
+      "gt_insight": "If the number of Hardware incidents over time is linearly increasing, it suggests a specific device issue or trend affecting the entire location or infrastructure. Here are some potential reasons why this might be happening and strategies to avoid or mitigate such trends: \\\n    1. **Aging Infrastructure**: Over time, systems and hardware can age and become more prone to failures, leading to a steady increase in incidents across all categories if regular updates and maintenance are not performed \\\n    2. **Lack of Proactive Maintenance**: Without proactive maintenance and updates, systems may deteriorate uniformly, leading to increased incidents.",
+      "pred_insight": "Workload has become highly concentrated in Hardware: its share of monthly assignments grew from ~24% (9 of 37) in 2023-01 to over 90% (41 of 44) by 2023-12 and ~95% (40 of 42) in 2024-01, implying a substantial shift that could strain Hardware staffing and impact agent efficiency if not rebalanced.",
+      "score": 0.4558672610403069
+    },
+    {
+      "gt_insight": "Specific hardware issues are predominantly mentioned in incident descriptions",
+      "pred_insight": "Workload has become highly concentrated in Hardware: its share of monthly assignments grew from ~24% (9 of 37) in 2023-01 to over 90% (41 of 44) by 2023-12 and ~95% (40 of 42) in 2024-01, implying a substantial shift that could strain Hardware staffing and impact agent efficiency if not rebalanced.",
+      "score": 0.27888098586334614
+    }
+  ],
+  "score_summary": 0.7964757583882786,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.34956891012784963,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "The February 2024 median resolution time (307.5h) is about 56% higher than January 2024 and ~86% above the 2023 monthly-median average (~165h), signaling a recent slowdown that may indicate workload surges or efficiency bottlenecks.",
+      "gt_insight": "The increase in volume of incidents is seen slightly, need to investigate further to understand the trend.",
+      "score": 0.4362463219561926
+    },
+    {
+      "pred_insight": "Although no agent had a monotonic rise, late-period spikes indicate transient workload/complexity surges: Beth’s average resolution time jumped to 332.1h in Feb 2024 (~2.6× her Q4’23 average ~126h), Fred’s rose to 363.2h (~2.2× his Q4’23 average ~162.6h), and Howard peaked at 308.2h in Jan 2024 (~1.8× his Q4’23 average ~175.9h) before dropping to 223.4h in Feb.",
+      "gt_insight": "There is a no correlation between the volume of incidents and the TTR",
+      "score": 0.2488758419385016
+    },
+    {
+      "pred_insight": "High-priority work dominated across agents—multiple months at 1.00 for Howard (6/13), three for Luke, and a late-year plateau ≥0.857 for Charlie—suggesting a sustained workload skew toward urgent tickets, with Charlie exhibiting the clearest structural shift upward (from 0.50 in 2023-04 to ≥0.857 thereafter) while Fred showed a late-year spike (1.00 in 2023-10–12) followed by a sharp January drop (0.55).",
+      "gt_insight": "The time to resolution of incidents is uniform over time",
+      "score": 0.17373037937437105
+    },
+    {
+      "pred_insight": "Workload has become highly concentrated in Hardware: its share of monthly assignments grew from ~24% (9 of 37) in 2023-01 to over 90% (41 of 44) by 2023-12 and ~95% (40 of 42) in 2024-01, implying a substantial shift that could strain Hardware staffing and impact agent efficiency if not rebalanced.",
+      "gt_insight": "The increase in volume of incidents is seen only for one particular categpry i.e. Hardware",
+      "score": 0.5791676546393774
+    },
+    {
+      "pred_insight": "Although no agent had a monotonic rise, late-period spikes indicate transient workload/complexity surges: Beth’s average resolution time jumped to 332.1h in Feb 2024 (~2.6× her Q4’23 average ~126h), Fred’s rose to 363.2h (~2.2× his Q4’23 average ~162.6h), and Howard peaked at 308.2h in Jan 2024 (~1.8× his Q4’23 average ~175.9h) before dropping to 223.4h in Feb.",
+      "gt_insight": "The productivity is more or less uniform across all agents, and all of them manage to resolve incidents even though the volume increases over time",
+      "score": 0.31272941779406166
+    },
+    {
+      "pred_insight": "At this rate, the Hardware group’s median resolution time is rising by about 28 hours per year, and the sharp increase from 123.38 hours in 2023-11 to 228.42 hours in 2024-01 (+105 hours) signals escalating workload or complexity that may impact agent efficiency.",
+      "gt_insight": "1. **Regular Updates and Maintenance**: Establish a routine for regular updates and maintenance of all systems and hardware. This can help prevent the uniform aging and degradation of infrastructure.\\\n2. **Proactive Monitoring and Predictive Maintenance**: Utilize tools for proactive monitoring and predictive maintenance to identify and address potential issues before they result in incidents. Machine learning models can predict failure points based on historical data. \\\n3. **Effective diagnosis**: Identify the location and reason for Hardware failure. ",
+      "score": 0.3073191022101296
+    },
+    {
+      "pred_insight": "At this rate, the Hardware group’s median resolution time is rising by about 28 hours per year, and the sharp increase from 123.38 hours in 2023-11 to 228.42 hours in 2024-01 (+105 hours) signals escalating workload or complexity that may impact agent efficiency.",
+      "gt_insight": "If the number of Hardware incidents over time is linearly increasing, it suggests a specific device issue or trend affecting the entire location or infrastructure. Here are some potential reasons why this might be happening and strategies to avoid or mitigate such trends: \\\n    1. **Aging Infrastructure**: Over time, systems and hardware can age and become more prone to failures, leading to a steady increase in incidents across all categories if regular updates and maintenance are not performed \\\n    2. **Lack of Proactive Maintenance**: Without proactive maintenance and updates, systems may deteriorate uniformly, leading to increased incidents.",
+      "score": 0.42644174224124975
+    },
+    {
+      "pred_insight": "Workload has become highly concentrated in Hardware: its share of monthly assignments grew from ~24% (9 of 37) in 2023-01 to over 90% (41 of 44) by 2023-12 and ~95% (40 of 42) in 2024-01, implying a substantial shift that could strain Hardware staffing and impact agent efficiency if not rebalanced.",
+      "gt_insight": "Specific hardware issues are predominantly mentioned in incident descriptions",
+      "score": 0.3120408208689134
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.13829381665768625,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.8259491535819509
+}

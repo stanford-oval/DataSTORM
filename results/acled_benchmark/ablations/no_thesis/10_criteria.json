@@ -1,0 +1,143 @@
+{
+  "prompt": "What are the status of militants in Pakistan over the last year and what would be the outlook for conflicts involving militants in Pakistan going into 2025?",
+  "criteria": [
+    {
+      "name": "Political instability impact",
+      "description": "Assess how domestic political turmoil weakens policy coherence and creates openings for militant groups to expand influence and operations."
+    },
+    {
+      "name": "Geographic concentration of violence",
+      "description": "Examine where violence is clustered, especially frontier and peripheral regions, and how these hotspots shift or expand into new areas."
+    },
+    {
+      "name": "Baloch insurgency trajectory",
+      "description": "Evaluate the intensity, organization, and targeting patterns of separatist militants and how state responses affect recruitment and support."
+    },
+    {
+      "name": "Anti-state militancy in northwest",
+      "description": "Analyze trends in attacks against security forces, the entrenchment of militant presence, and efforts to establish parallel governance structures."
+    },
+    {
+      "name": "Sectarian conflict dynamics",
+      "description": "Track escalation risks from sectarian polarization, local disputes feeding retaliatory cycles, and militants’ attempts to exploit communal divisions."
+    },
+    {
+      "name": "Militant competition and alliances",
+      "description": "Monitor rivalries, splinters, and emerging alliances among militant groups and how these reshape tactics, targets, and territorial ambitions."
+    },
+    {
+      "name": "Urban and heartland spillover",
+      "description": "Assess signs of militant expansion into populous economic and political centers and implications for national-level security."
+    },
+    {
+      "name": "Cross-border sanctuaries and tensions",
+      "description": "Evaluate how cross-border safe havens, border clashes, and diplomatic frictions with neighbors influence militant capabilities and state responses."
+    },
+    {
+      "name": "Counterinsurgency approach and backlash",
+      "description": "Consider the balance between kinetic operations and political engagement, and how civilian harm, rights abuses, or foreign security involvement affect backlash and recruitment."
+    },
+    {
+      "name": "Propaganda and local support",
+      "description": "Analyze militants’ information strategies, language outreach, and messaging aimed at legitimizing their actions and winning local acceptance."
+    },
+    {
+      "name": "Security force capacity and morale",
+      "description": "Assess operational effectiveness, coordination across agencies and levels of government, and how fatigue or local hostility constrains sustained campaigns."
+    },
+    {
+      "name": "Economic and infrastructure targeting",
+      "description": "Track attacks on critical projects and external stakeholders, and how these influence investment, development plans, and security postures."
+    },
+    {
+      "name": "Judicial and governance vacuums",
+      "description": "Identify areas where state governance is weak or absent, enabling militant dispute resolution mechanisms and parallel institutions to take root."
+    },
+    {
+      "name": "Regional conflict entanglement",
+      "description": "Assess risks of the domestic militant landscape drawing the country into broader regional confrontations and tit-for-tat strikes."
+    },
+    {
+      "name": "Outlook for 2025 scenarios",
+      "description": "Develop scenarios ranging from containment to escalation, considering triggers like intensified operations, political rifts, or group realignments."
+    }
+  ],
+  "criterion_scores": [
+    {
+      "name": "Political instability impact",
+      "score": 0.5,
+      "explanation": "The article notes operational surges and lulls linked to security operations but does not explicitly analyze how Pakistan’s domestic political turmoil weakened policy coherence or created openings for militants. It hints at episodic sweeps and limited deterrence, implying policy inconsistency, yet lacks discussion of elections, civil-military rifts, or governance crises and their impact on militant expansion."
+    },
+    {
+      "name": "Geographic concentration of violence",
+      "score": 1.0,
+      "explanation": "Strong coverage. It identifies Kurram (KP) and Balochistan border districts (Kech, Panjgur, Quetta corridor) as hotspots, explains shifting intensities through late 2024, and contrasts patterns near Afghanistan vs Iran borders. It also highlights KP concentration for security-force targeting and early 2025 cooling across tracked districts."
+    },
+    {
+      "name": "Baloch insurgency trajectory",
+      "score": 0.5,
+      "explanation": "The piece references BLA/BLF absence in early 2025 and Iran-border hotspots (Kech, Panjgur) with clashes and protests, but provides little on the organization, recruitment, or targeting evolution of Baloch separatists, nor detail on state responses’ effects on support. It partially covers locations and lethality but misses deeper trajectory analysis."
+    },
+    {
+      "name": "Anti-state militancy in northwest",
+      "score": 0.75,
+      "explanation": "It discusses TTP as a steady antagonist with late-2024 lethality, KP concentration (including Kurram), increased clashes in Q4, and security-force targeting patterns. However, it offers limited detail on sustained militant entrenchment, sanctuaries, or parallel governance structures in the northwest beyond cross-border dynamics and attack trends."
+    },
+    {
+      "name": "Sectarian conflict dynamics",
+      "score": 0.75,
+      "explanation": "It highlights Kurram’s identity militias (including a Shiite militia), punctuated surges, and communal-local grievance dynamics with national impact. It implies risks of relapse and communal mobilization. Still, it lacks a fuller treatment of escalation pathways, retaliatory cycles across sects, and how militants exploit polarization beyond Kurram."
+    },
+    {
+      "name": "Militant competition and alliances",
+      "score": 0.5,
+      "explanation": "Mentions actor composition: TTP, identity militias, political militias, and unattributed actors shaping late-2024 surges. However, it does not analyze rivalries, splinters, or explicit alliances among TTP, ISKP, BLA/BLF, or sectarian outfits, nor how inter-group dynamics reshape tactics or territorial aims."
+    },
+    {
+      "name": "Urban and heartland spillover",
+      "score": 0.25,
+      "explanation": "Provides little on militant expansion into major urban centers like Karachi, Lahore, Islamabad, or core Punjab/Sindh districts. Focus remains on frontier arc; only broad notes on infrastructure targeting and national disruption without assessing implications for populous economic-political centers."
+    },
+    {
+      "name": "Cross-border sanctuaries and tensions",
+      "score": 0.75,
+      "explanation": "Good coverage of Afghanistan and Iran border dynamics, increased incidents, and district-level patterns (North Waziristan, Khyber; Kech, Panjgur). It links border logistics and sanctuaries to tactics and lethality and notes flashpoint risks. Yet it underdevelops state-diplomatic frictions, border clashes, and how sanctuary politics affect capabilities in detail."
+    },
+    {
+      "name": "Counterinsurgency approach and backlash",
+      "score": 0.5,
+      "explanation": "It analyzes that intensified operations create short-lived downturns, notes raids, air/drone strikes, and a cyclical rebound. However, it lacks discussion of civilian harm, rights abuses, or foreign involvement leading to backlash and recruitment, and gives little on political engagement or non-kinetic measures."
+    },
+    {
+      "name": "Propaganda and local support",
+      "score": 0.25,
+      "explanation": "There is minimal discussion of militant messaging, information operations, or language outreach. The article mentions identity militias’ local embedding and mobilization potential, but does not analyze propaganda strategies or efforts to legitimize actions and gain acceptance."
+    },
+    {
+      "name": "Security force capacity and morale",
+      "score": 0.5,
+      "explanation": "It implies capacity to surge operations (raids, airstrikes) and shows inverse relationships with attacks, and notes concentration of security-force targeting in KP. Yet it does not assess inter-agency coordination, morale, fatigue, or local hostility constraining sustained campaigns."
+    },
+    {
+      "name": "Economic and infrastructure targeting",
+      "score": 1.0,
+      "explanation": "Excellent detail: identifies infrastructure as about 61% of events with peaks, emphasizes IED-heavy disruption aimed at roads and utilities, and articulates the strategic rationale (attrition over spectacle) and implications for disruption even with lower per-incident lethality."
+    },
+    {
+      "name": "Judicial and governance vacuums",
+      "score": 0.5,
+      "explanation": "Hints at weak governance via identity militias and localized dispute dynamics in Kurram and frontier smuggling-route conflicts, but does not explicitly analyze judicial or governance vacuums enabling parallel dispute resolution or institutions, nor provide concrete examples of such structures."
+    },
+    {
+      "name": "Regional conflict entanglement",
+      "score": 0.5,
+      "explanation": "Touches on cross-border flashpoints and risks tied to Afghanistan and Iran, alluding to potential reactivation due to external triggers. However, it lacks deeper assessment of Pakistan being drawn into broader regional confrontations, tit-for-tat strikes, or spillovers from regional power rivalries."
+    },
+    {
+      "name": "Outlook for 2025 scenarios",
+      "score": 0.75,
+      "explanation": "Provides a cautious outlook: early 2025 lull is ‘calmer but contingent’; identifies triggers (ops ebbing, external triggers at borders), stresses need for targeted pressure, border coordination, and local dispute resolution. Nonetheless, it does not lay out explicit scenario ranges (containment vs escalation vs diffusion) with distinct indicators and consequences."
+    }
+  ],
+  "overall_score": 0.6
+}

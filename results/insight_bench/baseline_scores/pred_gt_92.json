@@ -1,0 +1,85 @@
+{
+  "dataset_id": 92,
+  "dataset_path": "data/notebooks/flag-92.json",
+  "metadata": {
+    "category": "Finance Management",
+    "dataset_description": "The dataset consists of 500 entries simulating the ServiceNow fm_expense_line table, which records various attributes of financial expenses. Key fields include 'number', 'opened_at', 'amount', 'state', 'short_description', 'ci', 'user', 'department', 'category', 'location', 'processed_date', 'source_id', and 'type'. This table documents the flow of financial transactions by detailing the amount, departmental allocation, geographic location, and the nature of each expense. It provides a comprehensive view of organizational expenditures across different categories and locations, highlighting both the timing and the approval state of each financial entry.",
+    "goal": "To analyze and understand how expenses vary across different geographic locations, expense categories, and approval times, with the aim of improving budget allocation and workflow efficiency.",
+    "header": "Geo-Specific Expense Analysis (Flag 92)",
+    "role": "Financial Operations Analyst"
+  },
+  "predicted_insights": [
+    "Resolution time varies widely by location and category: the slowest combinations—Canada Database (5680.1h) and UK Software (5646.0h)—take ~2.7–3.4× longer than the fastest in their categories (e.g., UK Database 2103.6h vs. Canada 5680.1h; India Network 1431.9h vs. Canada 4907.7h), suggesting that targeting Canada (Database/Network) and UK (Software) offers the biggest opportunities to improve cycle time and reduce handling costs.",
+    "Each location and each category totals exactly 100 incidents (500 overall), but distributions differ—Australia is Software-heavy (26), the UK is Hardware-heavy (23), India is Network-heavy (23), and the U.S. leans Database (22)—highlighting where to prioritize domain-specific support without changing overall allocation.",
+    "The spread between the fastest and slowest priority-location pairs is large (2222 h for India High vs 4443 h for UK Critical), and the Critical-to-Low gap reaches ~1605 h in the UK but only ~446 h in Canada, suggesting region-specific triage and workflow differences that could be targeted to improve efficiency.",
+    "Peak-to-trough shifts were largest in the United States (~9,900 hours, 6,591 to -3,347) and Canada (~8,800 hours, ~4,210 to -4,580), while India saw the smallest swing (~6,700 hours), indicating the most dramatic change in closure timing occurred in North America over the period.",
+    "Together, these top five pairs account for about 241,592.42 hours (~31%) of the total 785,726.60 hours across all 25 location-category combinations, indicating that focusing budget and workflow improvements on Australia-Software and the Database/Hardware work in the US, India, and UK could deliver outsized efficiency gains.",
+    "The gap between the highest (UK at 57%) and the lowest (Australia/India at 51%) is 6 percentage points—about a 12% relative difference—suggesting meaningful location-based workflow efficiency improvement opportunities.",
+    "Database’s median resolution time is about 31% longer than Hardware and 51% longer than Network, and ~38% above the cross-group median (~2,849 hours), highlighting it as a likely bottleneck where targeted resourcing or process improvements could most improve workflow efficiency.",
+    "The highest-to-lowest spread is only 5 percentage points (27% in the United States vs. 22% in India), implying critical incident rates are fairly uniform across locations; consequently, budget or staffing adjustments for high-urgency work should be modest, with a slight buffer prioritized for the United States.",
+    "Among positive medians, the slowest is Database 4 - Low at 1305.04h while the fastest is Hardware 1 - Critical at 26.06h, and the presence of large negative medians (down to -2161.74h in Network) signals timestamp or data-quality issues that can materially distort workflow efficiency metrics.",
+    "With 52.8% of the 500 globally distributed incidents (across 5 locations) showing negative durations, duration-based KPIs (e.g., SLA or mean time to resolution) are likely biased for over half the records unless timestamps are standardized (e.g., by time zone), undermining workflow efficiency assessments and any budget allocations tied to resolution time.",
+    "All five locations have at least half of records with negative resolution times (50%–57%), indicating a pervasive timestamp or workflow logging issue that could distort time-based efficiency and budget allocation analyses unless corrected.",
+    "System-updated shares are materially higher in the UK—8 percentage points above Australia (34%) and 15 points above India (27%)—suggesting greater automation in UK workflows compared to other regions."
+  ],
+  "predicted_summary": "Workload is highly concentrated in a few location–category pairs: the top five pairs alone total 241,592.4 hours of resolution time across just 112 incidents (≈2,156 hours per incident on average). These are Australia | Software (56,039.1h, 26 incidents), United States | Database (53,082.1h, 22), India | Database (47,497.3h, 22), UK | Hardware (44,255.8h, 23), and United States | Hardware (40,718.1h, 19). This concentration aligns with the Database assignment group having the highest median time to resolve (≈3,921.8h), indicating database and hardware/software issues in these locations drive a disproportionate share of total time.\nTiming data show a systemic shift and widespread anomalies: 52.8% of incidents have negative resolution times, and monthly averages flipped from large positive values in early 2023 to large negatives by late 2023/Jan 2024 across all locations (e.g., United States peaked around +6,591h in Feb 2023 and moved to about −2,745 to −3,347h by Dec 2023–Jan 2024; Canada moved from ~+4,204–4,210h to ~−4,580 to −3,734h). The UK has the highest share of negative durations (57%) and the highest share of tickets last updated by “system” (42%). Negative medians in several assignment-group/priority combinations (e.g., Network 1-Critical −2,161.7h; Database 2-High −1,259.6h) reinforce that timestamp behavior is inconsistent across the board.\nPerformance varies widely by location, category, and priority—and not always in expected ways. The slowest median resolution times appear in Canada | Database (≈5,680.1h) and UK | Software (≈5,646.0h), while the fastest medians are in Australia | Inquiry/Help (≈1,366.8h) and India | Network (≈1,431.9h). By priority, patterns are inconsistent across locations: in the United States, 3-Moderate is longest on average (≈4,107h), in Canada 2-High exceeds 1-Critical (≈4,017h vs ≈3,522h), whereas Australia shows a steady decrease from 1-Critical (≈3,719h) to 4-Low (≈2,797h). Additionally, Australia has the lowest share resolved within 24 hours (51%), underscoring sizable cross-location variation in timeliness.",
+  "score_insights": 0.13169161129033086,
+  "score_insights_dict": [
+    {
+      "gt_insight": "Analysis could not be completed due to missing 'amount' column in the dataset",
+      "pred_insight": "All five locations have at least half of records with negative resolution times (50%–57%), indicating a pervasive timestamp or workflow logging issue that could distort time-based efficiency and budget allocation analyses unless corrected.",
+      "score": 0.1435866428890843
+    },
+    {
+      "gt_insight": "Analysis could not be completed due to missing 'amount' column in the dataset",
+      "pred_insight": "All five locations have at least half of records with negative resolution times (50%–57%), indicating a pervasive timestamp or workflow logging issue that could distort time-based efficiency and budget allocation analyses unless corrected.",
+      "score": 0.14868045096006033
+    },
+    {
+      "gt_insight": "Analysis could not be completed due to missing 'department' column in the dataset",
+      "pred_insight": "The highest-to-lowest spread is only 5 percentage points (27% in the United States vs. 22% in India), implying critical incident rates are fairly uniform across locations; consequently, budget or staffing adjustments for high-urgency work should be modest, with a slight buffer prioritized for the United States.",
+      "score": 0.11460749542664277
+    },
+    {
+      "gt_insight": "The analysis could not be completed due to a missing 'department' column in the dataset",
+      "pred_insight": "With 52.8% of the 500 globally distributed incidents (across 5 locations) showing negative durations, duration-based KPIs (e.g., SLA or mean time to resolution) are likely biased for over half the records unless timestamps are standardized (e.g., by time zone), undermining workflow efficiency assessments and any budget allocations tied to resolution time.",
+      "score": 0.13513155512668376
+    },
+    {
+      "gt_insight": "Analysis could not be completed due to missing 'department' column in the dataset",
+      "pred_insight": "Together, these top five pairs account for about 241,592.42 hours (~31%) of the total 785,726.60 hours across all 25 location-category combinations, indicating that focusing budget and workflow improvements on Australia-Software and the Database/Hardware work in the US, India, and UK could deliver outsized efficiency gains.",
+      "score": 0.11645191204918318
+    }
+  ],
+  "score_summary": 0.16201706854345277,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.10766015391933348,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "All five locations have at least half of records with negative resolution times (50%–57%), indicating a pervasive timestamp or workflow logging issue that could distort time-based efficiency and budget allocation analyses unless corrected.",
+      "gt_insight": "Analysis could not be completed due to missing 'amount' column in the dataset",
+      "score": 0.10996035632199352
+    },
+    {
+      "pred_insight": "All five locations have at least half of records with negative resolution times (50%–57%), indicating a pervasive timestamp or workflow logging issue that could distort time-based efficiency and budget allocation analyses unless corrected.",
+      "gt_insight": "Analysis could not be completed due to missing 'amount' column in the dataset",
+      "score": 0.10802426723047025
+    },
+    {
+      "pred_insight": "All five locations have at least half of records with negative resolution times (50%–57%), indicating a pervasive timestamp or workflow logging issue that could distort time-based efficiency and budget allocation analyses unless corrected.",
+      "gt_insight": "Analysis could not be completed due to missing 'department' column in the dataset",
+      "score": 0.10840866716494106
+    },
+    {
+      "pred_insight": "All five locations have at least half of records with negative resolution times (50%–57%), indicating a pervasive timestamp or workflow logging issue that could distort time-based efficiency and budget allocation analyses unless corrected.",
+      "gt_insight": "The analysis could not be completed due to a missing 'department' column in the dataset",
+      "score": 0.10640444423488107
+    },
+    {
+      "pred_insight": "All five locations have at least half of records with negative resolution times (50%–57%), indicating a pervasive timestamp or workflow logging issue that could distort time-based efficiency and budget allocation analyses unless corrected.",
+      "gt_insight": "Analysis could not be completed due to missing 'department' column in the dataset",
+      "score": 0.10550303464438145
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.10001397641274937,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.10009687594089098
+}

@@ -1,0 +1,65 @@
+{
+  "dataset_id": 63,
+  "dataset_path": "data/notebooks/flag-63.json",
+  "metadata": {
+    "category": "Asset Management",
+    "dataset_description": "The dataset consists of 500 entries simulating ServiceNow alm_hardware table, detailing key attributes of hardware assets such as asset tags, display names, configuration item (CI) identifiers, serial numbers, and model categories. It includes information on asset assignment, last update timestamps, cost, departmental allocation, and warranty expiration dates. The table effectively captures asset management activities, offering insights into the operational handling, allocation, and maintenance status of hardware resources across various departments within an organization.",
+    "goal": "Analyze the relationship between the cost of assets and their warranty periods to identify discrepancies and align procurement strategies with the observed asset value trends.",
+    "header": "Asset Warranty Analysis (Flag 63)",
+    "role": "Procurement Manager"
+  },
+  "predicted_insights": [
+    "With warranty lengths ranging from ~12.0 to ~67.9 months and costs from 105 to 11,770, the weak positive correlation (~0.20) indicates that higher prices do not strongly correspond to longer warranties—many high-cost assets still cluster around 12–36 month warranties—suggesting room to negotiate extended coverage on pricier equipment.",
+    "100% of the flagged assets have only 12-month warranties despite costing at least 2.6× the dataset’s average cost (~$3,040), and 76% (16 of 21) are Web Servers—indicating high-cost web infrastructure disproportionately lacks extended coverage.",
+    "Servers provide about 36 times less warranty coverage per dollar than Storage Devices (2.87 vs. 105.17 months per $1,000), suggesting a strong opportunity to negotiate better server warranties or reconsider vendors to align warranty value with asset cost.",
+    "Product Management’s variability is about 2.4× that of IT (62.80 vs 25.75) and 6.3× that of HR (62.80 vs 10.02), suggesting highly inconsistent warranty value relative to spend; tightening procurement standards could markedly reduce warranty-to-cost volatility and improve asset value predictability.",
+    "Because only a slight majority of high-cost assets (52% or 65/125) meet or exceed the median warranty period, expensive purchases are not consistently yielding longer coverage—suggesting procurement should negotiate extended warranties for premium assets.",
+    "Peripherals exhibit the greatest cost–warranty mismatch (20.41%), whereas core compute categories (Computer, Rack, Web Server) show 0%, indicating more consistent alignment between asset value and warranty coverage in those areas.",
+    "This small improvement translates to about 1.57 fewer cost units per warranty-month in recent purchases; for a 36-month warranty, that is roughly 56 cost units saved per asset, indicating slightly better warranty value from newer procurement.",
+    "The difference between the highest (IT at 79.01) and lowest (Finance at 74.33) medians is 4.68, about 5.9%, indicating modest but meaningful variation in warranty-adjusted asset spend across departments that may reflect differing asset category mixes and procurement choices.",
+    "HR’s average cost per month of warranty coverage is about 2.47 times Finance’s (211.08 vs 85.36) and ~40% higher than Product Management’s, indicating HR pays substantially more per warranty month; aligning HR’s procurement/warranty negotiation practices with Finance’s could cut per‑month warranty cost by roughly 60%.",
+    "The near-zero correlation for Storage Devices implies price and warranty coverage are largely decoupled, while Computers’ near-perfect correlation (r≈1.00) suggests warranty months scale reliably with cost; aligning storage procurement to secure longer warranties for higher-cost items could improve lifecycle value without necessarily increasing spend.",
+    "This 0.57% drop equals about 0.074 fewer warranty months per $1,000; at the average asset cost (~$3,040), that’s roughly 0.23 months (~7 days) less coverage per asset, signaling slightly weaker recent warranty value and an opportunity to negotiate longer terms.",
+    "Only about one in eleven assets underperform their category peers in warranty value per dollar despite substantial cost dispersion (mean $3,039.85; std $2,782), indicating procurement is generally aligned and that focusing on the 44 outliers could efficiently improve warranty coverage."
+  ],
+  "predicted_summary": "Cost and warranty length are only weakly linked overall (Pearson r ≈ 0.203), with sharp differences by category: Storage Devices show almost no relationship between price and warranty (r ≈ 0.068), while Servers deliver the least warranty for the money (≈2.87 months per $1,000) and make up all 21 assets that are both top-cost decile (≥$8,000) and bottom-warranty decile (≤~12 months, all at 12 months).\nHigh spend frequently does not buy longer protection: 48% of assets above the 75th cost percentile (> $4,369.75) have warranties below the overall median (~27.9 months). Across the fleet, 8.80% of assets sit below their category’s 10th percentile for warranty months per $1,000, and within Computer Peripherals, 20.41% are priced above the category median while below the category median warranty length.\nValue trends are mixed and uneven across teams: median cost per warranty‑month improved by ~2.00% from the earliest to latest purchase-date quartiles (78.58 → 77.01), but the last 6 months show a 0.57% decline in median warranty months per $1,000 (13.0462 → 12.9722) versus the prior 6 months. Department medians are tightly grouped (74.33–79.01 cost per warranty‑month), yet dispersion varies widely—HR has the highest average cost per warranty‑month (~211.08), and Product Management shows the greatest variability in warranty months per $1,000 (SD ≈ 62.80 months).",
+  "score_insights": 0.25346489934802235,
+  "score_insights_dict": [
+    {
+      "gt_insight": "The HR department has the highest average asset cost, indicating a potentially higher investment in resources allocated to this department.",
+      "pred_insight": "HR’s average cost per month of warranty coverage is about 2.47 times Finance’s (211.08 vs 85.36) and ~40% higher than Product Management’s, indicating HR pays substantially more per warranty month; aligning HR’s procurement/warranty negotiation practices with Finance’s could cut per‑month warranty cost by roughly 60%.",
+      "score": 0.30864147324170893
+    },
+    {
+      "gt_insight": "The dataset does not have any warranty information for the assets.",
+      "pred_insight": "Peripherals exhibit the greatest cost–warranty mismatch (20.41%), whereas core compute categories (Computer, Rack, Web Server) show 0%, indicating more consistent alignment between asset value and warranty coverage in those areas.",
+      "score": 0.16643780478588832
+    },
+    {
+      "gt_insight": "The average cost of assets shows a significant upward trend over the years, particularly for assets with longer warranty periods.",
+      "pred_insight": "100% of the flagged assets have only 12-month warranties despite costing at least 2.6× the dataset’s average cost (~$3,040), and 76% (16 of 21) are Web Servers—indicating high-cost web infrastructure disproportionately lacks extended coverage.",
+      "score": 0.2853154200164698
+    }
+  ],
+  "score_summary": 0.43546135103004824,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.24076603914785297,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "HR’s average cost per month of warranty coverage is about 2.47 times Finance’s (211.08 vs 85.36) and ~40% higher than Product Management’s, indicating HR pays substantially more per warranty month; aligning HR’s procurement/warranty negotiation practices with Finance’s could cut per‑month warranty cost by roughly 60%.",
+      "gt_insight": "The HR department has the highest average asset cost, indicating a potentially higher investment in resources allocated to this department.",
+      "score": 0.31549516780352327
+    },
+    {
+      "pred_insight": "The near-zero correlation for Storage Devices implies price and warranty coverage are largely decoupled, while Computers’ near-perfect correlation (r≈1.00) suggests warranty months scale reliably with cost; aligning storage procurement to secure longer warranties for higher-cost items could improve lifecycle value without necessarily increasing spend.",
+      "gt_insight": "The dataset does not have any warranty information for the assets.",
+      "score": 0.10144263022982691
+    },
+    {
+      "pred_insight": "This small improvement translates to about 1.57 fewer cost units per warranty-month in recent purchases; for a 36-month warranty, that is roughly 56 cost units saved per asset, indicating slightly better warranty value from newer procurement.",
+      "gt_insight": "The average cost of assets shows a significant upward trend over the years, particularly for assets with longer warranty periods.",
+      "score": 0.3053603194102087
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.14857518967450356,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.5919923160804271
+}

@@ -1,0 +1,282 @@
+{
+  "total_insights": 27,
+  "total_classified": 27,
+  "acled_count": 22,
+  "non_acled_count": 5,
+  "pct_acled": 0.8148148148148148,
+  "details": [
+    {
+      "evidence": "Militant activity in Pakistan rose across 2024 with a late-year surge in lethality, peaking in November despite event counts not exceeding August–September levels.",
+      "is_acled_data": true,
+      "reasoning": "The statement references temporal trends in militant activity and lethality (peaking in November, event counts not exceeding August–September), which aligns with ACLED’s event count and fatality trend data and temporal pattern analysis. This type of month-by-month event and lethality comparison is characteristic of ACLED-derived insights.",
+      "source_context": "Key Findings; From steady pressure to a late‑2024 crescendo"
+    },
+    {
+      "evidence": "Every month of 2024 recorded more militant attacks than the same month in 2023, with a median of around 200 monthly events versus just over 100 in 2023, indicating a structurally harsher environment.",
+      "is_acled_data": true,
+      "reasoning": "The statement provides specific monthly comparisons of militant attack/event counts between 2023 and 2024 and cites a median of monthly events, which aligns with ACLED’s event-count and temporal trend data. It reflects conflict event counts and trend analysis typical of ACLED-derived insights.",
+      "source_context": "From steady pressure to a late‑2024 crescendo"
+    },
+    {
+      "evidence": "Momentum indicators show activity surges in September and especially November 2024, followed by a steep decline into early 2025, reaching near-zero by February–March.",
+      "is_acled_data": false,
+      "reasoning": "The statement references unspecified “momentum indicators” and describes activity surges and declines without citing event counts, fatalities, actor data, or explicit ACLED attribution. It sounds like a generic trend metric rather than ACLED event-based measures, so it is not clearly derived from ACLED data.",
+      "source_context": "From steady pressure to a late‑2024 crescendo"
+    },
+    {
+      "evidence": "TTP remained a constant antagonist through 2024 and was especially lethal in December, accounting for most fatalities that month.",
+      "is_acled_data": true,
+      "reasoning": "The statement references temporal patterns in militant activity and relative fatality attribution to a specific actor (TTP) in a specific month (December 2024). Actor-specific lethality and monthly fatality counts are core ACLED metrics (event fatalities, actor-level data, and temporal trend analysis), making this likely derived from ACLED data.",
+      "source_context": "From steady pressure to a late‑2024 crescendo"
+    },
+    {
+      "evidence": "Political militias and unattributed actors contributed significantly to late‑2024 spikes, complicating attribution and response.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical claim about actor types contributing to spikes and attribution challenges without citing specific ACLED event counts, actor-level statistics, or temporal data. It lacks explicit linkage to ACLED datasets or metrics, so it reads as commentary rather than ACLED-derived data.",
+      "source_context": "From steady pressure to a late‑2024 crescendo"
+    },
+    {
+      "evidence": "Khyber Pakhtunkhwa bore the heaviest toll in 2024 under standardized filters, outpacing other provinces.",
+      "is_acled_data": true,
+      "reasoning": "The statement references a subnational comparison of conflict impact in 2024 under “standardized filters,” implying province-level event/fatality aggregation and filtering consistent with ACLED’s methodology and outputs. ACLED provides geographic breakdowns and temporal trend analyses that would support identifying Khyber Pakhtunkhwa as bearing the heaviest toll relative to other provinces.",
+      "source_context": "From steady pressure to a late‑2024 crescendo"
+    },
+    {
+      "evidence": "Militants prioritized infrastructure disruption in 2024: about 61% of events targeted infrastructure, compared to roughly 35% against civilians and 4% against security forces.",
+      "is_acled_data": true,
+      "reasoning": "The evidence provides percentages of event targets (infrastructure, civilians, security forces) for 2024, which aligns with ACLED’s event-level categorization and actor/target data, and reflects conflict trend analysis derived from ACLED event records.",
+      "source_context": "How the fight changed: IED economies and target selection"
+    },
+    {
+      "evidence": "Infrastructure targeting peaked near 78% of events in February 2024, focusing pressure on roads and utilities.",
+      "is_acled_data": true,
+      "reasoning": "The statement cites a specific temporal trend and proportion of conflict events (78% in February 2024) and specifies the target type (infrastructure like roads and utilities), which aligns with ACLED’s event categorization and temporal pattern analysis derived from coded events and actor/target data.",
+      "source_context": "How the fight changed: IED economies and target selection"
+    },
+    {
+      "evidence": "Remote explosive/IED incidents increased year over year (165 to 272) and overall recorded events rose (187 to 283, +51%), while total fatalities fell (447 to 329), indicating a shift toward frequent, lower-yield attacks.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites year-over-year counts of remote explosive/IED incidents, total recorded events, and fatalities, which align with ACLED’s event-type and fatality metrics and trend analysis. These are specific conflict event statistics typical of ACLED data.",
+      "source_context": "How the fight changed: IED economies and target selection"
+    },
+    {
+      "evidence": "Suicide attacks halved to 11 in 2024 and were less deadly per blast than 2023, but remained the deadliest modality per incident (about 6.27 deaths on average).",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific counts of suicide attacks in 2024 versus 2023 and calculates average deaths per incident, which are typical ACLED-derived metrics (event counts and fatalities per event). These are conflict event statistics and temporal trends characteristic of ACLED data.",
+      "source_context": "How the fight changed: IED economies and target selection"
+    },
+    {
+      "evidence": "Armed clashes peaked in Q4 2024 and tactics diversified—grenades early, shelling in Q3, air/drone strikes late—layered on an IED-heavy campaign.",
+      "is_acled_data": true,
+      "reasoning": "Mentions temporal conflict trends (peaking in Q4 2024), tactics mix (grenades, shelling, air/drone strikes), and campaign characteristics (IED-heavy), which align with ACLED’s event-level and actor/tactic categorizations and time-series trend analysis derived from recorded events.",
+      "source_context": "How the fight changed: IED economies and target selection"
+    },
+    {
+      "evidence": "Higher IED volumes with lower per-incident lethality produced persistent disruption despite fewer deaths per event.",
+      "is_acled_data": true,
+      "reasoning": "The statement references IED event volumes and per-incident lethality, which align with ACLED’s event counts and fatality data, as well as temporal trend analysis derived from explosions/remote violence events.",
+      "source_context": "How the fight changed: IED economies and target selection"
+    },
+    {
+      "evidence": "Kurram district emerged as 2024’s principal hotspot, driven largely by sectarian identity militias, with fatal surges in July, September, and November (71 events, 180 fatalities).",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific conflict metrics typical of ACLED: district-level hotspot identification, monthly temporal surges, event counts (71) and fatality figures (180), and actor characterization (sectarian identity militias). These are hallmark ACLED-derived indicators (event counts, fatalities, subnational geography, temporal patterns).",
+      "source_context": "Where it burned hottest: Kurram and the frontier arc"
+    },
+    {
+      "evidence": "Many districts saw minimal activity in 2024 (often 1–3 events), underscoring the concentration of violence in a few hotspots like Kurram.",
+      "is_acled_data": true,
+      "reasoning": "The statement references counts of conflict events by district and highlights concentration of violence in specific hotspots (e.g., Kurram). Subnational event counts and spatial concentration are core ACLED outputs derived from its event data and geographic breakdowns.",
+      "source_context": "Where it burned hottest: Kurram and the frontier arc"
+    },
+    {
+      "evidence": "Cross-border dynamics intensified: Afghanistan-border events rose from 35 to 50 and fatalities from 84 to 198, concentrated in North Waziristan and Khyber.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific counts of cross-border events and fatalities over time, with subnational localization (North Waziristan, Khyber). These are typical ACLED metrics (event counts, fatality figures, geographic breakdowns) and align with conflict trend analysis derived from event data.",
+      "source_context": "Where it burned hottest: Kurram and the frontier arc"
+    },
+    {
+      "evidence": "Iran-border activity surged from 58 to 189 events in 2024, with lethal incidents concentrated in Balochistan’s Kech and Panjgur.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific event counts over time (surge from 58 to 189 in 2024) and subnational concentration of lethal incidents in Kech and Panjgur, which aligns with ACLED’s event-based, geographically disaggregated conflict data and temporal trend analysis.",
+      "source_context": "Where it burned hottest: Kurram and the frontier arc"
+    },
+    {
+      "evidence": "Near the Afghanistan frontier, battles and violence against civilians dominated both volume and lethality; along the Iran frontier, protests and explosions were more common, but battles and attacks on civilians caused most deaths.",
+      "is_acled_data": true,
+      "reasoning": "The evidence discusses subnational differences in event types (battles, violence against civilians, protests, explosions) and their lethality along specific frontiers, which aligns with ACLED’s event-type breakdowns, geographic disaggregation, and fatality analysis. This pattern-based comparison by region and event category is characteristic of insights derived from ACLED event and fatality data.",
+      "source_context": "Where it burned hottest: Kurram and the frontier arc"
+    },
+    {
+      "evidence": "In Kech, protests were numerous and non-lethal, while battles caused most fatalities; Panjgur showed a similar but lower-volume profile.",
+      "is_acled_data": true,
+      "reasoning": "Mentions subnational locations (Kech, Panjgur), compares counts of protests and battles, characterizes lethality and fatalities by event type—this aligns with ACLED’s event-type counts, geographic breakdowns, and fatality data typical of ACLED-derived trend analysis.",
+      "source_context": "Where it burned hottest: Kurram and the frontier arc"
+    },
+    {
+      "evidence": "Identity and communal militias in Kurram produced punctuated, high-casualty waves, while in Kech/Panjgur, smuggling routes and border logistics drove varied modalities and deadly clashes.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references specific subnational locations (Kurram, Kech/Panjgur), actor types (identity and communal militias), and characterizes conflict modalities and casualty severity—elements typical of ACLED’s event-based, actor-level, and geographic trend analysis. It appears grounded in aggregated event patterns rather than general commentary, consistent with insights derived from ACLED data.",
+      "source_context": "Where it burned hottest: Kurram and the frontier arc"
+    },
+    {
+      "evidence": "Early 2025 saw a broad lull: battles fell from roughly three thousand in late 2024 to a few dozen by May; explosions and remote attacks also plunged, with fatalities dropping sharply.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references specific conflict event types tracked by ACLED (battles, explosions/remote violence) and mentions temporal trends and fatality declines, which are core ACLED metrics. The quantitative framing (counts in late 2024 vs. early 2025) aligns with ACLED event and fatality data, suggesting derivation from ACLED or its analysis.",
+      "source_context": "What changed in early 2025—and what didn’t"
+    },
+    {
+      "evidence": "Brand-name insurgents largely disappeared in early 2025: BLA, BLF, and ISKP had no qualifying incidents; TTP’s late‑2024 uptick faded to zero by Q1 2025.",
+      "is_acled_data": true,
+      "reasoning": "The statement cites specific armed group activity over time (no qualifying incidents for BLA, BLF, ISKP; TTP uptick fading by Q1 2025), which aligns with ACLED’s event counts, actor-level data, and temporal trend analysis. It appears to derive from event data indicating zero incidents for named actors during specified periods.",
+      "source_context": "What changed in early 2025—and what didn’t"
+    },
+    {
+      "evidence": "Security operations showed a short-lived deterrent effect: months with more raids/airstrikes were followed by fewer militant attacks one month later, but the effect dissipated within 2–3 months.",
+      "is_acled_data": true,
+      "reasoning": "The statement describes a temporal relationship between security force operations (raids/airstrikes) and subsequent militant attack frequencies, implying use of event counts over time by actor and event type. This aligns with ACLED’s event-level data and conflict trend analysis capabilities that can assess lagged effects and temporal patterns from raids/airstrikes versus militant attacks. While not explicitly attributed, the content is characteristic of analyses derived from ACLED’s event data.",
+      "source_context": "What changed in early 2025—and what didn’t"
+    },
+    {
+      "evidence": "Security-force targeting and casualties were concentrated in Khyber Pakhtunkhwa in late 2024, especially Kurram, but incidents dropped to near-zero across tracked districts in early 2025.",
+      "is_acled_data": true,
+      "reasoning": "Mentions temporal and geographic patterns of security-force targeting and casualties, with subnational specificity (Khyber Pakhtunkhwa, Kurram) and trend change into early 2025. This aligns with ACLED’s event counts, casualty figures, and subnational trend analysis derived from event data.",
+      "source_context": "What changed in early 2025—and what didn’t"
+    },
+    {
+      "evidence": "Identity militias—sectarian and tribal—dominated many interactions in 2024, with observed per‑event lethality around 2.45 for several groups meeting a ≥10-event threshold, while branded insurgents appeared sparsely in this interaction space.",
+      "is_acled_data": true,
+      "reasoning": "The statement references actor categories (identity militias vs. branded insurgents), per‑event lethality metrics, event thresholds (≥10 events), and interactions in 2024—features characteristic of ACLED’s event- and actor-level data and derived metrics. Such per-event lethality and actor interaction analyses are typically computed from ACLED event counts and fatality data.",
+      "source_context": "What changed in early 2025—and what didn’t"
+    },
+    {
+      "evidence": "Border flashpoint risks persist into 2025, as identity militias can remobilize quickly if operations ebb or external triggers re-emerge at Afghanistan or Iran crossings.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a forward-looking geopolitical assessment about potential border flashpoint risks and militia remobilization, without citing specific events, counts, locations, or actor-level data tied to ACLED. It is general analysis rather than data derived from ACLED event records.",
+      "source_context": "What changed in early 2025—and what didn’t"
+    },
+    {
+      "evidence": "IED-heavy disruption can scale quickly even when headline lethality is low, making infrastructure a continued vulnerability in border districts and identity-driven hotspots.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical claim about IED-driven disruption and infrastructure vulnerability; it does not reference specific event counts, fatalities, locations, actor data, or trends attributable to ACLED. It appears as qualitative commentary rather than derived from ACLED event data.",
+      "source_context": "Conclusion"
+    },
+    {
+      "evidence": "Durable risk reduction will require sustained, targeted operations, improved border management on both frontiers, better intelligence on identity militias, and civilian protection along the Kurram–Kech arc.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a policy/recommendation-style analysis about operations, border management, intelligence, and civilian protection, without citing specific conflict events, counts, actors, or ACLED-attributed data. It is general commentary rather than data derived from ACLED event records.",
+      "source_context": "Conclusion"
+    }
+  ],
+  "insights": [
+    {
+      "insight": "Militant activity in Pakistan rose across 2024 with a late-year surge in lethality, peaking in November despite event counts not exceeding August–September levels.",
+      "context": "Key Findings; From steady pressure to a late‑2024 crescendo"
+    },
+    {
+      "insight": "Every month of 2024 recorded more militant attacks than the same month in 2023, with a median of around 200 monthly events versus just over 100 in 2023, indicating a structurally harsher environment.",
+      "context": "From steady pressure to a late‑2024 crescendo"
+    },
+    {
+      "insight": "Momentum indicators show activity surges in September and especially November 2024, followed by a steep decline into early 2025, reaching near-zero by February–March.",
+      "context": "From steady pressure to a late‑2024 crescendo"
+    },
+    {
+      "insight": "TTP remained a constant antagonist through 2024 and was especially lethal in December, accounting for most fatalities that month.",
+      "context": "From steady pressure to a late‑2024 crescendo"
+    },
+    {
+      "insight": "Political militias and unattributed actors contributed significantly to late‑2024 spikes, complicating attribution and response.",
+      "context": "From steady pressure to a late‑2024 crescendo"
+    },
+    {
+      "insight": "Khyber Pakhtunkhwa bore the heaviest toll in 2024 under standardized filters, outpacing other provinces.",
+      "context": "From steady pressure to a late‑2024 crescendo"
+    },
+    {
+      "insight": "Militants prioritized infrastructure disruption in 2024: about 61% of events targeted infrastructure, compared to roughly 35% against civilians and 4% against security forces.",
+      "context": "How the fight changed: IED economies and target selection"
+    },
+    {
+      "insight": "Infrastructure targeting peaked near 78% of events in February 2024, focusing pressure on roads and utilities.",
+      "context": "How the fight changed: IED economies and target selection"
+    },
+    {
+      "insight": "Remote explosive/IED incidents increased year over year (165 to 272) and overall recorded events rose (187 to 283, +51%), while total fatalities fell (447 to 329), indicating a shift toward frequent, lower-yield attacks.",
+      "context": "How the fight changed: IED economies and target selection"
+    },
+    {
+      "insight": "Suicide attacks halved to 11 in 2024 and were less deadly per blast than 2023, but remained the deadliest modality per incident (about 6.27 deaths on average).",
+      "context": "How the fight changed: IED economies and target selection"
+    },
+    {
+      "insight": "Armed clashes peaked in Q4 2024 and tactics diversified—grenades early, shelling in Q3, air/drone strikes late—layered on an IED-heavy campaign.",
+      "context": "How the fight changed: IED economies and target selection"
+    },
+    {
+      "insight": "Higher IED volumes with lower per-incident lethality produced persistent disruption despite fewer deaths per event.",
+      "context": "How the fight changed: IED economies and target selection"
+    },
+    {
+      "insight": "Kurram district emerged as 2024’s principal hotspot, driven largely by sectarian identity militias, with fatal surges in July, September, and November (71 events, 180 fatalities).",
+      "context": "Where it burned hottest: Kurram and the frontier arc"
+    },
+    {
+      "insight": "Many districts saw minimal activity in 2024 (often 1–3 events), underscoring the concentration of violence in a few hotspots like Kurram.",
+      "context": "Where it burned hottest: Kurram and the frontier arc"
+    },
+    {
+      "insight": "Cross-border dynamics intensified: Afghanistan-border events rose from 35 to 50 and fatalities from 84 to 198, concentrated in North Waziristan and Khyber.",
+      "context": "Where it burned hottest: Kurram and the frontier arc"
+    },
+    {
+      "insight": "Iran-border activity surged from 58 to 189 events in 2024, with lethal incidents concentrated in Balochistan’s Kech and Panjgur.",
+      "context": "Where it burned hottest: Kurram and the frontier arc"
+    },
+    {
+      "insight": "Near the Afghanistan frontier, battles and violence against civilians dominated both volume and lethality; along the Iran frontier, protests and explosions were more common, but battles and attacks on civilians caused most deaths.",
+      "context": "Where it burned hottest: Kurram and the frontier arc"
+    },
+    {
+      "insight": "In Kech, protests were numerous and non-lethal, while battles caused most fatalities; Panjgur showed a similar but lower-volume profile.",
+      "context": "Where it burned hottest: Kurram and the frontier arc"
+    },
+    {
+      "insight": "Identity and communal militias in Kurram produced punctuated, high-casualty waves, while in Kech/Panjgur, smuggling routes and border logistics drove varied modalities and deadly clashes.",
+      "context": "Where it burned hottest: Kurram and the frontier arc"
+    },
+    {
+      "insight": "Early 2025 saw a broad lull: battles fell from roughly three thousand in late 2024 to a few dozen by May; explosions and remote attacks also plunged, with fatalities dropping sharply.",
+      "context": "What changed in early 2025—and what didn’t"
+    },
+    {
+      "insight": "Brand-name insurgents largely disappeared in early 2025: BLA, BLF, and ISKP had no qualifying incidents; TTP’s late‑2024 uptick faded to zero by Q1 2025.",
+      "context": "What changed in early 2025—and what didn’t"
+    },
+    {
+      "insight": "Security operations showed a short-lived deterrent effect: months with more raids/airstrikes were followed by fewer militant attacks one month later, but the effect dissipated within 2–3 months.",
+      "context": "What changed in early 2025—and what didn’t"
+    },
+    {
+      "insight": "Security-force targeting and casualties were concentrated in Khyber Pakhtunkhwa in late 2024, especially Kurram, but incidents dropped to near-zero across tracked districts in early 2025.",
+      "context": "What changed in early 2025—and what didn’t"
+    },
+    {
+      "insight": "Identity militias—sectarian and tribal—dominated many interactions in 2024, with observed per‑event lethality around 2.45 for several groups meeting a ≥10-event threshold, while branded insurgents appeared sparsely in this interaction space.",
+      "context": "What changed in early 2025—and what didn’t"
+    },
+    {
+      "insight": "Border flashpoint risks persist into 2025, as identity militias can remobilize quickly if operations ebb or external triggers re-emerge at Afghanistan or Iran crossings.",
+      "context": "What changed in early 2025—and what didn’t"
+    },
+    {
+      "insight": "IED-heavy disruption can scale quickly even when headline lethality is low, making infrastructure a continued vulnerability in border districts and identity-driven hotspots.",
+      "context": "Conclusion"
+    },
+    {
+      "insight": "Durable risk reduction will require sustained, targeted operations, improved border management on both frontiers, better intelligence on identity militias, and civilian protection along the Kurram–Kech arc.",
+      "context": "Conclusion"
+    }
+  ],
+  "prompt": "What are the status of militants in Pakistan over the last year and what would be the outlook for conflicts involving militants in Pakistan going into 2025?"
+}

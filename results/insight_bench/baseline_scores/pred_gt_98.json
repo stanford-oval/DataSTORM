@@ -1,0 +1,95 @@
+{
+  "dataset_id": 98,
+  "dataset_path": "data/notebooks/flag-98.json",
+  "metadata": {
+    "category": "Incidents Management",
+    "dataset_description": "The dataset comprises 500 entries simulating ServiceNow incidents table, detailing various attributes such as category, state, open and close dates, involved personnel, and incident specifics like location, description, and priority. It captures incident management activities with fields like 'opened_at', 'closed_at', 'assigned_to', 'short_description', and 'priority', reflecting the operational handling and urgency of issues across different locations and categories.",
+    "goal": "Find the discrepancy and imbalance in distribution of incidents assigned across categories",
+    "header": "Hardware Incident Dataset (Flag 98)",
+    "role": "L2 Support Agent"
+  },
+  "predicted_insights": [
+    "There is no imbalance across categories—the largest and smallest category counts are both 100 (gap = 0), each holding exactly 20% of the 500 incidents (largest-to-smallest ratio = 1.0).",
+    "The distribution is perfectly balanced across categories, with each same-named category–assignment_group pair handling exactly 20% of incidents (100 of 500), indicating no assignment imbalance or cross-category dominance.",
+    "Each category has exactly 100 incidents, but assignment within categories is uneven with top-to-bottom gaps ranging from 7 to 15 incidents (7–15%): Hardware is most skewed (27 vs. 12), while leadership varies by category—Charlie leads Database (26%) and Inquiry/Help (23%), and Fred leads Software and Network (24% each).",
+    "October 2023 was the busiest month overall with 52 incidents across all categories (14 Inquiry / Help, 13 Network, 11 Software, 8 Hardware, 6 Database), and Inquiry / Help showed the greatest volatility over the period (range 1–14) compared to more stable categories like Software (3–12).",
+    "With a 0% mismatch rate (0/500), any observed discrepancies or imbalances across categories stem from workload distribution rather than misrouting, and metrics like user satisfaction (mean 3.08, std 1.41) and estimated cost (mean $28.05k, std $21.85k) are unlikely to be driven by category–group misalignment.",
+    "Severity is uneven across categories: critical rates range from 15% (Database) to 30% (Hardware/Inquiry), meaning Hardware and Inquiry / Help see roughly twice the share of critical issues compared to Database, despite similar total incident volumes.",
+    "In Australia, Software represents 26% of that location’s incidents (26 of 100), only 4 more than Inquiry / Help and 6 more than Network, indicating a mild skew toward Software rather than a strong dominance.",
+    "Luke Wilson’s top-category concentration (27%) is only moderately skewed—about 35% higher than an even 20% split across 5 categories—and is 1.8× his least-represented categories (15%), indicating imbalance but not dominance.",
+    "Each category has exactly 100 incidents, but workload within categories is skewed: the largest gap is in Hardware (27 vs 12, a 15-incident or 15% spread), with category leads being Luke Wilson in Hardware (27%), Charlie Whitherspoon in Database (26%) and Inquiry/Help (23%), and Fred Luddy in Network (24%) and Software (24%).",
+    "Assignment inequality is generally low across categories (all Gini < 0.15), with Hardware about 2.2× more unequal than Inquiry / Help (0.148 vs 0.068), and identical Gini scores for Database and Software suggesting similar allocation patterns.",
+    "Infrastructure-related categories gained prominence: Network and Hardware together grew from 40.00% of incidents in 2023Q1 to 52.94% in 2024Q1, while Inquiry / Help dropped below 9%, indicating a shift toward more technical incident loads.",
+    "Software’s discrepancy (2.30 pp) is about 2.5× the category average (0.92 pp) and ~3.7× the median (~0.63 pp), indicating a meaningful imbalance where Software’s cost share is notably out of proportion to its incident share compared to other categories."
+  ],
+  "predicted_summary": "Across categories, incidents are evenly split (100 each; 20% apiece), but the workload within each category is unevenly distributed across assignees: Hardware shows the highest inequality (Gini 0.148) with the top assignee handling 27% vs the lowest 12% (a 15-point gap), while Inquiry / Help is most balanced (Gini 0.068; top 23% vs lowest 16%). Overall, inequality across categories averages around 0.10, and assignee specialization contributes (e.g., 27% of Luke Wilson’s incidents are in Hardware).\nThe category mix shifts over time rather than staying constant: Network’s share of total incidents rose from 19.05% in 2023Q1 to 26.47% in 2024Q1 (+7.42 percentage points), and monthly volumes swing widely (e.g., Inquiry / Help ranged from 1 in Feb 2023 to 14 in Oct 2023), indicating that category workload concentration varies significantly across periods.\nThere are no routing discrepancies between category and assignment_group—0 out of 500 incidents are mismatches (100% alignment), and every category is handled exclusively by its matching assignment_group (each 100 incidents; 20%).",
+  "score_insights": 0.3977445067308416,
+  "score_insights_dict": [
+    {
+      "gt_insight": "The incidents are equally distributed across all categories.",
+      "pred_insight": "There is no imbalance across categories—the largest and smallest category counts are both 100 (gap = 0), each holding exactly 20% of the 500 incidents (largest-to-smallest ratio = 1.0).",
+      "score": 0.9557579238633978
+    },
+    {
+      "gt_insight": "There are no specific issues mentioned in the incident descriptions for each category.",
+      "pred_insight": "With a 0% mismatch rate (0/500), any observed discrepancies or imbalances across categories stem from workload distribution rather than misrouting, and metrics like user satisfaction (mean 3.08, std 1.41) and estimated cost (mean $28.05k, std $21.85k) are unlikely to be driven by category–group misalignment.",
+      "score": 0.44741850935729477
+    },
+    {
+      "gt_insight": "There are specific mentions of printers in the incident descriptions.",
+      "pred_insight": "Infrastructure-related categories gained prominence: Network and Hardware together grew from 40.00% of incidents in 2023Q1 to 52.94% in 2024Q1, while Inquiry / Help dropped below 9%, indicating a shift toward more technical incident loads.",
+      "score": 0.10783884562394527
+    },
+    {
+      "gt_insight": "There is no specific location where hardware incidents are concentrated.",
+      "pred_insight": "Assignment inequality is generally low across categories (all Gini < 0.15), with Hardware about 2.2× more unequal than Inquiry / Help (0.148 vs 0.068), and identical Gini scores for Database and Software suggesting similar allocation patterns.",
+      "score": 0.18865288181745576
+    },
+    {
+      "gt_insight": "There is no significant increasing trend in the 'Hardware' or any other category.",
+      "pred_insight": "October 2023 was the busiest month overall with 52 incidents across all categories (14 Inquiry / Help, 13 Network, 11 Software, 8 Hardware, 6 Database), and Inquiry / Help showed the greatest volatility over the period (range 1–14) compared to more stable categories like Software (3–12).",
+      "score": 0.2988096494376272
+    },
+    {
+      "gt_insight": "",
+      "pred_insight": "October 2023 was the busiest month overall with 52 incidents across all categories (14 Inquiry / Help, 13 Network, 11 Software, 8 Hardware, 6 Database), and Inquiry / Help showed the greatest volatility over the period (range 1–14) compared to more stable categories like Software (3–12).",
+      "score": 0.38798923028532906
+    }
+  ],
+  "score_summary": 0.45818753323733763,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.4342529209719217,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "The distribution is perfectly balanced across categories, with each same-named category–assignment_group pair handling exactly 20% of incidents (100 of 500), indicating no assignment imbalance or cross-category dominance.",
+      "gt_insight": "The incidents are equally distributed across all categories.",
+      "score": 0.8519541196594366
+    },
+    {
+      "pred_insight": "With a 0% mismatch rate (0/500), any observed discrepancies or imbalances across categories stem from workload distribution rather than misrouting, and metrics like user satisfaction (mean 3.08, std 1.41) and estimated cost (mean $28.05k, std $21.85k) are unlikely to be driven by category–group misalignment.",
+      "gt_insight": "There are no specific issues mentioned in the incident descriptions for each category.",
+      "score": 0.41237988315633534
+    },
+    {
+      "pred_insight": "With a 0% mismatch rate (0/500), any observed discrepancies or imbalances across categories stem from workload distribution rather than misrouting, and metrics like user satisfaction (mean 3.08, std 1.41) and estimated cost (mean $28.05k, std $21.85k) are unlikely to be driven by category–group misalignment.",
+      "gt_insight": "There are specific mentions of printers in the incident descriptions.",
+      "score": 0.23028508746246062
+    },
+    {
+      "pred_insight": "The distribution is perfectly balanced across categories, with each same-named category–assignment_group pair handling exactly 20% of incidents (100 of 500), indicating no assignment imbalance or cross-category dominance.",
+      "gt_insight": "There is no specific location where hardware incidents are concentrated.",
+      "score": 0.2083405102006378
+    },
+    {
+      "pred_insight": "The distribution is perfectly balanced across categories, with each same-named category–assignment_group pair handling exactly 20% of incidents (100 of 500), indicating no assignment imbalance or cross-category dominance.",
+      "gt_insight": "There is no significant increasing trend in the 'Hardware' or any other category.",
+      "score": 0.26927630875800246
+    },
+    {
+      "pred_insight": "Each category has exactly 100 incidents, but workload within categories is skewed: the largest gap is in Hardware (27 vs 12, a 15-incident or 15% spread), with category leads being Luke Wilson in Hardware (27%), Charlie Whitherspoon in Database (26%) and Inquiry/Help (23%), and Fred Luddy in Network (24%) and Software (24%).",
+      "gt_insight": "",
+      "score": 0.6332816165946571
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.5546899239704954,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.4302291665277968
+}

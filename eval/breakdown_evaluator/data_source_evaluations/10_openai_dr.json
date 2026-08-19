@@ -1,0 +1,222 @@
+{
+  "total_insights": 21,
+  "total_classified": 21,
+  "acled_count": 12,
+  "non_acled_count": 9,
+  "pct_acled": 0.5714285714285714,
+  "details": [
+    {
+      "evidence": "Militant violence in Pakistan surged sharply from 2022 to 2024, reversing declines seen from 2015–2019.",
+      "is_acled_data": true,
+      "reasoning": "The statement describes a temporal trend in militant violence in Pakistan (a surge from 2022–2024 after declines in 2015–2019), which aligns with ACLED’s conflict trend analysis based on event counts and temporal patterns. Such periodized increases/decreases are commonly derived from ACLED event data, even though no source is cited explicitly.",
+      "source_context": "Overview of national trend; comparison across years 2022–2024 and reference to mid-2010s levels."
+    },
+    {
+      "evidence": "Pakistan recorded 645 militant attacks in 2023, a 70% increase from 380 in 2022, resulting in 976 deaths compared to 539 in 2022.",
+      "is_acled_data": true,
+      "reasoning": "The evidence provides specific counts of militant attacks and fatalities by year, reflecting conflict event and fatality statistics and temporal trends—data types ACLED tracks. Such figures are characteristic of ACLED-derived summaries for Pakistan unless explicitly attributed elsewhere.",
+      "source_context": "PICSS data cited for 2022–2023 attack and casualty figures."
+    },
+    {
+      "evidence": "Violence intensified further in 2024 with approximately 856 incidents, the highest level since the mid-2010s.",
+      "is_acled_data": true,
+      "reasoning": "The statement cites a specific count of conflict incidents in 2024 and compares to historical levels, which aligns with ACLED’s event count and temporal trend data. Such incident totals are a core ACLED metric.",
+      "source_context": "Soufan Center 2024 incident count and contextualization against past peak levels."
+    },
+    {
+      "evidence": "By August 2024, militant attacks had already killed over 750 people, nearly matching 2023’s total fatalities.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites a specific fatality count from militant attacks in a defined timeframe, which aligns with ACLED’s fatality and event data tracking and temporal trends. Such figures are typical outputs from ACLED’s conflict event and casualty datasets.",
+      "source_context": "DW report highlighting cumulative deaths by August 2024."
+    },
+    {
+      "evidence": "Militant violence was concentrated in Khyber Pakhtunkhwa and Balochistan, regions bordering Afghanistan.",
+      "is_acled_data": true,
+      "reasoning": "Identifying subnational concentration of militant violence in specific provinces (Khyber Pakhtunkhwa and Balochistan) aligns with ACLED’s geographic conflict data and event distribution analyses. This type of statement is commonly derived from ACLED’s location-tagged event counts and trends.",
+      "source_context": "Geographic concentration noted in analysis of conflict zones."
+    },
+    {
+      "evidence": "The TTP was the deadliest militant actor in 2024, involved in roughly 839 events and causing 1,238 fatalities.",
+      "is_acled_data": true,
+      "reasoning": "The statement provides specific actor-level event counts and fatalities for 2024 (TTP with ~839 events and 1,238 fatalities), which aligns with ACLED’s event-based, actor-specific data and fatality figures. This is characteristic of ACLED-derived metrics.",
+      "source_context": "ACLED data on TTP activity and lethality in 2024."
+    },
+    {
+      "evidence": "The TTP ended a ceasefire in late 2022 and escalated attacks on security forces and civilians in northwestern Pakistan.",
+      "is_acled_data": true,
+      "reasoning": "The statement references a specific armed group (TTP), a ceasefire ending, and subsequent escalation of attacks against security forces and civilians in a defined region and timeframe—elements consistent with ACLED’s actor-level event data and temporal trend analysis. While it could also come from media, this type of conflict trend claim aligns with ACLED-derived insights on event patterns and armed group activity.",
+      "source_context": "Timeline of TTP operational shift post-ceasefire and target profile."
+    },
+    {
+      "evidence": "The Afghan Taliban increased support to the TTP, including provision of weapons left after the U.S. withdrawal, enabling cross-border raids.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytic claim about Afghan Taliban support to TTP and weapons flows after the U.S. withdrawal, not a specific ACLED-coded event, statistic, or trend explicitly tied to ACLED data. It lacks event counts, locations, dates, or attribution to ACLED.",
+      "source_context": "UN assessments and Soufan Center analysis on Afghan Taliban’s support and its operational effects."
+    },
+    {
+      "evidence": "Baloch separatist groups, especially the BLA, intensified attacks in 2024, including a Quetta train station assault that killed 26 in November 2024.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific conflict events (an attack in Quetta, fatalities count, timing in November 2024) and armed group activity (BLA), which are types of details typically contained in ACLED event data. While not explicitly attributed, the specificity aligns with ACLED’s event descriptions and fatality data.",
+      "source_context": "Soufan Center incident example illustrating BLA’s escalated campaign."
+    },
+    {
+      "evidence": "The BLA alone perpetrated 258 attacks causing 384 fatalities in 2024, targeting security forces and infrastructure, including CPEC-linked projects.",
+      "is_acled_data": true,
+      "reasoning": "The statement provides specific counts of attacks and fatalities by a particular armed group (BLA) in a defined period (2024) and mentions targeted sectors—this aligns with ACLED’s actor-level event counts and fatality figures derived from conflict event data. Such granular attack and fatality totals by group are characteristic of ACLED outputs.",
+      "source_context": "ACLED figures and targeting patterns for BLA in 2024."
+    },
+    {
+      "evidence": "Islamic State affiliates (ISKP and ISPP) conducted fewer but deadly attacks in 2024, including suicide bombings and sectarian massacres, with ISPP causing around 40 deaths across under a dozen attacks.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific armed group activity (ISKP/ISPP), event counts (“under a dozen attacks”), and fatality figures (“around 40 deaths”) in 2024, which align with ACLED’s actor-level event counts and fatality data and temporal trend analysis. This type of quantitative event and casualty summary is characteristic of ACLED-derived insights.",
+      "source_context": "ACLED summary of IS-affiliate activity and lethality."
+    },
+    {
+      "evidence": "Sectarian violence spiked in 2024, exemplified by a late-November massacre of 52 Shia travelers in KP’s Kurram district that triggered retaliatory communal clashes.",
+      "is_acled_data": true,
+      "reasoning": "The claim references a specific violent event (massacre of 52 Shia travelers in Kurram district in late November 2024) and frames it within a trend of sectarian violence spiking in 2024. ACLED tracks event-level incidents, fatalities, locations, dates, and trends, so this type of event description and temporal spike assessment aligns with ACLED-derived data.",
+      "source_context": "Soufan Center account of a major sectarian incident and its aftermath."
+    },
+    {
+      "evidence": "Pakistan launched an ‘all-out comprehensive operation’ in early 2023, escalating counterterrorism actions that killed or arrested hundreds of militants.",
+      "is_acled_data": false,
+      "reasoning": "The statement describes a government-announced operation and broad outcomes (killed or arrested hundreds) without citing specific ACLED event data, counts, or actor-level entries. It reads as general policy/action commentary, which is not inherently ACLED-derived unless explicitly tied to ACLED event statistics.",
+      "source_context": "Government response measures following major attacks, including Peshawar bombing impetus."
+    },
+    {
+      "evidence": "Despite crackdowns, militant networks remained resilient due to porous Afghan borders and the Taliban’s tacit sheltering of TTP.",
+      "is_acled_data": false,
+      "reasoning": "The statement is qualitative geopolitical analysis about border porosity and Taliban sheltering of TTP, not specific event counts, locations, fatalities, or actor-level event data attributed to ACLED.",
+      "source_context": "Assessment of structural challenges undermining counterinsurgency efficacy."
+    },
+    {
+      "evidence": "Pakistan’s political and economic turmoil in 2024, including unrest over Imran Khan’s ouster and jailing, strained security capacity and diverted resources.",
+      "is_acled_data": false,
+      "reasoning": "The evidence is general political/economic analysis about unrest over Imran Khan’s ouster and its impact on security capacity, not specific conflict event data, counts, fatalities, or actor-level details attributed to ACLED.",
+      "source_context": "Domestic instability’s impact on counterinsurgency bandwidth."
+    },
+    {
+      "evidence": "Analysts expect elevated militant violence to persist into 2025 absent decisive interventions.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical forecast about future violence and does not reference specific ACLED event data, trends, or attribution to ACLED.",
+      "source_context": "Outlook section summarizing consensus on continued threat trajectory."
+    },
+    {
+      "evidence": "TTP and allied groups are likely to sustain cross-border operations in 2025, bolstered by safe haven and support in Afghanistan.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a forward-looking analytical assessment about likely cross-border operations and safe haven in Afghanistan, not a citation of specific ACLED event data, counts, locations, or actor-level statistics. It reflects geopolitical analysis rather than ACLED-derived metrics.",
+      "source_context": "Projection based on ongoing Afghan sanctuary and support dynamics."
+    },
+    {
+      "evidence": "Baloch separatist insurgencies are expected to continue in 2025, driven by entrenched grievances and opportunities to hit high-profile economic projects.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a forward-looking analytical forecast about Baloch separatist insurgencies, not citing specific ACLED event data, counts, fatalities, or actor-level statistics. It is general geopolitical analysis rather than derived directly from ACLED datasets.",
+      "source_context": "Forecast for Baloch insurgent activity tied to political-economy factors."
+    },
+    {
+      "evidence": "Pakistan may escalate counterinsurgency in 2025, risking protracted fighting in KP’s tribal areas and Balochistan.",
+      "is_acled_data": false,
+      "reasoning": "This is a forward-looking analytical statement about potential escalation and protracted fighting in specific regions, not a citation of specific event data, counts, locations, or trends explicitly attributed to ACLED.",
+      "source_context": "Potential state response and geographic focus of intensified operations."
+    },
+    {
+      "evidence": "Without Afghan Taliban cooperation or improved internal stability, conflict intensity with militant groups is likely to remain high through 2025.",
+      "is_acled_data": false,
+      "reasoning": "This is a forward-looking analytical statement about likely conflict intensity and drivers (Afghan Taliban cooperation, internal stability), not a citation of specific ACLED event counts, trends, or actor-level data. It’s general geopolitical analysis, not directly tied to ACLED-derived metrics.",
+      "source_context": "Conditional factors identified as key to de-escalation."
+    },
+    {
+      "evidence": "Multiple independent sources (PICSS, DW, Soufan Center, UN assessments, ACLED) corroborate the surge in attacks, casualties, and external support to TTP.",
+      "is_acled_data": true,
+      "reasoning": "The evidence explicitly lists ACLED among the sources corroborating trends in attacks, casualties, and external support to TTP. Since ACLED provides event counts, fatalities, actor activity, and trend analysis, citing ACLED as a source indicates the claim is at least partially derived from ACLED data.",
+      "source_context": "Sourcing overview supporting the article’s findings."
+    }
+  ],
+  "insights": [
+    {
+      "insight": "Militant violence in Pakistan surged sharply from 2022 to 2024, reversing declines seen from 2015–2019.",
+      "context": "Overview of national trend; comparison across years 2022–2024 and reference to mid-2010s levels."
+    },
+    {
+      "insight": "Pakistan recorded 645 militant attacks in 2023, a 70% increase from 380 in 2022, resulting in 976 deaths compared to 539 in 2022.",
+      "context": "PICSS data cited for 2022–2023 attack and casualty figures."
+    },
+    {
+      "insight": "Violence intensified further in 2024 with approximately 856 incidents, the highest level since the mid-2010s.",
+      "context": "Soufan Center 2024 incident count and contextualization against past peak levels."
+    },
+    {
+      "insight": "By August 2024, militant attacks had already killed over 750 people, nearly matching 2023’s total fatalities.",
+      "context": "DW report highlighting cumulative deaths by August 2024."
+    },
+    {
+      "insight": "Militant violence was concentrated in Khyber Pakhtunkhwa and Balochistan, regions bordering Afghanistan.",
+      "context": "Geographic concentration noted in analysis of conflict zones."
+    },
+    {
+      "insight": "The TTP was the deadliest militant actor in 2024, involved in roughly 839 events and causing 1,238 fatalities.",
+      "context": "ACLED data on TTP activity and lethality in 2024."
+    },
+    {
+      "insight": "The TTP ended a ceasefire in late 2022 and escalated attacks on security forces and civilians in northwestern Pakistan.",
+      "context": "Timeline of TTP operational shift post-ceasefire and target profile."
+    },
+    {
+      "insight": "The Afghan Taliban increased support to the TTP, including provision of weapons left after the U.S. withdrawal, enabling cross-border raids.",
+      "context": "UN assessments and Soufan Center analysis on Afghan Taliban’s support and its operational effects."
+    },
+    {
+      "insight": "Baloch separatist groups, especially the BLA, intensified attacks in 2024, including a Quetta train station assault that killed 26 in November 2024.",
+      "context": "Soufan Center incident example illustrating BLA’s escalated campaign."
+    },
+    {
+      "insight": "The BLA alone perpetrated 258 attacks causing 384 fatalities in 2024, targeting security forces and infrastructure, including CPEC-linked projects.",
+      "context": "ACLED figures and targeting patterns for BLA in 2024."
+    },
+    {
+      "insight": "Islamic State affiliates (ISKP and ISPP) conducted fewer but deadly attacks in 2024, including suicide bombings and sectarian massacres, with ISPP causing around 40 deaths across under a dozen attacks.",
+      "context": "ACLED summary of IS-affiliate activity and lethality."
+    },
+    {
+      "insight": "Sectarian violence spiked in 2024, exemplified by a late-November massacre of 52 Shia travelers in KP’s Kurram district that triggered retaliatory communal clashes.",
+      "context": "Soufan Center account of a major sectarian incident and its aftermath."
+    },
+    {
+      "insight": "Pakistan launched an ‘all-out comprehensive operation’ in early 2023, escalating counterterrorism actions that killed or arrested hundreds of militants.",
+      "context": "Government response measures following major attacks, including Peshawar bombing impetus."
+    },
+    {
+      "insight": "Despite crackdowns, militant networks remained resilient due to porous Afghan borders and the Taliban’s tacit sheltering of TTP.",
+      "context": "Assessment of structural challenges undermining counterinsurgency efficacy."
+    },
+    {
+      "insight": "Pakistan’s political and economic turmoil in 2024, including unrest over Imran Khan’s ouster and jailing, strained security capacity and diverted resources.",
+      "context": "Domestic instability’s impact on counterinsurgency bandwidth."
+    },
+    {
+      "insight": "Analysts expect elevated militant violence to persist into 2025 absent decisive interventions.",
+      "context": "Outlook section summarizing consensus on continued threat trajectory."
+    },
+    {
+      "insight": "TTP and allied groups are likely to sustain cross-border operations in 2025, bolstered by safe haven and support in Afghanistan.",
+      "context": "Projection based on ongoing Afghan sanctuary and support dynamics."
+    },
+    {
+      "insight": "Baloch separatist insurgencies are expected to continue in 2025, driven by entrenched grievances and opportunities to hit high-profile economic projects.",
+      "context": "Forecast for Baloch insurgent activity tied to political-economy factors."
+    },
+    {
+      "insight": "Pakistan may escalate counterinsurgency in 2025, risking protracted fighting in KP’s tribal areas and Balochistan.",
+      "context": "Potential state response and geographic focus of intensified operations."
+    },
+    {
+      "insight": "Without Afghan Taliban cooperation or improved internal stability, conflict intensity with militant groups is likely to remain high through 2025.",
+      "context": "Conditional factors identified as key to de-escalation."
+    },
+    {
+      "insight": "Multiple independent sources (PICSS, DW, Soufan Center, UN assessments, ACLED) corroborate the surge in attacks, casualties, and external support to TTP.",
+      "context": "Sourcing overview supporting the article’s findings."
+    }
+  ],
+  "prompt": "What are the status of militants in Pakistan over the last year and what would be the outlook for conflicts involving militants in Pakistan going into 2025?"
+}

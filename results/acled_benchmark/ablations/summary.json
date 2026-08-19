@@ -1,0 +1,13 @@
+[
+  {
+    "set": "no_inductive",
+    "n": 10,
+    "AvgMatch%": 48.3,
+    "RACE_Overall": 49.5,
+    "Comp": 48.6,
+    "Depth": 48.9,
+    "Inst": 50.9,
+    "Read": 51.2,
+    "DBUse%": 71.6
+  }
+]

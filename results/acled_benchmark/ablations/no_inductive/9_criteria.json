@@ -1,0 +1,143 @@
+{
+  "prompt": "Status of political violence in Amhara since Fano insurgency began in April 2023.",
+  "criteria": [
+    {
+      "name": "Conflict intensity trends",
+      "description": "Track how the overall frequency and lethality of political violence fluctuate over time, noting periods of escalation and any subsequent dips, and how these correlate with major conflict milestones or policy shifts."
+    },
+    {
+      "name": "Battles versus civilian targeting",
+      "description": "Assess the balance between combat events and violence against civilians, and examine how increases in frontline clashes tend to coincide with rises in civilian harm."
+    },
+    {
+      "name": "Geographic spread and hotspots",
+      "description": "Identify which zones and urban centers experience persistent or emerging violence and how the conflict’s geography expands or shifts over time."
+    },
+    {
+      "name": "Actor fragmentation and cohesion",
+      "description": "Evaluate the degree of unity or fragmentation among insurgent groups and security forces, and how organizational incoherence fuels criminality and diffuse insecurity."
+    },
+    {
+      "name": "Criminality amid conflict",
+      "description": "Analyze the growth of opportunistic crimes—such as kidnappings for ransom and armed robbery—thriving under weakened governance and blurred lines between political and criminal violence."
+    },
+    {
+      "name": "Target profiles and motives",
+      "description": "Examine which civilian groups are targeted—including government-affiliated individuals, suspected sympathizers, refugees, and aid workers—and the stated or perceived motives behind attacks."
+    },
+    {
+      "name": "Security sector effectiveness",
+      "description": "Assess the capacity of government forces to protect civilians, including the impact of operations, states of emergency, and control efforts on actual security outcomes."
+    },
+    {
+      "name": "Civilian exposure and daily impacts",
+      "description": "Consider the breadth of the population affected by conflict, including indirect effects like service disruptions, school closures, shortages, and price increases."
+    },
+    {
+      "name": "Public sentiment and protest dynamics",
+      "description": "Track how public frustration with insecurity manifests in protests or unrest, and how authorities respond to civic mobilization."
+    },
+    {
+      "name": "Narratives and blame attribution",
+      "description": "Analyze competing narratives where parties attribute responsibility for insecurity to rivals or shadowy actors, and how these narratives influence perceptions and legitimacy."
+    },
+    {
+      "name": "Comparative regional parallels",
+      "description": "Draw parallels with similar insurgency dynamics in neighboring regions, highlighting shared patterns such as decentralized structures, criminal funding, and civilian targeting."
+    },
+    {
+      "name": "Humanitarian access and protection",
+      "description": "Evaluate risks to humanitarian workers and refugees, changes in access constraints, and the measures taken—or lacking—to safeguard vulnerable populations."
+    },
+    {
+      "name": "Escalation triggers and de-escalators",
+      "description": "Identify events or conditions that precipitate spikes in violence or enable temporary lulls, including military campaigns, leadership disputes, or local agreements."
+    },
+    {
+      "name": "Governance breakdown and local order",
+      "description": "Assess the erosion of formal governance and security structures, and the emergence of informal or community-based enforcement dynamics."
+    },
+    {
+      "name": "Information environment control",
+      "description": "Examine attempts by authorities or insurgents to shape conflict narratives and data, and how information control affects situational awareness and reporting."
+    }
+  ],
+  "criterion_scores": [
+    {
+      "name": "Conflict intensity trends",
+      "score": 0.9,
+      "explanation": "The article closely tracks temporal fluctuations, highlighting two aerial surges (late-2023, late-2024), monthly strike counts, and lethality peaks. It correlates these with overall violence and provides quantitative relationships (correlations with total fatalities). Minor gap: limited discussion of policy shifts beyond inference about airpower strategy."
+    },
+    {
+      "name": "Battles versus civilian targeting",
+      "score": 0.85,
+      "explanation": "It compares remote violence lethality to battles, notes high battle volumes coinciding with aerial surges, and discusses violence against civilians co-movement. It asserts frequent civilian contexts for air/drone strikes. Some details on systematic rates of civilian targeting outside airstrikes are less developed."
+    },
+    {
+      "name": "Geographic spread and hotspots",
+      "score": 0.9,
+      "explanation": "Identifies hotspots (West/East Gojam, North Shewa) with district-month fatality data and specific localities, and notes conflict footprint expansion to record number of locations. Strong geographic analysis centered on aerial campaign; limited coverage of other event types’ geography."
+    },
+    {
+      "name": "Actor fragmentation and cohesion",
+      "score": 0.4,
+      "explanation": "Mentions ENDF vs Fano and high confrontation counts, but provides little analysis of insurgent or security force fragmentation, factional dynamics, or how incoherence fuels insecurity."
+    },
+    {
+      "name": "Criminality amid conflict",
+      "score": 0.2,
+      "explanation": "Barely mentions opportunistic crimes; focus remains on airstrikes, battles, and civilian harm. No substantive analysis of kidnappings, ransom, or armed robbery patterns."
+    },
+    {
+      "name": "Target profiles and motives",
+      "score": 0.6,
+      "explanation": "Profiles civilians as primary victims in air/drone strikes, listing sites (schools, homes, markets, religious sites) and indicating ENDF attribution. Motives are inferred (counter-Fano approach) but not deeply explored; little coverage of other civilian categories (aid workers, refugees, suspected sympathizers)."
+    },
+    {
+      "name": "Security sector effectiveness",
+      "score": 0.7,
+      "explanation": "Assesses ENDF airpower as intensifier not pacifier, correlates with battles and spread, implying limited protection outcomes. Does not deeply analyze states of emergency or broader protection measures beyond aerial operations."
+    },
+    {
+      "name": "Civilian exposure and daily impacts",
+      "score": 0.45,
+      "explanation": "Provides qualitative notes on civilian spaces hit and high lethality but limited discussion of indirect impacts like service disruptions, school closures, shortages, or prices."
+    },
+    {
+      "name": "Public sentiment and protest dynamics",
+      "score": 0.1,
+      "explanation": "Does not address protests or public sentiment; focus is operational and quantitative."
+    },
+    {
+      "name": "Narratives and blame attribution",
+      "score": 0.25,
+      "explanation": "Briefly frames ENDF exclusivity in air/drone strikes; limited examination of competing narratives or blame attribution between parties and its effect on legitimacy."
+    },
+    {
+      "name": "Comparative regional parallels",
+      "score": 0.0,
+      "explanation": "No comparisons to neighboring regions or analogous insurgency dynamics."
+    },
+    {
+      "name": "Humanitarian access and protection",
+      "score": 0.2,
+      "explanation": "Mentions civilian harm but does not analyze risks to aid workers/refugees or access constraints and protection measures."
+    },
+    {
+      "name": "Escalation triggers and de-escalators",
+      "score": 0.6,
+      "explanation": "Identifies aerial surges as escalation drivers, notes non-linear waves and correlations; limited exploration of other triggers (leadership disputes, local agreements) or de-escalators beyond brief lull references."
+    },
+    {
+      "name": "Governance breakdown and local order",
+      "score": 0.3,
+      "explanation": "Implied spread and rising violence suggest erosion of control, but there is little explicit analysis of governance breakdown or emergence of informal enforcement."
+    },
+    {
+      "name": "Information environment control",
+      "score": 0.35,
+      "explanation": "References ACLED records and attribution, implies clarity of ENDF responsibility; lacks broader discussion of information manipulation, data suppression, or narrative control by authorities/insurgents."
+    }
+  ],
+  "overall_score": 0.45333333333333325
+}

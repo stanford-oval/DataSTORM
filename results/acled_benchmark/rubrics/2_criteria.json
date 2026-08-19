@@ -1,0 +1,84 @@
+{
+  "criteria": [
+    {
+      "name": "State–armed group de-escalation",
+      "description": "Assess whether negotiations and policy shifts reduce direct clashes between security forces and armed groups, and the durability of such declines over time."
+    },
+    {
+      "name": "Ceasefire design and oversight",
+      "description": "Evaluate the presence and effectiveness of protocols, monitoring, and enforcement mechanisms that shape ceasefire compliance and prevent opportunistic violations."
+    },
+    {
+      "name": "Fragmentation within armed groups",
+      "description": "Analyze internal splits, leadership disputes, and factional dynamics that affect negotiation coherence, ceasefire adherence, and conflict behavior."
+    },
+    {
+      "name": "Intergroup competition and violence",
+      "description": "Track how reduced state pressure influences armed groups’ rivalries, territorial battles, and the frequency and lethality of clashes among them."
+    },
+    {
+      "name": "Territorial expansion patterns",
+      "description": "Examine changes in geographic reach, including the number of affected localities and strategic corridors targeted for illicit economies and logistical control."
+    },
+    {
+      "name": "Illicit economy drivers",
+      "description": "Assess how trends in drug cultivation, mining, smuggling, and extortion shape groups’ finances, expansion strategies, and incentives for or against peace."
+    },
+    {
+      "name": "Cross-border and sanctuary effects",
+      "description": "Consider how neighboring-country dynamics and safe havens influence negotiation leverage, logistics, and the persistence or resurgence of violence."
+    },
+    {
+      "name": "Urban conflict and local actors",
+      "description": "Evaluate the role of city-based gangs and smaller groups, their ties to major outfits, and how inclusion or neglect in talks affects urban violence."
+    },
+    {
+      "name": "Civilians’ protection and harm",
+      "description": "Monitor displacement, coercion, kidnappings, and other abuses against civilians, and whether policies mitigate or unintentionally heighten these harms."
+    },
+    {
+      "name": "Security force posture and incentives",
+      "description": "Analyze operational choices, pressure levels, and possible disincentives or collusion that shape engagement with different armed actors."
+    },
+    {
+      "name": "Negotiation scope and sequencing",
+      "description": "Assess the government’s capacity to manage multiple parallel processes, prioritize tracks, and anticipate spillovers between negotiations."
+    },
+    {
+      "name": "Local versus national agreements",
+      "description": "Compare the effectiveness of localized, targeted deals against broad national accords in reducing violence and addressing community needs."
+    },
+    {
+      "name": "Adaptive tactics and technologies",
+      "description": "Track shifts in armed groups’ methods, such as the use of drones or curfews, and their impact on conflict intensity and state responses."
+    },
+    {
+      "name": "Alliance fluidity and opportunism",
+      "description": "Examine how alliances and hostilities between groups change by region and over time, reflecting opportunistic calculations rather than fixed enmities."
+    },
+    {
+      "name": "Implementation of prior accords",
+      "description": "Evaluate continuity and gaps in enforcing earlier peace agreements and reintegration efforts, and their effects on remobilization and dissidence."
+    },
+    {
+      "name": "State presence and governance",
+      "description": "Assess whether increased governance, services, and rule of law accompany negotiations to consolidate peace and deter criminal entrenchment."
+    },
+    {
+      "name": "Election-period volatility",
+      "description": "Monitor how political cycles affect armed group behavior, including targeted coercion and attempts to influence local authorities."
+    },
+    {
+      "name": "Public legitimacy and trust",
+      "description": "Gauge societal support for negotiations, perceptions of fairness and accountability, and how legitimacy affects compliance and outcomes."
+    },
+    {
+      "name": "Justice and recognition frameworks",
+      "description": "Analyze legal pathways for political recognition or judicial submission of different actor types, and how these incentives shape participation."
+    },
+    {
+      "name": "Conflict intensity trade-offs",
+      "description": "Identify the paradox where lowering state–group confrontation can coincide with rising intergroup violence, and propose mitigating measures."
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "total_insights": 15,
+  "total_classified": 15,
+  "acled_count": 0,
+  "non_acled_count": 15,
+  "pct_acled": 0.0,
+  "details": [
+    {
+      "evidence": "Homicide levels in Mexico have plateaued at historically high rates in recent years, with brutal incidents continuing into late 2024.",
+      "is_acled_data": false,
+      "reasoning": "The statement refers to overall homicide levels in Mexico and their trend, which are general crime statistics typically from governmental sources (e.g., SESNSP/INEGI) rather than ACLED’s conflict event data. It is not explicitly tied to ACLED event counts or actor-level conflict data.",
+      "source_context": "Ongoing Violence in Late 2024 section describing persistent high homicide rates."
+    },
+    {
+      "evidence": "Late 2024 saw open gun battles in Culiacán and the assassination of the mayor of Chilpancingo, highlighting entrenched organized crime.",
+      "is_acled_data": false,
+      "reasoning": "The statement references specific incidents (gun battles in Culiacán and an assassination in Chilpancingo) but provides no event counts, dates, actor details, or attribution to ACLED. It reads as general narrative/media-reported events rather than explicit ACLED-derived data.",
+      "source_context": "Examples cited of late-2024 violent incidents in Culiacán and Chilpancingo."
+    },
+    {
+      "evidence": "Authorities have struggled to contain turf wars as powerful cartels and offshoot gangs compete for control across regions.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical observation about authorities struggling to contain cartel turf wars. It does not reference specific event counts, locations, actors, fatalities, or trends tied to ACLED data, nor is it attributed to ACLED.",
+      "source_context": "Overview of ongoing turf wars and criminal activities across Mexico."
+    },
+    {
+      "evidence": "AMLO’s “hugs, not bullets” strategy avoided direct confrontation with cartels and may have prevented escalation, but killings remained high.",
+      "is_acled_data": false,
+      "reasoning": "The statement is general policy analysis about AMLO’s security approach and overall killings remaining high. It does not reference specific ACLED event counts, actor data, fatalities from conflict events, or ACLED-attributed trends. Therefore it is not derived from ACLED data.",
+      "source_context": "Changing Security Strategy discussing outcomes of AMLO’s policy."
+    },
+    {
+      "evidence": "President Claudia Sheinbaum signals a shift toward bolstering intelligence operations and targeting cartel finances rather than appeasement or brute force.",
+      "is_acled_data": false,
+      "reasoning": "This is a policy statement about a government’s security strategy, not specific conflict event data or analysis derived from ACLED. ACLED does not track government policy declarations; it tracks events, actors, fatalities, and trends from conflict data.",
+      "source_context": "Sheinbaum’s indicated tactics contrasted with predecessor’s approach."
+    },
+    {
+      "evidence": "Sheinbaum’s administration plans to expand social programs to deter youth recruitment, though evidence suggests limited impact when cartel profits are high.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a policy analysis about planned social programs and their effectiveness; it does not reference conflict event data, fatalities, locations, or actor-level statistics attributed to ACLED.",
+      "source_context": "Discussion of social programs’ effectiveness in reducing cartel recruitment."
+    },
+    {
+      "evidence": "Sheinbaum must introduce new measures without overtly discrediting AMLO’s legacy, making drastic policy changes politically sensitive.",
+      "is_acled_data": false,
+      "reasoning": "The statement is political analysis about policy sensitivities and leadership dynamics, not based on specific conflict event data, fatalities, or actor-level metrics. It is general commentary rather than ACLED-derived data.",
+      "source_context": "Political balancing act outlined in Changing Security Strategy."
+    },
+    {
+      "evidence": "Experts are cautious about rapid improvement in security in 2025, anticipating continued high levels of violence.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical forecast about security trends without reference to specific ACLED event data, counts, locations, or actor-level details. It is not explicitly attributed to ACLED and lacks concrete conflict event metrics.",
+      "source_context": "Outlook for 2025 section summarizing expert sentiment."
+    },
+    {
+      "evidence": "Election periods in Mexico often see spikes in violence, including targeted assassinations, as criminal groups protect their interests.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical observation about violence during election periods and targeted assassinations without citing specific ACLED event data, counts, locations, or trends explicitly attributed to ACLED.",
+      "source_context": "Reference to narco-influence during 2024 elections and typical election-year violence."
+    },
+    {
+      "evidence": "Potential leadership changes or splintering within major cartels like Sinaloa or CJNG could escalate violence via turf wars and power realignments.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical assertion about potential cartel leadership changes and resulting violence; it does not reference ACLED event counts, actor-level records, locations, fatalities, or any ACLED-derived metrics.",
+      "source_context": "Risks identified in Outlook for 2025 regarding cartel disruptions."
+    },
+    {
+      "evidence": "The government may avoid heavy-handed crackdowns in the near term to prevent provoking further bloodshed.",
+      "is_acled_data": false,
+      "reasoning": "This is a forward-looking policy analysis about government behavior, not a reference to event counts, actor data, fatalities, or any ACLED-derived metrics. It’s general commentary rather than evidence grounded in ACLED event data.",
+      "source_context": "Caution about immediate crackdowns in Outlook for 2025."
+    },
+    {
+      "evidence": "Even if intelligence-driven strategies begin to work, results are expected to take time to manifest on the ground.",
+      "is_acled_data": false,
+      "reasoning": "This is a general analytical statement about policy effectiveness timelines, not referencing specific conflict events, counts, actors, or ACLED-derived trends. It is commentary rather than data tied to ACLED.",
+      "source_context": "Outlook for 2025 noting delayed impact of new strategies."
+    },
+    {
+      "evidence": "Mexico will likely continue to face serious security challenges in 2025 driven by drug trafficking, extortion, and gang conflicts.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general forward-looking assessment about security challenges and drivers (drug trafficking, extortion, gang conflicts) without citing specific event counts, locations, actors, fatalities, or trends tied to ACLED. It is broad commentary rather than data explicitly derived from ACLED event datasets.",
+      "source_context": "Overall consensus statement in Outlook for 2025."
+    },
+    {
+      "evidence": "Public expectation entering 2025 is for continued high levels of cartel and gang violence despite policy shifts.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general expectation/commentary about future violence levels and policy shifts, not tied to specific ACLED event counts, fatalities, locations, or actor-level data.",
+      "source_context": "Near-term expectations described at the end of Outlook for 2025."
+    },
+    {
+      "evidence": "The hope is that smarter enforcement and social investments will gradually reduce bloodshed, but the near-term outlook remains guarded.",
+      "is_acled_data": false,
+      "reasoning": "This is a general analytical statement about future outlook and policy hopes, not tied to specific ACLED event counts, fatalities, actors, or trend data.",
+      "source_context": "Closing assessment of prospects for improvement."
+    }
+  ],
+  "insights": [
+    {
+      "insight": "Homicide levels in Mexico have plateaued at historically high rates in recent years, with brutal incidents continuing into late 2024.",
+      "context": "Ongoing Violence in Late 2024 section describing persistent high homicide rates."
+    },
+    {
+      "insight": "Late 2024 saw open gun battles in Culiacán and the assassination of the mayor of Chilpancingo, highlighting entrenched organized crime.",
+      "context": "Examples cited of late-2024 violent incidents in Culiacán and Chilpancingo."
+    },
+    {
+      "insight": "Authorities have struggled to contain turf wars as powerful cartels and offshoot gangs compete for control across regions.",
+      "context": "Overview of ongoing turf wars and criminal activities across Mexico."
+    },
+    {
+      "insight": "AMLO’s “hugs, not bullets” strategy avoided direct confrontation with cartels and may have prevented escalation, but killings remained high.",
+      "context": "Changing Security Strategy discussing outcomes of AMLO’s policy."
+    },
+    {
+      "insight": "President Claudia Sheinbaum signals a shift toward bolstering intelligence operations and targeting cartel finances rather than appeasement or brute force.",
+      "context": "Sheinbaum’s indicated tactics contrasted with predecessor’s approach."
+    },
+    {
+      "insight": "Sheinbaum’s administration plans to expand social programs to deter youth recruitment, though evidence suggests limited impact when cartel profits are high.",
+      "context": "Discussion of social programs’ effectiveness in reducing cartel recruitment."
+    },
+    {
+      "insight": "Sheinbaum must introduce new measures without overtly discrediting AMLO’s legacy, making drastic policy changes politically sensitive.",
+      "context": "Political balancing act outlined in Changing Security Strategy."
+    },
+    {
+      "insight": "Experts are cautious about rapid improvement in security in 2025, anticipating continued high levels of violence.",
+      "context": "Outlook for 2025 section summarizing expert sentiment."
+    },
+    {
+      "insight": "Election periods in Mexico often see spikes in violence, including targeted assassinations, as criminal groups protect their interests.",
+      "context": "Reference to narco-influence during 2024 elections and typical election-year violence."
+    },
+    {
+      "insight": "Potential leadership changes or splintering within major cartels like Sinaloa or CJNG could escalate violence via turf wars and power realignments.",
+      "context": "Risks identified in Outlook for 2025 regarding cartel disruptions."
+    },
+    {
+      "insight": "The government may avoid heavy-handed crackdowns in the near term to prevent provoking further bloodshed.",
+      "context": "Caution about immediate crackdowns in Outlook for 2025."
+    },
+    {
+      "insight": "Even if intelligence-driven strategies begin to work, results are expected to take time to manifest on the ground.",
+      "context": "Outlook for 2025 noting delayed impact of new strategies."
+    },
+    {
+      "insight": "Mexico will likely continue to face serious security challenges in 2025 driven by drug trafficking, extortion, and gang conflicts.",
+      "context": "Overall consensus statement in Outlook for 2025."
+    },
+    {
+      "insight": "Public expectation entering 2025 is for continued high levels of cartel and gang violence despite policy shifts.",
+      "context": "Near-term expectations described at the end of Outlook for 2025."
+    },
+    {
+      "insight": "The hope is that smarter enforcement and social investments will gradually reduce bloodshed, but the near-term outlook remains guarded.",
+      "context": "Closing assessment of prospects for improvement."
+    }
+  ],
+  "prompt": "Research gang violence in Mexico and its outlook in 2025, as if we are at the end of 2024 heading into 2025."
+}

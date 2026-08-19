@@ -1,0 +1,172 @@
+{
+  "total_insights": 16,
+  "total_classified": 16,
+  "acled_count": 11,
+  "non_acled_count": 5,
+  "pct_acled": 0.6875,
+  "details": [
+    {
+      "evidence": "Al‑Shabaab activity in November was concentrated along Mandera–Garissa frontier corridors, primarily targeting security forces with low‑fatality clashes and IEDs.",
+      "is_acled_data": true,
+      "reasoning": "The statement references actor activity (al‑Shabaab), geography (Mandera–Garissa corridors), temporal scope (November), tactics (IEDs), target (security forces), and qualitative fatality levels (low‑fatality clashes)—all elements typically drawn from ACLED event descriptions, actor-level data, geographic and temporal patterns, and casualty characteristics.",
+      "source_context": "Key Findings; A split November; Corridor logic sections referencing Mandera, Garissa (Fafi/Hulugho), and security‑focused incidents [1][2][3][9][11]."
+    },
+    {
+      "evidence": "A single ambush near Wargadud on Nov. 21 accounted for most insurgency‑linked fatalities in Kenya during November, with eight officers reportedly killed.",
+      "is_acled_data": true,
+      "reasoning": "The statement reports a specific conflict event (an ambush near Wargadud on Nov. 21), provides fatalities (eight officers), and frames it within monthly insurgency-linked fatalities in Kenya—elements consistent with ACLED event descriptions, fatality counts, location and temporal detail, and trend context.",
+      "source_context": "A split November; Edges and artifacts; Corridor logic, describing the Nov. 21 Mandera South convoy attack as the month’s lethal spike [20][21][22]."
+    },
+    {
+      "evidence": "Outside of the Wargadud ambush, al‑Shabaab‑linked incidents in November were largely non‑fatal, with clashes and IEDs causing injuries or unknown casualties but few deaths.",
+      "is_acled_data": true,
+      "reasoning": "The statement references temporal patterns and outcomes of al-Shabaab-linked events in November (non-fatal vs. fatal, injuries/unknown casualties, and a specific incident at Wargadud), aligning with ACLED’s event descriptions, casualties, and actor-level activity for a specific period. This type of summary is typically derived from ACLED event data and fatality patterns.",
+      "source_context": "Corridor logic; Edges and artifacts, noting non‑fatal IEDs and low‑fatality skirmishes [8][9][23]."
+    },
+    {
+      "evidence": "IED attacks in Mandera County on Nov. 2 (Mandera–Arabia road) and Nov. 14 (near Iresuki) injured six people in total but caused no deaths, indicating route harassment rather than mass‑casualty intent.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific conflict events with dates, locations (Mandera–Arabia road; near Iresuki), event type (IED attacks/explosions), and casualty figures (injuries, no deaths). These are typical ACLED event-level details (explosions/remote violence, geographic specificity, casualty counts) and align with ACLED data content.",
+      "source_context": "Corridor logic; Edges and artifacts, detailing the non‑fatal IEDs on arterial links [10][23]."
+    },
+    {
+      "evidence": "Fafi sub‑county in Garissa recorded the highest number of al‑Shabaab‑linked events in November but only one fatality, showing frequency without severity.",
+      "is_acled_data": true,
+      "reasoning": "The statement cites sub-county level counts of al-Shabaab-linked events in November and associated fatality numbers—both are core ACLED metrics (event counts, geographic breakdowns, actor-linked events, and fatalities).",
+      "source_context": "A split November; Edges and artifacts sections describing Fafi’s event volume and minimal lethality [22]."
+    },
+    {
+      "evidence": "Geographically, al‑Shabaab operations clustered near the Somalia border—Mandera (South, East, Lafey), Garissa (Fafi/Hulugho), with isolated mentions in Wajir East—reinforcing a corridor‑based contest rather than national expansion.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references a subnational geographic concentration of al-Shabaab activity (specific counties/sub-counties near the Somalia border). This aligns with ACLED’s geographic conflict data and actor-level activity patterns, indicating it likely draws on ACLED event location data and spatial trends rather than general commentary.",
+      "source_context": "Corridor logic; Edges and artifacts mapping sub‑county activity and border proximity [11][20][21][22]."
+    },
+    {
+      "evidence": "The Emali abduction in Makueni on Nov. 25 appears linked to counterterrorism policing (likely ATPU) rather than al‑Shabaab expansion, with no fatalities reported.",
+      "is_acled_data": false,
+      "reasoning": "The statement provides a narrative assessment about an abduction’s linkage to counterterrorism policing and notes no fatalities, but it does not reference ACLED event records, counts, or actor coding. It reads as analytical attribution rather than a direct citation of ACLED event data.",
+      "source_context": "A split November; Edges and artifacts; Conclusion noting Emali as a counterterrorism artifact, not militant operation [25]."
+    },
+    {
+      "evidence": "Identity/communal militias operated as dispersed cattle‑raiding groups across pastoral counties (Meru, Isiolo, Samburu, Turkana, Baringo, Kitui, West Pokot), producing mostly low‑ or non‑fatal incidents focused on livestock and property.",
+      "is_acled_data": true,
+      "reasoning": "Mentions specific actor type (identity/communal militias), geographic distribution across multiple Kenyan counties, incident characteristics (low-/non-fatal, livestock/property focus). These align with ACLED’s event- and actor-level data, fatalities, and subnational patterns. This reads like a synthesis of ACLED-derived event descriptions and trends rather than general commentary.",
+      "source_context": "A split November; Pastoral belts sections outlining counties and event types [13][14][15][16][17]."
+    },
+    {
+      "evidence": "In Meru’s Igembe North, large livestock raids on Nov. 8 and Nov. 11 saw 181 cattle briefly stolen but subsequently recovered without fatalities, illustrating quick response limiting harm.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific dates, location (Igembe North, Meru), event types (livestock raids), counts of cattle stolen and recovered, and notes no fatalities—details characteristic of ACLED event reporting (incident descriptions, actor/activity, outcomes). This aligns with ACLED-style event data and casualty figures.",
+      "source_context": "Pastoral belts example tracing herd raids and recoveries [16][14]."
+    },
+    {
+      "evidence": "Sporadic lethal outcomes from communal violence were isolated events, such as single killings in Buuri (Meru) and during an Isiolo raid, rather than mass‑casualty attacks.",
+      "is_acled_data": true,
+      "reasoning": "The statement references specific conflict events with locations and lethal outcomes (single killings in Buuri, Meru and during an Isiolo raid), which aligns with ACLED-style event data: localized incident descriptions and fatality outcomes. This fits ACLED’s event-level reporting and geographic conflict data for November 2024.",
+      "source_context": "A split November; Pastoral belts detailing isolated fatalities amid raids [4][6][14][16]."
+    },
+    {
+      "evidence": "Police reservists and county security teams frequently intervened during raids, enabling livestock recoveries and preventing escalation in pastoral areas.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical observation about police reservists and security teams intervening in raids and aiding livestock recovery; it lacks specific event counts, locations, dates, fatalities, or actor-coded incidents tied to ACLED. It is not explicitly attributed to ACLED nor does it include ACLED-type event data.",
+      "source_context": "Pastoral belts highlighting rapid response and recoveries [16][17][14]."
+    },
+    {
+      "evidence": "Non‑lethal strategic incidents like looting and property destruction outnumbered violent encounters among communal militia events; violence against civilians caused five deaths across four locations.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites event-type comparisons (non-lethal strategic incidents vs. violent encounters), violence against civilians, counts of deaths, and multiple locations—these align with ACLED’s event taxonomy, actor/event-type breakdowns, and fatality/location statistics typical of ACLED-derived summaries.",
+      "source_context": "Pastoral belts aggregate pattern of incident types and dispersed fatalities [17]."
+    },
+    {
+      "evidence": "Co‑location of risks in Fafi and Mandera underscores distinct logics: insurgent risk follows logistics corridors; communal risk follows livestock movements.",
+      "is_acled_data": false,
+      "reasoning": "The statement is an interpretive analytic claim about spatial logics of risk (insurgent risk along logistics corridors; communal risk following livestock movements) and does not cite specific ACLED event counts, locations, or actor-level data. It’s general analysis rather than explicit ACLED-derived metrics or event data.",
+      "source_context": "A split November; Corridor logic noting overlap without shared campaign [12]."
+    },
+    {
+      "evidence": "Weekly volumes varied within low single digits for al‑Shabaab, while identity‑militia cases ticked up early in the month, maintaining an overall low‑lethality profile.",
+      "is_acled_data": true,
+      "reasoning": "The statement references weekly volumes and trends for al‑Shabaab and identity militias, as well as lethality levels—these are temporal event counts and severity indicators typical of ACLED’s event and fatality data and trend analyses. It aligns with ACLED-style metrics on actor-specific activity and low-lethality characterization over time.",
+      "source_context": "Edges and artifacts discussing weekly fluctuations and low totals [24]."
+    },
+    {
+      "evidence": "Policy implications diverge by geography: along frontier corridors, prioritize convoy hardening, route clearance, rapid medevac, and IED supply‑chain interdiction; in pastoral belts, emphasize community mediation, empowered reservists, and rapid recovery teams.",
+      "is_acled_data": false,
+      "reasoning": "The evidence presents policy recommendations by geography (convoy hardening, mediation, reservists), which is general analysis and not specific conflict event data, counts, fatalities, actor-level data, or ACLED-attributed metrics. It’s not tied to specific ACLED-derived event statistics or trends.",
+      "source_context": "Conclusion’s policy alignment recommendations mapped to corridor vs. pastoral contexts."
+    },
+    {
+      "evidence": "Overall November dynamics show why frequency, severity, and location must be analyzed together: persistent low‑fatality harassment in the northeast and dispersed theft in pastoral belts, with risk management focused on preventing rare lethal spikes.",
+      "is_acled_data": false,
+      "reasoning": "The statement is an analytical summary about patterns (frequency, severity, location) and risk management, without citing specific ACLED event counts, fatalities, locations, actor data, or explicit ACLED attribution. It reflects general conflict analysis rather than concrete ACLED-derived metrics.",
+      "source_context": "Conclusion summarizing methodological takeaway and risk management approach."
+    }
+  ],
+  "insights": [
+    {
+      "insight": "Al‑Shabaab activity in November was concentrated along Mandera–Garissa frontier corridors, primarily targeting security forces with low‑fatality clashes and IEDs.",
+      "context": "Key Findings; A split November; Corridor logic sections referencing Mandera, Garissa (Fafi/Hulugho), and security‑focused incidents [1][2][3][9][11]."
+    },
+    {
+      "insight": "A single ambush near Wargadud on Nov. 21 accounted for most insurgency‑linked fatalities in Kenya during November, with eight officers reportedly killed.",
+      "context": "A split November; Edges and artifacts; Corridor logic, describing the Nov. 21 Mandera South convoy attack as the month’s lethal spike [20][21][22]."
+    },
+    {
+      "insight": "Outside of the Wargadud ambush, al‑Shabaab‑linked incidents in November were largely non‑fatal, with clashes and IEDs causing injuries or unknown casualties but few deaths.",
+      "context": "Corridor logic; Edges and artifacts, noting non‑fatal IEDs and low‑fatality skirmishes [8][9][23]."
+    },
+    {
+      "insight": "IED attacks in Mandera County on Nov. 2 (Mandera–Arabia road) and Nov. 14 (near Iresuki) injured six people in total but caused no deaths, indicating route harassment rather than mass‑casualty intent.",
+      "context": "Corridor logic; Edges and artifacts, detailing the non‑fatal IEDs on arterial links [10][23]."
+    },
+    {
+      "insight": "Fafi sub‑county in Garissa recorded the highest number of al‑Shabaab‑linked events in November but only one fatality, showing frequency without severity.",
+      "context": "A split November; Edges and artifacts sections describing Fafi’s event volume and minimal lethality [22]."
+    },
+    {
+      "insight": "Geographically, al‑Shabaab operations clustered near the Somalia border—Mandera (South, East, Lafey), Garissa (Fafi/Hulugho), with isolated mentions in Wajir East—reinforcing a corridor‑based contest rather than national expansion.",
+      "context": "Corridor logic; Edges and artifacts mapping sub‑county activity and border proximity [11][20][21][22]."
+    },
+    {
+      "insight": "The Emali abduction in Makueni on Nov. 25 appears linked to counterterrorism policing (likely ATPU) rather than al‑Shabaab expansion, with no fatalities reported.",
+      "context": "A split November; Edges and artifacts; Conclusion noting Emali as a counterterrorism artifact, not militant operation [25]."
+    },
+    {
+      "insight": "Identity/communal militias operated as dispersed cattle‑raiding groups across pastoral counties (Meru, Isiolo, Samburu, Turkana, Baringo, Kitui, West Pokot), producing mostly low‑ or non‑fatal incidents focused on livestock and property.",
+      "context": "A split November; Pastoral belts sections outlining counties and event types [13][14][15][16][17]."
+    },
+    {
+      "insight": "In Meru’s Igembe North, large livestock raids on Nov. 8 and Nov. 11 saw 181 cattle briefly stolen but subsequently recovered without fatalities, illustrating quick response limiting harm.",
+      "context": "Pastoral belts example tracing herd raids and recoveries [16][14]."
+    },
+    {
+      "insight": "Sporadic lethal outcomes from communal violence were isolated events, such as single killings in Buuri (Meru) and during an Isiolo raid, rather than mass‑casualty attacks.",
+      "context": "A split November; Pastoral belts detailing isolated fatalities amid raids [4][6][14][16]."
+    },
+    {
+      "insight": "Police reservists and county security teams frequently intervened during raids, enabling livestock recoveries and preventing escalation in pastoral areas.",
+      "context": "Pastoral belts highlighting rapid response and recoveries [16][17][14]."
+    },
+    {
+      "insight": "Non‑lethal strategic incidents like looting and property destruction outnumbered violent encounters among communal militia events; violence against civilians caused five deaths across four locations.",
+      "context": "Pastoral belts aggregate pattern of incident types and dispersed fatalities [17]."
+    },
+    {
+      "insight": "Co‑location of risks in Fafi and Mandera underscores distinct logics: insurgent risk follows logistics corridors; communal risk follows livestock movements.",
+      "context": "A split November; Corridor logic noting overlap without shared campaign [12]."
+    },
+    {
+      "insight": "Weekly volumes varied within low single digits for al‑Shabaab, while identity‑militia cases ticked up early in the month, maintaining an overall low‑lethality profile.",
+      "context": "Edges and artifacts discussing weekly fluctuations and low totals [24]."
+    },
+    {
+      "insight": "Policy implications diverge by geography: along frontier corridors, prioritize convoy hardening, route clearance, rapid medevac, and IED supply‑chain interdiction; in pastoral belts, emphasize community mediation, empowered reservists, and rapid recovery teams.",
+      "context": "Conclusion’s policy alignment recommendations mapped to corridor vs. pastoral contexts."
+    },
+    {
+      "insight": "Overall November dynamics show why frequency, severity, and location must be analyzed together: persistent low‑fatality harassment in the northeast and dispersed theft in pastoral belts, with risk management focused on preventing rare lethal spikes.",
+      "context": "Conclusion summarizing methodological takeaway and risk management approach."
+    }
+  ],
+  "prompt": "What are the threats in Kenya with respect to communal militias and al-Shabaab. Focus on November 2024."
+}

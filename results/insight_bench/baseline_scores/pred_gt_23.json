@@ -1,0 +1,75 @@
+{
+  "dataset_id": 23,
+  "dataset_path": "data/notebooks/flag-23.json",
+  "metadata": {
+    "category": "Finance Management",
+    "dataset_description": "The dataset consists of 500 entries simulating ServiceNow fm_expense_line table, which records various attributes of financial expenses. Key fields include 'number', 'opened_at', 'amount', 'state', 'short_description', 'ci', 'user', 'department', 'category', 'process_date', 'source_id', and 'type'. This table documents the flow of financial transactions by detailing the amount, departmental allocation, and the nature of each expense. Provides a clear view of organizational expenditures across different categories, highlighting both the timing and the approval state of each financial entry.",
+    "goal": "To detect and investigate instances of repeated identical expense claims by individual users, determining whether these repetitions are fraudulent or due to misunderstandings of the expense policy.",
+    "header": "Expense Claim Patterns and Fraud Analysis (Flag 23)",
+    "role": "Compliance and Audit Analyst"
+  },
+  "predicted_insights": [
+    "With 53 users, 389 unique amounts, 429 unique short descriptions, and 367 distinct configuration items among 500 records, the complete absence of repeated identical claims indicates high variability in submissions and a low likelihood of duplicate-claim behavior in this data.",
+    "Only 1 of 53 users (~1.9%) showed repeated identical claims within 30 days, and given 389 unique amounts across just 4 categories, this pattern is rare and flags a targeted candidate for policy review or fraud investigation.",
+    "Among the 99 repeated identical claims identified (~19.8% of all 500 claims), most were processed (64.65%) while 17.17% were declined and 18.18% were still pending or submitted, suggesting repeats are often legitimate but a notable minority are problematic or under review.",
+    "All 28 repeated identical claims in the dataset (5.6% of 500 total claims) originate from Product Management, which accounts for only 20% of all claims but 100% of repeats—indicating a concentrated, department-specific issue that is 5x the overall average rate and suitable for targeted policy clarification or audit.",
+    "All 28 repeated identical claims occurred in Travel—despite Assets having more total claims (201 vs. 184)—meaning repeated-claim risk is concentrated in Travel, where repeated claims make up 5.6% of all 500 claims overall.",
+    "Across 500 claims from 53 users, none (0%) fell into repeated identical claim groups, indicating no detectable duplicate-claim behavior; this could signal compliant submissions or that strict matching (compounded by 202 missing processed dates) suppressed detection.",
+    "Across 500 claims by 53 users spanning 367 different CIs and 429 distinct short descriptions, the strict near-duplicate criteria produced 0 groups, suggesting repeated identical claims are rare or the expense policy is generally well understood.",
+    "Out of 500 records, 0 (0%) formed exact duplicates, and given the high uniqueness in short_description (429 unique) and CI (367 unique), potential repeat-claim behavior is more likely to be near-duplicate (e.g., same user/amount with slightly different descriptions or assets) rather than exact copies.",
+    "Across 500 expense records from 53 users, 0 repeated identical claim groups (0%) were detected under the strict five-field match, a result consistent with the high uniqueness in key fields (e.g., 389 unique amounts, 429 unique short_descriptions, 367 CIs), suggesting that either duplicates are genuinely rare or looser matching (e.g., ignoring CI or allowing small amount tolerances) may be needed to uncover potential repeat claims.",
+    "Across all 500 claims, 0% showed repeated identical user–short_description–ci combinations (all such triples are unique), suggesting no evidence of exact-match repeat-claim fraud and that further checks should target near-duplicates (e.g., paraphrased descriptions or same ci with slight variations).",
+    "This repeated-claim pattern appears concentrated rather than widespread: among 53 users, only one user surfaced in the top list, accounting for 8 such repeats within 14-day windows, suggesting the issue may be user-specific.",
+    "Only one of the six departments showed any repeated identical claims—just 1 flagged user out of 53 users (~1.9%)—indicating these repetitions are rare and localized to Product Management during the period analyzed."
+  ],
+  "predicted_summary": "Exact copy-and-paste duplicates are essentially nonexistent: zero groups matched on the strict keys (same user, amount, category, short_description, and CI), no short_description–CI pairs were repeated by any user (max count per user = 1), and no CI or short_description stands out as commonly duplicated; consequently, a median submission-gap for exact duplicates could not be computed.\nWhen looking at repeats defined by time windows and shared amounts/categories, the pattern is highly concentrated: Product Management shows 28% of its claims (28 of 100) falling into repeat patterns while all other departments show 0%; by category, Travel has 15.2% (28 of 184) of claims in repeat groups (Assets, Miscellaneous, and Services are 0%); overall, 17.17% of these repeated claims were declined.\nThe repetition appears driven by a single individual: only 1 user submitted multiple claims with the same amount and category within a 30‑day window, and within 14 days one user (Mamie Mcintee) logged 8 claims repeating the exact amount and short_description; correspondingly, Product Management has 1 unique user flagged for such repeats.",
+  "score_insights": 0.643072764799365,
+  "score_insights_dict": [
+    {
+      "gt_insight": "Significant Variance in Average Expenses Across Departments",
+      "pred_insight": "With 53 users, 389 unique amounts, 429 unique short descriptions, and 367 distinct configuration items among 500 records, the complete absence of repeated identical claims indicates high variability in submissions and a low likelihood of duplicate-claim behavior in this data.",
+      "score": 0.27691658701260863
+    },
+    {
+      "gt_insight": "High Incidence of Repeated Identical Expense Claims",
+      "pred_insight": "Only 1 of 53 users (~1.9%) showed repeated identical claims within 30 days, and given 389 unique amounts across just 4 categories, this pattern is rare and flags a targeted candidate for policy review or fraud investigation.",
+      "score": 0.5661300875194134
+    },
+    {
+      "gt_insight": "Significant Repetition in Expense Claims by a Single User",
+      "pred_insight": "This repeated-claim pattern appears concentrated rather than widespread: among 53 users, only one user surfaced in the top list, accounting for 8 such repeats within 14-day windows, suggesting the issue may be user-specific.",
+      "score": 0.8499545565424075
+    },
+    {
+      "gt_insight": "Concentration of Repeated Claims in the Travel Category",
+      "pred_insight": "All 28 repeated identical claims occurred in Travel—despite Assets having more total claims (201 vs. 184)—meaning repeated-claim risk is concentrated in Travel, where repeated claims make up 5.6% of all 500 claims overall.",
+      "score": 0.8792898281230304
+    }
+  ],
+  "score_summary": 0.8182433019014713,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.6625426306260958,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "With 53 users, 389 unique amounts, 429 unique short descriptions, and 367 distinct configuration items among 500 records, the complete absence of repeated identical claims indicates high variability in submissions and a low likelihood of duplicate-claim behavior in this data.",
+      "gt_insight": "Significant Variance in Average Expenses Across Departments",
+      "score": 0.3574187405844743
+    },
+    {
+      "pred_insight": "All 28 repeated identical claims in the dataset (5.6% of 500 total claims) originate from Product Management, which accounts for only 20% of all claims but 100% of repeats—indicating a concentrated, department-specific issue that is 5x the overall average rate and suitable for targeted policy clarification or audit.",
+      "gt_insight": "High Incidence of Repeated Identical Expense Claims",
+      "score": 0.5811719559863932
+    },
+    {
+      "pred_insight": "This repeated-claim pattern appears concentrated rather than widespread: among 53 users, only one user surfaced in the top list, accounting for 8 such repeats within 14-day windows, suggesting the issue may be user-specific.",
+      "gt_insight": "Significant Repetition in Expense Claims by a Single User",
+      "score": 0.8496162696682829
+    },
+    {
+      "pred_insight": "All 28 repeated identical claims occurred in Travel—despite Assets having more total claims (201 vs. 184)—meaning repeated-claim risk is concentrated in Travel, where repeated claims make up 5.6% of all 500 claims overall.",
+      "gt_insight": "Concentration of Repeated Claims in the Travel Category",
+      "score": 0.8619635562652326
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.13032838580947265,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.8660152584233831
+}

@@ -1,0 +1,84 @@
+{
+  "criteria": [
+    {
+      "name": "Post-reform violence trajectory",
+      "description": "Assess how violence levels changed immediately after the administrative restructuring and whether they rebounded, indicating only temporary relief rather than durable stabilization."
+    },
+    {
+      "name": "Continuity of legacy conflicts",
+      "description": "Examine whether pre-existing ethnic and boundary disputes persisted with similar actors and grievances despite the new regional configurations."
+    },
+    {
+      "name": "Effectiveness of cluster governance",
+      "description": "Evaluate whether smaller administrative units improved representation, service delivery, and conflict management, or reproduced previous governance shortcomings."
+    },
+    {
+      "name": "Federal intervention patterns",
+      "description": "Analyze the frequency and triggers of federal security deployments and whether they provide lasting stability or only short-term containment."
+    },
+    {
+      "name": "Autonomy demands and repression",
+      "description": "Track how authorities respond to renewed or ongoing autonomy requests and whether crackdowns correlate with escalations in unrest."
+    },
+    {
+      "name": "Localized conflict intensity",
+      "description": "Assess the extent to which violence remains geographically localized yet capable of overwhelming local authorities and causing significant displacement."
+    },
+    {
+      "name": "Civic unrest over service failures",
+      "description": "Evaluate protests and strikes related to unpaid salaries and service delivery, and whether these are holdovers from prior administrative issues."
+    },
+    {
+      "name": "Violence against civilians trend",
+      "description": "Monitor the prevalence of attacks targeting civilians and whether such incidents are increasing alongside intercommunal clashes."
+    },
+    {
+      "name": "Border and intergroup disputes",
+      "description": "Identify friction points at administrative boundaries within and between new regions and whether clustering shifted or intensified these disputes."
+    },
+    {
+      "name": "Elite mobilization and militias",
+      "description": "Examine how local elites organize ethnic-based militias to contest territory and resources, and whether incentives changed under the new structure."
+    },
+    {
+      "name": "Institutional maturity and capacity",
+      "description": "Assess the pace at which new regional institutions staff, coordinate, and deliver governance, and whether institutional immaturity fuels insecurity."
+    },
+    {
+      "name": "Spillover implications nationwide",
+      "description": "Consider how outcomes in the former region inform potential national restructuring efforts, including risks of resistance to further administrative changes."
+    },
+    {
+      "name": "Conflict drivers beyond administration",
+      "description": "Distinguish structural factors—identity politics, resource competition, and power struggles—from administrative design to gauge root causes of violence."
+    },
+    {
+      "name": "Reconciliation efforts’ impact",
+      "description": "Evaluate the effectiveness and durability of local peace or reconciliation initiatives and whether they translate into reduced incidents."
+    },
+    {
+      "name": "Exposure and humanitarian impact",
+      "description": "Assess the scale of populations exposed to political violence and related displacement, even when conflicts remain localized."
+    },
+    {
+      "name": "Security-service tradeoffs",
+      "description": "Analyze whether prioritizing security responses coincides with neglect of public services, potentially feeding grievance cycles."
+    },
+    {
+      "name": "Comparative regional hotspots",
+      "description": "Contextualize trends relative to other regions experiencing insurgency and state-insurgent conflict, to see if similar dynamics are at play."
+    },
+    {
+      "name": "Administrative restructuring limits",
+      "description": "Test the assumption that creating smaller units reduces conflict, probing cases where reorganization did not resolve underlying disputes."
+    },
+    {
+      "name": "Communication and legitimacy",
+      "description": "Assess how top-down decision-making affects public buy-in and the perceived legitimacy of new regional authorities."
+    },
+    {
+      "name": "Escalation triggers and thresholds",
+      "description": "Identify events—such as autonomy crackdowns, boundary changes, or militia seizures of towns—that precipitate sharp spikes in violence."
+    }
+  ]
+}

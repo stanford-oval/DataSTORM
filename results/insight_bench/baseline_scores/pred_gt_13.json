@@ -1,0 +1,85 @@
+{
+  "dataset_id": 13,
+  "dataset_path": "data/notebooks/flag-13.json",
+  "metadata": {
+    "category": "Incident Management",
+    "dataset_description": "The dataset comprises 500 entries simulating ServiceNow incidents table, detailing various attributes such as category, state, open and close dates, involved personnel, and incident specifics like location, description, and priority. It captures incident management activities with fields like 'opened_at', 'closed_at', 'assigned_to', 'short_description', and 'priority', reflecting the operational handling and urgency of issues across different locations and categories.",
+    "goal": "Investigate trends in increasing incident assignments to understand their impact on user agents.",
+    "header": "User Agent Wellbeing and Incident Volume Analysis (Flag 13)",
+    "role": "Wellbeing Manager"
+  },
+  "predicted_insights": [
+    "Three agents peaked at +8 and one at +11, with four of the five maxima occurring in May–Nov 2023, indicating a mid-to-late 2023 surge in assignments, while simultaneous large negative swings (e.g., Luke Wilson −8 in 2023-10 and Beth Anglin −8 in 2023-12) suggest volatile workloads that likely strain support capacity seasonally.",
+    "Despite the biggest assignment surges (7–11 added incidents), four of five agents resolved incidents faster, with median close times dropping by 86–290 hours (average -147 hours), indicating effective load absorption; only Beth Anglin saw a modest slowdown (+27.7 hours).",
+    "Howard Johnson stands out with a strong negative correlation (r ≈ -0.823), implying that higher monthly assignment volume is associated with substantially faster median closures, while the other agents show only weak-to-moderate relationships (|r| ≤ 0.333), suggesting increased workload does not meaningfully slow their closure times.",
+    "Across agents, the average slope is ~1.279 incidents per month with a small standard deviation (~0.038), suggesting a systemic workload rise rather than agent-specific spikes, led marginally by Howard Johnson and Beth Anglin (~1.308) and lowest for Charlie Whitherspoon (~1.209).",
+    "When monthly assignments reach at least ~12, average resolution times converge for all assignees to roughly 150–230 hours, representing a 45–68% reduction from early low-load months, suggesting process efficiency gains at scale with occasional outliers (e.g., Beth at 9 assignments, 356 hours).",
+    "Even under higher workloads, closures by someone other than the assignee remain consistently high (~77–91% across assignees), suggesting a strong cross-assignee or group-based closure pattern that is largely stable with workload, with Luke Wilson maintaining the highest reliance on others (~0.90) regardless of workload.",
+    "Only two assignees—Charlie Whitherspoon (+10.8 percentage points) and Fred Luddy (+4.9 pp)—see higher high-priority shares when their workload is above-median, while Beth Anglin’s drops notably (−7.8 pp), indicating that increased assignments do not uniformly translate to more critical work across agents.",
+    "Fred Luddy shows a notable +10.04 pp rise in off-hours share when his workload is above median while Beth Anglin shows a −9.88 pp drop, yet off-hours openings are consistently high (~63–83%) across assignees, indicating user agents face predominantly off-hours demand regardless of assignment volume, with workload spikes modestly shifting the off-hours mix for most.",
+    "As monthly assignments rose (from 2 to 77), the overall high/critical share stayed very high (0.92–1.00), but the strong inverse relationships in Database and Service Desk suggest spikes are driven by lower-priority tickets, increasing workload without increasing severity for agents in those groups.",
+    "For Database, the share of cross-closed incidents reached 77–100% in several late months, the highest among groups, indicating increasing multi-agent involvement that likely elevates handoffs and context switching for user agents.",
+    "Fred’s cross-agent closures accelerated sharply: from 22 in Q3 2023 (Jul–Sep) to 42 in Q4 2023 (Oct–Dec), then sustained at 16 in Jan 2024, indicating a growing concentration of reassigned work on a single agent.",
+    "High-priority mix volatility was concentrated in two agents—Charlie Whitherspoon and Luke Wilson—who each swung by ±0.3333 in May–Jun (about a one-third shift in their assignment mix), while Beth Anglin was the most stable (within ±0.1111 throughout), and Howard Johnson showed a notable late surge (+0.1667 in Jan) after mixed Q4 changes, indicating a redistribution of critical workload into early 2024."
+  ],
+  "predicted_summary": "Rising workloads have not slowed agents—if anything, they’re resolving faster as volumes increase. All agents show upward trends in monthly assignments (+1.21 to +1.31 incidents per month), and 4 of 5 have negative correlations between assignments and median time to close (as low as −0.823 for Howard Johnson; also negative for Luke −0.333, Beth −0.311, Fred −0.245; only Charlie is slightly positive at +0.169). In each agent’s biggest surge month, median time to close fell sharply for 4 of 5 agents (Charlie −86.35 hours in Jul-2023, Fred −290.38 in May-2023, Howard −124.93 in Nov-2023, Luke −86.62 in Aug-2023), with Beth as the lone exception (+27.70 in Jan-2024). Across months, average resolution time also drops as workloads rise (e.g., Fred ≈372 hours at 3 assignments → ≈151 hours at 20; Beth ≈485 hours at 1 → ≈154 hours at 19).\nHeavier months generally do not trigger more cross-closure; closures remain concentrated with the originally assigned agent. When agents are above their personal median monthly assignments, the share of incidents closed by someone else declines on average (0.80 vs 0.83), decreasing for Beth (−7.7 pp), Charlie (−2.5 pp), Howard (−11.4 pp), and Luke (−1.4 pp). Fred is the exception: his share of assigned incidents closed by others rises (+8.2 pp) in high-volume months—and he also shows the strongest growth in closing incidents originally assigned to others (slope +0.846 month-over-month, peaking at 16). At the group level, Database exhibits the fastest-growing share of cross-closed incidents over time (slope ≈+0.067).\nSurges tend to bring a lower share of high/critical priority work at the group level, though agent-level mixes vary. Across assignment groups, higher monthly volumes strongly correlate with a smaller share of high/critical incidents (Database −0.88, Service Desk −0.67; weaker negatives for Network −0.24 and Software −0.18; near-zero for Hardware +0.02). In above-median months, high/critical shares rise for Charlie (+10.8 pp) and Fred (+4.9 pp) but fall for Beth (−7.8 pp), Howard (−1.4 pp), and Luke (−0.7 pp). Off-hours openings also shift in heavier months—increasing for Fred (+10.0 pp), Howard (+1.1 pp), and Luke (+1.6 pp) while decreasing for Beth (−9.9 pp) and Charlie (−1.6 pp)—highlighting that the composition of work during surges differs by agent even as overall speed generally improves.",
+  "score_insights": 0.41706644367982537,
+  "score_insights_dict": [
+    {
+      "gt_insight": "The time to resolution of incidents is uniform over time, so the overtime working of human agents is due to some other reason such increasing in number of incidents or complexity of incidents.",
+      "pred_insight": "Across agents, the average slope is ~1.279 incidents per month with a small standard deviation (~0.038), suggesting a systemic workload rise rather than agent-specific spikes, led marginally by Howard Johnson and Beth Anglin (~1.308) and lowest for Charlie Whitherspoon (~1.209).",
+      "score": 0.4781488685423375
+    },
+    {
+      "gt_insight": "There is no correlation between the volume of incidents and the TTR. Unlike TTR, the number of incidents is increasing over time. This indicates that as the volume of incidents increases, while the TTR tends to be uniform",
+      "pred_insight": "Despite the biggest assignment surges (7–11 added incidents), four of five agents resolved incidents faster, with median close times dropping by 86–290 hours (average -147 hours), indicating effective load absorption; only Beth Anglin saw a modest slowdown (+27.7 hours).",
+      "score": 0.4028319052133632
+    },
+    {
+      "gt_insight": "The increase in volume of incidents is more or less uniform across all categories, but more pronounced in network followed by database followed by software",
+      "pred_insight": "As monthly assignments rose (from 2 to 77), the overall high/critical share stayed very high (0.92–1.00), but the strong inverse relationships in Database and Service Desk suggest spikes are driven by lower-priority tickets, increasing workload without increasing severity for agents in those groups.",
+      "score": 0.30597675358436865
+    },
+    {
+      "gt_insight": "The productivity is more or less uniform across all agents, and all of them manage to resolve incidents even though the volume increases over time",
+      "pred_insight": "Across agents, the average slope is ~1.279 incidents per month with a small standard deviation (~0.038), suggesting a systemic workload rise rather than agent-specific spikes, led marginally by Howard Johnson and Beth Anglin (~1.308) and lowest for Charlie Whitherspoon (~1.209).",
+      "score": 0.5967091341510862
+    },
+    {
+      "gt_insight": "1. **Implement Scalable Solutions**: As the organization grows, ensure that infrastructure and support systems are scalable. Invest in technology and processes that can handle increased loads efficiently. 2. **Regular Updates and Maintenance**: Establish a routine for regular updates and maintenance of all systems and hardware. This can help prevent the uniform aging and degradation of infrastructure 3. **Proactive Monitoring and Predictive Maintenance**: Utilize tools for proactive monitoring and predictive maintenance to identify and address potential issues before they result in incidents. Machine learning models can predict failure points based on historical data. 4. **Continual Training and Development**: Keep training programs for staff up-to-date with the latest technologies and best practices. This helps ensure that all employees are equipped to handle the systems they work with effectively.",
+      "pred_insight": "As monthly assignments rose (from 2 to 77), the overall high/critical share stayed very high (0.92–1.00), but the strong inverse relationships in Database and Service Desk suggest spikes are driven by lower-priority tickets, increasing workload without increasing severity for agents in those groups.",
+      "score": 0.3016655569079713
+    }
+  ],
+  "score_summary": 0.5848480082521925,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.3719022768413331,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "As monthly assignments rose (from 2 to 77), the overall high/critical share stayed very high (0.92–1.00), but the strong inverse relationships in Database and Service Desk suggest spikes are driven by lower-priority tickets, increasing workload without increasing severity for agents in those groups.",
+      "gt_insight": "The time to resolution of incidents is uniform over time, so the overtime working of human agents is due to some other reason such increasing in number of incidents or complexity of incidents.",
+      "score": 0.32892899971500905
+    },
+    {
+      "pred_insight": "As monthly assignments rose (from 2 to 77), the overall high/critical share stayed very high (0.92–1.00), but the strong inverse relationships in Database and Service Desk suggest spikes are driven by lower-priority tickets, increasing workload without increasing severity for agents in those groups.",
+      "gt_insight": "There is no correlation between the volume of incidents and the TTR. Unlike TTR, the number of incidents is increasing over time. This indicates that as the volume of incidents increases, while the TTR tends to be uniform",
+      "score": 0.3727751898766044
+    },
+    {
+      "pred_insight": "As monthly assignments rose (from 2 to 77), the overall high/critical share stayed very high (0.92–1.00), but the strong inverse relationships in Database and Service Desk suggest spikes are driven by lower-priority tickets, increasing workload without increasing severity for agents in those groups.",
+      "gt_insight": "The increase in volume of incidents is more or less uniform across all categories, but more pronounced in network followed by database followed by software",
+      "score": 0.3584042777618911
+    },
+    {
+      "pred_insight": "When monthly assignments reach at least ~12, average resolution times converge for all assignees to roughly 150–230 hours, representing a 45–68% reduction from early low-load months, suggesting process efficiency gains at scale with occasional outliers (e.g., Beth at 9 assignments, 356 hours).",
+      "gt_insight": "The productivity is more or less uniform across all agents, and all of them manage to resolve incidents even though the volume increases over time",
+      "score": 0.5434039731755127
+    },
+    {
+      "pred_insight": "As monthly assignments rose (from 2 to 77), the overall high/critical share stayed very high (0.92–1.00), but the strong inverse relationships in Database and Service Desk suggest spikes are driven by lower-priority tickets, increasing workload without increasing severity for agents in those groups.",
+      "gt_insight": "1. **Implement Scalable Solutions**: As the organization grows, ensure that infrastructure and support systems are scalable. Invest in technology and processes that can handle increased loads efficiently. 2. **Regular Updates and Maintenance**: Establish a routine for regular updates and maintenance of all systems and hardware. This can help prevent the uniform aging and degradation of infrastructure 3. **Proactive Monitoring and Predictive Maintenance**: Utilize tools for proactive monitoring and predictive maintenance to identify and address potential issues before they result in incidents. Machine learning models can predict failure points based on historical data. 4. **Continual Training and Development**: Keep training programs for staff up-to-date with the latest technologies and best practices. This helps ensure that all employees are equipped to handle the systems they work with effectively.",
+      "score": 0.25599894367764836
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.12365032831932965,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.7030546335576939
+}

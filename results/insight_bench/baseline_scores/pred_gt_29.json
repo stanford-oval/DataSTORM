@@ -1,0 +1,75 @@
+{
+  "dataset_id": 29,
+  "dataset_path": "data/notebooks/flag-29.json",
+  "metadata": {
+    "category": "Goal Management",
+    "dataset_description": "The dataset consists of 500 entries simulating ServiceNow `sn_gf_goal` table, which details various attributes related to organizational goals. These attributes include goal state, owner, department, start and end dates, and description, alongside metrics such as priority, percent complete, and target percentage. This data primarily tracks the progression and management of departmental and individual goals, offering insights into the effectiveness and alignment of these goals with broader organizational objectives. Additionally, the table captures updates made to each goal, providing a timeline of modifications and the identity of individuals making these updates.",
+    "goal": "Analyze any unexpected high success rates of Low and Medium priority 'Cost Reduction' goals and apply these insights to enhance goal management effectiveness across all goal categories.",
+    "header": "Goal Management Analysis Category Focus (Flag 29)",
+    "role": "Operational Efficiency Analyst"
+  },
+  "predicted_insights": [
+    "Low and Medium priorities are unexpectedly outperforming higher priorities, achieving a combined 89.2% success rate (91/102) versus just 22.2% (2/9) across High and Critical, suggesting potential misalignment in prioritization or resource allocation for Cost Reduction goals.",
+    "Medium exceeds High by 4.19 points (75.79% vs 71.60%), Low trails High by only 0.69 points (70.91% vs 71.60%), while Critical is 7.35–12.23 points higher than the others—indicating targets are not strictly proportional to priority and potentially explaining stronger-than-expected outcomes for lower-priority Cost Reduction goals.",
+    "Despite the overall average percent_complete (50.7) being well below the average target_percentage (73.5), Low & Medium priorities still met targets 6.6× more often than High & Critical (85.2% vs 13.0%), suggesting target-setting or execution for higher priorities may be miscalibrated relative to lower priorities.",
+    "Low/Medium priorities outperform High/Critical by 46 percentage points in median margin, suggesting lower-priority Cost Reduction goals are more achievable, while high/critical goals may have overambitious targets or resource gaps—recalibrating targets/resources could improve success rates across categories.",
+    "Medium-priority Cost Reduction goals have a 4.19-point higher average target than High (75.79 vs 71.60), and Low is only 0.69 points below High (70.91 vs 71.60), indicating lower-priority goals are set nearly as ambitiously as High—suggesting a prioritization-target misalignment that could inform recalibration.",
+    "Marketing’s perfect 100% rate is 10–21 percentage points higher than HR (90%, 27/30), Finance (89.66%, 26/29), and IT (79.17%, 19/24), indicating its cost-reduction practices may be consistently achievable and worth replicating across departments to lift overall goal attainment.",
+    "Three of four metrics reach at least 90% success and the range is only 12.48 percentage points (95.24% vs. 82.76%), with an average success rate of 89.73%, signaling consistently high outcomes that may justify more ambitious targets.",
+    "Low/Medium priority Cost Reduction initiatives not only outperform other categories by ~9 percentage points but do so on a larger base of goals (102 vs 87), suggesting consistently strong execution that could be replicated in other categories to lift overall success.",
+    "Medium-priority Cost Reduction goals are notably strong at 91.5%, outperforming other Medium categories by 11.5–24.8 percentage points (except the perfect 100% in Revenue Growth), while Low-priority Cost Reduction goals are also high (87.3%), exceeding Low Employee Satisfaction by 23.6 points—indicating that even lower-priority cost initiatives tend to be highly executable, offering practices worth transferring to weaker categories.",
+    "While the surplus over targets is only ~0.06 pp higher in Cost Reduction, there are 30% more successful Low/Medium goals in that category (91 vs 70), suggesting consistently repeatable overperformance rather than isolated wins.",
+    "Because Low/Medium Cost Reduction targets are about 2.17 points (≈2.9%) lower than peers, their “unexpectedly high” success rates could partly reflect slightly less aggressive targets; standardizing target levels across categories may improve fairness and comparability.",
+    "Despite being lower priority, Cost Reduction goals outperform other categories by 8.76 percentage points (about 10.9% relative), and they account for 56.5% of all Low/Medium priority successes (91 of 161), indicating these initiatives are consistently meeting or exceeding their targets."
+  ],
+  "predicted_summary": "Low/Medium Cost Reduction goals achieve markedly higher success than both higher-priority goals in the same category and Low/Medium goals elsewhere: Medium 91.5% (43/47) and Low 87.3% (48/55) in Cost Reduction, versus High 40.0% (2/5) and Critical 0.0% (0/7) within Cost Reduction; combined Low/Medium Cost Reduction success is 89.22% (91/102), which is 8.76 percentage points above the 80.46% average for Low/Medium goals in other categories (70/87). The median achievement margin underscores this gap: +2 pp for Low/Medium in Cost Reduction vs −44 pp for High/Critical in Cost Reduction.\nThe high hit rate for Low/Medium Cost Reduction goals comes with modest buffers and only slightly lower targets relative to peers: average targets within Cost Reduction are 75.79% (Medium) and 70.91% (Low), while Low/Medium targets in other categories average 75.33% (a ~2.17 pp difference for Cost Reduction overall). Among successful Low/Medium goals, Cost Reduction’s average over-target margin is 1.93 pp—nearly identical to the 1.87 pp in other categories—indicating frequent, but not excessive, overachievement.\nSuccess within Low/Medium Cost Reduction is broad-based but shows clear standouts by department and metric: Marketing achieved 100% (19/19) of its Low/Medium Cost Reduction goals. By metric for Low/Medium Cost Reduction, success rates are 95.24% (Employee Turnover Rate), 90.91% (Sales Increase), 90.0% (Expense Ratio), and 82.76% (Survey Score). In the broader Low/Medium landscape across categories, Cost Reduction’s rates (Low 87.3%, Medium 91.5%) outperform many peers, e.g., Medium success of 66.7% in Efficiency and 73.3% in Customer Satisfaction.",
+  "score_insights": 0.7817183161157393,
+  "score_insights_dict": [
+    {
+      "gt_insight": "Cost Reduction goals achieve significantly higher success rates compared to other categories",
+      "pred_insight": "Despite being lower priority, Cost Reduction goals outperform other categories by 8.76 percentage points (about 10.9% relative), and they account for 56.5% of all Low/Medium priority successes (91 of 161), indicating these initiatives are consistently meeting or exceeding their targets.",
+      "score": 0.8399124398189374
+    },
+    {
+      "gt_insight": "Unusually high success rates for Low and Medium priority 'Cost Reduction' goals compared to High and Critical",
+      "pred_insight": "Despite being lower priority, Cost Reduction goals outperform other categories by 8.76 percentage points (about 10.9% relative), and they account for 56.5% of all Low/Medium priority successes (91 of 161), indicating these initiatives are consistently meeting or exceeding their targets.",
+      "score": 0.867960138902145
+    },
+    {
+      "gt_insight": "Widespread high success rates for Low and Medium priority goals across all categories",
+      "pred_insight": "Medium-priority Cost Reduction goals are notably strong at 91.5%, outperforming other Medium categories by 11.5–24.8 percentage points (except the perfect 100% in Revenue Growth), while Low-priority Cost Reduction goals are also high (87.3%), exceeding Low Employee Satisfaction by 23.6 points—indicating that even lower-priority cost initiatives tend to be highly executable, offering practices worth transferring to weaker categories.",
+      "score": 0.6133430629469927
+    },
+    {
+      "gt_insight": "Higher number of Low and Medium priority goals in 'Cost Reduction' compared to other categories",
+      "pred_insight": "While the surplus over targets is only ~0.06 pp higher in Cost Reduction, there are 30% more successful Low/Medium goals in that category (91 vs 70), suggesting consistently repeatable overperformance rather than isolated wins.",
+      "score": 0.8056576227948824
+    }
+  ],
+  "score_summary": 0.6639680425284611,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.8512756420865972,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "Medium-priority Cost Reduction goals are notably strong at 91.5%, outperforming other Medium categories by 11.5–24.8 percentage points (except the perfect 100% in Revenue Growth), while Low-priority Cost Reduction goals are also high (87.3%), exceeding Low Employee Satisfaction by 23.6 points—indicating that even lower-priority cost initiatives tend to be highly executable, offering practices worth transferring to weaker categories.",
+      "gt_insight": "Cost Reduction goals achieve significantly higher success rates compared to other categories",
+      "score": 0.8842813299150715
+    },
+    {
+      "pred_insight": "Low and Medium priorities are unexpectedly outperforming higher priorities, achieving a combined 89.2% success rate (91/102) versus just 22.2% (2/9) across High and Critical, suggesting potential misalignment in prioritization or resource allocation for Cost Reduction goals.",
+      "gt_insight": "Unusually high success rates for Low and Medium priority 'Cost Reduction' goals compared to High and Critical",
+      "score": 0.8835092564670587
+    },
+    {
+      "pred_insight": "Medium-priority Cost Reduction goals are notably strong at 91.5%, outperforming other Medium categories by 11.5–24.8 percentage points (except the perfect 100% in Revenue Growth), while Low-priority Cost Reduction goals are also high (87.3%), exceeding Low Employee Satisfaction by 23.6 points—indicating that even lower-priority cost initiatives tend to be highly executable, offering practices worth transferring to weaker categories.",
+      "gt_insight": "Widespread high success rates for Low and Medium priority goals across all categories",
+      "score": 0.8302674939871031
+    },
+    {
+      "pred_insight": "Low/Medium priority Cost Reduction initiatives not only outperform other categories by ~9 percentage points but do so on a larger base of goals (102 vs 87), suggesting consistently strong execution that could be replicated in other categories to lift overall success.",
+      "gt_insight": "Higher number of Low and Medium priority goals in 'Cost Reduction' compared to other categories",
+      "score": 0.8070444879771561
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.13829466806513,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.5499282169936446
+}

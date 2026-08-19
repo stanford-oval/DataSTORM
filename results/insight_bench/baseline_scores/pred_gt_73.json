@@ -1,0 +1,65 @@
+{
+  "dataset_id": 73,
+  "dataset_path": "data/notebooks/flag-73.json",
+  "metadata": {
+    "category": "Asset Management",
+    "dataset_description": "The dataset consists of 500 entries simulating ServiceNow alm_hardware table, detailing key attributes of hardware assets such as asset tags, display names, configuration item (CI) identifiers, serial numbers, and model categories. It includes information on asset assignment, last update timestamps, cost, departmental allocation, and warranty expiration dates. The table effectively captures asset management activities, offering insights into the operational handling, allocation, and maintenance status of hardware resources across various departments within an organization.",
+    "goal": "Analyze the relationship between the cost of assets and their warranty periods to identify discrepancies and align procurement strategies with the observed asset value trends.",
+    "header": "Asset Warranty Analysis (Flag 73)",
+    "role": "Operations Manager"
+  },
+  "predicted_insights": [
+    "Computers incur roughly 36× higher cost per warranty-month than Storage Devices (503.33 vs 13.85), highlighting a large normalized cost disparity that could inform targeted warranty negotiation or procurement choices for high-cost categories.",
+    "After incremental quarter-over-quarter increases (+12.8%, +0.5%, +3.7%) from 2023Q2 to 2024Q1, 2024Q2 saw a ~48% drop in median cost per warranty-month versus 2024Q1, signaling significantly improved value per warranty month—likely from longer warranties or better pricing—suggesting procurement can tighten cost benchmarks for new assets.",
+    "Despite the weak overall correlation, the cost–warranty relationship is non-linear—costs generally fall as warranty months rise up to ~23 months, then increase for 24–36 months—suggesting distinct asset tiers and warranty policies (e.g., higher-cost servers with longer warranties), so procurement should segment by model category when setting warranty targets.",
+    "These 134 assets represent about 26.8% of the 500 assets, and roughly 85.1% of the discrepancies are concentrated in Computers, indicating a systematic mismatch where higher-cost computers carry shorter-than-typical warranties—an opportunity to renegotiate warranty terms or supplier choices in this category to align cost with warranty value.",
+    "From 2023Q2 to 2024Q1 the metric rose about 10.1%, indicating assets became more expensive per unit of warranty coverage, and even after the 4.1% pullback in 2024Q2 it remains roughly 5.6% above 2023Q2 levels.",
+    "Spend is highly concentrated: Customer Support, Sales, and IT together account for 80.79% of costs for high cost-per-warranty assets, with Customer Support leading Sales by 1.74 percentage points (~$11.5k), indicating procurement efforts to reduce high cost-per-warranty exposure should focus on these groups.",
+    "Web Servers’ median monthly cost is ~5.6x that of Printers, ~20x that of Racks, and ~28–31x that of Storage Devices/Peripherals, indicating a disproportionately high cost per warranty coverage month and a clear target for procurement optimization.",
+    "Among high-cost assets (250 total), 73.6% (184) have below-median warranty months versus only 26.4% (66) with above-median warranties, indicating expensive assets disproportionately come with shorter coverage—an opportunity to renegotiate warranty terms on high-value purchases.",
+    "Across categories, 50 assets flag as top 5% by cost per warranty-month (Web Server 13, Rack 13, Computer 12, and 3 each for Server, Computer Peripheral, Printer, and Storage Device), with Computers reaching ~1,630 per month on short 3‑month warranties versus ~656–944 per month for Web/Server over ~12.2 months, indicating that abbreviated warranty terms, not just high prices, disproportionately drive “expensive per warranty-month” status.",
+    "HR’s cost per warranty-month is about 30% higher than IT and roughly 95% higher than Finance, suggesting HR either purchases costlier assets or secures relatively shorter warranties—an opportunity to renegotiate warranty terms or rebalance asset mix for better value.",
+    "This increase translates to paying about $23.28 more per warranty-month in 2024, or roughly $279 more per 12 months of warranty coverage per asset, suggesting either higher asset prices or shorter warranties that may warrant procurement renegotiation.",
+    "Over one-third of assets exhibit higher monthly cost alongside shorter-than-typical warranty within their model categories, signaling a sizable opportunity to realign procurement toward models or terms that reduce cost per warranty-month without sacrificing coverage length."
+  ],
+  "predicted_summary": "Cost and warranty lengths are weakly linked overall (Pearson r = -0.1376). Nonetheless, misalignment is common: 36.8% of assets have above-median cost but below-median warranty months, and 35.8% have cost per warranty-month above their model-category median while also having below-median warranty length for that category. These mismatches are concentrated in Computers—of 134 assets above their category cost median but below their category warranty median, 114 are in the Computer category.\nCost per warranty-month varies sharply by both category and department. By category, averages are highest for Computers (503.33), Web Servers (397.55), and Servers (341.29), versus much lower levels for Printers (69.25), Racks (19.60), Computer Peripherals (13.93), and Storage Devices (13.85). Medians reinforce this spread, with Web Servers having the highest median (328.32). By department, HR has the highest average cost per warranty-month (≈492.57), and among assets in the top quartile of cost per warranty-month, Customer Support accounts for the largest share of total spend (30.55%, about $200,958).\nOver time, cost per warranty-month rose and then pulled back. Averages increased quarter-over-quarter from 292.05 (2023Q2) to 296.10 (2023Q3), 302.05 (2023Q4), and peaked at 321.67 (2024Q1), before easing to 308.44 (2024Q2). Medians show a similar pattern—146.37 to 165.12 to 165.87 to 172.05—followed by a sharp drop to 88.94 in 2024Q2. Aggregated by year, the average cost per warranty-month rose 7.82% from 2023 (297.71) to 2024 (320.99).",
+  "score_insights": 0.49078320118898083,
+  "score_insights_dict": [
+    {
+      "gt_insight": "The HR department exhibits the highest average asset cost, while Customer Support and IT departments have greater variability with significant outliers.",
+      "pred_insight": "HR’s cost per warranty-month is about 30% higher than IT and roughly 95% higher than Finance, suggesting HR either purchases costlier assets or secures relatively shorter warranties—an opportunity to renegotiate warranty terms or rebalance asset mix for better value.",
+      "score": 0.36382154806257144
+    },
+    {
+      "gt_insight": "Servers and Web Servers are the most expensive asset categories on average, followed by computers.",
+      "pred_insight": "Across categories, 50 assets flag as top 5% by cost per warranty-month (Web Server 13, Rack 13, Computer 12, and 3 each for Server, Computer Peripheral, Printer, and Storage Device), with Computers reaching ~1,630 per month on short 3‑month warranties versus ~656–944 per month for Web/Server over ~12.2 months, indicating that abbreviated warranty terms, not just high prices, disproportionately drive “expensive per warranty-month” status.",
+      "score": 0.5398172772445153
+    },
+    {
+      "gt_insight": "Strong correlation between the cost of computer assets and their warranty periods.",
+      "pred_insight": "These 134 assets represent about 26.8% of the 500 assets, and roughly 85.1% of the discrepancies are concentrated in Computers, indicating a systematic mismatch where higher-cost computers carry shorter-than-typical warranties—an opportunity to renegotiate warranty terms or supplier choices in this category to align cost with warranty value.",
+      "score": 0.5687107782598556
+    }
+  ],
+  "score_summary": 0.5185898333646262,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.6014557708391607,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "HR’s cost per warranty-month is about 30% higher than IT and roughly 95% higher than Finance, suggesting HR either purchases costlier assets or secures relatively shorter warranties—an opportunity to renegotiate warranty terms or rebalance asset mix for better value.",
+      "gt_insight": "The HR department exhibits the highest average asset cost, while Customer Support and IT departments have greater variability with significant outliers.",
+      "score": 0.3978019155051223
+    },
+    {
+      "pred_insight": "Web Servers’ median monthly cost is ~5.6x that of Printers, ~20x that of Racks, and ~28–31x that of Storage Devices/Peripherals, indicating a disproportionately high cost per warranty coverage month and a clear target for procurement optimization.",
+      "gt_insight": "Servers and Web Servers are the most expensive asset categories on average, followed by computers.",
+      "score": 0.5919885914367187
+    },
+    {
+      "pred_insight": "Among high-cost assets (250 total), 73.6% (184) have below-median warranty months versus only 26.4% (66) with above-median warranties, indicating expensive assets disproportionately come with shorter coverage—an opportunity to renegotiate warranty terms on high-value purchases.",
+      "gt_insight": "Strong correlation between the cost of computer assets and their warranty periods.",
+      "score": 0.8145768055756412
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.10423716451971891,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.6531445434784342
+}

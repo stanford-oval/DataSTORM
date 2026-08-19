@@ -1,0 +1,115 @@
+{
+  "per_dimension": [
+    {
+      "dimension": "actor_entity",
+      "score": 0.5,
+      "num_concept_groups": 2,
+      "num_consistent_groups": 1,
+      "notes": "Two recurring actor concepts: (1) perpetrator binning for SAF/RSF; (2) top actor1 lists. SAF binning differs between Q21 and Q25 (result-changing). The top-actor1 lists in Q5 vs Q8 differ only by empty-string handling (cosmetic)."
+    },
+    {
+      "dimension": "geography",
+      "score": 1.0,
+      "num_concept_groups": 1,
+      "num_consistent_groups": 1,
+      "notes": "All queries consistently scope to country = 'Sudan'. No other place filter is reused across multiple queries in conflicting ways."
+    },
+    {
+      "dimension": "temporal",
+      "score": 1.0,
+      "num_concept_groups": 1,
+      "num_consistent_groups": 1,
+      "notes": "The Aug–Sep 2024 window is implemented consistently using either <= '2024-09-30' or < '2024-10-01' (equivalent). Other periods are query-specific and not reused."
+    },
+    {
+      "dimension": "event_taxonomy",
+      "score": 0.0,
+      "num_concept_groups": 2,
+      "num_consistent_groups": 0,
+      "notes": "Shared concepts around 'civilian-targeting' and 'civilian infrastructure impact' are defined with different predicates across queries, leading to different row sets."
+    },
+    {
+      "dimension": "counting_aggregation",
+      "score": 1.0,
+      "num_concept_groups": 1,
+      "num_consistent_groups": 1,
+      "notes": "Monthly event counts by sub_event_type (Q11 vs Q17) align; total events (498) are coherent with other counts. No DISTINCT vs non-DISTINCT discrepancies for the same concept."
+    },
+    {
+      "dimension": "population_scope",
+      "score": 0.0,
+      "num_concept_groups": 1,
+      "num_consistent_groups": 0,
+      "notes": "One query (Q13) uses a different base table (acled_events) than all others (events), breaking comparability for the same scope."
+    }
+  ],
+  "conflicts": [
+    {
+      "dimension": "actor_entity",
+      "concept": "SAF events attribution (Aug–Sep 2024 strikes/shelling)",
+      "query_indices": [
+        21,
+        25
+      ],
+      "predicate_a": "Q21: CASE WHEN actor1 ILIKE '%Military Forces of Sudan%' OR actor1 ILIKE '%Sudanese Armed Forces%' OR actor1 ILIKE '%SAF%' THEN 'Sudanese Armed Forces (SAF)' ... WHERE actor1 IS NOT NULL",
+      "predicate_b": "Q25: CASE WHEN actor1 ILIKE '%Sudanese Armed Forces%' OR actor1 ILIKE '%SAF%' THEN 'SAF' ... WHERE actor1 IS NOT NULL",
+      "severity": "result-changing",
+      "explanation": "Q21 maps the canonical ACLED label 'Military Forces of Sudan (2019-)' into the SAF bin, while Q25 omits that synonym. As a result, many SAF-attributed events will fall into 'Other/Unknown' in Q25, shifting event and fatality totals between bins."
+    },
+    {
+      "dimension": "actor_entity",
+      "concept": "Top actor1 by event count (Aug–Sep 2024 strikes/shelling)",
+      "query_indices": [
+        5,
+        8
+      ],
+      "predicate_a": "Q5: actor1 IS NOT NULL AND TRIM(actor1) <> ''",
+      "predicate_b": "Q8: actor1 IS NOT NULL",
+      "severity": "cosmetic",
+      "explanation": "Q5 excludes blank-string actor1 values while Q8 does not. If blank strings exist this could slightly alter counts, but previews suggest identical top actors; impact is likely negligible."
+    },
+    {
+      "dimension": "event_taxonomy",
+      "concept": "Civilian-targeted strikes/shelling classification",
+      "query_indices": [
+        1,
+        12
+      ],
+      "predicate_a": "Q1: 'Civilian areas' when civilian_targeting = 'Civilian targeting' OR notes/location contain keywords (residential, market, idp/camp, school, hospital, church/mosque, etc.); 'Military targets' via other keywords; else 'Other/Unknown'.",
+      "predicate_b": "Q12: Civilian-targeted when event_type = 'Violence against civilians' OR civilian_targeting = 'Civilian targeting' OR interaction ILIKE '%Civilians%'. No keyword scan of location/notes for infrastructure terms.",
+      "severity": "result-changing",
+      "explanation": "These define the same underlying concept but via different signals. Q1 relies heavily on notes/location keywords; Q12 uses event_type/civilian_targeting/interaction flags. They will include/exclude different sets of events, producing different proportions."
+    },
+    {
+      "dimension": "event_taxonomy",
+      "concept": "Civilian infrastructure impact categories (hospitals, markets, camps, schools, religious sites, utilities, bakery/food)",
+      "query_indices": [
+        20,
+        27
+      ],
+      "predicate_a": "Q20: Category derived from both location and notes keywords; five buckets (hospitals/clinics; markets; IDP/refugee camps; schools/universities; places of worship).",
+      "predicate_b": "Q27: Category derived from notes only; bucket set differs (hospital/clinic; market; camp/IDP; school; residential; religious site; utilities; bakery/food).",
+      "severity": "result-changing",
+      "explanation": "Different keyword sources (notes+location vs notes-only) and different category taxonomies mean events will be labeled differently across queries, altering counts and shares per category."
+    },
+    {
+      "dimension": "population_scope",
+      "concept": "Base ACLED table for Aug–Sep 2024 Sudan strikes/shelling",
+      "query_indices": [
+        13,
+        2
+      ],
+      "predicate_a": "Q13: SELECT ... FROM acled_events ... WHERE country = 'Sudan' AND event_date >= '2024-08-01' AND < '2024-10-01' AND event_type = 'Explosions/Remote violence' AND sub_event_type IN (...).",
+      "predicate_b": "Q2 (representative): SELECT ... FROM events ... WHERE country = 'Sudan' AND event_date >= '2024-08-01' AND <= '2024-09-30' AND sub_event_type IN (...).",
+      "severity": "result-changing",
+      "explanation": "Using a different base table (acled_events vs events) breaks comparability; Q13 returned empty while equivalent queries against 'events' return hundreds of rows. This materially changes any totals derived from Q13."
+    }
+  ],
+  "overall_score": 0.5833333333333334,
+  "summary": "Core scoping across time (Aug–Sep 2024), country (Sudan), and modalities (Air/drone strike; Shelling/artillery/missile attack) is largely consistent, and monthly/weekly counts cohere. However, the report mixes incompatible actor mappings for SAF vs RSF, uses differing definitions for civilian-targeting and civilian infrastructure impacts, and includes one query built on a different base table altogether. These issues can materially shift event attribution and category counts, yielding moderate overall consistency.",
+  "report_dir": "<repo>/datatalk/acled_ablations/no_qc_fixed/8/Give_me_a_summary_of_artillery_shelling_and_airstrikes_political_violence,_and_conflict_situations_during_Au__resummarized_20260601_225324",
+  "model": "gpt-5",
+  "num_queries": 29,
+  "applicable": true,
+  "id": 8
+}

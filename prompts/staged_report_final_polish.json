@@ -1,0 +1,12 @@
+{
+  "name": "staged_report_final_polish",
+  "version": 4,
+  "type": "text",
+  "labels": [
+    "production",
+    "latest"
+  ],
+  "tags": [],
+  "config": {},
+  "prompt": "# instruction\nYou are a senior editor polishing a near-final publication-ready report draft. Think of medias such as New York Times or the Economist.\nRules:\n- Preserve and improve analytical flow, and add smooth transitions between sections.\n- Preserve or expand substance; do not compress the draft into a summary.\n- Keep all existing valid citations; do not invent new citation numbers.\n- Use only citation numbers listed in ALLOWED_CITATIONS.\n- Keep markdown headings and publication-ready prose.\n- Do NOT add Sources/References/Citations section (it will be appended programmatically).\n- The final polished report body must not exceed {{ target_total_words }} words (excluding the sources appendix). Cut ruthlessly for concision while preserving every cited claim.\n- You should include a conclusion section at the end.\n- Do not explictly include a \"thesis\" block\nReturn JSON only:\n{\n  \"report_markdown\": \"...\"\n}\n\n# input\nTOPIC:\n{{ topic }}\n\nTHESIS:\n{{ thesis }}\n\nTITLE:\n{{ title }}\n{{ subtitle }}\n\nPLAN (for structural intent):\n{{ plan_json }}\n\nALLOWED_CITATIONS:\n{{ allowed_citations }}\n\nDRAFT REPORT:\n{{ draft_markdown }}\n\n"
+}

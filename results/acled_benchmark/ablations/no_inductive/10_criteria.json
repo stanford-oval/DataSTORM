@@ -1,0 +1,188 @@
+{
+  "prompt": "What are the status of militants in Pakistan over the last year and what would be the outlook for conflicts involving militants in Pakistan going into 2025?",
+  "criteria": [
+    {
+      "name": "Political instability enabling militancy",
+      "description": "Assess how domestic political crises weaken governance, fragment security responses, and create openings that militant groups exploit to expand operations and influence."
+    },
+    {
+      "name": "Geographic concentration of violence",
+      "description": "Track shifts in provincial hotspots and cross-border districts, noting whether conflict remains concentrated in peripheral regions or spreads into core political and economic centers."
+    },
+    {
+      "name": "Baloch insurgency dynamics",
+      "description": "Evaluate trends in separatist activity, targeting patterns, and recruitment drivers, especially in relation to state responses and perceptions of resource exploitation and external involvement."
+    },
+    {
+      "name": "TTP consolidation and expansion",
+      "description": "Examine the group’s territorial footprint, governance-by-proxy efforts, targeting of security forces, and attempts to extend networks beyond traditional strongholds."
+    },
+    {
+      "name": "Militant alliances and rivalries",
+      "description": "Monitor emerging cooperation or competition among factions, including splinters and sectarian outfits, and how these relationships affect capacity, reach, and tactics."
+    },
+    {
+      "name": "ISKP posture and recruitment",
+      "description": "Analyze propaganda shifts, sectarian positioning, and efforts to attract defectors from other militants, along with implications for intra-militant clashes and civilian targeting."
+    },
+    {
+      "name": "Sectarian conflict escalation",
+      "description": "Assess triggers and mediation failures in communal flashpoints, and how sectarian grievances intersect with tribal disputes to fuel cycles of retaliatory violence."
+    },
+    {
+      "name": "Counterinsurgency approach and backlash risk",
+      "description": "Evaluate the balance between kinetic operations and political engagement, including risks from airstrikes and drones leading to civilian harm and consequent mobilization against the state."
+    },
+    {
+      "name": "Civil-military relations and coherence",
+      "description": "Gauge the degree of alignment or friction between civilian authorities and the military, and how this affects unified strategy, resource allocation, and conflict outcomes."
+    },
+    {
+      "name": "Local population sentiment and legitimacy",
+      "description": "Track community attitudes toward militants and state forces, including reactions to ceasefire gestures, parallel justice systems, and impacts of security operations on daily life."
+    },
+    {
+      "name": "Targeting of outsiders and economic actors",
+      "description": "Monitor violence against non-local labor and foreign-linked projects as indicators of ethnocentric narratives and anti-external influence sentiments."
+    },
+    {
+      "name": "Urban and Punjab spillover risk",
+      "description": "Assess signs of militant activity migrating into densely populated or economically vital regions, which would shift the security challenge from peripheral to national."
+    },
+    {
+      "name": "Cross-border sanctuaries and tensions",
+      "description": "Analyze accusations and evidence of safe havens across borders, diplomatic frictions, and the frequency of border clashes affecting conflict intensity."
+    },
+    {
+      "name": "External security involvement sensitivity",
+      "description": "Evaluate how proposed or actual foreign security participation influences local perceptions, insurgent narratives, and the potential for escalation."
+    },
+    {
+      "name": "Regional conflict entanglement",
+      "description": "Consider how insurgent dynamics intersect with neighboring states’ policies, raising risks of reciprocal strikes and broader regional instability."
+    },
+    {
+      "name": "Human rights and grievance cycles",
+      "description": "Track allegations of abuses and collective punishments as potential drivers of recruitment and radicalization, reinforcing insurgent narratives."
+    },
+    {
+      "name": "Militant governance and shadow institutions",
+      "description": "Observe establishment of parallel courts, patrols, and dispute resolution mechanisms as indicators of insurgent entrenchment and state legitimacy erosion."
+    },
+    {
+      "name": "Security force capacity and morale",
+      "description": "Assess operational fatigue, resource strains, and local hostility toward security personnel, and how these factors shape the effectiveness of operations."
+    },
+    {
+      "name": "Election-period volatility",
+      "description": "Monitor whether political events and transitions correlate with spikes in attacks on electoral infrastructure and intimidation of participants."
+    },
+    {
+      "name": "Outlook indicators for 2025",
+      "description": "Synthesize signals such as militant propaganda, alliance patterns, state policy shifts, and public sentiment to project whether violence will intensify, stabilize, or diffuse geographically."
+    }
+  ],
+  "criterion_scores": [
+    {
+      "name": "Political instability enabling militancy",
+      "score": 0.5,
+      "explanation": "The article references \"governance failures,\" \"governance gaps,\" and \"financial and logistical strains\" weakening routine functions, but it does not detail specific domestic political crises, party confrontations, or institutional breakdowns (e.g., election disputes, judicial-military tensions) that enable militants. It touches the mechanism broadly without concrete examples of instability fragmenting security responses."
+    },
+    {
+      "name": "Geographic concentration of violence",
+      "score": 1.0,
+      "explanation": "It clearly identifies KP and Balochistan as hotspots, contrasts KP’s higher lethality per event with Balochistan’s higher tempo, and names key districts (Kurram, North/South Waziristan, Dera Ismail Khan, Bannu; Kech, Panjgur, Kalat). It also notes limited changes in Sindh and Punjab, addressing concentration versus spread."
+    },
+    {
+      "name": "Baloch insurgency dynamics",
+      "score": 0.75,
+      "explanation": "Provides trends for BLA and BLF (episodic spikes vs steady tempo), tactics (IEDs, remote violence, infrastructure targeting), and provincial/district focus (Makran/Kech). However, it lacks depth on recruitment drivers, grievances over resource exploitation, and detailed state-response impacts or external involvement narratives beyond general references."
+    },
+    {
+      "name": "TTP consolidation and expansion",
+      "score": 0.75,
+      "explanation": "Strong on event/fatality counts, late‑year surge, lethality per incident, targeting security forces, and KP footprint. It mentions momentum into 2025 but offers limited detail on governance-by-proxy, parallel institutions, or explicit expansion beyond traditional strongholds."
+    },
+    {
+      "name": "Militant alliances and rivalries",
+      "score": 0.25,
+      "explanation": "Mentions multiple actors (TTP, HGB, BLA, BLF) and compares tactics and lethality, but does not analyze cooperation, competition, splinters, or sectarian outfits’ relationships and impacts on capacity or reach."
+    },
+    {
+      "name": "ISKP posture and recruitment",
+      "score": 0.25,
+      "explanation": "Briefly notes \"ISIS propaganda and finance\" influencing attacks, but lacks discussion of ISKP’s specific propaganda shifts, sectarian positioning, recruitment of defectors, or implications for intra‑militant clashes and civilian targeting in Pakistan."
+    },
+    {
+      "name": "Sectarian conflict escalation",
+      "score": 0.25,
+      "explanation": "References \"sectarian militias\" with late‑2024 lethality but does not analyze triggers, mediation failures, specific communal flashpoints, or intersections with tribal disputes."
+    },
+    {
+      "name": "Counterinsurgency approach and backlash risk",
+      "score": 0.5,
+      "explanation": "Touches on state targeting by militants and governance gaps but offers minimal evaluation of Pakistan’s counterinsurgency balance (kinetic vs political engagement). It does not discuss airstrikes/drones or civilian harm leading to backlash; thus only partially addressed."
+    },
+    {
+      "name": "Civil-military relations and coherence",
+      "score": 0.25,
+      "explanation": "The article hints at governance deficits but does not evaluate alignment or friction between civilian authorities and the military, nor effects on unified strategy and resource allocation."
+    },
+    {
+      "name": "Local population sentiment and legitimacy",
+      "score": 0.25,
+      "explanation": "Notes civilians as frequent targets and human stakes, but lacks analysis of community attitudes toward militants/state, reactions to ceasefires or parallel justice, or daily life impacts beyond casualty exposure."
+    },
+    {
+      "name": "Targeting of outsiders and economic actors",
+      "score": 0.5,
+      "explanation": "Mentions infrastructure targeting by Baloch factions and remote violence, implying risks to economic actors, but does not explicitly track non‑local labor or foreign‑linked projects (e.g., CPEC) and ethnocentric narratives."
+    },
+    {
+      "name": "Urban and Punjab spillover risk",
+      "score": 0.5,
+      "explanation": "States Sindh lethality eased and Punjab climbed from a low base, but does not deeply assess migration of militant activity into urban cores or Punjab’s economic centers or associated risks."
+    },
+    {
+      "name": "Cross-border sanctuaries and tensions",
+      "score": 1.0,
+      "explanation": "Provides monthly cross‑border incident/fatality trends for the Pakistan–Afghanistan dyad, emphasizes frontier escalation and sanctuary/incursion dynamics, and links them to increased lethality, fully addressing this criterion."
+    },
+    {
+      "name": "External security involvement sensitivity",
+      "score": 0.25,
+      "explanation": "Mentions \"external forces\" in the sense of global militant networks and finance, but does not evaluate foreign security participation in Pakistan (e.g., China’s security for CPEC, Afghan/Taliban roles, or Western support) and local perception impacts."
+    },
+    {
+      "name": "Regional conflict entanglement",
+      "score": 0.5,
+      "explanation": "Discusses Afghanistan frontier dynamics and transnational enablers, but does not fully explore reciprocal strikes, neighboring policies, or broader regional instability beyond the Af‑Pak border."
+    },
+    {
+      "name": "Human rights and grievance cycles",
+      "score": 0.25,
+      "explanation": "Little discussion of allegations of abuses, collective punishments, disappearances, or how such grievances drive recruitment and narratives; human rights elements are largely absent."
+    },
+    {
+      "name": "Militant governance and shadow institutions",
+      "score": 0.25,
+      "explanation": "No substantive coverage of parallel courts, patrols, or dispute resolution mechanisms; only general references to governance gaps without shadow governance detail."
+    },
+    {
+      "name": "Security force capacity and morale",
+      "score": 0.5,
+      "explanation": "Implied strain via high clashes against police/military and governance deficits, but lacks explicit assessment of operational fatigue, resource constraints, morale, or local hostility toward security personnel."
+    },
+    {
+      "name": "Election-period volatility",
+      "score": 0.0,
+      "explanation": "The article does not address correlations between political events/elections and spikes in attacks or intimidation of electoral participants."
+    },
+    {
+      "name": "Outlook indicators for 2025",
+      "score": 0.75,
+      "explanation": "Synthesizes signals (late‑2024 tempo/lethality, cross‑border dynamics, governance gaps, transnational enablers) to project continued volatility, with geographic focus on KP frontier and Balochistan’s Makran belt. However, it only lightly touches on propaganda and alliance patterns and lacks public sentiment detail, so the outlook is informed but not comprehensive."
+    }
+  ],
+  "overall_score": 0.4625
+}

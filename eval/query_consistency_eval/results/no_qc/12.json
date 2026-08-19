@@ -1,0 +1,187 @@
+{
+  "per_dimension": [
+    {
+      "dimension": "actor_entity",
+      "score": 0.0,
+      "num_concept_groups": 2,
+      "num_consistent_groups": 0,
+      "notes": "Two recurring actor concepts appear across many queries: al‑Shabaab and communal militias. Filters vary widely across queries in both the fields searched (actor vs assoc_actor) and the string patterns (hyphen/space/regex; broad '%Shabaab%' vs boundary matches), and for communal militias whether to rely on inter codes only vs. additional textual heuristics or inclusion of 'Political militia'."
+    },
+    {
+      "dimension": "geography",
+      "score": 0.0,
+      "num_concept_groups": 2,
+      "num_consistent_groups": 0,
+      "notes": "The concept of 'border counties' is defined with different county sets across queries; and 'subcounty' is inconsistently mapped to admin3 vs admin2 (or to location fallback), which will change which rows are included and how they aggregate."
+    },
+    {
+      "dimension": "temporal",
+      "score": 1.0,
+      "num_concept_groups": 2,
+      "num_consistent_groups": 2,
+      "notes": "Queries consistently use November 2024 as either [>= 2024-11-01, < 2024-12-01) or <= 2024-11-30, which are equivalent for date-typed columns; Oct–Nov comparisons use the same month windows."
+    },
+    {
+      "dimension": "event_taxonomy",
+      "score": 0.0,
+      "num_concept_groups": 3,
+      "num_consistent_groups": 0,
+      "notes": "Definitions for 'political violence' differ; 'security forces targeted' is derived using different logic across queries; and 'resource-dispute' keywording varies, producing different event sets."
+    },
+    {
+      "dimension": "counting_aggregation",
+      "score": 1.0,
+      "num_concept_groups": 0,
+      "num_consistent_groups": 0,
+      "notes": "No multi-query concept groups with differing counting logic were identified; COUNT(*) and SUM(fatalities) are used appropriately, and the few DISTINCT usages are for actor occurrence deduplication by design."
+    },
+    {
+      "dimension": "population_scope",
+      "score": 0.0,
+      "num_concept_groups": 1,
+      "num_consistent_groups": 0,
+      "notes": "Most queries use the 'events' table, while several use 'acled_events' for the same concepts and periods; unless these are guaranteed synonyms, this is a scope inconsistency."
+    }
+  ],
+  "conflicts": [
+    {
+      "dimension": "actor_entity",
+      "concept": "al‑Shabaab identification in Kenya Nov 2024",
+      "query_indices": [
+        0,
+        6
+      ],
+      "predicate_a": "(actor1 ILIKE '%al-shabaab%' OR actor2 ILIKE '%al-shabaab%' OR space/hyphen variants) on actor1/actor2 only",
+      "predicate_b": "(actor1 OR actor2 OR assoc_actor_1 OR assoc_actor_2) ILIKE '%al%shabaab%'",
+      "severity": "result-changing",
+      "explanation": "Q6 includes assoc_actor fields and the broader '%al%shabaab%' pattern, while Q0 restricts to actor1/actor2 with specific hyphen/space variants. This will include/exclude different events attributed to al‑Shabaab."
+    },
+    {
+      "dimension": "actor_entity",
+      "concept": "al‑Shabaab identification in Kenya Nov 2024",
+      "query_indices": [
+        26,
+        22
+      ],
+      "predicate_a": "(actor1 ILIKE '%Shabaab%' OR actor2 ILIKE '%Shabaab%')",
+      "predicate_b": "(COALESCE(actor1,'') ILIKE '%al%shabaab%' OR COALESCE(actor2,'') ILIKE '%al%shabaab%' OR COALESCE(assoc_actor_1,'') ILIKE '%al%shabaab%' OR COALESCE(assoc_actor_2,'') ILIKE '%al%shabaab%')",
+      "severity": "result-changing",
+      "explanation": "Q26 uses a broad '%Shabaab%' pattern and does not search assoc_actor fields, whereas Q22 searches both actor and associated actor fields with '%al%shabaab%'. They will not return the same set of al‑Shabaab events."
+    },
+    {
+      "dimension": "actor_entity",
+      "concept": "Communal militia identification in Kenya Nov 2024",
+      "query_indices": [
+        1,
+        18
+      ],
+      "predicate_a": "(inter1 = 'Identity militia' OR inter2 = 'Identity militia')",
+      "predicate_b": "(inter1 IN ('Identity militia','Political militia') OR inter2 IN ('Identity militia','Political militia'))",
+      "severity": "result-changing",
+      "explanation": "Including 'Political militia' in Q18 expands the communal militia set beyond Q1’s 'Identity militia' only. Counts and shares will differ."
+    },
+    {
+      "dimension": "actor_entity",
+      "concept": "Communal militia identification in Kenya Nov 2024",
+      "query_indices": [
+        2,
+        3
+      ],
+      "predicate_a": "(inter1='Identity militia' OR inter2='Identity militia' OR actor text heuristics: '%militia%','%clan%','%community%','%ethnic%','%herder%','%pastoralist%','%vigilante%')",
+      "predicate_b": "disorder_type='Political violence' AND (inter1='Identity militia' OR inter2='Identity militia')",
+      "severity": "result-changing",
+      "explanation": "Q2 adds broad textual cues to detect communal militias, while Q3 relies strictly on inter codes (and further restricts to political violence). These select different sets of events."
+    },
+    {
+      "dimension": "geography",
+      "concept": "Border counties definition (Kenya, Nov 2024)",
+      "query_indices": [
+        4,
+        23
+      ],
+      "predicate_a": "admin1 IN ('Mandera','Wajir','Garissa') treated as 'Border counties'",
+      "predicate_b": "admin1 IN ('Mandera','Wajir','Garissa','Lamu')",
+      "severity": "result-changing",
+      "explanation": "Q4 excludes Lamu from border counties while Q23 includes it. Aggregations split by 'border' vs 'interior' or selections limited to border counties will differ."
+    },
+    {
+      "dimension": "geography",
+      "concept": "Border counties definition (Kenya, Nov 2024)",
+      "query_indices": [
+        23,
+        27
+      ],
+      "predicate_a": "admin1 IN ('Mandera','Wajir','Garissa','Lamu')",
+      "predicate_b": "admin1 IN ('Mandera','Wajir','Garissa','Lamu','Tana River')",
+      "severity": "result-changing",
+      "explanation": "Q27 adds Tana River to the border counties set used in Q23. The event counts per county and resulting correlation inputs will change."
+    },
+    {
+      "dimension": "geography",
+      "concept": "Subcounty granularity in Kenya",
+      "query_indices": [
+        2,
+        24
+      ],
+      "predicate_a": "Uses admin3 as sub_county; requires admin3 IS NOT NULL and groups by admin3",
+      "predicate_b": "Uses admin2 as subcounty (admin2 AS subcounty) and groups accordingly",
+      "severity": "result-changing",
+      "explanation": "Q2 and Q24 both claim subcounty analysis but use different admin levels (admin3 vs admin2). This yields different location groupings and counts."
+    },
+    {
+      "dimension": "event_taxonomy",
+      "concept": "Political violence definition",
+      "query_indices": [
+        3,
+        6
+      ],
+      "predicate_a": "disorder_type = 'Political violence'",
+      "predicate_b": "disorder_type IN ('Political violence','Political violence; Demonstrations')",
+      "severity": "result-changing",
+      "explanation": "Q6 includes an additional composite value that Q3 does not; they will count different sets of events as 'political violence'."
+    },
+    {
+      "dimension": "event_taxonomy",
+      "concept": "Security forces targeted events (al‑Shabaab, Kenya Nov 2024)",
+      "query_indices": [
+        22,
+        26
+      ],
+      "predicate_a": "security_force_targeted_events flagged when (inter1='State forces' OR inter2='State forces')",
+      "predicate_b": "target_category = 'security forces' when (inter1='State forces' OR inter2='State forces'); otherwise uses civilian_targeting/inter codes to classify",
+      "severity": "result-changing",
+      "explanation": "Q22 treats presence of state forces actors as 'targeted', whereas Q26 attempts to classify target category using civilian_targeting/inter codes. These methods are not equivalent and will change the counts."
+    },
+    {
+      "dimension": "event_taxonomy",
+      "concept": "Resource-dispute communal militia events (Kenya Nov 2024)",
+      "query_indices": [
+        24,
+        29
+      ],
+      "predicate_a": "notes ILIKE any of ['land','pasture','grazing','water','borehole','irrigation','boundary'] with dispute_type mapping prioritizing pasture>water>land",
+      "predicate_b": "broader keywords incl. '%pasture%','%graz%','%rangeland%','%water%','%river%','%well%','%borehole%','%dam%','%spring%','%watering point%','%trough%','%land%','%land dispute%','%farm%','%boundary%','%border dispute%'",
+      "severity": "result-changing",
+      "explanation": "The keyword sets and categorization rules differ, so selected events and their assignment to 'land/pasture/water' categories will not match."
+    },
+    {
+      "dimension": "population_scope",
+      "concept": "Base dataset/table for Kenya Nov 2024 al‑Shabaab selections",
+      "query_indices": [
+        9,
+        6
+      ],
+      "predicate_a": "FROM acled_events ... country='Kenya' AND 2024-11",
+      "predicate_b": "FROM events ... country='Kenya' AND 2024-11",
+      "severity": "result-changing",
+      "explanation": "Most queries use the 'events' table; Q9 (and Q13–Q15 similarly) use 'acled_events'. Unless these are the same underlying table, this changes the population scope and returned rows."
+    }
+  ],
+  "overall_score": 0.33,
+  "summary": "Temporal windows are applied consistently (November 2024 and Oct–Nov 2024), and counting logic is generally coherent. However, critical inconsistencies exist in how al‑Shabaab and communal militias are identified, how 'border counties' and 'subcounty' geographies are defined, how 'political violence' and 'security forces targeted' are classified, and even which base table is queried. These divergences are result‑changing and undermine comparability across the report’s sections.",
+  "report_dir": "<repo>/datatalk/acled_ablations/no_qc_fixed/12/What_are_the_threats_in_Kenya_with_respect_to_communal_militias_and_al-Shabaab._Focus_on_November_2024.__resummarized_20260601_231054",
+  "model": "gpt-5",
+  "num_queries": 30,
+  "applicable": true,
+  "id": 12
+}

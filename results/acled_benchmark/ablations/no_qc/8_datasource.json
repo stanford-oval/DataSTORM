@@ -1,0 +1,222 @@
+{
+  "total_insights": 21,
+  "total_classified": 21,
+  "acled_count": 4,
+  "non_acled_count": 17,
+  "pct_acled": 0.19047619047619047,
+  "details": [
+    {
+      "evidence": "Urban violence in Sudan during Aug–Sep 2024 centered on siege-style bombardment—SAF airstrikes and RSF artillery—targeting dense civilian areas along static frontlines rather than maneuver warfare or territorial gains.",
+      "is_acled_data": false,
+      "reasoning": "The evidence is a generalized analytical statement about tactics and patterns (siege-style bombardment, static frontlines) without citing specific ACLED event counts, locations, fatalities, or actor/event-level data. It reads as narrative analysis rather than a direct reference to ACLED-derived metrics or datasets.",
+      "source_context": "Key Findings section establishes the nature of violence as siege-style with static frontlines."
+    },
+    {
+      "evidence": "International and regional diplomacy, including UN Security Council resolutions, failed to curb escalation, creating impunity that enabled repeated strikes on medical facilities, markets, and neighborhoods.",
+      "is_acled_data": false,
+      "reasoning": "This is a general analytical statement about diplomacy and impunity leading to strikes on civilian sites. It does not cite event counts, locations, fatalities, actor data, or any ACLED-derived metrics; it reflects policy/diplomatic commentary rather than specific ACLED event data.",
+      "source_context": "Key Findings and Mechanism of Harm sections emphasize failed diplomacy and resulting impunity [1][2][3]."
+    },
+    {
+      "evidence": "On September 13 in El Fasher, an SAF airstrike killed at least 40 civilians in a residential area, exemplifying the month’s pattern of strikes hitting where civilians live and seek care rather than shifting battle lines.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites a specific dated event, location, actor (SAF), event type (airstrike), and fatality count, and references a temporal pattern for the month—all elements consistent with ACLED event data and trend analysis derived from those events.",
+      "source_context": "September in El Fasher section details the dawn airstrike killing at least 40 civilians [4][5]."
+    },
+    {
+      "evidence": "Late August saw artillery hit a livestock market inside a camp, killing 15 and injuring 17, illustrating how indirect fire mapped onto civilian spaces amid static trench lines.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites a specific conflict event with date timing (late August), type (artillery hitting a market inside a camp), casualties (15 killed, 17 injured), and context of battle lines—details consistent with ACLED event reporting on explosions/remote violence and violence against civilians with fatality figures and location context.",
+      "source_context": "September in El Fasher and Mechanism of Harm sections cite the Aug 26 market strike (15 killed, 17 injured) [2]."
+    },
+    {
+      "evidence": "RSF artillery struck medical facilities, including a military hospital in Dilling, while SAF airpower targeted urban hubs like El Fasher, degrading essential services and civilian protections consistent with siege tactics.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references specific conflict events (RSF artillery striking medical facilities including a military hospital in Dilling; SAF airstrikes on urban hubs like El Fasher) with actor-level details, locations, and tactics consistent with ACLED’s event descriptions and explosions/remote violence/battles categories. It reads like a synthesis of ACLED event data rather than general commentary, though it lacks explicit attribution or casualty figures.",
+      "source_context": "September in El Fasher and Cities as Battlegrounds sections describe RSF shelling of Dilling hospital and SAF strikes on El Fasher [4][5]."
+    },
+    {
+      "evidence": "Repeated shelling and airstrikes disrupted healthcare: staff fled, supplies dwindled, and hospitals struggled to absorb trauma, leading to displacement spikes and reduced safe passage.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a generalized impact assessment about healthcare disruption and displacement due to shelling and airstrikes, without citing specific events, actors, counts, locations, or ACLED attribution. It reads as humanitarian/analytical commentary rather than ACLED-derived event data or statistics.",
+      "source_context": "September in El Fasher section details cascading effects on healthcare and displacement [5]."
+    },
+    {
+      "evidence": "Humanitarian operations faced severe constraints due to repeated strikes and unpredictable salvos, making route access and delivery windows unreliable.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general qualitative assessment about humanitarian operations and access, not specific event counts, locations, fatalities, or actor-level data attributed to ACLED. It lacks explicit linkage to ACLED event data or metrics.",
+      "source_context": "September in El Fasher and Cities as Battlegrounds sections discuss operational difficulty under bombardment [5][6]."
+    },
+    {
+      "evidence": "Bombardment became a deliberate method along urban frontlines: RSF artillery and SAF airstrikes inflicted heavy civilian harm without decisive territorial changes.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a high-level analytical summary about tactics and impacts (artillery and airstrikes causing civilian harm without territorial change) and does not reference specific ACLED event counts, actors, locations, dates, or fatalities. It reads as general commentary rather than data explicitly drawn from ACLED.",
+      "source_context": "Mechanism of Harm section explains escalation without territorial gain [2]."
+    },
+    {
+      "evidence": "UN Security Council demands for a halt to hostilities did not slow attacks; hotspots like Nyala and El Fasher experienced intensified salvos despite diplomatic statements.",
+      "is_acled_data": false,
+      "reasoning": "The evidence discusses UN Security Council demands and general commentary about intensified attacks in Nyala and El Fasher without citing specific ACLED event data, counts, locations with event details, or ACLED attribution. Policy statements and diplomatic actions are not ACLED data.",
+      "source_context": "Mechanism of Harm and Between Resolutions and Ruins sections on UNSC demands failing to reduce violence [1][2]."
+    },
+    {
+      "evidence": "The absence of credible accountability and unified enforcement mechanisms undermined ceasefire efforts, enabling repeated attacks on civilian-dense areas and deepening mistrust.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical assessment about ceasefire accountability and its effects, not specific event counts, locations, actors, or fatalities. It is not tied to ACLED event data or explicitly attributed to ACLED.",
+      "source_context": "Mechanism of Harm section discusses enforcement failures and fragmented monitoring [3]."
+    },
+    {
+      "evidence": "As accountability receded, siege tactics became self-reinforcing, normalizing bombardment and degrading urban lifelines such as water, power, clinics, and markets.",
+      "is_acled_data": false,
+      "reasoning": "The evidence is a general analytical statement about siege tactics and impacts on urban services, not a reference to specific conflict events, counts, locations, fatalities, or actor-level data tied to ACLED. It reads as commentary rather than data derived from ACLED event records.",
+      "source_context": "Mechanism of Harm section describes normalization of bombardment and lifeline degradation [2]."
+    },
+    {
+      "evidence": "Dilling’s RSF shelling of a military hospital and surrounding civilian areas demonstrates how attacking care facilities cascades harm into nearby neighborhoods and changes civilian behavior.",
+      "is_acled_data": false,
+      "reasoning": "The evidence is a qualitative analytical statement about the implications of RSF shelling in Dilling and its effects on civilian behavior, without citing specific event records, counts, fatalities, or actor/location-temporal details tied to ACLED data. It reads as commentary rather than extracted ACLED event data.",
+      "source_context": "Cities as Battlegrounds section details Dilling hospital strikes and behavioral impacts [4][5]."
+    },
+    {
+      "evidence": "Nyala exemplified siege logic through sustained bombardment and bureaucratic choke points, where permits and insecurity made aid convoys sporadic despite nominal route openings.",
+      "is_acled_data": false,
+      "reasoning": "The statement is qualitative analysis about siege dynamics, aid access, and bureaucratic restrictions in Nyala without citing specific events, counts, dates, fatalities, or ACLED attribution. It reads as general commentary rather than ACLED-derived event data or metrics.",
+      "source_context": "Cities as Battlegrounds section explains bombardment plus administrative barriers in Nyala [6]."
+    },
+    {
+      "evidence": "Roughly 24.8 million people in Sudan required assistance, and unreliable safe passage turned an acute crisis into a systemic humanitarian emergency.",
+      "is_acled_data": false,
+      "reasoning": "This is a humanitarian needs statistic about people requiring assistance and safe passage, likely from UN/OCHA or similar sources, not conflict event data or metrics typically provided by ACLED.",
+      "source_context": "Cities as Battlegrounds section cites scale of humanitarian need and access challenges [6]."
+    },
+    {
+      "evidence": "Static frontlines produced cycles of fire that punished populations, as seen in the El Fasher airstrike killing at least 40 and RSF shelling hitting Dilling’s hospital and civilian areas.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references specific conflict events (airstrike in El Fasher with fatality count; RSF shelling hitting a hospital and civilian areas in Dilling) which align with ACLED-style event data: locations, actors, event types, and casualty figures. This is characteristic of ACLED-derived reporting.",
+      "source_context": "Cities as Battlegrounds section reiterates emblematic incidents [4][5]."
+    },
+    {
+      "evidence": "Indicators pointed to heightened activity in early September around strategic urban nodes, yet heavy strikes on civilian hubs occurred with limited territorial shifts, aligning with punitive siege logic.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a qualitative analytical observation about conflict dynamics (siege logic, strikes on civilian hubs, limited territorial shifts) without referencing specific ACLED event counts, locations, actors, or temporal trend metrics. It reads as general analysis rather than data explicitly derived from ACLED.",
+      "source_context": "Between Resolutions and Ruins notes intensified activity and limited territorial change [7]."
+    },
+    {
+      "evidence": "By September, displacement exceeded 5.8 million, underscoring the civilian toll of continued heavy tactics despite both sides’ claims of military necessity.",
+      "is_acled_data": false,
+      "reasoning": "The statement cites a displacement figure (5.8 million), which is a humanitarian statistic typically from UN agencies (e.g., UNHCR/OCHA), not ACLED’s event-based conflict data. It is not tied to ACLED-specific event counts or actor data, nor attributed to ACLED.",
+      "source_context": "Between Resolutions and Ruins section provides displacement figure and context [7]."
+    },
+    {
+      "evidence": "Heavy tactics—drones, artillery, ground operations, and airstrikes—continued amid fragmented enforcement, making ceasefires aspirational and eroding trust between parties.",
+      "is_acled_data": false,
+      "reasoning": "This is a general analytical statement about tactics and ceasefires without specific event counts, locations, actors, or fatalities. It is not explicitly tied to ACLED event data or attributed to ACLED.",
+      "source_context": "Between Resolutions and Ruins discusses persistence of heavy tactics and fragmented enforcement [1][3]."
+    },
+    {
+      "evidence": "Accountability measures—credible monitoring, enforceable sanctions, conditional support tied to reductions in urban bombardment—could alter incentives and reduce attacks on civilian sites.",
+      "is_acled_data": false,
+      "reasoning": "This is a policy recommendation and general analysis about accountability measures affecting incentives, not specific conflict event data, statistics, or trends attributed to ACLED.",
+      "source_context": "Between Resolutions and Ruins outlines accountability mechanisms to change calculus [1][3]."
+    },
+    {
+      "evidence": "Prioritized civilian protection via monitored no-strike lists for hospitals and markets, independent verification, and linking diplomatic progress to fewer sorties could translate resolutions into deterrence.",
+      "is_acled_data": false,
+      "reasoning": "The evidence is a policy recommendation about civilian protection and diplomatic measures (no-strike lists, verification, sortie reductions). It is general analysis, not event-based metrics or actor/location/fatality data attributable to ACLED.",
+      "source_context": "Between Resolutions and Ruins proposes practical protection measures [1][3]."
+    },
+    {
+      "evidence": "Evidence from Aug–Sep 2024 shows that without credible monitoring and consequences, Sudan’s cities—El Fasher, Nyala, Dilling—remain under sustained fire, with civilians bearing the brunt.",
+      "is_acled_data": false,
+      "reasoning": "The evidence is a general qualitative statement about sustained fire in specific cities and civilian impact without citing specific event counts, fatalities, locations with dates, or attribution to ACLED. It reads as commentary rather than data derived from ACLED event records.",
+      "source_context": "Conclusion synthesizes city-level impacts and the need for accountability [1][2][3][4][5][6][7]."
+    }
+  ],
+  "insights": [
+    {
+      "insight": "Urban violence in Sudan during Aug–Sep 2024 centered on siege-style bombardment—SAF airstrikes and RSF artillery—targeting dense civilian areas along static frontlines rather than maneuver warfare or territorial gains.",
+      "context": "Key Findings section establishes the nature of violence as siege-style with static frontlines."
+    },
+    {
+      "insight": "International and regional diplomacy, including UN Security Council resolutions, failed to curb escalation, creating impunity that enabled repeated strikes on medical facilities, markets, and neighborhoods.",
+      "context": "Key Findings and Mechanism of Harm sections emphasize failed diplomacy and resulting impunity [1][2][3]."
+    },
+    {
+      "insight": "On September 13 in El Fasher, an SAF airstrike killed at least 40 civilians in a residential area, exemplifying the month’s pattern of strikes hitting where civilians live and seek care rather than shifting battle lines.",
+      "context": "September in El Fasher section details the dawn airstrike killing at least 40 civilians [4][5]."
+    },
+    {
+      "insight": "Late August saw artillery hit a livestock market inside a camp, killing 15 and injuring 17, illustrating how indirect fire mapped onto civilian spaces amid static trench lines.",
+      "context": "September in El Fasher and Mechanism of Harm sections cite the Aug 26 market strike (15 killed, 17 injured) [2]."
+    },
+    {
+      "insight": "RSF artillery struck medical facilities, including a military hospital in Dilling, while SAF airpower targeted urban hubs like El Fasher, degrading essential services and civilian protections consistent with siege tactics.",
+      "context": "September in El Fasher and Cities as Battlegrounds sections describe RSF shelling of Dilling hospital and SAF strikes on El Fasher [4][5]."
+    },
+    {
+      "insight": "Repeated shelling and airstrikes disrupted healthcare: staff fled, supplies dwindled, and hospitals struggled to absorb trauma, leading to displacement spikes and reduced safe passage.",
+      "context": "September in El Fasher section details cascading effects on healthcare and displacement [5]."
+    },
+    {
+      "insight": "Humanitarian operations faced severe constraints due to repeated strikes and unpredictable salvos, making route access and delivery windows unreliable.",
+      "context": "September in El Fasher and Cities as Battlegrounds sections discuss operational difficulty under bombardment [5][6]."
+    },
+    {
+      "insight": "Bombardment became a deliberate method along urban frontlines: RSF artillery and SAF airstrikes inflicted heavy civilian harm without decisive territorial changes.",
+      "context": "Mechanism of Harm section explains escalation without territorial gain [2]."
+    },
+    {
+      "insight": "UN Security Council demands for a halt to hostilities did not slow attacks; hotspots like Nyala and El Fasher experienced intensified salvos despite diplomatic statements.",
+      "context": "Mechanism of Harm and Between Resolutions and Ruins sections on UNSC demands failing to reduce violence [1][2]."
+    },
+    {
+      "insight": "The absence of credible accountability and unified enforcement mechanisms undermined ceasefire efforts, enabling repeated attacks on civilian-dense areas and deepening mistrust.",
+      "context": "Mechanism of Harm section discusses enforcement failures and fragmented monitoring [3]."
+    },
+    {
+      "insight": "As accountability receded, siege tactics became self-reinforcing, normalizing bombardment and degrading urban lifelines such as water, power, clinics, and markets.",
+      "context": "Mechanism of Harm section describes normalization of bombardment and lifeline degradation [2]."
+    },
+    {
+      "insight": "Dilling’s RSF shelling of a military hospital and surrounding civilian areas demonstrates how attacking care facilities cascades harm into nearby neighborhoods and changes civilian behavior.",
+      "context": "Cities as Battlegrounds section details Dilling hospital strikes and behavioral impacts [4][5]."
+    },
+    {
+      "insight": "Nyala exemplified siege logic through sustained bombardment and bureaucratic choke points, where permits and insecurity made aid convoys sporadic despite nominal route openings.",
+      "context": "Cities as Battlegrounds section explains bombardment plus administrative barriers in Nyala [6]."
+    },
+    {
+      "insight": "Roughly 24.8 million people in Sudan required assistance, and unreliable safe passage turned an acute crisis into a systemic humanitarian emergency.",
+      "context": "Cities as Battlegrounds section cites scale of humanitarian need and access challenges [6]."
+    },
+    {
+      "insight": "Static frontlines produced cycles of fire that punished populations, as seen in the El Fasher airstrike killing at least 40 and RSF shelling hitting Dilling’s hospital and civilian areas.",
+      "context": "Cities as Battlegrounds section reiterates emblematic incidents [4][5]."
+    },
+    {
+      "insight": "Indicators pointed to heightened activity in early September around strategic urban nodes, yet heavy strikes on civilian hubs occurred with limited territorial shifts, aligning with punitive siege logic.",
+      "context": "Between Resolutions and Ruins notes intensified activity and limited territorial change [7]."
+    },
+    {
+      "insight": "By September, displacement exceeded 5.8 million, underscoring the civilian toll of continued heavy tactics despite both sides’ claims of military necessity.",
+      "context": "Between Resolutions and Ruins section provides displacement figure and context [7]."
+    },
+    {
+      "insight": "Heavy tactics—drones, artillery, ground operations, and airstrikes—continued amid fragmented enforcement, making ceasefires aspirational and eroding trust between parties.",
+      "context": "Between Resolutions and Ruins discusses persistence of heavy tactics and fragmented enforcement [1][3]."
+    },
+    {
+      "insight": "Accountability measures—credible monitoring, enforceable sanctions, conditional support tied to reductions in urban bombardment—could alter incentives and reduce attacks on civilian sites.",
+      "context": "Between Resolutions and Ruins outlines accountability mechanisms to change calculus [1][3]."
+    },
+    {
+      "insight": "Prioritized civilian protection via monitored no-strike lists for hospitals and markets, independent verification, and linking diplomatic progress to fewer sorties could translate resolutions into deterrence.",
+      "context": "Between Resolutions and Ruins proposes practical protection measures [1][3]."
+    },
+    {
+      "insight": "Evidence from Aug–Sep 2024 shows that without credible monitoring and consequences, Sudan’s cities—El Fasher, Nyala, Dilling—remain under sustained fire, with civilians bearing the brunt.",
+      "context": "Conclusion synthesizes city-level impacts and the need for accountability [1][2][3][4][5][6][7]."
+    }
+  ],
+  "prompt": "Give me a summary of artillery shelling and airstrikes political violence, and conflict situations during August - September 2024 in Sudan."
+}

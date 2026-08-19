@@ -1,0 +1,322 @@
+{
+  "total_insights": 31,
+  "total_classified": 31,
+  "acled_count": 22,
+  "non_acled_count": 9,
+  "pct_acled": 0.7096774193548387,
+  "details": [
+    {
+      "evidence": "In November 2024, 79 incidents of violence against civilians in Al‑Jazirah caused 281 deaths, averaging 3.6 fatalities per event with a median of 1, indicating a heavy‑tailed distribution dominated by a few lethal outliers.",
+      "is_acled_data": true,
+      "reasoning": "The evidence gives specific counts of violence against civilians events and fatalities for a subnational area in a specific month, along with per-event averages and a median—metrics typically computed from ACLED’s event and fatality data for “violence against civilians.” This aligns with ACLED’s event-based statistics and temporal/subnational breakdowns.",
+      "source_context": "Overview statistics for November; emphasizes mean vs median lethality and heavy-tail pattern [2][3]."
+    },
+    {
+      "evidence": "The RSF perpetrated 77 of the 79 incidents against civilians in November, concentrating responsibility for violence in a single militia.",
+      "is_acled_data": true,
+      "reasoning": "The statement provides a precise count of incidents against civilians in a specific month and attributes them to a specific actor (RSF), which aligns with ACLED’s event-level data on violence against civilians and actor responsibility. This is characteristic of ACLED-derived statistics on incident counts and perpetrator attribution.",
+      "source_context": "Attribution of incidents to armed actors, showing RSF dominance [4][5][6]."
+    },
+    {
+      "evidence": "A few massacres anchored the month’s death toll: 53 killed in Al Laota Al Hujjaj on Nov 14; ~30 killed in Al Siqeia on Nov 11; and 20 killed on each of Nov 19 and 20 in Wad Esheib.",
+      "is_acled_data": true,
+      "reasoning": "The evidence lists specific conflict events with dates, locations, and fatality counts—typical ACLED event data (violence against civilians, fatalities, geographic details, temporal specificity).",
+      "source_context": "Identification of high-fatality outlier events and their dates/locations [7][1]."
+    },
+    {
+      "evidence": "Daily fatalities spiked on Nov 11 (32 deaths) and Nov 14 (53 deaths), with additional 20‑fatality days in early and mid‑to‑late November; most days saw low or zero deaths.",
+      "is_acled_data": true,
+      "reasoning": "The evidence gives specific daily fatality counts on particular dates and describes temporal patterns of deaths within a subnational area (al-Jazirah) in November 2024. ACLED provides event-level fatality data and supports temporal trend analysis at subnational levels, matching the type of information cited.",
+      "source_context": "Temporal daily series showing spikes against otherwise low baseline [8][9]."
+    },
+    {
+      "evidence": "Upper-tail metrics underscore concentration: p90 at 10 deaths, p95 at 20, and maximum at 53, while the median per event remained 1.",
+      "is_acled_data": true,
+      "reasoning": "The evidence reports distributional statistics of fatalities per event (median and upper-tail metrics like p90, p95, max), which are derived from event-level fatality counts—core ACLED data. Such quantiles summarize ACLED event fatality data for a specific place and time, fitting ACLED-based analysis.",
+      "source_context": "Distributional statistics of fatalities per event [3]."
+    },
+    {
+      "evidence": "Attacks accounted for nearly all fatalities (267 deaths across 64 RSF attack events), while abductions (10 incidents) had zero recorded fatalities and sexual violence (3 incidents) had limited lethality.",
+      "is_acled_data": true,
+      "reasoning": "The evidence provides specific event counts by event type (attacks, abductions, sexual violence), actor reference (RSF), and associated fatality totals, which align with ACLED’s event-based data and violence against civilians statistics. This granular breakdown of events and fatalities is characteristic of ACLED-derived figures.",
+      "source_context": "Event-type composition and associated lethality profiles [5][10]."
+    },
+    {
+      "evidence": "November’s violence functioned as episodic, demonstrative killings: many low‑fatality events punctuated by a few massacres that signaled dominance.",
+      "is_acled_data": false,
+      "reasoning": "The statement is qualitative analysis about the character of violence (episodic, demonstrative, few massacres signaling dominance) without citing counts, event descriptions, or ACLED-derived metrics. It is interpretive commentary not explicitly tied to ACLED event data or statistics.",
+      "source_context": "Synthesis of distribution, timing, and attribution showing strategic signaling through outliers [4][2][3][7][8][9][1]."
+    },
+    {
+      "evidence": "Mid‑November massacres coincided with the defection of Abu Aqla Keikel from the RSF, triggering retaliatory RSF campaigns including killings, sexual assaults, looting, and widespread displacement.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a narrative linking massacres to a defection and describing retaliatory campaigns (killings, sexual assaults, looting, displacement) without citing specific ACLED event data, counts, dates, locations, or explicit attribution to ACLED. It reads as analytical context rather than extracted ACLED event records or statistics.",
+      "source_context": "Link between defection shock and retaliatory violence against civilians [11][12][13]."
+    },
+    {
+      "evidence": "Humanitarian impacts escalated: displacement across at least 24 areas and hindered aid access due to intensified RSF operations amid internal instability.",
+      "is_acled_data": false,
+      "reasoning": "The statement discusses humanitarian impacts—displacement across multiple areas and hindered aid access—attributed to intensified RSF operations and internal instability. Displacement and aid access constraints are typically humanitarian metrics (e.g., from UN/OCHA) and not standard ACLED outputs unless explicitly linked to ACLED event data. No event counts, locations, fatalities, or explicit ACLED attribution are provided.",
+      "source_context": "Aid and displacement dynamics following defection-linked violence [11][13]."
+    },
+    {
+      "evidence": "Violence declined sharply in the seven days after key defection/realignment anchors (Nov 15, 16, 26, 27) compared to the seven days prior, especially in fatalities (e.g., 119→48; 106→48; 49→8; and 29→18).",
+      "is_acled_data": true,
+      "reasoning": "The statement reports changes in violence and fatalities over specific seven-day windows around precise dates, indicating event/fatality counts and temporal patterns—metrics ACLED provides (event counts, violence against civilians, fatalities, temporal trend analysis). This aligns with ACLED-derived analysis of conflict events and fatalities at subnational and time-bounded scales.",
+      "source_context": "Pre‑ vs post‑anchor comparative windows highlighting declines in events and deaths [14]."
+    },
+    {
+      "evidence": "Across all anchors, the 0–7 day post windows had about half the daily events and a quarter of the daily deaths relative to days outside (1.71 vs 3.44 events; 3.57 vs 14.44 fatalities).",
+      "is_acled_data": true,
+      "reasoning": "The evidence reports daily event counts and fatalities in specific post-event windows, comparing rates (events per day, fatalities per day). These are typical temporal pattern analyses derived from ACLED’s event and fatality data. It references counts of events and fatalities—core ACLED metrics—aggregated over defined windows, consistent with conflict trend analysis using ACLED datasets.",
+      "source_context": "Pooled comparison of event/death rates inside vs outside post‑defection windows [15]."
+    },
+    {
+      "evidence": "RSF modulated tempo more than per‑incident lethality: attacks fell from 28 to 7 and fatalities from 168 to 7 in pre‑ vs post‑7‑day windows, while median fatalities per attack stayed at 1.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites counts of attacks and fatalities over specific time windows and discusses per-incident lethality—metrics directly aligned with ACLED event and fatality data and temporal trend analysis derived from those events.",
+      "source_context": "Mechanics of decline show fewer events without change in typical per‑event lethality [16]."
+    },
+    {
+      "evidence": "Event‑level lethality was lower post‑anchor due to fewer extreme outliers (mean 2.45 vs 4.32; medians 0–1 both), with pre‑anchor tails heavier (p95 ~31; max 53) than post‑anchor (p95 ~20; max 20).",
+      "is_acled_data": true,
+      "reasoning": "The evidence discusses event-level lethality with means, medians, percentiles, and maxima for conflict events across pre/post periods, implying analysis of fatalities per event—a hallmark of ACLED event data (event counts with fatality figures and temporal comparisons). This aligns with ACLED’s event-level fatality data and temporal pattern analysis, suggesting derivation from ACLED or similar event-based conflict datasets.",
+      "source_context": "Distributional comparison of pre/post windows confirms tail trimming rather than method change [17][18]."
+    },
+    {
+      "evidence": "A weapon‑type snapshot suggests many low‑fatality incidents labeled other/unspecified punctuated by a small, highly lethal subset tied to small‑arms fire.",
+      "is_acled_data": false,
+      "reasoning": "The evidence references a \"weapon-type snapshot\" and characterizes incident lethality patterns (many low-fatality incidents labeled other/unspecified, a small subset tied to small-arms fire). ACLED does not code weapon type categories; its event taxonomy focuses on event types/sub-events, actors, locations, dates, and fatalities, not weapon-type breakdowns. Without explicit attribution to ACLED and given the weapon-focused framing, this is unlikely to be derived from ACLED data.",
+      "source_context": "Weapon-type association with lethality structure [19]."
+    },
+    {
+      "evidence": "A micro‑timeline shows the signal: 53 killed at Al Laota Al Hujjaj in the three days before Nov 15–16 anchors; within three days after Nov 16, 20 were killed in Wad Esheib while other localities had single‑fatality events.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific fatality counts tied to precise localities and short time windows (three-day periods around Nov 15–16) within a conflict context, consistent with ACLED-style event data: location-specific incidents, dates, and fatalities indicating violence against civilians. This mirrors ACLED’s micro-timeline, subnational event geocoding, and fatality figures derived from conflict events.",
+      "source_context": "Local sequencing around mid‑month anchors illustrates concentrated outliers and low‑level background events [20]."
+    },
+    {
+      "evidence": "Sharg Al Jazirah hosted two of the deadliest sites: Wad Esheib and Al Siqeia accounted for 70 deaths (40 across two events in Wad Esheib; 30 in a single event in Al Siqeia).",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific subnational locations within Sharg Al Jazirah, provides event-level fatality counts, and references numbers of deaths per event and across multiple events—characteristic of ACLED’s event-based conflict and fatality data at precise locations.",
+      "source_context": "Spatial concentration of high-fatality events in Sharg Al Jazirah [7][5][21]."
+    },
+    {
+      "evidence": "The deadliest single day was Nov 14 at Al Laota Al Hujjaj (53 killed); mid‑month in Sharg Al Jazirah included a highly lethal Nov 16 cluster (23 deaths across three events in the 0–3 day post‑anchor window).",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific conflict event dates, precise locations within al-Jazirah, counts of fatalities, and aggregation across a defined temporal window (0–3 days post-anchor) and subnational area—all characteristic of ACLED event-level data and temporal clustering analysis derived from ACLED.",
+      "source_context": "Date-specific lethal clusters highlighting Sharg Al Jazirah’s role [21][22]."
+    },
+    {
+      "evidence": "Despite massacres, Sharg Al Jazirah’s median event lethality remained about one death, reflecting a heavy‑tailed profile with a few defining outliers.",
+      "is_acled_data": true,
+      "reasoning": "Mentions event lethality (deaths per event), median fatalities, heavy-tailed distribution, and references a specific subnational area and period—metrics commonly computed from ACLED’s event-level fatality data and locations. This reflects analysis derived from ACLED event/fatality data rather than general commentary.",
+      "source_context": "Within-district distribution underpinned by low medians and rare extremes [5]."
+    },
+    {
+      "evidence": "Al Hasahisa saw late‑month breadth with minimal lethality: on Nov 28, RSF actions hit eight villages with exactly one fatality each, indicating dispersed harassment rather than mass‑casualty operations.",
+      "is_acled_data": true,
+      "reasoning": "The evidence provides specific event-level conflict details: date (Nov 28), actor (RSF), number of affected locations (eight villages), and fatality counts (one per event). This mirrors ACLED-style event data on violence against civilians and fatalities with geographic breadth, suggesting derivation from ACLED event records or aggregation thereof.",
+      "source_context": "Pattern of dispersed, low-fatality sweeps in Al Hasahisa [23]."
+    },
+    {
+      "evidence": "Local hubs like El Hasahisa and Karjaba experienced repeated, short‑interval incidents, suggesting brief presence-projection bursts amid otherwise low locality counts.",
+      "is_acled_data": true,
+      "reasoning": "References repeated incidents at specific local hubs and short-interval temporal patterns, implying event frequency and location-based analysis typical of ACLED’s subnational event data and temporal trend analysis.",
+      "source_context": "Temporal clustering at local hubs within generally sparse locality-level activity [24]."
+    },
+    {
+      "evidence": "Post‑defection, Sharg Al Jazirah’s activity decreased and after late‑month anchors collapsed to zero, while some other areas saw mixed or increased activity on Nov 27.",
+      "is_acled_data": true,
+      "reasoning": "The statement discusses subnational (Sharg Al Jazirah) conflict activity levels changing over time, including a specific date (Nov 27) and a drop to zero events, which aligns with ACLED-style event counts and temporal patterns at the subnational level. This reflects ACLED’s event data, geographic breakdowns, and trend analysis rather than general commentary.",
+      "source_context": "Geographic redistribution of events after anchor dates [25][22][26]."
+    },
+    {
+      "evidence": "Lethal footprint was dominated by attacks; abductions had zero‑fatality profiles; sexual violence incidents—all in Sharg—were few but part of the mixed incident set.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references event-type profiles (attacks vs. abductions vs. sexual violence), fatality profiles (zero-fatality for abductions), and a specific subnational location (Sharg), which align with ACLED’s event counts, fatality data, event type categorization, and geographic breakdowns derived from conflict event data.",
+      "source_context": "Event-type distribution and geography within Sharg Al Jazirah [5][27]."
+    },
+    {
+      "evidence": "The province was already facing hunger and service collapse; attacks on markets and infrastructure since mid‑2024 worsened food security and WASH, compounding the impact of November massacres.",
+      "is_acled_data": false,
+      "reasoning": "The statement discusses hunger, service collapse, WASH impacts, and market/infrastructure attacks in broad humanitarian terms and links them to November massacres without citing specific ACLED event counts, locations, or actor/event data. It reflects general impact analysis rather than explicit ACLED-derived conflict event statistics or trends.",
+      "source_context": "Humanitarian baseline of hunger and degraded services amplifying violence’s effects [28]."
+    },
+    {
+      "evidence": "Aid delivery was fragile and access blocked in places, pushing agencies toward community-led, localized approaches amid rising needs.",
+      "is_acled_data": false,
+      "reasoning": "The statement discusses humanitarian access and aid delivery approaches, which are not ACLED event data or metrics. It does not reference specific conflict events, fatalities, locations, or ACLED-derived trends.",
+      "source_context": "Operational constraints and adaptation in humanitarian response [29]."
+    },
+    {
+      "evidence": "About 14,000 people fled to Gedaref across seven locations following the violence, showing how punitive massacres generated cross-border (interstate) humanitarian pressures.",
+      "is_acled_data": false,
+      "reasoning": "The evidence cites displacement figures (14,000 people fled across seven locations) and humanitarian pressures, which align with humanitarian/refugee statistics typically from UN agencies or humanitarian sources rather than ACLED’s event-based conflict data. No ACLED attribution or event-specific metrics (events, fatalities, actors, locations as per ACLED format) are provided.",
+      "source_context": "Displacement scale and destinations linked to November events [29][30]."
+    },
+    {
+      "evidence": "Late‑month RSF village shelling across Al Hasahisa caused uniformly low per‑incident fatalities but wide reach, consistent with broad intimidation that hinders aid access.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references RSF shelling events in a specific locality (Al Hasahisa), mentions per-incident fatalities, and characterizes spatial reach and temporal pattern (late‑month), all of which align with ACLED’s event-level data (actor, location, event type, fatalities, timing). The broader interpretation about intimidation/aid access is analytical, but the underlying event/fatality pattern is consistent with ACLED-derived insights.",
+      "source_context": "Shift to dispersed, low-lethality shelling and its humanitarian implications [31]."
+    },
+    {
+      "evidence": "Documentation was dangerous: detentions, beatings, and internet repression deterred testimony, causing underdocumentation and uncertainty about the true toll.",
+      "is_acled_data": false,
+      "reasoning": "The statement discusses challenges in documentation (detentions, beatings, internet repression) leading to underdocumentation and uncertainty. This is contextual/qualitative commentary about data collection constraints, not specific ACLED event data, counts, locations, or actor/event attributes attributed to ACLED.",
+      "source_context": "Barriers to verification and accountability in the conflict environment [32]."
+    },
+    {
+      "evidence": "Reported violence‑against‑civilians events fell from 125 in October to 79 in November to 66 in December, indicating a near‑half reduction across the quarter.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites monthly counts of violence-against-civilians events and compares trends over a quarter. Event counts by category and temporal trend analysis are core ACLED outputs, matching ACLED’s violence-against-civilians statistics and conflict trend data.",
+      "source_context": "Quarterly trend in event counts signaling declining tempo [33]."
+    },
+    {
+      "evidence": "Within November, RSF actions shifted from concentrated massacres to late‑month withdrawal from Wad Medani and dispersed shelling with around one fatality per village event, indicating modulation rather than cessation.",
+      "is_acled_data": true,
+      "reasoning": "The evidence discusses temporal shifts in RSF tactics within November, references specific locations (Wad Medani, villages in al-Jazirah), event types (massacres, shelling, withdrawal), and per-event fatality estimates (around one fatality per village event). These elements align with ACLED’s event-based data: actor activity, event descriptions, geographic specificity, temporal pattern analysis, and fatality counts. It reads like analysis derived from aggregated ACLED event data rather than general commentary.",
+      "source_context": "Operational evolution during November toward lower-intensity, broader coverage [31][34]."
+    },
+    {
+      "evidence": "Explicit retaliatory language reappeared on Dec 4 in Wad Himedan, where at least five civilians were killed “in retaliation” against areas perceived to support the SAF, echoing November’s punitive logic.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a narrative analysis about retaliatory language and references a specific incident with five civilians killed, but it does not cite ACLED, provide ACLED-style event coding, or clearly draw from ACLED datasets. It reads as qualitative commentary referencing an incident rather than explicit ACLED event data.",
+      "source_context": "Continuation of punitive signaling into early December [35]."
+    },
+    {
+      "evidence": "Overall, the RSF maintained a near‑monopoly on civilian targeting in November, used a few mid‑month massacres—especially in Sharg Al Jazirah—to signal and punish, then reduced event frequency while keeping per‑incident lethality distributions similar, producing sharp post‑defection drops in deaths.",
+      "is_acled_data": true,
+      "reasoning": "The evidence discusses actor-specific violence against civilians, timing of massacres, event frequency, per-incident lethality distributions, and post-defection death trends within a subnational area (Sharg Al Jazirah) in November 2024. These elements align with ACLED’s event-level data: counts, fatalities, actor activity, geographic breakdowns, and temporal trend analysis. The phrasing implies analysis derived from aggregated ACLED event and fatality data rather than general commentary.",
+      "source_context": "Synthesis of actor dominance, tail-driven lethality, and post‑anchor modulation across time and space [4][2][3][7][1][15][14][17][16][18]."
+    }
+  ],
+  "insights": [
+    {
+      "insight": "In November 2024, 79 incidents of violence against civilians in Al‑Jazirah caused 281 deaths, averaging 3.6 fatalities per event with a median of 1, indicating a heavy‑tailed distribution dominated by a few lethal outliers.",
+      "context": "Overview statistics for November; emphasizes mean vs median lethality and heavy-tail pattern [2][3]."
+    },
+    {
+      "insight": "The RSF perpetrated 77 of the 79 incidents against civilians in November, concentrating responsibility for violence in a single militia.",
+      "context": "Attribution of incidents to armed actors, showing RSF dominance [4][5][6]."
+    },
+    {
+      "insight": "A few massacres anchored the month’s death toll: 53 killed in Al Laota Al Hujjaj on Nov 14; ~30 killed in Al Siqeia on Nov 11; and 20 killed on each of Nov 19 and 20 in Wad Esheib.",
+      "context": "Identification of high-fatality outlier events and their dates/locations [7][1]."
+    },
+    {
+      "insight": "Daily fatalities spiked on Nov 11 (32 deaths) and Nov 14 (53 deaths), with additional 20‑fatality days in early and mid‑to‑late November; most days saw low or zero deaths.",
+      "context": "Temporal daily series showing spikes against otherwise low baseline [8][9]."
+    },
+    {
+      "insight": "Upper-tail metrics underscore concentration: p90 at 10 deaths, p95 at 20, and maximum at 53, while the median per event remained 1.",
+      "context": "Distributional statistics of fatalities per event [3]."
+    },
+    {
+      "insight": "Attacks accounted for nearly all fatalities (267 deaths across 64 RSF attack events), while abductions (10 incidents) had zero recorded fatalities and sexual violence (3 incidents) had limited lethality.",
+      "context": "Event-type composition and associated lethality profiles [5][10]."
+    },
+    {
+      "insight": "November’s violence functioned as episodic, demonstrative killings: many low‑fatality events punctuated by a few massacres that signaled dominance.",
+      "context": "Synthesis of distribution, timing, and attribution showing strategic signaling through outliers [4][2][3][7][8][9][1]."
+    },
+    {
+      "insight": "Mid‑November massacres coincided with the defection of Abu Aqla Keikel from the RSF, triggering retaliatory RSF campaigns including killings, sexual assaults, looting, and widespread displacement.",
+      "context": "Link between defection shock and retaliatory violence against civilians [11][12][13]."
+    },
+    {
+      "insight": "Humanitarian impacts escalated: displacement across at least 24 areas and hindered aid access due to intensified RSF operations amid internal instability.",
+      "context": "Aid and displacement dynamics following defection-linked violence [11][13]."
+    },
+    {
+      "insight": "Violence declined sharply in the seven days after key defection/realignment anchors (Nov 15, 16, 26, 27) compared to the seven days prior, especially in fatalities (e.g., 119→48; 106→48; 49→8; and 29→18).",
+      "context": "Pre‑ vs post‑anchor comparative windows highlighting declines in events and deaths [14]."
+    },
+    {
+      "insight": "Across all anchors, the 0–7 day post windows had about half the daily events and a quarter of the daily deaths relative to days outside (1.71 vs 3.44 events; 3.57 vs 14.44 fatalities).",
+      "context": "Pooled comparison of event/death rates inside vs outside post‑defection windows [15]."
+    },
+    {
+      "insight": "RSF modulated tempo more than per‑incident lethality: attacks fell from 28 to 7 and fatalities from 168 to 7 in pre‑ vs post‑7‑day windows, while median fatalities per attack stayed at 1.",
+      "context": "Mechanics of decline show fewer events without change in typical per‑event lethality [16]."
+    },
+    {
+      "insight": "Event‑level lethality was lower post‑anchor due to fewer extreme outliers (mean 2.45 vs 4.32; medians 0–1 both), with pre‑anchor tails heavier (p95 ~31; max 53) than post‑anchor (p95 ~20; max 20).",
+      "context": "Distributional comparison of pre/post windows confirms tail trimming rather than method change [17][18]."
+    },
+    {
+      "insight": "A weapon‑type snapshot suggests many low‑fatality incidents labeled other/unspecified punctuated by a small, highly lethal subset tied to small‑arms fire.",
+      "context": "Weapon-type association with lethality structure [19]."
+    },
+    {
+      "insight": "A micro‑timeline shows the signal: 53 killed at Al Laota Al Hujjaj in the three days before Nov 15–16 anchors; within three days after Nov 16, 20 were killed in Wad Esheib while other localities had single‑fatality events.",
+      "context": "Local sequencing around mid‑month anchors illustrates concentrated outliers and low‑level background events [20]."
+    },
+    {
+      "insight": "Sharg Al Jazirah hosted two of the deadliest sites: Wad Esheib and Al Siqeia accounted for 70 deaths (40 across two events in Wad Esheib; 30 in a single event in Al Siqeia).",
+      "context": "Spatial concentration of high-fatality events in Sharg Al Jazirah [7][5][21]."
+    },
+    {
+      "insight": "The deadliest single day was Nov 14 at Al Laota Al Hujjaj (53 killed); mid‑month in Sharg Al Jazirah included a highly lethal Nov 16 cluster (23 deaths across three events in the 0–3 day post‑anchor window).",
+      "context": "Date-specific lethal clusters highlighting Sharg Al Jazirah’s role [21][22]."
+    },
+    {
+      "insight": "Despite massacres, Sharg Al Jazirah’s median event lethality remained about one death, reflecting a heavy‑tailed profile with a few defining outliers.",
+      "context": "Within-district distribution underpinned by low medians and rare extremes [5]."
+    },
+    {
+      "insight": "Al Hasahisa saw late‑month breadth with minimal lethality: on Nov 28, RSF actions hit eight villages with exactly one fatality each, indicating dispersed harassment rather than mass‑casualty operations.",
+      "context": "Pattern of dispersed, low-fatality sweeps in Al Hasahisa [23]."
+    },
+    {
+      "insight": "Local hubs like El Hasahisa and Karjaba experienced repeated, short‑interval incidents, suggesting brief presence-projection bursts amid otherwise low locality counts.",
+      "context": "Temporal clustering at local hubs within generally sparse locality-level activity [24]."
+    },
+    {
+      "insight": "Post‑defection, Sharg Al Jazirah’s activity decreased and after late‑month anchors collapsed to zero, while some other areas saw mixed or increased activity on Nov 27.",
+      "context": "Geographic redistribution of events after anchor dates [25][22][26]."
+    },
+    {
+      "insight": "Lethal footprint was dominated by attacks; abductions had zero‑fatality profiles; sexual violence incidents—all in Sharg—were few but part of the mixed incident set.",
+      "context": "Event-type distribution and geography within Sharg Al Jazirah [5][27]."
+    },
+    {
+      "insight": "The province was already facing hunger and service collapse; attacks on markets and infrastructure since mid‑2024 worsened food security and WASH, compounding the impact of November massacres.",
+      "context": "Humanitarian baseline of hunger and degraded services amplifying violence’s effects [28]."
+    },
+    {
+      "insight": "Aid delivery was fragile and access blocked in places, pushing agencies toward community-led, localized approaches amid rising needs.",
+      "context": "Operational constraints and adaptation in humanitarian response [29]."
+    },
+    {
+      "insight": "About 14,000 people fled to Gedaref across seven locations following the violence, showing how punitive massacres generated cross-border (interstate) humanitarian pressures.",
+      "context": "Displacement scale and destinations linked to November events [29][30]."
+    },
+    {
+      "insight": "Late‑month RSF village shelling across Al Hasahisa caused uniformly low per‑incident fatalities but wide reach, consistent with broad intimidation that hinders aid access.",
+      "context": "Shift to dispersed, low-lethality shelling and its humanitarian implications [31]."
+    },
+    {
+      "insight": "Documentation was dangerous: detentions, beatings, and internet repression deterred testimony, causing underdocumentation and uncertainty about the true toll.",
+      "context": "Barriers to verification and accountability in the conflict environment [32]."
+    },
+    {
+      "insight": "Reported violence‑against‑civilians events fell from 125 in October to 79 in November to 66 in December, indicating a near‑half reduction across the quarter.",
+      "context": "Quarterly trend in event counts signaling declining tempo [33]."
+    },
+    {
+      "insight": "Within November, RSF actions shifted from concentrated massacres to late‑month withdrawal from Wad Medani and dispersed shelling with around one fatality per village event, indicating modulation rather than cessation.",
+      "context": "Operational evolution during November toward lower-intensity, broader coverage [31][34]."
+    },
+    {
+      "insight": "Explicit retaliatory language reappeared on Dec 4 in Wad Himedan, where at least five civilians were killed “in retaliation” against areas perceived to support the SAF, echoing November’s punitive logic.",
+      "context": "Continuation of punitive signaling into early December [35]."
+    },
+    {
+      "insight": "Overall, the RSF maintained a near‑monopoly on civilian targeting in November, used a few mid‑month massacres—especially in Sharg Al Jazirah—to signal and punish, then reduced event frequency while keeping per‑incident lethality distributions similar, producing sharp post‑defection drops in deaths.",
+      "context": "Synthesis of actor dominance, tail-driven lethality, and post‑anchor modulation across time and space [4][2][3][7][1][15][14][17][16][18]."
+    }
+  ],
+  "prompt": "Research Defection and violence against civilians in Sudan's al-Jazirah state. Focus on November 2024."
+}

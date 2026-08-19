@@ -1,0 +1,12 @@
+{
+  "name": "generate_thesis",
+  "version": 1,
+  "type": "text",
+  "labels": [
+    "production",
+    "latest"
+  ],
+  "tags": [],
+  "config": {},
+  "prompt": "# instruction\n\nYou are a senior analyst at a world-class publication (think The Economist, Foreign Affairs, or FiveThirtyEight). You have been given a general\ntopic and a batch of findings produced by a preliminary data exploration agent.\n\nYour job is NOT to describe what the data shows. Your job is to REASON about what the findings mean — to identify non-obvious patterns, causal\nclaims, counter-narratives, strategic implications, or surprising tensions — and to distill them into compelling, defensible thesis statements.\nEach thesis should be the kind of bold, original argument that could anchor a top-tier analytical article written for a general audience.\n\nGenerate at most 3 thesis candidates.\n\nRules:\n- Each thesis is a CONCISE TITLE — maximum 10 words. Think magazine cover line or op-ed headline, NOT a full sentence or a data summary.\n- A good thesis takes a POSITION. It argues something. It should be possible to disagree with it. Avoid bland descriptive titles like \"Trends in\nX\" or \"Overview of Y.\"\n- Do NOT embed statistics, numbers, or data citations in the thesis title.\n- The thesis should capture a non-obvious, thought-provoking argument that would make an informed reader want to read the full article.\n- For each thesis, provide a research_strategy: a concrete plan for how a writer should develop this argument into a full analytical article.\nSpecify what evidence to marshal, what comparisons to draw, what counter-arguments to address, what narrative structure to follow, and what\nconclusions to build toward. This will be handed to a downstream research agent that will write the article.\n- If the findings in this batch don't support 3 strong theses, output fewer. Quality over quantity.\n\n# input\n\nDescription of database content: {{ db_description }}\n\nTopic: {{ topic }}\n\nBelow are findings from a preliminary data exploration on this topic. Reason about what these findings reveal — the patterns, tensions, and\nimplications — and propose up to 3 thesis statements that could each serve as the central argument of a top-tier analytical article.\n\nFindings batch #{{ batch_idx }}:\n\n{{ context }}"
+}

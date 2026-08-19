@@ -1,0 +1,95 @@
+{
+  "dataset_id": 14,
+  "dataset_path": "data/notebooks/flag-14.json",
+  "metadata": {
+    "category": "User Management",
+    "dataset_description": "The dataset comprises two key tables simulating ServiceNow platform: the `sys_user` table and the `incidents` table, each with 500 entries. The `incidents` table focuses on detailing various attributes such as category, state, open and close dates, involved personnel, and incident specifics like location, description, and priority. It effectively captures incident management activities with fields including 'opened_at', 'closed_at', 'assigned_to', 'short_description', and 'priority', reflecting the operational handling and urgency of issues across different locations and categories. The `sys_user` table, on the other hand, contains user-related information, focusing on the details of employees or system users. This includes fields such as 'user_id', 'name', 'role', 'email', 'schedule', and 'department', providing insights into the user profiles managed within the ServiceNow system. Together, these tables are instrumental in understanding the workflow, user involvement and detailed tracking of incident resolution processes within an organization.",
+    "goal": "Given the user and incidents tabular data, analyze discrepancies in the performance of human agents, particularly focusing on a certain human agent, to understand the underlying causes of performance dips and devise strategies to manage workload during absence periods.",
+    "header": "Performance Trends in Employee Agents Management (Flag 14)",
+    "role": "Team Lead"
+  },
+  "predicted_insights": [
+    "Across the full observed period (54 weeks from Jan 2023 to Jan 2024), Howard Johnson closed 0 incidents in 100% of weeks (54/54), indicating either a persistent absence or no recorded closures; this suggests coverage plans should not rely on this agent’s weekly throughput during that timeframe.",
+    "Backfill by peers was consistent and sometimes heavy: in zero-closure weeks for Howard Johnson, other agents closed 49 tickets across 28 weeks (peaking at 4 in the weeks of 2023-08-07 and 2023-11-27), implying teams should plan for roughly 2 extra tickets per week to cover his workload during absences.",
+    "Other agents handle a higher share of critical work by 6.61 percentage points; in this sample Howard processed 42 critical cases (about 4 in 10 of his tickets), implying that backfilling his workload would require coverage for roughly 42 critical incidents over a comparable period.",
+    "Across 41 such incidents, the mean is 120.31 hours—slightly above the 116.22-hour median—indicating right-skew from a few lengthy cases (up to 326.87 hours ≈ 13.6 days), while a negative minimum (-107.96 hours) signals timestamp anomalies that can bias performance metrics.",
+    "Howard Johnson’s median is about 22.4 hours (~15%) slower than the team median while handling ~22% of all closed incidents (90 of 409), suggesting his workload or case complexity could be driving longer resolution times and may require coverage planning during absences.",
+    "On days when Howard Johnson did close incidents, counts were typically 1–2 and peaked at 3, so a 17-day no-closure gap represents a multi-week interruption relative to his observed daily capacity, highlighting the need for cross-coverage planning during such absences.",
+    "Across this 17-day no-closure span, only one incident reached Howard Johnson—an average of ~0.06 incidents per day—indicating very low inflow or effective reassignment during the period, with the only workload spike on 2023-11-08.",
+    "Given 6 unique assignees, if Howard were absent at that moment, redistributing his 2 open incidents across the remaining 5 agents would increase each peer’s workload by an average of 0.4 incidents, implying low-friction coverage if proactively managed.",
+    "Charlie accounted for 27.5% of peer-closed incidents on Howard Johnson’s tickets (22 of 80), and the top two peers together handled 52.5% (42 of 80), revealing a concentrated backup pattern that could guide contingency planning during absences.",
+    "Howard Johnson’s within-24h closure rate was 0% in 6 of 13 months and peaked at only 20% in 2023-11, yielding an average of about 6.8% across the period—evidence of recurring capacity or absence gaps where cross-coverage could notably improve SLA compliance.",
+    "Across 2023-01 to 2024-01, an average of ~79% of Howard Johnson–assigned incidents were closed by someone else, and in 10 of 13 months at least 75% were closed by others—indicating frequent cross-agent handoffs, with November being a complete handoff month that may signal absence or workload overflow.",
+    "Howard Johnson’s self-closed incidents take about 51% longer than when other agents close his assigned tickets (170.53 vs 112.77 hours), suggesting that load-balancing or cross-coverage during his absence could reduce median closure times by roughly 58 hours per ticket."
+  ],
+  "predicted_summary": "Howard Johnson’s weekly output is consistently low: his median weekly closures are 0, meaning he closes no incidents in at least half of weeks. He had 28 zero-closure weeks, during which colleagues closed 49 incidents that were assigned to him (averaging 1.75 per week, with a peak of 4), and even the “largest weekly drop” relative to his own baseline is 0 because that baseline is already zero.\nHis resolution speed lags peers and backfillers in ways not explained by tougher case mix. Overall median time to close is 170.93 hours for Howard versus 148.53 hours for the team (+22.40 hours). When others close incidents assigned to him, the median is 112.77 hours versus 170.53 hours when he closes them himself (57.76 hours faster). Meanwhile, only 41.18% of his assigned incidents are Priority 1–Critical versus 47.79% for other agents, indicating slower times aren’t due to a higher share of critical work.\nInactivity clusters and coverage patterns are pronounced: his longest no-closure stretch lasted 17 days (2023-10-26 to 2023-11-11); during that span, 1 new incident was assigned (on 2023-11-08) and 2 were already open at the start. In November 2023, 100% of incidents assigned to him were closed by other agents. Timeliness gaps recur, with a 0% within-24-hours closure rate in multiple months (2023-01, 2023-04, 2023-05, 2023-06, 2023-10, 2024-01). A small set of peers absorbed most of his assigned work, led by Charlie Whitherspoon (22 closures), Luke Wilson (20), Beth Anglin (19), and Fred Luddy (19).",
+  "score_insights": 0.23654000264881628,
+  "score_insights_dict": [
+    {
+      "gt_insight": "Fred Luddy has a significantly higher average TTR compared to other agents",
+      "pred_insight": "Howard Johnson’s self-closed incidents take about 51% longer than when other agents close his assigned tickets (170.53 vs 112.77 hours), suggesting that load-balancing or cross-coverage during his absence could reduce median closure times by roughly 58 hours per ticket.",
+      "score": 0.27328419731084075
+    },
+    {
+      "gt_insight": "Fred Luddy's TTR begins to increase linearly over time from a specific point of time (01-06-2023) compared to other agents who maintain a uniform TTR",
+      "pred_insight": "Howard Johnson’s self-closed incidents take about 51% longer than when other agents close his assigned tickets (170.53 vs 112.77 hours), suggesting that load-balancing or cross-coverage during his absence could reduce median closure times by roughly 58 hours per ticket.",
+      "score": 0.1439904880296587
+    },
+    {
+      "gt_insight": "The number of incidents assigned to each agent, including Fred Luddy, remains uniform over time",
+      "pred_insight": "Backfill by peers was consistent and sometimes heavy: in zero-closure weeks for Howard Johnson, other agents closed 49 tickets across 28 weeks (peaking at 4 in the weeks of 2023-08-07 and 2023-11-27), implying teams should plan for roughly 2 extra tickets per week to cover his workload during absences.",
+      "score": 0.19268796534517907
+    },
+    {
+      "gt_insight": "The number of open incidents for Fred Luddy is increasing over time, coinciding with the period where his TTR began to increase linearly",
+      "pred_insight": "On days when Howard Johnson did close incidents, counts were typically 1–2 and peaked at 3, so a 17-day no-closure gap represents a multi-week interruption relative to his observed daily capacity, highlighting the need for cross-coverage planning during such absences.",
+      "score": 0.12283323812614474
+    },
+    {
+      "gt_insight": "Fred Luddy's increasing TTR correlates with his PTO period",
+      "pred_insight": "On days when Howard Johnson did close incidents, counts were typically 1–2 and peaked at 3, so a 17-day no-closure gap represents a multi-week interruption relative to his observed daily capacity, highlighting the need for cross-coverage planning during such absences.",
+      "score": 0.22336302695695034
+    },
+    {
+      "gt_insight": "Continued linear increase in TTR if workload during leave periods is not balanced",
+      "pred_insight": "On days when Howard Johnson did close incidents, counts were typically 1–2 and peaked at 3, so a 17-day no-closure gap represents a multi-week interruption relative to his observed daily capacity, highlighting the need for cross-coverage planning during such absences.",
+      "score": 0.46308110012412407
+    }
+  ],
+  "score_summary": 0.3011535102886436,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.29843891954298213,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "Howard Johnson’s median is about 22.4 hours (~15%) slower than the team median while handling ~22% of all closed incidents (90 of 409), suggesting his workload or case complexity could be driving longer resolution times and may require coverage planning during absences.",
+      "gt_insight": "Fred Luddy has a significantly higher average TTR compared to other agents",
+      "score": 0.25775550062258223
+    },
+    {
+      "pred_insight": "Across 41 such incidents, the mean is 120.31 hours—slightly above the 116.22-hour median—indicating right-skew from a few lengthy cases (up to 326.87 hours ≈ 13.6 days), while a negative minimum (-107.96 hours) signals timestamp anomalies that can bias performance metrics.",
+      "gt_insight": "Fred Luddy's TTR begins to increase linearly over time from a specific point of time (01-06-2023) compared to other agents who maintain a uniform TTR",
+      "score": 0.21802112930741518
+    },
+    {
+      "pred_insight": "Across this 17-day no-closure span, only one incident reached Howard Johnson—an average of ~0.06 incidents per day—indicating very low inflow or effective reassignment during the period, with the only workload spike on 2023-11-08.",
+      "gt_insight": "The number of incidents assigned to each agent, including Fred Luddy, remains uniform over time",
+      "score": 0.2932020570857708
+    },
+    {
+      "pred_insight": "Across 41 such incidents, the mean is 120.31 hours—slightly above the 116.22-hour median—indicating right-skew from a few lengthy cases (up to 326.87 hours ≈ 13.6 days), while a negative minimum (-107.96 hours) signals timestamp anomalies that can bias performance metrics.",
+      "gt_insight": "The number of open incidents for Fred Luddy is increasing over time, coinciding with the period where his TTR began to increase linearly",
+      "score": 0.231501830903771
+    },
+    {
+      "pred_insight": "Across 41 such incidents, the mean is 120.31 hours—slightly above the 116.22-hour median—indicating right-skew from a few lengthy cases (up to 326.87 hours ≈ 13.6 days), while a negative minimum (-107.96 hours) signals timestamp anomalies that can bias performance metrics.",
+      "gt_insight": "Fred Luddy's increasing TTR correlates with his PTO period",
+      "score": 0.21904760940218382
+    },
+    {
+      "pred_insight": "Howard Johnson’s self-closed incidents take about 51% longer than when other agents close his assigned tickets (170.53 vs 112.77 hours), suggesting that load-balancing or cross-coverage during his absence could reduce median closure times by roughly 58 hours per ticket.",
+      "gt_insight": "Continued linear increase in TTR if workload during leave periods is not balanced",
+      "score": 0.5711053899361697
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.1608438091750042,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.17737309702461365
+}

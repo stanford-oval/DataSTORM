@@ -1,0 +1,55 @@
+{
+  "dataset_id": 67,
+  "dataset_path": "data/notebooks/flag-67.json",
+  "metadata": {
+    "category": "Finance Management",
+    "dataset_description": "The dataset consists of 500 entries simulating ServiceNow fm_expense_line table, which records various attributes of financial expenses. Key fields include 'number', 'opened_at', 'amount', 'state', 'short_description', 'ci', 'user', 'department', 'category', 'process_date', 'source_id', and 'type'. This table documents the flow of financial transactions by detailing the amount, departmental allocation, and the nature of each expense. Provides a clear view of organizational expenditures across different categories, highlighting both the timing and the approval state of each financial entry.",
+    "goal": "To identify and rectify the causes of high rejection rates in travel expenses to ensure that submissions  align with organizational policies.",
+    "header": "Travel Expense Rejection Analysis (Flag 67)",
+    "role": "Expense Audit Analyst"
+  },
+  "predicted_insights": [
+    "Although IT has the highest decline rate, Customer Support accounts for the majority of all declined Travel expenses—57% (35 of 61)—so focusing remediation on Customer Support submissions will likely yield the largest reduction in overall rejections.",
+    "The average monthly decline rate across this period was about 41.7%, peaking in Nov-2023 (57.1%) and Mar-2024 (53.8%) while dipping in Sep-2023 (21.4%) and Apr-2024 (27.3%); notably, Jan–Mar 2024 averaged ~49.2%, suggesting early-year travel submissions face elevated rejection risk and may need targeted policy reminders or pre-checks.",
+    "Rejections are not monotonic with amount—lower and mid amounts have the highest decline rates (Q1 48.6%, Q3 47.2%) while the highest amounts have the lowest (Q4 32.4%), a 16.2 percentage-point gap, indicating rejections are not driven by high-value claims alone.",
+    "About 2 out of every 5 Travel submissions lacking a source_id are declined (41.78%), highlighting source_id completeness as a high-impact lever to reduce rejections.",
+    "Lower-value travel claims are rejected about 50% more often than top-quartile claims (48.65% vs 32.43%), with a non-monotonic pattern and a notable mid-amount bump (Q3 at 47.22%), highlighting Q1 and Q3 as priority bands for reducing declines.",
+    "Across 61 declined Travel submissions, the top 6 users (led by Ofelia’s 4) account for 19 (≈31%), indicating that targeted guidance for a small cohort could materially reduce rejection rates.",
+    "Although IT has the highest decline rate, the majority of Travel declines come from Customer Support (35 of 61 total declines, ~57%), indicating that improving Customer Support submissions could yield the largest reduction in overall rejections.",
+    "Travel accounts for 146 of the dataset’s 172 records missing source_id (~85%), suggesting a category-specific process gap in capturing source references that likely contributes substantially to Travel expense rejections.",
+    "Nearly 42% of Travel submissions lacking a source_id are declined, suggesting that enforcing source_id completeness could materially reduce rejections within this subgroup.",
+    "Across the period, the average decline rate was about 41.7% (median 42.86%) with a wide range of 21.43–57.14 percentage points; the largest month-over-month swing was a 26.6 pp drop from Mar (53.85%) to Apr 2024 (27.27%), signaling abrupt process or compliance changes.",
+    "High-value travel claims show notable friction: declines equal processed outcomes (12 each) and 35.1% (13/37) remain unfinalized (Submitted+Pending), signaling greater uncertainty and potential policy misalignment at amounts ≥ 5,816.",
+    "Across 54 users, 24 (44%) exceeded a 40% Travel decline rate and together accounted for 45 declined claims; five users had every Travel submission declined (100%), and the median total submissions within this high-decline group was only 2.5, indicating many rejections stem from infrequent submitters even as a repeat filer (3 declines out of 7) signals policy/process confusion among frequent travelers too."
+  ],
+  "predicted_summary": "Travel expense declines are concentrated in a few departments: Customer Support accounts for 35 of 61 declines (57.4%) at a 44.3% decline rate (35/79), Sales contributes 18 declines (29.5%) at a 40.9% rate (18/44), and IT has the highest decline rate at 54.5% (6/11) but fewer cases; together, Customer Support and Sales drive 86.9% of all declines.\nMissing source_id is pervasive and coincides with high rejection: all analyzed Travel submissions (146) lacked a source_id, with 61 declines (41.8% decline rate); no records with a source_id were available for comparison, indicating a widespread metadata gap within this category.\nDeclines are concentrated among a small set of users: six individuals—Ofelia Sheffler (4 declines), Cristina Sharper (3), Leif Bachta (3), Rob Woodbyrne (3), Sal Pindell (3), and Zackary Mockus (3)—account for 19 of 61 declines (31.1%) between Jun-2023 and Apr-2024, while many others show high decline rates on very small submission counts.",
+  "score_insights": 0.29923008988997457,
+  "score_insights_dict": [
+    {
+      "gt_insight": "Processing times for high-value requests vary significantly across departments, with Customer Support showing the widest range in processing times.",
+      "pred_insight": "High-value travel claims show notable friction: declines equal processed outcomes (12 each) and 35.1% (13/37) remain unfinalized (Submitted+Pending), signaling greater uncertainty and potential policy misalignment at amounts ≥ 5,816.",
+      "score": 0.29694188474099525
+    },
+    {
+      "gt_insight": "There is a variable distribution of Expense Reports across categories",
+      "pred_insight": "Travel accounts for 146 of the dataset’s 172 records missing source_id (~85%), suggesting a category-specific process gap in capturing source references that likely contributes substantially to Travel expense rejections.",
+      "score": 0.30151829503895394
+    }
+  ],
+  "score_summary": 0.3134616088907236,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.3694732875154608,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "High-value travel claims show notable friction: declines equal processed outcomes (12 each) and 35.1% (13/37) remain unfinalized (Submitted+Pending), signaling greater uncertainty and potential policy misalignment at amounts ≥ 5,816.",
+      "gt_insight": "Processing times for high-value requests vary significantly across departments, with Customer Support showing the widest range in processing times.",
+      "score": 0.307360536785327
+    },
+    {
+      "pred_insight": "Although IT has the highest decline rate, Customer Support accounts for the majority of all declined Travel expenses—57% (35 of 61)—so focusing remediation on Customer Support submissions will likely yield the largest reduction in overall rejections.",
+      "gt_insight": "There is a variable distribution of Expense Reports across categories",
+      "score": 0.43158603824559466
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.12414627891549235,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.4778420190248601
+}

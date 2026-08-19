@@ -1,0 +1,65 @@
+{
+  "dataset_id": 72,
+  "dataset_path": "data/notebooks/flag-72.json",
+  "metadata": {
+    "category": "Finance Management",
+    "dataset_description": "The dataset consists of 500 entries simulating ServiceNow fm_expense_line table, which records various attributes of financial expenses. Key fields include 'number', 'opened_at', 'amount', 'state', 'short_description', 'ci', 'user', 'department', 'category', 'process_date', 'source_id', and 'type'. This table documents the flow of financial transactions by detailing the amount, departmental allocation, and the nature of each expense. Provides a clear view of organizational expenditures across different categories, highlighting both the timing and the approval state of each financial entry.",
+    "goal": "To analyze and understand how the cost of an expense influences its processing time, aiming to improve the efficiency and fairness of expense report processing across all cost brackets.",
+    "header": "Expense Processing Dynamics Analysis (Flag 72)",
+    "role": "Financial Operations Analyst"
+  },
+  "predicted_insights": [
+    "The near-perfect negative correlation indicates higher-cost expenses are processed substantially faster than lower-cost ones—processing times span 24–840 hours with a median around 600 hours—suggesting prioritization by amount that may need rebalancing to improve fairness across cost brackets.",
+    "Top-quartile expenses (≥$5,010.50) were processed about 600 hours (~25 days) faster at the median than bottom-quartile expenses (≤$1,176.75), with equal group sizes (n=86 each), indicating potential prioritization of higher-cost reports that could impact perceived fairness.",
+    "Processed expenses exhibit an inverse monotonic trend where higher amounts are processed faster across every department—most strongly in Sales (spearman_rho ≈ -0.993) and Development (≈ -0.991)—indicating a systematic bias that could disadvantage lower-cost items.",
+    "High-cost (top quartile) expenses show a 72-hour wider processing time spread than low-cost ones (n=86 in each group), implying greater inconsistency; standardizing high-cost workflows to match the low-cost IQR could cut variability by about 60%.",
+    "Higher-cost expenses are processed substantially faster—average time drops by roughly 92% from the lowest to highest amount bins—suggesting large amounts may be prioritized and indicating a fairness gap for small-dollar reports.",
+    "Counterintuitively, the slowest median time per quartile drops from 33.0 days in the lowest-cost quartile to just 9.5 days in the highest, indicating higher-cost expenses are processed faster; in fact, by Quartile 4 all departments’ medians cluster tightly between 6.0–9.5 days, suggesting prioritization and reduced cross-department variability at higher amounts.",
+    "Higher-cost expenses are processed markedly faster across departments: medians drop from about 744–792 hours (31–33 days) in the lowest quartile to 144–228 hours (6–9.5 days) in the highest quartile, suggesting systematic prioritization of high-amount reports and potential fairness concerns for lower-cost claims.",
+    "Mid-cost expenses are most likely to be delayed: lowering Q2’s pending/submitted share from 29.6% to the Q3 rate (24.8%) would reduce it by 4.8 percentage points (~16% relative), and matching Q1’s 17.6% would cut it by 12 points (~41%), indicating targeted triage of mid-range amounts could meaningfully improve fairness and throughput.",
+    "Declines show a U-shaped pattern by cost: the lowest-cost bracket has the highest decline rate (16%) and high-cost brackets reach 10%, while mid-range brackets cluster at 6–8%, meaning very cheap expenses are about 2.7× more likely to be declined than the best-performing mid-range brackets (16% vs 6%).",
+    "Processing time decreases monotonically as amounts rise—dropping from 33.0 days in the lowest bracket to 5.0 days in the highest (about an 85% reduction, 28 days faster)—indicating higher-cost expenses are processed substantially faster.",
+    "Processing times at the 90th percentile steadily shrink as amounts increase—dropping from 35 days in the lowest bracket to 7 days in the highest—meaning the slowest 10% of small expenses take about 5 times longer to complete than the slowest 10% of large expenses.",
+    "Processing reliability improves modestly with higher amounts—rising from 66% in the lowest bracket to 72% in the highest—indicating a 6 percentage-point gap that may reflect prioritization of higher-cost expenses and potential fairness concerns for lower-cost claims."
+  ],
+  "predicted_summary": "Higher-cost expenses are processed much faster, and this improvement is smooth across the amount spectrum: among processed expenses the overall correlation between amount and processing time is −0.995 (n=342); the median drops from about 32–33 days in the lowest brackets to 5–7 days in the highest (e.g., bottom vs top quartile medians: 768 vs 168 hours, a 600-hour/25-day gap); and average processing time declines steadily from ~33.8 days at ~$126 to ~2.8 days at ~$8.46k with no threshold-related spikes.\nThis faster-for-higher-cost pattern is consistent across departments: every department shows a negative rank correlation between amount and processing time (even the least negative, Product Management, is ≈−0.775), and median times fall from the lowest to highest amount quartile by roughly 22–24.5 days in HR (−540h), Finance (−576h), and Customer Support (−588h). The departments with the longest medians vary by amount quartile (e.g., Q1 Sales 33.0 days; Q2 Finance 29.0 days; Q3 IT 23.5 days; Q4 HR 9.5 days), but the overall downward trend with higher amounts holds everywhere.\nLower and mid‑low amounts bear the slowest and least reliable processing: the lowest amount bracket has the longest 90th‑percentile delay (35 days), the lowest processed completion rate (as low as 66% in the 51–971 range), and the highest Declined share (up to 16% in the 51–459 bracket); pending/submitted backlog peaks in the second quartile at 29.6% (vs 17.6% in Q1 and 20.0% in Q4). While high‑amount expenses are faster on average, their processing times are more variable (IQR 120h in the top quartile vs 48h in the bottom; 2.5× wider spread).",
+  "score_insights": 0.4031552088432169,
+  "score_insights_dict": [
+    {
+      "gt_insight": "The 'Services' category consistently leads in the number of processed expenses over the observed months, with marked increases towards the end of each quarter.",
+      "pred_insight": "Processing reliability improves modestly with higher amounts—rising from 66% in the lowest bracket to 72% in the highest—indicating a 6 percentage-point gap that may reflect prioritization of higher-cost expenses and potential fairness concerns for lower-cost claims.",
+      "score": 0.14346023993324059
+    },
+    {
+      "gt_insight": "There is varied processing outcomes across expense brackets",
+      "pred_insight": "Processing reliability improves modestly with higher amounts—rising from 66% in the lowest bracket to 72% in the highest—indicating a 6 percentage-point gap that may reflect prioritization of higher-cost expenses and potential fairness concerns for lower-cost claims.",
+      "score": 0.7785886998787411
+    },
+    {
+      "gt_insight": "Processing times are uniform across users and departments for lower-cost expenses",
+      "pred_insight": "Counterintuitively, the slowest median time per quartile drops from 33.0 days in the lowest-cost quartile to just 9.5 days in the highest, indicating higher-cost expenses are processed faster; in fact, by Quartile 4 all departments’ medians cluster tightly between 6.0–9.5 days, suggesting prioritization and reduced cross-department variability at higher amounts.",
+      "score": 0.2874166867176689
+    }
+  ],
+  "score_summary": 0.4894511150768574,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.4223353915631978,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "Processed expenses exhibit an inverse monotonic trend where higher amounts are processed faster across every department—most strongly in Sales (spearman_rho ≈ -0.993) and Development (≈ -0.991)—indicating a systematic bias that could disadvantage lower-cost items.",
+      "gt_insight": "The 'Services' category consistently leads in the number of processed expenses over the observed months, with marked increases towards the end of each quarter.",
+      "score": 0.26281908839413826
+    },
+    {
+      "pred_insight": "Higher-cost expenses are processed substantially faster—average time drops by roughly 92% from the lowest to highest amount bins—suggesting large amounts may be prioritized and indicating a fairness gap for small-dollar reports.",
+      "gt_insight": "There is varied processing outcomes across expense brackets",
+      "score": 0.6870207523018619
+    },
+    {
+      "pred_insight": "Counterintuitively, the slowest median time per quartile drops from 33.0 days in the lowest-cost quartile to just 9.5 days in the highest, indicating higher-cost expenses are processed faster; in fact, by Quartile 4 all departments’ medians cluster tightly between 6.0–9.5 days, suggesting prioritization and reduced cross-department variability at higher amounts.",
+      "gt_insight": "Processing times are uniform across users and departments for lower-cost expenses",
+      "score": 0.31716633399359334
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.10427696479851316,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.87531325362956
+}

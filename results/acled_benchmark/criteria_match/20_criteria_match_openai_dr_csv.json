@@ -1,0 +1,143 @@
+{
+  "prompt": "Research Defection and violence against civilians in Sudan's al-Jazirah state. Focus on November 2024.",
+  "criteria": [
+    {
+      "name": "Defection-triggered reprisals",
+      "description": "Assess how high-profile defections alter conflict dynamics and prompt punitive violence against associated communities, including patterns of targeted retaliation and intimidation."
+    },
+    {
+      "name": "Violence against civilians surge",
+      "description": "Evaluate changes in the frequency and severity of attacks on civilians, noting spikes, geographic concentration, and common forms such as killings, looting, sexual violence, and sieges."
+    },
+    {
+      "name": "Ethnic targeting patterns",
+      "description": "Identify whether violence aligns with ethnic or community affiliations linked to defectors or armed groups, and how this shapes displacement, victimization, and local tensions."
+    },
+    {
+      "name": "Strategic territorial consolidation",
+      "description": "Analyze how armed actors prioritize and fortify key locations, withdraw from less strategic areas, and use defensive lines to block adversaries’ advances."
+    },
+    {
+      "name": "Horizontal command resilience",
+      "description": "Examine the adaptability of decentralized armed group structures in absorbing defections and reorganizing forces to maintain operational effectiveness."
+    },
+    {
+      "name": "Coordinated offensives impact",
+      "description": "Assess the effects of multi-front offensives on territorial control, supply lines, and the opposing side’s ability to regroup, including push-pull dynamics across adjacent states."
+    },
+    {
+      "name": "Community arming and mobilization",
+      "description": "Evaluate claims and evidence of civilian arming or local mobilization, and how this influences reprisals, security risks, and conflict escalation."
+    },
+    {
+      "name": "Siege and blockade tactics",
+      "description": "Identify the use of sieges and blockades, including restrictions on movement and access to essentials, and their humanitarian consequences for trapped populations."
+    },
+    {
+      "name": "Displacement and humanitarian fallout",
+      "description": "Assess displacement patterns, sheltering behavior, and humanitarian needs arising from intensified violence, including health crises and access to aid."
+    },
+    {
+      "name": "Geography shaping operations",
+      "description": "Analyze how terrain and natural barriers affect maneuverability, defensive positions, and the feasibility of force concentration or counterattacks."
+    },
+    {
+      "name": "Inter-state operational linkages",
+      "description": "Consider how forces link operations across neighboring regions to encircle opponents, secure supply routes, and synchronize advances or withdrawals."
+    },
+    {
+      "name": "Retaliation narratives and justifications",
+      "description": "Examine the narratives used by armed actors to justify attacks on civilians, including accusations of local mobilization, and their role in legitimizing punitive campaigns."
+    },
+    {
+      "name": "Command-and-control disruptions",
+      "description": "Evaluate how leadership changes, defections, or ambushes affect operational cohesion, morale, and subsequent tactical decisions by both sides."
+    },
+    {
+      "name": "Civil-military mediation roles",
+      "description": "Assess the influence of local leaders and civil society in facilitating negotiations, defections, or ceasefires, and the durability of such arrangements under pressure."
+    },
+    {
+      "name": "Prospective axes of advance",
+      "description": "Identify likely future targets and lines of movement based on current force dispositions, recent gains, and strategic priorities of the warring parties."
+    }
+  ],
+  "criterion_scores": [
+    {
+      "name": "Defection-triggered reprisals",
+      "score": 0.9,
+      "explanation": "The article explicitly links a high-profile RSF commander’s defection (19 Oct 2024) to immediate RSF reprisals targeting communities presumed to support the defector or SAF. It describes punitive violence and intimidation patterns following the defection. Some detail on specific targeted communities is limited, but the causal connection and retaliation are clear."
+    },
+    {
+      "name": "Violence against civilians surge",
+      "score": 0.9,
+      "explanation": "It highlights a dramatic spike in November 2024, cites a 129% increase, and details forms of violence (massacres, shelling, raids, looting, abductions, executions). Geographic concentration is broadly within Al-Jazirah and examples like Al-Sireha are provided. Depth is strong though more granular distribution data could improve it."
+    },
+    {
+      "name": "Ethnic targeting patterns",
+      "score": 0.25,
+      "explanation": "The article mentions targeting of communities presumed SAF-aligned but does not analyze ethnic or community affiliations or how this shapes displacement and tensions. There is only a tangential suggestion of political alignment, not ethnic targeting patterns."
+    },
+    {
+      "name": "Strategic territorial consolidation",
+      "score": 0.0,
+      "explanation": "No discussion of armed actors fortifying key locations, withdrawals, or defensive lines in Al-Jazirah."
+    },
+    {
+      "name": "Horizontal command resilience",
+      "score": 0.0,
+      "explanation": "No examination of decentralized structures adapting to defections or reorganization of forces."
+    },
+    {
+      "name": "Coordinated offensives impact",
+      "score": 0.0,
+      "explanation": "The article does not analyze multi-front offensives, territorial control changes, or push-pull dynamics across adjacent states."
+    },
+    {
+      "name": "Community arming and mobilization",
+      "score": 0.0,
+      "explanation": "No evaluation of civilian arming or local mobilization claims."
+    },
+    {
+      "name": "Siege and blockade tactics",
+      "score": 0.25,
+      "explanation": "Mentions shelling, raids, and infrastructural destruction (irrigation sabotage) but does not identify sieges or blockades, restrictions on movement, or access to essentials. Minimal relevant content."
+    },
+    {
+      "name": "Displacement and humanitarian fallout",
+      "score": 0.75,
+      "explanation": "Addresses widespread displacement, rise in fatalities, infrastructural destruction, and deterioration of humanitarian conditions. Lacks detailed figures on displaced populations, sheltering behavior, health crises, or aid access."
+    },
+    {
+      "name": "Geography shaping operations",
+      "score": 0.0,
+      "explanation": "No analysis of terrain, natural barriers, maneuverability, or defensive positions."
+    },
+    {
+      "name": "Inter-state operational linkages",
+      "score": 0.0,
+      "explanation": "Does not consider operational linkages across neighboring regions or synchronization of advances/withdrawals."
+    },
+    {
+      "name": "Retaliation narratives and justifications",
+      "score": 0.5,
+      "explanation": "It implies RSF justified attacks by presuming communities’ SAF support, but lacks detailed narratives, propaganda, or explicit justifications used by armed actors."
+    },
+    {
+      "name": "Command-and-control disruptions",
+      "score": 0.5,
+      "explanation": "Notes that the defection of a senior RSF commander destabilized the region and led to reprisals, indicating some impact on dynamics, but does not analyze changes in cohesion, morale, or specific tactical decisions beyond increased violence."
+    },
+    {
+      "name": "Civil-military mediation roles",
+      "score": 0.0,
+      "explanation": "No mention of local leaders, civil society mediation, negotiations, or ceasefires."
+    },
+    {
+      "name": "Prospective axes of advance",
+      "score": 0.0,
+      "explanation": "No identification of future targets or lines of movement based on force dispositions or priorities."
+    }
+  ],
+  "overall_score": 0.26999999999999996
+}

@@ -1,0 +1,187 @@
+{
+  "per_dimension": [
+    {
+      "dimension": "actor_entity",
+      "score": 0.0,
+      "num_concept_groups": 3,
+      "num_consistent_groups": 0,
+      "notes": "Actor matching for TTP, BLA, and BLF varies across queries in fields searched (actor1/actor2/assoc_actor_*), string patterns (e.g., inclusion of 'tta'), and synonyms. These differences would change which events are attributed to each group."
+    },
+    {
+      "dimension": "geography",
+      "score": 1.0,
+      "num_concept_groups": 1,
+      "num_consistent_groups": 1,
+      "notes": "All queries consistently use admin1 values 'Balochistan' and 'Khyber Pakhtunkhwa' and named districts. No alternative spellings or mixed granularities observed."
+    },
+    {
+      "dimension": "temporal",
+      "score": 1.0,
+      "num_concept_groups": 1,
+      "num_consistent_groups": 1,
+      "notes": "The 2024 window is consistently defined (year=2024 vs event_date >= 2024-01-01 and < 2025-01-01 vs EXTRACT(YEAR)=2024), which are semantically equivalent. Period-specific windows are used appropriately for distinct questions."
+    },
+    {
+      "dimension": "event_taxonomy",
+      "score": 0.0,
+      "num_concept_groups": 3,
+      "num_consistent_groups": 0,
+      "notes": "Definitions for tactic groupings (shootings/assaults vs IED/explosions) and for 'infrastructure-targeting' diverge across queries. One query (Q9) omits the common 'Political violence' + triad (Battles/Explosions/Violence against civilians) filter used elsewhere."
+    },
+    {
+      "dimension": "counting_aggregation",
+      "score": 0.0,
+      "num_concept_groups": 1,
+      "num_consistent_groups": 0,
+      "notes": "Average fatalities per event sometimes treat NULL fatalities as 0 (included in denominator) vs excluding NULLs; this can change averages. No COUNT(DISTINCT) vs COUNT(*) inconsistencies detected."
+    },
+    {
+      "dimension": "population_scope",
+      "score": 1.0,
+      "num_concept_groups": 1,
+      "num_consistent_groups": 1,
+      "notes": "A few queries omit country='Pakistan' while filtering by admin1='Khyber Pakhtunkhwa'/'Balochistan'. Given these admin1s are unique to Pakistan, the effective population is the same; hence semantically equivalent."
+    }
+  ],
+  "conflicts": [
+    {
+      "dimension": "actor_entity",
+      "concept": "TTP identification in 2024 Pakistan",
+      "query_indices": [
+        8,
+        9
+      ],
+      "predicate_a": "Q8: CASE assigns 'TTP' when a1/a2/aa1/aa2 LIKE '%tehreek-e-taliban%' OR '%taliban pakistan%' OR '%tta%'",
+      "predicate_b": "Q9: group_name='TTP' when actor1/actor2/assoc_actor_* ILIKE '%Tehr(e/i)k-*-Taliban Pakistan%' OR '%TTP%'",
+      "severity": "result-changing",
+      "explanation": "Including '%tta%' in Q8 will capture Afghan Taliban references (TTA) and overcount TTP; patterns also differ slightly. Q9 omits '%tta%' and focuses on TTP/Tehrik/Tehreek strings, producing a different set of events."
+    },
+    {
+      "dimension": "actor_entity",
+      "concept": "TTP identification in 2024 Pakistan",
+      "query_indices": [
+        22,
+        9
+      ],
+      "predicate_a": "Q22: key_actor='TTP' if actor1/actor2 ILIKE '%tehreek-e-taliban pakistan%' OR '%ttp%' (assoc actors not checked)",
+      "predicate_b": "Q9: matches actor1/actor2/assoc_actor_* for TTP strings",
+      "severity": "result-changing",
+      "explanation": "Events where TTP appears only as an associated actor (assoc_actor_1/2) are included in Q9 but excluded in Q22, altering counts and fatalities attributed to TTP."
+    },
+    {
+      "dimension": "actor_entity",
+      "concept": "BLA identification in 2024 Pakistan",
+      "query_indices": [
+        15,
+        22
+      ],
+      "predicate_a": "Q15: is_bla if actor1/actor2/assoc_actor_* ILIKE '%BLA%'",
+      "predicate_b": "Q22: key_actor='BLA' if actor1/actor2 ILIKE '%baloch liberation army%' OR '%bla%' (assoc actors not checked)",
+      "severity": "result-changing",
+      "explanation": "Q15 includes events where BLA appears only in assoc_actor fields; Q22 does not. Additionally, Q22 uses 'baloch liberation army' (missing 'istan') which may miss some records labeled 'Balochistan Liberation Army' if '%bla%' is absent."
+    },
+    {
+      "dimension": "actor_entity",
+      "concept": "BLF identification in 2024 Pakistan",
+      "query_indices": [
+        14,
+        22
+      ],
+      "predicate_a": "Q14: actor='BLF' if any of actor1/actor2/assoc_actor_* ILIKE '%blf%' (within Balochistan)",
+      "predicate_b": "Q22: key_actor='BLF' if actor1/actor2 ILIKE '%balochistan liberation front%' OR '%blf%' (assoc actors not checked)",
+      "severity": "result-changing",
+      "explanation": "Events with BLF present only as an associated actor are counted in Q14 but excluded in Q22."
+    },
+    {
+      "dimension": "event_taxonomy",
+      "concept": "Tactic grouping: shootings/assaults vs IED-related",
+      "query_indices": [
+        6,
+        5
+      ],
+      "predicate_a": "Q6: tactic='shootings_or_assaults' only when sub_event_type='Attack'; 'IED_related' for ('Remote explosive/landmine/IED','Grenade','Suicide bomb'); 'Armed clash' excluded from both",
+      "predicate_b": "Q5: shootings_assaults_events counts sub_event_type IN ('Attack','Armed clash'); IEDs count ('Remote explosive/landmine/IED','Grenade','Suicide bomb')",
+      "severity": "result-changing",
+      "explanation": "In Q6 'Armed clash' incidents are omitted from both tactic categories, whereas Q5 includes them under shootings/assaults. This changes both event counts and averages attributed to each tactic."
+    },
+    {
+      "dimension": "event_taxonomy",
+      "concept": "Tactic grouping: scope of 'IED/Explosions'",
+      "query_indices": [
+        24,
+        11
+      ],
+      "predicate_a": "Q24: 'IED/Explosions' includes ('Remote explosive/landmine/IED','Grenade','Suicide bomb','Shelling/artillery/missile attack','Air/drone strike','Chemical weapon','Disrupted weapons use')",
+      "predicate_b": "Q11: IED_fatalities_mean covers only ('Remote explosive/landmine/IED','Grenade','Suicide bomb')",
+      "severity": "result-changing",
+      "explanation": "Including shelling, air/drone strikes, chemical weapons, and disrupted weapons use in Q24 expands the 'IED/Explosions' class beyond Q11’s narrower definition, altering both counts and lethality metrics."
+    },
+    {
+      "dimension": "event_taxonomy",
+      "concept": "Infrastructure-targeting definition",
+      "query_indices": [
+        16,
+        17
+      ],
+      "predicate_a": "Q16: infra_target flagged by extensive keywords in notes/tags (e.g., '%CPEC%','%pipeline%','%power%','%rail%','%port%' etc.)",
+      "predicate_b": "Q17: 'infra_events' defined by sub_event_type=('Looting/property destruction') OR Explosions/Remote violence with sub_event_type in ('Grenade','Remote explosive/landmine/IED','Shelling/artillery/missile attack','Air/drone strike','Suicide bomb','Disrupted weapons use','Other')",
+      "severity": "result-changing",
+      "explanation": "Q16 uses narrative keyword detection regardless of sub_event_type; Q17 uses event coding lists and includes looting/property destruction. The resulting incident sets will differ materially."
+    },
+    {
+      "dimension": "event_taxonomy",
+      "concept": "Infrastructure-targeting definition",
+      "query_indices": [
+        17,
+        18
+      ],
+      "predicate_a": "Q17: includes 'Looting/property destruction' and a broad set of explosion-related sub_event_types",
+      "predicate_b": "Q18: counts infra when sub_event_type IN ('Remote explosive/landmine/IED','Shelling/artillery/missile attack','Air/drone strike','Grenade','Suicide bomb') only (no looting/property destruction)",
+      "severity": "result-changing",
+      "explanation": "Q18 omits looting/property destruction that Q17 treats as infrastructure-targeting; event/fatality tallies will diverge by district."
+    },
+    {
+      "dimension": "event_taxonomy",
+      "concept": "Infrastructure-targeting definition",
+      "query_indices": [
+        19,
+        18
+      ],
+      "predicate_a": "Q19: infra flag via tags/notes keywords (e.g., '%infrastructure%','%pipeline%','%power%','%grid%','%telecom%','%railway%' etc.)",
+      "predicate_b": "Q18: infra defined solely by sub_event_type list of explosive/strike types",
+      "severity": "result-changing",
+      "explanation": "Narrative keyword approach (Q19) vs sub_event-type coding (Q18) selects different incidents; averages per month by district will not be comparable."
+    },
+    {
+      "dimension": "event_taxonomy",
+      "concept": "Militant-related base: event_type/disorder filters",
+      "query_indices": [
+        0,
+        9
+      ],
+      "predicate_a": "Q0: disorder_type='Political violence' AND event_type IN ('Battles','Explosions/Remote violence','Violence against civilians')",
+      "predicate_b": "Q9: base CTE selects all Pakistan 2024 events without restricting disorder_type or event_type",
+      "severity": "result-changing",
+      "explanation": "Q9 may include protests or other non-militant events where actors are mentioned, unlike other queries that consistently restrict to political-violence triad. This inflates actor activity measures."
+    },
+    {
+      "dimension": "counting_aggregation",
+      "concept": "Average fatalities per event",
+      "query_indices": [
+        6,
+        11
+      ],
+      "predicate_a": "Q6: ROUND(AVG(COALESCE(fatalities,0))::numeric, 2) — treats NULL fatalities as 0 and includes them in the denominator",
+      "predicate_b": "Q11: AVG(fatalities) FILTER (fatalities IS NOT NULL) — excludes NULL fatalities from the average",
+      "severity": "result-changing",
+      "explanation": "If any fatalities are NULL, Q6 dilutes averages by counting them as zero events in the mean, while Q11 excludes them. This yields different per-event lethality values by tactic/month."
+    }
+  ],
+  "overall_score": 0.5,
+  "summary": "The queries are geographically and temporally consistent, and most use the same militant-related event triad. However, there are substantial inconsistencies in actor matching (TTP/BLA/BLF field coverage and patterns), tactic grouping definitions, and especially the definition of infrastructure-targeting, which varies between keyword heuristics and sub-event-type lists. Aggregation methods for average fatalities also differ in NULL handling, affecting comparability of lethality metrics across queries.",
+  "report_dir": "<repo>/datatalk/acled/10/What_are_the_status_of_militants_in_Pakistan_over_the_last_year_and_what_would_be_the_outlook_for_conflicts___20260323_192343",
+  "model": "gpt-5",
+  "num_queries": 27,
+  "applicable": true,
+  "id": 10
+}

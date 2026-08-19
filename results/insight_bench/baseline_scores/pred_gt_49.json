@@ -1,0 +1,55 @@
+{
+  "dataset_id": 49,
+  "dataset_path": "data/notebooks/flag-49.json",
+  "metadata": {
+    "category": "Incidents Management.",
+    "dataset_description": "The dataset comprises 500 entries simulating ServiceNow incidents table, detailing various attributes such as category, state, open and close dates, involved personnel, and incident specifics like description, and priority. It captures incident management activities with fields like 'opened_at', 'closed_at', 'assigned_to', 'short_description', and 'priority', reflecting the operational handling and urgency of issues across different locations and categories.",
+    "goal": "Find and highlight the imbalance in incident assignments and perhaps propose actionable_insights that could help redistribute tasks more evenly across agents, reducing the strain on any single agent.",
+    "header": "Incident Assignment Distribution Dataset (Flag 49)",
+    "role": "Workload Distribution Manager"
+  },
+  "predicted_insights": [
+    "Incident assignments are perfectly balanced across agents: 5 agents × 100 incidents = 500 total (20% each), indicating no workload concentration by agent; any perceived strain likely stems from incident complexity (e.g., priority or category) rather than volume.",
+    "Only 1 of 5 agents (Luke Wilson) shows a positive median resolution time (~274 hours ≈ 11.4 days) while the other 4 have negative medians down to -376 hours, indicating likely timestamp data issues; if validated, Luke’s median duration is ~650 hours longer than Howard Johnson’s, hinting at a potential workload/complexity imbalance that warrants both a timestamp audit and a review of Luke’s case load.",
+    "Charlie Whitherspoon has the highest concentration of severe work at 59%—about 9–13 percentage points above peers (46–50%)—suggesting an assignment imbalance; shifting roughly 10% of his high/critical load to others would help equalize severity exposure across the team.",
+    "Hardware shows the strongest imbalance (27% Luke vs. 12% Charlie, a 15-pt gap), while Database (10 pts), Network (9 pts), Software (9 pts), and Inquiry/Help (7 pts) are less skewed; shifting some Hardware tickets from Luke to Charlie and moving some Network/Software tickets from Fred (24% each) to Luke (15% each) would help balance workloads.",
+    "Charlie’s high-priority share is 59%, which is 9 percentage points above the team average (50%) and 13 points higher than Fred’s 46%, indicating that reassigning roughly 9 high-priority cases from Charlie to lower-burden agents would equalize workloads.",
+    "Although totals are perfectly balanced over the period (100 incidents each), monthly loads are uneven—e.g., Charlie handled 36.7% (11/30) of December 2023 incidents, Howard 32.4% (11/34) in January 2024, and Fred peaked at 14 (29.2% of 48) in September—suggesting a rolling cap around 25–30% per agent with auto-reassignment could smooth these spikes.",
+    "Despite within-group skews (e.g., Hardware ranges from 27 for Luke to 12 for Charlie, a 15-incident spread), each agent handled exactly 100 incidents overall and each assignement_group totals 100 incidents, indicating perfectly balanced overall workload with group-level specialization.",
+    "While totals are balanced at 100 per agent, the urgency mix is uneven: Charlie handles the most high/critical incidents (59, +18% above the 50-agent average) and the fewest low-priority (18), whereas Fred takes the fewest high/critical (46) but the most low-priority (31), suggesting high-severity work could be redistributed from Charlie to Fred/others.",
+    "The spread between the highest and lowest averages is 816.27 hours (~27% higher for Charlie vs. Fred), with Beth also ~20% higher than Fred, indicating a potential workload/complexity imbalance; redistributing some incidents (especially high-priority or complex categories) from Charlie and Beth to Howard or Fred could reduce cycle times and strain.",
+    "Systemically high cross-closure rates (average 78.4%, median 81%, range 72–82%) suggest persistent handoffs; even the lowest is 72%, indicating assignment misalignment—routing tickets to frequent closers or clarifying ownership could rebalance workload and reduce handoffs.",
+    "Assignments are perfectly balanced (5 agents × 100 incidents = 500; 20% each), so any workload strain likely stems from factors other than volume (e.g., higher shares of critical priority or complex categories) rather than assignment counts.",
+    "Weekend workload is uneven—Luke Wilson handles the largest share (27.21%) while Beth Anglin handles the least (13.97%), a 13.24-point gap; targeting an even 20% per agent would reduce Luke’s weekend load by ~7.21 points and increase Beth’s by ~6.03 points to balance coverage."
+  ],
+  "predicted_summary": "Equal ticket counts mask uneven intensity and timing: although each agent handled 20% of all incidents, the share of high-priority work and weekend load is skewed. Charlie Whitherspoon’s workload is 59% high priority vs a team low of 46% for Fred Luddy (a 13-point gap, 59 vs 46 incidents), and weekend assignments lean heavily to Luke Wilson (27.21% of weekend incidents) compared with Beth Anglin (13.97%). Resolution effort also differs: average time to close ranges from 2984.45 hours (Fred) to 3800.72 hours (Charlie), a 816-hour (~27%) gap, with Charlie (highest high-priority share) and Luke (highest weekend share) among the slower averages.\nWork is concentrated by category above the 20% “even-share” baseline, indicating specialization that can concentrate spikes on specific people. Examples: Luke Wilson handles 27% of Hardware, Charlie Whitherspoon 26% of Database and 23% of Inquiry/Help, and Fred Luddy 24% each of Network and Software. This concentration means category surges (Hardware, Database, Network, Software, or Inquiry/Help) disproportionately load the same individual rather than the team evenly.\nShort-term distribution is volatile, creating month-to-month strain despite equal annual totals. Individual monthly assignment counts swing by factors of 4–7x: Fred Luddy ranged from 2 incidents in February to 14 in September (7x), Howard Johnson from 2 in December to 13 in October (6.5x), Luke Wilson from 2 in April to 11 in multiple months (5.5x), and Charlie Whitherspoon from 3 in May to 12 in July (4x). Such variability indicates uneven temporal load balancing across the team.",
+  "score_insights": 0.7047639518632985,
+  "score_insights_dict": [
+    {
+      "gt_insight": "All agents have been assigned the same number of incidents.",
+      "pred_insight": "Assignments are perfectly balanced (5 agents × 100 incidents = 500; 20% each), so any workload strain likely stems from factors other than volume (e.g., higher shares of critical priority or complex categories) rather than assignment counts.",
+      "score": 0.8562043100496008
+    },
+    {
+      "gt_insight": "The number of assignments for all agents fluctuates over time.",
+      "pred_insight": "Although totals are perfectly balanced over the period (100 incidents each), monthly loads are uneven—e.g., Charlie handled 36.7% (11/30) of December 2023 incidents, Howard 32.4% (11/34) in January 2024, and Fred peaked at 14 (29.2% of 48) in September—suggesting a rolling cap around 25–30% per agent with auto-reassignment could smooth these spikes.",
+      "score": 0.5533235936769962
+    }
+  ],
+  "score_summary": 0.5271137712381263,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.8246756417591397,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "Incident assignments are perfectly balanced across agents: 5 agents × 100 incidents = 500 total (20% each), indicating no workload concentration by agent; any perceived strain likely stems from incident complexity (e.g., priority or category) rather than volume.",
+      "gt_insight": "All agents have been assigned the same number of incidents.",
+      "score": 0.8317217936733254
+    },
+    {
+      "pred_insight": "Although totals are perfectly balanced over the period (100 incidents each), monthly loads are uneven—e.g., Charlie handled 36.7% (11/30) of December 2023 incidents, Howard 32.4% (11/34) in January 2024, and Fred peaked at 14 (29.2% of 48) in September—suggesting a rolling cap around 25–30% per agent with auto-reassignment could smooth these spikes.",
+      "gt_insight": "The number of assignments for all agents fluctuates over time.",
+      "score": 0.8176294898449539
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.10057430728335914,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.3942207722779957
+}

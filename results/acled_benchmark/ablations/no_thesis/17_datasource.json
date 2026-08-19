@@ -1,0 +1,322 @@
+{
+  "total_insights": 31,
+  "total_classified": 31,
+  "acled_count": 17,
+  "non_acled_count": 14,
+  "pct_acled": 0.5483870967741935,
+  "details": [
+    {
+      "evidence": "Cartel violence in 2024 concentrated in specific hotspots dominated by CJNG and the Sinaloa Cartel, with evolving tactics like drones and IEDs and persistent civilian targeting, despite some improvements in homicide indicators.",
+      "is_acled_data": true,
+      "reasoning": "Mentions subnational hotspots, actor dominance (CJNG, Sinaloa), evolving tactics (drones, IEDs), civilian targeting, and trend context versus homicide indicators. These align with ACLED’s event-based data: geographic concentration, actor-level activity, event types (explosions/remote violence), violence against civilians, and temporal trend analysis. While it doesn’t cite ACLED explicitly, the specificity to conflict events and actors suggests derivation from ACLED-style data rather than general commentary.",
+      "source_context": "Key Findings summary at the start of the article."
+    },
+    {
+      "evidence": "Named-cartel confrontations were fewer but deadlier than clashes involving unidentified actors, indicating that attribution to major cartels is a warning signal for higher lethality.",
+      "is_acled_data": true,
+      "reasoning": "The statement compares lethality between named-cartel confrontations and clashes involving unidentified actors, implying actor-level attribution and fatality comparisons across event types—both are core components of ACLED’s event and actor data and derived trend analysis. While phrased analytically, it aligns with ACLED-style metrics (event attribution and fatality severity by actor category).",
+      "source_context": "Key Findings and detailed analysis in 'Actors, corridors, and surge windows' showing 1.5–2.4x higher per-event deaths when named cartels appear."
+    },
+    {
+      "evidence": "Opacity from unidentified armed groups masks a large share of events, complicating enforcement and accountability efforts.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical observation about opacity of unidentified armed groups affecting accountability; it is not citing specific ACLED event counts, actor data, or trends. It’s generic commentary, not clearly derived from ACLED datasets.",
+      "source_context": "Key Findings noting a large share of events attributed to unidentified actors."
+    },
+    {
+      "evidence": "Violence hardened into discrete theaters in late 2024, with Sinaloa recording the most clashes and highest battle deaths; Chiapas and Guerrero had steep fatality peaks.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites subnational comparisons of clashes and battle deaths (Sinaloa most clashes/highest battle deaths; peaks in Chiapas and Guerrero) and temporal trend (“late 2024”). These are hallmark ACLED outputs: event/battle counts, fatality figures, geographic breakdowns, and trend analysis derived from ACLED event data.",
+      "source_context": "'A quieter map isn’t a safer country' section detailing state-level distributions."
+    },
+    {
+      "evidence": "Strategic developments like roadblocks, patrols, and shows of force were frequent and often nonlethal in Sinaloa and Guerrero, inflating event counts without equivalent fatalities.",
+      "is_acled_data": true,
+      "reasoning": "Mentions specific conflict event types (roadblocks, patrols, shows of force), their frequency, nonlethality, and impact on event counts versus fatalities—this aligns with ACLED’s event count and fatality data and actor/activity categorization, typical of ACLED-derived analyses.",
+      "source_context": "'A quieter map isn’t a safer country' discussion of strategic developments vs lethality."
+    },
+    {
+      "evidence": "Culiacán stood out as a lethal outlier with well over 100 deaths across about as many events, while other municipalities suffered high-casualty spikes from a small number of incidents.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references specific subnational locations (Culiacán), event counts, and fatality levels (“well over 100 deaths” across “about as many events”), and contrasts with other municipalities’ high-casualty spikes. This aligns with ACLED’s event-based, location-specific conflict and fatality data and temporal/event aggregation, typical of ACLED-derived analysis.",
+      "source_context": "'A quieter map isn’t a safer country' municipal-level analysis."
+    },
+    {
+      "evidence": "In 2024, months with more strategic movements moderately coincided with more battles but not clearly with higher deaths, suggesting shows of force set conditions for clashes without determining bloodiness.",
+      "is_acled_data": true,
+      "reasoning": "The statement analyzes temporal correlations between strategic movements (a conflict event type) and battles, and notes lack of correlation with fatalities. These are core ACLED metrics (event-type counts and fatalities over time). While no attribution is explicit, the content matches ACLED-style event and trend analysis using battles and fatality counts.",
+      "source_context": "'A quieter map isn’t a safer country' mechanical relationship between movements, battles, and deaths."
+    },
+    {
+      "evidence": "Violence against civilians was widespread but typically low-intensity, with most incidents resulting in zero or one death.",
+      "is_acled_data": true,
+      "reasoning": "The statement references characteristics of violence against civilians (prevalence and low fatality counts per incident), which aligns with ACLED’s event-level metrics on violence against civilians and associated fatality data derived from its dataset.",
+      "source_context": "'A quieter map isn’t a safer country' and later sections citing civilian targeting patterns."
+    },
+    {
+      "evidence": "Late‑2024 hotspots likely to persist into 2025 include Sinaloa’s core and the Chiapas frontier.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a forward-looking analytical claim about likely persistent hotspots without citing specific ACLED event counts, locations, actor data, or trends. It reads as general analysis rather than a direct reference to ACLED-derived metrics or datasets.",
+      "source_context": "'A quieter map isn’t a safer country' concluding note on late-2024 hotspots."
+    },
+    {
+      "evidence": "Guerrero was the national epicenter for drone-dropped explosives in 2024; a three-day campaign by La Familia Michoacana in March created area denial with few recorded deaths but significant displacement and damage.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references specific conflict event characteristics—use of drone-dropped explosives, a defined temporal window (a three-day campaign in March 2024), actor identification (La Familia Michoacana), subnational focus (Guerrero), and outcomes (low fatalities, displacement, and damage). These align with ACLED’s event-based data on explosions/remote violence, actor activity, temporal patterns, and geographic breakdowns. While displacement is often from humanitarian sources, the overall framing and event detail are characteristic of ACLED-derived analysis.",
+      "source_context": "'The new playbook' section describing March 22–24 drone strikes across multiple Guerrero municipalities."
+    },
+    {
+      "evidence": "Of 31 cartel-linked explosion/remote-violence events nationwide in 2024, 18 occurred in Guerrero, mostly air/drone strikes aimed at civilians, with March being the peak month.",
+      "is_acled_data": true,
+      "reasoning": "The statement cites specific counts of explosion/remote-violence events, subnational distribution (Guerrero), target type (civilians), modality (air/drone strikes), and a temporal peak (March). These are hallmark ACLED event and trend metrics (event type counts, geography, actor/target details, and monthly patterns) consistent with ACLED’s dataset outputs.",
+      "source_context": "'The new playbook' quantification of Explosions/Remote violence concentration and timing."
+    },
+    {
+      "evidence": "Michoacán experienced rarer but deadlier IED and mine incidents, including soldier fatalities near Tepalcatepec, with months mixing drones and IEDs showing higher lethality than drone-only periods.",
+      "is_acled_data": true,
+      "reasoning": "Mentions specific conflict modalities (IEDs, mines, drones), locations (near Tepalcatepec, Michoacán), lethality comparisons across months, and soldier fatalities—consistent with ACLED’s event-level data, subnational geolocation, actor types, and temporal trend analysis. This type of granular, time-based lethality and modality comparison typically derives from ACLED event records and summaries.",
+      "source_context": "'The new playbook' detailing Michoacán IED clusters and monthly lethality patterns."
+    },
+    {
+      "evidence": "Drones often facilitate civilian coercion and displacement, while mines and IEDs concentrate lethality and pose heightened risks to security forces.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytic observation about tactics (drones, mines, IEDs) and their effects, not a citation of specific ACLED event counts, actor data, fatalities, locations, or trends. It lacks attribution to ACLED and does not reference concrete ACLED-derived metrics or descriptions of specific events.",
+      "source_context": "'The new playbook' synthesizing modality-specific impacts."
+    },
+    {
+      "evidence": "Attacks on civilians functioned as coercive governance in 2024, largely as single-victim incidents across hubs like Culiacán, Guerrero, Zacatecas, Michoacán, and Chiapas.",
+      "is_acled_data": true,
+      "reasoning": "Mentions violence against civilians, single-victim incidents, and specific subnational hubs—topics aligned with ACLED event-level data on actor behavior, locations, and patterns. The phrasing suggests a pattern analysis derived from ACLED’s coded events rather than general commentary.",
+      "source_context": "'The new playbook' description of targeted killings, abductions, and threats."
+    },
+    {
+      "evidence": "In Guerrero, gang-linked incidents were dominated by violence against civilians, particularly in Acapulco, marked by intimidation rather than large-scale battlefield lethality.",
+      "is_acled_data": true,
+      "reasoning": "The statement references subnational location (Guerrero, Acapulco), actor-linked incidents, and specifies event type emphasis (violence against civilians vs. large-scale battles), which aligns with ACLED’s event categories and actor/location data. It reflects analysis derived from ACLED’s event composition and typology rather than general commentary.",
+      "source_context": "'The new playbook' focus on Guerrero civilian targeting patterns."
+    },
+    {
+      "evidence": "Authorities should prioritize counter-drone detection, explosive ordnance disposal capability, and civilian protection protocols heading into 2025.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a policy recommendation about prioritizing counter-drone detection, EOD capability, and civilian protection protocols. It is general analysis/advice and not presenting specific ACLED event data, counts, trends, or actor-level information attributed to ACLED.",
+      "source_context": "'The new playbook' recommendations responding to drones/IEDs and civilian harm."
+    },
+    {
+      "evidence": "Clashes attributed to the Sinaloa Cartel averaged about three deaths per incident in 2024; CJNG and Santa Rosa de Lima also showed higher lethality compared to unnamed groups.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites actor-specific clashes (Sinaloa Cartel, CJNG, Santa Rosa de Lima) and provides lethality metrics (average deaths per incident) for 2024, which aligns with ACLED’s actor-level event data and fatality counts derived from recorded conflict events.",
+      "source_context": "'Actors, corridors, and surge windows' per-actor lethality comparison."
+    },
+    {
+      "evidence": "Unidentified armed groups accounted for over 95% of battle events, but named-cartel engagements carried 1.5–2.4 times higher per-event lethality.",
+      "is_acled_data": true,
+      "reasoning": "The statement references proportions of battle events by actor type and compares per-event lethality, which aligns with ACLED’s actor-level event counts and fatality data for battles. Such metrics (share of events by unidentified vs. named actors and fatalities per event) are typical analyses derived from ACLED’s battle event and fatality datasets.",
+      "source_context": "'Actors, corridors, and surge windows' event share and lethality multiplier."
+    },
+    {
+      "evidence": "Chicomuselo (Chiapas) exhibited extreme battle lethality (~3.5 deaths per battle), while Badiraguato and Celaya had ~2 deaths per clash; Culiacán had many battles but <1 death per event, indicating different intervention needs.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites battle/event counts and average fatalities per battle at specific subnational locations, which are characteristic metrics derived from ACLED’s battle-related event and fatality data with geographic disaggregation.",
+      "source_context": "'Actors, corridors, and surge windows' municipality lethality profiles."
+    },
+    {
+      "evidence": "Deadliest surges were episodic: early January saw 30 deaths across four events; late August and late October also had lethal flurries, sometimes concentrated in a single state.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references temporal surges, counts of deaths across specific numbers of events, and concentration in particular states—details consistent with ACLED’s event-level data (fatality counts, event counts, subnational patterns, and temporal trends). While not explicitly attributed, the structure mirrors ACLED-derived conflict trend summaries.",
+      "source_context": "'Actors, corridors, and surge windows' timing analysis of surges."
+    },
+    {
+      "evidence": "Policy should emphasize intelligence-led, localized enforcement where named groups appear and lethality spikes, coupled with flexible surge capacity keyed to early-warning indicators.",
+      "is_acled_data": false,
+      "reasoning": "This is a policy recommendation about enforcement strategy and early-warning indicators; it is general analysis not tied to specific ACLED event data, counts, actors, or trends.",
+      "source_context": "'Actors, corridors, and surge windows' policy inference."
+    },
+    {
+      "evidence": "Halving cartel recruitment could reduce weekly casualties by about a quarter and shrink cartel size by roughly a tenth within three years, suggesting recruitment reduction yields high returns.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a modeled projection about effects of reducing cartel recruitment on casualties and group size, not a report of concrete conflict events or ACLED-derived statistics. It lacks attribution to ACLED and does not reference event counts, fatalities, or actor data from ACLED; it is analytical/hypothetical rather than ACLED event data.",
+      "source_context": "'From hard fights to durable peace' modeling claim on recruitment impacts."
+    },
+    {
+      "evidence": "Cartel recruitment targets children from unstable, low-income households with offers of cash and belonging; countermeasures include intelligence-led outreach, public advocacy, stronger legal systems, and poverty-focused support.",
+      "is_acled_data": false,
+      "reasoning": "The evidence is a general analytical statement about cartel recruitment tactics and recommended countermeasures, not specific event counts, actor-level event data, fatalities, locations, or trends derived from ACLED. It reads as policy/strategy commentary rather than ACLED-attributed conflict event data.",
+      "source_context": "'From hard fights to durable peace' description of recruitment drivers and remedies."
+    },
+    {
+      "evidence": "Cartel–state battles in 2024 recurred in Michoacán, Guanajuato, Sinaloa, Zacatecas, and Tamaulipas, with frequent arrests and seizures but persistent lethal ambushes.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a high-level summary of locations and types of clashes and law enforcement actions without citing specific ACLED event counts, fatalities, or actor-coded data. It resembles general analysis/news synthesis rather than explicit ACLED-derived metrics or attributions.",
+      "source_context": "'From hard fights to durable peace' enforcement patterns and outcomes."
+    },
+    {
+      "evidence": "Violence against civilians was deadliest per incident in Centro, Tabasco, while Culiacán had frequent attacks and a late‑year fatality spike, marking them for synchronized policing and prevention.",
+      "is_acled_data": true,
+      "reasoning": "The statement cites subnational locations (Centro, Tabasco; Culiacán), references violence against civilians, compares deadliness per incident, mentions frequency of attacks and a temporal fatality spike—all metrics and patterns typically derived from ACLED event/fatality data and temporal trend analysis.",
+      "source_context": "'From hard fights to durable peace' municipal targets for intervention."
+    },
+    {
+      "evidence": "CJNG’s footprint in 2024 spanned Michoacán, Chiapas, Sinaloa, Guerrero, and Tabasco, informing tasking and protection priorities.",
+      "is_acled_data": false,
+      "reasoning": "The statement lists CJNG presence across several Mexican states and implies operational priorities, but it does not reference specific event counts, locations, fatalities, or actor-level entries tied to ACLED, nor is it attributed to ACLED. It reads as general analytical assessment of territorial footprint rather than ACLED-derived event data.",
+      "source_context": "'From hard fights to durable peace' mapping CJNG presence."
+    },
+    {
+      "evidence": "Trust-building is essential: SDG16-aligned pilots (participatory governance, mediation, transparency) and tools like the OECD Trust Survey can diagnose trust gaps and track progress.",
+      "is_acled_data": false,
+      "reasoning": "The evidence discusses trust-building, SDG16-aligned pilots, and the OECD Trust Survey—policy and governance tools—not conflict event data or metrics attributed to ACLED. It is general policy guidance, not derived from ACLED event-based datasets.",
+      "source_context": "'From hard fights to durable peace' trust and governance discussion."
+    },
+    {
+      "evidence": "Victim support and local accountability initiatives help recovery and encourage reporting, strengthening community resilience where targeted interventions are deployed.",
+      "is_acled_data": false,
+      "reasoning": "This is a general analytic statement about the effects of victim support and accountability initiatives on resilience and reporting; it does not reference specific conflict events, statistics, or actor-level data from ACLED, nor is it attributed to ACLED.",
+      "source_context": "'From hard fights to durable peace' on victim support and accountability."
+    },
+    {
+      "evidence": "Sweeping judicial reforms launched in 2024 aimed to curb corruption and impunity but triggered protests and uncertainty, risking disruption of existing processes.",
+      "is_acled_data": false,
+      "reasoning": "This is a general policy/political development about judicial reforms, protests, and uncertainty without reference to specific ACLED event data (counts, locations, fatalities, actor activity). It reads as geopolitical analysis/policy commentary, which is not ACLED-derived unless tied to specific event records.",
+      "source_context": "'From hard fights to durable peace' on 2024 judicial reforms and uncertainty."
+    },
+    {
+      "evidence": "For a durable 2025 strategy: link enforcement to municipalities with clustered clashes or rising lethality; build counter‑drone/EOD capacity in Guerrero–Michoacán; stage surge‑ready protection around known escalation windows; fund recruitment-focused social spending in CJNG/Sinaloa corridors; and stabilize the judiciary transition to maintain accountability.",
+      "is_acled_data": false,
+      "reasoning": "The evidence is a set of policy recommendations and strategic guidance (counter-drone capacity, surge protection, social spending, judiciary stabilization). It does not cite specific ACLED event data, counts, locations, or trends. This is general analysis, not directly derived from ACLED.",
+      "source_context": "'From hard fights to durable peace' pragmatic 2025 playbook."
+    },
+    {
+      "evidence": "Mexico enters 2025 with fewer murders in some indicators but more concentrated, harder fights; success hinges on surgical action in lethal corridors, recruitment reduction, trust rebuilding, and judicial reform stability.",
+      "is_acled_data": false,
+      "reasoning": "The evidence is a broad analytical statement about homicide trends, strategic recommendations, and institutional reforms. It does not reference specific conflict event counts, locations, actor data, fatalities, or trends tied to ACLED, nor is it attributed to ACLED. It reads as general analysis rather than ACLED-derived event data.",
+      "source_context": "Conclusion summarizing imperatives for 2025."
+    }
+  ],
+  "insights": [
+    {
+      "insight": "Cartel violence in 2024 concentrated in specific hotspots dominated by CJNG and the Sinaloa Cartel, with evolving tactics like drones and IEDs and persistent civilian targeting, despite some improvements in homicide indicators.",
+      "context": "Key Findings summary at the start of the article."
+    },
+    {
+      "insight": "Named-cartel confrontations were fewer but deadlier than clashes involving unidentified actors, indicating that attribution to major cartels is a warning signal for higher lethality.",
+      "context": "Key Findings and detailed analysis in 'Actors, corridors, and surge windows' showing 1.5–2.4x higher per-event deaths when named cartels appear."
+    },
+    {
+      "insight": "Opacity from unidentified armed groups masks a large share of events, complicating enforcement and accountability efforts.",
+      "context": "Key Findings noting a large share of events attributed to unidentified actors."
+    },
+    {
+      "insight": "Violence hardened into discrete theaters in late 2024, with Sinaloa recording the most clashes and highest battle deaths; Chiapas and Guerrero had steep fatality peaks.",
+      "context": "'A quieter map isn’t a safer country' section detailing state-level distributions."
+    },
+    {
+      "insight": "Strategic developments like roadblocks, patrols, and shows of force were frequent and often nonlethal in Sinaloa and Guerrero, inflating event counts without equivalent fatalities.",
+      "context": "'A quieter map isn’t a safer country' discussion of strategic developments vs lethality."
+    },
+    {
+      "insight": "Culiacán stood out as a lethal outlier with well over 100 deaths across about as many events, while other municipalities suffered high-casualty spikes from a small number of incidents.",
+      "context": "'A quieter map isn’t a safer country' municipal-level analysis."
+    },
+    {
+      "insight": "In 2024, months with more strategic movements moderately coincided with more battles but not clearly with higher deaths, suggesting shows of force set conditions for clashes without determining bloodiness.",
+      "context": "'A quieter map isn’t a safer country' mechanical relationship between movements, battles, and deaths."
+    },
+    {
+      "insight": "Violence against civilians was widespread but typically low-intensity, with most incidents resulting in zero or one death.",
+      "context": "'A quieter map isn’t a safer country' and later sections citing civilian targeting patterns."
+    },
+    {
+      "insight": "Late‑2024 hotspots likely to persist into 2025 include Sinaloa’s core and the Chiapas frontier.",
+      "context": "'A quieter map isn’t a safer country' concluding note on late-2024 hotspots."
+    },
+    {
+      "insight": "Guerrero was the national epicenter for drone-dropped explosives in 2024; a three-day campaign by La Familia Michoacana in March created area denial with few recorded deaths but significant displacement and damage.",
+      "context": "'The new playbook' section describing March 22–24 drone strikes across multiple Guerrero municipalities."
+    },
+    {
+      "insight": "Of 31 cartel-linked explosion/remote-violence events nationwide in 2024, 18 occurred in Guerrero, mostly air/drone strikes aimed at civilians, with March being the peak month.",
+      "context": "'The new playbook' quantification of Explosions/Remote violence concentration and timing."
+    },
+    {
+      "insight": "Michoacán experienced rarer but deadlier IED and mine incidents, including soldier fatalities near Tepalcatepec, with months mixing drones and IEDs showing higher lethality than drone-only periods.",
+      "context": "'The new playbook' detailing Michoacán IED clusters and monthly lethality patterns."
+    },
+    {
+      "insight": "Drones often facilitate civilian coercion and displacement, while mines and IEDs concentrate lethality and pose heightened risks to security forces.",
+      "context": "'The new playbook' synthesizing modality-specific impacts."
+    },
+    {
+      "insight": "Attacks on civilians functioned as coercive governance in 2024, largely as single-victim incidents across hubs like Culiacán, Guerrero, Zacatecas, Michoacán, and Chiapas.",
+      "context": "'The new playbook' description of targeted killings, abductions, and threats."
+    },
+    {
+      "insight": "In Guerrero, gang-linked incidents were dominated by violence against civilians, particularly in Acapulco, marked by intimidation rather than large-scale battlefield lethality.",
+      "context": "'The new playbook' focus on Guerrero civilian targeting patterns."
+    },
+    {
+      "insight": "Authorities should prioritize counter-drone detection, explosive ordnance disposal capability, and civilian protection protocols heading into 2025.",
+      "context": "'The new playbook' recommendations responding to drones/IEDs and civilian harm."
+    },
+    {
+      "insight": "Clashes attributed to the Sinaloa Cartel averaged about three deaths per incident in 2024; CJNG and Santa Rosa de Lima also showed higher lethality compared to unnamed groups.",
+      "context": "'Actors, corridors, and surge windows' per-actor lethality comparison."
+    },
+    {
+      "insight": "Unidentified armed groups accounted for over 95% of battle events, but named-cartel engagements carried 1.5–2.4 times higher per-event lethality.",
+      "context": "'Actors, corridors, and surge windows' event share and lethality multiplier."
+    },
+    {
+      "insight": "Chicomuselo (Chiapas) exhibited extreme battle lethality (~3.5 deaths per battle), while Badiraguato and Celaya had ~2 deaths per clash; Culiacán had many battles but <1 death per event, indicating different intervention needs.",
+      "context": "'Actors, corridors, and surge windows' municipality lethality profiles."
+    },
+    {
+      "insight": "Deadliest surges were episodic: early January saw 30 deaths across four events; late August and late October also had lethal flurries, sometimes concentrated in a single state.",
+      "context": "'Actors, corridors, and surge windows' timing analysis of surges."
+    },
+    {
+      "insight": "Policy should emphasize intelligence-led, localized enforcement where named groups appear and lethality spikes, coupled with flexible surge capacity keyed to early-warning indicators.",
+      "context": "'Actors, corridors, and surge windows' policy inference."
+    },
+    {
+      "insight": "Halving cartel recruitment could reduce weekly casualties by about a quarter and shrink cartel size by roughly a tenth within three years, suggesting recruitment reduction yields high returns.",
+      "context": "'From hard fights to durable peace' modeling claim on recruitment impacts."
+    },
+    {
+      "insight": "Cartel recruitment targets children from unstable, low-income households with offers of cash and belonging; countermeasures include intelligence-led outreach, public advocacy, stronger legal systems, and poverty-focused support.",
+      "context": "'From hard fights to durable peace' description of recruitment drivers and remedies."
+    },
+    {
+      "insight": "Cartel–state battles in 2024 recurred in Michoacán, Guanajuato, Sinaloa, Zacatecas, and Tamaulipas, with frequent arrests and seizures but persistent lethal ambushes.",
+      "context": "'From hard fights to durable peace' enforcement patterns and outcomes."
+    },
+    {
+      "insight": "Violence against civilians was deadliest per incident in Centro, Tabasco, while Culiacán had frequent attacks and a late‑year fatality spike, marking them for synchronized policing and prevention.",
+      "context": "'From hard fights to durable peace' municipal targets for intervention."
+    },
+    {
+      "insight": "CJNG’s footprint in 2024 spanned Michoacán, Chiapas, Sinaloa, Guerrero, and Tabasco, informing tasking and protection priorities.",
+      "context": "'From hard fights to durable peace' mapping CJNG presence."
+    },
+    {
+      "insight": "Trust-building is essential: SDG16-aligned pilots (participatory governance, mediation, transparency) and tools like the OECD Trust Survey can diagnose trust gaps and track progress.",
+      "context": "'From hard fights to durable peace' trust and governance discussion."
+    },
+    {
+      "insight": "Victim support and local accountability initiatives help recovery and encourage reporting, strengthening community resilience where targeted interventions are deployed.",
+      "context": "'From hard fights to durable peace' on victim support and accountability."
+    },
+    {
+      "insight": "Sweeping judicial reforms launched in 2024 aimed to curb corruption and impunity but triggered protests and uncertainty, risking disruption of existing processes.",
+      "context": "'From hard fights to durable peace' on 2024 judicial reforms and uncertainty."
+    },
+    {
+      "insight": "For a durable 2025 strategy: link enforcement to municipalities with clustered clashes or rising lethality; build counter‑drone/EOD capacity in Guerrero–Michoacán; stage surge‑ready protection around known escalation windows; fund recruitment-focused social spending in CJNG/Sinaloa corridors; and stabilize the judiciary transition to maintain accountability.",
+      "context": "'From hard fights to durable peace' pragmatic 2025 playbook."
+    },
+    {
+      "insight": "Mexico enters 2025 with fewer murders in some indicators but more concentrated, harder fights; success hinges on surgical action in lethal corridors, recruitment reduction, trust rebuilding, and judicial reform stability.",
+      "context": "Conclusion summarizing imperatives for 2025."
+    }
+  ],
+  "prompt": "Research gang violence in Mexico and its outlook in 2025, as if we are at the end of 2024 heading into 2025."
+}

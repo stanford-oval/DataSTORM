@@ -1,0 +1,761 @@
+{
+  "id": "6",
+  "prompt": "What is the status of conflicts in Tigray after the Pretoria agreement? Focus on October 2024.",
+  "timestamp": "2026-03-29T04:06:47.853290",
+  "openai_dr": {
+    "total_insights": 20,
+    "total_classified": 20,
+    "acled_count": 1,
+    "non_acled_count": 19,
+    "pct_acled": 0.05,
+    "details": [
+      {
+        "evidence": "The Pretoria peace agreement signed on November 2, 2022 ended the two-year Tigray war between the Ethiopian government and the TPLF, halting major hostilities in Tigray.",
+        "is_acled_data": false,
+        "reasoning": "The statement describes a peace agreement and general outcome (ending hostilities) without referencing ACLED event data, counts, fatalities, locations, or ACLED attribution. It is a policy/diplomatic development, not ACLED-derived.",
+        "source_context": "Opening summary noting the signing of the agreement and cessation of hostilities."
+      },
+      {
+        "evidence": "Since the agreement, no large-scale fighting has resumed in Tigray, indicating significant steps toward normalization.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a generalized assessment about the absence of large-scale fighting and normalization without citing specific event counts, locations, actors, or temporal trends. It reads as narrative analysis rather than explicit reference to ACLED event data or metrics.",
+        "source_context": "Early section describing the security situation a year after Pretoria."
+      },
+      {
+        "evidence": "The TPLF was delisted as a terrorist organization and an inclusive interim administration was established in Tigray under federal authority.",
+        "is_acled_data": false,
+        "reasoning": "The statement concerns political/legal developments (delisting TPLF as a terrorist organization and establishment of an interim administration), which are policy/government actions, not conflict event data or actor/event statistics typically captured by ACLED. It is general political context, not derived from ACLED event records.",
+        "source_context": "Normalization measures described after the agreement."
+      },
+      {
+        "evidence": "Essential services such as banking, electricity, and telecoms have been gradually restored in Tigray, and the humanitarian blockade was lifted to allow aid delivery.",
+        "is_acled_data": false,
+        "reasoning": "The evidence discusses restoration of essential services and lifting of a humanitarian blockade, which are governance and humanitarian access updates rather than specific conflict event data, fatalities, or actor-level event records that ACLED provides.",
+        "source_context": "Service restoration and humanitarian access updates post-truce."
+      },
+      {
+        "evidence": "Conflict data show minimal violent incidents in Tigray after the truce, with about 115 conflict-related fatalities from late 2022 through 2024, and most months reporting zero deaths.",
+        "is_acled_data": true,
+        "reasoning": "The evidence cites counts of violent incidents and conflict-related fatalities over a specific period and notes monthly death patterns, which aligns with ACLED’s event-based data, fatality counts, and temporal trend analysis. This matches ACLED’s typical metrics and structure.",
+        "source_context": "ACLED-based comparison of post-truce fatalities vs. wartime casualties."
+      },
+      {
+        "evidence": "The Pretoria accord did not explicitly require the withdrawal of Eritrean troops from Tigray, leaving ambiguity over their presence.",
+        "is_acled_data": false,
+        "reasoning": "This statement is a policy/diplomatic analysis about the contents of the Pretoria agreement and the status of Eritrean troop withdrawal, not event-based conflict data or metrics. It is not tied to ACLED event counts, fatalities, or actor-level incident records, nor is it attributed to ACLED.",
+        "source_context": "Unresolved security concerns section discussing Eritrean forces."
+      },
+      {
+        "evidence": "Eritrean units began pulling out of major Tigray towns in early 2023, but some soldiers remained, creating uncertainty about full withdrawal.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general narrative about Eritrean troop withdrawals and lingering presence without reference to specific ACLED event data, counts, fatalities, locations, or actor-coded events; it reads as contextual analysis rather than ACLED-derived metrics or event records.",
+        "source_context": "Reports of partial Eritrean withdrawal after the truce."
+      },
+      {
+        "evidence": "Tigrayan civilians, particularly women, remain vulnerable to violence and harassment by Eritrean and allied forces despite the ceasefire.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general assertion about ongoing risks to civilians without citing specific events, counts, locations, dates, or ACLED attribution. It reads as qualitative analysis rather than event-based data derived from ACLED.",
+        "source_context": "Post-truce civilian protection concerns related to Eritrean and allied forces."
+      },
+      {
+        "evidence": "The status of Western Tigray remains unresolved, with the area controlled by Amhara regional forces allied with the federal army.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general geopolitical assessment about territorial control and political status, not a citation of specific ACLED event counts, actor/event data, fatalities, or ACLED-attributed analysis.",
+        "source_context": "Disputed territory subsection on Western Tigray."
+      },
+      {
+        "evidence": "Displaced Tigrayan civilians are still barred from returning to Western Tigray, which Amhara nationalists claim.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general analytical claim about displacement and restrictions on returns in Western Tigray, not a specific conflict event, fatality figure, or actor/event data point tied to ACLED. It resembles humanitarian/political analysis rather than ACLED-derived event data.",
+        "source_context": "Access and return restrictions for Tigrayan civilians in Western Tigray."
+      },
+      {
+        "evidence": "Ongoing abuses in Western Tigray include detentions and disappearances of Tigrayans, sometimes into secret prisons in Western Tigray or Eritrea.",
+        "is_acled_data": false,
+        "reasoning": "The statement describes ongoing abuses, detentions, disappearances, and secret prisons in Western Tigray/Eritrea at a general/qualitative level. It is not tied to specific ACLED event data, counts, locations, dates, or actor-level entries, nor explicitly attributed to ACLED.",
+        "source_context": "Human rights concerns tied to the occupation of Western Tigray."
+      },
+      {
+        "evidence": "The DDR process has been slow: Tigray surrendered heavy weapons, but tens of thousands of ex-fighters await reintegration.",
+        "is_acled_data": false,
+        "reasoning": "The statement about DDR progress, surrender of heavy weapons, and numbers of ex-fighters awaiting reintegration is a policy/process assessment and humanitarian/DDR status commentary, not specific conflict event data, fatalities, or actor/event counts that ACLED provides.",
+        "source_context": "Disarmament and Integration subsection on DDR progress."
+      },
+      {
+        "evidence": "The sluggish DDR pace has fueled mistrust, including suspicions among Amhara factions that Tigrayan forces may be hiding arms.",
+        "is_acled_data": false,
+        "reasoning": "The statement is analytical commentary about DDR pace and mistrust among factions, not specific event counts, locations, fatalities, or actor-level events from ACLED. It does not cite ACLED or reference concrete ACLED event data.",
+        "source_context": "Lingering inter-ethnic suspicions affecting DDR credibility."
+      },
+      {
+        "evidence": "Internal rifts within Tigray’s leadership and uncertainty over the TPLF’s legal status post-war challenge long-term stability.",
+        "is_acled_data": false,
+        "reasoning": "The statement is general political analysis about internal leadership rifts and legal status of the TPLF, not referencing specific ACLED event data, counts, fatalities, or actor-coded events. It is not tied to ACLED datasets or metrics.",
+        "source_context": "Political dynamics within Tigray following the agreement."
+      },
+      {
+        "evidence": "There have been no significant accountability measures for war crimes and atrocities, including massacres and sexual violence, committed during the conflict.",
+        "is_acled_data": false,
+        "reasoning": "The statement concerns accountability measures for war crimes and atrocities, which is a justice/governance assessment rather than event-based conflict data. ACLED tracks events, actors, and violence statistics, not judicial or accountability actions; no specific ACLED event data, counts, or attributions are referenced.",
+        "source_context": "Justice and accountability subsection describing the absence of prosecutions."
+      },
+      {
+        "evidence": "Survivors, especially women, have seen little legal recourse, contributing to unhealed trauma and skepticism about justice.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general qualitative assessment about legal recourse and trauma among survivors, not referencing specific conflict events, counts, actors, locations, or statistics typical of ACLED data, nor is it attributed to ACLED.",
+        "source_context": "Impact of limited accountability on survivors’ healing and trust."
+      },
+      {
+        "evidence": "The Ethiopian government’s emphasis on reconciliation over prosecution, alongside the disbanding of international investigative mechanisms, raises doubts about future accountability.",
+        "is_acled_data": false,
+        "reasoning": "This statement is policy and accountability commentary about government emphasis and investigative mechanisms, not event-level conflict data, statistics, or trends attributable to ACLED.",
+        "source_context": "Policy choices affecting prospects for justice."
+      },
+      {
+        "evidence": "Tigray has experienced a durable cessation of hostilities and is focused on recovery, but the peace remains fragile due to unresolved issues.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a broad qualitative assessment about a fragile peace and recovery without citing event counts, actor data, locations, fatalities, or ACLED-derived trends. It is general geopolitical analysis rather than specific ACLED event data or metrics.",
+        "source_context": "Overall assessment of the post-Pretoria security situation."
+      },
+      {
+        "evidence": "Unresolved territorial disputes, incomplete withdrawal of outside forces, slow demobilization, and lack of justice threaten the completeness of the peace in Tigray.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general analytical assessment about threats to peace (territorial disputes, withdrawals, demobilization, justice) and does not cite or describe specific ACLED event data, counts, fatalities, locations, or actor-level records.",
+        "source_context": "Synthesis of key risks to sustained peace."
+      },
+      {
+        "evidence": "While Tigray’s war ended, Ethiopia remains unstable, with the Tigray truce coinciding with a new armed uprising in the neighboring Amhara region.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general analytical claim about instability and an uprising in Amhara without citing event counts, locations, dates, actors, or fatalities, nor is it attributed to ACLED. It reads as narrative context rather than specific ACLED-derived event data or metrics.",
+        "source_context": "Broader national context noting conflict emergence in Amhara after the Tigray truce."
+      }
+    ],
+    "insights": [
+      {
+        "insight": "The Pretoria peace agreement signed on November 2, 2022 ended the two-year Tigray war between the Ethiopian government and the TPLF, halting major hostilities in Tigray.",
+        "context": "Opening summary noting the signing of the agreement and cessation of hostilities."
+      },
+      {
+        "insight": "Since the agreement, no large-scale fighting has resumed in Tigray, indicating significant steps toward normalization.",
+        "context": "Early section describing the security situation a year after Pretoria."
+      },
+      {
+        "insight": "The TPLF was delisted as a terrorist organization and an inclusive interim administration was established in Tigray under federal authority.",
+        "context": "Normalization measures described after the agreement."
+      },
+      {
+        "insight": "Essential services such as banking, electricity, and telecoms have been gradually restored in Tigray, and the humanitarian blockade was lifted to allow aid delivery.",
+        "context": "Service restoration and humanitarian access updates post-truce."
+      },
+      {
+        "insight": "Conflict data show minimal violent incidents in Tigray after the truce, with about 115 conflict-related fatalities from late 2022 through 2024, and most months reporting zero deaths.",
+        "context": "ACLED-based comparison of post-truce fatalities vs. wartime casualties."
+      },
+      {
+        "insight": "The Pretoria accord did not explicitly require the withdrawal of Eritrean troops from Tigray, leaving ambiguity over their presence.",
+        "context": "Unresolved security concerns section discussing Eritrean forces."
+      },
+      {
+        "insight": "Eritrean units began pulling out of major Tigray towns in early 2023, but some soldiers remained, creating uncertainty about full withdrawal.",
+        "context": "Reports of partial Eritrean withdrawal after the truce."
+      },
+      {
+        "insight": "Tigrayan civilians, particularly women, remain vulnerable to violence and harassment by Eritrean and allied forces despite the ceasefire.",
+        "context": "Post-truce civilian protection concerns related to Eritrean and allied forces."
+      },
+      {
+        "insight": "The status of Western Tigray remains unresolved, with the area controlled by Amhara regional forces allied with the federal army.",
+        "context": "Disputed territory subsection on Western Tigray."
+      },
+      {
+        "insight": "Displaced Tigrayan civilians are still barred from returning to Western Tigray, which Amhara nationalists claim.",
+        "context": "Access and return restrictions for Tigrayan civilians in Western Tigray."
+      },
+      {
+        "insight": "Ongoing abuses in Western Tigray include detentions and disappearances of Tigrayans, sometimes into secret prisons in Western Tigray or Eritrea.",
+        "context": "Human rights concerns tied to the occupation of Western Tigray."
+      },
+      {
+        "insight": "The DDR process has been slow: Tigray surrendered heavy weapons, but tens of thousands of ex-fighters await reintegration.",
+        "context": "Disarmament and Integration subsection on DDR progress."
+      },
+      {
+        "insight": "The sluggish DDR pace has fueled mistrust, including suspicions among Amhara factions that Tigrayan forces may be hiding arms.",
+        "context": "Lingering inter-ethnic suspicions affecting DDR credibility."
+      },
+      {
+        "insight": "Internal rifts within Tigray’s leadership and uncertainty over the TPLF’s legal status post-war challenge long-term stability.",
+        "context": "Political dynamics within Tigray following the agreement."
+      },
+      {
+        "insight": "There have been no significant accountability measures for war crimes and atrocities, including massacres and sexual violence, committed during the conflict.",
+        "context": "Justice and accountability subsection describing the absence of prosecutions."
+      },
+      {
+        "insight": "Survivors, especially women, have seen little legal recourse, contributing to unhealed trauma and skepticism about justice.",
+        "context": "Impact of limited accountability on survivors’ healing and trust."
+      },
+      {
+        "insight": "The Ethiopian government’s emphasis on reconciliation over prosecution, alongside the disbanding of international investigative mechanisms, raises doubts about future accountability.",
+        "context": "Policy choices affecting prospects for justice."
+      },
+      {
+        "insight": "Tigray has experienced a durable cessation of hostilities and is focused on recovery, but the peace remains fragile due to unresolved issues.",
+        "context": "Overall assessment of the post-Pretoria security situation."
+      },
+      {
+        "insight": "Unresolved territorial disputes, incomplete withdrawal of outside forces, slow demobilization, and lack of justice threaten the completeness of the peace in Tigray.",
+        "context": "Synthesis of key risks to sustained peace."
+      },
+      {
+        "insight": "While Tigray’s war ended, Ethiopia remains unstable, with the Tigray truce coinciding with a new armed uprising in the neighboring Amhara region.",
+        "context": "Broader national context noting conflict emergence in Amhara after the Tigray truce."
+      }
+    ],
+    "prompt": "What is the status of conflicts in Tigray after the Pretoria agreement? Focus on October 2024."
+  },
+  "openai_dr_csv": {
+    "total_insights": 27,
+    "total_classified": 27,
+    "acled_count": 1,
+    "non_acled_count": 26,
+    "pct_acled": 0.037037037037037035,
+    "details": [
+      {
+        "evidence": "The November 2022 Pretoria peace agreement ended the two-year Tigray war with a permanent cessation of hostilities, halting large-scale combat in the region.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general description of the Pretoria peace agreement and its impact, focusing on a policy/diplomatic development and broad outcome, not specific ACLED event data, counts, locations, or trends explicitly attributed to ACLED.",
+        "source_context": "Ceasefire Ends the War section; references to hoa.boell.org and adf-magazine.com"
+      },
+      {
+        "evidence": "Federal authority was re-established in Tigray through an interim administration led by TPLF officials, partially restoring banking, electricity, and communications.",
+        "is_acled_data": false,
+        "reasoning": "The statement describes governance and service restoration (interim administration, banking, electricity, communications) and political developments, which are policy/government actions and general analysis rather than specific conflict event data. This is not derived from ACLED’s event/fatality/geographic or actor-level datasets.",
+        "source_context": "Ceasefire Ends the War section; hoa.boell.org"
+      },
+      {
+        "evidence": "Humanitarian aid resumed after the Pretoria deal, contributing to normalization between Tigray and Ethiopia’s federal government.",
+        "is_acled_data": false,
+        "reasoning": "The statement about humanitarian aid resuming and contributing to normalization is general humanitarian/political context, not specific conflict event data, actor activity, fatalities, or ACLED-derived metrics. It aligns with policy statements and humanitarian operations reporting rather than ACLED event data.",
+        "source_context": "Ceasefire Ends the War section; hoa.boell.org"
+      },
+      {
+        "evidence": "Conflict events and fatalities in Tigray sharply declined post-agreement, with recorded deaths dropping to the low hundreds compared to thousands during the war.",
+        "is_acled_data": true,
+        "reasoning": "The statement references trends in conflict events and fatalities (declines in recorded deaths from thousands to hundreds post-agreement), which aligns with ACLED’s event and fatality count data and temporal trend analysis.",
+        "source_context": "Ceasefire Ends the War section; adf-magazine.com"
+      },
+      {
+        "evidence": "No major new offensives have been reported in Tigray since the Pretoria agreement took effect.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general assessment about the absence of major offensives since the Pretoria agreement, not a specific reference to ACLED event counts, actor data, or trend metrics. It lacks attribution to ACLED and does not cite concrete event data or temporal patterns derived from ACLED.",
+        "source_context": "Ceasefire Ends the War section; adf-magazine.com"
+      },
+      {
+        "evidence": "Eritrean troops were not party to the Pretoria deal and have not fully withdrawn, continuing to occupy parts of northern Tigray’s border areas.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general analytical claim about Eritrean troop presence and non-withdrawal, not a reference to specific ACLED-coded events, counts, fatalities, or actor-level event data. It lacks explicit attribution to ACLED and does not cite event-based metrics or locations from ACLED.",
+        "source_context": "Ongoing Insecurity and Militias section; adf-magazine.com"
+      },
+      {
+        "evidence": "Eritrean forces in occupied border zones block roads, control trade, and are accused of kidnappings and abuses against residents.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general claim about Eritrean forces’ behavior (blocking roads, controlling trade, committing abuses) without specific event counts, dates, locations, fatalities, or attribution to ACLED. It reads as narrative commentary rather than ACLED-derived event data or statistics.",
+        "source_context": "Ongoing Insecurity and Militias section; adf-magazine.com"
+      },
+      {
+        "evidence": "Amhara regional militias and authorities still control disputed areas of western and southern Tigray seized during the war, claiming them as historically Amhara land.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general analytical claim about territorial control and historical claims, not specific ACLED event data (no event counts, locations, dates, fatalities, or actor-level incidents cited).",
+        "source_context": "Ongoing Insecurity and Militias section; hoa.boell.org"
+      },
+      {
+        "evidence": "Over one million Tigrayan civilians remain displaced, unable to return to contested areas like western Tigray and Irob due to insecurity.",
+        "is_acled_data": false,
+        "reasoning": "The claim concerns the number of displaced civilians and obstacles to return, which are humanitarian displacement figures typically sourced from UN/OCHA/UNHCR or human rights groups, not ACLED’s event-based conflict data. It is not tied to specific ACLED events or metrics.",
+        "source_context": "Ongoing Insecurity and Militias section; adf-magazine.com and dw.com"
+      },
+      {
+        "evidence": "Reports indicate ongoing expulsions of ethnic Tigrayans from contested territories by Amhara forces despite the peace deal.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general claim about ongoing expulsions by Amhara forces and does not cite specific ACLED event data, counts, locations, or actor-coded incidents. It reads as analytical/journalistic reporting rather than ACLED-derived event statistics or trends.",
+        "source_context": "Ongoing Insecurity and Militias section; hoa.boell.org"
+      },
+      {
+        "evidence": "Targeted violence, including alleged ethnic killings and sexual violence, persists in Tigray despite the ceasefire, according to a UN genocide prevention advisor.",
+        "is_acled_data": false,
+        "reasoning": "The evidence cites a UN genocide prevention advisor and discusses general claims of ongoing targeted violence without specific ACLED event data, counts, locations, or attribution to ACLED. It reflects qualitative assessment from a UN source, not ACLED-derived statistics or event records.",
+        "source_context": "Ongoing Insecurity and Militias section; adf-magazine.com"
+      },
+      {
+        "evidence": "Local Tigrayan leaders and civil society argue Pretoria stopped gunfire but civilians are still unsafe, describing ongoing atrocities in certain areas.",
+        "is_acled_data": false,
+        "reasoning": "The statement is qualitative commentary from local leaders and civil society about ongoing insecurity and atrocities, without specific event counts, locations, dates, or attribution to ACLED. It reflects general analysis/testimony rather than ACLED-derived event data or statistics.",
+        "source_context": "Ongoing Insecurity and Militias section; dw.com"
+      },
+      {
+        "evidence": "Sporadic clashes occur between Tigrayan actors and unauthorized militias; Tigrayan forces remain partially mobilized, delaying full disarmament until Eritrean and Amhara withdrawal.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general analytical claim about sporadic clashes, mobilization, and disarmament timing without citing specific ACLED event data, counts, locations, or actor-coded events; it reads as commentary rather than ACLED-derived metrics.",
+        "source_context": "Ongoing Insecurity and Militias section; hoa.boell.org"
+      },
+      {
+        "evidence": "Ninety percent of Tigray’s population relies on food aid more than a year after the ceasefire, indicating a severe humanitarian crisis.",
+        "is_acled_data": false,
+        "reasoning": "The evidence cites a humanitarian statistic about food aid dependency, which falls under humanitarian data (likely from UN/OCHA/WFP) and not ACLED’s conflict event or fatality data. It is not tied to ACLED event metrics or explicitly attributed to ACLED.",
+        "source_context": "Humanitarian and Political Challenges section; adf-magazine.com"
+      },
+      {
+        "evidence": "More than one million people remain internally displaced in Tigray, facing hunger and disease in camps.",
+        "is_acled_data": false,
+        "reasoning": "The statement reports humanitarian displacement figures (internally displaced persons counts). ACLED does not provide general displacement numbers; such data typically comes from UN agencies like OCHA or IOM. Without explicit attribution to ACLED and lacking event-based metrics, this is not ACLED-derived.",
+        "source_context": "Humanitarian and Political Challenges section; adf-magazine.com"
+      },
+      {
+        "evidence": "In the first nine months post-conflict, starvation caused the majority of deaths in Tigray, highlighting ongoing humanitarian suffering.",
+        "is_acled_data": false,
+        "reasoning": "Statement concerns deaths from starvation and humanitarian suffering, not event-based conflict fatalities or ACLED-coded events. Starvation mortality is typically from humanitarian sources (e.g., UN/OCHA) and is not ACLED’s event/fatality dataset focus unless explicitly linked; no ACLED attribution provided.",
+        "source_context": "Humanitarian and Political Challenges section; adf-magazine.com"
+      },
+      {
+        "evidence": "Approximately 80% of Tigray’s health, education, and water infrastructure was destroyed or looted during the war, and reconstruction is slow and underfunded.",
+        "is_acled_data": false,
+        "reasoning": "The statement concerns the extent of infrastructure destruction and reconstruction funding in Tigray, which are humanitarian/recovery indicators, not conflict event data or ACLED-derived metrics. ACLED does not track percentages of infrastructure damage or reconstruction progress.",
+        "source_context": "Humanitarian and Political Challenges section; adf-magazine.com"
+      },
+      {
+        "evidence": "Ethiopia’s 2023 federal budget allocated less to Tigray than pre-war levels and lacked dedicated reconstruction funds, fueling public frustration and protests.",
+        "is_acled_data": false,
+        "reasoning": "The evidence discusses federal budget allocations and reconstruction funding, which are economic/policy details, not ACLED event-based metrics. It does not cite conflict events, fatalities, protests counts from ACLED, or ACLED attribution.",
+        "source_context": "Humanitarian and Political Challenges section; adf-magazine.com"
+      },
+      {
+        "evidence": "The TPLF was removed from Ethiopia’s terror list, its leaders were freed, and an inclusive Interim Regional Administration now governs Tigray in coordination with Addis Ababa.",
+        "is_acled_data": false,
+        "reasoning": "The evidence describes political developments (delisting TPLF as a terrorist organization, release of leaders, formation of an interim administration) which are policy/government actions and governance changes, not specific conflict events, counts, or actor-level event data typically captured by ACLED. It is general political context, not derived from ACLED datasets.",
+        "source_context": "Humanitarian and Political Challenges section; hoa.boell.org"
+      },
+      {
+        "evidence": "Disarmament and reintegration of Tigrayan fighters stalled because Eritrean and Amhara forces have not withdrawn as envisioned in the Pretoria agreement.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general analytical claim about DDR stalling due to non-withdrawal by Eritrean and Amhara forces, referencing implementation of the Pretoria agreement. It does not cite specific ACLED event data, counts, fatalities, or actor-coded incidents and instead reflects policy/compliance analysis. Therefore, it is not derived from ACLED data.",
+        "source_context": "Humanitarian and Political Challenges section; hoa.boell.org"
+      },
+      {
+        "evidence": "Transitional justice and accountability for wartime atrocities have made little progress, with hesitancy from both federal and Tigray authorities to fully investigate or prosecute.",
+        "is_acled_data": false,
+        "reasoning": "The statement concerns transitional justice and accountability progress and government hesitancy to investigate/prosecute, which is general political/legal analysis rather than event-based conflict data (counts, fatalities, locations, actor events) that ACLED provides.",
+        "source_context": "Humanitarian and Political Challenges section; hoa.boell.org"
+      },
+      {
+        "evidence": "The political status of Western Tigray remains unresolved; the peace deal sidestepped administration of those contested districts.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general political analysis about unresolved administration of Western Tigray and the peace deal’s scope, not specific conflict event data, statistics, or ACLED-attributed metrics.",
+        "source_context": "Humanitarian and Political Challenges section; hoa.boell.org"
+      },
+      {
+        "evidence": "The federal government proposed a future referendum in Western Tigray after displaced people return, but Amhara militias resist Tigrayan returns or changes to the status quo.",
+        "is_acled_data": false,
+        "reasoning": "The statement describes a policy proposal (future referendum) and political resistance by militias to returns or status changes. This is a policy/diplomatic position and general analysis, not specific conflict events, actor event data, or ACLED-derived statistics. Therefore it is not ACLED data.",
+        "source_context": "Humanitarian and Political Challenges section; hoa.boell.org"
+      },
+      {
+        "evidence": "Tigray lacks representation in Ethiopia’s parliament and cannot hold regional elections until its territory is fully reinstated, increasing political impatience.",
+        "is_acled_data": false,
+        "reasoning": "The statement concerns political representation and electoral constraints, which are governance and policy matters rather than conflict event data. It does not reference events, fatalities, actors, or geographic conflict patterns attributable to ACLED.",
+        "source_context": "Humanitarian and Political Challenges section; hoa.boell.org"
+      },
+      {
+        "evidence": "Analysts warn that unresolved withdrawals, IDP returns, and boundary restoration are critical to sustained peace, with Eritrean and hardline Amhara actors holding effective veto power.",
+        "is_acled_data": false,
+        "reasoning": "The statement is analytical commentary about political dynamics and peace process obstacles (withdrawals, IDP returns, boundary restoration, veto power of Eritrean and Amhara actors). It does not reference specific conflict events, counts, locations, fatalities, or ACLED-derived trend analysis, nor is it attributed to ACLED.",
+        "source_context": "Humanitarian and Political Challenges section; hoa.boell.org"
+      },
+      {
+        "evidence": "While the truce holds and no large offensives have resumed, peace remains fragile and incomplete due to low-level conflicts, humanitarian devastation, and political uncertainties.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general assessment about the truce holding, fragility of peace, and humanitarian and political conditions without citing specific event counts, actor data, locations, fatalities, or trends attributable to ACLED. It reads as qualitative commentary rather than ACLED-derived metrics or event data.",
+        "source_context": "Conclusion of Humanitarian and Political Challenges section; adf-magazine.com and hoa.boell.org"
+      },
+      {
+        "evidence": "The status of conflict in Tigray after Pretoria is best described as a tenuous ceasefire: the war ended, but full peace and security depend on complete implementation of the agreement.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general analytical characterization of the post-agreement situation (tenuous ceasefire, dependence on implementation) and does not cite or present event counts, fatalities, locations, actor data, or ACLED-derived trends. It is not tied to specific ACLED event data.",
+        "source_context": "Overall conclusion; adf-magazine.com and hoa.boell.org"
+      }
+    ],
+    "insights": [
+      {
+        "insight": "The November 2022 Pretoria peace agreement ended the two-year Tigray war with a permanent cessation of hostilities, halting large-scale combat in the region.",
+        "context": "Ceasefire Ends the War section; references to hoa.boell.org and adf-magazine.com"
+      },
+      {
+        "insight": "Federal authority was re-established in Tigray through an interim administration led by TPLF officials, partially restoring banking, electricity, and communications.",
+        "context": "Ceasefire Ends the War section; hoa.boell.org"
+      },
+      {
+        "insight": "Humanitarian aid resumed after the Pretoria deal, contributing to normalization between Tigray and Ethiopia’s federal government.",
+        "context": "Ceasefire Ends the War section; hoa.boell.org"
+      },
+      {
+        "insight": "Conflict events and fatalities in Tigray sharply declined post-agreement, with recorded deaths dropping to the low hundreds compared to thousands during the war.",
+        "context": "Ceasefire Ends the War section; adf-magazine.com"
+      },
+      {
+        "insight": "No major new offensives have been reported in Tigray since the Pretoria agreement took effect.",
+        "context": "Ceasefire Ends the War section; adf-magazine.com"
+      },
+      {
+        "insight": "Eritrean troops were not party to the Pretoria deal and have not fully withdrawn, continuing to occupy parts of northern Tigray’s border areas.",
+        "context": "Ongoing Insecurity and Militias section; adf-magazine.com"
+      },
+      {
+        "insight": "Eritrean forces in occupied border zones block roads, control trade, and are accused of kidnappings and abuses against residents.",
+        "context": "Ongoing Insecurity and Militias section; adf-magazine.com"
+      },
+      {
+        "insight": "Amhara regional militias and authorities still control disputed areas of western and southern Tigray seized during the war, claiming them as historically Amhara land.",
+        "context": "Ongoing Insecurity and Militias section; hoa.boell.org"
+      },
+      {
+        "insight": "Over one million Tigrayan civilians remain displaced, unable to return to contested areas like western Tigray and Irob due to insecurity.",
+        "context": "Ongoing Insecurity and Militias section; adf-magazine.com and dw.com"
+      },
+      {
+        "insight": "Reports indicate ongoing expulsions of ethnic Tigrayans from contested territories by Amhara forces despite the peace deal.",
+        "context": "Ongoing Insecurity and Militias section; hoa.boell.org"
+      },
+      {
+        "insight": "Targeted violence, including alleged ethnic killings and sexual violence, persists in Tigray despite the ceasefire, according to a UN genocide prevention advisor.",
+        "context": "Ongoing Insecurity and Militias section; adf-magazine.com"
+      },
+      {
+        "insight": "Local Tigrayan leaders and civil society argue Pretoria stopped gunfire but civilians are still unsafe, describing ongoing atrocities in certain areas.",
+        "context": "Ongoing Insecurity and Militias section; dw.com"
+      },
+      {
+        "insight": "Sporadic clashes occur between Tigrayan actors and unauthorized militias; Tigrayan forces remain partially mobilized, delaying full disarmament until Eritrean and Amhara withdrawal.",
+        "context": "Ongoing Insecurity and Militias section; hoa.boell.org"
+      },
+      {
+        "insight": "Ninety percent of Tigray’s population relies on food aid more than a year after the ceasefire, indicating a severe humanitarian crisis.",
+        "context": "Humanitarian and Political Challenges section; adf-magazine.com"
+      },
+      {
+        "insight": "More than one million people remain internally displaced in Tigray, facing hunger and disease in camps.",
+        "context": "Humanitarian and Political Challenges section; adf-magazine.com"
+      },
+      {
+        "insight": "In the first nine months post-conflict, starvation caused the majority of deaths in Tigray, highlighting ongoing humanitarian suffering.",
+        "context": "Humanitarian and Political Challenges section; adf-magazine.com"
+      },
+      {
+        "insight": "Approximately 80% of Tigray’s health, education, and water infrastructure was destroyed or looted during the war, and reconstruction is slow and underfunded.",
+        "context": "Humanitarian and Political Challenges section; adf-magazine.com"
+      },
+      {
+        "insight": "Ethiopia’s 2023 federal budget allocated less to Tigray than pre-war levels and lacked dedicated reconstruction funds, fueling public frustration and protests.",
+        "context": "Humanitarian and Political Challenges section; adf-magazine.com"
+      },
+      {
+        "insight": "The TPLF was removed from Ethiopia’s terror list, its leaders were freed, and an inclusive Interim Regional Administration now governs Tigray in coordination with Addis Ababa.",
+        "context": "Humanitarian and Political Challenges section; hoa.boell.org"
+      },
+      {
+        "insight": "Disarmament and reintegration of Tigrayan fighters stalled because Eritrean and Amhara forces have not withdrawn as envisioned in the Pretoria agreement.",
+        "context": "Humanitarian and Political Challenges section; hoa.boell.org"
+      },
+      {
+        "insight": "Transitional justice and accountability for wartime atrocities have made little progress, with hesitancy from both federal and Tigray authorities to fully investigate or prosecute.",
+        "context": "Humanitarian and Political Challenges section; hoa.boell.org"
+      },
+      {
+        "insight": "The political status of Western Tigray remains unresolved; the peace deal sidestepped administration of those contested districts.",
+        "context": "Humanitarian and Political Challenges section; hoa.boell.org"
+      },
+      {
+        "insight": "The federal government proposed a future referendum in Western Tigray after displaced people return, but Amhara militias resist Tigrayan returns or changes to the status quo.",
+        "context": "Humanitarian and Political Challenges section; hoa.boell.org"
+      },
+      {
+        "insight": "Tigray lacks representation in Ethiopia’s parliament and cannot hold regional elections until its territory is fully reinstated, increasing political impatience.",
+        "context": "Humanitarian and Political Challenges section; hoa.boell.org"
+      },
+      {
+        "insight": "Analysts warn that unresolved withdrawals, IDP returns, and boundary restoration are critical to sustained peace, with Eritrean and hardline Amhara actors holding effective veto power.",
+        "context": "Humanitarian and Political Challenges section; hoa.boell.org"
+      },
+      {
+        "insight": "While the truce holds and no large offensives have resumed, peace remains fragile and incomplete due to low-level conflicts, humanitarian devastation, and political uncertainties.",
+        "context": "Conclusion of Humanitarian and Political Challenges section; adf-magazine.com and hoa.boell.org"
+      },
+      {
+        "insight": "The status of conflict in Tigray after Pretoria is best described as a tenuous ceasefire: the war ended, but full peace and security depend on complete implementation of the agreement.",
+        "context": "Overall conclusion; adf-magazine.com and hoa.boell.org"
+      }
+    ],
+    "prompt": "What is the status of conflicts in Tigray after the Pretoria agreement? Focus on October 2024."
+  },
+  "costorm": {
+    "total_insights": 25,
+    "total_classified": 25,
+    "acled_count": 12,
+    "non_acled_count": 13,
+    "pct_acled": 0.48,
+    "details": [
+      {
+        "evidence": "Large-scale warfare in Tigray has dramatically subsided by October 2024 compared to October 2022, with incidents dropping from 59 events and 321 fatalities to 9 events and 8 deaths.",
+        "is_acled_data": true,
+        "reasoning": "The evidence cites specific counts of events and fatalities over time in a defined region, comparing October 2022 to October 2024. Event and fatality counts and temporal trend analysis are core ACLED outputs, suggesting this is derived from ACLED data.",
+        "source_context": "Introduction; comparative statistics citing October 2022 vs October 2024, referencing Pretoria Agreement effect."
+      },
+      {
+        "evidence": "The reduction in violence represents a structural break: October political-violence events fell well below both wartime and pre-war averages, with only 2 political-violence incidents recorded in October 2024.",
+        "is_acled_data": true,
+        "reasoning": "Mentions specific monthly count of political-violence events and comparison to wartime and pre-war averages, which matches ACLED’s event count/time-series metrics and conflict trend analysis derived from ACLED data.",
+        "source_context": "From All-Out War to a Brittle Peace; comparison of 2019–2022 October averages vs October 2024."
+      },
+      {
+        "evidence": "Lethality has collapsed: after zero fatalities in September 2024 and one in October 2023, October 2024 recorded only three political-violence deaths, indicating persistently low-level lethality.",
+        "is_acled_data": true,
+        "reasoning": "Statement cites monthly political-violence fatality counts and trends (zero in Sept 2024, one in Oct 2023, three in Oct 2024), which are core ACLED metrics (event-based fatality data and temporal patterns).",
+        "source_context": "From All-Out War to a Brittle Peace; fatalities trend across months and years."
+      },
+      {
+        "evidence": "Violent incidents in October 2024 cluster temporally at the start and end of the month, with mid-October showing more events but no deaths, reflecting uneven temporal distribution of harm.",
+        "is_acled_data": true,
+        "reasoning": "The statement references temporal clustering of violent incidents within a specific month and notes fatalities (none in mid-October), which aligns with ACLED’s event counts, temporal pattern analysis, and fatality data. This is characteristic of insights derived from ACLED event data and their temporal distribution of harm.",
+        "source_context": "From All-Out War to a Brittle Peace; weekly and temporal clustering observations."
+      },
+      {
+        "evidence": "Institutions, policing, and governance disputes have replaced frontlines as primary arenas of contention in Tigray’s post-war phase.",
+        "is_acled_data": false,
+        "reasoning": "The statement is general analytical commentary about shifting arenas of contention (institutions, policing, governance) and does not reference specific ACLED event data, counts, actor details, or ACLED attribution.",
+        "source_context": "From All-Out War to a Brittle Peace; shift from battlefield dynamics to institutional contestation."
+      },
+      {
+        "evidence": "A protest crackdown in Alamata on October 1, where Tigray-affiliated police used live fire, caused two deaths and at least seven injuries, highlighting uneven and sometimes lethal protest policing.",
+        "is_acled_data": true,
+        "reasoning": "The evidence describes a specific protest event with date, location (Alamata), actors (Tigray-affiliated police), tactics (live fire), and casualties (two deaths, at least seven injuries), which aligns with ACLED-style event reporting on riots/protests and violence against civilians with fatality counts and actor details.",
+        "source_context": "Edges of the Map; detailed account of Alamata protest over curriculum and language policy."
+      },
+      {
+        "evidence": "An explosive remnant of war detonated in Yechilay (Abergele) on October 31, killing three members of a family, underscoring ongoing civilian risks from ERW despite the end of active hostilities.",
+        "is_acled_data": true,
+        "reasoning": "The evidence describes a specific conflict event (an ERW explosion in Yechilay on Oct 31 with three fatalities), including date, location, type of event, and casualties—details that align with ACLED’s event-level data on explosions/remote violence and fatality counts.",
+        "source_context": "From All-Out War to a Brittle Peace and Edges of the Map; ERW incident in Central Tigray."
+      },
+      {
+        "evidence": "No Eritrean-linked incidents were recorded in Tigray during October 2024; documented frictions involved domestic Ethiopian actors.",
+        "is_acled_data": true,
+        "reasoning": "The statement references incident recording within a specific month and region and distinguishes actors involved, aligning with ACLED event/actor-level data and temporal patterns. It mirrors ACLED-style reporting of recorded incidents and actor attribution.",
+        "source_context": "From All-Out War to a Brittle Peace; explicit absence of Eritrean involvement in the month’s events."
+      },
+      {
+        "evidence": "October’s fatalities were confined to three localities—Alamata, Humera, and Yechilay—illustrating a pattern of high lethality but low frequency localized events.",
+        "is_acled_data": true,
+        "reasoning": "The statement specifies fatalities confined to particular localities and implies event frequency and lethality patterns in October, which aligns with ACLED’s fatality counts, geographic event locations, and temporal pattern analysis derived from event data.",
+        "source_context": "Edges of the Map; spatial concentration and location-specific breakdown."
+      },
+      {
+        "evidence": "A single mid-October clash near Humera between Fano militia and federal troops caused three deaths but did not repeat, suggesting an isolated confrontation rather than a renewed front.",
+        "is_acled_data": true,
+        "reasoning": "The evidence cites a specific conflict event with date context (mid-October), location (near Humera), actors involved (Fano militia and federal troops), and fatalities (three deaths), which aligns with ACLED-style event data detailing battles and fatality counts. It presents a single incident and its characteristics consistent with ACLED event records.",
+        "source_context": "Edges of the Map; actor-pair analysis of Fano vs ENDF near Humera."
+      },
+      {
+        "evidence": "Western Tigray remains a contested security grey area, with uneven volatility between Western and North Western zones despite the formal cease-fire.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general qualitative assessment about a contested area and uneven volatility without citing specific event counts, locations, dates, actors, or ACLED-derived metrics. It reads as analysis rather than explicit ACLED event data or trend figures.",
+        "source_context": "Edges of the Map; 2024 pattern comparison across Western and North Western Tigray."
+      },
+      {
+        "evidence": "Mekelle hosted the highest number of non-lethal political events—protests, reshuffles, religious moves, detainee releases—indicating political turbulence without fatalities in the capital.",
+        "is_acled_data": true,
+        "reasoning": "Mentions counts and types of political events (protests, reshuffles, religious moves, detainee releases) in a specific location (Mekelle) and characterizes them as non-lethal—aligning with ACLED event categories (riots/protests, strategic developments) and fatality data. This is consistent with ACLED-derived event and location analysis.",
+        "source_context": "Mekelle’s Quiet Turbulence; city-level event mix and outcomes."
+      },
+      {
+        "evidence": "Protests in Mekelle (housing scheme and factory wage grievances) were managed without lethal force or reported arrests, contrasting with lethal policing in Alamata.",
+        "is_acled_data": false,
+        "reasoning": "The evidence describes protests managed without lethal force or arrests in Mekelle and contrasts with lethal policing in Alamata, but it is presented as a narrative comparison without citing ACLED event records, counts, or actor-coded incidents. No explicit attribution to ACLED data or use of ACLED-specific metrics is provided.",
+        "source_context": "Mekelle’s Quiet Turbulence; protest policing differentials across locations."
+      },
+      {
+        "evidence": "Over 440 former ENDF soldiers were released by the Tigray Interim Regional Administration in late October as a Pretoria-aligned confidence-building measure, though broader justice efforts remain limited.",
+        "is_acled_data": false,
+        "reasoning": "The evidence describes release of former ENDF soldiers by a regional administration as a confidence-building measure and comments on justice efforts. This is a policy/government action and political development rather than an ACLED-coded conflict event metric (counts, fatalities, actor event data). Unless explicitly tied to an ACLED event record, such releases and broader justice efforts are not ACLED data.",
+        "source_context": "Mekelle’s Quiet Turbulence; detainee release and its relation to the Pretoria framework."
+      },
+      {
+        "evidence": "A TPLF faction led by Debretsion Gebremichael announced the removal of interim president Getachew Reda and multiple officials on October 7, signaling internal power realignment within Pretoria-implementation institutions.",
+        "is_acled_data": false,
+        "reasoning": "The evidence describes a political announcement and leadership change within TPLF/Pretoria-implementation institutions, which is a policy/political statement rather than an ACLED-coded conflict event (battles, violence, protests) or statistics derived from ACLED. No mention of ACLED event data, fatalities, or actor-level event reporting is present.",
+        "source_context": "Mekelle’s Quiet Turbulence; intra-Tigray leadership reshuffle."
+      },
+      {
+        "evidence": "On October 23, bishops in Mekelle declared a Tigray Orthodox Tewahdo Church Synod, defying the national Holy Synod, signaling ecclesiastical and political-culture realignment toward Tigrayan autonomy.",
+        "is_acled_data": false,
+        "reasoning": "The evidence describes a church synod declaration and political-cultural realignment, which is a policy/religious institutional action and analytical characterization. It does not reference specific ACLED event data (e.g., conflict incidents, battles, protests, fatalities, or actor-level events) nor attribute information to ACLED.",
+        "source_context": "Mekelle’s Quiet Turbulence; religious institutional shifts."
+      },
+      {
+        "evidence": "Humanitarian needs remain acute in Tigray—severe food insecurity, mass displacement, and damaged infrastructure persist—despite the end of large-scale fighting.",
+        "is_acled_data": false,
+        "reasoning": "The evidence discusses humanitarian conditions—food insecurity, displacement, and infrastructure damage—without referencing specific conflict events, counts, fatalities, or ACLED-derived metrics. These are typically humanitarian assessments, not ACLED event data.",
+        "source_context": "Peace Without Security; overview of humanitarian strain two years after Pretoria."
+      },
+      {
+        "evidence": "Gender-based violence needs far outstrip available services, with over 7 million people estimated to require GBV-related support across northern Ethiopia, including Tigray.",
+        "is_acled_data": false,
+        "reasoning": "The evidence cites humanitarian needs for GBV-related support and a population figure across northern Ethiopia. This is a humanitarian statistic, likely from UN/OCHA or similar sources, not ACLED’s event-based conflict data or analyses.",
+        "source_context": "Peace Without Security; GBV caseload and service gaps."
+      },
+      {
+        "evidence": "A conflict-related sexual violence case near Maychew involved members of the Tigray Defense Force raping a girl, highlighting that domestic forces can perpetrate abuses post-Pretoria.",
+        "is_acled_data": true,
+        "reasoning": "Describes a specific violence-against-civilians incident with location (near Maychew), perpetrator (Tigray Defense Force), victim type (a girl), and event detail (rape). Such incident-level actor/location/event data aligns with ACLED event descriptions and VAC records, fitting ACLED’s scope.",
+        "source_context": "Peace Without Security; specific GBV incident implicating TDF."
+      },
+      {
+        "evidence": "Residual explosive remnants of war continue to impose lethal risks on civilians, compounding hardship for already vulnerable communities.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general qualitative observation about explosive remnants of war posing risks to civilians; it does not reference specific events, counts, locations, fatalities, or actor-level data tied to ACLED. It reads as humanitarian/contextual commentary rather than ACLED-derived event data.",
+        "source_context": "Peace Without Security; emphasis on ERW impacts linked to the Abergele incident."
+      },
+      {
+        "evidence": "Women’s economic reintegration lags; barriers to employment, capital, and livelihoods keep many in precarious situations that increase exposure to violence and exploitation.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general socioeconomic and protection analysis about women’s economic reintegration and exposure to violence; it does not reference specific ACLED event data, counts, locations, or actor-level incidents. It reflects qualitative commentary rather than ACLED-derived metrics or event-based evidence.",
+        "source_context": "Peace Without Security; socio-economic challenges for women."
+      },
+      {
+        "evidence": "October 2024’s event profile in Tigray is characterized by low overall frequency but localized lethal spikes, with key risks at the periphery (Alamata, Humera, Abergele) and political turbulence centered in Mekelle.",
+        "is_acled_data": true,
+        "reasoning": "The statement references an event profile for October 2024, noting frequency, localized lethal spikes, specific hotspot locations (Alamata, Humera, Abergele, Mekelle), and spatial distribution of risks—elements consistent with ACLED’s event counts, fatalities, and geographic subnational breakdowns and temporal trend analysis. While phrased analytically, it is grounded in characteristics typical of ACLED event and location-based data.",
+        "source_context": "Synthesis across sections; spatial center-periphery dynamics and incident mix."
+      },
+      {
+        "evidence": "Pretoria has succeeded in halting large-scale, multi-actor warfare, but delayed implementation, ambiguous provisions, and unresolved territorial/security questions sustain a brittle peace.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general analytical assessment about the peace process and its fragility, not citing specific ACLED event counts, actor data, locations, or temporal trends. It lacks explicit ACLED attribution and does not reference concrete conflict event data.",
+        "source_context": "Conclusion and earlier analysis; assessment of Pretoria’s achievements and limits."
+      },
+      {
+        "evidence": "The primary security and governance challenges in October 2024 are internal—protest management, policing standards, ERW clearance, service delivery, and institutional accountability—rather than interstate aggression.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a qualitative assessment about governance and security priorities, not tied to specific ACLED event counts, actor data, or conflict metrics. It reads as general analysis rather than evidence derived from ACLED event data or indicators.",
+        "source_context": "Conclusion; shift from external to domestic determinants of stability."
+      },
+      {
+        "evidence": "The durability of peace will hinge on whether authorities can prevent localized incidents from escalating while advancing inclusive governance and protection in hotspots like Alamata, Humera, and Abergele.",
+        "is_acled_data": false,
+        "reasoning": "The statement is general analytical commentary about conditions for sustaining peace and mentions hotspots without referencing specific events, counts, trends, or actor-level data attributed to ACLED.",
+        "source_context": "Conclusion; policy-implication framing tied to localized risks."
+      }
+    ],
+    "insights": [
+      {
+        "insight": "Large-scale warfare in Tigray has dramatically subsided by October 2024 compared to October 2022, with incidents dropping from 59 events and 321 fatalities to 9 events and 8 deaths.",
+        "context": "Introduction; comparative statistics citing October 2022 vs October 2024, referencing Pretoria Agreement effect."
+      },
+      {
+        "insight": "The reduction in violence represents a structural break: October political-violence events fell well below both wartime and pre-war averages, with only 2 political-violence incidents recorded in October 2024.",
+        "context": "From All-Out War to a Brittle Peace; comparison of 2019–2022 October averages vs October 2024."
+      },
+      {
+        "insight": "Lethality has collapsed: after zero fatalities in September 2024 and one in October 2023, October 2024 recorded only three political-violence deaths, indicating persistently low-level lethality.",
+        "context": "From All-Out War to a Brittle Peace; fatalities trend across months and years."
+      },
+      {
+        "insight": "Violent incidents in October 2024 cluster temporally at the start and end of the month, with mid-October showing more events but no deaths, reflecting uneven temporal distribution of harm.",
+        "context": "From All-Out War to a Brittle Peace; weekly and temporal clustering observations."
+      },
+      {
+        "insight": "Institutions, policing, and governance disputes have replaced frontlines as primary arenas of contention in Tigray’s post-war phase.",
+        "context": "From All-Out War to a Brittle Peace; shift from battlefield dynamics to institutional contestation."
+      },
+      {
+        "insight": "A protest crackdown in Alamata on October 1, where Tigray-affiliated police used live fire, caused two deaths and at least seven injuries, highlighting uneven and sometimes lethal protest policing.",
+        "context": "Edges of the Map; detailed account of Alamata protest over curriculum and language policy."
+      },
+      {
+        "insight": "An explosive remnant of war detonated in Yechilay (Abergele) on October 31, killing three members of a family, underscoring ongoing civilian risks from ERW despite the end of active hostilities.",
+        "context": "From All-Out War to a Brittle Peace and Edges of the Map; ERW incident in Central Tigray."
+      },
+      {
+        "insight": "No Eritrean-linked incidents were recorded in Tigray during October 2024; documented frictions involved domestic Ethiopian actors.",
+        "context": "From All-Out War to a Brittle Peace; explicit absence of Eritrean involvement in the month’s events."
+      },
+      {
+        "insight": "October’s fatalities were confined to three localities—Alamata, Humera, and Yechilay—illustrating a pattern of high lethality but low frequency localized events.",
+        "context": "Edges of the Map; spatial concentration and location-specific breakdown."
+      },
+      {
+        "insight": "A single mid-October clash near Humera between Fano militia and federal troops caused three deaths but did not repeat, suggesting an isolated confrontation rather than a renewed front.",
+        "context": "Edges of the Map; actor-pair analysis of Fano vs ENDF near Humera."
+      },
+      {
+        "insight": "Western Tigray remains a contested security grey area, with uneven volatility between Western and North Western zones despite the formal cease-fire.",
+        "context": "Edges of the Map; 2024 pattern comparison across Western and North Western Tigray."
+      },
+      {
+        "insight": "Mekelle hosted the highest number of non-lethal political events—protests, reshuffles, religious moves, detainee releases—indicating political turbulence without fatalities in the capital.",
+        "context": "Mekelle’s Quiet Turbulence; city-level event mix and outcomes."
+      },
+      {
+        "insight": "Protests in Mekelle (housing scheme and factory wage grievances) were managed without lethal force or reported arrests, contrasting with lethal policing in Alamata.",
+        "context": "Mekelle’s Quiet Turbulence; protest policing differentials across locations."
+      },
+      {
+        "insight": "Over 440 former ENDF soldiers were released by the Tigray Interim Regional Administration in late October as a Pretoria-aligned confidence-building measure, though broader justice efforts remain limited.",
+        "context": "Mekelle’s Quiet Turbulence; detainee release and its relation to the Pretoria framework."
+      },
+      {
+        "insight": "A TPLF faction led by Debretsion Gebremichael announced the removal of interim president Getachew Reda and multiple officials on October 7, signaling internal power realignment within Pretoria-implementation institutions.",
+        "context": "Mekelle’s Quiet Turbulence; intra-Tigray leadership reshuffle."
+      },
+      {
+        "insight": "On October 23, bishops in Mekelle declared a Tigray Orthodox Tewahdo Church Synod, defying the national Holy Synod, signaling ecclesiastical and political-culture realignment toward Tigrayan autonomy.",
+        "context": "Mekelle’s Quiet Turbulence; religious institutional shifts."
+      },
+      {
+        "insight": "Humanitarian needs remain acute in Tigray—severe food insecurity, mass displacement, and damaged infrastructure persist—despite the end of large-scale fighting.",
+        "context": "Peace Without Security; overview of humanitarian strain two years after Pretoria."
+      },
+      {
+        "insight": "Gender-based violence needs far outstrip available services, with over 7 million people estimated to require GBV-related support across northern Ethiopia, including Tigray.",
+        "context": "Peace Without Security; GBV caseload and service gaps."
+      },
+      {
+        "insight": "A conflict-related sexual violence case near Maychew involved members of the Tigray Defense Force raping a girl, highlighting that domestic forces can perpetrate abuses post-Pretoria.",
+        "context": "Peace Without Security; specific GBV incident implicating TDF."
+      },
+      {
+        "insight": "Residual explosive remnants of war continue to impose lethal risks on civilians, compounding hardship for already vulnerable communities.",
+        "context": "Peace Without Security; emphasis on ERW impacts linked to the Abergele incident."
+      },
+      {
+        "insight": "Women’s economic reintegration lags; barriers to employment, capital, and livelihoods keep many in precarious situations that increase exposure to violence and exploitation.",
+        "context": "Peace Without Security; socio-economic challenges for women."
+      },
+      {
+        "insight": "October 2024’s event profile in Tigray is characterized by low overall frequency but localized lethal spikes, with key risks at the periphery (Alamata, Humera, Abergele) and political turbulence centered in Mekelle.",
+        "context": "Synthesis across sections; spatial center-periphery dynamics and incident mix."
+      },
+      {
+        "insight": "Pretoria has succeeded in halting large-scale, multi-actor warfare, but delayed implementation, ambiguous provisions, and unresolved territorial/security questions sustain a brittle peace.",
+        "context": "Conclusion and earlier analysis; assessment of Pretoria’s achievements and limits."
+      },
+      {
+        "insight": "The primary security and governance challenges in October 2024 are internal—protest management, policing standards, ERW clearance, service delivery, and institutional accountability—rather than interstate aggression.",
+        "context": "Conclusion; shift from external to domestic determinants of stability."
+      },
+      {
+        "insight": "The durability of peace will hinge on whether authorities can prevent localized incidents from escalating while advancing inclusive governance and protection in hotspots like Alamata, Humera, and Abergele.",
+        "context": "Conclusion; policy-implication framing tied to localized risks."
+      }
+    ],
+    "prompt": "What is the status of conflicts in Tigray after the Pretoria agreement? Focus on October 2024."
+  }
+}

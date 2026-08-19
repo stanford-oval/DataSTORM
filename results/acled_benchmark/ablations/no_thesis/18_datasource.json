@@ -1,0 +1,292 @@
+{
+  "total_insights": 28,
+  "total_classified": 28,
+  "acled_count": 17,
+  "non_acled_count": 11,
+  "pct_acled": 0.6071428571428571,
+  "details": [
+    {
+      "evidence": "Rwanda Defence Force (RDF) activity is sustained and intensifying in Nord-Kivu (DRC) and Cabo Delgado (Mozambique), with high event volumes but generally low per-event lethality in clashes and concentrated fatalities in targeted modalities like attacks and shelling/air/drone strikes.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references event volumes, per-event lethality, fatalities concentrated in specific event types (attacks, shelling/air/drone strikes), and specific geographies—features consistent with ACLED’s event-level data, actor activity, modality categories, and lethality metrics derived from ACLED conflict event records.",
+      "source_context": "Key Findings summary of activity patterns and lethality distribution."
+    },
+    {
+      "evidence": "RDF deployments correlate with displacement patterns in North Kivu, shifting from a weakly negative co-movement pre-2021 to a moderately positive correlation post-2021, indicating operations and population movements became intertwined.",
+      "is_acled_data": false,
+      "reasoning": "The evidence discusses correlations between RDF deployments and displacement patterns, which implies humanitarian displacement data (e.g., UNHCR/OCHA) and military deployment info rather than ACLED event data. It does not reference ACLED-specific metrics (event counts, fatalities, actor events) or attribution, so it is not derived from ACLED.",
+      "source_context": "When troops move, people move section citing correlation shift from about -0.17 to 0.44 [7]."
+    },
+    {
+      "evidence": "From 2022–2024 in North Kivu, monthly RDF-linked events and displacement mentions tracked at roughly r=0.59, with simultaneous above-median peaks clustered in February–May and December 2024.",
+      "is_acled_data": true,
+      "reasoning": "Mentions RDF-linked events over time in North Kivu and computes correlation (r=0.59) with displacement mentions, highlighting monthly temporal peaks. The event counts and temporal trend analysis of actor-linked conflict events are characteristic of ACLED data; while displacement mentions may come from elsewhere, the core measure (RDF-linked events and their timing) and the derived correlation/trend are based on ACLED event data.",
+      "source_context": "When troops move, people move section detailing r≈0.59 and peak months [8]."
+    },
+    {
+      "evidence": "In high-activity months in 2024, displacement mentions often lagged or were smaller relative to RDF-linked events—ratios near 1 in late 2023 but around one-third in February and May 2024—suggesting rapid operations, containment effects, or reporting latency.",
+      "is_acled_data": false,
+      "reasoning": "The evidence discusses ratios between “displacement mentions” and RDF-linked events, suggesting lags and containment effects. While RDF-linked event counts could come from ACLED, the focus on displacement mentions and derived ratios implies integration with humanitarian/displacement reporting, not purely ACLED event data. Without explicit attribution to ACLED and given reliance on displacement metrics, this is not clearly ACLED-derived.",
+      "source_context": "When troops move, people move section discussing ratio patterns and implications [9]."
+    },
+    {
+      "evidence": "Post-RDF deployment in North Kivu, co-movement between RDF-linked activity and violence against civilians turned from slightly positive (~+0.19) to moderately negative (~-0.23), implying deterrence effects or shifts toward positional battles.",
+      "is_acled_data": true,
+      "reasoning": "Mentions co-movement between RDF-linked activity and violence against civilians with quantified correlation-like values before and after a deployment. This reflects actor-level event data and temporal trend analysis of violence against civilians—both are core ACLED data types and typical of analyses derived from ACLED event datasets.",
+      "source_context": "When troops move, people move section on changing correlation with civilian targeting [7]."
+    },
+    {
+      "evidence": "On the Goma–Sake axis (Rutshuru–Masisi–Nyiragongo corridor), RDF-linked events surged from 2022–2024, clustering around Sake, Mushaki, Kibumba, and Kilolirwe, with dense runs and multi-incident days in 2024.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific conflict event clustering, temporal surge (2022–2024), dense runs, and multi-incident days along precise locations—hallmarks of ACLED event-level geographic and temporal trend analysis. This aligns with ACLED’s event counts, locations, and time-series patterns for armed group activity.",
+      "source_context": "A quiet-loud battlefield section covering location clustering and temporal spikes [1]."
+    },
+    {
+      "evidence": "Despite frequent RDF-linked clashes in Nord-Kivu, most record zero fatalities, indicating a tactical emphasis on maneuver, fixing, and pressure rather than overruns.",
+      "is_acled_data": true,
+      "reasoning": "Mentions RDF-linked clashes in Nord-Kivu with most recording zero fatalities. This references event-level battle data with fatality counts and location—core ACLED variables—suggesting synthesis from ACLED event records and their reported fatalities.",
+      "source_context": "A quiet-loud battlefield section describing low per-event lethality in clashes [2]."
+    },
+    {
+      "evidence": "Fatalities in North Kivu concentrate in fewer modalities—particularly attacks and shelling/air-drone strikes—despite these having lower event volumes than clashes.",
+      "is_acled_data": true,
+      "reasoning": "The statement compares event volumes by modality (clashes vs. attacks and shelling/air/drone strikes) and links them to fatality concentrations in a specific subnational area (North Kivu). This aligns with ACLED’s event-type categories, subnational geographic breakdowns, and fatality counts derived from conflict events, indicating it likely comes from ACLED-based analysis.",
+      "source_context": "A quiet-loud battlefield section outlining modality-specific lethality concentration [3][4][2]."
+    },
+    {
+      "evidence": "Sake exemplifies the ‘quiet-loud’ pattern: it has the most RDF-linked events, mostly non-fatal, while a small number of strikes account for most of its reported 71 deaths.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references counts of RDF-linked events, fatalities (71 deaths), and a pattern characterization across a specific location (Sake), which aligns with ACLED’s event-level data, fatality counts, actor-linked events, and location-based conflict analysis.",
+      "source_context": "A quiet-loud battlefield section with Sake’s event volume and death concentration [5]."
+    },
+    {
+      "evidence": "In 2024, Bahunde recorded more shelling and air/drone use with higher fatalities per incident compared to Goma and Rutshuru groupements, where such fire was less deadly per event.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites subnational locations (Bahunde, Goma, Rutshuru), event types (shelling, air/drone use), and compares fatalities per incident—metrics consistent with ACLED’s event-level data, geographic breakdowns, and fatality counts. This type of comparative conflict-event analysis is characteristic of insights derived from ACLED data.",
+      "source_context": "A quiet-loud battlefield section comparing groupement-level lethality in shelling/air-drone incidents [6]."
+    },
+    {
+      "evidence": "National-level sources tend to capture frequent low- or zero-fatality contacts, while subnational reporting highlights deadlier outliers, creating a perception of constant activity punctuated by lethal spikes.",
+      "is_acled_data": false,
+      "reasoning": "The evidence is a general methodological observation about differences between national vs. subnational reporting and resulting perceptions of activity. It does not reference specific ACLED event data, statistics, or actor-level information, nor is it attributed to ACLED.",
+      "source_context": "A quiet-loud battlefield section discussing source-driven perception and reporting patterns [1][5]."
+    },
+    {
+      "evidence": "RDF’s tactical model in North Kivu combines frequent low-lethality contacts with selective high-impact attacks or strikes, shaping front lines and civilian movement around Goma.",
+      "is_acled_data": false,
+      "reasoning": "The statement is an analytical description of tactics and effects on front lines and civilian movement, not citing specific event counts, fatalities, locations, or actor-coded events from ACLED. It reads as general strategic analysis rather than data explicitly derived from ACLED event records.",
+      "source_context": "A quiet-loud battlefield synthesis of tactical logic and humanitarian impact."
+    },
+    {
+      "evidence": "In Cabo Delgado, post-2021 RDF deployments show weak co-movement with displacement and a modest negative relationship with civilian targeting, with lethality clustering in clashes rather than attacks on civilians.",
+      "is_acled_data": true,
+      "reasoning": "The evidence discusses relationships between deployments, displacement, civilian targeting, and lethality patterns (clashes vs. attacks on civilians). References to civilian targeting, event types (clashes vs. attacks on civilians), and lethality clustering align with ACLED’s event-type and fatality data. While displacement often comes from humanitarian sources, the phrasing suggests correlation analysis using ACLED event categories and fatalities; thus it is likely derived at least in part from ACLED data.",
+      "source_context": "When troops move, people move section summarizing Cabo Delgado coupling and lethality pattern [7][11]."
+    },
+    {
+      "evidence": "RDF operations in Mozambique (2021–2024) are sustained and responsive, clustering in Mocímboa da Praia and Macomia, with an uptick in 2024; many engagements are battles with zero confirmed fatalities despite frequent contact.",
+      "is_acled_data": true,
+      "reasoning": "Mentions specific conflict event patterns: operations clustered in particular districts, temporal trend (uptick in 2024), event type characterization (battles), and fatality reporting (zero confirmed fatalities). These are hallmarks of ACLED event, location, time-series, and fatality datasets and typical ACLED-derived analysis.",
+      "source_context": "Exporting stability section describing spatial clusters and controlled lethality in Mozambique [12][13][14]."
+    },
+    {
+      "evidence": "RDF interoperability with Mozambique’s forces and SAMIM, maintained despite funding challenges, builds host-government dependence and converts reliability into political leverage for Kigali.",
+      "is_acled_data": false,
+      "reasoning": "The evidence is a qualitative geopolitical assessment about interoperability, funding challenges, and political leverage. It does not reference specific ACLED event data, counts, fatalities, locations, or actor-level event records, nor is it attributed to ACLED. This is analysis, not ACLED-derived data.",
+      "source_context": "Exporting stability section on interoperability and leverage [12][13][14]."
+    },
+    {
+      "evidence": "In the Central African Republic (CAR), 2021 RDF-tagged events largely overlap with Russian/Wagner activities, including government regains and helicopter-supported strikes, reflecting pragmatic alignment to secure priority zones.",
+      "is_acled_data": true,
+      "reasoning": "Mentions specific RDF-tagged events in CAR, overlaps with Russian/Wagner activities, and references event types like government regains and helicopter-supported strikes—this aligns with ACLED’s actor-level, event-type, and geographic event data and analysis of temporal/spatial overlap.",
+      "source_context": "Exporting stability section on RDF–Wagner co-presence and operations in CAR [15]."
+    },
+    {
+      "evidence": "Rwanda leverages expeditionary successes (Mozambique, CAR) to accrue soft-power dividends and deepen ties with host governments and external patrons, translating battlefield steadiness into diplomatic currency.",
+      "is_acled_data": false,
+      "reasoning": "The evidence is geopolitical analysis about Rwanda’s use of military deployments to build soft power and diplomatic ties. It does not reference specific ACLED event data (counts, locations, fatalities, actor-level events) or trends; it is interpretive commentary rather than data derived from ACLED.",
+      "source_context": "Exporting stability section linking operational outcomes to diplomatic gains."
+    },
+    {
+      "evidence": "Rwanda’s significant contributions to UN and African peace operations have enhanced its diplomatic standing, helping blunt censure over eastern Congo conduct and reinforcing a deterrent posture in the region.",
+      "is_acled_data": false,
+      "reasoning": "The statement is geopolitical analysis about Rwanda’s peacekeeping contributions affecting diplomatic standing and deterrence. It does not cite or rely on specific ACLED event data (counts, locations, fatalities, actor activity) and resembles general commentary rather than ACLED-derived metrics.",
+      "source_context": "From peacekeeper to power broker section on peacekeeping’s diplomatic effects [16]."
+    },
+    {
+      "evidence": "The RDF pairs military pressure with humanitarian/development initiatives, using peacekeeping and aid as force multipliers to legitimize hard-power moves and strengthen influence over threats like M23.",
+      "is_acled_data": false,
+      "reasoning": "The statement is analytical commentary about strategy (combining military pressure with humanitarian/development initiatives and using peacekeeping/aid to legitimize power). It does not cite event counts, fatalities, locations, or actor-specific event data tied to ACLED. Therefore, it is not derived from ACLED data.",
+      "source_context": "From peacekeeper to power broker section describing blend of tactics and community-facing programs [17]."
+    },
+    {
+      "evidence": "ACLED data (2022–2024) show RDF–FARDC incidents surging from 13 (2023) to 141 (2024) in adjacent areas, while fatalities remained comparable (29 in 2023 vs 22 in 2024), indicating frequent contact with restrained lethality.",
+      "is_acled_data": true,
+      "reasoning": "The evidence explicitly cites ACLED data (2022–2024) and presents event counts and fatalities for specific actors (RDF–FARDC) over time—metrics ACLED reports. This aligns with ACLED’s event and fatality data and temporal trend analysis.",
+      "source_context": "From peacekeeper to power broker section citing incident/fatality figures demonstrating deterrence-through-presence [18]."
+    },
+    {
+      "evidence": "In North Kivu, RDF-linked battles are common but usually non-lethal per event, whereas fewer incidents of violence against civilians and explosive attacks are deadlier, elevating escalation risks for nearby communities.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references event types (battles, violence against civilians, explosive attacks), their frequency and lethality in a specific subnational area (North Kivu), which aligns with ACLED’s event counts, actor-linked battles, and fatality patterns by location. This type of comparative event-type lethality and escalation risk assessment is commonly derived from ACLED’s disaggregated conflict event and fatality data.",
+      "source_context": "From peacekeeper to power broker section on modality-lethality differences and risk implications [19]."
+    },
+    {
+      "evidence": "Spatial patterns in North Kivu show Sake with both high event volume and high fatalities, Bwito and Bwisha with more lethal incidents, and urban Goma skewing toward non-lethal encounters.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references subnational locations (Sake, Bwito, Bwisha, Goma) with event volumes, fatalities, and lethality patterns—metrics ACLED provides (event counts, fatality counts, geographic breakdowns, and trend analysis). This aligns with ACLED’s event-based, location-specific data and analysis.",
+      "source_context": "From peacekeeper to power broker section detailing location-specific patterns [20][21]."
+    },
+    {
+      "evidence": "RDF-linked engagements overlap with SADC and EAC forces around Mubambiro and Sake; a June 2024 shelling in Sake killed two South African soldiers and injured twenty, highlighting risks of flashpoints with multinational counterparts.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites a specific conflict event with location and date (June 2024 shelling in Sake), casualties (two killed, twenty injured), and actors (RDF-linked, SADC and EAC forces), which aligns with ACLED’s event-level data on battles/explosions, actor activity, locations, and fatality/casualty figures. This type of granular incident reporting is characteristic of ACLED-derived information.",
+      "source_context": "From peacekeeper to power broker section describing multinational overlap and the June 2024 incident [22]."
+    },
+    {
+      "evidence": "In 2024, encounters between RDF-linked forces and SADC were fewer but more lethal per incident, while FARDC faced more frequent, less lethal clashes; civilians suffered notable harm in some engagements.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references temporal conflict patterns (2024), comparative event frequency and lethality between actors (RDF-linked forces vs SADC, FARDC), and harm to civilians—elements consistent with ACLED event counts, actor-level data, and violence against civilians/fatality metrics derived from ACLED datasets.",
+      "source_context": "From peacekeeper to power broker section comparing lethality profiles of different counterpart engagements [23]."
+    },
+    {
+      "evidence": "RDF activity in Nord-Kivu is associated with increased use of shelling/air-drone modalities, which concentrates harm and raises escalation risks in specific hotspots even when average lethality is low.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references specific conflict modalities (shelling/air-drone), geographic focus (Nord-Kivu), and implications for harm/escalation tied to event patterns—elements consistent with ACLED’s event-type and actor-level data, subnational locations, and trend analysis derived from recorded events. This aligns with ACLED’s battle/explosions-remote violence categories and temporal/geographic trend insights.",
+      "source_context": "From peacekeeper to power broker section noting modality-driven escalation risks [19]."
+    },
+    {
+      "evidence": "Across theaters, the RDF model contains average lethality and can help reclaim territory but also shifts displacement risk and concentrates harm in hotspots where shelling or air/drone use escalates violence.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a generalized analytical claim about lethality, displacement risk, and concentration of harm under certain tactics. It does not reference specific event counts, fatalities, locations, actor data, or trends attributable to ACLED. It reads as qualitative geopolitical analysis rather than citing ACLED-derived event or fatality data.",
+      "source_context": "Conclusion synthesizing humanitarian trade-offs and territorial outcomes [19][6]."
+    },
+    {
+      "evidence": "Rwanda aligns hard-power effects with soft-power gains—expeditionary operations, peacekeeping credentials, and development-facing initiatives—to influence regional coalitions and negotiations as a security provider.",
+      "is_acled_data": false,
+      "reasoning": "The evidence is a general strategic/geopolitical assessment about Rwanda’s use of hard and soft power, not tied to specific conflict events, counts, fatalities, locations, or actor-level event data. It does not reference ACLED data or metrics.",
+      "source_context": "Key Findings and concluding sections summarizing the hard-soft power alignment."
+    },
+    {
+      "evidence": "The policy challenge is directing Rwanda’s calibrated power toward durable settlements without over-reliance on a single army, requiring political processes and protections that can match operational tempo.",
+      "is_acled_data": false,
+      "reasoning": "The evidence is a policy-oriented analytical statement about directing Rwanda’s power and the need for political processes; it does not reference specific conflict events, actors, locations, fatalities, or trends from ACLED data.",
+      "source_context": "Conclusion framing the policy question about channeling RDF’s influence."
+    }
+  ],
+  "insights": [
+    {
+      "insight": "Rwanda Defence Force (RDF) activity is sustained and intensifying in Nord-Kivu (DRC) and Cabo Delgado (Mozambique), with high event volumes but generally low per-event lethality in clashes and concentrated fatalities in targeted modalities like attacks and shelling/air/drone strikes.",
+      "context": "Key Findings summary of activity patterns and lethality distribution."
+    },
+    {
+      "insight": "RDF deployments correlate with displacement patterns in North Kivu, shifting from a weakly negative co-movement pre-2021 to a moderately positive correlation post-2021, indicating operations and population movements became intertwined.",
+      "context": "When troops move, people move section citing correlation shift from about -0.17 to 0.44 [7]."
+    },
+    {
+      "insight": "From 2022–2024 in North Kivu, monthly RDF-linked events and displacement mentions tracked at roughly r=0.59, with simultaneous above-median peaks clustered in February–May and December 2024.",
+      "context": "When troops move, people move section detailing r≈0.59 and peak months [8]."
+    },
+    {
+      "insight": "In high-activity months in 2024, displacement mentions often lagged or were smaller relative to RDF-linked events—ratios near 1 in late 2023 but around one-third in February and May 2024—suggesting rapid operations, containment effects, or reporting latency.",
+      "context": "When troops move, people move section discussing ratio patterns and implications [9]."
+    },
+    {
+      "insight": "Post-RDF deployment in North Kivu, co-movement between RDF-linked activity and violence against civilians turned from slightly positive (~+0.19) to moderately negative (~-0.23), implying deterrence effects or shifts toward positional battles.",
+      "context": "When troops move, people move section on changing correlation with civilian targeting [7]."
+    },
+    {
+      "insight": "On the Goma–Sake axis (Rutshuru–Masisi–Nyiragongo corridor), RDF-linked events surged from 2022–2024, clustering around Sake, Mushaki, Kibumba, and Kilolirwe, with dense runs and multi-incident days in 2024.",
+      "context": "A quiet-loud battlefield section covering location clustering and temporal spikes [1]."
+    },
+    {
+      "insight": "Despite frequent RDF-linked clashes in Nord-Kivu, most record zero fatalities, indicating a tactical emphasis on maneuver, fixing, and pressure rather than overruns.",
+      "context": "A quiet-loud battlefield section describing low per-event lethality in clashes [2]."
+    },
+    {
+      "insight": "Fatalities in North Kivu concentrate in fewer modalities—particularly attacks and shelling/air-drone strikes—despite these having lower event volumes than clashes.",
+      "context": "A quiet-loud battlefield section outlining modality-specific lethality concentration [3][4][2]."
+    },
+    {
+      "insight": "Sake exemplifies the ‘quiet-loud’ pattern: it has the most RDF-linked events, mostly non-fatal, while a small number of strikes account for most of its reported 71 deaths.",
+      "context": "A quiet-loud battlefield section with Sake’s event volume and death concentration [5]."
+    },
+    {
+      "insight": "In 2024, Bahunde recorded more shelling and air/drone use with higher fatalities per incident compared to Goma and Rutshuru groupements, where such fire was less deadly per event.",
+      "context": "A quiet-loud battlefield section comparing groupement-level lethality in shelling/air-drone incidents [6]."
+    },
+    {
+      "insight": "National-level sources tend to capture frequent low- or zero-fatality contacts, while subnational reporting highlights deadlier outliers, creating a perception of constant activity punctuated by lethal spikes.",
+      "context": "A quiet-loud battlefield section discussing source-driven perception and reporting patterns [1][5]."
+    },
+    {
+      "insight": "RDF’s tactical model in North Kivu combines frequent low-lethality contacts with selective high-impact attacks or strikes, shaping front lines and civilian movement around Goma.",
+      "context": "A quiet-loud battlefield synthesis of tactical logic and humanitarian impact."
+    },
+    {
+      "insight": "In Cabo Delgado, post-2021 RDF deployments show weak co-movement with displacement and a modest negative relationship with civilian targeting, with lethality clustering in clashes rather than attacks on civilians.",
+      "context": "When troops move, people move section summarizing Cabo Delgado coupling and lethality pattern [7][11]."
+    },
+    {
+      "insight": "RDF operations in Mozambique (2021–2024) are sustained and responsive, clustering in Mocímboa da Praia and Macomia, with an uptick in 2024; many engagements are battles with zero confirmed fatalities despite frequent contact.",
+      "context": "Exporting stability section describing spatial clusters and controlled lethality in Mozambique [12][13][14]."
+    },
+    {
+      "insight": "RDF interoperability with Mozambique’s forces and SAMIM, maintained despite funding challenges, builds host-government dependence and converts reliability into political leverage for Kigali.",
+      "context": "Exporting stability section on interoperability and leverage [12][13][14]."
+    },
+    {
+      "insight": "In the Central African Republic (CAR), 2021 RDF-tagged events largely overlap with Russian/Wagner activities, including government regains and helicopter-supported strikes, reflecting pragmatic alignment to secure priority zones.",
+      "context": "Exporting stability section on RDF–Wagner co-presence and operations in CAR [15]."
+    },
+    {
+      "insight": "Rwanda leverages expeditionary successes (Mozambique, CAR) to accrue soft-power dividends and deepen ties with host governments and external patrons, translating battlefield steadiness into diplomatic currency.",
+      "context": "Exporting stability section linking operational outcomes to diplomatic gains."
+    },
+    {
+      "insight": "Rwanda’s significant contributions to UN and African peace operations have enhanced its diplomatic standing, helping blunt censure over eastern Congo conduct and reinforcing a deterrent posture in the region.",
+      "context": "From peacekeeper to power broker section on peacekeeping’s diplomatic effects [16]."
+    },
+    {
+      "insight": "The RDF pairs military pressure with humanitarian/development initiatives, using peacekeeping and aid as force multipliers to legitimize hard-power moves and strengthen influence over threats like M23.",
+      "context": "From peacekeeper to power broker section describing blend of tactics and community-facing programs [17]."
+    },
+    {
+      "insight": "ACLED data (2022–2024) show RDF–FARDC incidents surging from 13 (2023) to 141 (2024) in adjacent areas, while fatalities remained comparable (29 in 2023 vs 22 in 2024), indicating frequent contact with restrained lethality.",
+      "context": "From peacekeeper to power broker section citing incident/fatality figures demonstrating deterrence-through-presence [18]."
+    },
+    {
+      "insight": "In North Kivu, RDF-linked battles are common but usually non-lethal per event, whereas fewer incidents of violence against civilians and explosive attacks are deadlier, elevating escalation risks for nearby communities.",
+      "context": "From peacekeeper to power broker section on modality-lethality differences and risk implications [19]."
+    },
+    {
+      "insight": "Spatial patterns in North Kivu show Sake with both high event volume and high fatalities, Bwito and Bwisha with more lethal incidents, and urban Goma skewing toward non-lethal encounters.",
+      "context": "From peacekeeper to power broker section detailing location-specific patterns [20][21]."
+    },
+    {
+      "insight": "RDF-linked engagements overlap with SADC and EAC forces around Mubambiro and Sake; a June 2024 shelling in Sake killed two South African soldiers and injured twenty, highlighting risks of flashpoints with multinational counterparts.",
+      "context": "From peacekeeper to power broker section describing multinational overlap and the June 2024 incident [22]."
+    },
+    {
+      "insight": "In 2024, encounters between RDF-linked forces and SADC were fewer but more lethal per incident, while FARDC faced more frequent, less lethal clashes; civilians suffered notable harm in some engagements.",
+      "context": "From peacekeeper to power broker section comparing lethality profiles of different counterpart engagements [23]."
+    },
+    {
+      "insight": "RDF activity in Nord-Kivu is associated with increased use of shelling/air-drone modalities, which concentrates harm and raises escalation risks in specific hotspots even when average lethality is low.",
+      "context": "From peacekeeper to power broker section noting modality-driven escalation risks [19]."
+    },
+    {
+      "insight": "Across theaters, the RDF model contains average lethality and can help reclaim territory but also shifts displacement risk and concentrates harm in hotspots where shelling or air/drone use escalates violence.",
+      "context": "Conclusion synthesizing humanitarian trade-offs and territorial outcomes [19][6]."
+    },
+    {
+      "insight": "Rwanda aligns hard-power effects with soft-power gains—expeditionary operations, peacekeeping credentials, and development-facing initiatives—to influence regional coalitions and negotiations as a security provider.",
+      "context": "Key Findings and concluding sections summarizing the hard-soft power alignment."
+    },
+    {
+      "insight": "The policy challenge is directing Rwanda’s calibrated power toward durable settlements without over-reliance on a single army, requiring political processes and protections that can match operational tempo.",
+      "context": "Conclusion framing the policy question about channeling RDF’s influence."
+    }
+  ],
+  "prompt": "Explores the roles and operations of the Rwanda Defence Force in regional conflicts and their geopolitical significance."
+}

@@ -1,0 +1,292 @@
+{
+  "total_insights": 28,
+  "total_classified": 28,
+  "acled_count": 22,
+  "non_acled_count": 6,
+  "pct_acled": 0.7857142857142857,
+  "details": [
+    {
+      "evidence": "ENDF–Fano confrontations have sustained combat-heavy political violence in Amhara since April 2023, with intermittent lethal surges peaking in October 2024.",
+      "is_acled_data": true,
+      "reasoning": "The statement references actor-level confrontations (ENDF–Fano), sustained battle-heavy political violence, and a temporal trend with a specified peak period (October 2024). These elements—battle-related event patterns and timing of surges—are characteristic outputs derived from ACLED’s event data and trend analysis.",
+      "source_context": "Key Findings; From spark to surge section referencing October 2024 peak and sustained violence [1][2]."
+    },
+    {
+      "evidence": "Battles constitute roughly three-quarters or more of monthly incidents, and months with more battles are significantly deadlier; each additional battle in a month corresponds to about four more reported fatalities on average.",
+      "is_acled_data": true,
+      "reasoning": "The evidence discusses shares of event types (battles as a proportion of monthly incidents) and relates monthly battle counts to fatalities—both are core ACLED metrics (event-type counts and fatality figures) and a temporal trend analysis derived from ACLED event data.",
+      "source_context": "From spark to surge: dominance of battles and quantified association with fatalities [3][4]."
+    },
+    {
+      "evidence": "Fano is referenced in over 80% of political-violence events since April 2023, indicating its central role in the conflict’s trajectory.",
+      "is_acled_data": true,
+      "reasoning": "The statement cites the share of political-violence events referencing a specific actor (Fano) since a given start date, which aligns with ACLED’s event- and actor-level data and temporal trend analysis derived from those events.",
+      "source_context": "From spark to surge: actor involvement statistics [5]."
+    },
+    {
+      "evidence": "Approximately 40% of events involve both Fano and state forces, with months of higher co-involvement closely tracking higher fatalities across the 21-month period.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites actor co-involvement shares (events involving Fano and state forces) and links monthly co-involvement with fatalities over a defined period. These are actor-level event counts and temporal fatality trends, which align with ACLED’s event, actor, and fatality data and derived trend analysis.",
+      "source_context": "From spark to surge: co-involvement prevalence and correlation with fatalities [6][7][8]."
+    },
+    {
+      "evidence": "October 2024 recorded the highest monthly event volume and elevated Fano–state co-involvement, aligning with the highest monthly death toll.",
+      "is_acled_data": true,
+      "reasoning": "The claim references monthly event volume, actor co-involvement (Fano–state), and monthly death tolls—measures directly aligned with ACLED’s event counts, actor-level co-participation in events, and fatalities over time. This is characteristic of ACLED-derived temporal and actor data.",
+      "source_context": "From spark to surge: October 2024 apex of events and fatalities [2][8]."
+    },
+    {
+      "evidence": "Explosions and remote violence rose in late 2024 alongside battles, expanding tactics without displacing battle dominance.",
+      "is_acled_data": true,
+      "reasoning": "The statement references temporal changes in specific ACLED event categories (explosions/remote violence and battles) and their relative prevalence, which aligns with ACLED’s event-type counts and trend analysis derived from its dataset.",
+      "source_context": "From spark to surge: diversification of tactics in late 2024 [3]."
+    },
+    {
+      "evidence": "By November 2024, political-violence incidents had spread to 71 locations from just 10 in May 2023, indicating substantial geographic diffusion and reduced concentration of violence.",
+      "is_acled_data": true,
+      "reasoning": "Mentions counts of political-violence incidents over time and the number of distinct locations affected, reflecting geographic diffusion. This aligns with ACLED’s event counts and geocoded location data and temporal trend analysis derived from ACLED event datasets.",
+      "source_context": "Where the war went: dispersion metrics and location counts [11]."
+    },
+    {
+      "evidence": "Early hotspots in 2023 centered on North Shewa and East Gojam (e.g., Tarema Ber, Debre Elias, Shoa Robit), but by late 2024 many woredas registered single events as dispersion increased.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references specific subnational locations, temporal shifts, and counts of events (e.g., many woredas registering single events) indicative of conflict event data and spatial-temporal trends, which align with ACLED’s event-based geographic and temporal analysis.",
+      "source_context": "Where the war went: evolution from concentrated early clusters to dispersed map [12]."
+    },
+    {
+      "evidence": "Persistent hotspots included West Gojam and Central Gondar, with recurring fatality spikes in Debub Mecha and Gonder town; urban centers like Bahir Dar and Debre Markos remained operational focal points.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references specific subnational hotspots, recurring fatality spikes in named locations, and identifies urban centers as operational focal points—elements consistent with ACLED’s geographic conflict data, event/fatality trends, and actor/activity concentrations derived from event records.",
+      "source_context": "Where the war went: persistent hotspots and urban centers [13][14][15]."
+    },
+    {
+      "evidence": "Peak operational days clustered mainly in 2024, often centered in West Gojam, highlighting its role in major surges.",
+      "is_acled_data": true,
+      "reasoning": "References temporal clustering of operational days in 2024 and geographic concentration in West Gojam, which aligns with ACLED’s event counts over time and subnational location breakdowns derived from event data and trend analysis.",
+      "source_context": "Where the war went: peak-day clustering and dominant zones [16]."
+    },
+    {
+      "evidence": "Some months and zones reached near-total Fano–state co-involvement, reflecting widespread direct confrontations across admin2 areas.",
+      "is_acled_data": true,
+      "reasoning": "The statement discusses co-involvement between Fano and state forces across admin2 areas and over months, implying actor-level battle engagement and temporal/subnational patterns—elements typically derived from ACLED’s event data (actor involvement, geographic breakdowns, and trend analysis).",
+      "source_context": "Where the war went: zone-level co-involvement patterns [17]."
+    },
+    {
+      "evidence": "Lethal spikes sometimes decoupled from event counts: explosions/remote violence produced heavy-tailed lethality with catastrophic one-off incidents in low-frequency woredas.",
+      "is_acled_data": true,
+      "reasoning": "Mentions explosions/remote violence, lethality patterns, and subnational locales (woredas), which align with ACLED event types, fatality counts, and geographic breakdowns. The statement reflects analysis of event counts versus fatalities from ACLED-style data rather than general commentary.",
+      "source_context": "Where the war went: heavy-tailed lethality and decoupling from event counts [3][16][18]."
+    },
+    {
+      "evidence": "Civilian harm escalated in 2024 with distinct waves: protester-linked mass-casualty months (January, June, October) and increased state-force involvement mid-to-late 2024 (peaks in July and December).",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific temporal patterns of civilian harm with identified peak months and references types of actors (protesters, state forces) and waves, which aligns with ACLED’s event-based temporal trend analysis, violence against civilians statistics, and actor-level involvement. This kind of month-by-month peak analysis is characteristic of insights derived from ACLED event data.",
+      "source_context": "The civilian toll: temporal waves and perpetrators [19]."
+    },
+    {
+      "evidence": "Violence against civilians is dominated by attack incidents; abductions and sexual violence occur intermittently and are largely non-lethal.",
+      "is_acled_data": true,
+      "reasoning": "Describes the composition of violence against civilians (attack incidents vs. abductions/sexual violence, lethality), which aligns with ACLED’s event-type breakdowns and VAC statistics derived from its coded event data and incident descriptions.",
+      "source_context": "The civilian toll: composition of civilian-targeting incidents [20]."
+    },
+    {
+      "evidence": "Across 345 civilian-targeting events, most were attacks (265), with sexual violence (42) and abductions (38) notable but usually non-fatal; perpetrators include state forces, Fano, and unidentified armed groups, targeting women and local officials.",
+      "is_acled_data": true,
+      "reasoning": "The evidence provides precise counts of civilian-targeting events and subtypes (attacks, sexual violence, abductions), mentions perpetrators (state forces, Fano, unidentified armed groups), and characterizes targeting patterns—exactly the kind of event-level and actor-level statistics ACLED reports for violence against civilians. This aligns with ACLED’s event counts, actor data, and VACS metrics, suggesting it is derived from ACLED data.",
+      "source_context": "The civilian toll: incident counts, perpetrators, and victim profiles [21]."
+    },
+    {
+      "evidence": "Civilian-harm hotspots overlap broader conflict zones: West Gojam, North Shewa, Central/West Gondar, and North Wello; frequently affected towns include Metema, Bahir Dar, Shoa Robit, Gondar, and Kobo.",
+      "is_acled_data": true,
+      "reasoning": "Identifies civilian-harm hotspots and frequently affected towns within specific subnational areas, implying use of ACLED’s geocoded event data and violence-against-civilians incidents to map hotspots and overlap with broader conflict zones.",
+      "source_context": "The civilian toll: geographic overlap and town-level impacts [21]."
+    },
+    {
+      "evidence": "West Gojam shows extreme fatalities in Other–Attack (216) and high Fano–Attack fatalities (155); West Gondar has substantial Fano–Attack fatalities (104); state forces appear across zones but with generally lower attack-related fatality totals.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites subnational fatality counts by event/actor type (e.g., Other–Attack, Fano–Attack) and notes state force involvement with lower attack-related fatalities, which aligns with ACLED’s actor-level event categorization, geographic breakdowns, and fatality figures derived from conflict events.",
+      "source_context": "The civilian toll: zone-level breakdown of attack fatalities by actor type [22]."
+    },
+    {
+      "evidence": "Explosive and remote violence are more lethal per event than battles, heightening volatility near operational areas and civilian risk during battle-heavy periods.",
+      "is_acled_data": true,
+      "reasoning": "The statement compares lethality per event across ACLED event types (explosions/remote violence vs. battles) and links this to volatility and civilian risk patterns, which are metrics derived from ACLED event and fatality data and their typologies. While interpretive, it relies on ACLED’s event categories and fatalities per event, indicating ACLED-derived analysis.",
+      "source_context": "The civilian toll: relative lethality per event type [23]."
+    },
+    {
+      "evidence": "Fano-linked battles have heavier fatality tails than state-attributed battles, increasing the likelihood that few events cause outsized civilian losses when operations occur in populated areas.",
+      "is_acled_data": true,
+      "reasoning": "The claim compares fatality distributions between Fano-linked and state-attributed battles, implying actor-level battle events with fatality counts and derived distributional analysis—data and analytics ACLED provides (event- and actor-coded battles, fatalities, and trend analysis). While phrased analytically, it is grounded in ACLED-style battle and fatality data.",
+      "source_context": "The civilian toll: distributional differences in fatalities by actor involvement [14]."
+    },
+    {
+      "evidence": "Civilian-targeting incidents clustered on specific dates (e.g., July 6 and July 22, 2024), suggesting coordinated or simultaneous actions that overwhelmed protection and response capacity.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references specific dates with clustering of civilian-targeting incidents and implies temporal pattern analysis of event data, which aligns with ACLED’s violence against civilians events, timestamps, and trend/temporal clustering analyses derived from ACLED event records.",
+      "source_context": "The civilian toll: date clusters indicating concentrated surges [21]."
+    },
+    {
+      "evidence": "Aid access deteriorated as ENDF–Fano clashes intensified, with restricted movement, suspended flights, and heightened security advisories compounding needs, particularly after the August 2023 state of emergency.",
+      "is_acled_data": false,
+      "reasoning": "The statement discusses humanitarian access, restricted movement, suspended flights, and security advisories, particularly after a state of emergency—these are broader humanitarian and policy impacts rather than specific conflict event data. It is not presenting ACLED-style event counts, fatalities, or actor/event-coded data, nor is it attributed to ACLED.",
+      "source_context": "Aid under fire: operational constraints and turning points [24][2]."
+    },
+    {
+      "evidence": "Higher ENDF–Fano co-involvement months are strongly associated with higher fatalities and wider geographic dispersion, jointly tightening constraints on humanitarian mobility.",
+      "is_acled_data": true,
+      "reasoning": "References fatalities, geographic dispersion, co-involvement of specific actors (ENDF–Fano), and temporal association across months—metrics and actor-level/event-level patterns typically derived from ACLED event, fatality, location, and actor co-presence data. While phrased analytically, it clearly relies on ACLED-style event/fatality/geography and temporal co-involvement analysis.",
+      "source_context": "Aid under fire: quantified linkage between co-involvement, fatalities, and dispersion [8][11][17]."
+    },
+    {
+      "evidence": "By late 2024, dispersion yielded an HHI concentration near 0.02, making fixed routing and static security postures untenable for aid delivery.",
+      "is_acled_data": false,
+      "reasoning": "The statement references an HHI concentration metric and operational implications for aid delivery, which are analytical constructs not part of ACLED’s standard event, fatality, or actor data. It does not cite specific ACLED events or indices and appears to be a derived dispersion/concentration analysis rather than ACLED-provided data.",
+      "source_context": "Aid under fire: geographic dispersion and concentration metric [11]."
+    },
+    {
+      "evidence": "Short, intense daily spikes—often dominated by West Gojam—could abruptly close corridors and overwhelm local services; the most intense day recorded 19 events and 51 deaths.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific event counts and fatalities on a particular day, references subnational concentration (West Gojam), and discusses temporal spikes—these are hallmark ACLED metrics (event counts, fatality figures, geographic breakdown, and trend analysis) likely derived from ACLED event data.",
+      "source_context": "Aid under fire: daily spike clusters and operational impact [26][16]."
+    },
+    {
+      "evidence": "Policy recommendations include concentrating protection resources in persistent hotspots (especially West Gojam), deploying flexible coverage as dispersion increases, and scaling surge capacity during high co-involvement months.",
+      "is_acled_data": false,
+      "reasoning": "The evidence is a set of policy recommendations about resource allocation and surge capacity. It does not reference specific ACLED event counts, locations, trends, or actor data, nor is it explicitly attributed to ACLED. It is general analytical guidance rather than direct use of ACLED-derived metrics.",
+      "source_context": "Aid under fire: policy implications tailored to hotspot persistence and co-involvement cycles [26][11][7][8][17]."
+    },
+    {
+      "evidence": "Negotiated access should be planned with heightened conflict sensitivity during months of high Fano–state co-involvement, including contingency routing and surge options.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a planning/recommendation about negotiated access and conflict sensitivity during periods of high Fano–state co-involvement; it does not present specific ACLED event counts, actor/event data, fatalities, locations, or trends explicitly derived from ACLED. It is general analytical guidance rather than ACLED-based data.",
+      "source_context": "Aid under fire: access planning linked to co-involvement dynamics [7][8][17]."
+    },
+    {
+      "evidence": "Multi-level mediation addressing federal–Amhara rifts, paired with protection guarantees for civilians and aid workers, is necessary to reduce volatility and improve access.",
+      "is_acled_data": false,
+      "reasoning": "This is a policy recommendation about mediation and protection guarantees, not a presentation of event data, trends, or actor/activity statistics. It is general analysis, not derived from ACLED-specific data.",
+      "source_context": "Aid under fire: mediation and reconciliation strategies [27]."
+    },
+    {
+      "evidence": "The conflict’s culmination in October 2024 reflects a pattern of escalating battles, widening geographic spread, and concentrated lethal spikes, which together amplified civilian harm and impeded humanitarian access.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a high-level qualitative assessment about conflict escalation, geographic spread, lethal spikes, civilian harm, and humanitarian access without citing specific ACLED event counts, fatalities, locations, or temporal trend metrics. It reads as general analytical commentary rather than a direct use of ACLED-derived data.",
+      "source_context": "Conclusion synthesizing trends in incidents, dispersion, and access [1][2][11][16][8][17][19][20][21][23]."
+    }
+  ],
+  "insights": [
+    {
+      "insight": "ENDF–Fano confrontations have sustained combat-heavy political violence in Amhara since April 2023, with intermittent lethal surges peaking in October 2024.",
+      "context": "Key Findings; From spark to surge section referencing October 2024 peak and sustained violence [1][2]."
+    },
+    {
+      "insight": "Battles constitute roughly three-quarters or more of monthly incidents, and months with more battles are significantly deadlier; each additional battle in a month corresponds to about four more reported fatalities on average.",
+      "context": "From spark to surge: dominance of battles and quantified association with fatalities [3][4]."
+    },
+    {
+      "insight": "Fano is referenced in over 80% of political-violence events since April 2023, indicating its central role in the conflict’s trajectory.",
+      "context": "From spark to surge: actor involvement statistics [5]."
+    },
+    {
+      "insight": "Approximately 40% of events involve both Fano and state forces, with months of higher co-involvement closely tracking higher fatalities across the 21-month period.",
+      "context": "From spark to surge: co-involvement prevalence and correlation with fatalities [6][7][8]."
+    },
+    {
+      "insight": "October 2024 recorded the highest monthly event volume and elevated Fano–state co-involvement, aligning with the highest monthly death toll.",
+      "context": "From spark to surge: October 2024 apex of events and fatalities [2][8]."
+    },
+    {
+      "insight": "Explosions and remote violence rose in late 2024 alongside battles, expanding tactics without displacing battle dominance.",
+      "context": "From spark to surge: diversification of tactics in late 2024 [3]."
+    },
+    {
+      "insight": "By November 2024, political-violence incidents had spread to 71 locations from just 10 in May 2023, indicating substantial geographic diffusion and reduced concentration of violence.",
+      "context": "Where the war went: dispersion metrics and location counts [11]."
+    },
+    {
+      "insight": "Early hotspots in 2023 centered on North Shewa and East Gojam (e.g., Tarema Ber, Debre Elias, Shoa Robit), but by late 2024 many woredas registered single events as dispersion increased.",
+      "context": "Where the war went: evolution from concentrated early clusters to dispersed map [12]."
+    },
+    {
+      "insight": "Persistent hotspots included West Gojam and Central Gondar, with recurring fatality spikes in Debub Mecha and Gonder town; urban centers like Bahir Dar and Debre Markos remained operational focal points.",
+      "context": "Where the war went: persistent hotspots and urban centers [13][14][15]."
+    },
+    {
+      "insight": "Peak operational days clustered mainly in 2024, often centered in West Gojam, highlighting its role in major surges.",
+      "context": "Where the war went: peak-day clustering and dominant zones [16]."
+    },
+    {
+      "insight": "Some months and zones reached near-total Fano–state co-involvement, reflecting widespread direct confrontations across admin2 areas.",
+      "context": "Where the war went: zone-level co-involvement patterns [17]."
+    },
+    {
+      "insight": "Lethal spikes sometimes decoupled from event counts: explosions/remote violence produced heavy-tailed lethality with catastrophic one-off incidents in low-frequency woredas.",
+      "context": "Where the war went: heavy-tailed lethality and decoupling from event counts [3][16][18]."
+    },
+    {
+      "insight": "Civilian harm escalated in 2024 with distinct waves: protester-linked mass-casualty months (January, June, October) and increased state-force involvement mid-to-late 2024 (peaks in July and December).",
+      "context": "The civilian toll: temporal waves and perpetrators [19]."
+    },
+    {
+      "insight": "Violence against civilians is dominated by attack incidents; abductions and sexual violence occur intermittently and are largely non-lethal.",
+      "context": "The civilian toll: composition of civilian-targeting incidents [20]."
+    },
+    {
+      "insight": "Across 345 civilian-targeting events, most were attacks (265), with sexual violence (42) and abductions (38) notable but usually non-fatal; perpetrators include state forces, Fano, and unidentified armed groups, targeting women and local officials.",
+      "context": "The civilian toll: incident counts, perpetrators, and victim profiles [21]."
+    },
+    {
+      "insight": "Civilian-harm hotspots overlap broader conflict zones: West Gojam, North Shewa, Central/West Gondar, and North Wello; frequently affected towns include Metema, Bahir Dar, Shoa Robit, Gondar, and Kobo.",
+      "context": "The civilian toll: geographic overlap and town-level impacts [21]."
+    },
+    {
+      "insight": "West Gojam shows extreme fatalities in Other–Attack (216) and high Fano–Attack fatalities (155); West Gondar has substantial Fano–Attack fatalities (104); state forces appear across zones but with generally lower attack-related fatality totals.",
+      "context": "The civilian toll: zone-level breakdown of attack fatalities by actor type [22]."
+    },
+    {
+      "insight": "Explosive and remote violence are more lethal per event than battles, heightening volatility near operational areas and civilian risk during battle-heavy periods.",
+      "context": "The civilian toll: relative lethality per event type [23]."
+    },
+    {
+      "insight": "Fano-linked battles have heavier fatality tails than state-attributed battles, increasing the likelihood that few events cause outsized civilian losses when operations occur in populated areas.",
+      "context": "The civilian toll: distributional differences in fatalities by actor involvement [14]."
+    },
+    {
+      "insight": "Civilian-targeting incidents clustered on specific dates (e.g., July 6 and July 22, 2024), suggesting coordinated or simultaneous actions that overwhelmed protection and response capacity.",
+      "context": "The civilian toll: date clusters indicating concentrated surges [21]."
+    },
+    {
+      "insight": "Aid access deteriorated as ENDF–Fano clashes intensified, with restricted movement, suspended flights, and heightened security advisories compounding needs, particularly after the August 2023 state of emergency.",
+      "context": "Aid under fire: operational constraints and turning points [24][2]."
+    },
+    {
+      "insight": "Higher ENDF–Fano co-involvement months are strongly associated with higher fatalities and wider geographic dispersion, jointly tightening constraints on humanitarian mobility.",
+      "context": "Aid under fire: quantified linkage between co-involvement, fatalities, and dispersion [8][11][17]."
+    },
+    {
+      "insight": "By late 2024, dispersion yielded an HHI concentration near 0.02, making fixed routing and static security postures untenable for aid delivery.",
+      "context": "Aid under fire: geographic dispersion and concentration metric [11]."
+    },
+    {
+      "insight": "Short, intense daily spikes—often dominated by West Gojam—could abruptly close corridors and overwhelm local services; the most intense day recorded 19 events and 51 deaths.",
+      "context": "Aid under fire: daily spike clusters and operational impact [26][16]."
+    },
+    {
+      "insight": "Policy recommendations include concentrating protection resources in persistent hotspots (especially West Gojam), deploying flexible coverage as dispersion increases, and scaling surge capacity during high co-involvement months.",
+      "context": "Aid under fire: policy implications tailored to hotspot persistence and co-involvement cycles [26][11][7][8][17]."
+    },
+    {
+      "insight": "Negotiated access should be planned with heightened conflict sensitivity during months of high Fano–state co-involvement, including contingency routing and surge options.",
+      "context": "Aid under fire: access planning linked to co-involvement dynamics [7][8][17]."
+    },
+    {
+      "insight": "Multi-level mediation addressing federal–Amhara rifts, paired with protection guarantees for civilians and aid workers, is necessary to reduce volatility and improve access.",
+      "context": "Aid under fire: mediation and reconciliation strategies [27]."
+    },
+    {
+      "insight": "The conflict’s culmination in October 2024 reflects a pattern of escalating battles, widening geographic spread, and concentrated lethal spikes, which together amplified civilian harm and impeded humanitarian access.",
+      "context": "Conclusion synthesizing trends in incidents, dispersion, and access [1][2][11][16][8][17][19][20][21][23]."
+    }
+  ],
+  "prompt": "Status of political violence in Amhara since Fano insurgency began in April 2023."
+}

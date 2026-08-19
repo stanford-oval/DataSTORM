@@ -1,0 +1,85 @@
+{
+  "dataset_id": 9,
+  "dataset_path": "data/notebooks/flag-9.json",
+  "metadata": {
+    "category": "Incident Management",
+    "dataset_description": "The dataset comprises 600 entries simulating ServiceNow incidents table, detailing various attributes such as category, state, open and close dates, involved personnel, and incident specifics like description, and priority. It captures incident management activities with fields like 'opened_at', 'closed_at', 'assigned_to', 'short_description', and 'priority', reflecting the operational handling and urgency of issues across different locations and categories.",
+    "goal": "Analyze the hardware-related incidents during an identified time window to pinpoint potential hiccups that could be causing any anomalies.",
+    "header": "Hardware Incident Analysis During Specific Time Windows (Flag 9)",
+    "role": "DT Asset Manager"
+  },
+  "predicted_insights": [
+    "Only 2 out of 60 days (~3.3%) were flagged as anomalous, and even on those days the peak count was just 2, indicating low-volume but detectable spikes where a single additional Hardware ticket above typical days (p95 ≈1.0–1.55) can trigger an anomaly—particularly around the holiday period (Dec 25).",
+    "Printer-related issues dominated Hardware incidents in this window, accounting for about 61% (59 of 97) of cases—indicating a systemic printer problem rather than isolated device failures.",
+    "The average resolution time varied widely among assignees: Luke Wilson’s 206.57 hours was ~19.0 hours (~10%) higher than the next highest (Beth Anglin at 187.55) and ~91.4 hours (~1.8×) higher than the fastest (Howard Johnson at 115.16), pointing to a notable disparity that may signal workload or process bottlenecks in Hardware.",
+    "Every Hardware incident (182 total over ~13 months, ~14 per month) was correctly routed to the Hardware group (0 misrouted), indicating that misassignment is unlikely to be a source of Hardware-related anomalies.",
+    "Despite only a modest rise in incident count (12 vs 9), the median resolution time jumped by about 87% (from 92.39 to 173.18 hours), suggesting slower hardware resolution likely due to complexity or capacity constraints rather than volume alone.",
+    "Total hardware incidents rose by a net 3 in January 2024 versus the prior 30-day period, with two-thirds of that increase attributable to ITIL User (+2), pointing to a caller-specific uptick rather than a broad surge across all callers.",
+    "The absolute number of critical hardware incidents stayed constant (1), but total hardware incidents rose from 9 to 12 (~33% increase), indicating the drop in share was driven by volume growth rather than a reduction in critical cases.",
+    "Across the 12 hardware incidents in January, Monday and Wednesday together accounted for half (6/12), while weekends contributed 2/12 (16.7%), indicating a relatively even spread with only a modest peak (max 3 vs min 1) and suggesting no strong weekday-driven anomaly.",
+    "The top-to-bottom spread is notable: Luke Wilson’s median (214.29h) is ~4.2% higher than the next-highest (Beth Anglin, 205.68h) and ~64.9% higher than the lowest (Howard Johnson, 129.90h), highlighting significant variability in Hardware incident resolution times across assignees.",
+    "A median closure time of about 172 hours (~7.2 days) for Hardware-category tickets suggests that hardware work consistently takes around a week to resolve during this period, indicating a potential throughput bottleneck that could contribute to observed resolution-time anomalies.",
+    "A pronounced mid-year spike occurred: July–August accounted for 96 of 182 Hardware incidents (~53%), with August alone at ~5.8× the median monthly volume (52 vs 9), highlighting a concentrated anomaly window likely tied to seasonal or event-driven hardware issues.",
+    "All 52 Hardware-category incidents opened in August 2023 were assigned to the Hardware group (100%), indicating no cross-assignment that month and suggesting any anomalies would likely be concentrated within that team’s workflow."
+  ],
+  "predicted_summary": "Two isolated daily spikes stood out: on 2023-12-25 and 2024-01-25 the number of hardware tickets opened (2 each) exceeded the high-end (95th-percentile) daily threshold from the prior 30 days (about 1.0–1.55). Despite these frequency anomalies, the share of “1 - Critical” tickets actually dipped in January 2024 to 8.33% (1 of 12), down 2.78 percentage points from December (11.11%; 1 of 9), pointing to spikes in load rather than increased severity.\nResolution speed worsened notably: the median time-to-close for hardware incidents opened in January 2024 was 80.78 hours slower than for those opened in the preceding 30 days. In the broader period, the Hardware team’s typical (median) closure time is about 172.14 hours, and one assignee—Luke Wilson—shows the longest closure times (median ~214.29 hours; average ~206.57 hours), highlighting a concentration of slower resolutions among specific handlers.\nIssue type was concentrated: “Printer not working properly” was the single most common problem in the window, appearing 15 times. Openings were most frequent on Mondays and Wednesdays (3 each), and all hardware incidents were routed to the Hardware team (100%; 182 of 182 in the period through 2024-01-31). The modest January uptick versus December was driven by a single caller (ITIL User, +2 incidents), and, in context, overall volumes remained well below the historical peak month of August 2023 (52 incidents), suggesting focused pain points rather than a broad surge.",
+  "score_insights": 0.6670153145404167,
+  "score_insights_dict": [
+    {
+      "gt_insight": "Uniform trend of TTR for all category incidents, however there is a dense cluster of incidents in the Hardware category during the period 2023-08.",
+      "pred_insight": "A pronounced mid-year spike occurred: July–August accounted for 96 of 182 Hardware incidents (~53%), with August alone at ~5.8× the median monthly volume (52 vs 9), highlighting a concentrated anomaly window likely tied to seasonal or event-driven hardware issues.",
+      "score": 0.6398665942615552
+    },
+    {
+      "gt_insight": "hardware incidents are higher than others",
+      "pred_insight": "A pronounced mid-year spike occurred: July–August accounted for 96 of 182 Hardware incidents (~53%), with August alone at ~5.8× the median monthly volume (52 vs 9), highlighting a concentrated anomaly window likely tied to seasonal or event-driven hardware issues.",
+      "score": 0.4987928026146903
+    },
+    {
+      "gt_insight": "Fluctuations observed in incident frequencies across categories, particularly high hardware incident count for two months",
+      "pred_insight": "A pronounced mid-year spike occurred: July–August accounted for 96 of 182 Hardware incidents (~53%), with August alone at ~5.8× the median monthly volume (52 vs 9), highlighting a concentrated anomaly window likely tied to seasonal or event-driven hardware issues.",
+      "score": 0.789159414421202
+    },
+    {
+      "gt_insight": "Specific time windows with elevated Hardware incidents identified",
+      "pred_insight": "A pronounced mid-year spike occurred: July–August accounted for 96 of 182 Hardware incidents (~53%), with August alone at ~5.8× the median monthly volume (52 vs 9), highlighting a concentrated anomaly window likely tied to seasonal or event-driven hardware issues.",
+      "score": 0.8598901340498953
+    },
+    {
+      "gt_insight": "Continued trend of increasing hardware incidents could signify recurring hardware issues or outages",
+      "pred_insight": "The absolute number of critical hardware incidents stayed constant (1), but total hardware incidents rose from 9 to 12 (~33% increase), indicating the drop in share was driven by volume growth rather than a reduction in critical cases.",
+      "score": 0.547367627354741
+    }
+  ],
+  "score_summary": 0.5326753679795619,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.6397170707566029,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "A pronounced mid-year spike occurred: July–August accounted for 96 of 182 Hardware incidents (~53%), with August alone at ~5.8× the median monthly volume (52 vs 9), highlighting a concentrated anomaly window likely tied to seasonal or event-driven hardware issues.",
+      "gt_insight": "Uniform trend of TTR for all category incidents, however there is a dense cluster of incidents in the Hardware category during the period 2023-08.",
+      "score": 0.4727309656679507
+    },
+    {
+      "pred_insight": "Printer-related issues dominated Hardware incidents in this window, accounting for about 61% (59 of 97) of cases—indicating a systemic printer problem rather than isolated device failures.",
+      "gt_insight": "hardware incidents are higher than others",
+      "score": 0.5767255937067034
+    },
+    {
+      "pred_insight": "A pronounced mid-year spike occurred: July–August accounted for 96 of 182 Hardware incidents (~53%), with August alone at ~5.8× the median monthly volume (52 vs 9), highlighting a concentrated anomaly window likely tied to seasonal or event-driven hardware issues.",
+      "gt_insight": "Fluctuations observed in incident frequencies across categories, particularly high hardware incident count for two months",
+      "score": 0.6885676821357349
+    },
+    {
+      "pred_insight": "A pronounced mid-year spike occurred: July–August accounted for 96 of 182 Hardware incidents (~53%), with August alone at ~5.8× the median monthly volume (52 vs 9), highlighting a concentrated anomaly window likely tied to seasonal or event-driven hardware issues.",
+      "gt_insight": "Specific time windows with elevated Hardware incidents identified",
+      "score": 0.8768086760288012
+    },
+    {
+      "pred_insight": "Total hardware incidents rose by a net 3 in January 2024 versus the prior 30-day period, with two-thirds of that increase attributable to ITIL User (+2), pointing to a caller-specific uptick rather than a broad surge across all callers.",
+      "gt_insight": "Continued trend of increasing hardware incidents could signify recurring hardware issues or outages",
+      "score": 0.5837524362438243
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.4512930215038236,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.42512255261787446
+}

@@ -1,0 +1,65 @@
+{
+  "dataset_id": 65,
+  "dataset_path": "data/notebooks/flag-65.json",
+  "metadata": {
+    "category": "Asset Management & User Management",
+    "dataset_description": "The dataset comprises two key tables simulating ServiceNow platform: the `sys_user` table and the `alm_hardware` table with 500 entries. The assets alm_hardware table, consists of detailing key attributes of hardware assets such as asset tags, display names, configuration item (CI) identifiers, serial numbers, and model categories. It includes information on asset assignment, last update timestamps, cost, departmental allocation, and warranty expiration dates. The `sys_user` table, on the other hand, contains user-related information, focusing on the details of employees or system users. This includes fields such as 'user_id', 'name', 'role', 'email', 'start_date', and 'department', providing insights into the user profiles managed within the ServiceNow system.",
+    "goal": "To explore and understand the correlation between asset purchase dates, warranty periods, and employee start dates to optimize asset procurement and warranty management.",
+    "header": "Asset Warranty and Purchase Date Analysis (Flag 65)",
+    "role": "Procurement Analyst"
+  },
+  "predicted_insights": [
+    "With a near-zero correlation magnitude (|r| ≈ 0.04) and warranty durations ranging from 365 to 1268 days regardless of price (costs span $97–$11,943, mean ≈ $3,013), higher-priced assets do not inherently secure longer warranties; thus, negotiating warranty terms should be decoupled from price and aligned to lifecycle needs.",
+    "Average warranty lengths have risen sharply over time—from 383.25 days in 2023-05 to 1,159.17 days in 2024-04 (an increase of ~776 days, about 3.0×)—suggesting that scheduling procurements later in the period could substantially extend coverage windows for newly assigned assets.",
+    "Servers carry about 1.46× the cost per warranty-year of Web Servers and roughly 3.2× that of Computers (and 6.4× Printers), indicating that optimizing warranty terms for servers offers the largest potential savings impact.",
+    "HR’s 8.85% is about 31% higher than the next-highest department (Customer Support at 6.72%) and more than 3 times IT’s 2.54%, while Development and Finance have 0%, indicating that near-term warranty renewal risk is concentrated in a few departments rather than spread evenly.",
+    "Average warranty terms have roughly tripled over the period, rising from 383.25 days in 2023-05 to 1,159.17 days in 2024-04 (+202.6%), indicating a shift toward longer warranties on newer purchases that could materially reduce replacement risk and support longer asset lifecycles.",
+    "There is a ~227-day spread between the highest (Finance: ~626 days) and lowest (HR: ~399 days) departmental averages, and all departments still average >1 year remaining, indicating HR assets will require warranty attention first while Finance can defer renewals the longest.",
+    "Servers’ average warranty (596 days) is ~15% shorter than Computers (702 days) and ~7% shorter than Printers (639.6 days), suggesting servers will fall out of coverage sooner and may benefit most from extended warranties or earlier refresh planning.",
+    "The very strong positive correlation indicates that assets purchased later in the period tended to have much longer warranties (rising from 1 year to about 3.5 years), implying that procurement timing can materially extend coverage length and reduce risk of out-of-warranty exposure.",
+    "With only 7.8% (39/500) of warranties expiring by late July, over 92% of the fleet remains covered beyond the next quarter, enabling procurement to focus on a small, manageable renewal cohort and plan potential batch actions for cost efficiency.",
+    "Servers’ median warranty length is 136 days (~21%) shorter than Computers (642 days) and 163.5 days (~27%) shorter than Storage Devices (669.5 days), signaling that servers will hit warranty gaps sooner and may benefit most from extended warranties or synchronized procurement cycles.",
+    "From 2023Q2 to 2024Q2 the average cost per warranty day fell by roughly 70% (7.43 to 2.26), indicating that 2024 purchases deliver markedly better warranty value and suggesting that aligning procurement to more recent quarters can optimize warranty cost efficiency.",
+    "With all 328 of the 2023 purchases (about 65.6% of the 500-asset fleet) still covered and the earliest 2023 warranty expiring on 2024-05-29 (~33 days after the snapshot), a large share of assets will start rolling off warranty in a tight window, signaling a concentrated renewal/procurement workload in late Q2 2024."
+  ],
+  "predicted_summary": "Warranty coverage has risen sharply for newer purchases and become more cost‑efficient: warranty duration is very strongly tied to purchase timing (correlation ≈ 0.959), increasing from an average of about 383 days in 2023-05 to about 1,159 days in 2024-04 (roughly a 3x increase). In parallel, 2024Q2 has the lowest average cost per day of warranty coverage (~2.26), indicating better value in recent buys.\nAsset price doesn’t predict warranty length, but product category does: cost and warranty duration show virtually no linear relationship (correlation ≈ -0.0406). In contrast, Servers stand out with the shortest warranties (median ~506 days; average ~596 days) and the highest average cost per warranty‑year (~5,950), making them the least warranty‑efficient category relative to spend.\nNear‑term warranty expirations are modest overall but concentrated by department: 7.8% of assets (39/500) have warranties expiring within 90 days as of 2024-04-26. HR faces the highest exposure—8.85% of its total asset cost expires soon and its assets have the lowest average remaining warranty (≈398.54 days)—while Finance has the most runway (≈625.66 days). Notably, 100% of 2023 purchases remain under warranty.",
+  "score_insights": 0.34837874514953526,
+  "score_insights_dict": [
+    {
+      "gt_insight": "Product Management allocates the highest average spending on assets compared to other departments.",
+      "pred_insight": "Servers carry about 1.46× the cost per warranty-year of Web Servers and roughly 3.2× that of Computers (and 6.4× Printers), indicating that optimizing warranty terms for servers offers the largest potential savings impact.",
+      "score": 0.2603711225007745
+    },
+    {
+      "gt_insight": "The Linear Regression Model is able to predicts Warranty Periods Based on Purchase Dates",
+      "pred_insight": "The very strong positive correlation indicates that assets purchased later in the period tended to have much longer warranties (rising from 1 year to about 3.5 years), implying that procurement timing can materially extend coverage length and reduce risk of out-of-warranty exposure.",
+      "score": 0.535955782229997
+    },
+    {
+      "gt_insight": "The Product Management and Sales departments have the highest average costs for assets nearing warranty expiration.",
+      "pred_insight": "HR’s 8.85% is about 31% higher than the next-highest department (Customer Support at 6.72%) and more than 3 times IT’s 2.54%, while Development and Finance have 0%, indicating that near-term warranty renewal risk is concentrated in a few departments rather than spread evenly.",
+      "score": 0.24880933071783437
+    }
+  ],
+  "score_summary": 0.5037819259062684,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.3454403499168965,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "The very strong positive correlation indicates that assets purchased later in the period tended to have much longer warranties (rising from 1 year to about 3.5 years), implying that procurement timing can materially extend coverage length and reduce risk of out-of-warranty exposure.",
+      "gt_insight": "Product Management allocates the highest average spending on assets compared to other departments.",
+      "score": 0.19293268456306206
+    },
+    {
+      "pred_insight": "The very strong positive correlation indicates that assets purchased later in the period tended to have much longer warranties (rising from 1 year to about 3.5 years), implying that procurement timing can materially extend coverage length and reduce risk of out-of-warranty exposure.",
+      "gt_insight": "The Linear Regression Model is able to predicts Warranty Periods Based on Purchase Dates",
+      "score": 0.5644705994001875
+    },
+    {
+      "pred_insight": "HR’s 8.85% is about 31% higher than the next-highest department (Customer Support at 6.72%) and more than 3 times IT’s 2.54%, while Development and Finance have 0%, indicating that near-term warranty renewal risk is concentrated in a few departments rather than spread evenly.",
+      "gt_insight": "The Product Management and Sales departments have the highest average costs for assets nearing warranty expiration.",
+      "score": 0.2789177657874399
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.10713363487799901,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.6006119362654745
+}

@@ -1,0 +1,262 @@
+{
+  "total_insights": 25,
+  "total_classified": 25,
+  "acled_count": 1,
+  "non_acled_count": 24,
+  "pct_acled": 0.04,
+  "details": [
+    {
+      "evidence": "Mexico’s homicide levels remain near historic highs despite three consecutive annual declines, with over 31,000 murders in 2023 and a national rate around 24 per 100,000—over four times the U.S. rate.",
+      "is_acled_data": false,
+      "reasoning": "The evidence cites national homicide totals and rates (31,000 murders in 2023; ~24 per 100,000), which are general crime/homicide statistics typically from Mexican government sources or UNODC, not ACLED’s event-based conflict dataset. It is not tied to specific ACLED event counts or actor-level conflict data and lacks ACLED attribution.",
+      "source_context": "Persistently High Levels of Violence section; cites Mexico News Daily and AP data for 2023 figures and comparisons."
+    },
+    {
+      "evidence": "Under President López Obrador’s 2018–2024 term, approximately 194,000 killings occurred, making it the most violent six-year period on record.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a total national homicide count over a presidential term, typically from government crime statistics or media summaries, not ACLED’s event-based conflict dataset. It is not explicitly tied to ACLED event/fatality data or actor-level conflict events.",
+      "source_context": "Persistently High Levels of Violence section; Mexico News Daily data summarizing the administration’s total toll."
+    },
+    {
+      "evidence": "As of mid-2024, homicide levels remained elevated compared to pre-2018, about 9% higher than the same period in 2017 despite being 10% below the 2018 peak.",
+      "is_acled_data": false,
+      "reasoning": "The evidence cites national homicide levels and comparisons to 2017/2018 peaks, which are typically derived from government crime statistics (e.g., Mexico’s SESNSP) rather than ACLED’s event-based conflict data. It does not reference ACLED event counts, fatalities from specific conflict events, or ACLED attribution.",
+      "source_context": "Persistently High Levels of Violence section; AP data comparing January–August 2024 to 2017 and 2018."
+    },
+    {
+      "evidence": "Mexico’s criminal landscape is fragmented into horizontally integrated networks of semi-autonomous cells, limiting the impact of targeting individual leaders.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical characterization of Mexico’s criminal network structure and leadership targeting efficacy, not a reference to specific ACLED event data, counts, actors, or trends. It reads as qualitative analysis rather than ACLED-derived metrics or event-based findings.",
+      "source_context": "Drivers of Violence section; Insight Crime analysis on decentralization and its implications."
+    },
+    {
+      "evidence": "Cartels have diversified beyond drugs into extortion, fuel theft, kidnapping, and migrant smuggling, which both finances and fuels further violence.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical claim about cartel criminal portfolios and financing mechanisms, not a reference to specific ACLED event counts, actor activity records, fatalities, or location-based conflict data. It lacks attribution to ACLED and does not cite event-level evidence or trends derived from ACLED datasets.",
+      "source_context": "Drivers of Violence section; Insight Crime overview of diversified criminal portfolios."
+    },
+    {
+      "evidence": "Extortion is pervasive: 12% of major companies report organized crime influence in supply chains, nearly half faced attacks on transport, and 45% received protection payment demands.",
+      "is_acled_data": false,
+      "reasoning": "The evidence cites corporate impact metrics (percent of companies reporting supply-chain influence, transport attacks, and protection payment demands). These are business/enterprise survey-style statistics, not event-level conflict data, fatalities, or ACLED-derived trends. No attribution to ACLED is provided, and the content falls under economic/organizational impact indicators rather than ACLED event data.",
+      "source_context": "Drivers of Violence section; Spectrum Local News survey of corporations in Mexico."
+    },
+    {
+      "evidence": "Guanajuato leads in absolute homicides, with about 3,746 murders in 2023 driven by CJNG–Santa Rosa de Lima Cartel conflict over fuel theft and drug routes.",
+      "is_acled_data": false,
+      "reasoning": "The statement cites absolute homicide totals (3,746 in 2023 for Guanajuato) and attributes causes to cartel conflict. ACLED tracks conflict events and fatalities from such events, not overall criminal homicide totals from government crime statistics. The figure aligns with Mexican government homicide data, not ACLED event-derived fatalities, and there is no explicit ACLED attribution.",
+      "source_context": "Regional Hotspots section; Mexico News Daily data and context on Guanajuato."
+    },
+    {
+      "evidence": "Other high-burden states—México state, Baja California, Chihuahua, Michoacán, Guerrero, and Jalisco—each recorded well over a thousand killings in 2023.",
+      "is_acled_data": false,
+      "reasoning": "The statement reports total killings by state in 2023, which aligns more with general homicide statistics from government crime data rather than ACLED’s event-based conflict fatalities. It is not explicitly tied to ACLED event data or conflict categories and lacks attribution to ACLED.",
+      "source_context": "Regional Hotspots section; Mexico News Daily state-level homicide summaries."
+    },
+    {
+      "evidence": "Colima has an extreme per-capita murder rate—117 per 100,000 in 2023—linked to battles over its strategic port and trafficking corridors.",
+      "is_acled_data": false,
+      "reasoning": "The evidence cites a per-capita murder rate (117 per 100,000 in 2023) for Colima, which is a homicide statistic typically from governmental crime data or public health sources, not ACLED’s event-based conflict dataset. It is not tied to ACLED event counts or actor/event data and lacks explicit ACLED attribution.",
+      "source_context": "Regional Hotspots section; Mexico News Daily per-capita statistics and context."
+    },
+    {
+      "evidence": "Cartel violence and intimidation affect previously calmer or tourist areas, exemplified by the 2024 beheading of Chilpancingo’s mayor to terrorize authorities.",
+      "is_acled_data": false,
+      "reasoning": "The claim describes a specific sensational incident (beheading of Chilpancingo’s mayor in 2024) and general effects on tourist areas without citing ACLED event data, counts, locations, or actor-level statistics. It appears as narrative/media report-style content rather than analysis explicitly grounded in ACLED datasets.",
+      "source_context": "Regional Hotspots section; AP report on the Chilpancingo (Guerrero) mayor’s murder in late 2024."
+    },
+    {
+      "evidence": "Political violence is integral to cartel strategy: over 1,000 violent incidents against local officials occurred between 2018 and 2022, with spikes during the 2024 election cycle.",
+      "is_acled_data": true,
+      "reasoning": "The claim cites counts of violent incidents against local officials over specific years and notes spikes during an election cycle—these are event-based, temporal conflict statistics typical of ACLED’s violence against civilians and actor-level/event count data. This aligns with ACLED’s tracking of political violence incidents and temporal trends.",
+      "source_context": "Political Violence subsection; Insight Crime data and election-period escalations."
+    },
+    {
+      "evidence": "Violence often surges where incumbents are vulnerable, as shifting power disrupts political-criminal agreements and prompts gangs to attack or back favored candidates.",
+      "is_acled_data": false,
+      "reasoning": "This is a general analytical statement about political dynamics and gang behavior, not citing specific ACLED event data, counts, locations, or trends. It reads as commentary rather than data derived from ACLED.",
+      "source_context": "Political Violence subsection; Insight Crime analysis of dynamics during political transitions."
+    },
+    {
+      "evidence": "López Obrador publicly rejected a direct war with cartels yet relied heavily on the military via the National Guard, resulting in persistent high homicide rates and limited on-the-ground results.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a political/policy analysis about AMLO’s stance and use of the National Guard with general claims about homicide rates and limited results. It does not cite specific ACLED event data, actor-level entries, fatalities, or trend metrics attributable to ACLED.",
+      "source_context": "Government Response section; AP reporting on strategy and outcomes under AMLO."
+    },
+    {
+      "evidence": "Mexico’s Congress placed the National Guard under formal army control, deepening the militarization of public security despite limited investigative capacity and ongoing impunity.",
+      "is_acled_data": false,
+      "reasoning": "The statement concerns a government policy decision (placing the National Guard under army control) and broader analysis on militarization and impunity, which are policy/governance developments rather than specific conflict events or ACLED-derived metrics. It is not tied to ACLED event data, counts, fatalities, or actor-level event records.",
+      "source_context": "Government Response section; AP coverage of institutional changes and critiques."
+    },
+    {
+      "evidence": "Military and National Guard deployments often focus on patrols and checkpoints without robust investigative follow-through, leading to few arrests and persistent community complaints.",
+      "is_acled_data": false,
+      "reasoning": "This is a general analytical statement about security force deployments and their effectiveness, not a reference to specific conflict events, counts, fatalities, locations, or actor-level data from ACLED. It lacks explicit ACLED attribution or event-based metrics.",
+      "source_context": "Government Response section; AP observations on operational shortcomings and local perceptions."
+    },
+    {
+      "evidence": "President Claudia Sheinbaum’s early security plan signals continuity with AMLO: emphasis on intelligence improvements and social programs while avoiding large-scale confrontations.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a policy analysis about the new president’s security plan and its continuity with AMLO, focusing on intelligence, social programs, and avoiding large-scale confrontations. It reflects government policy positions, not conflict event data, counts, fatalities, or actor-level event information attributable to ACLED.",
+      "source_context": "Policy Continuity section; AP reporting on Sheinbaum’s announced approach."
+    },
+    {
+      "evidence": "Sheinbaum retains the military-led National Guard at the core of security, while proposing better integration of intelligence and a national security academy for policing-oriented training.",
+      "is_acled_data": false,
+      "reasoning": "This is a policy description about maintaining the National Guard and proposed training/integration measures. It is a government policy statement/analysis, not conflict event data, statistics, or actor/event trends attributed to ACLED.",
+      "source_context": "Policy Continuity section; AP details on Omar García Harfuch’s plans and institutional proposals."
+    },
+    {
+      "evidence": "Experts, including former DEA official Mike Vigil, view Sheinbaum’s plan as more of the same, suggesting limited prospects for dramatic near-term security improvements.",
+      "is_acled_data": false,
+      "reasoning": "This is expert commentary on policy prospects (a quote/assessment by a former DEA official) and not tied to specific conflict event data, fatalities, actors, or trends from ACLED.",
+      "source_context": "Policy Continuity section; AP quotes and expert skepticism about substantive change."
+    },
+    {
+      "evidence": "The Sinaloa Cartel and CJNG remain dominant and resilient; leadership disruptions in 2023–2024 did not threaten collapse and may trigger violent internal or inter-group conflicts.",
+      "is_acled_data": false,
+      "reasoning": "This is a qualitative assessment about cartel dominance and effects of leadership disruptions without citing specific event counts, locations, fatalities, or ACLED-derived actor/event trends. It reads as general analysis rather than explicit ACLED event data or metrics.",
+      "source_context": "Outlook for 2025 section; Insight Crime assessments and AP note on post-extradition infighting in Sinaloa."
+    },
+    {
+      "evidence": "Absent major strategic reforms—such as strengthening civilian investigative police and confronting corruption—violence is expected to remain elevated through 2025.",
+      "is_acled_data": false,
+      "reasoning": "This is a general analytical forecast about future violence contingent on reforms, not a statement derived from specific ACLED event data, statistics, or indices.",
+      "source_context": "Outlook for 2025 section; AP and Insight Crime caution on the need for structural changes."
+    },
+    {
+      "evidence": "Impunity is a core enabler of continued violence; with most crimes unpunished, deterrence is weak and cartel aggression remains incentivized.",
+      "is_acled_data": false,
+      "reasoning": "This is a general analytical statement about impunity and deterrence, not tied to specific ACLED event data, counts, locations, or actor-level statistics. It reflects commentary rather than ACLED-derived metrics.",
+      "source_context": "Outlook for 2025 section; AP commentary on justice system weaknesses."
+    },
+    {
+      "evidence": "Sustained narcotics demand and ongoing diversification into extortion and other rackets will continue funding and motivating violent competition in 2025.",
+      "is_acled_data": false,
+      "reasoning": "This is a forward-looking analytical statement about criminal financing and motivations; it does not cite conflict event counts, actor/activity data, or any other specific ACLED-derived metrics or trends.",
+      "source_context": "Outlook for 2025 section; Insight Crime on economic drivers of criminal violence."
+    },
+    {
+      "evidence": "Post-2024 political transitions are likely to fuel targeted violence into 2025 as criminal groups adjust to new power brokers or retaliate against hostile officials.",
+      "is_acled_data": false,
+      "reasoning": "This is a general forward-looking analytical statement about political transitions potentially fueling targeted violence; it is not tied to specific ACLED event data, statistics, or explicit attribution to ACLED.",
+      "source_context": "Outlook for 2025 section; Insight Crime analysis of electoral realignments and violence."
+    },
+    {
+      "evidence": "While homicides have slightly declined from the 2020 peak, the trend is shallow and uncertain; most indicators point to continued high gang-related violence in 2025.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general trend assessment about homicide levels and future outlook without referencing specific ACLED event counts, fatalities, actor data, or ACLED-attributed trends. It aligns more with broad criminological or journalistic analysis rather than ACLED-derived metrics.",
+      "source_context": "Outlook for 2025 section; Mexico News Daily trend data and overall assessment."
+    },
+    {
+      "evidence": "Overall, Mexico’s cartel violence is entrenched, intertwined with the economy and politics, and unlikely to see rapid improvement without long-term institutional reforms and strategic rethinking.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a broad analytical assessment about entrenched cartel violence and prospects for improvement; it does not reference specific conflict events, counts, locations, actors, or ACLED-attributed metrics. It is general commentary, not derived from ACLED event data.",
+      "source_context": "Summary section; synthesis of structural factors and policy continuity implications."
+    }
+  ],
+  "insights": [
+    {
+      "insight": "Mexico’s homicide levels remain near historic highs despite three consecutive annual declines, with over 31,000 murders in 2023 and a national rate around 24 per 100,000—over four times the U.S. rate.",
+      "context": "Persistently High Levels of Violence section; cites Mexico News Daily and AP data for 2023 figures and comparisons."
+    },
+    {
+      "insight": "Under President López Obrador’s 2018–2024 term, approximately 194,000 killings occurred, making it the most violent six-year period on record.",
+      "context": "Persistently High Levels of Violence section; Mexico News Daily data summarizing the administration’s total toll."
+    },
+    {
+      "insight": "As of mid-2024, homicide levels remained elevated compared to pre-2018, about 9% higher than the same period in 2017 despite being 10% below the 2018 peak.",
+      "context": "Persistently High Levels of Violence section; AP data comparing January–August 2024 to 2017 and 2018."
+    },
+    {
+      "insight": "Mexico’s criminal landscape is fragmented into horizontally integrated networks of semi-autonomous cells, limiting the impact of targeting individual leaders.",
+      "context": "Drivers of Violence section; Insight Crime analysis on decentralization and its implications."
+    },
+    {
+      "insight": "Cartels have diversified beyond drugs into extortion, fuel theft, kidnapping, and migrant smuggling, which both finances and fuels further violence.",
+      "context": "Drivers of Violence section; Insight Crime overview of diversified criminal portfolios."
+    },
+    {
+      "insight": "Extortion is pervasive: 12% of major companies report organized crime influence in supply chains, nearly half faced attacks on transport, and 45% received protection payment demands.",
+      "context": "Drivers of Violence section; Spectrum Local News survey of corporations in Mexico."
+    },
+    {
+      "insight": "Guanajuato leads in absolute homicides, with about 3,746 murders in 2023 driven by CJNG–Santa Rosa de Lima Cartel conflict over fuel theft and drug routes.",
+      "context": "Regional Hotspots section; Mexico News Daily data and context on Guanajuato."
+    },
+    {
+      "insight": "Other high-burden states—México state, Baja California, Chihuahua, Michoacán, Guerrero, and Jalisco—each recorded well over a thousand killings in 2023.",
+      "context": "Regional Hotspots section; Mexico News Daily state-level homicide summaries."
+    },
+    {
+      "insight": "Colima has an extreme per-capita murder rate—117 per 100,000 in 2023—linked to battles over its strategic port and trafficking corridors.",
+      "context": "Regional Hotspots section; Mexico News Daily per-capita statistics and context."
+    },
+    {
+      "insight": "Cartel violence and intimidation affect previously calmer or tourist areas, exemplified by the 2024 beheading of Chilpancingo’s mayor to terrorize authorities.",
+      "context": "Regional Hotspots section; AP report on the Chilpancingo (Guerrero) mayor’s murder in late 2024."
+    },
+    {
+      "insight": "Political violence is integral to cartel strategy: over 1,000 violent incidents against local officials occurred between 2018 and 2022, with spikes during the 2024 election cycle.",
+      "context": "Political Violence subsection; Insight Crime data and election-period escalations."
+    },
+    {
+      "insight": "Violence often surges where incumbents are vulnerable, as shifting power disrupts political-criminal agreements and prompts gangs to attack or back favored candidates.",
+      "context": "Political Violence subsection; Insight Crime analysis of dynamics during political transitions."
+    },
+    {
+      "insight": "López Obrador publicly rejected a direct war with cartels yet relied heavily on the military via the National Guard, resulting in persistent high homicide rates and limited on-the-ground results.",
+      "context": "Government Response section; AP reporting on strategy and outcomes under AMLO."
+    },
+    {
+      "insight": "Mexico’s Congress placed the National Guard under formal army control, deepening the militarization of public security despite limited investigative capacity and ongoing impunity.",
+      "context": "Government Response section; AP coverage of institutional changes and critiques."
+    },
+    {
+      "insight": "Military and National Guard deployments often focus on patrols and checkpoints without robust investigative follow-through, leading to few arrests and persistent community complaints.",
+      "context": "Government Response section; AP observations on operational shortcomings and local perceptions."
+    },
+    {
+      "insight": "President Claudia Sheinbaum’s early security plan signals continuity with AMLO: emphasis on intelligence improvements and social programs while avoiding large-scale confrontations.",
+      "context": "Policy Continuity section; AP reporting on Sheinbaum’s announced approach."
+    },
+    {
+      "insight": "Sheinbaum retains the military-led National Guard at the core of security, while proposing better integration of intelligence and a national security academy for policing-oriented training.",
+      "context": "Policy Continuity section; AP details on Omar García Harfuch’s plans and institutional proposals."
+    },
+    {
+      "insight": "Experts, including former DEA official Mike Vigil, view Sheinbaum’s plan as more of the same, suggesting limited prospects for dramatic near-term security improvements.",
+      "context": "Policy Continuity section; AP quotes and expert skepticism about substantive change."
+    },
+    {
+      "insight": "The Sinaloa Cartel and CJNG remain dominant and resilient; leadership disruptions in 2023–2024 did not threaten collapse and may trigger violent internal or inter-group conflicts.",
+      "context": "Outlook for 2025 section; Insight Crime assessments and AP note on post-extradition infighting in Sinaloa."
+    },
+    {
+      "insight": "Absent major strategic reforms—such as strengthening civilian investigative police and confronting corruption—violence is expected to remain elevated through 2025.",
+      "context": "Outlook for 2025 section; AP and Insight Crime caution on the need for structural changes."
+    },
+    {
+      "insight": "Impunity is a core enabler of continued violence; with most crimes unpunished, deterrence is weak and cartel aggression remains incentivized.",
+      "context": "Outlook for 2025 section; AP commentary on justice system weaknesses."
+    },
+    {
+      "insight": "Sustained narcotics demand and ongoing diversification into extortion and other rackets will continue funding and motivating violent competition in 2025.",
+      "context": "Outlook for 2025 section; Insight Crime on economic drivers of criminal violence."
+    },
+    {
+      "insight": "Post-2024 political transitions are likely to fuel targeted violence into 2025 as criminal groups adjust to new power brokers or retaliate against hostile officials.",
+      "context": "Outlook for 2025 section; Insight Crime analysis of electoral realignments and violence."
+    },
+    {
+      "insight": "While homicides have slightly declined from the 2020 peak, the trend is shallow and uncertain; most indicators point to continued high gang-related violence in 2025.",
+      "context": "Outlook for 2025 section; Mexico News Daily trend data and overall assessment."
+    },
+    {
+      "insight": "Overall, Mexico’s cartel violence is entrenched, intertwined with the economy and politics, and unlikely to see rapid improvement without long-term institutional reforms and strategic rethinking.",
+      "context": "Summary section; synthesis of structural factors and policy continuity implications."
+    }
+  ],
+  "prompt": "Research gang violence in Mexico and its outlook in 2025, as if we are at the end of 2024 heading into 2025."
+}

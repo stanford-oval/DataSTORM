@@ -1,0 +1,362 @@
+{
+  "total_insights": 35,
+  "total_classified": 35,
+  "acled_count": 2,
+  "non_acled_count": 33,
+  "pct_acled": 0.05714285714285714,
+  "details": [
+    {
+      "evidence": "Gustavo Petro, Colombia’s first leftist president, entered office in August 2022 with a transformative agenda focused on social reforms and ending conflict, but by late 2024 progress is mixed.",
+      "is_acled_data": false,
+      "reasoning": "The statement is general political context about Petro’s presidency and reform progress, not citing conflict event data, fatalities, actor activity, or ACLED-derived metrics. It is commentary, not ACLED data.",
+      "source_context": "Introduction outlining Petro’s presidency and agenda, end-2024 status."
+    },
+    {
+      "evidence": "A historic 2022 tax reform increased taxes on the wealthy and extractive industries to fund social programs, reflecting demands from 2021 protests.",
+      "is_acled_data": false,
+      "reasoning": "The evidence describes a tax reform policy and its socioeconomic context, which is a policy/economic measure, not conflict event data or analysis derived from ACLED’s datasets.",
+      "source_context": "Achievements section describing early legislative success on progressive tax policy."
+    },
+    {
+      "evidence": "Petro initiated agrarian reform, transferring land from large estates to landless farmers by 2023, welcomed in rural areas.",
+      "is_acled_data": false,
+      "reasoning": "The statement describes a policy initiative (agrarian reform) and its reception, not conflict event data, fatalities, or actor/event-specific metrics. It is a government policy/development, which falls under general political analysis, not ACLED-derived data.",
+      "source_context": "Achievements section on agrarian reform implementation."
+    },
+    {
+      "evidence": "Colombia joined the Escazú Agreement and implemented environmental measures; deforestation fell by nearly 38% in 2023, attributed partly to Petro’s policies.",
+      "is_acled_data": false,
+      "reasoning": "The evidence concerns environmental policy (Escazú Agreement) and deforestation reduction figures, which are environmental/governance metrics, not conflict event data or ACLED-derived statistics. It does not reference ACLED datasets or conflict events.",
+      "source_context": "Environmental policy accomplishments and deforestation outcomes in 2023."
+    },
+    {
+      "evidence": "Laws banning single-use plastics and taxing sugary drinks were passed to improve public health.",
+      "is_acled_data": false,
+      "reasoning": "The statement refers to public policy measures (bans on single-use plastics and taxes on sugary drinks) aimed at public health, which are policy actions, not conflict event data or analysis. This falls under policy statements/government actions, which are not ACLED data unless tied to specific conflict events or explicitly attributed to ACLED.",
+      "source_context": "Legislative achievements on health and environment."
+    },
+    {
+      "evidence": "Petro’s electoral coalition includes marginalized communities, Indigenous and Afro-Colombian groups, youth, and progressive urban voters seeking expanded social rights and environmental protection.",
+      "is_acled_data": false,
+      "reasoning": "The statement describes the composition of Petro’s electoral coalition and demographic/political supporters. This is political and demographic analysis, not event-based conflict data, fatalities, locations, or actor/event details derived from ACLED.",
+      "source_context": "Support base and priorities of Petro’s movement."
+    },
+    {
+      "evidence": "A central goal of Petro’s agenda is comprehensive peace—engagement with all armed groups and full implementation of the 2016 FARC accord.",
+      "is_acled_data": false,
+      "reasoning": "This statement is a policy objective about Petro’s agenda and peace process implementation; it is general political analysis and not derived from ACLED event data or statistics.",
+      "source_context": "Stated priorities on peace and implementation of previous accords."
+    },
+    {
+      "evidence": "Petro’s reforms faced fierce resistance from business elites, landowners, and traditional politicians; key healthcare and labor reforms stalled in Congress by 2023.",
+      "is_acled_data": false,
+      "reasoning": "The statement concerns political resistance to Petro’s reforms and legislative stalling, which is general political analysis/policy process information, not specific conflict event data, actors, fatalities, or ACLED-attributed metrics.",
+      "source_context": "Mounting challenges and political opposition in the legislature."
+    },
+    {
+      "evidence": "Petro accused elites and media of disinformation and referenced a ‘coup d’état, Colombian style,’ while courts overturned parts of his tax reform on procedural grounds.",
+      "is_acled_data": false,
+      "reasoning": "The statement concerns political rhetoric and judicial decisions about tax reform, which are policy/political developments rather than conflict event data (no event counts, fatalities, locations, or actor-level conflict incidents). This fits general political analysis not tied to ACLED event data.",
+      "source_context": "Political tensions and institutional pushback, Constitutional Court decision."
+    },
+    {
+      "evidence": "Public support declined through 2023–2024 due to corruption scandal involving Petro’s son, slow economic growth (~1% in 2023), and worsening security; approval fell to about 26–30% by mid-2024.",
+      "is_acled_data": false,
+      "reasoning": "The evidence discusses public approval ratings, corruption scandal impacts, and economic growth figures—these are political opinion polling and economic indicators, not conflict event data or ACLED-derived metrics.",
+      "source_context": "Public opinion trends and contributing factors."
+    },
+    {
+      "evidence": "The October 2023 regional elections rebuked Petro’s allies, with opposition and independents winning major cities and Petro’s coalition taking only 2 of 32 governorships.",
+      "is_acled_data": false,
+      "reasoning": "The evidence discusses electoral outcomes (regional elections, coalition performance), which are political results and not conflict event data or statistics derived from ACLED. It does not reference events, fatalities, protests, or actor-level conflict data tied to ACLED datasets.",
+      "source_context": "Electoral outcomes indicating weakened mandate."
+    },
+    {
+      "evidence": "Petro reshuffled his cabinet in 2024, appointing moderates like Juan Fernando Cristo as Interior Minister, and proposed a ‘national agreement’ to find consensus on reforms.",
+      "is_acled_data": false,
+      "reasoning": "The evidence describes cabinet reshuffles and a proposed political agreement—policy and political actions—not conflict event data, fatalities, or actor/event metrics. This is general political analysis and not tied to ACLED event data.",
+      "source_context": "Government adjustments to rebuild congressional bridges."
+    },
+    {
+      "evidence": "Distrust persists among opponents; critics suspect Petro may seek constitutional changes such as re-election, though no concrete steps have been taken.",
+      "is_acled_data": false,
+      "reasoning": "The statement is political analysis about perceptions of Petro’s intentions and constitutional change, not specific conflict event data, counts, fatalities, locations, or actor-level events attributed to ACLED.",
+      "source_context": "Opposition skepticism and concerns about constitutional ambitions."
+    },
+    {
+      "evidence": "Post-FARC, Colombia’s conflict evolved with ELN as the largest insurgency (2,000–5,000 fighters), over 30 FARC dissident factions (notably EMC), and criminal groups like the Gulf Clan controlling illicit economies.",
+      "is_acled_data": false,
+      "reasoning": "The evidence provides group sizes (2,000–5,000 fighters) and organizational landscape (ELN largest, FARC dissident factions, Gulf Clan control of illicit economies). These are actor strength estimates and qualitative characterization, not ACLED event counts, fatalities, or locations, nor explicitly attributed to ACLED. This appears as general conflict analysis rather than ACLED-derived event data.",
+      "source_context": "Conflict actors landscape after 2016 accord."
+    },
+    {
+      "evidence": "Humanitarian abuses remain severe: increased child recruitment and kidnappings, mass confinements (approx. 64,000 people Jan–Oct 2023), 52 massacres in H1 2023, and over 150 social leaders killed Jan–Nov 2023.",
+      "is_acled_data": false,
+      "reasoning": "The evidence cites humanitarian abuses with figures on child recruitment, kidnappings, mass confinements, massacres, and killings of social leaders over specific periods. These metrics often come from UN/OCHA, NGOs, or national observatories; they are not clearly tied to ACLED event counts and include categories (e.g., mass confinements, child recruitment) not standard ACLED outputs unless explicitly attributed. No attribution to ACLED is provided.",
+      "source_context": "Human rights situation and violence indicators in 2023."
+    },
+    {
+      "evidence": "Petro’s ‘Total Peace’ strategy sought simultaneous negotiations with all illegal armed groups, reopening talks with ELN and establishing a monitored bilateral ceasefire in 2023, later extended into mid-2024.",
+      "is_acled_data": false,
+      "reasoning": "The statement describes government policy actions (negotiations, ceasefire with ELN) and timelines. This is a policy/declaration summary rather than event-level data, statistics, or actor/event records attributed to ACLED.",
+      "source_context": "Total Peace concept and ELN ceasefire milestones."
+    },
+    {
+      "evidence": "Parallel talks with EMC dissidents briefly produced a ceasefire in late 2022; the government explored negotiation or surrender terms with criminal syndicates like the Gulf Clan.",
+      "is_acled_data": false,
+      "reasoning": "The statement describes negotiation efforts and ceasefire talks with EMC dissidents and criminal groups (Gulf Clan) in general terms. It does not cite specific conflict events, counts, fatalities, locations, or trends from ACLED, nor is it attributed to ACLED datasets. This is policy/process commentary rather than ACLED-derived event data.",
+      "source_context": "Engagement with other armed actors besides ELN."
+    },
+    {
+      "evidence": "Conflict violence indicators modestly improved in 2024 compared to 2023, with fewer political violence incidents and conflict-related fatalities (ACLED-based figures).",
+      "is_acled_data": true,
+      "reasoning": "The statement explicitly references “ACLED-based figures” and discusses political violence incidents and conflict-related fatalities, which are core ACLED event and fatality metrics. Therefore, it is derived from ACLED data.",
+      "source_context": "Reported decline in incidents and fatalities in 2024 relative to 2023."
+    },
+    {
+      "evidence": "Total Peace suffered major setbacks in 2024: the government suspended the EMC ceasefire in March after killings in Cauca, resuming military operations.",
+      "is_acled_data": false,
+      "reasoning": "The statement summarizes a policy development and ceasefire suspension (government action) and general conflict context, not specific ACLED-coded events, counts, fatalities, or actor-level event data explicitly attributed to ACLED.",
+      "source_context": "Breakdown with EMC and renewed offensives in southwest departments."
+    },
+    {
+      "evidence": "ELN talks collapsed in August 2024; the ELN refused to renew the truce, citing unfulfilled promises and objections to government outreach to breakaway factions; kidnappings and illegal taxation resurfaced.",
+      "is_acled_data": false,
+      "reasoning": "The evidence describes negotiation status, truce renewal refusal, and qualitative claims about kidnappings and illegal taxation resuming. This is political/diplomatic process and general narrative, not specific ACLED event data (no event counts, dates, locations, or fatalities). It resembles media/political analysis rather than data explicitly tied to ACLED.",
+      "source_context": "Ceasefire breakdown specifics and mutual accusations."
+    },
+    {
+      "evidence": "Post-breakdown, violence resumed with clashes in Chocó and Arauca; an ELN attack on a military patrol in Arauca on September 17, 2024, derailed hopes of restoring the ceasefire.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites a specific armed conflict event with date, actors (ELN vs. military), location (Arauca), and implications for a ceasefire, which aligns with ACLED-style event descriptions and temporal/geographic details.",
+      "source_context": "Notable incident marking renewed hostilities in late 2024."
+    },
+    {
+      "evidence": "By end-2024, Total Peace lost momentum, partial deals often broke down, and public sentiment turned pessimistic, with 85% perceiving worsening security by mid-2024.",
+      "is_acled_data": false,
+      "reasoning": "The statement concerns public sentiment (85% perceiving worsening security) and qualitative assessment of policy momentum, which are not ACLED event-based metrics. ACLED does not provide opinion polling data or general policy evaluations. No explicit ACLED attribution or event statistics are present.",
+      "source_context": "Assessment of initiative’s status and public opinion."
+    },
+    {
+      "evidence": "The government is adapting by exploring regional peace dialogues tailored to specific departments, aiming for partial peace with actors willing to negotiate while isolating hardliners.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analysis of government strategy and peace dialogue approaches, not specific conflict event data, statistics, or actor-level event information attributable to ACLED.",
+      "source_context": "Shift toward localized, incremental peace strategies."
+    },
+    {
+      "evidence": "Transitional justice advances continue: the Special Jurisdiction for Peace (JEP) charged former FARC leaders with war crimes and indicted retired General Mario Montoya over ‘false positives’ killings.",
+      "is_acled_data": false,
+      "reasoning": "The evidence describes judicial actions by the JEP charging former FARC leaders and indicting a retired general for ‘false positives.’ This is a legal/justice development and policy-judicial statement, not event counts, fatalities, or ACLED-attributed incident data. It is not derived from ACLED’s event dataset.",
+      "source_context": "Justice and accountability efforts under the 2016 accord."
+    },
+    {
+      "evidence": "Delivering justice, reparations, and reintegration for ex-combatants is seen as vital to strengthening the foundation for future peace despite ongoing violence.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical assessment about justice, reparations, and reintegration’s importance for peace; it does not reference specific ACLED event counts, actors, locations, or trends. It is commentary rather than ACLED-derived data.",
+      "source_context": "Rationale for prioritizing transitional justice measures."
+    },
+    {
+      "evidence": "For 2025, Petro must rebuild a working legislative majority or forge ad-hoc alliances to pass stalled reforms (e.g., healthcare), possibly moderating proposals to secure broader support.",
+      "is_acled_data": false,
+      "reasoning": "The statement is political analysis about legislative strategy and policy reforms, not conflict event data, statistics, actor activity, or trends tied to ACLED datasets.",
+      "source_context": "Political strategy outlook for reform passage in 2025."
+    },
+    {
+      "evidence": "Pension reform and tax policies have enabled higher social spending in education and agriculture; demonstrating tangible benefits (jobs, land titles, infrastructure) is central to regaining public support.",
+      "is_acled_data": false,
+      "reasoning": "The statement discusses pension reform, tax policies, social spending, and political support—policy and socioeconomic analysis rather than conflict event data. It does not reference conflict incidents, fatalities, actors, locations, or trends attributable to ACLED.",
+      "source_context": "Policy levers and desired outcomes to improve approval."
+    },
+    {
+      "evidence": "If gridlock persists, Petro may increase reliance on executive actions, local initiatives, or citizen mobilization, though radical moves would be controversial.",
+      "is_acled_data": false,
+      "reasoning": "The evidence is a forward-looking political analysis about potential executive actions and mobilization strategies. It does not reference specific conflict events, actors, locations, fatalities, or trends from ACLED data.",
+      "source_context": "Potential governance tactics amid legislative constraints."
+    },
+    {
+      "evidence": "On security, relaunching ELN talks in 2025 is possible with international guarantors, but likely under stricter conditions to avoid another breakdown.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a forward-looking policy/peace process analysis about potential ELN talks in 2025 and conditions with international guarantors. It does not cite event counts, fatalities, locations, or actor-level event data attributed to ACLED. It is general geopolitical commentary rather than ACLED-derived data.",
+      "source_context": "Prospects for renewed ELN negotiations."
+    },
+    {
+      "evidence": "A ‘partial peace’ approach will likely continue: separate ceasefires or surrender deals with willing groups, possibly revisiting arrangements with certain FARC dissidents or urban criminal gangs.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a forward-looking analytical assessment about peace approaches and potential ceasefires; it is not citing specific conflict events, counts, fatalities, or actor-level data from ACLED. It’s general commentary rather than ACLED-derived event data or trends.",
+      "source_context": "Anticipated negotiation strategy in 2025."
+    },
+    {
+      "evidence": "A regionalized peace and development strategy—tailored investments and services to conflict zones—aims to undercut armed groups’ influence and has shown preliminary promise.",
+      "is_acled_data": false,
+      "reasoning": "The statement describes a policy approach and its preliminary promise, which is general analysis of strategy and outcomes. It does not reference event counts, actor data, fatalities, locations, or any ACLED-derived metrics, nor is it attributed to ACLED.",
+      "source_context": "Localized peacebuilding and state presence expansion."
+    },
+    {
+      "evidence": "Security forces must maintain pressure on violent factions, but are stretched thin and morale has been affected by fluctuating ceasefires.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical assessment about security force posture and morale, not citing specific event counts, actor-level incidents, fatalities, locations, or trends tied to ACLED. It lacks explicit ACLED attribution or concrete conflict event data.",
+      "source_context": "Operational challenges for military and police in 2025."
+    },
+    {
+      "evidence": "2025 is considered a make-or-break period for Petro’s peace agenda, with limited time left in his term to achieve decisive security improvements.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical assessment about political timing and prospects for a peace agenda, not referencing specific ACLED event data, trends, or metrics. It is not tied to ACLED’s conflict event counts, fatalities, locations, or actor-level data.",
+      "source_context": "Time constraints and urgency for results on security."
+    },
+    {
+      "evidence": "Overall outlook for 2025 is cautious hope mixed with uncertainty: comprehensive peace is unlikely soon, but targeted agreements and sustained FARC accord implementation could gradually improve security.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a qualitative outlook and policy analysis about potential peace prospects in 2025, not tied to specific conflict event data, counts, fatalities, actors, or ACLED-attributed metrics.",
+      "source_context": "Conclusion summarizing realistic expectations for progress."
+    },
+    {
+      "evidence": "Petro’s success hinges on pragmatic, inclusive governance to overcome entrenched opposition and on creative, piecemeal peacemaking to deliver incremental stability.",
+      "is_acled_data": false,
+      "reasoning": "The evidence is a general analytical statement about political governance and peacemaking strategy, not presenting event counts, actor data, fatalities, locations, or trends attributable to ACLED.",
+      "source_context": "Conclusion emphasizing strategic shifts needed for progress."
+    }
+  ],
+  "insights": [
+    {
+      "insight": "Gustavo Petro, Colombia’s first leftist president, entered office in August 2022 with a transformative agenda focused on social reforms and ending conflict, but by late 2024 progress is mixed.",
+      "context": "Introduction outlining Petro’s presidency and agenda, end-2024 status."
+    },
+    {
+      "insight": "A historic 2022 tax reform increased taxes on the wealthy and extractive industries to fund social programs, reflecting demands from 2021 protests.",
+      "context": "Achievements section describing early legislative success on progressive tax policy."
+    },
+    {
+      "insight": "Petro initiated agrarian reform, transferring land from large estates to landless farmers by 2023, welcomed in rural areas.",
+      "context": "Achievements section on agrarian reform implementation."
+    },
+    {
+      "insight": "Colombia joined the Escazú Agreement and implemented environmental measures; deforestation fell by nearly 38% in 2023, attributed partly to Petro’s policies.",
+      "context": "Environmental policy accomplishments and deforestation outcomes in 2023."
+    },
+    {
+      "insight": "Laws banning single-use plastics and taxing sugary drinks were passed to improve public health.",
+      "context": "Legislative achievements on health and environment."
+    },
+    {
+      "insight": "Petro’s electoral coalition includes marginalized communities, Indigenous and Afro-Colombian groups, youth, and progressive urban voters seeking expanded social rights and environmental protection.",
+      "context": "Support base and priorities of Petro’s movement."
+    },
+    {
+      "insight": "A central goal of Petro’s agenda is comprehensive peace—engagement with all armed groups and full implementation of the 2016 FARC accord.",
+      "context": "Stated priorities on peace and implementation of previous accords."
+    },
+    {
+      "insight": "Petro’s reforms faced fierce resistance from business elites, landowners, and traditional politicians; key healthcare and labor reforms stalled in Congress by 2023.",
+      "context": "Mounting challenges and political opposition in the legislature."
+    },
+    {
+      "insight": "Petro accused elites and media of disinformation and referenced a ‘coup d’état, Colombian style,’ while courts overturned parts of his tax reform on procedural grounds.",
+      "context": "Political tensions and institutional pushback, Constitutional Court decision."
+    },
+    {
+      "insight": "Public support declined through 2023–2024 due to corruption scandal involving Petro’s son, slow economic growth (~1% in 2023), and worsening security; approval fell to about 26–30% by mid-2024.",
+      "context": "Public opinion trends and contributing factors."
+    },
+    {
+      "insight": "The October 2023 regional elections rebuked Petro’s allies, with opposition and independents winning major cities and Petro’s coalition taking only 2 of 32 governorships.",
+      "context": "Electoral outcomes indicating weakened mandate."
+    },
+    {
+      "insight": "Petro reshuffled his cabinet in 2024, appointing moderates like Juan Fernando Cristo as Interior Minister, and proposed a ‘national agreement’ to find consensus on reforms.",
+      "context": "Government adjustments to rebuild congressional bridges."
+    },
+    {
+      "insight": "Distrust persists among opponents; critics suspect Petro may seek constitutional changes such as re-election, though no concrete steps have been taken.",
+      "context": "Opposition skepticism and concerns about constitutional ambitions."
+    },
+    {
+      "insight": "Post-FARC, Colombia’s conflict evolved with ELN as the largest insurgency (2,000–5,000 fighters), over 30 FARC dissident factions (notably EMC), and criminal groups like the Gulf Clan controlling illicit economies.",
+      "context": "Conflict actors landscape after 2016 accord."
+    },
+    {
+      "insight": "Humanitarian abuses remain severe: increased child recruitment and kidnappings, mass confinements (approx. 64,000 people Jan–Oct 2023), 52 massacres in H1 2023, and over 150 social leaders killed Jan–Nov 2023.",
+      "context": "Human rights situation and violence indicators in 2023."
+    },
+    {
+      "insight": "Petro’s ‘Total Peace’ strategy sought simultaneous negotiations with all illegal armed groups, reopening talks with ELN and establishing a monitored bilateral ceasefire in 2023, later extended into mid-2024.",
+      "context": "Total Peace concept and ELN ceasefire milestones."
+    },
+    {
+      "insight": "Parallel talks with EMC dissidents briefly produced a ceasefire in late 2022; the government explored negotiation or surrender terms with criminal syndicates like the Gulf Clan.",
+      "context": "Engagement with other armed actors besides ELN."
+    },
+    {
+      "insight": "Conflict violence indicators modestly improved in 2024 compared to 2023, with fewer political violence incidents and conflict-related fatalities (ACLED-based figures).",
+      "context": "Reported decline in incidents and fatalities in 2024 relative to 2023."
+    },
+    {
+      "insight": "Total Peace suffered major setbacks in 2024: the government suspended the EMC ceasefire in March after killings in Cauca, resuming military operations.",
+      "context": "Breakdown with EMC and renewed offensives in southwest departments."
+    },
+    {
+      "insight": "ELN talks collapsed in August 2024; the ELN refused to renew the truce, citing unfulfilled promises and objections to government outreach to breakaway factions; kidnappings and illegal taxation resurfaced.",
+      "context": "Ceasefire breakdown specifics and mutual accusations."
+    },
+    {
+      "insight": "Post-breakdown, violence resumed with clashes in Chocó and Arauca; an ELN attack on a military patrol in Arauca on September 17, 2024, derailed hopes of restoring the ceasefire.",
+      "context": "Notable incident marking renewed hostilities in late 2024."
+    },
+    {
+      "insight": "By end-2024, Total Peace lost momentum, partial deals often broke down, and public sentiment turned pessimistic, with 85% perceiving worsening security by mid-2024.",
+      "context": "Assessment of initiative’s status and public opinion."
+    },
+    {
+      "insight": "The government is adapting by exploring regional peace dialogues tailored to specific departments, aiming for partial peace with actors willing to negotiate while isolating hardliners.",
+      "context": "Shift toward localized, incremental peace strategies."
+    },
+    {
+      "insight": "Transitional justice advances continue: the Special Jurisdiction for Peace (JEP) charged former FARC leaders with war crimes and indicted retired General Mario Montoya over ‘false positives’ killings.",
+      "context": "Justice and accountability efforts under the 2016 accord."
+    },
+    {
+      "insight": "Delivering justice, reparations, and reintegration for ex-combatants is seen as vital to strengthening the foundation for future peace despite ongoing violence.",
+      "context": "Rationale for prioritizing transitional justice measures."
+    },
+    {
+      "insight": "For 2025, Petro must rebuild a working legislative majority or forge ad-hoc alliances to pass stalled reforms (e.g., healthcare), possibly moderating proposals to secure broader support.",
+      "context": "Political strategy outlook for reform passage in 2025."
+    },
+    {
+      "insight": "Pension reform and tax policies have enabled higher social spending in education and agriculture; demonstrating tangible benefits (jobs, land titles, infrastructure) is central to regaining public support.",
+      "context": "Policy levers and desired outcomes to improve approval."
+    },
+    {
+      "insight": "If gridlock persists, Petro may increase reliance on executive actions, local initiatives, or citizen mobilization, though radical moves would be controversial.",
+      "context": "Potential governance tactics amid legislative constraints."
+    },
+    {
+      "insight": "On security, relaunching ELN talks in 2025 is possible with international guarantors, but likely under stricter conditions to avoid another breakdown.",
+      "context": "Prospects for renewed ELN negotiations."
+    },
+    {
+      "insight": "A ‘partial peace’ approach will likely continue: separate ceasefires or surrender deals with willing groups, possibly revisiting arrangements with certain FARC dissidents or urban criminal gangs.",
+      "context": "Anticipated negotiation strategy in 2025."
+    },
+    {
+      "insight": "A regionalized peace and development strategy—tailored investments and services to conflict zones—aims to undercut armed groups’ influence and has shown preliminary promise.",
+      "context": "Localized peacebuilding and state presence expansion."
+    },
+    {
+      "insight": "Security forces must maintain pressure on violent factions, but are stretched thin and morale has been affected by fluctuating ceasefires.",
+      "context": "Operational challenges for military and police in 2025."
+    },
+    {
+      "insight": "2025 is considered a make-or-break period for Petro’s peace agenda, with limited time left in his term to achieve decisive security improvements.",
+      "context": "Time constraints and urgency for results on security."
+    },
+    {
+      "insight": "Overall outlook for 2025 is cautious hope mixed with uncertainty: comprehensive peace is unlikely soon, but targeted agreements and sustained FARC accord implementation could gradually improve security.",
+      "context": "Conclusion summarizing realistic expectations for progress."
+    },
+    {
+      "insight": "Petro’s success hinges on pragmatic, inclusive governance to overcome entrenched opposition and on creative, piecemeal peacemaking to deliver incremental stability.",
+      "context": "Conclusion emphasizing strategic shifts needed for progress."
+    }
+  ],
+  "prompt": "Do a deep research on Petro's presidency in Columbia and Columbia's conflict summary and outlook, as if we are at the end of 2024 heading into 2025"
+}

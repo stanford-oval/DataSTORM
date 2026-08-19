@@ -1,0 +1,85 @@
+{
+  "dataset_id": 78,
+  "dataset_path": "data/notebooks/flag-78.json",
+  "metadata": {
+    "category": "Goal Management",
+    "dataset_description": "The dataset consists of 500 entries simulating ServiceNow `sn_gf_goal` table, which details various attributes related to organizational goals. These attributes include goal state, owner, department, start and end dates, and description, alongside metrics such as priority, percent complete, and target percentage. This data primarily tracks the progression and management of departmental and individual goals, offering insights into the effectiveness and alignment of these goals with broader organizational objectives. Additionally, the table captures updates made to each goal, providing a timeline of modifications and the identity of individuals making these updates.",
+    "goal": "Analyze the anomaly of increasing durations of 'Cost Reduction' goals within the Finance department to identify underlying causes and propose solutions to enhance goal management.",
+    "header": "Goal Management in a Department Analysis (Flag 78)",
+    "role": "Strategic Goal Analyst"
+  },
+  "predicted_insights": [
+    "The median completion time more than doubled from 165 days in 2022Q2 to 355.5 days in 2023Q4 (+190.5 days, +115%), increasing by about 30–40 days each quarter in 2023, indicating a persistent slowdown in delivering Finance cost-reduction goals.",
+    "The near-zero correlation (≈0.05) shows that longer completion times (up to 367 days) are not explained by higher target percentages (50–98%), suggesting the duration increase likely stems from process factors (e.g., workflow bottlenecks or ownership load) rather than more aggressive targets.",
+    "Critical priorities complete about 42 days (~14.6%) faster in median than Low priorities, suggesting that stronger prioritization and resourcing may materially reduce cycle times, and that Low-priority Finance cost-reduction goals could benefit from applying “Critical-like” management rigor.",
+    "The 'Expense Ratio' metric is associated with about a 38% longer median duration (336 vs 244 days), indicating that metric choice likely contributes to extended timelines and that refining how 'Expense Ratio' is measured or managed could save roughly three months per Finance cost-reduction project.",
+    "Low-priority items take the longest on average—about 296 days—exceeding Medium by 80.94 days and High by 36.11 days, suggesting a misalignment between assigned priority and execution time that may be contributing to the duration anomaly in Finance cost-reduction goals.",
+    "These top five owners average 346 days per completed goal with low dispersion (range 22 days, σ≈8.1 days, CV≈2.3%), suggesting uniformly prolonged cycles indicative of a systemic process bottleneck rather than isolated outliers.",
+    "The duration anomaly appears concentrated: while these top-5 slowest owners account for only 7.41% of completions, the remaining 92.59% are handled by others, indicating that targeted interventions for a small owner group could meaningfully reduce overall durations without broad process changes.",
+    "The 152-day increase represents an ~81% rise in median duration, stretching typical completion from ~6.2 months to ~11.2 months—meaning cost savings from H2 efforts were realized about five months later than comparable H1 efforts.",
+    "In this subset (27 completed records), 11 owners have longer-than-median durations; their typical median (338 days) is about 30% higher than the overall median (260 days), with the largest overrun being +100 days (user063), and the average overrun across these owners is roughly 59 days (~23%).",
+    "Finance’s completed 'Cost Reduction' goals are only ~2% faster than others (260 vs 266 days), and the long medians (~9 months) for both groups suggest the duration anomaly may stem from specific long-tail cases or in-progress items rather than the typical completed goal.",
+    "Completed Finance Cost Reduction goals grew substantially longer over 2022—durations increased by about 124% (from 164 to 367 days) with a near-perfect monotonic trend (ρ≈1), suggesting a systematic process drift (e.g., growing scope or resource constraints) rather than random variance.",
+    "Because all start dates are in 2022, the fact that over half (15/27) of completed Finance Cost Reduction goals finished in 2023 or later shows notable spillover into the next year, signaling elongated timelines consistent with increasing goal durations."
+  ],
+  "predicted_summary": "Durations have risen sharply and steadily over time: the median for completed Finance “Cost Reduction” goals increased each quarter from 165.0 days (2022Q2) to 355.5 days (2023Q4), a +190.5-day (+115%) climb. A major step-up occurred in 2022-H2, when the median jumped by 152 days (188 → 340). This time-driven pattern is confirmed by an almost perfect monotonic relationship between later start dates and longer durations (Spearman 0.9998, n=27), and over half of completions (55.56%) occurred in 2023 or later.\nGoal attributes, not target levels, align with longer timelines: using the “Expense Ratio” metric is associated with a +92-day longer median duration versus other metrics, and lower priority correlates with longer work—Low-priority goals average 296.44 days versus Medium 215.50 (+80.94), High 260.33 (+36.11), and Critical 241.50 (+54.94); by median, Critical goals finish 42 days sooner than Low. In contrast, target_percentage shows virtually no link to duration (Pearson r=0.0505, n=27).\nThe elongation is broad-based rather than owner-specific: the five owners with the highest mean durations account for only 7.41% of completed Finance “Cost Reduction” goals (2 of 27), while at least 11 owners have median durations above the overall Finance median of 260 days—indicating the slowdown spans many owners. Despite the internal increase, Finance’s overall median (260 days) remains slightly faster than other departments combined (266 days; 6 days shorter).",
+  "score_insights": 0.4936865368026776,
+  "score_insights_dict": [
+    {
+      "gt_insight": "Medium-priority projects have the highest average completion rate, while critical-priority projects have the lowest.",
+      "pred_insight": "Low-priority items take the longest on average—about 296 days—exceeding Medium by 80.94 days and High by 36.11 days, suggesting a misalignment between assigned priority and execution time that may be contributing to the duration anomaly in Finance cost-reduction goals.",
+      "score": 0.3041375962284599
+    },
+    {
+      "gt_insight": "The cost reduction goals dominate the goal types in the Finance department",
+      "pred_insight": "Critical priorities complete about 42 days (~14.6%) faster in median than Low priorities, suggesting that stronger prioritization and resourcing may materially reduce cycle times, and that Low-priority Finance cost-reduction goals could benefit from applying “Critical-like” management rigor.",
+      "score": 0.3022728910933699
+    },
+    {
+      "gt_insight": "There is an increasing trend in the duration of 'Cost Reduction' goals over time",
+      "pred_insight": "Completed Finance Cost Reduction goals grew substantially longer over 2022—durations increased by about 124% (from 164 to 367 days) with a near-perfect monotonic trend (ρ≈1), suggesting a systematic process drift (e.g., growing scope or resource constraints) rather than random variance.",
+      "score": 0.8087490715889885
+    },
+    {
+      "gt_insight": "Continued linear increase in the duration of 'Cost Reduction' goals across all departments",
+      "pred_insight": "Completed Finance Cost Reduction goals grew substantially longer over 2022—durations increased by about 124% (from 164 to 367 days) with a near-perfect monotonic trend (ρ≈1), suggesting a systematic process drift (e.g., growing scope or resource constraints) rather than random variance.",
+      "score": 0.7157230096755183
+    },
+    {
+      "gt_insight": "There is significant variation in project completion rates over time across departments, with IT showing the most dramatic swings in completion percentage.",
+      "pred_insight": "Finance’s completed 'Cost Reduction' goals are only ~2% faster than others (260 vs 266 days), and the long medians (~9 months) for both groups suggest the duration anomaly may stem from specific long-tail cases or in-progress items rather than the typical completed goal.",
+      "score": 0.3375501154270514
+    }
+  ],
+  "score_summary": 0.4732165682839146,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.49041131597891613,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "Low-priority items take the longest on average—about 296 days—exceeding Medium by 80.94 days and High by 36.11 days, suggesting a misalignment between assigned priority and execution time that may be contributing to the duration anomaly in Finance cost-reduction goals.",
+      "gt_insight": "Medium-priority projects have the highest average completion rate, while critical-priority projects have the lowest.",
+      "score": 0.24348992838664746
+    },
+    {
+      "pred_insight": "Finance’s completed 'Cost Reduction' goals are only ~2% faster than others (260 vs 266 days), and the long medians (~9 months) for both groups suggest the duration anomaly may stem from specific long-tail cases or in-progress items rather than the typical completed goal.",
+      "gt_insight": "The cost reduction goals dominate the goal types in the Finance department",
+      "score": 0.27490419700314445
+    },
+    {
+      "pred_insight": "Completed Finance Cost Reduction goals grew substantially longer over 2022—durations increased by about 124% (from 164 to 367 days) with a near-perfect monotonic trend (ρ≈1), suggesting a systematic process drift (e.g., growing scope or resource constraints) rather than random variance.",
+      "gt_insight": "There is an increasing trend in the duration of 'Cost Reduction' goals over time",
+      "score": 0.8878386394432134
+    },
+    {
+      "pred_insight": "Completed Finance Cost Reduction goals grew substantially longer over 2022—durations increased by about 124% (from 164 to 367 days) with a near-perfect monotonic trend (ρ≈1), suggesting a systematic process drift (e.g., growing scope or resource constraints) rather than random variance.",
+      "gt_insight": "Continued linear increase in the duration of 'Cost Reduction' goals across all departments",
+      "score": 0.8021649127732011
+    },
+    {
+      "pred_insight": "Because all start dates are in 2022, the fact that over half (15/27) of completed Finance Cost Reduction goals finished in 2023 or later shows notable spillover into the next year, signaling elongated timelines consistent with increasing goal durations.",
+      "gt_insight": "There is significant variation in project completion rates over time across departments, with IT showing the most dramatic swings in completion percentage.",
+      "score": 0.2436589022883743
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.11472995537366007,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.6112382799907632
+}

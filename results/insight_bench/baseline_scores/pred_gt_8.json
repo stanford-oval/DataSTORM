@@ -1,0 +1,75 @@
+{
+  "dataset_id": 8,
+  "dataset_path": "data/notebooks/flag-8.json",
+  "metadata": {
+    "category": "Incidents Management",
+    "dataset_description": "The dataset comprises 500 entries simulating ServiceNow incidents table, detailing various attributes such as category, state, open and close dates, involved personnel, and incident specifics like description, and priority. It captures incident management activities with fields like 'opened_at', 'closed_at', 'assigned_to', 'short_description', and 'priority', reflecting the operational handling and urgency of issues across different locations and categories.",
+    "goal": "Analyze the imbalance of incident tickets created by human callers, focusing particularly on the caller with increasing incident reports.",
+    "header": "Caller Incident Impact Analysis (Flag 8)",
+    "role": "Resource Manager Analyst"
+  },
+  "predicted_insights": [
+    "David Loo’s incident volume doubled year-over-year (16 to 32), with the second half of 2023 averaging 25.5 incidents/month versus 13.5 in the first half, indicating a sustained escalation rather than a short-term spike.",
+    "David Loo’s monthly incidents rose from 16 in 2023-01 to 32 in 2024-01 (≈2× increase), with an estimated slope of about 1.74 incidents per month, indicating an increasing concentration of incidents from a single caller.",
+    "Despite a short longest-increase streak, David Loo’s incident volume remained persistently high afterward, averaging 27.4 incidents per month from Sep 2023 through Jan 2024 (27, 27, 28, 27, 28), indicating sustained elevated reporting.",
+    "David Loo accounts for about 62.6% (266 of 425) of incidents among named callers in this period—over three times Bud Richman’s volume (86) and nearly 3.64 times Don Goodliffe’s—indicating a strong concentration of reports from a single individual.",
+    "Nearly two-thirds of all human-caller incidents (62.6%) came from David Loo—more than the other two callers combined (37.4%)—indicating a strong imbalance in reporting concentrated in a single user.",
+    "Network-related issues made up 154 of David Loo’s 266 incidents (~58%), more than double the next highest category (Database at 54, ~20%), indicating a concentrated and persistent network problem for this caller over the period.",
+    "David Loo’s incident volume shows a clear upward trend: his average monthly incidents rose from 13.5 in Jan–Jun 2023 to 25.5 in Jul–Dec 2023 (+12.0), culminating in a peak of 32 in Jan 2024, indicating a sustained increase among human callers.",
+    "The high-priority rate differs by just 0.90 percentage points, indicating similar severity profiles; the imbalance is in volume, with David Loo contributing 266 incidents (53.2% of human-caller incidents) versus 234 for all others combined.",
+    "Across 2023-11 to 2024-01, David Loo generated 87 of 123 human-created incidents (≈71%), peaking at 32 in January, highlighting a strong imbalance where one caller dominates monthly reporting.",
+    "During this window, his incidents skewed toward database issues (2 of 15, 13.3%) and a variety of network/email client problems, suggesting a shift away from his typical top issue (“Email server down,” 6.7%).",
+    "Nearly 60% (52 of 87) of David Loo’s incidents in this period were network-related—over 2.5× the next highest group—suggesting a concentrated network issue driving his spike in tickets.",
+    "Despite overall incidents decreasing from 44 in October to 42 in November (-4.5%), ITIL User’s incidents doubled (+100%), whereas the highest-volume caller David Loo rose only slightly (+1), indicating a small but growing source of tickets amid an overall decline."
+  ],
+  "predicted_summary": "Across Jan 2023–Jan 2024, one caller (David Loo) overwhelmingly drove human‑caller incident volume: he logged 266 tickets (62.59% of all human‑caller incidents), showed the steepest upward trend (~+1.74 incidents per month), and doubled his monthly count from 16 (2023‑01) to 32 (2024‑01). The overall imbalance is stark, with a highest‑to‑lowest caller total ratio of 3.64 (266 vs 73).\nThe concentration intensified late in the period: over the last three months (2023‑11 to 2024‑01), David Loo recorded 87 incidents—nearly 5× the median of the other human callers (ratio 4.833)—accounting for 70.73% of human‑caller tickets in that window. In 2024‑01 alone, he contributed 65.31% of human‑caller incidents, with monthly counts remaining elevated since mid‑2023 (≥22 from 2023‑07 onward and 27–32 from 2023‑09 to 2024‑01).\nDavid Loo’s incidents are concentrated in Network: 154 of his 266 tickets (57.9%) fall in that category, and during 2023‑11 to 2024‑01 the Network assignment group handled 52 of his tickets. His high‑severity mix mirrors other callers (P1/P2 at 90.98% vs 91.88% for others), indicating the imbalance is primarily about higher volume—especially Network‑related—rather than a different severity profile.",
+  "score_insights": 0.8597899911466211,
+  "score_insights_dict": [
+    {
+      "gt_insight": "David Loo has raised a significantly higher number of incidents compared to other callers",
+      "pred_insight": "Nearly two-thirds of all human-caller incidents (62.6%) came from David Loo—more than the other two callers combined (37.4%)—indicating a strong imbalance in reporting concentrated in a single user.",
+      "score": 0.8981839418920025
+    },
+    {
+      "gt_insight": "David Loo's incidents are significantly higher and show a linear increasing trend over time compared to other callers",
+      "pred_insight": "David Loo’s monthly incidents rose from 16 in 2023-01 to 32 in 2024-01 (≈2× increase), with an estimated slope of about 1.74 incidents per month, indicating an increasing concentration of incidents from a single caller.",
+      "score": 0.8562069551871536
+    },
+    {
+      "gt_insight": "Incidents raised by David Loo are predominantly in the Network category",
+      "pred_insight": "Nearly 60% (52 of 87) of David Loo’s incidents in this period were network-related—over 2.5× the next highest group—suggesting a concentrated network issue driving his spike in tickets.",
+      "score": 0.8732111622392941
+    },
+    {
+      "gt_insight": "Continued linear increase in ticket submissions by David Loo",
+      "pred_insight": "David Loo’s monthly incidents rose from 16 in 2023-01 to 32 in 2024-01 (≈2× increase), with an estimated slope of about 1.74 incidents per month, indicating an increasing concentration of incidents from a single caller.",
+      "score": 0.8115579052680344
+    }
+  ],
+  "score_summary": 0.5927939473092662,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.8480942064259642,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "Nearly two-thirds of all human-caller incidents (62.6%) came from David Loo—more than the other two callers combined (37.4%)—indicating a strong imbalance in reporting concentrated in a single user.",
+      "gt_insight": "David Loo has raised a significantly higher number of incidents compared to other callers",
+      "score": 0.8959171171680304
+    },
+    {
+      "pred_insight": "David Loo’s monthly incidents rose from 16 in 2023-01 to 32 in 2024-01 (≈2× increase), with an estimated slope of about 1.74 incidents per month, indicating an increasing concentration of incidents from a single caller.",
+      "gt_insight": "David Loo's incidents are significantly higher and show a linear increasing trend over time compared to other callers",
+      "score": 0.796729058850136
+    },
+    {
+      "pred_insight": "Network-related issues made up 154 of David Loo’s 266 incidents (~58%), more than double the next highest category (Database at 54, ~20%), indicating a concentrated and persistent network problem for this caller over the period.",
+      "gt_insight": "Incidents raised by David Loo are predominantly in the Network category",
+      "score": 0.8854756677828266
+    },
+    {
+      "pred_insight": "David Loo’s monthly incidents rose from 16 in 2023-01 to 32 in 2024-01 (≈2× increase), with an estimated slope of about 1.74 incidents per month, indicating an increasing concentration of incidents from a single caller.",
+      "gt_insight": "Continued linear increase in ticket submissions by David Loo",
+      "score": 0.8142549819028642
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.10044349085991763,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.5204276507162563
+}

@@ -1,0 +1,143 @@
+{
+  "prompt": "Explores the roles and operations of the Rwanda Defence Force in regional conflicts and their geopolitical significance.",
+  "criteria": [
+    {
+      "name": "Shift to bilateral missions",
+      "description": "Assess the transition from multilateral peacekeeping toward bilateral deployments and how this reflects changing regional security dynamics and Rwanda’s strategic positioning."
+    },
+    {
+      "name": "Unilateral engagements and proxies",
+      "description": "Evaluate the rise of unilateral operations and support to allied non-state groups, including implications for conflict escalation and regional stability."
+    },
+    {
+      "name": "Civilian impact patterns",
+      "description": "Analyze how operational tactics and use of proxy forces affect civilian safety, noting trends in indirect fire, displacement, and localized protection or harm."
+    },
+    {
+      "name": "Security gap opportunism",
+      "description": "Examine how Rwanda capitalizes on reduced external peacekeeping and shifting partnerships to expand its role as an alternative security provider."
+    },
+    {
+      "name": "Economic leverage and resource control",
+      "description": "Investigate the pursuit of commercial benefits and control of strategic routes and resource sites linked to foreign deployments, and how this shapes motivations and outcomes."
+    },
+    {
+      "name": "Political influence in host states",
+      "description": "Explore efforts to reshape local governance and political arrangements in areas of deployment, including the replacement or alignment of local authorities."
+    },
+    {
+      "name": "International legitimacy balancing",
+      "description": "Consider how contributions to peacekeeping are used to counter external criticism of other operations, and the strategic trade-offs in maintaining international support."
+    },
+    {
+      "name": "Narratives of security justification",
+      "description": "Assess official rationales for interventions, such as cross-border threats and identity protection claims, and how these narratives are contested by critics."
+    },
+    {
+      "name": "Regional power dynamics",
+      "description": "Evaluate how Rwanda’s expanding military footprint alters alliances, rivalries, and the broader geopolitical balance in the Great Lakes and surrounding regions."
+    },
+    {
+      "name": "Operational effectiveness and limits",
+      "description": "Review evidence of success in countering armed groups and reducing violence in targeted areas, alongside limitations in curbing abuses by other actors."
+    },
+    {
+      "name": "Military professionalization and training gains",
+      "description": "Analyze how foreign deployments contribute to tactical experience, force readiness, and institutional capacity, and how these gains feed back into national strategy."
+    },
+    {
+      "name": "Risk of escalation and spillover",
+      "description": "Identify trends indicating potential widening of conflicts due to external support, heavy weapon use, or cross-border operations, and their regional repercussions."
+    },
+    {
+      "name": "Private sector-party linkages",
+      "description": "Examine connections between deployments and firms affiliated with ruling elites, assessing how party-owned enterprises benefit and influence policy choices."
+    },
+    {
+      "name": "Information denial and attribution",
+      "description": "Assess patterns in official denials versus emerging evidence from field reporting and imagery, and the implications for transparency and accountability."
+    },
+    {
+      "name": "Host government reception",
+      "description": "Evaluate the mixed responses from partner governments to Rwandan deployments, including acceptance, skepticism, and conditions affecting cooperation."
+    }
+  ],
+  "criterion_scores": [
+    {
+      "name": "Shift to bilateral missions",
+      "score": 0.9,
+      "explanation": "The article clearly contrasts Rwanda’s multilateral UN peacekeeping with its bilateral deployments in CAR (2020) and Mozambique (2021). It discusses how these unilateral/bilateral actions showcase Rwanda as a regional security provider and reflect changing dynamics. Minor gap: limited explicit analysis of the broader regional security architecture’s shift over time."
+    },
+    {
+      "name": "Unilateral engagements and proxies",
+      "score": 0.85,
+      "explanation": "It covers unilateral operations (Mozambique, CAR) and proxy support allegations (M23), including UN expert implications and historical proxy warfare in DRC. It notes combat roles and implications but could deepen analysis of escalation pathways and comparative cases of proxy use beyond M23."
+    },
+    {
+      "name": "Civilian impact patterns",
+      "score": 0.35,
+      "explanation": "The article briefly mentions improved security and local praise in Mozambique and general instability in DRC, but lacks detailed analysis of civilian harm patterns, indirect fire, displacement, or localized protection/harm attributable to RDF or proxies."
+    },
+    {
+      "name": "Security gap opportunism",
+      "score": 0.8,
+      "explanation": "It argues Rwanda stepped in where others hesitated (Mozambique, filling gaps left by reluctant European powers) and leverages reduced external peacekeeping/alternatives to present itself as a security provider. Could more explicitly link to waning AU/UN roles and shifting partnerships across cases."
+    },
+    {
+      "name": "Economic leverage and resource control",
+      "score": 0.9,
+      "explanation": "Strong coverage in Mozambique: protection of gas projects, ruby and graphite mines, and selection of strategic zones. It implies commercial motivations and outcomes. Less detail for CAR or DRC resource linkages, but the Mozambique analysis is robust."
+    },
+    {
+      "name": "Political influence in host states",
+      "score": 0.75,
+      "explanation": "Discusses Rwanda guarding CAR’s president, training forces, occupying key posts, and broader influence, including private sector expansion. Limited specifics on governance reshaping or replacement/alignment of local authorities; Mozambique political influence less explored."
+    },
+    {
+      "name": "International legitimacy balancing",
+      "score": 0.7,
+      "explanation": "The article notes Rwanda’s peacekeeping boosts reputation and may reduce external scrutiny, implying a balancing act against criticism over DRC/M23. It could further analyze explicit trade-offs, diplomatic messaging, and reactions from specific international actors."
+    },
+    {
+      "name": "Narratives of security justification",
+      "score": 0.8,
+      "explanation": "It presents Rwanda’s official rationale (countering FDLR/genocide perpetrators) and notes contested narratives via DRC accusations and UN expert reports on M23. Could expand on identity protection claims and counter-narratives from civil society or regional bodies."
+    },
+    {
+      "name": "Regional power dynamics",
+      "score": 0.9,
+      "explanation": "Strong treatment of altered alliances and rivalries: Rwanda-Uganda clashes, DRC exclusion of Rwandan troops from regional force, Rwanda’s image as ‘exporter of security,’ and how deployments reshape balance in Great Lakes and beyond."
+    },
+    {
+      "name": "Operational effectiveness and limits",
+      "score": 0.8,
+      "explanation": "Effectiveness highlighted in Mozambique (recapture of Mocímboa da Praia, securing districts) and CAR (halting rebel offensive). Limits are implied in DRC with ongoing instability and criticisms; however, less detailed assessment of inability to curb abuses by other actors."
+    },
+    {
+      "name": "Military professionalization and training gains",
+      "score": 0.6,
+      "explanation": "Mentions reputation for discipline and effectiveness, military diplomacy, and projecting power; but lacks explicit analysis of training gains, tactical experience, readiness improvements, or institutional capacity feedback into national strategy."
+    },
+    {
+      "name": "Risk of escalation and spillover",
+      "score": 0.6,
+      "explanation": "Notes proxy wars, Rwanda-Uganda clashes, friction with neighbors, and ongoing DRC tensions. However, it doesn’t deeply analyze trends in heavy weapon use, cross-border operations inducing spillover, or specific indicators of widening conflicts."
+    },
+    {
+      "name": "Private sector-party linkages",
+      "score": 0.55,
+      "explanation": "References Rwanda’s expansion into the private sector in CAR and influence strategy, but offers limited detail on firms affiliated with ruling elites or party-owned enterprises and how these shape policy choices."
+    },
+    {
+      "name": "Information denial and attribution",
+      "score": 0.5,
+      "explanation": "Mentions UN experts implicating Kigali in arming M23 versus Rwanda’s official security justification, implying contestation. Lacks detailed examination of denial patterns, imagery/field reporting attribution debates, and transparency implications."
+    },
+    {
+      "name": "Host government reception",
+      "score": 0.7,
+      "explanation": "Covers acceptance and cooperation in CAR and Mozambique (invited, bilateral agreements, guarding presidents), and skepticism from DRC (exclusion from regional force). Could provide more conditions affecting cooperation and variations among other partner governments."
+    }
+  ],
+  "overall_score": 0.7133333333333334
+}

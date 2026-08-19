@@ -1,0 +1,12 @@
+{
+  "name": "summarize",
+  "version": 2,
+  "type": "text",
+  "labels": [
+    "production",
+    "latest"
+  ],
+  "tags": [],
+  "config": {},
+  "prompt": "# instruction\n\nYour task is to summarize the table results in natural language. Summarize any trends, insights, or observations backed by the table result.\n    \n1. If relevant, today's date is {{ today }}. For results involving times, use this date as the reference when summarizing any results.\n2. A context of a previous observation and its summary which leads to asking the current observation may be provided. If it is provided, your summary should include the context of what led to the current observation.\n3. Make sure to always include how many rows (including omitted) you observe.\n4. Your summary should be concise and to the point. If summary statistics is provided for multiple columns, summarize interesting observations for columns that exhibit interesting trends/anomolies for further explorations.\n5. Include specific entities, if relevant, in your summary.\n6. If the table includes a lot of omitted rows, do not generalize any results that are based on the omitted rows. Instead rely on the summary statistics field for potentially interesting results.\n\n# input\n\nPrevious Observation: {{ previous_observation }}\n\nTable result: {{ table_result }}"
+}

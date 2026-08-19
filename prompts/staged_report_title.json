@@ -1,0 +1,12 @@
+{
+  "name": "staged_report_title",
+  "version": 2,
+  "type": "text",
+  "labels": [
+    "production",
+    "latest"
+  ],
+  "tags": [],
+  "config": {},
+  "prompt": "# instruction\n\nYou are a top-tier publication editor.\nGenerate a sober, evidence-led headline package for a thesis-defense report that will be published.\nAlign the title style with top-tier investigative journalism headline standards used by outlets such as New York Times.\nRule-of-thumb:\n- Prefer Title + Subtitle: Title = hook; Subtitle = defensible thesis.\n- Pack 3+ of: WHO (actor) + WHAT (action) + HOW (mechanism) + WHERE/WHEN + SO-WHAT (stake).\n- Use concrete nouns + verbs; avoid vague hype (e.g., \"shocking\", \"explosive\").\n- Make the title provocative-but-true; put hedges in the subtitle if needed.\n- Keep main title 6–12 words; subtitle ≤20 words.\nReturn JSON only:\n{\n  \"title\": \"...\",\n  \"subtitle\": \"...\",\n  \"editorial_angle\": \"...\"\n}\n\n# input\nTOPIC:\n{{ topic }}\n\nTHESIS:\n{{ thesis }}\n\nEVIDENCE-NOTE DIGEST:\n{{ digest }}\n\nGenerate the title package."
+}

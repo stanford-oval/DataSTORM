@@ -1,0 +1,199 @@
+{
+  "per_dimension": [
+    {
+      "dimension": "actor_entity",
+      "score": 0.0,
+      "num_concept_groups": 3,
+      "num_consistent_groups": 0,
+      "notes": "Actor matching for ELN, FARC dissidents, and AGC/Clan del Golfo is defined differently across queries. Q4 also searches assoc_actor_1/2 and uses broader substrings than Q0 and Q14, leading to genuinely different sets of events."
+    },
+    {
+      "dimension": "geography",
+      "score": 1.0,
+      "num_concept_groups": 1,
+      "num_consistent_groups": 1,
+      "notes": "Where the same Colombian departments are filtered (e.g., Nariño, Arauca, Norte de Santander), predicates use identical admin1 names. No inconsistent geographic normalization was found."
+    },
+    {
+      "dimension": "temporal",
+      "score": 1.0,
+      "num_concept_groups": 3,
+      "num_consistent_groups": 3,
+      "notes": "All queries within a shared time-window concept use consistent bounds: Aug 2022–Dec 2024 with 2022-08-01 start (Q0,1,3,5,6,2) and Petro period 2022-08-07–2024-12-31 (Q8,9,12,13,15,19,20,21,18,10,11,14,16,17). 2023–2024 is consistently expressed via year IN (2023,2024)."
+    },
+    {
+      "dimension": "event_taxonomy",
+      "score": 0.67,
+      "num_concept_groups": 3,
+      "num_consistent_groups": 2,
+      "notes": "Political violence is consistently defined via disorder_type (Q2, Q9, Q13). Demonstrations are consistently captured via event_type ('Protests','Riots') with one query adding a redundant disorder_type filter (Q1 vs Q16). However, 'Violence against civilians' is inconsistently constrained by civilian_targeting (Q5 vs Q12 vs Q17)."
+    },
+    {
+      "dimension": "counting_aggregation",
+      "score": 1.0,
+      "num_concept_groups": 1,
+      "num_consistent_groups": 1,
+      "notes": "Monthly event/fatality time series for Colombia (Q15 vs Q19) aggregate equivalently (COUNT of events and SUM fatalities), despite cosmetic differences in the grouping expression (string vs date_trunc). No duplicate-handling inconsistencies were found within a shared concept."
+    },
+    {
+      "dimension": "population_scope",
+      "score": 0.0,
+      "num_concept_groups": 3,
+      "num_consistent_groups": 0,
+      "notes": "Several queries covering Aug 2022–Dec 2024 omit country='Colombia' (Q0, Q1, Q3, Q5), while their counterparts restrict to Colombia (e.g., Q4, Q16, Q12/Q17). These are result-changing for any Colombia-specific claim."
+    }
+  ],
+  "conflicts": [
+    {
+      "dimension": "actor_entity",
+      "concept": "FARC dissidents actor matching",
+      "query_indices": [
+        0,
+        4
+      ],
+      "predicate_a": "Q0: CASE WHEN actor_name ILIKE '%FARC%' AND actor_name ILIKE '%dissident%' OR actor_name ILIKE '%FARC dissiden%' THEN 'FARC dissidents'",
+      "predicate_b": "Q4: (actor1/actor2/assoc_actor_1/assoc_actor_2 ILIKE '%FARC%') OR (actor1/actor2/assoc_actor_1/assoc_actor_2 ILIKE '%dissiden%')",
+      "severity": "result-changing",
+      "explanation": "Q4 flags events with either 'FARC' or 'dissiden' anywhere (including assoc_actor fields), while Q0 requires that the same actor string include both 'FARC' and a dissident marker. Q4 will include non-FARC dissident mentions and 'FARC' mentions without dissident context."
+    },
+    {
+      "dimension": "actor_entity",
+      "concept": "ELN actor matching",
+      "query_indices": [
+        0,
+        4
+      ],
+      "predicate_a": "Q0: actor_name ILIKE '%ELN%' applied only to actor1/actor2 via UNION ALL expansion",
+      "predicate_b": "Q4: (actor1 OR actor2 OR assoc_actor_1 OR assoc_actor_2) ILIKE '%ELN%'",
+      "severity": "result-changing",
+      "explanation": "Including assoc_actor fields in Q4 causes ELN-linked events to be flagged that Q0 would not capture if ELN is only listed as an associated actor."
+    },
+    {
+      "dimension": "actor_entity",
+      "concept": "ELN actor matching (field coverage)",
+      "query_indices": [
+        4,
+        14
+      ],
+      "predicate_a": "Q4: (actor1 OR actor2 OR assoc_actor_1 OR assoc_actor_2) ILIKE '%ELN%'",
+      "predicate_b": "Q14: actor1 ILIKE '%ELN%' OR actor2 ILIKE '%ELN%'",
+      "severity": "result-changing",
+      "explanation": "Q14 ignores assoc_actor fields; ELN mentions in assoc_actor would be missed compared to Q4."
+    },
+    {
+      "dimension": "actor_entity",
+      "concept": "AGC/Clan del Golfo actor matching",
+      "query_indices": [
+        0,
+        4
+      ],
+      "predicate_a": "Q0: actor_name ILIKE '%Clan del Golfo%' OR ILIKE '%AGC%' OR ILIKE '%Autodefensas Gaitanistas%'",
+      "predicate_b": "Q4: (actor1/actor2/assoc_actor_1/assoc_actor_2) ILIKE '%Clan del Golfo%' OR '%AGC%' OR '%Gaitanista%' OR '%Gulf Clan%'",
+      "severity": "result-changing",
+      "explanation": "Q4 adds broader synonyms ('Gaitanista', 'Gulf Clan') and covers assoc_actor fields, returning a superset of events compared to Q0."
+    },
+    {
+      "dimension": "event_taxonomy",
+      "concept": "Violence against civilians event definition (civilian_targeting)",
+      "query_indices": [
+        5,
+        17
+      ],
+      "predicate_a": "Q5: event_type = 'Violence against civilians' AND civilian_targeting IS NOT NULL AND civilian_targeting <> 'None'",
+      "predicate_b": "Q17: event_type = 'Violence against civilians' (no civilian_targeting constraint)",
+      "severity": "result-changing",
+      "explanation": "Q5 excludes VAC events where civilian_targeting is NULL or 'None', while Q17 includes all VAC events. Counts and fatalities will differ."
+    },
+    {
+      "dimension": "event_taxonomy",
+      "concept": "Violence against civilians event definition (strict targeting)",
+      "query_indices": [
+        12,
+        17
+      ],
+      "predicate_a": "Q12: event_type = 'Violence against civilians' AND civilian_targeting IN ('Civilian targeting')",
+      "predicate_b": "Q17: event_type = 'Violence against civilians' (no civilian_targeting constraint)",
+      "severity": "result-changing",
+      "explanation": "Q12 limits to events explicitly flagged as 'Civilian targeting', a subset of VAC, whereas Q17 includes all VAC regardless of the civilian_targeting field."
+    },
+    {
+      "dimension": "event_taxonomy",
+      "concept": "Demonstrations event definition",
+      "query_indices": [
+        1,
+        16
+      ],
+      "predicate_a": "Q1: disorder_type IN ('Demonstrations','Political violence; Demonstrations') AND event_type IN ('Protests','Riots')",
+      "predicate_b": "Q16: event_type IN ('Protests','Riots')",
+      "severity": "cosmetic",
+      "explanation": "Given ACLED taxonomy, Protests/Riots fall under Demonstrations, making the disorder_type predicate redundant. The row sets should be equivalent."
+    },
+    {
+      "dimension": "population_scope",
+      "concept": "Colombia scope for actor-group analysis (Aug 2022–Dec 2024)",
+      "query_indices": [
+        0,
+        4
+      ],
+      "predicate_a": "Q0: No country filter (global)",
+      "predicate_b": "Q4: country = 'Colombia'",
+      "severity": "result-changing",
+      "explanation": "Q0 aggregates globally, while Q4 restricts to Colombia. Numbers are not comparable for a Colombia-specific report."
+    },
+    {
+      "dimension": "population_scope",
+      "concept": "Colombia scope for demonstrations (Aug 2022–Dec 2024)",
+      "query_indices": [
+        1,
+        16
+      ],
+      "predicate_a": "Q1: No country filter (global)",
+      "predicate_b": "Q16: country = 'Colombia'",
+      "severity": "result-changing",
+      "explanation": "Q1 counts Protests/Riots worldwide; Q16 restricts to Colombia. Combining these would misstate Colombian trends."
+    },
+    {
+      "dimension": "population_scope",
+      "concept": "Colombia scope for targeted killings/attacks on leaders (Aug 2022–Dec 2024)",
+      "query_indices": [
+        3,
+        12
+      ],
+      "predicate_a": "Q3: No country filter (global)",
+      "predicate_b": "Q12: country = 'Colombia'",
+      "severity": "result-changing",
+      "explanation": "Q3 computes VAC/ERV events globally, while Q12 is Colombia-only; comparing concentrations would be inconsistent."
+    },
+    {
+      "dimension": "population_scope",
+      "concept": "Colombia scope for VAC trends (Aug 2022–Dec 2024)",
+      "query_indices": [
+        5,
+        12
+      ],
+      "predicate_a": "Q5: No country filter (global)",
+      "predicate_b": "Q12: country = 'Colombia'",
+      "severity": "result-changing",
+      "explanation": "Q5 reports VAC trends without restricting to Colombia; Q12 is Colombia-only. The base population differs."
+    },
+    {
+      "dimension": "counting_aggregation",
+      "concept": "Monthly events/fatalities by event_type (Colombia, 2022-08-07 to 2024-12-31)",
+      "query_indices": [
+        15,
+        19
+      ],
+      "predicate_a": "Q15: GROUP BY to_char(date_trunc('month', event_date), 'YYYY-MM'), event_type; COUNT(*) AS events_count; SUM(COALESCE(fatalities,0)) AS fatalities_sum",
+      "predicate_b": "Q19: GROUP BY date_trunc('month', event_date), event_type; COUNT(*) AS event_count; SUM(COALESCE(fatalities,0)) AS total_fatalities",
+      "severity": "cosmetic",
+      "explanation": "Aggregation logic is equivalent; only grouping expressions and column naming differ. Results align."
+    }
+  ],
+  "overall_score": 0.61,
+  "summary": "Temporal bounds and most event taxonomy for political violence/demonstrations are consistently applied, and monthly aggregation methods align. However, actor matching for ELN, FARC dissidents, and AGC varies significantly across queries, and several Aug 2022–Dec 2024 analyses omit the Colombia country filter while others include it, yielding result-changing inconsistencies for a Colombia-focused report. Definitions of 'Violence against civilians' also diverge in their use of the civilian_targeting field.",
+  "report_dir": "<repo>/datatalk/acled_ablations/no_qc/1/Do_a_deep_research_on_Petro's_presidency_in_Columbia_and_Columbia's_conflict_summary_and_outlook,_as_if_we_a__20260529_061109",
+  "model": "gpt-5",
+  "num_queries": 23,
+  "applicable": true,
+  "id": 1
+}

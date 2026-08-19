@@ -1,0 +1,75 @@
+{
+  "dataset_id": 89,
+  "dataset_path": "data/notebooks/flag-89.json",
+  "metadata": {
+    "category": "Finance Management",
+    "dataset_description": "The dataset consists of 500 entries simulating the ServiceNow fm_expense_line table, which records various attributes of financial expenses. This table documents the flow of financial transactions by detailing the amount, departmental allocation, and the nature of each expense. It provides a comprehensive view of organizational expenditures across different categories, highlighting both the timing and the approval state of each financial entry. Additionally, the dataset offers insights into the efficiency of expense processing based on different states, revealing potential areas for workflow optimization.",
+    "goal": "To detect and investigate instances of repeated identical expense claims by individual users, determining whether these repetitions are fraudulent or due to misunderstandings of the expense policy.",
+    "header": "Expense Claim Patterns and Fraud Analysis (Flag 89)",
+    "role": "Compliance and Audit Analyst"
+  },
+  "predicted_insights": [
+    "Across the 500-incident dataset, only 8 incidents (1.6%) are involved in same-day identical-attribute duplicates, and these are evenly distributed (2 each) across all four callers—pointing to occasional duplicate submissions rather than a pattern concentrated in any single user.",
+    "Overall, 42 of 500 incidents (8.4%) are short-interval repeats of identical combinations, with ITIL User’s repeat rate being 3× higher than Bud Richman’s, suggesting concentrated repetitive patterns among certain callers that may warrant targeted review.",
+    "Repeated-identical incident rates are tightly clustered across locations (7–10%), with the United States at 10% and Australia/UK at 9%, indicating systemic drivers rather than location-specific issues; addressing the most frequent category–priority–assignement_group pairs in the U.S. could potentially reduce about 1 in 10 incidents.",
+    "Among this top caller’s 15 identical repeats, about one-third (5/15) occurred within 10 days and nearly half (7/15) within two weeks, including a same-day repeat—patterns suggestive of duplicate or premature resubmissions rather than independent incidents.",
+    "Duplicates are rare—no category exceeds 2%, and Software is at 0%—but 80% of categories show a 2% (≈1 in 50) same-day duplicate rate, suggesting targeted monitoring of Database, Hardware, Inquiry / Help, and Network would cover all observed repetition.",
+    "The vast majority (209 of 213, 98.12%) of identical repeats happen after 24 hours, suggesting these are more often recurring or unresolved issues over time rather than immediate duplicate submissions.",
+    "All four callers (100%) exhibited at least one duplicate pair (run length 2) and none had longer streaks, suggesting occasional back-to-back repeats rather than sustained repeated submissions, which aligns more with accidental resubmissions or policy confusion than systematic abuse.",
+    "Because there are only 4 unique callers in the dataset, all 37 repeat incidents are attributable to at most four users, suggesting that targeted follow-up with a small group could potentially reduce incident volume by roughly 7.4%.",
+    "Duplicate incidents were twice as likely to be employee-updated as system-updated (4 vs 2), indicating manual intervention dominates over automation for handling repeated submissions, which may reflect user misunderstandings rather than automated duplicate suppression.",
+    "Duplicates are resolved about 39x faster (~24 days sooner) than non-duplicates, suggesting that pattern-based matching across key fields enables rapid triage—an approach that could similarly flag repeated expense claims quickly for review.",
+    "The duplicate incident rate accelerated over time, with the monthly average rising from about 13% in H1 2023 to about 32% in H2 2023 and peaking at 50% in Jan 2024, including sustained spikes in Oct–Nov 2023 (~42–45%), indicating a growing pattern of repeated submissions that merits targeted review.",
+    "Employee and system updates together account for 147 of 213 duplicates (≈69%), with similarly high rates around 44%, suggesting both user behavior and automated processes are key drivers of duplication relative to admin updates (~40%)."
+  ],
+  "predicted_summary": "Duplicate submissions are both common and rising, and they close far faster than non-duplicates. Across the period, roughly 43% of incidents are marked as duplicates (213 of 500), with the monthly duplicate rate climbing from 0% in 2023-01 to 50% in 2024-01. These duplicates resolve on average 572.79 hours (~24 days) faster than non-duplicates (15.08 hours vs 587.87 hours to close).\nRepeat behavior is concentrated in a few users and typically happens weeks later, not immediately. Using a strict definition (same caller with identical category, priority, location, and assignment group within 30 days), 8.4% of incidents are repeats (42 of 500), led by ITIL User at 12.0%, then Don Goodliffe 9.6%, David Loo 8.0%, and Bud Richman 4.0%. For the highest-repeat caller, the median gap to the next repeat is 17.32 days, and only 1.88% of all repeat events occur within 24 hours (4 of 213). Same-day exact duplicates are rare and evenly spread (2 per top caller), and under a tighter 7-day window (same caller, category, priority), repeats account for 7.4% of incidents (37 of 500).\nHotspots and handling patterns point to specific locations, categories, and updaters. The United States has the highest share of 30-day identical repeats at 10.0% across callers. Same-day duplicates are most concentrated in the Database, Hardware, Inquiry/Help, and Network categories (each at 2.0%). Among same-day duplicates, 66.7% were last updated by employees versus 33.3% by the system, while overall duplicate rates by updater are similar—employee 44.31%, system 43.98%, and admin 39.52%—indicating duplicates are pervasive regardless of who last updated the record.",
+  "score_insights": 0.1357511061693119,
+  "score_insights_dict": [
+    {
+      "gt_insight": "The analysis could not be completed because the 'processing_time_hours' column was not found in the dataset, indicating either missing or incorrectly named data",
+      "pred_insight": "Duplicates are resolved about 39x faster (~24 days sooner) than non-duplicates, suggesting that pattern-based matching across key fields enables rapid triage—an approach that could similarly flag repeated expense claims quickly for review.",
+      "score": 0.13512549330399268
+    },
+    {
+      "gt_insight": "The analysis could not be completed due to a ValueError indicating that the 'amount' column is not present in the dataset",
+      "pred_insight": "All four callers (100%) exhibited at least one duplicate pair (run length 2) and none had longer streaks, suggesting occasional back-to-back repeats rather than sustained repeated submissions, which aligns more with accidental resubmissions or policy confusion than systematic abuse.",
+      "score": 0.10961371500764487
+    },
+    {
+      "gt_insight": "Analysis could not be performed due to missing 'department' column in the dataset",
+      "pred_insight": "Repeated-identical incident rates are tightly clustered across locations (7–10%), with the United States at 10% and Australia/UK at 9%, indicating systemic drivers rather than location-specific issues; addressing the most frequent category–priority–assignement_group pairs in the U.S. could potentially reduce about 1 in 10 incidents.",
+      "score": 0.14156044389717093
+    },
+    {
+      "gt_insight": "Analysis could not be performed because the 'user' column is not present in the dataset",
+      "pred_insight": "Across the 500-incident dataset, only 8 incidents (1.6%) are involved in same-day identical-attribute duplicates, and these are evenly distributed (2 each) across all four callers—pointing to occasional duplicate submissions rather than a pattern concentrated in any single user.",
+      "score": 0.1567047724684391
+    }
+  ],
+  "score_summary": 0.10750221111393751,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.11034912431618792,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "Duplicate incidents were twice as likely to be employee-updated as system-updated (4 vs 2), indicating manual intervention dominates over automation for handling repeated submissions, which may reflect user misunderstandings rather than automated duplicate suppression.",
+      "gt_insight": "The analysis could not be completed because the 'processing_time_hours' column was not found in the dataset, indicating either missing or incorrectly named data",
+      "score": 0.1279841494093439
+    },
+    {
+      "pred_insight": "Duplicate incidents were twice as likely to be employee-updated as system-updated (4 vs 2), indicating manual intervention dominates over automation for handling repeated submissions, which may reflect user misunderstandings rather than automated duplicate suppression.",
+      "gt_insight": "The analysis could not be completed due to a ValueError indicating that the 'amount' column is not present in the dataset",
+      "score": 0.10487240292286804
+    },
+    {
+      "pred_insight": "Duplicate incidents were twice as likely to be employee-updated as system-updated (4 vs 2), indicating manual intervention dominates over automation for handling repeated submissions, which may reflect user misunderstandings rather than automated duplicate suppression.",
+      "gt_insight": "Analysis could not be performed due to missing 'department' column in the dataset",
+      "score": 0.10541206349700491
+    },
+    {
+      "pred_insight": "Duplicate incidents were twice as likely to be employee-updated as system-updated (4 vs 2), indicating manual intervention dominates over automation for handling repeated submissions, which may reflect user misunderstandings rather than automated duplicate suppression.",
+      "gt_insight": "Analysis could not be performed because the 'user' column is not present in the dataset",
+      "score": 0.1031278814355348
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.10139453530104683,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.11233268888451889
+}

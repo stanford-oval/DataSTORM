@@ -1,0 +1,432 @@
+{
+  "total_insights": 42,
+  "total_classified": 42,
+  "acled_count": 5,
+  "non_acled_count": 37,
+  "pct_acled": 0.11904761904761904,
+  "details": [
+    {
+      "evidence": "Sudan’s war began in April 2023 as a power struggle between the SAF under Gen. Abdel Fattah al-Burhan and the RSF under Gen. Mohamed “Hemedti” Dagalo, with neither side decisively victorious by late 2024.",
+      "is_acled_data": false,
+      "reasoning": "The statement is general background and summary of the conflict’s origins and status by late 2024, without citing event counts, fatalities, locations, or actor-level event data. It is geopolitical context rather than specific ACLED-derived event data.",
+      "source_context": "Background and Current State of the War opening summary"
+    },
+    {
+      "evidence": "The RSF captured large territories in 2023, including most of Darfur, parts of Kordofan, and much of greater Khartoum, briefly taking Wad Madani in Al-Jazira state.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a broad territorial control/war progress summary (RSF captured large territories, including most of Darfur, parts of Kordofan, much of Khartoum, briefly Wad Madani). ACLED tracks discrete conflict events, locations, actors, and fatalities; it does not directly provide territorial control assessments or narrative summaries of who holds ‘most’ of a region without explicit event-based attribution. Unless explicitly tied to ACLED event data or attribution, this reads as general analysis/media synthesis, not ACLED-derived data.",
+      "source_context": "Background: RSF offensive and territorial gains"
+    },
+    {
+      "evidence": "By late 2024, the SAF had reclaimed some strategic positions, including recapturing Sinja (Sennar state capital) in November 2024 after five months of RSF occupation.",
+      "is_acled_data": true,
+      "reasoning": "The statement references a specific battle event with location and timing (recapture of Sinja in November 2024 after RSF occupation), which aligns with ACLED’s battle-related event data, geographic details, and temporal event records that ACLED tracks.",
+      "source_context": "SAF counteroffensives and strategic towns retaken"
+    },
+    {
+      "evidence": "Heavy urban warfare persists in Khartoum and twin cities, with street-by-street battles continuing.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general qualitative description of ongoing urban warfare in Khartoum without citing specific ACLED event counts, locations, actors, or fatalities. It reflects broad analysis rather than explicit ACLED-derived event data or metrics.",
+      "source_context": "Urban combat dynamics in Khartoum region"
+    },
+    {
+      "evidence": "SAF regained Omdurman in early 2024 aided by drone acquisitions and popular mobilization, but no decisive end to the conflict has emerged.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a broad analytical claim about territorial control (SAF regaining Omdurman), drone acquisitions, and mobilization, without citing specific ACLED event data, counts, locations, or actor-coded events. It reads as narrative analysis rather than ACLED-derived metrics or event records.",
+      "source_context": "Momentum shifts and capabilities"
+    },
+    {
+      "evidence": "Both SAF and RSF still control significant territory and retain capacity to fight, making the war protracted and fluid rather than a stable stalemate.",
+      "is_acled_data": false,
+      "reasoning": "This is a general analytical statement about territorial control and conflict dynamics, not citing specific ACLED event counts, fatalities, locations, or actor-level data. It reflects commentary rather than explicit ACLED-derived metrics.",
+      "source_context": "Assessment of battlefield balance and fluidity"
+    },
+    {
+      "evidence": "Conflict intensity surged: ACLED recorded about 6,700 violent events in 2023 and over 7,600 in 2024, compared to fewer than 2,800 in 2022.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific annual counts of violent events and references ACLED as the source. Event counts by year are a core ACLED metric, fitting the category of conflict event counts and temporal trends explicitly attributed to ACLED.",
+      "source_context": "Conflict data trends and escalation"
+    },
+    {
+      "evidence": "Major battles are anticipated for contested strongholds such as Wad Madani and El Fasher, with expectations of high casualties.",
+      "is_acled_data": false,
+      "reasoning": "The statement makes a forward-looking prediction about anticipated battles and expected high casualties, which is general analysis rather than citation of specific ACLED event data, counts, locations with recorded events, or ACLED-derived trends.",
+      "source_context": "Projected fronts and escalation risks"
+    },
+    {
+      "evidence": "Additional armed groups, including some Darfuri rebel factions, have joined the conflict, often aligning with the SAF.",
+      "is_acled_data": true,
+      "reasoning": "Statement refers to armed group participation and alignments in the conflict, which falls under ACLED’s actor-level and armed group activity/event data. ACLED tracks which groups are involved in events and their alliances, so this insight could be derived from ACLED data.",
+      "source_context": "Third-party armed actor involvement"
+    },
+    {
+      "evidence": "The war has caused tens of thousands of deaths; UN estimated over 14,000 confirmed by April 2024, while event-based estimates suggest roughly 17,000 fatalities in 2023 and 16,600 in 2024.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites event-based fatality estimates by year (roughly 17,000 in 2023 and 16,600 in 2024), which aligns with ACLED’s methodology of aggregating conflict event fatalities. Although it also mentions a UN figure (14,000 confirmed by April 2024), the specific “event-based estimates” phrasing and annual fatality totals are characteristic of ACLED data.",
+      "source_context": "Human toll estimates and data sources"
+    },
+    {
+      "evidence": "Violence against civilians escalated sharply, with around 1,100 incidents in 2023 and over 1,800 in 2024.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites counts of “violence against civilians” incidents by year, which are core ACLED event metrics and categories. These are specific conflict event counts and temporal trends consistent with ACLED’s dataset.",
+      "source_context": "Targeting of civilians and incident counts"
+    },
+    {
+      "evidence": "In West Darfur, RSF and allied Arab militias conducted ethnic cleansing, destroying much of El Geneina and massacring Massalit civilians.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a qualitative assertion about ethnic cleansing and destruction in El Geneina without citing specific ACLED event data, counts, locations, dates, or actor-coded events. It reads as general analysis/journalistic characterization rather than a reference to ACLED’s structured event or fatality data.",
+      "source_context": "Atrocities and ethnic cleansing findings"
+    },
+    {
+      "evidence": "UN experts reported systematic use of sexual violence as a weapon of war, largely by RSF, including rape and sexual slavery in Al-Jazira and Darfur.",
+      "is_acled_data": false,
+      "reasoning": "The claim cites UN experts on systematic sexual violence by RSF in specific regions. This is a UN human rights/monitoring finding, not ACLED event-based data, and there’s no attribution to ACLED figures or event records.",
+      "source_context": "Patterns of conflict-related sexual violence"
+    },
+    {
+      "evidence": "Both SAF and RSF have been accused of recruiting child soldiers, torturing detainees, and committing other grave abuses.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general allegation about abuses by actors and does not cite specific ACLED event data, counts, locations, or actor-level entries. It reads as broad human rights claims rather than ACLED-derived event statistics or trends.",
+      "source_context": "Human rights violations by both parties"
+    },
+    {
+      "evidence": "Over 8.6 million people have been displaced since the war began, with about 1.8 million fleeing to neighboring countries; IDPs approached 11 million by late 2024.",
+      "is_acled_data": false,
+      "reasoning": "The figures on displacement and refugees (IDPs, people fleeing to neighboring countries) are humanitarian statistics typically from UNHCR/OCHA or similar sources, not ACLED’s event-based conflict data. No explicit ACLED attribution is present.",
+      "source_context": "Scale of displacement and refugees"
+    },
+    {
+      "evidence": "Half of Sudan’s population (about 46 million) requires humanitarian aid, with approximately 25 million facing acute food insecurity and parts of the country nearing famine.",
+      "is_acled_data": false,
+      "reasoning": "The evidence cites humanitarian needs and food insecurity figures (population requiring aid, acute food insecurity, famine risk). These are humanitarian statistics typically from UN agencies (e.g., OCHA, WFP), not ACLED’s conflict event data or fatalities. No attribution to ACLED or event-based metrics is present.",
+      "source_context": "Humanitarian needs and food insecurity"
+    },
+    {
+      "evidence": "Famine was declared in North Darfur in 2024, and aid obstruction by both parties risks making this one of the deadliest famines in decades.",
+      "is_acled_data": false,
+      "reasoning": "The statement concerns a famine declaration and humanitarian access/aid obstruction impacts, which are typically reported by UN or humanitarian agencies. It is not grounded in ACLED’s event-level conflict data or metrics and does not cite ACLED-specific indicators.",
+      "source_context": "Famine status and obstruction of aid"
+    },
+    {
+      "evidence": "Both RSF and SAF have used starvation of civilians as a tactic of war by impeding relief, constituting a war crime.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general assertion about wartime tactics and potential war crimes, not tied to specific ACLED event data, counts, locations, or actor-level statistics. It reads as analytical/journalistic commentary rather than citing ACLED-derived events or metrics.",
+      "source_context": "Deliberate aid obstruction and legal implications"
+    },
+    {
+      "evidence": "Despite danger, some aid continues: WFP convoys have entered Sudan and new hubs/corridors (e.g., El Obeid and Kadugli) were negotiated in late 2024.",
+      "is_acled_data": false,
+      "reasoning": "The evidence discusses humanitarian aid logistics (WFP convoys and negotiated corridors/hubs), which are humanitarian/UN operational details, not conflict event data, fatalities, or actor activity typically captured by ACLED. It aligns more with UN/WFP reporting rather than ACLED datasets.",
+      "source_context": "Humanitarian access developments"
+    },
+    {
+      "evidence": "External support sustains both sides, with foreign arms and material flowing in despite UN sanctions, enabling the war to continue.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical claim about foreign support and sanctions evasion, not tied to specific ACLED event data, counts, actor-level entries, or trends. It lacks attribution to ACLED and does not reference concrete events, fatalities, or locations from ACLED.",
+      "source_context": "External backing and sanctions violations"
+    },
+    {
+      "evidence": "Egypt and some others are viewed as favoring SAF, while Russia, UAE, and Sahel paramilitary networks have been linked to RSF support (all deny direct involvement).",
+      "is_acled_data": false,
+      "reasoning": "The statement is geopolitical attribution/commentary about external support alignments for SAF/RSF, not specific conflict event data, fatalities, locations, or actor/event counts from ACLED. It lacks explicit ACLED attribution and does not reference ACLED-derived metrics.",
+      "source_context": "Regional patrons and alleged support patterns"
+    },
+    {
+      "evidence": "External interference has impeded ceasefires; divided international positions, including a Russian veto at the UNSC in Nov 2024, hamper unified pressure.",
+      "is_acled_data": false,
+      "reasoning": "The evidence discusses diplomatic dynamics and a UNSC veto, which are policy and international relations actions, not conflict event data or statistics tracked by ACLED.",
+      "source_context": "International divisions and UNSC dynamics"
+    },
+    {
+      "evidence": "The multiplicity of mediation tracks allows parties to forum-shop, avoiding processes requiring real concessions.",
+      "is_acled_data": false,
+      "reasoning": "This is analytical commentary about mediation dynamics and forum-shopping, not a reference to conflict events, fatalities, locations, or actor/event data attributed to ACLED.",
+      "source_context": "Mediation fragmentation and forum-shopping"
+    },
+    {
+      "evidence": "US–Saudi Jeddah talks in 2023 produced short-term ceasefires that were quickly violated and collapsed by December 2023.",
+      "is_acled_data": false,
+      "reasoning": "This statement describes diplomatic negotiations and ceasefire outcomes in Jeddah, which are policy/diplomatic actions and general analysis, not specific conflict event data or ACLED-derived metrics.",
+      "source_context": "Jeddah process outcomes"
+    },
+    {
+      "evidence": "African Union/IGAD efforts and neighboring country initiatives faltered amid accusations of bias and parties’ military priorities.",
+      "is_acled_data": false,
+      "reasoning": "The statement concerns diplomatic mediation efforts (AU/IGAD and neighboring countries) and accusations of bias, which are policy/political assessments rather than specific conflict event data or actor-level event metrics. This fits general geopolitical analysis, not ACLED-derived event statistics or trends.",
+      "source_context": "Regional mediation attempts and challenges"
+    },
+    {
+      "evidence": "Secret Egypt–UAE talks in January 2024 made limited progress on principles, but SAF walked out under pressure from hardline Islamist supporters.",
+      "is_acled_data": false,
+      "reasoning": "The evidence describes clandestine diplomatic talks and political dynamics (Egypt–UAE talks, SAF walking out due to Islamist pressure). This is a policy/diplomatic action and political analysis, not conflict event data, fatalities, or actor-level event records typical of ACLED. Therefore, it is not derived from ACLED data.",
+      "source_context": "Backchannel efforts and internal pressures"
+    },
+    {
+      "evidence": "A 2024 Geneva initiative (U.S., Saudi, Switzerland) failed to produce results; participation was inconsistent and flexibility was minimal.",
+      "is_acled_data": false,
+      "reasoning": "The statement concerns a diplomatic initiative and its lack of results, relating to negotiations and participation, not conflict event data or statistics. This is general geopolitical/diplomatic analysis, which is not part of ACLED’s event-based datasets.",
+      "source_context": "Geneva talks performance"
+    },
+    {
+      "evidence": "UN, AU, and IGAD have shifted to proximity talks and localized ceasefires/humanitarian pauses, but such narrow deals are rare and often breached.",
+      "is_acled_data": false,
+      "reasoning": "This describes diplomatic mediation approaches (proximity talks, localized ceasefires) and their reliability. It is a policy/process assessment, not specific conflict event data, counts, fatalities, locations, or actor-level data attributed to ACLED.",
+      "source_context": "Localized mediation strategy and limits"
+    },
+    {
+      "evidence": "As 2025 approaches, neither Burhan nor Hemedti shows willingness to accept power-sharing or security sector reform; both aim for a military solution.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a political/strategic assessment about leaders’ willingness to power-share and pursue security sector reform, not a reference to specific conflict event data, fatalities, locations, or actor-level event records. It is general analysis rather than data derived from ACLED.",
+      "source_context": "Leaders’ negotiating positions and goals"
+    },
+    {
+      "evidence": "SAF demands RSF disbandment or full integration into the army, while RSF seeks autonomy and political roles unacceptable to SAF’s constituency.",
+      "is_acled_data": false,
+      "reasoning": "This is a political/negotiation stance description about SAF and RSF positions (disbandment vs. autonomy), which is a policy/position statement and general analysis, not specific event counts, fatalities, or actor-level event data from ACLED.",
+      "source_context": "Core incompatibilities in demands"
+    },
+    {
+      "evidence": "Pro-democracy civil groups are sidelined; opposition leaders face exile or detention, and domestic pressure for peace is fragmented.",
+      "is_acled_data": false,
+      "reasoning": "The statement is broad political analysis about marginalization of civil groups and opposition repression, without reference to specific conflict events, actors, locations, counts, or ACLED-derived metrics. It is not tied to ACLED event data or indicators.",
+      "source_context": "Political landscape and marginalization of civilians"
+    },
+    {
+      "evidence": "There is no unified peace process or clear roadmap as of end-2024; sanctions and arms embargo calls have been largely toothless as weapons continue to flow.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general policy/political assessment about peace processes, sanctions, and arms embargo effectiveness, not tied to specific ACLED event data or metrics. It does not reference conflict event counts, fatalities, locations, or actor-level data from ACLED.",
+      "source_context": "Peace process status and enforcement weaknesses"
+    },
+    {
+      "evidence": "The near-term outlook is grim: both sides believe further battlefield gains are possible, making compromise unlikely and new offensives probable.",
+      "is_acled_data": false,
+      "reasoning": "This is a qualitative strategic assessment about actors’ intentions and expected offensives. It is general analysis not tied to specific ACLED event counts, locations, fatalities, or actor-level data explicitly. Therefore it is not derived from ACLED data.",
+      "source_context": "Outlook for Peace in 2025 – baseline assessment"
+    },
+    {
+      "evidence": "Potential battles for Wad Madani (SAF offensive) and El Fasher (RSF push) could trigger unprecedented casualties and displacement.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a forward-looking assessment about potential future battles and their humanitarian impact, not a report of specific events, counts, or actor-level data. It is general analytical commentary rather than derived from ACLED event data or metrics.",
+      "source_context": "Anticipated flashpoints and humanitarian risks"
+    },
+    {
+      "evidence": "Without a ceasefire, civilians face ongoing extreme peril, including risks of localized genocides and famine-related mass deaths.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical warning about potential risks (genocide, famine) without citing specific conflict event data, counts, locations, actors, or ACLED attribution. It is not derived from ACLED event-based metrics.",
+      "source_context": "Projected humanitarian consequences of continued fighting"
+    },
+    {
+      "evidence": "Efforts may focus on unifying mediation under an African-led process with global coordination in 2025 to reduce fragmentation.",
+      "is_acled_data": false,
+      "reasoning": "This is a policy/mediation forecast about unifying diplomatic efforts, not event-based conflict data or metrics from ACLED.",
+      "source_context": "Prospective mediation consolidation"
+    },
+    {
+      "evidence": "Altering incentives—such as pressuring foreign backers to halt arms flows or offering peacekeeping and reconstruction aid—may be necessary for a breakthrough.",
+      "is_acled_data": false,
+      "reasoning": "The statement is policy analysis about altering incentives and leveraging pressure or aid; it does not reference specific conflict event data, fatalities, locations, or ACLED-derived metrics. It is general geopolitical commentary, not ACLED data.",
+      "source_context": "Leverage requirements for negotiations"
+    },
+    {
+      "evidence": "Best-case near-term outcomes are likely limited to temporary local ceasefires and expanded humanitarian corridors to build confidence.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical assessment about potential ceasefires and humanitarian corridors; it does not reference specific conflict events, actors, locations, counts, or trends from ACLED. It is policy/strategic commentary rather than data derived from ACLED event datasets.",
+      "source_context": "Incremental steps and humanitarian pauses"
+    },
+    {
+      "evidence": "The UNSC supports locally negotiated ceasefires, humanitarian pauses, and monitored cessation of hostilities as interim steps toward broader peace.",
+      "is_acled_data": false,
+      "reasoning": "This is a policy/diplomatic statement about UN Security Council support for ceasefires and humanitarian pauses, not conflict event data or analysis derived from ACLED.",
+      "source_context": "International endorsement of interim measures"
+    },
+    {
+      "evidence": "Absent a major shift, the war is likely to continue into 2025 with no definitive end in sight and worsening humanitarian conditions.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general projection about the war’s continuation and humanitarian conditions without reference to specific ACLED event data, trends, actors, or attributed metrics. It is broad geopolitical analysis rather than ACLED-derived figures or analyses.",
+      "source_context": "Overall prognosis and continuation of conflict"
+    },
+    {
+      "evidence": "Sustained international engagement and changed calculations by the generals are prerequisites for meaningful peace progress.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general policy/analytical assertion about prerequisites for peace and does not reference event counts, actors, fatalities, locations, or any ACLED-derived metrics. It is geopolitical analysis, not specific ACLED data.",
+      "source_context": "Conditions needed for meaningful peace process"
+    },
+    {
+      "evidence": "The global response’s unity or fragmentation in coming months will significantly influence whether Sudan moves toward peace or further collapse.",
+      "is_acled_data": false,
+      "reasoning": "This is a general analytical statement about international unity affecting Sudan’s trajectory; it does not reference conflict events, fatalities, actors, locations, or trends from ACLED data.",
+      "source_context": "Role of international community going forward"
+    }
+  ],
+  "insights": [
+    {
+      "insight": "Sudan’s war began in April 2023 as a power struggle between the SAF under Gen. Abdel Fattah al-Burhan and the RSF under Gen. Mohamed “Hemedti” Dagalo, with neither side decisively victorious by late 2024.",
+      "context": "Background and Current State of the War opening summary"
+    },
+    {
+      "insight": "The RSF captured large territories in 2023, including most of Darfur, parts of Kordofan, and much of greater Khartoum, briefly taking Wad Madani in Al-Jazira state.",
+      "context": "Background: RSF offensive and territorial gains"
+    },
+    {
+      "insight": "By late 2024, the SAF had reclaimed some strategic positions, including recapturing Sinja (Sennar state capital) in November 2024 after five months of RSF occupation.",
+      "context": "SAF counteroffensives and strategic towns retaken"
+    },
+    {
+      "insight": "Heavy urban warfare persists in Khartoum and twin cities, with street-by-street battles continuing.",
+      "context": "Urban combat dynamics in Khartoum region"
+    },
+    {
+      "insight": "SAF regained Omdurman in early 2024 aided by drone acquisitions and popular mobilization, but no decisive end to the conflict has emerged.",
+      "context": "Momentum shifts and capabilities"
+    },
+    {
+      "insight": "Both SAF and RSF still control significant territory and retain capacity to fight, making the war protracted and fluid rather than a stable stalemate.",
+      "context": "Assessment of battlefield balance and fluidity"
+    },
+    {
+      "insight": "Conflict intensity surged: ACLED recorded about 6,700 violent events in 2023 and over 7,600 in 2024, compared to fewer than 2,800 in 2022.",
+      "context": "Conflict data trends and escalation"
+    },
+    {
+      "insight": "Major battles are anticipated for contested strongholds such as Wad Madani and El Fasher, with expectations of high casualties.",
+      "context": "Projected fronts and escalation risks"
+    },
+    {
+      "insight": "Additional armed groups, including some Darfuri rebel factions, have joined the conflict, often aligning with the SAF.",
+      "context": "Third-party armed actor involvement"
+    },
+    {
+      "insight": "The war has caused tens of thousands of deaths; UN estimated over 14,000 confirmed by April 2024, while event-based estimates suggest roughly 17,000 fatalities in 2023 and 16,600 in 2024.",
+      "context": "Human toll estimates and data sources"
+    },
+    {
+      "insight": "Violence against civilians escalated sharply, with around 1,100 incidents in 2023 and over 1,800 in 2024.",
+      "context": "Targeting of civilians and incident counts"
+    },
+    {
+      "insight": "In West Darfur, RSF and allied Arab militias conducted ethnic cleansing, destroying much of El Geneina and massacring Massalit civilians.",
+      "context": "Atrocities and ethnic cleansing findings"
+    },
+    {
+      "insight": "UN experts reported systematic use of sexual violence as a weapon of war, largely by RSF, including rape and sexual slavery in Al-Jazira and Darfur.",
+      "context": "Patterns of conflict-related sexual violence"
+    },
+    {
+      "insight": "Both SAF and RSF have been accused of recruiting child soldiers, torturing detainees, and committing other grave abuses.",
+      "context": "Human rights violations by both parties"
+    },
+    {
+      "insight": "Over 8.6 million people have been displaced since the war began, with about 1.8 million fleeing to neighboring countries; IDPs approached 11 million by late 2024.",
+      "context": "Scale of displacement and refugees"
+    },
+    {
+      "insight": "Half of Sudan’s population (about 46 million) requires humanitarian aid, with approximately 25 million facing acute food insecurity and parts of the country nearing famine.",
+      "context": "Humanitarian needs and food insecurity"
+    },
+    {
+      "insight": "Famine was declared in North Darfur in 2024, and aid obstruction by both parties risks making this one of the deadliest famines in decades.",
+      "context": "Famine status and obstruction of aid"
+    },
+    {
+      "insight": "Both RSF and SAF have used starvation of civilians as a tactic of war by impeding relief, constituting a war crime.",
+      "context": "Deliberate aid obstruction and legal implications"
+    },
+    {
+      "insight": "Despite danger, some aid continues: WFP convoys have entered Sudan and new hubs/corridors (e.g., El Obeid and Kadugli) were negotiated in late 2024.",
+      "context": "Humanitarian access developments"
+    },
+    {
+      "insight": "External support sustains both sides, with foreign arms and material flowing in despite UN sanctions, enabling the war to continue.",
+      "context": "External backing and sanctions violations"
+    },
+    {
+      "insight": "Egypt and some others are viewed as favoring SAF, while Russia, UAE, and Sahel paramilitary networks have been linked to RSF support (all deny direct involvement).",
+      "context": "Regional patrons and alleged support patterns"
+    },
+    {
+      "insight": "External interference has impeded ceasefires; divided international positions, including a Russian veto at the UNSC in Nov 2024, hamper unified pressure.",
+      "context": "International divisions and UNSC dynamics"
+    },
+    {
+      "insight": "The multiplicity of mediation tracks allows parties to forum-shop, avoiding processes requiring real concessions.",
+      "context": "Mediation fragmentation and forum-shopping"
+    },
+    {
+      "insight": "US–Saudi Jeddah talks in 2023 produced short-term ceasefires that were quickly violated and collapsed by December 2023.",
+      "context": "Jeddah process outcomes"
+    },
+    {
+      "insight": "African Union/IGAD efforts and neighboring country initiatives faltered amid accusations of bias and parties’ military priorities.",
+      "context": "Regional mediation attempts and challenges"
+    },
+    {
+      "insight": "Secret Egypt–UAE talks in January 2024 made limited progress on principles, but SAF walked out under pressure from hardline Islamist supporters.",
+      "context": "Backchannel efforts and internal pressures"
+    },
+    {
+      "insight": "A 2024 Geneva initiative (U.S., Saudi, Switzerland) failed to produce results; participation was inconsistent and flexibility was minimal.",
+      "context": "Geneva talks performance"
+    },
+    {
+      "insight": "UN, AU, and IGAD have shifted to proximity talks and localized ceasefires/humanitarian pauses, but such narrow deals are rare and often breached.",
+      "context": "Localized mediation strategy and limits"
+    },
+    {
+      "insight": "As 2025 approaches, neither Burhan nor Hemedti shows willingness to accept power-sharing or security sector reform; both aim for a military solution.",
+      "context": "Leaders’ negotiating positions and goals"
+    },
+    {
+      "insight": "SAF demands RSF disbandment or full integration into the army, while RSF seeks autonomy and political roles unacceptable to SAF’s constituency.",
+      "context": "Core incompatibilities in demands"
+    },
+    {
+      "insight": "Pro-democracy civil groups are sidelined; opposition leaders face exile or detention, and domestic pressure for peace is fragmented.",
+      "context": "Political landscape and marginalization of civilians"
+    },
+    {
+      "insight": "There is no unified peace process or clear roadmap as of end-2024; sanctions and arms embargo calls have been largely toothless as weapons continue to flow.",
+      "context": "Peace process status and enforcement weaknesses"
+    },
+    {
+      "insight": "The near-term outlook is grim: both sides believe further battlefield gains are possible, making compromise unlikely and new offensives probable.",
+      "context": "Outlook for Peace in 2025 – baseline assessment"
+    },
+    {
+      "insight": "Potential battles for Wad Madani (SAF offensive) and El Fasher (RSF push) could trigger unprecedented casualties and displacement.",
+      "context": "Anticipated flashpoints and humanitarian risks"
+    },
+    {
+      "insight": "Without a ceasefire, civilians face ongoing extreme peril, including risks of localized genocides and famine-related mass deaths.",
+      "context": "Projected humanitarian consequences of continued fighting"
+    },
+    {
+      "insight": "Efforts may focus on unifying mediation under an African-led process with global coordination in 2025 to reduce fragmentation.",
+      "context": "Prospective mediation consolidation"
+    },
+    {
+      "insight": "Altering incentives—such as pressuring foreign backers to halt arms flows or offering peacekeeping and reconstruction aid—may be necessary for a breakthrough.",
+      "context": "Leverage requirements for negotiations"
+    },
+    {
+      "insight": "Best-case near-term outcomes are likely limited to temporary local ceasefires and expanded humanitarian corridors to build confidence.",
+      "context": "Incremental steps and humanitarian pauses"
+    },
+    {
+      "insight": "The UNSC supports locally negotiated ceasefires, humanitarian pauses, and monitored cessation of hostilities as interim steps toward broader peace.",
+      "context": "International endorsement of interim measures"
+    },
+    {
+      "insight": "Absent a major shift, the war is likely to continue into 2025 with no definitive end in sight and worsening humanitarian conditions.",
+      "context": "Overall prognosis and continuation of conflict"
+    },
+    {
+      "insight": "Sustained international engagement and changed calculations by the generals are prerequisites for meaningful peace progress.",
+      "context": "Conditions needed for meaningful peace process"
+    },
+    {
+      "insight": "The global response’s unity or fragmentation in coming months will significantly influence whether Sudan moves toward peace or further collapse.",
+      "context": "Role of international community going forward"
+    }
+  ],
+  "prompt": "Analyze current state of war in Sudan and peace outlook, as if we are at the end of 2024 heading into 2025."
+}

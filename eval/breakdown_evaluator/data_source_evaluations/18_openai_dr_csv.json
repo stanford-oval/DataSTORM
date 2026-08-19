@@ -1,0 +1,292 @@
+{
+  "total_insights": 28,
+  "total_classified": 28,
+  "acled_count": 3,
+  "non_acled_count": 25,
+  "pct_acled": 0.10714285714285714,
+  "details": [
+    {
+      "evidence": "Rwanda’s military, formerly the Rwandan Patriotic Army, led the 1996 invasion of Zaire with Uganda, toppling Mobutu and installing Laurent Kabila.",
+      "is_acled_data": false,
+      "reasoning": "This is historical narrative about the 1996 invasion of Zaire and regime change, not a citation of ACLED event data, counts, fatalities, or actor-level entries. It appears as general geopolitical history rather than specific ACLED-derived event records.",
+      "source_context": "Involvement in the Congo Wars; references africacenter.org on 1996 invasion and regime change"
+    },
+    {
+      "evidence": "Rwanda and Uganda’s fallout with Kabila led them to back new rebellions in the DRC, triggering the Second Congo War in 1998.",
+      "is_acled_data": false,
+      "reasoning": "The statement is historical/geopolitical narrative about states backing rebellions and triggering the Second Congo War, not a specific conflict event record, counts, fatalities, or actor-level event data attributed to ACLED.",
+      "source_context": "Involvement in the Congo Wars; africacenter.org on origins of 1998 war"
+    },
+    {
+      "evidence": "Rwanda and Uganda later clashed on Congolese soil, including battles in Kisangani, while supporting rival proxy militias to compete for regional influence.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general historical/geopolitical description of clashes and proxy support in DRC, without specific event counts, dates, locations tied to ACLED entries, fatalities, or explicit attribution to ACLED data. It reads as narrative context rather than ACLED-derived event data.",
+      "source_context": "Involvement in the Congo Wars; africacenter.org on Kisangani clashes and proxy competition"
+    },
+    {
+      "evidence": "Rwanda justifies interventions in eastern DRC as necessary to neutralize Hutu extremist militias like the FDLR, linked to 1994 genocide perpetrators.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a policy justification describing Rwanda’s rationale for interventions against the FDLR. It is general geopolitical commentary about motives, not specific ACLED event data (no event counts, locations, fatalities, or actor-coded incidents attributed to ACLED).",
+      "source_context": "Involvement in the Congo Wars; national security rationale noted"
+    },
+    {
+      "evidence": "The DRC government and UN experts have accused and implicated Rwanda in backing and arming the M23 rebel group in recent years.",
+      "is_acled_data": false,
+      "reasoning": "The statement cites accusations by the DRC government and UN experts about Rwanda backing M23; this is a political/diplomatic assertion and attribution, not specific ACLED event data (counts, locations, fatalities, actor-coded events) nor explicitly attributed to ACLED.",
+      "source_context": "Involvement in the Congo Wars; africacenter.org on UN experts’ findings regarding M23"
+    },
+    {
+      "evidence": "M23’s leadership is dominated by Congolese Tutsis who claim to defend their communities against the FDLR.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general characterization of M23’s leadership and its claimed motives; it is not tied to specific ACLED event data, counts, locations, or actor-level event records. It reads as geopolitical/contextual analysis rather than data derived from ACLED.",
+      "source_context": "Involvement in the Congo Wars; africacenter.org on M23 composition and claims"
+    },
+    {
+      "evidence": "From 2020–2024, ACLED recorded over 140 conflict events in the DRC involving Rwandan state forces, highlighting the RDF’s ongoing role there.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites ACLED by name and references a specific metric ACLED provides—counts of conflict events over a defined period involving a specific actor and location—consistent with ACLED event and actor-level data and temporal trend counts.",
+      "source_context": "Involvement in the Congo Wars; analysis summary data point"
+    },
+    {
+      "evidence": "Rwanda’s DRC interventions have strained relations with Kinshasa and fostered pervasive regional mistrust, affecting regional security initiatives.",
+      "is_acled_data": false,
+      "reasoning": "The statement is high-level geopolitical analysis about strained relations and regional mistrust; it does not reference specific conflict events, counts, locations, actors, or trends from ACLED data.",
+      "source_context": "Involvement in the Congo Wars; africacenter.org; example of 2022 East African regional force excluding Rwandan troops"
+    },
+    {
+      "evidence": "Rwanda is among the world’s top UN peacekeeping contributors, deploying about 6,000–6,500 troops and police, ranking roughly fourth globally.",
+      "is_acled_data": false,
+      "reasoning": "The evidence cites UN peacekeeping troop contribution numbers and rankings, which come from UN peacekeeping statistics, not ACLED’s event-based conflict data. It is not tied to ACLED event counts, fatalities, or actor-level incidents.",
+      "source_context": "Peacekeeping and Military Diplomacy; peacekeeping.un.org and The Conversation"
+    },
+    {
+      "evidence": "Rwandan peacekeepers serve mainly in African missions such as South Sudan, Darfur, and the Central African Republic, and are reputed for discipline and effectiveness.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general claim about Rwandan peacekeeping deployments and reputation for discipline/effectiveness. It does not reference specific conflict events, counts, fatalities, locations, or ACLED-attributed actor/event data. This is general geopolitical/peacekeeping commentary, not ACLED-derived data.",
+      "source_context": "Peacekeeping and Military Diplomacy; peacekeeping.un.org descriptions"
+    },
+    {
+      "evidence": "Kigali uses robust participation in peacekeeping as “military diplomacy,” enhancing its international profile and alliances as a reliable security partner.",
+      "is_acled_data": false,
+      "reasoning": "The evidence is a qualitative geopolitical assessment about Rwanda using peacekeeping as “military diplomacy.” It does not reference specific conflict events, counts, fatalities, or actor-level data from ACLED, nor is it attributed to ACLED. This is general analysis, not ACLED-derived data.",
+      "source_context": "Peacekeeping and Military Diplomacy; The Conversation on strategy and reputation"
+    },
+    {
+      "evidence": "In late 2020, Rwanda deployed several hundred troops bilaterally to the Central African Republic to support President Touadéra against advancing rebels, engaging in combat.",
+      "is_acled_data": true,
+      "reasoning": "The evidence describes a specific deployment and combat engagement by Rwandan troops in the Central African Republic in late 2020. ACLED tracks battle events, actor activity, dates, and locations of such engagements, and often includes bilateral interventions and clashes. This phrasing aligns with ACLED-style event reporting (troop deployment, engagement against rebels, timeframe), so it could plausibly be derived from ACLED event data.",
+      "source_context": "Operations in the CAR; BBC and Al Jazeera reports"
+    },
+    {
+      "evidence": "Rwandan forces, alongside Russian contractors, helped halt the CAR rebel offensive and secure Bangui.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general claim about Rwandan forces and Russian contractors halting a rebel offensive and securing Bangui; it reads as narrative/geopolitical analysis and lacks specific ACLED-style event data (dates, locations with coordinates, event types, counts, fatalities) or explicit attribution to ACLED.",
+      "source_context": "Operations in the CAR; BBC accounts of impact"
+    },
+    {
+      "evidence": "Rwanda maintains significant influence in CAR’s security sector, guarding the president, training forces, and holding key UN and international posts in Bangui.",
+      "is_acled_data": false,
+      "reasoning": "The statement is general geopolitical analysis about Rwanda’s influence and roles in CAR’s security sector and UN posts, not specific conflict event data, counts, fatalities, or actor-level events attributed to ACLED.",
+      "source_context": "Operations in the CAR; Le Monde on security roles"
+    },
+    {
+      "evidence": "Rwanda has expanded into CAR’s private sector, using the country as a laboratory for its influence policy in Africa.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a geopolitical/economic analysis about Rwanda’s influence and private sector expansion in CAR, not tied to specific ACLED conflict events, actors, locations, or statistics. It lacks ACLED attribution and does not reference event counts, fatalities, or armed group activity data.",
+      "source_context": "Operations in the CAR; Le Monde citing a European diplomat’s characterization"
+    },
+    {
+      "evidence": "In 2021, Rwanda unilaterally deployed 1,000 troops (rising to about 2,500 by end-2022) to Mozambique’s Cabo Delgado to fight a jihadist insurgency at Maputo’s request.",
+      "is_acled_data": false,
+      "reasoning": "The statement describes a government-to-government troop deployment size and timeline in Mozambique. It is a policy/action detail rather than event-level conflict data, and no ACLED attribution is provided. ACLED tracks incidents, actors, and fatalities, but troop deployment figures and unilateral deployment claims typically come from official statements or media, not ACLED datasets.",
+      "source_context": "Counterinsurgency in Mozambique; ISS Africa and DW"
+    },
+    {
+      "evidence": "Rwandan forces rapidly retook key areas in Cabo Delgado, including Mocímboa da Praia, and cleared insurgent bases, improving security conditions.",
+      "is_acled_data": true,
+      "reasoning": "The statement references specific battle events and territorial recapture in Cabo Delgado (e.g., retaking Mocímboa da Praia and clearing insurgent bases), which aligns with ACLED’s battle-related event data and geographic conflict reporting. While no fatalities or counts are given, the described recapture and security improvements correspond to ACLED-style event descriptions and locations. However, note it is not explicitly attributed to ACLED; classification is based on content type matching ACLED’s scope.",
+      "source_context": "Counterinsurgency in Mozambique; ISS Africa on operational gains"
+    },
+    {
+      "evidence": "The RDF secured districts hosting major natural gas projects (e.g., TotalEnergies $20B) and later protected ruby and graphite mines, focusing on strategic economic zones.",
+      "is_acled_data": false,
+      "reasoning": "The statement discusses protection of economic sites (natural gas, ruby, graphite) and references a company/project value, focusing on strategic economic zones. It lacks specific conflict event data, actors, fatalities, dates, or ACLED attribution. This is geopolitical/economic analysis rather than ACLED-derived event statistics.",
+      "source_context": "Counterinsurgency in Mozambique; ISS Africa on resource protection focus"
+    },
+    {
+      "evidence": "Analysts observed Rwanda took charge of resource-rich areas in Cabo Delgado, complementing SADC forces deployed to less strategic zones.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a strategic assessment about control of resource-rich areas and deployment patterns of forces. It does not reference specific ACLED event data (counts, fatalities, locations, or actor-level events) nor attribute to ACLED. It is geopolitical analysis rather than event-based data.",
+      "source_context": "Counterinsurgency in Mozambique; ISS Africa analysis"
+    },
+    {
+      "evidence": "Rwandan troops in Mozambique gained local praise for professionalism compared to Mozambique’s army and were credited with substantially improving security.",
+      "is_acled_data": false,
+      "reasoning": "The statement is qualitative praise of Rwandan troops’ professionalism and claims of improved security, which is general commentary and assessment, not specific ACLED event data (counts, fatalities, locations, actor/event records) or analysis explicitly attributed to ACLED.",
+      "source_context": "Counterinsurgency in Mozambique; DW reporting on perceptions"
+    },
+    {
+      "evidence": "The Mozambique mission delivered a political win for Kagame, serving as a propaganda victory and showcasing Rwanda’s growing regional military clout.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a geopolitical/political analysis about Kagame’s image and Rwanda’s regional clout, not specific conflict event data, counts, fatalities, locations, or actor-level entries attributed to ACLED.",
+      "source_context": "Counterinsurgency in Mozambique; DW commentary"
+    },
+    {
+      "evidence": "Rwanda filled a security gap in Mozambique that European nations were unwilling to address, earning financial and political capital in return.",
+      "is_acled_data": false,
+      "reasoning": "The statement is geopolitical analysis about Rwanda’s role and benefits in Mozambique, not specific conflict event data, counts, locations, fatalities, or actor-level events attributed to ACLED.",
+      "source_context": "Counterinsurgency in Mozambique; DW analysis of international dynamics"
+    },
+    {
+      "evidence": "Rwanda’s military engagements have elevated it to a power broker in African security, leveraging “military diplomacy” to bolster influence and partnerships.",
+      "is_acled_data": false,
+      "reasoning": "The statement is broad geopolitical analysis about Rwanda’s influence and “military diplomacy,” not tied to specific ACLED event data, counts, fatalities, locations, or actor-level event descriptions, nor explicitly attributed to ACLED.",
+      "source_context": "Geopolitical Significance; The Conversation on transformed stature"
+    },
+    {
+      "evidence": "These operations have helped shift Rwanda’s image from genocide-scarred to solution provider, appealing to global powers seeking reliable regional partners.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a qualitative geopolitical assessment about Rwanda’s image and international perceptions, not grounded in specific conflict event data, statistics, or actor-level details from ACLED.",
+      "source_context": "Geopolitical Significance; The Conversation on image shift and partnerships"
+    },
+    {
+      "evidence": "Rwanda’s valued peacekeeping role may contribute to increased financial support and reduced external scrutiny of its domestic governance, according to some analysts.",
+      "is_acled_data": false,
+      "reasoning": "The statement is general geopolitical analysis about Rwanda’s peacekeeping role affecting funding and scrutiny, not specific conflict event data, statistics, or trends attributable to ACLED.",
+      "source_context": "Geopolitical Significance; The Conversation’s assessment of benefits"
+    },
+    {
+      "evidence": "Rwanda’s assertive deployments have also fueled rivalries and suspicions, particularly with the DRC and Uganda, due to history of proxy conflicts.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general geopolitical analysis about rivalries and suspicions between states due to proxy conflicts, without referencing specific conflict events, counts, locations, or actor-level data tied to ACLED.",
+      "source_context": "Geopolitical Significance; Africa Center references to regional tensions"
+    },
+    {
+      "evidence": "Western countries and multilateral bodies increasingly view Rwanda as an exporter of security in Africa, enhancing Kagame’s stature with the West.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general geopolitical assessment about Western perceptions of Rwanda as a security exporter and Kagame’s stature. It does not reference specific conflict events, actor-level event data, fatalities, locations, or any ACLED-derived metrics or attribution.",
+      "source_context": "Geopolitical Significance; Le Monde characterization"
+    },
+    {
+      "evidence": "By intervening beyond its borders, Rwanda has reshaped regional power dynamics, gaining leverage and prestige disproportionate to its size while accruing new responsibilities and diplomatic risks.",
+      "is_acled_data": false,
+      "reasoning": "The statement is high-level geopolitical analysis about Rwanda’s regional influence and diplomatic risks, not tied to specific conflict event data, counts, locations, actors, or trends from ACLED.",
+      "source_context": "Geopolitical Significance; article’s concluding synthesis"
+    }
+  ],
+  "insights": [
+    {
+      "insight": "Rwanda’s military, formerly the Rwandan Patriotic Army, led the 1996 invasion of Zaire with Uganda, toppling Mobutu and installing Laurent Kabila.",
+      "context": "Involvement in the Congo Wars; references africacenter.org on 1996 invasion and regime change"
+    },
+    {
+      "insight": "Rwanda and Uganda’s fallout with Kabila led them to back new rebellions in the DRC, triggering the Second Congo War in 1998.",
+      "context": "Involvement in the Congo Wars; africacenter.org on origins of 1998 war"
+    },
+    {
+      "insight": "Rwanda and Uganda later clashed on Congolese soil, including battles in Kisangani, while supporting rival proxy militias to compete for regional influence.",
+      "context": "Involvement in the Congo Wars; africacenter.org on Kisangani clashes and proxy competition"
+    },
+    {
+      "insight": "Rwanda justifies interventions in eastern DRC as necessary to neutralize Hutu extremist militias like the FDLR, linked to 1994 genocide perpetrators.",
+      "context": "Involvement in the Congo Wars; national security rationale noted"
+    },
+    {
+      "insight": "The DRC government and UN experts have accused and implicated Rwanda in backing and arming the M23 rebel group in recent years.",
+      "context": "Involvement in the Congo Wars; africacenter.org on UN experts’ findings regarding M23"
+    },
+    {
+      "insight": "M23’s leadership is dominated by Congolese Tutsis who claim to defend their communities against the FDLR.",
+      "context": "Involvement in the Congo Wars; africacenter.org on M23 composition and claims"
+    },
+    {
+      "insight": "From 2020–2024, ACLED recorded over 140 conflict events in the DRC involving Rwandan state forces, highlighting the RDF’s ongoing role there.",
+      "context": "Involvement in the Congo Wars; analysis summary data point"
+    },
+    {
+      "insight": "Rwanda’s DRC interventions have strained relations with Kinshasa and fostered pervasive regional mistrust, affecting regional security initiatives.",
+      "context": "Involvement in the Congo Wars; africacenter.org; example of 2022 East African regional force excluding Rwandan troops"
+    },
+    {
+      "insight": "Rwanda is among the world’s top UN peacekeeping contributors, deploying about 6,000–6,500 troops and police, ranking roughly fourth globally.",
+      "context": "Peacekeeping and Military Diplomacy; peacekeeping.un.org and The Conversation"
+    },
+    {
+      "insight": "Rwandan peacekeepers serve mainly in African missions such as South Sudan, Darfur, and the Central African Republic, and are reputed for discipline and effectiveness.",
+      "context": "Peacekeeping and Military Diplomacy; peacekeeping.un.org descriptions"
+    },
+    {
+      "insight": "Kigali uses robust participation in peacekeeping as “military diplomacy,” enhancing its international profile and alliances as a reliable security partner.",
+      "context": "Peacekeeping and Military Diplomacy; The Conversation on strategy and reputation"
+    },
+    {
+      "insight": "In late 2020, Rwanda deployed several hundred troops bilaterally to the Central African Republic to support President Touadéra against advancing rebels, engaging in combat.",
+      "context": "Operations in the CAR; BBC and Al Jazeera reports"
+    },
+    {
+      "insight": "Rwandan forces, alongside Russian contractors, helped halt the CAR rebel offensive and secure Bangui.",
+      "context": "Operations in the CAR; BBC accounts of impact"
+    },
+    {
+      "insight": "Rwanda maintains significant influence in CAR’s security sector, guarding the president, training forces, and holding key UN and international posts in Bangui.",
+      "context": "Operations in the CAR; Le Monde on security roles"
+    },
+    {
+      "insight": "Rwanda has expanded into CAR’s private sector, using the country as a laboratory for its influence policy in Africa.",
+      "context": "Operations in the CAR; Le Monde citing a European diplomat’s characterization"
+    },
+    {
+      "insight": "In 2021, Rwanda unilaterally deployed 1,000 troops (rising to about 2,500 by end-2022) to Mozambique’s Cabo Delgado to fight a jihadist insurgency at Maputo’s request.",
+      "context": "Counterinsurgency in Mozambique; ISS Africa and DW"
+    },
+    {
+      "insight": "Rwandan forces rapidly retook key areas in Cabo Delgado, including Mocímboa da Praia, and cleared insurgent bases, improving security conditions.",
+      "context": "Counterinsurgency in Mozambique; ISS Africa on operational gains"
+    },
+    {
+      "insight": "The RDF secured districts hosting major natural gas projects (e.g., TotalEnergies $20B) and later protected ruby and graphite mines, focusing on strategic economic zones.",
+      "context": "Counterinsurgency in Mozambique; ISS Africa on resource protection focus"
+    },
+    {
+      "insight": "Analysts observed Rwanda took charge of resource-rich areas in Cabo Delgado, complementing SADC forces deployed to less strategic zones.",
+      "context": "Counterinsurgency in Mozambique; ISS Africa analysis"
+    },
+    {
+      "insight": "Rwandan troops in Mozambique gained local praise for professionalism compared to Mozambique’s army and were credited with substantially improving security.",
+      "context": "Counterinsurgency in Mozambique; DW reporting on perceptions"
+    },
+    {
+      "insight": "The Mozambique mission delivered a political win for Kagame, serving as a propaganda victory and showcasing Rwanda’s growing regional military clout.",
+      "context": "Counterinsurgency in Mozambique; DW commentary"
+    },
+    {
+      "insight": "Rwanda filled a security gap in Mozambique that European nations were unwilling to address, earning financial and political capital in return.",
+      "context": "Counterinsurgency in Mozambique; DW analysis of international dynamics"
+    },
+    {
+      "insight": "Rwanda’s military engagements have elevated it to a power broker in African security, leveraging “military diplomacy” to bolster influence and partnerships.",
+      "context": "Geopolitical Significance; The Conversation on transformed stature"
+    },
+    {
+      "insight": "These operations have helped shift Rwanda’s image from genocide-scarred to solution provider, appealing to global powers seeking reliable regional partners.",
+      "context": "Geopolitical Significance; The Conversation on image shift and partnerships"
+    },
+    {
+      "insight": "Rwanda’s valued peacekeeping role may contribute to increased financial support and reduced external scrutiny of its domestic governance, according to some analysts.",
+      "context": "Geopolitical Significance; The Conversation’s assessment of benefits"
+    },
+    {
+      "insight": "Rwanda’s assertive deployments have also fueled rivalries and suspicions, particularly with the DRC and Uganda, due to history of proxy conflicts.",
+      "context": "Geopolitical Significance; Africa Center references to regional tensions"
+    },
+    {
+      "insight": "Western countries and multilateral bodies increasingly view Rwanda as an exporter of security in Africa, enhancing Kagame’s stature with the West.",
+      "context": "Geopolitical Significance; Le Monde characterization"
+    },
+    {
+      "insight": "By intervening beyond its borders, Rwanda has reshaped regional power dynamics, gaining leverage and prestige disproportionate to its size while accruing new responsibilities and diplomatic risks.",
+      "context": "Geopolitical Significance; article’s concluding synthesis"
+    }
+  ],
+  "prompt": "Explores the roles and operations of the Rwanda Defence Force in regional conflicts and their geopolitical significance."
+}

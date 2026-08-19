@@ -1,0 +1,85 @@
+{
+  "dataset_id": 33,
+  "dataset_path": "data/notebooks/flag-33.json",
+  "metadata": {
+    "category": "Goal Management",
+    "dataset_description": "This dataset includes 500 entries simulating the ServiceNow `sn_gf_goal` table, which encompasses various attributes related to organizational objectives. These attributes cover goal status, responsible individuals, departmental association, start and end periods, and detailed descriptions. The dataset also includes metrics such as priority level, completion percentage, and target achievement rate. The primary focus is on monitoring and managing both departmental and individual objectives, providing insights into the effectiveness of these goals and their alignment with overall organizational strategies. Additionally, the dataset records updates to each objective, offering a historical log of changes and the identities of those responsible for these updates.",
+    "goal": "Examine the extended timelines of 'Cost Efficiency' objectives within the Finance department to identify root causes and propose strategies for improving the management of these objectives.",
+    "header": "Departmental Objective Monitoring and Evaluation (Flag 33)",
+    "role": "Strategic Objectives Analyst"
+  },
+  "predicted_insights": [
+    "The timelines are heavily skewed to annual-length efforts, with 58% lasting 181–365 days and only 3% exceeding a year, while virtually none are completed in under a month—suggesting most Finance cost-efficiency work is planned as ~1-year projects rather than short sprints or multi-year initiatives.",
+    "Of the 15 not-completed items, 12 (80%) are still “In Progress” while only 3 (6.7% of all) are Cancelled/Planned, suggesting the primary gap is delayed closure/administrative follow-through rather than performance shortfalls.",
+    "Low-priority Finance cost-efficiency objectives take 47 days longer than Critical and 63.5–68 days longer than High/Medium, indicating lower-priority work is disproportionately delayed—pointing to a backlog or resource allocation gap that targeted time-boxing or backlog sprints could address.",
+    "Despite a median duration of about 203 days and targets centered around 78.5%, the near-zero correlation (ρ≈0.10) shows that higher targets are not meaningfully linked to longer timelines, suggesting extended durations are driven by factors other than target stringency.",
+    "Higher priority does not equate to faster completion: Medium is the quickest on average, while Critical and High still take ~239.5 and ~230.2 days, and Low is the longest, creating a ~41.7-day gap between Low and Medium and a non-monotonic trend across priorities.",
+    "The top five average durations cluster tightly between 350–382 days (mean ≈ 363 days) and two exceed a full year (>365 days), indicating extended timelines are systemic across multiple owners rather than driven by a single outlier—suggesting cross-owner process improvements could yield broad cycle-time reductions.",
+    "Only 2 of 5 long-duration Finance cost-focused objectives achieved their goals (40% success, 60% not met), indicating that extended timelines may be associated with lower goal attainment and warrant tighter scoping, milestone gating, and risk management.",
+    "Four out of five long-running Finance cost-efficiency objectives remain open (80% In Progress) with none Cancelled or still Planned, indicating extended execution bottlenecks rather than pipeline or scoping issues and suggesting a need to tighten milestone management to drive closure.",
+    "The weak correlation (r ≈ 0.193; r² ≈ 3.7%) means target levels explain very little of the variation in timelines—among the 50 longest projects (200–382 days), targets range widely from 53% to 100%—so extended durations likely stem from other factors (e.g., priority, state, or scope) rather than target stringency.",
+    "Not-met Finance cost efficiency objectives were more than twice as common as met ones (104 vs 48) and concluded about 27 days sooner (~12% shorter), suggesting compressed timelines may be linked to lower success.",
+    "Finance cost-focused projects started in 2022Q3 took notably longer, averaging 31.9 days longer than 2022Q4 (~12.4% more) and 117.4 days longer than 2022Q1 (~68.0% more), indicating Q3 starts are associated with the longest timelines.",
+    "Although successful objectives take about 5.3 days longer on average, 64% (81/126) still failed to meet their goals, suggesting that simply extending timelines is not sufficient and that management should prioritize execution quality and risk mitigation over duration alone."
+  ],
+  "predicted_summary": "Timelines skew long: about 86% (131 of 152) of Finance cost-efficiency objectives run longer than 3 months, and roughly 58% (88 of 152) last 6–12 months; only 14% finish within 90 days. Low-priority items are the slowest (median 251 days; mean 253.9 days), compared with Medium (212.23), High (230.21), and Critical (239.54). Start timing also matters: objectives kicked off in 2022Q3 had the longest mean duration (~289.9 days).\nProgress and closure are frequently out of sync: one-third (33.33%, 15 of 45) of objectives that have reached or exceeded their target percentage are not marked Completed. Among the longest efforts (>365 days), 80% remain In Progress even though 40% have already met the goal. Across the broader cost-efficiency set, goal-met efforts take longer on average (230.10 vs 202.92 days, +27.18 days), while within just Cost Reduction/Efficiency categories the difference is small (238.98 vs 233.67 days, ~+5 days).\nDuration varies more by owner than by target difficulty: the five slowest owners average 350–382 days per objective (user052: 382; user005: 370; user063: 360; user044: 353; user053: 350), which is roughly 40%–80% longer than the Low-priority average (253.9 days) and up to ~1.8× the Medium-priority average (212.23 days). By contrast, target levels show little relationship to how long objectives take (very weak correlation: ~0.10–0.19).",
+  "score_insights": 0.4629405490942074,
+  "score_insights_dict": [
+    {
+      "gt_insight": "Finance department exhibits notably longer goal durations compared to other departments",
+      "pred_insight": "The timelines are heavily skewed to annual-length efforts, with 58% lasting 181–365 days and only 3% exceeding a year, while virtually none are completed in under a month—suggesting most Finance cost-efficiency work is planned as ~1-year projects rather than short sprints or multi-year initiatives.",
+      "score": 0.6923556327249578
+    },
+    {
+      "gt_insight": "The cost reduction goals dominate the goal types in the Finance department",
+      "pred_insight": "Not-met Finance cost efficiency objectives were more than twice as common as met ones (104 vs 48) and concluded about 27 days sooner (~12% shorter), suggesting compressed timelines may be linked to lower success.",
+      "score": 0.31865512300342386
+    },
+    {
+      "gt_insight": "Cost Reduction goals have the longest mean duration across all goal categories",
+      "pred_insight": "Finance cost-focused projects started in 2022Q3 took notably longer, averaging 31.9 days longer than 2022Q4 (~12.4% more) and 117.4 days longer than 2022Q1 (~68.0% more), indicating Q3 starts are associated with the longest timelines.",
+      "score": 0.4859187817583849
+    },
+    {
+      "gt_insight": "Keywords in task descriptions do not significantly impact target percentages",
+      "pred_insight": "The weak correlation (r ≈ 0.193; r² ≈ 3.7%) means target levels explain very little of the variation in timelines—among the 50 longest projects (200–382 days), targets range widely from 53% to 100%—so extended durations likely stem from other factors (e.g., priority, state, or scope) rather than target stringency.",
+      "score": 0.3246940527012804
+    },
+    {
+      "gt_insight": "Continued linear increase in the duration of 'Cost Reduction' goals across all departments",
+      "pred_insight": "Four out of five long-running Finance cost-efficiency objectives remain open (80% In Progress) with none Cancelled or still Planned, indicating extended execution bottlenecks rather than pipeline or scoping issues and suggesting a need to tighten milestone management to drive closure.",
+      "score": 0.4930791552829902
+    }
+  ],
+  "score_summary": 0.3712074286619453,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.496035682299953,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "The timelines are heavily skewed to annual-length efforts, with 58% lasting 181–365 days and only 3% exceeding a year, while virtually none are completed in under a month—suggesting most Finance cost-efficiency work is planned as ~1-year projects rather than short sprints or multi-year initiatives.",
+      "gt_insight": "Finance department exhibits notably longer goal durations compared to other departments",
+      "score": 0.7471633828783905
+    },
+    {
+      "pred_insight": "Four out of five long-running Finance cost-efficiency objectives remain open (80% In Progress) with none Cancelled or still Planned, indicating extended execution bottlenecks rather than pipeline or scoping issues and suggesting a need to tighten milestone management to drive closure.",
+      "gt_insight": "The cost reduction goals dominate the goal types in the Finance department",
+      "score": 0.30139397973436577
+    },
+    {
+      "pred_insight": "The timelines are heavily skewed to annual-length efforts, with 58% lasting 181–365 days and only 3% exceeding a year, while virtually none are completed in under a month—suggesting most Finance cost-efficiency work is planned as ~1-year projects rather than short sprints or multi-year initiatives.",
+      "gt_insight": "Cost Reduction goals have the longest mean duration across all goal categories",
+      "score": 0.5642012341136036
+    },
+    {
+      "pred_insight": "The weak correlation (r ≈ 0.193; r² ≈ 3.7%) means target levels explain very little of the variation in timelines—among the 50 longest projects (200–382 days), targets range widely from 53% to 100%—so extended durations likely stem from other factors (e.g., priority, state, or scope) rather than target stringency.",
+      "gt_insight": "Keywords in task descriptions do not significantly impact target percentages",
+      "score": 0.4911600594894433
+    },
+    {
+      "pred_insight": "Finance cost-focused projects started in 2022Q3 took notably longer, averaging 31.9 days longer than 2022Q4 (~12.4% more) and 117.4 days longer than 2022Q1 (~68.0% more), indicating Q3 starts are associated with the longest timelines.",
+      "gt_insight": "Continued linear increase in the duration of 'Cost Reduction' goals across all departments",
+      "score": 0.3762597552839618
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.456150865291338,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.48880271089654154
+}

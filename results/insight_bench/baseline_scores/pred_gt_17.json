@@ -1,0 +1,85 @@
+{
+  "dataset_id": 17,
+  "dataset_path": "data/notebooks/flag-17.json",
+  "metadata": {
+    "category": "Asset Management",
+    "dataset_description": "The dataset consists of 500 entries simulating ServiceNow alm_hardware table, detailing key attributes of hardware assets such as asset tags, display names, configuration item (CI) identifiers, serial numbers, and model categories. It includes information on asset assignment, last update timestamps, cost, departmental allocation, and warranty expiration dates. The table effectively captures asset management activities, offering insights into the operational handling, allocation, and maintenance status of hardware resources across various departments within an organization.",
+    "goal": "Analyze any uneven distribution and higher cost of assets in the certain department, with a particular focus on the HR department, to optimize asset management and enhance cost-effectiveness.",
+    "header": "Asset Cost Analysis by Department (Flag 17)",
+    "role": "Asset Manager"
+  },
+  "predicted_insights": [
+    "HR’s median asset cost (3925.0) is about 74% higher than Finance (the next highest at 2262.0) and roughly 155% higher than Sales (the lowest at 1541.0), indicating a notable concentration of higher-cost assets in HR that may warrant optimization.",
+    "HR’s share of above-90th-percentile assets is about 4.3 times higher than the 10% expected if costs were evenly distributed, signaling a concentration of high-cost items that could be targeted for optimization.",
+    "HR’s biggest divergence is in Servers (+$291.83), while Computers are cheaper (−$93.67) and Web Servers are at parity, indicating that focusing on HR’s server procurement could yield the most cost optimization impact.",
+    "Despite owning just 5.6% of assets, HR’s higher cost share implies its average asset costs about $4,872—roughly 2.29 times the company-wide average of $2,130—indicating a concentration of higher-priced equipment in HR.",
+    "Computers represent about 45% of HR’s total spend across these categories ($61,215 of $136,479), costing $21,215 more than Web Servers and $25,951 more than Servers, indicating Computer assets are the primary target for cost optimization in HR.",
+    "Asset costs in HR are highly concentrated: the top two assignees account for ~70.8% of HR’s total asset cost, and the top three account for ~94.8%, indicating uneven distribution and a potential optimization opportunity.",
+    "Despite representing only 5.6% of assets (28 of 500), HR accounts for about 12.8% of total asset spend, with HR assets costing ~2.29× more than the company average.",
+    "Servers in HR are about 2.7 times costlier on average than Computers (a ~$5,594 difference), indicating that focusing optimization efforts on server provisioning and lifecycle could yield substantially greater cost savings than tweaking end-user computer purchases.",
+    "HR holds 28 total assets, and 19 (68%) are concentrated with the top two assignees (Terrance and Reginald), while the top three hold 26 (93%), indicating a notably uneven distribution that may impact utilization and cost-effectiveness.",
+    "HR’s average asset cost is about 2.48 times higher than other departments, implying roughly $2,906.99 more spent per asset in HR, a gap that indicates a clear opportunity for cost optimization.",
+    "Despite the small overall average (+$23), model-level gaps are substantial—HR pays $2,267 more for \"Dell Inspiron 7000 Computer\" but $1,797 less for \"Dell PowerEdge R740 Server,\" highlighting uneven pricing across specific models.",
+    "HR’s assets are heavily skewed toward high-infrastructure categories—averaging about 69% across Server/Web Server—while being absent from peripherals, printers, storage, and racks; with asset costs ranging up to $11,475 (mean $2,130), this concentration likely elevates HR’s cost footprint and suggests a targeted review of server allocations."
+  ],
+  "predicted_summary": "HR is a clear outlier on asset costs: its average asset cost ($4,874) is more than double the company-wide average ($2,130) and 2.5× higher than non‑HR departments ($1,967). HR’s median cost ($3,925) is also the highest among departments (e.g., Finance $2,262; Development $1,900). Despite holding only 5.60% of assets, HR accounts for 12.81% of total asset spend (+7.21 percentage points), and 42.86% of HR’s assets are priced above the company-wide 90th percentile threshold ($4,590.4).\nHR’s cost profile is driven by owning most of the company’s highest-priced categories: it holds 66.67% of all Servers and 71.43% of all Web Servers, where HR’s average costs are $8,816 (Servers) and $8,000 (Web Servers), versus $3,222 for Computers. Within category, HR pays slightly more than the company average for Servers (+$291.83), the same for Web Servers, and slightly less for Computers (−$93.67). HR’s total spend is split roughly 45% Computers ($61,215), 29% Web Servers ($40,000), and 26% Servers ($35,264), indicating high spend concentrated in server-class assets and a mix skewed toward higher-cost categories rather than across-the-board higher unit prices.\nAsset cost and counts are concentrated among a few HR assignees: the top three (Terrance Nimmer $54,185 with 11 assets; Reginald Lunan $42,505 with 8; Stephen Seiters $32,716 with 7) hold 26 of 28 HR assets (93%) and $129,406 of $136,479 in HR asset value (95%). The only other HR assignee, Warren Speach, holds 2 assets totaling $7,073, underscoring a highly uneven distribution of both asset count and spend within the department.",
+  "score_insights": 0.6761615075074064,
+  "score_insights_dict": [
+    {
+      "gt_insight": "Significantly Higher Asset Costs in HR Department",
+      "pred_insight": "Despite representing only 5.6% of assets (28 of 500), HR accounts for about 12.8% of total asset spend, with HR assets costing ~2.29× more than the company average.",
+      "score": 0.8827876455343139
+    },
+    {
+      "gt_insight": "High Cost Contributions by Computers, Servers, and Web Servers in HR Department",
+      "pred_insight": "HR’s assets are heavily skewed toward high-infrastructure categories—averaging about 69% across Server/Web Server—while being absent from peripherals, printers, storage, and racks; with asset costs ranging up to $11,475 (mean $2,130), this concentration likely elevates HR’s cost footprint and suggests a targeted review of server allocations.",
+      "score": 0.7776349563847683
+    },
+    {
+      "gt_insight": "Concentration of High-End Assets in the HR Department Compared to Other Departments",
+      "pred_insight": "Despite owning just 5.6% of assets, HR’s higher cost share implies its average asset costs about $4,872—roughly 2.29 times the company-wide average of $2,130—indicating a concentration of higher-priced equipment in HR.",
+      "score": 0.8622523349503887
+    },
+    {
+      "gt_insight": "Weak Correlation Between Number of Users and High Cost of Computer Assets in HR Department",
+      "pred_insight": "Computers represent about 45% of HR’s total spend across these categories ($61,215 of $136,479), costing $21,215 more than Web Servers and $25,951 more than Servers, indicating Computer assets are the primary target for cost optimization in HR.",
+      "score": 0.3889976617763318
+    },
+    {
+      "gt_insight": "Excessive Number of Computers per User in HR Department",
+      "pred_insight": "HR’s median asset cost (3925.0) is about 74% higher than Finance (the next highest at 2262.0) and roughly 155% higher than Sales (the lowest at 1541.0), indicating a notable concentration of higher-cost assets in HR that may warrant optimization.",
+      "score": 0.4691349388912295
+    }
+  ],
+  "score_summary": 0.7347083361495026,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.7207148312902556,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "Despite owning just 5.6% of assets, HR’s higher cost share implies its average asset costs about $4,872—roughly 2.29 times the company-wide average of $2,130—indicating a concentration of higher-priced equipment in HR.",
+      "gt_insight": "Significantly Higher Asset Costs in HR Department",
+      "score": 0.8819608261884166
+    },
+    {
+      "pred_insight": "HR’s assets are heavily skewed toward high-infrastructure categories—averaging about 69% across Server/Web Server—while being absent from peripherals, printers, storage, and racks; with asset costs ranging up to $11,475 (mean $2,130), this concentration likely elevates HR’s cost footprint and suggests a targeted review of server allocations.",
+      "gt_insight": "High Cost Contributions by Computers, Servers, and Web Servers in HR Department",
+      "score": 0.8430752167965689
+    },
+    {
+      "pred_insight": "HR’s assets are heavily skewed toward high-infrastructure categories—averaging about 69% across Server/Web Server—while being absent from peripherals, printers, storage, and racks; with asset costs ranging up to $11,475 (mean $2,130), this concentration likely elevates HR’s cost footprint and suggests a targeted review of server allocations.",
+      "gt_insight": "Concentration of High-End Assets in the HR Department Compared to Other Departments",
+      "score": 0.8612717999599239
+    },
+    {
+      "pred_insight": "Despite representing only 5.6% of assets (28 of 500), HR accounts for about 12.8% of total asset spend, with HR assets costing ~2.29× more than the company average.",
+      "gt_insight": "Weak Correlation Between Number of Users and High Cost of Computer Assets in HR Department",
+      "score": 0.5646438407235727
+    },
+    {
+      "pred_insight": "HR’s biggest divergence is in Servers (+$291.83), while Computers are cheaper (−$93.67) and Web Servers are at parity, indicating that focusing on HR’s server procurement could yield the most cost optimization impact.",
+      "gt_insight": "Excessive Number of Computers per User in HR Department",
+      "score": 0.4526224727827956
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.14944059592206133,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.6063239811901522
+}

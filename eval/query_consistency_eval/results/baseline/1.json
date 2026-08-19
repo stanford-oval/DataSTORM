@@ -1,0 +1,151 @@
+{
+  "per_dimension": [
+    {
+      "dimension": "actor_entity",
+      "score": 0.0,
+      "num_concept_groups": 2,
+      "num_consistent_groups": 0,
+      "notes": "Two multi-query actor-matching concepts appear: (1) ELN identification; (2) FARC dissidents (EMC) mapping. They use different name/alias predicates across queries, leading to different row sets."
+    },
+    {
+      "dimension": "geography",
+      "score": 0.0,
+      "num_concept_groups": 2,
+      "num_consistent_groups": 0,
+      "notes": "Corridor regions are defined inconsistently (municipality subset vs entire departments). There are also diacritic (accent) inconsistencies for municipality names like Cúcuta that affect equality filters."
+    },
+    {
+      "dimension": "temporal",
+      "score": 0.667,
+      "num_concept_groups": 3,
+      "num_consistent_groups": 2,
+      "notes": "Most 2022–2024 and 2023–2024 windows are applied consistently. One ELN time window differs (2022-07-01 vs 2022-08-07) across queries."
+    },
+    {
+      "dimension": "event_taxonomy",
+      "score": 1.0,
+      "num_concept_groups": 2,
+      "num_consistent_groups": 2,
+      "notes": "Definitions for Explosions/Remote subtypes (IED, Shelling, Air/drone) and VAC Attack are consistently filtered where used."
+    },
+    {
+      "dimension": "counting_aggregation",
+      "score": 0.0,
+      "num_concept_groups": 1,
+      "num_consistent_groups": 0,
+      "notes": "Actor fatality attribution at municipality level uses incompatible methods across queries (single-side vs dual-side attribution), changing top-actor and shares."
+    },
+    {
+      "dimension": "population_scope",
+      "score": 0.0,
+      "num_concept_groups": 2,
+      "num_consistent_groups": 0,
+      "notes": "One 2024 lethality query omits the country filter entirely. Municipal concentration queries differ on including only political-violence disorder types vs all events."
+    }
+  ],
+  "conflicts": [
+    {
+      "dimension": "actor_entity",
+      "concept": "ELN actor matching in Colombia (2022–2024)",
+      "query_indices": [
+        13,
+        31
+      ],
+      "predicate_a": "Q13: (actor1 ILIKE '%ELN%' OR actor2 ILIKE '%ELN%' OR assoc_actor_1 ILIKE '%ELN%' OR assoc_actor_2 ILIKE '%ELN%')",
+      "predicate_b": "Q31: (actor1 ILIKE '%ELN%' OR actor2 ILIKE '%ELN%' OR assoc_actor_1 ILIKE '%ELN%' OR assoc_actor_2 ILIKE '%ELN%' OR actor1/2/assoc ILIKE '%Ejercito de Liberacion Nacional%' OR '%National Liberation Army%')",
+      "severity": "result-changing",
+      "explanation": "Q13 misses events labeled only with Spanish/English full names (without 'ELN' substring), while Q31 includes them. This changes ELN event totals and lethality metrics."
+    },
+    {
+      "dimension": "actor_entity",
+      "concept": "FARC dissidents (EMC) mapping",
+      "query_indices": [
+        12,
+        19
+      ],
+      "predicate_a": "Q12: CASE mapping to 'FARC-EMC' using ILIKEs for 'Estado Mayor Central', 'FARC-EMC', 'FARC EP (EMC)', 'EMC FARC', 'FARC%Estado Mayor Central%' plus NOT-exclusions (truncated).",
+      "predicate_b": "Q19: CASE mapping to 'FARC dissidents - EMC' using patterns like 'FARC dissidents: Estado Mayor Central%', '%Estado Mayor Central%', and named fronts (Dagoberto Ramos, Jaime Martínez, Carlos Patiño).",
+      "severity": "result-changing",
+      "explanation": "Different alias sets and pattern anchors mean some fronts/labels will be included in one mapping but not the other, altering counts attributed to EMC."
+    },
+    {
+      "dimension": "geography",
+      "concept": "Arauca–Norte de Santander corridor definition (2024)",
+      "query_indices": [
+        20,
+        21
+      ],
+      "predicate_a": "Q20: Corridor defined as specific border municipalities in Arauca and Norte de Santander (admin2 IN (...))",
+      "predicate_b": "Q21: Region defined by entire departments (admin1 IN ('Arauca','Norte de Santander'))",
+      "severity": "result-changing",
+      "explanation": "One includes only a subset of municipalities; the other includes all municipalities in the departments. Metrics are not comparable for the same corridor concept."
+    },
+    {
+      "dimension": "geography",
+      "concept": "Cúcuta municipality name normalization",
+      "query_indices": [
+        20,
+        22
+      ],
+      "predicate_a": "Q20: admin2 IN (..., 'Cúcuta', ...)",
+      "predicate_b": "Q22: Observed admin2 output uses 'Cucuta' (no accent)",
+      "severity": "result-changing",
+      "explanation": "String equality on admin2 with an accented form may fail to match rows when the dataset uses an unaccented form, excluding Cúcuta events from Q20’s corridor classification."
+    },
+    {
+      "dimension": "temporal",
+      "concept": "ELN time window start in mid-2022",
+      "query_indices": [
+        13,
+        31
+      ],
+      "predicate_a": "Q13: event_date BETWEEN '2022-07-01' AND '2024-12-31'",
+      "predicate_b": "Q31: event_date BETWEEN '2022-08-07' AND '2024-12-31'",
+      "severity": "result-changing",
+      "explanation": "Different start dates include/exclude several weeks of events; any trend or level comparisons will differ."
+    },
+    {
+      "dimension": "counting_aggregation",
+      "concept": "Top municipal actor by fatalities in 2024",
+      "query_indices": [
+        25,
+        26
+      ],
+      "predicate_a": "Q25: actor_long unions actor1 and actor2 and sums fatalities per actor (potentially attributing full fatalities to both sides).",
+      "predicate_b": "Q26: actor_attrib uses COALESCE(actor1, actor2) to choose a single actor per event for attribution.",
+      "severity": "result-changing",
+      "explanation": "These attribution schemes yield different top actors and different shares of municipal fatalities; Q25 may over-attribute by double counting fatalities."
+    },
+    {
+      "dimension": "population_scope",
+      "concept": "Country scope for 2024 lethality distribution",
+      "query_indices": [
+        4,
+        9
+      ],
+      "predicate_a": "Q4: WHERE year = 2024 AND event_type IN ('Battles','Explosions/Remote violence') (no country filter).",
+      "predicate_b": "Q9: WHERE country = 'Colombia' AND year = 2024 AND event_type = 'Battles' or 'Explosions/Remote violence'.",
+      "severity": "result-changing",
+      "explanation": "Q4 aggregates globally, not just Colombia, producing vastly different percentiles and top-shares; these cannot be compared to Colombia-only results elsewhere."
+    },
+    {
+      "dimension": "population_scope",
+      "concept": "Municipality base set for 2024 concentration metrics",
+      "query_indices": [
+        22,
+        23
+      ],
+      "predicate_a": "Q22: WHERE country='Colombia' AND year=2024 AND disorder_type IN ('Political violence','Political violence; Demonstrations')",
+      "predicate_b": "Q23: WHERE country='Colombia' AND year=2024 (no disorder_type filter)",
+      "severity": "result-changing",
+      "explanation": "Q23 may include non-political-violence event types, inflating totals and altering shares/HHI vs the political-violence-only scope in Q22."
+    }
+  ],
+  "overall_score": 0.278,
+  "summary": "The queries contain several result-changing inconsistencies, notably in actor matching (ELN and FARC-EMC aliases), corridor geography definitions (municipality subset vs whole departments and accent usage), differing ELN time windows, a missing country filter in a key 2024 lethality query, and incompatible actor-attribution methods at the municipality level. Event taxonomy filters are generally consistent, and most year-window filters align, but the above issues undermine cross-query comparability.",
+  "report_dir": "<repo>/datatalk/acled/1/Do_a_deep_research_on_Petro's_presidency_in_Columbia_and_Columbia's_conflict_summary_and_outlook,_as_if_we_a__20260323_173121",
+  "model": "gpt-5",
+  "num_queries": 34,
+  "applicable": true,
+  "id": 1
+}

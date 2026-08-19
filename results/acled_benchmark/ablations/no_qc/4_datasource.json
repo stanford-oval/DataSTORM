@@ -1,0 +1,232 @@
+{
+  "total_insights": 22,
+  "total_classified": 22,
+  "acled_count": 0,
+  "non_acled_count": 22,
+  "pct_acled": 0.0,
+  "details": [
+    {
+      "evidence": "Ukraine’s August 2024 Kursk incursion signaled a strategic pivot from retaking territory to disrupting Russian sustainment and operational tempo through cross-border actions.",
+      "is_acled_data": false,
+      "reasoning": "The statement is strategic analysis about the implications of a specific operation (the August 2024 Kursk incursion) and its signaling effect. It does not reference ACLED event counts, locations, fatalities, actor data, or trends, nor is it attributed to ACLED. It is general analytical commentary rather than specific ACLED-derived data.",
+      "source_context": "Key Findings; The Kursk Gambit section describing intent to force Russian reallocations and slow rhythm."
+    },
+    {
+      "evidence": "The Kursk operation combined short-range raids to create local buffers with deep-strike drones targeting logistics and military hubs, prioritizing sustainment degradation over holding ground.",
+      "is_acled_data": false,
+      "reasoning": "The statement is strategic/military analysis describing tactics and priorities (raids, deep-strike drones, sustainment degradation) without referencing specific event counts, locations, actors, or fatalities tied to ACLED data. It is general commentary, not clearly derived from ACLED event data or explicitly attributed to ACLED.",
+      "source_context": "The Kursk Gambit section detailing fused raids and deep strikes aimed at logistics."
+    },
+    {
+      "evidence": "Kyiv’s cross-border disruption forced Russia to divert troops and equipment to under-defended oblasts, complicating logistics and creating friction inside Russia.",
+      "is_acled_data": false,
+      "reasoning": "The statement is broad analytical commentary about strategic effects (troop diversion, logistics friction) without citing specific conflict events, counts, fatalities, locations, or ACLED-attributed data. It is not tied to ACLED event data or metrics.",
+      "source_context": "The Kursk Gambit discussion of widening battlespace and exploiting seams in under-defended regions."
+    },
+    {
+      "evidence": "The approach aimed to reduce shelling risk for Ukrainian border communities by creating narrow buffers while imposing shocks to routes, fuel flows, and security in Russian districts.",
+      "is_acled_data": false,
+      "reasoning": "This is strategic/policy analysis about buffer zones and disrupting routes and fuel flows, not specific event counts, fatalities, or actor-level incidents tied to ACLED. It lacks attribution to ACLED and does not reference concrete conflict event data.",
+      "source_context": "The Kursk Gambit explanation of local buffer effects and disruption inside Russia."
+    },
+    {
+      "evidence": "Ukraine demonstrated a repeatable method to pressure Moscow—forcing reallocations, fortification, and slower tempo—without overextending to hold exposed terrain.",
+      "is_acled_data": false,
+      "reasoning": "The statement is high-level strategic analysis about Ukraine’s operational approach and its effects on Russian decision-making and tempo. It does not cite specific conflict events, fatalities, locations, or ACLED-derived metrics; it’s commentary rather than event-based data tied to ACLED.",
+      "source_context": "The Kursk Gambit’s conclusion that the operation sought systemic pressure rather than durable control."
+    },
+    {
+      "evidence": "Ukraine’s disruption engine rests on scaled drone use and decentralized mission command, accelerating decision cycles and enabling rapid, opportunistic strikes.",
+      "is_acled_data": false,
+      "reasoning": "This is strategic/military analysis about Ukraine’s operational approach (drones, decentralized command, decision cycles) without citing specific conflict events, counts, locations, actors, or ACLED-derived metrics. It’s general commentary, not ACLED event data.",
+      "source_context": "The Engine of Disruption section highlighting drones plus mission command as intertwined changes."
+    },
+    {
+      "evidence": "Institutional reforms since 2015—professional NCO corps and improved C2—enable decentralized execution and synchronization across raids, EW, and deep strikes.",
+      "is_acled_data": false,
+      "reasoning": "This is analytical commentary about military institutional reforms and capabilities (NCO corps, C2, decentralized execution) rather than specific conflict event data, counts, locations, or actor/event statistics attributed to ACLED.",
+      "source_context": "The Engine of Disruption description of institutional mechanisms underpinning agility."
+    },
+    {
+      "evidence": "NATO-style training and interoperability allow dispersed Ukrainian teams to coordinate effects without holding terrain while higher echelons manage scarce assets.",
+      "is_acled_data": false,
+      "reasoning": "The statement is general operational/military analysis about Ukrainian training and interoperability, not specific conflict event data, counts, locations, fatalities, or actor/event descriptions attributed to ACLED.",
+      "source_context": "The Engine of Disruption discussion of NATO-enabled training and interoperability supporting decentralized operations."
+    },
+    {
+      "evidence": "Low-cost and long-range drones provide persistent friction on Russian logistics and air defenses, making the disruptive approach scalable and cost-effective.",
+      "is_acled_data": false,
+      "reasoning": "This is a general analytical statement about the effectiveness and scalability of low-cost, long-range drones on Russian logistics and air defenses. It does not cite specific conflict events, counts, locations, casualties, or actor-level data from ACLED, nor is it attributed to ACLED. It is commentary rather than ACLED-derived data.",
+      "source_context": "The Engine of Disruption explanation of drones enabling persistence and scalability."
+    },
+    {
+      "evidence": "Alliance backing—training pipelines, resilience programs, and political support—sustains Ukraine’s operational cadence more than singular summit breakthroughs.",
+      "is_acled_data": false,
+      "reasoning": "This is a general analytical statement about alliance support effects and operational cadence, not referencing specific conflict events, counts, fatalities, locations, or ACLED-derived trend data. It reads as policy/strategic commentary rather than ACLED event data.",
+      "source_context": "The Engine of Disruption noting alliance backing as sustaining cadence; Calibrated Leverage section reiteration."
+    },
+    {
+      "evidence": "Despite initial gains, Russia recaptured most Kursk-area terrain by late 2024; Ukraine retained about 197 of roughly 470 square miles, showing disruption does not guarantee durable control.",
+      "is_acled_data": false,
+      "reasoning": "The evidence discusses territorial control and square miles retained in the Kursk area, implying front-line/territorial control assessment rather than event-based counts or ACLED-derived metrics. ACLED does not provide territorial control extents; this appears to be analytical/territorial mapping data, not ACLED event data.",
+      "source_context": "Bounded Effects section with specific territorial retention figures."
+    },
+    {
+      "evidence": "The Kursk operation did not alter Kremlin objectives; Putin publicly reaffirmed unchanged war aims on December 19, indicating disruption alone did not force strategic revision.",
+      "is_acled_data": false,
+      "reasoning": "This is a policy/declarative statement analysis about Kremlin objectives and Putin’s remarks; it is not event-level conflict data, counts, fatalities, or actor/location data from ACLED.",
+      "source_context": "Bounded Effects reference to Putin’s December 19 press conference."
+    },
+    {
+      "evidence": "Entrenched fortifications and massed fires in occupied territories limited Ukraine’s ability to convert incursions into lasting gains, even as Russia paid a tempo and logistics tax.",
+      "is_acled_data": false,
+      "reasoning": "The statement is analytical commentary about tactics and operational effects (fortifications, massed fires, logistics tax) without referencing specific ACLED event data, counts, fatalities, or locations. It is not tied to ACLED-attributed metrics or event records.",
+      "source_context": "Bounded Effects analysis of fortified positions and reallocation impacts."
+    },
+    {
+      "evidence": "A practical boundary exists: Ukraine can degrade, delay, and divert; Russia can regroup and retake—arguing for disciplined disruption over attempts to hold exposed salients.",
+      "is_acled_data": false,
+      "reasoning": "This is strategic commentary about operational dynamics (“degrade, delay, divert” vs. “regroup and retake”) and recommendations, not specific event counts, fatalities, locations, or ACLED-attributed analyses. It is not tied to ACLED event data.",
+      "source_context": "Bounded Effects conclusion on the pragmatic boundary of effects."
+    },
+    {
+      "evidence": "Escalation ceilings are shaped by alliance politics, humanitarian access, and China’s economic buffering of Russia, constraining the scope of Ukrainian operations inside Russia.",
+      "is_acled_data": false,
+      "reasoning": "The statement is geopolitical analysis about alliance politics, humanitarian access, and China’s economic role shaping escalation thresholds. It does not reference specific conflict events, locations, fatalities, or actor/event data attributable to ACLED.",
+      "source_context": "Key Findings and Calibrated Leverage sections on political and economic limits."
+    },
+    {
+      "evidence": "China’s trade and energy ties cushion Russia against sanctions, reducing expectations that pressure alone will rapidly change Moscow’s strategy.",
+      "is_acled_data": false,
+      "reasoning": "This is a geopolitical/economic assessment about trade and sanctions, not tied to specific conflict events, actors, fatalities, or ACLED-derived metrics. It does not reference ACLED data or event-based analysis.",
+      "source_context": "Calibrated Leverage section discussing China’s economic buffering and diplomatic stance."
+    },
+    {
+      "evidence": "Maintaining humanitarian access and protecting civilians are essential to legitimacy and alliance cohesion, given 14.6 million Ukrainians needed aid in 2024.",
+      "is_acled_data": false,
+      "reasoning": "The evidence cites a humanitarian aid figure (14.6 million Ukrainians needing aid in 2024), which aligns with UN/OCHA-style humanitarian statistics, not ACLED’s event-based conflict data. It is general humanitarian context rather than ACLED-specific event counts, fatalities, or actor/activity data, and there is no explicit attribution to ACLED.",
+      "source_context": "Calibrated Leverage section citing humanitarian needs and operational implications."
+    },
+    {
+      "evidence": "Ukraine should coordinate operations to preserve winter assistance and critical infrastructure while communicating how cross-border actions minimize harm to aid operations.",
+      "is_acled_data": false,
+      "reasoning": "This is a policy recommendation/strategic guidance about coordinating operations and communications regarding cross-border actions and aid, not a reference to specific conflict events, counts, fatalities, locations, or actor-level data from ACLED.",
+      "source_context": "Calibrated Leverage guidance on humanitarian coordination and communication."
+    },
+    {
+      "evidence": "A 2025 playbook prioritizes deep-strike drones to draw down Russian air defenses, episodic raids to fix units and thicken border defenses, and information ops signaling restraint and costs.",
+      "is_acled_data": false,
+      "reasoning": "This is strategic/policy analysis about a proposed 2025 playbook (deep-strike drones, raids, information operations), not event-based metrics or actor/location data. It is not tied to ACLED event counts, fatalities, or geographic trends, nor attributed to ACLED.",
+      "source_context": "Calibrated Leverage prescriptions for 2025 operational rhythm."
+    },
+    {
+      "evidence": "Success metrics for 2025 include observable Russian reallocations, slower offensive tempo, redeployed air defenses away from fronts, preserved humanitarian access, and sustained alliance backing.",
+      "is_acled_data": false,
+      "reasoning": "The evidence lists qualitative success metrics (e.g., observing Russian reallocations, slower tempo, redeployed air defenses, humanitarian access, alliance backing). This is general strategic/analytical framing and not specific event counts, fatalities, locations, or actor/event data attributed to ACLED. No ACLED dataset or indicators are cited.",
+      "source_context": "Calibrated Leverage section defining measurable outcomes."
+    },
+    {
+      "evidence": "The strategic center of gravity is shifting from trenches to the systems and decisions sustaining Russia’s war effort—logistics, air defenses, and border security—via calibrated disruption.",
+      "is_acled_data": false,
+      "reasoning": "This is general strategic analysis about shifting centers of gravity and disruption of logistics/air defenses, not specific event counts, actor data, fatalities, or geographically coded incidents attributable to ACLED.",
+      "source_context": "Conclusion emphasizing focus on infrastructure and decision systems over territorial shifts."
+    },
+    {
+      "evidence": "Ukraine’s leverage in 2025 lies in disrupting more and holding less: repeatable drone strikes, decentralized teams, and targeted raids that slow Russia and divert assets from key fronts.",
+      "is_acled_data": false,
+      "reasoning": "The evidence is strategic analysis about Ukraine’s likely operational approach in 2025 (drones, decentralized teams, raids) rather than specific event counts, fatalities, locations, or actor-level event data. It is not attributed to ACLED nor grounded in ACLED-style metrics; it is general commentary/assessment.",
+      "source_context": "Conclusion restating the disruption-first model and its components."
+    }
+  ],
+  "insights": [
+    {
+      "insight": "Ukraine’s August 2024 Kursk incursion signaled a strategic pivot from retaking territory to disrupting Russian sustainment and operational tempo through cross-border actions.",
+      "context": "Key Findings; The Kursk Gambit section describing intent to force Russian reallocations and slow rhythm."
+    },
+    {
+      "insight": "The Kursk operation combined short-range raids to create local buffers with deep-strike drones targeting logistics and military hubs, prioritizing sustainment degradation over holding ground.",
+      "context": "The Kursk Gambit section detailing fused raids and deep strikes aimed at logistics."
+    },
+    {
+      "insight": "Kyiv’s cross-border disruption forced Russia to divert troops and equipment to under-defended oblasts, complicating logistics and creating friction inside Russia.",
+      "context": "The Kursk Gambit discussion of widening battlespace and exploiting seams in under-defended regions."
+    },
+    {
+      "insight": "The approach aimed to reduce shelling risk for Ukrainian border communities by creating narrow buffers while imposing shocks to routes, fuel flows, and security in Russian districts.",
+      "context": "The Kursk Gambit explanation of local buffer effects and disruption inside Russia."
+    },
+    {
+      "insight": "Ukraine demonstrated a repeatable method to pressure Moscow—forcing reallocations, fortification, and slower tempo—without overextending to hold exposed terrain.",
+      "context": "The Kursk Gambit’s conclusion that the operation sought systemic pressure rather than durable control."
+    },
+    {
+      "insight": "Ukraine’s disruption engine rests on scaled drone use and decentralized mission command, accelerating decision cycles and enabling rapid, opportunistic strikes.",
+      "context": "The Engine of Disruption section highlighting drones plus mission command as intertwined changes."
+    },
+    {
+      "insight": "Institutional reforms since 2015—professional NCO corps and improved C2—enable decentralized execution and synchronization across raids, EW, and deep strikes.",
+      "context": "The Engine of Disruption description of institutional mechanisms underpinning agility."
+    },
+    {
+      "insight": "NATO-style training and interoperability allow dispersed Ukrainian teams to coordinate effects without holding terrain while higher echelons manage scarce assets.",
+      "context": "The Engine of Disruption discussion of NATO-enabled training and interoperability supporting decentralized operations."
+    },
+    {
+      "insight": "Low-cost and long-range drones provide persistent friction on Russian logistics and air defenses, making the disruptive approach scalable and cost-effective.",
+      "context": "The Engine of Disruption explanation of drones enabling persistence and scalability."
+    },
+    {
+      "insight": "Alliance backing—training pipelines, resilience programs, and political support—sustains Ukraine’s operational cadence more than singular summit breakthroughs.",
+      "context": "The Engine of Disruption noting alliance backing as sustaining cadence; Calibrated Leverage section reiteration."
+    },
+    {
+      "insight": "Despite initial gains, Russia recaptured most Kursk-area terrain by late 2024; Ukraine retained about 197 of roughly 470 square miles, showing disruption does not guarantee durable control.",
+      "context": "Bounded Effects section with specific territorial retention figures."
+    },
+    {
+      "insight": "The Kursk operation did not alter Kremlin objectives; Putin publicly reaffirmed unchanged war aims on December 19, indicating disruption alone did not force strategic revision.",
+      "context": "Bounded Effects reference to Putin’s December 19 press conference."
+    },
+    {
+      "insight": "Entrenched fortifications and massed fires in occupied territories limited Ukraine’s ability to convert incursions into lasting gains, even as Russia paid a tempo and logistics tax.",
+      "context": "Bounded Effects analysis of fortified positions and reallocation impacts."
+    },
+    {
+      "insight": "A practical boundary exists: Ukraine can degrade, delay, and divert; Russia can regroup and retake—arguing for disciplined disruption over attempts to hold exposed salients.",
+      "context": "Bounded Effects conclusion on the pragmatic boundary of effects."
+    },
+    {
+      "insight": "Escalation ceilings are shaped by alliance politics, humanitarian access, and China’s economic buffering of Russia, constraining the scope of Ukrainian operations inside Russia.",
+      "context": "Key Findings and Calibrated Leverage sections on political and economic limits."
+    },
+    {
+      "insight": "China’s trade and energy ties cushion Russia against sanctions, reducing expectations that pressure alone will rapidly change Moscow’s strategy.",
+      "context": "Calibrated Leverage section discussing China’s economic buffering and diplomatic stance."
+    },
+    {
+      "insight": "Maintaining humanitarian access and protecting civilians are essential to legitimacy and alliance cohesion, given 14.6 million Ukrainians needed aid in 2024.",
+      "context": "Calibrated Leverage section citing humanitarian needs and operational implications."
+    },
+    {
+      "insight": "Ukraine should coordinate operations to preserve winter assistance and critical infrastructure while communicating how cross-border actions minimize harm to aid operations.",
+      "context": "Calibrated Leverage guidance on humanitarian coordination and communication."
+    },
+    {
+      "insight": "A 2025 playbook prioritizes deep-strike drones to draw down Russian air defenses, episodic raids to fix units and thicken border defenses, and information ops signaling restraint and costs.",
+      "context": "Calibrated Leverage prescriptions for 2025 operational rhythm."
+    },
+    {
+      "insight": "Success metrics for 2025 include observable Russian reallocations, slower offensive tempo, redeployed air defenses away from fronts, preserved humanitarian access, and sustained alliance backing.",
+      "context": "Calibrated Leverage section defining measurable outcomes."
+    },
+    {
+      "insight": "The strategic center of gravity is shifting from trenches to the systems and decisions sustaining Russia’s war effort—logistics, air defenses, and border security—via calibrated disruption.",
+      "context": "Conclusion emphasizing focus on infrastructure and decision systems over territorial shifts."
+    },
+    {
+      "insight": "Ukraine’s leverage in 2025 lies in disrupting more and holding less: repeatable drone strikes, decentralized teams, and targeted raids that slow Russia and divert assets from key fronts.",
+      "context": "Conclusion restating the disruption-first model and its components."
+    }
+  ],
+  "prompt": "Status of the Russian-Ukrainian conflict, as if we are at the end of 2024 heading into 2025."
+}

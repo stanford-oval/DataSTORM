@@ -1,0 +1,302 @@
+{
+  "total_insights": 29,
+  "total_classified": 29,
+  "acled_count": 0,
+  "non_acled_count": 29,
+  "pct_acled": 0.0,
+  "details": [
+    {
+      "evidence": "By late 2024, Russian forces occupied roughly 19% of Ukraine’s territory, including Crimea and large parts of Donetsk, Luhansk, Zaporizhzhia, and Kherson.",
+      "is_acled_data": false,
+      "reasoning": "The statement gives an overall territorial control/occupation percentage (about 19% of Ukraine) and lists regions held, which is a territorial control/occupation estimate rather than event-level conflict data. ACLED focuses on event-based data (incidents, fatalities, actor activity) and does not provide official territorial control percentages. Such figures typically come from other sources (think tanks, ISW, media, or government assessments). There is no explicit attribution to ACLED.",
+      "source_context": "Battlefield Situation and Territorial Control; territorial control estimates cited from Russia Matters and Security Council Report."
+    },
+    {
+      "evidence": "Ukraine’s 2024 counteroffensive produced only modest gains and no major breakthroughs; many gains were later reversed by Russian counterattacks.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical assessment about the effectiveness of Ukraine’s 2024 counteroffensive and subsequent Russian counterattacks, not a citation of specific ACLED event counts, locations, fatalities, or actor-level data explicitly attributed to ACLED.",
+      "source_context": "Battlefield Situation; analysis noting limited advances and reversals through late 2024."
+    },
+    {
+      "evidence": "By December 2024, Russia had reclaimed about half of the territory Ukraine captured during its late-summer 2024 operations.",
+      "is_acled_data": false,
+      "reasoning": "The statement concerns territorial control/recapture proportions, a strategic front-line/territory assessment rather than specific ACLED-style event data. ACLED tracks events, fatalities, and trends, not aggregate claims about percentages of territory reclaimed unless explicitly tied to ACLED analysis. No attribution to ACLED is provided.",
+      "source_context": "Battlefield Situation; Russia Matters report card December 11, 2024."
+    },
+    {
+      "evidence": "Net territorial changes in the second half of 2024 were minimal, with analyses noting no significant changes through November.",
+      "is_acled_data": false,
+      "reasoning": "The statement concerns territorial control/changes and overall front-line movement, which are not core ACLED metrics. ACLED focuses on event-based conflict data (incidents, fatalities, actors, locations), not territorial change assessments. The evidence is general analysis about territorial shifts without attribution to ACLED event data.",
+      "source_context": "Battlefield Situation; Russia Matters analysis of territorial shifts."
+    },
+    {
+      "evidence": "Russian troops captured Avdiivka in early 2024, marking Russia’s first significant offensive success since mid-2023.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general conflict narrative about a territorial capture and its significance, not presented as specific ACLED event data, counts, or ACLED-attributed analysis. It lacks explicit attribution to ACLED datasets or event records.",
+      "source_context": "Battlefield hotspots; Newsweek reporting on Avdiivka."
+    },
+    {
+      "evidence": "By year’s end 2024, both sides continued launching attacks with only incremental gains, reflecting a grinding stalemate.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general qualitative assessment of a stalemate with incremental gains and not tied to specific ACLED event counts, fatalities, locations, or explicit ACLED-derived trend analysis.",
+      "source_context": "Battlefield Situation; ongoing localized offensives and limited advances."
+    },
+    {
+      "evidence": "In December 2024, Russia claimed capture of small frontline towns Kurakhove (Donetsk) and Novodarivka (Zaporizhzhia), while Ukraine fortified defenses awaiting more advanced Western weapons.",
+      "is_acled_data": false,
+      "reasoning": "The statement summarizes claimed territorial captures and general defensive posture without citing event-level data, fatalities, or ACLED attribution. It reflects media/government claims and narrative analysis rather than specific ACLED-coded events or statistics.",
+      "source_context": "Battlefield Situation; Al Jazeera key events day 1014."
+    },
+    {
+      "evidence": "Estimated combined military casualties since the invasion reached about 1 million by late 2024: roughly 600,000 Russian and 400,000 Ukrainian soldiers killed or wounded.",
+      "is_acled_data": false,
+      "reasoning": "The claim provides aggregate, war-wide cumulative military casualty estimates (killed or wounded) by late 2024. ACLED tracks event-level incidents and reports fatalities, primarily focusing on reported deaths, not comprehensive wounded counts or combined military casualty estimates. Such large-scale cumulative casualty figures typically come from governmental, media, or think-tank estimates rather than ACLED event data. There is no explicit attribution to ACLED.",
+      "source_context": "Military Casualties; Russia Matters and Al Jazeera casualty estimates."
+    },
+    {
+      "evidence": "2024 was likely the deadliest year of the war, with Russia’s average daily casualties rising to roughly 913 per day in early 2024.",
+      "is_acled_data": false,
+      "reasoning": "The statement provides average daily Russian casualty figures and labels 2024 as the deadliest year. While ACLED tracks event counts and fatalities from specific conflict events, it does not typically report national military casualty averages like “913 per day” for a specific side in this war. Such figures are more often from government, think-tank, or media estimates rather than ACLED’s event-based fatality data, and no attribution to ACLED is given.",
+      "source_context": "Military Casualties; UK defence officials via Newsweek."
+    },
+    {
+      "evidence": "Major battles such as Avdiivka significantly contributed to rising casualty rates and were described as a “meat grinder.”",
+      "is_acled_data": false,
+      "reasoning": "The statement is a qualitative characterization of battles and casualty trends (e.g., calling Avdiivka a 'meat grinder') without citing specific ACLED event counts, fatalities, locations, or ACLED attribution. It reads as general commentary rather than ACLED-derived data.",
+      "source_context": "Military Casualties; Newsweek reporting on Avdiivka."
+    },
+    {
+      "evidence": "By mid-2024, over 12,000 Ukrainian civilians, including more than 550 children, had been killed, with numbers continuing to rise due to ongoing strikes.",
+      "is_acled_data": false,
+      "reasoning": "The statement provides aggregate civilian fatality figures (total civilians and children killed) framed as humanitarian casualty totals by mid-2024. While ACLED reports event-based fatalities and violence against civilians, child-specific counts and national cumulative civilian death tallies are typically attributed to UN agencies or other humanitarian sources unless explicitly cited as ACLED. The evidence lacks explicit ACLED attribution and resembles humanitarian aggregate statistics rather than event-level ACLED data.",
+      "source_context": "Civilian impact; Al Jazeera wartime deaths reporting."
+    },
+    {
+      "evidence": "Ukraine experienced severe demographic stress in early 2024, with deaths outnumbering births by a factor of three due to war-related mortality and displacement.",
+      "is_acled_data": false,
+      "reasoning": "The claim concerns national demographic trends (births vs. deaths) and war-related mortality/displacement, which fall under demographic/humanitarian statistics rather than specific conflict event data or ACLED-derived metrics. ACLED does not provide birth/death ratios or population demographics.",
+      "source_context": "Demographic impact; Al Jazeera report on deaths and births."
+    },
+    {
+      "evidence": "As of late 2024, approximately 10 million Ukrainians—over 20% of the pre-war population—were displaced as refugees or internal evacuees.",
+      "is_acled_data": false,
+      "reasoning": "The evidence cites overall displacement/refugee figures, which are typically from humanitarian sources like UNHCR/OCHA, not ACLED’s event-based conflict data. ACLED does not provide nationwide displacement totals unless explicitly attributed, so this is not ACLED-derived.",
+      "source_context": "Displacement; Russia Matters report card."
+    },
+    {
+      "evidence": "About 64% of Ukraine’s electricity generating capacity (36 out of 56 GW) was destroyed or occupied by winter 2024, causing widespread blackouts.",
+      "is_acled_data": false,
+      "reasoning": "The statement concerns national electricity generation capacity destroyed or occupied and resulting blackouts—an infrastructure/energy sector assessment rather than specific conflict event records. ACLED focuses on event-level conflict data (battles, incidents, fatalities, locations) and conflict indices; it does not provide national capacity percentages of power generation. This metric is more aligned with energy infrastructure reporting or humanitarian/economic assessments, not ACLED.",
+      "source_context": "Infrastructure destruction; Russia Matters report card."
+    },
+    {
+      "evidence": "Whole towns and cities in combat zones, including Mariupol and Bakhmut, suffered extensive destruction, escalating rebuilding costs.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general assessment about destruction and rebuilding costs in cities like Mariupol and Bakhmut. It does not reference specific ACLED event data, counts, fatalities, locations, or actor-level details, nor is it attributed to ACLED. This is broader war-impact commentary rather than ACLED-derived metrics.",
+      "source_context": "Infrastructure damage; generalized assessment within Military Destruction section."
+    },
+    {
+      "evidence": "NATO countries provided Ukraine with advanced weaponry in 2024, including modern tanks, air defenses, long-range missiles, and plans to train pilots on Western jets.",
+      "is_acled_data": false,
+      "reasoning": "The statement concerns NATO military aid and training plans—policy and diplomatic actions—not specific conflict event data, fatalities, locations, or actor-level events tracked by ACLED. It is general geopolitical analysis rather than ACLED-attributed event metrics.",
+      "source_context": "International Support; overview of aid provided."
+    },
+    {
+      "evidence": "Ukrainian leadership urged accelerated Western arms deliveries in December 2024 to counter Russia’s offensive potential.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a policy/political declaration about Ukrainian leadership urging faster Western arms deliveries. It is not an event count, battle/fatality data, or actor/event record from ACLED, nor is it attributed to ACLED. It falls under policy statements/government declarations, which are not ACLED data.",
+      "source_context": "International Support; Zelenskyy’s December address cited by Al Jazeera."
+    },
+    {
+      "evidence": "Individual allies, such as Italy, announced additional late-2024 military aid packages, signaling continued support.",
+      "is_acled_data": false,
+      "reasoning": "The statement concerns policy announcements of military aid by a government (Italy) and general support signals, which are policy/diplomatic actions rather than conflict event data. ACLED focuses on coded conflict events, fatalities, locations, and actor activities; aid package announcements are not ACLED-derived unless explicitly tied to ACLED data, which this is not.",
+      "source_context": "International Support; Al Jazeera reporting on aid announcements."
+    },
+    {
+      "evidence": "Political shifts created uncertainty: Donald Trump’s re-election in November 2024 raised concerns in Kyiv about potential changes to U.S. support.",
+      "is_acled_data": false,
+      "reasoning": "The statement concerns a political development (a U.S. election outcome) and its implications for policy support, which falls under geopolitical analysis and policy shifts rather than specific conflict event data or ACLED-derived metrics.",
+      "source_context": "Political Developments; Security Council Report on U.S. election impact."
+    },
+    {
+      "evidence": "Trump signaled ambivalence about the scope of U.S. military aid and suggested brokering a quick deal with Moscow, increasing anxiety over future support flows.",
+      "is_acled_data": false,
+      "reasoning": "The statement concerns a political figure’s policy posture and its implications for future aid, which is a policy/diplomatic commentary rather than event-based conflict data. It is not tied to ACLED’s event counts, fatalities, locations, or actor-level event records, nor is it attributed to ACLED.",
+      "source_context": "Political Developments; Security Council Report on statements and policy outlook."
+    },
+    {
+      "evidence": "Some NATO members delayed concrete steps toward Ukraine’s membership pending clarity from the incoming U.S. administration, despite reaffirming eventual accession in principle.",
+      "is_acled_data": false,
+      "reasoning": "The evidence concerns NATO members’ policy posture and Ukraine’s membership prospects—diplomatic and political statements—not conflict event data or metrics. ACLED focuses on event-level conflict data (battles, protests, fatalities, locations), not alliance membership decisions or diplomatic delays.",
+      "source_context": "Political Developments; Al Jazeera reporting on NATO stance."
+    },
+    {
+      "evidence": "Ukraine insisted it seeks nothing less than eventual NATO membership as its primary security guarantee.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a policy position about NATO membership and security guarantees, which falls under diplomatic/political declarations rather than conflict event data or metrics tracked by ACLED.",
+      "source_context": "Political Developments; Al Jazeera reporting on Ukraine’s position."
+    },
+    {
+      "evidence": "Peace efforts were stalled in late 2024, with no serious negotiations due to fundamentally opposing positions on territorial control.",
+      "is_acled_data": false,
+      "reasoning": "The statement describes general diplomatic dynamics and lack of negotiations, which is a geopolitical assessment rather than specific conflict event data or metrics that ACLED provides. It is not tied to ACLED event counts, locations, actor data, or ACLED-indexed trends.",
+      "source_context": "Diplomatic status; Security Council Report on negotiation stances."
+    },
+    {
+      "evidence": "Ukraine and its allies demanded full Russian withdrawal for a ‘just peace,’ while Russia insisted any settlement reflect current territorial realities.",
+      "is_acled_data": false,
+      "reasoning": "The evidence describes diplomatic positions and policy demands (peace terms) by Ukraine and Russia, which are policy statements, not event counts or armed conflict data. This falls under general geopolitical/diplomatic statements, not ACLED event data.",
+      "source_context": "Diplomatic status; Security Council Report on positions."
+    },
+    {
+      "evidence": "Calls for an immediate ceasefire would effectively freeze front lines and leave Russia in control of occupied areas, an outcome unacceptable to Kyiv.",
+      "is_acled_data": false,
+      "reasoning": "This is a policy/strategic assessment about ceasefire implications and territorial control acceptability to Kyiv, not specific event data, fatalities, locations, or actor-level statistics from ACLED.",
+      "source_context": "Diplomatic status; Security Council Report on ceasefire implications."
+    },
+    {
+      "evidence": "International statements, such as the November G20 declaration, expressed broad rhetorical support for a comprehensive, just, and durable peace, but no concrete process emerged by year’s end.",
+      "is_acled_data": false,
+      "reasoning": "The evidence references international diplomatic statements (e.g., a G20 declaration) and lack of a peace process, which are policy/diplomatic actions rather than conflict event data or ACLED-derived metrics.",
+      "source_context": "Diplomatic status; Security Council Report on G20 declaration and lack of process."
+    },
+    {
+      "evidence": "Entering 2025, the conflict remained a military and political stalemate with mounting human costs and little sign of abatement.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a broad qualitative assessment of a stalemate and rising human costs without citing specific event counts, fatalities, locations, actor data, or ACLED attribution. It is general geopolitical commentary, not tied to ACLED event data or metrics.",
+      "source_context": "Outlook; summary of end-2024 conditions."
+    },
+    {
+      "evidence": "Continuation of hostilities into 2025 was likely absent a major battlefield or political shift, with Ukraine reliant on sustained Western aid and Russia committed to attrition despite costs.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a broad geopolitical assessment about likely continuation of hostilities and reliance on aid, not citing specific ACLED event data, counts, fatalities, locations, or ACLED-derived trends. It is general analysis rather than ACLED-attributed metrics.",
+      "source_context": "Outlook; assessment of dependency on aid and Russia’s strategy."
+    },
+    {
+      "evidence": "By year’s end 2024, the war had become a protracted struggle with global hopes focused on a ‘durable and just’ peace, but realities on the ground pointed to entrenched confrontation.",
+      "is_acled_data": false,
+      "reasoning": "The evidence is a general geopolitical assessment about the war’s protracted nature and hopes for peace, without citing specific event counts, fatalities, locations, actor data, or explicit ACLED attribution. It is commentary, not derived from ACLED event data.",
+      "source_context": "Outlook; Security Council Report concluding assessment."
+    }
+  ],
+  "insights": [
+    {
+      "insight": "By late 2024, Russian forces occupied roughly 19% of Ukraine’s territory, including Crimea and large parts of Donetsk, Luhansk, Zaporizhzhia, and Kherson.",
+      "context": "Battlefield Situation and Territorial Control; territorial control estimates cited from Russia Matters and Security Council Report."
+    },
+    {
+      "insight": "Ukraine’s 2024 counteroffensive produced only modest gains and no major breakthroughs; many gains were later reversed by Russian counterattacks.",
+      "context": "Battlefield Situation; analysis noting limited advances and reversals through late 2024."
+    },
+    {
+      "insight": "By December 2024, Russia had reclaimed about half of the territory Ukraine captured during its late-summer 2024 operations.",
+      "context": "Battlefield Situation; Russia Matters report card December 11, 2024."
+    },
+    {
+      "insight": "Net territorial changes in the second half of 2024 were minimal, with analyses noting no significant changes through November.",
+      "context": "Battlefield Situation; Russia Matters analysis of territorial shifts."
+    },
+    {
+      "insight": "Russian troops captured Avdiivka in early 2024, marking Russia’s first significant offensive success since mid-2023.",
+      "context": "Battlefield hotspots; Newsweek reporting on Avdiivka."
+    },
+    {
+      "insight": "By year’s end 2024, both sides continued launching attacks with only incremental gains, reflecting a grinding stalemate.",
+      "context": "Battlefield Situation; ongoing localized offensives and limited advances."
+    },
+    {
+      "insight": "In December 2024, Russia claimed capture of small frontline towns Kurakhove (Donetsk) and Novodarivka (Zaporizhzhia), while Ukraine fortified defenses awaiting more advanced Western weapons.",
+      "context": "Battlefield Situation; Al Jazeera key events day 1014."
+    },
+    {
+      "insight": "Estimated combined military casualties since the invasion reached about 1 million by late 2024: roughly 600,000 Russian and 400,000 Ukrainian soldiers killed or wounded.",
+      "context": "Military Casualties; Russia Matters and Al Jazeera casualty estimates."
+    },
+    {
+      "insight": "2024 was likely the deadliest year of the war, with Russia’s average daily casualties rising to roughly 913 per day in early 2024.",
+      "context": "Military Casualties; UK defence officials via Newsweek."
+    },
+    {
+      "insight": "Major battles such as Avdiivka significantly contributed to rising casualty rates and were described as a “meat grinder.”",
+      "context": "Military Casualties; Newsweek reporting on Avdiivka."
+    },
+    {
+      "insight": "By mid-2024, over 12,000 Ukrainian civilians, including more than 550 children, had been killed, with numbers continuing to rise due to ongoing strikes.",
+      "context": "Civilian impact; Al Jazeera wartime deaths reporting."
+    },
+    {
+      "insight": "Ukraine experienced severe demographic stress in early 2024, with deaths outnumbering births by a factor of three due to war-related mortality and displacement.",
+      "context": "Demographic impact; Al Jazeera report on deaths and births."
+    },
+    {
+      "insight": "As of late 2024, approximately 10 million Ukrainians—over 20% of the pre-war population—were displaced as refugees or internal evacuees.",
+      "context": "Displacement; Russia Matters report card."
+    },
+    {
+      "insight": "About 64% of Ukraine’s electricity generating capacity (36 out of 56 GW) was destroyed or occupied by winter 2024, causing widespread blackouts.",
+      "context": "Infrastructure destruction; Russia Matters report card."
+    },
+    {
+      "insight": "Whole towns and cities in combat zones, including Mariupol and Bakhmut, suffered extensive destruction, escalating rebuilding costs.",
+      "context": "Infrastructure damage; generalized assessment within Military Destruction section."
+    },
+    {
+      "insight": "NATO countries provided Ukraine with advanced weaponry in 2024, including modern tanks, air defenses, long-range missiles, and plans to train pilots on Western jets.",
+      "context": "International Support; overview of aid provided."
+    },
+    {
+      "insight": "Ukrainian leadership urged accelerated Western arms deliveries in December 2024 to counter Russia’s offensive potential.",
+      "context": "International Support; Zelenskyy’s December address cited by Al Jazeera."
+    },
+    {
+      "insight": "Individual allies, such as Italy, announced additional late-2024 military aid packages, signaling continued support.",
+      "context": "International Support; Al Jazeera reporting on aid announcements."
+    },
+    {
+      "insight": "Political shifts created uncertainty: Donald Trump’s re-election in November 2024 raised concerns in Kyiv about potential changes to U.S. support.",
+      "context": "Political Developments; Security Council Report on U.S. election impact."
+    },
+    {
+      "insight": "Trump signaled ambivalence about the scope of U.S. military aid and suggested brokering a quick deal with Moscow, increasing anxiety over future support flows.",
+      "context": "Political Developments; Security Council Report on statements and policy outlook."
+    },
+    {
+      "insight": "Some NATO members delayed concrete steps toward Ukraine’s membership pending clarity from the incoming U.S. administration, despite reaffirming eventual accession in principle.",
+      "context": "Political Developments; Al Jazeera reporting on NATO stance."
+    },
+    {
+      "insight": "Ukraine insisted it seeks nothing less than eventual NATO membership as its primary security guarantee.",
+      "context": "Political Developments; Al Jazeera reporting on Ukraine’s position."
+    },
+    {
+      "insight": "Peace efforts were stalled in late 2024, with no serious negotiations due to fundamentally opposing positions on territorial control.",
+      "context": "Diplomatic status; Security Council Report on negotiation stances."
+    },
+    {
+      "insight": "Ukraine and its allies demanded full Russian withdrawal for a ‘just peace,’ while Russia insisted any settlement reflect current territorial realities.",
+      "context": "Diplomatic status; Security Council Report on positions."
+    },
+    {
+      "insight": "Calls for an immediate ceasefire would effectively freeze front lines and leave Russia in control of occupied areas, an outcome unacceptable to Kyiv.",
+      "context": "Diplomatic status; Security Council Report on ceasefire implications."
+    },
+    {
+      "insight": "International statements, such as the November G20 declaration, expressed broad rhetorical support for a comprehensive, just, and durable peace, but no concrete process emerged by year’s end.",
+      "context": "Diplomatic status; Security Council Report on G20 declaration and lack of process."
+    },
+    {
+      "insight": "Entering 2025, the conflict remained a military and political stalemate with mounting human costs and little sign of abatement.",
+      "context": "Outlook; summary of end-2024 conditions."
+    },
+    {
+      "insight": "Continuation of hostilities into 2025 was likely absent a major battlefield or political shift, with Ukraine reliant on sustained Western aid and Russia committed to attrition despite costs.",
+      "context": "Outlook; assessment of dependency on aid and Russia’s strategy."
+    },
+    {
+      "insight": "By year’s end 2024, the war had become a protracted struggle with global hopes focused on a ‘durable and just’ peace, but realities on the ground pointed to entrenched confrontation.",
+      "context": "Outlook; Security Council Report concluding assessment."
+    }
+  ],
+  "prompt": "Status of the Russian-Ukrainian conflict, as if we are at the end of 2024 heading into 2025."
+}

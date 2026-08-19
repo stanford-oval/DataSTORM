@@ -1,0 +1,188 @@
+{
+  "prompt": "Status of the Russian-Ukrainian conflict, as if we are at the end of 2024 heading into 2025.",
+  "criteria": [
+    {
+      "name": "Shifts in Battlefield Momentum",
+      "description": "Assess which side holds the initiative, how frontlines are moving, and whether operations reflect a sustained attritional push or periods of stalemate and localized breakthroughs."
+    },
+    {
+      "name": "Force Generation Capacity",
+      "description": "Evaluate both sides’ ability to recruit, mobilize, and retain personnel, including indicators of recruitment incentives, coercive measures, and strain on available manpower."
+    },
+    {
+      "name": "Equipment and Industrial Sustainment",
+      "description": "Examine the replenishment of armored vehicles, artillery, drones, and missiles through domestic production, refurbishment of older stocks, and external sourcing, and whether loss rates outpace resupply."
+    },
+    {
+      "name": "Airpower and Air Defense Balance",
+      "description": "Analyze the evolving advantage in the air, including the effectiveness of air defenses, the intensity of drone and missile campaigns, and the impact of stand-off munitions on frontline and urban targets."
+    },
+    {
+      "name": "Energy Infrastructure Targeting",
+      "description": "Track patterns of strikes on power generation and distribution, their impact on civilian resilience and industrial output, and how seasons or resource constraints influence targeting strategies."
+    },
+    {
+      "name": "Cross-Border Strike Dynamics",
+      "description": "Assess the scope and frequency of long-range strikes beyond the frontline, the types of targets selected, and how policy constraints or authorizations affect escalation and deterrence."
+    },
+    {
+      "name": "External Aid and Policy Shifts",
+      "description": "Monitor changes in foreign military and financial assistance, legal or political restrictions on weapons use, and how allied rearmament priorities affect support timelines and volumes."
+    },
+    {
+      "name": "Negotiation Prospects and Preconditions",
+      "description": "Identify signals regarding potential talks, including maximalist demands, ceasefire preconditions, and whether battlefield pressure is used to shape bargaining positions."
+    },
+    {
+      "name": "Domestic Political Will and Morale",
+      "description": "Evaluate societal tolerance for casualties and economic costs, elite cohesion, propaganda narratives, and how battlefield outcomes influence public support on each side and among allies."
+    },
+    {
+      "name": "Regional Spillover and Buffer Tactics",
+      "description": "Analyze attempts to create buffer zones or cross-border incursions aimed at reducing enemy strike capacity, and the consequent redistribution of forces along the front."
+    },
+    {
+      "name": "Winter Warfare and Seasonality Effects",
+      "description": "Assess how weather and terrain conditions alter operational tempo, logistics, and targeting priorities, especially regarding energy systems and urban centers."
+    },
+    {
+      "name": "Sanctions and War Economy Adaptation",
+      "description": "Examine how sanctions, shadow supply chains, and commodity revenues shape each side’s ability to finance and equip the war effort over time."
+    },
+    {
+      "name": "Humanitarian Impact and Displacement",
+      "description": "Track trends in civilian exposure to violence, infrastructure disruption, displacement flows, and the adequacy of mitigation measures and social services."
+    },
+    {
+      "name": "Defense-in-Depth and Fortification Quality",
+      "description": "Assess the robustness of defensive lines, the transition to new positions after losses, and vulnerability to stand-off bombardment and combined-arms assaults."
+    },
+    {
+      "name": "Escalation Risks and Nuclear Signaling",
+      "description": "Monitor rhetoric and posture related to strategic weapons, thresholds that could trigger broader escalation, and how such signaling influences allied policy."
+    },
+    {
+      "name": "Drone and Counter-Drone Innovation",
+      "description": "Evaluate the pace of unmanned systems development, electronic warfare adaptations, and shifting cost-exchange ratios in the air and on the front."
+    },
+    {
+      "name": "Logistics and Sustainment Lines",
+      "description": "Analyze the security of supply routes and hubs, interdiction efforts, and how strikes on transportation and depots affect operational reach."
+    },
+    {
+      "name": "Allied Cohesion and Burden-Sharing",
+      "description": "Assess unity among supporting states, divergence in threat perceptions, and the balance between assisting the conflict and rearming domestically."
+    },
+    {
+      "name": "Prospects for Breakthrough vs. Attrition",
+      "description": "Judge whether either side can mass sufficient capability for a decisive breach, or if trends point to continued grinding attrition with incremental territorial changes."
+    },
+    {
+      "name": "Civil Defense and Resilience Measures",
+      "description": "Examine adaptation to sustained strikes—air raid protection, grid hardening, dispersal of industry—and their effectiveness in reducing damage and maintaining functionality."
+    }
+  ],
+  "criterion_scores": [
+    {
+      "name": "Shifts in Battlefield Momentum",
+      "score": 0.75,
+      "explanation": "The article discusses the Kursk incursion, Russia regaining terrain, and a shift from territorial recapture to disruption, implying tempo changes and localized effects. It characterizes 2024 as disruption vs. holding ground and mentions Russia’s recapture and fortified lines. However, it provides limited granular coverage of broader frontline movements elsewhere and does not comprehensively chart initiative across the entire theater."
+    },
+    {
+      "name": "Force Generation Capacity",
+      "score": 0.25,
+      "explanation": "There is minimal discussion of recruitment, mobilization, or retention on either side. The piece touches on Russia reallocating forces and Ukraine using decentralized teams, but does not assess manpower policies, draft measures, incentives, or strain on personnel."
+    },
+    {
+      "name": "Equipment and Industrial Sustainment",
+      "score": 0.5,
+      "explanation": "It addresses drones at scale, NATO-enabled sustainment of capabilities, and China cushioning Russia’s economy, hinting at industrial sustainment. However, it lacks detail on armored vehicles, artillery, missiles, refurbishment of stocks, and whether loss rates outpace resupply."
+    },
+    {
+      "name": "Airpower and Air Defense Balance",
+      "score": 0.5,
+      "explanation": "The article references pulling Russian air defenses off the front, deep-strike drones, and stand-off effects, but does not fully analyze air superiority, air defense effectiveness metrics, sortie rates, missile/drone campaign intensity, or impact on urban/frontline targets in depth."
+    },
+    {
+      "name": "Energy Infrastructure Targeting",
+      "score": 0.25,
+      "explanation": "Energy infrastructure is only implicitly referenced via protecting critical infrastructure and winterization. It lacks a concrete assessment of strike patterns on power generation/distribution or their seasonal effects."
+    },
+    {
+      "name": "Cross-Border Strike Dynamics",
+      "score": 1.0,
+      "explanation": "This is the core focus. It thoroughly analyzes Ukrainian incursions into Kursk, deep-strike drones, objectives (disruption, forcing reallocations), bounded territorial effects, and escalation ceilings/policy constraints."
+    },
+    {
+      "name": "External Aid and Policy Shifts",
+      "score": 0.75,
+      "explanation": "The article discusses NATO training pipelines, resilience programs, political support, need for target discipline, and constraints, as well as China’s economic buffering. It stops short of detailing specific aid volumes, timelines, or legal restrictions on weapons use."
+    },
+    {
+      "name": "Negotiation Prospects and Preconditions",
+      "score": 0.5,
+      "explanation": "It notes unchanged Russian war aims and advocates calibrated actions to maintain political space but provides limited discussion of concrete negotiation signals, preconditions, or diplomatic channels."
+    },
+    {
+      "name": "Domestic Political Will and Morale",
+      "score": 0.25,
+      "explanation": "Mentions humanitarian needs and alliance cohesion but does not assess public tolerance for casualties, morale, elite cohesion, or propaganda narratives in depth."
+    },
+    {
+      "name": "Regional Spillover and Buffer Tactics",
+      "score": 0.75,
+      "explanation": "Covers creation of local buffers via raids, cross-border incursions aimed at reducing enemy strike capacity, and Russian force reallocations. Lacks broader regional spillover analysis beyond Kursk and immediate border oblast dynamics."
+    },
+    {
+      "name": "Winter Warfare and Seasonality Effects",
+      "score": 0.5,
+      "explanation": "Touches on winterization, humanitarian access, and season-linked considerations, but does not analyze operational tempo changes, logistics challenges, or specific winter targeting priorities in detail."
+    },
+    {
+      "name": "Sanctions and War Economy Adaptation",
+      "score": 0.5,
+      "explanation": "References China cushioning Russia and sanctions resilience, but provides limited detail on shadow supply chains, commodity revenues, or Ukraine’s war economy adaptations."
+    },
+    {
+      "name": "Humanitarian Impact and Displacement",
+      "score": 0.5,
+      "explanation": "Cites 14.6 million in need and discusses preserving aid corridors and civilian protections, but lacks detailed trends in displacement flows, infrastructure disruption metrics, or adequacy of social services."
+    },
+    {
+      "name": "Defense-in-Depth and Fortification Quality",
+      "score": 0.5,
+      "explanation": "Mentions entrenched fortifications constraining gains and Russia thickening defenses. However, it does not provide a detailed assessment of defensive line robustness, transitions, or vulnerabilities to combined-arms/stand-off attacks."
+    },
+    {
+      "name": "Escalation Risks and Nuclear Signaling",
+      "score": 0.25,
+      "explanation": "Notes ceilings on escalation and need for restraint, but does not analyze nuclear rhetoric, strategic weapons postures, or thresholds influencing allied policy."
+    },
+    {
+      "name": "Drone and Counter-Drone Innovation",
+      "score": 0.75,
+      "explanation": "Strong coverage of drones at scale, decentralized command, and iterative tactics. Limited detail on counter-drone measures, EW adaptations, and cost-exchange ratios beyond general assertions."
+    },
+    {
+      "name": "Logistics and Sustainment Lines",
+      "score": 0.75,
+      "explanation": "Addresses targeting of fuel depots, staging nodes, and disruption of routes; emphasizes taxing Russian logistics and forcing reallocations. Could include more on rail hubs, depots, interdiction rates, and operational reach outcomes."
+    },
+    {
+      "name": "Allied Cohesion and Burden-Sharing",
+      "score": 0.5,
+      "explanation": "References NATO cohesion, training pipelines, and the need to sustain political support. Does not analyze divergences among allies, burden-sharing debates, or rearmament tradeoffs in detail."
+    },
+    {
+      "name": "Prospects for Breakthrough vs. Attrition",
+      "score": 0.75,
+      "explanation": "Argues that disruption is more feasible than durable territorial gains and that major reversals are unlikely, pointing to continued attrition with bounded effects. Could more explicitly evaluate each side’s capacity to mass for a decisive breach."
+    },
+    {
+      "name": "Civil Defense and Resilience Measures",
+      "score": 0.5,
+      "explanation": "Mentions resilience programs, protecting aid access, and safeguarding critical infrastructure but lacks detail on air raid sheltering, grid hardening, industrial dispersal, and measured effectiveness."
+    }
+  ],
+  "overall_score": 0.55
+}

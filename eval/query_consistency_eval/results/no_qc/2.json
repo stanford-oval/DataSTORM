@@ -1,0 +1,223 @@
+{
+  "per_dimension": [
+    {
+      "dimension": "actor_entity",
+      "score": 0.0,
+      "num_concept_groups": 4,
+      "num_consistent_groups": 0,
+      "notes": "ELN, FARC dissidents/EMC/Segunda Marquetalia, and AGC/Clan del Golfo matching vary widely across queries (different columns, synonyms, and acronyms). State forces are identified via inter1/2 in some queries and by name lists in others."
+    },
+    {
+      "dimension": "geography",
+      "score": 0.0,
+      "num_concept_groups": 1,
+      "num_consistent_groups": 0,
+      "notes": "Municipality-level analyses use different admin fields for the same concept (admin2 vs admin3 vs location), and even swap id/name roles in places."
+    },
+    {
+      "dimension": "temporal",
+      "score": 0.3333333333333333,
+      "num_concept_groups": 3,
+      "num_consistent_groups": 1,
+      "notes": "The Jan 2021–Jul 2022 vs Aug 2022–Dec 2024 split is applied consistently, but pre-/post‑Petro (2022‑08‑07) handling differs (month-level labeling vs per-event). Ceasefire window dates also differ across queries."
+    },
+    {
+      "dimension": "event_taxonomy",
+      "score": 0.6666666666666666,
+      "num_concept_groups": 3,
+      "num_consistent_groups": 2,
+      "notes": "‘Political violence’ is consistently filtered via disorder_type across relevant queries, and ‘Explosions/Remote violence’ is used consistently. However, ‘civilian-targeted violence’ is defined once via civilian_targeting and elsewhere via event_type=‘Violence against civilians’."
+    },
+    {
+      "dimension": "counting_aggregation",
+      "score": 0.0,
+      "num_concept_groups": 1,
+      "num_consistent_groups": 0,
+      "notes": "Actor-attribution of fatalities/events differs: one query counts per (event, actor) pair (duplicating fatalities), another assigns each event to a single actor_group."
+    },
+    {
+      "dimension": "population_scope",
+      "score": 0.0,
+      "num_concept_groups": 2,
+      "num_consistent_groups": 0,
+      "notes": "Some queries omit the country filter while others restrict to Colombia. The set of ‘ELN-covered municipalities’ differs across related analyses (ceasefire-note based vs ELN presence vs all ELN municipalities)."
+    }
+  ],
+  "conflicts": [
+    {
+      "dimension": "actor_entity",
+      "concept": "ELN involvement filter",
+      "query_indices": [
+        0,
+        18
+      ],
+      "predicate_a": "(actor1 ILIKE '%ELN%' OR actor2 ILIKE '%ELN%')",
+      "predicate_b": "has_eln: (actor1 ILIKE '%ELN%' OR actor2 ILIKE '%ELN%' OR assoc_actor_1 ILIKE '%ELN%' OR assoc_actor_2 ILIKE '%ELN%' OR actor1/2/assoc ILIKE '%National Liberation Army%')",
+      "severity": "result-changing",
+      "explanation": "Q0 matches only actor1/actor2 containing the token ‘ELN’, while Q18 includes associations and English-name variants. This will include additional events in Q18 (and miss some in Q0) for the same intended group."
+    },
+    {
+      "dimension": "actor_entity",
+      "concept": "FARC dissidents / EMC / Segunda Marquetalia matching",
+      "query_indices": [
+        1,
+        10
+      ],
+      "predicate_a": "actor/assoc ILIKE any of: '%Estado Mayor Central%','%Segunda Marquetalia%','%FARC dissident%','%FARC-EP dissident%','%FARC dissid%'",
+      "predicate_b": "actor1/2 ILIKE any of: '%FARC dissident(s)%','%FARC-Dissident%','%FARC splinter%','%Ex-FARC%','%FARC mafia%' (no EMC/Segunda Marquetalia strings)",
+      "severity": "result-changing",
+      "explanation": "Q1 explicitly matches EMC and Segunda Marquetalia and searches assoc_actor fields; Q10 relies on an alternate synonym set and only actor1/2. The groups included differ, changing which events are attributed to ‘FARC dissidents’."
+    },
+    {
+      "dimension": "actor_entity",
+      "concept": "AGC / Clan del Golfo matching",
+      "query_indices": [
+        10,
+        18
+      ],
+      "predicate_a": "actor1/2 ILIKE '%AGC%' OR '%Clan del Golfo%' OR '%Autodefensas Gaitanistas de Colombia%'",
+      "predicate_b": "has_agc: actor/assoc ILIKE '%Clan del Golfo%' OR '%Gaitanist Self-Defense Forces of Colombia%' (English), no '%AGC%' acronym",
+      "severity": "result-changing",
+      "explanation": "Different synonym sets (Spanish ‘Gaitanistas’ vs English ‘Gaitanist’; inclusion/exclusion of acronym ‘AGC’) will cause different inclusion of AGC events."
+    },
+    {
+      "dimension": "actor_entity",
+      "concept": "State forces identification",
+      "query_indices": [
+        2,
+        14
+      ],
+      "predicate_a": "(inter1 = 'State forces' OR inter2 = 'State forces')",
+      "predicate_b": "Actor1 or Actor2 name in a list of state security forces (e.g., Military Forces of Colombia, National Police)",
+      "severity": "result-changing",
+      "explanation": "Using interaction codes versus name lists can diverge (e.g., auxiliaries/other state-coded actors captured by inter but not by name list, or vice versa). Counts of state-involved events will differ."
+    },
+    {
+      "dimension": "geography",
+      "concept": "Municipality unit and label (admin vs location)",
+      "query_indices": [
+        17,
+        20
+      ],
+      "predicate_a": "municipality_id = admin2; municipality_name = location",
+      "predicate_b": "municipality_id = md5(department_name||admin2); municipality_name = admin2",
+      "severity": "result-changing",
+      "explanation": "Q17 uses settlement ‘location’ as the display name and admin2 as the id, while Q20 consistently uses admin2 for municipalities. Aggregation units and names will not align, affecting pre/post counts by municipality."
+    },
+    {
+      "dimension": "geography",
+      "concept": "Municipality name source",
+      "query_indices": [
+        18,
+        20
+      ],
+      "predicate_a": "municipality_name = e.location (settlement)",
+      "predicate_b": "municipality_name = e.admin2 (municipality)",
+      "severity": "result-changing",
+      "explanation": "Q18 uses settlement names; Q20 uses municipal admin units. Results by ‘municipality’ are not comparable across these queries."
+    },
+    {
+      "dimension": "temporal",
+      "concept": "Pre-/post‑Petro boundary assignment at month level (2022‑08‑07)",
+      "query_indices": [
+        7,
+        9
+      ],
+      "predicate_a": "CASE WHEN date_trunc('month', event_date) < DATE '2022-08-01' + INTERVAL '6 days' THEN 'pre_total_peace' ELSE 'post_total_peace'",
+      "predicate_b": "CASE WHEN event_date BETWEEN '2019-01-01' AND '2022-08-06' THEN 'pre_petro' WHEN event_date >= '2022-08-07' THEN 'petro'",
+      "severity": "result-changing",
+      "explanation": "Q7 labels entire months pre/post based on the month start relative to 2022‑08‑07 (making all of August 2022 ‘pre’), while Q9 assigns per event date (splitting August 2022 across periods). Monthly totals by period will diverge."
+    },
+    {
+      "dimension": "temporal",
+      "concept": "ELN ceasefire window dates",
+      "query_indices": [
+        11,
+        15
+      ],
+      "predicate_a": "ELN_govt_bilateral window: 2023-08-03 to 2024-01-29 (during), with ±60d phases",
+      "predicate_b": "Params: ceasefire_start = 2023-08-03; pre = 2023-02-03 to 2023-08-02; post_end = 2024-02-02",
+      "severity": "result-changing",
+      "explanation": "Different end dates (Jan 29 vs Feb 2) and phase definitions shift which events fall ‘during’/‘post’, altering event and fatality counts around the ceasefire."
+    },
+    {
+      "dimension": "event_taxonomy",
+      "concept": "Civilian-targeted violence definition",
+      "query_indices": [
+        4,
+        15
+      ],
+      "predicate_a": "civilian_targeting = 'Civilian targeting' (any event_type)",
+      "predicate_b": "event_type = 'Violence against civilians'",
+      "severity": "result-changing",
+      "explanation": "The ‘civilian_targeting’ flag includes some events outside the VAC event_type (e.g., explosive attacks targeting civilians), whereas filtering on the VAC event_type excludes those. Totals and trends for civilian-targeted violence will differ."
+    },
+    {
+      "dimension": "event_taxonomy",
+      "concept": "Kidnapping/abduction categorization",
+      "query_indices": [
+        3,
+        17
+      ],
+      "predicate_a": "kidnapping = sub_event_type = 'Abduction/forced disappearance' AND (armed actor present) AND civilians_involved",
+      "predicate_b": "counts of sub_event_type = 'Abduction/forced disappearance' among ELN events (no civilians_involved constraint)",
+      "severity": "result-changing",
+      "explanation": "Q3 imposes additional conditions (armed actor involvement and civilian targeting), while Q17 counts all abductions among ELN events. The resulting ‘kidnapping’/‘abduction’ counts are not comparable."
+    },
+    {
+      "dimension": "counting_aggregation",
+      "concept": "Attributing fatalities to actors",
+      "query_indices": [
+        8,
+        10
+      ],
+      "predicate_a": "Union actor1 and actor2; dedup per (event_id_cnty, actor_name); SUM(MAX(fatalities)) per actor_name",
+      "predicate_b": "Assign each event to a single actor_group via CASE and SUM fatalities per group",
+      "severity": "result-changing",
+      "explanation": "Q8 effectively allocates the full fatalities count to each actor listed for an event (double-counting across actors), while Q10 assigns each event to one actor_group. Actor-level fatality totals will not be comparable."
+    },
+    {
+      "dimension": "population_scope",
+      "concept": "Country scope for Colombia-focused analysis",
+      "query_indices": [
+        0,
+        2
+      ],
+      "predicate_a": "No country filter (global ELN events)",
+      "predicate_b": "country = 'Colombia'",
+      "severity": "result-changing",
+      "explanation": "Q0 may include ELN events outside Colombia, while related comparisons elsewhere restrict to Colombia. Cross-query comparisons on ELN trends will be inconsistent."
+    },
+    {
+      "dimension": "population_scope",
+      "concept": "Definition of 'ELN-covered municipalities'",
+      "query_indices": [
+        14,
+        15
+      ],
+      "predicate_a": "Coverage inferred from Strategic developments events with notes containing 'ceasefire' and ELN mentions (admin2)",
+      "predicate_b": "Treated set = municipalities with any ELN events in 2023-08-03 to 2024-02-02 (admin2)",
+      "severity": "result-changing",
+      "explanation": "Q14 identifies ceasefire coverage from explicit ceasefire/truce notes; Q15 defines coverage by ELN presence in a post window. The treated municipalities differ, invalidating DID comparisons across queries."
+    },
+    {
+      "dimension": "population_scope",
+      "concept": "'Same ELN-covered municipalities' reuse",
+      "query_indices": [
+        14,
+        16
+      ],
+      "predicate_a": "Ceasefire-covered municipalities derived from ceasefire note parsing (admin2)",
+      "predicate_b": "Base includes all municipalities with ELN involvement per has_eln (admin3 or admin2), without restricting to covered set",
+      "severity": "result-changing",
+      "explanation": "Q16 claims to use the same ELN-covered set but instead counts events in any municipality with ELN presence, at a different admin level (admin3/admin2). The population differs materially."
+    }
+  ],
+  "overall_score": 0.16666666666666666,
+  "summary": "Internal consistency is weak. Actor matching for ELN, FARC dissidents/EMC, and AGC varies across queries (different name variants, actor columns, and inclusion rules), and several Colombia-focused queries omit the country filter. Temporal splits around August 2022 and ceasefire windows are applied inconsistently, municipality units differ (admin2 vs location/admin3), and actor-level fatalities are aggregated using incompatible methods. These result-changing inconsistencies undermine comparability of the reported figures across sections.",
+  "report_dir": "<repo>/datatalk/acled_ablations/no_qc_fixed/2/Analyze_Petro’s_total_peace_policy_in_Colombia_and_its_impact_on_violence_v._armed_groups.__resummarized_20260601_231103",
+  "model": "gpt-5",
+  "num_queries": 22,
+  "applicable": true,
+  "id": 2
+}

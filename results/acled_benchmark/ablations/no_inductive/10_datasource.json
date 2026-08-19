@@ -1,0 +1,372 @@
+{
+  "total_insights": 36,
+  "total_classified": 36,
+  "acled_count": 26,
+  "non_acled_count": 10,
+  "pct_acled": 0.7222222222222222,
+  "details": [
+    {
+      "evidence": "Militant political violence in Pakistan intensified through 2024, culminating in a deadlier fourth quarter despite not having the highest incident counts.",
+      "is_acled_data": true,
+      "reasoning": "The statement references temporal conflict trends and severity (deadlier Q4 despite fewer incidents), which aligns with ACLED’s event counts and fatality data analysis. This type of pattern—comparing incident counts and deaths across quarters—is characteristic of insights derived from ACLED’s event and casualty datasets.",
+      "source_context": "Key Findings; late-2024 turn from frequent attacks to deadlier outcomes"
+    },
+    {
+      "evidence": "Khyber Pakhtunkhwa (KP) and Balochistan were the main hotspots; KP incidents were deadlier per event while Balochistan sustained higher tempo with lower average lethality.",
+      "is_acled_data": true,
+      "reasoning": "The statement compares subnational hotspots (KP vs. Balochistan), event frequency (tempo), and average lethality (fatalities per event), which align with ACLED’s event counts, geographic breakdowns, and fatality data, indicating analysis derived from ACLED-style metrics.",
+      "source_context": "Key Findings; Where it bites section"
+    },
+    {
+      "evidence": "By November 2024, fatalities peaked at about 449 despite not having the most incidents, reflecting a shift from frequent incidents earlier in the year to fewer, deadlier clashes.",
+      "is_acled_data": true,
+      "reasoning": "The statement references monthly fatalities peaking and compares incident frequency versus lethality over time, which aligns with ACLED’s event-based fatality counts and temporal trend analysis. It directly reflects metrics ACLED provides (fatality counts, incident counts, and trend shifts).",
+      "source_context": "A year that wouldn’t quiet; November figures compared to February"
+    },
+    {
+      "evidence": "2024 had three tactical phases: February’s surge in explosions and remote violence; May’s peak in violence against civilians; and Sept–Nov’s escalation in direct armed clashes.",
+      "is_acled_data": true,
+      "reasoning": "The statement segments the year into phases by event types and timing (explosions/remote violence, violence against civilians, armed clashes, with specific months). This reflects ACLED-style temporal conflict trend analysis using ACLED event categories and monthly patterns, indicating derivation from ACLED event data.",
+      "source_context": "A year that wouldn’t quiet; monthly curves phases"
+    },
+    {
+      "evidence": "From Q1 to Q4 2024, national events rose ~13% but fatalities doubled (516 to 1,035), increasing deaths per event by ~78%.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites counts of national conflict events, fatalities, and deaths per event over specific quarters in 2024—metrics directly aligned with ACLED’s event counts and fatality figures and temporal trend comparisons. This matches ACLED-style conflict trend analysis derived from event data.",
+      "source_context": "A year that wouldn’t quiet; Q1–Q4 comparison"
+    },
+    {
+      "evidence": "KP saw nearly 50% more events and about 152% more deaths from Q1 to Q4, indicating more intense clashes with state forces.",
+      "is_acled_data": true,
+      "reasoning": "The statement cites changes in event counts and fatalities over time in a specific subnational region (KP) from Q1 to Q4, which aligns with ACLED’s event and fatality data and temporal trend analysis by region.",
+      "source_context": "A year that wouldn’t quiet; provincial Q1–Q4 shifts"
+    },
+    {
+      "evidence": "Balochistan recorded fewer incidents but 44% more fatalities from Q1 to Q4, indicating fewer but harsher strikes.",
+      "is_acled_data": true,
+      "reasoning": "The statement references incident counts over time (Q1 to Q4) and change in fatalities, which are core ACLED metrics (event counts and fatality figures) used for temporal trend analysis. This aligns with ACLED-derived conflict trend data.",
+      "source_context": "A year that wouldn’t quiet; provincial Q1–Q4 shifts"
+    },
+    {
+      "evidence": "Targeting shifted over 2024: civilian-targeted events peaked in Q2 (~81% share) before engagements with security forces increased in Q3 and stayed high in Q4.",
+      "is_acled_data": true,
+      "reasoning": "The statement provides temporal conflict trend analysis with quantified shares of civilian-targeted events by quarter and a shift toward engagements with security forces later in the year. This aligns with ACLED’s event-type breakdowns (violence against civilians vs. battles/security force engagements) and quarter-by-quarter trend analysis derived from ACLED event data.",
+      "source_context": "A year that wouldn’t quiet; targeting distribution shift"
+    },
+    {
+      "evidence": "Civilians remained the most exposed overall (about three-quarters of militant-linked events), especially in Balochistan and KP, even as late-year clashes raised per-incident lethality.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references shares of militant-linked events involving civilians and notes lethality trends over time and by subnational regions (Balochistan, KP), which aligns with ACLED’s violence-against-civilians statistics, event counts, lethality per incident, and geographic breakdowns commonly derived from ACLED event data.",
+      "source_context": "A year that wouldn’t quiet; human stakes and exposure"
+    },
+    {
+      "evidence": "Tehreek-i-Taliban Pakistan (TTP) dominated 2024 with 762 events and 1,255 fatalities—roughly triple any peer—and intensified in Oct–Dec, culminating in December with 73 events and 217 deaths.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific counts of conflict events and fatalities for a particular armed group (TTP), with temporal breakdowns by months—hallmarks of ACLED’s event-based dataset and actor-level activity metrics. This aligns with ACLED’s conflict event counts, fatality figures, and trend analysis over time.",
+      "source_context": "Who moved the needle; TTP statistics and late-year surge"
+    },
+    {
+      "evidence": "TTP’s late-2024 rise in deaths per incident indicates both more attacks and increased lethality, signaling operational momentum going into 2025.",
+      "is_acled_data": true,
+      "reasoning": "The statement references “deaths per incident” and changes over time for a specific armed group (TTP), which are metrics derived from ACLED’s event counts and fatality data and temporal trend analysis. While it adds interpretation about operational momentum, the core measure (fatalities per event over a period) aligns with ACLED-derived statistics.",
+      "source_context": "Who moved the needle; TTP lethality trend"
+    },
+    {
+      "evidence": "Baloch Liberation Army (BLA) operated in episodic surges—especially August (52 events/103 deaths) and November (25/76)—within a lower baseline.",
+      "is_acled_data": true,
+      "reasoning": "Mentions specific event counts and fatalities by month for a particular armed group (BLA), reflecting actor-level event data, temporal patterns, and fatality figures—hallmarks of ACLED-derived metrics.",
+      "source_context": "Who moved the needle; BLA activity pattern"
+    },
+    {
+      "evidence": "Baloch Liberation Front (BLF) maintained a steadier tempo across 2024 with 190 events and 275 deaths, exerting consistent pressure without dramatic spikes.",
+      "is_acled_data": true,
+      "reasoning": "Mentions specific armed group (BLF) event counts and fatalities for 2024, reflecting actor-level conflict events and fatality figures with temporal trend—core ACLED metrics.",
+      "source_context": "Who moved the needle; BLF tempo"
+    },
+    {
+      "evidence": "Hafiz Gul Bahadur Group (HGB) conducted fewer events (about three dozen) but was highly lethal per incident, averaging nearly four deaths per event—above TTP and Baloch factions.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific counts of events by an armed group and average fatalities per event, and compares lethality across actors. This aligns with ACLED’s event- and actor-level data with fatality figures and derived metrics (e.g., average deaths per event).",
+      "source_context": "Who moved the needle; HGB lethality per event"
+    },
+    {
+      "evidence": "Battles were the deadliest mode for TTP and HGB, while Baloch groups leaned more on IEDs and remote violence with lower per-incident fatalities, reflecting different operational approaches.",
+      "is_acled_data": true,
+      "reasoning": "The evidence discusses modes of violence (battles vs. explosions/remote violence), armed group-level behavior (TTP, HGB, Baloch groups), and per-incident fatalities—elements that align with ACLED’s event typologies, actor-level data, and fatality metrics. This comparative statement appears derived from aggregating ACLED event categories and fatalities by actor, which is within ACLED’s dataset scope.",
+      "source_context": "Who moved the needle; mode-specific lethality"
+    },
+    {
+      "evidence": "TTP and HGB concentrated in KP with high-fatality force-on-force engagements, while BLA and BLF centered in Balochistan using frequent explosions targeting security and infrastructure.",
+      "is_acled_data": true,
+      "reasoning": "The statement specifies armed groups (TTP, HGB, BLA, BLF), their geographic concentration (KP, Balochistan), event types (force-on-force battles vs. explosions/remote violence), and outcome severity (high-fatality), which aligns with ACLED’s actor-level, subnational location, event-type, and fatality data typically used to characterize such patterns.",
+      "source_context": "Who moved the needle; geographic and targeting patterns"
+    },
+    {
+      "evidence": "KP bore the highest fatalities in 2024 (1,699, up about one-third from 2023), while Balochistan more than doubled its event count to 1,229 and saw deaths rise to 1,089.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites subnational conflict event counts and fatalities by province for a specific year, reflecting ACLED-style metrics (event counts, fatalities, temporal comparison). This is characteristic of ACLED datasets that report provincial event totals and death figures over time.",
+      "source_context": "Where it bites; provincial totals and trends"
+    },
+    {
+      "evidence": "KP’s frontier districts like Kurram and North Waziristan had high fatalities (285 and 280) with fewer incidents, reflecting deadlier clashes per event.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites subnational locations (Kurram, North Waziristan) with specific fatality counts and interprets incident-to-fatality ratios, aligning with ACLED’s event and fatality data and geographic breakdowns typical of ACLED-derived analysis.",
+      "source_context": "Where it bites; district-level fatality concentration in KP"
+    },
+    {
+      "evidence": "Balochistan’s Kech district stood out with 228 militant-involved events and 237 deaths, with Panjgur and Kalat also recording high fatalities.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific subnational conflict event counts and fatalities (militant-involved events, deaths by district), which matches ACLED’s event-based, location-specific metrics and fatality figures typical of ACLED outputs.",
+      "source_context": "Where it bites; Balochistan district profiles"
+    },
+    {
+      "evidence": "Nationwide, armed clashes caused most deaths; explosions were frequent but less lethal per incident, while rare suicide attacks had high lethality; civilians also suffered substantial direct harm.",
+      "is_acled_data": true,
+      "reasoning": "The statement discusses distribution of conflict event types (armed clashes, explosions, suicide attacks) and their relative lethality and civilian harm, which aligns with ACLED’s event-type data, fatality figures, and violence-against-civilians statistics. It reflects analysis derived from ACLED event categories and lethality patterns rather than general commentary.",
+      "source_context": "Where it bites; event-type lethality mix"
+    },
+    {
+      "evidence": "Late-2024 logs show sustained operations by TTP and Baloch insurgents in KP and Balochistan during October–December, maintaining elevated tempo.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general qualitative claim about sustained operations and elevated tempo without citing specific event counts, locations, dates, or ACLED attribution. It reads as analytical summary rather than explicit ACLED-derived metrics or actor-level event data.",
+      "source_context": "Where it bites; Oct–Dec 2024 operational continuity"
+    },
+    {
+      "evidence": "Pakistan–Afghanistan frontier violence escalated late in 2024, with November (6 incidents/25 killed) and December (3/22) marking a sustained surge compared to sporadic spikes in 2023.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific incident counts and fatalities by month on a specific frontline, reflecting conflict event and fatality data with temporal trend analysis—hallmarks of ACLED’s event-based datasets.",
+      "source_context": "Where it bites; border dynamics and late-year surge"
+    },
+    {
+      "evidence": "Cross-border sanctuary and incursion dynamics amplified KP’s lethality and Balochistan’s tempo heading into 2025.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a high-level analytical claim about cross-border dynamics affecting lethality and tempo in KP and Balochistan without citing specific event counts, fatalities, locations, or explicit attribution to ACLED datasets. It reads as general strategic analysis rather than direct use of ACLED event data.",
+      "source_context": "Where it bites; frontier effects on provincial trends"
+    },
+    {
+      "evidence": "Violence clustered where governance was thinnest, with cross-border friction and sanctuary continuing to fuel escalation through late-2024.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a broad analytical claim about conflict dynamics (governance thickness, cross-border friction, sanctuary) without citing specific event counts, locations, actors, or temporal patterns from ACLED. It reads as general geopolitical analysis rather than data derived from ACLED event records.",
+      "source_context": "Why volatility endures; governance gaps and frontier dynamics"
+    },
+    {
+      "evidence": "Explosions and suicide attacks in 2024 were concentrated in KP and Balochistan, with TTP, BLA, and BLF frequently targeting police and military and occasionally civilians.",
+      "is_acled_data": true,
+      "reasoning": "The statement cites subnational concentration of explosions/suicide attacks (KP, Balochistan) and names specific militant actors (TTP, BLA, BLF) targeting particular actor types (police, military, civilians). This aligns with ACLED’s event-type, actor-level, and geographic breakdown data and typical trend summaries derived from ACLED incident records.",
+      "source_context": "Why volatility endures; concentration of attack types and targets"
+    },
+    {
+      "evidence": "Oct–Dec 2024 saw 466 rebel/militia political-violence events nationwide, with TTP prominent in KP and BLF in Balochistan, confirming elevated year-end tempo.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites a specific count of political-violence events over a defined period, broken down by actor prominence and regions (TTP in KP, BLF in Balochistan), reflecting actor-level and subnational event data and temporal patterns typical of ACLED outputs.",
+      "source_context": "Why volatility endures; Oct–Dec event totals and actor prominence"
+    },
+    {
+      "evidence": "External enablers, including ISIS propaganda/finance, intertwined with local militancy, while domestic financial/logistical strains created openings for militants to disrupt security responses.",
+      "is_acled_data": false,
+      "reasoning": "This is high-level analytical commentary about external enablers and domestic strains affecting militancy; it does not reference specific ACLED event counts, actor-level entries, fatalities, locations, or trends explicitly derived from ACLED data.",
+      "source_context": "Why volatility endures; external networks and state capacity pressures"
+    },
+    {
+      "evidence": "Late-2024 featured documented spikes in lethality by TTP and sectarian militias, aligning with external facilitation and governance stressors.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a qualitative claim about spikes in lethality and links to external facilitation and governance stressors, without citing specific ACLED event counts, fatalities, locations, or actor-level data. It reads as analytical commentary rather than directly referencing ACLED-derived metrics or explicitly attributing to ACLED.",
+      "source_context": "Why volatility endures; actor-specific lethality surges"
+    },
+    {
+      "evidence": "Balochistan hubs such as Quetta, Loralai, and Mastung saw quarter-over-quarter fatality spikes, indicating urban and semi-urban vulnerability amid governance gaps.",
+      "is_acled_data": true,
+      "reasoning": "References subnational locations in Balochistan and mentions quarter-over-quarter fatality spikes, which aligns with ACLED’s event-based fatality counts, geographic breakdowns, and temporal trend analysis derived from its dataset.",
+      "source_context": "Why volatility endures; provincial hub spikes"
+    },
+    {
+      "evidence": "Along the KP frontier, persistent IED incidents and police-targeted attacks continued, sometimes causing injuries without fatalities, indicating sustained pressure on law enforcement.",
+      "is_acled_data": true,
+      "reasoning": "The statement references specific conflict modalities (IED incidents, police-targeted attacks), their persistence over time, and outcomes (injuries without fatalities) in a defined geography (KP frontier). This aligns with ACLED event-type data (explosions/remote violence), actor targeting, casualty details, and subnational trend characterization typically derived from ACLED event records and temporal analysis.",
+      "source_context": "Why volatility endures; KP frontier attack profiles"
+    },
+    {
+      "evidence": "Cross-border incidents increased in frequency and lethality late in 2024 along the Afghanistan border, reinforcing the frontier as a critical risk driver for 2025.",
+      "is_acled_data": true,
+      "reasoning": "Mentions temporal trend of cross-border incidents and increased lethality along the Afghanistan border in late 2024; this aligns with ACLED’s event counts, fatality data, geographic specificity, and trend analysis derived from event data, suggesting it could be based on ACLED.",
+      "source_context": "Why volatility endures; cross-border incident trend"
+    },
+    {
+      "evidence": "Socioeconomic deprivation shows weak direct links to militant recruitment compared to political and security drivers, suggesting near-term risk hinges more on state and actor choices than poverty metrics.",
+      "is_acled_data": false,
+      "reasoning": "The statement is an analytical claim about drivers of militant recruitment and risk, not tied to specific ACLED event data, counts, actor activity, or trends. It reflects general analysis rather than ACLED-derived metrics or explicitly attributed ACLED findings.",
+      "source_context": "Why volatility endures; research on recruitment drivers"
+    },
+    {
+      "evidence": "Risk in 2025 will likely center on TTP activity in KP and Baloch insurgent operations in Balochistan, guided by late-2024 patterns rather than seasonal assumptions.",
+      "is_acled_data": false,
+      "reasoning": "This is a forward-looking analytic judgment about likely 2025 risk centered on TTP in KP and Baloch insurgents in Balochistan, referencing patterns generally. It does not cite specific ACLED event counts, locations, fatalities, or actor-level metrics, nor attribute to ACLED. It is general analysis rather than explicit ACLED-derived data.",
+      "source_context": "Why volatility endures; forward-looking assessment focus"
+    },
+    {
+      "evidence": "Without improved governance, border management, and disruption of transnational facilitation, late-2024’s elevated tempo and lethality are a baseline rather than a peak going into 2025.",
+      "is_acled_data": false,
+      "reasoning": "This is a forward-looking analytical statement about governance and conflict outlook, not citing specific ACLED event counts, fatalities, actor data, or trend metrics. It is general commentary rather than data derived from ACLED.",
+      "source_context": "Conclusion; persistence of elevated risk"
+    },
+    {
+      "evidence": "KP’s frontier corridor (Kurram–Waziristans–Bannu) and Balochistan’s Makran axis (centered on Kech) represent the most entrenched geographies likely to bear the brunt of 2025 violence.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a forward-looking analytical assessment about likely hotspots (Kurram–Waziristans–Bannu and Makran/Kech) rather than citing specific ACLED event counts, fatalities, actor data, or ACLED-attributed trends. It lacks explicit ACLED attribution or concrete event statistics, so it appears to be general analysis, not ACLED-derived data.",
+      "source_context": "Where it bites; entrenched district geographies"
+    },
+    {
+      "evidence": "Expected watchpoints into 2025 include late-winter to spring cycles, frontier flashpoints, and TTP’s operational cadence as determinants of escalation or stabilization.",
+      "is_acled_data": false,
+      "reasoning": "The statement outlines forward-looking watchpoints and analytical considerations (seasonal cycles, frontier flashpoints, TTP operational cadence) without referencing specific event counts, locations, fatalities, or actor-level data from ACLED. It is general strategic analysis rather than a citation or summary of ACLED-derived event data or trends.",
+      "source_context": "Conclusion; monitoring cues for 2025"
+    }
+  ],
+  "insights": [
+    {
+      "insight": "Militant political violence in Pakistan intensified through 2024, culminating in a deadlier fourth quarter despite not having the highest incident counts.",
+      "context": "Key Findings; late-2024 turn from frequent attacks to deadlier outcomes"
+    },
+    {
+      "insight": "Khyber Pakhtunkhwa (KP) and Balochistan were the main hotspots; KP incidents were deadlier per event while Balochistan sustained higher tempo with lower average lethality.",
+      "context": "Key Findings; Where it bites section"
+    },
+    {
+      "insight": "By November 2024, fatalities peaked at about 449 despite not having the most incidents, reflecting a shift from frequent incidents earlier in the year to fewer, deadlier clashes.",
+      "context": "A year that wouldn’t quiet; November figures compared to February"
+    },
+    {
+      "insight": "2024 had three tactical phases: February’s surge in explosions and remote violence; May’s peak in violence against civilians; and Sept–Nov’s escalation in direct armed clashes.",
+      "context": "A year that wouldn’t quiet; monthly curves phases"
+    },
+    {
+      "insight": "From Q1 to Q4 2024, national events rose ~13% but fatalities doubled (516 to 1,035), increasing deaths per event by ~78%.",
+      "context": "A year that wouldn’t quiet; Q1–Q4 comparison"
+    },
+    {
+      "insight": "KP saw nearly 50% more events and about 152% more deaths from Q1 to Q4, indicating more intense clashes with state forces.",
+      "context": "A year that wouldn’t quiet; provincial Q1–Q4 shifts"
+    },
+    {
+      "insight": "Balochistan recorded fewer incidents but 44% more fatalities from Q1 to Q4, indicating fewer but harsher strikes.",
+      "context": "A year that wouldn’t quiet; provincial Q1–Q4 shifts"
+    },
+    {
+      "insight": "Targeting shifted over 2024: civilian-targeted events peaked in Q2 (~81% share) before engagements with security forces increased in Q3 and stayed high in Q4.",
+      "context": "A year that wouldn’t quiet; targeting distribution shift"
+    },
+    {
+      "insight": "Civilians remained the most exposed overall (about three-quarters of militant-linked events), especially in Balochistan and KP, even as late-year clashes raised per-incident lethality.",
+      "context": "A year that wouldn’t quiet; human stakes and exposure"
+    },
+    {
+      "insight": "Tehreek-i-Taliban Pakistan (TTP) dominated 2024 with 762 events and 1,255 fatalities—roughly triple any peer—and intensified in Oct–Dec, culminating in December with 73 events and 217 deaths.",
+      "context": "Who moved the needle; TTP statistics and late-year surge"
+    },
+    {
+      "insight": "TTP’s late-2024 rise in deaths per incident indicates both more attacks and increased lethality, signaling operational momentum going into 2025.",
+      "context": "Who moved the needle; TTP lethality trend"
+    },
+    {
+      "insight": "Baloch Liberation Army (BLA) operated in episodic surges—especially August (52 events/103 deaths) and November (25/76)—within a lower baseline.",
+      "context": "Who moved the needle; BLA activity pattern"
+    },
+    {
+      "insight": "Baloch Liberation Front (BLF) maintained a steadier tempo across 2024 with 190 events and 275 deaths, exerting consistent pressure without dramatic spikes.",
+      "context": "Who moved the needle; BLF tempo"
+    },
+    {
+      "insight": "Hafiz Gul Bahadur Group (HGB) conducted fewer events (about three dozen) but was highly lethal per incident, averaging nearly four deaths per event—above TTP and Baloch factions.",
+      "context": "Who moved the needle; HGB lethality per event"
+    },
+    {
+      "insight": "Battles were the deadliest mode for TTP and HGB, while Baloch groups leaned more on IEDs and remote violence with lower per-incident fatalities, reflecting different operational approaches.",
+      "context": "Who moved the needle; mode-specific lethality"
+    },
+    {
+      "insight": "TTP and HGB concentrated in KP with high-fatality force-on-force engagements, while BLA and BLF centered in Balochistan using frequent explosions targeting security and infrastructure.",
+      "context": "Who moved the needle; geographic and targeting patterns"
+    },
+    {
+      "insight": "KP bore the highest fatalities in 2024 (1,699, up about one-third from 2023), while Balochistan more than doubled its event count to 1,229 and saw deaths rise to 1,089.",
+      "context": "Where it bites; provincial totals and trends"
+    },
+    {
+      "insight": "KP’s frontier districts like Kurram and North Waziristan had high fatalities (285 and 280) with fewer incidents, reflecting deadlier clashes per event.",
+      "context": "Where it bites; district-level fatality concentration in KP"
+    },
+    {
+      "insight": "Balochistan’s Kech district stood out with 228 militant-involved events and 237 deaths, with Panjgur and Kalat also recording high fatalities.",
+      "context": "Where it bites; Balochistan district profiles"
+    },
+    {
+      "insight": "Nationwide, armed clashes caused most deaths; explosions were frequent but less lethal per incident, while rare suicide attacks had high lethality; civilians also suffered substantial direct harm.",
+      "context": "Where it bites; event-type lethality mix"
+    },
+    {
+      "insight": "Late-2024 logs show sustained operations by TTP and Baloch insurgents in KP and Balochistan during October–December, maintaining elevated tempo.",
+      "context": "Where it bites; Oct–Dec 2024 operational continuity"
+    },
+    {
+      "insight": "Pakistan–Afghanistan frontier violence escalated late in 2024, with November (6 incidents/25 killed) and December (3/22) marking a sustained surge compared to sporadic spikes in 2023.",
+      "context": "Where it bites; border dynamics and late-year surge"
+    },
+    {
+      "insight": "Cross-border sanctuary and incursion dynamics amplified KP’s lethality and Balochistan’s tempo heading into 2025.",
+      "context": "Where it bites; frontier effects on provincial trends"
+    },
+    {
+      "insight": "Violence clustered where governance was thinnest, with cross-border friction and sanctuary continuing to fuel escalation through late-2024.",
+      "context": "Why volatility endures; governance gaps and frontier dynamics"
+    },
+    {
+      "insight": "Explosions and suicide attacks in 2024 were concentrated in KP and Balochistan, with TTP, BLA, and BLF frequently targeting police and military and occasionally civilians.",
+      "context": "Why volatility endures; concentration of attack types and targets"
+    },
+    {
+      "insight": "Oct–Dec 2024 saw 466 rebel/militia political-violence events nationwide, with TTP prominent in KP and BLF in Balochistan, confirming elevated year-end tempo.",
+      "context": "Why volatility endures; Oct–Dec event totals and actor prominence"
+    },
+    {
+      "insight": "External enablers, including ISIS propaganda/finance, intertwined with local militancy, while domestic financial/logistical strains created openings for militants to disrupt security responses.",
+      "context": "Why volatility endures; external networks and state capacity pressures"
+    },
+    {
+      "insight": "Late-2024 featured documented spikes in lethality by TTP and sectarian militias, aligning with external facilitation and governance stressors.",
+      "context": "Why volatility endures; actor-specific lethality surges"
+    },
+    {
+      "insight": "Balochistan hubs such as Quetta, Loralai, and Mastung saw quarter-over-quarter fatality spikes, indicating urban and semi-urban vulnerability amid governance gaps.",
+      "context": "Why volatility endures; provincial hub spikes"
+    },
+    {
+      "insight": "Along the KP frontier, persistent IED incidents and police-targeted attacks continued, sometimes causing injuries without fatalities, indicating sustained pressure on law enforcement.",
+      "context": "Why volatility endures; KP frontier attack profiles"
+    },
+    {
+      "insight": "Cross-border incidents increased in frequency and lethality late in 2024 along the Afghanistan border, reinforcing the frontier as a critical risk driver for 2025.",
+      "context": "Why volatility endures; cross-border incident trend"
+    },
+    {
+      "insight": "Socioeconomic deprivation shows weak direct links to militant recruitment compared to political and security drivers, suggesting near-term risk hinges more on state and actor choices than poverty metrics.",
+      "context": "Why volatility endures; research on recruitment drivers"
+    },
+    {
+      "insight": "Risk in 2025 will likely center on TTP activity in KP and Baloch insurgent operations in Balochistan, guided by late-2024 patterns rather than seasonal assumptions.",
+      "context": "Why volatility endures; forward-looking assessment focus"
+    },
+    {
+      "insight": "Without improved governance, border management, and disruption of transnational facilitation, late-2024’s elevated tempo and lethality are a baseline rather than a peak going into 2025.",
+      "context": "Conclusion; persistence of elevated risk"
+    },
+    {
+      "insight": "KP’s frontier corridor (Kurram–Waziristans–Bannu) and Balochistan’s Makran axis (centered on Kech) represent the most entrenched geographies likely to bear the brunt of 2025 violence.",
+      "context": "Where it bites; entrenched district geographies"
+    },
+    {
+      "insight": "Expected watchpoints into 2025 include late-winter to spring cycles, frontier flashpoints, and TTP’s operational cadence as determinants of escalation or stabilization.",
+      "context": "Conclusion; monitoring cues for 2025"
+    }
+  ],
+  "prompt": "What are the status of militants in Pakistan over the last year and what would be the outlook for conflicts involving militants in Pakistan going into 2025?"
+}

@@ -1,0 +1,95 @@
+{
+  "dataset_id": 96,
+  "dataset_path": "data/notebooks/flag-96.json",
+  "metadata": {
+    "category": "Incidents Management",
+    "dataset_description": "The dataset comprises 500 entries simulating ServiceNow incidents table, detailing various attributes such as category, state, open and close dates, involved personnel, and incident specifics like location, description, and priority. It captures incident management activities with fields like 'opened_at', 'closed_at', 'assigned_to', 'short_description', and 'priority', reflecting the operational handling and urgency of issues across different locations and categories.",
+    "goal": "Find the discrepancy and imbalance in distribution of incidents assigned across categories",
+    "header": "Hardware Incident Dataset (Flag 96)",
+    "role": "L2 Support Agent"
+  },
+  "predicted_insights": [
+    "Software has 170 incidents—70 more than any other category and 1.7x their volume—representing 29.8% of all 570 incidents, indicating a notable assignment imbalance toward Software.",
+    "Software shows the greatest imbalance with a 20 percentage-point spread between top and bottom assignees (28.82% vs 8.82%), while Inquiry / Help is the most balanced (spread 7 points); notably, Luke Wilson swings from leading Hardware (27%) to the lowest share in Software (8.82%), and Fred Luddy leads both Software (28.82%) and Network (24%).",
+    "Critical incidence share varies twofold across categories (15% in Database vs 30% in Hardware and Inquiry / Help), Database skews most to High (32%), Software has the largest Moderate share (29.41%) and also the highest volume (170 incidents vs 100 in each other category), while Inquiry / Help has the lowest Low-priority share (17%).",
+    "Q3 2023 (Jul–Sep) was the busiest period (59, 56, 67 incidents), driven by Software contributing 42%, 45%, and 40% of monthly volume respectively, indicating a concentrated category imbalance likely tied to seasonal releases or changes.",
+    "With 0% mismatch across 570 incidents and 5 categories, the assignment process mirrors the category taxonomy exactly, so any workload imbalance by category reflects true demand rather than routing or labeling errors.",
+    "Software is heavily skewed with 170 incidents total—70% more than any other category (each at 100)—and is the top category in every location, peaking at 43 in Australia and ranging 30–34 elsewhere, while non-software categories vary narrowly between 15 and 23 per location.",
+    "Software leads incident volume across all priorities (50 Moderate, 42 Low, 41 Critical, 37 High) while Database is lowest at Critical (15), creating notable imbalances within priorities—Critical spans 41 to 15 (2.7x), Moderate 50 to 19 (2.6x), and Low 42 to 17 (2.5x).",
+    "Software has 170 incidents versus 100 in each other category (70% more), with Fred Luddy handling the most within Software (49, ~29%), while leadership in other categories varies (e.g., Luke Wilson leads Hardware with 27%).",
+    "Software leads every priority tier, and the skew between the highest and lowest category within a priority ranges from 1.6x (High: 37 vs 23) to ~2.7x (Critical: 41 vs 15), even though total incidents per priority are similar (~141–145), indicating imbalance lies within-category distribution rather than across priorities.",
+    "Software dominates in every location and drives most of the imbalance—most notably in Australia where it accounts for 43 of 117 incidents (≈37%) and the category range is largest (43 vs 15, range 28), while Canada’s non-Software categories are nearly uniform (19–21 each), indicating skew is primarily due to elevated Software volume rather than location size.",
+    "Software has 70 more incidents than any other category—about 70% higher volume—and captures 29.82% vs a uniform baseline of 20%, indicating a clear assignment imbalance toward Software.",
+    "The Software category not only shows the highest imbalance (variance 22.0) but also the largest spread between locations (range of 13 between Australia’s 43 and the UK’s 30), indicating both high overall demand and uneven regional load compared to other categories with much tighter spreads."
+  ],
+  "predicted_summary": "Software is the clear outlier in volume across categories: it accounts for 170 of 570 incidents (29.82%), while each of Database, Hardware, Inquiry/Help, and Network holds 100 incidents (17.54% each). This dominance holds at every priority level—Software leads Critical (41 vs next-highest 30), High (37 vs 32), Moderate (50 vs 30), and Low (42 vs 28/27/27/17)—and is reinforced by a mid-year surge (25–27 incidents per month in Jul–Sep vs just 6 in Jan).\nWork distribution within categories is most imbalanced in Software: the top three assignees (Fred Luddy 49, Beth Anglin 43, Charlie Whitherspoon 40) handle 132 of 170 Software incidents (77.6%), with a 20 percentage-point spread between the most-assigned (28.82%) and least-assigned (8.82%). Other categories show smaller spreads—Hardware 15 pp (27% to 12%), Database 10 pp (26% to 16%), Network 9 pp (24% to 15%), and Inquiry/Help 7 pp (23% to 16%)—indicating comparatively more balanced assignment.\nAcross all categories combined, workload is concentrated among three people: Fred Luddy (125), Charlie Whitherspoon (124), and Beth Anglin (121) together handle 370 of 570 incidents (64.9%), or about 21.2–21.9% each; the other two assignees, Howard Johnson and Luke Wilson, handle 100 each (17.54% apiece). This overall imbalance is largely driven by Software, where the top three collectively hold 77.6% of that category’s workload.",
+  "score_insights": 0.335701508548927,
+  "score_insights_dict": [
+    {
+      "gt_insight": "The incidents are equally distributed across all categories.",
+      "pred_insight": "With 0% mismatch across 570 incidents and 5 categories, the assignment process mirrors the category taxonomy exactly, so any workload imbalance by category reflects true demand rather than routing or labeling errors.",
+      "score": 0.4341208327851711
+    },
+    {
+      "gt_insight": "There are no specific issues mentioned in the incident descriptions for each category.",
+      "pred_insight": "With 0% mismatch across 570 incidents and 5 categories, the assignment process mirrors the category taxonomy exactly, so any workload imbalance by category reflects true demand rather than routing or labeling errors.",
+      "score": 0.440425937895902
+    },
+    {
+      "gt_insight": "There are specific mentions of printers in the incident descriptions.",
+      "pred_insight": "Q3 2023 (Jul–Sep) was the busiest period (59, 56, 67 incidents), driven by Software contributing 42%, 45%, and 40% of monthly volume respectively, indicating a concentrated category imbalance likely tied to seasonal releases or changes.",
+      "score": 0.10782499381506765
+    },
+    {
+      "gt_insight": "There is no specific location where hardware incidents are concentrated.",
+      "pred_insight": "Software dominates in every location and drives most of the imbalance—most notably in Australia where it accounts for 43 of 117 incidents (≈37%) and the category range is largest (43 vs 15, range 28), while Canada’s non-Software categories are nearly uniform (19–21 each), indicating skew is primarily due to elevated Software volume rather than location size.",
+      "score": 0.26740135511646007
+    },
+    {
+      "gt_insight": "There is no significant increasing trend in the 'Hardware' or any other category.",
+      "pred_insight": "Software leads every priority tier, and the skew between the highest and lowest category within a priority ranges from 1.6x (High: 37 vs 23) to ~2.7x (Critical: 41 vs 15), even though total incidents per priority are similar (~141–145), indicating imbalance lies within-category distribution rather than across priorities.",
+      "score": 0.22868166205856374
+    },
+    {
+      "gt_insight": "There is a significant spike in CRM-related software incidents during the adoption period (July to September 2023), followed by a gradual decrease.",
+      "pred_insight": "Q3 2023 (Jul–Sep) was the busiest period (59, 56, 67 incidents), driven by Software contributing 42%, 45%, and 40% of monthly volume respectively, indicating a concentrated category imbalance likely tied to seasonal releases or changes.",
+      "score": 0.5357542696223977
+    }
+  ],
+  "score_summary": 0.48078074059071263,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.39672940463992257,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "With 0% mismatch across 570 incidents and 5 categories, the assignment process mirrors the category taxonomy exactly, so any workload imbalance by category reflects true demand rather than routing or labeling errors.",
+      "gt_insight": "The incidents are equally distributed across all categories.",
+      "score": 0.6747461479838585
+    },
+    {
+      "pred_insight": "With 0% mismatch across 570 incidents and 5 categories, the assignment process mirrors the category taxonomy exactly, so any workload imbalance by category reflects true demand rather than routing or labeling errors.",
+      "gt_insight": "There are no specific issues mentioned in the incident descriptions for each category.",
+      "score": 0.35631439156848255
+    },
+    {
+      "pred_insight": "With 0% mismatch across 570 incidents and 5 categories, the assignment process mirrors the category taxonomy exactly, so any workload imbalance by category reflects true demand rather than routing or labeling errors.",
+      "gt_insight": "There are specific mentions of printers in the incident descriptions.",
+      "score": 0.21605971390934225
+    },
+    {
+      "pred_insight": "Software is heavily skewed with 170 incidents total—70% more than any other category (each at 100)—and is the top category in every location, peaking at 43 in Australia and ranging 30–34 elsewhere, while non-software categories vary narrowly between 15 and 23 per location.",
+      "gt_insight": "There is no specific location where hardware incidents are concentrated.",
+      "score": 0.3064905632130937
+    },
+    {
+      "pred_insight": "Software leads every priority tier, and the skew between the highest and lowest category within a priority ranges from 1.6x (High: 37 vs 23) to ~2.7x (Critical: 41 vs 15), even though total incidents per priority are similar (~141–145), indicating imbalance lies within-category distribution rather than across priorities.",
+      "gt_insight": "There is no significant increasing trend in the 'Hardware' or any other category.",
+      "score": 0.22289323084729515
+    },
+    {
+      "pred_insight": "Q3 2023 (Jul–Sep) was the busiest period (59, 56, 67 incidents), driven by Software contributing 42%, 45%, and 40% of monthly volume respectively, indicating a concentrated category imbalance likely tied to seasonal releases or changes.",
+      "gt_insight": "There is a significant spike in CRM-related software incidents during the adoption period (July to September 2023), followed by a gradual decrease.",
+      "score": 0.6038723803174635
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.19310769788560783,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.49713368342283343
+}

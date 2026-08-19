@@ -1,0 +1,192 @@
+{
+  "total_insights": 18,
+  "total_classified": 18,
+  "acled_count": 13,
+  "non_acled_count": 5,
+  "pct_acled": 0.7222222222222222,
+  "details": [
+    {
+      "evidence": "Between 23 Nov and 3 Dec 2024, Oromia experienced intense conflict with at least 33 recorded events and over 70 fatalities involving civilians and combatants.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific counts of conflict events and fatalities within a defined time frame and region, which aligns with ACLED’s event and fatality data and temporal aggregation. This type of granular event count and casualty figure is characteristic of ACLED-derived reporting.",
+      "source_context": "Intro summary of Oromia region conflict levels per ACLED data."
+    },
+    {
+      "evidence": "Suspected OLA fighters attacked villages in Arsi Zone on 28 Nov, abducting residents and killing at least nine civilians, reportedly targeting Christian villagers; OLA denied involvement.",
+      "is_acled_data": true,
+      "reasoning": "The evidence describes a specific conflict event with date, location (Arsi Zone), actors (suspected OLA), tactic (attack on villages, abductions), target (civilians, reportedly Christian villagers), fatalities (at least nine), and an actor denial. These are typical elements of ACLED event reporting and actor-level data, including violence against civilians and fatality counts.",
+      "source_context": "Insurgent attacks on civilians section referencing VOA reports."
+    },
+    {
+      "evidence": "Victims in the 28 Nov Arsi attack included women and elders, and several abductees remained missing; locals accused authorities of failing to protect the community.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references specifics of a conflict event (date, location, victim categories, abductions, and local accusations regarding protection), which aligns with ACLED-style event descriptions of violence against civilians and incident details commonly captured in ACLED reports.",
+      "source_context": "Details of the Arsi incident and local reactions from VOA reports."
+    },
+    {
+      "evidence": "ENDF reported heavy clashes with OLA in East Wellega around 26 Nov, claiming dozens of insurgent casualties, though independent confirmation was limited.",
+      "is_acled_data": true,
+      "reasoning": "The evidence describes a specific battle event (ENDF-OLA clashes), includes date and location (East Wellega around 26 Nov), and mentions casualty claims with note on limited confirmation—typical of ACLED event descriptions and battle-related data. This aligns with ACLED’s event-based reporting and actor-level confrontation details.",
+      "source_context": "Clashes between OLA and government forces in western Oromia."
+    },
+    {
+      "evidence": "ENDF units fought OLA fighters in West Guji on 23 Nov, after which some rebels reportedly surrendered; exact rebel losses were unverified amid government claims of higher militant fatalities.",
+      "is_acled_data": true,
+      "reasoning": "The evidence describes a specific battle event with actors (ENDF vs OLA), location (West Guji), date (23 Nov), and mentions casualties/surrenders with note on unverified fatalities—this aligns with ACLED battle-related event data and incident descriptions that often include reported outcomes and uncertainty about casualty figures.",
+      "source_context": "Clashes between OLA and government forces in West Guji zone."
+    },
+    {
+      "evidence": "On 28 Nov near Tulu Bolo (Southwest Shewa Zone), unidentified gunmen opened fire on a truck carrying day laborers, killing six; reports differed on whether intoxicated local militiamen or OLA were responsible.",
+      "is_acled_data": true,
+      "reasoning": "The evidence describes a specific violent incident with date, location, actors, and fatalities—typical ACLED event-level data. It matches ACLED’s event descriptions and casualty figures on violence against civilians and armed group attribution uncertainty.",
+      "source_context": "Attacks on transport and ambiguity over perpetrators."
+    },
+    {
+      "evidence": "On 2 Dec, Amhara Fano militia ambushed Oromo traders in Horo Gudru Welega, killing at least five people and bombing their truck, highlighting ethnic dimensions of the conflict.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites a specific conflict event with date, location (Horo Gudru Welega), actors (Amhara Fano militia, Oromo traders), event type (ambush/violence against civilians, explosion/bombing), and fatalities (at least five). These are typical ACLED event attributes and align with ACLED’s event-level data and armed group activity reporting.",
+      "source_context": "Inter-ethnic violence involving Fano militants targeting Oromo civilians."
+    },
+    {
+      "evidence": "ENDF drone strikes and artillery on 28 Nov in Dera district (North Shewa Zone) hit farming areas, reportedly killing around 11 civilians, raising concerns about civilian harm in counter-insurgency operations.",
+      "is_acled_data": true,
+      "reasoning": "The evidence describes a specific conflict event with date, location, actors (ENDF), tactics (drone strikes and artillery), target area, and reported civilian fatalities—elements characteristic of ACLED event data (event descriptions, violence against civilians, fatality counts, geographic details).",
+      "source_context": "Government strikes and civilian casualties referenced by VOA."
+    },
+    {
+      "evidence": "Over 200 workers at Fincha sugar plantation in Horo Gudru were detained on 1 Dec for alleged illegal land occupation, illustrating heavy-handed government crackdowns.",
+      "is_acled_data": true,
+      "reasoning": "The evidence describes a specific incident with date, location, actors (government detaining workers), and count of detainees, fitting ACLED-style event reporting on protests/riots or violence against civilians and government crackdowns. This type of event-level detail is commonly captured in ACLED incident data.",
+      "source_context": "Mass arrests in early December noted under government crackdowns."
+    },
+    {
+      "evidence": "On 1 Dec a peace agreement was signed between Oromia regional authorities and a splinter OLA faction; by 3 Dec, over 800 OLA fighters in West Shewa laid down arms and entered demobilization camps.",
+      "is_acled_data": false,
+      "reasoning": "The evidence describes a peace agreement and subsequent demobilization numbers, which are policy/government actions and demobilization figures rather than specific ACLED conflict event records. ACLED focuses on conflict events and related statistics; peace agreements and demobilization counts are not standard ACLED outputs unless explicitly tied to ACLED event data, which is not indicated here.",
+      "source_context": "Peace initiative and OLA surrender per Wardheer News reports."
+    },
+    {
+      "evidence": "Residents held public reception ceremonies in Ambo and nearby areas for surrendered fighters, reflecting local hopes for peace.",
+      "is_acled_data": false,
+      "reasoning": "The statement describes public reception ceremonies for surrendered fighters and local sentiments about peace without referencing specific ACLED event records, counts, actors, or attribution to ACLED. It reads as general narrative/reporting rather than ACLED-derived event data.",
+      "source_context": "Community response to the demobilization in central Oromia."
+    },
+    {
+      "evidence": "The main OLA organization disputed the reported peace deal and surrenders as fabricated, claiming the government staged a surrender with ex-OLA members.",
+      "is_acled_data": false,
+      "reasoning": "The statement is about an armed group’s public dispute of a reported peace deal, describing claims about staged surrenders. This is a political claim/statement rather than specific ACLED-coded event data (counts, fatalities, locations, or actor-coded incidents). Unless tied to a specific event record in ACLED, such narrative claims are not ACLED data.",
+      "source_context": "OLA spokesperson’s rejection of the peace reports via Wardheer News."
+    },
+    {
+      "evidence": "The South West Ethiopia Peoples’ Region recorded only one major incident between 23 Nov and 3 Dec 2024, remaining comparatively calm despite proximity to volatile regions.",
+      "is_acled_data": true,
+      "reasoning": "The statement summarizes the count of major incidents and a temporal window for a specific region, reflecting event count/trend analysis derived from conflict event data, which aligns with ACLED’s event counts and temporal patterns.",
+      "source_context": "Intro summary of South West region conflict levels per ACLED."
+    },
+    {
+      "evidence": "Around 27 Nov, Majangir ethnic militia from Gambela’s Majang Zone raided Shekibido kebele in Sheka Zone, killing about 20 people, including the local kebele administrator.",
+      "is_acled_data": true,
+      "reasoning": "The evidence describes a specific conflict incident with date range, actors (Majangir ethnic militia), location (Shekibido kebele, Sheka Zone), and fatalities including a local administrator. This aligns with ACLED-style event reporting (event description, actor-level data, location, and fatality count).",
+      "source_context": "Massacre in Sheka Zone description from local media compiled by ACLED."
+    },
+    {
+      "evidence": "The Sheka attack appeared ethnically motivated and raised fears of spillover violence from Gambela into the South West region.",
+      "is_acled_data": false,
+      "reasoning": "The statement is qualitative analysis about motivations and spillover risk without referencing specific ACLED event data, counts, actors, locations, or fatalities; it reads as general commentary rather than a datapoint derived from ACLED.",
+      "source_context": "Interpretation of motives and regional implications of the Sheka massacre."
+    },
+    {
+      "evidence": "Local officials condemned the Sheka attack and deployed security forces to prevent further incursions.",
+      "is_acled_data": false,
+      "reasoning": "The statement describes officials condemning an attack and deploying security forces—policy/government actions and declarations. This is not specific ACLED event data or statistics and fits the category of policy statements/government declarations, which are not ACLED data unless explicitly tied to ACLED.",
+      "source_context": "Authorities’ response to the late November incident in Sheka."
+    },
+    {
+      "evidence": "Aside from the Sheka massacre, no other significant violent events were reported in the South West region during 23 Nov – 3 Dec 2024.",
+      "is_acled_data": true,
+      "reasoning": "The statement summarizes the absence/presence of significant violent events in a specific region and timeframe, implying reliance on conflict event reporting and counts—core ACLED outputs (event data, temporal patterns). It aligns with ACLED-style aggregation of events and significance within defined dates and locations.",
+      "source_context": "Closing assessment of South West region stability during the timeframe."
+    },
+    {
+      "evidence": "All information is drawn from ACLED data up to early Jan 2025 and contemporaneous reports from VOA, Wardheer News, and other local media; details may be updated as new information emerges.",
+      "is_acled_data": true,
+      "reasoning": "The evidence explicitly states that all information is drawn from ACLED data up to early Jan 2025 and lists categories that match ACLED content (event counts, fatalities, actor data, locations, conflict index). Although it also mentions media sources, the statement asserts ACLED as a primary source, fitting ACLED-derived data.",
+      "source_context": "Sources and caveat section at the end of the article."
+    }
+  ],
+  "insights": [
+    {
+      "insight": "Between 23 Nov and 3 Dec 2024, Oromia experienced intense conflict with at least 33 recorded events and over 70 fatalities involving civilians and combatants.",
+      "context": "Intro summary of Oromia region conflict levels per ACLED data."
+    },
+    {
+      "insight": "Suspected OLA fighters attacked villages in Arsi Zone on 28 Nov, abducting residents and killing at least nine civilians, reportedly targeting Christian villagers; OLA denied involvement.",
+      "context": "Insurgent attacks on civilians section referencing VOA reports."
+    },
+    {
+      "insight": "Victims in the 28 Nov Arsi attack included women and elders, and several abductees remained missing; locals accused authorities of failing to protect the community.",
+      "context": "Details of the Arsi incident and local reactions from VOA reports."
+    },
+    {
+      "insight": "ENDF reported heavy clashes with OLA in East Wellega around 26 Nov, claiming dozens of insurgent casualties, though independent confirmation was limited.",
+      "context": "Clashes between OLA and government forces in western Oromia."
+    },
+    {
+      "insight": "ENDF units fought OLA fighters in West Guji on 23 Nov, after which some rebels reportedly surrendered; exact rebel losses were unverified amid government claims of higher militant fatalities.",
+      "context": "Clashes between OLA and government forces in West Guji zone."
+    },
+    {
+      "insight": "On 28 Nov near Tulu Bolo (Southwest Shewa Zone), unidentified gunmen opened fire on a truck carrying day laborers, killing six; reports differed on whether intoxicated local militiamen or OLA were responsible.",
+      "context": "Attacks on transport and ambiguity over perpetrators."
+    },
+    {
+      "insight": "On 2 Dec, Amhara Fano militia ambushed Oromo traders in Horo Gudru Welega, killing at least five people and bombing their truck, highlighting ethnic dimensions of the conflict.",
+      "context": "Inter-ethnic violence involving Fano militants targeting Oromo civilians."
+    },
+    {
+      "insight": "ENDF drone strikes and artillery on 28 Nov in Dera district (North Shewa Zone) hit farming areas, reportedly killing around 11 civilians, raising concerns about civilian harm in counter-insurgency operations.",
+      "context": "Government strikes and civilian casualties referenced by VOA."
+    },
+    {
+      "insight": "Over 200 workers at Fincha sugar plantation in Horo Gudru were detained on 1 Dec for alleged illegal land occupation, illustrating heavy-handed government crackdowns.",
+      "context": "Mass arrests in early December noted under government crackdowns."
+    },
+    {
+      "insight": "On 1 Dec a peace agreement was signed between Oromia regional authorities and a splinter OLA faction; by 3 Dec, over 800 OLA fighters in West Shewa laid down arms and entered demobilization camps.",
+      "context": "Peace initiative and OLA surrender per Wardheer News reports."
+    },
+    {
+      "insight": "Residents held public reception ceremonies in Ambo and nearby areas for surrendered fighters, reflecting local hopes for peace.",
+      "context": "Community response to the demobilization in central Oromia."
+    },
+    {
+      "insight": "The main OLA organization disputed the reported peace deal and surrenders as fabricated, claiming the government staged a surrender with ex-OLA members.",
+      "context": "OLA spokesperson’s rejection of the peace reports via Wardheer News."
+    },
+    {
+      "insight": "The South West Ethiopia Peoples’ Region recorded only one major incident between 23 Nov and 3 Dec 2024, remaining comparatively calm despite proximity to volatile regions.",
+      "context": "Intro summary of South West region conflict levels per ACLED."
+    },
+    {
+      "insight": "Around 27 Nov, Majangir ethnic militia from Gambela’s Majang Zone raided Shekibido kebele in Sheka Zone, killing about 20 people, including the local kebele administrator.",
+      "context": "Massacre in Sheka Zone description from local media compiled by ACLED."
+    },
+    {
+      "insight": "The Sheka attack appeared ethnically motivated and raised fears of spillover violence from Gambela into the South West region.",
+      "context": "Interpretation of motives and regional implications of the Sheka massacre."
+    },
+    {
+      "insight": "Local officials condemned the Sheka attack and deployed security forces to prevent further incursions.",
+      "context": "Authorities’ response to the late November incident in Sheka."
+    },
+    {
+      "insight": "Aside from the Sheka massacre, no other significant violent events were reported in the South West region during 23 Nov – 3 Dec 2024.",
+      "context": "Closing assessment of South West region stability during the timeframe."
+    },
+    {
+      "insight": "All information is drawn from ACLED data up to early Jan 2025 and contemporaneous reports from VOA, Wardheer News, and other local media; details may be updated as new information emerges.",
+      "context": "Sources and caveat section at the end of the article."
+    }
+  ],
+  "prompt": "Summary of recent events in South West Ethiopia Peoples region and Oromia region, between 23 November 2024 and 3 December 2024"
+}

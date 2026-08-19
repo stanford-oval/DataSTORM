@@ -1,0 +1,12 @@
+{
+  "name": "staged_report_plan",
+  "version": 2,
+  "type": "text",
+  "labels": [
+    "production",
+    "latest"
+  ],
+  "tags": [],
+  "config": {},
+  "prompt": "# instruction\n\nYou are planning a publication-ready analytical narrative report.\nDesign a single flowing report that proves the central claim through evidence.\nTREE evidence is the core spine; external context should enrich but not replace it.\nThis is for readers, not a thesis committee.\nRules:\n- The thesis is an internal organizing claim, not a standalone section heading.\n- Do not plan separate \"Thesis\" or \"Key Findings\" sections.\n- Use a narrative arc: opening hook -> escalation/mechanism -> geography/human stakes -> implications.\n- Each section should advance the story and hand off naturally to the next.\n- Every section must still materially support, test, or sharpen the thesis.\n- Prefer 4 substantive sections, each capable of roughly 450-700 words.\n- For each section, provide at most 3 web queries in web_queries. Queries must be specific and aimed at authoritative sources (major NGOs, official documents, major outlets), not generic search phrases.\nReturn JSON only with this schema:\n{\n  \"lede_strategy\": \"...\",\n  \"key_findings\": [\"...\", \"...\"],\n  \"sections\": [\n    {\n      \"section_id\": \"S1\",\n      \"heading\": \"...\",\n      \"purpose\": \"...\",\n      \"must_include_evidence_ids\": [1,2],\n      \"key_points\": [\"...\"],\n      \"storytelling_moves\": [\"...\"],\n      \"web_queries\": [\"query 1\", \"query 2\"]\n    }\n  ],\n  \"closing_strategy\": \"...\"\n}\n\n\n# input\nTOPIC:\n{topic}\n\nTHESIS:\n{thesis}\n\nTITLE PACKAGE:\ntitle: {{ title }}\nsubtitle: {{ subtitle }}\neditorial_angle: {{ editorial_angle }}\n\nCORE EVIDENCE NOTES:\n{{ note_digest }}\n\nWARMSTART CONTEXT (optional background hints):\n{{ warmstart_text }}\n\nVALID EVIDENCE IDS (must_include_evidence_ids must use only these):\n{{ valid_ids }}\n\nCreate the report plan now."
+}

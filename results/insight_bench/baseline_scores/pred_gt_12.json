@@ -1,0 +1,75 @@
+{
+  "dataset_id": 12,
+  "dataset_path": "data/notebooks/flag-12.json",
+  "metadata": {
+    "category": "Incidents Management",
+    "dataset_description": "The dataset comprises 500 entries simulating ServiceNow incidents table, detailing various attributes such as category, state, open and close dates, involved personnel, and incident specifics like  description, and priority. It captures incident management activities with fields like 'opened_at', 'closed_at', 'assigned_to', 'short_description', and 'priority', reflecting the operational handling and urgency of issues across different locations and categories.",
+    "goal": "Find the discrepancy and imbalance in incidents assigned",
+    "header": "Hardware Incident Easy Dataset (Flag 12)",
+    "role": "L1 Agent"
+  },
+  "predicted_insights": [
+    "The top three assignees handle 325 of 500 incidents (65%), and the largest-to-smallest workload ratio is 1.36 (116 vs 85), indicating a moderate imbalance in assignment.",
+    "Workload is heavily skewed toward 2 - High (394 of 500, ~79%) with almost no 4 - Low (2 total), Luke Wilson handles the most incidents overall (116) while Charlie Whitherspoon has the most 1 - Critical (8), highlighting imbalance by both priority and assignee.",
+    "With 500 incidents over roughly 13 months and 5 assignees, an even distribution would be about 7–8 incidents per assignee per month, so a sustained average above ~12/month or below ~4/month for any assignee would indicate a meaningful workload imbalance.",
+    "Hardware dominates with 406 of 500 incidents (81.2%), while Luke Wilson handles the most overall (116, 23.2%)—96 of which are Hardware (82.8% of his load)—indicating a strong workload imbalance toward Hardware and especially Luke Wilson; each other category is ≤6.6% (Software 33, Network 22, Inquiry / Help 20, Database 19).",
+    "The top three assignees (Luke Wilson, Howard Johnson, and Charlie Whitherspoon) handle 271 of 421 high-priority incidents (~64%), with Luke alone handling 33% more than the lowest (96 vs 72), indicating a notable workload imbalance.",
+    "Overall, 78.8% (394 of 500) of incidents were closed by someone other than the assignee, with a modest spread across assignees (83.33% highest vs. 74.53% lowest, an 8.8-pt gap) and Luke Wilson handling the most cross-closed incidents in absolute terms (96).",
+    "The weekend share varies only about 4.4 percentage points across assignees (24.53%–28.89%), with Fred Luddy having the highest weekend proportion despite a smaller total workload than Luke Wilson, and the top two by weekend proportion (Fred and Charlie) together handling 55 weekend-opened incidents.",
+    "The assignment is imbalanced: the top two assignees (Charlie and Howard) handled 55.56% of critical incidents while the bottom two (Beth and Fred) handled only 25.92%, with the top three together shouldering 74.07%.",
+    "Incidents were about 3.7 times more likely to be closed by someone other than the assignee (394 vs 106), indicating a strong imbalance in closure responsibility that suggests frequent handoffs or centralized closing practices.",
+    "Fred Luddy shows the highest MoM volatility among assignees: over 13 months his monthly assignments ranged from 1 to 13 (avg ≈ 6.9), featuring both the largest drop (−10 from Jan→Feb) and a near-maximum rebound (+9 from May→Jun), signaling notable month-to-month imbalance in workload.",
+    "Smaller groups show higher concentration: Network (23 incidents) and Service Desk (19 incidents) have top-assignee shares of 34.78% and 31.58%, respectively, versus the larger Hardware group (405 incidents) where the top assignee handles only 23.70%, indicating workload is more evenly distributed in bigger teams.",
+    "The gap between the slowest and fastest median closure times is about 32.23 hours (≈19.8% longer for Luke Wilson than Howard Johnson), indicating a notable performance spread among assignees."
+  ],
+  "predicted_summary": "Workload and severity are unevenly distributed: Luke Wilson handles the largest share of all incidents (116 of 500; 23.2%), while the dataset is heavily skewed to high priority overall (421 of 500; 84.2%). Within those high-priority incidents, the distribution is Luke 22.8%, Howard Johnson 20.9%, Charlie Whitherspoon 20.7%, Fred Luddy 18.5%, and Beth Anglin 17.1%. Critical incidents (27 total) concentrate more with Charlie (29.63%) and Howard (25.93%)—a combined 55.56%—despite Luke having the most total assignments. For each assignee, high-priority work comprises the vast majority of their workload (range: 83.0% to 86.7%), highest for Fred at 86.7%.\nOwnership at closure diverges sharply from assignment: 78.8% of all incidents (394 of 500) were closed by someone other than the assignee. By assignee, the share closed by someone else is Fred Luddy 83.33%, Luke Wilson 82.76%, Charlie Whitherspoon 76.70%, Beth Anglin 76.47%, and Howard Johnson 74.53%—a spread of nearly 9 percentage points. Compounding the imbalance, Luke (who has the largest workload) also has the longest median time to close at approximately 194.88 hours.\nThe mix and specialization are skewed and volatile: 81.2% of all incidents are in the Hardware category (406 of 500), with Luke alone handling 96 Hardware incidents (about 23.6% of all Hardware). Specialization shows up in assignment groups: within the Network group, Howard Johnson handles 34.78% (8 of 23), the highest single-assignee concentration within any group. Assignment volumes can swing sharply month to month, exemplified by Fred Luddy’s drop from 13 incidents in 2023-01 to 3 in 2023-02 (a 10-incident, ~77% decline).",
+  "score_insights": 0.3270460767998926,
+  "score_insights_dict": [
+    {
+      "gt_insight": "hardware incidents is significantly higher than others",
+      "pred_insight": "Hardware dominates with 406 of 500 incidents (81.2%), while Luke Wilson handles the most overall (116, 23.2%)—96 of which are Hardware (82.8% of his load)—indicating a strong workload imbalance toward Hardware and especially Luke Wilson; each other category is ≤6.6% (Software 33, Network 22, Inquiry / Help 20, Database 19).",
+      "score": 0.7223921784432265
+    },
+    {
+      "gt_insight": "Most of the hardware incidents are related to printer issues",
+      "pred_insight": "Hardware dominates with 406 of 500 incidents (81.2%), while Luke Wilson handles the most overall (116, 23.2%)—96 of which are Hardware (82.8% of his load)—indicating a strong workload imbalance toward Hardware and especially Luke Wilson; each other category is ≤6.6% (Software 33, Network 22, Inquiry / Help 20, Database 19).",
+      "score": 0.13473020041139472
+    },
+    {
+      "gt_insight": "location is not specified in the dataset nor in the short description",
+      "pred_insight": "Workload is heavily skewed toward 2 - High (394 of 500, ~79%) with almost no 4 - Low (2 total), Luke Wilson handles the most incidents overall (116) while Charlie Whitherspoon has the most 1 - Critical (8), highlighting imbalance by both priority and assignee.",
+      "score": 0.10860831876488013
+    },
+    {
+      "gt_insight": "There is not a significant increase in hardware incidents over time, they are relatively stable and high compared to toher categories",
+      "pred_insight": "Hardware dominates with 406 of 500 incidents (81.2%), while Luke Wilson handles the most overall (116, 23.2%)—96 of which are Hardware (82.8% of his load)—indicating a strong workload imbalance toward Hardware and especially Luke Wilson; each other category is ≤6.6% (Software 33, Network 22, Inquiry / Help 20, Database 19).",
+      "score": 0.3424536095800693
+    }
+  ],
+  "score_summary": 0.36625856112021277,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.37787686325308273,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "Hardware dominates with 406 of 500 incidents (81.2%), while Luke Wilson handles the most overall (116, 23.2%)—96 of which are Hardware (82.8% of his load)—indicating a strong workload imbalance toward Hardware and especially Luke Wilson; each other category is ≤6.6% (Software 33, Network 22, Inquiry / Help 20, Database 19).",
+      "gt_insight": "hardware incidents is significantly higher than others",
+      "score": 0.873910180218415
+    },
+    {
+      "pred_insight": "Hardware dominates with 406 of 500 incidents (81.2%), while Luke Wilson handles the most overall (116, 23.2%)—96 of which are Hardware (82.8% of his load)—indicating a strong workload imbalance toward Hardware and especially Luke Wilson; each other category is ≤6.6% (Software 33, Network 22, Inquiry / Help 20, Database 19).",
+      "gt_insight": "Most of the hardware incidents are related to printer issues",
+      "score": 0.29052318068529626
+    },
+    {
+      "pred_insight": "With 500 incidents over roughly 13 months and 5 assignees, an even distribution would be about 7–8 incidents per assignee per month, so a sustained average above ~12/month or below ~4/month for any assignee would indicate a meaningful workload imbalance.",
+      "gt_insight": "location is not specified in the dataset nor in the short description",
+      "score": 0.12478366478049892
+    },
+    {
+      "pred_insight": "Hardware dominates with 406 of 500 incidents (81.2%), while Luke Wilson handles the most overall (116, 23.2%)—96 of which are Hardware (82.8% of his load)—indicating a strong workload imbalance toward Hardware and especially Luke Wilson; each other category is ≤6.6% (Software 33, Network 22, Inquiry / Help 20, Database 19).",
+      "gt_insight": "There is not a significant increase in hardware incidents over time, they are relatively stable and high compared to toher categories",
+      "score": 0.22229042732812082
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.7661560801258394,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.4957120336366936
+}

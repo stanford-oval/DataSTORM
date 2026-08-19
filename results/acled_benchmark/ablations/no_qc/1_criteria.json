@@ -1,0 +1,143 @@
+{
+  "prompt": "Do a deep research on Petro's presidency in Columbia and Columbia's conflict summary and outlook, as if we are at the end of 2024 heading into 2025",
+  "criteria": [
+    {
+      "name": "Shifts in Total Peace approach",
+      "description": "Assess how the administration balances negotiation with coercive measures, and how tactical adjustments affect conflict dynamics across regions."
+    },
+    {
+      "name": "Ceasefire durability and compliance",
+      "description": "Evaluate patterns of ceasefire implementation, violations, and their impact on confrontation levels with security forces and among armed groups."
+    },
+    {
+      "name": "Regionalization of peace talks",
+      "description": "Analyze outcomes of localized negotiation frameworks involving subnational authorities and civil society, and whether violence reductions are geographically concentrated."
+    },
+    {
+      "name": "Spillover and displacement effects",
+      "description": "Track whether violence decreases in prioritized areas coincide with increases in adjacent or excluded municipalities, including displacement and confinement trends."
+    },
+    {
+      "name": "Inter-group competition over illicit economies",
+      "description": "Examine how control over drug trafficking and illegal mining shapes armed group strategies, competition intensity, and civilian targeting."
+    },
+    {
+      "name": "Fragmentation within armed groups",
+      "description": "Monitor splits, defections, and internal rifts that alter chains of command and conflict patterns, including the emergence of new factions."
+    },
+    {
+      "name": "Retaliation and adaptation to state pressure",
+      "description": "Assess how armed groups shift tactics in response to renewed military operations, including changes in targeting, geography, and funding sources."
+    },
+    {
+      "name": "Civilian protection outcomes",
+      "description": "Evaluate trends in violence against civilians and exposure to conflict, including intimidation, selective killings, and restrictions on movement."
+    },
+    {
+      "name": "Border dynamics and external drivers",
+      "description": "Analyze how security conditions and political developments in neighboring countries affect cross-border trafficking, alliances, and safe havens."
+    },
+    {
+      "name": "Local governance and community participation",
+      "description": "Assess the role of local authorities and civil society in shaping negotiations, monitoring compliance, and sustaining violence reductions."
+    },
+    {
+      "name": "Implementation capacity in contested areas",
+      "description": "Evaluate the state’s ability to expand presence and services in prioritized territories to consolidate gains and prevent armed group re-entry."
+    },
+    {
+      "name": "Coordination among negotiation tracks",
+      "description": "Examine coherence between regional dialogues and national-level talks to avoid undercutting agreements or triggering escalations elsewhere."
+    },
+    {
+      "name": "Economic incentives and alternative livelihoods",
+      "description": "Consider the availability and effectiveness of legal economic options that can reduce reliance on illicit economies driving the conflict."
+    },
+    {
+      "name": "Judicial and accountability mechanisms",
+      "description": "Assess progress in enforcing sanctions for violations, protecting human rights, and providing guarantees that support durable agreements."
+    },
+    {
+      "name": "Conflict trajectory outlook",
+      "description": "Synthesize indicators to project hotspots, likely escalations, and opportunities for de-escalation in the coming period under varying political scenarios."
+    }
+  ],
+  "criterion_scores": [
+    {
+      "name": "Shifts in Total Peace approach",
+      "score": 0.9,
+      "explanation": "The article closely analyzes how Petro’s dialogue-first strategy and broad ceasefires functioned in practice, highlighting a negotiation-heavy approach without adequate coercive control or verification. It details tactical adaptation by armed groups (substituting open clashes with extortion, kidnapping, curfews) and notes uneven coercive enforcement and thin state presence. It links policy design to observed dynamics across regions and time. Minor gap: less explicit mapping of specific state coercive operations or force posture changes by region."
+    },
+    {
+      "name": "Ceasefire durability and compliance",
+      "score": 0.85,
+      "explanation": "The piece argues that ceasefires became “adaptation windows,” citing ELN truces unraveling, uneven effects in Antioquia vs. Cauca during ceasefire windows, and recurrent spikes in battles and civilian targeting in mid-to-late 2024. It references compliance problems and lack of monitoring. Some details on formal compliance mechanisms and verified violation counts are not deeply quantified."
+    },
+    {
+      "name": "Regionalization of peace talks",
+      "score": 0.6,
+      "explanation": "It mentions localized bargaining with armed groups, municipal dynamics, and suggests corridor-by-corridor enforcement with local buy-in. However, it does not systematically analyze formal regionalized negotiation frameworks, outcomes with subnational authorities, or civil society’s institutional role in talks. Geographic concentration of violence is discussed, but not tied explicitly to formal regional peace processes."
+    },
+    {
+      "name": "Spillover and displacement effects",
+      "score": 0.8,
+      "explanation": "The article explicitly discusses displacement spikes tracking escalations near Venezuela and along rent corridors, and contrasts departmental increases (Cauca, Arauca) with declines (Antioquia, Córdoba), arguing redistribution rather than de-escalation. While qualitative links are clear, displacement metrics and adjacent-municipality spillover mapping could be more granular."
+    },
+    {
+      "name": "Inter-group competition over illicit economies",
+      "score": 0.9,
+      "explanation": "It centers illicit economies—coca, contraband, illegal mining—as the mechanism shaping strategies, competition intensity, and civilian coercion. It locates hotspots (Cauca, Catatumbo, Tumaco, Nariño, Arauca), describes taxation, checkpoints, and kidnapping as tools to control rents. Limited explicit detailing of specific inter-group clashes over sites, but the economic logic and geography are strong."
+    },
+    {
+      "name": "Fragmentation within armed groups",
+      "score": 0.6,
+      "explanation": "The article references a splintered landscape (ELN, Gulf Clan, FARC dissidents) and frequent involvement of ‘Unidentified Armed Group’, implying fragmentation and opacity. However, it lacks detailed tracking of specific splits, defections, leadership rifts, or emergent factions over time and how those altered chains of command."
+    },
+    {
+      "name": "Retaliation and adaptation to state pressure",
+      "score": 0.75,
+      "explanation": "It emphasizes tactical substitution during ceasefires and persistence of battles among non-state groups and with state forces, and mentions renewed surges in mid-to-late 2024. It is less specific about concrete renewed military operations, targeted offensives, and corresponding changes in geography or funding sources beyond general adaptation."
+    },
+    {
+      "name": "Civilian protection outcomes",
+      "score": 0.9,
+      "explanation": "Strong coverage of trends in civilian targeting, intimidation, selective killings (social and indigenous leaders in Cauca), kidnappings, curfews, and movement restrictions. It quantifies incidents and deaths, names hotspots, and links to ceasefire periods. Could add more on state protection schemes’ efficacy, but outcomes are well analyzed."
+    },
+    {
+      "name": "Border dynamics and external drivers",
+      "score": 0.85,
+      "explanation": "The piece analyzes Venezuela and Ecuador border corridors, cross-border logistics/sanctuary, safe havens, and correlations with clashes/displacement in adjacent departments. It connects dollarization and market dynamics in La Parada. Limited discussion of political developments in neighbors beyond operational effects."
+    },
+    {
+      "name": "Local governance and community participation",
+      "score": 0.65,
+      "explanation": "It portrays municipal weakness, bargaining at gunpoint, and threats to community/indigenous leaders. It recommends corridor-level packages with policing and justice. However, it provides limited evidence on structured roles of local authorities/civil society in shaping negotiations or monitoring compliance and sustaining reductions."
+    },
+    {
+      "name": "Implementation capacity in contested areas",
+      "score": 0.8,
+      "explanation": "It assesses thin municipal capacity, fiscal squeeze, energy transition timing reducing revenues, and the inability to extend verified presence and services. It calls for enforcement and service packages, cadastral/competition enforcement. Could further detail specific state deployments, service rollouts, or institutional capacity metrics."
+    },
+    {
+      "name": "Coordination among negotiation tracks",
+      "score": 0.55,
+      "explanation": "The article notes that national ceasefires were brittle and that effects were uneven across territories, but it does not deeply analyze coordination between regional dialogues and national talks or how incoherence may have undercut agreements or displaced violence elsewhere."
+    },
+    {
+      "name": "Economic incentives and alternative livelihoods",
+      "score": 0.7,
+      "explanation": "It discusses macroeconomic slowdown, tax reform constraints, energy transition impacts on peripheral economies, and the need for market enforcement to crowd in legal commerce. However, it provides limited concrete analysis of alternative livelihood programs (e.g., crop substitution, mining formalization) and their effectiveness."
+    },
+    {
+      "name": "Judicial and accountability mechanisms",
+      "score": 0.45,
+      "explanation": "The piece notes lack of monitoring/verification and impunity implied by ‘unidentified’ perpetrators, but it barely covers judicial responses, sanctions for violations, human rights protections, or accountability structures supporting durable agreements."
+    },
+    {
+      "name": "Conflict trajectory outlook",
+      "score": 0.85,
+      "explanation": "It synthesizes indicators to project continued risk in border and coca corridors (Cauca, Nariño, Catatumbo, Arauca), highlights required corridor-by-corridor enforcement, protection for leaders and logistics chains, and fiscal sequencing for transition. It offers scenario-sensitive recommendations, though explicit hotspot projections and triggers could be more granular."
+    }
+  ],
+  "overall_score": 0.7433333333333334
+}

@@ -1,0 +1,12 @@
+{
+  "name": "rerank_best_insights_preempt",
+  "version": 2,
+  "type": "text",
+  "labels": [
+    "production",
+    "latest"
+  ],
+  "tags": [],
+  "config": {},
+  "prompt": "# instruction\nYou are given a list of insights related to a topic. Your task is to select the most interesting and relevant insights capped at {{ max_num_insights }}.\nYou should NOT select similar insight twice.\n\nThe topic is: {{ topic }}\n\nThe database you are using is: {{ db_description }}\n\n{% if thesis %}\n## Guiding Thesis\nThe article being built argues: \"{{ thesis }}\"\n\nPrioritize insights that are most useful for developing this argument — this includes:\n- **Supporting evidence**: findings that directly build or strengthen the thesis\n- **Qualifying evidence**: findings that add nuance, scope limits, or important caveats\n- **Refuting evidence**: findings that challenge or contradict the thesis — strong analytical articles steel-man\ncounter-arguments rather than ignore them\n\nDeprioritize insights that are entirely off-topic or redundant with others already selected.\n{% endif %}\n\nOutput a JSON dict, where each key is a node_id and the value is the insight for that node_id.\n\n# input\n{{ input }}"
+}

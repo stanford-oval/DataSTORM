@@ -1,0 +1,143 @@
+{
+  "prompt": "What are the threats in Kenya with respect to communal militias and al-Shabaab. Focus on November 2024.",
+  "criteria": [
+    {
+      "name": "Political transition stability",
+      "description": "Assess whether leadership changes and impeachment fallout translate into sustained unrest or are contained, and how appointments are used to rebalance community and party interests."
+    },
+    {
+      "name": "Communal militia flashpoints",
+      "description": "Identify hotspots where land, resource access, or administrative changes trigger rapid escalations in inter-communal violence and examine the underlying grievances fueling mobilization."
+    },
+    {
+      "name": "State response toolkit",
+      "description": "Evaluate the mix of security deployments, legal designations, and political mediation employed to quell communal clashes, and how these measures affect short-term calm and long-term conflict dynamics."
+    },
+    {
+      "name": "Land and displacement tensions",
+      "description": "Analyze how development or resettlement schemes intersect with ancestral claims, consultation deficits, and environmental pressures to generate conflict between farmers and pastoralists."
+    },
+    {
+      "name": "Al-Shabaab border threat",
+      "description": "Track the concentration of insurgent attacks near the frontier, especially against security installations and convoys, and assess patterns in targeting, tactics, and geographic clustering."
+    },
+    {
+      "name": "Cross-border dynamics",
+      "description": "Examine how militant safe havens and activity just across the border enable incursions, and how regional political-military frictions shape Kenya’s willingness and options to respond."
+    },
+    {
+      "name": "Security force posture and deterrence",
+      "description": "Assess shifts in military and police posture, including forward operating bases, aerial messaging, and potential cross-border strikes, and whether they deter or displace attack patterns."
+    },
+    {
+      "name": "Community-politics interplay",
+      "description": "Consider how local and national political actors leverage communal conflicts for influence or reconciliation, and how elite bargaining affects on-the-ground security outcomes."
+    },
+    {
+      "name": "Riot and protest environment",
+      "description": "Monitor the prevalence and geography of riot and protest activity relative to armed clashes, and evaluate whether broader dissent interacts with or remains separate from militia and insurgent violence."
+    },
+    {
+      "name": "Humanitarian and civilian impact",
+      "description": "Evaluate displacement risks, civilian casualties, and access disruptions stemming from both communal clashes and insurgent activity, including impacts on essential services and mobility."
+    },
+    {
+      "name": "Temporal escalation patterns",
+      "description": "Identify surges and lulls in violence over the period, noting whether incidents cluster around key political events or security operations and how quickly violence diffuses or spreads."
+    },
+    {
+      "name": "Local security sector capacity",
+      "description": "Assess the resilience and vulnerabilities of local security units near the border and in conflict-prone counties, including responsiveness, coordination, and exposure to repeated attacks."
+    },
+    {
+      "name": "Conflict spillover risks",
+      "description": "Analyze the potential for communal violence in one locality to inspire similar clashes elsewhere, and for insurgent activity in adjacent regions to cascade across administrative boundaries."
+    },
+    {
+      "name": "Information and messaging effects",
+      "description": "Consider how official warnings, public reconciliation forums, and elite statements influence community behavior, perceptions of security, and the likelihood of reprisals."
+    },
+    {
+      "name": "Long-term conflict drivers",
+      "description": "Probe structural drivers—resource scarcity, governance deficits, marginalization, and border economy dynamics—that sustain both communal militias and insurgent recruitment over time."
+    }
+  ],
+  "criterion_scores": [
+    {
+      "name": "Political transition stability",
+      "score": 0.25,
+      "explanation": "The article does not discuss leadership changes, impeachment fallout, or appointments used to rebalance interests. It briefly notes stability impacts but offers no analysis of political transition dynamics in November 2024."
+    },
+    {
+      "name": "Communal militia flashpoints",
+      "score": 0.75,
+      "explanation": "Identifies counties (Turkana, Samburu, Meru, Baringo, West Pokot) and mentions cross-border Turkana–Dassanach incident and Meru raids. References resource competition and illicit arms as drivers. However, lacks detailed mapping of specific hotspots, triggers (e.g., administrative changes), and deeper grievance analysis."
+    },
+    {
+      "name": "State response toolkit",
+      "score": 0.5,
+      "explanation": "Mentions security operations, peace caravans, inter-community truces, and disarmament aims; also notes intensified border patrols and manhunts against al-Shabaab. Missing detail on legal designations, curfews, states of emergency, mediation by national officials, and assessment of short-term vs. long-term effects."
+    },
+    {
+      "name": "Land and displacement tensions",
+      "score": 0.5,
+      "explanation": "Touches on resource competition (pasture, water) and flight of families in fear after raids. Does not analyze development/resettlement schemes, ancestral claims, consultation deficits, or environmental pressures in depth, nor farmer–pastoralist dynamics beyond generalities."
+    },
+    {
+      "name": "Al-Shabaab border threat",
+      "score": 0.75,
+      "explanation": "Covers concentration in Mandera, Wajir, Garissa; provides examples of IED/ambush and camp raids, mentions frequency (“at least ten incidents”), tactics, and targeting. Limited assessment of geographic clustering beyond county-level and lacks systematic pattern analysis over the month."
+    },
+    {
+      "name": "Cross-border dynamics",
+      "score": 0.5,
+      "explanation": "Notes al-Shabaab incursions from Somalia and militants fleeing back across the border; mentions Ethiopian Dassanach attack into Turkana. Does not analyze safe havens, Somalia-side dynamics, or regional political-military frictions influencing Kenya’s options."
+    },
+    {
+      "name": "Security force posture and deterrence",
+      "score": 0.5,
+      "explanation": "References intensified border patrols, manhunts, and general security operations. Lacks detail on forward operating bases, aerial reconnaissance/messaging, or cross-border strikes, and provides no evaluation of deterrence or displacement effects on attack patterns."
+    },
+    {
+      "name": "Community-politics interplay",
+      "score": 0.25,
+      "explanation": "Mentions local leaders/elders organizing peace caravans and truces. Does not examine how political actors leverage conflicts for influence or reconciliation, nor elite bargaining effects on security outcomes."
+    },
+    {
+      "name": "Riot and protest environment",
+      "score": 0.0,
+      "explanation": "No discussion of protests or riots or their relationship to armed clashes."
+    },
+    {
+      "name": "Humanitarian and civilian impact",
+      "score": 0.5,
+      "explanation": "Notes killings, destruction of property, and displacement/families fleeing; mentions civilian targeting by al-Shabaab in general terms. Lacks quantified displacement, access disruptions, essential services impact, or mobility constraints."
+    },
+    {
+      "name": "Temporal escalation patterns",
+      "score": 0.25,
+      "explanation": "Situates events in November 2024 and mentions mid-/late-November incidents, but does not analyze surges/lulls, clustering around political events or operations, or diffusion/spread dynamics."
+    },
+    {
+      "name": "Local security sector capacity",
+      "score": 0.5,
+      "explanation": "Shows vulnerabilities via successful attacks on police camps and ambushes; indicates responsiveness through repelled attack and manhunts. Does not assess coordination, resilience over time, or repeated exposure across units/locations."
+    },
+    {
+      "name": "Conflict spillover risks",
+      "score": 0.5,
+      "explanation": "Mentions cross-border pastoralist attack from Ethiopia and al-Shabaab incursions from Somalia, implying spillover. Does not analyze how violence in one locality inspires similar clashes elsewhere within Kenya or cascading across administrative boundaries."
+    },
+    {
+      "name": "Information and messaging effects",
+      "score": 0.25,
+      "explanation": "Briefly references peace caravans and truces but does not analyze official warnings, public forums’ messaging effects, or elite statements shaping behavior and reprisals."
+    },
+    {
+      "name": "Long-term conflict drivers",
+      "score": 0.5,
+      "explanation": "Identifies resource scarcity (pasture, water), illicit firearms, and border dynamics as drivers. Does not delve into governance deficits, marginalization, or border economy specifics that sustain recruitment and mobilization over time."
+    }
+  ],
+  "overall_score": 0.43333333333333335
+}

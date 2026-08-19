@@ -1,0 +1,75 @@
+{
+  "dataset_id": 70,
+  "dataset_path": "data/notebooks/flag-70.json",
+  "metadata": {
+    "category": "Finance Management",
+    "dataset_description": "The dataset consists of 500 entries simulating ServiceNow fm_expense_line table, which records various attributes of financial expenses. Key fields include 'number', 'opened_at', 'amount', 'state', 'short_description', 'ci', 'user', 'department', 'category', 'process_date', 'source_id', and 'type'. This table documents the flow of financial transactions by detailing the amount, departmental allocation, and the nature of each expense. Provides a clear view of organizational expenditures across different categories, highlighting both the timing and the approval state of each financial entry.",
+    "goal": "To detect and investigate instances of repeated identical expense claims by individual users, determining whether these repetitions are fraudulent or due to misunderstandings of the expense policy.",
+    "header": "Expense Claim Patterns and Fraud Analysis (Flag 70)",
+    "role": "Compliance and Audit Analyst"
+  },
+  "predicted_insights": [
+    "With 0 repeated-claim clusters across 53 users and 500 claims, the data suggests low risk of duplicate-claim behavior in this period, likely due to the high diversity of amounts and items that makes accidental repeats within 30 days uncommon.",
+    "Zero repeats were detected across all users, but with 240 of 500 records (48%) missing a source_id, potential duplicates may be obscured, so cross-checking other fields (e.g., amount and dates) is advisable.",
+    "Across all 53 users (0%), no such cross-state duplicate resubmissions were found, indicating a very low incidence of identical re-filings after declines despite 500 total claims and 389 unique amounts.",
+    "Only 1.9% of users (1 of 53) showed this repeated identical same-day claim behavior across 500 claims, suggesting it is rare overall but may warrant targeted review of that user’s submissions.",
+    "Across 500 claims from 53 users—featuring high variability in amounts (389 unique), descriptions (429 unique), and configuration items (367 unique)—there were 0 repeat identical submissions, indicating little evidence of copy-paste duplication behavior, though 202 missing processed dates suggest some outcomes may still be unresolved.",
+    "Out of 500 expenses from 53 users, zero repeated (user, amount, category, ci) pairs were detected, indicating an absence of exact-repeat claims under these criteria and suggesting a low risk of straightforward duplicate-claim fraud in this pattern.",
+    "Because 99% of Product Management’s claims are repeated by the same users on identical amount and category while all other departments show 0%, the issue appears concentrated and likely reflects a department-specific process or policy misunderstanding rather than an organization-wide pattern—making Product Management the clear priority for review.",
+    "Since only 25 of 100 duplicate claim entries are system-generated, the remaining 75% with non-automatic descriptions likely reflect user-driven repeats and should be prioritized for review.",
+    "All top repeated clusters (100%) are Travel-related and largely involve automated or equipment/asset creation lines, totaling 28 repeated occurrences, suggesting a systemic or policy-driven source of duplication rather than isolated user behavior.",
+    "More than half of repeated identical claim records (53.6%) were ultimately Processed, while 21.4% were Declined and 25.0% remain unresolved (Pending/Submitted), indicating repeated submissions are more often legitimate than fraudulent but still merit scrutiny.",
+    "Across 500 claims from 53 users—with 389 unique amounts, 429 unique short descriptions, and 367 unique configuration items—no exact duplicates were detected, suggesting low evidence of simple copy-paste fraud and indicating that any fraud detection should focus on near-duplicates or timing patterns instead.",
+    "All near-duplicates (95 claims) occur in the Travel category—100% of near-duplicates—while Assets, Services, and Miscellaneous show none, indicating duplication risk is concentrated in travel expenses."
+  ],
+  "predicted_summary": "Exact copy submissions appear absent: there were zero clusters of identical claims by the same user within 30 days when matching on amount, category, short_description, and ci (maximum cluster size 0), zero cases of a source_id tied to multiple expense numbers, and zero instances of identical claim pairs where one was Declined and the other Submitted/Processed.\nNear-duplicates under a looser match are common: 19.0% of all claims were by the same user for the same amount and category within seven days, and at least one user submitted same-day repeats for the same amount and category; when also requiring the same ci, no duplicate pairs were found (median gap not defined), and 25.0% of these same-user same-amount same-category repeats had short_descriptions starting with “Automatically generated.”\nDuplicate behavior is highly concentrated in one group: Product Management has the highest same-user duplicate rate on matching amount and category at 99.0% (99 of 100 claims), far exceeding other departments.",
+  "score_insights": 0.6427027434002707,
+  "score_insights_dict": [
+    {
+      "gt_insight": "Processing delays vary significantly across departments, with some departments handling requests faster on average than others.",
+      "pred_insight": "Across 500 claims from 53 users—featuring high variability in amounts (389 unique), descriptions (429 unique), and configuration items (367 unique)—there were 0 repeat identical submissions, indicating little evidence of copy-paste duplication behavior, though 202 missing processed dates suggest some outcomes may still be unresolved.",
+      "score": 0.280306459498973
+    },
+    {
+      "gt_insight": "There is a high incidence of repeated identical expense claims",
+      "pred_insight": "All near-duplicates (95 claims) occur in the Travel category—100% of near-duplicates—while Assets, Services, and Miscellaneous show none, indicating duplication risk is concentrated in travel expenses.",
+      "score": 0.8002502340800378
+    },
+    {
+      "gt_insight": "There is a significant repetition in expense claims by a single user",
+      "pred_insight": "Because 99% of Product Management’s claims are repeated by the same users on identical amount and category while all other departments show 0%, the issue appears concentrated and likely reflects a department-specific process or policy misunderstanding rather than an organization-wide pattern—making Product Management the clear priority for review.",
+      "score": 0.5991282669535984
+    },
+    {
+      "gt_insight": "There is a concentration of repeated claims in the Travel category",
+      "pred_insight": "All near-duplicates (95 claims) occur in the Travel category—100% of near-duplicates—while Assets, Services, and Miscellaneous show none, indicating duplication risk is concentrated in travel expenses.",
+      "score": 0.8911260130684736
+    }
+  ],
+  "score_summary": 0.2874817316689521,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.7057586801878699,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "Because 99% of Product Management’s claims are repeated by the same users on identical amount and category while all other departments show 0%, the issue appears concentrated and likely reflects a department-specific process or policy misunderstanding rather than an organization-wide pattern—making Product Management the clear priority for review.",
+      "gt_insight": "Processing delays vary significantly across departments, with some departments handling requests faster on average than others.",
+      "score": 0.399443160468546
+    },
+    {
+      "pred_insight": "Because 99% of Product Management’s claims are repeated by the same users on identical amount and category while all other departments show 0%, the issue appears concentrated and likely reflects a department-specific process or policy misunderstanding rather than an organization-wide pattern—making Product Management the clear priority for review.",
+      "gt_insight": "There is a high incidence of repeated identical expense claims",
+      "score": 0.8157087865652439
+    },
+    {
+      "pred_insight": "Because 99% of Product Management’s claims are repeated by the same users on identical amount and category while all other departments show 0%, the issue appears concentrated and likely reflects a department-specific process or policy misunderstanding rather than an organization-wide pattern—making Product Management the clear priority for review.",
+      "gt_insight": "There is a significant repetition in expense claims by a single user",
+      "score": 0.7237858486635755
+    },
+    {
+      "pred_insight": "All near-duplicates (95 claims) occur in the Travel category—100% of near-duplicates—while Assets, Services, and Miscellaneous show none, indicating duplication risk is concentrated in travel expenses.",
+      "gt_insight": "There is a concentration of repeated claims in the Travel category",
+      "score": 0.8840969250541143
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.10098438381298398,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.5818662925346902
+}

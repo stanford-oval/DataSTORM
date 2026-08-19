@@ -1,0 +1,65 @@
+{
+  "dataset_id": 19,
+  "dataset_path": "data/notebooks/flag-19.json",
+  "metadata": {
+    "category": "Financial Management",
+    "dataset_description": "The dataset consists of 500 entries simulating ServiceNow fm_expense_line table, which records various attributes of financial expenses. Key fields include 'number', 'opened_at', 'amount', 'state', 'short_description', 'ci', 'user', 'department', 'category', 'process_date', 'source_id', and 'type'. This table documents the flow of financial transactions by detailing the amount, departmental allocation, and the nature of each expense. Provides a clear view of organizational expenditures across different categories, highlighting both the timing and the approval state of each financial entry.",
+    "goal": "To uncover and address the reasons behind the varying rates of expense rejections across departments to improve overall financial management within the organization.",
+    "header": "Expense Management Discrepancies (Flag 19)",
+    "role": "Financial Compliance Analyst"
+  },
+  "predicted_insights": [
+    "IT’s rejection rate (44.19%) is about 7–9 times higher than Sales (4.92%) and Customer Support (5.99%) and, although IT submits only 8.6% of all expenses (43/500), it accounts for 41.3% of all declines (19/46), highlighting a concentrated issue in IT’s expense process.",
+    "IT exhibits consistently elevated rejection rates across all categories (Assets 0.565, Miscellaneous 0.333, Services 0.286, Travel 0.300), whereas Product Management records 0.0 in every category and HR stands out for a high Travel rejection rate (0.500), indicating department- and category-specific approval rigor.",
+    "IT’s top user rejection rate (53.85%) is over 2× Sales’ (33.33%) and 3–6× other departments’ leaders, while Product Management’s top user had 0 rejections across 12 submissions—highlighting stark department-level disparities that suggest the greatest process or policy improvement opportunity lies in IT (and secondarily Sales).",
+    "In 5 of 7 departments, expenses at/below the median are rejected more often than above-median ones (e.g., IT 50.00% vs 38.10%, HR 28.57% vs 0.00%), while Finance is the exception with stricter rejection on higher amounts (18.18% vs 0.00%), and Product Management shows no rejections in either tier—indicating department-specific controls where smaller claims often face more scrutiny except in Finance.",
+    "Assets emerges as the most frequently top-rejected category (in 3 of 7 departments), with IT’s Assets showing an exceptionally high 65% rejection rate (13 of 20), suggesting asset-related spend—especially in IT—may be a prime target for policy clarification or pre-approval controls.",
+    "IT shows persistently elevated and volatile rejection rates—including two months at 100% (2024-02 and 2024-03) and several at 50–60%—while Finance has sharp spikes to 50% in 2024-02 and 2024-04 despite many 0% months; by contrast, Customer Support stays low (0–21.43%, mostly under 14%), Sales peaks at 25% in 2024-03, HR has a one-off 66.67% in 2023-11, and Product Management is consistently 0% when present—indicating that root-cause analysis should prioritize IT (systemic issues) and Finance (episodic spikes).",
+    "The median processed expense varies markedly across departments—from 3045 (HR) to 5832 (Product Management), a 91.6% difference—implying materially different spending baselines that may merit department-specific controls, while the absence of completed declines suggests most rejections likely occur before completion (e.g., during Pending/Submitted stages).",
+    "IT’s rejection rates are both the highest and most volatile—peaking for mid-range amounts at 66.7% in Q2—while Finance rejects only mid-range expenses (25.0% in Q3) and Product Management has zero rejections in every quartile; meanwhile, Customer Support and Sales generally show lower and decreasing decline rates as amounts increase.",
+    "Above 2,577, IT accounts for 54% of all declines (13 of 24) despite only 9.5% of submissions (24 of 253), with an aggregate high-amount rejection rate of 54% versus 3.9% in Customer Support and 4.6% in Sales—pointing to department-specific policy or review intensity as the key driver rather than amount alone.",
+    "Only 2 of 7 departments (HR and Customer Support) see higher rejection with missing source_id, with HR showing a large +41.67 pp gap, while 4 departments (including IT at −19.23 pp and Finance at −13.33 pp) actually have higher rejection when source_id is populated—indicating department-specific processes drive rejections more than the mere presence of source_id.",
+    "High-amount expenses are not uniformly more likely to be rejected—only IT (+16.67 pp: 66.67% vs 50.00%) and Finance (+13.89 pp: 25.00% vs 11.11%) show higher top-quartile rejection, while Customer Support, Sales, Development, and HR show lower rejection for high-amounts by 2.84–25.00 pp, with Product Management at 0% across both groups (noting small top-quartile sample sizes in several departments).",
+    "Processed decision times vary widely across departments (median ≈94 hours overall, ranging from 33.96 hours in IT to 191.57 hours in Product Management—about a 5.6x spread), and the lack of computable Declined medians suggests either very few declines or missing processing timestamps, both of which warrant review to understand rejection patterns."
+  ],
+  "predicted_summary": "IT is the clear outlier in expense rejections: it has the highest overall rate at 44.19% (19/43), stays elevated every month among completed expenses (often around 50% and peaking at 100% in Feb–Mar 2024), and rejects across all amount ranges (quartiles: 38.5%–66.7%). Within IT, the Assets category is the main hotspot (65.0% rejected, 13/20), and individual contributors show high rates (e.g., 53.85% for the top submitter with ≥5 entries).\nRejection likelihood depends on expense size in different ways by department: smaller expenses tend to be rejected more in Customer Support (8.96% at/below median vs 3.01% above) and Sales (6.56% vs 3.28%), and especially in HR (28.57% vs 0.00%), with quartiles echoing this (e.g., Customer Support 10.6% in the lowest quartile vs 4.8% in the highest; Sales 9.1% vs 2.9%). Finance shows the opposite pattern—larger expenses are more often rejected (18.18% above median vs 0.00% below; top quartile 25.0% vs 11.11% for the rest)—while IT remains high regardless of amount (e.g., top quartile 66.67% vs 50.00% for the bottom three quartiles).\nProcess and category signals align with higher rejections and vary by department: missing source_id is strongly associated with more rejections in HR (+41.67 percentage points, 50.00% vs 8.33%), but the reverse pattern appears in IT (−19.23 pp, 30.77% vs 50.00%). The highest-rejection categories differ by team—IT: Assets 65.0% (13/20); Finance: Assets 22.2% (2/9); Sales: Miscellaneous 25.0% (1/4); Customer Support: Miscellaneous 16.7% (1/6)—and within-department submitters show sizable variation (e.g., Sales 33.33% for the top frequent submitter; Customer Support 22.22%), indicating that documentation and category mix are key drivers of the observed differences.",
+  "score_insights": 0.6131386046480104,
+  "score_insights_dict": [
+    {
+      "gt_insight": "Significant Variance in Expense Rejection Rates Across Departments",
+      "pred_insight": "IT’s rejection rate (44.19%) is about 7–9 times higher than Sales (4.92%) and Customer Support (5.99%) and, although IT submits only 8.6% of all expenses (43/500), it accounts for 41.3% of all declines (19/46), highlighting a concentrated issue in IT’s expense process.",
+      "score": 0.7224618422158241
+    },
+    {
+      "gt_insight": "No Correlation Between the Number of Expense Reports Submitted and Rejection Rates",
+      "pred_insight": "IT’s rejection rate (44.19%) is about 7–9 times higher than Sales (4.92%) and Customer Support (5.99%) and, although IT submits only 8.6% of all expenses (43/500), it accounts for 41.3% of all declines (19/46), highlighting a concentrated issue in IT’s expense process.",
+      "score": 0.29379489605639936
+    },
+    {
+      "gt_insight": "Concentration of Declined Expenses Among Specific Users in IT Department",
+      "pred_insight": "IT’s rejection rate (44.19%) is about 7–9 times higher than Sales (4.92%) and Customer Support (5.99%) and, although IT submits only 8.6% of all expenses (43/500), it accounts for 41.3% of all declines (19/46), highlighting a concentrated issue in IT’s expense process.",
+      "score": 0.8231590756718076
+    }
+  ],
+  "score_summary": 0.5873583914213272,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.6842748074518449,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "IT’s top user rejection rate (53.85%) is over 2× Sales’ (33.33%) and 3–6× other departments’ leaders, while Product Management’s top user had 0 rejections across 12 submissions—highlighting stark department-level disparities that suggest the greatest process or policy improvement opportunity lies in IT (and secondarily Sales).",
+      "gt_insight": "Significant Variance in Expense Rejection Rates Across Departments",
+      "score": 0.8741557635933539
+    },
+    {
+      "pred_insight": "Above 2,577, IT accounts for 54% of all declines (13 of 24) despite only 9.5% of submissions (24 of 253), with an aggregate high-amount rejection rate of 54% versus 3.9% in Customer Support and 4.6% in Sales—pointing to department-specific policy or review intensity as the key driver rather than amount alone.",
+      "gt_insight": "No Correlation Between the Number of Expense Reports Submitted and Rejection Rates",
+      "score": 0.30047482251857305
+    },
+    {
+      "pred_insight": "IT’s rejection rate (44.19%) is about 7–9 times higher than Sales (4.92%) and Customer Support (5.99%) and, although IT submits only 8.6% of all expenses (43/500), it accounts for 41.3% of all declines (19/46), highlighting a concentrated issue in IT’s expense process.",
+      "gt_insight": "Concentration of Declined Expenses Among Specific Users in IT Department",
+      "score": 0.8781938362436079
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.10121516613906167,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.8228339099631846
+}

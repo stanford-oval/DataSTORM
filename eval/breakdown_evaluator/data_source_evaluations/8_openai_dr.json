@@ -1,0 +1,202 @@
+{
+  "total_insights": 19,
+  "total_classified": 19,
+  "acled_count": 15,
+  "non_acled_count": 4,
+  "pct_acled": 0.7894736842105263,
+  "details": [
+    {
+      "evidence": "August–September 2024 saw intensified artillery shelling and aerial bombardments in Sudan’s civil war, with SAF increasing airstrikes and RSF escalating shelling, especially in Khartoum state and Darfur.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general summary about increased shelling and airstrikes and mentions locations, but it lacks specific ACLED-derived event counts, fatalities, actor-level event data, or explicit attribution to ACLED. It reads as broad analysis, not a direct use of ACLED event data.",
+      "source_context": "Opening summary of overall trend during Aug–Sep 2024."
+    },
+    {
+      "evidence": "Civilian areas—including hospitals, markets, and residential neighborhoods—were frequently hit, causing significant civilian casualties.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general description about civilian areas being frequently hit and causing casualties, without citing specific events, counts, locations, dates, or attribution to ACLED. It reads as narrative/summary rather than data explicitly tied to ACLED event records.",
+      "source_context": "Opening summary noting civilian targets and impacts."
+    },
+    {
+      "evidence": "On August 1, 2024, shelling struck the central market in Al Sahafa, Khartoum, killing 5 people and injuring over 20; the attackers were likely SAF.",
+      "is_acled_data": true,
+      "reasoning": "The evidence describes a specific conflict event with date, location, tactic (shelling), suspected actor (SAF), and casualties, which aligns with ACLED-style event data and incident reporting.",
+      "source_context": "August section detailing early August incidents in Khartoum."
+    },
+    {
+      "evidence": "On August 1, SAF and RSF exchanged artillery fire in multiple Khartoum neighborhoods, including SAF targeting RSF in the Sports City area and RSF shelling the Army’s General Command; casualties were not immediately known.",
+      "is_acled_data": true,
+      "reasoning": "The evidence describes a specific conflict event with actors (SAF vs RSF), tactics (artillery fire), locations (Khartoum neighborhoods incl. Sports City and Army General Command), date (Aug 1), and casualties status—exactly the type of event-level detail tracked in ACLED battle/explosions data. This aligns with ACLED-style incident reporting and could plausibly be derived from ACLED.",
+      "source_context": "August section on exchanges of artillery fire in Khartoum."
+    },
+    {
+      "evidence": "On August 2, SAF airstrikes on an RSF position at the Abu Shouk IDP camp in North Darfur reportedly killed dozens of RSF fighters and at least 13 civilians.",
+      "is_acled_data": true,
+      "reasoning": "The evidence describes a specific conflict event with actors (SAF vs RSF), location (Abu Shouk IDP camp, North Darfur), date (August 2), event type (airstrikes), and reported fatalities including civilians—details consistent with ACLED event data and battle/violence against civilians reporting.",
+      "source_context": "August section describing Abu Shouk camp airstrike and casualties."
+    },
+    {
+      "evidence": "On August 31, SAF airstrikes hit Mellit, North Darfur, killing 11 civilians and wounding 9.",
+      "is_acled_data": true,
+      "reasoning": "The evidence describes a specific conflict event with date, location, actors (SAF), event type (airstrike), and casualty figures, which aligns with ACLED’s event-based data and typical incident descriptions.",
+      "source_context": "Late August incidents detailing Mellit airstrike."
+    },
+    {
+      "evidence": "Also on August 31, RSF artillery struck an IDP center in Sennar, with initial reports of 6–15 civilians killed; later local accounts reported at least 21 killed and over 70 injured, attributed to RSF.",
+      "is_acled_data": true,
+      "reasoning": "The evidence describes a specific conflict event (RSF artillery strike on an IDP center in Sennar on August 31) with actor attribution, location, date, and casualty figures—exactly the type of incident-level data ACLED collects and reports.",
+      "source_context": "Late August Sennar shelling with updated casualty figures from Al-Monitor."
+    },
+    {
+      "evidence": "Late August air raids in North Kordofan wounded civilians and damaged homes.",
+      "is_acled_data": true,
+      "reasoning": "The statement references a specific conflict event (air raids in North Kordofan in late August causing civilian injuries and home damage), which aligns with ACLED’s event-based data on airstrikes, violence against civilians, locations, timing, and incident descriptions. This type of granular incident reporting is characteristic of ACLED data.",
+      "source_context": "August section noting spread of air raids to North Kordofan."
+    },
+    {
+      "evidence": "Late August airstrikes in West Darfur included a village strike that killed 1 civilian and injured 5.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites a specific conflict event with location, type (airstrike), date range (late August), and casualty figures, which aligns with ACLED’s event-based data (event descriptions and fatalities).",
+      "source_context": "August section mentioning West Darfur strike."
+    },
+    {
+      "evidence": "In early September, RSF intensified shelling of Omdurman’s Karari district, with barrages hitting Al Manara, Al Hattana, Wad Al Bakhit, and Omdurman Al-Thawra, resulting in roughly 11 civilian deaths and many injuries.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific conflict events: intensified RSF shelling, named neighborhoods in Omdurman, timeframe (early September), and resulting civilian fatalities and injuries. These are typical ACLED event-level details (actor, location, date, tactic, and casualty figures) that align with ACLED’s battle/explosions and violence against civilians data.",
+      "source_context": "September section describing RSF shelling in Karari neighborhoods around Sept 1."
+    },
+    {
+      "evidence": "In early September, shelling struck a crowded market in Sennar town, killing at least 21 civilians and wounding dozens; local medics attributed the attack to RSF.",
+      "is_acled_data": true,
+      "reasoning": "The evidence describes a specific conflict event with location (Sennar town), timing (early September 2024), event type (shelling), actors (RSF attributed), and casualties (at least 21 killed, dozens wounded). These elements align with ACLED’s event-based data and fatality figures commonly included in ACLED incident reports.",
+      "source_context": "September section on Sennar market shelling with attribution to RSF."
+    },
+    {
+      "evidence": "Mid-September fighting in Khartoum intensified, causing further civilian casualties and disrupting humanitarian aid, including closure of charity food kitchens.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general description of intensified fighting and humanitarian disruption without specific event counts, locations with dates, actor details, or casualty figures tied to ACLED. It reads like narrative/contextual reporting rather than data explicitly attributed to or derived from ACLED event records.",
+      "source_context": "September section noting mid-month battles and humanitarian impact."
+    },
+    {
+      "evidence": "On September 30, SAF conducted large-scale airstrikes across eastern, southern, and central Khartoum, reportedly killing dozens of RSF fighters and destroying artillery platforms and vehicles.",
+      "is_acled_data": true,
+      "reasoning": "The evidence describes a specific conflict event with date, actors (SAF vs RSF), locations (eastern, southern, central Khartoum), tactics (airstrikes), impacts (dozens of RSF fighters killed, equipment destroyed). This aligns with ACLED event descriptions, actor activity, and battle-related data commonly contained in ACLED.",
+      "source_context": "Late September section detailing SAF air campaign escalation."
+    },
+    {
+      "evidence": "On September 30, a SAF drone strike on Tuti Island in Khartoum killed one civilian volunteer aid worker involved in local relief efforts.",
+      "is_acled_data": true,
+      "reasoning": "The evidence describes a specific conflict event with date, location, actor (SAF), event type (drone strike/airstrike), target/victim (civilian aid worker), and fatality outcome—elements typically present in ACLED event data and incident descriptions during August–September 2024 in Sudan.",
+      "source_context": "Late September incident listing Tuti Island drone strike and casualty."
+    },
+    {
+      "evidence": "On September 30 in North Darfur’s Kutum, airstrikes killed at least two civilians and wounded six, and also killed two RSF members.",
+      "is_acled_data": true,
+      "reasoning": "The evidence provides a specific conflict event with date, location (Kutum, North Darfur), event type (airstrikes), actors (RSF members mentioned), and casualties (killed and wounded). This aligns with ACLED-style event data and casualty figures typical of ACLED incident reporting.",
+      "source_context": "Late September Darfur incidents noting Kutum airstrike impacts."
+    },
+    {
+      "evidence": "On September 30, airstrikes on Mellit, North Darfur, caused additional civilian fatalities.",
+      "is_acled_data": true,
+      "reasoning": "The evidence describes a specific conflict event (airstrikes), with date (September 30), location (Mellit, North Darfur), and impact (civilian fatalities), which aligns with ACLED’s event-based data on explosions/remote violence and fatalities.",
+      "source_context": "Late September note of further Mellit strike causing civilian deaths."
+    },
+    {
+      "evidence": "Throughout August and September, daily shelling and air attacks were recorded across Sudan, predominantly in Khartoum state and North Darfur, with per-incident deaths ranging from 0 to low double-digits.",
+      "is_acled_data": true,
+      "reasoning": "The statement cites daily shelling and air attacks across specific Sudan states with per-incident fatality ranges and a temporal window, which aligns with ACLED’s event-based data (locations, event types, temporal patterns, and fatality counts). While not explicitly attributed, the structure and metrics reflect ACLED-style conflict event reporting.",
+      "source_context": "Concluding assessment summarizing frequency, geography, and typical casualty range."
+    },
+    {
+      "evidence": "The period was characterized by relentless urban warfare and widespread destruction, with both SAF airpower and RSF artillery inflicting heavy damage on civilians and infrastructure.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general qualitative description of warfare and destruction without specific event counts, locations, dates, fatalities, or actor-level data attributed to ACLED. It reads as broad analysis rather than derived from ACLED event data or metrics.",
+      "source_context": "Concluding assessment of the nature and impact of the conflict during Aug–Sep 2024."
+    },
+    {
+      "evidence": "The synthesis draws on ACLED conflict event data for Aug–Sep 2024 and contemporary news reports (e.g., Radio Dabanga, Al-Monitor) detailing locations, actors, and casualties.",
+      "is_acled_data": true,
+      "reasoning": "The evidence explicitly states the synthesis draws on ACLED conflict event data for Aug–Sep 2024, covering locations, actors, casualties, and event details that align with ACLED’s datasets.",
+      "source_context": "Sources section explaining data and reporting used for the summary."
+    }
+  ],
+  "insights": [
+    {
+      "insight": "August–September 2024 saw intensified artillery shelling and aerial bombardments in Sudan’s civil war, with SAF increasing airstrikes and RSF escalating shelling, especially in Khartoum state and Darfur.",
+      "context": "Opening summary of overall trend during Aug–Sep 2024."
+    },
+    {
+      "insight": "Civilian areas—including hospitals, markets, and residential neighborhoods—were frequently hit, causing significant civilian casualties.",
+      "context": "Opening summary noting civilian targets and impacts."
+    },
+    {
+      "insight": "On August 1, 2024, shelling struck the central market in Al Sahafa, Khartoum, killing 5 people and injuring over 20; the attackers were likely SAF.",
+      "context": "August section detailing early August incidents in Khartoum."
+    },
+    {
+      "insight": "On August 1, SAF and RSF exchanged artillery fire in multiple Khartoum neighborhoods, including SAF targeting RSF in the Sports City area and RSF shelling the Army’s General Command; casualties were not immediately known.",
+      "context": "August section on exchanges of artillery fire in Khartoum."
+    },
+    {
+      "insight": "On August 2, SAF airstrikes on an RSF position at the Abu Shouk IDP camp in North Darfur reportedly killed dozens of RSF fighters and at least 13 civilians.",
+      "context": "August section describing Abu Shouk camp airstrike and casualties."
+    },
+    {
+      "insight": "On August 31, SAF airstrikes hit Mellit, North Darfur, killing 11 civilians and wounding 9.",
+      "context": "Late August incidents detailing Mellit airstrike."
+    },
+    {
+      "insight": "Also on August 31, RSF artillery struck an IDP center in Sennar, with initial reports of 6–15 civilians killed; later local accounts reported at least 21 killed and over 70 injured, attributed to RSF.",
+      "context": "Late August Sennar shelling with updated casualty figures from Al-Monitor."
+    },
+    {
+      "insight": "Late August air raids in North Kordofan wounded civilians and damaged homes.",
+      "context": "August section noting spread of air raids to North Kordofan."
+    },
+    {
+      "insight": "Late August airstrikes in West Darfur included a village strike that killed 1 civilian and injured 5.",
+      "context": "August section mentioning West Darfur strike."
+    },
+    {
+      "insight": "In early September, RSF intensified shelling of Omdurman’s Karari district, with barrages hitting Al Manara, Al Hattana, Wad Al Bakhit, and Omdurman Al-Thawra, resulting in roughly 11 civilian deaths and many injuries.",
+      "context": "September section describing RSF shelling in Karari neighborhoods around Sept 1."
+    },
+    {
+      "insight": "In early September, shelling struck a crowded market in Sennar town, killing at least 21 civilians and wounding dozens; local medics attributed the attack to RSF.",
+      "context": "September section on Sennar market shelling with attribution to RSF."
+    },
+    {
+      "insight": "Mid-September fighting in Khartoum intensified, causing further civilian casualties and disrupting humanitarian aid, including closure of charity food kitchens.",
+      "context": "September section noting mid-month battles and humanitarian impact."
+    },
+    {
+      "insight": "On September 30, SAF conducted large-scale airstrikes across eastern, southern, and central Khartoum, reportedly killing dozens of RSF fighters and destroying artillery platforms and vehicles.",
+      "context": "Late September section detailing SAF air campaign escalation."
+    },
+    {
+      "insight": "On September 30, a SAF drone strike on Tuti Island in Khartoum killed one civilian volunteer aid worker involved in local relief efforts.",
+      "context": "Late September incident listing Tuti Island drone strike and casualty."
+    },
+    {
+      "insight": "On September 30 in North Darfur’s Kutum, airstrikes killed at least two civilians and wounded six, and also killed two RSF members.",
+      "context": "Late September Darfur incidents noting Kutum airstrike impacts."
+    },
+    {
+      "insight": "On September 30, airstrikes on Mellit, North Darfur, caused additional civilian fatalities.",
+      "context": "Late September note of further Mellit strike causing civilian deaths."
+    },
+    {
+      "insight": "Throughout August and September, daily shelling and air attacks were recorded across Sudan, predominantly in Khartoum state and North Darfur, with per-incident deaths ranging from 0 to low double-digits.",
+      "context": "Concluding assessment summarizing frequency, geography, and typical casualty range."
+    },
+    {
+      "insight": "The period was characterized by relentless urban warfare and widespread destruction, with both SAF airpower and RSF artillery inflicting heavy damage on civilians and infrastructure.",
+      "context": "Concluding assessment of the nature and impact of the conflict during Aug–Sep 2024."
+    },
+    {
+      "insight": "The synthesis draws on ACLED conflict event data for Aug–Sep 2024 and contemporary news reports (e.g., Radio Dabanga, Al-Monitor) detailing locations, actors, and casualties.",
+      "context": "Sources section explaining data and reporting used for the summary."
+    }
+  ],
+  "prompt": "Give me a summary of artillery shelling and airstrikes political violence, and conflict situations during August - September 2024 in Sudan."
+}

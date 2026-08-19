@@ -1,0 +1,75 @@
+{
+  "dataset_id": 61,
+  "dataset_path": "data/notebooks/flag-61.json",
+  "metadata": {
+    "category": "User Management",
+    "dataset_description": "The dataset comprises two key tables simulating ServiceNow platform: the `sys_user` table and the `incidents` table, each with 500 entries. The `incidents` table focuses on detailing various attributes such as category, state, open and close dates, involved personnel, and incident specifics like location, description, and priority. It effectively captures incident management activities with fields including 'opened_at', 'closed_at', 'assigned_to', 'short_description', and 'priority', reflecting the operational handling and urgency of issues across different locations and categories. The `sys_user` table, on the other hand, contains user-related information, focusing on the details of employees or system users. This includes fields such as 'user_id', 'name', 'role', 'email', 'schedule', and 'department', providing insights into the user profiles managed within the ServiceNow system. Together, these tables are instrumental in understanding the workflow, user involvement and detailed tracking of incident resolution processes within an organization.",
+    "goal": "Given the user and incidents tabular data, analyze discrepancies in the performance of human agents, particularly focusing on a certain human agent, to understand the underlying causes of performance dips and devise strategies to manage workload during absence periods.",
+    "header": "Performance Trends in Employee Agents Management (Flag 61)",
+    "role": "Team Lead"
+  },
+  "predicted_insights": [
+    "For Howard Johnson, November 2023’s median resolution time spiked roughly 8.3x over October (+~5,625 hours, ~+731%), then receded by ~14.7% in December, suggesting a short-term backlog or absence-driven bottleneck; proactive cross-coverage during such periods could prevent multi-thousand-hour swings in median resolution time.",
+    "After a steady 6–12 monthly closures in 2023 (peaking at 12 in October), Howard Johnson’s output plunged 75% from December 2023 (8) to January 2024 (2) and remained at 2 in February 2024, signaling a likely absence or shift that warrants proactive cross-coverage to prevent backlog.",
+    "During this two-month period, Howard Johnson’s self-closure rate on his assigned incidents was 0% (0 of 4), meaning all resolutions came from peers—suggesting a complete reliance on cross-coverage for his queue and highlighting the need to plan workload handoffs during absences.",
+    "Howard Johnson’s median time-to-close values swing far more widely than peers (≈ -4379.68 h to +2729.36 h, a ~7109 h spread, versus Others’ ≈ -2303.30 h to +1422.54 h, a ~3726 h spread), with especially large discrepancies in High | Inquiry/Help (-4379.68 h vs +622.56 h) and Critical | Software (+2729.36 h vs -245.48 h), suggesting substantial timestamp/process inconsistencies that could distort perceived performance and should be audited before using these medians to plan coverage during absences.",
+    "Fred Luddy and Luke Wilson both handled the month’s peak workload (11 each), nearly triple Howard Johnson’s 4, indicating reliance on these two; during an absence, shifting roughly 5–6 incidents to Beth (8) and Charlie (7) would even out monthly loads to around 10–11 per agent.",
+    "Peak cross-closures reached 11 in multiple cases (Charlie Whitherspoon in 2023-07; Fred Luddy in 2023-06 and 2023-09; Howard Johnson in 2024-01), while Beth Anglin’s maximum was 9 (2023-10) and Luke Wilson’s was 10, indicating months where peers handled unusually large portions of their assigned work.",
+    "Across the dataset’s timeframe (2023-01 to 2024-02), 0 months showed an “open-but-no-close” gap for Luke Wilson, suggesting consistent monthly closure coverage and no apparent unattended workload carryover for this agent.",
+    "Luke Wilson’s average time-to-close escalates sharply over the year, peaking at 5,233.9 hours in 2024-01 (~218 days), with sustained elevation from 2023-08 to 2023-11 averaging ~3,460.5 hours (~144 days), suggesting periods of overload or absence where cross-coverage and workload redistribution could materially improve closure times.",
+    "Across 17 zero-assignment weeks for Fred, 10 showed negative average durations (data quality issue), while the 7 positive weeks averaged 2862 hours (~119 days), suggesting that when he was absent the team’s average completion times were heavily influenced by very long-running or misdated tickets—highlighting a need to clean timestamps before drawing workload conclusions.",
+    "This weak negative correlation (r ≈ -0.21, r² ≈ 4.5%) suggests that higher weekly workload is only modestly associated with faster average resolution for Fred, implying workload spikes alone are unlikely to explain most of his resolution time variability.",
+    "Across 500 incidents spanning Jan 2023 to Feb 2024 and five categories with five agents, there were 0 categories where Fred met the ≥20-incident threshold, suggesting his workload was distributed across categories and that meaningful peer comparisons may require a lower threshold or a longer time window.",
+    "Overall, Fred was faster than the team in 6 of 13 months and slower in 7, with his largest lag in Jul-2023 (+≈1389h) and largest outperformance in Jan-2024 (−≈1326h); across all months his average gap is roughly −12 hours in his favor, indicating performance roughly on par with the team but with large month-to-month swings that suggest workload or case-mix variability."
+  ],
+  "predicted_summary": "Howard Johnson exhibited a pronounced late-2023 deterioration followed by near-absence in early 2024: his median time to resolve jumped by ~5,625 hours month-over-month in November 2023 (from ~770 to ~6,395 hours—the largest increase of any agent/month), and in January and February 2024 he had the fewest incidents closed in those months (2 each), with 100.0% (4 of 4) of those incidents closed by other agents.\nCompared with peers across the full period, Howard Johnson’s relative slowness is concentrated in a few high-impact areas: he had higher median times in 7 of 20 priority-category combinations—most notably in Critical/Software (2,729.36 vs peers’ -245.48 hours) and High/Software (1,051.34 vs 51.58) and High/Network (1,416.57 vs 292.75)—while being faster in the other 13 of 20 combinations (including several Critical categories), indicating that his performance dip is localized rather than universal.\nCoverage by peers increased when Howard Johnson’s closures dropped: across incidents closed in January–February 2024, 100.0% of his assigned incidents (4 of 4) were closed by others, while other agents showed signs of heightened load over this period—for example, Luke Wilson’s monthly average time-to-close rose from 242.4 hours (Jan 2023) to a peak of 5,233.9 hours (Jan 2024) and he had no months with opens but zero closes—consistent with the team absorbing work during absence periods and experiencing longer resolution times.",
+  "score_insights": 0.3822796526673279,
+  "score_insights_dict": [
+    {
+      "gt_insight": "Luke Wilson has highest average TTR among agents",
+      "pred_insight": "Luke Wilson’s average time-to-close escalates sharply over the year, peaking at 5,233.9 hours in 2024-01 (~218 days), with sustained elevation from 2023-08 to 2023-11 averaging ~3,460.5 hours (~144 days), suggesting periods of overload or absence where cross-coverage and workload redistribution could materially improve closure times.",
+      "score": 0.5317595945985591
+    },
+    {
+      "gt_insight": "TTR is slightly decreasing for all the agents over time",
+      "pred_insight": "This weak negative correlation (r ≈ -0.21, r² ≈ 4.5%) suggests that higher weekly workload is only modestly associated with faster average resolution for Fred, implying workload spikes alone are unlikely to explain most of his resolution time variability.",
+      "score": 0.28567656142851416
+    },
+    {
+      "gt_insight": "The number of incidents assigned to each agent, including Fred Luddy, remains uniform over time",
+      "pred_insight": "Across 500 incidents spanning Jan 2023 to Feb 2024 and five categories with five agents, there were 0 categories where Fred met the ≥20-incident threshold, suggesting his workload was distributed across categories and that meaningful peer comparisons may require a lower threshold or a longer time window.",
+      "score": 0.327971675848887
+    },
+    {
+      "gt_insight": "The number of open incidents follow an increasing then decreasing trend for all agents including Luke Wilson. The peak is reached around 2023-09.",
+      "pred_insight": "Luke Wilson’s average time-to-close escalates sharply over the year, peaking at 5,233.9 hours in 2024-01 (~218 days), with sustained elevation from 2023-08 to 2023-11 averaging ~3,460.5 hours (~144 days), suggesting periods of overload or absence where cross-coverage and workload redistribution could materially improve closure times.",
+      "score": 0.38371077879335136
+    }
+  ],
+  "score_summary": 0.5326552157128088,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.4458132860726405,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "Luke Wilson’s average time-to-close escalates sharply over the year, peaking at 5,233.9 hours in 2024-01 (~218 days), with sustained elevation from 2023-08 to 2023-11 averaging ~3,460.5 hours (~144 days), suggesting periods of overload or absence where cross-coverage and workload redistribution could materially improve closure times.",
+      "gt_insight": "Luke Wilson has highest average TTR among agents",
+      "score": 0.5808809622529146
+    },
+    {
+      "pred_insight": "This weak negative correlation (r ≈ -0.21, r² ≈ 4.5%) suggests that higher weekly workload is only modestly associated with faster average resolution for Fred, implying workload spikes alone are unlikely to explain most of his resolution time variability.",
+      "gt_insight": "TTR is slightly decreasing for all the agents over time",
+      "score": 0.317612037092479
+    },
+    {
+      "pred_insight": "Across 500 incidents spanning Jan 2023 to Feb 2024 and five categories with five agents, there were 0 categories where Fred met the ≥20-incident threshold, suggesting his workload was distributed across categories and that meaningful peer comparisons may require a lower threshold or a longer time window.",
+      "gt_insight": "The number of incidents assigned to each agent, including Fred Luddy, remains uniform over time",
+      "score": 0.4915442691779668
+    },
+    {
+      "pred_insight": "Luke Wilson’s average time-to-close escalates sharply over the year, peaking at 5,233.9 hours in 2024-01 (~218 days), with sustained elevation from 2023-08 to 2023-11 averaging ~3,460.5 hours (~144 days), suggesting periods of overload or absence where cross-coverage and workload redistribution could materially improve closure times.",
+      "gt_insight": "The number of open incidents follow an increasing then decreasing trend for all agents including Luke Wilson. The peak is reached around 2023-09.",
+      "score": 0.3932158757672016
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.5021383230481263,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.7533495789683908
+}

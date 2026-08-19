@@ -1,0 +1,85 @@
+{
+  "dataset_id": 90,
+  "dataset_path": "data/notebooks/flag-90.json",
+  "metadata": {
+    "category": "Finance Management",
+    "dataset_description": "The dataset consists of 500 entries simulating the ServiceNow fm_expense_line table, which records various attributes of financial expenses. Key fields include 'number', 'opened_at', 'amount', 'state', 'short_description', 'ci', 'user', 'department', 'category', 'processed_date', 'source_id', and 'type'. This table documents the flow of financial transactions by detailing the amount, departmental allocation, and the nature of each expense. It provides a comprehensive view of organizational expenditures across different categories, highlighting both the timing and the approval state of each financial entry. Additionally, the dataset offers insights into the efficiency of expense processing based on different states, revealing potential areas for workflow optimization.",
+    "goal": "To detect and investigate instances of repeated identical expense claims by individual users, determining whether these repetitions are fraudulent or due to misunderstandings of the expense policy.",
+    "header": "Expense Claim Patterns and Fraud Analysis (Flag 90)",
+    "role": "Compliance and Audit Analyst"
+  },
+  "predicted_insights": [
+    "All 4 of the 4 caller_ids (100%) exhibit repeated incident groups, with an average of 8.75 and a median of 9.5 groups per caller (range 5–11), indicating a broad, potentially systemic pattern rather than a few isolated repeats.",
+    "Among the top five combinations, Inquiry / Help — Inquiry / Help contributes about 23% of all repeated incident groups (25 of 109), only narrowly ahead of Network — Network (22%) and Database — Database (21%), indicating that repetition is broadly distributed and likely driven by systemic process or policy ambiguity rather than an isolated team issue.",
+    "The repetition is pervasive: across Australia, Canada, India, and the UK, 400 of 400 incidents are repeated (100%), versus 99 of 100 (99%) in the United States, indicating a near-universal duplication pattern that likely reflects a systemic process or policy issue rather than isolated behavior.",
+    "Roughly 34.9% (126/361) of repeated incidents were updated by system—slightly more than employees (33.2%) or admins (31.8%)—indicating automation/workflows may be a notable source of repeated submissions rather than solely user misuse.",
+    "Across all locations, 80 of 500 incidents (16%) are repeated identical incidents, with the United States highest at 19%—about 46% higher than India’s 13%—indicating repeated patterns are notably more concentrated in the US (and similarly in Australia/UK) than in Canada/India.",
+    "The negative median for repeated incidents (~-214 hours, about 9 days) versus +56 hours for non-repeats suggests repeated tickets are being back-dated or auto-closed, indicating data-quality or process anomalies rather than genuinely faster resolutions.",
+    "With 52.8% (264/500) of records showing impossible time ordering, there is a pervasive timestamp data-quality issue that would undermine any time-based fraud detection (e.g., identifying repeated submissions over time) unless these records are corrected first.",
+    "With only 1.6% duplicates, addressing policy misunderstandings among the small set of callers generating these 8 same-day identical entries could reduce incident processing workload by roughly one in every 63 incidents.",
+    "Roughly 78.8% of these repeats were updated by employees or the system rather than admins, suggesting many duplicates may stem from self-service re-submissions or automated processes rather than deliberate escalation—useful for distinguishing misunderstanding-driven repeats from potential fraud signals.",
+    "Across the 14 months, 42 repeated incidents occurred (average ~3 per month), with a pronounced spike in 2023-09 (9 repeats, over 2× the average) and zero repeats in 2023-01 and 2024-02, indicating that repetition was concentrated in most months but peaked notably in September.",
+    "There were 42 repeated identical incidents in total; ITIL User alone accounts for 35.7% (15/42) and the top two callers together for 64.3% (27/42), indicating repeats are concentrated among a few individuals and may merit targeted review.",
+    "Overall, 8.4% (42 of 500) of incidents were repeated identical events, with ITIL User alone accounting for 35.7% of all repeats, and repeat rates varying threefold across callers (4% to 12%) despite equal total incident volume—pointing to user-specific behavior or policy misunderstandings."
+  ],
+  "predicted_summary": "Duplicate-like behavior is concentrated in a few individuals: between 2023-01 and 2024-02, 100% of repeated identical incidents (same caller_id, category, priority, location, and assignment_group within 30 days) — 42 of 500 incidents (8.4%) — came from four caller_ids: ITIL User (15; 12.0% of their 125 incidents), Don Goodliffe (12; 9.6% of 125), David Loo (10; 8.0% of 125), and Bud Richman (5; 4.0% of 125). These same users also top broader repeated-group patterns (11, 10, 9, and 5 clusters respectively).\nRepeated incidents follow consistent patterns rather than occurring as same-day duplicates: the “Inquiry / Help — Inquiry / Help” category–assignment_group combination accounts for the most repeated groups (25 clusters); only 1.6% of all incidents are same-day duplicates; counts of repeated identical incidents fluctuate by month with a visible peak in 2023-09 (9) and none in 2023-01 or 2024-02; geographically, the share of incidents that are repeated identical ones is highest in the United States (19%), then Australia and the UK (17% each), Canada (14%), and India (13%). Among repeated identical incidents overall, updates are attributed to employees (42.5%), system (36.3%), and admin (21.3%).\nTime-based metrics are skewed by timestamp anomalies: 52.8% of incidents have closed_at earlier than opened_at, yielding a negative median time-to-close for repeated identical incidents (−214.11 hours) versus 55.86 hours for non-repeated incidents—indicating widespread timestamp inconsistencies that materially affect cycle-time interpretations for repeats.",
+  "score_insights": 0.11923084411627365,
+  "score_insights_dict": [
+    {
+      "gt_insight": "Analysis could not be performed due to missing 'department' column in the dataset",
+      "pred_insight": "With only 1.6% duplicates, addressing policy misunderstandings among the small set of callers generating these 8 same-day identical entries could reduce incident processing workload by roughly one in every 63 incidents.",
+      "score": 0.1159348066602042
+    },
+    {
+      "gt_insight": "Analysis could not be completed due to a KeyError indicating that the 'department' column is missing from the dataset",
+      "pred_insight": "Overall, 8.4% (42 of 500) of incidents were repeated identical events, with ITIL User alone accounting for 35.7% of all repeats, and repeat rates varying threefold across callers (4% to 12%) despite equal total incident volume—pointing to user-specific behavior or policy misunderstandings.",
+      "score": 0.11628925643373386
+    },
+    {
+      "gt_insight": "Analysis could not be completed due to missing 'amount' column in the dataset",
+      "pred_insight": "Among the top five combinations, Inquiry / Help — Inquiry / Help contributes about 23% of all repeated incident groups (25 of 109), only narrowly ahead of Network — Network (22%) and Database — Database (21%), indicating that repetition is broadly distributed and likely driven by systemic process or policy ambiguity rather than an isolated team issue.",
+      "score": 0.1352471711010245
+    },
+    {
+      "gt_insight": "Analysis could not be completed due to missing 'department' column in the dataset",
+      "pred_insight": "Among the top five combinations, Inquiry / Help — Inquiry / Help contributes about 23% of all repeated incident groups (25 of 109), only narrowly ahead of Network — Network (22%) and Database — Database (21%), indicating that repetition is broadly distributed and likely driven by systemic process or policy ambiguity rather than an isolated team issue.",
+      "score": 0.12333514512542518
+    },
+    {
+      "gt_insight": "Analysis could not be completed due to missing 'department' column in the dataset",
+      "pred_insight": "Across all locations, 80 of 500 incidents (16%) are repeated identical incidents, with the United States highest at 19%—about 46% higher than India’s 13%—indicating repeated patterns are notably more concentrated in the US (and similarly in Australia/UK) than in Canada/India.",
+      "score": 0.10534784126098055
+    }
+  ],
+  "score_summary": 0.10122403447699029,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.10937779079671886,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "With 52.8% (264/500) of records showing impossible time ordering, there is a pervasive timestamp data-quality issue that would undermine any time-based fraud detection (e.g., identifying repeated submissions over time) unless these records are corrected first.",
+      "gt_insight": "Analysis could not be performed due to missing 'department' column in the dataset",
+      "score": 0.11884971640367777
+    },
+    {
+      "pred_insight": "With 52.8% (264/500) of records showing impossible time ordering, there is a pervasive timestamp data-quality issue that would undermine any time-based fraud detection (e.g., identifying repeated submissions over time) unless these records are corrected first.",
+      "gt_insight": "Analysis could not be completed due to a KeyError indicating that the 'department' column is missing from the dataset",
+      "score": 0.10398274862725217
+    },
+    {
+      "pred_insight": "With 52.8% (264/500) of records showing impossible time ordering, there is a pervasive timestamp data-quality issue that would undermine any time-based fraud detection (e.g., identifying repeated submissions over time) unless these records are corrected first.",
+      "gt_insight": "Analysis could not be completed due to missing 'amount' column in the dataset",
+      "score": 0.11303410892716756
+    },
+    {
+      "pred_insight": "With 52.8% (264/500) of records showing impossible time ordering, there is a pervasive timestamp data-quality issue that would undermine any time-based fraud detection (e.g., identifying repeated submissions over time) unless these records are corrected first.",
+      "gt_insight": "Analysis could not be completed due to missing 'department' column in the dataset",
+      "score": 0.1067560087048127
+    },
+    {
+      "pred_insight": "With 52.8% (264/500) of records showing impossible time ordering, there is a pervasive timestamp data-quality issue that would undermine any time-based fraud detection (e.g., identifying repeated submissions over time) unless these records are corrected first.",
+      "gt_insight": "Analysis could not be completed due to missing 'department' column in the dataset",
+      "score": 0.1042663713206841
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.10024959698459412,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.10042759346313923
+}

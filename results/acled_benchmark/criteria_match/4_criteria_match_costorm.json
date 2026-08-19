@@ -1,0 +1,188 @@
+{
+  "prompt": "Status of the Russian-Ukrainian conflict, as if we are at the end of 2024 heading into 2025.",
+  "criteria": [
+    {
+      "name": "Battlefield momentum shift",
+      "description": "Assess indications that the conflict is entering a new phase marked by one side achieving steady territorial gains and increased operational tempo, reflecting a turning point in the war’s dynamics."
+    },
+    {
+      "name": "Attrition and manpower sustainability",
+      "description": "Evaluate both sides’ ability to replenish personnel through recruitment, mobilization, or external support, and the impact of casualties on force quality and endurance."
+    },
+    {
+      "name": "Equipment replenishment capacity",
+      "description": "Analyze trends in sourcing and refurbishing military hardware, including reliance on legacy stocks, domestic production, and imports, and how these affect battlefield effectiveness over time."
+    },
+    {
+      "name": "Airpower and strike dominance",
+      "description": "Examine shifts in the air and drone war, including increased strike volumes, improved munitions, and the ability to overcome air defenses, shaping outcomes on the ground and in rear areas."
+    },
+    {
+      "name": "Energy infrastructure targeting",
+      "description": "Track the strategic campaign against energy systems, its focus on critical nodes, and the broader effects on the defender’s economy, defense production, and civilian resilience."
+    },
+    {
+      "name": "Long-range strike escalation",
+      "description": "Assess the expanding range, frequency, and geographic spread of long-range drone and missile attacks by both sides, and their impact on logistics, morale, and strategic signaling."
+    },
+    {
+      "name": "External aid and policy constraints",
+      "description": "Evaluate the consistency, timeliness, and conditions of international support, including restrictions on weapon use, and how donor politics influence battlefield capabilities."
+    },
+    {
+      "name": "European security recalibration",
+      "description": "Analyze trends of regional rearmament and shifts in defense priorities among neighboring states, and how these dynamics affect support for the conflict and pressure for negotiations."
+    },
+    {
+      "name": "Negotiation prospects and leverage",
+      "description": "Assess the feasibility of talks, each side’s preconditions, and the use of escalatory tactics to gain bargaining power, including intensified frontline attacks and strategic bombardment."
+    },
+    {
+      "name": "Industrial and economic endurance",
+      "description": "Evaluate the warring parties’ capacity to finance and sustain war efforts, considering sanctions resilience, defense industrial output, and vulnerabilities in supply chains."
+    },
+    {
+      "name": "Fortification and defensive depth",
+      "description": "Examine changes in defensive lines, the loss or gain of fortified positions, and how terrain and fortification quality shape the rate of advances or stalemates."
+    },
+    {
+      "name": "Border zone dynamics",
+      "description": "Track efforts to create buffer zones and cross-border incursions, and their effects on force allocation, civilian security, and escalation risks."
+    },
+    {
+      "name": "Personnel shortages and mobilization politics",
+      "description": "Assess signs of recruitment strain, incentives for enlistment, and societal tolerance for mobilization, including potential recourse to external manpower."
+    },
+    {
+      "name": "Civilian exposure and displacement",
+      "description": "Monitor patterns of conflict-related harm to civilians, population exposure to violence, and displacement trends, and how these shape domestic and international resolve."
+    },
+    {
+      "name": "Seasonal and infrastructure vulnerabilities",
+      "description": "Analyze how seasonal factors and critical infrastructure weaknesses influence operational plans, energy security, and the risk of humanitarian crises."
+    },
+    {
+      "name": "Air defense depletion and adaptation",
+      "description": "Evaluate the sustainability and effectiveness of air defenses under persistent attack and the extent of tactical or technological adaptations to mitigate strike campaigns."
+    },
+    {
+      "name": "Morale and political will",
+      "description": "Assess how battlefield outcomes, aid uncertainty, and strategic bombing affect morale among combatants and civilians, potentially altering war aims and endurance."
+    },
+    {
+      "name": "Sanctions evasion and external sourcing",
+      "description": "Examine patterns of sanction circumvention and procurement from foreign partners for munitions and technology, and their implications for conflict longevity."
+    },
+    {
+      "name": "Risk of vertical escalation",
+      "description": "Evaluate signals of potential escalation pathways, including threats to critical nuclear infrastructure or shifts in deterrence postures that could broaden the conflict."
+    },
+    {
+      "name": "Outlook for 2025 force balance",
+      "description": "Synthesize indicators of manpower, materiel, airpower, and aid trajectories to judge whether the coming year favors offensive breakthroughs or continued attrition."
+    }
+  ],
+  "criterion_scores": [
+    {
+      "name": "Battlefield momentum shift",
+      "score": 0.75,
+      "explanation": "The article details increased Russian recapture of Kursk gains (58% retaken) and surging battles in Donbas with rising lethality, but does not explicitly weigh which side holds steady territorial momentum across the overall front. It conveys coupled fronts and attritional dynamics rather than a decisive shift, offering partial indicators of momentum without a clear turning-point assessment."
+    },
+    {
+      "name": "Attrition and manpower sustainability",
+      "score": 0.25,
+      "explanation": "Manpower, recruitment, mobilization, or casualty-driven force quality issues are largely absent. There is mention of Russia diverting troops to defend Kursk and exposed undertrained infantry, but no structured evaluation of either side’s ability to replenish personnel or sustain losses."
+    },
+    {
+      "name": "Equipment replenishment capacity",
+      "score": 0.25,
+      "explanation": "The piece touches on infrastructure targeting and logistics disruption but does not analyze defense industrial production, refurbishing of hardware, legacy stocks, or imports. It lacks trends on equipment replenishment affecting battlefield effectiveness."
+    },
+    {
+      "name": "Airpower and strike dominance",
+      "score": 0.75,
+      "explanation": "It provides strong coverage of air/drone strike volumes, lethality differences between Belgorod and Kursk, and ability to pressure air defenses indirectly. However, it does not deeply assess control of the air, SEAD/DEAD, or qualitative munitions improvements beyond strike counts and lethality."
+    },
+    {
+      "name": "Energy infrastructure targeting",
+      "score": 1.0,
+      "explanation": "Extensively covered: repeated strikes on Ukraine’s grid, effects on blackouts, resilience measures (hardened nodes, mobile generation, ENTSO-E synchronization), and Ukrainian strikes on Russian energy/logistics nodes. It ties impacts to economy, services, and defense operations."
+    },
+    {
+      "name": "Long-range strike escalation",
+      "score": 0.75,
+      "explanation": "The article documents increased range/frequency into Belgorod/Kursk, monthly tallies, lethality profiles, and strategic signaling. It could further elaborate on geographic spread beyond these oblasts and explicit impacts on morale/logistics nationwide."
+    },
+    {
+      "name": "External aid and policy constraints",
+      "score": 0.5,
+      "explanation": "Mentions sustained Western support, delays and political disputes, and concerns about deep strikes and escalation. Lacks detail on specific aid packages, timelines, munitions types, and usage restrictions affecting operational tempo."
+    },
+    {
+      "name": "European security recalibration",
+      "score": 0.25,
+      "explanation": "Brief allusion to Ukraine’s deeper integration with Western structures, but no analysis of regional rearmament, European defense priorities, or how these influence support levels and negotiation pressure."
+    },
+    {
+      "name": "Negotiation prospects and leverage",
+      "score": 0.5,
+      "explanation": "Discusses use of infrastructure coercion and nuclear signaling as leverage and implies a stalemated outlook without rapid territorial resolution. Does not detail preconditions or concrete diplomatic tracks or mediation efforts."
+    },
+    {
+      "name": "Industrial and economic endurance",
+      "score": 0.5,
+      "explanation": "Touches on reconstruction costs, energy system resilience, and sanctions resilience indirectly via endurance framing. Lacks a fuller assessment of each side’s financing capacity, industrial output rates, and supply-chain vulnerabilities."
+    },
+    {
+      "name": "Fortification and defensive depth",
+      "score": 0.25,
+      "explanation": "Notes Russia retaking much of Kursk gains and frontlines congealing, but provides minimal discussion of fortification quality, defensive belts, or terrain shaping advances/stalemates."
+    },
+    {
+      "name": "Border zone dynamics",
+      "score": 1.0,
+      "explanation": "Core focus: Belgorod as high-volume remote strike zone and Kursk as contested battlespace; effects on force allocation, civilian exposure, and escalation risks are explored through diversion of troops and infrastructure defense."
+    },
+    {
+      "name": "Personnel shortages and mobilization politics",
+      "score": 0.25,
+      "explanation": "Mentions undertrained Russian infantry and diversion of troops, but no substantive treatment of recruitment strain, incentives, mobilization politics, or external manpower sources."
+    },
+    {
+      "name": "Civilian exposure and displacement",
+      "score": 0.5,
+      "explanation": "Provides fatality distributions and lethality contrasts; indicates frontline districts with high deaths and notes low per-event lethality in border regions. Does not analyze displacement trends or broader civilian harm patterns beyond fatalities."
+    },
+    {
+      "name": "Seasonal and infrastructure vulnerabilities",
+      "score": 0.75,
+      "explanation": "References winter blackouts risk, resilience measures, and operational implications for energy security. Seasonal operational constraints (mud, freeze/thaw) on maneuver are not discussed."
+    },
+    {
+      "name": "Air defense depletion and adaptation",
+      "score": 0.5,
+      "explanation": "Implicitly addresses air-defense strain via sustained strike campaigns and Ukraine forcing Russia to defend infrastructure; also mentions adaptations in grid resilience. Lacks direct assessment of air-defense inventory depletion, interception rates, or new tactics/technologies on either side."
+    },
+    {
+      "name": "Morale and political will",
+      "score": 0.5,
+      "explanation": "Touches on domestic demonstrations remaining stable in Russia and Ukraine’s endurance under bombardment; hints at public support sustained by resilience. Does not deeply analyze combatant morale, societal tolerance, or shifts in war aims."
+    },
+    {
+      "name": "Sanctions evasion and external sourcing",
+      "score": 0.0,
+      "explanation": "No discussion of sanction circumvention, third-country sourcing of munitions, or technology imports affecting longevity."
+    },
+    {
+      "name": "Risk of vertical escalation",
+      "score": 0.75,
+      "explanation": "Covers Russia’s nuclear doctrine shifts, signaling, exercises, and Western caution regarding deep strikes; connects to Kursk incursion and infrastructure warfare. Could include other escalation pathways (e.g., space, cyber against NATO) or nuclear facility risks."
+    },
+    {
+      "name": "Outlook for 2025 force balance",
+      "score": 0.75,
+      "explanation": "Concludes with expectations of continued attrition, coupled fronts, infrastructure-centric warfare, and sustained but constrained Western aid. Does not present a detailed synthesis of manpower/equipment trajectories or explicit prospects for offensive breakthroughs versus stalemate by axis."
+    }
+  ],
+  "overall_score": 0.5375
+}

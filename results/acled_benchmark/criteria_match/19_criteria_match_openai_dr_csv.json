@@ -1,0 +1,116 @@
+{
+  "prompt": "Summary of recent events in South West Ethiopia Peoples region and Oromia region, between 23 November 2024 and 3 December 2024",
+  "criteria": [
+    {
+      "name": "Unusual violence patterns",
+      "description": "Assess instances of atypical or rare attacks in generally calmer areas, noting shifts from historical norms and implications for regional stability."
+    },
+    {
+      "name": "Cross-border militia incursions",
+      "description": "Examine reports of armed groups moving across administrative or regional boundaries to conduct attacks, and what this suggests about security gaps and local dynamics."
+    },
+    {
+      "name": "Federal and regional security response",
+      "description": "Evaluate how state forces deploy and intervene after incidents, including measures to prevent further attacks and the effectiveness of stabilization efforts."
+    },
+    {
+      "name": "Fragmentation within insurgent groups",
+      "description": "Analyze splintering, leadership disputes, and factionalization within armed movements and how these affect conflict intensity and negotiation prospects."
+    },
+    {
+      "name": "Credibility of peace initiatives",
+      "description": "Assess peace deals and dialogue claims, comparing official narratives with insurgent statements and on-the-ground conflict trends to gauge the sincerity and impact of agreements."
+    },
+    {
+      "name": "Post-agreement conflict trajectory",
+      "description": "Track whether violence decreases, remains steady, or escalates following peace announcements, highlighting any short-lived lulls or rapid resumption of hostilities."
+    },
+    {
+      "name": "Geographic concentration of violence",
+      "description": "Identify zones or districts with persistently high levels of conflict and civilian targeting, and consider why certain areas remain hotspots over time."
+    },
+    {
+      "name": "Targeting of civilian groups",
+      "description": "Monitor patterns of violence against civilians, including attacks linked to identity or religion, and assess frequency and drivers of such targeting."
+    },
+    {
+      "name": "Government offensive operations",
+      "description": "Review reported security operations against insurgents across multiple zones, considering their scope, timing, and correlation with changes in violence levels."
+    },
+    {
+      "name": "Demonstration and unrest trends",
+      "description": "Observe fluctuations in protests and riots alongside political violence, noting periods of decline or absence and potential links to security operations or negotiations."
+    },
+    {
+      "name": "Media and information environment",
+      "description": "Compare official communications, local reports, and independent media coverage to identify narrative discrepancies and potential propaganda or misinformation."
+    },
+    {
+      "name": "Regional administrative context",
+      "description": "Consider the historical political turbulence and multi-ethnic composition of regions to contextualize current events and explain why some areas remain relatively peaceful."
+    }
+  ],
+  "criterion_scores": [
+    {
+      "name": "Unusual violence patterns",
+      "score": 0.75,
+      "explanation": "The article highlights atypical incidents, such as a massacre in the generally calm South West Ethiopia Peoples’ Region (Sheka Zone) and attacks on day laborers near Tulu Bolo, noting shifts from typical patterns. It contrasts the calmness of South West with spikes in Oromia. However, it lacks deeper historical comparison and implications for longer-term regional stability beyond brief mentions."
+    },
+    {
+      "name": "Cross-border militia incursions",
+      "score": 0.9,
+      "explanation": "It clearly reports a Majangir ethnic militia crossing from Gambela’s Majang Zone into Sheka (South West region) to conduct a raid, explicitly indicating cross-regional movement and suggesting spillover and security gaps. Coverage is specific and ties to local dynamics, though further detail on routes and border security mechanisms is limited."
+    },
+    {
+      "name": "Federal and regional security response",
+      "score": 0.75,
+      "explanation": "The article mentions ENDF clashes, drone strikes, artillery shelling, mass arrests, and deployment after the Sheka massacre to prevent further incursions. It notes claims, civilian harm, and some arrests, but provides limited assessment of effectiveness, preventive measures detail, or outcomes of stabilization efforts."
+    },
+    {
+      "name": "Fragmentation within insurgent groups",
+      "score": 0.8,
+      "explanation": "It discusses a peace agreement with a splinter faction of the OLA, notes OLA’s denial and framing as ex-OLA members, and implies factionalization affecting negotiations. While it captures splintering and disputes, it doesn’t analyze internal leadership dynamics or broader fragmentation impacts across Oromia in depth."
+    },
+    {
+      "name": "Credibility of peace initiatives",
+      "score": 0.8,
+      "explanation": "The piece weighs official claims of an OLA surrender against OLA’s rejection, references public ceremonies and demobilization camps, and flags possible government staging. It compares narratives and notes on-the-ground violence continuing. More systematic correlation with conflict trends post-announcement would strengthen the credibility assessment."
+    },
+    {
+      "name": "Post-agreement conflict trajectory",
+      "score": 0.6,
+      "explanation": "It mentions that violence persisted around the period and that the surrender occurred amid ongoing incidents, but provides limited tracking of whether violence decreased or escalated after the peace announcement. Specific timelines and event counts post-agreement are not detailed."
+    },
+    {
+      "name": "Geographic concentration of violence",
+      "score": 0.7,
+      "explanation": "The article identifies multiple zones (Arsi, East/West Welega, West Guji, North/Southwest Shewa, Horo Gudru) and highlights hotspots like western Oromia and Sheka in South West. It notes persistent conflict in Oromia but lacks deeper analysis of why certain areas remain hotspots over time."
+    },
+    {
+      "name": "Targeting of civilian groups",
+      "score": 0.9,
+      "explanation": "It documents civilian targeting: Christian villagers killed in Arsi, day laborers shot near Tulu Bolo, Oromo traders attacked by Fano in Horo Gudru, farmers killed in Sheka, and civilians harmed by ENDF strikes. It notes identity-linked violence and inter-ethnic dimensions clearly."
+    },
+    {
+      "name": "Government offensive operations",
+      "score": 0.75,
+      "explanation": "Reports ENDF clashes in East Wellega and West Guji, drone and artillery strikes in North Shewa, and broader operations with claims of militant casualties. It comments on civilian harm and unverified casualty claims. Scope and timing are covered, but correlation with changes in violence levels is only lightly addressed."
+    },
+    {
+      "name": "Demonstration and unrest trends",
+      "score": 0.25,
+      "explanation": "The article does not discuss protests or riots trends; only mentions a public reception ceremony for surrendered fighters, which is not unrest. There’s no observation of fluctuations in demonstrations or their links to security operations or negotiations."
+    },
+    {
+      "name": "Media and information environment",
+      "score": 0.8,
+      "explanation": "It compares official ENDF and Oromia government claims with OLA statements, notes limited independent confirmation, and references multiple media sources (VOA, local media, ACLED). It points out possible propaganda or staging. More explicit discussion of discrepancies across outlets would improve the analysis."
+    },
+    {
+      "name": "Regional administrative context",
+      "score": 0.6,
+      "explanation": "Provides basic context: South West region generally calm, bordering volatile areas, multi-ethnic tensions (Majangir). However, it offers limited historical political turbulence background or comprehensive explanation for why some areas remain peaceful beyond brief mentions."
+    }
+  ],
+  "overall_score": 0.7166666666666667
+}

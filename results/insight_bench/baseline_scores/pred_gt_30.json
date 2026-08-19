@@ -1,0 +1,75 @@
+{
+  "dataset_id": 30,
+  "dataset_path": "data/notebooks/flag-30.json",
+  "metadata": {
+    "category": "Goal Management",
+    "dataset_description": "The dataset consists of 500 entries simulating ServiceNow `sn_gf_goal` table, which details various attributes related to organizational goals. These attributes include goal state, owner, department, start and end dates, and description, alongside metrics such as priority, percent complete, and target percentage. This data primarily tracks the progression and management of departmental and individual goals, offering insights into the effectiveness and alignment of these goals with broader organizational objectives. Additionally, the table captures updates made to each goal, providing a timeline of modifications and the identity of individuals making these updates.",
+    "goal": "Investigate the factors that contribute to the swift completion of goals in the Finance department compared to others, assess the impact on overall departmental performance.",
+    "header": "Goal Management Analysis in Cost Reduction (Flag 30)",
+    "role": "Performance Analyst in Enterprise Goal Management"
+  },
+  "predicted_insights": [
+    "Finance’s median completion time (83.0 days) is about 77.7 days shorter than the other departments’ average (160.7 days)—roughly 48% faster—highlighting a substantially quicker execution cadence that likely contributes to stronger performance momentum.",
+    "Because completed goals achieve targets uniformly (100% across departments) while the overall average percent_complete (49.8%) trails the average target (76.4%), performance differences are likely driven by how many and how quickly goals reach “Completed,” not by target shortfalls among completed goals.",
+    "HR leads completion share while Finance is second; Finance would need a 5.86 percentage-point (~22.7%) uplift to match HR, and IT trails HR by 13.9 points, highlighting sizable execution differences across departments.",
+    "Finance ranks 3rd among four departments for in-progress progress, trailing HR by 6.61 and IT by 2.48 percentage points, indicating its mid-cycle execution lags peers and may be a drag on overall performance unless it accelerates toward completion.",
+    "Finance leads in every priority level (Critical 51 vs next-highest 28, High 52 vs 23, Medium 52 vs 29, Low 58 vs 25) and accounts for 213 of 500 goals (42.6%), indicating the largest and most balanced workload, which can underpin faster completion and stronger performance.",
+    "Finance’s median completion time is 76–80 days shorter—about 48–49% shorter—than Marketing, HR, and IT, meaning Finance completes goals in roughly half the time, which likely boosts its overall execution performance relative to other departments.",
+    "The medians are tightly clustered—only a 31-day spread from Finance (1365) to IT (1334), about 2.3% difference—indicating similar in-progress timelines across departments; Finance’s slightly older in-progress goals suggest its perceived speed may come from faster closures rather than younger work-in-progress.",
+    "HR leads by roughly 13.90 percentage points over IT (31.68% vs 17.78%), while Finance’s success rate is only slightly higher than Marketing’s (25.82% vs 25.00%), indicating that only about one in four Finance goals meet or exceed targets despite the focus on swift completion.",
+    "Because every Completed goal meets its target in all departments, differences in departmental performance likely hinge on throughput and speed to completion rather than completion quality; notably, Finance has the highest volume of completed goals (55 vs HR 32, Marketing 24, IT 16), suggesting stronger execution capacity.",
+    "Finance’s ≤90-day completion rate is about 2x HR/Marketing and ~1.6x IT, suggesting a distinctly faster execution cadence that likely supports stronger delivery on time-sensitive departmental initiatives.",
+    "The targets are tightly clustered (range 2.24 percentage points), with Finance only 0.52 points below the overall mean (76.44%), suggesting Finance’s faster goal completion is likely driven by execution or process factors rather than easier targets.",
+    "Despite having the highest number of High/Critical goals (103), Finance’s share is 2.7 and 2.1 percentage points lower than IT and HR respectively (but 3.6 points higher than Marketing), indicating Finance’s faster completion—if present—is unlikely due to a greater urgency mix and may instead reflect execution efficiency or processes."
+  ],
+  "predicted_summary": "Finance completes finished goals roughly twice as fast as other departments: the median duration from start to finish is 83 days in Finance versus about 160 days in HR, IT, and Marketing, and 50.9% of Finance’s completed goals finish within 90 days compared with 25.0% in HR and Marketing and 31.3% in IT.\nDespite its faster finishes, Finance’s overall throughput is only mid-pack: 25.82% of Finance goals are completed (vs 31.68% in HR, 25.00% in Marketing, and 17.78% in IT). Finance also has the oldest in‑progress goals (median age 1,365 days vs 1,334–1,356 elsewhere) and lower in‑progress progress than HR and IT (average percent complete 35.0% in Finance vs 41.6% in HR and 37.5% in IT), which offsets the speed advantage on completed items.\nFinance’s faster completions do not come at the expense of hitting targets or skewed priority: 100% of completed goals meet/exceed targets in every department; Finance’s average target is 75.92% (within 0.05–2.24 percentage points of others), and its High/Critical mix is comparable at 48.4% (vs IT 51.1%, HR 50.5%, Marketing 44.8%), indicating rapid completions occur under similar success thresholds and priority balance to peers.",
+  "score_insights": 0.5476960200421225,
+  "score_insights_dict": [
+    {
+      "gt_insight": "Significantly shorter goal durations in the Finance department compared to HR, Marketing, and IT",
+      "pred_insight": "Finance’s median completion time is 76–80 days shorter—about 48–49% shorter—than Marketing, HR, and IT, meaning Finance completes goals in roughly half the time, which likely boosts its overall execution performance relative to other departments.",
+      "score": 0.8604537410480011
+    },
+    {
+      "gt_insight": "Dominance of 'Cost Reduction' goals within the Finance department",
+      "pred_insight": "Finance leads in every priority level (Critical 51 vs next-highest 28, High 52 vs 23, Medium 52 vs 29, Low 58 vs 25) and accounts for 213 of 500 goals (42.6%), indicating the largest and most balanced workload, which can underpin faster completion and stronger performance.",
+      "score": 0.47451339858490876
+    },
+    {
+      "gt_insight": "Uniform distribution of goal priorities in the Finance department",
+      "pred_insight": "Finance leads in every priority level (Critical 51 vs next-highest 28, High 52 vs 23, Medium 52 vs 29, Low 58 vs 25) and accounts for 213 of 500 goals (42.6%), indicating the largest and most balanced workload, which can underpin faster completion and stronger performance.",
+      "score": 0.5459581706685394
+    },
+    {
+      "gt_insight": "Cost Reduction goals have significantly shorter average durations compared to other categories",
+      "pred_insight": "Finance’s median completion time (83.0 days) is about 77.7 days shorter than the other departments’ average (160.7 days)—roughly 48% faster—highlighting a substantially quicker execution cadence that likely contributes to stronger performance momentum.",
+      "score": 0.3098587698670404
+    }
+  ],
+  "score_summary": 0.5961410976215243,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.6043167931925226,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "Finance’s median completion time is 76–80 days shorter—about 48–49% shorter—than Marketing, HR, and IT, meaning Finance completes goals in roughly half the time, which likely boosts its overall execution performance relative to other departments.",
+      "gt_insight": "Significantly shorter goal durations in the Finance department compared to HR, Marketing, and IT",
+      "score": 0.8846394033772429
+    },
+    {
+      "pred_insight": "Finance leads in every priority level (Critical 51 vs next-highest 28, High 52 vs 23, Medium 52 vs 29, Low 58 vs 25) and accounts for 213 of 500 goals (42.6%), indicating the largest and most balanced workload, which can underpin faster completion and stronger performance.",
+      "gt_insight": "Dominance of 'Cost Reduction' goals within the Finance department",
+      "score": 0.6124134831419952
+    },
+    {
+      "pred_insight": "Finance leads in every priority level (Critical 51 vs next-highest 28, High 52 vs 23, Medium 52 vs 29, Low 58 vs 25) and accounts for 213 of 500 goals (42.6%), indicating the largest and most balanced workload, which can underpin faster completion and stronger performance.",
+      "gt_insight": "Uniform distribution of goal priorities in the Finance department",
+      "score": 0.3576147436943506
+    },
+    {
+      "pred_insight": "Finance’s median completion time (83.0 days) is about 77.7 days shorter than the other departments’ average (160.7 days)—roughly 48% faster—highlighting a substantially quicker execution cadence that likely contributes to stronger performance momentum.",
+      "gt_insight": "Cost Reduction goals have significantly shorter average durations compared to other categories",
+      "score": 0.5625995425565018
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.163133265238037,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.7273067722744975
+}

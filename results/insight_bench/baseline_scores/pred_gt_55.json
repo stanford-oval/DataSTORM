@@ -1,0 +1,55 @@
+{
+  "dataset_id": 55,
+  "dataset_path": "data/notebooks/flag-55.json",
+  "metadata": {
+    "category": "Incidents Management",
+    "dataset_description": "The dataset comprises 500 entries simulating ServiceNow incidents table, detailing various attributes such as category, state, open and close dates, involved personnel, and incident specifics like description, and priority. It captures incident management activities with fields like 'opened_at', 'closed_at', 'assigned_to', 'short_description', and 'priority', reflecting the operational handling and urgency of issues across different locations and categories.",
+    "goal": "Analyze the imbalance of incident tickets created by human callers, focusing particularly on the caller with increasing incident reports.",
+    "header": "Caller Incident Impact Analysis (Flag 55)",
+    "role": "Resource Manager Analyst"
+  },
+  "predicted_insights": [
+    "The caller distribution is perfectly balanced—each caller filed exactly 125 tickets (25% each), resulting in a 0 percentage-point spread and an HHI of 0.25, showing no caller-level imbalance in this dataset.",
+    "David Loo’s incidents surged late in 2023—rising 325% from a low of 4 in 2023-06 to 17 in 2023-10—signaling a concentrated escalation that may reflect emerging systemic issues or increased demand from this caller.",
+    "His share rose markedly in H2 2023—from a low of 13.3% in Jun-2023 (4/30) to a peak of 47.6% in Dec-2023 (10/21)—exceeding 40% for three straight months (Oct–Dec), with December’s dominance amplified by the lowest monthly human volume (21).",
+    "Although the average increase is modest (~0.2 per month), Database incidents jumped from 0 in 2023-01 to spikes of 4 in 2023-09 and 6 in 2023-11, suggesting episodic surges are driving the upward trend and may signal intermittent systemic issues.",
+    "Despite different trends, all three human callers reported the same total incidents over the period (125 each), meaning the imbalance is temporal—David Loo’s reports concentrated later in the year, creating the upward trend.",
+    "David Loo’s monthly share was highly volatile—peaking at 35.48% in 2023-02, dipping to 9.76% in 2023-06, and exceeding 31% across 2023-10 to 2023-12—before falling to 17.65% in 2024-01, suggesting shifting caller contributions rather than a steady increase for him.",
+    "Despite David Loo’s incident count rising from 11 in 2023-01 to a peak of 17 in 2023-10 (and 6 in 2024-01), the high-priority share shifted only ~3 percentage points (63.64% to 66.67%), indicating the growth was driven by volume rather than severity.",
+    "David Loo’s incident volume accelerated in the second half of 2023, averaging about 12 per month (vs. ~7.8 in H1, a ~53% increase), peaking at 17 in 2023-10 before dropping to 6 by 2024-01—indicating a mid-2023 surge followed by a late-year peak and early-2024 pullback.",
+    "The top two categories for David Loo—Software and Inquiry / Help—jointly comprise 52 of 125 incidents (~41.6%), indicating his rising volume is broad-based rather than driven by a single category.",
+    "In 2024Q1, David Loo contributed 25% of human-called incidents (6 of 24), and his median time-to-close metric was about 278 hours lower than that of his peers, indicating a notable discrepancy despite fewer tickets.",
+    "Although no category increased for David Loo in 2024Q1, his incidents shifted toward Hardware (3) and Software (2) while Inquiry / Help fell from 11 to 0 and Database from 10 to 1, concentrating his reports into fewer technical areas.",
+    "Human-caller incident volume dropped sharply overall, from 92 in 2023Q4 to 24 in 2024Q1 (down 68 incidents, about 74%), suggesting a broad shift rather than growth from any single caller."
+  ],
+  "predicted_summary": "Despite equal overall shares across the full period (each caller at 25%), the underlying human-caller dynamics are imbalanced: David Loo is the clear upward-trending reporter with an estimated +0.214 incidents per month (Jan 2023–Jan 2024). His share among human callers swung widely from 13.3% (Jun 2023) to 47.6% (Dec 2023), with the largest month-over-month jump of +6 incidents occurring in Jul 2023 (4 to 10).\nFor the increasing caller (David Loo), incident mix shows concentration and emerging growth: Software and Inquiry/Help account for the largest shares of his tickets, while Database is rising the fastest (slope ≈ +0.203 incidents per month). However, the most recent quarter retrenched across his categories, with Hardware down by 3 incidents from 2023Q4 to 2024Q1 (6 to 3), indicating a late-period pullback after the year-long rise.\nEven as his counts trended upward, David Loo’s share of all incidents (across all callers) declined by 9.18 percentage points from 26.83% to 17.65% between Jan 2023 and Jan 2024, implying other sources grew faster; over the same months, the share of his high-priority tickets edged up by 3.03 percentage points (from 63.64% to 66.67%).",
+  "score_insights": 0.7399498623821547,
+  "score_insights_dict": [
+    {
+      "gt_insight": "All callers have a unifrom distribution of incidents raised",
+      "pred_insight": "The caller distribution is perfectly balanced—each caller filed exactly 125 tickets (25% each), resulting in a 0 percentage-point spread and an HHI of 0.25, showing no caller-level imbalance in this dataset.",
+      "score": 0.8553478224969325
+    },
+    {
+      "gt_insight": "There is a no real trend in the number of incidents raised by the callers",
+      "pred_insight": "The caller distribution is perfectly balanced—each caller filed exactly 125 tickets (25% each), resulting in a 0 percentage-point spread and an HHI of 0.25, showing no caller-level imbalance in this dataset.",
+      "score": 0.6245519022673768
+    }
+  ],
+  "score_summary": 0.5173016293742572,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.6168912577646102,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "The caller distribution is perfectly balanced—each caller filed exactly 125 tickets (25% each), resulting in a 0 percentage-point spread and an HHI of 0.25, showing no caller-level imbalance in this dataset.",
+      "gt_insight": "All callers have a unifrom distribution of incidents raised",
+      "score": 0.8156582991817258
+    },
+    {
+      "pred_insight": "The caller distribution is perfectly balanced—each caller filed exactly 125 tickets (25% each), resulting in a 0 percentage-point spread and an HHI of 0.25, showing no caller-level imbalance in this dataset.",
+      "gt_insight": "There is a no real trend in the number of incidents raised by the callers",
+      "score": 0.41812421634749447
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.4816237846757083,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.4072600742772258
+}

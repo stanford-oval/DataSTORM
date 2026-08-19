@@ -1,0 +1,64 @@
+{
+  "criteria": [
+    {
+      "name": "Shift to remote violence",
+      "description": "Assess the trend of increased use of artillery shelling and airstrikes relative to direct battles, and how this shift shapes the conflict’s intensity and civilian risks."
+    },
+    {
+      "name": "Geographic concentration of violence",
+      "description": "Identify which regions see the highest levels of shelling and airstrikes and how frontlines or control zones influence where violence concentrates."
+    },
+    {
+      "name": "Stalemate-driven tactics",
+      "description": "Examine how battlefield stalemates prompt parties to escalate indirect fire to pressure opponents and influence negotiations rather than pursue territorial advances."
+    },
+    {
+      "name": "Internal factional tensions",
+      "description": "Evaluate signs of fragmentation within armed groups, including intra-militia clashes over local interests, and the implications for command cohesion and conflict dynamics."
+    },
+    {
+      "name": "Multi-front pressures",
+      "description": "Analyze how simultaneous fighting across multiple regions constrains each side’s capacity to launch major offensives and encourages reliance on remote strikes."
+    },
+    {
+      "name": "Expansion to new theaters",
+      "description": "Track advances into new states or areas and how such moves risk creating multi-party confrontations with additional armed actors."
+    },
+    {
+      "name": "Targeting of strategic infrastructure",
+      "description": "Assess attempts to seize or deny critical assets such as fuel routes, bases, or logistics hubs, and how these efforts affect operational capabilities."
+    },
+    {
+      "name": "Airpower escalation and effects",
+      "description": "Monitor increases in airstrike frequency, their intended military objectives, and the collateral damage to civilian infrastructure and services."
+    },
+    {
+      "name": "Humanitarian access and disruption",
+      "description": "Evaluate how flooding, insecurity, and looting affect aid delivery, road access, and the broader humanitarian situation as needs worsen."
+    },
+    {
+      "name": "Ceasefire talks and conflict behavior",
+      "description": "Examine how failed or ongoing mediation efforts correlate with escalations in shelling or airstrikes as parties seek leverage."
+    },
+    {
+      "name": "Civilian harm and displacement patterns",
+      "description": "Track patterns of civilian casualties, abductions, and population movements linked to shelling and airstrikes, including attacks meant to intimidate communities."
+    },
+    {
+      "name": "Local defense and community responses",
+      "description": "Assess instances of civilian self-protection or resistance and the resultant reprisals, and how these dynamics alter local security."
+    },
+    {
+      "name": "Inter-group alliances and realignments",
+      "description": "Monitor shifting alliances among armed groups and local forces, and how these changes reshape control and conflict trajectories."
+    },
+    {
+      "name": "Seasonal and terrain constraints",
+      "description": "Consider how rainy seasons and damaged road networks influence operational tempo, supply lines, and the choice of tactics."
+    },
+    {
+      "name": "Prospects for escalation or spillover",
+      "description": "Analyze indicators that current trends could lead to intensified urban assaults, broader regional involvement, or new fronts opening."
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "total_insights": 25,
+  "total_classified": 25,
+  "acled_count": 4,
+  "non_acled_count": 21,
+  "pct_acled": 0.16,
+  "details": [
+    {
+      "evidence": "The February 2021 military coup ended a decade of semi-civilian rule and transformed mass protests into a nationwide civil war as protesters took up arms.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general contextual description of the post-coup situation and escalation to civil war, not tied to specific ACLED event counts, actor data, locations, or trends. It reads as narrative analysis rather than data explicitly attributed to ACLED.",
+      "source_context": "From Peaceful Protests to Nationwide Conflict – opening overview of post-coup shift to armed resistance."
+    },
+    {
+      "evidence": "Ethnic armed organizations (EAOs) that had long fought for autonomy joined the anti-coup movement, escalating the conflict to unprecedented levels in Myanmar’s modern history.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical claim about EAOs joining the anti-coup movement and escalating conflict, without citing specific event counts, actor-level entries, fatalities, locations, or trends from ACLED. It reads as narrative context rather than data explicitly derived from ACLED event data.",
+      "source_context": "From Peaceful Protests to Nationwide Conflict – role of EAOs post-coup."
+    },
+    {
+      "evidence": "By late 2021, thousands of local militias known as People’s Defense Forces (PDFs) had formed across the country, often composed of civilian activists trained as guerrillas.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general qualitative claim about the proliferation and composition of PDFs by late 2021, without citing specific ACLED event counts, fatalities, locations, or actor-coded data. It reads as broad analysis rather than being tied to ACLED-derived event statistics or explicit attribution.",
+      "source_context": "From Peaceful Protests to Nationwide Conflict – emergence of PDFs."
+    },
+    {
+      "evidence": "Myanmar’s resistance forces share a broad goal of toppling the junta and establishing a federal democratic system that guarantees ethnic minority rights.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical claim about the goals of Myanmar’s resistance forces and political objectives, not tied to specific conflict events, counts, locations, fatalities, or actor/event data. It does not reference ACLED datasets or metrics.",
+      "source_context": "From Peaceful Protests to Nationwide Conflict – stated goals of resistance."
+    },
+    {
+      "evidence": "Armed clashes and attacks surged significantly after the coup, with reported combat engagements increasing by about 67% compared to pre-coup levels.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites a quantified change in conflict event counts (combat engagements up 67% post-coup vs pre-coup), which aligns with ACLED’s event-based battle data and temporal trend analysis commonly reported by ACLED.",
+      "source_context": "From Peaceful Protests to Nationwide Conflict – conflict intensity statistics."
+    },
+    {
+      "evidence": "Deadly violence spread nationwide beyond traditional warzones, with regular ambushes, bombings, and battles occurring across both ethnic states and the Bamar heartland.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general qualitative characterization of nationwide violence and tactics without citing specific event counts, locations, timelines, or actor-level data attributable to ACLED. It reads as broad analysis rather than a claim derived from ACLED event data or metrics.",
+      "source_context": "From Peaceful Protests to Nationwide Conflict – geographic spread of violence."
+    },
+    {
+      "evidence": "Tens of thousands have been killed since 2021, a stark increase from fewer than a thousand conflict-related deaths in 2020.",
+      "is_acled_data": true,
+      "reasoning": "The statement provides fatality counts and a temporal comparison of conflict-related deaths (2020 vs post-2021), which fall under ACLED’s fatality and temporal trend data. While exact attribution isn’t stated, this type of figure is characteristic of ACLED’s event-based fatality data and trend analyses.",
+      "source_context": "From Peaceful Protests to Nationwide Conflict – casualty comparisons."
+    },
+    {
+      "evidence": "The post-coup resistance is highly decentralized, consisting of numerous groups with diverse origins and agendas, and lacking unified command.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical characterization about decentralization and lack of unified command among resistance groups. It does not cite specific ACLED event data, actor-level entries, counts, or trends. Thus it is not clearly derived from ACLED data.",
+      "source_context": "A Fragmented but United Resistance Landscape – decentralization theme."
+    },
+    {
+      "evidence": "The National Unity Government (NUG) announced the PDFs as its armed wing in May 2021, aiming to build a federal army, though most PDFs originated as spontaneous local units.",
+      "is_acled_data": false,
+      "reasoning": "This is a policy/organizational statement about NUG designating PDFs as its armed wing and their origins, not specific conflict event data or statistics; it’s not tied to ACLED’s event-based datasets.",
+      "source_context": "A Fragmented but United Resistance Landscape – NUG’s role and PDF formation."
+    },
+    {
+      "evidence": "By 2023, the NUG estimated over 300 PDF battalions and more than 250 township-based resistance groups nationwide, with many concentrated in central Myanmar’s Dry Zone.",
+      "is_acled_data": false,
+      "reasoning": "The claim cites NUG estimates about numbers of PDF battalions and township-based groups, not event-based conflict data or statistics typically compiled by ACLED. It reflects organizational counts from a political actor, not ACLED-derived event or fatality data, and there is no attribution to ACLED.",
+      "source_context": "A Fragmented but United Resistance Landscape – scale and distribution of PDFs."
+    },
+    {
+      "evidence": "Communities in central Myanmar, previously with little EAO presence, formed their own militias from the ground up.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical claim about communities forming militias, not citing specific ACLED event data, counts, locations, or actor-level entries. It reads as qualitative context rather than data explicitly tied to ACLED.",
+      "source_context": "A Fragmented but United Resistance Landscape – grassroots militia formation in Dry Zone."
+    },
+    {
+      "evidence": "Many early PDF fighters received refuge or training in EAO-held territories, such as training facilitated by the Karen National Union in Karen State.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a qualitative claim about training and refuge provided by EAOs (e.g., KNU) to PDFs. It is not presenting specific ACLED event data, counts, fatalities, or actor-coded incidents, nor is it attributed to ACLED. It reads as general analysis/context rather than derived from ACLED datasets.",
+      "source_context": "A Fragmented but United Resistance Landscape – EAO support for training."
+    },
+    {
+      "evidence": "Over 25 major EAOs exist; most oppose the junta, though some remain in ceasefire or cooperate with the military.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general characterization of the number of ethnic armed organizations (EAOs) and their political stances (opposition, ceasefire, cooperation). It does not reference specific conflict events, counts, fatalities, locations, or actor activity drawn from ACLED event data, nor is it attributed to ACLED. This is broader geopolitical analysis rather than ACLED-derived metrics.",
+      "source_context": "A Fragmented but United Resistance Landscape – EAO landscape and alignments."
+    },
+    {
+      "evidence": "The Kachin Independence Army and Karen National Liberation Army ended ceasefires and resumed offensive operations after the coup, providing crucial support to PDFs.",
+      "is_acled_data": true,
+      "reasoning": "The statement concerns specific armed group activity (KIA and KNLA ending ceasefires, resuming offensive operations, and supporting PDFs), which aligns with ACLED’s actor-level and battle/event data. ACLED tracks such shifts through event descriptions and timelines, making this likely derived from ACLED-type event data rather than general commentary.",
+      "source_context": "A Fragmented but United Resistance Landscape – specific EAOs’ actions post-coup."
+    },
+    {
+      "evidence": "Several ethnic insurgencies coordinated Operation 1027 in late 2022, inflicting significant losses on the regime.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general claim about a coordinated operation and its impact without citing specific event counts, dates, locations, actor-coded events, or ACLED attribution. It reads as narrative analysis rather than data derived from ACLED event records.",
+      "source_context": "A Fragmented but United Resistance Landscape – joint EAO offensive."
+    },
+    {
+      "evidence": "The Arakan Army, initially observing a truce in early 2021, later re-engaged in fighting the military.",
+      "is_acled_data": true,
+      "reasoning": "The statement references temporal armed group activity and engagement in fighting, which aligns with ACLED’s event-based and actor-level conflict data tracking ceasefires and subsequent battles. While general commentary could also note this, ACLED commonly documents such shifts (truce then renewed clashes) in its event timelines, making it plausible ACLED-derived.",
+      "source_context": "A Fragmented but United Resistance Landscape – Arakan Army’s renewed engagement."
+    },
+    {
+      "evidence": "Many EAOs have aligned with the NUG on the shared objective of ending military rule and building a federal union, while maintaining their own command structures and political goals.",
+      "is_acled_data": false,
+      "reasoning": "This is a general analytical statement about alignments and objectives of EAOs and the NUG, not tied to specific ACLED event data, counts, locations, or actor-coded incidents. It reflects political analysis rather than ACLED-derived metrics.",
+      "source_context": "A Fragmented but United Resistance Landscape – EAO-NUG alignment dynamics."
+    },
+    {
+      "evidence": "Despite a common enemy, resistance groups often lack unified command and some only nominally pledge allegiance to the NUG, leading to autonomous operations.",
+      "is_acled_data": false,
+      "reasoning": "The statement is qualitative analysis about organizational cohesion and allegiance among resistance groups. It is not referencing specific ACLED event data, counts, actor-coded events, fatalities, locations, or trends. It reads as general analytical commentary rather than data derived from ACLED.",
+      "source_context": "Cooperation, Coordination, and Challenges – fragmented command and nominal allegiance."
+    },
+    {
+      "evidence": "Internal frictions have emerged, including turf wars, rivalries, and occasional armed clashes among anti-junta groups, particularly in the central regions.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical claim about internal frictions and clashes among anti-junta groups without citing specific events, counts, locations, dates, or ACLED attribution. It reads as qualitative commentary rather than being explicitly grounded in ACLED event data.",
+      "source_context": "Cooperation, Coordination, and Challenges – factionalism and conflicts among resistance groups."
+    },
+    {
+      "evidence": "Reports highlight a mosaic of militias in the Dry Zone, with both cooperation and competition, and accusations between NUG-affiliated and independent outfits over authority and conduct.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical description of militia dynamics and relationships in Myanmar’s Dry Zone without referencing specific ACLED event data, counts, locations, or actor-coded incidents. It reads as qualitative commentary rather than ACLED-derived metrics or event records.",
+      "source_context": "Cooperation, Coordination, and Challenges – Dry Zone dynamics and tensions."
+    },
+    {
+      "evidence": "Efforts to overcome divisions include broad alliances like the National Unity Consultative Council and increased field coordination with joint operations.",
+      "is_acled_data": false,
+      "reasoning": "The evidence discusses alliances and coordination among resistance groups (NUCC, joint operations) as general political/organizational analysis, not specific event counts, fatalities, locations, or actor-level event data attributed to ACLED. It is not tied to ACLED event-based metrics or datasets.",
+      "source_context": "Cooperation, Coordination, and Challenges – unity-building measures."
+    },
+    {
+      "evidence": "Most resistance factions prioritize cooperation to confront the well-armed military, resulting in ad-hoc alliances and intelligence sharing even among distrustful groups.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical claim about cooperation and alliances among resistance groups, not tied to specific ACLED event data, counts, locations, fatalities, or actor-coded incidents, nor explicitly attributed to ACLED.",
+      "source_context": "Cooperation, Coordination, and Challenges – pragmatic collaboration in the field."
+    },
+    {
+      "evidence": "The resistance landscape spans new civilian militias, ethnic minority armies, student guerrilla networks, and a fledgling parallel government attempting to coordinate them.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a broad analytical description of the types of resistance actors in Myanmar and coordination efforts, not specific event counts, fatalities, locations, or actor-level activity tied to ACLED records. It reads as general commentary rather than data derived from ACLED event datasets.",
+      "source_context": "Summary – breadth and diversity of resistance actors."
+    },
+    {
+      "evidence": "The conflict’s reach and intensity are unprecedented, matched by the breadth of grassroots participation in the armed struggle.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a broad qualitative claim about unprecedented reach, intensity, and grassroots participation. It is general analysis without specific event counts, fatality figures, geographic breakdowns, or actor-level data attributed to ACLED. Therefore it is not clearly derived from ACLED data.",
+      "source_context": "Summary – unprecedented scale and participation."
+    },
+    {
+      "evidence": "Despite persistent fragmentation and coordination challenges, resistance groups remain broadly united by the aim of ending military rule and establishing a federal democratic future.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical assessment about unity of aims among resistance groups; it does not reference specific ACLED event data, counts, actor activity metrics, or trends. It is commentary rather than data derived from ACLED.",
+      "source_context": "Summary – shared vision and unifying objective."
+    }
+  ],
+  "insights": [
+    {
+      "insight": "The February 2021 military coup ended a decade of semi-civilian rule and transformed mass protests into a nationwide civil war as protesters took up arms.",
+      "context": "From Peaceful Protests to Nationwide Conflict – opening overview of post-coup shift to armed resistance."
+    },
+    {
+      "insight": "Ethnic armed organizations (EAOs) that had long fought for autonomy joined the anti-coup movement, escalating the conflict to unprecedented levels in Myanmar’s modern history.",
+      "context": "From Peaceful Protests to Nationwide Conflict – role of EAOs post-coup."
+    },
+    {
+      "insight": "By late 2021, thousands of local militias known as People’s Defense Forces (PDFs) had formed across the country, often composed of civilian activists trained as guerrillas.",
+      "context": "From Peaceful Protests to Nationwide Conflict – emergence of PDFs."
+    },
+    {
+      "insight": "Myanmar’s resistance forces share a broad goal of toppling the junta and establishing a federal democratic system that guarantees ethnic minority rights.",
+      "context": "From Peaceful Protests to Nationwide Conflict – stated goals of resistance."
+    },
+    {
+      "insight": "Armed clashes and attacks surged significantly after the coup, with reported combat engagements increasing by about 67% compared to pre-coup levels.",
+      "context": "From Peaceful Protests to Nationwide Conflict – conflict intensity statistics."
+    },
+    {
+      "insight": "Deadly violence spread nationwide beyond traditional warzones, with regular ambushes, bombings, and battles occurring across both ethnic states and the Bamar heartland.",
+      "context": "From Peaceful Protests to Nationwide Conflict – geographic spread of violence."
+    },
+    {
+      "insight": "Tens of thousands have been killed since 2021, a stark increase from fewer than a thousand conflict-related deaths in 2020.",
+      "context": "From Peaceful Protests to Nationwide Conflict – casualty comparisons."
+    },
+    {
+      "insight": "The post-coup resistance is highly decentralized, consisting of numerous groups with diverse origins and agendas, and lacking unified command.",
+      "context": "A Fragmented but United Resistance Landscape – decentralization theme."
+    },
+    {
+      "insight": "The National Unity Government (NUG) announced the PDFs as its armed wing in May 2021, aiming to build a federal army, though most PDFs originated as spontaneous local units.",
+      "context": "A Fragmented but United Resistance Landscape – NUG’s role and PDF formation."
+    },
+    {
+      "insight": "By 2023, the NUG estimated over 300 PDF battalions and more than 250 township-based resistance groups nationwide, with many concentrated in central Myanmar’s Dry Zone.",
+      "context": "A Fragmented but United Resistance Landscape – scale and distribution of PDFs."
+    },
+    {
+      "insight": "Communities in central Myanmar, previously with little EAO presence, formed their own militias from the ground up.",
+      "context": "A Fragmented but United Resistance Landscape – grassroots militia formation in Dry Zone."
+    },
+    {
+      "insight": "Many early PDF fighters received refuge or training in EAO-held territories, such as training facilitated by the Karen National Union in Karen State.",
+      "context": "A Fragmented but United Resistance Landscape – EAO support for training."
+    },
+    {
+      "insight": "Over 25 major EAOs exist; most oppose the junta, though some remain in ceasefire or cooperate with the military.",
+      "context": "A Fragmented but United Resistance Landscape – EAO landscape and alignments."
+    },
+    {
+      "insight": "The Kachin Independence Army and Karen National Liberation Army ended ceasefires and resumed offensive operations after the coup, providing crucial support to PDFs.",
+      "context": "A Fragmented but United Resistance Landscape – specific EAOs’ actions post-coup."
+    },
+    {
+      "insight": "Several ethnic insurgencies coordinated Operation 1027 in late 2022, inflicting significant losses on the regime.",
+      "context": "A Fragmented but United Resistance Landscape – joint EAO offensive."
+    },
+    {
+      "insight": "The Arakan Army, initially observing a truce in early 2021, later re-engaged in fighting the military.",
+      "context": "A Fragmented but United Resistance Landscape – Arakan Army’s renewed engagement."
+    },
+    {
+      "insight": "Many EAOs have aligned with the NUG on the shared objective of ending military rule and building a federal union, while maintaining their own command structures and political goals.",
+      "context": "A Fragmented but United Resistance Landscape – EAO-NUG alignment dynamics."
+    },
+    {
+      "insight": "Despite a common enemy, resistance groups often lack unified command and some only nominally pledge allegiance to the NUG, leading to autonomous operations.",
+      "context": "Cooperation, Coordination, and Challenges – fragmented command and nominal allegiance."
+    },
+    {
+      "insight": "Internal frictions have emerged, including turf wars, rivalries, and occasional armed clashes among anti-junta groups, particularly in the central regions.",
+      "context": "Cooperation, Coordination, and Challenges – factionalism and conflicts among resistance groups."
+    },
+    {
+      "insight": "Reports highlight a mosaic of militias in the Dry Zone, with both cooperation and competition, and accusations between NUG-affiliated and independent outfits over authority and conduct.",
+      "context": "Cooperation, Coordination, and Challenges – Dry Zone dynamics and tensions."
+    },
+    {
+      "insight": "Efforts to overcome divisions include broad alliances like the National Unity Consultative Council and increased field coordination with joint operations.",
+      "context": "Cooperation, Coordination, and Challenges – unity-building measures."
+    },
+    {
+      "insight": "Most resistance factions prioritize cooperation to confront the well-armed military, resulting in ad-hoc alliances and intelligence sharing even among distrustful groups.",
+      "context": "Cooperation, Coordination, and Challenges – pragmatic collaboration in the field."
+    },
+    {
+      "insight": "The resistance landscape spans new civilian militias, ethnic minority armies, student guerrilla networks, and a fledgling parallel government attempting to coordinate them.",
+      "context": "Summary – breadth and diversity of resistance actors."
+    },
+    {
+      "insight": "The conflict’s reach and intensity are unprecedented, matched by the breadth of grassroots participation in the armed struggle.",
+      "context": "Summary – unprecedented scale and participation."
+    },
+    {
+      "insight": "Despite persistent fragmentation and coordination challenges, resistance groups remain broadly united by the aim of ending military rule and establishing a federal democratic future.",
+      "context": "Summary – shared vision and unifying objective."
+    }
+  ],
+  "prompt": "Research state of resistance groups in Myanmar post 2021 coup: What is the landscape of these groups?"
+}

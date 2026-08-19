@@ -1,0 +1,143 @@
+{
+  "prompt": "Give me a summary of artillery shelling and airstrikes political violence, and conflict situations during August - September 2024 in Sudan.",
+  "criteria": [
+    {
+      "name": "Shift to remote violence",
+      "description": "Assess the transition from direct battles to increased use of artillery, shelling, and airstrikes, and how this reflects strategic recalibration by warring parties."
+    },
+    {
+      "name": "Geographic concentration of attacks",
+      "description": "Identify which regions and urban areas are most affected by shelling and airstrikes and how the spatial pattern changes over time."
+    },
+    {
+      "name": "Stalemate-induced escalation",
+      "description": "Examine how military stalemates drive intensified indirect fire to pressure opponents and influence negotiations without major territorial changes."
+    },
+    {
+      "name": "Civilian impact and disruption",
+      "description": "Evaluate the effects of shelling and airstrikes on civilian life, including displacement, casualties, infrastructure damage, and restrictions on basic services."
+    },
+    {
+      "name": "Inter-factional tensions",
+      "description": "Analyze internal divisions within armed groups and how localized disputes or rival interests trigger clashes that affect broader conflict dynamics."
+    },
+    {
+      "name": "Multi-front pressures",
+      "description": "Assess how simultaneous fronts strain capacities, affecting parties’ ability to hold or expand territory and prompting reliance on long-range tactics."
+    },
+    {
+      "name": "Blue Nile expansion risks",
+      "description": "Track advances into new theaters and the potential for multi-actor confrontations that could create three-way conflict dynamics."
+    },
+    {
+      "name": "Airpower resurgence",
+      "description": "Evaluate the increased frequency and strategic objectives of airstrikes, including targeting of mobilization hubs and logistical nodes."
+    },
+    {
+      "name": "Negotiation dynamics and violence",
+      "description": "Consider correlations between ceasefire talks and escalations in violence as actors seek leverage at the bargaining table."
+    },
+    {
+      "name": "Humanitarian access constraints",
+      "description": "Assess how looting, insecurity, and seasonal factors disrupt aid delivery routes and the implications for worsening humanitarian conditions."
+    },
+    {
+      "name": "Seasonal and environmental factors",
+      "description": "Examine how weather and flooding affect mobility, supply lines, and operational choices of armed groups."
+    },
+    {
+      "name": "Targeting of strategic infrastructure",
+      "description": "Identify attacks linked to fuel, communications, and military bases, and how control or disruption of these assets shapes campaigns."
+    },
+    {
+      "name": "Urban-rural conflict interplay",
+      "description": "Analyze differences in tactics and impacts between city centers and peripheral or rural areas and how control shifts along key corridors."
+    },
+    {
+      "name": "Civilians’ self-protection responses",
+      "description": "Note instances of local resistance or community defense and their repercussions, including retaliatory violence."
+    },
+    {
+      "name": "Prospects for conflict diffusion",
+      "description": "Evaluate risks that fighting in one region catalyzes expansion or spillover into adjacent areas, altering the balance of power."
+    }
+  ],
+  "criterion_scores": [
+    {
+      "name": "Shift to remote violence",
+      "score": 1.0,
+      "explanation": "The article repeatedly emphasizes a transition to siege-style bombardment with SAF airstrikes and RSF artillery along static frontlines, explicitly contrasting with maneuver warfare and territorial breakthroughs."
+    },
+    {
+      "name": "Geographic concentration of attacks",
+      "score": 0.75,
+      "explanation": "It identifies El Fasher, Nyala, and Dilling as primary urban hubs affected and gives specific September/late-August incidents. However, it provides limited discussion of broader regional patterns across Sudan or changes over time beyond these cities."
+    },
+    {
+      "name": "Stalemate-induced escalation",
+      "score": 0.75,
+      "explanation": "The piece links entrenched/static frontlines and lack of territorial change to intensified indirect fire meant to pressure populations/opponents. It could further detail how this influenced negotiation leverage or explicit operational decisions."
+    },
+    {
+      "name": "Civilian impact and disruption",
+      "score": 1.0,
+      "explanation": "Strong coverage of casualties, hospital strikes, market attacks, displacement, service degradation, and humanitarian disruption, with concrete examples and mechanisms of harm."
+    },
+    {
+      "name": "Inter-factional tensions",
+      "score": 0.25,
+      "explanation": "Focuses on SAF vs RSF dynamics and impunity but offers little on internal divisions within armed groups or localized intra-factional disputes affecting the broader conflict."
+    },
+    {
+      "name": "Multi-front pressures",
+      "score": 0.5,
+      "explanation": "Hints at simultaneous urban fronts (El Fasher, Nyala, Dilling) and strained humanitarian operations, but provides limited analysis on how multi-front demands constrain force allocation and drive long-range tactics beyond general siege logic."
+    },
+    {
+      "name": "Blue Nile expansion risks",
+      "score": 0.0,
+      "explanation": "No discussion of Blue Nile advances or risks of multi-actor confrontations there."
+    },
+    {
+      "name": "Airpower resurgence",
+      "score": 0.75,
+      "explanation": "Discusses increased SAF airstrikes, cites intensified raids, and mentions targeting of urban hubs and strategic nodes generally. Could be stronger on specific targeting of mobilization hubs/logistical nodes and comparative frequency metrics."
+    },
+    {
+      "name": "Negotiation dynamics and violence",
+      "score": 0.75,
+      "explanation": "Connects failed diplomacy/UNSC resolutions and lack of enforcement with continued or escalated bombardment, implying violence used for leverage. More explicit correlation with specific ceasefire talks/timelines would improve."
+    },
+    {
+      "name": "Humanitarian access constraints",
+      "score": 0.75,
+      "explanation": "Addresses insecurity, repeated strikes, permit delays, and unpredictable windows for aid, especially in Nyala. Could add seasonal/route-specific details and looting to fully meet the criterion."
+    },
+    {
+      "name": "Seasonal and environmental factors",
+      "score": 0.25,
+      "explanation": "Briefly notes none directly; seasonal rains/flooding effects are not analyzed. Only indirect mention of unpredictability without environmental context."
+    },
+    {
+      "name": "Targeting of strategic infrastructure",
+      "score": 0.5,
+      "explanation": "Mentions hospitals, markets, urban lifelines (water, power) being degraded, and references strategic urban nodes. Lacks explicit coverage of fuel depots, communications infrastructure, or specific bases/logistics hubs targeted."
+    },
+    {
+      "name": "Urban-rural conflict interplay",
+      "score": 0.5,
+      "explanation": "Strong focus on urban siege tactics and impacts in cities; minimal comparison with rural/peripheral areas or corridor control dynamics."
+    },
+    {
+      "name": "Civilians’ self-protection responses",
+      "score": 0.0,
+      "explanation": "No mention of local resistance, community defense initiatives, or retaliatory dynamics tied to such actions."
+    },
+    {
+      "name": "Prospects for conflict diffusion",
+      "score": 0.25,
+      "explanation": "Touches on risks via general impunity and multi-city strikes but does not analyze spillover into adjacent regions or shifting balance due to diffusion; no explicit assessment of expansion dynamics."
+    }
+  ],
+  "overall_score": 0.5333333333333333
+}

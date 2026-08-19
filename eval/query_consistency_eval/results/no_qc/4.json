@@ -1,0 +1,199 @@
+{
+  "per_dimension": [
+    {
+      "dimension": "actor_entity",
+      "score": 0.33,
+      "num_concept_groups": 3,
+      "num_consistent_groups": 1,
+      "notes": "Actor filters for 'RU/UA state forces or affiliated groups' vary widely (broad keyword soups vs root-substring '%russ%/%ukrain%' and use of inter1/2 or actor1-only). Rosgvardia matching is consistent where explicitly targeted."
+    },
+    {
+      "dimension": "geography",
+      "score": 0.0,
+      "num_concept_groups": 2,
+      "num_consistent_groups": 0,
+      "notes": "The definition of Russian border oblasts differs (3 vs 6 oblasts). Kursk oblast is matched with exact equality vs prefix matching in different places."
+    },
+    {
+      "dimension": "temporal",
+      "score": 0.75,
+      "num_concept_groups": 4,
+      "num_consistent_groups": 3,
+      "notes": "Most 2024 and Aug–Dec 2024 windows are aligned. One pre/post split for the Kursk incursion uses July 1 instead of August 1; other periods (full-2024; 2023–2024 span) are consistently bounded."
+    },
+    {
+      "dimension": "event_taxonomy",
+      "score": 0.25,
+      "num_concept_groups": 4,
+      "num_consistent_groups": 1,
+      "notes": "Definitions of 'cross-border strikes', 'civilian targeting', and 'Russian assault activity' differ across queries. Monthly distributions by event_type/sub_event_type within RU border oblasts are aligned."
+    },
+    {
+      "dimension": "counting_aggregation",
+      "score": 1.0,
+      "num_concept_groups": 3,
+      "num_consistent_groups": 3,
+      "notes": "Counts and fatality sums use consistent COUNT(*) and SUM semantics where the same concepts are measured. DISTINCT is used only where deduplication is necessary (Q0) and not reused elsewhere."
+    },
+    {
+      "dimension": "population_scope",
+      "score": 0.0,
+      "num_concept_groups": 3,
+      "num_consistent_groups": 0,
+      "notes": "Some RU border queries omit country='Russia' while others include it. Queries claiming 'Russia–Ukraine conflict' sometimes include all events in those countries (no actor filters) and sometimes restrict to RU/UA forces."
+    }
+  ],
+  "conflicts": [
+    {
+      "dimension": "actor_entity",
+      "concept": "RU/UA forces inclusion for RU/UA events (monthly series)",
+      "query_indices": [
+        6,
+        10
+      ],
+      "predicate_a": "AND (actor1 ILIKE '%Russia%' OR actor1 ILIKE '%Russian%' OR actor1 ILIKE '%Ukraine%' OR actor1 ILIKE '%Ukrainian%' OR actor1 ILIKE '%military%' OR ... OR actor2 ILIKE '%pro-Ukraine%' OR actor2 ILIKE '%Wagner%')",
+      "predicate_b": "AND (actor1 ILIKE '%russ%' OR actor2 ILIKE '%russ%' OR actor1 ILIKE '%ukrain%' OR actor2 ILIKE '%ukrain%')",
+      "severity": "result-changing",
+      "explanation": "Q6 admits a much broader set (includes 'military', 'security forces', 'police', 'militia', 'Wagner', etc.), while Q10 only matches substrings 'russ'/'ukrain'. This will include/exclude different events under the same conceptual umbrella."
+    },
+    {
+      "dimension": "actor_entity",
+      "concept": "RU/UA forces inclusion for RU/UA events (2024 distributions)",
+      "query_indices": [
+        8,
+        10
+      ],
+      "predicate_a": "COALESCE(actor1,'') ILIKE ANY(ARRAY['%Ukraine%','%Ukrainian%','%Russia%','%Russian%','%State forces%','%Armed Forces%','%Military%','%National Guard%','%Border Guard%','%Rosgvard%','%FSB%','%Wagner%','%Kadyrov%','%Chechen%','%Volunteer%','%Territorial Defense%']) OR same for actor2",
+      "predicate_b": "actor1 ILIKE '%russ%' OR actor2 ILIKE '%russ%' OR actor1 ILIKE '%ukrain%' OR actor2 ILIKE '%ukrain%'",
+      "severity": "result-changing",
+      "explanation": "Q8 includes many affiliated formations (FSB, Kadyrov, etc.) that Q10 would miss unless they contain 'russ'/'ukrain' substrings."
+    },
+    {
+      "dimension": "actor_entity",
+      "concept": "Russian assault/offensive presence in Ukrainian fronts",
+      "query_indices": [
+        22,
+        26
+      ],
+      "predicate_a": "actor1 ILIKE any of ('%Russia%','%Russian%','%Russian Armed Forces%','%Wagner%','%Akhmat%','%Chechen%','%Donetsk People%Republic%','%Luhansk People%Republic%','%DNR%','%LNR%') AND event_type IN ('Battles','Explosions/Remote violence','Strategic developments')",
+      "predicate_b": "(actor1 ILIKE '%Russia%' OR actor1 ILIKE '%Russian%' OR actor2 ILIKE '%Russia%' OR actor2 ILIKE '%Russian%') AND (event_type='Battles' OR sub_event_type IN ('Armed clash','Attack'))",
+      "severity": "result-changing",
+      "explanation": "Q22 uses actor1-only and includes 'Strategic developments'; Q26 requires 'battlelike' events and allows actor2 to carry the Russian match. The resulting event sets differ materially."
+    },
+    {
+      "dimension": "geography",
+      "concept": "Definition of Russian border oblasts",
+      "query_indices": [
+        16,
+        17
+      ],
+      "predicate_a": "admin1 IN ('Kursk','Belgorod','Bryansk')",
+      "predicate_b": "ru_border AS unnest(ARRAY['Belgorod','Kursk','Bryansk','Rostov','Voronezh','Krasnodar'])",
+      "severity": "result-changing",
+      "explanation": "Q16 treats only three oblasts as border oblasts, while Q17 broadens to six. Counts and trends are not comparable under the same 'border oblasts' label."
+    },
+    {
+      "dimension": "geography",
+      "concept": "Kursk oblast name matching",
+      "query_indices": [
+        14,
+        19
+      ],
+      "predicate_a": "AND e.admin1 = 'Kursk'",
+      "predicate_b": "AND admin1 ILIKE 'Kursk%'",
+      "severity": "result-changing",
+      "explanation": "Prefix matching can include variants like 'Kursk Oblast'/'Kurskaya', while exact equality may miss them, yielding different row sets."
+    },
+    {
+      "dimension": "temporal",
+      "concept": "Pre/post split around Ukraine’s 2024 Kursk incursion",
+      "query_indices": [
+        16,
+        18
+      ],
+      "predicate_a": "CASE WHEN event_date >= DATE '2024-08-01' AND event_date <= DATE '2024-12-31' THEN 'post' ELSE 'pre' END",
+      "predicate_b": "CASE WHEN event_date < DATE '2024-07-01' THEN 'pre' ELSE 'post' END",
+      "severity": "result-changing",
+      "explanation": "Q16 defines post as August–December 2024; Q18 defines post as July–December 2024. This shifts a full month between periods, altering comparisons."
+    },
+    {
+      "dimension": "event_taxonomy",
+      "concept": "Cross-border strikes definition",
+      "query_indices": [
+        1,
+        17
+      ],
+      "predicate_a": "sub_event_type IN ('Air/drone strike','Shelling/artillery/missile attack') (Russia, admin1 IN ('Belgorod','Kursk','Bryansk'))",
+      "predicate_b": "No event_type restriction; events tagged as cross-border via actor/source/notes heuristics in UA border oblasts and RU border oblasts",
+      "severity": "result-changing",
+      "explanation": "Q1 limits to specific remote-violence sub_event_types; Q17 includes any event types inferred as cross-border via notes/actors. Different taxonomies produce non-comparable series."
+    },
+    {
+      "dimension": "event_taxonomy",
+      "concept": "Civilian-targeting/fatalities identification",
+      "query_indices": [
+        1,
+        4
+      ],
+      "predicate_a": "(event_type = 'Violence against civilians' OR civilian_targeting = 'Civilian targeting')",
+      "predicate_b": "sub_event_type = 'Shelling/artillery/missile attack' AND civilian_targeting = 'Civilian targeting'",
+      "severity": "result-changing",
+      "explanation": "Q1’s civilian metric includes any VAC events and any civilian-targeted events; Q4 restricts to artillery/missile events that are civilian-targeted. The underlying event sets differ."
+    },
+    {
+      "dimension": "event_taxonomy",
+      "concept": "Russian assault/attack activity taxonomy",
+      "query_indices": [
+        22,
+        26
+      ],
+      "predicate_a": "event_type IN ('Battles','Explosions/Remote violence','Strategic developments')",
+      "predicate_b": "(event_type='Battles' OR sub_event_type IN ('Armed clash','Attack'))",
+      "severity": "result-changing",
+      "explanation": "Q22 includes Strategic developments and remote violence; Q26 limits to battlelike forms only. These reflect different conceptual definitions of 'assault activity'."
+    },
+    {
+      "dimension": "population_scope",
+      "concept": "Russia–Ukraine conflict scope (actors vs all events)",
+      "query_indices": [
+        8,
+        9
+      ],
+      "predicate_a": "country IN ('Ukraine','Russia') AND (actor1/actor2 contains RU/UA state forces or affiliates via keyword list)",
+      "predicate_b": "country IN ('Ukraine','Russia') AND event_type IS NOT NULL (no actor filter)",
+      "severity": "result-changing",
+      "explanation": "Q8 restricts to conflict actors; Q9 includes all events in the two countries (e.g., protests, crime), yet both are framed as 'Russia–Ukraine conflict' aggregates."
+    },
+    {
+      "dimension": "population_scope",
+      "concept": "RU border oblasts: ensuring Russian events only",
+      "query_indices": [
+        16,
+        24
+      ],
+      "predicate_a": "WHERE country = 'Russia' AND admin1 IN ('Kursk','Belgorod','Bryansk')",
+      "predicate_b": "WHERE admin1 IN ('Kursk','Belgorod','Bryansk') (no country filter)",
+      "severity": "result-changing",
+      "explanation": "Q24 can pick up any rows with those admin1 names regardless of country coding, unlike Q16. Country omission risks including/excluding records inconsistently."
+    },
+    {
+      "dimension": "population_scope",
+      "concept": "Kursk/Belgorod Aug–Dec 2024 infrastructure-adjacent events: country filter",
+      "query_indices": [
+        15,
+        28
+      ],
+      "predicate_a": "WHERE country = 'Russia' AND admin1 IN ('Kursk','Belgorod')",
+      "predicate_b": "WHERE admin1 IN ('Kursk','Belgorod') (no country filter)",
+      "severity": "result-changing",
+      "explanation": "Q28 omits country='Russia' while Q15 requires it, yet both discuss RU oblasts. This can change which rows are counted if admin1 names appear under different country codings."
+    }
+  ],
+  "overall_score": 0.3883333333333333,
+  "summary": "The audit finds significant inconsistencies across actor filtering, geography sets, event taxonomy, and population scope. Most temporal windows are aligned, and counting/aggregation methods are coherent where the same concepts are measured, but several key comparisons (e.g., RU/UA actor inclusion, border oblast definitions, and cross-border/civilian-targeting taxonomies) use divergent predicates that would change results. Harmonizing these filters is necessary for mutually comparable figures.",
+  "report_dir": "<repo>/datatalk/acled_ablations/no_qc_fixed/4/Status_of_the_Russian-Ukrainian_conflict,_as_if_we_are_at_the_end_of_2024_heading_into_2025.__resummarized_20260601_231123",
+  "model": "gpt-5",
+  "num_queries": 30,
+  "applicable": true,
+  "id": 4
+}

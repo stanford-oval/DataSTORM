@@ -1,0 +1,152 @@
+{
+  "prompt": "Status of political violence in Amhara since Fano insurgency began in April 2023.",
+  "criteria": [
+    {
+      "name": "Conflict intensity trends",
+      "description": "Track how the frequency and lethality of clashes evolve over time, noting surges or lulls and their relationship to broader conflict dynamics."
+    },
+    {
+      "name": "Geographic spread of violence",
+      "description": "Assess how violence expands or shifts across zones and localities, identifying emerging hotspots and areas experiencing persistent insecurity."
+    },
+    {
+      "name": "Civilian targeting patterns",
+      "description": "Examine trends in violence against civilians, including fluctuations over time, perpetrator profiles, and links to preceding battles or security operations."
+    },
+    {
+      "name": "Criminality amid conflict",
+      "description": "Evaluate the rise of opportunistic crimes such as kidnapping and armed robbery that flourish amid weakened governance and security structures."
+    },
+    {
+      "name": "Factional fragmentation effects",
+      "description": "Analyze how internal divisions within insurgent groups contribute to decentralized violence, reduced command control, and increased abuses."
+    },
+    {
+      "name": "Government security capacity",
+      "description": "Assess the state’s ability to protect civilians and maintain order, including the effectiveness of operations and signs of declining or improving capacity."
+    },
+    {
+      "name": "Comparative regional dynamics",
+      "description": "Contextualize Amhara’s conflict patterns by comparing them with similar insurgency-affected regions, highlighting parallels in tactics, structure, and outcomes."
+    },
+    {
+      "name": "Humanitarian and social impact",
+      "description": "Document the broader societal effects, such as displacement pressures, service disruptions, market shortages, and impacts on education and health access."
+    },
+    {
+      "name": "Refugee and aid worker risks",
+      "description": "Monitor specific threats to refugees and humanitarian personnel, including attacks, abductions, and access constraints."
+    },
+    {
+      "name": "Public sentiment and protests",
+      "description": "Track shifts in public tolerance for insecurity, noting triggers for demonstrations, state responses, and implications for urban stability."
+    },
+    {
+      "name": "Conflict exposure of population",
+      "description": "Estimate the proportion of residents living in areas affected by organized violence and how this exposure changes over time."
+    },
+    {
+      "name": "Narrative and blame contestation",
+      "description": "Examine competing narratives by state and insurgent actors over responsibility for violence, and how these shape perceptions and mobilization."
+    },
+    {
+      "name": "Temporal correlation of event types",
+      "description": "Identify how increases in battles correlate with rises in civilian victimization and criminal incidents, indicating cascading effects."
+    },
+    {
+      "name": "Governance breakdown indicators",
+      "description": "Assess signs of weakened local administration and rule of law, including militia autonomy, reduced oversight, and impunity."
+    },
+    {
+      "name": "Conflict financing mechanisms",
+      "description": "Analyze how armed and affiliated groups fund activities through criminal economies, and how intensifying battles create opportunities for self-financing."
+    },
+    {
+      "name": "Security policy responses",
+      "description": "Evaluate the impact of emergency measures and security operations on overall violence trends and civilian safety over time."
+    }
+  ],
+  "criterion_scores": [
+    {
+      "name": "Conflict intensity trends",
+      "score": 0.95,
+      "explanation": "The article provides clear temporal trends from April 2023 through December 2024, noting surges (Aug–Sep 2023, multiple waves in 2024) and a peak in October 2024, and links incident counts with fatalities, including quantified correlations between battles and deaths. Minor gap: more granular month-by-month visualization is described but not fully detailed."
+    },
+    {
+      "name": "Geographic spread of violence",
+      "score": 0.9,
+      "explanation": "Strong coverage of diffusion from early clusters to 71 locations by Nov 2024, mention of persistent hotspots (West Gojam, Central Gondar, Bahir Dar, Gondar, Debre Markos), and distinctions between urban frequent incidents and rural lethal spikes. Could further elaborate on shifts across all zones over time with more systematic zone-by-zone evolution."
+    },
+    {
+      "name": "Civilian targeting patterns",
+      "score": 0.9,
+      "explanation": "Details trends in violence against civilians with monthly peaks, perpetrator profiles (state forces, Fano, unidentified), event-type composition (attacks dominate; abductions/sexual violence intermittent), hotspots, and decoupling of event counts from lethality. Could add clearer linkage between specific battles and subsequent civilian targeting waves."
+    },
+    {
+      "name": "Criminality amid conflict",
+      "score": 0.4,
+      "explanation": "Mentions abductions and some opportunistic patterns but provides limited analysis of kidnapping, armed robbery, extortion, or looting as criminal economies. Lacks temporal trend and concrete examples of criminality growth amid governance weakening."
+    },
+    {
+      "name": "Factional fragmentation effects",
+      "score": 0.35,
+      "explanation": "Focuses on ENDF–Fano confrontation but offers little analysis of internal divisions within Fano or other militias leading to decentralized violence. Fragmentation impacts are not explicitly examined."
+    },
+    {
+      "name": "Government security capacity",
+      "score": 0.75,
+      "explanation": "Assesses state operations via co-involvement trends, lethality associations, states of emergency, mass detentions, and access constraints; implies strain on protection capacity, with clustered spikes overwhelming services. Could more directly evaluate improvements/declines over distinct periods and specific operational effectiveness."
+    },
+    {
+      "name": "Comparative regional dynamics",
+      "score": 0.2,
+      "explanation": "The piece does not substantively compare Amhara’s patterns with other regions or insurgencies; only general policy references. Minimal to no comparative analysis."
+    },
+    {
+      "name": "Humanitarian and social impact",
+      "score": 0.7,
+      "explanation": "Addresses aid access constraints, corridor closures, service strain, and implies displacement and protection risks; cites HRW and expert commentary. However, lacks quantified displacement figures, market/education/health disruptions, and broader socioeconomic detail."
+    },
+    {
+      "name": "Refugee and aid worker risks",
+      "score": 0.55,
+      "explanation": "Notes access constraints, security advisories, detentions, and need for protection of aid workers, but provides few concrete instances of attacks on aid workers or specific refugee camp risks and incidents."
+    },
+    {
+      "name": "Public sentiment and protests",
+      "score": 0.6,
+      "explanation": "References protester-linked fatalities and months with mass-casualty protester events; implies demonstrations and state responses. Does not deeply analyze triggers, protest dynamics, or implications for urban stability beyond fatalities."
+    },
+    {
+      "name": "Conflict exposure of population",
+      "score": 0.3,
+      "explanation": "Shows increase in affected locations and dispersion metrics (e.g., HHI), but does not estimate proportions or numbers of residents exposed over time."
+    },
+    {
+      "name": "Narrative and blame contestation",
+      "score": 0.35,
+      "explanation": "Identifies implicated actors in civilian harm but does not analyze competing narratives by state and insurgents or how blame-shifting shapes mobilization and perceptions."
+    },
+    {
+      "name": "Temporal correlation of event types",
+      "score": 0.85,
+      "explanation": "Strongly analyzes correlations between battles and fatalities, and discusses decoupling of event counts from lethality and the role of explosions/remote violence. Could add explicit statistical links between battles and civilian victimization/criminal incidents beyond qualitative assertions."
+    },
+    {
+      "name": "Governance breakdown indicators",
+      "score": 0.6,
+      "explanation": "Mentions access constraints, mass detentions, overwhelmed local services, and dispersion undermining fixed security postures. Limited explicit discussion of militia autonomy, reduced oversight, or impunity as governance indicators."
+    },
+    {
+      "name": "Conflict financing mechanisms",
+      "score": 0.2,
+      "explanation": "No substantive analysis of financing via criminal economies, taxation, looting, or self-financing opportunities amid intensified battles."
+    },
+    {
+      "name": "Security policy responses",
+      "score": 0.7,
+      "explanation": "Evaluates the impact of the state of emergency and high co-involvement months on violence and access; provides policy implications for targeted protection and mediation. Could further assess the effectiveness of specific operations, curfews, or legal measures over time."
+    }
+  ],
+  "overall_score": 0.5812499999999998
+}

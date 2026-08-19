@@ -1,0 +1,12 @@
+{
+  "name": "acled_eval_criteria_generate",
+  "version": 1,
+  "type": "text",
+  "labels": [
+    "latest",
+    "production"
+  ],
+  "tags": [],
+  "config": {},
+  "prompt": "# instruction\n\nYou are an expert analyst. Given a reference research article, extract a list of evaluation criteria describing\nwhat analytical points a good report on this topic should cover. Focus on general trends and patterns — do not\nreference specific numbers, dates, or proper nouns that would make the criteria too narrow.\n\nRead the reference article carefully. Identify the key analytical points it makes — the insights, trends, and\nconclusions that a thorough report on this topic should include.\n\nFor each criterion:\n1. Give it a short **name** (3–6 words)\n2. Write a **description** of the general trend or pattern to look for (1–2 sentences, no specific numbers or\ndates needed but include e.g. the general trend)\n\nReturn as a JSON object with a \"criteria\" array, each item having \"name\" and \"description\" fields.\n\n# input\n\n## Research Task\n{{task_prompt}}\n\n## Reference Article\n{{reference_article}}"
+}

@@ -1,0 +1,65 @@
+{
+  "dataset_id": 3,
+  "dataset_path": "data/notebooks/flag-3.json",
+  "metadata": {
+    "category": "Incidents Management.",
+    "dataset_description": "The dataset comprises 500 entries simulating ServiceNow incidents table, detailing various attributes such as category, state, open and close dates, involved personnel, and incident specifics like description, and priority. It captures incident management activities with fields like 'opened_at', 'closed_at', 'assigned_to', 'short_description', and 'priority', reflecting the operational handling and urgency of issues across different locations and categories.",
+    "goal": "Find and highlight the imbalance in incident assignments and perhaps propose actionable_insights that could help redistribute tasks more evenly across agents, reducing the strain on any single agent.",
+    "header": "Incident Assignment Distribution Dataset (Flag 3)",
+    "role": "Workload Distribution Manager"
+  },
+  "predicted_insights": [
+    "Work is highly concentrated with one agent: Fred Luddy’s 77% share is over 8× the next highest; reassigning about 100 incidents (20% of total) from Fred to others would reduce his load to ~57% and lift each of the remaining agents by roughly 4–6 percentage points, meaningfully improving balance without overloading them.",
+    "Fred Luddy carries 77% of all incidents overall (75–88% in the largest groups Network, Database, Service Desk); reassigning 20% of Network and Database (~86 tickets) to Beth Anglin (currently 9.4% overall) and Luke Wilson (4.2%) would reduce Fred’s load to ~60% and lift theirs to ~31%, materially improving balance.",
+    "The critical workload is uneven: Charlie’s 31.25% critical share is 2.19x Luke’s 14.29% and 1.84x Fred’s 15.58%; redirecting roughly 10–15% of Charlie’s future criticals to agents below the median (17.02%) would move the team toward a more balanced critical load and reduce single-agent strain.",
+    "Howard Johnson’s median resolution time is 40.8% higher than Charlie Whitherspoon’s (183.244 vs 130.105 hours), a 53.139-hour spread across agents that suggests uneven workload or case complexity; shifting a portion of higher-duration tickets from Howard/Fred to Charlie/Beth could meaningfully reduce overall resolution times and balance strain.",
+    "The spread between fastest and slowest medians is 53.14 hours (183.24h vs 130.10h), with the top two agents averaging 176.84h—about 25% higher than the bottom two’s 141.98h—indicating uneven workloads or case complexity; reassigning more complex tickets away from Howard/Fred to faster-closure agents (e.g., Charlie/Beth) or providing targeted support could materially reduce overall resolution time and strain.",
+    "Workload is highly concentrated: Fred Luddy handled 79% of 96 tickets—about 15× the average share of the other agents—and redistributing 24 of his tickets equally to Luke and Charlie would cut Fred’s share to ~54% while lifting Luke to ~15.6% and Charlie to ~14.6%, materially balancing the load.",
+    "Because over half of Fred’s recent assignments are Network, reassigning 12 of his 42 Network incidents to other qualified agents would lower his Network share to ~39.5% (30/76), materially easing concentration without increasing overall volume.",
+    "One agent (Fred Luddy) is carrying 75 of 94 incidents (79.8%) across these imbalanced groups, including 100% of Service Desk, indicating concentrated workload risk and an opportunity to rebalance assignments and add cross-coverage.",
+    "High-priority work is highly concentrated: 477 of 500 tickets (95%) are high priority overall, and Fred Luddy alone handles about 77% of those (368/477), indicating a strong imbalance that suggests introducing a rotation or per-agent cap on high-priority assignments to spread severe cases more evenly.",
+    "Work is highly concentrated on Fred Luddy, who averages ~73.08% of incidents across all groups (ranging from 57.14% in Hardware to 87.80% in Service Desk); capping his share at 50% per group would reassign roughly 23 percentage points of tickets per group to other agents, significantly easing single-agent load and improving resilience.",
+    "Four closers (Luke, Charlie, Howard, Beth) collectively closed 395 incidents with 374 (94.7%) cross-closures, while Fred closed 105 incidents with only 21 (20%) cross-closures—indicating a strong mismatch between assignment and closer for most agents and suggesting that pre-assigning tickets to the likely closer could cut handoffs on roughly 374 incidents.",
+    "Fred Luddy handles 77.15% of high‑priority cases—3.38× the rest combined—so moving ~30% of his load (≈110 incidents) to others would cut his share to ~54% and lift others to ~9–15% each."
+  ],
+  "predicted_summary": "Incident assignment is highly concentrated on a single agent and persists across time and groups. Over the entire period, 77.0% of incidents were assigned to Fred Luddy (vs Beth Anglin 9.4%, Howard Johnson 6.2%, Luke Wilson 4.2%, Charlie Whitherspoon 3.2%). In the most recent 90 days, Fred’s share rose to 79.17%. By assignment group, Fred receives the majority in Database (81.67%), Network (75.16%), Service Desk (87.80%), and Software (63.64%); in the last 90 days the dominance is even stronger—Database 86.96%, Network 75.0%, Service Desk 100%, and Software 66.67% assigned to Fred. Within Fred’s recent workload, Network alone accounts for 55.3% (42 of 76) of his incidents. This shows a systemic and increasing imbalance centered on one agent.\nHigh‑priority work is similarly concentrated on Fred, while some lower‑volume agents carry a more severe mix. Among all high‑priority incidents (Critical or High), 77.15% are assigned to Fred (Beth 9.01%, Howard 6.50%, Luke 4.19%, Charlie 3.14%). For each agent’s own workload, the share that is high priority is very high—Howard 100% (31/31), Fred 95.58% (368/385), Luke 95.24% (20/21), Charlie 93.75% (15/16), Beth 91.49% (43/47). Within those loads, the Critical share is highest for Charlie (31.25%) and Howard (22.58%), compared with Fred (15.58%), Beth (17.02%), and Luke (14.29%). In short, Fred carries most of the high‑priority volume, while some smaller‑volume agents see a relatively more severe mix.\nResolution patterns suggest efficiency and process misalignment relative to assignment concentration. Median time to close is fastest for Charlie (130.10h) and Beth (153.85h), and slower for Fred (170.43h) and Howard (183.24h), even though Fred receives the majority of assignments. Separately, a large share of incidents are closed by someone other than the assigned agent for Luke (97.09%), Charlie (96.64%), Howard (92.86%), and Beth (90.67%), whereas Fred mostly closes incidents he was assigned (only 20.00% of his closures were assigned to others). This indicates that while assignments are concentrated on one person, much of the actual closure work is performed by other agents.",
+  "score_insights": 0.7852897349664891,
+  "score_insights_dict": [
+    {
+      "gt_insight": "One agent is assigned significantly more incidents than others",
+      "pred_insight": "Workload is highly concentrated: Fred Luddy handled 79% of 96 tickets—about 15× the average share of the other agents—and redistributing 24 of his tickets equally to Luke and Charlie would cut Fred’s share to ~54% while lifting Luke to ~15.6% and Charlie to ~14.6%, materially balancing the load.",
+      "score": 0.8166860316690517
+    },
+    {
+      "gt_insight": "There is a specific agent who is assigned significantly more incidents than others",
+      "pred_insight": "High-priority work is highly concentrated: 477 of 500 tickets (95%) are high priority overall, and Fred Luddy alone handles about 77% of those (368/477), indicating a strong imbalance that suggests introducing a rotation or per-agent cap on high-priority assignments to spread severe cases more evenly.",
+      "score": 0.8371736501682069
+    },
+    {
+      "gt_insight": "The number of assignments for a specific agent is pretty unbalanced from the beginning of the time",
+      "pred_insight": "One agent (Fred Luddy) is carrying 75 of 94 incidents (79.8%) across these imbalanced groups, including 100% of Service Desk, indicating concentrated workload risk and an opportunity to rebalance assignments and add cross-coverage.",
+      "score": 0.7020095230622089
+    }
+  ],
+  "score_summary": 0.7071507507985317,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.8225590516836124,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "Work is highly concentrated with one agent: Fred Luddy’s 77% share is over 8× the next highest; reassigning about 100 incidents (20% of total) from Fred to others would reduce his load to ~57% and lift each of the remaining agents by roughly 4–6 percentage points, meaningfully improving balance without overloading them.",
+      "gt_insight": "One agent is assigned significantly more incidents than others",
+      "score": 0.8775496132484237
+    },
+    {
+      "pred_insight": "One agent (Fred Luddy) is carrying 75 of 94 incidents (79.8%) across these imbalanced groups, including 100% of Service Desk, indicating concentrated workload risk and an opportunity to rebalance assignments and add cross-coverage.",
+      "gt_insight": "There is a specific agent who is assigned significantly more incidents than others",
+      "score": 0.8903601554697513
+    },
+    {
+      "pred_insight": "High-priority work is highly concentrated: 477 of 500 tickets (95%) are high priority overall, and Fred Luddy alone handles about 77% of those (368/477), indicating a strong imbalance that suggests introducing a rotation or per-agent cap on high-priority assignments to spread severe cases more evenly.",
+      "gt_insight": "The number of assignments for a specific agent is pretty unbalanced from the beginning of the time",
+      "score": 0.699767386332662
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.10044674572866888,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.8509184423789209
+}

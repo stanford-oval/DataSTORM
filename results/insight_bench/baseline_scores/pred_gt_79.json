@@ -1,0 +1,95 @@
+{
+  "dataset_id": 79,
+  "dataset_path": "data/notebooks/flag-79.json",
+  "metadata": {
+    "category": "Strategic Goal Management",
+    "dataset_description": "This dataset contains 500 records representing a simulated ServiceNow `sn_gf_goal` table, which captures various attributes associated with organizational objectives. These attributes encompass goal status, responsible party, department affiliation, start and end timelines, and detailed descriptions. Metrics such as priority, completion percentage, and target achievement percentage are also included. The primary focus of this data is on tracking and managing both departmental and individual goals, offering insights into the effectiveness of these goals and their alignment with the organization's broader strategies. Additionally, the table logs updates to each goal, providing a historical record of changes and the identities of those making the updates.",
+    "goal": "Investigate the extended durations of 'Cost Reduction' goals within the Finance department to uncover root causes and recommend strategies for improving goal management efficiency.",
+    "header": "Departmental Goal Tracking and Analysis (Flag 79)",
+    "role": "Organizational Strategy Analyst"
+  },
+  "predicted_insights": [
+    "Contrary to the concern of extended durations in Finance, its 'Cost Reduction' goals are completed about 11 days (~4%) faster on average than other departments, indicating Finance is not the primary source of longer timelines for this category.",
+    "Even with higher urgency, High/Critical goals only finish about 6.56 days (~2.5%) faster and still take ~8.4 months on average, indicating that prioritization alone is not significantly shortening the extended timelines of Finance cost-reduction initiatives.",
+    "Even over the full 218-day span (382–164), the model predicts only ~2.1 percentage points change in target (0.0096×218), suggesting extended average durations (~259 days) are not explained by higher targets and likely stem from other factors (e.g., priority or workflow state).",
+    "The longest medians occur during execution/termination (In Progress 270.5 and Cancelled 268.0 days), exceeding Completed by ~10 days and Planned by ~38 days (overall range ~37.5 days), suggesting that delays predominantly arise after planning and that tightening in-flight management and clearer termination criteria could reduce extended durations.",
+    "Expense Ratio goals take roughly 40–58 days longer on average than the next metrics (255.35 for Survey Score and 237.32 for Sales Increase), suggesting these cost-focused initiatives are ~15–24% slower and potentially more complex to execute.",
+    "Average duration steadily increases from Q1 to Q4 (184.38 → 354.06 days), a rise of ~169.7 days (~92%), suggesting late-year cost-reduction goals are substantially longer-running and often span into the next year, aligning with end dates observed as late as early 2024.",
+    "The longest (Low, 268.26 days) is only ~18.89 days (~7%) longer than the shortest (Critical, 249.38 days), suggesting that priority has limited influence on timelines and that systemic process bottlenecks likely drive duration more than prioritization does.",
+    "The In Progress share (44.74%) is nearly double the Completed share (23.68%), suggesting work-in-progress buildup that likely prolongs durations and limits throughput for Finance cost-reduction efforts.",
+    "Targets explain only about 0.15% of duration variance (r^2 ≈ 0.0015), meaning extended timelines are unlikely driven by target levels and should prompt investigation into other drivers (e.g., priority or workflow state) to improve efficiency.",
+    "Among the longest-duration Finance cost-reduction goals (≥310.25 days), only 33% (9/27) are completed while 56% (15/27) remain in progress and 11% (3/27) are canceled, suggesting that extended timelines are associated with lower completion and potential execution bottlenecks.",
+    "The identical median duration (263.5 days) across Finance and non-Finance suggests that extended timelines are systemic to 'Cost Reduction' goals rather than department-specific, indicating that improvements should target cross-departmental factors (e.g., goal scope, priority, or execution processes) rather than Finance alone.",
+    "This gap implies 'Cost Reduction' goals are cancelled about 47% more often than other Finance goals (3.56/7.55), indicating cost-focused initiatives face a materially higher risk of abandonment and may need tighter scoping or milestone controls."
+  ],
+  "predicted_summary": "Finance ‘Cost Reduction’ goals are not longer than peers overall: their average duration is 11.1 days shorter than other departments, and the median duration is identical at 263.5 days in both groups—indicating broadly similar timelines across departments.\nThe longest-running Finance ‘Cost Reduction’ work clusters in ongoing, lower-priority goals: ‘In Progress’ items have a higher median duration than ‘Completed’ (270.5 vs 260.0 days), Low-priority has the longest average (268.26 days), 44.74% of Low-priority goals are still In Progress, and over half (55.56%) of the top-duration quartile remains In Progress.\nDuration is largely unrelated to target setting but is cohort- and metric-sensitive: target_percentage shows near-zero correlation with duration (Pearson 0.039), while ‘Expense Ratio’ goals have the longest average (≈294.88 days) and goals started in Q4 2022 are the slowest cohort (≈354.06 days); additionally, High/Critical priorities run slightly shorter than Low/Medium by 6.56 days (255.27 vs 261.83), and cancellation is higher for Finance ‘Cost Reduction’ than other Finance categories (11.11% vs 7.55%, +3.56 pp).",
+  "score_insights": 0.5440551662303744,
+  "score_insights_dict": [
+    {
+      "gt_insight": "The completion rate varies significantly by department and priority, with the HR department achieving the highest completion percentages, particularly for Medium-priority tasks.",
+      "pred_insight": "The identical median duration (263.5 days) across Finance and non-Finance suggests that extended timelines are systemic to 'Cost Reduction' goals rather than department-specific, indicating that improvements should target cross-departmental factors (e.g., goal scope, priority, or execution processes) rather than Finance alone.",
+      "score": 0.24526246179482575
+    },
+    {
+      "gt_insight": "The cost reduction goals dominate the goal types in the Finance department",
+      "pred_insight": "This gap implies 'Cost Reduction' goals are cancelled about 47% more often than other Finance goals (3.56/7.55), indicating cost-focused initiatives face a materially higher risk of abandonment and may need tighter scoping or milestone controls.",
+      "score": 0.41805201252601537
+    },
+    {
+      "gt_insight": "Finance department has the highest number of projects ending near the fiscal year-end.",
+      "pred_insight": "Among the longest-duration Finance cost-reduction goals (≥310.25 days), only 33% (9/27) are completed while 56% (15/27) remain in progress and 11% (3/27) are canceled, suggesting that extended timelines are associated with lower completion and potential execution bottlenecks.",
+      "score": 0.2762581039585903
+    },
+    {
+      "gt_insight": "Cost Reduction goals have the longest mean duration across all goal categories",
+      "pred_insight": "Expense Ratio goals take roughly 40–58 days longer on average than the next metrics (255.35 for Survey Score and 237.32 for Sales Increase), suggesting these cost-focused initiatives are ~15–24% slower and potentially more complex to execute.",
+      "score": 0.776040753570602
+    },
+    {
+      "gt_insight": "There is an increasing trend in the duration of 'Cost Reduction' goals over time",
+      "pred_insight": "Average duration steadily increases from Q1 to Q4 (184.38 → 354.06 days), a rise of ~169.7 days (~92%), suggesting late-year cost-reduction goals are substantially longer-running and often span into the next year, aligning with end dates observed as late as early 2024.",
+      "score": 0.843674991528806
+    },
+    {
+      "gt_insight": "Continued linear increase in the duration of 'Cost Reduction' goals across all departments",
+      "pred_insight": "Average duration steadily increases from Q1 to Q4 (184.38 → 354.06 days), a rise of ~169.7 days (~92%), suggesting late-year cost-reduction goals are substantially longer-running and often span into the next year, aligning with end dates observed as late as early 2024.",
+      "score": 0.7050426740034064
+    }
+  ],
+  "score_summary": 0.3675695247533756,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.5575820537053259,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "The In Progress share (44.74%) is nearly double the Completed share (23.68%), suggesting work-in-progress buildup that likely prolongs durations and limits throughput for Finance cost-reduction efforts.",
+      "gt_insight": "The completion rate varies significantly by department and priority, with the HR department achieving the highest completion percentages, particularly for Medium-priority tasks.",
+      "score": 0.2501864474585125
+    },
+    {
+      "pred_insight": "The identical median duration (263.5 days) across Finance and non-Finance suggests that extended timelines are systemic to 'Cost Reduction' goals rather than department-specific, indicating that improvements should target cross-departmental factors (e.g., goal scope, priority, or execution processes) rather than Finance alone.",
+      "gt_insight": "The cost reduction goals dominate the goal types in the Finance department",
+      "score": 0.3255136563927089
+    },
+    {
+      "pred_insight": "The In Progress share (44.74%) is nearly double the Completed share (23.68%), suggesting work-in-progress buildup that likely prolongs durations and limits throughput for Finance cost-reduction efforts.",
+      "gt_insight": "Finance department has the highest number of projects ending near the fiscal year-end.",
+      "score": 0.30460499064711455
+    },
+    {
+      "pred_insight": "Expense Ratio goals take roughly 40–58 days longer on average than the next metrics (255.35 for Survey Score and 237.32 for Sales Increase), suggesting these cost-focused initiatives are ~15–24% slower and potentially more complex to execute.",
+      "gt_insight": "Cost Reduction goals have the longest mean duration across all goal categories",
+      "score": 0.7951818025364005
+    },
+    {
+      "pred_insight": "Average duration steadily increases from Q1 to Q4 (184.38 → 354.06 days), a rise of ~169.7 days (~92%), suggesting late-year cost-reduction goals are substantially longer-running and often span into the next year, aligning with end dates observed as late as early 2024.",
+      "gt_insight": "There is an increasing trend in the duration of 'Cost Reduction' goals over time",
+      "score": 0.8801817511824096
+    },
+    {
+      "pred_insight": "Average duration steadily increases from Q1 to Q4 (184.38 → 354.06 days), a rise of ~169.7 days (~92%), suggesting late-year cost-reduction goals are substantially longer-running and often span into the next year, aligning with end dates observed as late as early 2024.",
+      "gt_insight": "Continued linear increase in the duration of 'Cost Reduction' goals across all departments",
+      "score": 0.7898236740148088
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.148903880568314,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.5349798264632293
+}

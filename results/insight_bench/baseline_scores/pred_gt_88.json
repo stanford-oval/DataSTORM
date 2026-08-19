@@ -1,0 +1,85 @@
+{
+  "dataset_id": 88,
+  "dataset_path": "data/notebooks/flag-88.json",
+  "metadata": {
+    "category": "Finance Management",
+    "dataset_description": "The dataset consists of 500 entries simulating the ServiceNow fm_expense_line table, which records various attributes of financial expenses. Key fields include 'number', 'opened_at', 'amount', 'state', 'short_description', 'ci', 'user', 'department', 'category', 'processed_date', 'source_id', and 'type'. This table documents the flow of financial transactions by detailing the amount, departmental allocation, and the nature of each expense. It provides a comprehensive view of organizational expenditures across different categories, highlighting both the timing and the approval state of each financial entry. Additionally, the dataset offers insights into the efficiency of expense processing based on different states, revealing potential areas for workflow optimization.",
+    "goal": "To detect and investigate instances of repeated identical expense claims by individual users, determining whether these repetitions are fraudulent or due to misunderstandings of the expense policy.",
+    "header": "Expense Claim Patterns and Fraud Analysis (Flag 88)",
+    "role": "Compliance and Audit Analyst"
+  },
+  "predicted_insights": [
+    "Across all four callers, there are 42 repeated-ticket occurrences (about 8.4% of the 500 tickets), with ITIL User alone accounting for ~36% (15/42) and 25% more repeats than the next highest caller, indicating that a small subset of users drives the majority of repeated submissions.",
+    "Across all locations, 42 of 500 tickets (8.4%) are repeats; the United States’ 10% repeat rate is about 19% higher than the overall average and 1 percentage point above Australia and the UK, suggesting targeted clarification or controls there could reduce a disproportionate share of repeats.",
+    "Half of repeats occur within about two weeks (15.24 days), and a full one-third cluster at 0, 3, 13, or 20 days (14 of 42), with nearly 10% happening the same day—suggesting targeted monitoring at immediate and ~2–3 week intervals could surface many duplicate claims quickly.",
+    "Although repeats occur, 69.8% of tickets had no repeats within 30 days and only 0.4% (2 of 500) reached the 3-repeat maximum, indicating that high-repeat behavior is rare but clearly identifiable for targeted policy review.",
+    "The spread in repeat rates is narrow—only 3 percentage points between the highest (United States, 10%) and lowest (Canada/India, 7%)—suggesting broadly similar behaviors across regions; aligning the United States to the median (9%) could eliminate about 1% of its tickets as repeats under this strict definition.",
+    "The high 78.57% reassignment rate among identical repeats indicates that most repeats are driven by ownership/routing changes rather than user behavior, suggesting operational handoffs across a small pool of assignees likely contribute more to duplicates than policy misunderstandings—important when separating potential fraud from process noise.",
+    "Database’s 14.55% repeat rate is about 1.6× the cross-category average (~9.11%), indicating it disproportionately drives short-term repeats and is the prime target for focused policy clarification or root-cause fixes.",
+    "A repeat rate above 1 indicates duplicates outnumber originals; this occurs in January (1.17) and April (1.12) 2023, whereas the rate falls sharply later (0.20 in Oct 2023 and 0.00 in Jan 2024), suggesting potential early-year policy confusion or abuse followed by improved controls.",
+    "Repeat incidents most commonly recur on a 2–3 month cadence (median 76 days, with common bins around 69–81 days), while notable short-gap repeats (0–3 days, each observed 3 times) likely indicate duplicate or rapid-resubmission behavior—signals that can help distinguish recurring operational issues from policy misunderstandings.",
+    "Given there are only 4 distinct caller_ids, this 42.6% repeat rate indicates that identical submissions are concentrated among a small set of users, suggesting targeted policy clarification or fraud review for these users could cut ticket volume by roughly 43%.",
+    "Repeat submissions are widespread—between 67% and 76% of tickets per group are repeats by the same caller with identical attributes—with Database (76%) slightly above Software (75%), suggesting a systemic process or policy-understanding issue rather than a single-group anomaly.",
+    "Among the 4 callers, 25% (1/4) reached 5 repeats while 75% (3/4) reached 4, meaning every caller had at least four identical-ticket repeats—pointing to a broader process or policy issue rather than a single outlier."
+  ],
+  "predicted_summary": "Repeat activity is both widespread and concentrated: 42.6% of all tickets (213 of 500) are repeats of identical issues. The United States has the highest location repeat rate at 10%. The Database domain is a major hotspot—its category sees 14.55% of originals repeated within 30 days, and its assignment group has 76% of its tickets classified as repeats. Individual users also drive concentration: “ITIL User” logged 15 repeated sets, and “David Loo” filed 5 identical repeats.\nRepeats tend to happen quickly and can compound. The typical time from an original to its first repeat is 15.24 days, and some originals accumulated up to 3 repeats within 30 days. Repeat intensity spikes at times: January 2023 recorded 48 repeats across 41 originals (about 1.17 repeats per original). Beyond the first repeat, cycles can persist—the median gap between consecutive repeats for the same caller is 76.16 days.\nRepeat tickets commonly change hands. In 78.57% of repeat pairs within 30 days (33 of 42), the repeat was handled by a different assignee than the original. This high handoff rate aligns with areas of concentrated repeats—such as the Database assignment group’s 76% repeat share—highlighting that repeated identical issues frequently intersect with routing and ownership patterns.",
+  "score_insights": 0.1258498104012145,
+  "score_insights_dict": [
+    {
+      "gt_insight": "The analysis could not be completed because the required 'department' column is missing from the dataset (flag_data). This is evidenced by the KeyError in the output indicating that 'department' is not a valid column name.",
+      "pred_insight": "Among the 4 callers, 25% (1/4) reached 5 repeats while 75% (3/4) reached 4, meaning every caller had at least four identical-ticket repeats—pointing to a broader process or policy issue rather than a single outlier.",
+      "score": 0.17682311701522718
+    },
+    {
+      "gt_insight": "The analysis could not be completed because the column 'processing_time_hours' was not found in the dataset, indicating either missing or incorrectly named data",
+      "pred_insight": "Among the 4 callers, 25% (1/4) reached 5 repeats while 75% (3/4) reached 4, meaning every caller had at least four identical-ticket repeats—pointing to a broader process or policy issue rather than a single outlier.",
+      "score": 0.10086566143896522
+    },
+    {
+      "gt_insight": "The analysis could not be completed due to a KeyError indicating that the 'user' column is missing from the dataset (flag_data)",
+      "pred_insight": "Given there are only 4 distinct caller_ids, this 42.6% repeat rate indicates that identical submissions are concentrated among a small set of users, suggesting targeted policy clarification or fraud review for these users could cut ticket volume by roughly 43%.",
+      "score": 0.10788956183617329
+    },
+    {
+      "gt_insight": "The analysis could not be completed due to a KeyError indicating that the 'user' column is missing from the flag_data DataFrame",
+      "pred_insight": "Repeat incidents most commonly recur on a 2–3 month cadence (median 76 days, with common bins around 69–81 days), while notable short-gap repeats (0–3 days, each observed 3 times) likely indicate duplicate or rapid-resubmission behavior—signals that can help distinguish recurring operational issues from policy misunderstandings.",
+      "score": 0.11965951724366894
+    },
+    {
+      "gt_insight": "The analysis could not be completed due to a KeyError indicating that the 'user' column is missing from the flag_data DataFrame",
+      "pred_insight": "Repeat incidents most commonly recur on a 2–3 month cadence (median 76 days, with common bins around 69–81 days), while notable short-gap repeats (0–3 days, each observed 3 times) likely indicate duplicate or rapid-resubmission behavior—signals that can help distinguish recurring operational issues from policy misunderstandings.",
+      "score": 0.12401119447203794
+    }
+  ],
+  "score_summary": 0.14667274198052577,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.11242307652504606,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "Among the 4 callers, 25% (1/4) reached 5 repeats while 75% (3/4) reached 4, meaning every caller had at least four identical-ticket repeats—pointing to a broader process or policy issue rather than a single outlier.",
+      "gt_insight": "The analysis could not be completed because the required 'department' column is missing from the dataset (flag_data). This is evidenced by the KeyError in the output indicating that 'department' is not a valid column name.",
+      "score": 0.11767384296065334
+    },
+    {
+      "pred_insight": "Among the 4 callers, 25% (1/4) reached 5 repeats while 75% (3/4) reached 4, meaning every caller had at least four identical-ticket repeats—pointing to a broader process or policy issue rather than a single outlier.",
+      "gt_insight": "The analysis could not be completed because the column 'processing_time_hours' was not found in the dataset, indicating either missing or incorrectly named data",
+      "score": 0.10785192208263986
+    },
+    {
+      "pred_insight": "Given there are only 4 distinct caller_ids, this 42.6% repeat rate indicates that identical submissions are concentrated among a small set of users, suggesting targeted policy clarification or fraud review for these users could cut ticket volume by roughly 43%.",
+      "gt_insight": "The analysis could not be completed due to a KeyError indicating that the 'user' column is missing from the dataset (flag_data)",
+      "score": 0.12167435539897849
+    },
+    {
+      "pred_insight": "Among the 4 callers, 25% (1/4) reached 5 repeats while 75% (3/4) reached 4, meaning every caller had at least four identical-ticket repeats—pointing to a broader process or policy issue rather than a single outlier.",
+      "gt_insight": "The analysis could not be completed due to a KeyError indicating that the 'user' column is missing from the flag_data DataFrame",
+      "score": 0.10651506880020586
+    },
+    {
+      "pred_insight": "Among the 4 callers, 25% (1/4) reached 5 repeats while 75% (3/4) reached 4, meaning every caller had at least four identical-ticket repeats—pointing to a broader process or policy issue rather than a single outlier.",
+      "gt_insight": "The analysis could not be completed due to a KeyError indicating that the 'user' column is missing from the flag_data DataFrame",
+      "score": 0.10840019338275275
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.10023604886655217,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.15393372840641772
+}

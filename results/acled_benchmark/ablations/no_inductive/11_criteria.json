@@ -1,0 +1,188 @@
+{
+  "prompt": "Research state of resistance groups in Myanmar post 2021 coup: What is the landscape of these groups?",
+  "criteria": [
+    {
+      "name": "Post-coup group proliferation",
+      "description": "Assess the emergence and diversification of resistance actors formed after the coup, noting the shift from a few established organizations to numerous local forces with varied origins and structures."
+    },
+    {
+      "name": "Geographic spread of conflict",
+      "description": "Examine how violence expanded from traditional border and ethnic areas into central regions, transforming the territorial balance and governance reach of the military and resistance."
+    },
+    {
+      "name": "Old–new group coordination",
+      "description": "Evaluate the extent and forms of operational coordination between established ethnic organizations and newer resistance groups, and how this affects battlefield outcomes and capacity-building."
+    },
+    {
+      "name": "Limits of cooperation",
+      "description": "Identify barriers preventing deeper integration, such as political vision gaps, command-and-control fragmentation, and logistical constraints, and how these limit strategic advances."
+    },
+    {
+      "name": "Divergent strategies and tactics",
+      "description": "Contrast the long-term, territorial strategies and heavier weapon use of established groups with the resource-constrained, guerrilla, and remote-attack tactics of newer forces."
+    },
+    {
+      "name": "Territorial control dynamics",
+      "description": "Track patterns of capturing, holding, and administering towns and key routes, including how gains are consolidated or contested and their implications for governance."
+    },
+    {
+      "name": "Civilian protection and harm",
+      "description": "Analyze how resistance tactics and military reprisals shape risks to civilians, displacement, and infrastructure damage, and how coordination levels influence protection."
+    },
+    {
+      "name": "Competition and infighting",
+      "description": "Assess intra-resistance rivalry over legitimacy, resources, and territory, including the frequency, drivers, and consequences of clashes among resistance actors."
+    },
+    {
+      "name": "Humanitarian access challenges",
+      "description": "Consider how fragmented control, overlapping claims, and unclear chains of command complicate aid delivery and expose civilians to suspicion and detention."
+    },
+    {
+      "name": "Regional variation in dynamics",
+      "description": "Compare how inter-group relations and conflict patterns differ across key states and regions, reflecting distinct histories, terrains, and alliance constellations."
+    },
+    {
+      "name": "Alliance fluidity and mediation",
+      "description": "Examine the formation, strain, and repair of alliances, including the role of umbrella bodies and mediation mechanisms in de-escalating disputes."
+    },
+    {
+      "name": "Resource and revenue competition",
+      "description": "Evaluate how access to trade routes, natural resources, and taxation affects cooperation or conflict, and shapes local governance practices."
+    },
+    {
+      "name": "Military counter-strategies",
+      "description": "Analyze how the military exploits divisions through ceasefire offers, divide-and-rule tactics, and airpower, and the impact on resistance cohesion."
+    },
+    {
+      "name": "Governance and legitimacy building",
+      "description": "Assess attempts by resistance actors to establish administrative structures and security bodies, and how these efforts affect local support and inter-group relations."
+    },
+    {
+      "name": "Operational constraints in central plains",
+      "description": "Identify terrain, exposure to airstrikes, and logistical challenges that limit external support and base-building in central areas."
+    },
+    {
+      "name": "Evolution of resistance capacity",
+      "description": "Track the maturation of select resistance units into more institutionalized forces with improved command, technology, and combined operations potential."
+    },
+    {
+      "name": "Public support and compliance costs",
+      "description": "Evaluate how checkpoints, taxation, and security practices by various groups influence community backing and perceptions of legitimacy."
+    },
+    {
+      "name": "Prospects for consolidation",
+      "description": "Consider conditions under which localized tactical coordination could deepen into strategic unity, enabling larger offensives or negotiated outcomes."
+    },
+    {
+      "name": "Risks of communal tensions",
+      "description": "Identify how territorial expansion into multiethnic areas may trigger local grievances and inter-communal frictions if governance is not inclusive."
+    },
+    {
+      "name": "Strategic significance of urban centers",
+      "description": "Assess how approaching or controlling major cities could reconfigure alliance dynamics, political leverage, and the broader balance of power."
+    }
+  ],
+  "criterion_scores": [
+    {
+      "name": "Post-coup group proliferation",
+      "score": 0.5,
+      "explanation": "The article highlights multiple resistance actors (AA, KIA, TNLA, MNDAA, KNU, PDFs) and emphasizes polycentric momentum, but it does not explicitly discuss the post‑2021 proliferation of new local groups, their varied origins, recruitment, or organizational diversification. It focuses more on selected major actors and coalition mechanics in 2023–2024 than on the broader emergence landscape."
+    },
+    {
+      "name": "Geographic spread of conflict",
+      "score": 0.75,
+      "explanation": "It contrasts border theaters (Northern Shan, Kachin, Rakhine) with the Dry Zone central plains, noting heavy violence in the Dry Zone with minimal territorial change, signaling expansion into central regions. However, the transformation of governance reach and detailed mapping across central regions is not deeply explored."
+    },
+    {
+      "name": "Old–new group coordination",
+      "score": 0.75,
+      "explanation": "Coordination is analyzed through joint operations among established ethnic organizations (KIA, Brotherhood Alliance) and newer forces (PDFs mentioned as partners with KIA). It links coordination to battlefield outcomes. Depth on the full spectrum of old–new dynamics nationwide is limited but present."
+    },
+    {
+      "name": "Limits of cooperation",
+      "score": 0.5,
+      "explanation": "The piece infers limits via episodic, theater‑contingent coordination and the Dry Zone’s failure to translate joint ops into control, but it does not unpack political vision gaps, command fragmentation, or logistics in detail (aside from brief mentions of logistics coherence)."
+    },
+    {
+      "name": "Divergent strategies and tactics",
+      "score": 0.5,
+      "explanation": "There is some contrast: AA’s dominant-actor, solo advances; northern coalition battering‑ram surges; increased use of explosions/remote violence. However, it does not explicitly compare heavier weapons and territorial strategies of established groups versus guerrilla/remote tactics of newer forces (PDFs) beyond general modality shifts."
+    },
+    {
+      "name": "Territorial control dynamics",
+      "score": 0.75,
+      "explanation": "Strong tracking of capturing/territorial change patterns over time and theater (Operation 1027, Kachin surge windows, AA’s sustained changes, Dry Zone near‑zero ratios). Governance implications are only lightly touched (AA’s local reach implied), not deeply analyzed."
+    },
+    {
+      "name": "Civilian protection and harm",
+      "score": 0.5,
+      "explanation": "It notes that months with higher joint operations have slightly lower shares of violence against civilians and mentions lethality spikes and remote violence. It does not analyze displacement, infrastructure damage, or how coordination levels shape protection strategies in detail."
+    },
+    {
+      "name": "Competition and infighting",
+      "score": 0.0,
+      "explanation": "No substantive discussion of intra‑resistance rivalry, clashes among resistance actors, or competition over legitimacy/resources. The article focuses on coalition versus solo operations and does not address infighting."
+    },
+    {
+      "name": "Humanitarian access challenges",
+      "score": 0.0,
+      "explanation": "Humanitarian access, aid delivery complications, and civilian exposure to detention are not addressed."
+    },
+    {
+      "name": "Regional variation in dynamics",
+      "score": 0.9,
+      "explanation": "A core strength: it compares Northern Shan (coalition surges), Kachin (coalition under KIA), Rakhine (AA solo engine), and the Dry Zone (high violence, low control changes), emphasizing distinct mechanics anchored in regional actors and terrains. Could reference more regions (e.g., Chin, Kayah) for completeness."
+    },
+    {
+      "name": "Alliance fluidity and mediation",
+      "score": 0.25,
+      "explanation": "Alliance formation and strain are implied (episodic coordination, Operation 1027’s phase shifts). There is no discussion of umbrella bodies, mediation mechanisms, or how alliances are repaired; fluidity is noted but not the institutional processes behind it."
+    },
+    {
+      "name": "Resource and revenue competition",
+      "score": 0.0,
+      "explanation": "No analysis of trade routes, natural resources, or taxation as drivers of cooperation/conflict or governance practices."
+    },
+    {
+      "name": "Military counter-strategies",
+      "score": 0.25,
+      "explanation": "Limited: the conclusion infers the junta’s setbacks arising from regionally anchored campaigns but does not analyze military divide‑and‑rule, ceasefire offers, or detailed airpower use in exploiting divisions. Airstrikes/airpower are only indirectly referenced via exposure/terrain constraints elsewhere."
+    },
+    {
+      "name": "Governance and legitimacy building",
+      "score": 0.25,
+      "explanation": "AA’s governance reach is briefly implied as enabling solo momentum, but the article does not examine administrative structures, security bodies, taxation, or legitimacy‑building efforts across groups."
+    },
+    {
+      "name": "Operational constraints in central plains",
+      "score": 0.5,
+      "explanation": "The Dry Zone’s high violence with minimal territorial change is well described, hinting at constraints (lack of logistics coherence). Terrain, airstrike exposure, and external support limitations in central areas are not analyzed in detail."
+    },
+    {
+      "name": "Evolution of resistance capacity",
+      "score": 0.5,
+      "explanation": "The article shows maturation via KIA’s coalition leadership, actor‑month improvements, and increased remote violence tactics. It does not thoroughly discuss institutionalization, command improvements, technology adoption, or combined operations beyond observed joint‑ops correlations."
+    },
+    {
+      "name": "Public support and compliance costs",
+      "score": 0.0,
+      "explanation": "No discussion of checkpoints, taxation, security practices, or their effects on community backing and legitimacy perceptions."
+    },
+    {
+      "name": "Prospects for consolidation",
+      "score": 0.5,
+      "explanation": "The conclusion suggests conditional coordination and aligning engines in time, hinting at pathways to more strategic unity. It stops short of specifying conditions for deeper strategic consolidation enabling larger offensives or negotiated outcomes."
+    },
+    {
+      "name": "Risks of communal tensions",
+      "score": 0.0,
+      "explanation": "No coverage of communal tensions or risks arising from expansion into multiethnic areas or inclusivity in governance."
+    },
+    {
+      "name": "Strategic significance of urban centers",
+      "score": 0.25,
+      "explanation": "Urban dynamics are barely touched; there’s a brief national note that activity is overwhelmingly rural, and Dry Zone mentions Mandalay marginally. The strategic impact of approaching or controlling major cities (Yangon, Mandalay, Naypyidaw) on alliances and power balance is not analyzed."
+    }
+  ],
+  "overall_score": 0.3825
+}

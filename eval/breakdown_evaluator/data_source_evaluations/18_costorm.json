@@ -1,0 +1,222 @@
+{
+  "total_insights": 21,
+  "total_classified": 21,
+  "acled_count": 11,
+  "non_acled_count": 10,
+  "pct_acled": 0.5238095238095238,
+  "details": [
+    {
+      "evidence": "Rwanda leverages a dual military identity: overt, professional security exports in Mozambique and CAR alongside deniable, association-coded coercion with M23 in eastern DRC.",
+      "is_acled_data": false,
+      "reasoning": "The statement is analytical commentary about Rwanda’s dual military posture and alleged ties to M23, without citing specific conflict events, counts, locations, fatalities, or ACLED-attributed actor/event data. It is not directly derived from ACLED event data.",
+      "source_context": "Article thesis and framing across introduction and conclusion."
+    },
+    {
+      "evidence": "ACLED data show a 2023–24 surge in M23–RDF-linked battles in North Kivu, peaking in May 2024 at roughly twice the late‑2022 spike, then receding before flaring again in December 2024.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites “ACLED data” and describes temporal conflict trends and battle event counts involving M23–RDF in North Kivu, including peaks and fluctuations across specific months and years—precisely the type of battle-related, actor-level, and time-series event analysis ACLED provides.",
+      "source_context": "Section 'Next door, a different war' citing temporal curves and sources [4][5]."
+    },
+    {
+      "evidence": "Rwanda’s ‘security exporter’ brand—built through UN/AU peacekeeping and targeted bilateral missions—provides reputational cover that reduces diplomatic costs for its deniable actions in eastern DRC.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a geopolitical/strategic assessment about Rwanda’s reputation and diplomatic costs, not citing specific conflict event data, fatalities, locations, or actor/event statistics attributable to ACLED. It reads as analytical commentary rather than data derived from ACLED datasets.",
+      "source_context": "Introduction and 'Reputational cover' sections referencing [6][7][8][9]."
+    },
+    {
+      "evidence": "Rwanda’s rise as a top-tier troop contributor (≈6,550 personnel) to UN and AU missions is a deliberate foreign-policy tool aligned with priorities of major powers (UN, US, EU).",
+      "is_acled_data": false,
+      "reasoning": "The evidence cites troop contribution numbers to UN/AU missions and frames them as foreign policy tools. ACLED does not track peacekeeping troop levels or foreign policy alignment; it focuses on conflict events, fatalities, actors, and locations. This is general geopolitical/peacekeeping data, not ACLED-derived.",
+      "source_context": "Section on brand-building through peacekeeping, referencing [6][8][9]."
+    },
+    {
+      "evidence": "Peacekeeping roles have repeatedly softened criticism and diluted sanctions threats against Rwanda when accused of destabilizing eastern DRC.",
+      "is_acled_data": false,
+      "reasoning": "This is a geopolitical assessment about peacekeeping roles mitigating criticism and sanction threats; it is not tied to specific ACLED event data, counts, fatalities, or actor/event records, nor is it attributed to ACLED.",
+      "source_context": "Brand-building section citing diplomatic armor effects [6][8]."
+    },
+    {
+      "evidence": "In CAR, RDF activity exhibits a spike-and-fade profile centered on Jan–May 2021, indicating a bounded, crisis-driven intervention rather than an open-ended commitment.",
+      "is_acled_data": true,
+      "reasoning": "The statement describes a temporal pattern of RDF activity in CAR with a spike-and-fade between Jan–May 2021, which aligns with ACLED-style conflict trend analysis derived from event counts over time. It reflects temporal patterns and actor activity based on event data, typical of ACLED-derived insights.",
+      "source_context": "'Showcase theatres: CAR' temporal profile using ACLED panel analysis [1][3]."
+    },
+    {
+      "evidence": "Rwanda’s CAR engagement combined MINUSCA peacekeeping with a bilateral defense pact protecting Bangui’s strategic sites and elites, sometimes alongside Wagner, showcasing flexible regime-security provision.",
+      "is_acled_data": false,
+      "reasoning": "The evidence is a geopolitical/operational summary about Rwanda’s role in CAR, MINUSCA participation, a bilateral defense pact, protection of strategic sites/elites, and cooperation with Wagner. It does not cite specific conflict events, counts, fatalities, locations, or actor/event data attributed to ACLED. This is analytical narrative rather than ACLED event-derived information.",
+      "source_context": "CAR qualitative role description [7][10][1]."
+    },
+    {
+      "evidence": "In Cabo Delgado, Mozambique, RDF operations since mid‑2021 are sustained and ‘professionalized,’ featuring concentrated battles with low recorded civilian harm and geographically focused operations around Mocímboa da Praia, Mbau, and Mucojo.",
+      "is_acled_data": false,
+      "reasoning": "The evidence is a qualitative assessment of RDF operations being “sustained and professionalized,” with low civilian harm and geographically focused operations. While it references locations and implies low civilian harm, it does not cite specific ACLED event counts, fatalities, or actor-level data, nor is it explicitly attributed to ACLED. It reads as analytical narrative rather than direct ACLED-derived statistics.",
+      "source_context": "Mozambique locality and event-type patterns [2][13][14][15][16]."
+    },
+    {
+      "evidence": "By 2024 in Mozambique, RDF–FADM operations remain geographically concentrated and battle-heavy, with many engagements coded zero-fatality or with modest tolls—supporting a rules-based counterinsurgency image.",
+      "is_acled_data": true,
+      "reasoning": "Mentions battle-heavy operations, engagements coded with zero or modest fatalities, and geographic concentration—these are hallmarks of ACLED event data (event types, coding of fatalities, and subnational geographic patterns).",
+      "source_context": "2024 ACLED snapshots of Cabo Delgado [1][14][17]."
+    },
+    {
+      "evidence": "Cleaned ACLED data show most Rwanda-linked conflict events from 2019–24 occur outside Rwanda, clustered mainly in eastern DRC and Mozambique, with a smaller footprint in CAR, after removing Myanmar ‘RDF’ homonyms.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references “Cleaned ACLED data,” discusses conflict events by location and time (2019–24), clustering in specific countries, and disambiguation of homonyms—characteristics of ACLED event-level geographic and actor data. This aligns with ACLED’s event counts, locations, actor-level data, and temporal patterns.",
+      "source_context": "Data cleaning and spatial concentration discussion [11]."
+    },
+    {
+      "evidence": "Eastern DRC fighting shows deniable RDF involvement through association fields with M23, requiring methodical filtering (removing Myanmar homonyms and relying on associations rather than primary actor labels).",
+      "is_acled_data": true,
+      "reasoning": "The evidence discusses identifying RDF involvement in Eastern DRC through association fields with M23 and methodological filtering of actor labels—this corresponds to ACLED’s actor-level event data structure and coding practices (associations, actor homonyms) and implies use of ACLED event records rather than general commentary.",
+      "source_context": "Methodology for detecting RDF–M23 association in ACLED [18][19][21]."
+    },
+    {
+      "evidence": "The RDF–M23 campaign intensified from late 2023 into 2024, after being largely absent before mid‑2022 and softening in early 2023, indicating a staged escalation pattern.",
+      "is_acled_data": true,
+      "reasoning": "The statement describes temporal patterns of armed group activity and campaign intensity (absent before mid-2022, softening early 2023, intensified late 2023–2024). Such staged escalation assessments are typically derived from ACLED’s event counts and trend analysis over time for specific actors (RDF–M23), aligning with ACLED’s conflict trend and actor-level data. While phrased analytically, it directly reflects timelines and intensity patterns that ACLED tracks.",
+      "source_context": "Temporal curve of M23–RDF battles [4][5]."
+    },
+    {
+      "evidence": "A brief phase of air and drone strikes appears in the DRC series around Oct 2023–Feb 2024—clustered on a few days, notably early February—then disappears, suggesting short-lived experimentation with higher-end coercion.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references specific temporal patterns of conflict events (air and drone strikes clustered around Oct 2023–Feb 2024 with concentration in early February, then cessation). Identifying strike events, their timing, and clustering aligns with ACLED’s event-level and temporal trend data; this type of pattern analysis is commonly derived from ACLED’s explosions/remote violence and air/drone strike event records.",
+      "source_context": "Event-type cut highlighting air/drone strikes [4][24]."
+    },
+    {
+      "evidence": "In 2024, Sake emerged as the most active DRC locality for RDF-linked clashes (18 events) but with only four recorded fatalities, indicating positional pressure rather than high-casualty assaults; several hotspots recorded multiple clashes with zero fatalities.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific event counts and fatalities for a particular locality (Sake) in 2024 and characterizes patterns of clashes and casualty levels—information consistent with ACLED’s event-level data, geographic breakdowns, and fatality counts. This reflects conflict trend analysis derived from ACLED-style datasets.",
+      "source_context": "Spatial distribution and fatalities in 2024 DRC localities [25]."
+    },
+    {
+      "evidence": "Border-proximate RDF-linked events surged on the Rwanda–DRC frontier precisely during the 2022–24 crisis, while Rwanda–Burundi and Rwanda–Uganda borders showed different or quieter patterns, underscoring theatre-specific coercion.",
+      "is_acled_data": true,
+      "reasoning": "The evidence discusses temporal and geographic patterns of RDF-linked events along specific borders during 2022–24, implying counts/locations of conflict events and trend comparisons across theaters. This aligns with ACLED’s event-level, geocoded, and temporal trend data on actor-linked incidents, making it consistent with insights derived from ACLED.",
+      "source_context": "Border event timing analysis [22][26]."
+    },
+    {
+      "evidence": "Rwanda’s concurrent high-profile missions in CAR (2021 spike) and ongoing Mozambique operations (since 2021) coincided with escalating M23–RDF activity in DRC (late 2022–2024), reinforcing the notion that exported security and deniable coercion overlapped temporally.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a synthesized temporal/geopolitical analysis linking missions in CAR and Mozambique with M23–RDF activity. It does not cite specific ACLED event counts, actor-level entries, fatalities, locations, or ACLED-derived trend metrics. It reads as interpretive commentary rather than explicit ACLED event data or trends attributed to ACLED.",
+      "source_context": "Cross-theatre timeline comparison [1][2][3][4][5]."
+    },
+    {
+      "evidence": "When ACLED tags RDF in contexts involving MONUSCO, events skew toward battles and violent incidents rather than classic peacekeeping tasks, revealing tension between image and practice.",
+      "is_acled_data": true,
+      "reasoning": "The evidence explicitly references ACLED tagging of RDF and characterizes event types (battles vs. peacekeeping), which aligns with ACLED’s actor-level and event-type data and trend analysis derived from its dataset.",
+      "source_context": "Mission-context coding observations [28][29]."
+    },
+    {
+      "evidence": "Air/drone strike data in 2023–24 show limited but symbolically important upticks across DRC and Mozambique; lethality appears higher in North Kivu and RDF attribution more overt in Cabo Delgado, though attribution noise warrants caution.",
+      "is_acled_data": true,
+      "reasoning": "References to air/drone strike data over 2023–24 with regional breakdowns (DRC, Mozambique), lethality patterns (higher in North Kivu), and attribution assessments align with ACLED’s event counts, fatalities, geographic and temporal trend analysis, and actor-level attribution. The caution about attribution noise is consistent with ACLED methodology. While not explicitly attributed, the structure and metrics match ACLED-derived insights.",
+      "source_context": "Air/drone strike comparative notes and caveats [30][31][32]."
+    },
+    {
+      "evidence": "Rwanda’s security exports create geopolitical value for partners, making overt confrontation over DRC involvement diplomatically costly, thereby muting potential sanctions or strong censure.",
+      "is_acled_data": false,
+      "reasoning": "The statement is geopolitical analysis about diplomatic costs and sanctions regarding Rwanda’s involvement in the DRC. It does not reference specific conflict event data, fatalities, locations, actor activities, or ACLED-attributed metrics. Therefore, it is not derived from ACLED data.",
+      "source_context": "Reputational cover mechanism and diplomatic calculus [6][7][8][9][21]."
+    },
+    {
+      "evidence": "The strategy carries risks: CAR’s short-lived spike, limited air/drone incidents, and reliance on association coding reveal a data-fragile posture vulnerable to setbacks in Mozambique, reduced peacekeeping footprints, or tighter attribution in North Kivu.",
+      "is_acled_data": false,
+      "reasoning": "The evidence is an analytical statement about strategic risks, referencing notions like a short-lived spike, limited air/drone incidents, reliance on association coding, and attribution tightness. It does not cite specific ACLED event counts, fatalities, locations, or actor-level data, nor does it explicitly attribute data to ACLED. It appears to be general analytical commentary rather than direct use of ACLED-derived metrics.",
+      "source_context": "Limits and risks discussion [19][21][4]."
+    },
+    {
+      "evidence": "Overall, exported security functions as reputational cover that helps shield Rwanda’s exercise of hard power in eastern DRC; the durability of this equilibrium depends on outcomes in Mozambique, peacekeeping levels, and future evidence linking RDF to abuses.",
+      "is_acled_data": false,
+      "reasoning": "The excerpt is a geopolitical assessment about Rwanda’s use of security exports as reputational cover and conditions affecting this equilibrium. It does not reference specific conflict events, counts, locations, fatalities, or actor/event data attributable to ACLED. It is general analysis rather than ACLED-derived data.",
+      "source_context": "Conclusion synthesizing cross-theatre dynamics and contingencies."
+    }
+  ],
+  "insights": [
+    {
+      "insight": "Rwanda leverages a dual military identity: overt, professional security exports in Mozambique and CAR alongside deniable, association-coded coercion with M23 in eastern DRC.",
+      "context": "Article thesis and framing across introduction and conclusion."
+    },
+    {
+      "insight": "ACLED data show a 2023–24 surge in M23–RDF-linked battles in North Kivu, peaking in May 2024 at roughly twice the late‑2022 spike, then receding before flaring again in December 2024.",
+      "context": "Section 'Next door, a different war' citing temporal curves and sources [4][5]."
+    },
+    {
+      "insight": "Rwanda’s ‘security exporter’ brand—built through UN/AU peacekeeping and targeted bilateral missions—provides reputational cover that reduces diplomatic costs for its deniable actions in eastern DRC.",
+      "context": "Introduction and 'Reputational cover' sections referencing [6][7][8][9]."
+    },
+    {
+      "insight": "Rwanda’s rise as a top-tier troop contributor (≈6,550 personnel) to UN and AU missions is a deliberate foreign-policy tool aligned with priorities of major powers (UN, US, EU).",
+      "context": "Section on brand-building through peacekeeping, referencing [6][8][9]."
+    },
+    {
+      "insight": "Peacekeeping roles have repeatedly softened criticism and diluted sanctions threats against Rwanda when accused of destabilizing eastern DRC.",
+      "context": "Brand-building section citing diplomatic armor effects [6][8]."
+    },
+    {
+      "insight": "In CAR, RDF activity exhibits a spike-and-fade profile centered on Jan–May 2021, indicating a bounded, crisis-driven intervention rather than an open-ended commitment.",
+      "context": "'Showcase theatres: CAR' temporal profile using ACLED panel analysis [1][3]."
+    },
+    {
+      "insight": "Rwanda’s CAR engagement combined MINUSCA peacekeeping with a bilateral defense pact protecting Bangui’s strategic sites and elites, sometimes alongside Wagner, showcasing flexible regime-security provision.",
+      "context": "CAR qualitative role description [7][10][1]."
+    },
+    {
+      "insight": "In Cabo Delgado, Mozambique, RDF operations since mid‑2021 are sustained and ‘professionalized,’ featuring concentrated battles with low recorded civilian harm and geographically focused operations around Mocímboa da Praia, Mbau, and Mucojo.",
+      "context": "Mozambique locality and event-type patterns [2][13][14][15][16]."
+    },
+    {
+      "insight": "By 2024 in Mozambique, RDF–FADM operations remain geographically concentrated and battle-heavy, with many engagements coded zero-fatality or with modest tolls—supporting a rules-based counterinsurgency image.",
+      "context": "2024 ACLED snapshots of Cabo Delgado [1][14][17]."
+    },
+    {
+      "insight": "Cleaned ACLED data show most Rwanda-linked conflict events from 2019–24 occur outside Rwanda, clustered mainly in eastern DRC and Mozambique, with a smaller footprint in CAR, after removing Myanmar ‘RDF’ homonyms.",
+      "context": "Data cleaning and spatial concentration discussion [11]."
+    },
+    {
+      "insight": "Eastern DRC fighting shows deniable RDF involvement through association fields with M23, requiring methodical filtering (removing Myanmar homonyms and relying on associations rather than primary actor labels).",
+      "context": "Methodology for detecting RDF–M23 association in ACLED [18][19][21]."
+    },
+    {
+      "insight": "The RDF–M23 campaign intensified from late 2023 into 2024, after being largely absent before mid‑2022 and softening in early 2023, indicating a staged escalation pattern.",
+      "context": "Temporal curve of M23–RDF battles [4][5]."
+    },
+    {
+      "insight": "A brief phase of air and drone strikes appears in the DRC series around Oct 2023–Feb 2024—clustered on a few days, notably early February—then disappears, suggesting short-lived experimentation with higher-end coercion.",
+      "context": "Event-type cut highlighting air/drone strikes [4][24]."
+    },
+    {
+      "insight": "In 2024, Sake emerged as the most active DRC locality for RDF-linked clashes (18 events) but with only four recorded fatalities, indicating positional pressure rather than high-casualty assaults; several hotspots recorded multiple clashes with zero fatalities.",
+      "context": "Spatial distribution and fatalities in 2024 DRC localities [25]."
+    },
+    {
+      "insight": "Border-proximate RDF-linked events surged on the Rwanda–DRC frontier precisely during the 2022–24 crisis, while Rwanda–Burundi and Rwanda–Uganda borders showed different or quieter patterns, underscoring theatre-specific coercion.",
+      "context": "Border event timing analysis [22][26]."
+    },
+    {
+      "insight": "Rwanda’s concurrent high-profile missions in CAR (2021 spike) and ongoing Mozambique operations (since 2021) coincided with escalating M23–RDF activity in DRC (late 2022–2024), reinforcing the notion that exported security and deniable coercion overlapped temporally.",
+      "context": "Cross-theatre timeline comparison [1][2][3][4][5]."
+    },
+    {
+      "insight": "When ACLED tags RDF in contexts involving MONUSCO, events skew toward battles and violent incidents rather than classic peacekeeping tasks, revealing tension between image and practice.",
+      "context": "Mission-context coding observations [28][29]."
+    },
+    {
+      "insight": "Air/drone strike data in 2023–24 show limited but symbolically important upticks across DRC and Mozambique; lethality appears higher in North Kivu and RDF attribution more overt in Cabo Delgado, though attribution noise warrants caution.",
+      "context": "Air/drone strike comparative notes and caveats [30][31][32]."
+    },
+    {
+      "insight": "Rwanda’s security exports create geopolitical value for partners, making overt confrontation over DRC involvement diplomatically costly, thereby muting potential sanctions or strong censure.",
+      "context": "Reputational cover mechanism and diplomatic calculus [6][7][8][9][21]."
+    },
+    {
+      "insight": "The strategy carries risks: CAR’s short-lived spike, limited air/drone incidents, and reliance on association coding reveal a data-fragile posture vulnerable to setbacks in Mozambique, reduced peacekeeping footprints, or tighter attribution in North Kivu.",
+      "context": "Limits and risks discussion [19][21][4]."
+    },
+    {
+      "insight": "Overall, exported security functions as reputational cover that helps shield Rwanda’s exercise of hard power in eastern DRC; the durability of this equilibrium depends on outcomes in Mozambique, peacekeeping levels, and future evidence linking RDF to abuses.",
+      "context": "Conclusion synthesizing cross-theatre dynamics and contingencies."
+    }
+  ],
+  "prompt": "Explores the roles and operations of the Rwanda Defence Force in regional conflicts and their geopolitical significance."
+}

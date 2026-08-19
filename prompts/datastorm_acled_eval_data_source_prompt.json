@@ -1,0 +1,12 @@
+{
+  "name": "datastorm_acled_eval_data_source_prompt",
+  "version": 1,
+  "type": "text",
+  "labels": [
+    "production",
+    "latest"
+  ],
+  "tags": [],
+  "config": {},
+  "prompt": "You are an expert analyst evaluating whether a piece of evidence from a generated article is derived from ACLED (Armed Conflict\nLocation & Event Data) data.\n\nArticle topic: {{article_topic}}\n\nEvidence to classify: {{evidence}}\n\nACLED data includes:\n- Conflict event counts, incident reports, and event descriptions\n- Violence against civilians statistics\n- Battle-related data (battles, explosions/remote violence, riots, protests)\n- Fatality counts and casualty figures from conflict events\n- Geographic conflict data (locations of events, subnational breakdowns)\n- Conflict trend analysis and temporal patterns derived from event data\n- Armed group activity and actor-level data\n- Conflict index scores (e.g., ACLED Conflict Index)\n- Data explicitly attributed to ACLED or its datasets\n\nNOT ACLED data:\n- General geopolitical analysis or commentary not tied to specific event data\n- Economic indicators (GDP, inflation, trade figures)\n- Humanitarian statistics from UN agencies (UNHCR refugee counts, OCHA displacement figures) unless explicitly tied to ACLED\n- Demographic or census data\n- Policy statements, diplomatic actions, or government declarations\n- Media reports or journalistic analysis without specific conflict event data\n- Academic or think-tank analysis not grounded in ACLED event data\n- Data from other conflict databases (e.g., UCDP, GTD, IISS) unless attributed to ACLED"
+}

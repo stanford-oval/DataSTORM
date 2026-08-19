@@ -1,0 +1,175 @@
+{
+  "per_dimension": [
+    {
+      "dimension": "actor_entity",
+      "score": 0.0,
+      "num_concept_groups": 1,
+      "num_consistent_groups": 0,
+      "notes": "RDF identification is not standardized: some queries anchor 'RDF' and require 'Rwanda' context and search notes/assoc_actor; others rely on '%RDF%' anywhere, or broadly match '%Rwanda%' + state forces; fields searched (actor1/2 vs assoc_actor vs notes) differ, and only one query guards against false positives like 'EPRDF'."
+    },
+    {
+      "dimension": "geography",
+      "score": 0.5,
+      "num_concept_groups": 4,
+      "num_consistent_groups": 2,
+      "notes": "Mozambique Cabo Delgado (admin1='Cabo Delgado') is handled consistently; CAR name is consistent. DRC country naming and North Kivu naming are inconsistent across queries (exact string vs ILIKE variants; 'North Kivu' vs 'Nord-Kivu')."
+    },
+    {
+      "dimension": "temporal",
+      "score": 1.0,
+      "num_concept_groups": 3,
+      "num_consistent_groups": 3,
+      "notes": "Where the same time window appears across multiple queries (2015–2024; 2010–2024; 2019–2024), the bounds are applied consistently (inclusive date bounds or equivalent YEAR BETWEEN)."
+    },
+    {
+      "dimension": "event_taxonomy",
+      "score": 1.0,
+      "num_concept_groups": 1,
+      "num_consistent_groups": 1,
+      "notes": "The only repeated taxonomy definition found (territorial-change sub_event_types) is consistent between queries."
+    },
+    {
+      "dimension": "counting_aggregation",
+      "score": 0.0,
+      "num_concept_groups": 1,
+      "num_consistent_groups": 0,
+      "notes": "Median fatalities per event are computed with different NULL handling across queries (exclude NULLs vs treat NULL as 0), which will change results."
+    },
+    {
+      "dimension": "population_scope",
+      "score": 0.5,
+      "num_concept_groups": 2,
+      "num_consistent_groups": 1,
+      "notes": "Most 'outside Rwanda' filters are consistently country <> 'Rwanda'. However, some queries use a different base table ('acled_events' vs 'events'), which changes the population."
+    }
+  ],
+  "conflicts": [
+    {
+      "dimension": "actor_entity",
+      "concept": "Rwanda Defence Force identification (RDF)",
+      "query_indices": [
+        0,
+        5
+      ],
+      "predicate_a": "((COALESCE(actor1,'')||' '||COALESCE(actor2,'')||' '||COALESCE(assoc_actor_1,'')||' '||COALESCE(assoc_actor_2,'')||' '||COALESCE(notes,'')) ~* '(^|\\W)(RDF)(\\W|$)' OR regexes for 'Rwanda Military Forces' and 'Rwand(an)? ... defence force|army|military')",
+      "predicate_b": "(actor1 ILIKE '%RDF%' OR actor2 ILIKE '%RDF%' OR assoc_actor_1 ILIKE '%RDF%' OR assoc_actor_2 ILIKE '%RDF%')",
+      "severity": "result-changing",
+      "explanation": "Q0 anchors 'RDF' and requires Rwanda-context terms across actor and notes fields, reducing false positives like 'EPRDF' or non-Rwandan '...Resistance/Regional Defence Force'; Q5 matches any '%RDF%' string in actor/assoc fields and will both include non-Rwandan actors and miss spelled-out 'Rwanda Defence Force' without 'RDF'."
+    },
+    {
+      "dimension": "actor_entity",
+      "concept": "RDF identification in actor columns",
+      "query_indices": [
+        6,
+        12
+      ],
+      "predicate_a": "(actor1 ILIKE '%Rwanda Defence Force%' OR actor1 ILIKE '%RDF%' OR actor2 ILIKE '%Rwanda Defence Force%' OR actor2 ILIKE '%RDF%')",
+      "predicate_b": "(actor1/2 ILIKE '%rwanda defence/defense force%' variants; assoc_actor_1/2 includes '%RDF%'; actor1/2 do NOT include '%RDF%')",
+      "severity": "result-changing",
+      "explanation": "Q6 will capture actor1/actor2 entries that are only 'RDF', but Q12 omits '%RDF%' for actor1/actor2 and thus misses those events; conversely Q6 lacks 'Rwanda Defense Force' (US spelling) and any assoc_actor matches included by Q12."
+    },
+    {
+      "dimension": "actor_entity",
+      "concept": "Broad 'Rwanda' vs specific RDF labels",
+      "query_indices": [
+        3,
+        6
+      ],
+      "predicate_a": "is_rdf = ((actor1 ILIKE '%Rwanda%' OR '%RDF%' OR '%Rwandan%') OR same on actor2)",
+      "predicate_b": "(actor1/2 ILIKE '%Rwanda Defence Force%' OR '%RDF%')",
+      "severity": "result-changing",
+      "explanation": "Q3 flags any actor string containing 'Rwanda' or 'Rwandan', which will include non-RDF Rwandan state/security actors (e.g., police) and even non-state uses; Q6 limits to explicit RDF strings."
+    },
+    {
+      "dimension": "actor_entity",
+      "concept": "RDF anchoring vs generic '%rdf%' substring in actor1/actor2",
+      "query_indices": [
+        8,
+        0
+      ],
+      "predicate_a": "(LOWER(actor1) LIKE '%rdf%' OR LOWER(actor2) LIKE '%rdf%' OR 'rwanda defence force'/'rwandan military'/'rwanda armed forces')",
+      "predicate_b": "Regex-anchored '(^|\\W)RDF(\\W|$)' and Rwanda-specific force phrases across actor/assoc_actor/notes",
+      "severity": "result-changing",
+      "explanation": "Q8's '%rdf%' matching in actor1/2 will erroneously count non-Rwandan '...Defence/Defense Force' groups that abbreviate as RDF (e.g., township 'Regional/Resistance Defence Force' in Myanmar), inflating counts; Q0 avoids these via word boundaries and Rwanda-specific terms."
+    },
+    {
+      "dimension": "actor_entity",
+      "concept": "Rwandan state forces broadly vs RDF-specific",
+      "query_indices": [
+        23,
+        6
+      ],
+      "predicate_a": "((actor1 ILIKE '%Rwanda%' AND inter1='State forces') OR (actor2 ILIKE '%Rwanda%' AND inter2='State forces'))",
+      "predicate_b": "actor1/2 ILIKE '%Rwanda Defence Force%' OR '%RDF%'",
+      "severity": "result-changing",
+      "explanation": "Q23 counts any Rwandan state force (e.g., police, peacekeepers under generic 'Military Forces of Rwanda'), whereas Q6 restricts to the RDF label; this alters both inclusion and cross-country tallies."
+    },
+    {
+      "dimension": "actor_entity",
+      "concept": "Inclusion of 'Rwandan army/military' variants",
+      "query_indices": [
+        20,
+        19
+      ],
+      "predicate_a": "actor1/2 OR assoc_actor_1/2 ILIKE many variants including 'Rwandan army', 'Rwanda army', 'Rwanda military', and '%RDF%'",
+      "predicate_b": "actor1/2 OR assoc_actor_1/2 ILIKE only '%rwanda defence force%' or '%rdf%'",
+      "severity": "result-changing",
+      "explanation": "Q20 will include events mentioning 'Rwandan army/military' without the 'Defence Force' string; Q19 will exclude those unless 'RDF' or 'Rwanda Defence Force' appears verbatim."
+    },
+    {
+      "dimension": "geography",
+      "concept": "DRC country name normalization",
+      "query_indices": [
+        14,
+        0
+      ],
+      "predicate_a": "country IN ('Democratic Republic of Congo','Mozambique')",
+      "predicate_b": "country ILIKE any of '%Democratic Republic of the Congo%','%Democratic Republic of Congo%','%Congo (Kinshasa)%','%Congo, Dem%'",
+      "severity": "result-changing",
+      "explanation": "Q14 relies on an exact country string that may not match ACLED's canonical 'Democratic Republic of the Congo' spelling or alternate labels, while Q0 accommodates multiple variants; results for DRC will diverge if the DB uses a different canonical name."
+    },
+    {
+      "dimension": "geography",
+      "concept": "North Kivu naming",
+      "query_indices": [
+        3,
+        0
+      ],
+      "predicate_a": "admin1 ILIKE '%Nord-Kivu%' (French label)",
+      "predicate_b": "admin1 IN ('Ituri','North Kivu','South Kivu') (English label for North Kivu)",
+      "severity": "result-changing",
+      "explanation": "If ACLED stores the French 'Nord-Kivu', Q0's 'North Kivu' will miss those rows; conversely if English labels are used, Q3's 'Nord-Kivu' filter will miss them. Both intend the same province but apply different name variants."
+    },
+    {
+      "dimension": "counting_aggregation",
+      "concept": "Median fatalities per event definition",
+      "query_indices": [
+        9,
+        23
+      ],
+      "predicate_a": "WHERE fatalities IS NOT NULL; median = PERCENTILE_CONT(0.5) WITHIN GROUP (ORDER BY fatalities)",
+      "predicate_b": "median = PERCENTILE_CONT(0.5) WITHIN GROUP (ORDER BY COALESCE(fatalities,0))",
+      "severity": "result-changing",
+      "explanation": "Q9 excludes events with missing fatalities from the distribution, while Q23 treats missing fatalities as zero, lowering medians; the two methods are not directly comparable."
+    },
+    {
+      "dimension": "population_scope",
+      "concept": "Base events table",
+      "query_indices": [
+        11,
+        12
+      ],
+      "predicate_a": "FROM acled_events WHERE LOWER(actor1) LIKE '%rwanda defence force%' AND event_date BETWEEN '2015-01-01' AND '2024-12-31'",
+      "predicate_b": "FROM events WHERE year BETWEEN 2010 AND 2024 AND RDF actor matching across actor1/2 and assoc_actor fields",
+      "severity": "result-changing",
+      "explanation": "Q11 queries a different base table ('acled_events') with narrower actor1-only matching, while Q12 (and most others) query 'events' with broader matching; if the tables differ or 'acled_events' is a subset, results are not comparable."
+    }
+  ],
+  "overall_score": 0.5,
+  "summary": "Temporal windows and the one repeated event-taxonomy definition are internally consistent. However, RDF actor matching is highly inconsistent across queries (fields searched, name variants, anchoring, and false-positive exclusions differ), and DRC geographic naming is not standardized. There is also divergent handling of fatalities in median calculations and a split between 'events' vs 'acled_events' base tables, both of which will change results.",
+  "report_dir": "<repo>/datatalk/acled_ablations/no_qc/18/Explores_the_roles_and_operations_of_the_Rwanda_Defence_Force_in_regional_conflicts_and_their_geopolitical_s__20260529_193925",
+  "model": "gpt-5",
+  "num_queries": 25,
+  "applicable": true,
+  "id": 18
+}

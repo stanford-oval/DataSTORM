@@ -1,0 +1,75 @@
+{
+  "dataset_id": 84,
+  "dataset_path": "data/notebooks/flag-84.json",
+  "metadata": {
+    "category": "User Management",
+    "dataset_description": "This dataset contains 500 simulated records from the ServiceNow `sys_user` table. The `sys_user` table captures user-related information, detailing the profiles of employees or system users. Key fields include 'user_id', 'name', 'schedule', 'role', 'email', and 'department', offering a comprehensive view of the users managed within the ServiceNow system. This dataset is crucial for analyzing workflow, user involvement, and the detailed tracking of processes such as incident resolution within an organization.",
+    "goal": "Evaluate the distribution of managerial roles within the IT department to identify and rectify imbalances that may lead to management overload in system user administration.",
+    "header": "IT Department Management Staffing Analysis (Flag 84)",
+    "role": "HR Data Analyst"
+  },
+  "predicted_insights": [
+    "Each assignement_group totals 100 tickets, but workloads are uneven: the top assignee handles 27% (Hardware), 26% (Database), 24% (Network/Software), and 23% (Inquiry / Help), with the largest gap between most and least loaded reaching 15 points in Hardware (27 vs 12), indicating potential management overload for specific individuals.",
+    "Critical/high workload is concentrated on a few managers: Charlie Whitherspoon has a majority of high/critical tickets in four groups (Hardware 83.33%, Network 60.87%, Database 57.69%, Inquiry/Help 56.52%), and Luke Wilson leads Network at 73.33%, suggesting potential management overload in these areas while Database | Luke Wilson is lowest at 28.57%.",
+    "Non-assignee closures dominate: 22 of the top 25 assignement_group|assigned_to pairs have ≥0.70 share, 6 reach ≥0.875 (including >0.90 in Software and Database), while only 3 fall below 0.70—suggesting centralized closing patterns consistent with potential management overload in user administration.",
+    "The dominant closer in Hardware handles 27% of closures—7 percentage points (35% relative) above an even 20% split across five closers—indicating a notably higher workload concentration than other groups (next highest is Network at 26%).",
+    "Admins account for only 28% of updates in 'Inquiry / Help', which is 10 percentage points lower than employees (38%) and 6 points lower than system automation (34%), indicating that most routine user assistance updates are handled by staff and automation rather than managers—suggesting limited admin overload in this category and potential to further shift workload away from admins.",
+    "Beth and Fred together closed 25 of 47 Inquiry/Help tickets (≈53%), indicating a majority of closures are concentrated in two individuals—redistributing assignments could help prevent management overload in system user administration.",
+    "Beth handled 24% of all closures in this category but only 20% of assignments (a 20% surplus), while Howard Johnson closed 32% fewer tickets than assigned (13 vs 19), signaling a potential workload imbalance and cross-coverage pattern that could contribute to management overload in user administration.",
+    "Cross-location workload in 'Inquiry / Help' is perfectly balanced: all 5 closers handled tickets from all 5 locations (100% coverage each), yielding zero variance in location breadth and suggesting no single closer bears disproportionate cross-regional responsibility.",
+    "All five assignees have at least 72% of their tickets closed by others (range 72–82%), indicating that closure work is largely performed by non-assignees and suggesting a potential centralization of administrative/approval duties that could contribute to management overload; prioritizing streams with the highest mismatch (e.g., Luke Wilson at 82%) may yield the greatest reduction in cross-handoffs.",
+    "Luke Wilson’s median resolution time (~274 hours) is more than 300 hours higher than any other assignee (which all show negative medians), indicating either a uniquely heavy/complex workload for Luke or widespread timestamp issues for others—an inconsistency that could obscure true management overload patterns in user administration.",
+    "More than half of all tickets (52.8%, 264/500) show impossible timestamp ordering, suggesting a systemic timestamp/timezone issue that can distort SLA compliance and workload metrics, potentially masking management overload in user administration.",
+    "With 78.4% of tickets closed by non-assignees versus 21.6% by assignees, the high rate of handoffs across the five assignment groups suggests potential coordination gaps that could be driving management overload in system user administration workflows."
+  ],
+  "predicted_summary": "Most tickets are closed by someone other than the person they were assigned to: 78.4% overall (392/500). By assignee, 72–82% of tickets are closed by others (Luke 82%, Fred 81%, Howard 81%, Charlie 76%, Beth 72%), and among high‑volume assignee–group pairs this rises to roughly 74–93% (e.g., Software | Luke 93.33%, Software | Howard 91.30%, Network | Fred 87.50%, Hardware | Luke 85.19%).\nClosure responsibility is concentrated in a few people and appears centralized in user support: in Hardware, one individual (Howard Johnson) accounts for 27% of all closures in the group (highest concentration across groups). In Inquiry / Help (system user administration), Beth Anglin is the top closer (13 tickets) and closed more than she was assigned (+4), 28% of tickets were updated by “admin,” and the key closers each handled tickets across all 5 locations, indicating cross‑location centralization of closure work.\nUrgent workload is clustered on a subset of assignee–group combinations: 14 of 25 (56%) have at least half of their tickets marked High or Critical, with extremes such as Hardware | Charlie Whitherspoon at 83.33% and Network | Luke Wilson at 73.33%. In the context of the widespread pattern of non‑assignee closures, this points to high‑severity work being funneled to the same small set of closers.",
+  "score_insights": 0.12729676144386573,
+  "score_insights_dict": [
+    {
+      "gt_insight": "There was no column department to conduct any analysis",
+      "pred_insight": "Beth and Fred together closed 25 of 47 Inquiry/Help tickets (≈53%), indicating a majority of closures are concentrated in two individuals—redistributing assignments could help prevent management overload in system user administration.",
+      "score": 0.13048186980192772
+    },
+    {
+      "gt_insight": "There was no column schedule to conduct any analysis",
+      "pred_insight": "With 78.4% of tickets closed by non-assignees versus 21.6% by assignees, the high rate of handoffs across the five assignment groups suggests potential coordination gaps that could be driving management overload in system user administration workflows.",
+      "score": 0.11311195043703917
+    },
+    {
+      "gt_insight": "There was no column department to conduct any analysis",
+      "pred_insight": "Beth and Fred together closed 25 of 47 Inquiry/Help tickets (≈53%), indicating a majority of closures are concentrated in two individuals—redistributing assignments could help prevent management overload in system user administration.",
+      "score": 0.13344569717557436
+    },
+    {
+      "gt_insight": "There was no column department to conduct any analysis",
+      "pred_insight": "Beth and Fred together closed 25 of 47 Inquiry/Help tickets (≈53%), indicating a majority of closures are concentrated in two individuals—redistributing assignments could help prevent management overload in system user administration.",
+      "score": 0.1321475283609217
+    }
+  ],
+  "score_summary": 0.16623147681812295,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.11034389465651312,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "Beth and Fred together closed 25 of 47 Inquiry/Help tickets (≈53%), indicating a majority of closures are concentrated in two individuals—redistributing assignments could help prevent management overload in system user administration.",
+      "gt_insight": "There was no column department to conduct any analysis",
+      "score": 0.11024092398991406
+    },
+    {
+      "pred_insight": "More than half of all tickets (52.8%, 264/500) show impossible timestamp ordering, suggesting a systemic timestamp/timezone issue that can distort SLA compliance and workload metrics, potentially masking management overload in user administration.",
+      "gt_insight": "There was no column schedule to conduct any analysis",
+      "score": 0.11509826482526705
+    },
+    {
+      "pred_insight": "Non-assignee closures dominate: 22 of the top 25 assignement_group|assigned_to pairs have ≥0.70 share, 6 reach ≥0.875 (including >0.90 in Software and Database), while only 3 fall below 0.70—suggesting centralized closing patterns consistent with potential management overload in user administration.",
+      "gt_insight": "There was no column department to conduct any analysis",
+      "score": 0.10801819490543567
+    },
+    {
+      "pred_insight": "Non-assignee closures dominate: 22 of the top 25 assignement_group|assigned_to pairs have ≥0.70 share, 6 reach ≥0.875 (including >0.90 in Software and Database), while only 3 fall below 0.70—suggesting centralized closing patterns consistent with potential management overload in user administration.",
+      "gt_insight": "There was no column department to conduct any analysis",
+      "score": 0.10801819490543567
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.4524494352682848,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.1965755568672436
+}

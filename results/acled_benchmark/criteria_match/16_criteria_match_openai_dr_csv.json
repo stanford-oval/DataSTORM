@@ -1,0 +1,143 @@
+{
+  "prompt": "Analyze current state of war in Sudan and peace outlook, as if we are at the end of 2024 heading into 2025.",
+  "criteria": [
+    {
+      "name": "Balance of Territorial Control",
+      "description": "Assess shifting frontlines and which actors hold momentum in key regions, noting patterns of advances, sieges, and strategic chokepoints that influence nationwide leverage."
+    },
+    {
+      "name": "Fragmentation of Armed Actors",
+      "description": "Examine the proliferation of militias and alliances, their evolving alignments, and how local defense forces and splinter groups reshape the conflict landscape."
+    },
+    {
+      "name": "Internal Cohesion Risks",
+      "description": "Evaluate signs of internal disputes and defections within major factions, and how decentralized structures and local agendas affect command and control and violence patterns."
+    },
+    {
+      "name": "Foreign Support and Meddling",
+      "description": "Analyze external backing, arms transfers, and training pipelines to warring parties, and how these inputs escalate capabilities, prolong fighting, and shape strategic choices."
+    },
+    {
+      "name": "Airpower and Drone Dynamics",
+      "description": "Track the growing use of air and drone strikes by both sides, the evolution of strike ranges and targets, and the impact on battlefield outcomes and civilian harm."
+    },
+    {
+      "name": "Humanitarian Catastrophe Trends",
+      "description": "Assess the scale and drivers of displacement, civilian targeting, and service collapse, highlighting how conflict intensity and siege tactics worsen humanitarian needs."
+    },
+    {
+      "name": "Peace Process Viability",
+      "description": "Evaluate the status of mediation efforts, preconditions and red lines of belligerents, and the degree to which battlefield calculations undermine negotiations."
+    },
+    {
+      "name": "Darfur Flashpoints and Sieges",
+      "description": "Monitor evolving fronts and besiegements in western regions, the role of allied militias, and implications for regional control and intercommunal violence."
+    },
+    {
+      "name": "Power Vacuums and Governance",
+      "description": "Assess the presence or absence of governance in contested areas, the effectiveness of ad hoc administrations, and the risks of lawlessness and warlordism."
+    },
+    {
+      "name": "Economies of War",
+      "description": "Analyze conflict financing mechanisms such as resource extraction and smuggling, and how economic incentives drive commanders’ behavior and entrench the conflict."
+    },
+    {
+      "name": "Ideological and Political Agendas",
+      "description": "Examine how Islamist and anti-Islamist currents within armed institutions and their backers shape alliances, foreign support, and postwar state visions."
+    },
+    {
+      "name": "Regional Security Spillovers",
+      "description": "Assess cross-border dynamics, training hubs, and coastal interests, and how neighboring states’ involvement affects regional stability and maritime corridors."
+    },
+    {
+      "name": "Civilian Arming and Militarization",
+      "description": "Track the emergence and spread of popular resistance groups, proliferation of small arms, and the long-term implications for community security and conflict recurrence."
+    },
+    {
+      "name": "Prospects for 2025 Scenarios",
+      "description": "Outline plausible trajectories—continued offensives, stalemate with fragmentation, or negotiated pauses—based on current trends in support, cohesion, and territorial control."
+    },
+    {
+      "name": "Accountability and Atrocities",
+      "description": "Evaluate patterns of targeted violence against communities, retaliation dynamics, and the presence or absence of mechanisms to deter or address mass abuses."
+    }
+  ],
+  "criterion_scores": [
+    {
+      "name": "Balance of Territorial Control",
+      "score": 0.75,
+      "explanation": "The article outlines RSF gains (most of Darfur, parts of Kordofan, much of greater Khartoum, Wad Madani briefly) and SAF counteroffensives (regaining Omdurman, retaking Sinja) and anticipates battles for Wad Madani and El Fasher. It mentions fluid front lines and momentum shifts. However, it lacks a granular mapping of which actor holds which towns/axes as of late 2024, limited detail on sieges or specific chokepoints influencing leverage beyond city names."
+    },
+    {
+      "name": "Fragmentation of Armed Actors",
+      "score": 0.5,
+      "explanation": "It notes that some Darfuri rebel factions allied with the army and references proliferation of other armed groups. But it does not systematically examine the range of militias, local defense forces, alliances, or splintering dynamics and how these reshape the conflict across regions."
+    },
+    {
+      "name": "Internal Cohesion Risks",
+      "score": 0.5,
+      "explanation": "The article references hardline Islamist supporters pressuring the SAF to walk out of talks and hints at domestic constituencies and politicized camps. It does not delve into internal disputes, defections, command-and-control challenges, or how decentralized RSF/SAF structures and local agendas affect violence patterns."
+    },
+    {
+      "name": "Foreign Support and Meddling",
+      "score": 0.9,
+      "explanation": "Strong coverage of external backing: identifies categories of supporters (Egypt for SAF; Russia, UAE, Sahel networks for RSF), arms flow violations, UN criticism, and how external patrons undermine ceasefires and encourage intransigence. Could be improved with more specifics on transfer routes, types of support, and training pipelines."
+    },
+    {
+      "name": "Airpower and Drone Dynamics",
+      "score": 0.5,
+      "explanation": "Mentions SAF momentum via drone acquisitions and ongoing airstrikes but lacks detailed tracking of both sides’ use, evolution of ranges, target sets, and battlefield/civilian impact. No specifics on RSF drone capability or air defense developments."
+    },
+    {
+      "name": "Humanitarian Catastrophe Trends",
+      "score": 1.0,
+      "explanation": "Comprehensive: casualties, displacement scale, famine risk, service collapse, impediments to aid, siege/starvation tactics, sexual violence, ethnic cleansing in Darfur, and limited access corridors. It links conflict intensity and tactics to worsening needs."
+    },
+    {
+      "name": "Peace Process Viability",
+      "score": 0.95,
+      "explanation": "Thorough review of Jeddah, AU/IGAD, Geneva efforts; obstacles, red lines (SAF integration demand vs RSF autonomy), battlefield calculations undermining negotiations, and lack of leverage. Only slight gap is limited discussion of preconditions beyond integration vs autonomy."
+    },
+    {
+      "name": "Darfur Flashpoints and Sieges",
+      "score": 0.7,
+      "explanation": "Covers atrocities in West Darfur (El Geneina, Massalit), RSF control of most of Darfur, looming battle for El Fasher, famine in North Darfur, allied Arab militias’ role. Less detail on specific sieges, town-by-town fronts, and intercommunal flashpoints beyond the highlighted cases."
+    },
+    {
+      "name": "Power Vacuums and Governance",
+      "score": 0.5,
+      "explanation": "Touches on collapse of services, ad hoc humanitarian hubs, and lawlessness implied by atrocities, but lacks explicit assessment of governance presence/absence in contested areas, effectiveness of ad hoc administrations, or emergence of warlord rule and local governance experiments."
+    },
+    {
+      "name": "Economies of War",
+      "score": 0.4,
+      "explanation": "Briefly notes RSF belief in control of resource-rich regions and foreign supply lines. Does not analyze financing mechanisms such as gold smuggling, taxation/extortion, trade routes, or economic incentives driving commanders."
+    },
+    {
+      "name": "Ideological and Political Agendas",
+      "score": 0.55,
+      "explanation": "Mentions Islamist hardliners influencing SAF stance and broader sidelining of pro-democracy groups. However, it does not deeply examine Islamist vs anti-Islamist currents within the institutions, their foreign linkage, or visions for postwar state beyond brief references."
+    },
+    {
+      "name": "Regional Security Spillovers",
+      "score": 0.45,
+      "explanation": "Notes refugee flows to neighbors and foreign involvement, plus UNSC dynamics. Lacks detail on cross-border training hubs, Chad/CAR/Libya linkages, Red Sea/coastal interests, smuggling corridors, or maritime corridor implications."
+    },
+    {
+      "name": "Civilian Arming and Militarization",
+      "score": 0.35,
+      "explanation": "Mentions popular mobilization for SAF but does not systematically track emergence of popular resistance committees-turned-armed groups, proliferation of small arms, or long-term implications for community security."
+    },
+    {
+      "name": "Prospects for 2025 Scenarios",
+      "score": 0.85,
+      "explanation": "Provides plausible trajectories: likely intensification, possible local ceasefires, conditions for unified mediation, leverage changes. Could strengthen by explicitly outlining multiple scenario branches (continued offensives vs stalemate/fragmentation vs negotiated pause) with triggers and indicators."
+    },
+    {
+      "name": "Accountability and Atrocities",
+      "score": 0.9,
+      "explanation": "Strong coverage of patterns of targeted violence (ethnic cleansing, sexual violence, child soldiering), mentions UN/HRW findings and lack of deterrent mechanisms (toothless sanctions, vetoes). Could add discussion of ICC or domestic accountability pathways and documentation efforts."
+    }
+  ],
+  "overall_score": 0.6533333333333334
+}

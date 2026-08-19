@@ -1,0 +1,143 @@
+{
+  "prompt": "What is the status of conflicts in Tigray after the Pretoria agreement? Focus on October 2024.",
+  "criteria": [
+    {
+      "name": "Post-agreement security climate",
+      "description": "Assess whether overall security conditions in Tigray are stabilizing or deteriorating since the peace deal, noting persistence of unrest despite formal cessation of hostilities."
+    },
+    {
+      "name": "Factional split within ruling movement",
+      "description": "Examine internal divisions within the dominant regional party, how competing factions emerged, and how the split threatens governance and peace implementation."
+    },
+    {
+      "name": "Control over armed forces",
+      "description": "Evaluate the extent to which civilian leaders and party factions exert authority over regional armed formations, and how incomplete disarmament heightens risks of renewed violence."
+    },
+    {
+      "name": "Federal–regional power dynamics",
+      "description": "Analyze interactions between the interim regional administration and the federal government, including appointments, oversight, and potential intervention scenarios."
+    },
+    {
+      "name": "Legal and institutional legitimacy",
+      "description": "Review party registration, electoral requirements, and institutional recognition, and how procedural disputes affect claims to authority and the transition to elected governance."
+    },
+    {
+      "name": "Geographic patterns of support",
+      "description": "Identify whether support for factions aligns with sub-regional or locality-based patterns and the extent to which these patterns are fluid rather than rigidly territorial."
+    },
+    {
+      "name": "Risk of intra-Tigray violence",
+      "description": "Assess triggers and pathways for internal armed confrontation, including leadership targeting, factional mobilization, and clashes in disputed areas."
+    },
+    {
+      "name": "Impact on peace agreement implementation",
+      "description": "Consider how internal disputes impede key provisions such as disarmament, reintegration, territorial arrangements, and the establishment of a regional government through elections."
+    },
+    {
+      "name": "Spillover from neighboring conflicts",
+      "description": "Evaluate how concurrent unrest in adjacent regions and disputed territories influences security dynamics and escalatory risks in Tigray."
+    },
+    {
+      "name": "Humanitarian and displacement context",
+      "description": "Assess how lingering displacement and slow recovery from prior war amplify the costs of renewed instability and complicate reconciliation."
+    },
+    {
+      "name": "Mediation and dialogue efforts",
+      "description": "Examine the role and effectiveness of civil society, religious leaders, and international partners in facilitating dialogue and preventing escalation."
+    },
+    {
+      "name": "Public sentiment and legitimacy crisis",
+      "description": "Gauge local perceptions of factional motives, trust in leadership, and calls for alternative political options, and how these views affect stability."
+    },
+    {
+      "name": "Scenarios and outlook",
+      "description": "Outline plausible near-term outcomes—consolidation by one faction or escalation to violence—and their implications for governance and civilian security."
+    },
+    {
+      "name": "Security incidents post-ceasefire",
+      "description": "Track patterns of armed incidents involving regional forces or militias since the ceasefire, focusing on whether incidents are isolated or indicative of systematic relapse."
+    },
+    {
+      "name": "Administrative control maneuvers",
+      "description": "Monitor attempts by factions to seize or retain control of interim government positions and party organs, and their compliance with procedural rules."
+    }
+  ],
+  "criterion_scores": [
+    {
+      "name": "Post-agreement security climate",
+      "score": 0.75,
+      "explanation": "Article states large-scale fighting ceased, minimal incidents and fatalities post-2022, services restored, but notes fragility due to Eritrean presence, Western Tigray dispute, slow DDR, lack of justice. Mostly addresses stabilization vs. lingering risks; could provide more October 2024-specific assessment and nuanced trends."
+    },
+    {
+      "name": "Factional split within ruling movement",
+      "score": 0.25,
+      "explanation": "Briefly mentions internal rifts within Tigray’s leadership and questions about TPLF’s future, but gives no detail on competing factions, their emergence, or implications. Barely addressed."
+    },
+    {
+      "name": "Control over armed forces",
+      "score": 0.5,
+      "explanation": "Discusses DDR slow pace, heavy weapons surrendered, many ex-fighters awaiting reintegration, suspicions of hidden arms. Limited analysis of who controls armed formations or factional authority; no detail on command structures. Partially addressed."
+    },
+    {
+      "name": "Federal–regional power dynamics",
+      "score": 0.5,
+      "explanation": "Notes interim administration established and reintegration under federal authority. Lacks depth on appointments, oversight, or potential intervention. Partially addressed."
+    },
+    {
+      "name": "Legal and institutional legitimacy",
+      "score": 0.5,
+      "explanation": "Mentions TPLF delisted from terrorist designation and not legally recognized as a party post-war; no detail on registration, electoral requirements, institutional recognition processes. Partially addressed."
+    },
+    {
+      "name": "Geographic patterns of support",
+      "score": 0.0,
+      "explanation": "No discussion of sub-regional or locality-based support for factions or fluidity. Not addressed."
+    },
+    {
+      "name": "Risk of intra-Tigray violence",
+      "score": 0.5,
+      "explanation": "Identifies triggers such as incomplete withdrawal, Western Tigray dispute, slow DDR, justice deficits; notes civilians vulnerable to abuses. Does not specifically map internal factional mobilization or leadership targeting within Tigray. Partially addressed."
+    },
+    {
+      "name": "Impact on peace agreement implementation",
+      "score": 0.75,
+      "explanation": "Covers how unresolved territorial issues, Eritrean presence, slow DDR, justice gaps impede completeness of peace; mentions reintegration delays and Western Tigray blocking returns. Mostly addressed; could add election timelines and concrete implementation benchmarks."
+    },
+    {
+      "name": "Spillover from neighboring conflicts",
+      "score": 0.75,
+      "explanation": "Notes new uprising in Amhara, Western Tigray under Amhara control, Eritrean forces’ role, and abuses affecting Tigrayans. Mostly addressed though limited depth on specific escalatory pathways."
+    },
+    {
+      "name": "Humanitarian and displacement context",
+      "score": 0.75,
+      "explanation": "Mentions humanitarian blockade lifted, aid resumed, slow restoration of services, barred returns to Western Tigray, ongoing abuses and trauma for survivors. Mostly addressed; could include displacement figures and recovery impediments."
+    },
+    {
+      "name": "Mediation and dialogue efforts",
+      "score": 0.25,
+      "explanation": "References the Pretoria agreement but provides no analysis of ongoing mediation by civil society, religious leaders, or international partners post-agreement. Barely addressed."
+    },
+    {
+      "name": "Public sentiment and legitimacy crisis",
+      "score": 0.25,
+      "explanation": "Touches on skepticism about justice and internal leadership questions, but lacks substantive treatment of public perceptions, trust, or calls for alternatives. Barely addressed."
+    },
+    {
+      "name": "Scenarios and outlook",
+      "score": 0.5,
+      "explanation": "Concludes peace largely holds but is fragile; does not outline explicit scenarios (consolidation vs. escalation) with implications. Partially addressed."
+    },
+    {
+      "name": "Security incidents post-ceasefire",
+      "score": 0.75,
+      "explanation": "Cites conflict data with minimal fatalities and months with zero deaths; asserts no large-scale fighting. Lacks qualitative incident patterns or whether incidents are isolated vs systematic. Mostly addressed."
+    },
+    {
+      "name": "Administrative control maneuvers",
+      "score": 0.0,
+      "explanation": "No discussion of factions contesting interim government or party organs, procedural compliance, or maneuvers. Not addressed."
+    }
+  ],
+  "overall_score": 0.4666666666666667
+}

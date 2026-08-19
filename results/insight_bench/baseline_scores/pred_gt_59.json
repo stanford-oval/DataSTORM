@@ -1,0 +1,65 @@
+{
+  "dataset_id": 59,
+  "dataset_path": "data/notebooks/flag-59.json",
+  "metadata": {
+    "category": "Incidents Management",
+    "dataset_description": "The dataset comprises 500 entries simulating ServiceNow incidents table, detailing various attributes such as category, state, open and close dates, involved personnel, and incident specifics like  description, and priority. It captures incident management activities with fields like 'opened_at', 'closed_at', 'assigned_to', 'short_description', and 'priority', reflecting the operational handling and urgency of issues across different locations and categories.",
+    "goal": "Find the discrepancy and imbalance in incidents assigned",
+    "header": "Hardware Incident Easy Dataset (Flag 59)",
+    "role": "L1 Agent"
+  },
+  "predicted_insights": [
+    "Incident assignments are perfectly balanced: all 5 assignees handle 100 incidents apiece, representing 20% of the 500 total per person, indicating no workload imbalance or discrepancy.",
+    "Across the five assignees there are 125 critical incidents in total; Charlie handles 28 (≈22%), which is 56% more than Howard’s 18 and slightly above the next two assignees (27 and 26), indicating a modest top-heavy skew with a notable drop-off at the low end.",
+    "Even though Fred Luddy and Howard Johnson have the same average monthly incident load (~7.7 per month, 100 incidents over 13 months), Fred’s workload volatility is about 16% higher (std 3.383 vs 2.919), driven by swings from 2 to 14 incidents in different months.",
+    "The U.S. imbalance (22) is about 70% higher than the next highest location (Australia, 13) and 83% above the median imbalance (12), indicating notably uneven workload distribution in the United States.",
+    "The top four assignees are tightly clustered (26–28%), but Howard Johnson is an outlier at 18%—a 10 percentage-point gap from the leader—indicating a notable imbalance in how critical incidents are allocated.",
+    "Out of 500 incidents, 392 (78.4%) were closed by someone other than the assignee, and the top three assignees (Luke Wilson, Fred Luddy, Howard Johnson) accounted for 244 of these (62.2% of cross-closures; 48.8% of all incidents), indicating a notable concentration of cross-closure activity.",
+    "Low-priority tickets show notable workload skew: within 4 - Low, the top assignee handles about 25% (31/125) vs the bottom about 14% (18/125), a ~10 percentage-point spread; by comparison, 2 - High and 1 - Critical also exhibit sizable gaps (12 and 10), indicating imbalance across priorities.",
+    "Notably, 4 out of 5 assignees show negative median closure times (down to −376.18 hours), indicating a strong data-quality discrepancy (e.g., timestamp or timezone issues) that disproportionately affects most assignees and could mask true performance differences.",
+    "Only 21.6% (108/500) of incidents were closed by the assigned person, meaning nearly 4 out of 5 cases involved a handoff at closure—a strong signal of workflow imbalance between assignment and resolution roles.",
+    "The mismatch between assignee and closer is persistently elevated across the period—roughly 70–88% each month—with a low of 68.75% in 2024-01 and multiple months above 80% (including 2023-02 at 84.85% and 2023-12 at 86.21%), indicating frequent handoffs or closures by non-assignees.",
+    "Assignments show no imbalance: each of the five users handled 100 of 500 total incidents (20% each), with a max–min difference of 0 and a standard deviation of 0.",
+    "Across assignees, a median of 81% (range 72%–82%) of incidents are closed by someone other than the assigned owner, indicating a systemic workflow pattern of cross-closure/hand-offs rather than isolated discrepancies."
+  ],
+  "predicted_summary": "Overall assignment counts are even across people (each of the 5 assignees has 100 incidents; ratio 1.0), but the mix of work is uneven: Charlie Whitherspoon handles the heaviest critical load (28 “1 - Critical” incidents, 28% of his work), and low-priority work is skewed with a 13-incident gap between the top (Fred Luddy: 31) and bottom (Charlie Whitherspoon: 18) assignees.\nClosure ownership is misaligned at scale: 78.4% of incidents (392/500) were closed by someone other than the assignee, peaking at 87.88% in March 2023; Luke Wilson stands out with the highest mismatch (82 incidents, 82% of his assignments closed by others) and the longest median time to close (~273.9 hours ≈ 11.4 days).\nImbalances appear within locations and over time: in the United States, the spread between the most- and least-assigned individuals within that location is 22 incidents (based on opened_at), and Fred Luddy experiences the most month-to-month volatility in assignments (SD ≈ 3.383), indicating uneven temporal distribution by assignee.",
+  "score_insights": 0.4383116098790875,
+  "score_insights_dict": [
+    {
+      "gt_insight": "The number of incidents is uniformly distributed across all categories.",
+      "pred_insight": "Assignments show no imbalance: each of the five users handled 100 of 500 total incidents (20% each), with a max–min difference of 0 and a standard deviation of 0.",
+      "score": 0.8257099438706847
+    },
+    {
+      "gt_insight": "There is no trend in the distribution of incidents by location.",
+      "pred_insight": "Incident assignments are perfectly balanced: all 5 assignees handle 100 incidents apiece, representing 20% of the 500 total per person, indicating no workload imbalance or discrepancy.",
+      "score": 0.2330210856417843
+    },
+    {
+      "gt_insight": "There is not a significant trend in the distribution of incidents across categories over time.",
+      "pred_insight": "Across the five assignees there are 125 critical incidents in total; Charlie handles 28 (≈22%), which is 56% more than Howard’s 18 and slightly above the next two assignees (27 and 26), indicating a modest top-heavy skew with a notable drop-off at the low end.",
+      "score": 0.2562038001247936
+    }
+  ],
+  "score_summary": 0.2631593175622235,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.43665202049088353,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "Assignments show no imbalance: each of the five users handled 100 of 500 total incidents (20% each), with a max–min difference of 0 and a standard deviation of 0.",
+      "gt_insight": "The number of incidents is uniformly distributed across all categories.",
+      "score": 0.8339890638766034
+    },
+    {
+      "pred_insight": "Assignments show no imbalance: each of the five users handled 100 of 500 total incidents (20% each), with a max–min difference of 0 and a standard deviation of 0.",
+      "gt_insight": "There is no trend in the distribution of incidents by location.",
+      "score": 0.2714995446509397
+    },
+    {
+      "pred_insight": "Low-priority tickets show notable workload skew: within 4 - Low, the top assignee handles about 25% (31/125) vs the bottom about 14% (18/125), a ~10 percentage-point spread; by comparison, 2 - High and 1 - Critical also exhibit sizable gaps (12 and 10), indicating imbalance across priorities.",
+      "gt_insight": "There is not a significant trend in the distribution of incidents across categories over time.",
+      "score": 0.2044674529451076
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.30992837249051025,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.20104300402993255
+}

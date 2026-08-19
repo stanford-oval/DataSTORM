@@ -1,0 +1,105 @@
+{
+  "dataset_id": 15,
+  "dataset_path": "data/notebooks/flag-15.json",
+  "metadata": {
+    "category": "User Management",
+    "dataset_description": "The dataset comprises two key tables simulating ServiceNow platform: the `sys_user` table and the `incidents` table, each with 500 entries. The `incidents` table focuses on detailing various attributes such as category, state, open and close dates, involved personnel, and incident specifics like location, description, and priority. It effectively captures incident management activities with fields including 'opened_at', 'closed_at', 'assigned_to', 'short_description', and 'priority', reflecting the operational handling and urgency of issues across different locations and categories. The `sys_user` table, on the other hand, contains user-related information, focusing on the details of employees or system users. This includes fields such as 'user_id', 'name', 'schedule', 'role', 'email', and 'department', providing insights into the user profiles managed within the ServiceNow system. Together, these tables are instrumental in understanding the workflow, user involvement and detailed tracking of incident resolution processes within an organization.",
+    "goal": "Utilize incident and user data to analyze  the distribution of incident assignments among agents to identify imbalances, especially during leave periods.",
+    "header": "Workload Distribution and Efficiency Analysis (Flag 15)",
+    "role": "Agent Manager"
+  },
+  "predicted_insights": [
+    "Given 500 incidents from 2023-01-02 to 2024-01-31 across 5 agents, a balanced benchmark is about 7–8 incidents per agent per month, so months deviating far from this (e.g., near zero or double digits for an agent) likely indicate imbalance such as during leave periods.",
+    "Howard’s 96.27-day gap is about 5.6 times longer than Luke Wilson’s (17.25 days) and roughly 24% of the entire 2023-01-02 to 2024-01-31 observation window, indicating a likely extended leave or reassignment that could have shifted workload to other agents.",
+    "The imbalance surged in summer—20 in 2023-06 and 19 in 2023-07—peaking at 24 in 2023-08 before dropping sharply to 2 in 2023-09, indicating likely seasonal leave effects causing uneven workloads among the five agents.",
+    "Workload concentrated among active agents during zero-assignment months: June’s per-agent load was 0.2 incidents (~2.6%) higher than July’s, and with only 5 agents total, even one agent on leave can notably elevate per-agent volumes.",
+    "All 5 of 5 agents (100%) had exactly one ≥14-day zero-assignment window during the 2023-01-02 to 2024-01-31 observation period, indicating these prolonged no-assignment intervals occurred uniformly across the team rather than being concentrated among a few individuals.",
+    "Workload backfilling was concentrated: Beth (+77.8%, 0.376/day) and Luke (+31.2%, 0.422/day) picked up more incidents during colleagues’ long gaps, while Charlie (-49.1%) and Howard (-41.2%) handled fewer, indicating uneven redistribution rather than equal sharing.",
+    "Only 2 of 5 categories rose during extended leave periods, with Inquiry / Help up ~10.6% over its non-gap baseline, while Software and Database dropped sharply (~31.5% and ~41.0%), suggesting help requests are less deferrable whereas project/technical incidents are more often postponed when staffing dips.",
+    "Even with only 5 agents in the roster, days overlapping an agent’s 14+ day gap showed about a 4.1% lower Gini (0.508 vs 0.530), implying that coverage or workload shifts kept daily assignments at least as balanced—if not slightly more—during extended leaves.",
+    "Inequality in assignment peaked in Service Desk during 2023-08-01 (Gini 0.5625) and was elevated again around the holidays (2023-12-01: 0.2815; 2024-01-01: 0.2714), while Network also showed higher imbalance in 2023-06-01 (0.3590) and 2024-01-01 (0.3143); in contrast, the observed months for Database and Hardware were perfectly equal (0.0), suggesting potential staffing gaps or leave effects primarily in Service Desk and Network during late summer and winter.",
+    "Given there are only 5 unique agents across 4 assignment groups (≈1.25 agents per group on average), many group-months will inherently have only 1–2 agents handling critical incidents, making the top agent’s share typically ≥50% (and up to 100% if a group is covered by a single agent), so flagging months where the top-agent share exceeds 50% is a pragmatic threshold to detect leave-sensitive imbalances.",
+    "Three of the five agents (60%) experienced at least one zero-assignment month, totaling five such months (Charlie=2, Howard=2, Fred=1), and 4 of these 5 months (80%) coincided with recorded leave—suggesting leave was the primary driver of assignment gaps and likely shifted workload to remaining agents during those periods.",
+    "There were 15 such zero-coverage months overall, and two agents—Luke Wilson and Beth Anglin—accounted for 9 of them (60%), indicating a strong concentration of load on a small subset of agents during leave periods."
+  ],
+  "predicted_summary": "Extended inactivity was widespread and impactful: five agents (Beth Anglin, Charlie Whitherspoon, Fred Luddy, Howard Johnson, and Luke Wilson) each had at least one continuous 14+ day period with zero new assignments, with the longest gap at ~96.27 days (Howard Johnson). Some agents had entire months with zero assignments while their group remained active (at least Charlie, Howard, and Fred). In months where at least one agent had zero assignments, June 2023 showed the heaviest concentration on the remaining staff, averaging 7.8 incidents per active agent.\nAssignment imbalance peaked in August 2023: that month saw a 24‑incident spread between the most‑ and least‑assigned agent, and the Service Desk’s month‑level inequality index (Gini) hit 0.5625—the highest observed. By comparison, Network’s monthly inequality ranged from roughly 0.071 (July 2023) to 0.359 (June 2023), while Database (May and November 2023) and Hardware (July 2023) had perfectly even splits (Gini = 0.0) in the months they were active.\nDuring 14+ day “gap” periods, work redistributed modestly more evenly overall but concentrated on specific people and categories: the daily imbalance index was lower by 0.0219 on gap days (mean 0.5081 across 221 gap days) versus non‑gap days (0.5300 across 174 days), yet individual pickup was pronounced—Beth Anglin’s assignment rate rose by 77.85% during others’ gap periods (0.376 vs 0.212 incidents/day; 74 assignments over 196.6 days vs 42 over 198.4). In months with at least one zero‑assignment agent, Luke Wilson handled the largest share in 5 such months and Beth in 4 (Charlie, Fred, and Howard in 2 each). The “Inquiry / Help” category also intensified on gap days, increasing by about 0.0256 assignments per day.",
+  "score_insights": 0.4386428501616396,
+  "score_insights_dict": [
+    {
+      "gt_insight": "Beth Anglin and Luke Wilson have a higher number of incident assignments compared to other agents. Beth has 116 and Luke has 150 incidents, while the other agents have lower on average.",
+      "pred_insight": "Workload backfilling was concentrated: Beth (+77.8%, 0.376/day) and Luke (+31.2%, 0.422/day) picked up more incidents during colleagues’ long gaps, while Charlie (-49.1%) and Howard (-41.2%) handled fewer, indicating uneven redistribution rather than equal sharing.",
+      "score": 0.5040976511862214
+    },
+    {
+      "gt_insight": "Beth Anglin and Luke Wilson received significantly higher incident assignments during a specific period",
+      "pred_insight": "Workload backfilling was concentrated: Beth (+77.8%, 0.376/day) and Luke (+31.2%, 0.422/day) picked up more incidents during colleagues’ long gaps, while Charlie (-49.1%) and Howard (-41.2%) handled fewer, indicating uneven redistribution rather than equal sharing.",
+      "score": 0.6091723382013423
+    },
+    {
+      "gt_insight": "Specific leave periods for Howard Johnson, Charlie Whitherspoon, and Fred Luddy were identified",
+      "pred_insight": "Three of the five agents (60%) experienced at least one zero-assignment month, totaling five such months (Charlie=2, Howard=2, Fred=1), and 4 of these 5 months (80%) coincided with recorded leave—suggesting leave was the primary driver of assignment gaps and likely shifted workload to remaining agents during those periods.",
+      "score": 0.4756621722215161
+    },
+    {
+      "gt_insight": "No significant change in the distribution of incident categories for Beth Anglin and Luke Wilson during the other agents' PTO,",
+      "pred_insight": "Workload backfilling was concentrated: Beth (+77.8%, 0.376/day) and Luke (+31.2%, 0.422/day) picked up more incidents during colleagues’ long gaps, while Charlie (-49.1%) and Howard (-41.2%) handled fewer, indicating uneven redistribution rather than equal sharing.",
+      "score": 0.3174556565459946
+    },
+    {
+      "gt_insight": "The distribution of incident assignments becomes uniform after the other agents return from their leave",
+      "pred_insight": "The imbalance surged in summer—20 in 2023-06 and 19 in 2023-07—peaking at 24 in 2023-08 before dropping sharply to 2 in 2023-09, indicating likely seasonal leave effects causing uneven workloads among the five agents.",
+      "score": 0.5517348829821158
+    },
+    {
+      "gt_insight": "The resolution time (TTR) for Beth Anglin and Luke Wilson remains uniform over the entire timeline",
+      "pred_insight": "Workload backfilling was concentrated: Beth (+77.8%, 0.376/day) and Luke (+31.2%, 0.422/day) picked up more incidents during colleagues’ long gaps, while Charlie (-49.1%) and Howard (-41.2%) handled fewer, indicating uneven redistribution rather than equal sharing.",
+      "score": 0.21690451916782236
+    },
+    {
+      "gt_insight": "Continued increase in assignments for Beth Anglin if the trend during leave periods is not addressed",
+      "pred_insight": "Workload backfilling was concentrated: Beth (+77.8%, 0.376/day) and Luke (+31.2%, 0.422/day) picked up more incidents during colleagues’ long gaps, while Charlie (-49.1%) and Howard (-41.2%) handled fewer, indicating uneven redistribution rather than equal sharing.",
+      "score": 0.39547273082646467
+    }
+  ],
+  "score_summary": 0.6318242741855138,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.4939020944024931,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "Workload backfilling was concentrated: Beth (+77.8%, 0.376/day) and Luke (+31.2%, 0.422/day) picked up more incidents during colleagues’ long gaps, while Charlie (-49.1%) and Howard (-41.2%) handled fewer, indicating uneven redistribution rather than equal sharing.",
+      "gt_insight": "Beth Anglin and Luke Wilson have a higher number of incident assignments compared to other agents. Beth has 116 and Luke has 150 incidents, while the other agents have lower on average.",
+      "score": 0.5120633822551832
+    },
+    {
+      "pred_insight": "Workload backfilling was concentrated: Beth (+77.8%, 0.376/day) and Luke (+31.2%, 0.422/day) picked up more incidents during colleagues’ long gaps, while Charlie (-49.1%) and Howard (-41.2%) handled fewer, indicating uneven redistribution rather than equal sharing.",
+      "gt_insight": "Beth Anglin and Luke Wilson received significantly higher incident assignments during a specific period",
+      "score": 0.788289332981873
+    },
+    {
+      "pred_insight": "Three of the five agents (60%) experienced at least one zero-assignment month, totaling five such months (Charlie=2, Howard=2, Fred=1), and 4 of these 5 months (80%) coincided with recorded leave—suggesting leave was the primary driver of assignment gaps and likely shifted workload to remaining agents during those periods.",
+      "gt_insight": "Specific leave periods for Howard Johnson, Charlie Whitherspoon, and Fred Luddy were identified",
+      "score": 0.46365582730978677
+    },
+    {
+      "pred_insight": "Workload backfilling was concentrated: Beth (+77.8%, 0.376/day) and Luke (+31.2%, 0.422/day) picked up more incidents during colleagues’ long gaps, while Charlie (-49.1%) and Howard (-41.2%) handled fewer, indicating uneven redistribution rather than equal sharing.",
+      "gt_insight": "No significant change in the distribution of incident categories for Beth Anglin and Luke Wilson during the other agents' PTO,",
+      "score": 0.3062170754373503
+    },
+    {
+      "pred_insight": "Given 500 incidents from 2023-01-02 to 2024-01-31 across 5 agents, a balanced benchmark is about 7–8 incidents per agent per month, so months deviating far from this (e.g., near zero or double digits for an agent) likely indicate imbalance such as during leave periods.",
+      "gt_insight": "The distribution of incident assignments becomes uniform after the other agents return from their leave",
+      "score": 0.6236439306249459
+    },
+    {
+      "pred_insight": "Workload backfilling was concentrated: Beth (+77.8%, 0.376/day) and Luke (+31.2%, 0.422/day) picked up more incidents during colleagues’ long gaps, while Charlie (-49.1%) and Howard (-41.2%) handled fewer, indicating uneven redistribution rather than equal sharing.",
+      "gt_insight": "The resolution time (TTR) for Beth Anglin and Luke Wilson remains uniform over the entire timeline",
+      "score": 0.20623481681252837
+    },
+    {
+      "pred_insight": "Workload backfilling was concentrated: Beth (+77.8%, 0.376/day) and Luke (+31.2%, 0.422/day) picked up more incidents during colleagues’ long gaps, while Charlie (-49.1%) and Howard (-41.2%) handled fewer, indicating uneven redistribution rather than equal sharing.",
+      "gt_insight": "Continued increase in assignments for Beth Anglin if the trend during leave periods is not addressed",
+      "score": 0.5572102953957839
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.10254644722928763,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.8929474173105216
+}

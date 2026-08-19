@@ -1,0 +1,75 @@
+{
+  "dataset_id": 85,
+  "dataset_path": "data/notebooks/flag-85.json",
+  "metadata": {
+    "category": "Goal Management",
+    "dataset_description": "This dataset includes 500 simulated entries from the ServiceNow `sn_gf_goal` table, which captures various attributes related to organizational goals. These attributes encompass goal status, assigned owner, department affiliation, start and end dates, and detailed descriptions. The dataset also includes metrics such as priority level, percentage of completion, and target achievement rate. It primarily focuses on tracking the progress and management of both departmental and individual goals, offering insights into the effectiveness and alignment of these goals with broader organizational strategies. Additionally, the dataset logs updates for each goal, providing a timeline of changes and the identities of those responsible for these modifications.",
+    "goal": "Investigate the elevated goal achievement rates within a specific department and apply these findings to enhance goal management practices across all departments.",
+    "header": "IT Department Goal Achievement Rate Analysis (Flag 85)",
+    "role": "Goal Performance Analyst"
+  },
+  "predicted_insights": [
+    "Only 1 of 5 groups (Hardware) achieves any within-24-hour closures—outperforming every other group by 100 percentage points—suggesting that adopting Hardware’s fast-resolution practices across departments could markedly boost goal attainment.",
+    "The identical 20.0 average across all five groups implies zero variance in per-assignee workload (std dev = 0), indicating balanced incident distribution by department—a practice that likely supports consistent goal attainment and could be used as a workload benchmark across teams.",
+    "Within Network, Luke Wilson’s average resolution time (2289.6 hours ≈ 95.4 days) is 117.5 hours (~4.9 days) quicker than the next best and 1691.4 hours (~70.5 days, ~74% higher) slower for the worst performer, indicating that scaling his practices could materially reduce closure times across departments.",
+    "Within Network, India resolves incidents about 5.8% faster than the United States and roughly 43% faster than Canada, indicating that replicating India’s staffing coverage or workflow practices could substantially reduce closure times in other locations.",
+    "If other groups matched Network’s median, their median closure times could drop by roughly 8–34% (≈−237.96 h for Software, −251.39 h for Inquiry / Help, −404.85 h for Hardware, −1323.94 h for Database), indicating substantial, transferable cycle-time gains that could accelerate goal achievement across departments.",
+    "Lower-performing groups like Database (46%) and Hardware (47%) could boost overall goal achievement by adopting the resolution workflows of Software and Inquiry / Help, which would require roughly a 7–8 percentage point uplift to match the leaders.",
+    "With one in four Software incidents being critical, planning capacity and SLAs around a ~25% urgent workload can bolster goal achievement; departments with higher critical ratios than 25% should target triage and prevention to reduce urgent cases and improve resolution goals.",
+    "The 2,187.799-hour spread between the fastest (Network: -2161.74) and slowest (Hardware: 26.059) median closure times indicates substantial cross-department differences in process or timestamp capture; standardizing open/close time recording and then replicating validated rapid-resolution practices can meaningfully improve goal attainment across departments.",
+    "Even the top group’s within-24-hour performance was just 1% (1 of 100), highlighting a broad opportunity to standardize and scale rapid-resolution practices across departments to materially improve goal attainment.",
+    "Even in the best-performing group (Hardware), rapid closures are rare—only ~1.9% occur within 24 hours and all of them are under \"Closed\" (none under \"Resolved\")—implying that focusing on faster conversion to \"Closed\" could boost goal attainment across departments.",
+    "High-priority Hardware tickets close within 24h nearly 70% of the time—about 20 percentage points higher than both critical and low (≈50%) and 27.46 points higher than moderate (42.11%)—indicating that the group’s triage and resourcing for high-priority work could be replicated across departments to boost on-time goal attainment.",
+    "The location gap is small (51–57%), implying that if other locations adopt UK practices, a 3–6 percentage point improvement is feasible—equating to roughly 3–6 fewer late closures per 100 incidents and better SLA/goal attainment across departments."
+  ],
+  "predicted_summary": "Workloads are evenly distributed across departments—each person handles an average of 20 incidents—but outcomes diverge markedly: Network has the fastest median time-to-close at 2,597.83 hours, Software achieves the highest resolution rate at 54%, and only Hardware records any closures within 24 hours (all other groups are at 0%).\nNetwork’s speed advantage is concentrated in specific people and places: within Network, India posts the shortest average time-to-close at approximately 2,396.09 hours, and Luke Wilson is the fastest individual with an average of about 2,289.57 hours between opening and closing.\nRapid (within-24-hour) closures are rare and highly context-dependent: the UK leads locations with a 57% within-24-hour closure rate; within Hardware, the “2 - High” priority has the highest quick-closure rate at 69.57%; and in Hardware the “Closed” state is more likely to be closed within 24 hours than “Resolved” (1.89% vs 0%), while the top contributing individual recorded only one such quick closure.",
+  "score_insights": 0.12347351074206421,
+  "score_insights_dict": [
+    {
+      "gt_insight": "There was no column percent_complete to conduct any analysis",
+      "pred_insight": "Within Network, India resolves incidents about 5.8% faster than the United States and roughly 43% faster than Canada, indicating that replicating India’s staffing coverage or workflow practices could substantially reduce closure times in other locations.",
+      "score": 0.10315465275831026
+    },
+    {
+      "gt_insight": "There was no column target_percentage to conduct any analysis",
+      "pred_insight": "Even in the best-performing group (Hardware), rapid closures are rare—only ~1.9% occur within 24 hours and all of them are under \"Closed\" (none under \"Resolved\")—implying that focusing on faster conversion to \"Closed\" could boost goal attainment across departments.",
+      "score": 0.1304832796719035
+    },
+    {
+      "gt_insight": "There was no column department to conduct any analysis",
+      "pred_insight": "The 2,187.799-hour spread between the fastest (Network: -2161.74) and slowest (Hardware: 26.059) median closure times indicates substantial cross-department differences in process or timestamp capture; standardizing open/close time recording and then replicating validated rapid-resolution practices can meaningfully improve goal attainment across departments.",
+      "score": 0.15497096519746695
+    },
+    {
+      "gt_insight": "There was no column percent_complete to conduct any analysis",
+      "pred_insight": "Within Network, Luke Wilson’s average resolution time (2289.6 hours ≈ 95.4 days) is 117.5 hours (~4.9 days) quicker than the next best and 1691.4 hours (~70.5 days, ~74% higher) slower for the worst performer, indicating that scaling his practices could materially reduce closure times across departments.",
+      "score": 0.10528514534057613
+    }
+  ],
+  "score_summary": 0.2325864369706157,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.12024192104120787,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "The identical 20.0 average across all five groups implies zero variance in per-assignee workload (std dev = 0), indicating balanced incident distribution by department—a practice that likely supports consistent goal attainment and could be used as a workload benchmark across teams.",
+      "gt_insight": "There was no column percent_complete to conduct any analysis",
+      "score": 0.12754160231629047
+    },
+    {
+      "pred_insight": "The identical 20.0 average across all five groups implies zero variance in per-assignee workload (std dev = 0), indicating balanced incident distribution by department—a practice that likely supports consistent goal attainment and could be used as a workload benchmark across teams.",
+      "gt_insight": "There was no column target_percentage to conduct any analysis",
+      "score": 0.12545033104514697
+    },
+    {
+      "pred_insight": "Even the top group’s within-24-hour performance was just 1% (1 of 100), highlighting a broad opportunity to standardize and scale rapid-resolution practices across departments to materially improve goal attainment.",
+      "gt_insight": "There was no column department to conduct any analysis",
+      "score": 0.10419503369630963
+    },
+    {
+      "pred_insight": "The identical 20.0 average across all five groups implies zero variance in per-assignee workload (std dev = 0), indicating balanced incident distribution by department—a practice that likely supports consistent goal attainment and could be used as a workload benchmark across teams.",
+      "gt_insight": "There was no column percent_complete to conduct any analysis",
+      "score": 0.12378071710708445
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.10122103857868622,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.24852572748273144
+}

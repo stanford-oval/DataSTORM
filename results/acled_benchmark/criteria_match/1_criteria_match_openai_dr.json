@@ -1,0 +1,188 @@
+{
+  "prompt": "Do a deep research on Petro's presidency in Columbia and Columbia's conflict summary and outlook, as if we are at the end of 2024 heading into 2025",
+  "criteria": [
+    {
+      "name": "Evolving Total Peace strategy",
+      "description": "Assess how the government balances negotiations with selective coercive pressure, and how shifts between dialogue and military action affect conflict dynamics."
+    },
+    {
+      "name": "Armed group adaptability",
+      "description": "Evaluate how armed groups exploit negotiation periods to expand influence, and how they respond to renewed state pressure by reallocating resources or altering targets."
+    },
+    {
+      "name": "Ceasefire fragility and compliance",
+      "description": "Examine patterns of ceasefire adherence and breakdowns, and their impact on security force confrontations and civilian harm."
+    },
+    {
+      "name": "Regionalized peace talks impact",
+      "description": "Analyze the effectiveness of localized negotiation frameworks in reducing violence, including the role of local authorities and civil society in sustaining de-escalation."
+    },
+    {
+      "name": "Uneven geographic outcomes",
+      "description": "Identify disparities in violence trends across departments and municipalities, noting hotspots where violence persists or escalates despite progress elsewhere."
+    },
+    {
+      "name": "Non-aggression pacts and spillovers",
+      "description": "Consider how local truces between armed actors reduce violence in targeted areas while potentially displacing or concentrating conflict in adjacent regions."
+    },
+    {
+      "name": "Civilians’ exposure and targeting",
+      "description": "Track changes in civilian exposure to conflict and direct targeting, including displacement and confinement patterns linked to territorial disputes."
+    },
+    {
+      "name": "Illicit economies as drivers",
+      "description": "Assess how cocaine production, trafficking routes, and illegal mining sustain competition among armed groups and shape territorial control."
+    },
+    {
+      "name": "Competition among major actors",
+      "description": "Evaluate shifting power balances and territorial contests among principal armed groups, and how these rivalries influence conflict intensity."
+    },
+    {
+      "name": "Factional splits and internal rifts",
+      "description": "Analyze how schisms within armed organizations reshape conflict dynamics, including localized surges in violence and negotiation setbacks."
+    },
+    {
+      "name": "Cross-border security influences",
+      "description": "Examine how security trends and criminal alliances in neighboring countries affect violence levels and trafficking corridors in border departments."
+    },
+    {
+      "name": "Dependence on external political context",
+      "description": "Assess how political developments in neighboring states influence the viability of talks, guarantor roles, and safe havens for armed leadership."
+    },
+    {
+      "name": "State presence and governance gains",
+      "description": "Evaluate whether reduced violence translates into sustained state presence, service delivery, and institutional control in previously contested areas."
+    },
+    {
+      "name": "Humanitarian trends and protection",
+      "description": "Monitor humanitarian indicators—displacement, confinements, access restrictions—and the effectiveness of protection and assistance responses."
+    },
+    {
+      "name": "Negotiation sequencing and scope",
+      "description": "Consider the interplay between local and national negotiations, including risks that regional processes undermine or bolster national-level talks."
+    },
+    {
+      "name": "Metrics of conflict reduction",
+      "description": "Use consistent indicators of conflict events and civilian harm to gauge progress, while accounting for displacement, underreporting, and geographic clustering."
+    },
+    {
+      "name": "Criminal market fragmentation",
+      "description": "Assess whether fragmentation among criminal actors increases volatility and violence, particularly around key trafficking and mining hubs."
+    },
+    {
+      "name": "Security force posture and outcomes",
+      "description": "Analyze the effects of changes in military operations and policing on armed group behavior and on collateral risks to civilians."
+    },
+    {
+      "name": "Community engagement and legitimacy",
+      "description": "Evaluate the role of communities and local leaders in sustaining agreements, building legitimacy, and deterring armed group coercion."
+    },
+    {
+      "name": "Outlook and scenario risks",
+      "description": "Outline plausible trajectories for conflict in the near term, highlighting triggers that could escalate violence or consolidate de-escalation."
+    }
+  ],
+  "criterion_scores": [
+    {
+      "name": "Evolving Total Peace strategy",
+      "score": 0.75,
+      "explanation": "Explains Petro’s attempt to negotiate broadly, initial nationwide ceasefire, later suspensions and military offensives (e.g., EMC truce suspension and operations). Describes pivot toward partial, localized agreements in 2025 outlook. Could further detail selective coercive pressure design, rules of engagement, and how toggling between talks and force altered specific conflict dynamics by region."
+    },
+    {
+      "name": "Armed group adaptability",
+      "score": 0.5,
+      "explanation": "Notes groups used talks to buy time, increase kidnappings and extortion, and that violence resurged after truces. Lacks granular examples of how specific groups (ELN, EMC, Gulf Clan) reallocated resources, shifted targets, or expanded territorial influence during negotiation lulls and under renewed pressure."
+    },
+    {
+      "name": "Ceasefire fragility and compliance",
+      "score": 0.75,
+      "explanation": "Covers multiple ceasefires (New Year’s 2022, ELN mid-2023), their violations, expirations, and specific breach (killing of indigenous leader, ELN attack in Arauca). Links breakdowns to renewed hostilities. Could add systematic compliance patterns, monitoring mechanisms, and quantified impacts on civilian harm beyond isolated incidents."
+    },
+    {
+      "name": "Regionalized peace talks impact",
+      "score": 0.5,
+      "explanation": "Mentions localized/piecemeal approach, Buenaventura gang truce impact on murders, and plan for tailored regional deals. Limited analysis of local authorities’/civil society’s roles, sustainability factors, and comparative outcomes across regions with such frameworks."
+    },
+    {
+      "name": "Uneven geographic outcomes",
+      "score": 0.5,
+      "explanation": "Identifies provinces like Cauca and Nariño seeing renewed violence and mentions Arauca attack. Does not systematically map disparities across departments/municipalities or highlight persistent hotspots vs areas with improvement with supporting indicators."
+    },
+    {
+      "name": "Non-aggression pacts and spillovers",
+      "score": 0.25,
+      "explanation": "Touches on the Buenaventura truce lowering murders briefly but does not examine spillover or displacement of violence to adjacent areas, nor dynamics of local truces among armed actors elsewhere."
+    },
+    {
+      "name": "Civilians’ exposure and targeting",
+      "score": 0.75,
+      "explanation": "Details killings of human rights defenders, displacement figures, kidnappings/extortion trends, and public perceptions of worsening security. Could better link exposure patterns to territorial disputes and provide updated 2024 confinement/blockade data."
+    },
+    {
+      "name": "Illicit economies as drivers",
+      "score": 0.5,
+      "explanation": "Acknowledges record-high cocaine production and the role of drug trafficking and illegal mining broadly, and Gulf Clan reference. Lacks concrete analysis of trafficking routes, specific mining hubs, and how these economies shape territorial contests in named areas."
+    },
+    {
+      "name": "Competition among major actors",
+      "score": 0.5,
+      "explanation": "References ELN, FARC dissidents (EMC), and Gulf Clan, with episodic clashes and talks. Missing a deeper evaluation of shifting power balances, territorial contests, and how rivalries among principal actors influenced intensity in particular corridors."
+    },
+    {
+      "name": "Factional splits and internal rifts",
+      "score": 0.5,
+      "explanation": "Mentions EMC (FARC dissidents) and ELN splinter negotiations controversy. Does not analyze specific schisms’ effects on local violence spikes or negotiation sequencing setbacks in detail."
+    },
+    {
+      "name": "Cross-border security influences",
+      "score": 0.5,
+      "explanation": "Notes restoration of diplomatic ties with Venezuela and an ELN attack in border department Arauca. Lacks analysis of cross-border armed group sanctuaries, Venezuelan/other neighbors’ criminal alliances, and how these shape trafficking corridors and violence."
+    },
+    {
+      "name": "Dependence on external political context",
+      "score": 0.5,
+      "explanation": "Mentions relations with Venezuela and U.S. drug policy posture but does not delve into how neighboring states’ politics influence guarantor roles, safe havens, or viability of talks (e.g., Cuba, Mexico, Brazil, Venezuela mediation dynamics)."
+    },
+    {
+      "name": "State presence and governance gains",
+      "score": 0.5,
+      "explanation": "Suggests plans to increase state presence and development aid, with limited evidence that reduced violence translates into sustained governance. No concrete metrics on service delivery, institutional control, or implementation in specific post-conflict zones."
+    },
+    {
+      "name": "Humanitarian trends and protection",
+      "score": 0.5,
+      "explanation": "Provides 2023 data on assassinations and displacement; notes protection concerns. Limited discussion of confinements, mobility/access restrictions, protection programming effectiveness, or 2024 humanitarian trend updates."
+    },
+    {
+      "name": "Negotiation sequencing and scope",
+      "score": 0.5,
+      "explanation": "Touches on interplay between national ELN talks and localized/partial peace, and ELN’s objection to parallel talks with a splinter group. Needs deeper assessment of how regional processes might undermine or bolster national-level negotiations and recommended sequencing."
+    },
+    {
+      "name": "Metrics of conflict reduction",
+      "score": 0.75,
+      "explanation": "Uses conflict fatalities (ACLED) and references homicide trend, with caveats about other forms of violence persisting. Could improve by addressing underreporting, geographic clustering, and triangulation with multiple datasets consistently."
+    },
+    {
+      "name": "Criminal market fragmentation",
+      "score": 0.5,
+      "explanation": "Alludes to fragmentation (multiple actors, dissidents, gangs) and its challenges but lacks detailed assessment of how market fragmentation around key hubs (Pacific/Northern coasts, mining zones) increases volatility and violence."
+    },
+    {
+      "name": "Security force posture and outcomes",
+      "score": 0.5,
+      "explanation": "Mentions military offensives after EMC ceasefire suspension and notes overall declines in combat deaths. Limited evaluation of changes in operations/policing posture, rules-of-engagement shifts, and collateral risks to civilians."
+    },
+    {
+      "name": "Community engagement and legitimacy",
+      "score": 0.25,
+      "explanation": "Briefly references community leaders as victims and hints at civil society roles but does not analyze community participation in sustaining agreements, local legitimacy-building, or deterrence of coercion."
+    },
+    {
+      "name": "Outlook and scenario risks",
+      "score": 0.75,
+      "explanation": "Provides plausible trajectories toward partial, localized deals, challenges with ELN, inclusion of criminal groups, political constraints, and economic context. Could better articulate specific triggers (e.g., electoral cycles, commodity prices, cross-border shocks) and positive/negative scenarios with indicators."
+    }
+  ],
+  "overall_score": 0.5375
+}

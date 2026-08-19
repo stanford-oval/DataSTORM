@@ -1,0 +1,162 @@
+{
+  "total_insights": 15,
+  "total_classified": 15,
+  "acled_count": 0,
+  "non_acled_count": 15,
+  "pct_acled": 0.0,
+  "details": [
+    {
+      "evidence": "Ceasefires under Colombia’s Total Peace created short-term reductions in open hostilities but enabled armed groups to adapt by expanding criminal governance and social control where state presence and monitoring were weak.",
+      "is_acled_data": false,
+      "reasoning": "The evidence is a qualitative analytical statement about ceasefires enabling armed groups to expand governance and social control. It lacks specific ACLED event counts, actor-level event data, fatalities, locations, or trends explicitly derived from ACLED. This reads as general analysis rather than data tied to ACLED’s event dataset.",
+      "source_context": "Key Findings; The Quiet That Wasn’t section discussing lulls and substitution of violence [1][2][3]."
+    },
+    {
+      "evidence": "Fragmented command structures among groups like ELN fronts and FARC dissidents made compliance with national ceasefires local and selective, turning national agreements into territorial contests that displaced rather than ended violence.",
+      "is_acled_data": false,
+      "reasoning": "The statement is analytical commentary about command fragmentation and ceasefire compliance, not citing specific ACLED event counts, locations, actor-level events, or trends. It lacks explicit attribution to ACLED data or concrete event statistics, so it is not derived from ACLED.",
+      "source_context": "Key Findings; Mechanism of Substitution section on fragmented command and patchwork behavior [6]."
+    },
+    {
+      "evidence": "Absent credible, localized monitoring and enforcement, ceasefire violations multiplied, eroding trust and deterrence, as seen when the government suspended a truce with the FARC Central General Staff after attacks on an Indigenous community.",
+      "is_acled_data": false,
+      "reasoning": "The evidence is qualitative analysis about ceasefire violations and a truce suspension, without specific event counts, locations, dates, or ACLED attribution. It reads as narrative commentary rather than referencing ACLED event data or statistics.",
+      "source_context": "The Quiet That Wasn’t; monitoring failures and ceasefire suspension example [3]."
+    },
+    {
+      "evidence": "Armed groups replaced overt combat with checkpoints, curfews, extortion, and mobility controls—forms of criminal governance that deepened coercion even as gunfire decreased.",
+      "is_acled_data": false,
+      "reasoning": "The statement is qualitative analysis about shifts to criminal governance (checkpoints, curfews, extortion, mobility controls) without citing specific ACLED event counts, categories, locations, or actor-coded data. It reads as general analytical commentary rather than ACLED-derived metrics or explicitly attributed ACLED findings.",
+      "source_context": "The Quiet That Wasn’t; description of substitution from shootouts to social control mechanisms [1]."
+    },
+    {
+      "evidence": "Humanitarian diplomacy and legal frameworks help initiate and structure talks but are insufficient to enforce territorial compliance without robust, localized verification and state backing.",
+      "is_acled_data": false,
+      "reasoning": "The evidence is a general analytical statement about humanitarian diplomacy, legal frameworks, verification, and state backing. It does not reference specific conflict events, counts, locations, fatalities, or actor-level data attributable to ACLED. It is policy analysis rather than ACLED-derived event data.",
+      "source_context": "Mechanism of Substitution; role and limits of trust-building and international law [4][5]."
+    },
+    {
+      "evidence": "Decentralized, entrepreneurial armed actors exploit ceasefire cover to rearm, reposition, and pivot to less visible revenue streams, making substitution cheaper than compliance when verification is thin.",
+      "is_acled_data": false,
+      "reasoning": "The statement is an analytical claim about armed group behavior under ceasefires, not citing specific ACLED event counts, fatalities, locations, or actor-level event data. It reads as general analysis rather than evidence explicitly derived from ACLED datasets.",
+      "source_context": "Mechanism of Substitution; adaptation under ceasefires and thin monitoring [6][4]."
+    },
+    {
+      "evidence": "Where state institutions are weak—limited services, distant courts, and inadequate security—armed groups fill governance vacuums with fast dispute resolution, predictable illegal taxes, and enforced curfews.",
+      "is_acled_data": false,
+      "reasoning": "This is a general analytical statement about governance vacuums and armed group behavior, not citing specific ACLED event data, statistics, or actor-level records. It reflects commentary rather than ACLED-derived metrics or findings.",
+      "source_context": "Where the State Isn’t; depiction of governance vacuums and armed group substitution [7]."
+    },
+    {
+      "evidence": "In regions with thin state presence, ceasefires coincided with consolidation of armed control, de facto co-sovereignty, and expanded extortion, indicating reduced confrontation but hardened criminal dominion.",
+      "is_acled_data": false,
+      "reasoning": "The evidence is analytical commentary about ceasefires enabling armed group consolidation and extortion, describing governance/control dynamics rather than citing specific ACLED event counts, actor events, fatalities, or location-based trends. It lacks explicit reference to ACLED event data or metrics and reads as qualitative assessment, not ACLED-derived statistics.",
+      "source_context": "Where the State Isn’t; substitution versus resolution and hardening of control [1]."
+    },
+    {
+      "evidence": "Localized ceasefire breaches in weakly governed areas quickly cascade into broader mistrust, heightening risks for Indigenous and Afro-descendant communities.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical claim about ceasefire breaches and risks to specific communities without citing event counts, locations, actors, or other ACLED-derived metrics. It reads as commentary rather than being tied to specific ACLED event data or statistics.",
+      "source_context": "Where the State Isn’t; example of truce suspension after attack and spillover effects [3]."
+    },
+    {
+      "evidence": "The likelihood of substitution decreases where services function, courts and protection mechanisms are visible, and police operate with civilian oversight; in absent areas, ceasefires become staging grounds for armed governance.",
+      "is_acled_data": false,
+      "reasoning": "This is a qualitative policy analysis about state service provision, courts, protection mechanisms, policing, and ceasefires enabling armed governance. It does not cite specific conflict events, counts, fatalities, or ACLED-derived actor/location data, nor is it attributed to ACLED. Therefore, it is not derived from ACLED data.",
+      "source_context": "Where the State Isn’t; proposed principle linking governance capacity to substitution risk [7][1][3]."
+    },
+    {
+      "evidence": "Total Peace’s socio-economic agenda—education, health, jobs, and victim-centered justice—targets long-term drivers of conflict but must be paired with near-term deterrents to prevent immediate substitution of coercion.",
+      "is_acled_data": false,
+      "reasoning": "The evidence is a policy analysis statement about the aims of Total Peace and recommended deterrents. It does not reference conflict event counts, fatalities, locations, actor activity, or any ACLED-derived metrics or attributions.",
+      "source_context": "From Truce to Authority; policy ambition and need for concurrent enforcement [8]."
+    },
+    {
+      "evidence": "Three elements can convert ceasefire lulls into legitimate authority: credible localized monitoring with sanctions and community early warning; rapid, measurable deployments of justice, protection, land titling, and livelihoods; and targeted security actions that disrupt criminal revenues without harming civilians.",
+      "is_acled_data": false,
+      "reasoning": "The evidence is a policy recommendation outlining mechanisms to translate ceasefires into authority; it does not reference conflict event counts, actor-level data, fatalities, geographic patterns, or any ACLED-attributed datasets. It is general analytical commentary, not derived from specific ACLED event data.",
+      "source_context": "From Truce to Authority; proposed operational package to close the substitution loop [1][5][8]."
+    },
+    {
+      "evidence": "Negotiations should reflect heterogeneity among armed actors and pair tailored incentives with enforceable constraints, aligning legal-humanitarian frameworks with territorial governance to turn ceasefires into peacebuilding steps.",
+      "is_acled_data": false,
+      "reasoning": "This is a general policy recommendation about tailoring negotiations and aligning legal-humanitarian frameworks, not a reference to specific conflict event data, actor activity, fatalities, locations, or trends attributed to ACLED.",
+      "source_context": "From Truce to Authority; aligning talks with governance realities [5][4][1][8]."
+    },
+    {
+      "evidence": "Durable peace requires coupling tailored negotiations with on-the-ground governance capacity and credible monitoring that protects civilians and binds decentralized actors.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general policy/analytical claim about peacebuilding and governance, not referencing specific conflict events, actor data, fatalities, locations, or trend analyses from ACLED. It is not tied to ACLED datasets or attributed to ACLED.",
+      "source_context": "Key Findings; overarching requirement for durable peace."
+    },
+    {
+      "evidence": "Ceasefires alone provide temporary calm but risk institutionalizing criminal authority unless the state quickly, predictably, and visibly occupies the spaces they open.",
+      "is_acled_data": false,
+      "reasoning": "This is a general analytical statement about the risks of ceasefires and state presence, not citing specific ACLED event data, statistics, or actor-level metrics. It’s commentary rather than data derived from ACLED.",
+      "source_context": "Conclusion; warning about pauses inviting substitution and the need for swift state presence [1][3]."
+    }
+  ],
+  "insights": [
+    {
+      "insight": "Ceasefires under Colombia’s Total Peace created short-term reductions in open hostilities but enabled armed groups to adapt by expanding criminal governance and social control where state presence and monitoring were weak.",
+      "context": "Key Findings; The Quiet That Wasn’t section discussing lulls and substitution of violence [1][2][3]."
+    },
+    {
+      "insight": "Fragmented command structures among groups like ELN fronts and FARC dissidents made compliance with national ceasefires local and selective, turning national agreements into territorial contests that displaced rather than ended violence.",
+      "context": "Key Findings; Mechanism of Substitution section on fragmented command and patchwork behavior [6]."
+    },
+    {
+      "insight": "Absent credible, localized monitoring and enforcement, ceasefire violations multiplied, eroding trust and deterrence, as seen when the government suspended a truce with the FARC Central General Staff after attacks on an Indigenous community.",
+      "context": "The Quiet That Wasn’t; monitoring failures and ceasefire suspension example [3]."
+    },
+    {
+      "insight": "Armed groups replaced overt combat with checkpoints, curfews, extortion, and mobility controls—forms of criminal governance that deepened coercion even as gunfire decreased.",
+      "context": "The Quiet That Wasn’t; description of substitution from shootouts to social control mechanisms [1]."
+    },
+    {
+      "insight": "Humanitarian diplomacy and legal frameworks help initiate and structure talks but are insufficient to enforce territorial compliance without robust, localized verification and state backing.",
+      "context": "Mechanism of Substitution; role and limits of trust-building and international law [4][5]."
+    },
+    {
+      "insight": "Decentralized, entrepreneurial armed actors exploit ceasefire cover to rearm, reposition, and pivot to less visible revenue streams, making substitution cheaper than compliance when verification is thin.",
+      "context": "Mechanism of Substitution; adaptation under ceasefires and thin monitoring [6][4]."
+    },
+    {
+      "insight": "Where state institutions are weak—limited services, distant courts, and inadequate security—armed groups fill governance vacuums with fast dispute resolution, predictable illegal taxes, and enforced curfews.",
+      "context": "Where the State Isn’t; depiction of governance vacuums and armed group substitution [7]."
+    },
+    {
+      "insight": "In regions with thin state presence, ceasefires coincided with consolidation of armed control, de facto co-sovereignty, and expanded extortion, indicating reduced confrontation but hardened criminal dominion.",
+      "context": "Where the State Isn’t; substitution versus resolution and hardening of control [1]."
+    },
+    {
+      "insight": "Localized ceasefire breaches in weakly governed areas quickly cascade into broader mistrust, heightening risks for Indigenous and Afro-descendant communities.",
+      "context": "Where the State Isn’t; example of truce suspension after attack and spillover effects [3]."
+    },
+    {
+      "insight": "The likelihood of substitution decreases where services function, courts and protection mechanisms are visible, and police operate with civilian oversight; in absent areas, ceasefires become staging grounds for armed governance.",
+      "context": "Where the State Isn’t; proposed principle linking governance capacity to substitution risk [7][1][3]."
+    },
+    {
+      "insight": "Total Peace’s socio-economic agenda—education, health, jobs, and victim-centered justice—targets long-term drivers of conflict but must be paired with near-term deterrents to prevent immediate substitution of coercion.",
+      "context": "From Truce to Authority; policy ambition and need for concurrent enforcement [8]."
+    },
+    {
+      "insight": "Three elements can convert ceasefire lulls into legitimate authority: credible localized monitoring with sanctions and community early warning; rapid, measurable deployments of justice, protection, land titling, and livelihoods; and targeted security actions that disrupt criminal revenues without harming civilians.",
+      "context": "From Truce to Authority; proposed operational package to close the substitution loop [1][5][8]."
+    },
+    {
+      "insight": "Negotiations should reflect heterogeneity among armed actors and pair tailored incentives with enforceable constraints, aligning legal-humanitarian frameworks with territorial governance to turn ceasefires into peacebuilding steps.",
+      "context": "From Truce to Authority; aligning talks with governance realities [5][4][1][8]."
+    },
+    {
+      "insight": "Durable peace requires coupling tailored negotiations with on-the-ground governance capacity and credible monitoring that protects civilians and binds decentralized actors.",
+      "context": "Key Findings; overarching requirement for durable peace."
+    },
+    {
+      "insight": "Ceasefires alone provide temporary calm but risk institutionalizing criminal authority unless the state quickly, predictably, and visibly occupies the spaces they open.",
+      "context": "Conclusion; warning about pauses inviting substitution and the need for swift state presence [1][3]."
+    }
+  ],
+  "prompt": "Analyze Petro’s total peace policy in Colombia and its impact on violence v. armed groups."
+}

@@ -1,0 +1,55 @@
+{
+  "dataset_id": 58,
+  "dataset_path": "data/notebooks/flag-58.json",
+  "metadata": {
+    "category": "Incident Management",
+    "dataset_description": "The dataset comprises 500 entries simulating ServiceNow incidents table, detailing various attributes such as category, state, open and close dates, involved personnel, and incident specifics like location, description, and priority. It captures incident management activities with fields like 'opened_at', 'closed_at', 'assigned_to', 'short_description', and 'priority', reflecting the operational handling and urgency of issues across different locations and categories.",
+    "goal": "Analyze the incident data to identify trends and underlying causes for the increasing resolution time in certain category.",
+    "header": "Category based Incident Trends Analysis (Flag 58)",
+    "role": "L2 Engineering Manager"
+  },
+  "predicted_insights": [
+    "All five categories have positive slopes, but Hardware’s (~406.07 h/mo) is about 15% higher than Software’s (~352.64 h/mo) and ~6% higher than Database’s (~381.45 h/mo), with a notable surge in median resolution time peaking around 7,238.67 hours in 2023-12 before easing to ~5,547.31 hours in 2024-01—suggesting a late-2023 backlog buildup in hardware incidents.",
+    "Although 2024-01 (9) is lower than 2023-01 (12), it is above both the 2023 monthly average (~7.6) and median (7.5), and the year showed high variability (low of 3 in 2023-03 and peaks of 12 in 2023-01 and 2023-11), suggesting any rise in resolution time is unlikely driven by a simple volume surge in January 2024.",
+    "Among assignees with comparable month-to-month data, Charlie Whitherspoon’s 11,408.71-hour jump far exceeded Fred Luddy’s 7,670.62-hour increase, while others lacked data in one of the months—indicating the surge is concentrated rather than uniform across the team.",
+    "The increases for Critical (+11,894 h ≈ +496 days) and Moderate (+9,466 h ≈ +394 days) indicate a dramatic slowdown in resolving Inquiry / Help incidents over the year, dwarfing typical SLA windows and suggesting systemic bottlenecks, while missing comparable data for High/Low hints at sparse volume or data gaps in one of the months.",
+    "Counterintuitively, Network’s “2 - High” has the longest median resolution at 4993.79 hours (~208 days), and in Database the “3 - Moderate” (4520.05 h) and “4 - Low” (3921.77 h) exceed “1 - Critical,” suggesting backlog and prioritization effects where less urgent tickets (and even some High) accumulate and drive up median times.",
+    "A clear late‑period shift toward urgency emerges: the average high‑priority share jumped from about 48.9% during Jan–Oct 2023 to about 72.6% in Nov 2023–Jan 2024, indicating a sustained influx of urgent tickets that likely contributed to longer resolution times.",
+    "Australia’s median resolution time (~3611 hours, ~150 days) is about 70% higher than India’s (~2118 hours, ~88 days), with an inter-location spread of ~1493 hours (~62 days), indicating substantial location-driven variability that may point to process or capacity bottlenecks.",
+    "The Hardware category shows a sharp deterioration in median resolution time late in the period—rising from just 254.42 hours in Oct 2023 to 2624.71 hours in Nov, 3701.17 in Dec, and peaking at 4881.92 in Jan 2024 (about a 19x increase from Oct to Jan), remaining very high at 4697.43 hours in Feb 2024.",
+    "The “slowest median resolver” role is concentrated: 2 of 5 categories are led by Luke Wilson in median resolution time, while Charlie Whitherspoon leads none—indicating potential bottlenecks tied to specific assignees and opportunities for targeted workload balancing or process improvements.",
+    "Each additional Hardware incident closed by an assignee is associated with roughly +414 hours in their median resolution time, with medians spanning ~1,141–4,090 hours across assignees—quantitatively linking heavier individual workloads to longer typical resolution times.",
+    "Resolution time spikes don’t align with volume: the highest median (~7,239 hours) occurred in 2023-12 with only 3 incidents, whereas higher-volume months like 2023-10 (8 incidents, ~3,964 hours) and 2024-01 (7 incidents, ~5,547 hours) had lower medians, suggesting backlog or complexity—not count—is driving longer times.",
+    "Australia’s increase was about 1.45× higher than Canada’s and more than 2× higher than India’s and the United States’, indicating a standout deterioration in Hardware resolution times there compared with other locations."
+  ],
+  "predicted_summary": "Hardware is the category driving the increase in resolution times: its monthly median resolution time climbed steeply by about +406 hours per month from 2023-01 to 2024-01, rising roughly 9,243 hours year over year (from -4,360.78 hours in 2023-01 to 4,881.92 hours in 2024-01, remaining high at 4,697.43 hours in 2024-02).\nThe rise in Hardware resolution times is not explained by overall monthly workload: incident volume actually fell from 12 to 9 between 2023-01 and 2024-01, and monthly count vs. monthly median time shows only a weak positive correlation (r=0.230). Instead, at the assignee level there is a moderately strong link between higher individual workload and slower resolutions (r≈0.696; ≈+414 hours in median time per additional incident), exemplified by Luke Wilson (16 incidents, 3,236-hour median) vs. Howard Johnson (5 incidents, 1,141-hour median).\nGeography is a key contributor to longer Hardware resolution times: across Jan 2023–Feb 2024, Australia (3,610.8 hours) and Canada (3,419.8) show markedly higher medians than the UK (2,372.6) and India (2,118.1), and Australia recorded the largest jump from 2023-H1 to 2023-H2 (+4,117 hours, from -2,976.13 to 1,140.95), indicating a location-driven component to the overall increase.",
+  "score_insights": 0.37420964969303616,
+  "score_insights_dict": [
+    {
+      "gt_insight": "There is a linear decrease in TTR for all categories over time.",
+      "pred_insight": "Although 2024-01 (9) is lower than 2023-01 (12), it is above both the 2023 monthly average (~7.6) and median (7.5), and the year showed high variability (low of 3 in 2023-03 and peaks of 12 in 2023-01 and 2023-11), suggesting any rise in resolution time is unlikely driven by a simple volume surge in January 2024.",
+      "score": 0.27544795864188776
+    },
+    {
+      "gt_insight": "There are fluctuations in incident frequencies across categories but no clear trend.",
+      "pred_insight": "Although 2024-01 (9) is lower than 2023-01 (12), it is above both the 2023 monthly average (~7.6) and median (7.5), and the year showed high variability (low of 3 in 2023-03 and peaks of 12 in 2023-01 and 2023-11), suggesting any rise in resolution time is unlikely driven by a simple volume surge in January 2024.",
+      "score": 0.4729713407441845
+    }
+  ],
+  "score_summary": 0.2514859912221571,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.3944196090188244,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "The increases for Critical (+11,894 h ≈ +496 days) and Moderate (+9,466 h ≈ +394 days) indicate a dramatic slowdown in resolving Inquiry / Help incidents over the year, dwarfing typical SLA windows and suggesting systemic bottlenecks, while missing comparable data for High/Low hints at sparse volume or data gaps in one of the months.",
+      "gt_insight": "There is a linear decrease in TTR for all categories over time.",
+      "score": 0.23056730844859827
+    },
+    {
+      "pred_insight": "Although 2024-01 (9) is lower than 2023-01 (12), it is above both the 2023 monthly average (~7.6) and median (7.5), and the year showed high variability (low of 3 in 2023-03 and peaks of 12 in 2023-01 and 2023-11), suggesting any rise in resolution time is unlikely driven by a simple volume surge in January 2024.",
+      "gt_insight": "There are fluctuations in incident frequencies across categories but no clear trend.",
+      "score": 0.5582719095890505
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.11519291030020884,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.19350938672950704
+}

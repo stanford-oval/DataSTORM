@@ -1,0 +1,332 @@
+{
+  "total_insights": 32,
+  "total_classified": 32,
+  "acled_count": 27,
+  "non_acled_count": 5,
+  "pct_acled": 0.84375,
+  "details": [
+    {
+      "evidence": "By September 2024, air and drone strikes surged nationwide while shelling declined, marking a decisive shift toward airpower without breaking the SAF–RSF stalemate.",
+      "is_acled_data": true,
+      "reasoning": "The statement describes temporal conflict trends (surge in air/drone strikes, decline in shelling) and their nationwide pattern by a specific date, which aligns with ACLED’s event-type counts and trend analysis derived from its dataset. While interpretive, it is the kind of aggregate pattern ACLED data is used to show.",
+      "source_context": "Intro summary; national August–September comparison of strike counts and outcomes."
+    },
+    {
+      "evidence": "In the week of September 23, Khartoum recorded 54 air/drone strikes versus 20 shelling incidents—the highest weekly air tally—signaling sorties had become the dominant modality.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific weekly counts of air/drone strikes and shelling incidents in Khartoum and identifies a temporal peak, which matches ACLED-style event count and temporal trend data derived from recorded conflict events.",
+      "source_context": "Section: The September Flip; weekly breakdown highlighting late-September peak."
+    },
+    {
+      "evidence": "Nationally, air events rose from 101 in August to 178 in September, while shelling fell from 142 to 77; air’s share grew from ~40% to ~70% of strikes.",
+      "is_acled_data": true,
+      "reasoning": "The evidence provides specific monthly counts of air events and shelling, and calculates their shares—this is a temporal conflict event breakdown typical of ACLED’s event data and trend analysis derived from it.",
+      "source_context": "Section: The September Flip; month-to-month event counts."
+    },
+    {
+      "evidence": "Deaths linked to air incidents increased from 158 to 234 between August and September, raising air’s share of strike fatalities from 57% to 65% even as shelling deaths stayed roughly level (121 to 127).",
+      "is_acled_data": true,
+      "reasoning": "The evidence provides month-to-month fatality counts and proportions specifically for air incidents and shelling in Sudan, reflecting event-derived fatalities and temporal trend analysis—types of metrics ACLED produces. It aligns with ACLED’s breakdowns by event type and time period and appears grounded in conflict event fatality data rather than general commentary.",
+      "source_context": "Section: The September Flip; fatality distribution by modality."
+    },
+    {
+      "evidence": "The shift was sustained across September: air’s share of weekly strikes hovered in the mid-50s to low-70s, establishing a new baseline rather than a one-off spike.",
+      "is_acled_data": true,
+      "reasoning": "The statement discusses temporal patterns in the share of airstrikes among weekly strikes, implying derived trend analysis from event-type counts over time—an ACLED-compatible metric based on categorized events (airstrikes vs. other strikes). This aligns with ACLED conflict trend analysis and event data rather than general commentary.",
+      "source_context": "Section: The September Flip; weekly sequence analysis."
+    },
+    {
+      "evidence": "SAF/Military Forces of Sudan led the air campaign, conducting repeated strikes in Khartoum, Al Jazirah, and North Darfur; all localities with 5+ September air events were attributed to SAF.",
+      "is_acled_data": true,
+      "reasoning": "Mentions specific airstrike event counts by locality in September and attributes them to SAF, reflecting actor-level attribution and subnational event data consistent with ACLED’s event counts and geographic-temporal patterns.",
+      "source_context": "Section: The September Flip; actor-by-locality attribution."
+    },
+    {
+      "evidence": "Civilians experienced fewer artillery barrages but more overflights and detonations; Khartoum strikes often had zero or unconfirmed casualties, while Darfur strikes became deadlier on average.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references patterns in specific conflict event types (artillery barrages, overflights/airstrikes) and casualty outcomes across locations (Khartoum vs. Darfur) over a defined period, which aligns with ACLED’s event-level data, subnational comparisons, and fatality/casualty trends derived from its dataset.",
+      "source_context": "Section: The September Flip; civilian experience and lethality shift."
+    },
+    {
+      "evidence": "In Khartoum, air/drone strikes jumped from 24 in August to 100 in September, comprising 56% of all national air incidents in September.",
+      "is_acled_data": true,
+      "reasoning": "The evidence presents specific counts of air/drone strike incidents by month and a national share percentage, which are typical ACLED event-based metrics (subnational incident counts and temporal trends). This aligns with ACLED’s conflict event data and derived trend analysis.",
+      "source_context": "Section: Khartoum Takes the Brunt; state-level distribution and change."
+    },
+    {
+      "evidence": "Khartoum’s shelling fell from 124 to 67 as air/drone rose from 24 to 100, reflecting a pivot from RSF shelling to SAF airpower in the capital.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific event counts over time (shelling and air/drone incidents in Khartoum) and interprets a shift between actors (RSF vs SAF), which aligns with ACLED’s event-type counts, temporal trends, and actor-level activity derived from conflict event data.",
+      "source_context": "Section: Khartoum Takes the Brunt; capital modality substitution."
+    },
+    {
+      "evidence": "Secondary nodes showed increases: Al Jazirah air/drone rose from 11 to 20 and Sennar from 11 to 14, while North Darfur remained significant despite a drop (33 to 23).",
+      "is_acled_data": true,
+      "reasoning": "The evidence reports subnational event count changes over time (air/drone incidents in specific states and counts dropping/raising), which aligns with ACLED’s geographic conflict event data and temporal trend analysis. This type of quantified event count by location and period is characteristic of ACLED-derived metrics.",
+      "source_context": "Section: Khartoum Takes the Brunt; other states’ activity changes."
+    },
+    {
+      "evidence": "Within Khartoum, active localities expanded from 15 to 40 in September; event concentration diminished while inequality across neighborhoods grew, indicating broad exposure with uneven intensity.",
+      "is_acled_data": true,
+      "reasoning": "Mentions subnational geographic spread within Khartoum (localities active count) and distribution of event concentration/inequality over time, which aligns with ACLED’s event-level, location-based conflict data and trend analysis derived from those events.",
+      "source_context": "Section: Khartoum Takes the Brunt; spatial dispersion metrics (HHI/Gini, top sites)."
+    },
+    {
+      "evidence": "Capital districts showed modality substitution: Khartoum city, Bahri, Sharg An Neel, and Jebel Awlia were air/drone-dominated, while Omdurman and Karrari remained shelling-heavy.",
+      "is_acled_data": true,
+      "reasoning": "The statement compares subdistricts within Khartoum by dominant event modality (air/drone vs. shelling), implying a subnational, event-type breakdown over a time period. This aligns with ACLED’s geolocated event data and modality categorization (explosions/remote violence, air/drone strikes, shelling) and spatial trend analysis typical of ACLED-derived insights.",
+      "source_context": "Section: Khartoum Takes the Brunt; locality-level substitution patterns."
+    },
+    {
+      "evidence": "In September, Khartoum saw lower lethality per air event (~1.17 deaths) compared to Darfur (~2.06), indicating more frequent but less deadly strikes in the capital and deadlier events in Darfur.",
+      "is_acled_data": true,
+      "reasoning": "The evidence presents comparative lethality per airstrike event by region (Khartoum vs. Darfur) with computed deaths-per-event figures, which directly relies on conflict event counts and fatality data broken down geographically—metrics that are core to ACLED event and fatality datasets and typical of ACLED-derived trend analysis.",
+      "source_context": "Section: Khartoum Takes the Brunt; regional lethality comparison."
+    },
+    {
+      "evidence": "Darfur’s higher average lethality was robust to outliers: trimmed means aligned with raw means and upper tails were consistently heavy, while Khartoum’s median was zero with occasional spikes.",
+      "is_acled_data": false,
+      "reasoning": "The evidence discusses statistical properties (trimmed means, medians, heavy tails) of lethality across regions (Darfur vs Khartoum) without citing ACLED, specific event counts, fatalities, or ACLED-derived metrics. It appears as analytical summary statistics rather than explicit ACLED event data or an ACLED-attributed analysis.",
+      "source_context": "Section: Khartoum Takes the Brunt; distributional tests and tails."
+    },
+    {
+      "evidence": "August foreshadowed the divergence: Khartoum air lethality was higher in August than September, while Darfur’s September lethality exceeded August; East Darfur’s per-event averages were steady.",
+      "is_acled_data": true,
+      "reasoning": "The statement compares lethality (fatalities per period and per event) across locations (Khartoum, Darfur, East Darfur) and months (August vs September), reflecting subnational, temporal fatality and per-event averages derived from conflict event data—core ACLED metrics and analyses (fatality counts, event counts, temporal trends).",
+      "source_context": "Section: Khartoum Takes the Brunt; month-to-month lethality shifts."
+    },
+    {
+      "evidence": "September locality rankings showed Khartoum neighborhoods leading in frequency (often zero-fatality clusters), while El Fasher, Mellit, and Ed Daein had fewer attacks but higher deaths per strike.",
+      "is_acled_data": true,
+      "reasoning": "Mentions locality rankings, frequency of events, and deaths per strike by specific locations and time, which aligns with ACLED’s subnational event counts and fatality metrics derived from event data.",
+      "source_context": "Section: Khartoum Takes the Brunt; top localities and lethality profiles."
+    },
+    {
+      "evidence": "SAF/MFS drove the air/drone surge across Khartoum, Darfur, Al Jazirah, and Sennar; RSF’s activity concentrated in shelling, with minimal presence in air operations.",
+      "is_acled_data": true,
+      "reasoning": "The evidence attributes patterns of armed group activity by actor (SAF/MFS vs RSF) and modality (air/drone operations vs shelling) across specific regions and a timeframe, which aligns with ACLED’s actor-level, event-type, and geographic trend data derived from recorded events. This is consistent with conflict trend and actor activity analysis typically produced from ACLED datasets.",
+      "source_context": "Section: Inside the Modality Split; actor roles across modalities."
+    },
+    {
+      "evidence": "In Khartoum, SAF/MFS air/drone events rose from 24 to 100 between August and September, while their shelling declined from 38 to 17; RSF shelling fell from 81 to 50.",
+      "is_acled_data": true,
+      "reasoning": "The evidence provides specific, disaggregated counts of air/drone events and shelling by actors (SAF/MFS, RSF) in a specific location (Khartoum) over defined months (Aug–Sep 2024). This aligns with ACLED’s event-level, actor-specific, temporal, and geographic conflict data and trend analysis derived from event counts.",
+      "source_context": "Section: Inside the Modality Split; actor-by-modality shifts in the capital."
+    },
+    {
+      "evidence": "Shelling was roughly four times as likely to be coded as civilian-targeted as air/drone (~40% vs ~11%), despite air/drone becoming more frequent.",
+      "is_acled_data": true,
+      "reasoning": "The statement compares the share of events coded as civilian-targeted for shelling versus air/drone strikes with specific percentages, which aligns with ACLED’s event-type and sub-event coding and violence against civilians statistics derived from its event data.",
+      "source_context": "Section: Inside the Modality Split; civilian-targeting rates by modality."
+    },
+    {
+      "evidence": "RSF’s shelling carried about a 40% civilian-targeting rate; SAF/MFS recorded low civilian-targeting rates in both air (~11%) and shelling (~3%), consistent with their modality emphasis.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites modality-specific civilian-targeting rates for particular actors (RSF, SAF/MFS) and distinguishes between air and shelling events, which aligns with ACLED’s actor-level event coding and violence against civilians statistics derived from conflict event data. Such quantified targeting rates by modality and actor are characteristic of analyses based on ACLED datasets.",
+      "source_context": "Section: Inside the Modality Split; actor-level targeting contrasts."
+    },
+    {
+      "evidence": "In September Khartoum, air outnumbered shelling (100 vs 67), with only 4% of air events coded as civilian-targeted and typically zero fatalities per event; total deaths across modalities were similar due to a small set of deadlier incidents.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific event counts by modality (air vs shelling), civilian-targeting percentages, fatalities per event, and comparative total deaths for a defined place and month—exactly the type of subnational, modality-specific event and fatality statistics ACLED provides and is used to derive temporal patterns.",
+      "source_context": "Section: Inside the Modality Split; capital-specific targeting and fatality profiles."
+    },
+    {
+      "evidence": "In Darfur, air/drone events were fewer but had a heavier upper tail of lethality, with p90 fatalities reaching 7 in September and 10 across August–September in North Darfur.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references event types (air/drone events) and fatality distribution metrics (p90 fatalities) over a specific time and subnational area (North Darfur) during Aug–Sep 2024. This aligns with ACLED’s event-level data and temporal/subnational analysis of fatalities, indicating derivation from ACLED event and fatality data.",
+      "source_context": "Section: Inside the Modality Split; Darfur tail risk metrics."
+    },
+    {
+      "evidence": "Airpower concentration over Khartoum (about 56% of national air incidents) combined with fewer but deadlier Darfur strikes heightened civilian harm in hard-to-reach areas without changing control dynamics.",
+      "is_acled_data": true,
+      "reasoning": "Mentions share of national air incidents (~56%) and comparative lethality by region, which are quantitative, event-based metrics and subnational breakdowns typical of ACLED’s incident and trend analyses. It references concentration of air events and civilian harm patterns, aligning with ACLED event counts and fatality data.",
+      "source_context": "Section: Stalemate from the Sky; access and control implications."
+    },
+    {
+      "evidence": "North Darfur averaged roughly two deaths per airstrike and East Darfur about 2.5, while Khartoum’s higher event count had lower per-event fatalities, indicating frequent small or near-miss strikes that still disrupted daily life and logistics.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references per-event fatality averages by subnational areas (North Darfur, East Darfur, Khartoum) and compares event counts and fatalities—metrics directly based on conflict event and fatality data that ACLED provides and commonly enables (events, fatalities, subnational breakdowns).",
+      "source_context": "Section: Stalemate from the Sky; per-event lethality by region."
+    },
+    {
+      "evidence": "Humanitarian conditions deteriorated: at least 19 aid workers killed by August; widespread looting of warehouses; repeated hits on medical facilities including MSF-supported hospitals; over 30 million in need amid cholera and flood damage.",
+      "is_acled_data": false,
+      "reasoning": "The evidence cites humanitarian impacts (aid workers killed total, looted warehouses, hits on medical facilities, millions in need, cholera and flood damage) which are typically from humanitarian agencies (e.g., OCHA, MSF) and public health reporting, not ACLED’s event-based conflict dataset. No explicit ACLED attribution or event-level statistics are provided.",
+      "source_context": "Section: Stalemate from the Sky; humanitarian toll and service disruption."
+    },
+    {
+      "evidence": "Documented SAF airstrikes in Darfur destroyed infrastructure and killed civilians, including a September 12 strike in eastern El Fasher that killed 15 (five children) and injured 17, worsening displacement and famine risks.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites a specific conflict event (SAF airstrike), with date (Sept 12), location (eastern El Fasher, Darfur), event type (airstrike destroying infrastructure), and detailed fatality/injury figures (15 killed, 17 injured, including children). These elements align with ACLED’s event-based data and casualties, suggesting it is likely derived from ACLED or similar event reporting.",
+      "source_context": "Section: Stalemate from the Sky; specific incident illustrating civilian impact."
+    },
+    {
+      "evidence": "Populated areas and displacement sites were repeatedly affected: Khartoum neighborhoods faced frequent shelling; Abu Shouk camp saw both shelling and air/drone incidents; Zamzam recorded single incidents of each, severing aid lifelines.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references specific conflict incidents involving shelling and air/drone strikes in named locations (Khartoum neighborhoods, Abu Shouk camp, Zamzam) and implies event-level details over a defined period. This aligns with ACLED’s event-based data on battles and explosions/remote violence in specific locations, suggesting derivation from ACLED-style incident reporting.",
+      "source_context": "Section: Stalemate from the Sky; targeting of populated and IDP areas."
+    },
+    {
+      "evidence": "From August to September, civilian fatalities from air/drone increased while those from shelling decreased; shelling still caused higher overall civilian fatalities and far higher injuries, complicating humanitarian planning.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites temporal changes in civilian fatalities and injuries by specific event types (air/drone strikes vs. shelling) during a defined period and implies comparative casualty metrics—these are core outputs from ACLED’s event-level data (fatalities, event-type categorization, temporal trends).",
+      "source_context": "Section: Stalemate from the Sky; shifting risk composition for responders."
+    },
+    {
+      "evidence": "Strike tempo appeared strategic and sustained rather than reactive: short windows after major battles showed modest shelling upticks but no airstrike spikes, suggesting pressure without territorial exploitation.",
+      "is_acled_data": false,
+      "reasoning": "The statement is interpretive analysis about strike tempo and tactical intent without citing specific ACLED event counts, fatalities, locations, or actor-level data. It describes patterns in a qualitative way and is not explicitly tied to ACLED datasets or metrics.",
+      "source_context": "Section: Stalemate from the Sky; correlation tests between battles and strike spikes."
+    },
+    {
+      "evidence": "Reporting artifacts are unlikely to explain the shift: source mix and geocoding precision remained high, and increased domestic media did not degrade location accuracy in September.",
+      "is_acled_data": true,
+      "reasoning": "The statement discusses source mix, geocoding precision, and location accuracy over time—core methodological and metadata aspects used in ACLED trend analyses. ACLED frequently evaluates reporting artifacts vs. real trend shifts using source composition and geocoding quality metrics. This aligns with ACLED-derived analysis rather than general commentary.",
+      "source_context": "Section: Stalemate from the Sky; diagnostics on sources and precision."
+    },
+    {
+      "evidence": "Policy implications require two tailored protection approaches: mitigation for high-frequency, low-fatality air operations in Khartoum and safeguards against high-severity tail events in Darfur.",
+      "is_acled_data": false,
+      "reasoning": "The statement offers policy implications and protection approaches, which is general analytical commentary. It does not reference specific ACLED event counts, fatalities, locations, actor data, or explicitly cite ACLED-derived metrics.",
+      "source_context": "Conclusion; recommended protection posture."
+    },
+    {
+      "evidence": "Absent credible diplomacy that changes incentives, intensified air and shelling will continue to raise civilian costs, with the skies defining the war while the ground bears escalating humanitarian consequences.",
+      "is_acled_data": false,
+      "reasoning": "This is general analytical commentary about likely trends and humanitarian consequences, not citing specific ACLED event data, counts, locations, or actor-level statistics.",
+      "source_context": "Conclusion; strategic outlook and civilian cost warning."
+    }
+  ],
+  "insights": [
+    {
+      "insight": "By September 2024, air and drone strikes surged nationwide while shelling declined, marking a decisive shift toward airpower without breaking the SAF–RSF stalemate.",
+      "context": "Intro summary; national August–September comparison of strike counts and outcomes."
+    },
+    {
+      "insight": "In the week of September 23, Khartoum recorded 54 air/drone strikes versus 20 shelling incidents—the highest weekly air tally—signaling sorties had become the dominant modality.",
+      "context": "Section: The September Flip; weekly breakdown highlighting late-September peak."
+    },
+    {
+      "insight": "Nationally, air events rose from 101 in August to 178 in September, while shelling fell from 142 to 77; air’s share grew from ~40% to ~70% of strikes.",
+      "context": "Section: The September Flip; month-to-month event counts."
+    },
+    {
+      "insight": "Deaths linked to air incidents increased from 158 to 234 between August and September, raising air’s share of strike fatalities from 57% to 65% even as shelling deaths stayed roughly level (121 to 127).",
+      "context": "Section: The September Flip; fatality distribution by modality."
+    },
+    {
+      "insight": "The shift was sustained across September: air’s share of weekly strikes hovered in the mid-50s to low-70s, establishing a new baseline rather than a one-off spike.",
+      "context": "Section: The September Flip; weekly sequence analysis."
+    },
+    {
+      "insight": "SAF/Military Forces of Sudan led the air campaign, conducting repeated strikes in Khartoum, Al Jazirah, and North Darfur; all localities with 5+ September air events were attributed to SAF.",
+      "context": "Section: The September Flip; actor-by-locality attribution."
+    },
+    {
+      "insight": "Civilians experienced fewer artillery barrages but more overflights and detonations; Khartoum strikes often had zero or unconfirmed casualties, while Darfur strikes became deadlier on average.",
+      "context": "Section: The September Flip; civilian experience and lethality shift."
+    },
+    {
+      "insight": "In Khartoum, air/drone strikes jumped from 24 in August to 100 in September, comprising 56% of all national air incidents in September.",
+      "context": "Section: Khartoum Takes the Brunt; state-level distribution and change."
+    },
+    {
+      "insight": "Khartoum’s shelling fell from 124 to 67 as air/drone rose from 24 to 100, reflecting a pivot from RSF shelling to SAF airpower in the capital.",
+      "context": "Section: Khartoum Takes the Brunt; capital modality substitution."
+    },
+    {
+      "insight": "Secondary nodes showed increases: Al Jazirah air/drone rose from 11 to 20 and Sennar from 11 to 14, while North Darfur remained significant despite a drop (33 to 23).",
+      "context": "Section: Khartoum Takes the Brunt; other states’ activity changes."
+    },
+    {
+      "insight": "Within Khartoum, active localities expanded from 15 to 40 in September; event concentration diminished while inequality across neighborhoods grew, indicating broad exposure with uneven intensity.",
+      "context": "Section: Khartoum Takes the Brunt; spatial dispersion metrics (HHI/Gini, top sites)."
+    },
+    {
+      "insight": "Capital districts showed modality substitution: Khartoum city, Bahri, Sharg An Neel, and Jebel Awlia were air/drone-dominated, while Omdurman and Karrari remained shelling-heavy.",
+      "context": "Section: Khartoum Takes the Brunt; locality-level substitution patterns."
+    },
+    {
+      "insight": "In September, Khartoum saw lower lethality per air event (~1.17 deaths) compared to Darfur (~2.06), indicating more frequent but less deadly strikes in the capital and deadlier events in Darfur.",
+      "context": "Section: Khartoum Takes the Brunt; regional lethality comparison."
+    },
+    {
+      "insight": "Darfur’s higher average lethality was robust to outliers: trimmed means aligned with raw means and upper tails were consistently heavy, while Khartoum’s median was zero with occasional spikes.",
+      "context": "Section: Khartoum Takes the Brunt; distributional tests and tails."
+    },
+    {
+      "insight": "August foreshadowed the divergence: Khartoum air lethality was higher in August than September, while Darfur’s September lethality exceeded August; East Darfur’s per-event averages were steady.",
+      "context": "Section: Khartoum Takes the Brunt; month-to-month lethality shifts."
+    },
+    {
+      "insight": "September locality rankings showed Khartoum neighborhoods leading in frequency (often zero-fatality clusters), while El Fasher, Mellit, and Ed Daein had fewer attacks but higher deaths per strike.",
+      "context": "Section: Khartoum Takes the Brunt; top localities and lethality profiles."
+    },
+    {
+      "insight": "SAF/MFS drove the air/drone surge across Khartoum, Darfur, Al Jazirah, and Sennar; RSF’s activity concentrated in shelling, with minimal presence in air operations.",
+      "context": "Section: Inside the Modality Split; actor roles across modalities."
+    },
+    {
+      "insight": "In Khartoum, SAF/MFS air/drone events rose from 24 to 100 between August and September, while their shelling declined from 38 to 17; RSF shelling fell from 81 to 50.",
+      "context": "Section: Inside the Modality Split; actor-by-modality shifts in the capital."
+    },
+    {
+      "insight": "Shelling was roughly four times as likely to be coded as civilian-targeted as air/drone (~40% vs ~11%), despite air/drone becoming more frequent.",
+      "context": "Section: Inside the Modality Split; civilian-targeting rates by modality."
+    },
+    {
+      "insight": "RSF’s shelling carried about a 40% civilian-targeting rate; SAF/MFS recorded low civilian-targeting rates in both air (~11%) and shelling (~3%), consistent with their modality emphasis.",
+      "context": "Section: Inside the Modality Split; actor-level targeting contrasts."
+    },
+    {
+      "insight": "In September Khartoum, air outnumbered shelling (100 vs 67), with only 4% of air events coded as civilian-targeted and typically zero fatalities per event; total deaths across modalities were similar due to a small set of deadlier incidents.",
+      "context": "Section: Inside the Modality Split; capital-specific targeting and fatality profiles."
+    },
+    {
+      "insight": "In Darfur, air/drone events were fewer but had a heavier upper tail of lethality, with p90 fatalities reaching 7 in September and 10 across August–September in North Darfur.",
+      "context": "Section: Inside the Modality Split; Darfur tail risk metrics."
+    },
+    {
+      "insight": "Airpower concentration over Khartoum (about 56% of national air incidents) combined with fewer but deadlier Darfur strikes heightened civilian harm in hard-to-reach areas without changing control dynamics.",
+      "context": "Section: Stalemate from the Sky; access and control implications."
+    },
+    {
+      "insight": "North Darfur averaged roughly two deaths per airstrike and East Darfur about 2.5, while Khartoum’s higher event count had lower per-event fatalities, indicating frequent small or near-miss strikes that still disrupted daily life and logistics.",
+      "context": "Section: Stalemate from the Sky; per-event lethality by region."
+    },
+    {
+      "insight": "Humanitarian conditions deteriorated: at least 19 aid workers killed by August; widespread looting of warehouses; repeated hits on medical facilities including MSF-supported hospitals; over 30 million in need amid cholera and flood damage.",
+      "context": "Section: Stalemate from the Sky; humanitarian toll and service disruption."
+    },
+    {
+      "insight": "Documented SAF airstrikes in Darfur destroyed infrastructure and killed civilians, including a September 12 strike in eastern El Fasher that killed 15 (five children) and injured 17, worsening displacement and famine risks.",
+      "context": "Section: Stalemate from the Sky; specific incident illustrating civilian impact."
+    },
+    {
+      "insight": "Populated areas and displacement sites were repeatedly affected: Khartoum neighborhoods faced frequent shelling; Abu Shouk camp saw both shelling and air/drone incidents; Zamzam recorded single incidents of each, severing aid lifelines.",
+      "context": "Section: Stalemate from the Sky; targeting of populated and IDP areas."
+    },
+    {
+      "insight": "From August to September, civilian fatalities from air/drone increased while those from shelling decreased; shelling still caused higher overall civilian fatalities and far higher injuries, complicating humanitarian planning.",
+      "context": "Section: Stalemate from the Sky; shifting risk composition for responders."
+    },
+    {
+      "insight": "Strike tempo appeared strategic and sustained rather than reactive: short windows after major battles showed modest shelling upticks but no airstrike spikes, suggesting pressure without territorial exploitation.",
+      "context": "Section: Stalemate from the Sky; correlation tests between battles and strike spikes."
+    },
+    {
+      "insight": "Reporting artifacts are unlikely to explain the shift: source mix and geocoding precision remained high, and increased domestic media did not degrade location accuracy in September.",
+      "context": "Section: Stalemate from the Sky; diagnostics on sources and precision."
+    },
+    {
+      "insight": "Policy implications require two tailored protection approaches: mitigation for high-frequency, low-fatality air operations in Khartoum and safeguards against high-severity tail events in Darfur.",
+      "context": "Conclusion; recommended protection posture."
+    },
+    {
+      "insight": "Absent credible diplomacy that changes incentives, intensified air and shelling will continue to raise civilian costs, with the skies defining the war while the ground bears escalating humanitarian consequences.",
+      "context": "Conclusion; strategic outlook and civilian cost warning."
+    }
+  ],
+  "prompt": "Give me a summary of artillery shelling and airstrikes political violence, and conflict situations during August - September 2024 in Sudan."
+}

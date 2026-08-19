@@ -1,0 +1,188 @@
+{
+  "prompt": "Research state of resistance groups in Myanmar post 2021 coup: What is the landscape of these groups?",
+  "criteria": [
+    {
+      "name": "Post-coup group proliferation",
+      "description": "Assess the rapid emergence and diversification of new resistance actors formed after the coup, including their varied social origins and localized organization."
+    },
+    {
+      "name": "Shifting conflict geography",
+      "description": "Examine how violence expanded from traditional borderland areas into central regions, altering the military’s territorial control and stretching its capacities."
+    },
+    {
+      "name": "Old–new group coordination",
+      "description": "Evaluate patterns of operational coordination between established ethnic armed organizations and newer resistance groups, including training, shelter, joint operations, and their battlefield impact."
+    },
+    {
+      "name": "Limits of deeper cooperation",
+      "description": "Analyze why cooperation often remains tactical and localized rather than strategic, focusing on divergent political visions, organizational structures, and trust deficits."
+    },
+    {
+      "name": "Divergent strategies and tactics",
+      "description": "Compare established groups’ territorial, conventional operations with newer groups’ resource-constrained guerilla approaches aimed at disrupting governance and logistics."
+    },
+    {
+      "name": "Fragmentation and governance challenges",
+      "description": "Assess how multiple command structures and overlapping authorities impede unified leadership, area administration, and coherent policy toward civilians."
+    },
+    {
+      "name": "Civilian protection and harm",
+      "description": "Investigate how limited coordination and guerrilla tactics shape civilian risks, including reprisals, displacement, and infrastructure attacks, and the capacity of groups to protect populations."
+    },
+    {
+      "name": "Resource and legitimacy competition",
+      "description": "Explore rivalry over taxation, checkpoints, recruitment, and public support, and how this affects local communities and the resistance’s reputation."
+    },
+    {
+      "name": "Inter-group infighting patterns",
+      "description": "Identify where and why clashes occur among resistance actors, the balance between collaboration and conflict, and the consequences for overall effectiveness."
+    },
+    {
+      "name": "Regional variation in dynamics",
+      "description": "Contrast resistance landscapes across key regions, highlighting how ethnic compositions, historical actors, and terrain produce distinct cooperation–competition patterns."
+    },
+    {
+      "name": "Terrain and operational constraints",
+      "description": "Assess how geography, such as forest cover and topography, shapes feasibility of bases, exposure to airpower, and inter-group coordination."
+    },
+    {
+      "name": "Military divide-and-rule responses",
+      "description": "Evaluate how the regime leverages ceasefires, elections, and co-optation to fracture opposition and reshape local power structures."
+    },
+    {
+      "name": "Humanitarian access and governance",
+      "description": "Analyze how unclear control, overlapping jurisdictions, and taxation affect aid delivery and civilian trust in emerging administrative bodies."
+    },
+    {
+      "name": "Alliance formation and mediation",
+      "description": "Examine mechanisms for managing disputes and building coalitions, including umbrella bodies, negotiation channels, and their effectiveness in de-escalation."
+    },
+    {
+      "name": "Territorial control and consolidation",
+      "description": "Track patterns of capturing, holding, and administering settlements or routes, and the sustainability of gains under airstrike and counterattack pressure."
+    },
+    {
+      "name": "Institutionalization of new forces",
+      "description": "Assess the evolution of newer groups toward more formal command-and-control, doctrine, and technology, and implications for future operations."
+    },
+    {
+      "name": "Prospects for unified strategy",
+      "description": "Evaluate conditions under which tactical coordination could mature into strategic cooperation, and how a shared political framework might emerge."
+    },
+    {
+      "name": "Risks of communal tensions",
+      "description": "Consider how territorial expansion into mixed areas can trigger ethnic frictions and complicate governance, even among anti-regime actors."
+    },
+    {
+      "name": "Public support as force multiplier",
+      "description": "Assess how civilian backing influences operational success, urban advances, and the potential to control major population centers."
+    },
+    {
+      "name": "Scenario outlooks and trajectories",
+      "description": "Outline plausible paths of increased coordination or intensified competition, and implications for conflict duration, civilian impact, and regime stability."
+    }
+  ],
+  "criterion_scores": [
+    {
+      "name": "Post-coup group proliferation",
+      "score": 0.75,
+      "explanation": "The article notes the surge of PDFs in 2021–22, their social roots, and later decline in event share, highlighting localized networks in Sagaing. It mentions students/protesters origins and community-embedded guerrillas. However, it does not comprehensively map the variety of new actors across regions or detail diverse social origins beyond broad descriptors."
+    },
+    {
+      "name": "Shifting conflict geography",
+      "score": 1.0,
+      "explanation": "Strong coverage of expansion from borderlands to central regions, contrasting EAO-led border fronts with PDF-led central harassment in Sagaing/Magway, and how this bifurcated geography stretches the junta."
+    },
+    {
+      "name": "Old–new group coordination",
+      "score": 1.0,
+      "explanation": "Provides detailed joint-operations data (KIA–PDF, KNLA–PDF, TNLA–PDF, KNDF–PDF), modalities (joint armed clashes), regional spread (Kachin, Sagaing, Kayin, Mon, Bago-East), and emphasizes training/shelter implicitly via structured cooperation and coalition roles."
+    },
+    {
+      "name": "Limits of deeper cooperation",
+      "score": 0.75,
+      "explanation": "Addresses tactical/localized nature of cooperation and obstacles (divergent endgames, command systems, trust/agenda differences). Could go deeper on political visions (federal vs confederal) and explicit examples of failed strategic coordination or negotiations."
+    },
+    {
+      "name": "Divergent strategies and tactics",
+      "score": 1.0,
+      "explanation": "Clearly contrasts EAO territorial, positional battles with PDFs’ drones, IEDs, arson, governance-denial; notes division of labor and lack of EAO drone/IED use in central regions."
+    },
+    {
+      "name": "Fragmentation and governance challenges",
+      "score": 0.75,
+      "explanation": "Describes decentralized, patchwork command; overlapping actors and uneven governance; NUG’s limited authority. Lacks detailed discussion of area administration attempts, taxation structures, or coherent civilian policy shortcomings beyond generalities."
+    },
+    {
+      "name": "Civilian protection and harm",
+      "score": 0.75,
+      "explanation": "Analyzes varied civilian risk across theaters; provides shares of civilian targeting and actor/regional differences; mentions displacement, air/artillery risks. Less on protection mechanisms or capacity of groups to shield civilians."
+    },
+    {
+      "name": "Resource and legitimacy competition",
+      "score": 0.5,
+      "explanation": "Touches on overlapping authorities and NUG legitimacy struggles; mentions governance denial and public support implicitly. Does not detail rivalry over taxation, checkpoints, recruitment, or explicit legitimacy contests affecting communities."
+    },
+    {
+      "name": "Inter-group infighting patterns",
+      "score": 0.5,
+      "explanation": "Mentions some EAOs prioritize local grievances and inter-ethnic rivalries, and coalition frictions, but lacks specific cases of clashes among resistance actors, frequency, or consequences."
+    },
+    {
+      "name": "Regional variation in dynamics",
+      "score": 0.75,
+      "explanation": "Contrasts Sagaing/Magway with Kachin, Rakhine, Shan-North, Kayin, Kayah; discusses different cooperation models. Could further tie variations to ethnic compositions/history and provide more regions (e.g., Chin, Tanintharyi, Yangon) for completeness."
+    },
+    {
+      "name": "Terrain and operational constraints",
+      "score": 0.25,
+      "explanation": "Implicitly references border fronts vs heartland but does not analyze forest cover, topography, base feasibility, airpower exposure, or how geography shapes coordination."
+    },
+    {
+      "name": "Military divide-and-rule responses",
+      "score": 0.25,
+      "explanation": "Barely addressed; mentions junta repression and air/artillery but not ceasefires, elections, or co-optation tactics to fracture opposition."
+    },
+    {
+      "name": "Humanitarian access and governance",
+      "score": 0.5,
+      "explanation": "Notes overlapping jurisdictions, uneven governance, and civilian experiences; limited discussion on how taxation/checkpoints affect aid delivery or trust, and little on aid modalities/access constraints."
+    },
+    {
+      "name": "Alliance formation and mediation",
+      "score": 0.5,
+      "explanation": "Describes umbrella/coalitions like Three Brotherhood Alliance and NUG’s umbrella role; limited on mechanisms for dispute resolution, mediation channels, or effectiveness in de-escalation."
+    },
+    {
+      "name": "Territorial control and consolidation",
+      "score": 0.75,
+      "explanation": "Discusses capturing/holding towns/bases in border theaters and sustainability under intense battles; mentions pressure on key roads and decisive fronts. Less systematic tracking of consolidation durability under airstrikes or counterattacks."
+    },
+    {
+      "name": "Institutionalization of new forces",
+      "score": 0.5,
+      "explanation": "Notes PDFs’ evolution to drones/IEDs and persistent decentralized structures; limited treatment of formal command-and-control development, doctrine, tech standardization, or training institutions."
+    },
+    {
+      "name": "Prospects for unified strategy",
+      "score": 0.75,
+      "explanation": "Concludes with conditions/uncertainty about translating battlefield leverage into coordinated political strategy and integrating heartland networks with EAO agendas; lacks detailed scenarios or concrete pathways."
+    },
+    {
+      "name": "Risks of communal tensions",
+      "score": 0.25,
+      "explanation": "Briefly alludes to inter-ethnic rivalries and mixed-actor zones but does not analyze ethnic frictions arising from territorial expansion into mixed areas or governance complications among anti-regime actors."
+    },
+    {
+      "name": "Public support as force multiplier",
+      "score": 0.5,
+      "explanation": "Mentions community-embedded PDFs and NUG legitimacy; suggests public backing sustains central campaigns. Does not analyze how public support enables urban advances or control of major population centers."
+    },
+    {
+      "name": "Scenario outlooks and trajectories",
+      "score": 0.5,
+      "explanation": "Provides a general outlook that the war continues on two tracks and raises a key uncertainty about strategic coordination. Lacks explicit scenario pathways (e.g., increased coordination vs competition) and their implications for duration, civilians, and regime stability."
+    }
+  ],
+  "overall_score": 0.625
+}

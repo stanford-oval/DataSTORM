@@ -1,0 +1,332 @@
+{
+  "total_insights": 32,
+  "total_classified": 32,
+  "acled_count": 28,
+  "non_acled_count": 4,
+  "pct_acled": 0.875,
+  "details": [
+    {
+      "evidence": "By 2024, ethnic armed organizations (EAOs) led over four-fifths of resistance-involved incidents, up from about seven in ten in 2021, indicating a decisive shift in operational tempo away from People’s Defense Forces (PDFs).",
+      "is_acled_data": true,
+      "reasoning": "The statement reports proportions of “resistance-involved incidents” by actor type over time (2021 vs 2024), which aligns with ACLED’s event counts and actor-level categorization and temporal trend analysis. This is characteristic of metrics derived from ACLED event data by aggregating incidents by actor (EAOs vs PDFs) across years.",
+      "source_context": "From shock offensives to a reordered resistance"
+    },
+    {
+      "evidence": "EAOs logged 4,278 events since the coup—nearly three times the number linked to PDF-branded forces—underscoring their dominance in setting the battlefield pace.",
+      "is_acled_data": true,
+      "reasoning": "The statement cites specific conflict event counts comparing EAOs to PDF-branded forces since the coup, which aligns with ACLED’s actor-level event data and temporal event counts. This type of quantitative event count and actor comparison is characteristic of ACLED-derived analysis.",
+      "source_context": "From shock offensives to a reordered resistance"
+    },
+    {
+      "evidence": "The conflict is predominantly battle-centric, with battles making up roughly four-fifths of resistance-involved events, while air/drone strikes and other remote violence remain secondary.",
+      "is_acled_data": true,
+      "reasoning": "The statement references the composition of conflict event types (battles vs. air/drone strikes and remote violence) and their share of resistance-involved events, which aligns with ACLED’s event-type data and proportional breakdowns derived from ACLED event records.",
+      "source_context": "From shock offensives to a reordered resistance"
+    },
+    {
+      "evidence": "Late-2023 nationwide event spikes reflect coordinated, battle-heavy campaigns rather than isolated flare-ups, marking a new synchronized phase of the war.",
+      "is_acled_data": true,
+      "reasoning": "The statement discusses nationwide event spikes, coordinated campaigns, and a new synchronized phase based on temporal patterns of conflict events—consistent with ACLED’s event counts, battle data, and trend analysis derived from its dataset.",
+      "source_context": "From shock offensives to a reordered resistance"
+    },
+    {
+      "evidence": "Violence is concentrated in Shan-North, Kachin, Rakhine, Kayin, and Sagaing, signaling a periphery-plus-center conflict map rather than an urban insurgency centered on Yangon.",
+      "is_acled_data": true,
+      "reasoning": "The statement identifies specific subnational areas in Myanmar where violence is concentrated, implying a geographic distribution of conflict events and a characterization of conflict patterns. This aligns with ACLED’s geographic conflict data and event count distributions by region, which can show concentrations in Shan-North, Kachin, Rakhine, Kayin, and Sagaing. It reflects conflict trend/pattern analysis derived from event data rather than general commentary.",
+      "source_context": "From shock offensives to a reordered resistance"
+    },
+    {
+      "evidence": "Yangon’s resistance activity dwindled by 2024, suggesting earlier narratives of sustained urban cell warfare are overstated relative to the data.",
+      "is_acled_data": true,
+      "reasoning": "The claim references a temporal trend in resistance activity in a specific location (Yangon) by 2024, implying analysis of event counts and patterns over time, which aligns with ACLED’s event-based, time-series conflict data. This type of statement is typically derived from ACLED conflict trend and actor activity data.",
+      "source_context": "From shock offensives to a reordered resistance"
+    },
+    {
+      "evidence": "PDFs’ relative share of activity declined by 2024 but they increasingly appear as associated actors in EAO-led operations, especially with KIA, KNLA, and AA, indicating coalition warfare.",
+      "is_acled_data": true,
+      "reasoning": "The statement references relative share of activity over time and associations between actor groups in operations, implying actor-level event counts and co-participation patterns—typical of ACLED’s event data and actor associations/temporal trend analysis. It reflects derived insights from ACLED’s battle/event records rather than general commentary.",
+      "source_context": "From shock offensives to a reordered resistance"
+    },
+    {
+      "evidence": "EAO-led offensives intensified along border-front states in 2024—Rakhine, Kachin, northern Shan, and Kayin—while PDFs dominated persistent, volatile campaigns in central Sagaing and Magway.",
+      "is_acled_data": true,
+      "reasoning": "The statement describes spatial-temporal conflict trends and actor-specific activity (EAO-led offensives by state and PDFs dominating campaigns in specific regions in 2024). This aligns with ACLED’s event-based geographic breakdowns, actor-level activity, and trend analysis derived from recorded conflict events, typical of ACLED outputs.",
+      "source_context": "Two maps of the same war: periphery offensives vs. central volatility"
+    },
+    {
+      "evidence": "Rakhine recorded 560 resistance-involved events and 2,807 deaths in 2024, the highest nationwide for both events and fatalities, highlighting its status as the most intense and deadly theater.",
+      "is_acled_data": true,
+      "reasoning": "The evidence reports subnational counts of resistance-involved events and fatalities for 2024 and compares intensity across regions—exactly the type of conflict event and fatality data ACLED provides and analyzes by geography and time.",
+      "source_context": "Two maps of the same war: periphery offensives vs. central volatility"
+    },
+    {
+      "evidence": "Kachin (394 events; 660 deaths), northern Shan (313; 559), and Kayin (163; 568) also saw elevated 2024 activity and lethality, reflecting EAO-led escalation at the periphery.",
+      "is_acled_data": true,
+      "reasoning": "The evidence provides subnational counts of conflict events and associated fatalities for specific regions in Myanmar in 2024 and links them to armed group activity—exactly the type of event and fatality metrics, geographic breakdown, and trend interpretation that ACLED reports. This aligns with ACLED’s event counts, fatality figures, and subnational analysis, suggesting it is derived from ACLED data.",
+      "source_context": "Two maps of the same war: periphery offensives vs. central volatility"
+    },
+    {
+      "evidence": "Sagaing shows the largest net increase in resistance-initiated engagements since 2021 and the sharpest month-to-month volatility, typifying episodic, localized campaigns led by PDFs.",
+      "is_acled_data": true,
+      "reasoning": "Mentions subnational (Sagaing) trends in resistance-initiated engagements, net increase, and month-to-month volatility—these are temporal and actor-specific event counts typical of ACLED’s event data and trend analysis at a regional level.",
+      "source_context": "Two maps of the same war: periphery offensives vs. central volatility"
+    },
+    {
+      "evidence": "Sagaing’s clashes peaked in 2022 and remained high thereafter; Magway climbed steadily; Mandalay fluctuated; Yangon fell to negligible activity by 2024.",
+      "is_acled_data": true,
+      "reasoning": "The statement describes subnational temporal trends in conflict activity across regions (Sagaing, Magway, Mandalay, Yangon) with peaks, steady climbs, fluctuations, and declines by year, which aligns with ACLED’s event count-based trend analysis and geographic breakdowns. It reflects aggregated temporal patterns from conflict events typical of ACLED outputs.",
+      "source_context": "Two maps of the same war: periphery offensives vs. central volatility"
+    },
+    {
+      "evidence": "Sagaing’s monthly resistance activity spiked to 43 events in November 2023 before dropping to 16 in December, illustrating central-front volatility.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites monthly counts of resistance-related events in a specific subnational area (Sagaing) and discusses temporal variation. ACLED tracks event counts and temporal patterns at subnational levels, making this characteristic of ACLED-derived data.",
+      "source_context": "Two maps of the same war: periphery offensives vs. central volatility"
+    },
+    {
+      "evidence": "Operational footprints vary: some districts concentrate events in few locations (e.g., Yinmarbin’s 787 events across nine sites), while others disperse events across 30+ sites (e.g., Maungdaw, Bhamo, Myitkyina, Pakokku), indicating strongholds versus maneuver corridors.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific counts of conflict events and the number of distinct locations (sites) within districts, reflecting subnational geographic distribution of events—core elements of ACLED’s event-based, location-specific data. The phrasing (events across X sites in named districts) aligns with ACLED’s structure and outputs rather than general commentary.",
+      "source_context": "Two maps of the same war: periphery offensives vs. central volatility"
+    },
+    {
+      "evidence": "Actor footprints differ: the Arakan Army spans many districts with lower median intensity; TNLA and MNDAA concentrate intense activity in northern Shan; KIA and PDFs operate broadly; KNLA is comparatively localized.",
+      "is_acled_data": true,
+      "reasoning": "The statement compares armed group footprints across districts, discusses concentration and intensity of activity, and contrasts geographic spread among actors—this aligns with ACLED’s actor-level, subnational geographic event data and intensity metrics derived from event counts/fatalities. It reflects analysis grounded in ACLED-style spatial and actor activity patterns rather than general commentary.",
+      "source_context": "Two maps of the same war: periphery offensives vs. central volatility"
+    },
+    {
+      "evidence": "Coalition warfare is the engine of EAO ascendancy, with battles comprising the majority of activity each year; EAO battle activity peaks in 2024 at about four-fifths of their events.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites proportions of event types (battles) over time and a peak in 2024, which aligns with ACLED’s event-type counts and temporal trend analysis. It references actor-level framing (EAOs) and share of events that are battles—data ACLED tracks. This is characteristic of statistics derived from ACLED’s battle/event composition over years.",
+      "source_context": "How coalitions fight: battles, joint operations, and tactical divergence"
+    },
+    {
+      "evidence": "The densest joint operations link KIA and KNLA with PDFs; KIO/KIA co-appears frequently with generic PDF and KPDF, and KNU/KNLA–PDF pairings are similarly frequent.",
+      "is_acled_data": true,
+      "reasoning": "The statement discusses frequent co-appearances and joint operation linkages between specific armed actors (KIA/KNLA with PDFs), implying actor-level co-occurrence patterns derived from coded conflict event data. Such actor pairing frequencies and joint operation link analyses are characteristic of ACLED’s actor/event-level datasets and network analyses based on event co-occurrence, which fall under armed group activity and conflict trend analysis derived from event data.",
+      "source_context": "How coalitions fight: battles, joint operations, and tactical divergence"
+    },
+    {
+      "evidence": "Joint operation patterns are regionally anchored: KNU/KNLA–PDF in Kayin; KIO/KIA–KPDF in Kachin; TNLA with PDF–Mandalay in northern Shan; KNPP/KA with KNDF in Kayah; some alliances are tightly localized (e.g., KNU/KNLA with Thaton TPDF entirely in Mon).",
+      "is_acled_data": false,
+      "reasoning": "The evidence describes regional patterns of joint operations and alliances between armed groups (e.g., KNU/KNLA–PDF in Kayin), which is qualitative analysis of organizational relationships and geographic anchoring. While ACLED tracks actor activity and event locations, this statement does not reference specific ACLED event data, counts, or trends and reads as broader analytical synthesis rather than data explicitly attributed to ACLED.",
+      "source_context": "How coalitions fight: battles, joint operations, and tactical divergence"
+    },
+    {
+      "evidence": "Coalition hubs form in Kachin and Sagaing, with notable activity in Mon and northern Shan; Sagaing exhibits especially diverse alliance patterns across years.",
+      "is_acled_data": false,
+      "reasoning": "The statement describes coalition hubs and alliance diversity across regions and years, which is a qualitative organizational/political analysis of resistance group networks rather than specific conflict event counts, fatalities, or actor-tagged event data. Without explicit reference to ACLED event-based metrics or attribution, it appears to be general analysis, not directly derived from ACLED data.",
+      "source_context": "How coalitions fight: battles, joint operations, and tactical divergence"
+    },
+    {
+      "evidence": "Tactical profiles diverge by actor and region: high-activity EAOs like AA rely less on IEDs—favoring conventional assaults, indirect fire, and drones—while groups like RCSS/SSA-S and Pyu Saw Htee show higher IED shares shaped by local conditions.",
+      "is_acled_data": true,
+      "reasoning": "The evidence discusses actor-level tactical patterns (use of IEDs vs. conventional assaults, indirect fire, drones) differentiated by specific groups (AA, RCSS/SSA-S, Pyu Saw Htee) and regions. This aligns with ACLED’s event-type and actor-level data, which can quantify shares of explosions/remote violence versus battles by actor and geography. Such comparative tactical profiles are typically derived from aggregating ACLED event data rather than general commentary.",
+      "source_context": "How coalitions fight: battles, joint operations, and tactical divergence"
+    },
+    {
+      "evidence": "PDFs also fight battles but increased their use of explosives in 2023 relative to other years, indicating tactical adaptation.",
+      "is_acled_data": true,
+      "reasoning": "The statement references tactical changes in PDFs’ use of explosives over time, implying a comparison of event types (battles vs. explosions) and temporal trends (increase in 2023). This aligns with ACLED’s event-type counts and temporal pattern analysis of explosions/remote violence and battles, suggesting it is likely derived from ACLED data.",
+      "source_context": "How coalitions fight: battles, joint operations, and tactical divergence"
+    },
+    {
+      "evidence": "About half of resistance-involved incidents have zero fatalities; lethality clusters in a fat tail dominated by battles (around three deaths at the 75th percentile) and explosions (around two).",
+      "is_acled_data": true,
+      "reasoning": "The evidence discusses distributions of fatalities per incident and distinguishes by event types (battles, explosions/remote violence) with percentile statistics. ACLED provides event-level data with fatalities and event categories, enabling such analysis. This is consistent with insights derived from ACLED event and fatality data.",
+      "source_context": "Lethality and stakes: where intensity meets civilians and policy"
+    },
+    {
+      "evidence": "A small set of actor–region pairings drive the upper tail of lethality: KIO/KIA in Sagaing, KNPP/KA in Kayah, and KNU/KNLA in Bago-East average roughly five deaths per event.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites actor–region pairings with average fatalities per event, implying event-level counts, fatalities, and subnational geography by specific armed actors—metrics characteristic of ACLED’s actor-level, location-specific conflict event and fatality data.",
+      "source_context": "Lethality and stakes: where intensity meets civilians and policy"
+    },
+    {
+      "evidence": "ULA/AA in Rakhine combines high scale with high lethality, averaging roughly four deaths per incident alongside a high event count, making it both frequent and dangerous.",
+      "is_acled_data": true,
+      "reasoning": "The statement cites event frequency and an average fatalities-per-incident figure for a specific armed group and area, which aligns with ACLED’s event counts and fatality data by actor and location. This type of actor-level lethality metric derived from incidents is characteristic of analyses based on ACLED event and fatality data.",
+      "source_context": "Lethality and stakes: where intensity meets civilians and policy"
+    },
+    {
+      "evidence": "Other KNU/KNLA fronts (Tanintharyi, Kayin, Mon) exhibit breadth with varied intensity, while Chin and northern Shan sites show different mixes of volume and lethality rather than a single pattern.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references subnational fronts and describes variations in conflict volume and lethality across regions, implying analysis of event counts and fatalities by location—hallmarks of ACLED’s event-based, geographic, and actor-level data. This aligns with ACLED-style assessments of intensity and patterns across areas.",
+      "source_context": "Lethality and stakes: where intensity meets civilians and policy"
+    },
+    {
+      "evidence": "Civilian-targeting patterns vary: ULA/AA accounts for a higher share of civilian-targeting incidents and associated fatalities than KIA, KNU/KNLA, or PDFs, implying heightened civilian risk in Rakhine.",
+      "is_acled_data": true,
+      "reasoning": "The statement compares shares of civilian-targeting incidents and associated fatalities across specific armed actors (ULA/AA, KIA, KNU/KNLA, PDFs) and infers heightened risk in a specific region (Rakhine). This aligns with ACLED’s actor-level event data, violence against civilians statistics, fatality counts, and subnational breakdowns, which enable such comparative analysis. It is specific to conflict event data rather than general commentary.",
+      "source_context": "Lethality and stakes: where intensity meets civilians and policy"
+    },
+    {
+      "evidence": "TNLA shows a relatively higher share of civilian-targeting events but with low associated fatalities, indicating different risk dynamics for civilians where TNLA operates.",
+      "is_acled_data": true,
+      "reasoning": "The statement references civilian-targeting events and associated fatalities for a specific armed group (TNLA), which aligns with ACLED’s event-level data on violence against civilians, actor-level data, and fatality counts, indicating it is likely derived from ACLED analyses.",
+      "source_context": "Lethality and stakes: where intensity meets civilians and policy"
+    },
+    {
+      "evidence": "Mass protests feature very low fatality rates per event despite high counts, producing a bifurcated landscape of high-volume, low-lethality demonstrations alongside concentrated deadly fighting.",
+      "is_acled_data": true,
+      "reasoning": "The statement compares protest event volumes with fatality rates per event and contrasts them with deadly fighting—this aligns with ACLED’s protest and battle event counts and associated fatality data, which can produce such bifurcated patterns. It references metrics (event counts, fatalities per event) that are core to ACLED’s dataset and typical analyses derived from it.",
+      "source_context": "Lethality and stakes: where intensity meets civilians and policy"
+    },
+    {
+      "evidence": "Humanitarian and policy implications diverge by theater: AA’s scale and lethality in Rakhine pose acute risks; KIA–Sagaing and KNPP/KA–Kayah see fewer but deadlier events, complicating secure corridors and surge medical support.",
+      "is_acled_data": true,
+      "reasoning": "The evidence discusses comparative scale, lethality, and event frequency by armed group and region (AA in Rakhine; KIA in Sagaing; KNPP/KA in Kayah) and implies differences in event counts and deadliness—metrics consistent with ACLED’s event, fatality, and subnational actor-level data. It appears grounded in conflict event and lethality patterns rather than general commentary.",
+      "source_context": "Lethality and stakes: where intensity meets civilians and policy"
+    },
+    {
+      "evidence": "Despite EAO-led offensives in 2024, PDFs still account for a substantial share of resistance-involved events since 2021, keeping them central to harm reduction and negotiation frameworks, especially in Sagaing–Magway.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references shares of resistance-involved events since 2021, compares actor types (EAOs vs PDFs), and highlights subnational focus (Sagaing–Magway), which aligns with ACLED’s event counts, actor-level activity, and geographic breakdowns. This is characteristic of analysis derived from ACLED event data and trends.",
+      "source_context": "Lethality and stakes: where intensity meets civilians and policy"
+    },
+    {
+      "evidence": "The war has reordered into EAO-led, battle-centric offensives on the periphery stitched to volatile, PDF-driven campaigns in the center, defining tempo, geography, and risk distribution.",
+      "is_acled_data": false,
+      "reasoning": "The statement is high-level analytical narrative about conflict dynamics (EAO-led offensives on periphery, PDF campaigns in center) without citing event counts, actor-coded events, locations, fatalities, or trends explicitly tied to ACLED. It reads as general analysis rather than specific ACLED-derived data.",
+      "source_context": "Conclusion"
+    },
+    {
+      "evidence": "Three forward indicators to watch are coalition density of EAO–PDF operations, shifts in IED reliance (tactical adaptation), and emergent lethality hotspots, as these will shape battlefield outcomes and civilian protection needs.",
+      "is_acled_data": false,
+      "reasoning": "The statement lists forward-looking indicators and analytical concepts (coalition density, shifts in IED reliance, lethality hotspots) without citing specific ACLED event data, figures, or attribution. It is general analytical guidance rather than derived from ACLED’s documented event counts, actor data, or trend analyses.",
+      "source_context": "Conclusion"
+    }
+  ],
+  "insights": [
+    {
+      "insight": "By 2024, ethnic armed organizations (EAOs) led over four-fifths of resistance-involved incidents, up from about seven in ten in 2021, indicating a decisive shift in operational tempo away from People’s Defense Forces (PDFs).",
+      "context": "From shock offensives to a reordered resistance"
+    },
+    {
+      "insight": "EAOs logged 4,278 events since the coup—nearly three times the number linked to PDF-branded forces—underscoring their dominance in setting the battlefield pace.",
+      "context": "From shock offensives to a reordered resistance"
+    },
+    {
+      "insight": "The conflict is predominantly battle-centric, with battles making up roughly four-fifths of resistance-involved events, while air/drone strikes and other remote violence remain secondary.",
+      "context": "From shock offensives to a reordered resistance"
+    },
+    {
+      "insight": "Late-2023 nationwide event spikes reflect coordinated, battle-heavy campaigns rather than isolated flare-ups, marking a new synchronized phase of the war.",
+      "context": "From shock offensives to a reordered resistance"
+    },
+    {
+      "insight": "Violence is concentrated in Shan-North, Kachin, Rakhine, Kayin, and Sagaing, signaling a periphery-plus-center conflict map rather than an urban insurgency centered on Yangon.",
+      "context": "From shock offensives to a reordered resistance"
+    },
+    {
+      "insight": "Yangon’s resistance activity dwindled by 2024, suggesting earlier narratives of sustained urban cell warfare are overstated relative to the data.",
+      "context": "From shock offensives to a reordered resistance"
+    },
+    {
+      "insight": "PDFs’ relative share of activity declined by 2024 but they increasingly appear as associated actors in EAO-led operations, especially with KIA, KNLA, and AA, indicating coalition warfare.",
+      "context": "From shock offensives to a reordered resistance"
+    },
+    {
+      "insight": "EAO-led offensives intensified along border-front states in 2024—Rakhine, Kachin, northern Shan, and Kayin—while PDFs dominated persistent, volatile campaigns in central Sagaing and Magway.",
+      "context": "Two maps of the same war: periphery offensives vs. central volatility"
+    },
+    {
+      "insight": "Rakhine recorded 560 resistance-involved events and 2,807 deaths in 2024, the highest nationwide for both events and fatalities, highlighting its status as the most intense and deadly theater.",
+      "context": "Two maps of the same war: periphery offensives vs. central volatility"
+    },
+    {
+      "insight": "Kachin (394 events; 660 deaths), northern Shan (313; 559), and Kayin (163; 568) also saw elevated 2024 activity and lethality, reflecting EAO-led escalation at the periphery.",
+      "context": "Two maps of the same war: periphery offensives vs. central volatility"
+    },
+    {
+      "insight": "Sagaing shows the largest net increase in resistance-initiated engagements since 2021 and the sharpest month-to-month volatility, typifying episodic, localized campaigns led by PDFs.",
+      "context": "Two maps of the same war: periphery offensives vs. central volatility"
+    },
+    {
+      "insight": "Sagaing’s clashes peaked in 2022 and remained high thereafter; Magway climbed steadily; Mandalay fluctuated; Yangon fell to negligible activity by 2024.",
+      "context": "Two maps of the same war: periphery offensives vs. central volatility"
+    },
+    {
+      "insight": "Sagaing’s monthly resistance activity spiked to 43 events in November 2023 before dropping to 16 in December, illustrating central-front volatility.",
+      "context": "Two maps of the same war: periphery offensives vs. central volatility"
+    },
+    {
+      "insight": "Operational footprints vary: some districts concentrate events in few locations (e.g., Yinmarbin’s 787 events across nine sites), while others disperse events across 30+ sites (e.g., Maungdaw, Bhamo, Myitkyina, Pakokku), indicating strongholds versus maneuver corridors.",
+      "context": "Two maps of the same war: periphery offensives vs. central volatility"
+    },
+    {
+      "insight": "Actor footprints differ: the Arakan Army spans many districts with lower median intensity; TNLA and MNDAA concentrate intense activity in northern Shan; KIA and PDFs operate broadly; KNLA is comparatively localized.",
+      "context": "Two maps of the same war: periphery offensives vs. central volatility"
+    },
+    {
+      "insight": "Coalition warfare is the engine of EAO ascendancy, with battles comprising the majority of activity each year; EAO battle activity peaks in 2024 at about four-fifths of their events.",
+      "context": "How coalitions fight: battles, joint operations, and tactical divergence"
+    },
+    {
+      "insight": "The densest joint operations link KIA and KNLA with PDFs; KIO/KIA co-appears frequently with generic PDF and KPDF, and KNU/KNLA–PDF pairings are similarly frequent.",
+      "context": "How coalitions fight: battles, joint operations, and tactical divergence"
+    },
+    {
+      "insight": "Joint operation patterns are regionally anchored: KNU/KNLA–PDF in Kayin; KIO/KIA–KPDF in Kachin; TNLA with PDF–Mandalay in northern Shan; KNPP/KA with KNDF in Kayah; some alliances are tightly localized (e.g., KNU/KNLA with Thaton TPDF entirely in Mon).",
+      "context": "How coalitions fight: battles, joint operations, and tactical divergence"
+    },
+    {
+      "insight": "Coalition hubs form in Kachin and Sagaing, with notable activity in Mon and northern Shan; Sagaing exhibits especially diverse alliance patterns across years.",
+      "context": "How coalitions fight: battles, joint operations, and tactical divergence"
+    },
+    {
+      "insight": "Tactical profiles diverge by actor and region: high-activity EAOs like AA rely less on IEDs—favoring conventional assaults, indirect fire, and drones—while groups like RCSS/SSA-S and Pyu Saw Htee show higher IED shares shaped by local conditions.",
+      "context": "How coalitions fight: battles, joint operations, and tactical divergence"
+    },
+    {
+      "insight": "PDFs also fight battles but increased their use of explosives in 2023 relative to other years, indicating tactical adaptation.",
+      "context": "How coalitions fight: battles, joint operations, and tactical divergence"
+    },
+    {
+      "insight": "About half of resistance-involved incidents have zero fatalities; lethality clusters in a fat tail dominated by battles (around three deaths at the 75th percentile) and explosions (around two).",
+      "context": "Lethality and stakes: where intensity meets civilians and policy"
+    },
+    {
+      "insight": "A small set of actor–region pairings drive the upper tail of lethality: KIO/KIA in Sagaing, KNPP/KA in Kayah, and KNU/KNLA in Bago-East average roughly five deaths per event.",
+      "context": "Lethality and stakes: where intensity meets civilians and policy"
+    },
+    {
+      "insight": "ULA/AA in Rakhine combines high scale with high lethality, averaging roughly four deaths per incident alongside a high event count, making it both frequent and dangerous.",
+      "context": "Lethality and stakes: where intensity meets civilians and policy"
+    },
+    {
+      "insight": "Other KNU/KNLA fronts (Tanintharyi, Kayin, Mon) exhibit breadth with varied intensity, while Chin and northern Shan sites show different mixes of volume and lethality rather than a single pattern.",
+      "context": "Lethality and stakes: where intensity meets civilians and policy"
+    },
+    {
+      "insight": "Civilian-targeting patterns vary: ULA/AA accounts for a higher share of civilian-targeting incidents and associated fatalities than KIA, KNU/KNLA, or PDFs, implying heightened civilian risk in Rakhine.",
+      "context": "Lethality and stakes: where intensity meets civilians and policy"
+    },
+    {
+      "insight": "TNLA shows a relatively higher share of civilian-targeting events but with low associated fatalities, indicating different risk dynamics for civilians where TNLA operates.",
+      "context": "Lethality and stakes: where intensity meets civilians and policy"
+    },
+    {
+      "insight": "Mass protests feature very low fatality rates per event despite high counts, producing a bifurcated landscape of high-volume, low-lethality demonstrations alongside concentrated deadly fighting.",
+      "context": "Lethality and stakes: where intensity meets civilians and policy"
+    },
+    {
+      "insight": "Humanitarian and policy implications diverge by theater: AA’s scale and lethality in Rakhine pose acute risks; KIA–Sagaing and KNPP/KA–Kayah see fewer but deadlier events, complicating secure corridors and surge medical support.",
+      "context": "Lethality and stakes: where intensity meets civilians and policy"
+    },
+    {
+      "insight": "Despite EAO-led offensives in 2024, PDFs still account for a substantial share of resistance-involved events since 2021, keeping them central to harm reduction and negotiation frameworks, especially in Sagaing–Magway.",
+      "context": "Lethality and stakes: where intensity meets civilians and policy"
+    },
+    {
+      "insight": "The war has reordered into EAO-led, battle-centric offensives on the periphery stitched to volatile, PDF-driven campaigns in the center, defining tempo, geography, and risk distribution.",
+      "context": "Conclusion"
+    },
+    {
+      "insight": "Three forward indicators to watch are coalition density of EAO–PDF operations, shifts in IED reliance (tactical adaptation), and emergent lethality hotspots, as these will shape battlefield outcomes and civilian protection needs.",
+      "context": "Conclusion"
+    }
+  ],
+  "prompt": "Research state of resistance groups in Myanmar post 2021 coup: What is the landscape of these groups?"
+}

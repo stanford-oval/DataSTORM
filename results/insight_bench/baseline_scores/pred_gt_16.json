@@ -1,0 +1,65 @@
+{
+  "dataset_id": 16,
+  "dataset_path": "data/notebooks/flag-16.json",
+  "metadata": {
+    "category": "Asset Management",
+    "dataset_description": "The dataset consists of 500 entries simulating ServiceNow alm_hardware table, detailing key attributes of hardware assets such as asset tags, display names, configuration item (CI) identifiers, serial numbers, and model categories. It includes information on asset assignment, last update timestamps, cost, departmental allocation, and warranty expiration dates. The table effectively captures asset management activities, offering insights into the operational handling, allocation, and maintenance status of hardware resources across various departments within an organization.",
+    "goal": "Analyze the relationship between the cost of assets and their warranty periods to identify discrepancies and align procurement strategies with the observed asset value trends.",
+    "header": "Asset Warranty Analysis (Flag 16)",
+    "role": "Procurement Manager"
+  },
+  "predicted_insights": [
+    "Warranties cluster at 12, 24, and 36 months (counts: 90, 104, 96), with 24‑month assets averaging $3,250 versus 36‑month assets at $2,499, and for durations ≥40 months mean cost rises by about $62 per additional month—suggesting higher-value items often carry mid-length rather than the longest warranties.",
+    "Among high-cost purchases with below-average warranty coverage, Customer Support accounts for 93 of 105 assets (≈88.6%), indicating that improving warranty terms in this single department could address the vast majority of shorter-coverage premium buys.",
+    "Servers and Web Servers deliver only ~2.9 warranty months per $1000—about 91% below the company average of 33.12—whereas Storage Devices (105.17) and Computer Peripherals (97.42) provide roughly 3x more warranty months per dollar, indicating a strong value advantage in non-server categories.",
+    "Given the dataset’s mean asset cost of $3,039.85, the 0.64-month per $1000 reduction equates to about 1.95 fewer warranty months per typical asset in 2024, suggesting a modest year-over-year decline in warranty value per dollar.",
+    "For every $1,000 spent, storage devices deliver about 105 months of warranty versus roughly 3 months for servers/web servers—a ~36.6x difference—suggesting significant room to renegotiate warranty terms or rebalance spend toward categories with far higher warranty value per dollar.",
+    "These lowest-value assets cluster at ~1.12–1.50 warranty months per $1,000 despite high prices (mostly ~$8k–$10.7k vs. dataset mean cost $3,039.85), indicating warranties are essentially flat (~12 months) and do not scale with price, which implies diminishing warranty coverage per dollar for premium assets.",
+    "Servers deliver about 32× fewer warranty months per dollar than Storage Devices and Peripherals (≈2.44 vs ≈79–80 months per $1,000), suggesting procurement should prioritize negotiating longer server warranties or lowering server prices to better match warranty coverage with asset cost.",
+    "Each additional $1,000 in asset cost is associated with only about 1.12 more warranty months on average, and cost explains just 4.1% of warranty variation (R²=0.041), indicating warranties are weakly tied to price and highlighting the Azure Virtual Server’s roughly two-year shortfall versus expectation.",
+    "Only 5% of assets are low-warranty outliers, and 80% of them cluster in mid-cost deciles D05–D08, while high-cost deciles D09–D10 account for just 12%, highlighting mid-tier procurements as the primary area to improve warranty coverage relative to cost.",
+    "The stark contrast between Storage Devices (r≈0.07) and Computers (r=1.00) suggests procurement practices for storage aren’t tying warranty duration to spend, offering an opportunity to negotiate longer warranties for higher-cost storage assets without increasing cost, while computers appear to have standardized warranties that scale directly with price.",
+    "There is a large disparity in warranty value per dollar across departments—Product Management receives ~3.28× more warranty per $1,000 than HR and ~1.90× more than IT (range 1.09–3.58 years per $1,000), indicating clear room to renegotiate warranties for lower-performing departments.",
+    "Only 2 of 7 departments show negative (and very weak) correlations, while Finance has the strongest positive correlation (0.3353), indicating that in most departments higher-cost assets tend to carry longer warranties and the inverse trend is negligible."
+  ],
+  "predicted_summary": "Across the 500 assets, spending more does not strongly translate into longer warranties (overall Pearson r=0.2026). Department patterns vary: HR and Product Management show slightly negative cost–warranty relationships (r≈−0.017 and −0.001). Warranty value per $1,000 of cost also ranges widely by department—from ~13.11 months (HR) up to ~43.01 months (Product Management)—and among high-cost purchases (above the median), Customer Support (37.59 months; n=93) and Product Management (38.35 months; n=12) have below-company-average warranty durations.\nWarranty value per $1,000 differs sharply by model category: Storage Devices (~105.17 months) and Computer Peripherals (~97.42) deliver the highest warranty per $1,000; Racks are mid-range (~54.59); Printers (~19.5), Computers (~11.87), Web Servers (~2.88), and Servers (~2.87) deliver much lower value, with Servers also having the lowest median (~2.44 months/$1,000). Consistency of the cost–warranty link varies by category—near-zero in Storage Devices (r≈0.068), slightly negative in Computer Peripherals (r≈−0.142), and undefined in Rack and Web Server—while Computers, Printers, Servers, and Web Servers sit below the company average warranty per $1,000.\nWarranty value per $1,000 has slipped year-over-year, down 1.92% from 33.29 to 32.65 months/$1,000 (2023→2024). Outliers are present: 25 assets have warranty durations below the 10th percentile for their price bands, the lowest ratio observed is 1.121 months/$1,000 (asset P1000365), and at the model level Azure Virtual Server shows the largest under-warranty signal relative to cost (regression residual −24.91 months, based on a single asset).",
+  "score_insights": 0.5287330577845631,
+  "score_insights_dict": [
+    {
+      "gt_insight": "Computers exhibit significantly longer warranty periods compared to other asset categories, which may reflect their higher cost and complexity.",
+      "pred_insight": "For every $1,000 spent, storage devices deliver about 105 months of warranty versus roughly 3 months for servers/web servers—a ~36.6x difference—suggesting significant room to renegotiate warranty terms or rebalance spend toward categories with far higher warranty value per dollar.",
+      "score": 0.5472228820965163
+    },
+    {
+      "gt_insight": "Servers and Web Servers are the most expensive asset categories on average, followed by computers.",
+      "pred_insight": "Servers deliver about 32× fewer warranty months per dollar than Storage Devices and Peripherals (≈2.44 vs ≈79–80 months per $1,000), suggesting procurement should prioritize negotiating longer server warranties or lowering server prices to better match warranty coverage with asset cost.",
+      "score": 0.24994823738099817
+    },
+    {
+      "gt_insight": "Strong positive correlation between the cost of computer assets and their warranty periods.",
+      "pred_insight": "Only 2 of 7 departments show negative (and very weak) correlations, while Finance has the strongest positive correlation (0.3353), indicating that in most departments higher-cost assets tend to carry longer warranties and the inverse trend is negligible.",
+      "score": 0.7890280538761749
+    }
+  ],
+  "score_summary": 0.41512073589035126,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.5567947164231009,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "The stark contrast between Storage Devices (r≈0.07) and Computers (r=1.00) suggests procurement practices for storage aren’t tying warranty duration to spend, offering an opportunity to negotiate longer warranties for higher-cost storage assets without increasing cost, while computers appear to have standardized warranties that scale directly with price.",
+      "gt_insight": "Computers exhibit significantly longer warranty periods compared to other asset categories, which may reflect their higher cost and complexity.",
+      "score": 0.5515188562822593
+    },
+    {
+      "pred_insight": "For every $1,000 spent, storage devices deliver about 105 months of warranty versus roughly 3 months for servers/web servers—a ~36.6x difference—suggesting significant room to renegotiate warranty terms or rebalance spend toward categories with far higher warranty value per dollar.",
+      "gt_insight": "Servers and Web Servers are the most expensive asset categories on average, followed by computers.",
+      "score": 0.32318629865976195
+    },
+    {
+      "pred_insight": "The stark contrast between Storage Devices (r≈0.07) and Computers (r=1.00) suggests procurement practices for storage aren’t tying warranty duration to spend, offering an opportunity to negotiate longer warranties for higher-cost storage assets without increasing cost, while computers appear to have standardized warranties that scale directly with price.",
+      "gt_insight": "Strong positive correlation between the cost of computer assets and their warranty periods.",
+      "score": 0.7956789943272813
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.10058175596525432,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.39655354163113976
+}

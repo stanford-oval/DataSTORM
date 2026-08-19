@@ -1,0 +1,272 @@
+{
+  "total_insights": 26,
+  "total_classified": 26,
+  "acled_count": 16,
+  "non_acled_count": 10,
+  "pct_acled": 0.6153846153846154,
+  "details": [
+    {
+      "evidence": "Late 2024 saw a sharp surge in fatalities in Amhara, peaking at 659 in October and 516 in November before easing to 304 in December, coinciding with increased use of standoff firepower in populated areas.",
+      "is_acled_data": true,
+      "reasoning": "Monthly fatality counts with specific figures and temporal trend characterization tied to conflict events are core ACLED outputs; the phrasing aligns with ACLED’s event-derived fatality statistics and trend analysis for Amhara in specific months of 2024.",
+      "source_context": "A war that keeps returning to town; monthly fatality spikes and shift toward remote strikes late 2024 [1][2]."
+    },
+    {
+      "evidence": "Explosions and remote strikes increased notably in late 2024, comprising around 12% of events in October and nearly 18% in December, while battles still made up roughly three-quarters of incidents across April 2023–December 2024.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific event-type shares (explosions/remote violence percentages, battles proportion) and temporal trends across April 2023–December 2024, which aligns with ACLED’s event-type counts and time-series analysis of conflict events. This is characteristic of ACLED-derived data on battles vs. explosions/remote violence distributions over time.",
+      "source_context": "Event composition trends across 2023–2024; rise in remote strikes late 2024 [2]."
+    },
+    {
+      "evidence": "About 68% of filtered strike events occurred in urban locations and 32% in peri-urban areas, with 15 urban strike events in October 2024 and 9 in November, indicating urban concentration of standoff firepower.",
+      "is_acled_data": true,
+      "reasoning": "The evidence reports counts and temporal distribution of specific conflict event types (strike events) with urban vs. peri-urban location breakdown and monthly totals, which aligns with ACLED’s event-based, geocoded conflict data and derived trend analysis.",
+      "source_context": "Location precision proxy analysis of strike events’ urban/peri-urban concentration [3]."
+    },
+    {
+      "evidence": "Air and drone strikes, though fewer than clashes, were disproportionately lethal, with 65 recorded incidents linked to 550 fatalities over the period.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites counts of specific conflict event types (air and drone strikes), the number of incidents, and associated fatality totals over a time period—metrics ACLED systematically tracks and reports. This aligns with ACLED event and fatality data and subtype breakdowns.",
+      "source_context": "Event type distribution and lethality of air/drone strikes compared to clashes [4]."
+    },
+    {
+      "evidence": "Aid delivery and access were repeatedly disrupted by insecurity and ongoing engagements, compounding displacement and humanitarian need and straining health systems.",
+      "is_acled_data": false,
+      "reasoning": "The statement discusses humanitarian access, aid disruption, displacement, and strain on health systems—general humanitarian impacts not tied to specific ACLED event data or metrics. It lacks references to ACLED event counts, fatalities, locations, or actor data, and resembles humanitarian reporting (e.g., OCHA) rather than ACLED-derived information.",
+      "source_context": "Humanitarian access constraints and operational disruptions linked to conflict dynamics [5]."
+    },
+    {
+      "evidence": "Urban markets and clinics in towns such as Bahir Dar, Weldiya, Debre Birhan, Gonder, Adet, Kobo, and Feres Bet experienced notable increases in incidents through mid to late 2024, suffering lingering damage beyond immediate surges.",
+      "is_acled_data": true,
+      "reasoning": "Mentions specific towns and temporal trend of increased incidents, which aligns with ACLED’s event counts, geographic breakdowns, and trend analysis. The phrasing about incident increases through mid to late 2024 and lingering damage implies analysis of conflict event data by location and time, typical of ACLED-derived insights.",
+      "source_context": "Top-incident towns and quarter-to-quarter shifts with sustained service disruptions [6][1][3]."
+    },
+    {
+      "evidence": "The conflict follows a recurring cycle: decentralized Fano raids draw urban counterstrikes; brief suppression follows; services falter; and the same urban nodes are contested again once conditions allow.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a qualitative narrative about cyclical conflict dynamics and does not cite specific ACLED event counts, locations, actors, or trend metrics. It reads as general analysis rather than data derived from ACLED.",
+      "source_context": "Cycle description tying insurgent raids to urban counterstrikes and repeated contests of the same towns."
+    },
+    {
+      "evidence": "The dominant battle dyad is Fano versus federal forces, with frequent clashes involving the army and police across 2023–2024, reflecting persistent Fano–state contact.",
+      "is_acled_data": true,
+      "reasoning": "Identifies the dominant battle dyad (Fano vs. federal forces) and describes frequent clashes over a time period, which aligns with ACLED’s actor-level battle data and temporal conflict trend analysis derived from event records.",
+      "source_context": "Battle dyads highlighting Fano–federal engagements [7][8]."
+    },
+    {
+      "evidence": "Territorial control remains fluid: months alternate between Fano net overtakings and government regains, exemplified by Fano gains in July 2024 and net government regains in December 2024.",
+      "is_acled_data": false,
+      "reasoning": "The statement discusses territorial control shifts and monthly net gains/losses (e.g., Fano gains in July 2024, government regains in Dec 2024). While ACLED tracks events and battles, it does not provide authoritative territorial control or net-monthly control assessments. This reads as interpretive analysis of control dynamics rather than direct ACLED event data or metrics explicitly attributed to ACLED.",
+      "source_context": "Monthly territorial outcome churn without consolidation [9]."
+    },
+    {
+      "evidence": "Fano’s decentralized, leader-light structure enables independent cells to act rapidly, reappear after setbacks, and sustain tactical adaptability while limiting unified political leverage.",
+      "is_acled_data": false,
+      "reasoning": "The evidence is analytical commentary about Fano’s organizational structure and tactics, not specific event counts, fatalities, locations, or actor-level event data derived from ACLED. It lacks explicit attribution to ACLED and does not reference concrete ACLED metrics or trends.",
+      "source_context": "Organizational logic of Fano’s cell-based insurgency and its effects [10]."
+    },
+    {
+      "evidence": "Event narratives include both low/unknown-fatality skirmishes and lethal episodes (including aid-worker deaths), underscoring reporting opacity and pervasive risk in peri-urban and urban zones.",
+      "is_acled_data": true,
+      "reasoning": "Mentions event narratives with low/unknown-fatality skirmishes and lethal episodes, including aid-worker deaths, reflecting ACLED-style event descriptions and fatality coding granularity; aligns with ACLED event and violence against civilians data, including urban/peri-urban localization and reporting opacity common in ACLED notes.",
+      "source_context": "Examples from event notes showing variable lethality and risk near towns [11]."
+    },
+    {
+      "evidence": "Fano activity clusters around strategic towns across West/East Gojam, North Shewa, and North Wello, stretching federal forces across multiple urban nodes and pulling in a complex mix of state actors.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a qualitative assessment about clustering of Fano activity around strategic towns and stretching federal forces. It lacks specific event counts, locations tied to recorded incidents, actor/event coding, or other explicit ACLED-derived metrics. It reads as analytical commentary rather than a direct use of ACLED event data.",
+      "source_context": "Geographic dispersion and actor ecosystem complicating clearance operations [12][8]."
+    },
+    {
+      "evidence": "The urbanized battlespace makes standoff firepower tempting for federal forces, but UN human rights reporting flags civilian harm from drone strikes, presenting dual risks alongside ground battles.",
+      "is_acled_data": false,
+      "reasoning": "The evidence is qualitative analysis citing UN human rights reporting about civilian harm from drone strikes and discussing tactical dynamics; it does not reference ACLED event counts, actor data, fatalities, or other ACLED-derived metrics.",
+      "source_context": "Rationale for drones/artillery in towns and human rights concerns [13][14]."
+    },
+    {
+      "evidence": "Air and drone strikes have recurred since August 2023 and intensified in October 2024 across multiple admin2 areas, aligning with a broader fatality peak that month.",
+      "is_acled_data": true,
+      "reasoning": "The statement references specific conflict event types (air/drone strikes), temporal patterns (recurring since Aug 2023, intensifying in Oct 2024), geographic granularity (multiple admin2 areas), and links to a fatality peak—elements that align with ACLED’s event-level data and trend analysis capabilities.",
+      "source_context": "Temporal and spatial pattern of strike intensification and fatality peaks [15][16][17]."
+    },
+    {
+      "evidence": "In some months, fatalities remained high even as total events moderated, indicating an event–fatality decoupling consistent with intensified standoff firepower in populated areas.",
+      "is_acled_data": true,
+      "reasoning": "The statement references month-to-month relationships between event counts and fatalities—both are core ACLED metrics—and draws a trend inference (decoupling) from temporal event/fatality data, which aligns with ACLED conflict trend analysis derived from its event dataset.",
+      "source_context": "Monthly tallies showing lethal surges with fewer events due to strike concentration [15][16][17]."
+    },
+    {
+      "evidence": "State forces were among the top perpetrators of violence against civilians during strike-heavy periods, with Fano also implicated, linking civilian victimization to both remote and ground coercion.",
+      "is_acled_data": true,
+      "reasoning": "The statement discusses perpetrators of violence against civilians and links patterns to specific actors (state forces, Fano) and periods (strike-heavy), which aligns with ACLED’s actor-level event data and violence-against-civilians statistics and temporal pattern analysis derived from recorded events.",
+      "source_context": "Perpetrator patterns in violence against civilians and timing with strike surges [18]."
+    },
+    {
+      "evidence": "Standoff strikes in urban and peri-urban areas exacerbate humanitarian fallout by damaging clinics, disrupting markets, and delaying aid, with harm outlasting temporary lulls in clashes.",
+      "is_acled_data": false,
+      "reasoning": "The evidence is a general analytical statement about humanitarian impacts of strikes and standoffs, without citing specific ACLED event counts, locations, actors, or temporal patterns. It reads as qualitative commentary rather than data derived from ACLED event records.",
+      "source_context": "Downstream effects of drones/artillery on services and aid operations [5][3][15][16]."
+    },
+    {
+      "evidence": "Crackdowns, arrests, and leadership targeting frequently trigger rebounds: Fano-involved events often double within two weeks after crackdowns, with the steepest rebound roughly quadrupling in April 2024.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references quantitative trends in event counts over specific time windows (doubling within two weeks, quadrupling in April 2024) tied to a specific actor (Fano) and period, which aligns with ACLED-style temporal pattern analysis derived from event data and actor-level records.",
+      "source_context": "Temporal rebound patterns following crackdowns and leadership decapitation attempts [19][20]."
+    },
+    {
+      "evidence": "Aggregated around leadership-targeting months, Fano activity peaks in the event month and remains elevated into the next, reflecting decentralized reconstitution rather than sustained suppression.",
+      "is_acled_data": true,
+      "reasoning": "The statement references temporal patterns of Fano conflict activity peaking around specific months tied to leadership-targeting events and remaining elevated afterward. This reflects aggregated event counts and trend analysis of armed group activity over time—core ACLED data outputs (event counts, temporal trends, actor activity).",
+      "source_context": "Post-targeting activity persistence across months [20]."
+    },
+    {
+      "evidence": "Event composition through late 2024 shows persistently high battles alongside growing remote violence and periodic spikes in violence against civilians, while protests remain sporadic and muted.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references event composition over time with categories like battles, remote violence, violence against civilians, and protests—exactly the event typology and temporal trend analysis ACLED provides. It reflects aggregated ACLED event data and trends rather than general commentary.",
+      "source_context": "Monthly distribution across event types, suggesting coercive environments without durable calm [21]."
+    },
+    {
+      "evidence": "Fano-coded monthly counts and fatalities exhibit recurrent escalations culminating in October–November 2024 peaks, aligning decentralized raids with increasingly lethal countermeasures.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references monthly counts and fatalities for a specific actor (Fano) with temporal peaks, which are typical ACLED-derived metrics (event/fatality counts, actor-level activity, trend analysis). It discusses decentralized raids and countermeasures aligned with these trends, suggesting use of ACLED event data and temporal patterning.",
+      "source_context": "Fano-specific monthly trends in activity and fatalities [22]."
+    },
+    {
+      "evidence": "States of emergency and curfews are inconsistently noted around peaks and do not reliably correspond to sustained reductions in violence in this dataset.",
+      "is_acled_data": true,
+      "reasoning": "The statement discusses temporal patterns between government measures (states of emergency/curfews) and levels of political violence, implying analysis of event counts over time. This aligns with ACLED’s conflict trend analysis and temporal patterns derived from event data.",
+      "source_context": "Policy measure mentions and lack of consistent impact on event counts [23]."
+    },
+    {
+      "evidence": "Fatalities concentrate along corridors such as West/East Gojam and North Shewa, with West Gojam recording the highest cumulative deaths, highlighting spatially consistent harm patterns.",
+      "is_acled_data": true,
+      "reasoning": "The claim discusses spatial concentration of fatalities by specific subnational areas (West/East Gojam, North Shewa) and identifies the area with the highest cumulative deaths, which aligns with ACLED’s geographic conflict data and fatality counts aggregated by subnational units. This is a typical use of ACLED event and fatality data to identify spatial patterns.",
+      "source_context": "Top-fatality locations and corridor concentration of harm [24]."
+    },
+    {
+      "evidence": "The reliance on drones and artillery to contest briefly seized urban nodes turns towns into recurring battlespaces, amplifying civilian harm and economic disruption even when Fano activity temporarily ebbs.",
+      "is_acled_data": false,
+      "reasoning": "The statement is analytical commentary about tactics (drones/artillery) turning towns into recurring battlespaces and impacts on civilians/economy. It does not cite specific ACLED event counts, locations, actors, or fatalities, nor is it attributed to ACLED datasets. Therefore it is not derived from ACLED data.",
+      "source_context": "Interaction of standoff tactics with urban nodes and civilian costs [21][22][24]."
+    },
+    {
+      "evidence": "Grievances rooted in ethnic federalism-era marginalization narratives sustain recruitment and local support for decentralized Fano cells, reinforcing the conflict’s persistence.",
+      "is_acled_data": false,
+      "reasoning": "The evidence is analytical commentary about motivations and support dynamics (grievances, narratives, recruitment), not specific event counts, actor-level event data, fatalities, or locations from ACLED. It reflects general political analysis rather than ACLED-derived metrics or trends.",
+      "source_context": "Historical and identity-based drivers of mobilization supporting the insurgency [25][26]."
+    },
+    {
+      "evidence": "Absent a shift away from urban-centered standoff tactics and credible political accommodation addressing core grievances, the conflict dynamic favors rebound over restraint and keeps returning to towns.",
+      "is_acled_data": false,
+      "reasoning": "The statement is an analytical assessment about conflict dynamics and tactics, not citing specific event counts, locations, fatalities, or trends from ACLED. It is general commentary without explicit ACLED-derived data.",
+      "source_context": "Conclusion synthesizing tactical and political conditions sustaining the cycle."
+    }
+  ],
+  "insights": [
+    {
+      "insight": "Late 2024 saw a sharp surge in fatalities in Amhara, peaking at 659 in October and 516 in November before easing to 304 in December, coinciding with increased use of standoff firepower in populated areas.",
+      "context": "A war that keeps returning to town; monthly fatality spikes and shift toward remote strikes late 2024 [1][2]."
+    },
+    {
+      "insight": "Explosions and remote strikes increased notably in late 2024, comprising around 12% of events in October and nearly 18% in December, while battles still made up roughly three-quarters of incidents across April 2023–December 2024.",
+      "context": "Event composition trends across 2023–2024; rise in remote strikes late 2024 [2]."
+    },
+    {
+      "insight": "About 68% of filtered strike events occurred in urban locations and 32% in peri-urban areas, with 15 urban strike events in October 2024 and 9 in November, indicating urban concentration of standoff firepower.",
+      "context": "Location precision proxy analysis of strike events’ urban/peri-urban concentration [3]."
+    },
+    {
+      "insight": "Air and drone strikes, though fewer than clashes, were disproportionately lethal, with 65 recorded incidents linked to 550 fatalities over the period.",
+      "context": "Event type distribution and lethality of air/drone strikes compared to clashes [4]."
+    },
+    {
+      "insight": "Aid delivery and access were repeatedly disrupted by insecurity and ongoing engagements, compounding displacement and humanitarian need and straining health systems.",
+      "context": "Humanitarian access constraints and operational disruptions linked to conflict dynamics [5]."
+    },
+    {
+      "insight": "Urban markets and clinics in towns such as Bahir Dar, Weldiya, Debre Birhan, Gonder, Adet, Kobo, and Feres Bet experienced notable increases in incidents through mid to late 2024, suffering lingering damage beyond immediate surges.",
+      "context": "Top-incident towns and quarter-to-quarter shifts with sustained service disruptions [6][1][3]."
+    },
+    {
+      "insight": "The conflict follows a recurring cycle: decentralized Fano raids draw urban counterstrikes; brief suppression follows; services falter; and the same urban nodes are contested again once conditions allow.",
+      "context": "Cycle description tying insurgent raids to urban counterstrikes and repeated contests of the same towns."
+    },
+    {
+      "insight": "The dominant battle dyad is Fano versus federal forces, with frequent clashes involving the army and police across 2023–2024, reflecting persistent Fano–state contact.",
+      "context": "Battle dyads highlighting Fano–federal engagements [7][8]."
+    },
+    {
+      "insight": "Territorial control remains fluid: months alternate between Fano net overtakings and government regains, exemplified by Fano gains in July 2024 and net government regains in December 2024.",
+      "context": "Monthly territorial outcome churn without consolidation [9]."
+    },
+    {
+      "insight": "Fano’s decentralized, leader-light structure enables independent cells to act rapidly, reappear after setbacks, and sustain tactical adaptability while limiting unified political leverage.",
+      "context": "Organizational logic of Fano’s cell-based insurgency and its effects [10]."
+    },
+    {
+      "insight": "Event narratives include both low/unknown-fatality skirmishes and lethal episodes (including aid-worker deaths), underscoring reporting opacity and pervasive risk in peri-urban and urban zones.",
+      "context": "Examples from event notes showing variable lethality and risk near towns [11]."
+    },
+    {
+      "insight": "Fano activity clusters around strategic towns across West/East Gojam, North Shewa, and North Wello, stretching federal forces across multiple urban nodes and pulling in a complex mix of state actors.",
+      "context": "Geographic dispersion and actor ecosystem complicating clearance operations [12][8]."
+    },
+    {
+      "insight": "The urbanized battlespace makes standoff firepower tempting for federal forces, but UN human rights reporting flags civilian harm from drone strikes, presenting dual risks alongside ground battles.",
+      "context": "Rationale for drones/artillery in towns and human rights concerns [13][14]."
+    },
+    {
+      "insight": "Air and drone strikes have recurred since August 2023 and intensified in October 2024 across multiple admin2 areas, aligning with a broader fatality peak that month.",
+      "context": "Temporal and spatial pattern of strike intensification and fatality peaks [15][16][17]."
+    },
+    {
+      "insight": "In some months, fatalities remained high even as total events moderated, indicating an event–fatality decoupling consistent with intensified standoff firepower in populated areas.",
+      "context": "Monthly tallies showing lethal surges with fewer events due to strike concentration [15][16][17]."
+    },
+    {
+      "insight": "State forces were among the top perpetrators of violence against civilians during strike-heavy periods, with Fano also implicated, linking civilian victimization to both remote and ground coercion.",
+      "context": "Perpetrator patterns in violence against civilians and timing with strike surges [18]."
+    },
+    {
+      "insight": "Standoff strikes in urban and peri-urban areas exacerbate humanitarian fallout by damaging clinics, disrupting markets, and delaying aid, with harm outlasting temporary lulls in clashes.",
+      "context": "Downstream effects of drones/artillery on services and aid operations [5][3][15][16]."
+    },
+    {
+      "insight": "Crackdowns, arrests, and leadership targeting frequently trigger rebounds: Fano-involved events often double within two weeks after crackdowns, with the steepest rebound roughly quadrupling in April 2024.",
+      "context": "Temporal rebound patterns following crackdowns and leadership decapitation attempts [19][20]."
+    },
+    {
+      "insight": "Aggregated around leadership-targeting months, Fano activity peaks in the event month and remains elevated into the next, reflecting decentralized reconstitution rather than sustained suppression.",
+      "context": "Post-targeting activity persistence across months [20]."
+    },
+    {
+      "insight": "Event composition through late 2024 shows persistently high battles alongside growing remote violence and periodic spikes in violence against civilians, while protests remain sporadic and muted.",
+      "context": "Monthly distribution across event types, suggesting coercive environments without durable calm [21]."
+    },
+    {
+      "insight": "Fano-coded monthly counts and fatalities exhibit recurrent escalations culminating in October–November 2024 peaks, aligning decentralized raids with increasingly lethal countermeasures.",
+      "context": "Fano-specific monthly trends in activity and fatalities [22]."
+    },
+    {
+      "insight": "States of emergency and curfews are inconsistently noted around peaks and do not reliably correspond to sustained reductions in violence in this dataset.",
+      "context": "Policy measure mentions and lack of consistent impact on event counts [23]."
+    },
+    {
+      "insight": "Fatalities concentrate along corridors such as West/East Gojam and North Shewa, with West Gojam recording the highest cumulative deaths, highlighting spatially consistent harm patterns.",
+      "context": "Top-fatality locations and corridor concentration of harm [24]."
+    },
+    {
+      "insight": "The reliance on drones and artillery to contest briefly seized urban nodes turns towns into recurring battlespaces, amplifying civilian harm and economic disruption even when Fano activity temporarily ebbs.",
+      "context": "Interaction of standoff tactics with urban nodes and civilian costs [21][22][24]."
+    },
+    {
+      "insight": "Grievances rooted in ethnic federalism-era marginalization narratives sustain recruitment and local support for decentralized Fano cells, reinforcing the conflict’s persistence.",
+      "context": "Historical and identity-based drivers of mobilization supporting the insurgency [25][26]."
+    },
+    {
+      "insight": "Absent a shift away from urban-centered standoff tactics and credible political accommodation addressing core grievances, the conflict dynamic favors rebound over restraint and keeps returning to towns.",
+      "context": "Conclusion synthesizing tactical and political conditions sustaining the cycle."
+    }
+  ],
+  "prompt": "Status of political violence in Amhara since Fano insurgency began in April 2023."
+}

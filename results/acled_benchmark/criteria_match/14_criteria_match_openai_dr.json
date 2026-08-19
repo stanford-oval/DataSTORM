@@ -1,0 +1,188 @@
+{
+  "prompt": "Analysis on the aftermath of SNNPR's dissolution and ongoing violence in Ethiopia. Focus on September 2024.",
+  "criteria": [
+    {
+      "name": "Post-reform violence trajectory",
+      "description": "Assess how violence levels changed immediately after the administrative restructuring and whether they rebounded, indicating only temporary relief rather than durable stabilization."
+    },
+    {
+      "name": "Continuity of legacy conflicts",
+      "description": "Examine whether pre-existing ethnic and boundary disputes persisted with similar actors and grievances despite the new regional configurations."
+    },
+    {
+      "name": "Effectiveness of cluster governance",
+      "description": "Evaluate whether smaller administrative units improved representation, service delivery, and conflict management, or reproduced previous governance shortcomings."
+    },
+    {
+      "name": "Federal intervention patterns",
+      "description": "Analyze the frequency and triggers of federal security deployments and whether they provide lasting stability or only short-term containment."
+    },
+    {
+      "name": "Autonomy demands and repression",
+      "description": "Track how authorities respond to renewed or ongoing autonomy requests and whether crackdowns correlate with escalations in unrest."
+    },
+    {
+      "name": "Localized conflict intensity",
+      "description": "Assess the extent to which violence remains geographically localized yet capable of overwhelming local authorities and causing significant displacement."
+    },
+    {
+      "name": "Civic unrest over service failures",
+      "description": "Evaluate protests and strikes related to unpaid salaries and service delivery, and whether these are holdovers from prior administrative issues."
+    },
+    {
+      "name": "Violence against civilians trend",
+      "description": "Monitor the prevalence of attacks targeting civilians and whether such incidents are increasing alongside intercommunal clashes."
+    },
+    {
+      "name": "Border and intergroup disputes",
+      "description": "Identify friction points at administrative boundaries within and between new regions and whether clustering shifted or intensified these disputes."
+    },
+    {
+      "name": "Elite mobilization and militias",
+      "description": "Examine how local elites organize ethnic-based militias to contest territory and resources, and whether incentives changed under the new structure."
+    },
+    {
+      "name": "Institutional maturity and capacity",
+      "description": "Assess the pace at which new regional institutions staff, coordinate, and deliver governance, and whether institutional immaturity fuels insecurity."
+    },
+    {
+      "name": "Spillover implications nationwide",
+      "description": "Consider how outcomes in the former region inform potential national restructuring efforts, including risks of resistance to further administrative changes."
+    },
+    {
+      "name": "Conflict drivers beyond administration",
+      "description": "Distinguish structural factors—identity politics, resource competition, and power struggles—from administrative design to gauge root causes of violence."
+    },
+    {
+      "name": "Reconciliation efforts’ impact",
+      "description": "Evaluate the effectiveness and durability of local peace or reconciliation initiatives and whether they translate into reduced incidents."
+    },
+    {
+      "name": "Exposure and humanitarian impact",
+      "description": "Assess the scale of populations exposed to political violence and related displacement, even when conflicts remain localized."
+    },
+    {
+      "name": "Security-service tradeoffs",
+      "description": "Analyze whether prioritizing security responses coincides with neglect of public services, potentially feeding grievance cycles."
+    },
+    {
+      "name": "Comparative regional hotspots",
+      "description": "Contextualize trends relative to other regions experiencing insurgency and state-insurgent conflict, to see if similar dynamics are at play."
+    },
+    {
+      "name": "Administrative restructuring limits",
+      "description": "Test the assumption that creating smaller units reduces conflict, probing cases where reorganization did not resolve underlying disputes."
+    },
+    {
+      "name": "Communication and legitimacy",
+      "description": "Assess how top-down decision-making affects public buy-in and the perceived legitimacy of new regional authorities."
+    },
+    {
+      "name": "Escalation triggers and thresholds",
+      "description": "Identify events—such as autonomy crackdowns, boundary changes, or militia seizures of towns—that precipitate sharp spikes in violence."
+    }
+  ],
+  "criterion_scores": [
+    {
+      "name": "Post-reform violence trajectory",
+      "score": 0.5,
+      "explanation": "Notes that about a year after dissolution violence resurfaced in September 2024 in Central and South Ethiopia, implying a rebound after temporary relief, but provides no comparative trajectory data (immediate post-reform dip, timelines, or trend metrics)."
+    },
+    {
+      "name": "Continuity of legacy conflicts",
+      "score": 0.75,
+      "explanation": "Indicates old ethnic and insurgent conflicts returned, citing Meskan–Mareko clashes and OLA spillover, suggesting persistence of prior actors/grievances. Lacks deeper linkage to pre-reform patterns and specific historical disputes."
+    },
+    {
+      "name": "Effectiveness of cluster governance",
+      "score": 0.25,
+      "explanation": "Does not analyze whether smaller administrative units improved representation or services; only implies continued violence. Minimal discussion of governance performance or conflict management under new structures."
+    },
+    {
+      "name": "Federal intervention patterns",
+      "score": 0.25,
+      "explanation": "Mentions federal forces fighting Fano in Amhara but does not analyze frequency, triggers, or durability of deployments in the former SNNPR areas; no assessment of containment versus stability."
+    },
+    {
+      "name": "Autonomy demands and repression",
+      "score": 0.0,
+      "explanation": "No discussion of renewed autonomy requests or state responses in the new southern regions; no linkage between crackdowns and unrest."
+    },
+    {
+      "name": "Localized conflict intensity",
+      "score": 0.5,
+      "explanation": "Provides localized incidents (Guraghe Zone, Amaro/Kore Zone) with fatalities but lacks detail on whether violence overwhelmed local authorities or caused displacement."
+    },
+    {
+      "name": "Civic unrest over service failures",
+      "score": 0.0,
+      "explanation": "No coverage of protests/strikes about unpaid salaries or service delivery."
+    },
+    {
+      "name": "Violence against civilians trend",
+      "score": 0.5,
+      "explanation": "Cites civilian-targeting incidents (farmers killed, inter-communal attacks) but offers no trend assessment over time or relation to broader clashes."
+    },
+    {
+      "name": "Border and intergroup disputes",
+      "score": 0.5,
+      "explanation": "Mentions inter-ethnic clashes in Guraghe and spillover from Oromia into South Ethiopia, hinting at boundary frictions, but lacks explicit boundary dispute analysis or how clustering shifted disputes."
+    },
+    {
+      "name": "Elite mobilization and militias",
+      "score": 0.5,
+      "explanation": "References ethnic militias (Meskan, Mareko), Amaro militias, OLA, and Fano, but does not analyze elite organization, resource/territorial incentives, or changes under the new structure."
+    },
+    {
+      "name": "Institutional maturity and capacity",
+      "score": 0.25,
+      "explanation": "No direct assessment of staffing, coordination, or capacity of new regional institutions; only implies insecurity without linking to institutional immaturity."
+    },
+    {
+      "name": "Spillover implications nationwide",
+      "score": 0.5,
+      "explanation": "Contextualizes southern events within nationwide insecurity (Amhara, Oromia, Tigray) and hints at implications for federal reforms, but lacks explicit analysis of how southern outcomes inform future restructuring risks."
+    },
+    {
+      "name": "Conflict drivers beyond administration",
+      "score": 0.5,
+      "explanation": "Touches on identity-based clashes and insurgency but does not systematically distinguish structural drivers from administrative design."
+    },
+    {
+      "name": "Reconciliation efforts’ impact",
+      "score": 0.0,
+      "explanation": "No mention of local peace or reconciliation initiatives or their effectiveness."
+    },
+    {
+      "name": "Exposure and humanitarian impact",
+      "score": 0.25,
+      "explanation": "Mentions fatalities and civilian injuries in Amhara but provides no data on displacement or population exposure in the southern regions."
+    },
+    {
+      "name": "Security-service tradeoffs",
+      "score": 0.0,
+      "explanation": "No analysis of whether security prioritization coincides with service neglect."
+    },
+    {
+      "name": "Comparative regional hotspots",
+      "score": 0.75,
+      "explanation": "Provides comparative context: Amhara as epicenter with incident/fatality figures, Oromia volatility, Tigray relative calm. Does not deeply compare dynamics to southern regions’ specifics."
+    },
+    {
+      "name": "Administrative restructuring limits",
+      "score": 0.5,
+      "explanation": "Suggests that reorganization did not resolve underlying disputes as violence resurfaced, but lacks detailed probing or multiple cases to test the assumption."
+    },
+    {
+      "name": "Communication and legitimacy",
+      "score": 0.25,
+      "explanation": "Briefly references federal reforms and approvals but does not assess public buy-in or perceived legitimacy of new authorities."
+    },
+    {
+      "name": "Escalation triggers and thresholds",
+      "score": 0.5,
+      "explanation": "Identifies concrete triggers (militia reprisals in Guraghe; OLA attempts to seize guns; intense fighting in Amhara) but does not analyze thresholds or patterns leading to sharp spikes, especially in southern regions."
+    }
+  ],
+  "overall_score": 0.3625
+}

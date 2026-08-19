@@ -1,0 +1,12 @@
+{
+  "name": "plot_interpretation",
+  "version": 1,
+  "type": "text",
+  "labels": [
+    "production",
+    "latest"
+  ],
+  "tags": [],
+  "config": {},
+  "prompt": "Look at the following plot and draw relevant interpretations."
+}

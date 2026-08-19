@@ -1,0 +1,188 @@
+{
+  "prompt": "Provide an analysis of Georgia's upcoming election, civil unrest, and political developments as of October 2024.",
+  "criteria": [
+    {
+      "name": "Election stakes and polarization",
+      "description": "Assess how the contest is framed as pivotal for the country’s direction and how entrenched polarization between incumbents and main opposition shapes campaign dynamics and public perceptions."
+    },
+    {
+      "name": "Dominance of ruling party",
+      "description": "Evaluate the ruling party’s consolidation strategies, including efforts to marginalize opponents, centralization of power, and potential moves to entrench long-term control."
+    },
+    {
+      "name": "Fragmented opposition landscape",
+      "description": "Analyze opposition cohesion, splintering, and alliance-building efforts, and how these factors affect electoral competitiveness and post-election leverage."
+    },
+    {
+      "name": "Foreign agent law impact",
+      "description": "Examine how legislation targeting foreign-funded groups affects civil society, media, and political pluralism, including compliance, resistance, and legal challenges."
+    },
+    {
+      "name": "Protest mobilization patterns",
+      "description": "Track the scale, duration, and composition of demonstrations, triggers for mobilization, and how protest waves evolve over time."
+    },
+    {
+      "name": "Intimidation and targeted violence",
+      "description": "Identify patterns of harassment and attacks against activists, journalists, and opposition figures, including alleged use of unidentified perpetrators and vandalism."
+    },
+    {
+      "name": "Police tactics and accountability",
+      "description": "Assess law enforcement responses to demonstrations, including use of force, detentions, and follow-up investigations or lack thereof."
+    },
+    {
+      "name": "Legal-curb on assembly",
+      "description": "Evaluate regulatory changes that restrict protest tactics and public gatherings, and their implications for future mobilization."
+    },
+    {
+      "name": "Populist and conservative appeals",
+      "description": "Analyze the ruling party’s messaging emphasizing social conservatism, identity politics, and how these narratives are used to galvanize support."
+    },
+    {
+      "name": "Anti-foreign interference narrative",
+      "description": "Examine claims of external meddling and ‘foreign influence’ as a campaign frame, and how these narratives justify policy and security measures."
+    },
+    {
+      "name": "Geopolitical reorientation signals",
+      "description": "Assess shifts in foreign policy posture, including relations with Western partners and regional powers, and how these shifts intersect with domestic politics."
+    },
+    {
+      "name": "War trauma instrumentalization",
+      "description": "Identify use of historical conflicts and regional insecurity in campaign messaging to shape voter attitudes and define adversaries."
+    },
+    {
+      "name": "Election system changes",
+      "description": "Evaluate the implications of electoral rules and technologies, such as proportionality, thresholds, and electronic voting, for outcomes and trust."
+    },
+    {
+      "name": "Turnout and undecided voters",
+      "description": "Analyze the pivotal role of turnout and late-deciding or uncommitted voters in determining the balance of power."
+    },
+    {
+      "name": "Media environment pressure",
+      "description": "Assess pressures on independent media, including legal, financial, and physical threats, and their effects on information pluralism."
+    },
+    {
+      "name": "EU/US relations trade-offs",
+      "description": "Evaluate how domestic political choices accept or risk fallout with key partners, prioritizing electoral goals over international alignment."
+    },
+    {
+      "name": "Post-election unrest risk",
+      "description": "Gauge scenarios for contention after results, including opposition challenges, mass mobilization potential, and triggers for escalation."
+    },
+    {
+      "name": "Provocateurs and infiltration risks",
+      "description": "Consider the possibility of staged incidents or infiltration affecting protest dynamics and public narratives about violence."
+    },
+    {
+      "name": "Conflict escalation determinants",
+      "description": "Identify factors that could tip protests toward escalation or de-escalation, including policing strategies, organizer discipline, and targeted attacks."
+    },
+    {
+      "name": "Judicial and institutional checks",
+      "description": "Assess the role and effectiveness of courts and institutions in adjudicating contested laws and election disputes, and their perceived independence."
+    }
+  ],
+  "criterion_scores": [
+    {
+      "name": "Election stakes and polarization",
+      "score": 1.0,
+      "explanation": "Clearly frames the election as a pivotal referendum on Georgia’s direction (Europe vs. Russia), highlights deep polarization between Georgian Dream and pro-West opposition, and contrasts constituencies (younger urban vs. conservative rural) and narratives (stability/peace vs. democratic erosion)."
+    },
+    {
+      "name": "Dominance of ruling party",
+      "score": 0.9,
+      "explanation": "Describes GD’s long incumbency, use of state levers and loyal media, passage of restrictive laws, attempts to impeach the president, weakening oversight of the election commission, and rhetoric about banning opposition. Could add more detail on patronage networks and institutional centralization mechanisms."
+    },
+    {
+      "name": "Fragmented opposition landscape",
+      "score": 0.75,
+      "explanation": "Notes UNM as largest opposition, previous fragmentation, and 2024 coalition efforts to avoid the 5% threshold. Lacks granular detail on specific alliances, intra-opposition rivalries, and coordination failures at district level or post-election bargaining power."
+    },
+    {
+      "name": "Foreign agent law impact",
+      "score": 1.0,
+      "explanation": "Explains the law’s scope (targeting NGOs/media with foreign funding), its revival and passage, mass resistance, and international condemnation; explicitly ties it to impacts on civil society, media, and pluralism."
+    },
+    {
+      "name": "Protest mobilization patterns",
+      "score": 0.85,
+      "explanation": "Covers major waves (Mar 2023; April 2024), sizes (20,000+), triggers (foreign agents bill, Russia flights), duration as recurring protests over two years, and participant groups (students, civic activists). Could include more on regional spread and persistence dynamics over weeks/months."
+    },
+    {
+      "name": "Intimidation and targeted violence",
+      "score": 0.8,
+      "explanation": "Mentions mid-2024 attacks and intimidation against activists, students, and opposition figures by unidentified assailants; references pattern of harassment. More specifics (cases, perpetrators’ methods, frequency) would strengthen it."
+    },
+    {
+      "name": "Police tactics and accountability",
+      "score": 0.85,
+      "explanation": "Describes riot police use of water cannons, tear gas, beatings, arrests during dispersals, and international condemnation. Limited discussion of follow-up investigations, judicial accountability, or disciplinary outcomes."
+    },
+    {
+      "name": "Legal-curb on assembly",
+      "score": 0.5,
+      "explanation": "Touches on repressive legal environment via foreign agent law and rights-curbing legislation but does not specifically analyze regulatory changes directly restricting protest tactics/permits or assembly procedures."
+    },
+    {
+      "name": "Populist and conservative appeals",
+      "score": 0.9,
+      "explanation": "Details anti-LGBTQ legislation, traditional values framing, stability/peace messaging, and identity politics cues used to rally conservative bases. Slight room for more examples of socio-economic populism."
+    },
+    {
+      "name": "Anti-foreign interference narrative",
+      "score": 0.95,
+      "explanation": "Highlights Ivanishvili and GD rhetoric about “foreign agents,” Western conspirators, and use of this frame to justify the foreign influence law and security posture."
+    },
+    {
+      "name": "Geopolitical reorientation signals",
+      "score": 0.9,
+      "explanation": "Links domestic politics to shifts with EU/US (candidate status pause, condemnations, possible sanctions) and notes perceived pro-Russian tilt (resumption of flights). Could expand on relations with regional powers (Turkey, China) or practical policy reorientation beyond rhetoric."
+    },
+    {
+      "name": "War trauma instrumentalization",
+      "score": 0.6,
+      "explanation": "References GD’s narrative that alternatives risk war and unrest, implying use of security fears. However, limited explicit discussion of historical conflicts (2008 war, occupied territories) being invoked in campaign messaging."
+    },
+    {
+      "name": "Election system changes",
+      "score": 0.9,
+      "explanation": "Specifies fully proportional system, 5% threshold, implications for small parties and coalition behavior; mentions oversight weakening. Could add details on any electronic technologies, safeguards, or complaints mechanisms."
+    },
+    {
+      "name": "Turnout and undecided voters",
+      "score": 0.5,
+      "explanation": "Notes polarization and that credibility of process could spark unrest, but provides little analysis of turnout strategies, undecided voter shares, or their geographic/sociodemographic distribution."
+    },
+    {
+      "name": "Media environment pressure",
+      "score": 0.85,
+      "explanation": "Mentions attacks on independent media, legal pressure via foreign agent law, loyal media apparatus benefiting GD, and EU criticisms. More specifics on financial cases, ownership concentration, or physical attacks on journalists would improve it."
+    },
+    {
+      "name": "EU/US relations trade-offs",
+      "score": 0.9,
+      "explanation": "Analyzes costs to EU integration (candidate status stalled), U.S./EU warnings and sanctions prospects, and GD prioritizing domestic consolidation over alignment. Could further discuss aid conditionality or specific cooperation freezes."
+    },
+    {
+      "name": "Post-election unrest risk",
+      "score": 0.85,
+      "explanation": "Assesses that perceived fraud or heavy-handed tactics could trigger unrest; situates within ongoing protest environment. Could elaborate scenarios (mass mobilization thresholds, opposition contestation pathways)."
+    },
+    {
+      "name": "Provocateurs and infiltration risks",
+      "score": 0.4,
+      "explanation": "Hints at unidentified assailants and tense climate but does not explicitly analyze staged incidents, infiltration, or narrative manipulation during protests."
+    },
+    {
+      "name": "Conflict escalation determinants",
+      "score": 0.6,
+      "explanation": "Identifies policing tactics and targeted attacks as drivers of clashes; limited discussion of organizer discipline, de-escalation strategies, or protester tactics affecting escalation."
+    },
+    {
+      "name": "Judicial and institutional checks",
+      "score": 0.75,
+      "explanation": "Covers presidential veto overridden, failed impeachment, weakened election commission oversight, EU/legal criticisms; limited assessment of courts’ independence, specific court rulings on contested laws, or election dispute adjudication effectiveness."
+    }
+  ],
+  "overall_score": 0.7875
+}

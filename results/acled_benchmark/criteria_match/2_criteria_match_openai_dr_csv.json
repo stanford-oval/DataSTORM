@@ -1,0 +1,188 @@
+{
+  "prompt": "Analyze Petro’s total peace policy in Colombia and its impact on violence v. armed groups.",
+  "criteria": [
+    {
+      "name": "State–armed group de-escalation",
+      "description": "Assess whether negotiations and policy shifts reduce direct clashes between security forces and armed groups, and the durability of such declines over time."
+    },
+    {
+      "name": "Ceasefire design and oversight",
+      "description": "Evaluate the presence and effectiveness of protocols, monitoring, and enforcement mechanisms that shape ceasefire compliance and prevent opportunistic violations."
+    },
+    {
+      "name": "Fragmentation within armed groups",
+      "description": "Analyze internal splits, leadership disputes, and factional dynamics that affect negotiation coherence, ceasefire adherence, and conflict behavior."
+    },
+    {
+      "name": "Intergroup competition and violence",
+      "description": "Track how reduced state pressure influences armed groups’ rivalries, territorial battles, and the frequency and lethality of clashes among them."
+    },
+    {
+      "name": "Territorial expansion patterns",
+      "description": "Examine changes in geographic reach, including the number of affected localities and strategic corridors targeted for illicit economies and logistical control."
+    },
+    {
+      "name": "Illicit economy drivers",
+      "description": "Assess how trends in drug cultivation, mining, smuggling, and extortion shape groups’ finances, expansion strategies, and incentives for or against peace."
+    },
+    {
+      "name": "Cross-border and sanctuary effects",
+      "description": "Consider how neighboring-country dynamics and safe havens influence negotiation leverage, logistics, and the persistence or resurgence of violence."
+    },
+    {
+      "name": "Urban conflict and local actors",
+      "description": "Evaluate the role of city-based gangs and smaller groups, their ties to major outfits, and how inclusion or neglect in talks affects urban violence."
+    },
+    {
+      "name": "Civilians’ protection and harm",
+      "description": "Monitor displacement, coercion, kidnappings, and other abuses against civilians, and whether policies mitigate or unintentionally heighten these harms."
+    },
+    {
+      "name": "Security force posture and incentives",
+      "description": "Analyze operational choices, pressure levels, and possible disincentives or collusion that shape engagement with different armed actors."
+    },
+    {
+      "name": "Negotiation scope and sequencing",
+      "description": "Assess the government’s capacity to manage multiple parallel processes, prioritize tracks, and anticipate spillovers between negotiations."
+    },
+    {
+      "name": "Local versus national agreements",
+      "description": "Compare the effectiveness of localized, targeted deals against broad national accords in reducing violence and addressing community needs."
+    },
+    {
+      "name": "Adaptive tactics and technologies",
+      "description": "Track shifts in armed groups’ methods, such as the use of drones or curfews, and their impact on conflict intensity and state responses."
+    },
+    {
+      "name": "Alliance fluidity and opportunism",
+      "description": "Examine how alliances and hostilities between groups change by region and over time, reflecting opportunistic calculations rather than fixed enmities."
+    },
+    {
+      "name": "Implementation of prior accords",
+      "description": "Evaluate continuity and gaps in enforcing earlier peace agreements and reintegration efforts, and their effects on remobilization and dissidence."
+    },
+    {
+      "name": "State presence and governance",
+      "description": "Assess whether increased governance, services, and rule of law accompany negotiations to consolidate peace and deter criminal entrenchment."
+    },
+    {
+      "name": "Election-period volatility",
+      "description": "Monitor how political cycles affect armed group behavior, including targeted coercion and attempts to influence local authorities."
+    },
+    {
+      "name": "Public legitimacy and trust",
+      "description": "Gauge societal support for negotiations, perceptions of fairness and accountability, and how legitimacy affects compliance and outcomes."
+    },
+    {
+      "name": "Justice and recognition frameworks",
+      "description": "Analyze legal pathways for political recognition or judicial submission of different actor types, and how these incentives shape participation."
+    },
+    {
+      "name": "Conflict intensity trade-offs",
+      "description": "Identify the paradox where lowering state–group confrontation can coincide with rising intergroup violence, and propose mitigating measures."
+    }
+  ],
+  "criterion_scores": [
+    {
+      "name": "State–armed group de-escalation",
+      "score": 1.0,
+      "explanation": "Directly documents a significant drop in clashes between security forces and armed groups under early ceasefires, with comparative figures and a brief note on homicide trends; also notes some unraveling later, speaking to durability."
+    },
+    {
+      "name": "Ceasefire design and oversight",
+      "score": 0.5,
+      "explanation": "Mentions bilateral truce with ELN, violations, breakdowns with AGC, and that enforcement was uncertain, but provides little detail on protocols, monitoring bodies, verification mechanisms, or sanctions for noncompliance."
+    },
+    {
+      "name": "Fragmentation within armed groups",
+      "score": 0.5,
+      "explanation": "References FARC dissidents as fragmented networks and notes factions, but lacks deeper analysis of internal splits, leadership disputes, or how fragmentation undermined coherence in talks and ceasefire adherence."
+    },
+    {
+      "name": "Intergroup competition and violence",
+      "score": 1.0,
+      "explanation": "Clearly states that intergroup clashes surged (~85%), explains rivalry dynamics among ELN, FARC dissidents, and AGC over routes and control, and links to reduced state pressure."
+    },
+    {
+      "name": "Territorial expansion patterns",
+      "score": 0.5,
+      "explanation": "States groups used breathing room to expand and entrench and cites increases in violence in specific provinces, but does not systematically examine geographic reach, number of affected municipalities, or strategic corridors."
+    },
+    {
+      "name": "Illicit economy drivers",
+      "score": 0.5,
+      "explanation": "Connects intergroup fighting to drug routes and mentions extortion increases, but lacks detailed assessment of coca cultivation trends, mining, smuggling logistics, or how these shaped negotiation incentives."
+    },
+    {
+      "name": "Cross-border and sanctuary effects",
+      "score": 0.25,
+      "explanation": "No substantive discussion of neighboring-country dynamics or sanctuaries; only implicit reference to routes without cross-border analysis."
+    },
+    {
+      "name": "Urban conflict and local actors",
+      "score": 0.25,
+      "explanation": "Briefly mentions abuses in various areas but does not analyze city-based gangs, their ties to national groups, or urban violence dynamics within Total Peace."
+    },
+    {
+      "name": "Civilians’ protection and harm",
+      "score": 0.75,
+      "explanation": "Cites increases in kidnappings and extortion, references mass killings, child recruitment, displacement, and continued abuses; notes limited results in protecting civilians. Could add displacement figures and regional variation for full coverage."
+    },
+    {
+      "name": "Security force posture and incentives",
+      "score": 0.5,
+      "explanation": "Notes reduced military offensives and ‘standing back,’ but does not analyze operational incentives, rules of engagement, collusion risks, or differential posture by actor/region."
+    },
+    {
+      "name": "Negotiation scope and sequencing",
+      "score": 0.75,
+      "explanation": "Explains simultaneous talks with multiple actors, partial progress with ELN, breakdowns with AGC, and challenges of managing multiple tracks. Less detail on sequencing logic and spillover management mechanisms."
+    },
+    {
+      "name": "Local versus national agreements",
+      "score": 0.25,
+      "explanation": "Focuses on national-level ceasefires and talks; does not compare localized deals versus broad accords or their differential impacts on violence and community needs."
+    },
+    {
+      "name": "Adaptive tactics and technologies",
+      "score": 0.25,
+      "explanation": "Mentions shifts to kidnappings/extortion and turf wars, but no analysis of specific tactical/technological adaptations (e.g., drones, IEDs, curfews) or state counter-adaptations."
+    },
+    {
+      "name": "Alliance fluidity and opportunism",
+      "score": 0.5,
+      "explanation": "Alludes to changing rivalries among ELN, FARC dissidents, and AGC and opportunistic expansion, but lacks granular regional examples of alliance shifts over time."
+    },
+    {
+      "name": "Implementation of prior accords",
+      "score": 0.5,
+      "explanation": "Says policy builds on 2016 FARC accord and mentions reintegration, but provides little assessment of implementation gaps, reintegration outcomes, or links to dissidence/remobilization."
+    },
+    {
+      "name": "State presence and governance",
+      "score": 0.5,
+      "explanation": "Notes continued abuses in remote regions and that many communities haven’t seen peace, but does not analyze service provision, rule of law expansion, or governance initiatives accompanying talks."
+    },
+    {
+      "name": "Election-period volatility",
+      "score": 0.0,
+      "explanation": "No discussion of political cycles, electoral periods, or related coercion."
+    },
+    {
+      "name": "Public legitimacy and trust",
+      "score": 0.75,
+      "explanation": "Provides polling data on declining support and perceptions of worsening security; could further discuss regional/community-level legitimacy and perceptions of fairness/accountability."
+    },
+    {
+      "name": "Justice and recognition frameworks",
+      "score": 0.5,
+      "explanation": "Touches on opening dialogue to diverse actors and ending talks with AGC, but lacks detail on legal pathways (political recognition vs. judicial submission), incentives, and accountability mechanisms."
+    },
+    {
+      "name": "Conflict intensity trade-offs",
+      "score": 1.0,
+      "explanation": "Directly articulates the paradox: declining state–group clashes alongside rising intergroup violence and civilian predation, with data and discussion of consequences."
+    }
+  ],
+  "overall_score": 0.5375
+}

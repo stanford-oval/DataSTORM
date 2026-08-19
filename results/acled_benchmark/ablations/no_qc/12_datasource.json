@@ -1,0 +1,232 @@
+{
+  "total_insights": 22,
+  "total_classified": 22,
+  "acled_count": 0,
+  "non_acled_count": 22,
+  "pct_acled": 0.0,
+  "details": [
+    {
+      "evidence": "November 2024’s decline in recorded political violence in Kenya masked a tactical recalibration by armed actors rather than a genuine reduction in risk.",
+      "is_acled_data": false,
+      "reasoning": "The statement is an analytical interpretation about a decline masking tactical recalibration, without citing specific ACLED event counts, trends, or actor-level data. It’s general commentary not explicitly tied to ACLED-derived statistics or indicators.",
+      "source_context": "Key Findings; The quiet month that wasn’t"
+    },
+    {
+      "evidence": "Al‑Shabaab shifted to low‑visibility, attritional operations targeting security forces, emphasizing ambushes and IEDs over high‑profile attacks.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical characterization of tactics (shift to low-visibility, attritional operations) without referencing specific ACLED event counts, actor entries, locations, dates, or trends explicitly drawn from ACLED data.",
+      "source_context": "Key Findings; Mechanics of adaptation"
+    },
+    {
+      "evidence": "The group leveraged porous Kenya–Somalia border corridors, particularly along Mandera–Wajir–Garissa–Lamu, to sustain cross‑border operations despite counterterrorism pressure.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical claim about cross-border operational corridors and border porosity, without citing specific events, locations with dates, counts, or actor-level event data. It reads as contextual analysis rather than a reference to ACLED’s event-based datasets.",
+      "source_context": "Mechanics of adaptation"
+    },
+    {
+      "evidence": "Al‑Shabaab embedded more deeply in border communities by exploiting local grievances, degrading community intelligence flows and complicating security outreach.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical claim about al‑Shabaab embedding in border communities and affecting intelligence and outreach; it does not cite specific events, counts, locations, or actor-level event data attributable to ACLED.",
+      "source_context": "Mechanics of adaptation"
+    },
+    {
+      "evidence": "Aggregate incident counts are a lagging indicator and can decline even as underlying danger persists due to low‑visibility insurgent tactics and embedded influence.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical claim about interpreting aggregate incident counts and insurgent tactics; it does not reference specific ACLED event data, counts, or metrics and is not explicitly attributed to ACLED.",
+      "source_context": "The quiet month that wasn’t"
+    },
+    {
+      "evidence": "Kenyan authorities established new military command centers in affected areas, coinciding with the downturn in incidents but not resolving structural vulnerabilities.",
+      "is_acled_data": false,
+      "reasoning": "The statement discusses government policy actions (establishing military command centers) and links them to a general downturn in incidents without citing specific ACLED event data or metrics. It reads as policy analysis rather than explicit conflict event statistics or actor-level data attributed to ACLED.",
+      "source_context": "The quiet month that wasn’t"
+    },
+    {
+      "evidence": "Trust deficits between security forces and local communities, porous borders, and instability in Jubbaland undermine counter‑insurgency gains.",
+      "is_acled_data": false,
+      "reasoning": "The statement is general analytical commentary about security dynamics (trust deficits, porous borders, instability in Jubbaland) and not tied to specific ACLED event counts, locations, fatalities, or actor-level events explicitly attributed to ACLED.",
+      "source_context": "The quiet month that wasn’t"
+    },
+    {
+      "evidence": "Communal militias continued to drive violence over land, pasture, and water, creating sustained hotspots across semi‑arid counties.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical claim about drivers of violence and hotspots without citing specific events, counts, locations, or ACLED-derived metrics. It is not explicitly tied to ACLED event data or statistics.",
+      "source_context": "Hotspots that outlast headlines"
+    },
+    {
+      "evidence": "Ambiguous land tenure and competition over scarce resources escalate everyday interactions—like access to boreholes and grazing corridors—into armed clashes.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical claim about drivers of communal conflict (land tenure, resources) and does not reference specific events, counts, locations, actors, or temporal patterns from ACLED. It is not tied to ACLED-derived event data or metrics.",
+      "source_context": "Hotspots that outlast headlines"
+    },
+    {
+      "evidence": "Regional or local political enablement, including reported arming of militias by regional governments, exacerbates communal conflicts and complicates accountability.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical claim about political enablement and arming of militias, not a reference to specific ACLED event data, counts, or actor-level entries. It lacks explicit event details, figures, or attribution to ACLED, so it aligns with general analysis rather than ACLED-derived data.",
+      "source_context": "Hotspots that outlast headlines"
+    },
+    {
+      "evidence": "Displacement, intimidation, and deterred reporting can make violent dynamics appear as a lull in incident counts, masking ongoing harm.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical observation about reporting bias and incident counts, not referencing specific ACLED event data, figures, or indicators; it does not cite ACLED or present ACLED-derived metrics.",
+      "source_context": "Hotspots that outlast headlines"
+    },
+    {
+      "evidence": "Layered insecurity emerges where communal militia conflicts intersect with al‑Shabaab’s cross‑border ambushes and bombings in governance‑thin areas.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical observation about overlapping insecurity and does not cite specific ACLED event counts, locations, dates, actors, or trends. It reads as narrative commentary rather than insight explicitly grounded in ACLED-derived event data or statistics.",
+      "source_context": "Hotspots that outlast headlines; Mechanics of adaptation"
+    },
+    {
+      "evidence": "Integrated border governance and community peace architectures are needed; reliance on incident counts alone misreads the security environment.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical recommendation about governance and interpretation of incident counts, not a citation of ACLED event data, statistics, or ACLED-derived analyses.",
+      "source_context": "Key Findings; Closing the seams"
+    },
+    {
+      "evidence": "The AU Border Governance Strategy and African Union Border Programme offer tools for joint vulnerability mapping, accessible dispute resolution, and coordinated cross‑border security that can reduce al‑Shabaab mobility while facilitating lawful trade.",
+      "is_acled_data": false,
+      "reasoning": "The statement discusses African Union border governance tools and policy mechanisms; it is policy analysis, not event-based conflict data, metrics, or actor activity derived from ACLED.",
+      "source_context": "Closing the seams"
+    },
+    {
+      "evidence": "Implementation gaps persist along key corridors, limiting the impact of AU/IGAD frameworks on Kenya’s border security challenges.",
+      "is_acled_data": false,
+      "reasoning": "The statement discusses policy implementation gaps and border security frameworks (AU/IGAD), which is general analysis on governance and security policy, not specific conflict event data, counts, actors, or trends attributed to ACLED.",
+      "source_context": "Closing the seams"
+    },
+    {
+      "evidence": "Sustained, institutionalized regional cooperation through IGAD—diplomacy, intel‑sharing, and coordinated operations—outperforms sporadic responses in countering al‑Shabaab.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical claim about the effectiveness of regional cooperation (IGAD) against al‑Shabaab, not specific event counts, actor-level events, fatalities, or trends derived from ACLED data. It reflects policy/strategic analysis rather than ACLED-attributed conflict event information.",
+      "source_context": "Closing the seams"
+    },
+    {
+      "evidence": "Traditional and indigenous conflict resolution mechanisms, when integrated with formal governance, can mitigate communal militia violence and undercut extremist recruitment.",
+      "is_acled_data": false,
+      "reasoning": "The evidence is a general analytical statement about conflict resolution mechanisms and their impact on militia violence and recruitment. It does not reference event counts, fatalities, locations, actors, or any ACLED-derived metrics, nor is it attributed to ACLED data.",
+      "source_context": "Closing the seams"
+    },
+    {
+      "evidence": "Hybrid peace architectures linking elders’ councils and customary mediation to county security committees and border police strengthen local legitimacy and de‑escalation capacity.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical claim about peace architectures and mediation linking local councils to security committees and police. It does not reference specific conflict events, counts, actors, locations, fatalities, or trends derived from ACLED, nor is it attributed to ACLED data.",
+      "source_context": "Closing the seams"
+    },
+    {
+      "evidence": "Better metrics should track incident severity, recruitment, displacement around resources, and community trust to gauge real security improvements beyond counts.",
+      "is_acled_data": false,
+      "reasoning": "The statement proposes general recommendations for better metrics (severity, recruitment, displacement, trust) and does not present or reference specific ACLED event data, counts, actors, or indices. It is analytical guidance rather than data derived from ACLED.",
+      "source_context": "Closing the seams"
+    },
+    {
+      "evidence": "Policy priority is to ‘thicken the seam’: tighten border protocols, invest in trusted local interfaces, and harden crossing points to prevent quiet periods from masking insurgent entrenchment.",
+      "is_acled_data": false,
+      "reasoning": "The evidence is a policy recommendation about border security and local engagement, not a reference to specific conflict events, statistics, actors, or trends from ACLED. It is general analysis, not derived from ACLED data.",
+      "source_context": "Mechanics of adaptation"
+    },
+    {
+      "evidence": "Monitoring should focus on patterns of ambushes/IEDs along Mandera–Wajir–Garissa–Lamu, the pace of resolving disputes at boreholes/grazing routes, and community trust in county security committees.",
+      "is_acled_data": false,
+      "reasoning": "The evidence provides monitoring recommendations (ambush/IED routes, dispute resolution at boreholes, community trust in security committees) and does not cite specific ACLED event counts, locations, actors, or trends. It is general analytical guidance rather than data explicitly derived from ACLED event records.",
+      "source_context": "Conclusion"
+    },
+    {
+      "evidence": "Durable security depends on closing trust and governance gaps while aligning AU/IGAD border governance with local legitimacy and customary mediation.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general policy/analytical assertion about governance, trust, and border management (AU/IGAD) and does not reference specific conflict events, counts, locations, actors, or ACLED-attributed data.",
+      "source_context": "Conclusion"
+    }
+  ],
+  "insights": [
+    {
+      "insight": "November 2024’s decline in recorded political violence in Kenya masked a tactical recalibration by armed actors rather than a genuine reduction in risk.",
+      "context": "Key Findings; The quiet month that wasn’t"
+    },
+    {
+      "insight": "Al‑Shabaab shifted to low‑visibility, attritional operations targeting security forces, emphasizing ambushes and IEDs over high‑profile attacks.",
+      "context": "Key Findings; Mechanics of adaptation"
+    },
+    {
+      "insight": "The group leveraged porous Kenya–Somalia border corridors, particularly along Mandera–Wajir–Garissa–Lamu, to sustain cross‑border operations despite counterterrorism pressure.",
+      "context": "Mechanics of adaptation"
+    },
+    {
+      "insight": "Al‑Shabaab embedded more deeply in border communities by exploiting local grievances, degrading community intelligence flows and complicating security outreach.",
+      "context": "Mechanics of adaptation"
+    },
+    {
+      "insight": "Aggregate incident counts are a lagging indicator and can decline even as underlying danger persists due to low‑visibility insurgent tactics and embedded influence.",
+      "context": "The quiet month that wasn’t"
+    },
+    {
+      "insight": "Kenyan authorities established new military command centers in affected areas, coinciding with the downturn in incidents but not resolving structural vulnerabilities.",
+      "context": "The quiet month that wasn’t"
+    },
+    {
+      "insight": "Trust deficits between security forces and local communities, porous borders, and instability in Jubbaland undermine counter‑insurgency gains.",
+      "context": "The quiet month that wasn’t"
+    },
+    {
+      "insight": "Communal militias continued to drive violence over land, pasture, and water, creating sustained hotspots across semi‑arid counties.",
+      "context": "Hotspots that outlast headlines"
+    },
+    {
+      "insight": "Ambiguous land tenure and competition over scarce resources escalate everyday interactions—like access to boreholes and grazing corridors—into armed clashes.",
+      "context": "Hotspots that outlast headlines"
+    },
+    {
+      "insight": "Regional or local political enablement, including reported arming of militias by regional governments, exacerbates communal conflicts and complicates accountability.",
+      "context": "Hotspots that outlast headlines"
+    },
+    {
+      "insight": "Displacement, intimidation, and deterred reporting can make violent dynamics appear as a lull in incident counts, masking ongoing harm.",
+      "context": "Hotspots that outlast headlines"
+    },
+    {
+      "insight": "Layered insecurity emerges where communal militia conflicts intersect with al‑Shabaab’s cross‑border ambushes and bombings in governance‑thin areas.",
+      "context": "Hotspots that outlast headlines; Mechanics of adaptation"
+    },
+    {
+      "insight": "Integrated border governance and community peace architectures are needed; reliance on incident counts alone misreads the security environment.",
+      "context": "Key Findings; Closing the seams"
+    },
+    {
+      "insight": "The AU Border Governance Strategy and African Union Border Programme offer tools for joint vulnerability mapping, accessible dispute resolution, and coordinated cross‑border security that can reduce al‑Shabaab mobility while facilitating lawful trade.",
+      "context": "Closing the seams"
+    },
+    {
+      "insight": "Implementation gaps persist along key corridors, limiting the impact of AU/IGAD frameworks on Kenya’s border security challenges.",
+      "context": "Closing the seams"
+    },
+    {
+      "insight": "Sustained, institutionalized regional cooperation through IGAD—diplomacy, intel‑sharing, and coordinated operations—outperforms sporadic responses in countering al‑Shabaab.",
+      "context": "Closing the seams"
+    },
+    {
+      "insight": "Traditional and indigenous conflict resolution mechanisms, when integrated with formal governance, can mitigate communal militia violence and undercut extremist recruitment.",
+      "context": "Closing the seams"
+    },
+    {
+      "insight": "Hybrid peace architectures linking elders’ councils and customary mediation to county security committees and border police strengthen local legitimacy and de‑escalation capacity.",
+      "context": "Closing the seams"
+    },
+    {
+      "insight": "Better metrics should track incident severity, recruitment, displacement around resources, and community trust to gauge real security improvements beyond counts.",
+      "context": "Closing the seams"
+    },
+    {
+      "insight": "Policy priority is to ‘thicken the seam’: tighten border protocols, invest in trusted local interfaces, and harden crossing points to prevent quiet periods from masking insurgent entrenchment.",
+      "context": "Mechanics of adaptation"
+    },
+    {
+      "insight": "Monitoring should focus on patterns of ambushes/IEDs along Mandera–Wajir–Garissa–Lamu, the pace of resolving disputes at boreholes/grazing routes, and community trust in county security committees.",
+      "context": "Conclusion"
+    },
+    {
+      "insight": "Durable security depends on closing trust and governance gaps while aligning AU/IGAD border governance with local legitimacy and customary mediation.",
+      "context": "Conclusion"
+    }
+  ],
+  "prompt": "What are the threats in Kenya with respect to communal militias and al-Shabaab. Focus on November 2024."
+}

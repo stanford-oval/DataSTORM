@@ -1,0 +1,85 @@
+{
+  "dataset_id": 91,
+  "dataset_path": "data/notebooks/flag-91.json",
+  "metadata": {
+    "category": "Finance Management",
+    "dataset_description": "The dataset consists of 500 entries simulating the ServiceNow fm_expense_line table, which records various attributes of financial expenses. Key fields include 'number', 'opened_at', 'amount', 'state', 'short_description', 'ci', 'user', 'department', 'category', 'processed_date', 'source_id', and 'type'. This table documents the flow of financial transactions by detailing the amount, departmental allocation, and the nature of each expense. It provides a comprehensive view of organizational expenditures across different categories, highlighting both the timing and the approval state of each financial entry. Additionally, the dataset includes insights into recurring expenses, the impact of keywords in short descriptions, and state-based processing efficiencies.",
+    "goal": "To analyze and understand the patterns and behaviors in expense processing, focusing on how different states, descriptive keywords, and recurring expenses influence financial operations. The aim is to provide actionable insights to improve workflow efficiency, budgetary control, and overall financial management.",
+    "header": "Combined Expense Analysis (Flag 91)",
+    "role": "Financial Operations Analyst"
+  },
+  "predicted_insights": [
+    "Only 11 of 236 cases (4.7%) close within 7 days, while 201 of 236 (85.2%) take over 30 days; even for Critical items, 47 of 53 (88.7%) exceed 30 days, indicating significant cycle-time bottlenecks likely affecting SLA compliance and costs.",
+    "The average long-closure share across locations is 40.2%, with Australia highest at 43% (3.8 percentage points above average); if Australia and the United States matched the 39% benchmark seen elsewhere, the organization would avoid 6 long-closure cases out of 500 (~1.2%), indicating targeted process improvements in these locations could measurably reduce cycle times.",
+    "Ticket volume shows a clear fall surge (Sep: 48; Oct: 52) before dropping to a yearly low in December (30), meaning October’s peak was about 73% higher than December’s low—signaling a seasonal workload spike that can inform staffing and budget allocation.",
+    "Caller submissions are perfectly balanced: each of the four caller_ids accounts for 125 of 500 tickets (25% each), indicating no single caller drives volume, so efficiency gains likely hinge more on category, priority, or location rather than on caller-specific interventions.",
+    "Total monthly volume peaks in Oct at 52 records across categories—about 68% higher than the Feb low of 31—driven by spikes in Inquiry / Help (14) and Network (13), indicating a seasonal surge in early Q4 that warrants proactive staffing and budget planning.",
+    "This ~9-day median gap indicates post-resolution closure steps (e.g., approvals or confirmations) add about 7% to cycle time, suggesting that streamlining closure activities could yield a meaningful efficiency gain.",
+    "Database issues take the longest to resolve—about 31% longer than Hardware and roughly 51% longer than Network—suggesting Database is a prime focus area for process improvements to significantly reduce overall resolution time.",
+    "The share of tickets in the Resolved state ranges from 46% (Database) to 54% (Software)—an 8-point spread—with Inquiry / Help and Software skewing more Resolved (53–54%) while Database and Hardware skew more Closed (53–54%), and Network exactly balanced (50/50), suggesting group-specific workflow practices that could be standardized to reduce process variance.",
+    "Resolution rates differ meaningfully by location with a 10 percentage point spread (mean ≈50%, standard deviation ≈3.6 pp), led by India (56%) and trailed by the UK (46%), indicating location-specific workflow efficiency gaps that could be targeted for improvement.",
+    "Four of five categories have negative median resolution times—most notably Network at about −407.71 hours (~17.0 days)—indicating widespread timestamp/data-entry issues that can distort SLA tracking and any cost or efficiency analyses built on these metrics.",
+    "The share of high/critical cases varies only 5 percentage points across locations (48–53%), yet UK and Canada both exceed 50%, indicating a modest concentration of urgent workload in these regions that could benefit from targeted resourcing to improve throughput.",
+    "Overall, one-third of records (33.2%) were system-updated, with a 10-point gap between the highest (Software 38%) and lowest (Hardware 28%), indicating uneven automation across groups that could be standardized to improve workflow consistency."
+  ],
+  "predicted_summary": "Closure times are long across the board: the >90‑day bin is the single largest for every priority (Critical 36, High 30, Moderate 45, Low 38), closures within a week are rare (≤2 per priority), and 39–43% of tickets in each location take >30 days to close—this persists despite nearly half of tickets being high/critical across locations (48–53%).\nProcess end-state and team drive speed: tickets ending in “Resolved” finish 217.82 hours (~9.1 days) faster than “Closed” (2803.34 vs 3021.16 hours; ~7.2% faster). Median times vary by 1,323.94 hours (~55 days) between teams (Database 3921.77h vs Network 2597.83h). Teams with more “Resolved” outcomes (Software 54%, Inquiry / Help 53%) contrast with Database/Hardware where “Closed” dominates (54%/53%); “Resolved” share also varies by location (56% India down to 46% UK).\nCategory-level time metrics show data quality issues: median (closed_at − opened_at) is negative in four of five categories—Network −407.71h, Inquiry / Help −317.24h, Database −283.60h, Hardware −77.62h—while only Software is positive (192.19h), indicating timestamp inconsistencies that can distort category-based duration analyses.",
+  "score_insights": 0.1512150263951299,
+  "score_insights_dict": [
+    {
+      "gt_insight": "Analysis could not be completed due to missing 'processed_date' column in the dataset",
+      "pred_insight": "This ~9-day median gap indicates post-resolution closure steps (e.g., approvals or confirmations) add about 7% to cycle time, suggesting that streamlining closure activities could yield a meaningful efficiency gain.",
+      "score": 0.11344164456257436
+    },
+    {
+      "gt_insight": "The analysis could not be completed due to a ValueError indicating that the 'amount' column is not present in the dataset",
+      "pred_insight": "The share of high/critical cases varies only 5 percentage points across locations (48–53%), yet UK and Canada both exceed 50%, indicating a modest concentration of urgent workload in these regions that could benefit from targeted resourcing to improve throughput.",
+      "score": 0.10711112870075515
+    },
+    {
+      "gt_insight": "Analysis could not be performed due to missing 'department' column in the dataset",
+      "pred_insight": "Caller submissions are perfectly balanced: each of the four caller_ids accounts for 125 of 500 tickets (25% each), indicating no single caller drives volume, so efficiency gains likely hinge more on category, priority, or location rather than on caller-specific interventions.",
+      "score": 0.12249428576318719
+    },
+    {
+      "gt_insight": "Analysis could not be performed because the 'user' column is missing from the dataset",
+      "pred_insight": "The share of high/critical cases varies only 5 percentage points across locations (48–53%), yet UK and Canada both exceed 50%, indicating a modest concentration of urgent workload in these regions that could benefit from targeted resourcing to improve throughput.",
+      "score": 0.12236038504883709
+    },
+    {
+      "gt_insight": "The distribution shows no trend across IT expense categories",
+      "pred_insight": "Caller submissions are perfectly balanced: each of the four caller_ids accounts for 125 of 500 tickets (25% each), indicating no single caller drives volume, so efficiency gains likely hinge more on category, priority, or location rather than on caller-specific interventions.",
+      "score": 0.2906676879002958
+    }
+  ],
+  "score_summary": 0.27778962717869377,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.14924955134027879,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "Caller submissions are perfectly balanced: each of the four caller_ids accounts for 125 of 500 tickets (25% each), indicating no single caller drives volume, so efficiency gains likely hinge more on category, priority, or location rather than on caller-specific interventions.",
+      "gt_insight": "Analysis could not be completed due to missing 'processed_date' column in the dataset",
+      "score": 0.10291342700550636
+    },
+    {
+      "pred_insight": "Database issues take the longest to resolve—about 31% longer than Hardware and roughly 51% longer than Network—suggesting Database is a prime focus area for process improvements to significantly reduce overall resolution time.",
+      "gt_insight": "The analysis could not be completed due to a ValueError indicating that the 'amount' column is not present in the dataset",
+      "score": 0.10384886293771152
+    },
+    {
+      "pred_insight": "Caller submissions are perfectly balanced: each of the four caller_ids accounts for 125 of 500 tickets (25% each), indicating no single caller drives volume, so efficiency gains likely hinge more on category, priority, or location rather than on caller-specific interventions.",
+      "gt_insight": "Analysis could not be performed due to missing 'department' column in the dataset",
+      "score": 0.10396046506415582
+    },
+    {
+      "pred_insight": "Caller submissions are perfectly balanced: each of the four caller_ids accounts for 125 of 500 tickets (25% each), indicating no single caller drives volume, so efficiency gains likely hinge more on category, priority, or location rather than on caller-specific interventions.",
+      "gt_insight": "Analysis could not be performed because the 'user' column is missing from the dataset",
+      "score": 0.10265295835932223
+    },
+    {
+      "pred_insight": "Caller submissions are perfectly balanced: each of the four caller_ids accounts for 125 of 500 tickets (25% each), indicating no single caller drives volume, so efficiency gains likely hinge more on category, priority, or location rather than on caller-specific interventions.",
+      "gt_insight": "The distribution shows no trend across IT expense categories",
+      "score": 0.332872043334698
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.1055430851286856,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.13143355835496967
+}

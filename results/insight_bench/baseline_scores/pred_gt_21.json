@@ -1,0 +1,65 @@
+{
+  "dataset_id": 21,
+  "dataset_path": "data/notebooks/flag-21.json",
+  "metadata": {
+    "category": "Finance Management and User Management",
+    "dataset_description": "The dataset comprises two key tables simulating ServiceNow platform: the `sys_user` table and the `fm_expense_line`. The fm_expense_line dataset consists of 500 entries from, which records various attributes of financial expenses. Key fields include 'number', 'opened_at', 'amount', 'state', 'short_description', 'ci', 'user', 'department', 'category', 'process_date', 'source_id', and 'type'. This table documents the flow of financial transactions by detailing the amount, departmental allocation, and the nature of each expense. Provides a clear view of organizational expenditures across different categories, highlighting both the timing and the approval state of each financial entry. The `sys_user` table, on the other hand, contains user-related information, focusing on the details of employees or system users. This includes fields such as 'user_id', 'name', 'title', 'email', 'start_date', and 'department', providing insights into the user profiles managed within the ServiceNow system.",
+    "goal": "To determine how employment duration influences expense submission errors and rejections, with the aim of enhancing policy compliance and understanding among newer employees.",
+    "header": "Expense Rejection Trends for New Employees (Flag 21)",
+    "role": "HR Data Analyst"
+  },
+  "predicted_insights": [
+    "New hires (months 0–2) experience roughly 14–22 percentage points higher decline rates than mid-tenure employees (months 3–11 at ~20–24%), implying that improving first-month onboarding could prevent about 150–220 declines per 1,000 early submissions; the month-12 spike suggests a possible annual policy or documentation event.",
+    "Although Development has the highest early decline rate, Customer Support generates the most early declines (25 of 86 submissions, 29.1%); reducing Customer Support’s rate by 10 percentage points would avert roughly 9 declines—more impact than a similar focus on Development, where a 10-point reduction would prevent only about 1 decline (given 8 submissions).",
+    "Early declines are broadly distributed rather than concentrated in a small minority: nearly half the cohort drives 80% of early rejections (vs. a classic 20/80 Pareto), with the top 26 users averaging ~1.54 declines each compared to ~0.36 among the remaining 28—indicating targeted onboarding for this group could cut the majority of early declines.",
+    "Among newer employees (first 90 days), missing source_id increases the likelihood of decline by about 23% relative to having one (0.34375 vs 0.28; ratio ≈1.23), indicating that better source attribution could meaningfully reduce early-stage rejections.",
+    "Early-tenure declines are concentrated in lower-volume departments: Development and Finance exceed 50% decline despite small counts (8 and 4 submissions), whereas high-volume Customer Support records a lower 29% decline over 86 submissions, suggesting targeted onboarding in Development/Finance could reduce early errors.",
+    "Early submissions are much more error-prone: the average decline rate across the first three submissions (~32.7%) is about 57% higher than the rate across the 4th and 5th (~14.2%), indicating rapid improvement in compliance within the first 90 days.",
+    "New employees’ travel expenses are declined about 2.37x as often as services (44.44% vs 18.75%) and ~1.14x as often as assets, suggesting targeted early training on travel policies could yield the largest reduction in declines.",
+    "Even post-90 days, nearly 3 in 10 submissions are still declined, with a processed-to-declined ratio of about 2.4:1, indicating that errors persist beyond onboarding and suggesting targeted policy reinforcement for longer-tenure employees.",
+    "Early submissions are about 21% more likely to be declined than later ones (6.19 percentage points higher), indicating a measurable learning effect across 395 finalized expenses.",
+    "Although newer employees’ finalized expenses take about 8 hours longer on median to process, this is only ~6% slower (n=111 vs. n=98), suggesting tenure has a modest impact on processing speed.",
+    "After 180 days, the decline rate drops by about 27% relative to the first 90 days, and newer users accumulate more declines despite fewer finalized submissions (56 vs 50), highlighting a strong early learning curve effect.",
+    "The 40 percentage-point increase in declines for Product Management after 180 days suggests late-stage tenure coincides with more complex or policy-sensitive submissions, whereas departments like Finance and Sales see declines drop by ~29 and ~22 percentage points respectively, indicating experience quickly improves compliance there."
+  ],
+  "predicted_summary": "Newer submitters show a clear learning curve with markedly higher early decline rates that fall with tenure and practice: declines peak at month 0 (38.9% of 72), drop to 27.5% at month 1 and 18.9% by month 2, reaching a low around month 6 (16.7% of 36). Across finalized expenses, the first 90 days have a 39.16% decline rate versus 28.57% after 180 days (−10.59 pp), and within the first 90 days the decline rate falls from 35.2% on a user’s 1st submission to 12.5% by the 5th; overall, a user’s first three submissions decline at 35.80% versus 29.61% for later ones.\nEarly declines are concentrated among a subset of people and are uneven across departments: within the first three months, 48.15% of users (26 of 54) account for 80% of all declined expenses (40 of 50). In the same early window, Development has the highest decline rate at 62.5%, followed by Finance at 50.0% and Sales at 36.59%, indicating substantial department-to-department variation among newer submitters.\nSpecific early risk factors include expense type and missing information: within the first 90 days, Travel and Assets have the highest decline rates (44.44% and 39.06%, respectively) compared with Services (18.75%) and Miscellaneous (25.00%). Missing a source_id increases early decline rates by 6.38 percentage points (34.38% vs 28.00%), and early finalized expenses take slightly longer to process (median 5.56 days vs 5.23 days after 180 days, +0.33 days).",
+  "score_insights": 0.5297624518293901,
+  "score_insights_dict": [
+    {
+      "gt_insight": "Linear Positive Correlation Between New Employee Start Dates and High Expense Rejection Rates",
+      "pred_insight": "Early submissions are about 21% more likely to be declined than later ones (6.19 percentage points higher), indicating a measurable learning effect across 395 finalized expenses.",
+      "score": 0.4146375245639403
+    },
+    {
+      "gt_insight": "Higher Expense Rejection Rates for Employees with Shorter Tenure",
+      "pred_insight": "New employees’ travel expenses are declined about 2.37x as often as services (44.44% vs 18.75%) and ~1.14x as often as assets, suggesting targeted early training on travel policies could yield the largest reduction in declines.",
+      "score": 0.6623330625148501
+    },
+    {
+      "gt_insight": "Proportional Rejection Rates of New Hires Across Departments",
+      "pred_insight": "Early-tenure declines are concentrated in lower-volume departments: Development and Finance exceed 50% decline despite small counts (8 and 4 submissions), whereas high-volume Customer Support records a lower 29% decline over 86 submissions, suggesting targeted onboarding in Development/Finance could reduce early errors.",
+      "score": 0.5123167684093799
+    }
+  ],
+  "score_summary": 0.5527641009328215,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.6278058151649174,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "Early submissions are about 21% more likely to be declined than later ones (6.19 percentage points higher), indicating a measurable learning effect across 395 finalized expenses.",
+      "gt_insight": "Linear Positive Correlation Between New Employee Start Dates and High Expense Rejection Rates",
+      "score": 0.47003679625841227
+    },
+    {
+      "pred_insight": "New employees’ travel expenses are declined about 2.37x as often as services (44.44% vs 18.75%) and ~1.14x as often as assets, suggesting targeted early training on travel policies could yield the largest reduction in declines.",
+      "gt_insight": "Higher Expense Rejection Rates for Employees with Shorter Tenure",
+      "score": 0.7725029226068671
+    },
+    {
+      "pred_insight": "Early-tenure declines are concentrated in lower-volume departments: Development and Finance exceed 50% decline despite small counts (8 and 4 submissions), whereas high-volume Customer Support records a lower 29% decline over 86 submissions, suggesting targeted onboarding in Development/Finance could reduce early errors.",
+      "gt_insight": "Proportional Rejection Rates of New Hires Across Departments",
+      "score": 0.640877726629473
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.11181776300205928,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.8046194520326525
+}

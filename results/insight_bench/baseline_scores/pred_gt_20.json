@@ -1,0 +1,55 @@
+{
+  "dataset_id": 20,
+  "dataset_path": "data/notebooks/flag-20.json",
+  "metadata": {
+    "category": "Finance Management",
+    "dataset_description": "The dataset consists of 500 entries simulating ServiceNow fm_expense_line table, which records various attributes of financial expenses. Key fields include 'number', 'opened_at', 'amount', 'state', 'short_description', 'ci', 'user', 'department', 'category', 'process_date', 'source_id', and 'type'. This table documents the flow of financial transactions by detailing the amount, departmental allocation, and the nature of each expense. Provides a clear view of organizational expenditures across different categories, highlighting both the timing and the approval state of each financial entry.",
+    "goal": "To identify and rectify the causes of high rejection rates in travel expenses to ensure that submissions  align with organizational policies.",
+    "header": "Travel Expense Rejection Analysis (Flag 20)",
+    "role": "Expense Audit Analyst"
+  },
+  "predicted_insights": [
+    "While IT has the highest decline rate, Customer Support contributes the majority of Travel declines (35 of 61, ≈57%), suggesting the biggest absolute reduction opportunity lies in improving Customer Support submissions, alongside addressing IT’s policy-alignment issues.",
+    "Within Travel submissions missing source_id, declines are the most common outcome, exceeding processed by 9 cases (61 vs 52), meaning such submissions are more likely to be declined than processed.",
+    "Smaller and mid-sized Travel expenses are rejected substantially more often than the largest ones—Q1’s decline rate is ~1.5× Q4’s—indicating that targeting guidance and checks on low-to-mid ticket claims could yield the biggest reduction in rejections.",
+    "Despite \"asset\" appearing in about 64% of Travel submissions, their decline rate is 3.81 percentage points lower (≈9% relatively) than non-asset entries, suggesting rejections are driven more by non-asset-related factors.",
+    "Across Jun-2023 to Apr-2024, the Travel decline rate averaged about 41.7% (median 42.86%), with 7 of 11 months at or above 40%, indicating persistently high rejections; the sharp fall from 53.85% in Mar-2024 to 27.27% in Apr-2024 suggests a recent improvement worth investigating.",
+    "Across the top 30 declined Travel expense descriptions, 28 of 30 explicitly mention “asset,” “equipment,” or “hardware,” and the top three descriptions alone account for 10 of 37 instances (27%), suggesting many rejections stem from asset/equipment-related submissions misclassified as Travel.",
+    "Nearly 2 in 5 Travel expenses lacking a source_id are declined (61/146 ≈ 41.8%), suggesting that ensuring source_id is captured could meaningfully lower rejection rates.",
+    "The inability to compute a Declined median for Travel (amid 205 of 500 records overall lacking processed_date, i.e., ~41%) highlights a data capture gap that prevents benchmarking rejection turnaround, whereas Processed Travel items move through in about 2.3 days median.",
+    "A 41.78% decline rate for Travel submissions lacking a source_id suggests that ensuring this field is populated could potentially prevent roughly 2 out of every 5 declines within this subset.",
+    "The top three users (Ofelia Sheffler, Sal Pindell, Zackary Mockus) account for 10 of the 15 declines (≈66.7%) among the frequent Travel submitters listed, with a combined decline rate of 55.6% (10 declines over 18 submissions), suggesting focused guidance for a small group could materially reduce rejections.",
+    "The median Travel decline rate across departments is 40.9%, with Q1 at 0% and Q3 at 50.0%, highlighting wide variability—only Development and Product Management have zero declines, while IT and HR exceed 50%.",
+    "The 3.6% higher average for Processed versus Declined Travel expenses suggests rejection likelihood is not primarily driven by higher amounts, pointing instead to non-monetary factors (e.g., policy compliance or documentation) as likely causes."
+  ],
+  "predicted_summary": "Declines are concentrated in specific parts of the organization within Travel: IT has the highest decline rate (reported between 54.6% by department view and 75% in another slice), followed by HR at 50%, Customer Support at 44.3%, and Sales at 40.9%, while Finance is lower at 25% and Development/Product Management show 0%. At the individual level (users with ≥5 submissions), the highest decline rates include Ofelia Sheffler at 80% (4/5), Sal Pindell at 50% (3/6), Zackary Mockus at 42.86% (3/7), and Geri Forness and Lynda Caraway at 40% each (2/5).\nDecline rates vary meaningfully with expense size in Travel: the lowest and mid quartiles see higher declines—Q1 at 48.65% (18/37) and Q3 at 47.22% (17/36)—while the highest quartile has the lowest decline rate at 32.43% (12/37), with Q2 at 38.89% (14/36). Despite this pattern, average amounts are similar for Declined ($3,792.89) and Processed ($3,927.87) expenses, indicating amount alone is not a strong differentiator at the mean but matters across the distribution.\nTravel rejections rose in late 2023 and stayed elevated into early 2024 before dropping sharply: monthly decline rates were 40% (Jun-2023), 50% (Jul), a low of 21.43% (Sep), a peak of 57.14% (Nov), remaining around 43–54% through Mar-2024 (53.85% in Mar), then falling to 27.27% in Apr-2024. Metadata and description signals show mixed effects: submissions missing source_id have a 41.78% decline rate (61/146), and items with “asset” in the short description see slightly lower declines (40.43% vs 44.23%), yet the most frequent declined descriptions reference automated asset creation/registration.",
+  "score_insights": 0.4657616551157473,
+  "score_insights_dict": [
+    {
+      "gt_insight": "Disproportionately High Rejection Rates for Travel Expenses",
+      "pred_insight": "Smaller and mid-sized Travel expenses are rejected substantially more often than the largest ones—Q1’s decline rate is ~1.5× Q4’s—indicating that targeting guidance and checks on low-to-mid ticket claims could yield the biggest reduction in rejections.",
+      "score": 0.5992005330649773
+    },
+    {
+      "gt_insight": "Variable Distribution of Expense Reports Across Categories",
+      "pred_insight": "The 3.6% higher average for Processed versus Declined Travel expenses suggests rejection likelihood is not primarily driven by higher amounts, pointing instead to non-monetary factors (e.g., policy compliance or documentation) as likely causes.",
+      "score": 0.33232277716651726
+    }
+  ],
+  "score_summary": 0.5176252998132412,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.5753468012864238,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "Smaller and mid-sized Travel expenses are rejected substantially more often than the largest ones—Q1’s decline rate is ~1.5× Q4’s—indicating that targeting guidance and checks on low-to-mid ticket claims could yield the biggest reduction in rejections.",
+      "gt_insight": "Disproportionately High Rejection Rates for Travel Expenses",
+      "score": 0.7921563584284713
+    },
+    {
+      "pred_insight": "While IT has the highest decline rate, Customer Support contributes the majority of Travel declines (35 of 61, ≈57%), suggesting the biggest absolute reduction opportunity lies in improving Customer Support submissions, alongside addressing IT’s policy-alignment issues.",
+      "gt_insight": "Variable Distribution of Expense Reports Across Categories",
+      "score": 0.35853724414437627
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.10203303747386754,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.6259066603270924
+}

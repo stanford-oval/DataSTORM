@@ -1,0 +1,801 @@
+{
+  "id": "7",
+  "prompt": "Provide an analysis of Georgia's upcoming election, civil unrest, and political developments as of October 2024.",
+  "timestamp": "2026-03-29T04:06:47.855371",
+  "openai_dr": {
+    "total_insights": 26,
+    "total_classified": 26,
+    "acled_count": 2,
+    "non_acled_count": 24,
+    "pct_acled": 0.07692307692307693,
+    "details": [
+      {
+        "evidence": "Georgia will hold parliamentary elections on October 26, 2024, using a fully proportional system for the first time, with a 5% threshold for parties to enter parliament.",
+        "is_acled_data": false,
+        "reasoning": "The evidence concerns electoral procedures and dates (parliamentary election date, electoral system, threshold), which are policy/political information, not conflict event data or analysis derived from ACLED.",
+        "source_context": "Upcoming Parliamentary Elections and High Stakes section; Freedom House references."
+      },
+      {
+        "evidence": "The ruling Georgian Dream (GD) party seeks a fourth consecutive term against a fragmented opposition led by the United National Movement (UNM).",
+        "is_acled_data": false,
+        "reasoning": "The statement describes political competition and party dynamics in Georgia’s election, which is general political analysis and not tied to specific ACLED event data such as conflict incidents, fatalities, or actor-level conflict events.",
+        "source_context": "Upcoming Parliamentary Elections and High Stakes section; Freedom House references."
+      },
+      {
+        "evidence": "The election is widely framed as a referendum on Georgia’s geopolitical orientation between a pro-European path and closer ties to Russia.",
+        "is_acled_data": false,
+        "reasoning": "This is general political analysis framing the election as a geopolitical referendum, not event-based conflict data or metrics typically provided by ACLED.",
+        "source_context": "Upcoming Parliamentary Elections and High Stakes; Civil.ge and European Parliament sources."
+      },
+      {
+        "evidence": "International partners have urged that the 2024 elections meet the highest standards of fairness due to the stakes for Georgia’s democracy and foreign policy direction.",
+        "is_acled_data": false,
+        "reasoning": "This is a general diplomatic/political statement about international partners urging fair elections; it is policy/diplomatic commentary and not tied to ACLED event data or metrics.",
+        "source_context": "Upcoming Parliamentary Elections and High Stakes; European Parliament reference."
+      },
+      {
+        "evidence": "A proposed 'foreign agents' law sparked mass protests in March 2023, leading to a temporary withdrawal after police used water cannons and tear gas.",
+        "is_acled_data": true,
+        "reasoning": "The statement cites a specific protest event (mass protests in March 2023 over a foreign agents law) and mentions police use of water cannons and tear gas—details characteristic of ACLED event descriptions of riots/protests and state force usage. This aligns with ACLED-style event data and incident reporting.",
+        "source_context": "Civil Unrest and Public Protests; NPR and Al Jazeera references."
+      },
+      {
+        "evidence": "The ruling party revived and advanced the 'foreign agents' law in 2024, widely viewed as modeled on Russian legislation, triggering new large-scale protests.",
+        "is_acled_data": false,
+        "reasoning": "The statement describes a policy action (reviving a 'foreign agents' law) and general protests in response, without citing specific ACLED event data such as counts, dates, locations, or ACLED-sourced metrics. It is general political analysis/policy change context rather than ACLED-derived event statistics or actor-level data.",
+        "source_context": "Civil Unrest and Public Protests; Al Jazeera and The Guardian references."
+      },
+      {
+        "evidence": "April 2024 saw 20,000+ protesters rally in Tbilisi and other cities against the revived 'foreign agents' bill, resulting in clashes and violent dispersal by riot police.",
+        "is_acled_data": true,
+        "reasoning": "The evidence cites specific protest event details (date period, size estimate, locations, clashes, and police dispersal), which align with ACLED’s protest/riot event reporting and incident descriptions, including counts and temporal patterns.",
+        "source_context": "Civil Unrest and Public Protests; Al Jazeera references."
+      },
+      {
+        "evidence": "European Union institutions and human rights groups condemned the violent crackdown on peaceful protesters, including beatings and dozens of arrests.",
+        "is_acled_data": false,
+        "reasoning": "The statement cites condemnations by EU institutions and human rights groups about a crackdown and arrests, but provides no ACLED-specific event counts, locations, actor coding, or attribution to ACLED. It reflects general reporting/advocacy statements rather than ACLED-derived event data.",
+        "source_context": "Civil Unrest and Public Protests; Al Jazeera and European Parliament references."
+      },
+      {
+        "evidence": "Civic activists, students, and opposition figures faced intimidation and attacks by unidentified assailants in mid-2024, reflecting rising political violence.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general claim about intimidation and attacks without specific event counts, locations, dates, actors, or attribution to ACLED. It reads as qualitative analysis rather than citing ACLED event data or statistics.",
+        "source_context": "Civil Unrest and Public Protests; ACLED references."
+      },
+      {
+        "evidence": "Public anger has also targeted perceived pro-Russian moves by the government, such as the resumption of direct Russia–Georgia flights in May 2023.",
+        "is_acled_data": false,
+        "reasoning": "The statement discusses public anger over government policy (resumption of Russia–Georgia flights) without citing conflict event data, counts, locations, fatalities, or ACLED attribution. It is general political commentary, not derived from ACLED event data.",
+        "source_context": "Civil Unrest and Public Protests; BBC references."
+      },
+      {
+        "evidence": "Parliament passed a sweeping anti-LGBTQ+ law in 2024 banning same-sex marriage and adoption, prohibiting gender-affirming care and legal gender changes, and outlawing positive LGBTQ depictions in media.",
+        "is_acled_data": false,
+        "reasoning": "The statement describes passage of legislation and policy content, which is a government policy action, not an ACLED conflict event metric or analysis. It lacks event counts, locations, fatalities, or actor-level conflict data and is not attributed to ACLED.",
+        "source_context": "Democratic Backsliding and Political Developments; Politico EU reference."
+      },
+      {
+        "evidence": "President Salome Zurabishvili vetoed the anti-LGBTQ+ law, but the GD-controlled parliament overrode the veto and enacted it in September 2024.",
+        "is_acled_data": false,
+        "reasoning": "The evidence describes a legislative action (a veto and parliamentary override) and policy enactment, which are government declarations/political developments rather than conflict event data, fatalities, or protest/violence statistics. This falls under policy statements/government actions, which are not ACLED data unless tied to specific conflict events.",
+        "source_context": "Democratic Backsliding and Political Developments; Politico EU reference."
+      },
+      {
+        "evidence": "Authorities have pursued additional measures seen as undermining democracy, including weakening oversight of the national election commission and attacking independent media and civil society.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general political analysis about governance and democratic backsliding (weakening election commission oversight, attacks on media/civil society) without reference to specific conflict events, counts, locations, fatalities, or ACLED-attributed data. It is not tied to ACLED event-based metrics.",
+        "source_context": "Democratic Backsliding and Political Developments; Freedom House and European Parliament references."
+      },
+      {
+        "evidence": "GD leaders have increasingly used anti-Western rhetoric; founder Bidzina Ivanishvili accused 'foreign agents' and Western conspirators of harming Georgia in April 2024.",
+        "is_acled_data": false,
+        "reasoning": "The statement is about political rhetoric and accusations by a party founder in April 2024; it is a policy/political declaration and general analysis, not specific conflict event data, counts, locations, or ACLED-attributed metrics.",
+        "source_context": "Democratic Backsliding and Political Developments; The Guardian reference."
+      },
+      {
+        "evidence": "Top GD officials have floated the possibility of banning certain opposition parties, escalating concerns about authoritarian tendencies.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general political development about officials considering banning opposition parties; it is a policy/political claim, not a specific conflict event, statistic, or trend derived from ACLED event data.",
+        "source_context": "Democratic Backsliding and Political Developments; European Parliament and Civil.ge references."
+      },
+      {
+        "evidence": "Georgia’s relations with Western partners have deteriorated, with the EU putting Georgia’s membership bid on hold due to democratic backsliding and rights violations despite candidate status granted in December 2023.",
+        "is_acled_data": false,
+        "reasoning": "The statement concerns EU-Georgia relations and the status of Georgia’s EU membership bid, which is a policy/diplomatic development and general political analysis, not conflict event data or metrics tracked by ACLED.",
+        "source_context": "Democratic Backsliding and Political Developments; European Parliament and The Guardian references."
+      },
+      {
+        "evidence": "The European Parliament warned in October 2024 that repressive laws targeting media, NGOs, and LGBTQ groups violate EU values and called for their repeal to resume integration progress.",
+        "is_acled_data": false,
+        "reasoning": "The statement describes a European Parliament warning and policy position regarding laws in Georgia. This is a policy/diplomatic action and general political commentary, not conflict event data or analysis derived from ACLED’s datasets.",
+        "source_context": "Democratic Backsliding and Political Developments; European Parliament references."
+      },
+      {
+        "evidence": "Brussels and Washington have raised the prospect of sanctions against individuals, including Ivanishvili and ruling party officials, for undermining democracy if backsliding continues.",
+        "is_acled_data": false,
+        "reasoning": "The statement concerns prospective sanctions by Brussels and Washington against specific individuals for democratic backsliding. This is a policy/diplomatic action and general political analysis, not conflict event data, fatalities, or actor/event information from ACLED.",
+        "source_context": "Democratic Backsliding and Political Developments; European Parliament references."
+      },
+      {
+        "evidence": "The GD government attempted to impeach President Zurabishvili in late 2023 over her pro-EU advocacy abroad, but the motion failed.",
+        "is_acled_data": false,
+        "reasoning": "The statement describes a political impeachment attempt and its outcome, which is a policy/government action and political development, not a conflict event metric or actor/event data from ACLED. It lacks event counts, fatalities, locations, or attribution to ACLED.",
+        "source_context": "Democratic Backsliding and Political Developments; RFE/RL references."
+      },
+      {
+        "evidence": "Opposition and civil society leaders, supported by European institutions, continue to call for the release of jailed ex-President Mikheil Saakashvili on humanitarian and rule-of-law grounds.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general political/policy claim about calls by opposition, civil society, and European institutions for Saakashvili’s release. It does not reference specific conflict events, counts, fatalities, locations, or ACLED-attributed data.",
+        "source_context": "Democratic Backsliding and Political Developments; Wikipedia summary of protests."
+      },
+      {
+        "evidence": "Opposition parties have formed electoral coalitions to overcome the 5% threshold and avoid vote fragmentation against GD in the 2024 elections.",
+        "is_acled_data": false,
+        "reasoning": "The statement concerns political strategy and coalition formation to surpass an electoral threshold, which is general political analysis and not derived from ACLED’s conflict event data or metrics.",
+        "source_context": "Outlook as of October 2024; Civil.ge reference."
+      },
+      {
+        "evidence": "Opposition and civic leaders characterize the 2024 election as a 'fight for life or death' for Georgia’s democratic future and pro-Western trajectory.",
+        "is_acled_data": false,
+        "reasoning": "This is a qualitative political statement/characterization by opposition and civic leaders, not event-based conflict data, statistics, or analysis attributed to ACLED.",
+        "source_context": "Outlook as of October 2024; The Guardian reference."
+      },
+      {
+        "evidence": "The GD government is leveraging state resources, social programs, and loyal media to maintain support, positioning itself as the guarantor of stability and peace.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general political analysis about the ruling party’s use of state resources and media to maintain support; it does not reference specific conflict events, actors, or ACLED-derived metrics such as event counts, fatalities, or protest data.",
+        "source_context": "Outlook as of October 2024; Civil.ge and The Guardian references."
+      },
+      {
+        "evidence": "Georgia is deeply polarized: younger, urban, pro-EU constituencies oppose what they see as authoritarian drift, while conservative and rural voters back GD’s promises of order and traditional values.",
+        "is_acled_data": false,
+        "reasoning": "The statement is general political analysis about societal polarization and voter preferences, not specific conflict event data, figures, locations, or actor-level details attributed to ACLED.",
+        "source_context": "Outlook as of October 2024; synthesis across sections."
+      },
+      {
+        "evidence": "The credibility and fairness of the election process are critical; perceived fraud or heavy-handed tactics could trigger further unrest and alienate Western partners.",
+        "is_acled_data": false,
+        "reasoning": "The statement is general political analysis about election credibility and potential unrest; it does not cite specific conflict events, counts, actors, or ACLED-derived metrics.",
+        "source_context": "Outlook as of October 2024; European Parliament reference."
+      },
+      {
+        "evidence": "As of October 2024, Georgia faces a pivotal choice between revitalizing democratic institutions and Euro-Atlantic integration or continuing internal crackdowns and drifting away from the West, with long-term implications for stability and international standing.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a broad geopolitical assessment about Georgia’s political trajectory and international alignment, not citing specific conflict events, counts, fatalities, locations, or ACLED-derived trends. It is general commentary rather than event-based data attributable to ACLED.",
+        "source_context": "Outlook as of October 2024; European Parliament and The Guardian references."
+      }
+    ],
+    "insights": [
+      {
+        "insight": "Georgia will hold parliamentary elections on October 26, 2024, using a fully proportional system for the first time, with a 5% threshold for parties to enter parliament.",
+        "context": "Upcoming Parliamentary Elections and High Stakes section; Freedom House references."
+      },
+      {
+        "insight": "The ruling Georgian Dream (GD) party seeks a fourth consecutive term against a fragmented opposition led by the United National Movement (UNM).",
+        "context": "Upcoming Parliamentary Elections and High Stakes section; Freedom House references."
+      },
+      {
+        "insight": "The election is widely framed as a referendum on Georgia’s geopolitical orientation between a pro-European path and closer ties to Russia.",
+        "context": "Upcoming Parliamentary Elections and High Stakes; Civil.ge and European Parliament sources."
+      },
+      {
+        "insight": "International partners have urged that the 2024 elections meet the highest standards of fairness due to the stakes for Georgia’s democracy and foreign policy direction.",
+        "context": "Upcoming Parliamentary Elections and High Stakes; European Parliament reference."
+      },
+      {
+        "insight": "A proposed 'foreign agents' law sparked mass protests in March 2023, leading to a temporary withdrawal after police used water cannons and tear gas.",
+        "context": "Civil Unrest and Public Protests; NPR and Al Jazeera references."
+      },
+      {
+        "insight": "The ruling party revived and advanced the 'foreign agents' law in 2024, widely viewed as modeled on Russian legislation, triggering new large-scale protests.",
+        "context": "Civil Unrest and Public Protests; Al Jazeera and The Guardian references."
+      },
+      {
+        "insight": "April 2024 saw 20,000+ protesters rally in Tbilisi and other cities against the revived 'foreign agents' bill, resulting in clashes and violent dispersal by riot police.",
+        "context": "Civil Unrest and Public Protests; Al Jazeera references."
+      },
+      {
+        "insight": "European Union institutions and human rights groups condemned the violent crackdown on peaceful protesters, including beatings and dozens of arrests.",
+        "context": "Civil Unrest and Public Protests; Al Jazeera and European Parliament references."
+      },
+      {
+        "insight": "Civic activists, students, and opposition figures faced intimidation and attacks by unidentified assailants in mid-2024, reflecting rising political violence.",
+        "context": "Civil Unrest and Public Protests; ACLED references."
+      },
+      {
+        "insight": "Public anger has also targeted perceived pro-Russian moves by the government, such as the resumption of direct Russia–Georgia flights in May 2023.",
+        "context": "Civil Unrest and Public Protests; BBC references."
+      },
+      {
+        "insight": "Parliament passed a sweeping anti-LGBTQ+ law in 2024 banning same-sex marriage and adoption, prohibiting gender-affirming care and legal gender changes, and outlawing positive LGBTQ depictions in media.",
+        "context": "Democratic Backsliding and Political Developments; Politico EU reference."
+      },
+      {
+        "insight": "President Salome Zurabishvili vetoed the anti-LGBTQ+ law, but the GD-controlled parliament overrode the veto and enacted it in September 2024.",
+        "context": "Democratic Backsliding and Political Developments; Politico EU reference."
+      },
+      {
+        "insight": "Authorities have pursued additional measures seen as undermining democracy, including weakening oversight of the national election commission and attacking independent media and civil society.",
+        "context": "Democratic Backsliding and Political Developments; Freedom House and European Parliament references."
+      },
+      {
+        "insight": "GD leaders have increasingly used anti-Western rhetoric; founder Bidzina Ivanishvili accused 'foreign agents' and Western conspirators of harming Georgia in April 2024.",
+        "context": "Democratic Backsliding and Political Developments; The Guardian reference."
+      },
+      {
+        "insight": "Top GD officials have floated the possibility of banning certain opposition parties, escalating concerns about authoritarian tendencies.",
+        "context": "Democratic Backsliding and Political Developments; European Parliament and Civil.ge references."
+      },
+      {
+        "insight": "Georgia’s relations with Western partners have deteriorated, with the EU putting Georgia’s membership bid on hold due to democratic backsliding and rights violations despite candidate status granted in December 2023.",
+        "context": "Democratic Backsliding and Political Developments; European Parliament and The Guardian references."
+      },
+      {
+        "insight": "The European Parliament warned in October 2024 that repressive laws targeting media, NGOs, and LGBTQ groups violate EU values and called for their repeal to resume integration progress.",
+        "context": "Democratic Backsliding and Political Developments; European Parliament references."
+      },
+      {
+        "insight": "Brussels and Washington have raised the prospect of sanctions against individuals, including Ivanishvili and ruling party officials, for undermining democracy if backsliding continues.",
+        "context": "Democratic Backsliding and Political Developments; European Parliament references."
+      },
+      {
+        "insight": "The GD government attempted to impeach President Zurabishvili in late 2023 over her pro-EU advocacy abroad, but the motion failed.",
+        "context": "Democratic Backsliding and Political Developments; RFE/RL references."
+      },
+      {
+        "insight": "Opposition and civil society leaders, supported by European institutions, continue to call for the release of jailed ex-President Mikheil Saakashvili on humanitarian and rule-of-law grounds.",
+        "context": "Democratic Backsliding and Political Developments; Wikipedia summary of protests."
+      },
+      {
+        "insight": "Opposition parties have formed electoral coalitions to overcome the 5% threshold and avoid vote fragmentation against GD in the 2024 elections.",
+        "context": "Outlook as of October 2024; Civil.ge reference."
+      },
+      {
+        "insight": "Opposition and civic leaders characterize the 2024 election as a 'fight for life or death' for Georgia’s democratic future and pro-Western trajectory.",
+        "context": "Outlook as of October 2024; The Guardian reference."
+      },
+      {
+        "insight": "The GD government is leveraging state resources, social programs, and loyal media to maintain support, positioning itself as the guarantor of stability and peace.",
+        "context": "Outlook as of October 2024; Civil.ge and The Guardian references."
+      },
+      {
+        "insight": "Georgia is deeply polarized: younger, urban, pro-EU constituencies oppose what they see as authoritarian drift, while conservative and rural voters back GD’s promises of order and traditional values.",
+        "context": "Outlook as of October 2024; synthesis across sections."
+      },
+      {
+        "insight": "The credibility and fairness of the election process are critical; perceived fraud or heavy-handed tactics could trigger further unrest and alienate Western partners.",
+        "context": "Outlook as of October 2024; European Parliament reference."
+      },
+      {
+        "insight": "As of October 2024, Georgia faces a pivotal choice between revitalizing democratic institutions and Euro-Atlantic integration or continuing internal crackdowns and drifting away from the West, with long-term implications for stability and international standing.",
+        "context": "Outlook as of October 2024; European Parliament and The Guardian references."
+      }
+    ],
+    "prompt": "Provide an analysis of Georgia's upcoming election, civil unrest, and political developments as of October 2024."
+  },
+  "openai_dr_csv": {
+    "total_insights": 28,
+    "total_classified": 28,
+    "acled_count": 1,
+    "non_acled_count": 27,
+    "pct_acled": 0.03571428571428571,
+    "details": [
+      {
+        "evidence": "Georgia scheduled pivotal parliamentary elections for 26 October 2024, the first under a fully proportional system electing all 150 seats nationwide.",
+        "is_acled_data": false,
+        "reasoning": "The statement concerns the scheduling and structure of Georgia’s parliamentary elections (date and electoral system). This is electoral/political information, not conflict event data or analysis derived from ACLED.",
+        "source_context": "Upcoming Parliamentary Elections section, opening paragraph"
+      },
+      {
+        "evidence": "A 5% vote threshold applies for party entry, and multi-party electoral blocs are not permitted, structurally favoring the two largest parties (GD and UNM).",
+        "is_acled_data": false,
+        "reasoning": "The statement concerns electoral rules (vote threshold and bloc bans) and political party dynamics, which are policy/electoral system details, not conflict event data or ACLED-derived metrics.",
+        "source_context": "Upcoming Parliamentary Elections section, electoral rules description"
+      },
+      {
+        "evidence": "The election outcome is expected to significantly shape Georgia’s trajectory toward EU and NATO integration.",
+        "is_acled_data": false,
+        "reasoning": "This is a general geopolitical forecast about the election’s impact on EU/NATO integration, not tied to specific conflict event data, counts, actors, or trends from ACLED.",
+        "source_context": "Upcoming Parliamentary Elections section, stakes of the election"
+      },
+      {
+        "evidence": "The campaign environment was tense and polarized, framed by GD as a choice between peace and war, and by the opposition as democratic West vs. authoritarian Russia.",
+        "is_acled_data": false,
+        "reasoning": "The statement is qualitative political framing of the campaign environment and polarization, not specific conflict event data, counts, fatalities, or actor-level events attributed to ACLED. It is general analysis, not ACLED-derived.",
+        "source_context": "Upcoming Parliamentary Elections section, polarization framing"
+      },
+      {
+        "evidence": "Pre-election polling suggested no party would secure an outright majority, making a coalition government likely.",
+        "is_acled_data": false,
+        "reasoning": "Pre-election polling and coalition projections are political analysis, not conflict event data or ACLED-derived metrics. ACLED does not provide polling or electoral majority forecasts.",
+        "source_context": "Upcoming Parliamentary Elections section, opinion polls"
+      },
+      {
+        "evidence": "EU and OSCE planned close observation of the elections, treating them as a key benchmark for Georgia’s EU candidacy.",
+        "is_acled_data": false,
+        "reasoning": "The statement concerns EU/OSCE election observation plans and EU candidacy benchmarks, which are policy/diplomatic actions and general political context, not conflict event data or ACLED-derived metrics.",
+        "source_context": "Upcoming Parliamentary Elections section, international observation"
+      },
+      {
+        "evidence": "Mass protests in 2023 and 2024 opposed a proposed Law on Transparency of Foreign Influence, termed the 'foreign agents' law.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general description of protests against a proposed law, without specific ACLED-linked event counts, locations, actors, or fatalities, and no attribution to ACLED data.",
+        "source_context": "Civil Unrest and Protest Movements section, overview of protests"
+      },
+      {
+        "evidence": "The proposed law would require NGOs, media, and individuals receiving over 20% foreign funding to register as 'foreign agents', mirroring a Russian law.",
+        "is_acled_data": false,
+        "reasoning": "This statement describes a proposed foreign agents law and its provisions; it is a policy/legal development and not conflict event data or analysis derived from ACLED datasets.",
+        "source_context": "Civil Unrest and Protest Movements section, law provisions"
+      },
+      {
+        "evidence": "Western governments and local civil society warned the law would undermine civil society, media freedom, and EU integration.",
+        "is_acled_data": false,
+        "reasoning": "The statement describes warnings from Western governments and civil society about a law’s impact on civil society, media freedom, and EU integration. This is a policy/political commentary and not specific conflict event data, statistics, or analysis explicitly tied to ACLED.",
+        "source_context": "Civil Unrest and Protest Movements section, reactions and risks"
+      },
+      {
+        "evidence": "After initial passage in a first reading in March 2023, mass protests forced the government to withdraw the bill on March 9, 2023.",
+        "is_acled_data": false,
+        "reasoning": "The statement describes legislative proceedings and mass protests leading to withdrawal of a bill on a specific date. While protests are within ACLED’s scope, the evidence is a narrative about a bill’s passage and withdrawal rather than citing ACLED event data, counts, locations, or ACLED attribution. It appears to be general political context, not explicitly derived from ACLED.",
+        "source_context": "Civil Unrest and Protest Movements section, 2023 withdrawal"
+      },
+      {
+        "evidence": "The ruling party reintroduced the bill in April 2024 and passed it in May 2024 despite renewed nationwide protests and Western condemnation.",
+        "is_acled_data": false,
+        "reasoning": "The statement concerns legislative actions (reintroduction and passage of a bill) and international reactions, which are policy/political developments rather than specific conflict event data. It lacks ACLED-style event counts, locations, or descriptions tied to protests, fatalities, or actors. Therefore, it is not derived from ACLED data.",
+        "source_context": "Civil Unrest and Protest Movements section, 2024 passage"
+      },
+      {
+        "evidence": "Security forces used tear gas, water cannons, and conducted mass arrests in 2024 protests, prompting concerns about excessive force.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general description of protest policing tactics and mass arrests in 2024 without citing specific event counts, locations, fatalities, or attribution to ACLED. It reads like media/journalistic summary rather than ACLED-derived event data or metrics.",
+        "source_context": "Civil Unrest and Protest Movements section, policing of protests"
+      },
+      {
+        "evidence": "Opponents feared the law would be used to intimidate election monitors and civil society ahead of the October 2024 vote.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general political assessment about concerns over a law’s potential use ahead of elections, not specific conflict event data, statistics, or analysis attributed to ACLED.",
+        "source_context": "Civil Unrest and Protest Movements section, pre-election implications"
+      },
+      {
+        "evidence": "ACLED recorded spikes in protest activity: around 47 incidents in March 2023 and about 55 in May 2024, reflecting heightened unrest.",
+        "is_acled_data": true,
+        "reasoning": "The statement cites specific counts of protest incidents by month and year (“around 47 incidents in March 2023” and “about 55 in May 2024”) and attributes them to ACLED, which aligns with ACLED’s event count and temporal pattern data.",
+        "source_context": "Civil Unrest and Protest Movements section, ACLED data"
+      },
+      {
+        "evidence": "In October 2024, activists and media filed a legal appeal at the European Court of Human Rights challenging the 'foreign agents' law.",
+        "is_acled_data": false,
+        "reasoning": "The evidence describes a legal appeal to the European Court of Human Rights regarding a ‘foreign agents’ law, which is a policy/legal action, not a conflict event metric or ACLED-attributed event data. It is not tied to ACLED event counts, fatalities, or actor-level conflict data.",
+        "source_context": "Civil Unrest and Protest Movements section, legal challenge"
+      },
+      {
+        "evidence": "EU leaders granted Georgia EU candidate status in December 2023 conditional on key democratic reforms and nine rule-of-law priorities.",
+        "is_acled_data": false,
+        "reasoning": "This is a policy/diplomatic development (EU granting candidate status) and not conflict event data, fatalities, or ACLED-derived metrics. It falls under policy statements/government declarations, which are not ACLED data.",
+        "source_context": "Political Developments and International Responses section, EU candidacy conditions"
+      },
+      {
+        "evidence": "Since obtaining candidate status, the government advanced measures seen as contradicting EU principles, jeopardizing accession talks.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a political analysis about EU accession principles and government measures; it is not tied to specific conflict events, counts, or ACLED-derived metrics.",
+        "source_context": "Political Developments and International Responses section, reform backsliding"
+      },
+      {
+        "evidence": "A mid-2024 tax amnesty law allowing offshore assets tax-free entry drew criticism for enabling illicit money flows and empowering oligarchs.",
+        "is_acled_data": false,
+        "reasoning": "The evidence describes an economic policy (a tax amnesty law) and critiques about illicit financial flows and oligarchs. This is a policy/economic analysis, not conflict event data, fatalities, riots/protests counts, or ACLED-attributed metrics. Therefore, it is not derived from ACLED.",
+        "source_context": "Political Developments and International Responses section, tax amnesty concerns"
+      },
+      {
+        "evidence": "Amendments to the electoral code in 2023–24 weakened oversight of the Central Election Commission, raising integrity concerns.",
+        "is_acled_data": false,
+        "reasoning": "The statement concerns legal amendments to Georgia’s electoral code and institutional oversight of the CEC, which is a policy/governance development rather than conflict event data. It is not tied to ACLED event counts, actor data, or conflict trends, nor explicitly attributed to ACLED.",
+        "source_context": "Political Developments and International Responses section, electoral oversight changes"
+      },
+      {
+        "evidence": "The United States sanctioned Georgian judges and officials over corruption and anti-democratic actions, while the EU stalled membership talks pending reforms.",
+        "is_acled_data": false,
+        "reasoning": "The evidence describes U.S. sanctions on Georgian judges/officials and the EU stalling membership talks—policy and diplomatic actions. These are not ACLED event data (no conflict incidents, fatalities, protests, or actor/event records).",
+        "source_context": "Political Developments and International Responses section, international responses"
+      },
+      {
+        "evidence": "By 2024, Georgian Dream and allies exerted dominant control over state institutions including security services, judiciary, and election administration, fueling backsliding warnings.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general political assessment about party control over institutions and democratic backsliding; it does not reference specific conflict events, counts, fatalities, locations, or actor-level data tied to ACLED.",
+        "source_context": "Political Developments and International Responses section, institutional dominance"
+      },
+      {
+        "evidence": "The opposition remains fragmented and has faced harassment and violence, contributing to a polarized domestic environment.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general political assessment about opposition fragmentation and a polarized environment, without reference to specific conflict events, counts, locations, or ACLED-attributed metrics. It reads as analytical commentary rather than data derived from ACLED event records.",
+        "source_context": "Political Developments and International Responses section, opposition status"
+      },
+      {
+        "evidence": "Former president Mikheil Saakashvili, imprisoned since 2021, became a flashpoint; Western officials urged his release for medical treatment, which the government refused.",
+        "is_acled_data": false,
+        "reasoning": "The statement is about a political figure’s imprisonment and international diplomatic pressure for medical release. It describes policy/government decisions and commentary, not specific conflict events, counts, fatalities, or ACLED-attributed event data.",
+        "source_context": "Political Developments and International Responses section, Saakashvili case"
+      },
+      {
+        "evidence": "President Salome Zourabichvili’s pro-EU advocacy trips led GD to attempt impeachment in fall 2023; the bid failed in October 2023 due to lack of supermajority.",
+        "is_acled_data": false,
+        "reasoning": "The evidence describes political actions (impeachment attempt) and outcomes in 2023, which are policy/government actions and political developments, not conflict event data, fatalities, or actor-level event records typical of ACLED. It is general political analysis/history, not derived from ACLED datasets.",
+        "source_context": "Political Developments and International Responses section, impeachment attempt"
+      },
+      {
+        "evidence": "GD figures and allied 'People’s Power' faction amplified anti-Western rhetoric in 2023, alleging foreign plots to incite unrest.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a political analysis about rhetoric by GD and the People’s Power faction, alleging foreign plots. It does not reference specific conflict events, counts, locations, fatalities, or actor-event data tied to ACLED. It is commentary on messaging, not ACLED-derived event data.",
+        "source_context": "Political Developments and International Responses section, rhetoric and allegations"
+      },
+      {
+        "evidence": "In September 2023, security services alleged a USAID-backed plot to overthrow the government; the U.S. Embassy denied the claims.",
+        "is_acled_data": false,
+        "reasoning": "This is a policy/government allegation and diplomatic denial, a political statement reported in media, not a conflict event dataset metric or ACLED-attributed event description. It lacks ACLED-specific event coding, counts, locations, or actor/event taxonomy.",
+        "source_context": "Political Developments and International Responses section, conspiracy allegation"
+      },
+      {
+        "evidence": "Georgia’s political divide centers on orientation: a tilt toward Moscow-style governance versus Euro-Atlantic integration.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general political analysis about ideological orientation (Moscow-style governance vs Euro-Atlantic integration) and does not reference specific conflict events, counts, actors, locations, or ACLED-derived metrics. It is not tied to ACLED event data.",
+        "source_context": "Political Developments and International Responses section, core political cleavage"
+      },
+      {
+        "evidence": "As of October 2024, the elections’ conduct and perceived legitimacy will heavily influence Georgia’s stability and EU accession prospects.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general analytical assertion about how election legitimacy may affect stability and EU accession prospects; it does not reference specific conflict events, counts, fatalities, locations, or ACLED-derived metrics.",
+        "source_context": "Summary section, implications for stability and EU path"
+      }
+    ],
+    "insights": [
+      {
+        "insight": "Georgia scheduled pivotal parliamentary elections for 26 October 2024, the first under a fully proportional system electing all 150 seats nationwide.",
+        "context": "Upcoming Parliamentary Elections section, opening paragraph"
+      },
+      {
+        "insight": "A 5% vote threshold applies for party entry, and multi-party electoral blocs are not permitted, structurally favoring the two largest parties (GD and UNM).",
+        "context": "Upcoming Parliamentary Elections section, electoral rules description"
+      },
+      {
+        "insight": "The election outcome is expected to significantly shape Georgia’s trajectory toward EU and NATO integration.",
+        "context": "Upcoming Parliamentary Elections section, stakes of the election"
+      },
+      {
+        "insight": "The campaign environment was tense and polarized, framed by GD as a choice between peace and war, and by the opposition as democratic West vs. authoritarian Russia.",
+        "context": "Upcoming Parliamentary Elections section, polarization framing"
+      },
+      {
+        "insight": "Pre-election polling suggested no party would secure an outright majority, making a coalition government likely.",
+        "context": "Upcoming Parliamentary Elections section, opinion polls"
+      },
+      {
+        "insight": "EU and OSCE planned close observation of the elections, treating them as a key benchmark for Georgia’s EU candidacy.",
+        "context": "Upcoming Parliamentary Elections section, international observation"
+      },
+      {
+        "insight": "Mass protests in 2023 and 2024 opposed a proposed Law on Transparency of Foreign Influence, termed the 'foreign agents' law.",
+        "context": "Civil Unrest and Protest Movements section, overview of protests"
+      },
+      {
+        "insight": "The proposed law would require NGOs, media, and individuals receiving over 20% foreign funding to register as 'foreign agents', mirroring a Russian law.",
+        "context": "Civil Unrest and Protest Movements section, law provisions"
+      },
+      {
+        "insight": "Western governments and local civil society warned the law would undermine civil society, media freedom, and EU integration.",
+        "context": "Civil Unrest and Protest Movements section, reactions and risks"
+      },
+      {
+        "insight": "After initial passage in a first reading in March 2023, mass protests forced the government to withdraw the bill on March 9, 2023.",
+        "context": "Civil Unrest and Protest Movements section, 2023 withdrawal"
+      },
+      {
+        "insight": "The ruling party reintroduced the bill in April 2024 and passed it in May 2024 despite renewed nationwide protests and Western condemnation.",
+        "context": "Civil Unrest and Protest Movements section, 2024 passage"
+      },
+      {
+        "insight": "Security forces used tear gas, water cannons, and conducted mass arrests in 2024 protests, prompting concerns about excessive force.",
+        "context": "Civil Unrest and Protest Movements section, policing of protests"
+      },
+      {
+        "insight": "Opponents feared the law would be used to intimidate election monitors and civil society ahead of the October 2024 vote.",
+        "context": "Civil Unrest and Protest Movements section, pre-election implications"
+      },
+      {
+        "insight": "ACLED recorded spikes in protest activity: around 47 incidents in March 2023 and about 55 in May 2024, reflecting heightened unrest.",
+        "context": "Civil Unrest and Protest Movements section, ACLED data"
+      },
+      {
+        "insight": "In October 2024, activists and media filed a legal appeal at the European Court of Human Rights challenging the 'foreign agents' law.",
+        "context": "Civil Unrest and Protest Movements section, legal challenge"
+      },
+      {
+        "insight": "EU leaders granted Georgia EU candidate status in December 2023 conditional on key democratic reforms and nine rule-of-law priorities.",
+        "context": "Political Developments and International Responses section, EU candidacy conditions"
+      },
+      {
+        "insight": "Since obtaining candidate status, the government advanced measures seen as contradicting EU principles, jeopardizing accession talks.",
+        "context": "Political Developments and International Responses section, reform backsliding"
+      },
+      {
+        "insight": "A mid-2024 tax amnesty law allowing offshore assets tax-free entry drew criticism for enabling illicit money flows and empowering oligarchs.",
+        "context": "Political Developments and International Responses section, tax amnesty concerns"
+      },
+      {
+        "insight": "Amendments to the electoral code in 2023–24 weakened oversight of the Central Election Commission, raising integrity concerns.",
+        "context": "Political Developments and International Responses section, electoral oversight changes"
+      },
+      {
+        "insight": "The United States sanctioned Georgian judges and officials over corruption and anti-democratic actions, while the EU stalled membership talks pending reforms.",
+        "context": "Political Developments and International Responses section, international responses"
+      },
+      {
+        "insight": "By 2024, Georgian Dream and allies exerted dominant control over state institutions including security services, judiciary, and election administration, fueling backsliding warnings.",
+        "context": "Political Developments and International Responses section, institutional dominance"
+      },
+      {
+        "insight": "The opposition remains fragmented and has faced harassment and violence, contributing to a polarized domestic environment.",
+        "context": "Political Developments and International Responses section, opposition status"
+      },
+      {
+        "insight": "Former president Mikheil Saakashvili, imprisoned since 2021, became a flashpoint; Western officials urged his release for medical treatment, which the government refused.",
+        "context": "Political Developments and International Responses section, Saakashvili case"
+      },
+      {
+        "insight": "President Salome Zourabichvili’s pro-EU advocacy trips led GD to attempt impeachment in fall 2023; the bid failed in October 2023 due to lack of supermajority.",
+        "context": "Political Developments and International Responses section, impeachment attempt"
+      },
+      {
+        "insight": "GD figures and allied 'People’s Power' faction amplified anti-Western rhetoric in 2023, alleging foreign plots to incite unrest.",
+        "context": "Political Developments and International Responses section, rhetoric and allegations"
+      },
+      {
+        "insight": "In September 2023, security services alleged a USAID-backed plot to overthrow the government; the U.S. Embassy denied the claims.",
+        "context": "Political Developments and International Responses section, conspiracy allegation"
+      },
+      {
+        "insight": "Georgia’s political divide centers on orientation: a tilt toward Moscow-style governance versus Euro-Atlantic integration.",
+        "context": "Political Developments and International Responses section, core political cleavage"
+      },
+      {
+        "insight": "As of October 2024, the elections’ conduct and perceived legitimacy will heavily influence Georgia’s stability and EU accession prospects.",
+        "context": "Summary section, implications for stability and EU path"
+      }
+    ],
+    "prompt": "Provide an analysis of Georgia's upcoming election, civil unrest, and political developments as of October 2024."
+  },
+  "costorm": {
+    "total_insights": 22,
+    "total_classified": 22,
+    "acled_count": 13,
+    "non_acled_count": 9,
+    "pct_acled": 0.5909090909090909,
+    "details": [
+      {
+        "evidence": "Georgia’s 2024 unrest featured mass protests and intense polarization but officially recorded no protest-related fatalities and relatively few police interventions, even during large post-election rallies.",
+        "is_acled_data": false,
+        "reasoning": "The statement provides qualitative claims about protest-related fatalities and police interventions without citing ACLED or presenting specific ACLED event or fatality counts. It reads as general analysis/summary rather than explicit ACLED-derived event data or statistics.",
+        "source_context": "Intro: contrasts chaotic optics with a near bloodless official record in 2024 using ACLED and post-election scenes."
+      },
+      {
+        "evidence": "The October 26 parliamentary elections were framed as a referendum on Georgia’s trajectory: potential one-party dominance under Georgian Dream versus a return to competitive pluralism and closer EU integration.",
+        "is_acled_data": false,
+        "reasoning": "The statement is general political analysis about how the elections were framed and potential political trajectories; it does not reference conflict events, fatalities, protests, or any ACLED-derived metrics or actor data.",
+        "source_context": "Stakes section outlining narratives by Georgian Dream and opposition parties."
+      },
+      {
+        "evidence": "European institutions warned pre-election that Georgia’s framework contained structural obstacles to fair competition, with the ‘transparency of foreign influence’ law flagged as chilling monitoring and opposition without outright bans.",
+        "is_acled_data": false,
+        "reasoning": "The evidence discusses European institutions’ warnings about electoral framework and a foreign influence law chilling monitoring/opposition—this is policy/legal analysis and political commentary, not event-based conflict data or statistics from ACLED.",
+        "source_context": "References to PACE Resolution 2561 and EU bodies’ critiques of the law and systemic issues."
+      },
+      {
+        "evidence": "Authorities shifted from visible street-level coercion in spring 2024 to apparent restraint by late summer through election day, replacing police-heavy tactics with deniable intimidation and legal controls.",
+        "is_acled_data": false,
+        "reasoning": "The statement is qualitative analysis about shifts in policing and intimidation tactics over time, without referencing specific ACLED event counts, categories, locations, or actor-level data. It reads as general political/security commentary rather than data explicitly tied to ACLED event records or trends.",
+        "source_context": "Central argument describing a two-phase containment strategy."
+      },
+      {
+        "evidence": "Protests surged in April–May 2024 during the foreign influence law fight, peaking at 41 events in April and 53 in May—the highest monthly totals in the 22-month dataset.",
+        "is_acled_data": true,
+        "reasoning": "The evidence cites monthly counts of protest events and references a 22‑month dataset, which aligns with ACLED’s event-count time series for protests/riots and temporal trend analysis. These specific event counts and peak months are characteristic outputs of ACLED data.",
+        "source_context": "Timeline section citing ACLED monthly counts."
+      },
+      {
+        "evidence": "Police interventions concentrated in April–May (five each month), with May containing the only two 2024 incidents coded as excessive force against protesters, plus clustered arrests and injuries.",
+        "is_acled_data": true,
+        "reasoning": "The evidence cites month-specific counts of police interventions and identifies incidents coded as excessive force against protesters, along with arrests and injuries—details characteristic of ACLED event coding and temporal patterning of protest/riot events.",
+        "source_context": "Spring surge details: interventions, excessive force, arrests, and injuries."
+      },
+      {
+        "evidence": "June marked a hinge: protests dropped to 14, but interventions and arrests remained comparatively elevated relative to the smaller protest volume, indicating disproportionate enforcement as mobilization ebbed.",
+        "is_acled_data": true,
+        "reasoning": "The statement references specific protest event counts (14 in June) and interprets enforcement trends relative to protest volume, which aligns with ACLED’s event count and temporal trend data on protests and related policing/riots. This is characteristic of analysis derived from ACLED event data.",
+        "source_context": "June transition analysis."
+      },
+      {
+        "evidence": "From August to October 2024, protests continued (25 events total) with no recorded police interventions, no excessive-force incidents, and no protest-linked arrests or injuries; October had 10 demos without intervention.",
+        "is_acled_data": true,
+        "reasoning": "The evidence reports specific counts of protest events over a defined period, notes absence of police intervention, arrests, injuries, and provides monthly event counts—this aligns with ACLED’s event-based protest and intervention data and temporal trend summaries.",
+        "source_context": "Autumn restraint documented via ACLED indicators."
+      },
+      {
+        "evidence": "On election day (Oct 26), ACLED logged six events (three riots, three strategic developments) with minimal injuries, no fatalities, and no arrests; security forces were not central actors.",
+        "is_acled_data": true,
+        "reasoning": "The evidence cites specific ACLED-logged event counts on a given date, with event types (riots, strategic developments), casualties, arrests, and actor involvement—core elements of ACLED event data explicitly attributed to ACLED.",
+        "source_context": "Election day event composition and severity profile."
+      },
+      {
+        "evidence": "Georgia’s protest-intervention rate in 2024 is lower than Armenia’s and far below Azerbaijan’s despite Georgia having a higher protest volume than Azerbaijan, indicating reliance on alternatives to constant visible crackdowns.",
+        "is_acled_data": true,
+        "reasoning": "The statement compares protest volumes and intervention rates across Georgia, Armenia, and Azerbaijan—metrics ACLED tracks through protest/riot event counts and whether state forces intervened. Cross-country comparisons of protest volumes and intervention rates are typical ACLED-derived analyses of event data and trends.",
+        "source_context": "Regional comparison of intervention rates and protest volumes."
+      },
+      {
+        "evidence": "Non-lethal ‘violence against civilians’ rose fivefold year-on-year (Jan–Oct 2023 vs Jan–Oct 2024), from three to 15 incidents, signaling increased intimidation short of lethal force rather than escalation to armed conflict.",
+        "is_acled_data": true,
+        "reasoning": "The statement cites counts of 'violence against civilians' incidents over specific periods and compares year-on-year event totals—metrics directly aligned with ACLED event categories and temporal trend analyses. This is characteristic of ACLED-derived data on incident counts and violence against civilians.",
+        "source_context": "Violence against civilians trend description and interpretation."
+      },
+      {
+        "evidence": "Targeted attacks clustered between May 5 and June 25 and primarily hit political and civic actors—student leaders, NGO staff, journalists, and opposition figures—often linked to opposition to the foreign influence law.",
+        "is_acled_data": true,
+        "reasoning": "The evidence describes a specific temporal cluster of targeted attacks, identifies victim categories (civilians such as student leaders, NGO staff, journalists, opposition figures), and links them to a particular issue, which aligns with ACLED’s event-based data on violence against civilians, actor-level details, and temporal pattern analysis. This resembles insights derived from ACLED-style event coding rather than general commentary.",
+        "source_context": "Temporal and victim profiling of civilian-targeting incidents."
+      },
+      {
+        "evidence": "All 15 civilian-targeting incidents were coded with perpetrators as ‘Unidentified Armed Group (Georgia)’, suggesting coercion aligned with ruling-party interests while maintaining plausible deniability.",
+        "is_acled_data": true,
+        "reasoning": "Mentions specific count of civilian-targeting incidents (15) and coding of perpetrators as ‘Unidentified Armed Group (Georgia)’, which matches ACLED’s event-level and actor coding structure for violence against civilians.",
+        "source_context": "Actor coding and its implication for deniability."
+      },
+      {
+        "evidence": "These intimidation incidents were geographically concentrated in Tbilisi (10 of 15), reflecting focus on the capital’s media, NGO, and party ecosystems rather than nationwide indiscriminate coercion.",
+        "is_acled_data": false,
+        "reasoning": "The statement discusses the concentration of intimidation incidents in Tbilisi without citing specific ACLED event counts or attribution. It reads as analytical commentary about geographic focus rather than explicit ACLED-derived event data or statistics.",
+        "source_context": "Geographic distribution of violence against civilians."
+      },
+      {
+        "evidence": "Election-day violence followed the same pattern: partisan mobs and unidentified actors vandalized opposition offices and clashed with rivals, with minimal injuries and no arrests recorded.",
+        "is_acled_data": true,
+        "reasoning": "The evidence describes election-day violence patterns, including actors involved, clashes, vandalism, injuries, and arrests—details consistent with ACLED event descriptions and conflict trend analysis. It references event-level characteristics and outcomes (minimal injuries, no arrests), which align with ACLED’s riots/protests and violence against civilians data.",
+        "source_context": "Oct 26 specific incidents in Tbilisi, Zugdidi, Kizilajlo and their severity profile."
+      },
+      {
+        "evidence": "The foreign influence law, passed over a presidential veto, is presented by the government as transparency-enhancing but criticized by international watchdogs for chilling independent monitoring and skewing the electoral playing field.",
+        "is_acled_data": false,
+        "reasoning": "The statement concerns a policy (foreign influence law), its passage over a veto, and reactions by watchdogs. This is political/legal analysis and commentary about legislation, not conflict event data, fatalities, or ACLED-derived trends. Therefore, it is not derived from ACLED data.",
+        "source_context": "Legal engineering section describing competing narratives and critiques."
+      },
+      {
+        "evidence": "ACLED data show 200 protests and only 13 interventions across Jan–Oct 2024, with zero interventions from August to October despite 25 demonstrations, reinforcing the shift away from visible repression near the election.",
+        "is_acled_data": true,
+        "reasoning": "The evidence cites specific counts of protests and interventions over a defined period, including monthly/temporal patterns and references to demonstrations and state interventions. These are event counts and temporal trends that align with ACLED’s protest/riot and actor intervention data, explicitly attributed as “ACLED data show…,” indicating derivation from ACLED event data.",
+        "source_context": "Aggregate counts linking legal context with policing trends."
+      },
+      {
+        "evidence": "Compared to the 2020 election window (July–October), the 2024 period saw just seven election-related demonstrations (vs. 91 in 2020), with zero fatalities and injuries in both cycles, indicating a calmer but more constrained field of contention.",
+        "is_acled_data": true,
+        "reasoning": "The evidence cites counts of election-related demonstrations over specific time windows and compares them across years, along with fatalities/injuries counts. These are characteristic ACLED metrics (event counts by category, temporal comparison, and fatality figures) and align with ACLED’s protest/riot and casualty datasets, suggesting derivation from ACLED event data.",
+        "source_context": "Historical comparison of election-period demonstrations and severity."
+      },
+      {
+        "evidence": "Beyond demonstrations, ‘violence against civilians’ was the most frequent non-protest event type through October 2024 (15 incidents, all non-lethal), alongside six ‘strategic developments,’ highlighting a pivot to quieter pressure tactics.",
+        "is_acled_data": true,
+        "reasoning": "The evidence cites specific ACLED-style event categories (‘violence against civilians,’ ‘strategic developments’), provides incident counts and lethality, and frames temporal scope through October 2024—characteristic of ACLED event data and taxonomy.",
+        "source_context": "Distribution of non-demonstration event types and lethality."
+      },
+      {
+        "evidence": "The observed governance template: apply targeted force and intimidation during early-year unrest; subsequently reduce visible policing as elections near; and use legal frameworks to structurally favor incumbents while maintaining formal electoral processes.",
+        "is_acled_data": false,
+        "reasoning": "This is a qualitative governance/strategy inference about policing and legal frameworks, not a citation of specific ACLED event counts, actors, locations, fatalities, or trends. It reads as general political analysis rather than data tied to ACLED event records.",
+        "source_context": "Synthesis of timing, tactics, and legal context leading to a ‘repression without bloodshed’ model."
+      },
+      {
+        "evidence": "Georgia’s 2024 cycle exemplifies ‘repression without bloodshed’: frequent injuries and targeted intimidation, no protest fatalities, deniable perpetrators, and legal rules that erode competitive politics without overt mass violence.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a qualitative characterization of the election environment (“repression without bloodshed,” intimidation, lack of fatalities) without citing specific ACLED event counts, actor data, or fatality figures. It reads as analytical commentary rather than reference to ACLED-derived event statistics or trends.",
+        "source_context": "Conclusion summarizing the paradox and its mechanisms."
+      },
+      {
+        "evidence": "For international monitoring and Georgia’s EU aspirations, the key risk shifts from headline casualty counts to the choreography of timing, deniable violence, and legal engineering that can hollow out democracy while keeping streets superficially calm.",
+        "is_acled_data": false,
+        "reasoning": "The evidence is a qualitative, general analytical statement about risks, tactics, and democratic erosion, not referencing event counts, fatalities, locations, or any ACLED-derived metrics. It is not tied to specific ACLED event data or trends.",
+        "source_context": "Final implication for monitoring and EU trajectory."
+      }
+    ],
+    "insights": [
+      {
+        "insight": "Georgia’s 2024 unrest featured mass protests and intense polarization but officially recorded no protest-related fatalities and relatively few police interventions, even during large post-election rallies.",
+        "context": "Intro: contrasts chaotic optics with a near bloodless official record in 2024 using ACLED and post-election scenes."
+      },
+      {
+        "insight": "The October 26 parliamentary elections were framed as a referendum on Georgia’s trajectory: potential one-party dominance under Georgian Dream versus a return to competitive pluralism and closer EU integration.",
+        "context": "Stakes section outlining narratives by Georgian Dream and opposition parties."
+      },
+      {
+        "insight": "European institutions warned pre-election that Georgia’s framework contained structural obstacles to fair competition, with the ‘transparency of foreign influence’ law flagged as chilling monitoring and opposition without outright bans.",
+        "context": "References to PACE Resolution 2561 and EU bodies’ critiques of the law and systemic issues."
+      },
+      {
+        "insight": "Authorities shifted from visible street-level coercion in spring 2024 to apparent restraint by late summer through election day, replacing police-heavy tactics with deniable intimidation and legal controls.",
+        "context": "Central argument describing a two-phase containment strategy."
+      },
+      {
+        "insight": "Protests surged in April–May 2024 during the foreign influence law fight, peaking at 41 events in April and 53 in May—the highest monthly totals in the 22-month dataset.",
+        "context": "Timeline section citing ACLED monthly counts."
+      },
+      {
+        "insight": "Police interventions concentrated in April–May (five each month), with May containing the only two 2024 incidents coded as excessive force against protesters, plus clustered arrests and injuries.",
+        "context": "Spring surge details: interventions, excessive force, arrests, and injuries."
+      },
+      {
+        "insight": "June marked a hinge: protests dropped to 14, but interventions and arrests remained comparatively elevated relative to the smaller protest volume, indicating disproportionate enforcement as mobilization ebbed.",
+        "context": "June transition analysis."
+      },
+      {
+        "insight": "From August to October 2024, protests continued (25 events total) with no recorded police interventions, no excessive-force incidents, and no protest-linked arrests or injuries; October had 10 demos without intervention.",
+        "context": "Autumn restraint documented via ACLED indicators."
+      },
+      {
+        "insight": "On election day (Oct 26), ACLED logged six events (three riots, three strategic developments) with minimal injuries, no fatalities, and no arrests; security forces were not central actors.",
+        "context": "Election day event composition and severity profile."
+      },
+      {
+        "insight": "Georgia’s protest-intervention rate in 2024 is lower than Armenia’s and far below Azerbaijan’s despite Georgia having a higher protest volume than Azerbaijan, indicating reliance on alternatives to constant visible crackdowns.",
+        "context": "Regional comparison of intervention rates and protest volumes."
+      },
+      {
+        "insight": "Non-lethal ‘violence against civilians’ rose fivefold year-on-year (Jan–Oct 2023 vs Jan–Oct 2024), from three to 15 incidents, signaling increased intimidation short of lethal force rather than escalation to armed conflict.",
+        "context": "Violence against civilians trend description and interpretation."
+      },
+      {
+        "insight": "Targeted attacks clustered between May 5 and June 25 and primarily hit political and civic actors—student leaders, NGO staff, journalists, and opposition figures—often linked to opposition to the foreign influence law.",
+        "context": "Temporal and victim profiling of civilian-targeting incidents."
+      },
+      {
+        "insight": "All 15 civilian-targeting incidents were coded with perpetrators as ‘Unidentified Armed Group (Georgia)’, suggesting coercion aligned with ruling-party interests while maintaining plausible deniability.",
+        "context": "Actor coding and its implication for deniability."
+      },
+      {
+        "insight": "These intimidation incidents were geographically concentrated in Tbilisi (10 of 15), reflecting focus on the capital’s media, NGO, and party ecosystems rather than nationwide indiscriminate coercion.",
+        "context": "Geographic distribution of violence against civilians."
+      },
+      {
+        "insight": "Election-day violence followed the same pattern: partisan mobs and unidentified actors vandalized opposition offices and clashed with rivals, with minimal injuries and no arrests recorded.",
+        "context": "Oct 26 specific incidents in Tbilisi, Zugdidi, Kizilajlo and their severity profile."
+      },
+      {
+        "insight": "The foreign influence law, passed over a presidential veto, is presented by the government as transparency-enhancing but criticized by international watchdogs for chilling independent monitoring and skewing the electoral playing field.",
+        "context": "Legal engineering section describing competing narratives and critiques."
+      },
+      {
+        "insight": "ACLED data show 200 protests and only 13 interventions across Jan–Oct 2024, with zero interventions from August to October despite 25 demonstrations, reinforcing the shift away from visible repression near the election.",
+        "context": "Aggregate counts linking legal context with policing trends."
+      },
+      {
+        "insight": "Compared to the 2020 election window (July–October), the 2024 period saw just seven election-related demonstrations (vs. 91 in 2020), with zero fatalities and injuries in both cycles, indicating a calmer but more constrained field of contention.",
+        "context": "Historical comparison of election-period demonstrations and severity."
+      },
+      {
+        "insight": "Beyond demonstrations, ‘violence against civilians’ was the most frequent non-protest event type through October 2024 (15 incidents, all non-lethal), alongside six ‘strategic developments,’ highlighting a pivot to quieter pressure tactics.",
+        "context": "Distribution of non-demonstration event types and lethality."
+      },
+      {
+        "insight": "The observed governance template: apply targeted force and intimidation during early-year unrest; subsequently reduce visible policing as elections near; and use legal frameworks to structurally favor incumbents while maintaining formal electoral processes.",
+        "context": "Synthesis of timing, tactics, and legal context leading to a ‘repression without bloodshed’ model."
+      },
+      {
+        "insight": "Georgia’s 2024 cycle exemplifies ‘repression without bloodshed’: frequent injuries and targeted intimidation, no protest fatalities, deniable perpetrators, and legal rules that erode competitive politics without overt mass violence.",
+        "context": "Conclusion summarizing the paradox and its mechanisms."
+      },
+      {
+        "insight": "For international monitoring and Georgia’s EU aspirations, the key risk shifts from headline casualty counts to the choreography of timing, deniable violence, and legal engineering that can hollow out democracy while keeping streets superficially calm.",
+        "context": "Final implication for monitoring and EU trajectory."
+      }
+    ],
+    "prompt": "Provide an analysis of Georgia's upcoming election, civil unrest, and political developments as of October 2024."
+  }
+}

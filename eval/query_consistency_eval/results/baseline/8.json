@@ -1,0 +1,151 @@
+{
+  "per_dimension": [
+    {
+      "dimension": "actor_entity",
+      "score": 0.0,
+      "num_concept_groups": 1,
+      "num_consistent_groups": 0,
+      "notes": "Multiple queries classify perpetrators (RSF/SAF/Other) for the same Aug–Sep 2024 Sudan strike events but use different source columns, pattern rules, and even different group sets. This will shift events across actor groups and prevents like-for-like comparisons."
+    },
+    {
+      "dimension": "geography",
+      "score": 1.0,
+      "num_concept_groups": 2,
+      "num_consistent_groups": 2,
+      "notes": "Place names and levels (admin1/admin2) are used consistently (e.g., 'Khartoum', 'Al Jazirah'). No divergent normalization or alias lists appear."
+    },
+    {
+      "dimension": "temporal",
+      "score": 1.0,
+      "num_concept_groups": 1,
+      "num_consistent_groups": 1,
+      "notes": "The Aug–Sep 2024 window is implemented consistently via event_date >= '2024-08-01' and < '2024-10-01' or equivalent 'BETWEEN 2024-08-01 AND 2024-09-30'."
+    },
+    {
+      "dimension": "event_taxonomy",
+      "score": 0.333,
+      "num_concept_groups": 3,
+      "num_consistent_groups": 1,
+      "notes": "Most queries consistently define strikes as sub_event_type IN ('Air/drone strike','Shelling/artillery/missile attack'). However, control/territory-shift definitions differ (Q4 vs Q18), and one query (Q23) groups by event_type rather than sub_event_type, collapsing Air/Drone and Shelling into one bucket. Target-category mapping (Civilian vs Military/Security vs Unknown) is otherwise consistent where used."
+    },
+    {
+      "dimension": "counting_aggregation",
+      "score": 1.0,
+      "num_concept_groups": 2,
+      "num_consistent_groups": 2,
+      "notes": "Event counts and fatality sums for national Aug–Sep 2024 strike events are computed consistently across queries (e.g., Q0 vs Q2). Civilian-fatalities are consistently counted as fatalities where civilian_targeting = 'Civilian targeting'. Minor differences like filtering out NULL fatalities before SUM are effectively neutral because SUM ignores NULLs."
+    },
+    {
+      "dimension": "population_scope",
+      "score": 0.5,
+      "num_concept_groups": 2,
+      "num_consistent_groups": 1,
+      "notes": "Most strike analyses constrain to country='Sudan'. Q17 omits the country filter, pulling in non-Sudan events. Khartoum-only analyses (Q23, Q24) both omit the country filter but are internally consistent with each other."
+    }
+  ],
+  "conflicts": [
+    {
+      "dimension": "actor_entity",
+      "concept": "Perpetrator classification (RSF/SAF/Other) for strike events in Sudan, Aug–Sep 2024",
+      "query_indices": [
+        6,
+        7
+      ],
+      "predicate_a": "Q6: CASE uses actor1/actor2 ILIKE variants ('Sudan Armed Forces','Military Forces of Sudan','Sudanese army','SAF', 'Rapid Support Forces','RSF') and also notes ILIKE patterns (e.g., '%SAF%shell%','%RSF%strike%'); may also tag 'Foreign' via inter1 enum.",
+      "predicate_b": "Q7: CASE only checks actor1 and assoc_actor_1 (lowered) for '%saf%' or '%rapid support forces%','%rsf%'; else 'Other'. No notes, actor2, or assoc_actor_2 considered.",
+      "severity": "result-changing",
+      "explanation": "Different source columns and keyword sets (Q6 includes actor2 and notes; Q7 does not) will map a non-trivial number of events to different actor groups, breaking comparability."
+    },
+    {
+      "dimension": "actor_entity",
+      "concept": "SAF identification among strike events, Aug–Sep 2024 (Sudan)",
+      "query_indices": [
+        7,
+        19
+      ],
+      "predicate_a": "Q7: SAF if lower(actor1) LIKE '%saf%' OR lower(assoc_actor_1) LIKE '%saf%'.",
+      "predicate_b": "Q19: SAF if COALESCE(actor1, assoc_actor_1, actor2, assoc_actor_2) ILIKE any of ('%Sudan Armed Forces%','%Sudanese Armed Forces%','% SAF %','SAF %','% SAF','%(SAF)%').",
+      "severity": "result-changing",
+      "explanation": "Q19 searches more fields (actor2, assoc_actor_2) and uses stricter patterns to avoid false positives; Q7 may miss SAF where only actor2/assoc_actor_2 is populated or match broader 'saf' substrings. Actor tallies will diverge."
+    },
+    {
+      "dimension": "actor_entity",
+      "concept": "Actor grouping granularity (SAF vs RSF vs Other) for strikes, Aug–Sep 2024",
+      "query_indices": [
+        19,
+        20
+      ],
+      "predicate_a": "Q19: actor_group in ('SAF','RSF','Other').",
+      "predicate_b": "Q20: actor_group in ('RSF','Other') only; SAF not identified separately (falls into 'Other').",
+      "severity": "result-changing",
+      "explanation": "Merging SAF into 'Other' in Q20 while separating it in Q19 prevents direct comparison of actor-group shares and zero-fatality rates."
+    },
+    {
+      "dimension": "actor_entity",
+      "concept": "RSF identification rules for strikes, Aug–Sep 2024",
+      "query_indices": [
+        20,
+        21
+      ],
+      "predicate_a": "Q20: RSF if actor1 OR actor2 ILIKE '%rapid support forces%' OR '%RSF%'.",
+      "predicate_b": "Q21: RSF if actor1/actor2/assoc_actor_1/assoc_actor_2 ILIKE '%RSF%' or '%Rapid Support Forces%'; else 'Other'.",
+      "severity": "result-changing",
+      "explanation": "Q21 additionally checks assoc_actor_1/2, which will capture events classified as RSF that Q20 would place into 'Other'."
+    },
+    {
+      "dimension": "event_taxonomy",
+      "concept": "Control/territorial shift event definition (same period/place)",
+      "query_indices": [
+        4,
+        18
+      ],
+      "predicate_a": "Q4 control_shifts: sub_event_type IN ('Non-violent transfer of territory','Non-state actor overtakes territory','Government regains territory','Headquarters or base established').",
+      "predicate_b": "Q18 control_shift_events: sub_event_type IN ('Non-violent transfer of territory','Non-state actor overtakes territory','Government regains territory') (excludes 'Headquarters or base established').",
+      "severity": "result-changing",
+      "explanation": "Including 'Headquarters or base established' in Q4 expands the control/shift set relative to Q18; correlations or counts are not comparable across the two definitions."
+    },
+    {
+      "dimension": "event_taxonomy",
+      "concept": "Separation of Air/Drone Strike vs Shelling/Artillery/Missile within strike analyses",
+      "query_indices": [
+        10,
+        23
+      ],
+      "predicate_a": "Q10: Groups by a derived event_type_label that maps sub_event_type to 'Air/Drone Strike' vs 'Shelling/Artillery/Missile'.",
+      "predicate_b": "Q23: Groups by event_type (returns 'Explosions/Remote violence'), despite filtering to the two sub_event_type values; both subevents collapse into the same event_type.",
+      "severity": "result-changing",
+      "explanation": "Q23 cannot distinguish Air vs Shelling and will merge them, unlike other queries that report them separately; this changes category-level results."
+    },
+    {
+      "dimension": "event_taxonomy",
+      "concept": "Output label for shelling category",
+      "query_indices": [
+        10,
+        21
+      ],
+      "predicate_a": "Q10: 'Shelling/Artillery/Missile' label.",
+      "predicate_b": "Q21: 'Shelling/Artillery/Missile Attack' label.",
+      "severity": "cosmetic",
+      "explanation": "Label-only difference; underlying filters use the same sub_event_type set."
+    },
+    {
+      "dimension": "population_scope",
+      "concept": "Sudan-wide Aug–Sep 2024 strike analyses should restrict to country='Sudan'",
+      "query_indices": [
+        17,
+        0
+      ],
+      "predicate_a": "Q0: WHERE country = 'Sudan' AND event_date >= '2024-08-01' AND < '2024-10-01' AND sub_event_type IN (...).",
+      "predicate_b": "Q17: No country filter; WHERE event_date >= '2024-08-01' AND < '2024-10-01' AND sub_event_type IN (...).",
+      "severity": "result-changing",
+      "explanation": "Q17 pulls events from all countries, inflating distinct admin counts and dispersion metrics relative to Sudan-only queries."
+    }
+  ],
+  "overall_score": 0.64,
+  "summary": "Time-window, geography naming, and most counting choices are consistent, and nearly all queries use the same sub_event_type filters for strikes. However, actor classification rules vary substantially across queries (different fields, patterns, and even group sets), and control/territory-shift taxonomies differ, undermining cross-query comparability. One dispersion query (Q17) also omits the country filter, changing the population scope.",
+  "report_dir": "<repo>/datatalk/acled/8/Give_me_a_summary_of_artillery_shelling_and_airstrikes_political_violence,_and_conflict_situations_during_Au__20260323_185740",
+  "model": "gpt-5",
+  "num_queries": 26,
+  "applicable": true,
+  "id": 8
+}

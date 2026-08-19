@@ -1,0 +1,85 @@
+{
+  "dataset_id": 45,
+  "dataset_path": "data/notebooks/flag-45.json",
+  "metadata": {
+    "category": "Finance Management",
+    "dataset_description": "The dataset consists of 500 entries simulating the ServiceNow fm_expense_line table, which records various attributes of financial expenses. Key fields include 'number', 'opened_at', 'amount', 'state', 'short_description', 'ci', 'user', 'department', 'category', 'location', 'processed_date', 'source_id', and 'type'. This table documents the flow of financial transactions by detailing the amount, departmental allocation, geographic location, and the nature of each expense. It provides a comprehensive view of organizational expenditures across different categories and locations, highlighting both the timing and the approval state of each financial entry.",
+    "goal": "To analyze and understand how expenses vary across different geographic locations, expense categories, and approval times, with the aim of improving budget allocation and workflow efficiency.",
+    "header": "Geo-Specific Expense Analysis (Flag 45)",
+    "role": "Financial Operations Analyst"
+  },
+  "predicted_insights": [
+    "Geography dominates variation: within North America the category spread is ~$10.0k, but for the same category across locations the spread is ~$53.1k for Miscellaneous (North America $72.47k vs Africa $19.41k) and ~$51.9k for Services, a ~3.5–3.7x difference, indicating the largest budget optimization leverage lies in North America.",
+    "Only Asia aligns processing speed with priority; if other regions matched their local fastest-priority benchmark for critical items, the potential average improvement would be about 7–8 time units per case (e.g., Europe could reduce critical from ~52.6 to ~39.0, a ~13.6-unit gain).",
+    "All top per-location averages (48.0–55.54) exceed the dataset-wide mean of 44.24, with South America’s Software at 55.54 being 25.6% above the overall mean and 15.7% higher than Africa’s top group, and Software emerging as the slowest group in both North and South America, suggesting cross-regional bottlenecks in Software workflows.",
+    "With r≈0.11 (r²≈1.2%), processing time explains only about 1.2% of the variance in expense amounts, and top-50 amounts span processed_time values from 0 to 99—suggesting that categories or locations likely drive expense differences more than approval speed, a key consideration for budget allocation and workflow optimization.",
+    "Across categories, Assets have the lowest overall average (~41.71) while Services are highest (~46.78), and the widest regional spread occurs in Miscellaneous (~21.6 points from Africa 32.67 to Europe 54.22), highlighting the biggest standardization opportunity in Miscellaneous processing—especially in Europe.",
+    "North America’s median cycle time is about 1005 hours (~42 days) longer than South America’s (3568 vs 2563 hours), a ~39% slower turnaround that points to the largest geographic bottleneck and the greatest opportunity for workflow acceleration.",
+    "Spending is highly concentrated: the top three regions (North America, Europe, South America) account for 78.2037% of the total, while Africa and Asia together contribute only 21.7963%, with Africa and Asia nearly tied (a 0.1245 percentage-point gap), suggesting potential focus areas for budget rebalancing and workflow optimization.",
+    "Services is the top-spend category overall (5,815,394) and in 4 of 5 regions (Africa, Europe, North America, South America), with Asia as the exception where Miscellaneous (790,045) exceeds Services (701,762), and North America alone accounts for about 34% of total spend (6,715,727 of 19,752,588).",
+    "With r=0.11 (r^2≈1.2%), processing time explains only about 1.2% of the variation in expenses (amount std ≈$21.7k), implying that optimizing approval speed alone is unlikely to materially affect spend levels compared with differences likely driven by category or location.",
+    "The median expense in North America is $47,657 higher (~3.7x) than in Africa, indicating substantial regional cost differences that can inform budget allocation; Europe’s median ($48,137) also notably exceeds South America’s ($35,737) and Asia’s ($19,719).",
+    "North America consistently leads median expenses across all categories, with Services topping at $71,483.5 and a spread of about $11,666 (~19.5%) between the highest (Services) and lowest (Travel) top-category medians, indicating both regional and category-driven cost differentials.",
+    "Amount-driven delays are concentrated in Miscellaneous: its correlation is ~56% higher than Travel (0.162) and about 6.5× that of Assets (0.039), while Services shows no amount–time link (r≈−0.012), suggesting approval time scales with spend primarily for Miscellaneous expenses."
+  ],
+  "predicted_summary": "Spending is concentrated in North America, which contributes 33.9992% of total expenses ($6.72M), has the highest median expense ($65,502), and the highest average amounts in every category (Miscellaneous ~$72.47k, Services ~$72.27k, Travel ~$64.05k, Assets ~$62.50k). Europe is next at 24.842% ($4.91M), while Africa contributes 10.96% ($2.17M) with the lowest median expense ($17,845) and the lowest average amounts (~$19.4–$21.05k) across categories.\nProcessing times vary markedly by category and region, revealing clear hotspots: Services are slowest in Asia (56.26) and Africa (49.76) but notably faster in North America (39.08); Miscellaneous is slowest in Europe (54.22) and fastest in Africa (32.67); Travel is highest in Asia (50.58) and lowest in Europe (40.95); and Assets are generally the quickest (ranging from 37.38 in North America to 46.21 in Africa). At a broader level, median open-to-close duration is longest in North America (3,568 hours) and shortest in South America (2,563 hours).\nApproval speed is not driven by expense size or stated urgency and instead differs by region/team: overall, amount and processing time are only very weakly related (r=0.11), though the relationship is stronger within Miscellaneous (r≈0.253). Higher-priority (Critical) items are not consistently processed faster—e.g., they are slower than Moderate in North America (42.2 vs 35.3) and Africa (44.5 vs 42.5), and are the slowest in Europe (52.6 vs Moderate 39.0), being clearly fastest only in Asia (~36.4) and essentially tied in South America (~42.9 vs ~42.7). The slowest assignment group also varies by region—Software in South America (55.54) and North America (48.95), Database in Asia (53.25), Hardware in Europe (52.35), and Network in Africa (48.00).",
+  "score_insights": 0.39157958534409076,
+  "score_insights_dict": [
+    {
+      "gt_insight": "Expense amounts vary significantly across different geographic locations",
+      "pred_insight": "The median expense in North America is $47,657 higher (~3.7x) than in Africa, indicating substantial regional cost differences that can inform budget allocation; Europe’s median ($48,137) also notably exceeds South America’s ($35,737) and Asia’s ($19,719).",
+      "score": 0.7325635727100985
+    },
+    {
+      "gt_insight": "The 'Services' category has the highest total expenses.",
+      "pred_insight": "Services is the top-spend category overall (5,815,394) and in 4 of 5 regions (Africa, Europe, North America, South America), with Asia as the exception where Miscellaneous (790,045) exceeds Services (701,762), and North America alone accounts for about 34% of total spend (6,715,727 of 19,752,588).",
+      "score": 0.7889366068134683
+    },
+    {
+      "gt_insight": "The Product management department has the highest total expenses.",
+      "pred_insight": "North America consistently leads median expenses across all categories, with Services topping at $71,483.5 and a spread of about $11,666 (~19.5%) between the highest (Services) and lowest (Travel) top-category medians, indicating both regional and category-driven cost differentials.",
+      "score": 0.12089785832255229
+    },
+    {
+      "gt_insight": "The Customer support department has the highest average expense per claim.",
+      "pred_insight": "North America consistently leads median expenses across all categories, with Services topping at $71,483.5 and a spread of about $11,666 (~19.5%) between the highest (Services) and lowest (Travel) top-category medians, indicating both regional and category-driven cost differentials.",
+      "score": 0.13021648679099623
+    },
+    {
+      "gt_insight": "Customer Support has processed the most expense claims.",
+      "pred_insight": "With r≈0.11 (r²≈1.2%), processing time explains only about 1.2% of the variance in expense amounts, and top-50 amounts span processed_time values from 0 to 99—suggesting that categories or locations likely drive expense differences more than approval speed, a key consideration for budget allocation and workflow optimization.",
+      "score": 0.18528340208333835
+    }
+  ],
+  "score_summary": 0.4091523450372302,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.4306247588589399,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "Geography dominates variation: within North America the category spread is ~$10.0k, but for the same category across locations the spread is ~$53.1k for Miscellaneous (North America $72.47k vs Africa $19.41k) and ~$51.9k for Services, a ~3.5–3.7x difference, indicating the largest budget optimization leverage lies in North America.",
+      "gt_insight": "Expense amounts vary significantly across different geographic locations",
+      "score": 0.7950783504158053
+    },
+    {
+      "pred_insight": "Services is the top-spend category overall (5,815,394) and in 4 of 5 regions (Africa, Europe, North America, South America), with Asia as the exception where Miscellaneous (790,045) exceeds Services (701,762), and North America alone accounts for about 34% of total spend (6,715,727 of 19,752,588).",
+      "gt_insight": "The 'Services' category has the highest total expenses.",
+      "score": 0.8182262013247191
+    },
+    {
+      "pred_insight": "With r≈0.11 (r²≈1.2%), processing time explains only about 1.2% of the variance in expense amounts, and top-50 amounts span processed_time values from 0 to 99—suggesting that categories or locations likely drive expense differences more than approval speed, a key consideration for budget allocation and workflow optimization.",
+      "gt_insight": "The Product management department has the highest total expenses.",
+      "score": 0.17372501885770233
+    },
+    {
+      "pred_insight": "With r≈0.11 (r²≈1.2%), processing time explains only about 1.2% of the variance in expense amounts, and top-50 amounts span processed_time values from 0 to 99—suggesting that categories or locations likely drive expense differences more than approval speed, a key consideration for budget allocation and workflow optimization.",
+      "gt_insight": "The Customer support department has the highest average expense per claim.",
+      "score": 0.18258583325065506
+    },
+    {
+      "pred_insight": "With r≈0.11 (r²≈1.2%), processing time explains only about 1.2% of the variance in expense amounts, and top-50 amounts span processed_time values from 0 to 99—suggesting that categories or locations likely drive expense differences more than approval speed, a key consideration for budget allocation and workflow optimization.",
+      "gt_insight": "Customer Support has processed the most expense claims.",
+      "score": 0.1835083904458175
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.349796819500726,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.30378249706251775
+}

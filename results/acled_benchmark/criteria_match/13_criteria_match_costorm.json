@@ -1,0 +1,188 @@
+{
+  "prompt": "Research clashes between Islamic State Mozambique and state forces in Cabo Delgado. Focus on November 2024.",
+  "criteria": [
+    {
+      "name": "Geographic Dispersion of Violence",
+      "description": "Assess how insurgent activity shifts from core strongholds to new districts and provinces, indicating expanding or probing fronts beyond primary conflict zones."
+    },
+    {
+      "name": "State Force Operational Strains",
+      "description": "Evaluate indicators of logistical shortfalls, withdrawals, and contested reoccupations that point to pressure on conventional forces and the difficulty of securing reclaimed areas."
+    },
+    {
+      "name": "Insurgent Mobility and Tactics",
+      "description": "Examine use of small, mobile units, improvised explosives, and rapid incursions to exploit gaps in static defenses and mounted patrols."
+    },
+    {
+      "name": "Militia Dynamics and Coordination",
+      "description": "Analyze the emergence and behavior of local militias, their relations with state forces, and how miscoordination or distrust complicates counterinsurgency operations."
+    },
+    {
+      "name": "Civilian Targeting and Displacement",
+      "description": "Track patterns of civilian attacks, kidnappings, and the resultant population movements to gauge humanitarian impact and security vacuums."
+    },
+    {
+      "name": "Claims Versus Verification",
+      "description": "Compare militant propaganda and official statements with independent reporting to identify discrepancies and information operations."
+    },
+    {
+      "name": "Security Posture in Southern Districts",
+      "description": "Assess whether force deployments and response times in southern areas align with the evolving threat and terrain-specific challenges."
+    },
+    {
+      "name": "Contested Control and Re-liberation Cycles",
+      "description": "Identify repeated cycles of capture, claim of liberation, and subsequent attacks that signal incomplete stabilization and persistent insurgent presence."
+    },
+    {
+      "name": "Riverine and Corridor Vulnerabilities",
+      "description": "Evaluate activity along key rivers, roads, and junctions that serve as insurgent movement corridors and stress points for security control."
+    },
+    {
+      "name": "Inter-Force Coordination Challenges",
+      "description": "Assess coordination between national forces, foreign deployments, and local auxiliaries, including incidents of misidentification and detentions, to gauge command-and-control effectiveness."
+    },
+    {
+      "name": "Human Rights and Force Legitimacy",
+      "description": "Examine allegations of abuses linked to security forces and their impact on community trust, international partners, and overall legitimacy."
+    },
+    {
+      "name": "Regional and Transnational Linkages",
+      "description": "Consider evidence of broader networks and financing that connect local insurgents to regional hubs, affecting capabilities and resilience."
+    },
+    {
+      "name": "Adaptive Insurgent Targeting",
+      "description": "Analyze shifts from military to militia and civilian targets as insurgents test defenses and seek influence through intimidation."
+    },
+    {
+      "name": "Information Environment and Perception",
+      "description": "Evaluate how public messaging by all actors shapes perceptions of security progress or failure, influencing local cooperation and morale."
+    },
+    {
+      "name": "Humanitarian Access and Protection",
+      "description": "Assess constraints on aid delivery and community protection mechanisms amid shifting frontlines and population displacement."
+    },
+    {
+      "name": "Force Posture Suitability",
+      "description": "Review whether defensive versus offensive postures and patrol patterns match the threat profile of a guerilla adversary."
+    },
+    {
+      "name": "Community-State Relations",
+      "description": "Observe levels of local trust or suspicion toward state forces and how this affects intelligence flows, cooperation, and operational freedom."
+    },
+    {
+      "name": "Spillover Risk Assessment",
+      "description": "Monitor indications of cross-boundary incursions into adjacent provinces and the potential for broader regional destabilization."
+    },
+    {
+      "name": "Resilience of Insurgent Logistics",
+      "description": "Identify patterns of looting and resource acquisition that sustain insurgent operations despite countermeasures."
+    },
+    {
+      "name": "Efficacy of Territorial Security Operations",
+      "description": "Measure the durability of gains in contested areas and the speed at which insurgents re-infiltrate after operations conclude."
+    }
+  ],
+  "criterion_scores": [
+    {
+      "name": "Geographic Dispersion of Violence",
+      "score": 0.9,
+      "explanation": "The article maps activity across many districts (Macomia, Meluco, Ancuabe, Muidumbe, Chiure, Metuge, Mocimboa da Praia, Nangade, Quissanga) and notes two IS-M strategic-development events in Erati, Nampula, showing probing beyond core zones. It contrasts a concentrated battle corridor (Quiterajo–Cobre–Meluco) with wider dispersed coercion elsewhere. Minor gap: limited discussion of southern Cabo Delgado districts beyond brief mentions."
+    },
+    {
+      "name": "State Force Operational Strains",
+      "score": 0.55,
+      "explanation": "It highlights fragile reoccupations (Quiterajo recaptured Nov 17 followed by Nov 25 IED) and suggests difficulty securing reclaimed areas. However, it provides little on logistical shortfalls, withdrawals, or sustainment challenges for state forces beyond implication; lacks details on contested reoccupation cycles from state perspective."
+    },
+    {
+      "name": "Insurgent Mobility and Tactics",
+      "score": 0.75,
+      "explanation": "The piece emphasizes dispersed coercion, small-unit raids, intimidation, abductions, looting, an IED near Quiterajo, and avoidance of town-holding, indicating mobile tactics exploiting gaps. It does not deeply analyze specific patterns like ambushes on mounted patrols or explicit use frequency of IEDs beyond one incident."
+    },
+    {
+      "name": "Militia Dynamics and Coordination",
+      "score": 0.6,
+      "explanation": "It notes battles in Ancuabe involving local militias versus IS-M and highlights the intersection of formal and informal actors. But it lacks detail on militia emergence, structures, miscoordination with state forces, or incidents of distrust impacting operations."
+    },
+    {
+      "name": "Civilian Targeting and Displacement",
+      "score": 0.8,
+      "explanation": "Provides detailed accounting of violence against civilians in Muidumbe (locations, attacks, abductions, fatalities), references looting and abductions elsewhere, and situates this as central to IS-M strategy. Displacement flows are implied but not quantified or mapped; humanitarian movement patterns are not detailed."
+    },
+    {
+      "name": "Claims Versus Verification",
+      "score": 0.7,
+      "explanation": "Contrasts official ‘defeated’/liberation claims with ACLED-coded events showing continued IS-M activity, including post-liberation IED, and emphasizes ‘strategic developments’ outpacing clashes. Limited triangulation with other independent sources or IS propaganda statements beyond ACLED and official narratives."
+    },
+    {
+      "name": "Security Posture in Southern Districts",
+      "score": 0.4,
+      "explanation": "Mentions Ancuabe, Chiure, Metuge as seeing incidents and hints at different actor mixes, but does not analyze deployments, response times, or posture adjustments specific to southern districts in depth."
+    },
+    {
+      "name": "Contested Control and Re-liberation Cycles",
+      "score": 0.7,
+      "explanation": "Quiterajo reoccupation followed by attack illustrates incomplete stabilization; the article frames a pattern of retakes not equating to security. However, it offers few additional concrete examples of repeated cycles or timelines of capture/recapture beyond the Quiterajo case."
+    },
+    {
+      "name": "Riverine and Corridor Vulnerabilities",
+      "score": 0.55,
+      "explanation": "Strong focus on the Quiterajo–Cobre corridor and its kinetic significance; mentions roads/junctions implicitly through corridor framing. Does not explicitly analyze riverine routes (Messalo, Montepuez River, etc.) or specific road networks as movement/logistics vulnerabilities."
+    },
+    {
+      "name": "Inter-Force Coordination Challenges",
+      "score": 0.5,
+      "explanation": "Notes Rwandan–Mozambican divisions of labor along the corridor and militias engaging in Ancuabe, but provides no concrete incidents of misidentification, detentions, or command-and-control failures; coordination challenges are implied rather than evidenced."
+    },
+    {
+      "name": "Human Rights and Force Legitimacy",
+      "score": 0.65,
+      "explanation": "References reports of heavy-handed responses, mass detentions, and alleged abuses eroding trust, drawing from humanitarian analyses. Lacks November-specific incidents or detailed allegations tied directly to operations in the month; impact on partners and legitimacy is discussed conceptually."
+    },
+    {
+      "name": "Regional and Transnational Linkages",
+      "score": 0.85,
+      "explanation": "Explicitly discusses external ISIS financial/logistical support, foreign fighters, and regional conduits (including South Africa) bolstering IS-M resilience, with sourcing. Could add concrete November-linked cases, but the analysis is strong."
+    },
+    {
+      "name": "Adaptive Insurgent Targeting",
+      "score": 0.85,
+      "explanation": "Clearly articulates a shift from holding towns to targeting civilians, abductions, looting, and selective clashes; contrasts Macomia (battles) with Muidumbe (all VAC), showing adaptive targeting to test defenses and maintain influence."
+    },
+    {
+      "name": "Information Environment and Perception",
+      "score": 0.65,
+      "explanation": "Assesses victory narratives vs data-driven reality, noting how focus on retaken towns and fighter counts shapes perceptions and risks underappreciating dispersed violence. Does not deeply explore propaganda outputs or local perception surveys, but addresses messaging effects."
+    },
+    {
+      "name": "Humanitarian Access and Protection",
+      "score": 0.45,
+      "explanation": "Touches on humanitarian context and suggests rural insecurity and dispersed attacks create vacuums; however, it provides little on specific access constraints, aid suspensions, or community protection mechanisms in November."
+    },
+    {
+      "name": "Force Posture Suitability",
+      "score": 0.6,
+      "explanation": "Argues that measuring progress by territorial control is mismatched to dispersed guerrilla tactics and implies need for posture/patrol adaptations; lacks concrete detail on current patrol patterns or defensive vs offensive postures and their efficacy."
+    },
+    {
+      "name": "Community-State Relations",
+      "score": 0.65,
+      "explanation": "Discusses erosion of trust due to alleged abuses and marginalization, linking to intelligence/cooperation challenges implicitly. November-specific community-state interaction examples are limited; still, the dynamics are analyzed in context."
+    },
+    {
+      "name": "Spillover Risk Assessment",
+      "score": 0.7,
+      "explanation": "Notes Erati (Nampula) non-violent ‘presence-signaling’ events on Nov 20, indicating cross-boundary probing. Broader regional destabilization risks are inferred via transnational networks; could further assess risks to Niassa/Nampula/neighboring countries with more evidence."
+    },
+    {
+      "name": "Resilience of Insurgent Logistics",
+      "score": 0.75,
+      "explanation": "Highlights systematic looting/property destruction for resource acquisition (e.g., Mitepo), strategic developments signaling organizational maneuver, and external support aiding logistics. More detail on specific supply lines or caches would strengthen it."
+    },
+    {
+      "name": "Efficacy of Territorial Security Operations",
+      "score": 0.7,
+      "explanation": "Evaluates durability by contrasting recaptured towns with rapid re-infiltration (IED post-liberation) and continued incidents in adjacent districts; recommends better benchmarks beyond terrain control. Could include more cases to quantify re-infiltration speed across locales."
+    }
+  ],
+  "overall_score": 0.6649999999999999
+}

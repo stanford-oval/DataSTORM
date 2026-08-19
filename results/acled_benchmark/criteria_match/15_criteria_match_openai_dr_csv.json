@@ -1,0 +1,116 @@
+{
+  "prompt": "How does the the Viv Ansanm alliance reshapes Haiti's gang landscape?",
+  "criteria": [
+    {
+      "name": "Alliance-driven truce",
+      "description": "Assess how the coalition reduces infighting among rival gangs and enables a sustained decrease in inter-gang clashes while consolidating power."
+    },
+    {
+      "name": "Territorial expansion dynamics",
+      "description": "Examine the shift from rivalries to coordinated expansion into new neighborhoods and corridors, including movement from contested zones to strategic urban centers and outskirts."
+    },
+    {
+      "name": "Targeting state infrastructure",
+      "description": "Evaluate the increase in organized attacks on government, security facilities, and public institutions as part of efforts to destabilize authorities and counter security deployments."
+    },
+    {
+      "name": "Revenue diversification and control",
+      "description": "Analyze how gangs capitalize on reduced internal conflict to intensify extortion, kidnappings, control of roadways and ports, and exploitation of agricultural assets."
+    },
+    {
+      "name": "Adaptation to external security pressure",
+      "description": "Track how gangs unify and adjust tactics in response to international or national security missions, including coordinated actions and resilience against enforcement operations."
+    },
+    {
+      "name": "Shifts in violence distribution",
+      "description": "Identify relocation of violence hotspots within urban areas and spillover into peri-urban or rural regions, with changing patterns of confrontations and territorial consolidation."
+    },
+    {
+      "name": "Civilian impact and displacement",
+      "description": "Assess trends in direct attacks versus indirect harms such as property destruction, forced displacement, and heightened risks for vulnerable groups under criminal governance."
+    },
+    {
+      "name": "Political autonomy and confrontation",
+      "description": "Evaluate gangs’ evolving independence from political patrons and their increasing role as direct challengers to transitional or incumbent authorities."
+    },
+    {
+      "name": "Maritime and border control",
+      "description": "Monitor expansion into coastal and border areas to dominate trafficking routes, enable rapid movement, and generate revenue through targeting transport and trade."
+    },
+    {
+      "name": "Alliance cohesion and fragility",
+      "description": "Consider internal disputes, leadership changes, and resource strains that could fracture the coalition, alongside factors that maintain unity against shared threats."
+    },
+    {
+      "name": "Prospects for negotiation",
+      "description": "Analyze the potential for dialogue with authorities, including risks of partial inclusion or exclusion that may create fissures within alliances and alter violence levels."
+    },
+    {
+      "name": "Security force engagement risks",
+      "description": "Examine intensified clashes between gangs and security forces, potential human rights concerns, and implications for overall stability and civilian safety."
+    }
+  ],
+  "criterion_scores": [
+    {
+      "name": "Alliance-driven truce",
+      "score": 0.9,
+      "explanation": "The article clearly explains the union of G9 and G-Pèp under Viv Ansanm, notes sharp decline in clashes between former rivals, and a shift toward common purpose against the state. It strongly addresses reduced infighting and consolidation of power, though it could provide more quantitative evidence on sustained decrease over time."
+    },
+    {
+      "name": "Territorial expansion dynamics",
+      "score": 0.7,
+      "explanation": "It mentions control over an estimated 80% of Port-au-Prince and greater territorial control, but offers limited detail on coordinated expansion into specific new neighborhoods, corridors, or movement from contested zones to urban centers/outskirts. Some coverage, lacking granular dynamics."
+    },
+    {
+      "name": "Targeting state infrastructure",
+      "score": 1.0,
+      "explanation": "Fully covered with multiple examples: coordinated assaults on airport, police stations, national palace, prisons causing mass escapes, fuel terminal blockade, and systematic targeting of public infrastructure."
+    },
+    {
+      "name": "Revenue diversification and control",
+      "score": 0.4,
+      "explanation": "Briefly notes increased financial clout and humanitarian manipulation but does not analyze extortion, kidnappings for revenue, control of roadways/ports, or agricultural asset exploitation in detail. Touches indirectly on kidnappings; lacks revenue strategy discussion."
+    },
+    {
+      "name": "Adaptation to external security pressure",
+      "score": 0.9,
+      "explanation": "Strong discussion of alliance formed to resist foreign intervention and oust the PM, explicit unity in anticipation of a UN-sanctioned mission, coordinated tactics akin to militia to counter authorities. Could add specifics on resilience against particular enforcement operations post-deployment."
+    },
+    {
+      "name": "Shifts in violence distribution",
+      "score": 0.6,
+      "explanation": "Addresses city-wide sieges and record violence in the capital, closures and no-go zones, but provides limited analysis of relocation of hotspots or spillover into peri-urban/rural regions and changing confrontation patterns beyond Port-au-Prince."
+    },
+    {
+      "name": "Civilian impact and displacement",
+      "score": 0.95,
+      "explanation": "Detailed coverage of humanitarian toll: closures of schools/hospitals, shortages, kidnappings and sexual violence, displacement figures rising from 362,000 to over 578,000, and civilian fear. Very strong, minor room for more on vulnerable groups specifics."
+    },
+    {
+      "name": "Political autonomy and confrontation",
+      "score": 0.85,
+      "explanation": "Explains political motives, ultimatums to government, resistance to international deployment, and transformation into de-facto parallel power. Less explicit discussion of evolving independence from political patrons, but confrontation with authorities is well-covered."
+    },
+    {
+      "name": "Maritime and border control",
+      "score": 0.3,
+      "explanation": "Mentions blockade of the capital’s main fuel terminal and control over much of the city, but lacks analysis of expansion into coastal/border areas, domination of trafficking routes, maritime movement, or revenue from transport/trade beyond the terminal incident."
+    },
+    {
+      "name": "Alliance cohesion and fragility",
+      "score": 0.55,
+      "explanation": "Describes increased coordination, institutional memory, habit of cooperation, and unified operations. However, it does not assess internal disputes, leadership changes, or resource strains that could fracture the coalition; limited on fragility factors."
+    },
+    {
+      "name": "Prospects for negotiation",
+      "score": 0.35,
+      "explanation": "Touches on political leverage and issuing ultimatums, but does not analyze potential dialogue with authorities, inclusion/exclusion risks, or how negotiation prospects might alter violence. Only implicit confrontation stance."
+    },
+    {
+      "name": "Security force engagement risks",
+      "score": 0.8,
+      "explanation": "Covers intensified clashes with police, military-grade weapons, drones, hours-long firefights, and human rights concerns implied via humanitarian crisis. Could elaborate more on explicit human rights issues and broader stability implications across the country."
+    }
+  ],
+  "overall_score": 0.6916666666666665
+}

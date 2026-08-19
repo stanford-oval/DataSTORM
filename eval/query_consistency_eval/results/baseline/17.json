@@ -1,0 +1,151 @@
+{
+  "per_dimension": [
+    {
+      "dimension": "actor_entity",
+      "score": 0.0,
+      "num_concept_groups": 3,
+      "num_consistent_groups": 0,
+      "notes": "Actor matching for the generic 'cartel/gang-related' concept varies widely across queries; named-cartel matching for CJNG and for Sinaloa also diverges between queries."
+    },
+    {
+      "dimension": "geography",
+      "score": 0.0,
+      "num_concept_groups": 1,
+      "num_consistent_groups": 0,
+      "notes": "Corridor membership is defined inconsistently across queries."
+    },
+    {
+      "dimension": "temporal",
+      "score": 1.0,
+      "num_concept_groups": 1,
+      "num_consistent_groups": 1,
+      "notes": "2024 and 2023–2024 time windows are consistently expressed (year filters or Jan 1–Jan 1 ranges), with equivalent bounds."
+    },
+    {
+      "dimension": "event_taxonomy",
+      "score": 0.0,
+      "num_concept_groups": 2,
+      "num_consistent_groups": 0,
+      "notes": "Definitions of 'cartel–state confrontations' and of 'political violence vs all cartel/gang events' are not aligned across queries."
+    },
+    {
+      "dimension": "counting_aggregation",
+      "score": 1.0,
+      "num_concept_groups": 2,
+      "num_consistent_groups": 2,
+      "notes": "Where the same metric is computed in multiple queries (e.g., fatalities per event; monthly Strategic developments), the aggregation methods are consistent."
+    },
+    {
+      "dimension": "population_scope",
+      "score": 1.0,
+      "num_concept_groups": 0,
+      "num_consistent_groups": 0,
+      "notes": "All relevant queries scope to Mexico; no cross-query scope mismatches detected."
+    }
+  ],
+  "conflicts": [
+    {
+      "dimension": "actor_entity",
+      "concept": "Generic 'cartel/gang-related events' (Mexico 2023–2024)",
+      "query_indices": [
+        0,
+        2
+      ],
+      "predicate_a": "(actor1 OR actor2 OR assoc_actor_1 OR assoc_actor_2) ILIKE ANY('%cartel%','%cártel%','%narco%','%sicario%','%gang%','%pandilla%','%organized crime%','%crimen organizado%')",
+      "predicate_b": "COALESCE(actor1,'') OR COALESCE(actor2,'') OR COALESCE(assoc_actor_1,'') OR COALESCE(assoc_actor_2,'') ILIKE ANY('%cartel%','%gang%','%sicario%','%narco%','%mafia%','%criminal%')",
+      "severity": "result-changing",
+      "explanation": "Q0 includes 'organized crime' (EN/ES) but omits 'mafia'/'criminal'; Q2 includes 'mafia'/'criminal' but omits 'organized crime' and Spanish variants like 'pandilla' and 'cártel'. The same concept is filtered with different string sets, yielding different event pools."
+    },
+    {
+      "dimension": "actor_entity",
+      "concept": "Generic 'cartel/gang-related events' (Mexico 2024)",
+      "query_indices": [
+        16,
+        19
+      ],
+      "predicate_a": "(actor/assoc ILIKE '%cartel%' OR '%gang%') OR (tags ILIKE '%cartel%' OR '%gang%') OR (notes ILIKE '%cartel%' OR '%gang%')",
+      "predicate_b": "COALESCE(actor1,actor2,assoc_actor_1,assoc_actor_2) ILIKE ANY('%cartel%','%gang%','%sicario%','%narco%','%mafia%')",
+      "severity": "result-changing",
+      "explanation": "Q16 includes matches in tags and notes, while Q19 restricts to actor fields and uses a different term set. Including tags/notes expands the base set relative to actor-only filters."
+    },
+    {
+      "dimension": "event_taxonomy",
+      "concept": "Cartel/gang-related municipal counts in 2023 vs 2024",
+      "query_indices": [
+        1,
+        2
+      ],
+      "predicate_a": "disorder_type IN ('Political violence','Political violence; Demonstrations') AND actor patterns (cartel name list)",
+      "predicate_b": "no disorder_type restriction; actor patterns (generic '%cartel%','%gang%','%sicario%','%narco%','%mafia%','%criminal%')",
+      "severity": "result-changing",
+      "explanation": "Q1 limits to political-violence-coded events, while Q2 includes all event types. For the same municipal change concept, these taxonomy differences will change counts."
+    },
+    {
+      "dimension": "actor_entity",
+      "concept": "CJNG actor identification (Mexico 2024)",
+      "query_indices": [
+        8,
+        9
+      ],
+      "predicate_a": "(actor/assoc) ILIKE '%Jalisco Cartel New Generation%' OR '%CJNG%'",
+      "predicate_b": "LOWER(actor/assoc) ILIKE '%cjng%' OR '%cartel jalisco nueva generacion%'",
+      "severity": "result-changing",
+      "explanation": "Q8 looks for 'Jalisco Cartel New Generation' (a rarer English variant) and 'CJNG' only; Q9 includes the common Spanish name 'Cartel Jalisco Nueva Generacion'. Events tagged with the Spanish form but without 'CJNG' will be missed by Q8."
+    },
+    {
+      "dimension": "actor_entity",
+      "concept": "Sinaloa Cartel identification (Mexico 2024)",
+      "query_indices": [
+        7,
+        8
+      ],
+      "predicate_a": "actor patterns mapped to Sinaloa: ARRAY['Sinaloa','Sinaloa Cartel','Cartel de Sinaloa'] matched in actor1/actor2",
+      "predicate_b": "(actor/assoc) ILIKE '%Sinaloa Cartel%' (only)",
+      "severity": "result-changing",
+      "explanation": "Q7 counts events where 'Sinaloa' or 'Cartel de Sinaloa' appear in actor fields, while Q8 restricts to the exact phrase 'Sinaloa Cartel'. This will exclude events using other common labels."
+    },
+    {
+      "dimension": "event_taxonomy",
+      "concept": "Cartel–state confrontations (Mexico 2024)",
+      "query_indices": [
+        3,
+        4
+      ],
+      "predicate_a": "State involvement: (inter1 = 'State forces' OR inter2 = 'State forces'); Cartel flag via regex on actor1/actor2/assoc with a long named-cartel list",
+      "predicate_b": "State involvement: interaction IN ('Political militia-State forces','State forces-Political militia') OR (inter1/inter2 = 'State forces'); Cartel flag via ILIKE terms ('%cartel%','%cjng%','%jalisco%','%sinaloa%','%golfo%','%noreste%','%familia%'...)",
+      "severity": "result-changing",
+      "explanation": "Different confrontation definitions: Q4 relies partly on 'interaction' categories and a narrower, potentially noisier cartel term set (e.g., partials like 'familia'). Q3 uses only inter1/2 plus a broader named-cartel regex. These will select different events."
+    },
+    {
+      "dimension": "event_taxonomy",
+      "concept": "Cartel–state confrontations (Mexico 2024)",
+      "query_indices": [
+        3,
+        13
+      ],
+      "predicate_a": "State involvement: inter1/inter2 = 'State forces'; Cartel regex on actors",
+      "predicate_b": "interaction IN ('Political militia-State forces','State forces-Political militia','Rebel group-State forces','State forces-Rebel group') AND actor1/actor2 ILIKE ANY('%cartel%','%cjng%','%jalisco%','%sinaloa%','%golfo%','%gulf%','%zeta%','%zetas%','%noreste%','%juarez%','%beltran%','%leyva%','%familia michoacana%','%michoacana%','%templarios%','%knights templar%','%viagras%','%rojos%','%guerreros unidos%','%mata zetas%')",
+      "severity": "result-changing",
+      "explanation": "Q13 excludes Identity militia–State forces dyads and includes Rebel group–State forces, while Q3 includes any State forces involvement provided the cartel pattern matches. These taxonomy rules differ and will produce different monthly confrontation counts."
+    },
+    {
+      "dimension": "geography",
+      "concept": "Corridor definitions for three named corridors",
+      "query_indices": [
+        21,
+        22
+      ],
+      "predicate_a": "Corridor_name assignment: 'Pacific Corridor' = many states (Baja California, Baja California Sur, Sonora, Sinaloa, Nayarit, Jalisco, Colima, Michoacán, Guerrero, Oaxaca); 'Central Corridor' = (Guanajuato, Querétaro, Hidalgo, México, Ciudad de México, Morelos, Puebla, Tlaxcala); 'Northeast Corridor' = (Nuevo León, Tamaulipas, Coahuila, Chihuahua, Durango, Zacatecas, San Luis Potosí, Aguascalientes)",
+      "predicate_b": "Corridor mapping: 'Pacific logistics (Sinaloa)' = admin1 = 'Sinaloa'; 'Southern border (Chiapas & Tabasco)' = admin1 IN ('Chiapas','Tabasco'); 'Industrial–urban hubs (Nuevo León, Guanajuato, Ciudad de México)' = admin1 IN ('Nuevo León','Guanajuato','Ciudad de México')",
+      "severity": "result-changing",
+      "explanation": "The same three corridor labels are populated by very different state sets (broad multi-state vs single-/few-state definitions). This makes corridor-level comparisons across queries non-comparable."
+    }
+  ],
+  "overall_score": 0.5,
+  "summary": "The report’s queries show strong temporal and aggregation consistency, but substantial inconsistencies in actor matching, event taxonomy, and corridor geography. In particular, the generic 'cartel/gang-related' filters vary (different keyword sets; sometimes include notes/tags), CJNG/Sinaloa matching is not standardized, 'cartel–state confrontation' rules diverge across queries, and corridor membership differs between queries. These result-changing discrepancies undermine cross-query comparability of key metrics.",
+  "report_dir": "<repo>/datatalk/acled/17/Research_gang_violence_in_Mexico_and_its_outlook_in_2025,_as_if_we_are_at_the_end_of_2024_heading_into_2025.__20260323_205631",
+  "model": "gpt-5",
+  "num_queries": 32,
+  "applicable": true,
+  "id": 17
+}

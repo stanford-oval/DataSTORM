@@ -1,0 +1,170 @@
+{
+  "prompt": "Research state of resistance groups in Myanmar post 2021 coup: What is the landscape of these groups?",
+  "criteria": [
+    {
+      "name": "Proliferation of armed actors",
+      "description": "Assess the rapid emergence and diversification of new resistance groups alongside established organizations, and how this fragmentation reshapes the conflict landscape."
+    },
+    {
+      "name": "Shifting territorial control",
+      "description": "Evaluate the trend of resistance groups eroding the military’s ground control, including expansion from borderlands into central regions and the implications for governance."
+    },
+    {
+      "name": "Old-new group cooperation",
+      "description": "Examine patterns of tactical coordination between established ethnic armed organizations and newer resistance groups, including training, shelter, and joint operations, and how these bolster capabilities."
+    },
+    {
+      "name": "Limits of deeper cooperation",
+      "description": "Analyze why alliance-building remains fragile, focusing on divergent political visions, command structures, and localized objectives that constrain broader unity."
+    },
+    {
+      "name": "Divergent strategies and tactics",
+      "description": "Contrast established groups’ territorial and heavy-arms approaches with newer groups’ resource-constrained guerrilla tactics, remote attacks, and disruption of administration."
+    },
+    {
+      "name": "Impact on civilian protection",
+      "description": "Assess how limited coordination and guerrilla operations affect civilians, including retaliatory violence, displacement, and difficulties in shielding communities from abuses."
+    },
+    {
+      "name": "Humanitarian access challenges",
+      "description": "Identify how overlapping claims, unclear authority, and checkpoint/taxation practices complicate aid delivery and strain public support."
+    },
+    {
+      "name": "Intra-resistance competition",
+      "description": "Track recurring disputes over legitimacy, resources, and territory that sometimes escalate into clashes, and evaluate their impact on overall resistance effectiveness."
+    },
+    {
+      "name": "Regional variation in dynamics",
+      "description": "Compare distinct inter-group patterns across different states and regions, including areas dominated by inter-EAO rivalry versus zones of PDF/LDF competition."
+    },
+    {
+      "name": "Military counter-strategies",
+      "description": "Evaluate the regime’s divide-and-rule and ceasefire politics aimed at exploiting rifts, and how these tactics influence resistance cohesion and conflict duration."
+    },
+    {
+      "name": "Governance and legitimacy building",
+      "description": "Examine efforts by resistance actors to establish administrative structures and the tensions these create, including debates over federalism, autonomy, and control of captured areas."
+    },
+    {
+      "name": "Resource and economy drivers",
+      "description": "Assess how access to natural resources, trade routes, and illicit economies motivates territorial ambitions and fuels both cooperation and conflict."
+    },
+    {
+      "name": "Airpower and terrain effects",
+      "description": "Consider how geography and the military’s air superiority shape resistance tactics, base security, and feasibility of cross-regional coordination."
+    },
+    {
+      "name": "Momentum versus fragmentation",
+      "description": "Weigh how widespread, decentralized operations can cumulatively pressure the regime while fragmentation simultaneously hampers decisive breakthroughs."
+    },
+    {
+      "name": "Prospects for consolidation",
+      "description": "Analyze indicators of maturing command structures among resistance units and conditions under which localized coordination could evolve into integrated fronts."
+    },
+    {
+      "name": "Risks of communal tensions",
+      "description": "Identify potential for inter-ethnic frictions in newly controlled or contested areas when governance expands without inclusive political arrangements."
+    },
+    {
+      "name": "Public support dynamics",
+      "description": "Evaluate how civilian perceptions respond to resistance governance, taxation, and security practices, and how this support can enable or constrain operations."
+    },
+    {
+      "name": "Pathways to political settlement",
+      "description": "Assess the likelihood and implications of negotiations, including offers to co-opt resistance groups, and the barriers posed by unresolved political visions."
+    }
+  ],
+  "criterion_scores": [
+    {
+      "name": "Proliferation of armed actors",
+      "score": 0.5,
+      "explanation": "The article distinguishes between EAOs and newer PDFs/LDFs/CDFs and notes coalition patterns and multiple EAOs (KIA, KNLA, AA, TNLA, MNDAA). However, it does not explicitly analyze the rapid emergence and diversification of new resistance groups post-coup or how fragmentation reshapes the conflict beyond EAO-PDF dichotomy."
+    },
+    {
+      "name": "Shifting territorial control",
+      "score": 0.75,
+      "explanation": "It clearly contrasts periphery EAO offensives with central PDF volatility and cites specific states, implying erosion of military control and expansion beyond borderlands. Governance implications are only briefly hinted at (corridors, ceasefires), lacking deeper discussion of administration or control of towns."
+    },
+    {
+      "name": "Old-new group cooperation",
+      "score": 0.9,
+      "explanation": "Strong coverage of tactical coordination: detailed co-appearances, training/shelter implied via logistics corridors, repeated joint operations (KIA–PDF, KNLA–PDF, TNLA–PDF) and regional hubs, explaining capability boosts and coalition warfare."
+    },
+    {
+      "name": "Limits of deeper cooperation",
+      "score": 0.25,
+      "explanation": "The article notes coalition density and maturing C2 but does not analyze fragility of alliances, divergent political visions, command structures, or localized objectives that constrain unity."
+    },
+    {
+      "name": "Divergent strategies and tactics",
+      "score": 0.75,
+      "explanation": "Good contrast: EAOs conducting battle-centric, larger offensives with lower IED reliance; PDFs show higher IED use and episodic volatility; mentions drones and remote violence. Could further elaborate on disruptive administration tactics by newer groups."
+    },
+    {
+      "name": "Impact on civilian protection",
+      "score": 0.75,
+      "explanation": "Addresses lethality distribution, actor–region civilian-targeting patterns (AA higher civilian targeting), and implications for protection needs in Rakhine, Kayah, Sagaing. Does not deeply explore displacement or shielding communities beyond risk characterization."
+    },
+    {
+      "name": "Humanitarian access challenges",
+      "score": 0.5,
+      "explanation": "Touches on corridor security, route deconfliction, and how lethality hotspots affect aid priorities. Lacks discussion of overlapping claims, unclear authority, or taxation/checkpoints complicating aid delivery and public support."
+    },
+    {
+      "name": "Intra-resistance competition",
+      "score": 0.25,
+      "explanation": "Minimal treatment. It mentions a 'marketplace of partnerships' in Sagaing but does not analyze disputes over legitimacy, resources, territory, or clashes among resistance groups and their effects."
+    },
+    {
+      "name": "Regional variation in dynamics",
+      "score": 0.85,
+      "explanation": "Strong comparative analysis across Rakhine, Kachin, Shan-North, Kayin, Sagaing, Magway, etc., with distinct patterns of EAO offensives vs. central PDF dynamics and actor-specific footprints. Less explicit on zones of EAO-on-EOA rivalry vs. PDF/LDF competition."
+    },
+    {
+      "name": "Military counter-strategies",
+      "score": 0.0,
+      "explanation": "Does not evaluate regime divide-and-rule, ceasefire politics, or tactics to exploit rifts."
+    },
+    {
+      "name": "Governance and legitimacy building",
+      "score": 0.25,
+      "explanation": "Mentions implications for governance, corridors, ceasefires, and 'resistance governance' only tangentially; lacks analysis of administrative structures, federalism debates, or control of captured areas."
+    },
+    {
+      "name": "Resource and economy drivers",
+      "score": 0.0,
+      "explanation": "No discussion of natural resources, trade routes, or illicit economies shaping territorial ambitions or cooperation/conflict."
+    },
+    {
+      "name": "Airpower and terrain effects",
+      "score": 0.25,
+      "explanation": "Brief references to drones and air/remote strikes being secondary; no substantive analysis of junta airpower, geography, base security, or cross-regional coordination constraints."
+    },
+    {
+      "name": "Momentum versus fragmentation",
+      "score": 0.5,
+      "explanation": "Implicitly addresses cumulative pressure via dual-front operations and coalition warfare, and notes central volatility. However, it does not explicitly weigh how fragmentation hampers decisive breakthroughs."
+    },
+    {
+      "name": "Prospects for consolidation",
+      "score": 0.5,
+      "explanation": "Mentions coalition density as proxy for maturing C2 and identifies hubs; suggests indicators to watch. Does not analyze conditions for evolving into integrated fronts or emerging command hierarchies in depth."
+    },
+    {
+      "name": "Risks of communal tensions",
+      "score": 0.0,
+      "explanation": "No discussion of inter-ethnic frictions or inclusive political arrangements in newly controlled areas."
+    },
+    {
+      "name": "Public support dynamics",
+      "score": 0.25,
+      "explanation": "Very limited; brief nod to policy interlocutors and aid planners, but no analysis of civilian perceptions, taxation, or how support enables/constrains operations."
+    },
+    {
+      "name": "Pathways to political settlement",
+      "score": 0.25,
+      "explanation": "Mentions ceasefire calculus and negotiation architecture superficially; lacks evaluation of likelihood, co-optation offers, or barriers from unresolved political visions."
+    }
+  ],
+  "overall_score": 0.4166666666666667
+}

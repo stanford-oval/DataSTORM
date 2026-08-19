@@ -1,0 +1,821 @@
+{
+  "id": "15",
+  "prompt": "How does the the Viv Ansanm alliance reshapes Haiti's gang landscape?",
+  "timestamp": "2026-03-29T04:06:47.871132",
+  "openai_dr": {
+    "total_insights": 17,
+    "total_classified": 17,
+    "acled_count": 3,
+    "non_acled_count": 14,
+    "pct_acled": 0.17647058823529413,
+    "details": [
+      {
+        "evidence": "Viv Ansanm is a unified Haitian gang alliance formed by merging the G9 Family and Allies and the G-Pèp alliance in late 2023/early 2024.",
+        "is_acled_data": false,
+        "reasoning": "The statement describes the formation and merger of Haitian gang alliances (G9 and G-Pèp into Viv Ansanm) as a general analytic claim about group structure and timing. It does not reference specific ACLED event data, counts, locations, fatalities, or actor-tagged events, nor is it attributed to ACLED. This is general conflict analysis, not explicitly derived from ACLED datasets.",
+        "source_context": "Formation section detailing merger of rival federations and establishment timeline."
+      },
+      {
+        "evidence": "Jimmy “Barbecue” Chérizier emerged as a central figure in the Viv Ansanm alliance.",
+        "is_acled_data": false,
+        "reasoning": "This is a general characterization of a figure’s prominence within an alliance, not a specific event count, actor-level event record, or dataset explicitly attributed to ACLED. It reads as narrative analysis rather than ACLED-derived event data.",
+        "source_context": "Formation section identifying Chérizier’s leadership role."
+      },
+      {
+        "evidence": "Viv Ansanm members control or influence approximately 80–85% of the Port-au-Prince metropolitan area.",
+        "is_acled_data": false,
+        "reasoning": "A claim that an alliance controls 80–85% of a metropolitan area is a broad territorial control estimate, not a direct statistic from ACLED’s event-based datasets. ACLED tracks specific conflict events, actors, fatalities, and locations, but it does not typically publish percentage territorial control figures like this. Unless explicitly attributed to ACLED analysis, this appears to be general analytical/territorial assessment rather than ACLED data.",
+        "source_context": "Formation section citing dominance over capital with percentage range."
+      },
+      {
+        "evidence": "The alliance transformed previously fragmented gangs into a centralized, coordinated force capable of large-scale operations.",
+        "is_acled_data": false,
+        "reasoning": "The statement is high-level analytical commentary about organizational centralization and operational capacity of gangs, not specific event counts, locations, fatalities, or actor-level event data explicitly tied to ACLED. It lacks attribution to ACLED and does not reference concrete ACLED-derived metrics or trends.",
+        "source_context": "Expanded Territory section explaining shift from fragmentation to coordination."
+      },
+      {
+        "evidence": "Viv Ansanm gangs have conducted coordinated attacks on prisons, police stations, ports, the main airport, and fuel terminals to expand control and challenge the state.",
+        "is_acled_data": true,
+        "reasoning": "The statement describes specific coordinated attacks by armed groups on prisons, police stations, ports, the airport, and fuel terminals to expand control and challenge the state—this aligns with ACLED event data and actor activity descriptions (battles, explosions/remote violence, strategic attacks). Such operational details about targeted facilities and coordinated actions are typically captured in ACLED incident/event records and summaries.",
+        "source_context": "Expanded Territory section listing targeted infrastructure and strategic aims."
+      },
+      {
+        "evidence": "The coalition employs quasi-military tactics, increasing the security challenge compared to when gangs were splintered.",
+        "is_acled_data": false,
+        "reasoning": "The statement is qualitative analysis about tactics and security challenges, not citing specific ACLED event data, counts, locations, or actor-level entries. It appears as general commentary rather than data explicitly tied to ACLED.",
+        "source_context": "Expanded Territory section noting tactical sophistication and coordination."
+      },
+      {
+        "evidence": "The coalition was formed in part to oppose a planned international security mission and resist foreign intervention.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general analytical claim about motives and opposition to an international mission, not a specific conflict event, actor activity entry, or statistic from ACLED. It reflects political analysis rather than ACLED event-derived data.",
+        "source_context": "Expanded Territory and Political Fallout sections referencing motives to thwart interventions."
+      },
+      {
+        "evidence": "The first quarter of 2024 was the deadliest on record in Haiti since UN tracking of gang violence began.",
+        "is_acled_data": false,
+        "reasoning": "The statement cites UN tracking and refers to a record for the first quarter of 2024, which aligns with UN monitoring rather than ACLED’s event-based dataset. No attribution to ACLED or use of ACLED-specific metrics is present.",
+        "source_context": "Surge in Violence section citing record lethality in early 2024."
+      },
+      {
+        "evidence": "Internally displaced people in Haiti rose from about 362,000 to over 578,000 between March and June 2024 due to gang violence.",
+        "is_acled_data": false,
+        "reasoning": "Internally displaced people (IDP) figures are humanitarian displacement statistics typically reported by UN agencies (e.g., IOM, OCHA) or the Internal Displacement Monitoring Centre, not ACLED’s conflict event dataset. No explicit attribution to ACLED is provided.",
+        "source_context": "Surge in Violence section providing displacement figures and timeframe."
+      },
+      {
+        "evidence": "Haiti experienced 2,357 violent events in 2024, up from 1,819 in 2023, indicating a sharp escalation under Viv Ansanm.",
+        "is_acled_data": true,
+        "reasoning": "The evidence provides specific counts of violent events by year (2023 vs 2024), which aligns with ACLED’s event count and temporal trend data. Such aggregated event totals are a core ACLED output and fit the listed ACLED data types.",
+        "source_context": "Surge in Violence section citing ACLED conflict data comparison."
+      },
+      {
+        "evidence": "Viv Ansanm exploited political turmoil to launch offensives, including in previously less-controlled neighborhoods like Solino.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general analytical claim about an alliance exploiting political turmoil and launching offensives, mentioning a neighborhood (Solino) but without specific event counts, dates, fatalities, or explicit attribution to ACLED event data. It reads as narrative analysis rather than a citation of ACLED-derived metrics or records.",
+        "source_context": "Surge in Violence section noting timing and location of offensives."
+      },
+      {
+        "evidence": "By mid-2024, the alliance’s attacks, including on police outposts and aircraft, effectively paralyzed Port-au-Prince.",
+        "is_acled_data": true,
+        "reasoning": "The claim references specific conflict events (attacks on police outposts and aircraft), their timing (mid-2024), location impact (paralyzing Port-au-Prince), and implies aggregated event trends—all elements consistent with ACLED’s event-based data and temporal trend analysis on armed group activity.",
+        "source_context": "Surge in Violence section describing impact of coordinated attacks."
+      },
+      {
+        "evidence": "Gangs shut down Haiti’s main airport for weeks and blocked major ports, causing shortages of fuel and essentials.",
+        "is_acled_data": false,
+        "reasoning": "The statement describes gangs shutting down an airport and blocking ports causing shortages—general narrative of disruptions and impacts. It lacks specific ACLED event data, counts, locations, dates, or explicit attribution to ACLED, and reads as media/journalistic description rather than ACLED-derived metrics.",
+        "source_context": "Surge in Violence section on infrastructure disruption and humanitarian effects."
+      },
+      {
+        "evidence": "Viv Ansanm’s coordinated assaults on government facilities in early 2024 contributed to Prime Minister Ariel Henry’s resignation.",
+        "is_acled_data": false,
+        "reasoning": "This is a causal, political assertion linking coordinated assaults to a prime minister’s resignation. It is general analysis of political outcomes rather than specific ACLED-coded event data (counts, locations, fatalities, event types). Unless explicitly tied to ACLED event records, this is not ACLED-derived.",
+        "source_context": "Political Fallout section linking assaults to PM’s resignation."
+      },
+      {
+        "evidence": "The Kenyan-led UN mission has struggled to make headway against Viv Ansanm’s entrenched power.",
+        "is_acled_data": false,
+        "reasoning": "This is a general analytical statement about a UN mission’s effectiveness, not a reference to specific ACLED event data, counts, fatalities, locations, or actor-coded incidents, nor is it attributed to ACLED.",
+        "source_context": "Political Fallout section discussing international mission’s difficulties."
+      },
+      {
+        "evidence": "Haiti’s police are often outgunned, with some officers accused of colluding with gangs, weakening state response.",
+        "is_acled_data": false,
+        "reasoning": "The statement is general analysis about police capacity and alleged collusion, not citing specific ACLED event data, counts, actor entries, or trends. It reads as commentary rather than data explicitly derived from ACLED.",
+        "source_context": "Political Fallout section highlighting police capacity issues and alleged collusion."
+      },
+      {
+        "evidence": "Viv Ansanm has reshaped Haiti’s gang landscape into a unified criminal bloc that controls most of the capital, fuels record violence, and challenges state and international authority.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a broad analytical claim about gang consolidation, control of the capital, and challenges to authority without citing specific event counts, locations, fatalities, or actor-level event data. It reads as general analysis rather than a metric or trend explicitly derived from ACLED’s event dataset.",
+        "source_context": "Conclusion in Political Fallout section summarizing the alliance’s overall impact."
+      }
+    ],
+    "insights": [
+      {
+        "insight": "Viv Ansanm is a unified Haitian gang alliance formed by merging the G9 Family and Allies and the G-Pèp alliance in late 2023/early 2024.",
+        "context": "Formation section detailing merger of rival federations and establishment timeline."
+      },
+      {
+        "insight": "Jimmy “Barbecue” Chérizier emerged as a central figure in the Viv Ansanm alliance.",
+        "context": "Formation section identifying Chérizier’s leadership role."
+      },
+      {
+        "insight": "Viv Ansanm members control or influence approximately 80–85% of the Port-au-Prince metropolitan area.",
+        "context": "Formation section citing dominance over capital with percentage range."
+      },
+      {
+        "insight": "The alliance transformed previously fragmented gangs into a centralized, coordinated force capable of large-scale operations.",
+        "context": "Expanded Territory section explaining shift from fragmentation to coordination."
+      },
+      {
+        "insight": "Viv Ansanm gangs have conducted coordinated attacks on prisons, police stations, ports, the main airport, and fuel terminals to expand control and challenge the state.",
+        "context": "Expanded Territory section listing targeted infrastructure and strategic aims."
+      },
+      {
+        "insight": "The coalition employs quasi-military tactics, increasing the security challenge compared to when gangs were splintered.",
+        "context": "Expanded Territory section noting tactical sophistication and coordination."
+      },
+      {
+        "insight": "The coalition was formed in part to oppose a planned international security mission and resist foreign intervention.",
+        "context": "Expanded Territory and Political Fallout sections referencing motives to thwart interventions."
+      },
+      {
+        "insight": "The first quarter of 2024 was the deadliest on record in Haiti since UN tracking of gang violence began.",
+        "context": "Surge in Violence section citing record lethality in early 2024."
+      },
+      {
+        "insight": "Internally displaced people in Haiti rose from about 362,000 to over 578,000 between March and June 2024 due to gang violence.",
+        "context": "Surge in Violence section providing displacement figures and timeframe."
+      },
+      {
+        "insight": "Haiti experienced 2,357 violent events in 2024, up from 1,819 in 2023, indicating a sharp escalation under Viv Ansanm.",
+        "context": "Surge in Violence section citing ACLED conflict data comparison."
+      },
+      {
+        "insight": "Viv Ansanm exploited political turmoil to launch offensives, including in previously less-controlled neighborhoods like Solino.",
+        "context": "Surge in Violence section noting timing and location of offensives."
+      },
+      {
+        "insight": "By mid-2024, the alliance’s attacks, including on police outposts and aircraft, effectively paralyzed Port-au-Prince.",
+        "context": "Surge in Violence section describing impact of coordinated attacks."
+      },
+      {
+        "insight": "Gangs shut down Haiti’s main airport for weeks and blocked major ports, causing shortages of fuel and essentials.",
+        "context": "Surge in Violence section on infrastructure disruption and humanitarian effects."
+      },
+      {
+        "insight": "Viv Ansanm’s coordinated assaults on government facilities in early 2024 contributed to Prime Minister Ariel Henry’s resignation.",
+        "context": "Political Fallout section linking assaults to PM’s resignation."
+      },
+      {
+        "insight": "The Kenyan-led UN mission has struggled to make headway against Viv Ansanm’s entrenched power.",
+        "context": "Political Fallout section discussing international mission’s difficulties."
+      },
+      {
+        "insight": "Haiti’s police are often outgunned, with some officers accused of colluding with gangs, weakening state response.",
+        "context": "Political Fallout section highlighting police capacity issues and alleged collusion."
+      },
+      {
+        "insight": "Viv Ansanm has reshaped Haiti’s gang landscape into a unified criminal bloc that controls most of the capital, fuels record violence, and challenges state and international authority.",
+        "context": "Conclusion in Political Fallout section summarizing the alliance’s overall impact."
+      }
+    ],
+    "prompt": "How does the the Viv Ansanm alliance reshapes Haiti's gang landscape?"
+  },
+  "openai_dr_csv": {
+    "total_insights": 27,
+    "total_classified": 27,
+    "acled_count": 2,
+    "non_acled_count": 25,
+    "pct_acled": 0.07407407407407407,
+    "details": [
+      {
+        "evidence": "Viv Ansanm formed in late 2023 as a unified coalition between the G9 Family and Allies and the G-Pèp alliance, ending years of rivalry.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a descriptive claim about alliance formation and group relations, not citing event counts, locations, fatalities, or actor-coded events from ACLED. Without explicit attribution to ACLED or use of ACLED-style event data, it appears as general analysis/background, not ACLED-derived.",
+        "source_context": "Formation section: two rival federations joined forces under Viv Ansanm on 29 Feb 2024."
+      },
+      {
+        "evidence": "The Viv Ansanm coalition exerts control or significant influence over about 80% of the Port-au-Prince metropolitan area.",
+        "is_acled_data": false,
+        "reasoning": "A claim that a coalition controls ~80% of a metropolitan area is a territorial control/area-dominance estimate, typically from media, officials, or think-tanks. ACLED provides event-based data, actor activity, and trends, but does not usually publish percentage control figures for urban territory. Without explicit attribution to ACLED, this is not ACLED-derived.",
+        "source_context": "Formation section: estimated territorial control after the merger."
+      },
+      {
+        "evidence": "The alliance reduced inter-gang clashes between former rivals, reshaping the landscape from fragmented factions to a coordinated bloc.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a broad analytical claim about reduced inter-gang clashes and restructuring into a coordinated bloc, without citing specific ACLED event counts, actor-level entries, or temporal trend data. It reads as general analysis rather than a reference to ACLED-derived metrics or event records.",
+        "source_context": "Reduced Rivalry section: clashes sharply declined post-pact."
+      },
+      {
+        "evidence": "Viv Ansanm redirected gang focus from internecine battles to a common enemy: Haiti’s government and security forces.",
+        "is_acled_data": false,
+        "reasoning": "The statement is an analytical claim about strategic shifts in gang targets, not a specific event count, actor-level event description, or trend explicitly tied to ACLED data. It lacks references to ACLED events, fatalities, locations, or actor-coded data and reads as general analysis rather than ACLED-derived metrics.",
+        "source_context": "Reduced Rivalry section: resources concentrated against the state."
+      },
+      {
+        "evidence": "The coalition was formed with explicit political aims to oust interim Prime Minister Ariel Henry and resist foreign intervention.",
+        "is_acled_data": false,
+        "reasoning": "The statement describes political aims and intentions of a coalition (ousting a prime minister and resisting foreign intervention), which is a policy/political assertion rather than specific conflict event data or actor/event statistics. It is general political analysis not tied to ACLED event records, fatalities, or actor-level event data.",
+        "source_context": "Reduced Rivalry section: stated political motive of the alliance."
+      },
+      {
+        "evidence": "G9 and G-Pèp anticipated a UN-sanctioned multinational police mission and struck the Viv Ansanm pact in September 2023 to show unity against outside forces.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a narrative about alliances anticipating a UN mission and forming a pact in September 2023. It is political/strategic analysis without specific ACLED event data (no event records, locations, counts, fatalities, or actor-coded incidents explicitly tied to ACLED).",
+        "source_context": "Reduced Rivalry section: timing and rationale for unity."
+      },
+      {
+        "evidence": "Unified gangs leveraged newfound political influence to issue ultimatums to the government and oppose international deployments.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general analytical claim about gangs leveraging political influence and issuing ultimatums; it does not reference specific conflict events, counts, fatalities, locations, or actor-level event data attributable to ACLED.",
+        "source_context": "Reduced Rivalry section: increased political leverage and threats."
+      },
+      {
+        "evidence": "Viv Ansanm’s emergence escalated violence, enabling coordinated attacks that paralyzed daily life in Port-au-Prince in early 2024.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general analytical claim about increased violence and coordinated attacks affecting daily life, without citing specific ACLED event counts, actor-level entries, locations, dates, or fatalities. It reads as narrative analysis rather than data explicitly tied to ACLED event records or trends.",
+        "source_context": "Intensified Violence section: immediate escalation and paralysis."
+      },
+      {
+        "evidence": "In late February 2024, Viv Ansanm conducted simultaneous assaults on the international airport, multiple police stations, and the national palace.",
+        "is_acled_data": true,
+        "reasoning": "The statement reports specific conflict events with timing (late February 2024), targets (airport, police stations, national palace), and actor (Viv Ansanm), which aligns with ACLED’s event-level data on battles/explosions and armed group activity. Such simultaneous assaults would be captured as ACLED events; thus this type of evidence is consistent with ACLED-derived data.",
+        "source_context": "Intensified Violence section: specific coordinated attacks."
+      },
+      {
+        "evidence": "Under Viv Ansanm, gangs systematically targeted key public infrastructure including prisons, police outposts, the main fuel terminal, and the airport.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a generalized analytical claim about gangs targeting infrastructure without citing specific events, counts, dates, locations, or ACLED attribution. It reads as narrative analysis rather than direct use of ACLED event data.",
+        "source_context": "Intensified Violence section: infrastructure targeting strategy."
+      },
+      {
+        "evidence": "The airport was forced to close for nearly three months due to gang attacks and blockades.",
+        "is_acled_data": false,
+        "reasoning": "The statement about an airport closure duration due to gang attacks is a general consequence/impact claim. While ACLED tracks conflict events (attacks, blockades) and their timing/location, the specific claim of a three-month airport closure is an operational/impact detail typically reported by media or authorities, not standard ACLED event data unless explicitly tied to ACLED. No attribution to ACLED is provided.",
+        "source_context": "Intensified Violence section: operational impact on airport."
+      },
+      {
+        "evidence": "Gangs triggered mass prisoner escapes by attacking prisons under the Viv Ansanm banner.",
+        "is_acled_data": true,
+        "reasoning": "The claim describes specific conflict events (gang attacks on prisons causing mass prisoner escapes) and attributes them to a particular armed actor banner (Viv Ansanm), which aligns with ACLED’s event descriptions and armed group activity data. Such prison attacks and associated details are commonly captured in ACLED incident reporting.",
+        "source_context": "Intensified Violence section: prison assaults outcome."
+      },
+      {
+        "evidence": "Viv Ansanm units used military-grade weapons and drones, enabling hours-long firefights and city-wide sieges that overwhelmed police capacity.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a qualitative description of tactics and impacts (weapons, drones, sieges, police overwhelmed) without citing specific ACLED event data, counts, locations, dates, fatalities, or actor-coded events. It reads as general analysis/journalistic description rather than data explicitly attributed to ACLED.",
+        "source_context": "Intensified Violence section: tactics and capabilities."
+      },
+      {
+        "evidence": "Haiti experienced its deadliest period of gang violence on record in the first quarter of 2024, per UN monitoring.",
+        "is_acled_data": false,
+        "reasoning": "The evidence cites UN monitoring about the deadliest period in Q1 2024, which points to UN data rather than ACLED event data or ACLED-attributed analysis.",
+        "source_context": "Humanitarian Impact section: severity of violence milestone."
+      },
+      {
+        "evidence": "The alliance’s siege-like operations closed schools and hospitals, turned neighborhoods into no-go zones, and disrupted basic services.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general qualitative description of impacts (schools/hospitals closed, no-go zones, service disruption) without citing specific events, counts, locations, fatalities, or actor-level data tied to ACLED. It reads as narrative analysis rather than ACLED-derived event data or metrics.",
+        "source_context": "Humanitarian Impact section: societal disruptions."
+      },
+      {
+        "evidence": "Kidnapping and sexual violence remained widespread as civilians were caught in crossfire or directly targeted.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general qualitative claim about widespread kidnapping and sexual violence without citing specific event counts, locations, dates, or attribution to ACLED. It reads as narrative analysis rather than derived from ACLED event data or statistics.",
+        "source_context": "Humanitarian Impact section: civilian victimization."
+      },
+      {
+        "evidence": "Gang blockades caused acute shortages of food, fuel, and medical supplies, pushing Port-au-Prince toward humanitarian collapse.",
+        "is_acled_data": false,
+        "reasoning": "The statement describes humanitarian impacts (shortages and humanitarian collapse) from gang blockades in general terms, without citing specific conflict event data, counts, locations, or ACLED attribution. This is general analysis/impact reporting rather than ACLED-derived event statistics.",
+        "source_context": "Humanitarian Impact section: blockade effects."
+      },
+      {
+        "evidence": "Internal displacement surged from about 362,000 IDPs in March 2024 to over 578,000 by June 2024.",
+        "is_acled_data": false,
+        "reasoning": "The statement reports internal displacement/IDP totals over time, which are typically humanitarian statistics from sources like IOM/DTM or UN agencies, not ACLED’s event-based conflict data. No explicit attribution to ACLED is given.",
+        "source_context": "Humanitarian Impact section: IDP statistics."
+      },
+      {
+        "evidence": "Gangs at times distributed food or cash in controlled areas to portray themselves as protectors amid state failure.",
+        "is_acled_data": false,
+        "reasoning": "This is a general qualitative statement about gang behavior and narratives, not tied to specific ACLED-coded events, counts, locations, or actor-level data explicitly attributed to ACLED.",
+        "source_context": "Humanitarian Impact section: image-building tactics."
+      },
+      {
+        "evidence": "Most Haitians feel trapped between gang predation and state weakness, living in pervasive fear.",
+        "is_acled_data": false,
+        "reasoning": "This is a broad analytical statement about public sentiment and fear, not tied to specific ACLED event data, counts, fatalities, or actor-level metrics, nor explicitly attributed to ACLED.",
+        "source_context": "Humanitarian Impact section: public sentiment."
+      },
+      {
+        "evidence": "Months of collaboration created an institutional memory among gangs, fostering a habit of cooperation that increases collective power.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a qualitative analytical claim about gang collaboration and institutional memory, not referencing specific conflict events, counts, locations, or actor-level data attributed to ACLED. It is general commentary rather than data derived from ACLED event datasets.",
+        "source_context": "Greater Coordination section: organizational learning and cooperation."
+      },
+      {
+        "evidence": "Viv Ansanm enabled cross-neighborhood coordination and resource sharing, enhancing territorial control, finances, and media exposure.",
+        "is_acled_data": false,
+        "reasoning": "The statement is qualitative analysis about coordination, resource sharing, and influence; it lacks specific event counts, locations, fatalities, or actor-coded events tied to ACLED. It reads as general analytical commentary rather than data explicitly attributed to ACLED.",
+        "source_context": "Greater Coordination section: networked operations benefits."
+      },
+      {
+        "evidence": "The alliance shifted gangs from daily, scattered skirmishes to well-planned offensives targeting high-value state security assets.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a qualitative assessment about tactical shifts and target selection, not citing specific ACLED event counts, actor/event data, locations, or trend metrics. It reads as general analysis rather than being explicitly grounded in ACLED-derived event data.",
+        "source_context": "Greater Coordination section: change in operational doctrine."
+      },
+      {
+        "evidence": "Improved tactical coordination allowed complex, simultaneous operations across Port-au-Prince in 2024, akin to militia-level organization.",
+        "is_acled_data": false,
+        "reasoning": "The statement is qualitative analysis about tactical coordination and militia-level organization; it does not reference specific ACLED event data, counts, fatalities, locations, or actor-coded events, nor is it attributed to ACLED.",
+        "source_context": "Greater Coordination section: sophistication of operations."
+      },
+      {
+        "evidence": "Viv Ansanm transformed Haiti’s gangs into a unified, insurgent-like force with de facto parallel power over much of the capital.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a broad analytical claim about gangs becoming a unified insurgent-like force and exerting de facto parallel power; it does not reference specific ACLED event data, counts, locations, or actor-level entries. It reads as general analysis rather than data derived from ACLED.",
+        "source_context": "Summary section: overall transformation and power structure."
+      },
+      {
+        "evidence": "By reducing infighting, the alliance amplified gangs’ destructive capacity and concentrated their campaign against the state.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a qualitative analytical claim about the alliance’s effects (reduced infighting, amplified destructive capacity, focus against the state) without referencing specific ACLED event counts, actor data, fatalities, locations, or trends. It reads as general analysis, not directly tied to ACLED event data or explicitly attributed to ACLED.",
+        "source_context": "Summary section: trade-off between internal peace and external aggression."
+      },
+      {
+        "evidence": "The heightened coordination and territorial dominance pose severe challenges for Haiti’s fragile government and any incoming international security mission.",
+        "is_acled_data": false,
+        "reasoning": "This is a general analytical statement about coordination and territorial dominance challenging government and missions; it does not cite specific conflict events, counts, locations, or actor-level data attributable to ACLED.",
+        "source_context": "Summary section: implications for state and foreign response."
+      }
+    ],
+    "insights": [
+      {
+        "insight": "Viv Ansanm formed in late 2023 as a unified coalition between the G9 Family and Allies and the G-Pèp alliance, ending years of rivalry.",
+        "context": "Formation section: two rival federations joined forces under Viv Ansanm on 29 Feb 2024."
+      },
+      {
+        "insight": "The Viv Ansanm coalition exerts control or significant influence over about 80% of the Port-au-Prince metropolitan area.",
+        "context": "Formation section: estimated territorial control after the merger."
+      },
+      {
+        "insight": "The alliance reduced inter-gang clashes between former rivals, reshaping the landscape from fragmented factions to a coordinated bloc.",
+        "context": "Reduced Rivalry section: clashes sharply declined post-pact."
+      },
+      {
+        "insight": "Viv Ansanm redirected gang focus from internecine battles to a common enemy: Haiti’s government and security forces.",
+        "context": "Reduced Rivalry section: resources concentrated against the state."
+      },
+      {
+        "insight": "The coalition was formed with explicit political aims to oust interim Prime Minister Ariel Henry and resist foreign intervention.",
+        "context": "Reduced Rivalry section: stated political motive of the alliance."
+      },
+      {
+        "insight": "G9 and G-Pèp anticipated a UN-sanctioned multinational police mission and struck the Viv Ansanm pact in September 2023 to show unity against outside forces.",
+        "context": "Reduced Rivalry section: timing and rationale for unity."
+      },
+      {
+        "insight": "Unified gangs leveraged newfound political influence to issue ultimatums to the government and oppose international deployments.",
+        "context": "Reduced Rivalry section: increased political leverage and threats."
+      },
+      {
+        "insight": "Viv Ansanm’s emergence escalated violence, enabling coordinated attacks that paralyzed daily life in Port-au-Prince in early 2024.",
+        "context": "Intensified Violence section: immediate escalation and paralysis."
+      },
+      {
+        "insight": "In late February 2024, Viv Ansanm conducted simultaneous assaults on the international airport, multiple police stations, and the national palace.",
+        "context": "Intensified Violence section: specific coordinated attacks."
+      },
+      {
+        "insight": "Under Viv Ansanm, gangs systematically targeted key public infrastructure including prisons, police outposts, the main fuel terminal, and the airport.",
+        "context": "Intensified Violence section: infrastructure targeting strategy."
+      },
+      {
+        "insight": "The airport was forced to close for nearly three months due to gang attacks and blockades.",
+        "context": "Intensified Violence section: operational impact on airport."
+      },
+      {
+        "insight": "Gangs triggered mass prisoner escapes by attacking prisons under the Viv Ansanm banner.",
+        "context": "Intensified Violence section: prison assaults outcome."
+      },
+      {
+        "insight": "Viv Ansanm units used military-grade weapons and drones, enabling hours-long firefights and city-wide sieges that overwhelmed police capacity.",
+        "context": "Intensified Violence section: tactics and capabilities."
+      },
+      {
+        "insight": "Haiti experienced its deadliest period of gang violence on record in the first quarter of 2024, per UN monitoring.",
+        "context": "Humanitarian Impact section: severity of violence milestone."
+      },
+      {
+        "insight": "The alliance’s siege-like operations closed schools and hospitals, turned neighborhoods into no-go zones, and disrupted basic services.",
+        "context": "Humanitarian Impact section: societal disruptions."
+      },
+      {
+        "insight": "Kidnapping and sexual violence remained widespread as civilians were caught in crossfire or directly targeted.",
+        "context": "Humanitarian Impact section: civilian victimization."
+      },
+      {
+        "insight": "Gang blockades caused acute shortages of food, fuel, and medical supplies, pushing Port-au-Prince toward humanitarian collapse.",
+        "context": "Humanitarian Impact section: blockade effects."
+      },
+      {
+        "insight": "Internal displacement surged from about 362,000 IDPs in March 2024 to over 578,000 by June 2024.",
+        "context": "Humanitarian Impact section: IDP statistics."
+      },
+      {
+        "insight": "Gangs at times distributed food or cash in controlled areas to portray themselves as protectors amid state failure.",
+        "context": "Humanitarian Impact section: image-building tactics."
+      },
+      {
+        "insight": "Most Haitians feel trapped between gang predation and state weakness, living in pervasive fear.",
+        "context": "Humanitarian Impact section: public sentiment."
+      },
+      {
+        "insight": "Months of collaboration created an institutional memory among gangs, fostering a habit of cooperation that increases collective power.",
+        "context": "Greater Coordination section: organizational learning and cooperation."
+      },
+      {
+        "insight": "Viv Ansanm enabled cross-neighborhood coordination and resource sharing, enhancing territorial control, finances, and media exposure.",
+        "context": "Greater Coordination section: networked operations benefits."
+      },
+      {
+        "insight": "The alliance shifted gangs from daily, scattered skirmishes to well-planned offensives targeting high-value state security assets.",
+        "context": "Greater Coordination section: change in operational doctrine."
+      },
+      {
+        "insight": "Improved tactical coordination allowed complex, simultaneous operations across Port-au-Prince in 2024, akin to militia-level organization.",
+        "context": "Greater Coordination section: sophistication of operations."
+      },
+      {
+        "insight": "Viv Ansanm transformed Haiti’s gangs into a unified, insurgent-like force with de facto parallel power over much of the capital.",
+        "context": "Summary section: overall transformation and power structure."
+      },
+      {
+        "insight": "By reducing infighting, the alliance amplified gangs’ destructive capacity and concentrated their campaign against the state.",
+        "context": "Summary section: trade-off between internal peace and external aggression."
+      },
+      {
+        "insight": "The heightened coordination and territorial dominance pose severe challenges for Haiti’s fragile government and any incoming international security mission.",
+        "context": "Summary section: implications for state and foreign response."
+      }
+    ],
+    "prompt": "How does the the Viv Ansanm alliance reshapes Haiti's gang landscape?"
+  },
+  "costorm": {
+    "total_insights": 34,
+    "total_classified": 34,
+    "acled_count": 17,
+    "non_acled_count": 17,
+    "pct_acled": 0.5,
+    "details": [
+      {
+        "evidence": "By late 2024, Port-au-Prince’s main seaport shifted from a backdrop to the front line of Haiti’s gang conflict, with frequent firefights near container yards and warehouses.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a narrative description of shifting front lines and firefights at Port-au-Prince’s seaport without citing specific event counts, locations, dates, actors, or attribution to ACLED. It reads as general journalistic/analytical commentary rather than explicit ACLED-derived event data or metrics.",
+        "source_context": "Introduction: description of gunfire replacing ship horns near Solino and Fort National; seaport becomes front line."
+      },
+      {
+        "evidence": "Viv Ansanm orchestrated a deliberate 2024 campaign to convert fragmented turf wars into a coordinated struggle focused on controlling ports and logistics corridors.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a strategic/analytical claim about a coordinated campaign and focus on ports/logistics, not a specific event count, location, actor-level event description, or trend explicitly tied to ACLED data. It reads as general analysis rather than derived from ACLED event data or metrics.",
+        "source_context": "Framing paragraph on the alliance’s strategic shift toward seaborne logistics as leverage over state and economy."
+      },
+      {
+        "evidence": "Through February 2024, non-allied gangs dominated violence with 88% of incidents as armed clashes and over a thousand deaths, while Viv Ansanm did not yet appear in data.",
+        "is_acled_data": true,
+        "reasoning": "The evidence cites incident shares (88% armed clashes), fatalities (over a thousand deaths), temporal scope (through February 2024), and mentions that a specific alliance did not appear in the data. These are hallmarks of ACLED outputs: event counts by type, battle-related data, fatality figures, and actor presence in event data over time.",
+        "source_context": "From Fragmented Turf Wars: early-2024 statistics showing non-allied gang dominance and Viv Ansanm’s absence."
+      },
+      {
+        "evidence": "Viv Ansanm emerged from a merger of rival coalitions under one banner, rapidly expanding and coordinating prison and government building attacks aimed at national leverage.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a generalized analytical claim about a merger, expansion, and coordinated attacks for leverage without citing specific ACLED event counts, locations, dates, fatalities, or actor-coded events, nor is it attributed to ACLED. It reads as narrative analysis rather than extracted ACLED event data.",
+        "source_context": "Alliance formation: merger of rivals, expansion, and strategic targeting of prisons/government buildings."
+      },
+      {
+        "evidence": "Viv Ansanm’s activity surged in late 2024, peaking around 80 events in November in Port-au-Prince, with 69% of its annual incidents and 83% of deaths occurring in Q4.",
+        "is_acled_data": true,
+        "reasoning": "The evidence cites precise event counts, temporal distribution (Q4 share of incidents and deaths), fatalities, and a specific subnational location (Port-au-Prince) for an armed group’s activity—metrics that align with ACLED’s event- and actor-level data and trend analysis. This structure strongly indicates derivation from ACLED data.",
+        "source_context": "Activity timeline: first appears in March; October–December surge; Q4 concentration of incidents and fatalities."
+      },
+      {
+        "evidence": "The alliance’s November peak paired very high incident volume with limited geographic spread, indicating concentrated capabilities rather than broad territorial expansion.",
+        "is_acled_data": true,
+        "reasoning": "References a temporal peak (November), incident volume, and geographic spread—metrics consistent with ACLED event counts and subnational location data used for trend analysis.",
+        "source_context": "Median spread of one commune per month; low distinct communes despite spike; November as high volume with limited spread."
+      },
+      {
+        "evidence": "Viv Ansanm’s tactics differ from non-allied gangs by allocating a larger share of operations to violence against civilians and coupling firepower with messaging and organizational moves.",
+        "is_acled_data": false,
+        "reasoning": "The statement is analytical, describing tactics and organizational moves and comparing shares of operations without citing specific ACLED event data or statistics. It lacks explicit references to ACLED metrics (event counts, VAC statistics, actor-level data) and reads as general analysis rather than derived from ACLED.",
+        "source_context": "Tactical profile: civilians as largest share of incidents; peaks in strategic developments and public statements in May and November."
+      },
+      {
+        "evidence": "As Viv Ansanm consolidates, access to essential services in the capital’s poorest districts is further constrained, deepening humanitarian stress and disrupting neighborhood functioning.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general assessment about access to services and humanitarian stress, not tied to specific conflict event data, counts, locations, or actor-level details attributed to ACLED. It reads as analytical commentary rather than ACLED-derived metrics.",
+        "source_context": "Impact on residents: intensified insecurity, service disruption, pressure on local actors."
+      },
+      {
+        "evidence": "Ports became the dominant operational theater: 210 of 290 state/infrastructure-focused incidents (about three-quarters) and 413 of 598 related deaths occurred at ports in 2024.",
+        "is_acled_data": true,
+        "reasoning": "The evidence cites counts of state/infrastructure-focused incidents, related deaths, and specifies locations (ports) and time (2024). These are conflict event and fatality figures with a subnational/location breakdown—typical of ACLED event data and analyses derived from it.",
+        "source_context": "When the Front Line Moved: port share of infrastructure-targeted operations and fatalities."
+      },
+      {
+        "evidence": "By July–September 2024, port-linked incidents represented the majority of Viv Ansanm activity, culminating in September when every recorded incident was port-related.",
+        "is_acled_data": true,
+        "reasoning": "The evidence cites temporal patterns and incident categorization linked to specific locations (port-linked incidents) and actor activity (Viv Ansanm), culminating in a month where all recorded incidents were of a certain type. This aligns with ACLED-style event data, subnational/locational tagging, and trend analysis derived from conflict events.",
+        "source_context": "Port pivot timeline: mid-2024 onset; July ~three-quarters, August >50%, September 100% port-linked."
+      },
+      {
+        "evidence": "In Q4 2024, port-linked events accounted for 61% (Oct), 84% (Nov), and 68% (Dec) of Viv Ansanm events, confirming ports as the central battleground.",
+        "is_acled_data": true,
+        "reasoning": "The evidence gives monthly percentages of events linked to a specific location type (ports) within a specific actor’s activity (Viv Ansanm) and over defined months in 2024. This is characteristic of ACLED-derived actor-level event categorization, geographic subcoding, and temporal trend analysis based on conflict event data.",
+        "source_context": "Q4 breakdown of port ties by month."
+      },
+      {
+        "evidence": "Port-linked lethality was extreme in Q4: 68% of October, 99% of November, and 97% of December fatalities came from port-related events; November alone saw 76 port incidents and 250 deaths.",
+        "is_acled_data": true,
+        "reasoning": "The evidence reports counts of incidents, fatalities, temporal breakdown by months, and a specific subset of events (port-related) with proportions. These are characteristic of ACLED’s event-based conflict data and temporal trend analysis derived from event/fatality counts by location/type.",
+        "source_context": "Lethality trajectory and November high-water mark."
+      },
+      {
+        "evidence": "Port sites were markedly more lethal than non-port locations in Q4, averaging about two deaths per incident versus under one elsewhere, for both battles and attacks on civilians.",
+        "is_acled_data": true,
+        "reasoning": "The statement refers to comparative lethality (average deaths per incident) across specific location types (port vs. non-port) and event types (battles and violence against civilians) in a specific time period (Q4). This relies on fatality counts, event categorization, and geocoded event locations—core ACLED data elements—and appears to be a temporal pattern derived from event data, which ACLED provides.",
+        "source_context": "Comparative lethality of port vs non-port incidents; intensified battles and civilian targeting at ports."
+      },
+      {
+        "evidence": "Other infrastructure targets (airports, fuel depots, prisons, government offices) were episodic, indicating a strategy tightly focused on seaborne logistics rather than generalized critical-asset attacks.",
+        "is_acled_data": false,
+        "reasoning": "The statement is analytical commentary about targeting patterns and strategy (focus on seaborne logistics vs. other infrastructure) without citing specific ACLED event counts, locations, or actor-level data. It lacks explicit attribution to ACLED or concrete conflict event statistics, so it is not clearly derived from ACLED data.",
+        "source_context": "Contrast of incident/fatality counts across infrastructure categories; ports dominate."
+      },
+      {
+        "evidence": "Viv Ansanm’s port-centric strategy concentrated in a narrow belt of port-adjacent neighborhoods—Solino, Fort National, Nazon, Poste Marchand, Delmas nodes near Carrefour Aeroport/Delmas 13, and Saint Antoine/Lalue.",
+        "is_acled_data": false,
+        "reasoning": "The evidence is a qualitative description of a gang alliance’s strategy and specific neighborhoods of focus. It does not reference conflict event counts, fatalities, specific incidents, dates, or actor-level event data attributed to ACLED. It reads as analytical/geographic commentary rather than ACLED-derived event data.",
+        "source_context": "Mapping of core waterfront terrain in late 2024."
+      },
+      {
+        "evidence": "In Q4 2024, Solino recorded 26 Viv Ansanm-linked events and 72 deaths, the highest hotspot toll in the capital, with battles causing 40 of the 72 deaths.",
+        "is_acled_data": true,
+        "reasoning": "The evidence provides specific event counts, fatalities, location (Solino), time period (Q4 2024), and battle-related fatality breakdown—typical ACLED metrics (event counts, battle categories, fatalities, subnational hotspot). This aligns with ACLED-derived data and analysis of temporal and geographic conflict patterns.",
+        "source_context": "Neighborhood tolls and sub-event detail for Solino."
+      },
+      {
+        "evidence": "Fort National, Nazon, and Poste Marchand each saw 11–15 Viv Ansanm events and two to three dozen fatalities, with Poste Marchand’s clashes causing 21 of 25 deaths.",
+        "is_acled_data": true,
+        "reasoning": "The evidence cites specific counts of events and fatalities by neighborhood and attributes deaths to particular clashes, which aligns with ACLED’s event-level conflict and fatality data and subnational breakdowns.",
+        "source_context": "Hotspot counts and lethality patterns for specific neighborhoods."
+      },
+      {
+        "evidence": "Carrefour Aeroport/Delmas 13 and Saint Antoine/Lalue each had six incidents producing double-digit fatalities, largely from armed clashes.",
+        "is_acled_data": true,
+        "reasoning": "The evidence cites specific locations with counts of incidents and associated fatality figures from armed clashes, which aligns with ACLED’s event-based data on battles, incident counts, locations, and fatalities.",
+        "source_context": "Additional hotspot lethality nodes and event composition."
+      },
+      {
+        "evidence": "In 31 of 55 documented Viv Ansanm battle locations in Port-au-Prince during Q4, the Haitian National Police were the primary opponent, indicating frequent direct confrontations with state forces.",
+        "is_acled_data": true,
+        "reasoning": "The evidence cites specific counts of battle locations, time period (Q4), geographic focus (Port-au-Prince), and identifies primary opponents, which aligns with ACLED’s battle/event data, actor-level information, and temporal-spatial event breakdowns typically derived from ACLED datasets.",
+        "source_context": "Opponent identification in Q4 battles across the commune."
+      },
+      {
+        "evidence": "Nationally in Q4, Viv Ansanm combined heavy civilian targeting with port battles (63 violence-against-civilians events and 46 battles at ports), while other gangs largely avoided ports and remained battle-focused.",
+        "is_acled_data": true,
+        "reasoning": "Mentions specific counts of event types (violence against civilians and battles) and a temporal frame (Q4), plus a geographic/actor focus. These are typical ACLED metrics derived from event data and actor-level activity at specific locations (ports).",
+        "source_context": "Comparative behavior of Viv Ansanm vs other gangs at port sites."
+      },
+      {
+        "evidence": "Over 92% of Viv Ansanm’s 2024 violence-against-civilians events occurred in the Port-au-Prince commune, concentrating human costs in port-adjacent corridors.",
+        "is_acled_data": true,
+        "reasoning": "The statement cites a precise share of “violence-against-civilians events” in 2024 and specifies a subnational location (Port-au-Prince commune), which aligns with ACLED’s event-type taxonomy and geographic breakdowns. This is characteristic of ACLED-derived statistics on event counts by type and location.",
+        "source_context": "Distribution of civilian-targeting events by commune."
+      },
+      {
+        "evidence": "Control over port corridors translated into daily precarity for residents through extortion of traders and transporters, fear at key junctions, and sudden road closures.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general analytical description of impacts (extortion, fear at junctions, road closures) linked to control of port corridors, without citing specific conflict events, counts, locations, fatalities, or actor-level event data attributable to ACLED.",
+        "source_context": "Neighborhood-level impacts along routes connecting port, markets, and workplaces."
+      },
+      {
+        "evidence": "By late 2024, gang control of neighborhoods, roads, and infrastructure—including fuel depots—allowed severe disruption of fuel, food, and basic goods, worsening a humanitarian crisis with over 200,000 displaced.",
+        "is_acled_data": false,
+        "reasoning": "The evidence discusses humanitarian impacts (disruption of fuel/food/basic goods) and a displacement figure (over 200,000), which align more with humanitarian statistics and general analysis rather than ACLED’s event-based conflict data. No explicit ACLED attribution or specific event/fatality/location data is provided.",
+        "source_context": "Broader economic and humanitarian leverage from infrastructure control."
+      },
+      {
+        "evidence": "Viv Ansanm’s strategy parallels transnational gangs like MS-13 and 18th Street in sophistication, territorial reach, and extortion, converting infrastructure control into social, economic, and political capital.",
+        "is_acled_data": false,
+        "reasoning": "The statement is comparative qualitative analysis about gang strategy and influence; it does not reference specific conflict events, counts, fatalities, locations, or actor/event data attributed to ACLED.",
+        "source_context": "Comparative analysis with global gangs and use of Bourdieu’s capital framing."
+      },
+      {
+        "evidence": "Viv Ansanm’s 2024 fatalities overwhelmingly stem from armed clashes and attacks, with many battles directly against Haitian police, reinforcing its proto-insurgent profile.",
+        "is_acled_data": true,
+        "reasoning": "The evidence references 2024 fatalities, their event types (armed clashes, attacks), and actor interactions (battles against Haitian police), which align with ACLED’s battle-related event data, actor-level activity, and fatality counts—typical outputs derived from ACLED event coding and trend analysis.",
+        "source_context": "Operational portfolio dominated by clashes/attacks; frequent police adversary with substantial fatalities."
+      },
+      {
+        "evidence": "Approximately half of identified Viv Ansanm clashes involve the reconstituted Police Forces of Haiti and about a third involve earlier police formations, showing repeated direct conflict with state forces.",
+        "is_acled_data": true,
+        "reasoning": "The evidence cites proportions of clashes by actor (Viv Ansanm vs. specific police formations) and implies counts of conflict events categorized by actor types, which aligns with ACLED’s actor-level battle event data and event coding. Such breakdowns of engagements with state forces are characteristic of analyses derived from ACLED event datasets.",
+        "source_context": "Opponent category breakdown across clashes and associated lethality."
+      },
+      {
+        "evidence": "Weeks with more Viv Ansanm strategic developments in H2 2024 were followed by higher levels of violence, linking organizational maneuvering to subsequent clashes and attacks on civilians.",
+        "is_acled_data": true,
+        "reasoning": "The statement links weeks with more alliance strategic developments to subsequent higher levels of violence, implying a temporal correlation using event counts and violence levels over time. This aligns with ACLED’s temporal conflict trend analysis, event data, and actor activity tracking. It references patterns in clashes and violence against civilians—core ACLED metrics—suggesting derivation from ACLED event/time-series data rather than general commentary.",
+        "source_context": "Temporal linkage between strategic developments and later violence."
+      },
+      {
+        "evidence": "Debates over foreign intervention intensified as Viv Ansanm’s port-centric violence grew, with moves to assemble a multinational mission amid warnings that force-first approaches risk collateral harm and dependency.",
+        "is_acled_data": false,
+        "reasoning": "The evidence is general analysis about debates over foreign intervention and concerns about force-first approaches, without referencing specific conflict events, counts, locations, fatalities, or actor-level data from ACLED.",
+        "source_context": "Context of domestic/international policy debate and mission planning."
+      },
+      {
+        "evidence": "Historical crackdowns on sophisticated gangs like MS-13 and 18th Street show force alone rarely dismantles such networks; analysts call for nuanced, comprehensive responses in Haiti.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general analytical comparison referencing MS-13 and 18th Street and advocating policy approaches; it does not cite specific ACLED event data, counts, locations, or actor-level metrics, nor is it attributed to ACLED.",
+        "source_context": "Policy lessons emphasizing multi-dimensional strategies beyond security operations."
+      },
+      {
+        "evidence": "If gangs retain control over key infrastructure and routes, Viv Ansanm’s leverage could become de facto political veto power, including bargaining for negotiations or amnesty that may further erode state legitimacy.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a speculative analytical claim about potential political leverage and legitimacy, not a reference to specific conflict events, counts, fatalities, or actor-level data from ACLED. It is general geopolitical analysis rather than ACLED-derived data.",
+        "source_context": "Forward-looking risks of entrenched infrastructural control translating into political power."
+      },
+      {
+        "evidence": "A mission focused narrowly on securing installations without institutional rebuilding, basic service restoration, and community-backed corridor protection risks stabilizing infrastructure while leaving root causes intact.",
+        "is_acled_data": false,
+        "reasoning": "The statement is a general policy/strategic analysis about mission scope and root causes; it does not reference conflict event counts, actor data, locations, fatalities, or any ACLED-derived metrics or attribution.",
+        "source_context": "Warning on scope of multinational mission and need for parallel reforms."
+      },
+      {
+        "evidence": "Reclaiming ports and adjacent neighborhoods requires rebuilding police capacity and judicial credibility, community buy-in for corridor protection, and legitimate state management of infrastructure.",
+        "is_acled_data": false,
+        "reasoning": "The evidence is a policy/strategy statement about rebuilding institutions and community buy-in; it does not reference specific conflict events, actors, locations, counts, or ACLED-derived trend data. It is general analysis, not ACLED data.",
+        "source_context": "Prescriptive recommendations for sustainable stabilization of logistics chokepoints."
+      },
+      {
+        "evidence": "By end-2024, Viv Ansanm’s rapid evolution to an overwhelmingly port-centric, lethal campaign has refocused Haiti’s gang war on critical infrastructure and feeder neighborhoods controlling national supply chains.",
+        "is_acled_data": false,
+        "reasoning": "The statement is broad analytical commentary about strategic focus and infrastructure targeting, without referencing specific ACLED event counts, locations, actors, fatalities, or temporal trend metrics. It does not cite ACLED or present concrete event data, so it is not clearly derived from ACLED.",
+        "source_context": "Conclusion summary of strategic shift and its implications."
+      },
+      {
+        "evidence": "The crisis’s next phase will likely be decided in narrow streets between port gates and gang-held neighborhoods unless policy, security, and humanitarian responses are redesigned to protect and depoliticize logistics chokepoints.",
+        "is_acled_data": false,
+        "reasoning": "This is a forward-looking analytical statement about logistics chokepoints and policy/security responses, not tied to specific ACLED event data, counts, fatalities, locations, or actor-level statistics, nor attributed to ACLED.",
+        "source_context": "Conclusion warning about future trajectory and priority of logistics corridors."
+      }
+    ],
+    "insights": [
+      {
+        "insight": "By late 2024, Port-au-Prince’s main seaport shifted from a backdrop to the front line of Haiti’s gang conflict, with frequent firefights near container yards and warehouses.",
+        "context": "Introduction: description of gunfire replacing ship horns near Solino and Fort National; seaport becomes front line."
+      },
+      {
+        "insight": "Viv Ansanm orchestrated a deliberate 2024 campaign to convert fragmented turf wars into a coordinated struggle focused on controlling ports and logistics corridors.",
+        "context": "Framing paragraph on the alliance’s strategic shift toward seaborne logistics as leverage over state and economy."
+      },
+      {
+        "insight": "Through February 2024, non-allied gangs dominated violence with 88% of incidents as armed clashes and over a thousand deaths, while Viv Ansanm did not yet appear in data.",
+        "context": "From Fragmented Turf Wars: early-2024 statistics showing non-allied gang dominance and Viv Ansanm’s absence."
+      },
+      {
+        "insight": "Viv Ansanm emerged from a merger of rival coalitions under one banner, rapidly expanding and coordinating prison and government building attacks aimed at national leverage.",
+        "context": "Alliance formation: merger of rivals, expansion, and strategic targeting of prisons/government buildings."
+      },
+      {
+        "insight": "Viv Ansanm’s activity surged in late 2024, peaking around 80 events in November in Port-au-Prince, with 69% of its annual incidents and 83% of deaths occurring in Q4.",
+        "context": "Activity timeline: first appears in March; October–December surge; Q4 concentration of incidents and fatalities."
+      },
+      {
+        "insight": "The alliance’s November peak paired very high incident volume with limited geographic spread, indicating concentrated capabilities rather than broad territorial expansion.",
+        "context": "Median spread of one commune per month; low distinct communes despite spike; November as high volume with limited spread."
+      },
+      {
+        "insight": "Viv Ansanm’s tactics differ from non-allied gangs by allocating a larger share of operations to violence against civilians and coupling firepower with messaging and organizational moves.",
+        "context": "Tactical profile: civilians as largest share of incidents; peaks in strategic developments and public statements in May and November."
+      },
+      {
+        "insight": "As Viv Ansanm consolidates, access to essential services in the capital’s poorest districts is further constrained, deepening humanitarian stress and disrupting neighborhood functioning.",
+        "context": "Impact on residents: intensified insecurity, service disruption, pressure on local actors."
+      },
+      {
+        "insight": "Ports became the dominant operational theater: 210 of 290 state/infrastructure-focused incidents (about three-quarters) and 413 of 598 related deaths occurred at ports in 2024.",
+        "context": "When the Front Line Moved: port share of infrastructure-targeted operations and fatalities."
+      },
+      {
+        "insight": "By July–September 2024, port-linked incidents represented the majority of Viv Ansanm activity, culminating in September when every recorded incident was port-related.",
+        "context": "Port pivot timeline: mid-2024 onset; July ~three-quarters, August >50%, September 100% port-linked."
+      },
+      {
+        "insight": "In Q4 2024, port-linked events accounted for 61% (Oct), 84% (Nov), and 68% (Dec) of Viv Ansanm events, confirming ports as the central battleground.",
+        "context": "Q4 breakdown of port ties by month."
+      },
+      {
+        "insight": "Port-linked lethality was extreme in Q4: 68% of October, 99% of November, and 97% of December fatalities came from port-related events; November alone saw 76 port incidents and 250 deaths.",
+        "context": "Lethality trajectory and November high-water mark."
+      },
+      {
+        "insight": "Port sites were markedly more lethal than non-port locations in Q4, averaging about two deaths per incident versus under one elsewhere, for both battles and attacks on civilians.",
+        "context": "Comparative lethality of port vs non-port incidents; intensified battles and civilian targeting at ports."
+      },
+      {
+        "insight": "Other infrastructure targets (airports, fuel depots, prisons, government offices) were episodic, indicating a strategy tightly focused on seaborne logistics rather than generalized critical-asset attacks.",
+        "context": "Contrast of incident/fatality counts across infrastructure categories; ports dominate."
+      },
+      {
+        "insight": "Viv Ansanm’s port-centric strategy concentrated in a narrow belt of port-adjacent neighborhoods—Solino, Fort National, Nazon, Poste Marchand, Delmas nodes near Carrefour Aeroport/Delmas 13, and Saint Antoine/Lalue.",
+        "context": "Mapping of core waterfront terrain in late 2024."
+      },
+      {
+        "insight": "In Q4 2024, Solino recorded 26 Viv Ansanm-linked events and 72 deaths, the highest hotspot toll in the capital, with battles causing 40 of the 72 deaths.",
+        "context": "Neighborhood tolls and sub-event detail for Solino."
+      },
+      {
+        "insight": "Fort National, Nazon, and Poste Marchand each saw 11–15 Viv Ansanm events and two to three dozen fatalities, with Poste Marchand’s clashes causing 21 of 25 deaths.",
+        "context": "Hotspot counts and lethality patterns for specific neighborhoods."
+      },
+      {
+        "insight": "Carrefour Aeroport/Delmas 13 and Saint Antoine/Lalue each had six incidents producing double-digit fatalities, largely from armed clashes.",
+        "context": "Additional hotspot lethality nodes and event composition."
+      },
+      {
+        "insight": "In 31 of 55 documented Viv Ansanm battle locations in Port-au-Prince during Q4, the Haitian National Police were the primary opponent, indicating frequent direct confrontations with state forces.",
+        "context": "Opponent identification in Q4 battles across the commune."
+      },
+      {
+        "insight": "Nationally in Q4, Viv Ansanm combined heavy civilian targeting with port battles (63 violence-against-civilians events and 46 battles at ports), while other gangs largely avoided ports and remained battle-focused.",
+        "context": "Comparative behavior of Viv Ansanm vs other gangs at port sites."
+      },
+      {
+        "insight": "Over 92% of Viv Ansanm’s 2024 violence-against-civilians events occurred in the Port-au-Prince commune, concentrating human costs in port-adjacent corridors.",
+        "context": "Distribution of civilian-targeting events by commune."
+      },
+      {
+        "insight": "Control over port corridors translated into daily precarity for residents through extortion of traders and transporters, fear at key junctions, and sudden road closures.",
+        "context": "Neighborhood-level impacts along routes connecting port, markets, and workplaces."
+      },
+      {
+        "insight": "By late 2024, gang control of neighborhoods, roads, and infrastructure—including fuel depots—allowed severe disruption of fuel, food, and basic goods, worsening a humanitarian crisis with over 200,000 displaced.",
+        "context": "Broader economic and humanitarian leverage from infrastructure control."
+      },
+      {
+        "insight": "Viv Ansanm’s strategy parallels transnational gangs like MS-13 and 18th Street in sophistication, territorial reach, and extortion, converting infrastructure control into social, economic, and political capital.",
+        "context": "Comparative analysis with global gangs and use of Bourdieu’s capital framing."
+      },
+      {
+        "insight": "Viv Ansanm’s 2024 fatalities overwhelmingly stem from armed clashes and attacks, with many battles directly against Haitian police, reinforcing its proto-insurgent profile.",
+        "context": "Operational portfolio dominated by clashes/attacks; frequent police adversary with substantial fatalities."
+      },
+      {
+        "insight": "Approximately half of identified Viv Ansanm clashes involve the reconstituted Police Forces of Haiti and about a third involve earlier police formations, showing repeated direct conflict with state forces.",
+        "context": "Opponent category breakdown across clashes and associated lethality."
+      },
+      {
+        "insight": "Weeks with more Viv Ansanm strategic developments in H2 2024 were followed by higher levels of violence, linking organizational maneuvering to subsequent clashes and attacks on civilians.",
+        "context": "Temporal linkage between strategic developments and later violence."
+      },
+      {
+        "insight": "Debates over foreign intervention intensified as Viv Ansanm’s port-centric violence grew, with moves to assemble a multinational mission amid warnings that force-first approaches risk collateral harm and dependency.",
+        "context": "Context of domestic/international policy debate and mission planning."
+      },
+      {
+        "insight": "Historical crackdowns on sophisticated gangs like MS-13 and 18th Street show force alone rarely dismantles such networks; analysts call for nuanced, comprehensive responses in Haiti.",
+        "context": "Policy lessons emphasizing multi-dimensional strategies beyond security operations."
+      },
+      {
+        "insight": "If gangs retain control over key infrastructure and routes, Viv Ansanm’s leverage could become de facto political veto power, including bargaining for negotiations or amnesty that may further erode state legitimacy.",
+        "context": "Forward-looking risks of entrenched infrastructural control translating into political power."
+      },
+      {
+        "insight": "A mission focused narrowly on securing installations without institutional rebuilding, basic service restoration, and community-backed corridor protection risks stabilizing infrastructure while leaving root causes intact.",
+        "context": "Warning on scope of multinational mission and need for parallel reforms."
+      },
+      {
+        "insight": "Reclaiming ports and adjacent neighborhoods requires rebuilding police capacity and judicial credibility, community buy-in for corridor protection, and legitimate state management of infrastructure.",
+        "context": "Prescriptive recommendations for sustainable stabilization of logistics chokepoints."
+      },
+      {
+        "insight": "By end-2024, Viv Ansanm’s rapid evolution to an overwhelmingly port-centric, lethal campaign has refocused Haiti’s gang war on critical infrastructure and feeder neighborhoods controlling national supply chains.",
+        "context": "Conclusion summary of strategic shift and its implications."
+      },
+      {
+        "insight": "The crisis’s next phase will likely be decided in narrow streets between port gates and gang-held neighborhoods unless policy, security, and humanitarian responses are redesigned to protect and depoliticize logistics chokepoints.",
+        "context": "Conclusion warning about future trajectory and priority of logistics corridors."
+      }
+    ],
+    "prompt": "How does the the Viv Ansanm alliance reshapes Haiti's gang landscape?"
+  }
+}

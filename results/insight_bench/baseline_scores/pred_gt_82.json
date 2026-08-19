@@ -1,0 +1,85 @@
+{
+  "dataset_id": 82,
+  "dataset_path": "data/notebooks/flag-82.json",
+  "metadata": {
+    "category": "Goal Management",
+    "dataset_description": "This dataset comprises 500 simulated records from the ServiceNow `sn_gf_goal` table, detailing various aspects related to organizational goals. Key attributes include goal status, assigned owner, department affiliation, start and end dates, and comprehensive descriptions. The dataset also features metrics like priority level, percentage completed, and target achievement percentage. It primarily focuses on tracking and managing both departmental and individual goals, providing insights into the effectiveness of these goals and their alignment with overarching organizational strategies. Additionally, the dataset logs updates for each goal, offering a historical view of changes and the identities of those making these updates.",
+    "goal": "Investigate the unexpectedly high success rates of Low and Medium priority 'Cost Optimization' goals, and utilize these findings to enhance goal management efficiency across all goal categories.",
+    "header": "Focused Analysis of Goal Management Categories (Flag 82)",
+    "role": "Operational Effectiveness Analyst"
+  },
+  "predicted_insights": [
+    "The identical 50/50 state split across priority groups suggests that higher success rates for low/medium “Cost Optimization” goals are not due to a greater likelihood of reaching “Resolved,” pointing attention instead to other drivers (e.g., volume, category mix, or time-to-resolution).",
+    "System-driven updates are about 21% more frequent for Critical/High than Low/Moderate (36.4% vs 30%), suggesting automation is concentrated on urgent items—broadening automation to Low/Moderate could lift efficiency and consistency for cost-optimization goals.",
+    "System-updated tickets take vastly longer to close (≈109.6 days for Moderate and ≈34.2 days for Low) than human-updated ones, and the negative medians for admin/employee likely indicate a duration sign/timestamp issue—suggesting automation is associated with long-running cases and should be audited for low/medium-priority workflows.",
+    "Human-updated records exhibit a 17.1 percentage point higher anomaly rate (53.1% vs 36.0%), about 1.48× greater than system updates, suggesting manual timestamp errors that could inflate perceived success for low/medium-priority goals—an opportunity to tighten validation to improve accuracy for categories like Cost Optimization.",
+    "Low/medium Inquiry / Help tickets resolve in about 1.1 hours—hundreds of times faster than Database/Software/Hardware (≈451–1125 hours)—while Network’s -632-hour average suggests timestamp errors that could overstate success rates and should be corrected to inform goal management.",
+    "Resolution performance for low/moderate priorities varies by about 14.6 percentage points across categories (57.14% in Software vs. 42.55% in Hardware), suggesting targeted process improvements in lower-performing categories could meaningfully raise overall success rates.",
+    "Even for low/medium priorities the “fastest” median resolution is ~2621 hours (~109 days), and there is a 400-hour (~16.7 days) spread between the fastest and third-fastest assignees, indicating substantial room to reduce cycle time by standardizing and scaling the practices of top performers across similar goals.",
+    "This gap in Network (≈2,852 hours ≈ 119 days faster for Low/Moderate) is far larger than other groups (e.g., Hardware ≈ 396 hours, Inquiry/Help ≈ 133 hours) and contrasts with Software and Database where Low/Moderate actually take longer, suggesting prioritization and capacity allocation strategies should differ by assignment group to improve overall efficiency.",
+    "Adopting Network’s practices across teams could cut Low/Moderate resolution times by about 1,032 hours (~33%) versus the cross-group average (3,140.46 hours) and by ~1,865 hours (~47%) versus the slowest group (Database), indicating a substantial efficiency gain for goal management.",
+    "The ~442-hour lag for Moderate suggests closure happens about 18 days after resolution, whereas the −192-hour gap for Low indicates closure precedes resolution by ~8 days (or data/process anomalies), highlighting workflow/timestamp inconsistencies that, if fixed, could standardize cycle-time metrics and improve goal management efficiency across categories.",
+    "The substantial year-over-year increases for Low and Moderate priorities—roughly +2.3k and +1.9k hours (≈96 and 80 days) in median resolution time—suggest that while success rates may look strong, delivery speed is deteriorating, so adding SLA-based targets on median time for these priority bands could materially improve overall goal management efficiency.",
+    "Over 90% of Low/Moderate tickets were closed in 2023 (226 vs. 24 in 2024), meaning 2024’s apparent performance shifts—such as higher success rates—may be driven by a much smaller sample (Moderate ~0.10×, Low ~0.12× of 2023 volume) rather than systemic efficiency improvements."
+  ],
+  "predicted_summary": "Outcome parity across priorities: Low/medium (3–Moderate, 4–Low) and high/critical (1–Critical, 2–High) priorities show identical end-state distributions—50% Resolved and 50% Closed—indicating low/medium work achieves resolution at least on par with higher-priority items. Within low/medium, the share Resolved varies by category from 42.6% (Hardware) to 57.1% (Software), with Inquiry/Help at 53.2%, Network at 48.9%, and Database at 47.2%. Timing by state also differs: for 3–Moderate, Closed takes about 441.9 hours longer than Resolved, whereas for 4–Low, Closed is about 192.5 hours faster than Resolved.\nUpdater-linked timing anomalies in low/medium priorities: Among 3–Moderate/4–Low items, over half of admin/employee–updated records show negative time-to-closure (53.1%, 93/175), versus 36.0% (27/75) for system-updated records. Median closure times diverge sharply by updater: system updates are very long (Moderate ≈2,630.4h; Low ≈820.8h), while admin/employee medians are negative (Moderate ≈−21.3h; Low ≈−159.5h). Low/medium records also have a smaller share updated by system (30.0%) than high/critical (36.4%). Together, these patterns indicate that apparent speed/success for low/medium work is heavily influenced by timestamp and updater effects.\nTeam and time dynamics shape perceived efficiency: The Network group stands out—its median resolution time drops by ≈2,852.0 hours when moving from high/critical to low/medium priorities, and it posts the fastest average time among low/medium assignment groups (≈2,108.3h). Despite this, overall cycle times for low/medium worsened year over year: median time-to-resolution rose by ≈2,296.0 hours for 3–Moderate (to ≈5,126.8h) and ≈1,916.5 hours for 4–Low (to ≈4,452.6h) from 2023 to 2024, even as volumes fell by ~90% (Moderate 114→11) and ~88% (Low 112→13). Even the fastest individual assignees among low/medium have median times above 2,600 hours, indicating generally long resolution cycles.",
+  "score_insights": 0.16395874272302083,
+  "score_insights_dict": [
+    {
+      "gt_insight": "There was no column percent_complete to conduct any analysis",
+      "pred_insight": "The identical 50/50 state split across priority groups suggests that higher success rates for low/medium “Cost Optimization” goals are not due to a greater likelihood of reaching “Resolved,” pointing attention instead to other drivers (e.g., volume, category mix, or time-to-resolution).",
+      "score": 0.1490549384695972
+    },
+    {
+      "gt_insight": "There was no column description to conduct any analysis",
+      "pred_insight": "Low/medium Inquiry / Help tickets resolve in about 1.1 hours—hundreds of times faster than Database/Software/Hardware (≈451–1125 hours)—while Network’s -632-hour average suggests timestamp errors that could overstate success rates and should be corrected to inform goal management.",
+      "score": 0.23430450299868527
+    },
+    {
+      "gt_insight": "There was no column percent_complete to conduct any analysis",
+      "pred_insight": "Over 90% of Low/Moderate tickets were closed in 2023 (226 vs. 24 in 2024), meaning 2024’s apparent performance shifts—such as higher success rates—may be driven by a much smaller sample (Moderate ~0.10×, Low ~0.12× of 2023 volume) rather than systemic efficiency improvements.",
+      "score": 0.11783143723337605
+    },
+    {
+      "gt_insight": "There was no column percent_complete to conduct any analysis",
+      "pred_insight": "Over 90% of Low/Moderate tickets were closed in 2023 (226 vs. 24 in 2024), meaning 2024’s apparent performance shifts—such as higher success rates—may be driven by a much smaller sample (Moderate ~0.10×, Low ~0.12× of 2023 volume) rather than systemic efficiency improvements.",
+      "score": 0.11783143723337605
+    },
+    {
+      "gt_insight": "No data is available to conduct any analysis",
+      "pred_insight": "Over 90% of Low/Moderate tickets were closed in 2023 (226 vs. 24 in 2024), meaning 2024’s apparent performance shifts—such as higher success rates—may be driven by a much smaller sample (Moderate ~0.10×, Low ~0.12× of 2023 volume) rather than systemic efficiency improvements.",
+      "score": 0.20077139768006944
+    }
+  ],
+  "score_summary": 0.27282127142089474,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.10978318179427386,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "The identical 50/50 state split across priority groups suggests that higher success rates for low/medium “Cost Optimization” goals are not due to a greater likelihood of reaching “Resolved,” pointing attention instead to other drivers (e.g., volume, category mix, or time-to-resolution).",
+      "gt_insight": "There was no column percent_complete to conduct any analysis",
+      "score": 0.12010818109954946
+    },
+    {
+      "pred_insight": "The identical 50/50 state split across priority groups suggests that higher success rates for low/medium “Cost Optimization” goals are not due to a greater likelihood of reaching “Resolved,” pointing attention instead to other drivers (e.g., volume, category mix, or time-to-resolution).",
+      "gt_insight": "There was no column description to conduct any analysis",
+      "score": 0.10209149028694908
+    },
+    {
+      "pred_insight": "The identical 50/50 state split across priority groups suggests that higher success rates for low/medium “Cost Optimization” goals are not due to a greater likelihood of reaching “Resolved,” pointing attention instead to other drivers (e.g., volume, category mix, or time-to-resolution).",
+      "gt_insight": "There was no column percent_complete to conduct any analysis",
+      "score": 0.11311157051686811
+    },
+    {
+      "pred_insight": "The identical 50/50 state split across priority groups suggests that higher success rates for low/medium “Cost Optimization” goals are not due to a greater likelihood of reaching “Resolved,” pointing attention instead to other drivers (e.g., volume, category mix, or time-to-resolution).",
+      "gt_insight": "There was no column percent_complete to conduct any analysis",
+      "score": 0.11311157051686811
+    },
+    {
+      "pred_insight": "The identical 50/50 state split across priority groups suggests that higher success rates for low/medium “Cost Optimization” goals are not due to a greater likelihood of reaching “Resolved,” pointing attention instead to other drivers (e.g., volume, category mix, or time-to-resolution).",
+      "gt_insight": "No data is available to conduct any analysis",
+      "score": 0.10049309655113456
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.1097963809321125,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.2043532280003603
+}

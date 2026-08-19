@@ -1,0 +1,75 @@
+{
+  "dataset_id": 57,
+  "dataset_path": "data/notebooks/flag-57.json",
+  "metadata": {
+    "category": "Incident Management",
+    "dataset_description": "The dataset comprises 500 entries simulating ServiceNow incidents table, detailing various attributes such as category, state, open and close dates, involved personnel, and incident specifics like description, and priority. It captures incident management activities with fields like 'opened_at', 'closed_at', 'assigned_to', 'short_description', and 'priority', reflecting the operational handling and urgency of issues across different locations and categories.",
+    "goal": "Identify trends and underlying factors or correlations contributing to the increase in TTR.",
+    "header": "Incident Resolution Time Trends Analysis (Flag 57)",
+    "role": "Incidents Manager"
+  },
+  "predicted_insights": [
+    "The median TTR rose about 22.8× from 246.05 hours in 2023-01 to a peak of 5613.72 hours in 2024-01, with the biggest month-over-month jump between 2023-06 and 2023-07 (+1400.07 hours) and a sizable dip in 2024-02 (−1134.80 hours, ~20% down from January), indicating a strong upward trend with late-period volatility.",
+    "Incident volume rose from an average of 35.7 per month in H1 2023 to 42.0 in H2 (+18%), peaking in Oct 2023 at 52 and then dropping to 30 in Dec (−42% from Oct), suggesting late-year volume spikes that could contribute to higher TTR due to workload pressure.",
+    "Median TTR escalated sharply across priorities into late 2023/Jan 2024 (e.g., P2 rose from 392.01h in 2023-01 to 6873.61h in 2024-01, ~17.5×; P3 from 70.84h to 5680.12h, ~80×), with a notable dip only for P3 in 2024-02 (710.25h) while other priorities remained >5k hours.",
+    "This strong positive correlation (r=0.890, implying ~79% shared variance) indicates load effects: as monthly incidents fell from 38 to 9 (−76%), median TTR dropped from ~4802 to ~794 hours (−83%), meaning higher ticket volumes are associated with slower resolution times.",
+    "Across categories, median TTRs generally climb into late 2023–early 2024, with the highest spikes concentrated in Dec 2023–Jan 2024 (e.g., Hardware 7238.67h in Dec 2023, Database 6558.83h and Network 5841.44h in Jan 2024, Software 5364.68h in Dec 2023, Inquiry/Help 4573.57h in Jan 2024), indicating a broad, cross-category increase in resolution times, contrasted by an anomalously low Software median of 55.86h in Aug 2023.",
+    "The mix polarized toward extremes: Low+Critical grew from ~46.9% in 2023-01 to 70.0% in 2024-02 (+23.1 pp), while mid-tier High+Moderate shrank by the same amount, a shift that can materially influence TTR dynamics by concentrating cases in very low and very high urgency bands.",
+    "The TTR deterioration is concentrated outside the United States, and even the lowest listed increase (UK) exceeds 2,276 hours (~95 days), indicating substantial backlog or process delays that likely accumulated across 2023 before resolution in early 2024.",
+    "Median TTR surged ~24x in Software (192.19h→4,619.48h) and ~16x in Hardware (294.36h→4,697.43h), with late‑2023 peaks (Software 5,364.68h; Hardware 7,238.67h; Database 6,558.83h) indicating broad, systemic resolution delays rather than isolated anomalies.",
+    "The dataset contains 500 closed incidents across four priority levels spanning roughly 13.5 months (2023-01-02 to 2024-02-12), which is enough volume (~35–40 tickets/month) for stable per-priority monthly medians; ensuring consistent datetime parsing (including nanosecond precision in closed_at and potential timezone alignment) is crucial, as even a one-hour offset could materially distort median TTR trends used to diagnose increases.",
+    "All assignement_groups saw substantial median TTR reductions from H1 to H2 2023—Database by ~3,444.9 hours, Network by ~2,888.0, Hardware by ~2,586.5, Software by ~2,384.7, and Inquiry / Help by ~1,501.7—indicating broad, cross-group efficiency gains rather than an increase in TTR.",
+    "This 2.8-pt rise equates to about a 5.9% relative increase in high-priority case mix, indicating a heavier severity load in H2 2023 that can be associated with longer TTR due to higher complexity.",
+    "After peaking in February at 5,266.87 hours, the median TTR fell by about 78% to 1,155.87 hours by May and then turned negative from July through December (e.g., December −3,005.11 hours), suggesting either a drastic process shift or timestamp/data-entry anomalies that can materially skew trend interpretation."
+  ],
+  "predicted_summary": "Median Time to Resolve rose dramatically over the period and was strongly tied to ticket load: from 246 hours in Jan 2023 to 5,614 hours in Jan 2024 (+5,368 hours; about 22x), remaining elevated at 4,479 hours in Feb 2024. Monthly incident volume and median TTR moved together with a strong positive correlation (r = 0.89 from Jan 2023 to Jan 2024), with volume climbing from 41 in Jan 2023 to a peak of 52 in Oct 2023 before easing late in the year while TTR stayed high.\nThe priority landscape shifted toward slower-resolving work while resolution times within every priority also ballooned. From Jan 2023 to Feb 2024, the share of Critical incidents rose from 18.8% to 30.0% (+11.2 pp) and Low from 28.1% to 40.0% (+11.9 pp), while High fell from 31.3% to 20.0% (−11.3 pp) and Moderate from 21.9% to 10.0% (−11.9 pp). By Jan 2024, median TTR exceeded 5,300 hours for all priorities (P1 5,544h; P2 6,874h; P3 5,680h; P4 5,391h), versus early-2023 medians mostly in the low hundreds to low thousands (e.g., Feb–Apr 2023 ranges: P1 663–2,108h; P2 562–1,253h; P3 71–1,367h; P4 246–702h), indicating both mix and within-priority slowdowns contributed to the overall increase.\nThe late-2023/early-2024 slowdown was concentrated in specific categories and regions. Software (+4,427 hours) and Hardware (+4,403 hours) saw the largest median TTR increases from Jan 2023 to Feb 2024 (Database +3,150 hours), with category medians frequently reaching 3,000–7,000 hours by late 2023 (e.g., Hardware 7,239h in Dec 2023; Database 6,559h in Jan 2024; Network 5,586h in Nov 2023 and 5,841h in Jan 2024). Geographically, Australia (+5,247 hours) and India (+5,178 hours) had the steepest median TTR increases, followed by Canada (+3,961 hours) and the UK (+2,276 hours), highlighting where the rise was most pronounced.",
+  "score_insights": 0.45331751180088375,
+  "score_insights_dict": [
+    {
+      "gt_insight": "The time to resolution is slightly decreasing over time",
+      "pred_insight": "All assignement_groups saw substantial median TTR reductions from H1 to H2 2023—Database by ~3,444.9 hours, Network by ~2,888.0, Hardware by ~2,586.5, Software by ~2,384.7, and Inquiry / Help by ~1,501.7—indicating broad, cross-group efficiency gains rather than an increase in TTR.",
+      "score": 0.507026629669552
+    },
+    {
+      "gt_insight": "There is a no correlation between the volume of incidents and the TTR",
+      "pred_insight": "Incident volume rose from an average of 35.7 per month in H1 2023 to 42.0 in H2 (+18%), peaking in Oct 2023 at 52 and then dropping to 30 in Dec (−42% from Oct), suggesting late-year volume spikes that could contribute to higher TTR due to workload pressure.",
+      "score": 0.2530790353276473
+    },
+    {
+      "gt_insight": "The decrease in TTR is uniform across all categories",
+      "pred_insight": "All assignement_groups saw substantial median TTR reductions from H1 to H2 2023—Database by ~3,444.9 hours, Network by ~2,888.0, Hardware by ~2,586.5, Software by ~2,384.7, and Inquiry / Help by ~1,501.7—indicating broad, cross-group efficiency gains rather than an increase in TTR.",
+      "score": 0.7922823597190154
+    },
+    {
+      "gt_insight": "The productivity level is the same for all agents",
+      "pred_insight": "All assignement_groups saw substantial median TTR reductions from H1 to H2 2023—Database by ~3,444.9 hours, Network by ~2,888.0, Hardware by ~2,586.5, Software by ~2,384.7, and Inquiry / Help by ~1,501.7—indicating broad, cross-group efficiency gains rather than an increase in TTR.",
+      "score": 0.2608820224873204
+    }
+  ],
+  "score_summary": 0.19531414669324793,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.4185158558252127,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "All assignement_groups saw substantial median TTR reductions from H1 to H2 2023—Database by ~3,444.9 hours, Network by ~2,888.0, Hardware by ~2,586.5, Software by ~2,384.7, and Inquiry / Help by ~1,501.7—indicating broad, cross-group efficiency gains rather than an increase in TTR.",
+      "gt_insight": "The time to resolution is slightly decreasing over time",
+      "score": 0.4852082936484683
+    },
+    {
+      "pred_insight": "All assignement_groups saw substantial median TTR reductions from H1 to H2 2023—Database by ~3,444.9 hours, Network by ~2,888.0, Hardware by ~2,586.5, Software by ~2,384.7, and Inquiry / Help by ~1,501.7—indicating broad, cross-group efficiency gains rather than an increase in TTR.",
+      "gt_insight": "There is a no correlation between the volume of incidents and the TTR",
+      "score": 0.20002491755365864
+    },
+    {
+      "pred_insight": "All assignement_groups saw substantial median TTR reductions from H1 to H2 2023—Database by ~3,444.9 hours, Network by ~2,888.0, Hardware by ~2,586.5, Software by ~2,384.7, and Inquiry / Help by ~1,501.7—indicating broad, cross-group efficiency gains rather than an increase in TTR.",
+      "gt_insight": "The decrease in TTR is uniform across all categories",
+      "score": 0.7970133645538706
+    },
+    {
+      "pred_insight": "All assignement_groups saw substantial median TTR reductions from H1 to H2 2023—Database by ~3,444.9 hours, Network by ~2,888.0, Hardware by ~2,586.5, Software by ~2,384.7, and Inquiry / Help by ~1,501.7—indicating broad, cross-group efficiency gains rather than an increase in TTR.",
+      "gt_insight": "The productivity level is the same for all agents",
+      "score": 0.19181684754485345
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.7047694571887704,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.10761388592226102
+}

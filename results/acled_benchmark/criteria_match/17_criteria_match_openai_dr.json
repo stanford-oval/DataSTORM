@@ -1,0 +1,143 @@
+{
+  "prompt": "Research gang violence in Mexico and its outlook in 2025, as if we are at the end of 2024 heading into 2025.",
+  "criteria": [
+    {
+      "name": "Evolving cartel fragmentation",
+      "description": "Assess internal splits within major criminal organizations and how factional rivalries reshape power balances and fuel localized surges in violence."
+    },
+    {
+      "name": "Territorial diffusion of conflict",
+      "description": "Track how violence spreads beyond traditional hotspots into new regions as organizations exploit openings and contest emerging markets."
+    },
+    {
+      "name": "Shift to diversified revenue",
+      "description": "Examine gangs’ growing reliance on extortion, human smuggling, and fuel theft and how competition over these markets drives conflict dynamics."
+    },
+    {
+      "name": "Arms and tactics escalation",
+      "description": "Monitor increased use of explosives, drones, and remote attacks that enable asymmetric warfare and intimidation of civilians."
+    },
+    {
+      "name": "CJNG expansion opportunities",
+      "description": "Evaluate how one major group leverages rivals’ fragmentation to push into contested areas and forge opportunistic alliances, intensifying clashes."
+    },
+    {
+      "name": "Sinaloa network instability",
+      "description": "Analyze how internal rifts in a dominant network disrupt regional criminal ecosystems and trigger spillover violence in adjacent states."
+    },
+    {
+      "name": "State security posture shift",
+      "description": "Assess indications of a move from restraint to more assertive operations and how this affects confrontation rates and public security."
+    },
+    {
+      "name": "Militarization and human rights risks",
+      "description": "Evaluate the expanding role of military and quasi-military forces in public security and associated risks of abuses and civilian harm."
+    },
+    {
+      "name": "Political violence and co-optation",
+      "description": "Track intimidation, attacks, and co-optation of political actors as gangs seek influence over local governance and public institutions."
+    },
+    {
+      "name": "Judicial vulnerability and impunity",
+      "description": "Assess how reforms and institutional weaknesses may increase criminal penetration of the judiciary, undermining accountability and trust."
+    },
+    {
+      "name": "US policy pressure impacts",
+      "description": "Analyze how a harder external stance on drugs and migration shapes Mexico’s security strategy, enforcement priorities, and gang behavior."
+    },
+    {
+      "name": "Migration-crime nexus",
+      "description": "Monitor how tighter migration controls increase the profitability of human smuggling, funding gang expansion and intensifying route conflicts."
+    },
+    {
+      "name": "Civic harm and displacement",
+      "description": "Evaluate trends in civilian targeting, displacement, and community coercion as groups assert control and state responses intensify."
+    },
+    {
+      "name": "Market spillovers across regions",
+      "description": "Assess how conflicts over strategic markets (e.g., fuel theft, border control) in one state trigger knock-on violence in neighboring areas."
+    },
+    {
+      "name": "Prospects for short-term escalation",
+      "description": "Gauge likelihood of near-term upticks in clashes and lethality due to factional competition, opportunistic expansions, and assertive policing."
+    }
+  ],
+  "criterion_scores": [
+    {
+      "name": "Evolving cartel fragmentation",
+      "score": 0.5,
+      "explanation": "Mentions possibility of leadership changes or splintering in Sinaloa and CJNG and that such disruption could escalate violence, but provides no specifics on internal splits, factions, or how rivalries reshape local power balances."
+    },
+    {
+      "name": "Territorial diffusion of conflict",
+      "score": 0.25,
+      "explanation": "Notes violence across various regions and cites incidents in Culiacán and Chilpancingo, but does not analyze spread beyond traditional hotspots or identify new regions and emerging markets."
+    },
+    {
+      "name": "Shift to diversified revenue",
+      "score": 0.5,
+      "explanation": "References violence fueled by drug trafficking and extortion and briefly mentions gang conflicts, but does not discuss human smuggling or fuel theft dynamics or how competition over these markets drives conflict."
+    },
+    {
+      "name": "Arms and tactics escalation",
+      "score": 0.0,
+      "explanation": "No discussion of explosives, drones, IEDs, or remote attacks; lacks any analysis of tactical escalation."
+    },
+    {
+      "name": "CJNG expansion opportunities",
+      "score": 0.25,
+      "explanation": "Only a general note that disruptions in big cartels could escalate violence; no explicit evaluation of CJNG leveraging rivals’ fragmentation, specific push into areas, or alliances."
+    },
+    {
+      "name": "Sinaloa network instability",
+      "score": 0.25,
+      "explanation": "Briefly mentions potential splintering or leadership changes in Sinaloa, but no detail on internal rifts, regional effects, or spillover violence into adjacent states."
+    },
+    {
+      "name": "State security posture shift",
+      "score": 0.75,
+      "explanation": "Contrasts AMLO’s ‘hugs, not bullets’ with Sheinbaum’s signaled shift to intelligence-led operations and financial targeting; discusses political constraints. Limited detail on operational assertiveness and its impact on confrontation rates."
+    },
+    {
+      "name": "Militarization and human rights risks",
+      "score": 0.0,
+      "explanation": "No assessment of military or quasi-military roles in public security, nor associated human rights risks."
+    },
+    {
+      "name": "Political violence and co-optation",
+      "score": 0.5,
+      "explanation": "Notes election-related violence and assassinations, and narco-influence in elections, but lacks deeper analysis of systematic intimidation/co-optation of local governance or public institutions."
+    },
+    {
+      "name": "Judicial vulnerability and impunity",
+      "score": 0.0,
+      "explanation": "Does not address judiciary reforms, penetration, impunity, or accountability issues."
+    },
+    {
+      "name": "US policy pressure impacts",
+      "score": 0.0,
+      "explanation": "No discussion of US drug/migration policy pressure or its effects on Mexico’s strategy and gang behavior."
+    },
+    {
+      "name": "Migration-crime nexus",
+      "score": 0.0,
+      "explanation": "Does not address migration controls, human smuggling profitability, or related route conflicts."
+    },
+    {
+      "name": "Civic harm and displacement",
+      "score": 0.25,
+      "explanation": "References high homicide rates and gruesome incidents, but does not analyze civilian targeting trends, displacement, or community coercion."
+    },
+    {
+      "name": "Market spillovers across regions",
+      "score": 0.0,
+      "explanation": "No analysis of how conflicts over strategic markets in one state trigger violence in neighboring areas."
+    },
+    {
+      "name": "Prospects for short-term escalation",
+      "score": 0.75,
+      "explanation": "Provides outlook that 2025 is unlikely to improve, warns of potential escalation due to cartel disruptions and election-related violence; mentions government reluctance to crack down. Could be stronger with concrete triggers and timelines."
+    }
+  ],
+  "overall_score": 0.26666666666666666
+}

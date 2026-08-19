@@ -1,0 +1,75 @@
+{
+  "dataset_id": 51,
+  "dataset_path": "data/notebooks/flag-51.json",
+  "metadata": {
+    "category": "Incidents Management",
+    "dataset_description": "The dataset comprises 500 entries simulating ServiceNow incidents table, detailing various attributes such as category, state, open and close dates, involved personnel, and incident specifics like description, and priority. It captures incident management activities with fields like 'opened_at', 'closed_at', 'assigned_to', 'short_description', and 'priority', reflecting the operational handling and urgency of issues across different locations and categories.",
+    "goal": "Identify and analyze increasing trends in the number of incidents assigned to understand the implications of these trends on workload and agent efficiency.",
+    "header": "Incident Category Trends Over Time (Flag 51)",
+    "role": "Strategic Planning Manager"
+  },
+  "predicted_insights": [
+    "Average monthly openings rose 18% from H1 2023 (214 total; 35.7/month) to H2 2023 (252 total; 42.0/month), with a 68% surge from the Feb low (31) to the Oct peak (52) and a 42% drop to Dec (30), signaling sustained mid-year growth but a pronounced year-end slowdown that impacts workload volatility.",
+    "Only 3 of 5 agents exhibit growth; notably, Charlie’s +0.225/month (~+3/year) and Howard’s +0.143/month (~+2/year) suggest workload is gradually concentrating on them, which may begin to strain their capacity relative to peers.",
+    "Resolution speed improved substantially despite higher assignment volumes: median TTR fell ~87% from its 2023 peak (5,646 hours) to 710 hours by 2024-01, indicating markedly better throughput and efficiency.",
+    "Comparing periods, high-priority workload averaged about 47% in the first three months (2023-01 to 2023-03) versus about 62% in the last three months (2023-11 to 2024-01), indicating a meaningful shift toward more critical incidents late in the period.",
+    "Charlie Whitherspoon’s increase is the steepest—about 7x Fred Luddy’s—translating to roughly +2.7 incidents year-over-year and aligning with observed high monthly counts (peaking at 12 in 2023-07 and 11 in 2023-12), while Howard Johnson also shows notable growth (≈+1.7 YoY, peaking at 13 in 2023-10), indicating workload is increasingly concentrated on these two assignees compared to peers with flat or declining trends.",
+    "Howard Johnson not only has the sole positive trend but also recorded the largest monthly surplus of opened over closed incidents (+9 in 2024-01), signaling a growing backlog risk, whereas Charlie Whitherspoon’s large swings (−9 in 2023-11 to +7 in 2023-12) indicate volatility without sustained growth, and Fred Luddy remains near balance.",
+    "Aggregate monthly incident counts for the plotted agents peaked at 30 in 2023-09 and fell to 18 by 2024-01 (a ~40% drop), with 2024-02 at 0 due to no opened_at records, indicating workloads generally decreased rather than increased over the period.",
+    "Months with higher workloads tended to have lower median resolution times (r ≈ -0.29): for example, the highest-volume month (2023-10, 52 incidents) had a much lower median TTR than a lower-volume month (2023-02, 31 incidents, median ≈ 5,267 hours), suggesting efficiency or prioritization gains under load.",
+    "Workload increases do not materially slow agents’ median resolution times: 3 of 5 agents show negative correlations and the average correlation across agents is -0.062, with the strongest effect being modestly negative for Fred Luddy (-0.166), suggesting stable or slightly improved efficiency in busier months.",
+    "From May to October 2023, monthly assignments climbed from 36 to 52 (+16, ~44%), then dropped by 14 in November, indicating a late-year surge followed by a sharp pullback that has clear workload and staffing implications.",
+    "The magnitude of average time-to-close more than doubled from August to September 2023 (from -498.8 h to -1010.07 h, +102.5%), indicating likely timestamp anomalies (e.g., closures dated before openings) that could significantly distort interpretations of workload and agent efficiency unless addressed.",
+    "Overall incident assignments rose by 6 from August to September 2023 across all assignees, and two-thirds of that increase (4 of 6, 67%) was concentrated on Beth Anglin, indicating a disproportionate workload shift that could affect her efficiency."
+  ],
+  "predicted_summary": "Incident inflow climbed through 2023, rising from 31–36 openings per month in Feb–May to 41–42 in Jun–Aug, then spiking to 48 in Sep and peaking at 52 in Oct (the largest month-over-month jump was in Sep, +6). Volume then eased to 38 in Nov and 30 in Dec, with a small rebound to 34 in Jan 2024. Notably, September’s surge coincided with a 102.5% jump in average time-to-close versus August, indicating a temporary efficiency dip during the spike.\nAt the agent level, simple trends over Jan 2023–Jan 2024 show increasing monthly assignments for Charlie Whitherspoon (+0.225 incidents/month), Howard Johnson (+0.143), and Fred Luddy (+0.033). However, when extended through Feb 2024 and tested statistically, no agent shows a significant upward trend in monthly assignments. Among these three, only Howard exhibits a widening monthly gap between incidents opened and closed (slope ≈ +0.0747), while Charlie (≈ −0.0440) and Fred (≈ −0.0176) show narrowing gaps, suggesting stable or improving backlog containment for the latter two.\nDespite rising assignments, agents with increasing trends improved efficiency: their median time to resolution fell by about 421 hours per month, from roughly 5,646 hours (Feb 2023) to about 710 hours (Jan 2024), even as the share of high-priority work in their monthly load rose from 50.0% to 72.7% (with volatility). Across the whole system, higher monthly volume is weakly associated with faster median resolution (correlation ≈ −0.29), and per-agent links between monthly load and median resolution are minimal (roughly −0.17 to +0.03), indicating no broad slowdown under higher assignment counts aside from the September outlier.",
+  "score_insights": 0.4781100828768934,
+  "score_insights_dict": [
+    {
+      "gt_insight": "There is a no trend in the volume of incidents opened over time. The volume of incidents opened is relatively stable over time. There are no significant increases or decreases in the volume of incidents opened. Further analysis is required to understand the underlying causes of the stability in the volume of incidents.",
+      "pred_insight": "Howard Johnson not only has the sole positive trend but also recorded the largest monthly surplus of opened over closed incidents (+9 in 2024-01), signaling a growing backlog risk, whereas Charlie Whitherspoon’s large swings (−9 in 2023-11 to +7 in 2023-12) indicate volatility without sustained growth, and Fred Luddy remains near balance.",
+      "score": 0.3150773296163114
+    },
+    {
+      "gt_insight": "There is a no correlation between the volume of incidents and the TTR",
+      "pred_insight": "Workload increases do not materially slow agents’ median resolution times: 3 of 5 agents show negative correlations and the average correlation across agents is -0.062, with the strongest effect being modestly negative for Fred Luddy (-0.166), suggesting stable or slightly improved efficiency in busier months.",
+      "score": 0.5976797711325179
+    },
+    {
+      "gt_insight": "",
+      "pred_insight": "Comparing periods, high-priority workload averaged about 47% in the first three months (2023-01 to 2023-03) versus about 62% in the last three months (2023-11 to 2024-01), indicating a meaningful shift toward more critical incidents late in the period.",
+      "score": 0.3429058724868238
+    },
+    {
+      "gt_insight": "The productivity is uniform across all agents, and all of them manage to resolve incidents even though the volume increases over time",
+      "pred_insight": "Workload increases do not materially slow agents’ median resolution times: 3 of 5 agents show negative correlations and the average correlation across agents is -0.062, with the strongest effect being modestly negative for Fred Luddy (-0.166), suggesting stable or slightly improved efficiency in busier months.",
+      "score": 0.6567773582719206
+    }
+  ],
+  "score_summary": 0.5490375423650925,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.5631351782167393,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "Aggregate monthly incident counts for the plotted agents peaked at 30 in 2023-09 and fell to 18 by 2024-01 (a ~40% drop), with 2024-02 at 0 due to no opened_at records, indicating workloads generally decreased rather than increased over the period.",
+      "gt_insight": "There is a no trend in the volume of incidents opened over time. The volume of incidents opened is relatively stable over time. There are no significant increases or decreases in the volume of incidents opened. Further analysis is required to understand the underlying causes of the stability in the volume of incidents.",
+      "score": 0.2969624893189735
+    },
+    {
+      "pred_insight": "Workload increases do not materially slow agents’ median resolution times: 3 of 5 agents show negative correlations and the average correlation across agents is -0.062, with the strongest effect being modestly negative for Fred Luddy (-0.166), suggesting stable or slightly improved efficiency in busier months.",
+      "gt_insight": "There is a no correlation between the volume of incidents and the TTR",
+      "score": 0.5965929830017827
+    },
+    {
+      "pred_insight": "Only 3 of 5 agents exhibit growth; notably, Charlie’s +0.225/month (~+3/year) and Howard’s +0.143/month (~+2/year) suggest workload is gradually concentrating on them, which may begin to strain their capacity relative to peers.",
+      "gt_insight": "",
+      "score": 0.7845929862416307
+    },
+    {
+      "pred_insight": "Workload increases do not materially slow agents’ median resolution times: 3 of 5 agents show negative correlations and the average correlation across agents is -0.062, with the strongest effect being modestly negative for Fred Luddy (-0.166), suggesting stable or slightly improved efficiency in busier months.",
+      "gt_insight": "The productivity is uniform across all agents, and all of them manage to resolve incidents even though the volume increases over time",
+      "score": 0.5743922543045705
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.29641149394663274,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.25288554587193496
+}

@@ -1,0 +1,85 @@
+{
+  "dataset_id": 31,
+  "dataset_path": "data/notebooks/flag-31.json",
+  "metadata": {
+    "category": "Goal Management",
+    "dataset_description": "The dataset consists of 500 entries simulating ServiceNow `sn_gf_goal` table, which details various attributes related to organizational goals. These attributes include goal state, owner, department, start and end dates, and description, alongside metrics such as priority, percent complete, and target percentage. This data primarily tracks the progression and management of departmental and individual goals, offering insights into the effectiveness and alignment of these goals with broader organizational objectives. Additionally, the table captures updates made to each goal, providing a timeline of modifications and the identity of individuals making these updates.",
+    "goal": "Analyze the anomaly of increasing durations of 'Cost Reduction' goals within the Finance department to identify underlying causes and propose solutions to enhance goal management.",
+    "header": "Goal Management in a Department Analysis (Flag 31)",
+    "role": "Strategic Goal Analyst"
+  },
+  "predicted_insights": [
+    "The median duration increased every quarter, rising by 190.5 days (+115%) from 2022Q2 to 2023Q4—an average growth of about 31.8 days per quarter—indicating consistent schedule creep for Finance Cost Reduction goals.",
+    "All 108 starts occurred in 2022, but only 27 (25%) were completed by 2024-01-17—with most completions shifting into 2023 (15 of 27)—indicating a significant backlog that likely lengthened durations.",
+    "Despite higher urgency labels, High and Critical medians (256 and 245 days) both exceed the Medium median (185.5 days), while Low is longest at 287 days—a 101.5-day gap from fastest (Medium) to slowest (Low)—suggesting priority does not reliably translate into shorter cycle times for Finance Cost Reduction goals.",
+    "The near-zero correlation implies target stringency isn’t driving longer timelines; notably, the median duration is 260 days and 9 of 27 (33%) goals took over 300 days, pointing to process or execution bottlenecks rather than target levels as key contributors to extended durations.",
+    "The near-zero correlation suggests higher targets are not driving longer timelines: low targets (50–55%) spanned 165–360 days, while high targets (90–98%) ranged 188–367 days, pointing to other factors (e.g., priority or resource allocation) as likely causes of increasing durations.",
+    "Because the subset has 60 goals, the longest quartile is roughly 15 items; with 12 of these below 50% complete, about 80% of the longest-running Finance cost-reduction initiatives are lagging, signaling a strong concentration of risk in aging goals.",
+    "Only two owners met the ≥3-goal threshold (user007 with 4 and user015 with 3); despite having fewer goals, user015’s much higher median age suggests an owner-specific backlog likely driving the rising duration anomaly for Finance ‘Cost Reduction’ goals.",
+    "The median durations are tightly clustered—Critical (1418), Low (1370), High (1361), Medium (1354)—suggesting that priority labels are not translating into faster execution, pointing to systemic bottlenecks or misaligned resource allocation across priorities in Finance cost-reduction initiatives.",
+    "Low-priority goals average 296.44 days—about 81 days longer than Medium (+37.6%), 36 days longer than High (+13.9%), and 55 days longer than Critical (+22.7%)—indicating de-prioritized cost reduction work is a major contributor to extended timelines.",
+    "Despite concerns about increasing durations, Finance’s completed Cost Reduction goals are still finished ~7.4% faster than other departments, hinting that any duration increase may be recent or concentrated in ongoing/planned items rather than past completions.",
+    "Expense Ratio goals take roughly 34.08 days (≈13.4%) longer than the cross-metric average (≈254.80 days) and about 67.73 days (≈31%) longer than the quickest metric (Employee Turnover Rate), suggesting these initiatives face notably longer execution and validation cycles.",
+    "Only 1 owner met the >=3 completed goals threshold, and their ~299-day average suggests Finance cost-reduction initiatives are lengthy and concentrated in a single owner, indicating a potential bottleneck."
+  ],
+  "predicted_summary": "Median completion time for Finance ‘Cost Reduction’ goals more than doubled over seven consecutive quarters, rising from 165.0 days in 2022Q2 to 355.5 days in 2023Q4 (+190.5 days, ≈+115%). This rise coincided with a halt in new starts throughout 2023 (0 starts each quarter vs 18–34 per quarter in 2022) while completions continued (3, 3, 3, and 6 in 2023), indicating that older, longer-running goals were being closed. Despite the uptick, Finance’s overall average completion time (256.3 days) remains about 7.4% faster than other departments (276.91 days).\nDuration differences align more with priority than with target difficulty: among completed goals, Low priority takes the longest (median 287 days; average 296.44), Medium the shortest (median 185.5; average 215.50), with High (median 256; average 260.33) and Critical (median 245; average 241.50) in between. In contrast, target_percentage shows virtually no relationship with duration (Pearson r=0.0505; Spearman ρ≈0.057), suggesting target difficulty is not a key driver of how long goals take.\nThe slow-moving backlog is concentrated in specific priorities, owners, and metrics: as of 2026-03-31, 20.0% (12 of 60) of in-progress goals sit in the longest elapsed-time quartile (>1489 days since start) and are still under 50% complete; Critical in-progress items have the highest median elapsed time (1418 days); owner user015 has the highest median elapsed time among owners with at least 3 in-progress goals (1352 days); among completed goals, owner user014 averages the longest durations (298.67 days); and goals tied to the Expense Ratio metric have the highest average completion time (288.88 days).",
+  "score_insights": 0.6299499808637401,
+  "score_insights_dict": [
+    {
+      "gt_insight": "Finance department exhibits notably longer goal durations compared to other departments",
+      "pred_insight": "Only 1 owner met the >=3 completed goals threshold, and their ~299-day average suggests Finance cost-reduction initiatives are lengthy and concentrated in a single owner, indicating a potential bottleneck.",
+      "score": 0.6078471113682526
+    },
+    {
+      "gt_insight": "Cost Reduction goals dominate the goal types in the Finance department",
+      "pred_insight": "Only 1 owner met the >=3 completed goals threshold, and their ~299-day average suggests Finance cost-reduction initiatives are lengthy and concentrated in a single owner, indicating a potential bottleneck.",
+      "score": 0.3355884229669284
+    },
+    {
+      "gt_insight": "Cost Reduction goals have the longest mean duration across all goal categories",
+      "pred_insight": "Low-priority goals average 296.44 days—about 81 days longer than Medium (+37.6%), 36 days longer than High (+13.9%), and 55 days longer than Critical (+22.7%)—indicating de-prioritized cost reduction work is a major contributor to extended timelines.",
+      "score": 0.7430246282121343
+    },
+    {
+      "gt_insight": "Increasing trend in the duration of 'Cost Reduction' goals over time",
+      "pred_insight": "The median duration increased every quarter, rising by 190.5 days (+115%) from 2022Q2 to 2023Q4—an average growth of about 31.8 days per quarter—indicating consistent schedule creep for Finance Cost Reduction goals.",
+      "score": 0.8224424208728021
+    },
+    {
+      "gt_insight": "Continued linear increase in the duration of 'Cost Reduction' goals across all departments",
+      "pred_insight": "The median duration increased every quarter, rising by 190.5 days (+115%) from 2022Q2 to 2023Q4—an average growth of about 31.8 days per quarter—indicating consistent schedule creep for Finance Cost Reduction goals.",
+      "score": 0.6408473208985834
+    }
+  ],
+  "score_summary": 0.6206979082577196,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.71331769013442,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "Only 1 owner met the >=3 completed goals threshold, and their ~299-day average suggests Finance cost-reduction initiatives are lengthy and concentrated in a single owner, indicating a potential bottleneck.",
+      "gt_insight": "Finance department exhibits notably longer goal durations compared to other departments",
+      "score": 0.7971933692407618
+    },
+    {
+      "pred_insight": "Only 1 owner met the >=3 completed goals threshold, and their ~299-day average suggests Finance cost-reduction initiatives are lengthy and concentrated in a single owner, indicating a potential bottleneck.",
+      "gt_insight": "Cost Reduction goals dominate the goal types in the Finance department",
+      "score": 0.47533455910844175
+    },
+    {
+      "pred_insight": "Low-priority goals average 296.44 days—about 81 days longer than Medium (+37.6%), 36 days longer than High (+13.9%), and 55 days longer than Critical (+22.7%)—indicating de-prioritized cost reduction work is a major contributor to extended timelines.",
+      "gt_insight": "Cost Reduction goals have the longest mean duration across all goal categories",
+      "score": 0.8538311446743052
+    },
+    {
+      "pred_insight": "The median duration increased every quarter, rising by 190.5 days (+115%) from 2022Q2 to 2023Q4—an average growth of about 31.8 days per quarter—indicating consistent schedule creep for Finance Cost Reduction goals.",
+      "gt_insight": "Increasing trend in the duration of 'Cost Reduction' goals over time",
+      "score": 0.8171842600567126
+    },
+    {
+      "pred_insight": "The median duration increased every quarter, rising by 190.5 days (+115%) from 2022Q2 to 2023Q4—an average growth of about 31.8 days per quarter—indicating consistent schedule creep for Finance Cost Reduction goals.",
+      "gt_insight": "Continued linear increase in the duration of 'Cost Reduction' goals across all departments",
+      "score": 0.6230451175918785
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.11453154258145164,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.8698140160115722
+}

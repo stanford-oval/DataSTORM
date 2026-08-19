@@ -1,0 +1,172 @@
+{
+  "total_insights": 16,
+  "total_classified": 16,
+  "acled_count": 7,
+  "non_acled_count": 9,
+  "pct_acled": 0.4375,
+  "details": [
+    {
+      "evidence": "In November 2024, Cabo Delgado saw a surge in violent clashes between Islamic State Mozambique (ISM) insurgents and state security forces.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general qualitative claim about increased clashes in November 2024 without citing specific event counts, locations, fatalities, or ACLED attribution. It lacks concrete ACLED-derived metrics or actor/event data, so it reads as general analysis rather than ACLED data.",
+      "source_context": "Overall trend overview at the beginning of the article citing CIP reports."
+    },
+    {
+      "evidence": "Analysts recorded an average of about one insurgent attack every two days in Cabo Delgado during November 2024.",
+      "is_acled_data": true,
+      "reasoning": "The statement provides a quantified conflict event rate (average of one insurgent attack every two days in November 2024 in Cabo Delgado), which reflects temporal patterns and event counts typical of ACLED’s event-based data and trend analysis. This type of monthly attack frequency is directly derivable from ACLED’s recorded events.",
+      "source_context": "CIP-cited assessment on attack frequency in November 2024."
+    },
+    {
+      "evidence": "ACLED data indicates roughly 62 violent incidents occurred in Cabo Delgado in November 2024, including about 12 battle engagements.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific counts of violent incidents and battle engagements in a defined time and location, which are core ACLED event metrics. It is explicitly framed as “ACLED data indicates,” aligning with ACLED’s conflict event counts and battle-related data.",
+      "source_context": "Conflict event data summary for the month."
+    },
+    {
+      "evidence": "At least 8 battles directly involved ISM fighters and Mozambican government troops, often alongside Rwandan forces, resulting in an estimated 27 fatalities combined.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites counts of battles involving specific actors and an estimated combined fatality figure for a defined period and location. These are typical ACLED outputs (event counts, battle-related data, actor-level details, and fatalities) and align with ACLED’s event-based dataset for Cabo Delgado in November 2024.",
+      "source_context": "Breakdown of battle engagements and casualties from CIP/ACLED summary."
+    },
+    {
+      "evidence": "ISM militants exploited post-election instability in southern Mozambique to intensify their insurgency in the north during late 2024.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a broad analytical claim about insurgent strategy exploiting post-election instability without referencing specific events, counts, locations, fatalities, or ACLED-attributed actor/activity data. It reads as general geopolitical analysis rather than data derived from ACLED event records.",
+      "source_context": "Analytical assessment linking northern activity to post-election unrest in the south."
+    },
+    {
+      "evidence": "The Islamist insurgency in Cabo Delgado has been active since 2017 and formally affiliated with ISIS since 2019, remaining lethal and resilient despite years of counterinsurgency operations.",
+      "is_acled_data": false,
+      "reasoning": "The statement is broad background context about the insurgency’s timeline and affiliation with ISIS, not specific event counts, fatalities, locations, or actor/event data attributed to ACLED. It reads as general analysis/history rather than data derived from ACLED’s event-based datasets.",
+      "source_context": "Contextual background from The Soufan Center and Hudson Institute."
+    },
+    {
+      "evidence": "In November 2024, IS-linked militants repeatedly clashed with government forces in districts such as Macomia and Meluco.",
+      "is_acled_data": true,
+      "reasoning": "The statement references specific armed actor clashes, locations (Macomia, Meluco), and time period (November 2024), aligning with ACLED’s battle event data and subnational, temporal conflict reporting. It reflects event-based patterns typical of ACLED outputs.",
+      "source_context": "Section on notable clashes highlighting geographic focus."
+    },
+    {
+      "evidence": "On 7 November 2024, insurgents attacked a farming area in Meluco district, seized a logging tractor, and briefly abducted villagers; no fatalities were confirmed.",
+      "is_acled_data": true,
+      "reasoning": "The evidence describes a specific conflict event with date, location (Meluco district, Cabo Delgado), actors (insurgents), tactics (attack, abduction, equipment seizure), and outcome (no confirmed fatalities). This aligns with ACLED event-level reporting on battles/violence against civilians and incident descriptions with casualty information.",
+      "source_context": "Specific incident reported by DW Portuguese regarding Meluco/Minhanha."
+    },
+    {
+      "evidence": "Mid-November saw coordinated ISM assaults across Macomia and Meluco, including ambushes on FDS and Rwandan positions and multiple skirmishes on 13–14 November with several soldiers and insurgents killed.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific conflict events (coordinated assaults, ambushes, skirmishes), locations (Macomia, Meluco), time frame (13–14 November), actors (ISM, FDS, Rwandan forces), and casualties (several soldiers and insurgents killed). These are characteristic of ACLED event-level battle data and temporal patterns that ACLED tracks.",
+      "source_context": "Narrative of mid-month coordinated attacks and casualties from local reports."
+    },
+    {
+      "evidence": "On 17 November 2024, Mozambican army units clashed with ISM gunmen in Macomia district, resulting in multiple combatant deaths.",
+      "is_acled_data": true,
+      "reasoning": "The evidence describes a specific conflict event with date, location (Macomia district, Cabo Delgado), actors (Mozambican army and ISM), and outcome (clash with multiple combatant deaths), which aligns with ACLED’s battle-related event records and fatalities data.",
+      "source_context": "Later-month engagement described in the notable clashes section."
+    },
+    {
+      "evidence": "Islamic State media channels claimed responsibility for several November attacks, asserting heavy casualties on Mozambican and allied forces as part of a propaganda push.",
+      "is_acled_data": false,
+      "reasoning": "The evidence cites Islamic State media claims about responsibility and casualties, framed as propaganda. It does not reference ACLED event records, counts, locations, or actor-coded data, nor is it attributed to ACLED. It reflects militant media reporting/analysis, not ACLED-derived data.",
+      "source_context": "References to IS media claims and propaganda framing."
+    },
+    {
+      "evidence": "Despite support from Rwandan forces and the SADC mission, state forces mainly held major towns and infrastructure while insurgents remained active in rural and forested areas.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical characterization of control and activity patterns (state holding towns; insurgents in rural/forested areas) and mentions support from Rwanda and SADC. It is not tied to specific ACLED event counts, locations, dates, or actor-coded events, nor is it explicitly attributed to ACLED. Therefore it reads as general analysis rather than derived directly from ACLED data.",
+      "source_context": "Impact and context section on territorial control dynamics."
+    },
+    {
+      "evidence": "The November skirmishes and raids triggered new population displacements, with thousands fleeing violence.",
+      "is_acled_data": false,
+      "reasoning": "The statement about displacements and “thousands fleeing” is humanitarian displacement data, which typically comes from UN/OCHA/UNHCR or NGOs. ACLED does not provide displacement totals; unless explicitly tied to ACLED event data, this is not derived from ACLED.",
+      "source_context": "Impact description citing displacement figures in general terms."
+    },
+    {
+      "evidence": "Communities such as Mapato (Muidumbe) and Minhanha (Meluco) were temporarily abandoned due to nearby insurgent presence and attacks.",
+      "is_acled_data": false,
+      "reasoning": "The statement describes communities being temporarily abandoned due to insurgent presence and attacks, which reads as displacement/abandonment impacts rather than specific ACLED-coded events, counts, fatalities, or actor/location event records. Without explicit linkage to ACLED event data (dates, event entries, fatalities) or attribution to ACLED, it appears as general situational reporting/humanitarian-type impact rather than ACLED-derived data.",
+      "source_context": "Local reports of village evacuations in affected districts."
+    },
+    {
+      "evidence": "Observers noted that government focus on quelling post-election unrest in southern Mozambique may have opened opportunities for ISM to intensify attacks in the north.",
+      "is_acled_data": false,
+      "reasoning": "This is general analytical commentary about government focus possibly enabling ISM activity; it does not reference specific ACLED event counts, fatalities, locations, or actor-level event data, nor is it attributed to ACLED.",
+      "source_context": "Analytical interpretation of state distraction enabling insurgent activity."
+    },
+    {
+      "evidence": "Overall, November 2024 featured a flare-up of confrontations with casualties on both sides, underscoring the enduring security challenge posed by ISM in Cabo Delgado.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general qualitative summary about clashes and casualties in November 2024 without citing specific event counts, locations, fatalities, or ACLED attribution. It reads as analytical commentary rather than data derived from ACLED event records.",
+      "source_context": "Synthesis conclusion summarizing the month’s dynamics."
+    }
+  ],
+  "insights": [
+    {
+      "insight": "In November 2024, Cabo Delgado saw a surge in violent clashes between Islamic State Mozambique (ISM) insurgents and state security forces.",
+      "context": "Overall trend overview at the beginning of the article citing CIP reports."
+    },
+    {
+      "insight": "Analysts recorded an average of about one insurgent attack every two days in Cabo Delgado during November 2024.",
+      "context": "CIP-cited assessment on attack frequency in November 2024."
+    },
+    {
+      "insight": "ACLED data indicates roughly 62 violent incidents occurred in Cabo Delgado in November 2024, including about 12 battle engagements.",
+      "context": "Conflict event data summary for the month."
+    },
+    {
+      "insight": "At least 8 battles directly involved ISM fighters and Mozambican government troops, often alongside Rwandan forces, resulting in an estimated 27 fatalities combined.",
+      "context": "Breakdown of battle engagements and casualties from CIP/ACLED summary."
+    },
+    {
+      "insight": "ISM militants exploited post-election instability in southern Mozambique to intensify their insurgency in the north during late 2024.",
+      "context": "Analytical assessment linking northern activity to post-election unrest in the south."
+    },
+    {
+      "insight": "The Islamist insurgency in Cabo Delgado has been active since 2017 and formally affiliated with ISIS since 2019, remaining lethal and resilient despite years of counterinsurgency operations.",
+      "context": "Contextual background from The Soufan Center and Hudson Institute."
+    },
+    {
+      "insight": "In November 2024, IS-linked militants repeatedly clashed with government forces in districts such as Macomia and Meluco.",
+      "context": "Section on notable clashes highlighting geographic focus."
+    },
+    {
+      "insight": "On 7 November 2024, insurgents attacked a farming area in Meluco district, seized a logging tractor, and briefly abducted villagers; no fatalities were confirmed.",
+      "context": "Specific incident reported by DW Portuguese regarding Meluco/Minhanha."
+    },
+    {
+      "insight": "Mid-November saw coordinated ISM assaults across Macomia and Meluco, including ambushes on FDS and Rwandan positions and multiple skirmishes on 13–14 November with several soldiers and insurgents killed.",
+      "context": "Narrative of mid-month coordinated attacks and casualties from local reports."
+    },
+    {
+      "insight": "On 17 November 2024, Mozambican army units clashed with ISM gunmen in Macomia district, resulting in multiple combatant deaths.",
+      "context": "Later-month engagement described in the notable clashes section."
+    },
+    {
+      "insight": "Islamic State media channels claimed responsibility for several November attacks, asserting heavy casualties on Mozambican and allied forces as part of a propaganda push.",
+      "context": "References to IS media claims and propaganda framing."
+    },
+    {
+      "insight": "Despite support from Rwandan forces and the SADC mission, state forces mainly held major towns and infrastructure while insurgents remained active in rural and forested areas.",
+      "context": "Impact and context section on territorial control dynamics."
+    },
+    {
+      "insight": "The November skirmishes and raids triggered new population displacements, with thousands fleeing violence.",
+      "context": "Impact description citing displacement figures in general terms."
+    },
+    {
+      "insight": "Communities such as Mapato (Muidumbe) and Minhanha (Meluco) were temporarily abandoned due to nearby insurgent presence and attacks.",
+      "context": "Local reports of village evacuations in affected districts."
+    },
+    {
+      "insight": "Observers noted that government focus on quelling post-election unrest in southern Mozambique may have opened opportunities for ISM to intensify attacks in the north.",
+      "context": "Analytical interpretation of state distraction enabling insurgent activity."
+    },
+    {
+      "insight": "Overall, November 2024 featured a flare-up of confrontations with casualties on both sides, underscoring the enduring security challenge posed by ISM in Cabo Delgado.",
+      "context": "Synthesis conclusion summarizing the month’s dynamics."
+    }
+  ],
+  "prompt": "Research clashes between Islamic State Mozambique and state forces in Cabo Delgado. Focus on November 2024."
+}

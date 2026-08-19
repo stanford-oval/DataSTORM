@@ -1,0 +1,143 @@
+{
+  "prompt": "What are the threats in Kenya with respect to communal militias and al-Shabaab. Focus on November 2024.",
+  "criteria": [
+    {
+      "name": "Shifting political dynamics",
+      "description": "Assess how changes in national leadership and cabinet roles influence security priorities and local elite alignments, potentially easing or exacerbating tensions."
+    },
+    {
+      "name": "Communal militia flashpoints",
+      "description": "Identify drivers of localized communal violence, such as land and resource disputes, and track patterns of rapid escalation and spillover to adjacent areas."
+    },
+    {
+      "name": "State response toolkit",
+      "description": "Evaluate the mix of security and political measures used by authorities—emergency declarations, deployments, arrests, and reconciliation—to contain communal clashes and their effectiveness over time."
+    },
+    {
+      "name": "Land-policy conflict nexus",
+      "description": "Examine how development or resettlement initiatives intersect with community claims and consultation processes, triggering or mitigating violence."
+    },
+    {
+      "name": "Cross-border militant dynamics",
+      "description": "Analyze how militant groups exploit border adjacency and rear-base sanctuaries to stage operations, and how this shapes attack patterns in frontier counties."
+    },
+    {
+      "name": "Targeting of security infrastructure",
+      "description": "Track trends in attacks against security forces, including focus on patrols, bases, and convoys, and the tactical evolution such as use of IEDs and coordinated strikes."
+    },
+    {
+      "name": "Aerial deterrence and signaling",
+      "description": "Assess the role of threats or limited cross-border strikes and information operations as coercive signals, and whether they translate into sustained campaigns or remain symbolic."
+    },
+    {
+      "name": "Local-national political interplay",
+      "description": "Evaluate how central government interventions recalibrate local power relations and incentives, affecting conflict resolution and potential resurgence."
+    },
+    {
+      "name": "Protest versus armed violence balance",
+      "description": "Monitor the relative prevalence of riots and battles, and how shifts in contentious politics influence the security landscape."
+    },
+    {
+      "name": "Human security impacts",
+      "description": "Consider civilian harm, displacement risks, and disruptions to services and livelihoods arising from both communal clashes and militant attacks."
+    },
+    {
+      "name": "Regional geopolitics constraints",
+      "description": "Analyze how tensions and alignments among neighboring states and regional actors constrain or embolden cross-border security operations."
+    },
+    {
+      "name": "Seasonality and environmental stress",
+      "description": "Assess how flooding, drought, or seasonal pressures on land and pasture amplify communal grievances and shape conflict timing."
+    },
+    {
+      "name": "Community reconciliation efficacy",
+      "description": "Review outcomes of peace meetings, elder-led initiatives, and dialogue forums, noting whether they produce durable de-escalation or temporary lulls."
+    },
+    {
+      "name": "Security force posture adaptation",
+      "description": "Examine adjustments in force deployment, fortification of border posts, and intelligence measures in response to evolving militant tactics."
+    },
+    {
+      "name": "Information environment and rumor",
+      "description": "Track how narratives about projects, land rights, or security incidents circulate locally and online, influencing mobilization and retaliation."
+    }
+  ],
+  "criterion_scores": [
+    {
+      "name": "Shifting political dynamics",
+      "score": 0.25,
+      "explanation": "The article briefly notes governance gaps, trust deficits, and references Kenyan authorities establishing new military command centers, but it does not analyze changes in national leadership or cabinet roles, nor how elite alignments shift security priorities in November 2024."
+    },
+    {
+      "name": "Communal militia flashpoints",
+      "score": 0.75,
+      "explanation": "It identifies drivers like land, pasture, and water disputes, mentions counties (Turkana, Baringo, Laikipia, Marsabit, Isiolo), and describes escalation dynamics and spillover risks. However, it lacks concrete November 2024 incident patterns and detailed mapping of rapid escalation sequences."
+    },
+    {
+      "name": "State response toolkit",
+      "score": 0.5,
+      "explanation": "Mentions establishment of new military command centers and general counterinsurgency pressure; references need for integrated border governance and reconciliation, but provides limited detail on specific deployments, arrests, emergency declarations, or measured effectiveness over time."
+    },
+    {
+      "name": "Land-policy conflict nexus",
+      "score": 0.5,
+      "explanation": "Discusses contested land rights, tenure ambiguity, and the need for equitable resource distribution, but does not tie these to specific development or resettlement initiatives or consultation processes in November 2024."
+    },
+    {
+      "name": "Cross-border militant dynamics",
+      "score": 1.0,
+      "explanation": "Provides a clear analysis of al‑Shabaab exploiting porous Kenya–Somalia borders, leveraging Jubbaland instability, using rear sanctuaries, and shaping attack patterns across Mandera–Wajir–Garissa–Lamu corridors."
+    },
+    {
+      "name": "Targeting of security infrastructure",
+      "score": 0.75,
+      "explanation": "Describes focus on patrols, checkpoints, convoys, ambushes, and IEDs with a shift to low‑visibility attrition. Lacks granular trend data and specific incident examples from November 2024."
+    },
+    {
+      "name": "Aerial deterrence and signaling",
+      "score": 0.0,
+      "explanation": "No discussion of aerial threats, cross‑border strikes, or information operations as coercive signals."
+    },
+    {
+      "name": "Local-national political interplay",
+      "score": 0.25,
+      "explanation": "Touches on integrating indigenous peacebuilding with state structures and county security committees, but does not analyze how central government interventions specifically recalibrated local power relations in the period."
+    },
+    {
+      "name": "Protest versus armed violence balance",
+      "score": 0.25,
+      "explanation": "Notes an overall decline in political violence counts but does not compare riots versus battles or discuss contentious politics shifts."
+    },
+    {
+      "name": "Human security impacts",
+      "score": 0.5,
+      "explanation": "Mentions civilian risk, intimidation at water points, displacement pressures, disrupted mobility, and deterrence of reporting, but lacks quantified impacts, service disruptions, or specific November cases."
+    },
+    {
+      "name": "Regional geopolitics constraints",
+      "score": 0.5,
+      "explanation": "References IGAD cooperation, AU border governance frameworks, and Jubbaland instability, but offers limited analysis of how regional tensions/alignments constrained or emboldened specific Kenyan cross‑border operations in November."
+    },
+    {
+      "name": "Seasonality and environmental stress",
+      "score": 0.5,
+      "explanation": "Acknowledges semi‑arid context, scarcity of water/pasture, and resource stress as drivers, but does not connect to specific seasonal patterns (e.g., drought/flood timelines) shaping November conflict timing."
+    },
+    {
+      "name": "Community reconciliation efficacy",
+      "score": 0.5,
+      "explanation": "Discusses traditional mechanisms, elders, and hybrid models, citing examples like Sotik/Borabu, but does not evaluate outcomes or durability during November 2024."
+    },
+    {
+      "name": "Security force posture adaptation",
+      "score": 0.75,
+      "explanation": "Notes new command centers, need to harden crossing points, tighten protocols, invest in local interfaces, and address fortification and intelligence gaps; however, evidence of concrete redeployments or fortification changes in November is limited."
+    },
+    {
+      "name": "Information environment and rumor",
+      "score": 0.25,
+      "explanation": "Mentions trust deficits and community intelligence flows being corroded but does not analyze rumor dynamics, online narratives, or their role in mobilization/retaliation in November."
+    }
+  ],
+  "overall_score": 0.48333333333333334
+}

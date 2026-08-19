@@ -1,0 +1,12 @@
+{
+  "name": "starting_questions",
+  "version": 2,
+  "type": "text",
+  "labels": [
+    "production",
+    "latest"
+  ],
+  "tags": [],
+  "config": {},
+  "prompt": "You are conducting research on a goal/topic: \"{{ topic }}\". The goal here is to extract previously unknown insights by exploring and observing the information in the database with the following description: {{ db_description }}.\n\nGenerate up to {{ num_questions }} questions that an investigator will be interested in. You do not need to generate all {{ num_questions }} questions if you believe you only need to ask 1–2 to get started. The questions will be used to generate search queries in the database to help answer them. The questions should be self-contained (include any specific years, months, locations, etc. instead of a reference that requires the reader to know the context) and related to the goal/topic: \"{{ topic }}\". Investigate any correlations as you see fit. Do not generate overly complex questions. Each question should be investigate one aspect but do not include too many subquestions inside a single question.\n\nIMPORTANT: the questions should be independent of each other. If you believe some questions need to be answered first, only generate those questions and not others that depend on the answers to the first questions.\n\n{% if article %}\nHere is more background information on the goal/topic based on the internet: \"{{ article }}\".\n{% endif %}\n"
+}

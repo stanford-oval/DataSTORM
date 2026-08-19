@@ -1,0 +1,188 @@
+{
+  "prompt": "Give me a summary of artillery shelling and airstrikes political violence, and conflict situations during August - September 2024 in Sudan.",
+  "criteria": [
+    {
+      "name": "Shift to remote violence",
+      "description": "Identify the transition from direct battles to increased use of artillery shelling, airstrikes, and other forms of remote violence across multiple regions."
+    },
+    {
+      "name": "Geographic concentration of attacks",
+      "description": "Assess which regions and urban areas experience the highest frequency of shelling and airstrikes and how this distribution shifts over time."
+    },
+    {
+      "name": "Stalemates shaping tactics",
+      "description": "Examine how battlefield stalemates lead parties to rely on indirect fire and strikes to pressure opponents and disrupt civilian life rather than seeking territorial advances."
+    },
+    {
+      "name": "Escalation around negotiations",
+      "description": "Note patterns where spikes in shelling or airstrikes align with attempted ceasefire talks, as actors seek leverage at the negotiating table."
+    },
+    {
+      "name": "Multi-front strain on forces",
+      "description": "Analyze how simultaneous fronts constrain each side’s ability to expand territory, influencing reliance on remote attacks and defensive postures."
+    },
+    {
+      "name": "Urban vulnerability and civilian impact",
+      "description": "Track how artillery and airstrikes affect densely populated areas, disrupting daily activities, damaging infrastructure, and increasing civilian harm."
+    },
+    {
+      "name": "Airpower resurgence",
+      "description": "Evaluate the renewed use of airstrikes, including possible external enablers, and their role in disrupting adversary mobilization and logistics."
+    },
+    {
+      "name": "Internal fissures within armed groups",
+      "description": "Identify incidents of intra-factional clashes driven by local interests, resource disputes, and leadership rivalries, and assess how these divisions affect broader conflict dynamics."
+    },
+    {
+      "name": "Expansion into new theaters",
+      "description": "Monitor advances into adjacent states and the strategic intent behind securing corridors and staging areas for further operations."
+    },
+    {
+      "name": "Risk of multi-actor conflict",
+      "description": "Assess how expansions into contested regions raise the likelihood of triangular conflicts involving additional armed movements with established local control."
+    },
+    {
+      "name": "Supply lines and logistics pressure",
+      "description": "Examine efforts to cut or protect critical fuel and supply routes, and how seasonal factors magnify logistics challenges."
+    },
+    {
+      "name": "Seasonal and environmental constraints",
+      "description": "Consider how weather and flooding sever transport corridors, hinder military operations, and complicate humanitarian access."
+    },
+    {
+      "name": "Humanitarian access and obstruction",
+      "description": "Track commitments to facilitate aid against reports of looting, route disruptions, and administrative impediments that affect aid delivery."
+    },
+    {
+      "name": "Negotiation failure and conflict intensity",
+      "description": "Analyze how repeated breakdowns in mediation correlate with sustained or increased violence and the deterioration of humanitarian conditions."
+    },
+    {
+      "name": "Strategic targets and infrastructure",
+      "description": "Identify the focus on military bases, refineries, and communication nodes, and how strikes against these targets aim to degrade the opponent’s capabilities."
+    },
+    {
+      "name": "Civilians’ self-defense and reprisals",
+      "description": "Observe instances of local resistance to armed incursions and subsequent punitive attacks, noting patterns of retaliation against communities."
+    },
+    {
+      "name": "Shifting control in contested cities",
+      "description": "Assess evolving control maps within key urban centers, including which localities are held by each side and how this shapes operational priorities."
+    },
+    {
+      "name": "Proxy and allied dynamics",
+      "description": "Evaluate the roles of allied formations and local militias, shifts in alignments, and their influence on urban defense and regional balances."
+    },
+    {
+      "name": "Operational learning and probing",
+      "description": "Note probing offensives and tactical withdrawals used to gather terrain intelligence and test defenses ahead of potential larger operations."
+    },
+    {
+      "name": "Prospects for future offensives",
+      "description": "Identify indicators of preparation for major assaults, such as force mobilization, intensified strikes, and efforts to neutralize key defensive positions."
+    }
+  ],
+  "criterion_scores": [
+    {
+      "name": "Shift to remote violence",
+      "score": 1.0,
+      "explanation": "The article clearly identifies a transition from shelling to air/drone strikes between August and September 2024, with specific counts and proportions (air events rising from 101 to 178, shelling falling from 142 to 77; air share rising to ~70%). It attributes the pivot to SAF-led escalation and details weekly sequencing and late-September peaks."
+    },
+    {
+      "name": "Geographic concentration of attacks",
+      "score": 0.9,
+      "explanation": "It assesses regional and urban distribution: Khartoum as the center of air activity (24 to 100 incidents; 56% of national air events), secondary nodes (Al Jazirah, Sennar), and Darfur’s fewer but deadlier strikes. Within Khartoum, it discusses locality dispersion and substitution between districts. Minor gap: limited detail on other Darfur states and shifts over the entire Aug–Sep timeline beyond highlighted locales."
+    },
+    {
+      "name": "Stalemates shaping tactics",
+      "score": 0.95,
+      "explanation": "The article explicitly links stalemates to reliance on indirect fire and airpower, emphasizing pressure over territorial advance. It notes entrenched positions and faltering diplomacy, and that the air campaign ‘pressures’ without strategic resolution."
+    },
+    {
+      "name": "Escalation around negotiations",
+      "score": 0.6,
+      "explanation": "It mentions mediation faltering and suggests intensified strikes as pressure, but provides limited concrete correlation between specific negotiation attempts and spikes. No explicit timeline tying ceasefire talks to peak strike weeks."
+    },
+    {
+      "name": "Multi-front strain on forces",
+      "score": 0.7,
+      "explanation": "It implies SAF operating across Khartoum, Al Jazirah, Sennar, and Darfur, and RSF urban entrenchment, suggesting multi-front constraints. However, it does not deeply analyze how simultaneous fronts specifically limit territorial expansion beyond general stalemate framing."
+    },
+    {
+      "name": "Urban vulnerability and civilian impact",
+      "score": 0.95,
+      "explanation": "Strong coverage of impacts on densely populated areas: Khartoum’s frequent low-lethality air incidents disrupting daily life and aid; strikes on camps and hospitals; looting and infrastructure damage; differentiated risk profiles between Khartoum and Darfur."
+    },
+    {
+      "name": "Airpower resurgence",
+      "score": 0.85,
+      "explanation": "It evaluates renewed airstrike use, led by SAF, and their role in pressuring RSF positions and affecting logistics. It does not deeply explore external enablers (e.g., foreign support or materiel), but the resurgence and operational effects are well covered."
+    },
+    {
+      "name": "Internal fissures within armed groups",
+      "score": 0.2,
+      "explanation": "Little to no detail on intra-factional clashes, local rivalries, or internal splits within SAF, RSF, or allied groups. The article focuses on SAF vs RSF modalities without exploring internal divisions."
+    },
+    {
+      "name": "Expansion into new theaters",
+      "score": 0.4,
+      "explanation": "Mentions extension of air operations into Al Jazirah and Sennar and across Darfur, but does not analyze strategic intent behind securing corridors or advances into adjacent states or new theaters beyond Sudan’s internal states."
+    },
+    {
+      "name": "Risk of multi-actor conflict",
+      "score": 0.25,
+      "explanation": "Bare mention of allied formations or local militias; no substantive assessment of triangular conflicts or added armed movements in contested regions. Focus remains on SAF–RSF dyad."
+    },
+    {
+      "name": "Supply lines and logistics pressure",
+      "score": 0.7,
+      "explanation": "The article references disrupted logistics in Khartoum due to frequent strikes, and notes humanitarian route disruptions and looting. However, it only lightly touches on fuel/supply route cutting or protection and lacks detailed analysis of specific corridors."
+    },
+    {
+      "name": "Seasonal and environmental constraints",
+      "score": 0.8,
+      "explanation": "It mentions floods and cholera, seasonal flood damage severing lifelines, and complicating access, linking environmental factors to operations and humanitarian constraints, though details on specific transport corridors are limited."
+    },
+    {
+      "name": "Humanitarian access and obstruction",
+      "score": 0.95,
+      "explanation": "Strong treatment: aid worker killings, warehouse looting, hits on medical facilities, disruptions at IDP camps, and rising civilian fatalities shifting the risk composition. Clear linkage to access challenges and administrative/security impediments."
+    },
+    {
+      "name": "Negotiation failure and conflict intensity",
+      "score": 0.8,
+      "explanation": "The article ties faltering mediation to sustained or intensified air and shelling, emphasizing persistent stalemate and worsening humanitarian conditions. It could be stronger with explicit timelines of negotiation breakdowns and corresponding violence metrics."
+    },
+    {
+      "name": "Strategic targets and infrastructure",
+      "score": 0.6,
+      "explanation": "Some references to infrastructure destruction and hospitals, but limited explicit identification of strikes on military bases, refineries, or communications nodes and their intended degradation of capabilities. Focus is more on civilian sites and broad pressure."
+    },
+    {
+      "name": "Civilians’ self-defense and reprisals",
+      "score": 0.2,
+      "explanation": "The article notes local resistance patterns only tangentially, with minimal coverage of community self-defense or punitive reprisals. Emphasis is on strikes and shelling rather than communal dynamics."
+    },
+    {
+      "name": "Shifting control in contested cities",
+      "score": 0.5,
+      "explanation": "It references entrenched positions and substitution patterns within Khartoum districts, but does not provide detailed control maps or which localities are held by each side. Partial inference from modality distribution without explicit control assessment."
+    },
+    {
+      "name": "Proxy and allied dynamics",
+      "score": 0.3,
+      "explanation": "Limited mention of allied formations or militias and their influence. The piece focuses on SAF and RSF with minimal exploration of proxy dynamics or shifting alignments."
+    },
+    {
+      "name": "Operational learning and probing",
+      "score": 0.55,
+      "explanation": "It hints at strategic tempo designed to pressure rather than exploit breakthroughs and mentions absence of reactive spikes post-battles, implying probing and sustained pressure. However, it does not detail specific probing offensives or tactical withdrawals for intelligence."
+    },
+    {
+      "name": "Prospects for future offensives",
+      "score": 0.5,
+      "explanation": "The article suggests air dominance as pressure absent strategic resolution and hints at ongoing preparation logic but lacks concrete indicators like mobilization, intensified pre-assault patterns, or neutralization of defensive positions. Partial coverage."
+    }
+  ],
+  "overall_score": 0.635
+}

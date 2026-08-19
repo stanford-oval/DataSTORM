@@ -1,0 +1,282 @@
+{
+  "total_insights": 27,
+  "total_classified": 27,
+  "acled_count": 16,
+  "non_acled_count": 11,
+  "pct_acled": 0.5925925925925926,
+  "details": [
+    {
+      "evidence": "Overall political violence in Colombia declined in 2024, showing mid‑year troughs during ceasefire/negotiation periods, but late‑year rebounds indicated only partial and uneven de‑escalation.",
+      "is_acled_data": true,
+      "reasoning": "The statement describes temporal conflict trends (decline, mid-year troughs during ceasefires/negotiations, late-year rebounds) which align with ACLED’s event-based trend analysis and temporal patterning. It references overall political violence levels and de-escalation patterns likely inferred from counts of events over time, fitting ACLED-derived insights.",
+      "source_context": "Key Findings; mid‑2024 lull with July ~153 events, rebound to ~234 in October, easing into December."
+    },
+    {
+      "evidence": "Violence against civilians remained the most frequent modality, peaking in January 2024 before falling mid‑year, while battles resurged later in 2024 and explosions/remote violence edged up toward year‑end.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific conflict modalities (violence against civilians, battles, explosions/remote violence) and their temporal patterns in 2024, which align with ACLED’s event-type categories and trend analyses derived from its dataset. This is characteristic of ACLED-derived conflict trend data.",
+      "source_context": "A quieter map that still bleeds; modality trends across 2023–2024."
+    },
+    {
+      "evidence": "Fewer events late in 2024 did not translate into safer conditions, as fatalities per event stayed elevated with deaths concentrated in battles and violence against civilians.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references event counts, fatalities per event, and specific event types (battles, violence against civilians), which align with ACLED’s conflict event and fatality data and temporal trend analysis.",
+      "source_context": "A quieter map that still bleeds; lethality per incident remained high even as counts fell."
+    },
+    {
+      "evidence": "Months with more strategic developments (talks, deployments, ceasefire moves) generally aligned with fewer attacks on civilians, suggesting partial protection effects during intensified political processes.",
+      "is_acled_data": true,
+      "reasoning": "The statement references temporal patterns in attacks on civilians aligning with strategic developments like talks and ceasefires. This corresponds to ACLED-derived conflict trend analysis using event data on violence against civilians and political processes, which ACLED tracks and can show correlations over time.",
+      "source_context": "A quieter map that still bleeds; correlations and monthly co‑movement between strategic developments and VAC."
+    },
+    {
+      "evidence": "Battles and explosions/remote violence tended to surge together in 2023–2024, indicating linked operational tempos across modalities.",
+      "is_acled_data": true,
+      "reasoning": "The statement references specific conflict event categories tracked by ACLED (battles and explosions/remote violence) and describes a temporal trend (surging together in 2023–2024), which aligns with ACLED’s event data and trend analysis outputs.",
+      "source_context": "A quieter map that still bleeds; synchronized surges mid‑to‑late 2023 and late 2024."
+    },
+    {
+      "evidence": "Geographic cooling in 2024 was widespread (e.g., Nariño, Cauca, Norte de Santander), but outliers like Putumayo and Chocó ticked up and unidentified armed groups remained dominant perpetrators, complicating accountability.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites subnational geographic conflict trends (cooling in specific departments, increases in others) and references perpetrator dominance of unidentified armed groups—elements typical of ACLED’s event-based, actor-level, and spatial trend analysis. This aligns with ACLED’s geographic conflict data and actor activity/trend insights rather than general commentary.",
+      "source_context": "A quieter map that still bleeds; department‑level variance and dominant perpetrators."
+    },
+    {
+      "evidence": "Cauca was the volatility anchor in 2024: clashes rose by roughly a third to 211, explosions/remote attacks increased, and over half of clashes involved the military, signaling intensified yet contested state presence.",
+      "is_acled_data": true,
+      "reasoning": "The evidence provides specific conflict event counts (clashes rising to 211), references to explosions/remote attacks, actor involvement (over half of clashes involved the military), and subnational geographic focus (Cauca). These are characteristic of ACLED’s battle-related data, event counts, and actor-level breakdowns, indicating derivation from ACLED event data or analysis.",
+      "source_context": "Who is fighting—and where civilians pay; Cauca dynamics and state force involvement."
+    },
+    {
+      "evidence": "Intra‑department contrasts highlighted divergent security postures: only 8% of clashes in Argelia (Cauca) involved state forces, versus ~80% in Briceño (Antioquia).",
+      "is_acled_data": true,
+      "reasoning": "The evidence provides subnational, actor-level battle engagement proportions (share of clashes involving state forces) for specific municipalities, which aligns with ACLED’s event-based battle data and geographic breakdowns. Such comparative metrics by location and actor involvement are typical analyses derived from ACLED’s conflict event dataset.",
+      "source_context": "Who is fighting—and where civilians pay; local contrasts in state involvement."
+    },
+    {
+      "evidence": "Border departments (Arauca, Norte de Santander) saw civilians disproportionately harmed, with violence against civilians comprising about two‑thirds of political violence and demonstrating higher lethality than clashes.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites subnational locations, proportions of political violence involving violence against civilians, and comparative lethality versus clashes—metrics consistent with ACLED’s event-based data on violence against civilians, battle-related events, and fatalities. This type of quantitative breakdown strongly suggests derivation from ACLED data.",
+      "source_context": "Who is fighting—and where civilians pay; Venezuelan border effects and departmental tallies."
+    },
+    {
+      "evidence": "Ceasefire effects were uneven: ELN activity plunged in Norte de Santander during the truce’s first six months but dipped only modestly in Arauca, reflecting local rivalries and revenue logics.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references subnational armed group activity changes over time (ELN activity trends in specific departments during a ceasefire), which aligns with ACLED’s event-based, actor-level, and temporal trend data by location. It reflects conflict trend analysis and geographic breakdown derived from event counts rather than general commentary.",
+      "source_context": "Who is fighting—and where civilians pay; ELN ceasefire comparative outcomes."
+    },
+    {
+      "evidence": "By 2024, Unidentified Armed Groups accounted for the most events and deaths nationwide; FARC dissidents ranked second, with ELN and AGC trailing, underscoring attribution and enforcement challenges.",
+      "is_acled_data": true,
+      "reasoning": "The statement reports armed group rankings by event and fatality counts nationwide in 2024, which aligns with ACLED’s actor-level event data and fatality statistics. It reflects conflict trend analysis based on ACLED-style metrics (events, deaths by actor), indicating derivation from ACLED data.",
+      "source_context": "Who is fighting—and where civilians pay; 2024 actor mix and lethality."
+    },
+    {
+      "evidence": "Modality mixes varied by department: Nariño and Chocó saw higher shares of battles and remote violence, whereas Arauca and Antioquia were dominated by civilian targeting.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references subnational modality mixes (battles vs. remote violence vs. civilian targeting) by department, which aligns with ACLED’s event typology and geographic breakdowns of conflict data and violence against civilians statistics.",
+      "source_context": "Who is fighting—and where civilians pay; modality distribution across departments."
+    },
+    {
+      "evidence": "Strategic developments in 2024 correlated positively with battles but inversely with civilian targeting, implying dialogues and monitoring influenced how, more than whether, violence unfolded.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a high-level analytical inference about correlations and the influence of dialogues/monitoring on violence patterns, without citing specific ACLED event counts, actor data, or trend metrics. It lacks explicit attribution to ACLED and does not present concrete ACLED-derived statistics or temporal patterns; thus it reads as general analysis rather than direct use of ACLED data.",
+      "source_context": "Ceasefires, talks, and the mechanics of restraint; correlation patterns."
+    },
+    {
+      "evidence": "ELN truce impacts were strongest where verification was credible: in Norte de Santander, ELN‑tagged events fell about fivefold and fatalities dropped by more than two‑thirds versus the prior six months.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites changes in ELN-tagged event counts and fatalities over time in a specific subnational area (Norte de Santander), which aligns with ACLED’s event-based, actor-tagged, geographically disaggregated conflict and fatality data and temporal trend analysis typical of ACLED-derived insights.",
+      "source_context": "Ceasefires, talks, and the mechanics of restraint; quantified ELN truce effects."
+    },
+    {
+      "evidence": "Peak single‑day violence clustered in Antioquia and Cauca, often led by Unidentified Armed Groups, revealing persistent risk of lethal spikes despite lower monthly averages.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references specific conflict dynamics—single-day violence peaks, clustering in Antioquia and Cauca, involvement of Unidentified Armed Groups, and temporal patterns versus monthly averages—which align with ACLED’s event-level, actor-level, geographic, and temporal trend data. This type of subnational, time-bound spike analysis is characteristic of insights derived from ACLED event data.",
+      "source_context": "Ceasefires, talks, and the mechanics of restraint; single‑day spikes and actors."
+    },
+    {
+      "evidence": "Tactical substitution emerged: departments with large declines in violence against civilians (e.g., Cauca, Nariño) often saw offsetting increases in battles (notably in Cauca).",
+      "is_acled_data": true,
+      "reasoning": "The evidence references subnational trends in specific conflict event types (violence against civilians vs. battles) in named departments (Cauca, Nariño), which aligns with ACLED’s event-level data and conflict trend analysis across categories and locations. This kind of tactical substitution inference is typically derived from ACLED’s categorized event counts and geographic breakdowns.",
+      "source_context": "Ceasefires, talks, and the mechanics of restraint; modality shifts by department."
+    },
+    {
+      "evidence": "Where state forces were less involved in clashes (e.g., Puerto Rondón), non‑state rivalries persisted; frequent state involvement in hotspots like Argelia did not ensure containment.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a qualitative observation comparing state involvement in specific locations (Puerto Rondón, Argelia) without citing event counts, fatalities, or actor-level event data, nor attributing the insight to ACLED. It reads as general conflict analysis rather than explicit ACLED-derived metrics or trends.",
+      "source_context": "Ceasefires, talks, and the mechanics of restraint; state presence vs. rivalry outcomes."
+    },
+    {
+      "evidence": "Higher global commodity prices in late 2024 boosted revenues but reinforced exposure to external cycles, while import‑heavy consumption widened the trade deficit, constraining fiscal space for reforms.",
+      "is_acled_data": false,
+      "reasoning": "The evidence discusses macroeconomic trends—commodity prices, trade deficit, fiscal space—which are economic indicators and general analysis, not conflict event data or ACLED-derived metrics.",
+      "source_context": "Oil, renewables, and the stability ledger; macro‑fiscal dynamics."
+    },
+    {
+      "evidence": "Petro raised oil‑sector taxes to redistribute gains, risking investor sentiment and foreign direct investment and potentially narrowing financing for peace and protection if confidence erodes.",
+      "is_acled_data": false,
+      "reasoning": "This is economic-policy commentary about oil-sector taxes, investor sentiment, and FDI. It does not reference conflict event data, fatalities, locations, or ACLED-attributed metrics, so it is not derived from ACLED.",
+      "source_context": "Oil, renewables, and the stability ledger; taxation and investment trade‑offs."
+    },
+    {
+      "evidence": "The administration suspended 300+ fossil projects (including 43 oil blocks) and pushed decentralized power generation; private capital responded, with Enel committing $2 billion and renewables reaching roughly a quarter of energy demand.",
+      "is_acled_data": false,
+      "reasoning": "The evidence discusses energy policy decisions, private investment commitments, and renewable energy’s share of demand—economic and policy metrics unrelated to conflict event data. This is not based on ACLED’s event, fatality, actor, or geographic conflict datasets.",
+      "source_context": "Oil, renewables, and the stability ledger; transition actions and investment signals."
+    },
+    {
+      "evidence": "Security frictions—including armed group and criminal violence—complicated energy project delivery despite fewer reported incidents, producing uneven timelines and localized disruptions.",
+      "is_acled_data": false,
+      "reasoning": "This is a general analytical statement about security frictions affecting energy projects and mentions fewer reported incidents without citing specific ACLED event counts, actors, locations, or trends. It lacks explicit attribution to ACLED data and does not reference concrete conflict event metrics typical of ACLED.",
+      "source_context": "Oil, renewables, and the stability ledger; security impacts on projects."
+    },
+    {
+      "evidence": "Infrastructure disruption featured episodic ELN activity in border departments, but protesters were the most frequent disruptors, with notable clusters in La Guajira and Bolívar and ELN incidents in Arauca.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references specific patterns of infrastructure disruption, identifies protesters as the most frequent disruptors, and notes ELN activity in particular departments (La Guajira, Bolívar, Arauca), which aligns with ACLED-style event data on riots/protests, remote violence, actor activity, and subnational geographic breakdowns.",
+      "source_context": "Oil, renewables, and the stability ledger; disruptor profiles and locations."
+    },
+    {
+      "evidence": "A pragmatic 2025 approach pairs targeted security in corridors where demonstrations and political violence correlate (e.g., Norte de Santander, Bolívar) with hardening of critical infrastructure against sabotage and protest spillovers.",
+      "is_acled_data": false,
+      "reasoning": "This is a policy recommendation/analytical statement about focusing security in certain corridors and hardening infrastructure. It does not cite specific ACLED event counts, locations with documented incidents, or actor-level data, nor is it attributed to ACLED. It's general analysis rather than evidence directly drawn from ACLED datasets.",
+      "source_context": "Oil, renewables, and the stability ledger; policy recommendations for security focus."
+    },
+    {
+      "evidence": "Stability in 2025 depends on sequencing the energy transition to preserve fiscal space—using commodity upswings to fund local protection and ceasefire monitoring while phasing fossil retirements.",
+      "is_acled_data": false,
+      "reasoning": "The evidence is a policy and economic analysis about energy transition sequencing and fiscal space, not derived from specific conflict event data, statistics, or ACLED-attributed metrics. It lacks references to ACLED’s event counts, fatality figures, actor activity, or geographic conflict trends.",
+      "source_context": "Oil, renewables, and the stability ledger; financing and pacing guidance."
+    },
+    {
+      "evidence": "Total Peace contributed to lower civilian targeting where verification had teeth, but it did not neutralize fragmented rivalries or the geography of illicit markets, leaving a quieter yet still bleeding map.",
+      "is_acled_data": false,
+      "reasoning": "This is qualitative analysis about policy (“Total Peace”) and its effects, without citing specific ACLED event counts, locations, fatalities, or actor-level data. It reads as general commentary rather than evidence explicitly grounded in ACLED metrics or trends.",
+      "source_context": "Conclusion; synthesis of restraint effects and persistent conflict structures."
+    },
+    {
+      "evidence": "Priority actions for 2025 include strengthening ceasefire monitoring and community verification, concentrating state capabilities in Cauca and the Arauca–Norte de Santander border, and pacing the energy transition with fiscal prudence.",
+      "is_acled_data": false,
+      "reasoning": "The evidence presents policy recommendations and strategic priorities (ceasefire monitoring, focusing state capacity in specific regions, pacing energy transition). This is general analysis and planning guidance, not specific conflict event data, statistics, or actor-level metrics attributable to ACLED.",
+      "source_context": "Conclusion; three priorities for 2025 implementation."
+    },
+    {
+      "evidence": "Colombia’s 2025 outlook hinges on translating localized restraint into durable protections while maintaining enough oil‑derived fiscal capacity until renewable investments deliver stable dividends.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general outlook and policy/economic commentary about fiscal capacity and renewable investments, not referencing specific conflict event data, actors, locations, fatalities, or ACLED-derived metrics.",
+      "source_context": "Conclusion; linkage between security durability and transition financing."
+    }
+  ],
+  "insights": [
+    {
+      "insight": "Overall political violence in Colombia declined in 2024, showing mid‑year troughs during ceasefire/negotiation periods, but late‑year rebounds indicated only partial and uneven de‑escalation.",
+      "context": "Key Findings; mid‑2024 lull with July ~153 events, rebound to ~234 in October, easing into December."
+    },
+    {
+      "insight": "Violence against civilians remained the most frequent modality, peaking in January 2024 before falling mid‑year, while battles resurged later in 2024 and explosions/remote violence edged up toward year‑end.",
+      "context": "A quieter map that still bleeds; modality trends across 2023–2024."
+    },
+    {
+      "insight": "Fewer events late in 2024 did not translate into safer conditions, as fatalities per event stayed elevated with deaths concentrated in battles and violence against civilians.",
+      "context": "A quieter map that still bleeds; lethality per incident remained high even as counts fell."
+    },
+    {
+      "insight": "Months with more strategic developments (talks, deployments, ceasefire moves) generally aligned with fewer attacks on civilians, suggesting partial protection effects during intensified political processes.",
+      "context": "A quieter map that still bleeds; correlations and monthly co‑movement between strategic developments and VAC."
+    },
+    {
+      "insight": "Battles and explosions/remote violence tended to surge together in 2023–2024, indicating linked operational tempos across modalities.",
+      "context": "A quieter map that still bleeds; synchronized surges mid‑to‑late 2023 and late 2024."
+    },
+    {
+      "insight": "Geographic cooling in 2024 was widespread (e.g., Nariño, Cauca, Norte de Santander), but outliers like Putumayo and Chocó ticked up and unidentified armed groups remained dominant perpetrators, complicating accountability.",
+      "context": "A quieter map that still bleeds; department‑level variance and dominant perpetrators."
+    },
+    {
+      "insight": "Cauca was the volatility anchor in 2024: clashes rose by roughly a third to 211, explosions/remote attacks increased, and over half of clashes involved the military, signaling intensified yet contested state presence.",
+      "context": "Who is fighting—and where civilians pay; Cauca dynamics and state force involvement."
+    },
+    {
+      "insight": "Intra‑department contrasts highlighted divergent security postures: only 8% of clashes in Argelia (Cauca) involved state forces, versus ~80% in Briceño (Antioquia).",
+      "context": "Who is fighting—and where civilians pay; local contrasts in state involvement."
+    },
+    {
+      "insight": "Border departments (Arauca, Norte de Santander) saw civilians disproportionately harmed, with violence against civilians comprising about two‑thirds of political violence and demonstrating higher lethality than clashes.",
+      "context": "Who is fighting—and where civilians pay; Venezuelan border effects and departmental tallies."
+    },
+    {
+      "insight": "Ceasefire effects were uneven: ELN activity plunged in Norte de Santander during the truce’s first six months but dipped only modestly in Arauca, reflecting local rivalries and revenue logics.",
+      "context": "Who is fighting—and where civilians pay; ELN ceasefire comparative outcomes."
+    },
+    {
+      "insight": "By 2024, Unidentified Armed Groups accounted for the most events and deaths nationwide; FARC dissidents ranked second, with ELN and AGC trailing, underscoring attribution and enforcement challenges.",
+      "context": "Who is fighting—and where civilians pay; 2024 actor mix and lethality."
+    },
+    {
+      "insight": "Modality mixes varied by department: Nariño and Chocó saw higher shares of battles and remote violence, whereas Arauca and Antioquia were dominated by civilian targeting.",
+      "context": "Who is fighting—and where civilians pay; modality distribution across departments."
+    },
+    {
+      "insight": "Strategic developments in 2024 correlated positively with battles but inversely with civilian targeting, implying dialogues and monitoring influenced how, more than whether, violence unfolded.",
+      "context": "Ceasefires, talks, and the mechanics of restraint; correlation patterns."
+    },
+    {
+      "insight": "ELN truce impacts were strongest where verification was credible: in Norte de Santander, ELN‑tagged events fell about fivefold and fatalities dropped by more than two‑thirds versus the prior six months.",
+      "context": "Ceasefires, talks, and the mechanics of restraint; quantified ELN truce effects."
+    },
+    {
+      "insight": "Peak single‑day violence clustered in Antioquia and Cauca, often led by Unidentified Armed Groups, revealing persistent risk of lethal spikes despite lower monthly averages.",
+      "context": "Ceasefires, talks, and the mechanics of restraint; single‑day spikes and actors."
+    },
+    {
+      "insight": "Tactical substitution emerged: departments with large declines in violence against civilians (e.g., Cauca, Nariño) often saw offsetting increases in battles (notably in Cauca).",
+      "context": "Ceasefires, talks, and the mechanics of restraint; modality shifts by department."
+    },
+    {
+      "insight": "Where state forces were less involved in clashes (e.g., Puerto Rondón), non‑state rivalries persisted; frequent state involvement in hotspots like Argelia did not ensure containment.",
+      "context": "Ceasefires, talks, and the mechanics of restraint; state presence vs. rivalry outcomes."
+    },
+    {
+      "insight": "Higher global commodity prices in late 2024 boosted revenues but reinforced exposure to external cycles, while import‑heavy consumption widened the trade deficit, constraining fiscal space for reforms.",
+      "context": "Oil, renewables, and the stability ledger; macro‑fiscal dynamics."
+    },
+    {
+      "insight": "Petro raised oil‑sector taxes to redistribute gains, risking investor sentiment and foreign direct investment and potentially narrowing financing for peace and protection if confidence erodes.",
+      "context": "Oil, renewables, and the stability ledger; taxation and investment trade‑offs."
+    },
+    {
+      "insight": "The administration suspended 300+ fossil projects (including 43 oil blocks) and pushed decentralized power generation; private capital responded, with Enel committing $2 billion and renewables reaching roughly a quarter of energy demand.",
+      "context": "Oil, renewables, and the stability ledger; transition actions and investment signals."
+    },
+    {
+      "insight": "Security frictions—including armed group and criminal violence—complicated energy project delivery despite fewer reported incidents, producing uneven timelines and localized disruptions.",
+      "context": "Oil, renewables, and the stability ledger; security impacts on projects."
+    },
+    {
+      "insight": "Infrastructure disruption featured episodic ELN activity in border departments, but protesters were the most frequent disruptors, with notable clusters in La Guajira and Bolívar and ELN incidents in Arauca.",
+      "context": "Oil, renewables, and the stability ledger; disruptor profiles and locations."
+    },
+    {
+      "insight": "A pragmatic 2025 approach pairs targeted security in corridors where demonstrations and political violence correlate (e.g., Norte de Santander, Bolívar) with hardening of critical infrastructure against sabotage and protest spillovers.",
+      "context": "Oil, renewables, and the stability ledger; policy recommendations for security focus."
+    },
+    {
+      "insight": "Stability in 2025 depends on sequencing the energy transition to preserve fiscal space—using commodity upswings to fund local protection and ceasefire monitoring while phasing fossil retirements.",
+      "context": "Oil, renewables, and the stability ledger; financing and pacing guidance."
+    },
+    {
+      "insight": "Total Peace contributed to lower civilian targeting where verification had teeth, but it did not neutralize fragmented rivalries or the geography of illicit markets, leaving a quieter yet still bleeding map.",
+      "context": "Conclusion; synthesis of restraint effects and persistent conflict structures."
+    },
+    {
+      "insight": "Priority actions for 2025 include strengthening ceasefire monitoring and community verification, concentrating state capabilities in Cauca and the Arauca–Norte de Santander border, and pacing the energy transition with fiscal prudence.",
+      "context": "Conclusion; three priorities for 2025 implementation."
+    },
+    {
+      "insight": "Colombia’s 2025 outlook hinges on translating localized restraint into durable protections while maintaining enough oil‑derived fiscal capacity until renewable investments deliver stable dividends.",
+      "context": "Conclusion; linkage between security durability and transition financing."
+    }
+  ],
+  "prompt": "Do a deep research on Petro's presidency in Columbia and Columbia's conflict summary and outlook, as if we are at the end of 2024 heading into 2025"
+}

@@ -1,0 +1,170 @@
+{
+  "prompt": "Analyze levels of violence in Burkina Faso, Mali, and Niger, especially related to JNIM and IS Sahel operations.",
+  "criteria": [
+    {
+      "name": "Persistent High Violence",
+      "description": "Assess whether overall conflict intensity remains elevated over time, marked by frequent attacks against state forces, militias, and civilians."
+    },
+    {
+      "name": "Geographic Spread of Instability",
+      "description": "Track the expansion of militant activity from core conflict zones into neighboring regions and across borders, noting deliberate foothold-building rather than incidental spillover."
+    },
+    {
+      "name": "Evolving Tactics and Lethality",
+      "description": "Examine shifts toward more lethal methods, including increased use of remote violence, indirect fire, and coordinated assaults, indicating tactical adaptation."
+    },
+    {
+      "name": "Urban Penetration and Vulnerability",
+      "description": "Evaluate the growing frequency and impact of attacks in and around major urban centers and capitals, highlighting security gaps at urban outskirts and key infrastructure."
+    },
+    {
+      "name": "Drone and Technology Adoption",
+      "description": "Analyze the rising use of modified commercial drones and other technologies by both state and non-state actors for surveillance and precision strikes, and its implications for the conflict."
+    },
+    {
+      "name": "State Retaliatory Practices",
+      "description": "Consider patterns of retaliatory actions by security forces against civilians and their potential to exacerbate grievances and undermine stabilization efforts."
+    },
+    {
+      "name": "Community Outreach by Militants",
+      "description": "Assess militant efforts to embed within local communities through propaganda, service provision, or protection narratives, aiming to consolidate influence and recruitment."
+    },
+    {
+      "name": "Inter-Group Dynamics and Alliances",
+      "description": "Monitor emerging alliances and coalitions among rebel factions and local armed groups, and how these alter power balances and strain state forces."
+    },
+    {
+      "name": "Borderland Safe Havens",
+      "description": "Identify border areas serving as retreats, logistics hubs, and launchpads for militant operations, and the challenges they pose to cross-border security."
+    },
+    {
+      "name": "Capital Symbolism and Messaging",
+      "description": "Evaluate attacks with symbolic targets or high-profile locations used to project strength, embarrass opponents, and shape propaganda narratives."
+    },
+    {
+      "name": "Counterterror Pressure and Responses",
+      "description": "Analyze how disclosures of militant presence and subsequent security operations influence militant behavior, including dispersal, retaliation, or geographic reorientation."
+    },
+    {
+      "name": "Civilian Protection and Displacement",
+      "description": "Track trends in civilian vulnerability, coercion, and displacement resulting from both militant and state actions, and implications for humanitarian needs."
+    },
+    {
+      "name": "Militia and Auxiliary Forces",
+      "description": "Assess the role and targeting of local defense groups and militias, including how their mobilization affects conflict trajectories and civilian security."
+    },
+    {
+      "name": "Operational Reach and Coordination",
+      "description": "Examine evidence of militants conducting simultaneous or coordinated operations across multiple locales, indicating improved command-and-control."
+    },
+    {
+      "name": "Rural-Urban Overlap",
+      "description": "Consider how militants exploit less secure peri-urban and rural-urban interfaces to access cities, complicating policing and military responses."
+    },
+    {
+      "name": "Media and Propaganda Effects",
+      "description": "Evaluate how combat innovations and high-impact operations are leveraged in militant communications to recruit, intimidate, and claim legitimacy."
+    },
+    {
+      "name": "Government Capacity and Adaptation",
+      "description": "Assess the ability of state institutions to adapt to evolving threats, including interagency coordination, cross-border cooperation, and protection of critical infrastructure."
+    },
+    {
+      "name": "Long-Term Conflict Entrenchment",
+      "description": "Identify signs that the insurgency is becoming protracted, with entrenched control in certain areas and cycles of violence resistant to short-term interventions."
+    }
+  ],
+  "criterion_scores": [
+    {
+      "name": "Persistent High Violence",
+      "score": 0.9,
+      "explanation": "The article clearly states sustained elevation in violence over time, citing increases since 2019 and 2021, frequent attacks, and high fatalities across Burkina Faso, Mali, and Niger. It references multiple years and sustained trends, with mention of attacks against civilians and state forces. Minor gap: limited explicit detail on militias as targets aside from general references."
+    },
+    {
+      "name": "Geographic Spread of Instability",
+      "score": 0.85,
+      "explanation": "It documents expansion from Mali into Burkina Faso and Niger, notes the tri-border Liptako-Gourma, and highlights Burkina as epicenter and western Niger border regions. It indicates deliberate footholds (ISGS entrenched, JNIM branches expanding). Could further elaborate on spread within each country beyond regions named."
+    },
+    {
+      "name": "Evolving Tactics and Lethality",
+      "score": 0.4,
+      "explanation": "The piece emphasizes increased fatalities and intensity but provides minimal detail on specific tactical shifts such as remote violence, IEDs, indirect fire, or coordinated assaults. It mentions inter-jihadist fighting increasing lethality but lacks examples of tactical adaptation."
+    },
+    {
+      "name": "Urban Penetration and Vulnerability",
+      "score": 0.2,
+      "explanation": "No substantive discussion of attacks in major urban centers or capitals, outskirts security gaps, or infrastructure targeting. Focus is predominantly on rural and border regions."
+    },
+    {
+      "name": "Drone and Technology Adoption",
+      "score": 0.0,
+      "explanation": "No mention of drones, modified commercial technology, surveillance, or precision strikes."
+    },
+    {
+      "name": "State Retaliatory Practices",
+      "score": 0.25,
+      "explanation": "Briefly implies civilians caught in crossfire and high violence but does not analyze patterns of retaliatory actions by state forces against civilians or their impact on grievances. Essentially absent."
+    },
+    {
+      "name": "Community Outreach by Militants",
+      "score": 0.3,
+      "explanation": "Touches lightly on ISGS extortion/taxation and villagers’ resistance, suggesting some governance-like coercion. However, lacks broader analysis of propaganda, service provision, protection narratives, or embedding strategies."
+    },
+    {
+      "name": "Inter-Group Dynamics and Alliances",
+      "score": 0.8,
+      "explanation": "Discusses JNIM–IS Sahel rivalry, fierce clashes, and a reported non-aggression pact. This directly addresses alliances/dynamics and their impact on violence. Could add more on local armed groups or coalitions beyond the two jihadist factions."
+    },
+    {
+      "name": "Borderland Safe Havens",
+      "score": 0.75,
+      "explanation": "Identifies border provinces (Oudalan), tri-border Liptako-Gourma, and Niger’s Tillabéri/Tahoua as operational areas. Indicates ISGS entrenchment and use of border zones. Limited explicit analysis of logistics hubs and retreat dynamics."
+    },
+    {
+      "name": "Capital Symbolism and Messaging",
+      "score": 0.1,
+      "explanation": "No coverage of attacks on symbolic targets or high-profile urban locations; no discussion of using such attacks for propaganda aside from general references to rivalry. Largely absent."
+    },
+    {
+      "name": "Counterterror Pressure and Responses",
+      "score": 0.35,
+      "explanation": "Mentions disclosures/analyses generally and notes the JNIM–IS non-aggression pact affecting direct battles, but does not analyze how security operations or pressure shape dispersal, retaliation, or reorientation. Limited treatment."
+    },
+    {
+      "name": "Civilian Protection and Displacement",
+      "score": 0.8,
+      "explanation": "Provides figures on displacement in Burkina (~2 million) and highlights high proportion of civilian targeting in Niger and increased attacks on civilians in Mali. Addresses vulnerability trends; could expand on humanitarian implications beyond brief mentions."
+    },
+    {
+      "name": "Militia and Auxiliary Forces",
+      "score": 0.3,
+      "explanation": "Mentions attacks against state forces broadly but offers little on local defense groups/militias or their mobilization and targeting. Minimal detail on auxiliary forces like VDP in Burkina or dozos in Mali."
+    },
+    {
+      "name": "Operational Reach and Coordination",
+      "score": 0.4,
+      "explanation": "Notes widespread violence and simultaneous presence across regions but lacks specific evidence of coordinated or simultaneous multi-locale operations indicating improved C2. Partial at best."
+    },
+    {
+      "name": "Rural-Urban Overlap",
+      "score": 0.25,
+      "explanation": "Emphasizes rural/border zones but does not analyze peri-urban interfaces or how militants use rural-urban seams to access cities. Barely addressed."
+    },
+    {
+      "name": "Media and Propaganda Effects",
+      "score": 0.2,
+      "explanation": "Minimal discussion. Mentions general rivalry and non-aggression pact but not how operations are leveraged in communications for recruitment or intimidation."
+    },
+    {
+      "name": "Government Capacity and Adaptation",
+      "score": 0.25,
+      "explanation": "The article does not assess state institutional adaptation, interagency coordination, cross-border cooperation, or infrastructure protection. Mostly absent."
+    },
+    {
+      "name": "Long-Term Conflict Entrenchment",
+      "score": 0.75,
+      "explanation": "Conveys protracted nature through multi-year escalation, entrenchment of ISGS in Niger, JNIM expansion and dominance, and persistent high violence. Could further detail cycles of control and governance by militants to fully demonstrate entrenchment."
+    }
+  ],
+  "overall_score": 0.4361111111111111
+}

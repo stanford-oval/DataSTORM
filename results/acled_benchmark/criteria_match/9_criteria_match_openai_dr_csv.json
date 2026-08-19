@@ -1,0 +1,143 @@
+{
+  "prompt": "Status of political violence in Amhara since Fano insurgency began in April 2023.",
+  "criteria": [
+    {
+      "name": "Conflict intensity trends",
+      "description": "Track how the frequency and severity of battles and political violence evolve over time, noting periods of escalation and any temporary declines."
+    },
+    {
+      "name": "Geographic spread of violence",
+      "description": "Assess how fighting and insecurity expand or contract across zones and urban centers, identifying hotspots and shifts in conflict locations."
+    },
+    {
+      "name": "Civilian targeting patterns",
+      "description": "Examine trends in violence against civilians, including how such incidents rise and fall in tandem with battles and which types of actors are implicated."
+    },
+    {
+      "name": "Criminality amid conflict",
+      "description": "Evaluate the growth of criminal activities such as kidnappings and robberies that exploit weakened security, and how these intersect with insurgency dynamics."
+    },
+    {
+      "name": "Fragmentation of armed groups",
+      "description": "Analyze the degree of factionalization within insurgent forces and how lack of centralized command contributes to indiscipline, civilian harm, and criminal behavior."
+    },
+    {
+      "name": "State security capacity",
+      "description": "Assess changes in the government’s ability to protect civilians and maintain order, including the effectiveness of security operations and emergency measures."
+    },
+    {
+      "name": "Exposure and humanitarian impact",
+      "description": "Identify the scale of population exposure to conflict and the knock-on effects on daily life, such as access to services, markets, education, and displacement risks."
+    },
+    {
+      "name": "Trigger events and public backlash",
+      "description": "Monitor incidents that catalyze public outrage and protests, and evaluate how authorities respond and whether such episodes recur or spread."
+    },
+    {
+      "name": "Narratives and blame dynamics",
+      "description": "Examine competing claims by government and insurgent actors about responsibility for insecurity, and how these narratives shape perceptions and legitimacy."
+    },
+    {
+      "name": "Comparative regional parallels",
+      "description": "Draw parallels with similar insurgencies in other regions to contextualize patterns of fragmentation, civilian targeting, and criminal opportunism."
+    },
+    {
+      "name": "Humanitarian worker and refugee risks",
+      "description": "Track threats to aid personnel and refugees, including targeted attacks and abductions, and how protection measures affect these trends."
+    },
+    {
+      "name": "Conflict-financing mechanisms",
+      "description": "Assess how armed and affiliated groups fund operations through illicit means, and how intensifying conflict creates opportunities for self-financing."
+    },
+    {
+      "name": "Temporal correlation of events",
+      "description": "Evaluate how spikes in battles correlate with increases in civilian harm and criminal incidents, identifying causal linkages and feedback loops."
+    },
+    {
+      "name": "Governance erosion indicators",
+      "description": "Identify signs of breakdown in local security and administrative structures, and how governance gaps enable non-state actors and criminal groups."
+    },
+    {
+      "name": "Prospects for de-escalation",
+      "description": "Consider the presence or absence of dialogue channels, confidence-building measures, and conditions necessary for stabilizing trends or negotiated outcomes."
+    }
+  ],
+  "criterion_scores": [
+    {
+      "name": "Conflict intensity trends",
+      "score": 0.75,
+      "explanation": "The article outlines escalation from April–August 2023, mentions continued high intensity into 2024, peaks in mid-2024, and fluctuating surges. However, it lacks a detailed month-by-month trend or specific periods of decline beyond general statements, and provides limited quantitative trend breakdown beyond aggregate ACLED figures."
+    },
+    {
+      "name": "Geographic spread of violence",
+      "score": 0.5,
+      "explanation": "Mentions that main cities were retaken while clashes persist in rural areas and references several towns and Merawi. It does not systematically map zones, districts, or shifting hotspots across Amhara or detail urban vs. rural spread over time."
+    },
+    {
+      "name": "Civilian targeting patterns",
+      "score": 0.75,
+      "explanation": "Discusses multiple incidents of violence against civilians, including the Merawi executions, and notes hundreds of events involving civilians and abuses by federal troops. It under-specifies patterns over time, the role of different actors (e.g., Fano vs. state vs. others), and correlation with combat activity."
+    },
+    {
+      "name": "Criminality amid conflict",
+      "score": 0.25,
+      "explanation": "Briefly references lawlessness and displacement but does not detail kidnappings, robberies, or other criminal opportunism, nor intersections with insurgency dynamics."
+    },
+    {
+      "name": "Fragmentation of armed groups",
+      "score": 0.5,
+      "explanation": "Notes Fano’s decentralized structure complicating negotiations and hints at indiscipline, but provides no concrete analysis of factionalization, command structures, or links to civilian harm/criminality."
+    },
+    {
+      "name": "State security capacity",
+      "score": 0.75,
+      "explanation": "Describes state of emergency, military deployments, recapture of cities, extension of emergency into 2024, and ongoing challenges to control rural areas. Lacks deeper assessment of policing capacity, protection of civilians effectiveness, or specific operational effectiveness metrics."
+    },
+    {
+      "name": "Exposure and humanitarian impact",
+      "score": 0.5,
+      "explanation": "Mentions large displacement, humanitarian crisis, and impacts on civilians broadly. Does not quantify exposed populations or detail effects on services, markets, education, or specific displacement figures."
+    },
+    {
+      "name": "Trigger events and public backlash",
+      "score": 0.25,
+      "explanation": "Covers initial protests against force integration as a trigger but provides little on subsequent catalyzing incidents, public outrage, protests, or authorities’ responses beyond the emergency decree."
+    },
+    {
+      "name": "Narratives and blame dynamics",
+      "score": 0.25,
+      "explanation": "Alludes to competing claims minimally (abuses by federal troops, Fano grievances) but lacks a structured examination of narratives from government vs. insurgents and how these shape legitimacy and perceptions."
+    },
+    {
+      "name": "Comparative regional parallels",
+      "score": 0.0,
+      "explanation": "No comparisons to other regions or insurgencies are provided."
+    },
+    {
+      "name": "Humanitarian worker and refugee risks",
+      "score": 0.0,
+      "explanation": "Does not address threats to aid workers or refugees, targeted attacks, abductions, or protection measures."
+    },
+    {
+      "name": "Conflict-financing mechanisms",
+      "score": 0.0,
+      "explanation": "No discussion of funding sources, illicit economies, or self-financing opportunities."
+    },
+    {
+      "name": "Temporal correlation of events",
+      "score": 0.5,
+      "explanation": "Mentions general fluctuation and a peak in mid-2024, and notes concurrent civilian harm during operations, but lacks explicit analysis linking spikes in battles to changes in civilian targeting or criminal incidents with causal discussion."
+    },
+    {
+      "name": "Governance erosion indicators",
+      "score": 0.5,
+      "explanation": "References lawlessness, humanitarian crisis, and difficulty maintaining order outside cities. Does not systematically identify breakdowns in local administration, police/judicial functions, or how governance gaps enable non-state actors."
+    },
+    {
+      "name": "Prospects for de-escalation",
+      "score": 0.5,
+      "explanation": "States no comprehensive settlement, decentralized Fano complicates talks, and that resolution is elusive. Provides limited discussion of dialogue channels, CBMs, or conditions for de-escalation."
+    }
+  ],
+  "overall_score": 0.4
+}

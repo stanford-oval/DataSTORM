@@ -1,0 +1,95 @@
+{
+  "dataset_id": 97,
+  "dataset_path": "data/notebooks/flag-97.json",
+  "metadata": {
+    "category": "Incidents Management",
+    "dataset_description": "The dataset comprises 500 entries simulating ServiceNow incidents table, detailing various attributes such as category, state, open and close dates, involved personnel, and incident specifics like location, description, and priority. It captures incident management activities with fields like 'opened_at', 'closed_at', 'assigned_to', 'short_description', and 'priority', reflecting the operational handling and urgency of issues across different locations and categories.",
+    "goal": "Find the discrepancy and imbalance in distribution of incidents assigned across categories",
+    "header": "Hardware Incident Dataset (Flag 97)",
+    "role": "L2 Support Agent"
+  },
+  "predicted_insights": [
+    "There is no imbalance across categories—the distribution is perfectly uniform with zero discrepancy (standard deviation of category counts = 0 and each category holds exactly 20% of the 500 incidents).",
+    "Across all 500 incidents, 0 (0%) were misrouted, indicating perfect alignment between category and assignement_group—so any workload imbalance across categories reflects true incident distribution rather than routing errors.",
+    "Inquiry / Help shows the largest volatility (ranging from 1 in 2023-02 to 14 in 2023-10), Database also swings widely (3–14, peaking in 2023-09), Network peaks at 13 in 2023-10, and the overall load is highest in 2023-10 with 52 incidents across categories—indicating a pronounced fall surge and imbalance over time.",
+    "Although each category totals 100 incidents, the priority mix is uneven: Critical counts vary from 15 (Database) to 30 (Hardware, Inquiry/Help), High from 19 (Software) to 32 (Database), Moderate from 19 (Hardware) to 30 (Software, Inquiry/Help), and Low from 17 (Inquiry/Help) to 28 (Hardware), indicating distinct severity skews by category.",
+    "With 500 incidents split evenly across 5 categories (100 each, 20% per category), the category count imbalance is effectively zero (coefficient of variation=0%), so any discrepancies should be sought in other dimensions like priority, location, or impact rather than category volume.",
+    "Although incidents are evenly distributed across categories (100 each), resolution speed is not—Database’s median ~163-day turnaround stands out sharply and may be a key driver of the relatively modest average user satisfaction (mean 3.08/5), indicating a category-specific bottleneck rather than a workload imbalance.",
+    "The top categories’ critical share (30%) is double that of Database (15%), indicating a notable imbalance in critical incident burden across teams.",
+    "The concentration of workload by the top assignee varies only from 23% to 27% across categories (a 4-point spread), indicating relatively balanced distribution without a single person dominating any category.",
+    "Incident assignment is perfectly balanced across categories—100 incidents each (20% per category)—indicating no distributional imbalance; the standard deviation of category shares is 0 and the maximum absolute deviation from the mean share is 0.0.",
+    "While Australia stands out, the other locations’ deviations are modest (0.06–0.10), and even the maximum deviation of 0.16 is only about 8% of the theoretical maximum L1 gap (2), indicating broadly consistent category allocation across regions.",
+    "A TVD of 0.120 implies that about 12% of Charlie Whitherspoon’s incidents would need reassignment across categories to match the overall distribution, highlighting a meaningful skew in category workload compared to peers.",
+    "In 2023-02, Software accounted for 38.7% of incidents (12/31) while Inquiry / Help was just 3.2% (1/31), reflecting a marked, temporary skew toward Software-related issues."
+  ],
+  "predicted_summary": "At the top level, incidents are evenly distributed across categories (100 each; 20% per category) and routing is clean (0% misrouted to mismatched assignment groups). Beneath this uniformity, the severity mix is uneven: Hardware and Inquiry / Help each have 30% of incidents marked “1 - Critical” (30/100), Software and Network sit at 25% (25/100), while Database has only 15% (15/100). Database also has the largest “2 - High” share (32/100 = 32%), versus Software’s smallest High share (19%), and Inquiry / Help and Software have the highest “3 - Moderate” shares (30%), while Inquiry / Help has the smallest “4 - Low” share (17%).\nThe category mix varies substantially across time and location despite uniform overall totals. February 2023 is the most atypical month (deviation score L1=0.477), with a spike in Software (12 incidents) and a trough in Inquiry / Help (1), and monthly ranges show sizable swings (e.g., Database 3–14, Hardware 3–12, Inquiry / Help 1–14, Network 4–13, Software 3–12 incidents per month). Geographically, Australia shows the strongest departure from the overall category distribution (L1=0.16), indicating location-specific skew in how categories appear.\nWorkload is unevenly concentrated among assignees within categories. Hardware has the highest single-assignee concentration, with one individual (Luke Wilson) handling 27% of its incidents (27/100). More broadly, some assignees’ portfolios diverge from the overall category mix; the largest observed divergence is for Charlie Whitherspoon (Total Variation Distance=0.120), signaling a noticeable tilt toward certain categories compared to the global distribution.",
+  "score_insights": 0.41468944786695955,
+  "score_insights_dict": [
+    {
+      "gt_insight": "The incidents are equally distributed across all categories.",
+      "pred_insight": "There is no imbalance across categories—the distribution is perfectly uniform with zero discrepancy (standard deviation of category counts = 0 and each category holds exactly 20% of the 500 incidents).",
+      "score": 0.9420410361374716
+    },
+    {
+      "gt_insight": "There are no specific issues mentioned in the incident descriptions for each category.",
+      "pred_insight": "With 500 incidents split evenly across 5 categories (100 each, 20% per category), the category count imbalance is effectively zero (coefficient of variation=0%), so any discrepancies should be sought in other dimensions like priority, location, or impact rather than category volume.",
+      "score": 0.46434157164967216
+    },
+    {
+      "gt_insight": "There are specific mentions of printers in the incident descriptions.",
+      "pred_insight": "With 500 incidents split evenly across 5 categories (100 each, 20% per category), the category count imbalance is effectively zero (coefficient of variation=0%), so any discrepancies should be sought in other dimensions like priority, location, or impact rather than category volume.",
+      "score": 0.11343287087016045
+    },
+    {
+      "gt_insight": "There is no specific location where hardware incidents are concentrated.",
+      "pred_insight": "There is no imbalance across categories—the distribution is perfectly uniform with zero discrepancy (standard deviation of category counts = 0 and each category holds exactly 20% of the 500 incidents).",
+      "score": 0.24826761314522522
+    },
+    {
+      "gt_insight": "There is no significant increasing trend in the 'Hardware' or any other category.",
+      "pred_insight": "With 500 incidents split evenly across 5 categories (100 each, 20% per category), the category count imbalance is effectively zero (coefficient of variation=0%), so any discrepancies should be sought in other dimensions like priority, location, or impact rather than category volume.",
+      "score": 0.40532752283142043
+    },
+    {
+      "gt_insight": "",
+      "pred_insight": "A TVD of 0.120 implies that about 12% of Charlie Whitherspoon’s incidents would need reassignment across categories to match the overall distribution, highlighting a meaningful skew in category workload compared to peers.",
+      "score": 0.31472607256780727
+    }
+  ],
+  "score_summary": 0.4356777708091274,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.4700998435723654,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "The concentration of workload by the top assignee varies only from 23% to 27% across categories (a 4-point spread), indicating relatively balanced distribution without a single person dominating any category.",
+      "gt_insight": "The incidents are equally distributed across all categories.",
+      "score": 0.4962876444990685
+    },
+    {
+      "pred_insight": "With 500 incidents split evenly across 5 categories (100 each, 20% per category), the category count imbalance is effectively zero (coefficient of variation=0%), so any discrepancies should be sought in other dimensions like priority, location, or impact rather than category volume.",
+      "gt_insight": "There are no specific issues mentioned in the incident descriptions for each category.",
+      "score": 0.4726399576769259
+    },
+    {
+      "pred_insight": "With 500 incidents split evenly across 5 categories (100 each, 20% per category), the category count imbalance is effectively zero (coefficient of variation=0%), so any discrepancies should be sought in other dimensions like priority, location, or impact rather than category volume.",
+      "gt_insight": "There are specific mentions of printers in the incident descriptions.",
+      "score": 0.2782855139046126
+    },
+    {
+      "pred_insight": "While Australia stands out, the other locations’ deviations are modest (0.06–0.10), and even the maximum deviation of 0.16 is only about 8% of the theoretical maximum L1 gap (2), indicating broadly consistent category allocation across regions.",
+      "gt_insight": "There is no specific location where hardware incidents are concentrated.",
+      "score": 0.3948258024479066
+    },
+    {
+      "pred_insight": "With 500 incidents split evenly across 5 categories (100 each, 20% per category), the category count imbalance is effectively zero (coefficient of variation=0%), so any discrepancies should be sought in other dimensions like priority, location, or impact rather than category volume.",
+      "gt_insight": "There is no significant increasing trend in the 'Hardware' or any other category.",
+      "score": 0.34655095141834996
+    },
+    {
+      "pred_insight": "Inquiry / Help shows the largest volatility (ranging from 1 in 2023-02 to 14 in 2023-10), Database also swings widely (3–14, peaking in 2023-09), Network peaks at 13 in 2023-10, and the overall load is highest in 2023-10 with 52 incidents across categories—indicating a pronounced fall surge and imbalance over time.",
+      "gt_insight": "",
+      "score": 0.8320091914873288
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.2573063284784326,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.37616903480537345
+}

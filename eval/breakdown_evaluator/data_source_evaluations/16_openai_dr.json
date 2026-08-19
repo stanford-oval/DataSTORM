@@ -1,0 +1,332 @@
+{
+  "total_insights": 32,
+  "total_classified": 32,
+  "acled_count": 3,
+  "non_acled_count": 29,
+  "pct_acled": 0.09375,
+  "details": [
+    {
+      "evidence": "Sudan’s civil war began in April 2023 between the Sudanese Armed Forces (SAF) led by Gen. Abdel Fattah al-Burhan and the Rapid Support Forces (RSF) led by Gen. Mohamed “Hemedti” Dagalo, with no decisive victory by late 2024.",
+      "is_acled_data": false,
+      "reasoning": "The statement provides general context about the war’s start date, key actors, and lack of decisive victory by late 2024. It is narrative/geopolitical summary and not tied to specific ACLED event counts, fatalities, locations, or actor-coded event data, nor is it attributed to ACLED.",
+      "source_context": "Ongoing Conflict between Rival Factions – conflict origins, leaders, and stalemate status."
+    },
+    {
+      "evidence": "By late 2024, the SAF regained some strategic areas, including parts of greater Khartoum and towns in Sennar and Al Jazira states, though fighting remained intense.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general strategic assessment about territorial control and intensity of fighting without citing specific event counts, locations with event data, fatalities, or attribution to ACLED. It reads as narrative analysis rather than extracted ACLED event statistics or actor-level data.",
+      "source_context": "Ongoing Conflict – SAF offensives and partial territorial gains."
+    },
+    {
+      "evidence": "The RSF retains control over significant territories, particularly in Darfur and peripheral regions, and continues to launch fierce counterattacks.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general qualitative assessment about territorial control and counterattacks by RSF without citing specific ACLED event counts, locations, fatalities, or actor-level event data. It reads as geopolitical analysis rather than detail tied to ACLED event records or metrics.",
+      "source_context": "Ongoing Conflict – RSF-held areas and combat dynamics."
+    },
+    {
+      "evidence": "Both SAF and RSF have attacked civilian areas: SAF through indiscriminate airstrikes in densely populated districts, and RSF through sieges and assaults such as in El Fasher.",
+      "is_acled_data": true,
+      "reasoning": "The statement references specific conflict behaviors by SAF and RSF targeting civilians (indiscriminate airstrikes, sieges/assaults in El Fasher), which aligns with ACLED event descriptions and violence against civilians/battle data tied to locations and actors. While generic wording, it matches the type of actor-level, location-specific event reporting ACLED provides.",
+      "source_context": "Ongoing Conflict – conduct of hostilities and civilian harm."
+    },
+    {
+      "evidence": "Neither side is willing to compromise or accept a power-sharing arrangement, believing they can win by force.",
+      "is_acled_data": false,
+      "reasoning": "This is a qualitative political assessment about willingness to compromise and power-sharing, not a data point derived from ACLED’s event/fatality/actor/location datasets or conflict indices.",
+      "source_context": "Ongoing Conflict – negotiation stances and intransigence."
+    },
+    {
+      "evidence": "Sudan’s war has become a lucrative political marketplace for commanders who profit from illicit trade, reducing incentives to negotiate.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical claim about political economy incentives and illicit trade, not referencing specific conflict event data, counts, locations, or actor/activity metrics from ACLED. It reads as commentary rather than data derived from ACLED event records.",
+      "source_context": "Ongoing Conflict – economic incentives and war profiteering."
+    },
+    {
+      "evidence": "Civilian casualties are in the tens of thousands, with many more injured after 20 months of war.",
+      "is_acled_data": true,
+      "reasoning": "Civilian casualty figures and fatalities from conflict events fall within ACLED’s scope (violence against civilians statistics and fatality counts). The statement provides an aggregate casualty estimate tied to the conflict, which ACLED regularly reports and aggregates over time. While it could also come from other sources, it is consistent with ACLED-derived data.",
+      "source_context": "Humanitarian Catastrophe – casualty estimates."
+    },
+    {
+      "evidence": "Nearly 11 million people are displaced, including over 3 million refugees in neighboring countries, making Sudan the world’s largest displacement crisis.",
+      "is_acled_data": false,
+      "reasoning": "The statement reports overall displacement and refugee figures, which are typically from humanitarian sources like UNHCR/OCHA, not ACLED’s event-based conflict data. It is not tied to ACLED event counts or fatalities and is characteristic of humanitarian statistics.",
+      "source_context": "Humanitarian Catastrophe – displacement scale."
+    },
+    {
+      "evidence": "Over 25 million Sudanese—more than half the population—require humanitarian assistance.",
+      "is_acled_data": false,
+      "reasoning": "The statistic about 25 million people needing humanitarian assistance is a humanitarian needs figure typically reported by UN agencies (e.g., OCHA) rather than conflict event data. It is not an ACLED event-based metric and is not tied to ACLED datasets.",
+      "source_context": "Humanitarian Catastrophe – scale of aid needs."
+    },
+    {
+      "evidence": "Food insecurity is unprecedented, with farms idle and businesses shuttered; famine was declared in a North Darfur camp in mid-2024 and about 750,000 people are at risk of starvation.",
+      "is_acled_data": false,
+      "reasoning": "The evidence discusses food insecurity, famine declaration, and numbers at risk of starvation—humanitarian statistics typically from UN/OCHA/IPC assessments, not ACLED’s conflict event data. It is not tied to specific conflict events, fatalities, or actor activity attributed to ACLED.",
+      "source_context": "Humanitarian Catastrophe – food insecurity and famine risk."
+    },
+    {
+      "evidence": "Aid delivery is severely hindered by access denials, insecurity, and bureaucratic impediments, leaving only a fraction of needed aid reaching people.",
+      "is_acled_data": false,
+      "reasoning": "This statement is a general humanitarian access assessment about aid delivery constraints. It does not reference specific conflict event data, counts, locations, or actor-level activity from ACLED. Such information typically comes from humanitarian agencies (e.g., OCHA) rather than ACLED’s event-based datasets.",
+      "source_context": "Humanitarian Catastrophe – barriers to humanitarian access."
+    },
+    {
+      "evidence": "Widespread human rights abuses include extensive sexual violence, largely by RSF in occupied areas, with documented cases of rape, sexual slavery, and forced marriage in Al Jazirah state.",
+      "is_acled_data": false,
+      "reasoning": "The evidence describes human rights abuses and specific types of violence (rape, sexual slavery, forced marriage) in a general narrative form. While ACLED tracks violence against civilians and event data, this statement does not cite event counts, dates, or ACLED-specific actor/event records, and reads more like a human rights reporting summary rather than ACLED-derived event data.",
+      "source_context": "Humanitarian Catastrophe – atrocities and sexual violence."
+    },
+    {
+      "evidence": "Targeted killings and ethnic violence are prevalent, especially in Darfur; an RSF attack in Al Jazirah in late 2024 reportedly killed over 120 people.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific conflict events and fatalities (targeted killings, ethnic violence in Darfur; an RSF attack in Al Jazirah killing over 120 in late 2024). Such event descriptions, locations, actor involvement, and fatality figures align with ACLED’s event-based data and violence against civilians statistics. While not explicitly attributed, the content matches typical ACLED outputs.",
+      "source_context": "Humanitarian Catastrophe – targeted violence and specific incidents."
+    },
+    {
+      "evidence": "Both SAF and RSF are responsible for grave violations of international humanitarian law, causing deliberate or indiscriminate harm to civilians.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general assessment about violations of IHL by SAF and RSF, not tied to specific ACLED event data, counts, locations, or actor-level statistics. It reads as analytical commentary rather than an insight explicitly derived from ACLED datasets.",
+      "source_context": "Humanitarian Catastrophe – legal and ethical violations."
+    },
+    {
+      "evidence": "The UN characterizes Sudan’s crisis as a nightmare and warns suffering will deepen without a halt to hostilities.",
+      "is_acled_data": false,
+      "reasoning": "This is a UN characterization and warning about the crisis, a policy/statement-level assessment, not conflict event data, statistics, or analysis derived from ACLED.",
+      "source_context": "Humanitarian Catastrophe – UN assessment of crisis severity."
+    },
+    {
+      "evidence": "External actors have fueled the conflict by supplying weapons, funds, and political backing to both sides, complicating peacemaking.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical claim about external actors supplying support; it does not reference specific ACLED event data, counts, locations, or actor-level entries. It’s geopolitical commentary not tied to ACLED-attributed event evidence.",
+      "source_context": "International Involvement – foreign support and its effects."
+    },
+    {
+      "evidence": "Russia and Iran have strategic interests in Sudan’s Red Sea ports, while Egypt, Ethiopia, South Sudan, and Gulf states (UAE, Saudi Arabia, Qatar) have competing agendas.",
+      "is_acled_data": false,
+      "reasoning": "This is general geopolitical analysis about foreign actors’ interests and agendas in Sudan, not specific conflict event data or metrics attributed to ACLED.",
+      "source_context": "International Involvement – external stakeholders and interests."
+    },
+    {
+      "evidence": "Foreign arms and supplies from purported allies enable the conflict to continue, undermining unified international pressure.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical claim about foreign arms enabling conflict and lacks specific event counts, actor-level entries, locations, or trends tied to ACLED data. It is geopolitical commentary, not derived from ACLED’s event-based datasets.",
+      "source_context": "International Involvement – impact of external resupply."
+    },
+    {
+      "evidence": "Multiple mediation efforts (AU, IGAD, US-Saudi Jeddah talks) achieved only short-lived ceasefires repeatedly violated by both sides.",
+      "is_acled_data": false,
+      "reasoning": "The evidence describes diplomatic mediation efforts and ceasefire negotiations (AU, IGAD, US-Saudi talks) and their outcomes. These are policy/diplomatic actions and general analysis, not specific ACLED event data like incident counts, locations, or actor-level events. Therefore, it is not derived from ACLED data.",
+      "source_context": "Mediation Efforts – history and limited success of ceasefires."
+    },
+    {
+      "evidence": "Late-2024 Geneva talks (US-Switzerland co-sponsored) aimed at a durable ceasefire faced hurdles: SAF’s conditions and RSF’s slow participation highlight a deep trust deficit.",
+      "is_acled_data": false,
+      "reasoning": "The evidence describes diplomatic negotiations (Geneva talks, co-sponsored by US-Switzerland) and parties’ behavior, which falls under policy/diplomatic actions and qualitative analysis, not ACLED’s event-based conflict data or statistics.",
+      "source_context": "Mediation Efforts – Geneva process challenges."
+    },
+    {
+      "evidence": "The UN appointed Special Envoy Ramtane Lamamra to pursue proximity talks and promote local ceasefires to build confidence.",
+      "is_acled_data": false,
+      "reasoning": "The statement about the UN appointing Special Envoy Ramtane Lamamra and his mandate for proximity talks and local ceasefires is a diplomatic/policy action, not conflict event data. It is not an ACLED event count, fatality figure, actor activity, or trend derived from ACLED, nor is it attributed to ACLED.",
+      "source_context": "Mediation Efforts – UN role and mechanisms."
+    },
+    {
+      "evidence": "No comprehensive peace process is underway; the UN Security Council is divided, with vetoes hampering decisive action.",
+      "is_acled_data": false,
+      "reasoning": "The statement concerns diplomatic dynamics at the UN Security Council and the absence of a peace process, which are policy/political assessments rather than conflict event data. ACLED focuses on event-based conflict data (events, fatalities, actors, locations), not UNSC veto dynamics or peace process status.",
+      "source_context": "Mediation Efforts – absence of comprehensive process and UNSC divisions."
+    },
+    {
+      "evidence": "Diplomats agree a negotiated political solution is the only viable path, requiring coordinated pressure on parties and on external suppliers of arms.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a diplomatic/policy analysis about the need for a negotiated solution and coordinated pressure, not specific conflict event data, statistics, or trends attributed to ACLED.",
+      "source_context": "Mediation Efforts – consensus on negotiated solution and need for coordination."
+    },
+    {
+      "evidence": "Prospects for a swift end in 2025 are bleak; neither side can secure total victory soon, and both resist concessions, risking a prolonged war.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical assessment about conflict prospects and willingness to concede, not tied to specific ACLED event counts, fatalities, locations, or actor-level data. It lacks explicit ACLED attribution or use of ACLED-derived metrics.",
+      "source_context": "Outlook 2025 – assessment of near-term prospects."
+    },
+    {
+      "evidence": "Analysts warn of a potential de facto partition: SAF controlling Khartoum and central regions, RSF entrenched in Darfur, mirroring Libya-like fragmentation.",
+      "is_acled_data": false,
+      "reasoning": "This is a forward-looking analytical assessment about potential territorial control and political fragmentation, not a citation of specific conflict events, counts, fatalities, or actor-level event data. It is general geopolitical analysis rather than data explicitly tied to ACLED.",
+      "source_context": "Outlook 2025 – partition scenario and implications."
+    },
+    {
+      "evidence": "A fractured or failed Sudan would export insecurity to neighbors like Chad, South Sudan, and the Central African Republic.",
+      "is_acled_data": false,
+      "reasoning": "This is a general geopolitical assessment about potential spillover effects, not citing specific ACLED event data, counts, locations, or actor-level statistics. It is commentary rather than derived from ACLED datasets.",
+      "source_context": "Outlook 2025 – regional spillover risks."
+    },
+    {
+      "evidence": "Time is running out to avert catastrophe; intensified, coordinated international pressure could push parties toward a 2025 ceasefire.",
+      "is_acled_data": false,
+      "reasoning": "This is a normative, forward-looking policy statement about international pressure and a potential 2025 ceasefire. It does not reference specific conflict events, fatalities, actor activity, or ACLED-derived trends; it is general geopolitical analysis rather than ACLED data.",
+      "source_context": "Outlook 2025 – urgency and potential leverage."
+    },
+    {
+      "evidence": "Cutting off external arms and financial lifelines is deemed critical; the conflict cannot be sustained at current intensity without resupply.",
+      "is_acled_data": false,
+      "reasoning": "This is a policy/analytical assertion about cutting external arms and financing, not a reference to specific ACLED event counts, fatalities, actor activity, or trend data. It’s general strategic analysis rather than ACLED-derived statistics or event-based findings.",
+      "source_context": "Outlook 2025 – importance of disrupting external support."
+    },
+    {
+      "evidence": "Calls are growing for a high-level summit uniting AU, neighboring states, Gulf powers, and global actors to freeze fighting and launch a genuine peace process.",
+      "is_acled_data": false,
+      "reasoning": "This is a policy-oriented statement about calls for a diplomatic summit and peace process. It is general geopolitical commentary and not based on specific conflict event data, fatalities, or actor-level metrics from ACLED.",
+      "source_context": "Outlook 2025 – proposed diplomatic initiative."
+    },
+    {
+      "evidence": "Immediate modest steps include localized ceasefires, humanitarian pauses, expanded aid access, and communication channels among lower-tier commanders to build toward negotiations.",
+      "is_acled_data": false,
+      "reasoning": "The evidence describes recommended policy steps and peace process measures (ceasefires, humanitarian pauses, aid access, communication channels) as general analysis, not specific conflict event data or statistics. It is not tied to ACLED event counts, fatalities, locations, or actor-level data.",
+      "source_context": "Outlook 2025 – incremental confidence-building measures."
+    },
+    {
+      "evidence": "A return to civilian-led governance will be long and difficult but hinges on silencing the guns and initiating serious talks.",
+      "is_acled_data": false,
+      "reasoning": "This is a general analytical statement about governance and peace talks, not referencing specific conflict event data, statistics, or actor-level details from ACLED.",
+      "source_context": "Outlook 2025 – path toward political transition."
+    },
+    {
+      "evidence": "Without urgent ceasefire and credible negotiations, the war will persist into 2025, worsening the humanitarian toll and risking a point of no return.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general forward-looking assessment about ceasefire, negotiations, and humanitarian impact. It does not cite event counts, fatalities, actor activity, locations, or trends explicitly derived from ACLED data.",
+      "source_context": "Outlook 2025 – warning of continued conflict and irreversible damage."
+    }
+  ],
+  "insights": [
+    {
+      "insight": "Sudan’s civil war began in April 2023 between the Sudanese Armed Forces (SAF) led by Gen. Abdel Fattah al-Burhan and the Rapid Support Forces (RSF) led by Gen. Mohamed “Hemedti” Dagalo, with no decisive victory by late 2024.",
+      "context": "Ongoing Conflict between Rival Factions – conflict origins, leaders, and stalemate status."
+    },
+    {
+      "insight": "By late 2024, the SAF regained some strategic areas, including parts of greater Khartoum and towns in Sennar and Al Jazira states, though fighting remained intense.",
+      "context": "Ongoing Conflict – SAF offensives and partial territorial gains."
+    },
+    {
+      "insight": "The RSF retains control over significant territories, particularly in Darfur and peripheral regions, and continues to launch fierce counterattacks.",
+      "context": "Ongoing Conflict – RSF-held areas and combat dynamics."
+    },
+    {
+      "insight": "Both SAF and RSF have attacked civilian areas: SAF through indiscriminate airstrikes in densely populated districts, and RSF through sieges and assaults such as in El Fasher.",
+      "context": "Ongoing Conflict – conduct of hostilities and civilian harm."
+    },
+    {
+      "insight": "Neither side is willing to compromise or accept a power-sharing arrangement, believing they can win by force.",
+      "context": "Ongoing Conflict – negotiation stances and intransigence."
+    },
+    {
+      "insight": "Sudan’s war has become a lucrative political marketplace for commanders who profit from illicit trade, reducing incentives to negotiate.",
+      "context": "Ongoing Conflict – economic incentives and war profiteering."
+    },
+    {
+      "insight": "Civilian casualties are in the tens of thousands, with many more injured after 20 months of war.",
+      "context": "Humanitarian Catastrophe – casualty estimates."
+    },
+    {
+      "insight": "Nearly 11 million people are displaced, including over 3 million refugees in neighboring countries, making Sudan the world’s largest displacement crisis.",
+      "context": "Humanitarian Catastrophe – displacement scale."
+    },
+    {
+      "insight": "Over 25 million Sudanese—more than half the population—require humanitarian assistance.",
+      "context": "Humanitarian Catastrophe – scale of aid needs."
+    },
+    {
+      "insight": "Food insecurity is unprecedented, with farms idle and businesses shuttered; famine was declared in a North Darfur camp in mid-2024 and about 750,000 people are at risk of starvation.",
+      "context": "Humanitarian Catastrophe – food insecurity and famine risk."
+    },
+    {
+      "insight": "Aid delivery is severely hindered by access denials, insecurity, and bureaucratic impediments, leaving only a fraction of needed aid reaching people.",
+      "context": "Humanitarian Catastrophe – barriers to humanitarian access."
+    },
+    {
+      "insight": "Widespread human rights abuses include extensive sexual violence, largely by RSF in occupied areas, with documented cases of rape, sexual slavery, and forced marriage in Al Jazirah state.",
+      "context": "Humanitarian Catastrophe – atrocities and sexual violence."
+    },
+    {
+      "insight": "Targeted killings and ethnic violence are prevalent, especially in Darfur; an RSF attack in Al Jazirah in late 2024 reportedly killed over 120 people.",
+      "context": "Humanitarian Catastrophe – targeted violence and specific incidents."
+    },
+    {
+      "insight": "Both SAF and RSF are responsible for grave violations of international humanitarian law, causing deliberate or indiscriminate harm to civilians.",
+      "context": "Humanitarian Catastrophe – legal and ethical violations."
+    },
+    {
+      "insight": "The UN characterizes Sudan’s crisis as a nightmare and warns suffering will deepen without a halt to hostilities.",
+      "context": "Humanitarian Catastrophe – UN assessment of crisis severity."
+    },
+    {
+      "insight": "External actors have fueled the conflict by supplying weapons, funds, and political backing to both sides, complicating peacemaking.",
+      "context": "International Involvement – foreign support and its effects."
+    },
+    {
+      "insight": "Russia and Iran have strategic interests in Sudan’s Red Sea ports, while Egypt, Ethiopia, South Sudan, and Gulf states (UAE, Saudi Arabia, Qatar) have competing agendas.",
+      "context": "International Involvement – external stakeholders and interests."
+    },
+    {
+      "insight": "Foreign arms and supplies from purported allies enable the conflict to continue, undermining unified international pressure.",
+      "context": "International Involvement – impact of external resupply."
+    },
+    {
+      "insight": "Multiple mediation efforts (AU, IGAD, US-Saudi Jeddah talks) achieved only short-lived ceasefires repeatedly violated by both sides.",
+      "context": "Mediation Efforts – history and limited success of ceasefires."
+    },
+    {
+      "insight": "Late-2024 Geneva talks (US-Switzerland co-sponsored) aimed at a durable ceasefire faced hurdles: SAF’s conditions and RSF’s slow participation highlight a deep trust deficit.",
+      "context": "Mediation Efforts – Geneva process challenges."
+    },
+    {
+      "insight": "The UN appointed Special Envoy Ramtane Lamamra to pursue proximity talks and promote local ceasefires to build confidence.",
+      "context": "Mediation Efforts – UN role and mechanisms."
+    },
+    {
+      "insight": "No comprehensive peace process is underway; the UN Security Council is divided, with vetoes hampering decisive action.",
+      "context": "Mediation Efforts – absence of comprehensive process and UNSC divisions."
+    },
+    {
+      "insight": "Diplomats agree a negotiated political solution is the only viable path, requiring coordinated pressure on parties and on external suppliers of arms.",
+      "context": "Mediation Efforts – consensus on negotiated solution and need for coordination."
+    },
+    {
+      "insight": "Prospects for a swift end in 2025 are bleak; neither side can secure total victory soon, and both resist concessions, risking a prolonged war.",
+      "context": "Outlook 2025 – assessment of near-term prospects."
+    },
+    {
+      "insight": "Analysts warn of a potential de facto partition: SAF controlling Khartoum and central regions, RSF entrenched in Darfur, mirroring Libya-like fragmentation.",
+      "context": "Outlook 2025 – partition scenario and implications."
+    },
+    {
+      "insight": "A fractured or failed Sudan would export insecurity to neighbors like Chad, South Sudan, and the Central African Republic.",
+      "context": "Outlook 2025 – regional spillover risks."
+    },
+    {
+      "insight": "Time is running out to avert catastrophe; intensified, coordinated international pressure could push parties toward a 2025 ceasefire.",
+      "context": "Outlook 2025 – urgency and potential leverage."
+    },
+    {
+      "insight": "Cutting off external arms and financial lifelines is deemed critical; the conflict cannot be sustained at current intensity without resupply.",
+      "context": "Outlook 2025 – importance of disrupting external support."
+    },
+    {
+      "insight": "Calls are growing for a high-level summit uniting AU, neighboring states, Gulf powers, and global actors to freeze fighting and launch a genuine peace process.",
+      "context": "Outlook 2025 – proposed diplomatic initiative."
+    },
+    {
+      "insight": "Immediate modest steps include localized ceasefires, humanitarian pauses, expanded aid access, and communication channels among lower-tier commanders to build toward negotiations.",
+      "context": "Outlook 2025 – incremental confidence-building measures."
+    },
+    {
+      "insight": "A return to civilian-led governance will be long and difficult but hinges on silencing the guns and initiating serious talks.",
+      "context": "Outlook 2025 – path toward political transition."
+    },
+    {
+      "insight": "Without urgent ceasefire and credible negotiations, the war will persist into 2025, worsening the humanitarian toll and risking a point of no return.",
+      "context": "Outlook 2025 – warning of continued conflict and irreversible damage."
+    }
+  ],
+  "prompt": "Analyze current state of war in Sudan and peace outlook, as if we are at the end of 2024 heading into 2025."
+}

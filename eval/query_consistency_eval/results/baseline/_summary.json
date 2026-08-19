@@ -1,0 +1,27 @@
+{
+  "set": "baseline",
+  "ids": [
+    1,
+    2,
+    4,
+    8,
+    9,
+    10,
+    11,
+    12,
+    17,
+    18
+  ],
+  "n_applicable": 10,
+  "mean_overall": 0.5492,
+  "per_dimension_means": {
+    "actor_entity": 0.245,
+    "geography": 0.5033,
+    "temporal": 0.8334,
+    "event_taxonomy": 0.5333,
+    "counting_aggregation": 0.5,
+    "population_scope": 0.675
+  },
+  "total_conflicts": 85,
+  "result_changing_conflicts": 81
+}

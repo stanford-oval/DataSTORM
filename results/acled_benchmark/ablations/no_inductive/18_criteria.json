@@ -1,0 +1,143 @@
+{
+  "prompt": "Explores the roles and operations of the Rwanda Defence Force in regional conflicts and their geopolitical significance.",
+  "criteria": [
+    {
+      "name": "Shift to bilateral missions",
+      "description": "Assess the move from primarily multilateral peacekeeping to more bilateral deployments, and how this repositions the force as an alternative security partner on the continent."
+    },
+    {
+      "name": "Unilateral and proxy engagement",
+      "description": "Evaluate the growth of unilateral operations and support to proxy armed groups, and the implications for regional stability and conflict dynamics."
+    },
+    {
+      "name": "Civilian protection tradeoffs",
+      "description": "Examine patterns where deployments suppress some forms of violence while raising risks to civilians through heavy weapon use or proxy warfare."
+    },
+    {
+      "name": "Security–economy nexus",
+      "description": "Analyze how foreign operations align with economic interests, including control over strategic routes and resource areas, and commercial opportunities for domestic firms."
+    },
+    {
+      "name": "Leverage through peacekeeping",
+      "description": "Consider how substantial contributions to multilateral missions provide diplomatic leverage to counter external criticism and influence negotiations."
+    },
+    {
+      "name": "Narratives and justifications",
+      "description": "Review official security rationales used to defend interventions and how these narratives contest or reinforce regional threat perceptions and border histories."
+    },
+    {
+      "name": "Regional power positioning",
+      "description": "Assess how expanded deployments reshape the country’s regional standing, alliances, and tensions with neighboring states and external partners."
+    },
+    {
+      "name": "Host-state partnerships model",
+      "description": "Identify the features of bilateral cooperation with host governments, including integrated security operations and involvement in local governance and economic activity."
+    },
+    {
+      "name": "Impact on conflict trajectories",
+      "description": "Trace how interventions affect the balance of power among armed actors, territorial control, and the longevity or diffusion of insurgencies."
+    },
+    {
+      "name": "International backlash and dependency",
+      "description": "Evaluate the pattern of criticism from traditional partners contrasted with their reliance on the country’s peacekeeping role, creating a push–pull dynamic."
+    },
+    {
+      "name": "Domestic political–military linkages",
+      "description": "Explore connections between the ruling party, military deployments, and affiliated enterprises, and how these shape strategic choices abroad."
+    },
+    {
+      "name": "Information environment and deniability",
+      "description": "Examine trends in plausible deniability versus emerging evidence of involvement, and how information exposure alters diplomatic costs and strategies."
+    },
+    {
+      "name": "Governance influence locally",
+      "description": "Assess indicators of political engineering in intervention areas, such as replacement of local authorities and administrative control via allied groups."
+    },
+    {
+      "name": "Operational effectiveness patterns",
+      "description": "Evaluate the military’s capacity to conduct counter-offensives and stabilize key zones, alongside limitations in preventing abuses by other armed actors."
+    },
+    {
+      "name": "Regional security architecture shifts",
+      "description": "Analyze how withdrawals or failures of traditional security providers open spaces for new actors, and how this force capitalizes on evolving coalitions and mechanisms."
+    }
+  ],
+  "criterion_scores": [
+    {
+      "name": "Shift to bilateral missions",
+      "score": 0.0,
+      "explanation": "The article focuses narrowly on RDF-backed M23 artillery and UAV patterns around the Sake–Mushaki–Kibumba–Goma corridor in North Kivu. It does not discuss Rwanda’s broader deployment posture or a move from multilateral peacekeeping to bilateral missions, nor how this repositions Rwanda as an alternative security partner."
+    },
+    {
+      "name": "Unilateral and proxy engagement",
+      "score": 0.75,
+      "explanation": "The piece repeatedly characterizes the conflict as a proxy artillery fight, with “M23-RDF” noted and semi-overt RDF involvement via stand-off fires. It assesses proxy dynamics and counters by FARDC/SADC, and notes deniability via mentions in notes rather than clean actor fields. However, it does not comprehensively cover broader unilateral operations beyond North Kivu or support to other proxy armed groups across the region, limiting scope."
+    },
+    {
+      "name": "Civilian protection tradeoffs",
+      "score": 0.75,
+      "explanation": "It examines civilian risk hotspots near Goma (Mubambiro, Mugunga, Lac Vert), notes all-civilian fatalities in some shelling events, and explains how artillery suppresses movement and can raise civilian exposure even absent territorial changes. The tradeoff—suppression of certain violence vs elevated civilian risks due to heavy weapons—is addressed, though discussion of proxy warfare’s specific civilian impact beyond artillery is limited."
+    },
+    {
+      "name": "Security–economy nexus",
+      "score": 0.0,
+      "explanation": "No analysis connects the operations to economic interests, strategic routes/resources, or commercial opportunities for Rwandan firms. The corridor is described militarily, not in terms of economic leverage or control."
+    },
+    {
+      "name": "Leverage through peacekeeping",
+      "score": 0.0,
+      "explanation": "The article does not discuss Rwanda’s multilateral peacekeeping contributions or how they provide diplomatic leverage to counter criticism or influence negotiations."
+    },
+    {
+      "name": "Narratives and justifications",
+      "score": 0.5,
+      "explanation": "It briefly contests Kigali’s stated FDLR-focused rationale by highlighting the absence of FDLR co-mentions in strike records, implying a disconnect between official narrative and observed targets. Beyond this, it does not explore broader security rationales or historical border narratives and threat perceptions."
+    },
+    {
+      "name": "Regional power positioning",
+      "score": 0.25,
+      "explanation": "There is limited regional framing: mentions of Burundi spillover tensions and SADC counters, and a note that tensions decouple from strike peaks. However, it does not assess how Rwanda’s deployments reshape alliances, standing, or broader tensions with neighboring states and external partners."
+    },
+    {
+      "name": "Host-state partnerships model",
+      "score": 0.0,
+      "explanation": "No discussion of bilateral cooperation features with host governments, integrated operations, or governance/economic involvement in host states."
+    },
+    {
+      "name": "Impact on conflict trajectories",
+      "score": 0.75,
+      "explanation": "The article traces strike→territory sequences (1–14 day windows), identifies nodes (Sake, Karuba, Shasha), and discusses how fires shape maneuver and territorial flips, as well as localized churn and durability near Goma’s approaches. This provides a solid, data-based account of how interventions affect balance and control, though it is localized and does not extend to insurgency longevity across the wider region."
+    },
+    {
+      "name": "International backlash and dependency",
+      "score": 0.0,
+      "explanation": "No evaluation of criticism from traditional partners versus reliance on Rwanda’s peacekeeping, nor the push–pull dynamic internationally."
+    },
+    {
+      "name": "Domestic political–military linkages",
+      "score": 0.0,
+      "explanation": "No content on connections between the ruling party, deployments, and affiliated enterprises or how these shape strategic choices."
+    },
+    {
+      "name": "Information environment and deniability",
+      "score": 0.75,
+      "explanation": "The piece notes semi-overt, effects-driven proxying with RDF references often appearing in notes rather than structured actor fields, and discusses attribution opacity. It highlights emerging evidence (e.g., reported RDF heavy artillery deployments) and how co-mentions shape interpretation. It does not fully analyze diplomatic cost shifts due to information exposure."
+    },
+    {
+      "name": "Governance influence locally",
+      "score": 0.0,
+      "explanation": "No assessment of political engineering, replacement of local authorities, or administrative control via allied groups."
+    },
+    {
+      "name": "Operational effectiveness patterns",
+      "score": 0.75,
+      "explanation": "It evaluates capacity to conduct counter-offensives via stand-off fires enabling rapid territorial changes, and compares lethality and efficiency between M23/RDF vs FARDC/SADC shelling. It also notes limits, such as inability to prevent civilian harm and opaque attribution. However, prevention of abuses by other armed actors is not deeply examined."
+    },
+    {
+      "name": "Regional security architecture shifts",
+      "score": 0.25,
+      "explanation": "Mentions SADC counters and notes that FARDC/SADC lacked air/drone strikes, but does not analyze broader architecture changes, withdrawals/failures of traditional providers, or how Rwanda capitalizes on evolving coalitions. The scope remains tactical and localized."
+    }
+  ],
+  "overall_score": 0.31666666666666665
+}

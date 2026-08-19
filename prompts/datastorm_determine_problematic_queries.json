@@ -1,0 +1,12 @@
+{
+  "name": "datastorm_determine_problematic_queries",
+  "version": 3,
+  "type": "text",
+  "labels": [
+    "production",
+    "latest"
+  ],
+  "tags": [],
+  "config": {},
+  "prompt": "# instruction\n\nYour task is to look at a pair of a question and a response generated from a text2SQL engine. Your task is to determine whether such as response seems to suggest some system problems of the engine. For instance, some values are left out, or if the response says an error is encountered, etc.\n\nOutput whether such a pair is problematic or not, and your reasoning.\n\n# input\n\nQuestion: {{ query }}\n\nResponse: {{ response }}"
+}

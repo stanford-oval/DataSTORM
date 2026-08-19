@@ -1,0 +1,75 @@
+{
+  "dataset_id": 34,
+  "dataset_path": "data/notebooks/flag-34.json",
+  "metadata": {
+    "category": "Strategic Goal Management",
+    "dataset_description": "This dataset includes 500 simulated entries from the ServiceNow `sn_gf_goal` table, detailing various aspects of organizational goals. Key attributes include goal status, responsible parties, associated departments, start and end dates, and detailed descriptions. The dataset also contains metrics such as priority ranking, percentage completion, and target achievement rate. It primarily focuses on tracking the progress and management of both departmental and individual goals, offering insights into the effectiveness and alignment of these goals with broader organizational strategies. Additionally, the dataset logs updates to each goal, providing a record of modifications and the identities of those making these changes.",
+    "goal": "Analyze the factors (whether time-based or categorical) that influence goal completion rates and evaluate their impact on overall departmental performance.",
+    "header": "Cost Efficiency Goals Analysis (Flag 34)",
+    "role": "Enterprise Performance Analyst"
+  },
+  "predicted_insights": [
+    "IT leads with both the highest completion rate (46.15%) and the smallest shortfall (−1.58 pp), while HR has the lowest completion rate (40.37%) and the largest shortfall (−3.11 pp), showing all departments are on average below target but to varying degrees that likely affect overall performance.",
+    "Goal success improves steadily as priority decreases: from Critical to Low, completion rises by about 46.85 percentage points (22.22% to 69.07%) and the average performance gap improves by ~15.35 points (-9.47 to +5.88), suggesting higher-priority goals likely have more aggressive targets that depress attainment, while lower-priority goals tend to exceed targets.",
+    "Average completion rose from 40.9% in 2024 to 54.0% in 2025 year-to-date (+13.1 pts), spanning a 32.86-pt swing between the 2024-04 low (30.30%) and the 2025-02 peak (63.16%), indicating a notable improvement entering 2025.",
+    "Completion is non-monotonic with duration: mid-long plans (Q3) achieve the highest completion (76.01%), about 6.5 percentage points above shorter-medium plans (Q2 at 69.53%), suggesting moderately longer timelines may support better goal completion than shorter schedules.",
+    "The best-performing planning windows (≈51 and ≈111–134 days) exceed the dataset’s overall average completion (72.8%) by 10–13 percentage points and outperform the 52-day trough by up to ~29 points, suggesting modest shifts in planned duration can materially improve outcomes.",
+    "On average, goals started Apr–Oct have a 45.4% met rate versus 35.7% for Jan–Feb (≈10 percentage points higher), and since most months in Apr–Oct have 40–47 goals, this suggests a real seasonal/planning-cycle uplift in completion rather than sampling noise.",
+    "Cost Reduction leads at 51.64%, which is 21.82 percentage points higher than Efficiency (29.82%), indicating cost-focused goals are markedly more likely to be achieved than efficiency or growth-oriented goals in this dataset.",
+    "Longer-duration goals perform better: the average met rate in Q3–Q4 is 46.4% vs 40.0% in Q1–Q2 (a +6.4 percentage point lift), with an overall quartile range of about 8.1 points (38.4% to 46.46%).",
+    "Low-priority goals consistently outperform higher-priority ones across departments—averaging 78.14% for Low | Cost Reduction, 76.0% for Low | Employee Satisfaction, and 73.33% for Low | Revenue Growth versus near-zero to mid-30s for most Critical combinations—while notable exceptions include Finance’s 100% on High | Customer Satisfaction and IT’s 90.48% on Medium | Cost Reduction.",
+    "On average across departments, goal_met falls from about 0.520 in Q1 to 0.350 in Q4 (≈−0.17), with IT experiencing the steepest decline (−0.308) and HR the smallest (−0.020) and the only case where Q4 exceeds Q3, suggesting higher target tiers are associated with lower completion, especially in IT.",
+    "Three of five departments (Operations, HR, Finance) see met goals taking longer by an average of 10.15 days, while in IT and Marketing met goals are shorter by ~1.51 days, yielding an average absolute gap of 6.69 days—suggesting that longer timelines favor success in Operations/HR, whereas quicker cycles align with success in IT/Marketing.",
+    "Performance peaks late in the period: IT hits 80.0% in 2024-08, Operations reaches 100.0% in 2024-09, and Finance/Marketing peak at 71.43%/63.64% in 2024-10, while HR shows a sharp spike at 87.5% in 2024-04—indicating strong month-to-month variability with notable surges in Aug–Oct 2024."
+  ],
+  "predicted_summary": "Priority level is the strongest differentiator of success, dwarfing cross‑department differences. Departments cluster narrowly at 40–46% goal completion with small average performance gaps (IT 46.15% and −1.58 pp; Marketing 45.36% and −2.14 pp; Finance 44.0% and −1.77 pp; HR 40.37% and −3.11 pp; Operations 40.0% and −2.48 pp), whereas completion rates swing widely by priority: Critical 22.22% (−9.47 pp gap), High 29.61% (−5.45 pp), Medium 52.17% (~0 pp), and Low 69.07% (+5.88 pp). Within departments, most Critical combinations are near 0% while many Low‑priority combinations reach 80–100%, indicating each department’s priority mix is a primary driver of its observed performance.\nHigher target thresholds consistently depress goal completion within departments, pointing to goal stringency as a key factor independent of department. Goal_met rates decline from the lowest to highest target quartiles in Finance (0.520 → 0.520 → 0.400 → 0.320), IT (0.615 → 0.577 → 0.346 → 0.308), Marketing (0.520 → 0.500 → 0.417 → 0.375), and Operations (0.478 → 0.455 → 0.364 → 0.304), with only HR showing a mild Q4 rebound (0.464 → 0.370 → 0.333 → 0.444). The largest drops span ~15–31 percentage points (e.g., IT −30.7 pp; Finance −20.0 pp; Operations −17.4 pp; Marketing −14.5 pp), underscoring a broad negative relationship between higher targets and completion.\nTiming and planning length meaningfully shape outcomes. Timewise, monthly completion hovered 30–51% through 2024, then improved in early 2025 to 63.16% (2025‑02) and 60.00% (2025‑03), with start‑month seasonality showing winter 2024 lows (Jan 34.78%, Feb 36.59%) versus a 2024‑10 high of 53.19%. Planning‑wise, longer durations perform better on average (duration quartiles: Q1 41.6%, Q2 38.4%, Q3 46.46%, Q4 46.34%), with a nonlinear pattern featuring a dip around 52–57 days (~57–59%) and stronger performance around 114–134 days (~83–86%). Departmentally, met goals tended to be longer in Operations (+14.48 days) and HR (+12.34 days) but slightly shorter in IT (−1.96 days) and Marketing (−1.06 days), suggesting the duration–success relationship differs by function.",
+  "score_insights": 0.40191990936496197,
+  "score_insights_dict": [
+    {
+      "gt_insight": "",
+      "pred_insight": "The best-performing planning windows (≈51 and ≈111–134 days) exceed the dataset’s overall average completion (72.8%) by 10–13 percentage points and outperform the 52-day trough by up to ~29 points, suggesting modest shifts in planned duration can materially improve outcomes.",
+      "score": 0.2252198977743051
+    },
+    {
+      "gt_insight": "Tasks initiated in Q4 exhibit higher completion percentages compared to those started in other quarters.",
+      "pred_insight": "On average, goals started Apr–Oct have a 45.4% met rate versus 35.7% for Jan–Feb (≈10 percentage points higher), and since most months in Apr–Oct have 40–47 goals, this suggests a real seasonal/planning-cycle uplift in completion rather than sampling noise.",
+      "score": 0.5576243552982426
+    },
+    {
+      "gt_insight": "There is a dominance of 'Cost Reduction' goals within the Finance department",
+      "pred_insight": "Cost Reduction leads at 51.64%, which is 21.82 percentage points higher than Efficiency (29.82%), indicating cost-focused goals are markedly more likely to be achieved than efficiency or growth-oriented goals in this dataset.",
+      "score": 0.5919869305764128
+    },
+    {
+      "gt_insight": "There is a uniform distribution of goal priorities in the Finance department",
+      "pred_insight": "Low-priority goals consistently outperform higher-priority ones across departments—averaging 78.14% for Low | Cost Reduction, 76.0% for Low | Employee Satisfaction, and 73.33% for Low | Revenue Growth versus near-zero to mid-30s for most Critical combinations—while notable exceptions include Finance’s 100% on High | Customer Satisfaction and IT’s 90.48% on Medium | Cost Reduction.",
+      "score": 0.23284845381088748
+    }
+  ],
+  "score_summary": 0.39973103899618073,
+  "score_insights_Qwen3-30B-A3B-Instruct-2507": 0.5037117149191757,
+  "scores_insights_dict_Qwen3-30B-A3B-Instruct-2507": [
+    {
+      "pred_insight": "On average across departments, goal_met falls from about 0.520 in Q1 to 0.350 in Q4 (≈−0.17), with IT experiencing the steepest decline (−0.308) and HR the smallest (−0.020) and the only case where Q4 exceeds Q3, suggesting higher target tiers are associated with lower completion, especially in IT.",
+      "gt_insight": "",
+      "score": 0.6526729781563554
+    },
+    {
+      "pred_insight": "Longer-duration goals perform better: the average met rate in Q3–Q4 is 46.4% vs 40.0% in Q1–Q2 (a +6.4 percentage point lift), with an overall quartile range of about 8.1 points (38.4% to 46.46%).",
+      "gt_insight": "Tasks initiated in Q4 exhibit higher completion percentages compared to those started in other quarters.",
+      "score": 0.5960351939048067
+    },
+    {
+      "pred_insight": "Cost Reduction leads at 51.64%, which is 21.82 percentage points higher than Efficiency (29.82%), indicating cost-focused goals are markedly more likely to be achieved than efficiency or growth-oriented goals in this dataset.",
+      "gt_insight": "There is a dominance of 'Cost Reduction' goals within the Finance department",
+      "score": 0.5720311260438037
+    },
+    {
+      "pred_insight": "Low-priority goals consistently outperform higher-priority ones across departments—averaging 78.14% for Low | Cost Reduction, 76.0% for Low | Employee Satisfaction, and 73.33% for Low | Revenue Growth versus near-zero to mid-30s for most Critical combinations—while notable exceptions include Finance’s 100% on High | Customer Satisfaction and IT’s 90.48% on Medium | Cost Reduction.",
+      "gt_insight": "There is a uniform distribution of goal priorities in the Finance department",
+      "score": 0.19410756157173698
+    }
+  ],
+  "score_llm_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.13861087277189285,
+  "score_predicted_summary_Qwen3-30B-A3B-Instruct-2507": 0.3260217771671797
+}

@@ -1,0 +1,12 @@
+{
+  "name": "graph_generation_matplotlib",
+  "version": 1,
+  "type": "text",
+  "labels": [
+    "production",
+    "latest"
+  ],
+  "tags": [],
+  "config": {},
+  "prompt": "  You are a data visualization expert. Generate Python code using matplotlib to create a visualization from the provided CSV data.\n\n  CSV File Path: {{csv_file_path}}\n\n  CSV Data:\n  {{csv_snapshot}}\n\n  Requirements:\n  1. Use matplotlib for visualization\n  2. Read the CSV file using pandas: pd.read_csv(\"{{csv_file_path}}\")\n  3. Create an appropriate chart type based on the data (line, bar, scatter, etc.)\n  4. Use plt.figure() to create the figure\n  5. Add a clear title and axis labels\n  6. MUST call plt.show() at the end to display the plot\n  7. Do NOT save the file manually - plt.show() will be intercepted automatically\n  8. Keep the code clean and focused on visualization"
+}

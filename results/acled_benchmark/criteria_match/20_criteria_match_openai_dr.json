@@ -1,0 +1,143 @@
+{
+  "prompt": "Research Defection and violence against civilians in Sudan's al-Jazirah state. Focus on November 2024.",
+  "criteria": [
+    {
+      "name": "Defection-triggered reprisals",
+      "description": "Assess how high-profile defections alter conflict dynamics and prompt punitive violence against associated communities, including patterns of targeted retaliation and intimidation."
+    },
+    {
+      "name": "Violence against civilians surge",
+      "description": "Evaluate changes in the frequency and severity of attacks on civilians, noting spikes, geographic concentration, and common forms such as killings, looting, sexual violence, and sieges."
+    },
+    {
+      "name": "Ethnic targeting patterns",
+      "description": "Identify whether violence aligns with ethnic or community affiliations linked to defectors or armed groups, and how this shapes displacement, victimization, and local tensions."
+    },
+    {
+      "name": "Strategic territorial consolidation",
+      "description": "Analyze how armed actors prioritize and fortify key locations, withdraw from less strategic areas, and use defensive lines to block adversaries’ advances."
+    },
+    {
+      "name": "Horizontal command resilience",
+      "description": "Examine the adaptability of decentralized armed group structures in absorbing defections and reorganizing forces to maintain operational effectiveness."
+    },
+    {
+      "name": "Coordinated offensives impact",
+      "description": "Assess the effects of multi-front offensives on territorial control, supply lines, and the opposing side’s ability to regroup, including push-pull dynamics across adjacent states."
+    },
+    {
+      "name": "Community arming and mobilization",
+      "description": "Evaluate claims and evidence of civilian arming or local mobilization, and how this influences reprisals, security risks, and conflict escalation."
+    },
+    {
+      "name": "Siege and blockade tactics",
+      "description": "Identify the use of sieges and blockades, including restrictions on movement and access to essentials, and their humanitarian consequences for trapped populations."
+    },
+    {
+      "name": "Displacement and humanitarian fallout",
+      "description": "Assess displacement patterns, sheltering behavior, and humanitarian needs arising from intensified violence, including health crises and access to aid."
+    },
+    {
+      "name": "Geography shaping operations",
+      "description": "Analyze how terrain and natural barriers affect maneuverability, defensive positions, and the feasibility of force concentration or counterattacks."
+    },
+    {
+      "name": "Inter-state operational linkages",
+      "description": "Consider how forces link operations across neighboring regions to encircle opponents, secure supply routes, and synchronize advances or withdrawals."
+    },
+    {
+      "name": "Retaliation narratives and justifications",
+      "description": "Examine the narratives used by armed actors to justify attacks on civilians, including accusations of local mobilization, and their role in legitimizing punitive campaigns."
+    },
+    {
+      "name": "Command-and-control disruptions",
+      "description": "Evaluate how leadership changes, defections, or ambushes affect operational cohesion, morale, and subsequent tactical decisions by both sides."
+    },
+    {
+      "name": "Civil-military mediation roles",
+      "description": "Assess the influence of local leaders and civil society in facilitating negotiations, defections, or ceasefires, and the durability of such arrangements under pressure."
+    },
+    {
+      "name": "Prospective axes of advance",
+      "description": "Identify likely future targets and lines of movement based on current force dispositions, recent gains, and strategic priorities of the warring parties."
+    }
+  ],
+  "criterion_scores": [
+    {
+      "name": "Defection-triggered reprisals",
+      "score": 0.95,
+      "explanation": "Clearly links Abu Aqla Kikal’s October 20, 2024 defection to RSF retaliatory mobilization and punitive attacks, including targeting communities associated with his Shukriya tribe. Provides timing and narrative of reprisal dynamics. Minor gap in detailing RSF internal decision-making mechanisms behind reprisals."
+    },
+    {
+      "name": "Violence against civilians surge",
+      "score": 0.95,
+      "explanation": "Extensive detail on spike in attacks late Oct–Nov 2024: massacres (Al-Seriha, Tamboul, Rufaa), killings, looting, arson, rape, abductions, communication cutoffs, human shields, alleged poisoning; cites approximate casualty figures and geographic spread within eastern Al-Jazirah. Could add more granular incident frequency data."
+    },
+    {
+      "name": "Ethnic targeting patterns",
+      "score": 0.8,
+      "explanation": "States RSF targeted communities associated with the defecting commander’s Shukriya tribe and references risk of ethnically motivated violence; compares to Darfur patterns. Lacks deeper exploration of other ethnic/community groups affected, cross-tribal dynamics, and evidence substantiating specific ethnic profiling beyond the Shukriya mention."
+    },
+    {
+      "name": "Strategic territorial consolidation",
+      "score": 0.35,
+      "explanation": "Touches on sieges (Al-Hilaliya) and village overruns but offers limited analysis of armed actors’ prioritization of key towns, withdrawals, defensive lines, or fortification strategies in Al-Jazirah. Mostly focuses on atrocities rather than territorial strategy."
+    },
+    {
+      "name": "Horizontal command resilience",
+      "score": 0.3,
+      "explanation": "Notes RSF mobilized rapidly after defection, implying adaptability, but lacks substantive analysis of decentralized structures, absorption of defections, reorganization, or operational resilience mechanisms on either side."
+    },
+    {
+      "name": "Coordinated offensives impact",
+      "score": 0.25,
+      "explanation": "Minimal discussion of multi-front offensives, supply lines, or push-pull dynamics across adjacent states. Mentions displacement into Gedaref and Kassala but not operational linkages or synchronized advances."
+    },
+    {
+      "name": "Community arming and mobilization",
+      "score": 0.6,
+      "explanation": "References domestic calls to arm citizens and designation of RSF as terrorist organization; implies community self-defense debates. However, limited evidence on actual civilian arming or organized local mobilization actions and their direct impact on reprisals."
+    },
+    {
+      "name": "Siege and blockade tactics",
+      "score": 0.8,
+      "explanation": "Identifies sieges (Al-Hilaliya), use of human shields, communication cutoffs, and alleged poisoning; indicates restrictions and isolation. Could expand on blockade of essentials, movement restrictions over time, and humanitarian access constraints."
+    },
+    {
+      "name": "Displacement and humanitarian fallout",
+      "score": 0.9,
+      "explanation": "Provides displacement figures (~135,000 fled), describes widespread flight, humanitarian alarms from UN officials, mass casualty estimates, sexual violence, and broader emergency context. More detail on sheltering patterns, health crises, and aid access would strengthen."
+    },
+    {
+      "name": "Geography shaping operations",
+      "score": 0.2,
+      "explanation": "Limited analysis of terrain, natural barriers, river networks, or agricultural landscape affecting maneuverability or defenses. Primarily event-driven reporting without geographic operational assessment."
+    },
+    {
+      "name": "Inter-state operational linkages",
+      "score": 0.15,
+      "explanation": "Mentions refugees fleeing to Gedaref and Kassala but does not analyze cross-regional operational linkages, encirclement strategies, or supply route synchronization by armed actors."
+    },
+    {
+      "name": "Retaliation narratives and justifications",
+      "score": 0.6,
+      "explanation": "Attributes RSF violence to retaliation for defection and notes accusations of local mobilization as part of justificatory narratives indirectly. Lacks direct quotes or detailed propaganda framing by RSF/SAF explaining attacks on civilians."
+    },
+    {
+      "name": "Command-and-control disruptions",
+      "score": 0.5,
+      "explanation": "Defection of a prominent commander is described as provoking RSF, indicating potential disruption; however, there is limited analysis of broader leadership changes, morale effects, or tactical shifts within RSF/SAF beyond increased attacks."
+    },
+    {
+      "name": "Civil-military mediation roles",
+      "score": 0.2,
+      "explanation": "Mentions civil society condemnation and advocacy but does not discuss local leaders facilitating negotiations, defections, or ceasefires, nor the durability of such arrangements."
+    },
+    {
+      "name": "Prospective axes of advance",
+      "score": 0.15,
+      "explanation": "Does not identify likely future targets or lines of movement; focuses on past incidents. Minimal forward-looking operational analysis tied to strategic priorities."
+    }
+  ],
+  "overall_score": 0.5133333333333334
+}

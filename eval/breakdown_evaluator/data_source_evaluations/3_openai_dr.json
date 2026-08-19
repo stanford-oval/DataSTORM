@@ -1,0 +1,192 @@
+{
+  "total_insights": 18,
+  "total_classified": 18,
+  "acled_count": 12,
+  "non_acled_count": 6,
+  "pct_acled": 0.6666666666666666,
+  "details": [
+    {
+      "evidence": "Militant Islamist violence in the central Sahel (Burkina Faso, Mali, Niger) has surged, with jihadist-related attacks quadrupling since 2019 to about 2,800 violent events in 2022, roughly double 2021.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific counts and temporal trends of jihadist-related violent events (quadrupling since 2019, ~2,800 events in 2022, double 2021) in Burkina Faso, Mali, and Niger. These are hallmark ACLED metrics (event counts and trend analysis) commonly reported by ACLED for the central Sahel.",
+      "source_context": "Surge in Militant Violence Across the Sahel; citing Africa Center data for 2022 totals and trend since 2019."
+    },
+    {
+      "evidence": "By 2022, nearly two-thirds of militant incidents in the Sahel occurred outside Mali—primarily in Burkina Faso—compared to one-third in 2017, indicating a geographic shift of violence.",
+      "is_acled_data": true,
+      "reasoning": "The statement cites proportions of militant incidents by location and over time in the Sahel (shares in 2017 vs 2022, with Burkina Faso outside Mali). This reflects counts of conflict events and their geographic distribution over time—core ACLED outputs (event counts, subnational/geographic breakdowns, temporal trend analysis).",
+      "source_context": "Surge in Militant Violence Across the Sahel; geographic expansion statistics from Africa Center."
+    },
+    {
+      "evidence": "JNIM (al-Qaeda affiliate) and Islamic State’s Sahel branch (ISGS/IS Sahel Province) are the primary perpetrators of militant violence in the region.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general characterization of main perpetrators and not tied to specific ACLED event counts, locations, or actor-level metrics explicitly attributed to ACLED. It reads as analytical context rather than data derived from ACLED.",
+      "source_context": "Surge in Militant Violence Across the Sahel; identification of main actors from ADF Magazine."
+    },
+    {
+      "evidence": "Overall political violence events in Mali and neighboring countries increased by approximately 46% since 2021, signaling ongoing intensification of conflict.",
+      "is_acled_data": true,
+      "reasoning": "The statement cites a quantitative change in political violence event counts over time across countries, which aligns with ACLED’s event-based conflict trend metrics. Such percentage increases in events since a baseline year are typical of analyses derived from ACLED temporal event data.",
+      "source_context": "Surge in Militant Violence Across the Sahel; ACLED trend referenced by ADF Magazine."
+    },
+    {
+      "evidence": "Burkina Faso became the epicenter of Sahelian jihadist violence by 2022, with widespread attacks across the north and east.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical claim about Burkina Faso being the epicenter by 2022, without citing specific ACLED event counts, locations, temporal trends, or actor-level data. It lacks explicit attribution to ACLED and does not reference concrete event or fatality figures, so it reads as general commentary rather than ACLED-derived data.",
+      "source_context": "Burkina Faso: Epicenter of Jihadist Violence; overview of Burkina’s prominence in 2022."
+    },
+    {
+      "evidence": "Oudalan Province in northern Burkina Faso was projected to suffer over 175 militant attacks in 2022, the highest concentration in the Sahel for a second consecutive year.",
+      "is_acled_data": true,
+      "reasoning": "The statement references a projected count of militant attacks in a specific subnational area (Oudalan Province) for a given year and compares concentration across the Sahel. ACLED provides subnational event counts and trend analyses by location and time; such projections and rankings by attack counts are consistent with ACLED-derived conflict event data and analysis.",
+      "source_context": "Burkina Faso section; Africa Center data on Oudalan Province projections."
+    },
+    {
+      "evidence": "JNIM’s expansion in Burkina Faso, including through Ansaroul Islam, has displaced nearly 2 million people as of late 2022.",
+      "is_acled_data": false,
+      "reasoning": "The statement cites displacement figures (nearly 2 million as of late 2022), which are humanitarian statistics typically from UNHCR/OCHA, not ACLED event data. It is not tied to specific ACLED conflict events or attributed to ACLED.",
+      "source_context": "Burkina Faso section; displacement figures from Africa Center."
+    },
+    {
+      "evidence": "In Burkina Faso in 2022, JNIM-linked violence caused roughly 3,056 fatalities versus about 583 fatalities from Islamic State–related incidents, indicating JNIM’s dominance there.",
+      "is_acled_data": true,
+      "reasoning": "The evidence provides actor-specific fatality counts for JNIM and IS in Burkina Faso in 2022, which aligns with ACLED’s event-based fatality and actor-level data and temporal breakdowns. These figures are typical outputs derived from ACLED’s dataset rather than general commentary.",
+      "source_context": "Burkina Faso section; ACLED fatality comparisons."
+    },
+    {
+      "evidence": "Mali continues to experience high levels of violence from both JNIM and Islamic State factions, with 2022 deaths estimated at 2,625 (JNIM) and 1,211 (IS-affiliated).",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites actor-specific fatality totals (deaths in 2022 attributed to JNIM and IS-affiliated groups), which aligns with ACLED’s actor-level data and fatality counts derived from conflict event records. This type of granular, group-attributed fatality statistic is characteristic of ACLED outputs.",
+      "source_context": "Mali: High Conflict Levels and Jihadist Rivalry; ACLED figures for 2022 fatalities."
+    },
+    {
+      "evidence": "Attacks on civilians in Mali rose by 38% in early 2023, largely due to intensified JNIM operations.",
+      "is_acled_data": true,
+      "reasoning": "Mentions a quantified change (38% rise) in attacks on civilians tied to a specific period and actor (JNIM) in Mali, which aligns with ACLED’s violence against civilians statistics and actor-level, time-bound event trend analysis.",
+      "source_context": "Mali section; ADF Magazine citing ACLED trend into 2023."
+    },
+    {
+      "evidence": "Central Mali (Macina Brigade stronghold) and the Liptako-Gourma tri-border area have seen the worst violence in Mali.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a qualitative assessment about where violence is worst (Central Mali and the Liptako-Gourma area) without citing specific ACLED event counts, fatalities, subnational breakdowns, or explicit attribution to ACLED. It reads as general analysis rather than data derived from ACLED.",
+      "source_context": "Mali section; geographic hotspots noted."
+    },
+    {
+      "evidence": "JNIM and the Islamic State’s Sahel branch fought each other intensely in 2022–2023 in Mali, causing hundreds of fighter deaths on each side and harming civilians.",
+      "is_acled_data": true,
+      "reasoning": "The statement describes inter-group fighting between JNIM and IS Sahel in Mali during 2022–2023, referencing intensity, fatalities among fighters, and harm to civilians. These elements align with ACLED’s event-based data (battle events, actor-level activity, temporal framing, and fatality counts/violence against civilians). While exact figures aren’t provided, the claim is characteristic of insights derived from ACLED conflict event and casualty data.",
+      "source_context": "Mali section; ADF Magazine on inter-jihadist clashes and civilian impact."
+    },
+    {
+      "evidence": "By late 2023, JNIM and IS Sahel reportedly agreed to a temporary non-aggression pact in Mali, reducing direct battles but not attacks on state forces and communities.",
+      "is_acled_data": false,
+      "reasoning": "The statement describes a reported non-aggression pact and its effects on conflict dynamics, which is more a qualitative geopolitical claim than a specific ACLED-derived event metric. It is not presenting counts, fatalities, locations, or actor-event data explicitly attributed to ACLED. While ACLED tracks battles and interactions, the existence of a pact and its impact is analysis likely from media or think-tank sources unless explicitly tied to ACLED event trends.",
+      "source_context": "Mali section; ADF Magazine on tactical shift between groups."
+    },
+    {
+      "evidence": "Niger’s insurgency is lower intensity than its neighbors but rising in the west, with about 174 jihadist attacks in Tillabéri and Tahoua in 2022 (~10% increase from 2021).",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific counts of jihadist attacks by subnational regions (Tillabéri and Tahoua) and year-over-year percentage change, which aligns with ACLED’s event count data and geographic breakdowns commonly used to track insurgent activity trends.",
+      "source_context": "Niger: Lower Intensity, Islamic State Influence; Africa Center attack counts and trend."
+    },
+    {
+      "evidence": "ISGS is the primary militant actor in western Niger’s border areas, while JNIM’s presence is limited to a few districts.",
+      "is_acled_data": true,
+      "reasoning": "The statement identifies primary militant actors by area (ISGS vs. JNIM) in specific subnational zones, which aligns with ACLED’s armed group activity and geographic conflict data derived from event records. This type of actor-by-location dominance assessment is commonly based on ACLED event distributions, even though the sentence itself doesn’t cite figures.",
+      "source_context": "Niger section; Africa Center characterization of group presence."
+    },
+    {
+      "evidence": "Violence against civilians is proportionally higher in Niger, with militants attacking civilians in over half of incidents as villagers resist ISGS extortion and taxation.",
+      "is_acled_data": true,
+      "reasoning": "The claim references proportions of incidents involving violence against civilians and describes patterns of militant attacks and civilian resistance tied to specific actors (ISGS). ACLED provides event-type breakdowns (including violence against civilians) and actor-level data, enabling proportional comparisons by country. Thus, this statement is plausibly derived from ACLED’s event data and statistics.",
+      "source_context": "Niger section; Africa Center on incident composition and drivers."
+    },
+    {
+      "evidence": "In Niger in 2022, Islamic State–linked violence caused approximately 426 deaths, exceeding the roughly 233 deaths from JNIM-related violence.",
+      "is_acled_data": true,
+      "reasoning": "The evidence provides actor-specific fatality counts for a specific country and year (Niger, 2022) comparing IS-linked vs. JNIM-related deaths. Actor-level fatality figures and conflict deaths by group and time are core ACLED outputs derived from event data, fitting ACLED’s armed group activity and fatality counts categories.",
+      "source_context": "Niger section; ACLED fatality comparisons."
+    },
+    {
+      "evidence": "Across the central Sahel, JNIM and IS Sahel are responsible for the majority of militant violence, underpinning the region’s worsening security situation.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical claim about group responsibility and security trends without citing specific event counts, fatalities, locations, or ACLED attribution. It is not clearly derived from ACLED event data.",
+      "source_context": "Sources summary; synthesis from ACLED, Africa Center, and ADF Magazine."
+    }
+  ],
+  "insights": [
+    {
+      "insight": "Militant Islamist violence in the central Sahel (Burkina Faso, Mali, Niger) has surged, with jihadist-related attacks quadrupling since 2019 to about 2,800 violent events in 2022, roughly double 2021.",
+      "context": "Surge in Militant Violence Across the Sahel; citing Africa Center data for 2022 totals and trend since 2019."
+    },
+    {
+      "insight": "By 2022, nearly two-thirds of militant incidents in the Sahel occurred outside Mali—primarily in Burkina Faso—compared to one-third in 2017, indicating a geographic shift of violence.",
+      "context": "Surge in Militant Violence Across the Sahel; geographic expansion statistics from Africa Center."
+    },
+    {
+      "insight": "JNIM (al-Qaeda affiliate) and Islamic State’s Sahel branch (ISGS/IS Sahel Province) are the primary perpetrators of militant violence in the region.",
+      "context": "Surge in Militant Violence Across the Sahel; identification of main actors from ADF Magazine."
+    },
+    {
+      "insight": "Overall political violence events in Mali and neighboring countries increased by approximately 46% since 2021, signaling ongoing intensification of conflict.",
+      "context": "Surge in Militant Violence Across the Sahel; ACLED trend referenced by ADF Magazine."
+    },
+    {
+      "insight": "Burkina Faso became the epicenter of Sahelian jihadist violence by 2022, with widespread attacks across the north and east.",
+      "context": "Burkina Faso: Epicenter of Jihadist Violence; overview of Burkina’s prominence in 2022."
+    },
+    {
+      "insight": "Oudalan Province in northern Burkina Faso was projected to suffer over 175 militant attacks in 2022, the highest concentration in the Sahel for a second consecutive year.",
+      "context": "Burkina Faso section; Africa Center data on Oudalan Province projections."
+    },
+    {
+      "insight": "JNIM’s expansion in Burkina Faso, including through Ansaroul Islam, has displaced nearly 2 million people as of late 2022.",
+      "context": "Burkina Faso section; displacement figures from Africa Center."
+    },
+    {
+      "insight": "In Burkina Faso in 2022, JNIM-linked violence caused roughly 3,056 fatalities versus about 583 fatalities from Islamic State–related incidents, indicating JNIM’s dominance there.",
+      "context": "Burkina Faso section; ACLED fatality comparisons."
+    },
+    {
+      "insight": "Mali continues to experience high levels of violence from both JNIM and Islamic State factions, with 2022 deaths estimated at 2,625 (JNIM) and 1,211 (IS-affiliated).",
+      "context": "Mali: High Conflict Levels and Jihadist Rivalry; ACLED figures for 2022 fatalities."
+    },
+    {
+      "insight": "Attacks on civilians in Mali rose by 38% in early 2023, largely due to intensified JNIM operations.",
+      "context": "Mali section; ADF Magazine citing ACLED trend into 2023."
+    },
+    {
+      "insight": "Central Mali (Macina Brigade stronghold) and the Liptako-Gourma tri-border area have seen the worst violence in Mali.",
+      "context": "Mali section; geographic hotspots noted."
+    },
+    {
+      "insight": "JNIM and the Islamic State’s Sahel branch fought each other intensely in 2022–2023 in Mali, causing hundreds of fighter deaths on each side and harming civilians.",
+      "context": "Mali section; ADF Magazine on inter-jihadist clashes and civilian impact."
+    },
+    {
+      "insight": "By late 2023, JNIM and IS Sahel reportedly agreed to a temporary non-aggression pact in Mali, reducing direct battles but not attacks on state forces and communities.",
+      "context": "Mali section; ADF Magazine on tactical shift between groups."
+    },
+    {
+      "insight": "Niger’s insurgency is lower intensity than its neighbors but rising in the west, with about 174 jihadist attacks in Tillabéri and Tahoua in 2022 (~10% increase from 2021).",
+      "context": "Niger: Lower Intensity, Islamic State Influence; Africa Center attack counts and trend."
+    },
+    {
+      "insight": "ISGS is the primary militant actor in western Niger’s border areas, while JNIM’s presence is limited to a few districts.",
+      "context": "Niger section; Africa Center characterization of group presence."
+    },
+    {
+      "insight": "Violence against civilians is proportionally higher in Niger, with militants attacking civilians in over half of incidents as villagers resist ISGS extortion and taxation.",
+      "context": "Niger section; Africa Center on incident composition and drivers."
+    },
+    {
+      "insight": "In Niger in 2022, Islamic State–linked violence caused approximately 426 deaths, exceeding the roughly 233 deaths from JNIM-related violence.",
+      "context": "Niger section; ACLED fatality comparisons."
+    },
+    {
+      "insight": "Across the central Sahel, JNIM and IS Sahel are responsible for the majority of militant violence, underpinning the region’s worsening security situation.",
+      "context": "Sources summary; synthesis from ACLED, Africa Center, and ADF Magazine."
+    }
+  ],
+  "prompt": "Analyze levels of violence in Burkina Faso, Mali, and Niger, especially related to JNIM and IS Sahel operations."
+}

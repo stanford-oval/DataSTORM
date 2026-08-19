@@ -1,0 +1,342 @@
+{
+  "total_insights": 33,
+  "total_classified": 33,
+  "acled_count": 20,
+  "non_acled_count": 13,
+  "pct_acled": 0.6060606060606061,
+  "details": [
+    {
+      "evidence": "Momentum in Myanmar’s 2023–2024 war is polycentric, driven by regionally anchored campaigns rather than a unified national offensive or command.",
+      "is_acled_data": false,
+      "reasoning": "This is a qualitative analytical statement about the nature of momentum and command structure in the conflict, not a specific statistic, event count, actor-level dataset, or trend explicitly tied to ACLED event data.",
+      "source_context": "Overview and Key Findings; introduction to split battlefield dynamics."
+    },
+    {
+      "evidence": "Coalition surges decisively tipped contested northern theaters at key moments, notably Operation 1027 in Northern Shan (late 2023) and KIA-led offensives in Kachin (spring 2024).",
+      "is_acled_data": false,
+      "reasoning": "The evidence is a qualitative statement about coalition offensives and timing (Operation 1027, KIA-led offensives) without citing event counts, fatalities, or actor-level entries from ACLED. It reads as general conflict analysis rather than specific ACLED-derived data or metrics.",
+      "source_context": "Key Findings; Two surges section referencing joint-operations spikes and territorial gains [2][3][5][15]."
+    },
+    {
+      "evidence": "The Arakan Army (AA) in Rakhine sustained territorial advances in 2024 with minimal joint operations, demonstrating a dominant-actor model that can generate momentum without coalition support.",
+      "is_acled_data": false,
+      "reasoning": "The statement is analytical, describing strategic dynamics (dominant-actor model, minimal joint operations) and territorial advances without citing specific ACLED event counts, locations, or actor/event data. It reads as general analysis rather than referencing ACLED-derived event statistics or trends.",
+      "source_context": "Key Findings; Rakhine’s solo engine section detailing near-zero joint-ops share alongside high territorial change [2][3][4][16][18][19]."
+    },
+    {
+      "evidence": "High violence in the Dry Zone (Sagaing, Magway, Mandalay) did not translate into territorial change, indicating that activity alone does not produce control shifts without the right theater-specific actor configurations and logistics.",
+      "is_acled_data": false,
+      "reasoning": "The statement offers analytical interpretation about violence not translating into territorial control due to actor configurations and logistics. It does not reference specific ACLED event counts, actor data, fatalities, or subnational event trends, nor is it attributed to ACLED. This is general conflict analysis rather than direct use of ACLED data.",
+      "source_context": "Key Findings; Dry Zone section describing high events, high joint-ops share, but near-zero territorial changes [2][3][19][22]."
+    },
+    {
+      "evidence": "Late 2023 saw a national tilt with November peaking in territorial shifts and resistance-involved violence, but momentum dispersed into region-specific campaigns rather than consolidating into one offensive.",
+      "is_acled_data": true,
+      "reasoning": "The statement references temporal conflict trends (peak in November), territorial shifts, and resistance-involved violence, which align with ACLED’s event counts, battle-related data, and trend analysis derived from event data. It reads as a synthesis of ACLED-style temporal and actor activity patterns rather than general commentary.",
+      "source_context": "Two surges, no single baton section outlining November 2023 surge and subsequent regionalization [1]."
+    },
+    {
+      "evidence": "Northern Shan’s late‑2023 surge featured around one in five violent events tagged as joint operations, coinciding with Operation 1027’s rapid gains.",
+      "is_acled_data": true,
+      "reasoning": "Mentions specific conflict event shares (“one in five violent events”), joint operation tagging, temporal pattern (late-2023 surge), and linkage to a named operation—all consistent with ACLED’s event-level counts, coding of actors/association (joint operations), and trend analysis by time and subnational area (Northern Shan).",
+      "source_context": "Two surges, no single baton section quantifying joint-ops markers in Oct–Nov 2023 [2]."
+    },
+    {
+      "evidence": "Kachin’s spring 2024 campaign combined spikes in violent events and unusually high territorial-change ratios with coalition activity under KIA leadership, reflecting a hybrid surge model.",
+      "is_acled_data": true,
+      "reasoning": "Mentions spikes in violent events, territorial-change ratios, coalition activity under KIA leadership, and a temporal “spring 2024 campaign”—all align with ACLED event counts, battle categories, actor-level activity, geographic/temporal trend analysis. The phrasing suggests analysis derived from ACLED conflict event data and trends rather than general commentary.",
+      "source_context": "Two surges, no single baton section; Kachin’s hybrid pattern March–May 2024 [3][5]."
+    },
+    {
+      "evidence": "Resistance groups are durably anchored regionally: KIA in Kachin, TNLA/MNDAA in Northern Shan, AA in Rakhine, KNU in Kayin, with steep drop-offs outside their cores.",
+      "is_acled_data": false,
+      "reasoning": "This is a qualitative, general assessment of regional anchoring of armed groups (KIA in Kachin, etc.) and their areas of influence, not citing specific ACLED event counts, locations, or actor-level event data. It reads as geopolitical analysis rather than a direct use of ACLED-derived statistics or mappings.",
+      "source_context": "Two surges, no single baton section on regional anchoring [5]."
+    },
+    {
+      "evidence": "Coordination is episodic and theater-contingent: northern breakthroughs align with joint-ops spikes, while Rakhine’s gains occur with minimal collaboration.",
+      "is_acled_data": false,
+      "reasoning": "The statement is an analytical characterization of coordination patterns across theaters, not a citation of specific ACLED event counts, actor data, or temporal metrics. It lacks explicit reference to ACLED-derived event trends or statistics and reads as general strategic analysis.",
+      "source_context": "Two surges, no single baton section summarizing coordination patterns [1][2][4]."
+    },
+    {
+      "evidence": "Coalition surges did not increase the share of violence against civilians; months with higher joint operations showed slightly lower civilian-targeting shares, consistent with battlefield-focused campaigns.",
+      "is_acled_data": true,
+      "reasoning": "The statement discusses changes in the share of violence against civilians relative to overall events during months with more joint operations—metrics that align with ACLED’s event-level data on actor operations, event types (battles vs. violence against civilians), and temporal trend analysis. This kind of proportional analysis of civilian-targeting shares and joint operations is typically derived from ACLED’s coded events and actors.",
+      "source_context": "Two surges, no single baton and Northern sections citing national patterns in early 2024 [6]."
+    },
+    {
+      "evidence": "Across 2024, explosions and remote violence grew as a share of resistance activity, indicating tactical adaptation rather than centralized direction.",
+      "is_acled_data": true,
+      "reasoning": "References a temporal trend in event types (explosions and remote violence as a share of resistance activity in 2024), which aligns with ACLED’s event-type categorization and trend analysis derived from conflict event data.",
+      "source_context": "Two surges, no single baton section on modality shift [7]."
+    },
+    {
+      "evidence": "In Kachin, KIA-linked violent events nearly quadrupled from February (28) to March (99) 2024, and territorial changes jumped from 2 to the mid-30s, then stabilized at 13 in April and 13 in May.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites specific monthly counts of violent events and territorial changes for a specific actor (KIA) and region (Kachin) over specific months in 2024. These are temporal conflict event metrics and subnational actor-level trends characteristic of ACLED’s event data and derived trend analysis.",
+      "source_context": "Coalitions as battering rams section with monthly figures [8][10]."
+    },
+    {
+      "evidence": "Kachin’s March peak recorded roughly 40 territorial changes, about 39 attributed to the KIA, underscoring effective concentration of force at the right window.",
+      "is_acled_data": true,
+      "reasoning": "Mentions counts of territorial changes attributed to a specific armed group (KIA) in a specific time window, reflecting battle-related, actor-level, and temporal event data typical of ACLED’s conflict event records and trend analysis.",
+      "source_context": "Coalitions as battering rams section detailing March tallies [8][9]."
+    },
+    {
+      "evidence": "From March to May 2024 in Kachin, approximately 71%–79% of territorial changes were coalition-tagged, directly linking joint operations to control shifts.",
+      "is_acled_data": false,
+      "reasoning": "The statement refers to percentages of territorial changes and whether they were coalition-tagged, implying territorial control dynamics and coalition labeling rather than counts of discrete conflict events. ACLED tracks events, actors, and trends, not direct measurements of territorial control percentages. Unless explicitly tied to ACLED event data and methodology, territorial change shares are not a standard ACLED output.",
+      "source_context": "Coalitions as battering rams section on coalition-tagged territorial changes [11]."
+    },
+    {
+      "evidence": "Actor-month analysis shows a strong positive association for KIA between higher joint operations and higher territorial changes; theater-level association remains positive after excluding unidentified actors.",
+      "is_acled_data": true,
+      "reasoning": "Mentions actor-month analysis linking joint operations and territorial changes for KIA, implying actor-level, temporal, and theater-level associations derived from coded conflict events; this aligns with ACLED-style event/actor temporal analysis and subnational patterns typical of ACLED-derived studies.",
+      "source_context": "Coalitions as battering rams section on actor/theater associations [12][13]."
+    },
+    {
+      "evidence": "KIA’s partner mix mattered: frequent partners included Kachin PDFs and nationwide PDFs with meaningful territorial-change involvement; infrequent partners like AA had a higher success share within few co-appearances, suggesting quality over frequency can matter.",
+      "is_acled_data": true,
+      "reasoning": "The evidence discusses partner co-appearances, success shares, and territorial-change involvement among armed actors (KIA, PDFs, AA), which aligns with ACLED’s actor-level event data, battle outcomes, and coalition/interaction patterns derived from event records. This type of quantitative partner-frequency and success analysis is characteristic of analyses built from ACLED event datasets.",
+      "source_context": "Coalitions as battering rams section on partner selectivity and outcomes [10][14]."
+    },
+    {
+      "evidence": "Northern Shan’s Operation 1027 phase showed intensive Brotherhood joint actions and double‑digit territorial changes, but in 2024 momentum shifted to TNLA-led advances with fewer multi-member joint ops—coalitions unlocked gains that local actors then extended.",
+      "is_acled_data": false,
+      "reasoning": "The evidence provides qualitative analysis about shifts in coalition operations and territorial changes without citing specific ACLED event counts, locations, or actor-coded events. It reads as analytical commentary rather than explicit ACLED-derived metrics.",
+      "source_context": "Coalitions as battering rams section on transition from coalition-heavy to dominant-actor advances [15]."
+    },
+    {
+      "evidence": "In Rakhine’s peak territorial-change months (Jan, Mar, Apr, May 2024), entries are attributed solely to ULA/AA, with near-zero joint-ops presence despite high lethality and sustained activity.",
+      "is_acled_data": true,
+      "reasoning": "The statement references temporal patterns (specific months in 2024), actor-level attribution (ULA/AA), operational characteristics (joint operations presence), and activity/lethality levels—elements commonly derived from ACLED’s event data and actor attributions. This aligns with ACLED’s battle/event counts, actor coding, and trend analysis by time and location.",
+      "source_context": "Rakhine’s solo engine section summarizing attribution and joint-ops footprint [9][16][17]."
+    },
+    {
+      "evidence": "ULA/AA had the highest violent-activity volume among resistance groups during the Operation 1027 period, yet only about 3% of its appearances were joint operations, indicating a predominantly solo campaign.",
+      "is_acled_data": true,
+      "reasoning": "The claim cites comparative violent-activity volume for a specific actor (ULA/AA) during a defined period and the share of joint operations—metrics that align with ACLED’s actor-level event counts, classifications of event types/battles, and coding of associated actors (joint operations). This is characteristic of analysis derived from ACLED event data and actor co-participation patterns.",
+      "source_context": "Rakhine’s solo engine section quantifying AA’s joint-ops rate [18]."
+    },
+    {
+      "evidence": "AA’s month-to-month correlation between joint operations and territorial change is weakly positive (~0.08), reinforcing that coalition surges were not necessary for its gains.",
+      "is_acled_data": false,
+      "reasoning": "The evidence discusses a statistical correlation between joint operations and territorial change for the AA. ACLED provides event data and trends but does not track territorial control changes or provide correlation analyses of joint operations versus territorial change. This appears to be an analytical metric derived outside ACLED’s standard datasets.",
+      "source_context": "Rakhine’s solo engine actor-month metric [12]."
+    },
+    {
+      "evidence": "Rakhine recorded substantial 2024 territorial-change totals and sustained ratios without any coalition-heavy months, contrasting with Kachin’s coalition-dependent peaks.",
+      "is_acled_data": true,
+      "reasoning": "The statement references subnational conflict trends over time (“2024 territorial-change totals,” “sustained ratios,” “coalition-heavy months,” and contrasts between Rakhine and Kachin), implying temporal and geographic breakdowns of conflict dynamics and actor coalitions. These are characteristic of ACLED-derived event-based trend analysis at the subnational level, likely using ACLED’s event counts and actor/activity classifications to assess territorial change patterns and coalition participation across months.",
+      "source_context": "Rakhine’s solo engine and comparative theater aggregates [19][3]."
+    },
+    {
+      "evidence": "In 2024 high-gain months (10+ territorial shifts), Rakhine’s windows include some joint-tagged changes early in the year, while Kachin’s peaks remain roughly three-quarters coalition-tagged, highlighting different mechanics of advance.",
+      "is_acled_data": false,
+      "reasoning": "The evidence discusses “territorial shifts” and proportions of “joint-tagged” versus “coalition-tagged” changes, which sounds like territorial control dynamics rather than ACLED’s event-based metrics. ACLED tracks events, actors, fatalities, and trends, not quantified territorial change windows; the terminology does not align with standard ACLED categories and no attribution to ACLED is provided.",
+      "source_context": "Rakhine’s solo engine comparison of joint-tagging in peak months [11]."
+    },
+    {
+      "evidence": "Rakhine’s lethality often stemmed from remote violence, especially in late summer 2024, even when overall event counts dipped, indicating modal divergence from northern theaters.",
+      "is_acled_data": true,
+      "reasoning": "The statement references temporal patterns in event counts and emphasizes modality (remote violence) and lethality, which aligns with ACLED categories like explosions/remote violence and fatalities, as well as trend analysis across regions and time. This kind of modal/temporal divergence grounded in event and fatality data is characteristic of ACLED-derived analysis.",
+      "source_context": "Rakhine’s solo engine section on modality and lethality [20]."
+    },
+    {
+      "evidence": "Violence against civilians in Rakhine stayed comparatively limited in share, though May 2024 saw a sharp fatality spike from few incidents.",
+      "is_acled_data": true,
+      "reasoning": "Mentions violence against civilians share and a temporal spike in fatalities in a specific location and month. These are typical ACLED metrics (violence against civilians events and fatality counts over time by region).",
+      "source_context": "Rakhine’s solo engine section noting civilian-targeting patterns [21]."
+    },
+    {
+      "evidence": "The Dry Zone had the nation’s highest violent-event volumes and frequent joint-ops shares (often near 1 in 6 incidents) but typically recorded 0–2 territorial changes per month, with a brief spike to 10 in July 2024 that quickly faded.",
+      "is_acled_data": true,
+      "reasoning": "Mentions subnational event volumes, frequency of joint operations, and monthly counts of territorial changes with a specific spike in July 2024—these are conflict event metrics and temporal patterns typical of ACLED’s event-level data and derived trend analysis.",
+      "source_context": "Where momentum stalls section quantifying Dry Zone activity and control shifts [2][3]."
+    },
+    {
+      "evidence": "In 2024, the Dry Zone posted nine coalition-heavy months by joint-ops share, yielding only 20 territorial-change events with extremely low conversion ratios, indicating that coordination raised activity but not control.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references temporal patterns (2024), geographic subregion (Dry Zone), joint-operations share, counts of territorial-change events, and conversion ratios linking coordination to control—these are event-level, actor-level, and battle/territorial event metrics typical of ACLED-derived analyses of conflict events and trends.",
+      "source_context": "Where momentum stalls section on coalition-heavy months and outcomes [19]."
+    },
+    {
+      "evidence": "Kachin’s coalition windows concentrated 56 territorial changes across six months in 2024, contrasting sharply with the Dry Zone’s low return on coordination and underscoring the importance of logistics and force coherence.",
+      "is_acled_data": false,
+      "reasoning": "The statement discusses “coalition windows,” “territorial changes,” logistics, and coordination efficiency, which reads as analytical framing rather than specific ACLED event metrics. ACLED tracks events, fatalities, actors, locations, and trends, but not a metric like “territorial changes” or “return on coordination.” No explicit attribution to ACLED or use of standard ACLED event categories is present, so this appears to be general analytical insight rather than direct ACLED-derived data.",
+      "source_context": "Where momentum stalls comparative outcomes by region [19]."
+    },
+    {
+      "evidence": "Sagaing and Magway sustained heavy battles without consolidation; Mandalay recorded only two non-zero territorial-change months (one each in July and August 2024).",
+      "is_acled_data": true,
+      "reasoning": "Mentions subnational battle intensity and temporal patterns, including monthly counts of territorial-change events (two non-zero months in Mandalay in July and August 2024). This aligns with ACLED’s battle-related event data, geographic breakdowns, and time-series analysis derived from event records.",
+      "source_context": "Where momentum stalls disaggregated Dry Zone patterns [22]."
+    },
+    {
+      "evidence": "Nationally, resistance mobilization periods (late 2023; spring–summer 2024) align with elevated territorial churn, but joint operations do not reliably predict monthly gains unless fronts are fluid and partners capable.",
+      "is_acled_data": true,
+      "reasoning": "The statement discusses temporal patterns of resistance mobilization and their relationship to territorial change and joint operations effectiveness—topics typically analyzed using ACLED’s event-based battle data, actor activity, and time-series trends. It implies correlations between periods (late 2023; spring–summer 2024) and battlefield outcomes, which align with ACLED-derived temporal and actor-level analyses rather than general commentary.",
+      "source_context": "Where momentum stalls and national synthesis [1][19][3]."
+    },
+    {
+      "evidence": "Battles dominate resistance event types nationally, with explosions and violence against civilians secondary, and activity is overwhelmingly rural—patterns that mirror the Dry Zone’s geography.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references distribution of event types (battles vs. explosions/remote violence vs. violence against civilians) and their geographic pattern (rural, Dry Zone), which aligns with ACLED’s event-type counts and subnational geographic breakdowns. This is characteristic of ACLED-derived analysis of event composition and spatial patterns.",
+      "source_context": "Where momentum stalls section on event-type mix and geography [23][7]."
+    },
+    {
+      "evidence": "Sagaing’s episodic spikes (Nov 2023, Aug 2024) coincide with joint-ops surges and rare territorial changes but lack sustained consolidation, illustrating the limits of episodic coordination.",
+      "is_acled_data": true,
+      "reasoning": "References to specific temporal spikes (Nov 2023, Aug 2024) in a subnational area (Sagaing), linked to joint operations, territorial changes, and the lack of sustained consolidation, reflect conflict event trend analysis and temporal patterns, likely derived from ACLED’s event counts and actor-level battle data at the subnational level.",
+      "source_context": "Where momentum stalls section on Sagaing’s spikes [24]."
+    },
+    {
+      "evidence": "Policy implication: deploy coalition surges as battering rams where fronts are fluid and partners can mass; invest in logistics and governance where dominant local actors can sustain solo momentum.",
+      "is_acled_data": false,
+      "reasoning": "The evidence is a policy recommendation about operational strategy (coalition surges, logistics, governance). It is general analytic guidance and not tied to specific ACLED event data, counts, locations, or actor-level statistics. Therefore it is not derived from ACLED data.",
+      "source_context": "Conclusion section outlining practical lessons from conditional effects of coordination."
+    },
+    {
+      "evidence": "Strategic outlook: the junta’s future setbacks are likely to emerge from concurrent, regionally anchored campaigns intensifying in bursts, not from a single nationwide offensive, making temporal alignment of regional engines more critical than unified command.",
+      "is_acled_data": false,
+      "reasoning": "The evidence is a strategic assessment about future conflict dynamics and command structures, not citing specific ACLED event counts, actor data, fatalities, locations, or temporal trend metrics. It is general analytical commentary rather than data derived from ACLED.",
+      "source_context": "Conclusion emphasizing polycentric advances and timing over centralization."
+    }
+  ],
+  "insights": [
+    {
+      "insight": "Momentum in Myanmar’s 2023–2024 war is polycentric, driven by regionally anchored campaigns rather than a unified national offensive or command.",
+      "context": "Overview and Key Findings; introduction to split battlefield dynamics."
+    },
+    {
+      "insight": "Coalition surges decisively tipped contested northern theaters at key moments, notably Operation 1027 in Northern Shan (late 2023) and KIA-led offensives in Kachin (spring 2024).",
+      "context": "Key Findings; Two surges section referencing joint-operations spikes and territorial gains [2][3][5][15]."
+    },
+    {
+      "insight": "The Arakan Army (AA) in Rakhine sustained territorial advances in 2024 with minimal joint operations, demonstrating a dominant-actor model that can generate momentum without coalition support.",
+      "context": "Key Findings; Rakhine’s solo engine section detailing near-zero joint-ops share alongside high territorial change [2][3][4][16][18][19]."
+    },
+    {
+      "insight": "High violence in the Dry Zone (Sagaing, Magway, Mandalay) did not translate into territorial change, indicating that activity alone does not produce control shifts without the right theater-specific actor configurations and logistics.",
+      "context": "Key Findings; Dry Zone section describing high events, high joint-ops share, but near-zero territorial changes [2][3][19][22]."
+    },
+    {
+      "insight": "Late 2023 saw a national tilt with November peaking in territorial shifts and resistance-involved violence, but momentum dispersed into region-specific campaigns rather than consolidating into one offensive.",
+      "context": "Two surges, no single baton section outlining November 2023 surge and subsequent regionalization [1]."
+    },
+    {
+      "insight": "Northern Shan’s late‑2023 surge featured around one in five violent events tagged as joint operations, coinciding with Operation 1027’s rapid gains.",
+      "context": "Two surges, no single baton section quantifying joint-ops markers in Oct–Nov 2023 [2]."
+    },
+    {
+      "insight": "Kachin’s spring 2024 campaign combined spikes in violent events and unusually high territorial-change ratios with coalition activity under KIA leadership, reflecting a hybrid surge model.",
+      "context": "Two surges, no single baton section; Kachin’s hybrid pattern March–May 2024 [3][5]."
+    },
+    {
+      "insight": "Resistance groups are durably anchored regionally: KIA in Kachin, TNLA/MNDAA in Northern Shan, AA in Rakhine, KNU in Kayin, with steep drop-offs outside their cores.",
+      "context": "Two surges, no single baton section on regional anchoring [5]."
+    },
+    {
+      "insight": "Coordination is episodic and theater-contingent: northern breakthroughs align with joint-ops spikes, while Rakhine’s gains occur with minimal collaboration.",
+      "context": "Two surges, no single baton section summarizing coordination patterns [1][2][4]."
+    },
+    {
+      "insight": "Coalition surges did not increase the share of violence against civilians; months with higher joint operations showed slightly lower civilian-targeting shares, consistent with battlefield-focused campaigns.",
+      "context": "Two surges, no single baton and Northern sections citing national patterns in early 2024 [6]."
+    },
+    {
+      "insight": "Across 2024, explosions and remote violence grew as a share of resistance activity, indicating tactical adaptation rather than centralized direction.",
+      "context": "Two surges, no single baton section on modality shift [7]."
+    },
+    {
+      "insight": "In Kachin, KIA-linked violent events nearly quadrupled from February (28) to March (99) 2024, and territorial changes jumped from 2 to the mid-30s, then stabilized at 13 in April and 13 in May.",
+      "context": "Coalitions as battering rams section with monthly figures [8][10]."
+    },
+    {
+      "insight": "Kachin’s March peak recorded roughly 40 territorial changes, about 39 attributed to the KIA, underscoring effective concentration of force at the right window.",
+      "context": "Coalitions as battering rams section detailing March tallies [8][9]."
+    },
+    {
+      "insight": "From March to May 2024 in Kachin, approximately 71%–79% of territorial changes were coalition-tagged, directly linking joint operations to control shifts.",
+      "context": "Coalitions as battering rams section on coalition-tagged territorial changes [11]."
+    },
+    {
+      "insight": "Actor-month analysis shows a strong positive association for KIA between higher joint operations and higher territorial changes; theater-level association remains positive after excluding unidentified actors.",
+      "context": "Coalitions as battering rams section on actor/theater associations [12][13]."
+    },
+    {
+      "insight": "KIA’s partner mix mattered: frequent partners included Kachin PDFs and nationwide PDFs with meaningful territorial-change involvement; infrequent partners like AA had a higher success share within few co-appearances, suggesting quality over frequency can matter.",
+      "context": "Coalitions as battering rams section on partner selectivity and outcomes [10][14]."
+    },
+    {
+      "insight": "Northern Shan’s Operation 1027 phase showed intensive Brotherhood joint actions and double‑digit territorial changes, but in 2024 momentum shifted to TNLA-led advances with fewer multi-member joint ops—coalitions unlocked gains that local actors then extended.",
+      "context": "Coalitions as battering rams section on transition from coalition-heavy to dominant-actor advances [15]."
+    },
+    {
+      "insight": "In Rakhine’s peak territorial-change months (Jan, Mar, Apr, May 2024), entries are attributed solely to ULA/AA, with near-zero joint-ops presence despite high lethality and sustained activity.",
+      "context": "Rakhine’s solo engine section summarizing attribution and joint-ops footprint [9][16][17]."
+    },
+    {
+      "insight": "ULA/AA had the highest violent-activity volume among resistance groups during the Operation 1027 period, yet only about 3% of its appearances were joint operations, indicating a predominantly solo campaign.",
+      "context": "Rakhine’s solo engine section quantifying AA’s joint-ops rate [18]."
+    },
+    {
+      "insight": "AA’s month-to-month correlation between joint operations and territorial change is weakly positive (~0.08), reinforcing that coalition surges were not necessary for its gains.",
+      "context": "Rakhine’s solo engine actor-month metric [12]."
+    },
+    {
+      "insight": "Rakhine recorded substantial 2024 territorial-change totals and sustained ratios without any coalition-heavy months, contrasting with Kachin’s coalition-dependent peaks.",
+      "context": "Rakhine’s solo engine and comparative theater aggregates [19][3]."
+    },
+    {
+      "insight": "In 2024 high-gain months (10+ territorial shifts), Rakhine’s windows include some joint-tagged changes early in the year, while Kachin’s peaks remain roughly three-quarters coalition-tagged, highlighting different mechanics of advance.",
+      "context": "Rakhine’s solo engine comparison of joint-tagging in peak months [11]."
+    },
+    {
+      "insight": "Rakhine’s lethality often stemmed from remote violence, especially in late summer 2024, even when overall event counts dipped, indicating modal divergence from northern theaters.",
+      "context": "Rakhine’s solo engine section on modality and lethality [20]."
+    },
+    {
+      "insight": "Violence against civilians in Rakhine stayed comparatively limited in share, though May 2024 saw a sharp fatality spike from few incidents.",
+      "context": "Rakhine’s solo engine section noting civilian-targeting patterns [21]."
+    },
+    {
+      "insight": "The Dry Zone had the nation’s highest violent-event volumes and frequent joint-ops shares (often near 1 in 6 incidents) but typically recorded 0–2 territorial changes per month, with a brief spike to 10 in July 2024 that quickly faded.",
+      "context": "Where momentum stalls section quantifying Dry Zone activity and control shifts [2][3]."
+    },
+    {
+      "insight": "In 2024, the Dry Zone posted nine coalition-heavy months by joint-ops share, yielding only 20 territorial-change events with extremely low conversion ratios, indicating that coordination raised activity but not control.",
+      "context": "Where momentum stalls section on coalition-heavy months and outcomes [19]."
+    },
+    {
+      "insight": "Kachin’s coalition windows concentrated 56 territorial changes across six months in 2024, contrasting sharply with the Dry Zone’s low return on coordination and underscoring the importance of logistics and force coherence.",
+      "context": "Where momentum stalls comparative outcomes by region [19]."
+    },
+    {
+      "insight": "Sagaing and Magway sustained heavy battles without consolidation; Mandalay recorded only two non-zero territorial-change months (one each in July and August 2024).",
+      "context": "Where momentum stalls disaggregated Dry Zone patterns [22]."
+    },
+    {
+      "insight": "Nationally, resistance mobilization periods (late 2023; spring–summer 2024) align with elevated territorial churn, but joint operations do not reliably predict monthly gains unless fronts are fluid and partners capable.",
+      "context": "Where momentum stalls and national synthesis [1][19][3]."
+    },
+    {
+      "insight": "Battles dominate resistance event types nationally, with explosions and violence against civilians secondary, and activity is overwhelmingly rural—patterns that mirror the Dry Zone’s geography.",
+      "context": "Where momentum stalls section on event-type mix and geography [23][7]."
+    },
+    {
+      "insight": "Sagaing’s episodic spikes (Nov 2023, Aug 2024) coincide with joint-ops surges and rare territorial changes but lack sustained consolidation, illustrating the limits of episodic coordination.",
+      "context": "Where momentum stalls section on Sagaing’s spikes [24]."
+    },
+    {
+      "insight": "Policy implication: deploy coalition surges as battering rams where fronts are fluid and partners can mass; invest in logistics and governance where dominant local actors can sustain solo momentum.",
+      "context": "Conclusion section outlining practical lessons from conditional effects of coordination."
+    },
+    {
+      "insight": "Strategic outlook: the junta’s future setbacks are likely to emerge from concurrent, regionally anchored campaigns intensifying in bursts, not from a single nationwide offensive, making temporal alignment of regional engines more critical than unified command.",
+      "context": "Conclusion emphasizing polycentric advances and timing over centralization."
+    }
+  ],
+  "prompt": "Research state of resistance groups in Myanmar post 2021 coup: What is the landscape of these groups?"
+}

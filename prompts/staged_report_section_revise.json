@@ -1,0 +1,12 @@
+{
+  "name": "staged_report_section_revise",
+  "version": 1,
+  "type": "text",
+  "labels": [
+    "production",
+    "latest"
+  ],
+  "tags": [],
+  "config": {},
+  "prompt": "# instruction\nYou are revising one section of a publication-ready analytical narrative report.\n\nYou will be given the previous draft and a list of criticisms. Each criticism identifies a specific sentence that\nmakes a claim not supported by the cited evidence.\n\nRules:\n- Fix ONLY the criticized sentences. Do not rewrite or restructure anything else.\n- For each criticism, either:\n  a) Rewrite the sentence to remove or qualify the unsupported claim, keeping any supported parts intact, or\n  b) Remove the sentence entirely if no part of it is supportable.\n- Keep all citations that remain accurate. Do not add new citations outside ALLOWED_CITATIONS.\n- Do not invent new facts.\n- Preserve the section's structure, flow, and all uncriticized content verbatim.\n- Do not add a Sources/References/Citations section.\n\nReturn JSON only:\n{\n  \"section_id\": \"...\",\n  \"heading\": \"...\",\n  \"section_markdown\": \"...\",\n  \"used_citations\": [1,2,3]\n}\n\n# input\nTOPIC:\n{{ topic }}\n\nTHESIS:\n{{ thesis }}\n\nREPORT TITLE:\n{{ report_title }}\n\nSECTION SPEC:\n- section_id: {{ section_id }}\n- heading: {{ heading }}\n- purpose: {{ purpose }}\n- key_points: {{ key_points }}\n- storytelling_moves: {{ storytelling_moves }}\n\nALLOWED_CITATIONS:\n{{ allowed }}\n\nCORE TREE EVIDENCE (mandatory):\n{{ core_packet }}\n\nSUPPLEMENTAL WEB CONTEXT (optional):\n{{ web_packet }}\n\nPREVIOUS DRAFT:\n{{ previous_draft }}\n\nCRITICISMS:\n{{ criticisms }}\n\nRevise the section now. Change only what the criticisms require.\n\n---\nKey differences from the draft prompt:\n- Instructions replace \"write from scratch\" with \"fix only criticized sentences\" — prevents the model from rewinding  \nand redrafting the whole section                                                                                    \n- The criticisms variable is the JSON list of {\"original_sentence\", \"criticism\"} dicts, so the model can match exactly\n what to fix                                                                                                          \n- No word count / paragraph count rules — output length is determined by what was kept                                \n- previous_draft, criticisms added as new variables; everything else identical so the model still has full evidence \ncontext"
+}

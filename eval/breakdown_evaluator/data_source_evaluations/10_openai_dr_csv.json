@@ -1,0 +1,232 @@
+{
+  "total_insights": 22,
+  "total_classified": 22,
+  "acled_count": 4,
+  "non_acled_count": 18,
+  "pct_acled": 0.18181818181818182,
+  "details": [
+    {
+      "evidence": "Militant-related attacks and clashes in Pakistan surged in 2024 to the highest levels in many years, resulting in thousands of casualties.",
+      "is_acled_data": true,
+      "reasoning": "The statement references trends in militant-related attacks/clashes and casualties in 2024, which aligns with ACLED’s event counts and fatality figures and their temporal trend analysis. While not explicitly attributed, the content mirrors ACLED data types (event/fatality trends over time).",
+      "source_context": "Surge in Militant Activity Over the Last Year (2024)"
+    },
+    {
+      "evidence": "Suicide bombings and ambushes became alarmingly frequent, exemplified by the late September 2023 Mastung suicide blast that killed 59 and injured over 60.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references a specific conflict event (the Sept. 2023 Mastung suicide blast) with fatalities and injuries, which falls within ACLED’s event-based data (explosions/remote violence, casualty figures, and location-specific incident reporting).",
+      "source_context": "Surge in Militant Activity Over the Last Year (2024)"
+    },
+    {
+      "evidence": "Militant targets included security forces, government officials, and civilians, indicating a broad threat spectrum.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general characterization of militant targeting patterns without citing specific event counts, actor data, or ACLED-derived metrics. It reads as broad analysis rather than a reference to ACLED event data or statistics.",
+      "source_context": "Surge in Militant Activity Over the Last Year (2024)"
+    },
+    {
+      "evidence": "Militants extended attacks to foreign interests, such as the August 2023 attack on a convoy of Chinese engineers in Gwadar.",
+      "is_acled_data": true,
+      "reasoning": "The evidence references a specific militant attack event (August 2023 convoy of Chinese engineers in Gwadar). ACLED catalogs such incidents with actor details, dates, and locations; thus this type of event-based detail is consistent with ACLED event data.",
+      "source_context": "Surge in Militant Activity Over the Last Year (2024)"
+    },
+    {
+      "evidence": "Tehrik-e-Taliban Pakistan (TTP) was the most active group in 2024, conducting numerous attacks especially in Khyber Pakhtunkhwa and Balochistan.",
+      "is_acled_data": true,
+      "reasoning": "The statement identifies the most active armed group in 2024 and specifies subnational hotspots (Khyber Pakhtunkhwa, Balochistan), which aligns with ACLED’s actor-level activity, event counts, and geographic breakdowns. This is typical of insights derived from ACLED event data and trend analysis, even though no figures are provided.",
+      "source_context": "Tehrik-e-Taliban Pakistan (TTP) section"
+    },
+    {
+      "evidence": "Following the collapse of a ceasefire in late 2022, the TTP intensified attacks on police posts, military convoys, and state targets across northwestern Pakistan.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical claim about TTP activity post-ceasefire without citing specific ACLED event counts, locations, fatalities, or actor-coded events. It lacks explicit attribution to ACLED or concrete event data, so it reads as general commentary rather than ACLED-derived data.",
+      "source_context": "Tehrik-e-Taliban Pakistan (TTP) section"
+    },
+    {
+      "evidence": "Islamic State Khorasan (ISKP), though smaller, executed high-casualty attacks—often suicide blasts—targeting civilians and minorities, and maintained activity in Balochistan.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical summary about ISKP tactics, targets, and presence in Balochistan without citing specific ACLED event counts, fatalities, locations, or actor-coded events. It lacks explicit attribution to ACLED or concrete event data typical of ACLED outputs.",
+      "source_context": "Islamic State Khorasan (ISKP) section"
+    },
+    {
+      "evidence": "Pakistani forces recently killed a prominent Islamic State commander in Balochistan, indicating ongoing counter-IS operations amid ISKP’s expansion efforts.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general claim about a recent killing of an IS commander and ongoing operations, without specific ACLED event counts, locations, dates, or explicit attribution to ACLED event data. It appears as media-style reporting/analysis rather than ACLED-derived data.",
+      "source_context": "Islamic State Khorasan (ISKP) section"
+    },
+    {
+      "evidence": "Baloch separatist groups like the BLA continued a long-running insurgency, frequently attacking security personnel and state symbols, and targeting foreign economic projects.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general qualitative description of Baloch separatist activity and targeting patterns without specific event counts, dates, locations, or attribution to ACLED data. It reads as analytical context rather than a direct use of ACLED event or actor-level data.",
+      "source_context": "Baloch Separatist Groups section"
+    },
+    {
+      "evidence": "The Gwadar attack on Chinese workers exemplifies Baloch separatists’ focus on deterring foreign projects and striking high-profile targets.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a qualitative analytical claim about motivations and targeting (Baloch separatists deterring foreign projects) using an example event. It does not cite specific ACLED event data, counts, locations, casualties, or ACLED attribution; thus it is general analysis rather than ACLED-derived data.",
+      "source_context": "Baloch Separatist Groups section"
+    },
+    {
+      "evidence": "Overall security in Pakistan deteriorated in 2024 as TTP, ISKP, and Baloch insurgents became bolder, creating a delicate security situation in conflict-prone provinces.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical assessment about security deterioration and militant boldness without citing specific event counts, locations, fatalities, or ACLED attributions. It is not tied to concrete ACLED-derived metrics or trend analysis.",
+      "source_context": "End of surge section assessment"
+    },
+    {
+      "evidence": "Despite increased counterterrorism operations, militant networks demonstrated resilience and adaptability in 2024.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a broad analytical claim about resilience and adaptability of militant networks without citing specific event counts, actor-level metrics, fatalities, locations, or ACLED-attributed trends. It reads as general analysis rather than data derived from ACLED event data.",
+      "source_context": "End of surge section assessment"
+    },
+    {
+      "evidence": "In 2025, militant conflict is expected to remain a serious challenge, with Pakistan likely to continue or escalate counter-insurgency operations.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a forward-looking assessment about expected conflict and counter-insurgency operations in 2025. It is general geopolitical analysis and not tied to specific ACLED event data, figures, or trends explicitly attributed to ACLED.",
+      "source_context": "Outlook for 2025 opening"
+    },
+    {
+      "evidence": "Cross-border sanctuaries in Afghanistan and Iran enable militants to strike in Pakistan and retreat, hampering Pakistan’s ability to conduct follow-up operations.",
+      "is_acled_data": false,
+      "reasoning": "The statement is general analytical commentary about cross-border sanctuaries affecting Pakistan’s operations, not a specific event count, fatality figure, actor/event description, or trend explicitly derived from ACLED data.",
+      "source_context": "Cross-border sanctuaries and regional constraints section"
+    },
+    {
+      "evidence": "Without neighboring authorities—especially the Afghan Taliban—constraining groups like the TTP, militants will retain strategic depth to sustain their campaigns.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a geopolitical assessment about neighboring authorities’ influence on militant groups (e.g., Afghan Taliban and TTP) and does not cite or rely on specific ACLED event data, counts, actor activity metrics, or trends. It is general analysis rather than data derived from ACLED.",
+      "source_context": "Cross-border sanctuaries and regional constraints section"
+    },
+    {
+      "evidence": "The diversity of threats—TTP and ISKP in the north and west, and Baloch separatists in the southwest—creates a multifront conflict that strains counterterrorism capacity and complicates attribution.",
+      "is_acled_data": false,
+      "reasoning": "This is a qualitative assessment about the diversity of militant threats and operational challenges; it does not reference specific ACLED event counts, actors with event data, locations, or trends derived from ACLED. It reads as general analysis rather than data explicitly tied to ACLED.",
+      "source_context": "Diversity of militant threats section"
+    },
+    {
+      "evidence": "Political and economic instability in Pakistan could persist into 2025, providing openings for militants to exploit grievances or divert state attention.",
+      "is_acled_data": false,
+      "reasoning": "This is a general forward-looking geopolitical assessment about instability and militant opportunities, not tied to specific ACLED event data, counts, actors, or trends explicitly attributed to ACLED.",
+      "source_context": "Diversity of militant threats section"
+    },
+    {
+      "evidence": "Short-term outlook for 2025 is continued insurgent attacks and counter-operations rather than a decisive resolution.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general forward-looking assessment about 2025 conflict dynamics, not tied to specific ACLED event counts, trends, or actor-level data. It lacks explicit ACLED attribution or reference to concrete ACLED-derived metrics.",
+      "source_context": "Summary outlook section"
+    },
+    {
+      "evidence": "Absent major policy shifts or regional cooperation breakthroughs, TTP and allies are expected to maintain pressure in Khyber Pakhtunkhwa and tribal areas, while Baloch rebels sustain their campaign in the southwest.",
+      "is_acled_data": false,
+      "reasoning": "This is a forward-looking analytical forecast about likely militant pressure and campaigns by TTP and Baloch rebels, not tied to specific ACLED event counts, locations, or actor-level statistics. It is general geopolitical commentary rather than explicit use of ACLED-derived event data or trends.",
+      "source_context": "Summary outlook section"
+    },
+    {
+      "evidence": "Pakistan plans to intensify counterterror efforts, but underlying militant capacities and cross-border safe havens suggest a protracted conflict.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical assessment about policy intentions and militant capabilities/safe havens, not citing specific ACLED event data, counts, fatalities, locations, or ACLED-derived trends. It reads as geopolitical commentary rather than data explicitly tied to ACLED.",
+      "source_context": "Summary outlook section"
+    },
+    {
+      "evidence": "If militants secure stronger footholds in border areas, they could expand their reach and further destabilize the region.",
+      "is_acled_data": false,
+      "reasoning": "This is a speculative analytical statement about potential future militant footholds and regional destabilization, not a reference to specific ACLED event data, counts, locations, or trends.",
+      "source_context": "Summary outlook section"
+    },
+    {
+      "evidence": "Militant-linked conflicts will remain a pressing security concern for Pakistan in 2025 and potentially beyond, requiring sustained attention and strategic responses.",
+      "is_acled_data": false,
+      "reasoning": "The evidence is a general forward-looking assessment about security concerns and needed responses, not citing specific conflict events, counts, fatalities, locations, or ACLED-derived trends. It is geopolitical commentary rather than data grounded in ACLED.",
+      "source_context": "Final summary conclusion"
+    }
+  ],
+  "insights": [
+    {
+      "insight": "Militant-related attacks and clashes in Pakistan surged in 2024 to the highest levels in many years, resulting in thousands of casualties.",
+      "context": "Surge in Militant Activity Over the Last Year (2024)"
+    },
+    {
+      "insight": "Suicide bombings and ambushes became alarmingly frequent, exemplified by the late September 2023 Mastung suicide blast that killed 59 and injured over 60.",
+      "context": "Surge in Militant Activity Over the Last Year (2024)"
+    },
+    {
+      "insight": "Militant targets included security forces, government officials, and civilians, indicating a broad threat spectrum.",
+      "context": "Surge in Militant Activity Over the Last Year (2024)"
+    },
+    {
+      "insight": "Militants extended attacks to foreign interests, such as the August 2023 attack on a convoy of Chinese engineers in Gwadar.",
+      "context": "Surge in Militant Activity Over the Last Year (2024)"
+    },
+    {
+      "insight": "Tehrik-e-Taliban Pakistan (TTP) was the most active group in 2024, conducting numerous attacks especially in Khyber Pakhtunkhwa and Balochistan.",
+      "context": "Tehrik-e-Taliban Pakistan (TTP) section"
+    },
+    {
+      "insight": "Following the collapse of a ceasefire in late 2022, the TTP intensified attacks on police posts, military convoys, and state targets across northwestern Pakistan.",
+      "context": "Tehrik-e-Taliban Pakistan (TTP) section"
+    },
+    {
+      "insight": "Islamic State Khorasan (ISKP), though smaller, executed high-casualty attacks—often suicide blasts—targeting civilians and minorities, and maintained activity in Balochistan.",
+      "context": "Islamic State Khorasan (ISKP) section"
+    },
+    {
+      "insight": "Pakistani forces recently killed a prominent Islamic State commander in Balochistan, indicating ongoing counter-IS operations amid ISKP’s expansion efforts.",
+      "context": "Islamic State Khorasan (ISKP) section"
+    },
+    {
+      "insight": "Baloch separatist groups like the BLA continued a long-running insurgency, frequently attacking security personnel and state symbols, and targeting foreign economic projects.",
+      "context": "Baloch Separatist Groups section"
+    },
+    {
+      "insight": "The Gwadar attack on Chinese workers exemplifies Baloch separatists’ focus on deterring foreign projects and striking high-profile targets.",
+      "context": "Baloch Separatist Groups section"
+    },
+    {
+      "insight": "Overall security in Pakistan deteriorated in 2024 as TTP, ISKP, and Baloch insurgents became bolder, creating a delicate security situation in conflict-prone provinces.",
+      "context": "End of surge section assessment"
+    },
+    {
+      "insight": "Despite increased counterterrorism operations, militant networks demonstrated resilience and adaptability in 2024.",
+      "context": "End of surge section assessment"
+    },
+    {
+      "insight": "In 2025, militant conflict is expected to remain a serious challenge, with Pakistan likely to continue or escalate counter-insurgency operations.",
+      "context": "Outlook for 2025 opening"
+    },
+    {
+      "insight": "Cross-border sanctuaries in Afghanistan and Iran enable militants to strike in Pakistan and retreat, hampering Pakistan’s ability to conduct follow-up operations.",
+      "context": "Cross-border sanctuaries and regional constraints section"
+    },
+    {
+      "insight": "Without neighboring authorities—especially the Afghan Taliban—constraining groups like the TTP, militants will retain strategic depth to sustain their campaigns.",
+      "context": "Cross-border sanctuaries and regional constraints section"
+    },
+    {
+      "insight": "The diversity of threats—TTP and ISKP in the north and west, and Baloch separatists in the southwest—creates a multifront conflict that strains counterterrorism capacity and complicates attribution.",
+      "context": "Diversity of militant threats section"
+    },
+    {
+      "insight": "Political and economic instability in Pakistan could persist into 2025, providing openings for militants to exploit grievances or divert state attention.",
+      "context": "Diversity of militant threats section"
+    },
+    {
+      "insight": "Short-term outlook for 2025 is continued insurgent attacks and counter-operations rather than a decisive resolution.",
+      "context": "Summary outlook section"
+    },
+    {
+      "insight": "Absent major policy shifts or regional cooperation breakthroughs, TTP and allies are expected to maintain pressure in Khyber Pakhtunkhwa and tribal areas, while Baloch rebels sustain their campaign in the southwest.",
+      "context": "Summary outlook section"
+    },
+    {
+      "insight": "Pakistan plans to intensify counterterror efforts, but underlying militant capacities and cross-border safe havens suggest a protracted conflict.",
+      "context": "Summary outlook section"
+    },
+    {
+      "insight": "If militants secure stronger footholds in border areas, they could expand their reach and further destabilize the region.",
+      "context": "Summary outlook section"
+    },
+    {
+      "insight": "Militant-linked conflicts will remain a pressing security concern for Pakistan in 2025 and potentially beyond, requiring sustained attention and strategic responses.",
+      "context": "Final summary conclusion"
+    }
+  ],
+  "prompt": "What are the status of militants in Pakistan over the last year and what would be the outlook for conflicts involving militants in Pakistan going into 2025?"
+}

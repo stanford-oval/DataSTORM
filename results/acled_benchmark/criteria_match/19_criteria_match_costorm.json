@@ -1,0 +1,116 @@
+{
+  "prompt": "Summary of recent events in South West Ethiopia Peoples region and Oromia region, between 23 November 2024 and 3 December 2024",
+  "criteria": [
+    {
+      "name": "Unusual violence patterns",
+      "description": "Assess instances of atypical or rare attacks in generally calmer areas, noting shifts from historical norms and implications for regional stability."
+    },
+    {
+      "name": "Cross-border militia incursions",
+      "description": "Examine reports of armed groups moving across administrative or regional boundaries to conduct attacks, and what this suggests about security gaps and local dynamics."
+    },
+    {
+      "name": "Federal and regional security response",
+      "description": "Evaluate how state forces deploy and intervene after incidents, including measures to prevent further attacks and the effectiveness of stabilization efforts."
+    },
+    {
+      "name": "Fragmentation within insurgent groups",
+      "description": "Analyze splintering, leadership disputes, and factionalization within armed movements and how these affect conflict intensity and negotiation prospects."
+    },
+    {
+      "name": "Credibility of peace initiatives",
+      "description": "Assess peace deals and dialogue claims, comparing official narratives with insurgent statements and on-the-ground conflict trends to gauge the sincerity and impact of agreements."
+    },
+    {
+      "name": "Post-agreement conflict trajectory",
+      "description": "Track whether violence decreases, remains steady, or escalates following peace announcements, highlighting any short-lived lulls or rapid resumption of hostilities."
+    },
+    {
+      "name": "Geographic concentration of violence",
+      "description": "Identify zones or districts with persistently high levels of conflict and civilian targeting, and consider why certain areas remain hotspots over time."
+    },
+    {
+      "name": "Targeting of civilian groups",
+      "description": "Monitor patterns of violence against civilians, including attacks linked to identity or religion, and assess frequency and drivers of such targeting."
+    },
+    {
+      "name": "Government offensive operations",
+      "description": "Review reported security operations against insurgents across multiple zones, considering their scope, timing, and correlation with changes in violence levels."
+    },
+    {
+      "name": "Demonstration and unrest trends",
+      "description": "Observe fluctuations in protests and riots alongside political violence, noting periods of decline or absence and potential links to security operations or negotiations."
+    },
+    {
+      "name": "Media and information environment",
+      "description": "Compare official communications, local reports, and independent media coverage to identify narrative discrepancies and potential propaganda or misinformation."
+    },
+    {
+      "name": "Regional administrative context",
+      "description": "Consider the historical political turbulence and multi-ethnic composition of regions to contextualize current events and explain why some areas remain relatively peaceful."
+    }
+  ],
+  "criterion_scores": [
+    {
+      "name": "Unusual violence patterns",
+      "score": 0.85,
+      "explanation": "The article highlights atypical dynamics: zero‑fatality surrenders in Central Oromia juxtaposed with concentrated lethal incidents in Arsi and the Wellega corridor, and explicitly notes the absence of corroborated ‘rare deadly attack’ in South West Ethiopia Peoples region. It discusses shifts from calmer central zones to peripheral hotspots and implications for stability. Minor gap: could further compare to longer historical baselines for these areas."
+    },
+    {
+      "name": "Cross-border militia incursions",
+      "score": 0.25,
+      "explanation": "While the piece analyzes multi-actor violence (OLA, Fano militias, unidentified groups, state forces) across zones, it does not specifically assess incursions across administrative or regional boundaries. The mention of Horo Gudru Wellega Fano attacking Oromo traders implies cross‑area targeting but not explicit cross‑border movements. Little detail on trans‑admin1 incursions or security gaps at boundaries."
+    },
+    {
+      "name": "Federal and regional security response",
+      "score": 0.7,
+      "explanation": "The article assesses state-aligned demobilization ceremonies, agreements, arrests as ‘strategic developments’ with zero fatalities, and notes ongoing battles with federal forces. It comments on authorities’ pressure to show progress and the limited geographic impact. However, it provides limited evaluation of specific deployments, preventive measures, or effectiveness beyond observed non‑lethal optics and continued violence elsewhere."
+    },
+    {
+      "name": "Fragmentation within insurgent groups",
+      "score": 0.5,
+      "explanation": "It touches on OLA surrenders linked to a ‘Central Oromia Zone command’ and hints at factional dynamics (localized demobilization vs continued operations), and references OLA–Oromia framework skepticism. Yet, detailed analysis of splintering, leadership disputes, or faction identities is limited."
+    },
+    {
+      "name": "Credibility of peace initiatives",
+      "score": 0.85,
+      "explanation": "Strong assessment contrasting publicized surrenders/agreements in North/West Shewa with concurrent high violence elsewhere, arguing peace optics are bounded and do not indicate region‑wide de‑escalation. It also interrogates uncorroborated claims of a ‘rare deadly attack’ and highlights documentation limits. Could further incorporate insurgent statements vs official narratives."
+    },
+    {
+      "name": "Post-agreement conflict trajectory",
+      "score": 0.8,
+      "explanation": "The article tracks timing: agreements on 2–3 December and nearby VAC incidents in North/West Shewa within 1–2 days; shows that violence persists, with spikes around 26–29 November and 28 November. It outlines short-lived or localized lulls vs rapid resumption. Some additional quantitative trend analysis post‑agreements could strengthen it."
+    },
+    {
+      "name": "Geographic concentration of violence",
+      "score": 0.95,
+      "explanation": "Excellent identification of hotspots: Arsi and the Wellega corridor (East, West, Horo Gudru Wellega), with zone‑level distributions, event counts, and fatalities. It contrasts central zones (North/West Shewa) hosting non‑lethal strategic developments with peripheral lethal clusters and explains why optics focus on central areas."
+    },
+    {
+      "name": "Targeting of civilian groups",
+      "score": 0.9,
+      "explanation": "Provides detailed VAC breakdowns: counts, fatalities, locations, perpetrators (OLA, Fano, unidentified, state forces), and specific incidents (Sole Ferekasa, Gobesa, Jawij Migir, Tulu Bolo). Mentions identity-linked targeting (Fano ambush on Oromo traders). Strong frequency and drivers discussion; could further elaborate on religious/other identity dimensions."
+    },
+    {
+      "name": "Government offensive operations",
+      "score": 0.65,
+      "explanation": "References battles between federal forces and OLA, explosive/remote attacks, and state implication in several VAC incidents. However, scope, timing, and coordination of offensive operations across multiple zones are only partially detailed; correlation with violence levels is discussed broadly but not systematically."
+    },
+    {
+      "name": "Demonstration and unrest trends",
+      "score": 0.9,
+      "explanation": "Clearly notes absence of demonstrations in the window and that contention is via political violence, with dataset-backed statements. It links the decline/absence of protests to the active warzone context and peace optics, though causal ties to operations/negotiations are implied rather than deeply analyzed."
+    },
+    {
+      "name": "Media and information environment",
+      "score": 0.85,
+      "explanation": "Compares official peace optics with ACLED data, highlights narrative discrepancies (uncorroborated SWEP 20‑fatality claim), and discusses documentation gaps due to suspension of human‑rights orgs and shrinking civic space. Strong, though it could include more independent media sources for triangulation."
+    },
+    {
+      "name": "Regional administrative context",
+      "score": 0.7,
+      "explanation": "Provides useful context: central vs peripheral zones within Oromia, multi‑ethnic tensions (implied via Fano vs Oromo traders), and national pressures. It briefly situates events within broader conflicts (Amhara) and civic space crackdown. However, historical political turbulence in SWEP is only lightly referenced; more depth on why some areas remain peaceful would improve it."
+    }
+  ],
+  "overall_score": 0.7416666666666667
+}

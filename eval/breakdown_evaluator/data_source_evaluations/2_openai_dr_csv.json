@@ -1,0 +1,242 @@
+{
+  "total_insights": 23,
+  "total_classified": 23,
+  "acled_count": 3,
+  "non_acled_count": 20,
+  "pct_acled": 0.13043478260869565,
+  "details": [
+    {
+      "evidence": "Gustavo Petro launched a “Total Peace” policy in August 2022 to negotiate ceasefires and agreements with all remaining armed groups in Colombia, extending beyond the 2016 FARC accord.",
+      "is_acled_data": false,
+      "reasoning": "The statement describes a government policy announcement (Petro’s launch of “Total Peace” in Aug 2022). This is a policy declaration and general context, not event-level conflict data or analysis derived from ACLED.",
+      "source_context": "Background section describing the policy’s aim and scope."
+    },
+    {
+      "evidence": "The policy targets diverse actors, including ELN guerrillas, FARC dissident factions, and criminal paramilitaries like the Gulf Clan (AGC).",
+      "is_acled_data": false,
+      "reasoning": "This is a general policy description listing targeted armed actors (ELN, FARC dissidents, AGC) rather than citing event counts, fatalities, locations, or actor activity metrics from ACLED. It reflects policy statements/analysis, not specific ACLED-derived data.",
+      "source_context": "Background section outlining the groups included in negotiations."
+    },
+    {
+      "evidence": "During Petro’s first year, direct clashes between state forces and armed insurgents dropped below 100, compared to over 170 in 2021, indicating reduced state–armed group confrontations.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites counts of direct clashes between state forces and armed insurgents by year, which aligns with ACLED’s battle-related event data and actor-level conflict event counts. This is a temporal comparison of specific conflict events (state–armed group confrontations), a typical ACLED metric.",
+      "source_context": "Initial Ceasefires section citing data on clash reductions."
+    },
+    {
+      "evidence": "A bilateral truce with the ELN contributed to the decline in attacks on government forces under ceasefire arrangements.",
+      "is_acled_data": true,
+      "reasoning": "This statement references a decline in attacks on government forces associated with a ceasefire with ELN, which aligns with ACLED’s event-based data on armed group activity, attacks against state forces, and temporal trends during ceasefire periods. ACLED tracks such event counts and trends, making this likely derived from ACLED data if quantified.",
+      "source_context": "Initial Ceasefires section noting the ELN truce’s role."
+    },
+    {
+      "evidence": "Nationwide homicides fell modestly (about 1.5%) during Petro’s first year, suggesting some de-escalation of open hostilities.",
+      "is_acled_data": false,
+      "reasoning": "A nationwide homicide rate change is a national crime statistic, not an ACLED-specific conflict event metric. ACLED tracks conflict events and related fatalities, not overall homicide rates. Unless explicitly attributed to ACLED-derived estimates, this likely comes from government or other crime data sources.",
+      "source_context": "Initial Ceasefires section referencing homicide data."
+    },
+    {
+      "evidence": "Despite fewer clashes with the state, overall violence persisted and shifted, with many armed groups using the lull to strengthen and vie for territory.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a broad analytical claim about persistent and shifting violence and armed groups using a lull to consolidate and contest territory. It does not cite specific event counts, actor-level statistics, locations, fatalities, or trend metrics attributable to ACLED. Without explicit reference to ACLED event data or quantitative trends, it reads as general analysis rather than ACLED-derived insight.",
+      "source_context": "Persistent Violence section explaining changed conflict dynamics."
+    },
+    {
+      "evidence": "Inter-group clashes surged by about 85% in Petro’s first year, reaching the highest levels in a decade.",
+      "is_acled_data": true,
+      "reasoning": "The evidence cites a quantified change in inter-group clashes over time, referencing surge percentage and decade-high levels—metrics typical of ACLED’s battle/event trend data and temporal analysis of conflict events.",
+      "source_context": "Persistent Violence section citing inter-group conflict statistics."
+    },
+    {
+      "evidence": "Rival factions of ELN, FARC dissidents, and the AGC intensified fighting over drug routes and local control as security forces stepped back.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical claim about armed groups intensifying fighting as security forces stepped back, without citing specific ACLED event counts, fatalities, locations, or actor-level event data. It reads as narrative analysis rather than explicit ACLED-derived metrics or trends.",
+      "source_context": "Persistent Violence section on territorial competition."
+    },
+    {
+      "evidence": "Kidnappings rose 77% and extortion about 15% in 2023, marking the highest levels in a decade.",
+      "is_acled_data": false,
+      "reasoning": "Statistics on kidnappings and extortion rates (percentage increases and decade-high levels) are crime metrics likely from governmental or other sources, not ACLED’s conflict event data. ACLED tracks conflict events and violence against civilians, but kidnapping/extortion rate trends framed as general crime statistics are not typically ACLED-derived unless explicitly attributed.",
+      "source_context": "Persistent Violence section detailing crime increases."
+    },
+    {
+      "evidence": "Abuses against civilians—including mass killings, child recruitment, displacement, and threats—remained widespread, with limited results in curbing these abuses so far.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general assessment about widespread abuses and limited progress, without citing specific event counts, actor-level data, locations, or temporal trends from ACLED. It reads as qualitative analysis rather than a metric or figure derived from ACLED event data.",
+      "source_context": "Persistent Violence section citing human rights monitoring."
+    },
+    {
+      "evidence": "Some provinces saw significant homicide increases, with jumps of 50–70% in parts of Cauca, San Andrés, Sucre, and Vaupés.",
+      "is_acled_data": false,
+      "reasoning": "The evidence references homicide rate increases by province, which are general crime statistics rather than ACLED-style conflict event counts or actor/event-based data. ACLED does not provide comprehensive homicide rate changes by province; such figures typically come from national crime statistics or other sources unless explicitly tied to ACLED event data.",
+      "source_context": "Persistent Violence section on regional homicide spikes."
+    },
+    {
+      "evidence": "Armed groups became bolder and more entrenched during the policy’s early phase, continuing violence against each other and communities.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical claim about armed groups becoming bolder and entrenched, without citing specific event counts, actor-level incidents, fatalities, or temporal/geographic patterns from ACLED. It reads as qualitative analysis rather than data explicitly tied to ACLED event metrics.",
+      "source_context": "Persistent Violence section describing empowerment of armed groups."
+    },
+    {
+      "evidence": "Peace talks with the ELN advanced further than in past attempts, producing a ceasefire and a framework for civil society participation.",
+      "is_acled_data": false,
+      "reasoning": "The statement describes progress in peace talks, a ceasefire, and civil society participation—policy/diplomatic developments rather than conflict event data or statistics. ACLED focuses on event-level conflict data (incidents, fatalities, actor activity, locations), not general peace process milestones unless tied to specific events. This evidence is not ACLED-derived.",
+      "source_context": "Outcomes section on negotiation progress with ELN."
+    },
+    {
+      "evidence": "Most armed groups did not disarm, and several ceasefires or talks broke down, indicating limited success in achieving lasting agreements.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general assessment about disarmament and negotiations breaking down, not a reference to specific ACLED event counts, trends, actor activity metrics, or ACLED-attributed data. It reflects qualitative policy outcomes rather than ACLED-style conflict event data.",
+      "source_context": "Outcomes section on failures to secure disarmament."
+    },
+    {
+      "evidence": "The government ended negotiations with the AGC due to ongoing violence, highlighting breakdowns in the Total Peace approach with major actors.",
+      "is_acled_data": false,
+      "reasoning": "This is a policy/process statement about government negotiations with the AGC ending, indicating breakdowns in the Total Peace approach. It is not specific conflict event data, fatalities, or actor-event statistics from ACLED, and pertains to diplomatic/political actions rather than ACLED-coded events.",
+      "source_context": "Outcomes section referencing termination of AGC talks."
+    },
+    {
+      "evidence": "By late 2023, the ELN ceasefire faced reported violations, casting uncertainty on its durability.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general assessment about ceasefire violations and their impact on durability, without citing specific event counts, dates, locations, or actor-level incident data attributable to ACLED. It reads as analytical commentary rather than derived from ACLED’s structured event datasets.",
+      "source_context": "Outcomes section noting ELN ceasefire violations."
+    },
+    {
+      "evidence": "Public opinion turned negative: by mid-2024, 66% believed Total Peace was moving in the wrong direction and 85% felt security was deteriorating.",
+      "is_acled_data": false,
+      "reasoning": "The evidence cites public opinion percentages about perceptions of policy direction and security deterioration, which are survey/attitudinal measures, not conflict event data or ACLED-derived metrics.",
+      "source_context": "Outcomes section reporting poll results."
+    },
+    {
+      "evidence": "Armed groups leveraged negotiations to buy time or expand, complicating the state’s efforts to contain them without derailing peace prospects.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical claim about negotiation dynamics and strategy; it does not reference specific events, counts, locations, fatalities, or actor-level activity from ACLED, nor is it attributed to ACLED data.",
+      "source_context": "Outcomes section analyzing unintended consequences."
+    },
+    {
+      "evidence": "Total Peace reduced state-versus-guerrilla fighting but did not reduce overall armed group violence, which shifted to turf wars and crimes against civilians.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a general analytical claim about shifts in violence patterns under Total Peace; it does not cite specific ACLED event counts, actor-level data, or temporal trends, nor attribute the information to ACLED. It reads as qualitative commentary rather than ACLED-derived metrics.",
+      "source_context": "Conclusion summarizing the paradoxical outcomes."
+    },
+    {
+      "evidence": "Armed actors remain strong while the government limits full military confrontation, reflecting a fragile calm rather than comprehensive peace.",
+      "is_acled_data": false,
+      "reasoning": "The statement is a qualitative assessment about the strength of armed actors and government posture, describing a “fragile calm” without citing specific event counts, fatalities, locations, or actor-level activity tied to ACLED. It reads as general analysis rather than evidence grounded in ACLED event data or indicators.",
+      "source_context": "Conclusion on the balance of power and restraint."
+    },
+    {
+      "evidence": "The policy has not yet delivered peace on the ground for many communities, despite reduced state–insurgent hostilities.",
+      "is_acled_data": false,
+      "reasoning": "This is a general analytical statement about policy outcomes and community-level peace, not tied to specific ACLED event counts, fatalities, or actor/event data. It reflects commentary on reduced hostilities and lack of peace without citing ACLED-derived metrics.",
+      "source_context": "Conclusion highlighting unmet local security outcomes."
+    },
+    {
+      "evidence": "Future breakthroughs depend on ongoing negotiations (especially with the ELN), broader agreements, and effective enforcement to curb violence.",
+      "is_acled_data": false,
+      "reasoning": "This is a general analytical statement about negotiations and policy effectiveness, not citing specific conflict event data, trends, fatalities, or actor-level metrics from ACLED.",
+      "source_context": "Conclusion on conditions for potential progress."
+    },
+    {
+      "evidence": "The mixed results underscore the difficulty of achieving “total” peace amid multiple armed groups competing for power and profits through violence.",
+      "is_acled_data": false,
+      "reasoning": "This is a general analytical statement about the challenges of achieving peace and competition among armed groups; it does not reference specific event counts, actor data, fatalities, locations, or trends attributable to ACLED.",
+      "source_context": "Conclusion emphasizing structural challenges to Total Peace."
+    }
+  ],
+  "insights": [
+    {
+      "insight": "Gustavo Petro launched a “Total Peace” policy in August 2022 to negotiate ceasefires and agreements with all remaining armed groups in Colombia, extending beyond the 2016 FARC accord.",
+      "context": "Background section describing the policy’s aim and scope."
+    },
+    {
+      "insight": "The policy targets diverse actors, including ELN guerrillas, FARC dissident factions, and criminal paramilitaries like the Gulf Clan (AGC).",
+      "context": "Background section outlining the groups included in negotiations."
+    },
+    {
+      "insight": "During Petro’s first year, direct clashes between state forces and armed insurgents dropped below 100, compared to over 170 in 2021, indicating reduced state–armed group confrontations.",
+      "context": "Initial Ceasefires section citing data on clash reductions."
+    },
+    {
+      "insight": "A bilateral truce with the ELN contributed to the decline in attacks on government forces under ceasefire arrangements.",
+      "context": "Initial Ceasefires section noting the ELN truce’s role."
+    },
+    {
+      "insight": "Nationwide homicides fell modestly (about 1.5%) during Petro’s first year, suggesting some de-escalation of open hostilities.",
+      "context": "Initial Ceasefires section referencing homicide data."
+    },
+    {
+      "insight": "Despite fewer clashes with the state, overall violence persisted and shifted, with many armed groups using the lull to strengthen and vie for territory.",
+      "context": "Persistent Violence section explaining changed conflict dynamics."
+    },
+    {
+      "insight": "Inter-group clashes surged by about 85% in Petro’s first year, reaching the highest levels in a decade.",
+      "context": "Persistent Violence section citing inter-group conflict statistics."
+    },
+    {
+      "insight": "Rival factions of ELN, FARC dissidents, and the AGC intensified fighting over drug routes and local control as security forces stepped back.",
+      "context": "Persistent Violence section on territorial competition."
+    },
+    {
+      "insight": "Kidnappings rose 77% and extortion about 15% in 2023, marking the highest levels in a decade.",
+      "context": "Persistent Violence section detailing crime increases."
+    },
+    {
+      "insight": "Abuses against civilians—including mass killings, child recruitment, displacement, and threats—remained widespread, with limited results in curbing these abuses so far.",
+      "context": "Persistent Violence section citing human rights monitoring."
+    },
+    {
+      "insight": "Some provinces saw significant homicide increases, with jumps of 50–70% in parts of Cauca, San Andrés, Sucre, and Vaupés.",
+      "context": "Persistent Violence section on regional homicide spikes."
+    },
+    {
+      "insight": "Armed groups became bolder and more entrenched during the policy’s early phase, continuing violence against each other and communities.",
+      "context": "Persistent Violence section describing empowerment of armed groups."
+    },
+    {
+      "insight": "Peace talks with the ELN advanced further than in past attempts, producing a ceasefire and a framework for civil society participation.",
+      "context": "Outcomes section on negotiation progress with ELN."
+    },
+    {
+      "insight": "Most armed groups did not disarm, and several ceasefires or talks broke down, indicating limited success in achieving lasting agreements.",
+      "context": "Outcomes section on failures to secure disarmament."
+    },
+    {
+      "insight": "The government ended negotiations with the AGC due to ongoing violence, highlighting breakdowns in the Total Peace approach with major actors.",
+      "context": "Outcomes section referencing termination of AGC talks."
+    },
+    {
+      "insight": "By late 2023, the ELN ceasefire faced reported violations, casting uncertainty on its durability.",
+      "context": "Outcomes section noting ELN ceasefire violations."
+    },
+    {
+      "insight": "Public opinion turned negative: by mid-2024, 66% believed Total Peace was moving in the wrong direction and 85% felt security was deteriorating.",
+      "context": "Outcomes section reporting poll results."
+    },
+    {
+      "insight": "Armed groups leveraged negotiations to buy time or expand, complicating the state’s efforts to contain them without derailing peace prospects.",
+      "context": "Outcomes section analyzing unintended consequences."
+    },
+    {
+      "insight": "Total Peace reduced state-versus-guerrilla fighting but did not reduce overall armed group violence, which shifted to turf wars and crimes against civilians.",
+      "context": "Conclusion summarizing the paradoxical outcomes."
+    },
+    {
+      "insight": "Armed actors remain strong while the government limits full military confrontation, reflecting a fragile calm rather than comprehensive peace.",
+      "context": "Conclusion on the balance of power and restraint."
+    },
+    {
+      "insight": "The policy has not yet delivered peace on the ground for many communities, despite reduced state–insurgent hostilities.",
+      "context": "Conclusion highlighting unmet local security outcomes."
+    },
+    {
+      "insight": "Future breakthroughs depend on ongoing negotiations (especially with the ELN), broader agreements, and effective enforcement to curb violence.",
+      "context": "Conclusion on conditions for potential progress."
+    },
+    {
+      "insight": "The mixed results underscore the difficulty of achieving “total” peace amid multiple armed groups competing for power and profits through violence.",
+      "context": "Conclusion emphasizing structural challenges to Total Peace."
+    }
+  ],
+  "prompt": "Analyze Petro’s total peace policy in Colombia and its impact on violence v. armed groups."
+}
